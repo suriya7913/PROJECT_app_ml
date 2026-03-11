@@ -1,0 +1,1081 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/2"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2"/>
+	  <FRBRname value="Tariq Mahmood Malik v Mahboob Hussain Jr &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/2"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/2/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/2/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:13:36" name="transform"/>
+	  <FRBRdate date="2024-11-15T16:42:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="tariq-mahmood-malik" href="" showAs="TARIQ MAHMOOD MALIK"/>
+	<TLCPerson eId="mahboob-hussain-jr" href="" showAs="MAHBOOB HUSSAIN JR"/>
+	<TLCPerson eId="usman-hussain-malik" href="" showAs="USMAN HUSSAIN MALIK"/>
+	<TLCPerson eId="thomas-cunningham" href="" showAs="THOMAS CUNNINGHAM"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-peter-jackson" href="/judge-lord-justice-peter-jackson" showAs="LORD JUSTICE PETER JACKSON"/>
+	<TLCPerson eId="judge-lord-justice-phillips" href="/judge-lord-justice-phillips" showAs="LORD JUSTICE PHILLIPS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2</uk:number>
+	<uk:cite>[2023] EWCA Civ 2</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>9215bd9a7fb54dcb0f1e1ff2ff4cd232e17e322c38c606a46e090a3fbdb43200</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWCA CIV 2</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2021-000080</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS IN MANCHESTER</p>
+      <p class="CoverMain">BUSINESS LIST (Ch D)</p>
+      <p class="CoverMain">HHJ STEPHEN DAVIES</p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">D30MA278</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date:  <docDate date="2023-01-11" refersTo="#judgment">11 January 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-peter-jackson">LORD JUSTICE PETER JACKSON</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-phillips">LORD JUSTICE PHILLIPS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.86in 4.43in 1.08in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#tariq-mahmood-malik" style="font-weight:bold">TARIQ MAHMOOD MALIK</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mahboob-hussain-jr" style="font-weight:bold">(1) MAHBOOB HUSSAIN JR</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#usman-hussain-malik" style="font-weight:bold">(2) USMAN HUSSAIN MALIK</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#thomas-cunningham" style="font-weight:bold">(3) THOMAS CUNNINGHAM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">James Mather and Mark Wraith</span> (instructed by <span style="font-weight:bold">Viceroy Law Ltd</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Lesley Anderson KC and Tina Ranales-Cotos</span></p>
+      <p style="text-align:center">(instructed by<span style="font-weight:bold"> Clarion</span>) for the <span style="font-weight:bold">First</span><span/><span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Patrick Lawrence KC </span>(instructed by<span style="font-weight:bold"> Needle Partners Ltd</span>) for the <span style="font-weight:bold">Second</span><span/><span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">The<span style="font-weight:bold"> Third Respondent </span>did not appear and was not represented </p>
+      <p style="text-align:center">Hearing dates: 4 and 5 July 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 2 pm on Wednesday11 January 2023</p>
+      <p style="text-align:center">by circulation to the parties or their representatives by e-mail </p>
+      <p style="text-align:center">and by release to the National Archives</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Phillips:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second respondent (&#8220;Usman&#8221;) was the successful bidder, pursuant to the operation of a court-ordered sale mechanism (&#8220;the Sale Mechanism&#8221;), for the assets of a dissolved partnership. The partnership was between the appellant (&#8220;Tariq&#8221;) and the first respondent (&#8220;Mahboob&#8221;), together referred to below as &#8220;the Partners&#8221;.<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span/>In referring to the parties by their first names<span/>I have adopted the same course as the Judge and, indeed, the parties themselves. No disrespect is intended by this convention.<span/></p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Usman&#8217;s bid was &#163;4,300,000 for the partnership&#8217;s interest in the Royal Nawaab Manchester restaurant (&#8220;the Restaurant&#8221;), namely, the freehold interest in the Restaurant&#8217;s premises at 1008 Stockport Road, Levenshulme, Manchester (&#8220;the Property&#8221;) and 50% of the issued shares in the company that ran the business, RN Restaurant (Stockport) Ltd. (&#8220;the Company&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On Monday 27 September 2021, pursuant to the Sale Mechanism, Usman paid a 10% deposit (&#163;430,000), whereupon he became required to exchange contracts with Tariq and Mahboob within 7 days, namely, by 4pm on 4 October 2021. The Sale Mechanism provided that if Usman failed to exchange, the deposit would be forfeit and (as there was no other valid bid apart from Mahboob&#8217;s own lower bid) Mahboob would be entitled to purchase the partnership assets at the specified reserve price of &#163;3,250,000. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was not until 1.21pm on 4 October 2021 (about 2.5 hours before the deadline for exchange of contracts) that drafts of the Property sale contract and the sale and purchase contract (&#8220;the SPA&#8221;), agreed between the Partners, were sent to Usman&#8217;s solicitors, Buckles. Buckles responded at 2.54pm with proposed amendments to the SPA, but contracts were not exchanged by the contractual deadline of 4pm. Indeed, by that time neither side had executed their parts of the contracts, let alone offered to exchange. At 5.04pm that afternoon Mahboob&#8217;s solicitors asserted that the time for exchange had been and gone and that no extension of time would be granted. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The following day Tariq applied for declarations that, on a true construction of the Sale Mechanism: (i) a successful bidder who had paid the required deposit but had not exchanged contracts within 7 days was not to have their bid treated as invalid and the deposit forfeited, as no contracts in a form which it was possible to exchange had been provided to the bidder; and/or (ii) a successful bidder was to be afforded a reasonable time (namely 7 days) following the provision of contracts in a form which it is possible to exchange to effect such exchange. Tariq consequentially sought further declarations that Usman&#8217;s bid had not become invalid at 4pm on Monday 4 October 2021, that his deposit had not been forfeited and that he had a further period of seven days from the provision of contracts in a form which it is possible to exchange in which to do so. Tariq&#8217;s application was supported by Usman but opposed by Mahboob. The sale conductor under the Sale Mechanism (&#8220;Mr Cunningham&#8221;) was joined as a respondent to the application, but did not appear and was not represented. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 14 October 2021 HH Judge Stephen Davies (&#8220;the Judge&#8221;), sitting as a High Court Judge, delivered an <span style="font-style:italic">ex tempore</span> judgment dismissing Tariq&#8217;s application. The Judge held that the burden was on Usman to make sure that he did everything to get the contracts exchanged within seven days, but he had failed to do so, in particular because the amendments to the SPA his solicitors requested on 4 October 2021 were not justifiable. Whilst there was a duty of co-operation on the other parties to the Sale Mechanism, they were not in breach of such a duty as exchange could have taken place on the basis of the drafts that had been agreed between the Partners. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Tariq took steps to appeal the Judge&#8217;s order implementing his decision (&#8220;the Order&#8221;), joining Mahboob and Usman as respondents, as well as Mr Cunningham<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"> Mr Cunningham has played no part in the appeal. </p>
+		</authorialNote>. Tariq sought declarations that (a) Usman&#8217;s bid is not invalid and his deposit is not forfeit and (b) Usman has a reasonable period, which is 7 days, following the provision of contracts which are agreed between the Partners, in which to exchange. Thereafter:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On 26 October 2021 Elisabeth Laing LJ refused Tariq&#8217;s application to stay the Order. She further directed that, pending determination of permission to appeal and any subsequent appeal: (i) on completion of the sale of the partnership assets to Mahboob, Mahboob do pay Tariq&#8217;s share of the difference between the reserve price Mahboob was paying and the price Usman had bid into an escrow account of Blacks, solicitors instructed by the Partners to act for them as sellers of the partnership assets<authorialNote class="footnote" marker="3">
+		    <p class="FootnoteText" style="text-align:justify"><span/>On<span/>27 October Elisabeth Laing LJ amended her order to direct, by way of clarification, that in the event that Tariq&#8217;s appeal was successful, the difference in price would be treated as additional consideration payable to Tariq and was to be paid to him.</p>
+		  </authorialNote>; and (ii) Blacks do continue to hold Usman&#8217;s deposit of &#163;430,000 in the escrow account. Elisabeth Laing LJ&#8217;s reasons included that Usman had not appealed against the Order and so Tariq&#8217;s interest in the appeal could be protected by the directions she gave without delaying the sale of the partnership assets to Mahboob.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Tariq nevertheless refused to execute and exchange contracts for the sale of the partnership assets to Mahboob, resulting in an application by Mahboob to the Judge. On 3 November 2021 the Judge made an order, to which Tariq consented, authorising Blacks to execute and exchange contracts on behalf of Tariq and to complete the transaction, which they did the next day. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On 18 November 2021 Newey LJ granted Tariq permission to appeal. By a separate order of the same date Newey LJ directed that Tariq&#8217;s interest in the &#163;430,000 deposit paid by Usman be held as security for Mahboob&#8217;s costs of the appeal.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On 11 January 2022 Usman filed a skeleton argument in the appeal, adopting Tariq&#8217;s arguments (and taking a further point based on a liberty to apply provision, which point was not ultimately pursued) but also contending that, if Tariq&#8217;s appeal succeeded, the court should direct that the sale to Mahboob should be unwound, alternatively that the deposit should be returned to Usman.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In a supplementary skeleton filed on 14 February 2022 Mahboob objected to Usman seeking the additional relief referred to in his 11 January 2022 skeleton argument, pointing out that Usman had not appealed the Order, nor served a Respondent&#8217;s Notice indicating an intention to do so. Mahboob contended that Usman lacked any standing to argue for such relief.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On 8 March 2022, just one week before the date set for the hearing of the appeal, Usman&#8217;s new legal team filed and served a supplementary skeleton accepting Mahboob&#8217;s procedural complaint but applying for (i) permission to serve a Respondent&#8217;s Notice out of time appealing the Order and seeking the relief previously indicated and (ii) seeking permission to cross-appeal and (iii) seeking permission to rely on the supplementary skeleton.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On 9 March 2022 King LJ stood the appeal out of the list, to be re-fixed with a revised time estimate, and gave directions that Usman&#8217;s applications be listed with the appeal.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">On 3 May 2022 I gave further directions for Mahboob to file and serve evidence of the prejudice he claimed he would suffer if the sale to him was unwound and for Usman to file and serve evidence of his ability to compensate Mahboob in respect of such matters.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">We heard the appeal on 4 and 5 July 2022, sitting as a two-judge court due to the indisposition of the other member of the constitution.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the hearing of the appeal Mahboob maintained his opposition to (i) Tariq&#8217;s appeal, (ii) Usman&#8217;s application for permission to appeal by way of Respondent&#8217;s Notice out of time and (if Usman was permitted to appeal), the grant of the substantive relief sought by Usman. Mahboob did, however, make an open offer (subject to the agreement of Tariq) that if Usman did not obtain the relief he sought, the deposit should nonetheless be returned to Usman, whether or not Tariq was successful in his appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The background facts</span></heading>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In early 2003 Tariq and Mahboob opened the Restaurant, a large-scale buffet style establishment with wedding and banqueting facilities, at the Property. The Property was jointly owned by Tariq and Mahboob and they each held 50 of the Company&#8217;s 100 issued shares until 2008, when they each transferred half of their shareholding to their respective wives, Nusrat and Mirza. Usman is Tariq&#8217;s younger son. Tariq&#8217;s elder son, Asad, had married one of Mahboob&#8217;s daughters in 2002.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Usman, who was 16 at the time the Restaurant opened, worked there part-time from the outset (along with Asad and Mahboob&#8217;s son Mohammed Waqaas), including during holidays whilst he was studying for a degree in Business Management in London. His evidence was that, after obtaining his degree, he worked full-time on family businesses, including the Restaurant, and became a manager, continuing to work there until he was dismissed in late 2021. Mahboob asserts that Usman overstates his role at the Restaurant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By 2006 relations between Tariq and Mahboob, which had initially been close, had deteriorated and Tariq executed a power of attorney in favour of Asad to enable him to run the restaurant business with Mahboob. By 2016 Tariq had fallen out with all the other parties, including his wife and sons, and was removed as a director of the Company. Asad and Usman became directors of the Company and each received two shares from Nusrat&#8217;s holding, which was thereby reduced to 21 shares<authorialNote class="footnote" marker="4">
+		  <p class="FootnoteText"><span/>It appears that on 11 January 2022 Nursat transferred her remaining 21 shares to Asad.</p>
+		</authorialNote>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This resulted in Tariq commencing these proceedings against Mahboob, the Company, Nusrat, Mirza and his sons to (i) establish the existence of partnership between himself and Mahboob in respect of the Property and their shareholdings in the Company; and (ii) seek the dissolution and winding up of that partnership, with all necessary accounts and enquiries. Tariq also brought an unfair prejudice petition in respect of his position as minority shareholder in the Company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 28 August 2020, following a two-week trial (in which Usman did not participate), the Judge found that there was indeed a partnership between Tariq and Mahboob, the assets of which were the Property and their combined 50% shareholding in the Company, but that the partnership did not extend to interests in a second restaurant established in Perivale. The Judge further held that the relationship between Tariq and Mahboob had wholly broken down and that it was just and equitable to make an order for the dissolution of the partnership, for the partnership to be wound up and for a final account to be taken. The unfair prejudice petition was dismissed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 26 May 2021 the Judge handed down judgment on certain issues arising on the taking of the final partnership account. In particular, the Judge determined that the partnership assets should be sold, with a buy-out of Tariq&#8217;s share by Mahboob at the valuation set by the court (the reserve price) only if the sale process did not result in a sale. The Judge emphasised that the sale process should be undertaken with relative speed and relatively limited cost, directing that the mechanism should provide as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">That the Stockport Road property and the 50% interest in the Stockport Road company be sold as one unit.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">That the conduct of the sale be given to an independent person, such as a sales agent or solicitor, who should have a discretion as to the conduct of the sale, subject to the following terms.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">Tariq, Mahboob and any of the other personal defendants, including Usman, should be at liberty to make bids, as should any third party who wishes to do so, although the selling agent should be under no obligation to publicise the sale.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The selling agent should be at liberty to stipulate that any bid should only be allowed on condition that the bidder was able either to make a deposit of a specified sum, not exceeding 10% of the bid price and/or was able to provide proof of funds sufficient to satisfy the selling agent that the bid was a genuine one.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The timing and mode of the procedure for making bids should be in the discretion of the selling agent.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The property and the shareholding in the company should be sold with the benefit of no warranties other than the conventional warranties as to title as regards the property and the shares, with the property being sold subject to any and all registered charges and the shares being sold with no warranty that the directors of the company would be obliged to register the shares in the name of the purchaser.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(g)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The selling agent should provide for a speedy timetable for completion of the transaction to the successful bidder and, in default, to be entitled to treat the contract as having been repudiated by the successful bidder so that the selling agent may sell to the next highest bidder and any deposit paid by the repudiating bidder will not be returned. (For clarity, this would not apply if the successful bidder is Mahboob&#8230;.)</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(h)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">There should be a reserve in the amount of the court valuation.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge further indicated (amongst other matters) that the mechanism should provide that, if the successful bidder was someone other than Mahboob and that bidder was unable or unwilling to complete within the specified timetable, Mahboob should be entitled to acquire the partnership assets at the reserve price without being held to any previous higher bid. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s directions were incorporated by reference in an order dated 10 June 2021, which further provided for valuations of the Property and the Company to be undertaken and for those valuations to be final unless challenged by either of the Partners. The valuation reserve price was to be the property valuation plus half of the company valuation (reflecting the fact that the Partners&#8217; held only 50% of the shares in the Company). The valuations were produced in relatively short order and neither of the Partners sought to challenge them. Those valuations resulted in a reserve price of &#163;3.25m. The parties subsequently agreed that Mr Cunningham, a property consultant at Savills, should be appointed as the sale conductor.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The key provisions in the Sale Mechanism, for present purposes, are clauses 5.4 and 5.6, which provided as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;<span style="font-weight:bold">EXCHANGE AND COMPLETION</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>5.4.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">Once the deposit has been paid by the successful bidder, the bidder will be required to exchange contracts within 7 days. The period between exchange and completion is 14 days&#8230;Time shall be of the essence, if any bidder fails to exchange or complete within the timescales prescribed here, that previously winning bid shall become invalid and the deposit shall be forfeit (save for any deposit paid by [Mahboob]) and the sales conductor shall notify the next highest bidder&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8230;.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;text-transform:uppercase">Procedure in the event of no valid bids being received</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>5.6</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">If no valid bid is received, or if all bidders who have made valid bids fail to pay a deposit&#8230;or fail to complete in accordance with paragraph 5.4 above (or withdraw their bids in the case of a bid made by [Mahboob]), then the Partnership Assets shall be sold to [Mahboob] at the Reserve Price (half of the reserve price as being the Partner), in accordance with the exchange and completion provisions set out at paragraph 5.4 above.&#8221; </p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Bids were invited by the conductor on 11 September 2021 and on 20 September 2021 Mr Cunningham notified the Partners that Tariq had made the highest bid for the partnership assets (&#163;8m, or &#163;4m for Mahboob&#8217;s 50% share), Usman the second highest (&#163;4.3m), followed by Mahboob (&#163;3,824.005.08, or &#163;1,912,002.54 for Tariq&#8217;s share). Tariq did not pay the required deposit, so Usman became the successful bidder. As stated above, he paid the required deposit on 27 September 2021 and was required to exchange contracts by 4pm on 4 October 2021.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Blacks had by this point prepared first drafts of contracts for the sale and circulated them to the Partners on 16 and 20 September 2021. Blacks did not provide the drafts to Usman, but Tariq&#8217;s solicitors did so on 24 September 2021.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thereafter there were negotiations between the Partners as to the form of the contracts to be tendered to Usman. Blacks did not copy Usman into that correspondence, understandably in my view. Usman&#8217;s solicitors, Buckles, similarly took the view that there was no point doing anything until they had received drafts agreed between the Partners.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By Wednesday 29 September 2021 the SPA appeared to be agreed between the Partners and the Property contract was also agreed, save for a couple of minor issues.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On Thursday 30 September 2021 Buckles emailed Blacks, referring to the imminent date for exchange of contracts and complaining that nothing had been received from either the conductor or the solicitors for the Partners (although it is now clear that the latter point was not accurate). The email continued:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;We are therefore in the impossible position that as the Partners do not appear to be in agreement with the sale documents, either in connection with the share sale or the property, how can we possibly comply with the controller&#8217;s timetable where time is of the essence?</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">Whilst we would not wish this to be seen in any way as a threat, we would ask your clients to consider the situation, and we would hope with the consent of the two Partners, agree a timetable that takes account of the 7 day period commencing only once we have received a draft Contract and draft of the SPA.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">We must inform you that unless we have clear confirmation of your client&#8217;s intention (and those of the Partners), we will have no alternative but to advise our clients to return to the Court for further Directions&#8230;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On Friday 1 October 2021 Tariq&#8217;s solicitors indicated that they would agree to extend time for Usman to exchange contracts, but Mahboob&#8217;s solicitors rejected the request in robust terms. They did, however, state that they were willing for Blacks to circulate working drafts of both contracts to Buckles for consideration by Usman, and to do so immediately.  Blacks did send the drafts to Buckles during the afternoon of 1 October 2021, but making clear that Tariq did not agree certain specified provisions in each contract. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Also on 1 October 2021 Mahboob made a belated attempt to amend clause 9 of the SPA. Tariq rejected the amendment, which was withdrawn by Mahboob by the evening of Sunday 3 October 2021.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On Monday 4 October 2021 the Partners were still in negotiations as to the allocation of the proposed purchase price between the Property and the shares of the Company. Agreement was reached between the Partners in that regard at about 1pm. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As referred to above, at 1.21pm Blacks forwarded the revised draft Property contract and the draft SPA to Buckles, stating that they awaited the VAT/non-VAT split of the Property. The drafts were not engrossed for execution and did not contain the buyer&#8217;s details.  At 14.01 Tariq&#8217;s solicitors requested that Blacks do prepare and provide engrossment copies to Usman so that it was possible to exchange if Usman was content with them, but Blacks declined to so until Usman had agreed that the drafts were in an acceptable form. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At 2.54pm Buckles provided Blacks with proposed revisions to the SPA. In addition to inserting Buyer&#8217;s details and making some minor drafting changes, Buckles proposed adding requirements that the Partners would:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">maintain insurance policies pending completion;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">not enter, modify or agree to terminate any supplier contracts;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">cause a board meeting to be held to effect various matters, including the transfer of their shares;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">waive any claims against the Company in respect of the sale transaction;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">indemnify the Buyer and the Company in respect of any tax investigation;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">enter restrictive covenants prohibiting establishing a competing business within 3 miles for a period of 12 months, poaching employees for 12 months and doing or saying anything which may be harmful to the reputation of the Company;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">grant a power to attorney to Usman to enable him to exercise all voting rights in the Company between exchange and completion and registration of the transfer of shares;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">resign as directors of the Company and provide signed bank mandates in respect of the Company&#8217;s bank accounts.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Tariq&#8217;s solicitors responded to the above proposals at 3.46pm, agreeing to some but rejecting others.  Mahboob&#8217;s solicitors did not respond until 5.04pm, stating that there was no point in commenting on Usman&#8217;s proposed revisions as the time for exchange had passed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At 4.34pm on 4 October, after the 4pm deadline for exchange of contracts had passed, Buckles sent proposed revisions to the property contract. It is not suggested that these would have been controversial. As set out above, Tariq made an application in these proceedings the next day.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The Judgment</span></heading>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge was satisfied that the Sale Mechanism was a contract between the Partners, Mr Cunningham and, in due course, any party who was accepted as a successful bidder [8].  The Judge also recognised at [42] that clause 5.4 of the Sale Mechanism &#8220;was not the clearest of provisions, in the sense that it simply provided in relatively sparse terms for exchange to take place 7 days after payment of the deposit&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the proper construction of clause 5.4, the Judge recorded at [30] Tariq&#8217;s primary case that a bidder would only be in breach if he failed to exchange after being provided with a contract capable of exchange and being offered exchange with a reasonable time to do so. At [52] the Judge rejected that contention (although something appears to have gone wrong with the language used to describe it), holding that the opening words of the clause made it clear that the bidder was required to exchange contracts within seven days, adding that &#8220;[t]here is no gloss on that and no justification in my judgment for reading in words which are not there in the context of a case such as this.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge was nevertheless satisfied that this was a paradigm case for the implication of a duty of co-operation, stating at [50] that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;That is so because it is plain that exchange is a process which can only be undertaken with the co-operation of all parties to the transaction. In the context of this case, exchange by a specified time with time being of the essence can only work if there is an obligation on all of the parties to take reasonable steps to ensure that the deadline can be met&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [55] the Judge accepted that the position which Usman found himself in on Monday 4 October 2021 was not a particularly happy one and that in certain respects all three of the other parties were in part responsible for this. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge went on to consider the delays caused by Mr Cunningham and Blacks in producing drafts later than they could and should have done and by Tariq and Mahboob in seeking amendments that they ultimately withdrew. But he concluded that any delay by those parties was not so serious as to be a breach of duty of co-operation and was not the cause of the problem which in the end befell Usman: [59] and [66]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In contrast, the Judge was highly critical of the approach of Usman and his solicitors in failing to start work on the drafts provided by Tariq on 24 September 2021, seeking an extension on 30 September 2021 rather than pressing for agreed drafts and, in particular, failing to accept and proceed to exchange on the basis of the drafts supplied at 1.21pm on 4 October.  As for the revisions to the SPA proposed by Buckles that afternoon, the Judge stated at [63]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;Instead, for reasons which I have already said do not make any sense, a decision was taken to seek to introduce a whole raft of amendments to the SPA which simply could not be justified on any rational basis, the inevitable consequence of which was to lead to the 4pm deadline being lost&#8230;.That, coupled with the failure to get out any comments on the property contract, when it appears that that could have been done virtually by return&#8230; seems to me to have been indefensible.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [64] the Judge expressed the view that by 2pm or thereabouts on 4 October 2021 it ought to have been possible for Usman&#8217;s solicitors to have confirmed that everything was agreed and to have stated that they were ready to exchange once they had clean agreed copies. The Judge further found at [65] that, whilst it would have been a tight timescale, exchange by telephone could have been achieved by 4pm. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge concluded at [66] that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;Standing back, the onus under this clause was very clearly upon the bidder to make sure that he did absolutely everything that he had to do to get the contract exchanged with seven days. In my judgment he simply did not do enough to ensure that this happened&#8230;&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge added at [69] et seq. that it was not an appropriate situation to grant Usman an extension of time to exchange pursuant to the liberty to apply provision in the Judge&#8217;s order providing for the sale.  Usman has not pursued that argument on this appeal. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The proper construction of clause 5.4</span></heading>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge recognised at [44] and [45] that there are two competing constructions of clause 5.4:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The first (Tariq&#8217;s case) is that the expressions &#8220;required to exchange contracts&#8221; and &#8220;fails to exchange&#8221; refer to the technical process of exchanging executed parts of a contract. In that context, a bidder only fails to exchange if the conductor has tendered draft contracts which are capable of being exchanged, leaving a reasonable time for them to be exchanged. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The second (Mahboob&#8217;s case) is that the bidder is under an absolute obligation to procure that exchange of contracts takes place within the stipulated time and, if it does not, even if due to the inaction or unreasonable conduct of the other parties, the bidder has failed to exchange.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [46] the Judge referred to a third &#8220;intermediate position&#8221;, where some mutual co-operation obligation is to be implied. In my judgment this approach led the Judge into error. The question of interpretation is (and must be kept) distinct from the issue of whether terms are to be implied into a contract. The process of implication involves a rather different exercise than that of interpretation and the express terms must be interpreted before one can consider any question of implication: see <span style="font-style:italic">Marks &amp; Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd</span>. <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/72" uk:canonical="[2015] UKSC 72" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 72</ref>; <ref href="#" uk:canonical="[2016] AC 742" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] AC 742</ref> at [28-29] per Lord Neuberger<authorialNote class="footnote" marker="5">
+		  <p class="FootnoteText" style="text-align:justify"> Lord Neuberger expressed the majority decision on this point, marginalising the contrary view expressed by Lord Hoffmann in the Privy Council case of <span style="font-style:italic">Att-Gen </span><span style="font-style:italic">of </span><span style="font-style:italic">Belize</span><span style="font-style:italic"> v Belize Telecom</span> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2009/10" uk:canonical="[2009] UKPC 10" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKPC 10</ref>;<span/><ref href="#" uk:canonical="[2009] 1 WLR 1988" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 1988</ref>. The authoritative nature of Lord Neuberger&#8217;s analysis has been affirmed in several subsequent decisions, including <span style="font-style:italic">National Health Service Commissioning Board v Sil</span><span style="font-style:italic">ovsky </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1389" uk:canonical="[2017] EWCA Civ 1389" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1389</ref> and <span style="font-style:italic">Parker v Roberts </span>[2019] EWCA<span style="font-style:italic"/>Civ 121 at [88]. <span/><span/></p>
+		</authorialNote>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In this case the Judge appears to have first concluded at [50] that this was a case for implying a duty of co-operation, before proceeding to prefer Mahboob&#8217;s construction of clause 5.4, the potential unfairness to the bidder in that construction being mitigated by the implied term of mutual co-operation [53]. In my judgment that approach wrongly used the assumed existence of an implied term to inform (if not decide) the interpretation of the express term. It also gave rise to the uncertainty in relation to the interrelationship and inter-action between the express absolute obligation on the bidder to exchange (as the Judge held) and the implied duty of co-operation. It is unclear whether a breach of the implied term would in some way alleviate the obligation on the bidder under the express term (and if so, how and to what extent) or whether it would only give rise to a claim for damages.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appropriate course is first to interpret clause 5.4, carrying out the unitary exercise and adopting the iterative approach identified and explained in <span style="font-style:italic">Wood v Capita Insurance Service Ltd </span><ref href="#" uk:canonical="[2017] AC 1181" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] AC 1181</ref>; <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/24" uk:canonical="[2017] UKSC 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 24</ref> by Lord Hodge at [12], it being unimportant whether one starts with the factual background and the implications of rival constructions or a close examination of the relevant language in the contract.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Starting with an analysis of the text of clause 5.4:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The Judge rightly noted at [52] that the bidder is required to exchange within 7 days and that there is no &#8220;gloss&#8221; on those words.  However, that leaves open the question of what, on a proper construction, that obligation entails.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The concept of an exchange of contracts is well understood &#8211; each party executes the contract (often each party signing their own part, the two parts then being &#8220;exchanged&#8221; in person or by telephone). In that context, &#8220;required to exchange&#8221; would naturally refer to an obligation to execute and exchange a contract tendered by the other party in a form capable of being executed and exchanged by the bidder. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The concept of completion, a further &#8220;requirement&#8221; placed on the bidder under clause 5.4 is similarly a mutual exercise: the seller&#8217;s solicitor will release transfer documentation and/or keys on the purchaser&#8217;s solicitor confirming that the balance of the purchase price is being transferred.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The Judge considered that the obligation on the bidder should be read as being very much more extensive, amounting to an obligation &#8220;to make sure that he did absolutely everything that he had to do to get the contracts exchanged within 7 days&#8221; [66]. The difficulty with that interpretation is that it imports a substantial obligation of uncertain scope on the bidder, requiring him to take undefined steps to procure something that is simply not within their power. Contrary to his initial approach, the Judge ended up placing a very thick gloss on the wording of the clause. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If the parties had intended to make the bidder responsible if there was not, in the event, an exchange of contracts, they would surely have provided that the bidder was required to &#8220;procure&#8221; an exchange of contracts. They did not do so. Further, the Sale Mechanism contains no other provisions which would enable the bidder to procure such exchange (such as calling for a draft contract or requiring the sale conductor to settle one on behalf of the sellers).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Yet further, the Sale Mechanism contains draconian provisions if the Buyer is in default of the obligations to exchange or complete. It would be bizarre if those provisions became operative when the bidder had been unable to procure exchange (or completion) through no fault of their own.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In summary, I conclude that the text of clause 5.4, and of the Sale Mechanism as a whole, favours the interpretation for which Tariq (and Usman) contends.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As regards the relevant context, the accomplished earlier judgments given by the Judge show that he very much had the measure of Tariq and Mahboob as litigants. He rightly recognised that what was envisaged by his order was a speedy process, not one which ought to become lengthy or complex in terms of either time or drafting [49].  However, there were other aspects of the context which, in my judgment, should be factored into the interpretation of clause 5.4:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">First and foremost, the expectation would be that the Partners, as sellers, would produce draft contracts for consideration by a successful bidder. That would be the usual course in a sale of property or of a business, but it was even more obviously the case where the sellers have been in dispute, but must now act jointly in dealing with the bidder.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In this case the Partners knew from 10 June 2021 that they were required to put the partnership assets up for sale on a joint basis and bids were sought on 11 September 2021. By the time Usman paid the deposit and became party to the contract constituted by the Sale Mechanism, the Partners had had over 3 months to negotiate and agree the form of contracts to be presented to the bidder, and over two weeks since they had initiated the Sale Mechanism process. In my judgment, the reasonable expectation would be that draft contracts (agreed between the Partners) would be provided to the successful bidder on payment of the deposit or shortly thereafter. Contrary to the Judge&#8217;s view at [66], the onus of progressing towards exchange of contracts was obviously on the Partners, at least in the first instance.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">By virtue of the terms of the Sale Mechanism, Mahboob had a clear potential motive for frustrating any sale to any successful bidder, the result of the failure of all such bidders to exchange being that Mahboob would have the right to acquire the partnership assets at the reserve price, achieving the outcome he had sought throughout the proceedings. It would be surprising in the extreme if the Sale Mechanism enabled him to put the successful bidder in difficulties in meeting the timetable.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The above is even more the case given that the consequence of a failure of the successful bidder to comply with the timetable is that the bidder loses their (very substantial) deposit. Indeed, this might seem to give Tariq, as well as Mahboob, a significant motive to frustrate any sale. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows, in my judgment, that both the text and the factual matrix of the Sale Mechanism point clearly to the requirement on the bidder in clause 5.4 being to exchange contracts once presented with a contract in a form capable of being executed and exchanged: the words &#8220;within 7 days&#8221; in clause 5.4 must, in my view, be read as meaning within 7 days of such presentation. Otherwise, a term must be implied that the bidder has a reasonable time after such presentation in which to exchange.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly I would grant a declaration that Usman was not in breach of any obligation under clause 5.4, his deposit was not forfeit and the contract to sell the partnership assets to him did not become invalid. Further, he has 7 days from presentation to him of a contract capable of being executed and exchanged with the owner of the partnership assets in which to exchange.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The implication of terms and breach of those terms</span></heading>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parties are in agreement that the Judge was right to find an implied duty of mutual co-operation, no matter which interpretation of clause 5.4 is preferred. Given my conclusion above, it is not strictly necessary to consider the Judge&#8217;s analysis as to which of the parties was in breach of this term, but as the Sale Mechanism is to be revisited, I would make the following observations:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I disagree with the Judge&#8217;s view that the Partners&#8217; and the sale conductor&#8217;s breach of the implied duty of co-operation was minor or insignificant. They should have had agreed draft contracts of sale ready to present to Usman on 27 September 2021, but in the event did not provide agreed drafts until the deadline for exchange was imminent.  That was, in my judgment, egregious and an inexcusable delay. As the Judge accepted that the delay placed Usman in &#8220;not a particularly happy&#8221; position, it is difficult to understand his view that the other parties were effectively blameless for the deadline being missed.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I also disagree with the Judge&#8217;s characterisation of Buckles&#8217; response to the draft contracts and its timing. In my view Usman and his solicitors were entitled to wait until a draft agreed between the Partners was supplied before providing comments. To do otherwise would have been anticipatory and likely to cause confusion. The comments and requests seem to me to have been exactly the type of points a responsible solicitor would raise on his client&#8217;s behalf.  The only overly ambitious suggestion was perhaps that the Partners enter restrictive covenants: this is something which should have been raised earlier. But the insertion of clauses relating to maintaining insurance and supply contracts and providing for proper corporate governance and control was understandable. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Had it been necessary to do so, I would have allowed the appeal on the basis that the failure of the parties to exchange contracts on 4 October 2021 was due to the Partners&#8217; failure to co-operate with Usman, requiring an appropriate extension of time for such exchange: see <span style="font-style:italic">Elvanite Full Circle Ltd v AMEC Earth and Environmental (UK) Ltd. </span>[2013] EWHC 1191 TCC. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Whether the continuing validity of Usman&#8217;s bid is (or should be) in issue before this Court</span></heading>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second limb of the relief sought by Tariq on the appeal was a declaration, binding on Mahboob, that Usman has a reasonable period following the provision of contracts (which are agreed between the Partners) in which to exchange and that his bid remains valid in the meantime.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Elisabeth Laing LJ, in considering the question of a stay on the papers, accepted Mahboob&#8217;s contention that such relief could not be obtained against Mahboob even if Tariq&#8217;s substantive argument was upheld on appeal because Usman himself had not appealed against the Order and that Tariq&#8217;s financial interest in a sale to Usman could be and should be protected by directions as to how monies should be held in the course of a sale to Mahboob at the reserve price. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment that analysis was wrong for the following reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">As a vendor under the Sale Mechanism, Tariq had a clear interest in upholding the continuing validity of a higher bid, had sought relief in that regard against Mahboob before the Judge, and was entitled to pursue that issue on appeal (subject to obtaining permission, which he duly did).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Usman, as a named respondent to the appeal, was entitled to support Tariq&#8217;s appeal in that regard, just as he had supported his application before the Judge. The declarations sought before and refused by the Judge were in relation to the continuing validity of Usman&#8217;s bid and his entitlement to exchange contracts: there was no separate order against Usman that he needed to appeal.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In order to advance arguments in support of Tariq&#8217;s appeal, all that Usman was required to do was to serve a skeleton argument within 35 days of the listing window notification (PD52C para 13 and the Section 5 Timetable). This he did by serving his skeleton argument on 11 January 2022. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In any event, on 26 October 2021 (the date of Elisabeth Laing LJ&#8217;s first order) time had not expired for Usman to file an appeal notice as an independent appellant: that time expired on 4 November 2021, the date on which the sale to Mahboob at the reserve price was effected by Blacks pursuant to court order.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">But further still, as a respondent, Usman was entitled to serve a Respondent&#8217;s Notice appealing against the Order within 14 days of notification that permission had been granted by the Court of Appeal in respect of the appeal: see CPR 52.13(2)(a), PD52C 8(1) and the Section 5 Timetable)<authorialNote class="footnote" marker="6">
+		    <p class="FootnoteText"><span/>It should be noted that &#8220;appeal notice&#8221; is defined in CPR 52(3)(f) as including a respondent&#8217;s notice.</p>
+		  </authorialNote>. As Newey LJ granted Tariq permission on 18 November 2021, that deadline could not have been earlier than 2 December 2021.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt that the second limb of the relief sought by Tariq is properly before the court: Newey LJ granted permission to appeal in respect of it and Tariq has at no time withdrawn it. For the reasons set out above, Usman is entitled to support the appeal seeking such relief and, in my judgment, if such relief is granted, to further ask for a consequential order that the partnership assets be sold to him, notwithstanding that Tariq&#8217;s share of those assets has been sold to Mahboob in the interim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If, contrary to the above, it was necessary for Usman to appeal himself (as opposed to supporting Tariq&#8217;s appeal), it is accepted by Mr Lawrence KC on his behalf that he was out of time to do so and would require relief from sanctions. In my judgment such relief would readily have been granted for the following reasons (addressing the three stages identified in <span style="font-style:italic">Denton v TH White </span><ref href="#" uk:canonical="[2014] 1 WLR 3296" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 3296</ref>, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/906" uk:canonical="[2014] EWCA Civ 906" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 906</ref>):</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The failure to comply with the rules was in itself not serious: the issue was already before the court on Tariq&#8217;s appeal and Usman had set out his position in his skeleton argument on 11 January 2022. The filing of a respondent&#8217;s notice would have been a formality and the grant of permission to appeal would have been inevitable given Newey LJ had granted permission for Tariq&#8217;s appeal.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The reason for the failure to appeal in time was that Usman&#8217;s previous legal advisers did not appreciate (on this alternative hypothesis) that it was necessary to file a respondent&#8217;s notice appealing the Order.  This default is eminently understandable and excusable given my views expressed above. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The central matter which is said to militate against permitting Usman to appeal at this late stage is that in the interim the sale to Mahboob has completed and that it would be unfair and unjust to unwind that sale on the basis of a belated appeal. However, the sale to Mahboob was ordered and completed before Usman&#8217;s time for appealing had expired, so that circumstance would have existed even if Usman had not been in default. Overall, to deal with the case justly requires that the court is able to give proper and full effect to the rights of the parties to the Sale Mechanism, as established through Tariq&#8217;s appeal, and is not constrained by the technicality of the absence of a formal appeal by Usman. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Had it been necessary, I would also have granted Usman permission to appeal against the Order. But in view of my conclusion above that Usman was entitled to support Tariq&#8217;s appeal without himself appealing, neither an extension of time to serve a respondent&#8217;s notice nor belated permission to appeal need be granted. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Whether Mahboob should now be required to sell the partnership assets to Usman </span></heading>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If the above conclusions are correct, Tariq and Usman each have an extant contractual right (pursuant to a court-directed Sale Mechanism) to proceed to an exchange of contracts for the sale and purchase of the partnership assets pursuant to the Sale Mechanism. The fact that Tariq&#8217;s share of the partnership assets has, in the meantime, been sold by Tariq to Mahboob in itself presents no obstacle to enforcement of that contract: the assets are in the hands of one of the contracting parties and he could be required to transfer them to Usman on receipt of the agreed purchase price. The sum held in escrow by Blacks would then be released to Tariq by way of the balance of his share of the sale price. Alternatively, the sale of Tariq&#8217;s share to Mahboob could be set aside and the sale to Usman would proceed as originally envisaged in the Sale Mechanism.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mahboob nevertheless contends that he should not be forced to sell the partnership assets to Usman.  He refers to the well-established principles (i) that specific performance remains an exceptional remedy, which will only be granted where damages are not adequate recompense for the claimant and (ii) that the discretion to award it will not be exercised where it will cause injustice or unfairness to the defendant, for example by allowing the claimant to enrich itself at the expense of the defendant: see <span style="font-style:italic">Co-operative Insurance Society Ltd v Argyll Stores (Holdings) Ltd</span> <ref href="#" uk:canonical="[1988] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] AC 1</ref> HL and <span style="font-style:italic">Snell&#8217;s Equity </span>17-007. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the present case there can be no doubt that the contract for the sale of the partnership assets, given effect by operation of the Sale Mechanism, is in principle liable to be enforced by (further) order of the court. The Judge has already determined that the Partners should sell the assets and has directed a mechanism for such sale. It is axiomatic that the court has power to give effect to its previous orders, and to the resulting Sale Mechanism, if one of the Partners refused to sell pursuant to their terms. Further, absent a relevant and significant change of circumstance, the court would have no hesitation in doing so. Mahboob did not seriously contend otherwise.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mahboob&#8217;s case is that there has indeed been a relevant and significant change of circumstances such that he would suffer &#8220;overwhelming&#8221; injustice and unfairness and &#8220;irremediable prejudice&#8221; if he was now required to sell the partnership assets to Usman. He points to the fact that he was permitted by orders of this Court and of the Judge to purchase Tariq&#8217;s share of those assets in November 2021 (at the same time placing further funds on escrow in case Tariq was successful in this appeal) and since then has run the Restaurant, and improved it, during what were difficult times due to the coronavirus pandemic. Mahboob identifies the following factors by way of unfairness/prejudice if he is now required to sell to Usman:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The loss of opportunities to acquire alternative restaurant premises in or around October 2021. Mahboob asserts he would have used the &#163;2.15m he would have received from Usman, plus the same sum he in fact paid to Tariq, to purchase alternative restaurant premises and start his own business there. He does not state, however, why it would not be possible for him to do the same if he received &#163;4.3m from Usman now.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The cost (in terms of time and money) of investing in the Restaurant, which would be &#8220;lost&#8221; on a sale to Usman.  Mahboob claims to have updated the menus, introduced &#8220;new and exciting dishes&#8221; and improved the quality of the food. As far as financial investment, he refers to &#163;80,846.18 invested in kitchen machinery, &#163;15,000 for branded cutlery for use in both the Restaurant and the Perivale restaurant. All these sums, however, appear to have been invoiced to the Company (as would be expected): there is no suggestion that they were paid by Mahboob personally. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The cost of funding the purchase price of &#163;1,625,000 paid to Tariq for his 50% share of the partnership assets. Mahboob states that an unidentified proportion of that sum was raised by re-mortgaging his home, and some was derived from savings or borrowed from family members. The actual cost of funding has not been identified.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The cost of funding the additional sum of &#163;525,000 paid into escrow pursuant to the order of Elisabeth Laing LJ. Mahboob states that he used funds which he had planned to use to open a restaurant in Ilford by February 2022. It is not suggested that the restaurant cannot be opened now, merely that the delay will have cost Mahboob the profits that he would have hoped to have made in the interim.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Stamp duty and SDLT, totalling &#163;46,000, paid as a consequence of acquiring the partnership assets.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Legal fees incurred in relation to the purchase of those assets, although the sum in question has not been identified.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The cost of delaying a restructuring/reorganisation of his business interests, which Mahboob asserts would have resulted in lower interest costs for his borrowing, although he is understandably unable to identify the amount of the saving. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Suspension of other business projects due to the diversion of funds to the purchase of the partnership assets: this is a reference, in particular, to the Ilford project. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The impact on him of the stress and uncertainty of Usman&#8217;s position in this appeal. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is unfortunate that as a result of an order of this court Mahboob was permitted to acquire Tariq&#8217;s interest in the partnership assets notwithstanding that Tariq had an extant arguable appeal against that outcome, an appeal that Usman was entitled to support.  It has also complicated the position consequent upon the appeal being allowed.  The result was that Mahboob may have been misled into believing that his ownership of the partnership assets was secure. Nevertheless, I do not consider that requiring Mahboob to sell the partnership assets to Usman is unfair to Mahboob, nor does it cause him undue prejudice, for the following reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On a sale to Usman, Mahboob will receive &#163;4.3m, comprising &#163;2.15m for his share of the partnership assets (&#163;525,000 more than the reserve price which he paid for Tariq&#8217;s share) and will be reimbursed for the &#163;2.15m he has paid (directly or in escrow) to Tariq. It is not as though Mahboob would be required to sell at a loss: Usman&#8217;s bid was significantly higher than the reserve price set by the court on the basis of an assessment of market value, being the price (pro rata) at which Mahboob acquired Tariq&#8217;s assets.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Several of Mahboob&#8217;s complaints are based on the fact that his receipt of the purchase price from Usman (and his ability to act upon it) has been delayed. There is, however, no evidence to suggest that he cannot now utilise the &#163;4.3m he will receive in the manner intended in October 2021, and no concrete evidence of any costs or losses the delay will have caused. But in any event, such delay is a direct result of his own aggressive and misconceived refusal to finalise contracts of sale with Usman in early October 2021, thereby thwarting the court-ordered sale.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">I see no force in Mahboob&#8217;s complaints about the improvements he claims to have made to the Restaurant and its business. There is no suggestion that he invested any of his own money (by way of loans or capital injection), so the purchase of equipment must have been made out of the Company&#8217;s assets. As far as his time and effort is concerned, it must be remembered that, leaving aside his own share, his wife owns 25% of the Company&#8217;s shares and his son-in-law a further 23% and, as he himself points out, he has an ownership interest in the Perivale Restaurant (for which some of the assets were purchased) and owns the intellectual property in the Royal Nawaab name. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">As for the costs of the purchase of the partnership assets, the evidence in that regard is almost non-existent, save for the clear-cut evidence that Mahboob paid taxes totalling &#163;46,000. However, if the purchase of Tariq&#8217;s share is set aside by court order prior to the sale to Usman (which would reflect the reality of the position), it may be that such taxes could be reclaimed. There is no evidence in that regard, but I would be prepared to entertain submissions from Mahboob as to whether this court should set aside his purchase from Tariq prior to the sale of the partnership assets to Usman. I cannot see why Tariq and Usman would have any interest in that question, but they would of course have the right to make their own submissions in that regard. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I have sympathy with Mahboob&#8217;s complaint that the course this appeal has taken has caused him stress and uncertainty, but such matters cannot trump Tariq and Usman&#8217;s clear contractual rights against him, particularly given that Mahboob is to a large extent the author of his own misfortune. Any party who takes an unbending stance in the face of reasonable and justified requests to co-operate in a court-mandated process should expect little sympathy if the results of their obdurate stance are later reversed by the court. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly I see no reason why the sale to Usman should not now be enforced according to its terms.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Should the sale be subject to conditions?</span></heading>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mahboob submits that, if he is required to sell to Usman, such a sale should be conditional on Usman compensating him for the sums he has spent and the losses he has incurred as a result of purchasing Tariq&#8217;s share of those assets.  Usman did make an offer to pay Mahboob&#8217;s losses to the extent that they were incurred as a result of his failure (if any) to engage with the appeal until 11 January 2022 or himself to appeal until March 2022. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons set out above, however, I do not consider that Mahboob has incurred costs or suffered losses for which Usman should be held responsible. Further, Usman was not out of time to support Tariq&#8217;s appeal and, even if he was required to appeal himself, he was not out of time to mount such an appeal when Usman completed the purchase of Tariq&#8217;s share of the partnership assets. I see no reason why Usman should be required to pay more than the &#163;4.3m purchase price in order to acquire the partnership assets. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do accept (as did Mr Lawrence KC for Usman) that Usman should be required, as a condition of proceeding with the purchase, to put up the funds required to pay the balance of the purchase price. Usman exhibited email exchanges that demonstrated that his then solicitors held those funds in their account on 13 October 2021 (just before completion would have occurred under the Sale Mechanism), but it is to be inferred from the careful wording of Usman&#8217;s evidence that those funds not retained. At the direction of this Court, on 4 July 2022 Usman filed witness statements from a representative of his current solicitors and from a solicitor acting for a proposed lender to Usman, each confirming that they held &#163;2.5m for use in the purchase of the partnership assets by Usman in the event that he was successful in this appeal. In my judgment it should be a condition of the sale proceeding that Usman pay the balance of the purchase price to Blacks within 7 days of this Court&#8217;s order, to be held for the purposes of completing the purchase or otherwise to the order of the Judge or any other judge of the Business and Property Courts in Manchester.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would further order that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Within 7 days of Usman lodging the funds with Blacks, Mahboob (and Tariq if the sale of his share to Mahboob is to be set aside) and Usman shall finalise the form and contents of the contracts of sale.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Any disagreements are to be determined in the first instance by Mr Cunningham in writing, but any party who is dissatisfied with such determination (or with the failure of Mr Cunningham to notify a determination within 24 hours of the issue arising) may refer the issue to the Judge (or, if he is unavailable, any other judge of the Business and Property Courts in Manchester) for urgent decision of the court, provided that an application making such referral is issued and served on all other parties no more than 24 hrs after Mr Cunningham notifies his determination in writing or the time referred to above for Mr Cunningham to notify his decision has expired.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Once finalised, Blacks shall tender the final form of the contracts, executed by Mahboob (and Tariq if the sale of his share to Mahboob is to be set aside) to Usman for exchange. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If Usman fails to exchange within a further 7 days, the sale will not then proceed and Mahboob will retain the partnership assets. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In all other respects the matter is remitted to the Judge for his supervision, with liberty to apply to him.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Conclusion </span></heading>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If Peter Jackson LJ agrees with me, I would allow the appeal and make an order as indicated above.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Peter Jackson:</span></heading>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

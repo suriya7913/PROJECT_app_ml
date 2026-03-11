@@ -1,0 +1,1226 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/2"/>
+	  <FRBRdate date="2024-01-17" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2"/>
+	  <FRBRname value="Herculito Maritime Ltd and others v Gunvor International BV and others"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2"/>
+	  <FRBRdate date="2024-01-17" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:15:46" name="transform"/>
+	  <FRBRdate date="2024-11-18T10:58:14" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-17" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="herculito-maritime-ltd-and-others" href="" showAs="Herculito Maritime Ltd and others"/>
+	<TLCPerson eId="gunvor-international-bv-and-others" href="" showAs="Gunvor International BV and others"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>2</uk:number>
+	<uk:cite>[2024] UKSC 2</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>8cc8d2e2603a520446a8d6d39787a7e2683c56b991c66fde49c15755a2ee87d4</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.25in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Hilary Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 2</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1828" style="font-style:italic;font-family:'Times New Roman'" uk:canonical="[2021] EWCA Civ 1828" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2021] EWCA Civ 1828</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#respondent" refersTo="#herculito-maritime-ltd-and-others" style="font-family:'Times New Roman';font-size:20pt">Herculito Maritime Ltd and others</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondents</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#appellant" refersTo="#gunvor-international-bv-and-others" style="font-family:'Times New Roman';font-size:20pt">Gunvor International BV and others</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellants</role><span style="font-family:'Times New Roman';font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-hodge-deputy-president" style="font-family:'Times New Roman'">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-hamblen" style="font-family:'Times New Roman'">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt" style="font-family:'Times New Roman'">Lord Leggatt</judge><br/><judge refersTo="#judge-lady-rose" style="font-family:'Times New Roman'">Lady Rose</judge><br/><judge refersTo="#judge-lord-richards" style="font-family:'Times New Roman'">Lord Richards</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-01-17" refersTo="#judgment" style="font-family:'Times New Roman'">17 January 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 4 and 5 October 2023</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellants</span><br/><span style="font-family:'Times New Roman'">Stephen Hofmeyr KC</span><br/><span style="font-family:'Times New Roman'">Mark Jones</span><br/><span style="font-family:'Times New Roman'">(Instructed by Tatham &amp; Co)</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Respondents</span><br/><span style="font-family:'Times New Roman'">Guy Blackwood KC</span><br/><span style="font-family:'Times New Roman'">Oliver Caplin</span><br/><span style="font-family:'Times New Roman'">(Instructed by HFW (London))</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-family:'Times New Roman'">Lord Hamblen (</span><span style="text-transform:none;font-family:'Times New Roman'">with whom Lord Hodge, Lord Leggatt, Lady Rose and Lord Richards agree</span><span style="font-family:'Times New Roman'">): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 30 October 2010 MT POLAR (&#8220;the vessel&#8221;) was seized by Somali pirates while she was transiting the designated &#8216;High Risk Area&#8217; in the Gulf of Aden off the East Coast of Africa during a voyage from St Petersburg to Singapore laden with a cargo of fuel oil. The vessel was held captive for ten months before being released on 26 August 2011 following the payment of a ransom of US$7,700,000 by or on behalf of the vessel owner (&#8220;the shipowner&#8221;) &#8211; the respondent to this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">General average was declared by the shipowner and in due course a general average adjustment was issued of which the ransom payment formed a major component. The adjustment concluded that US$5,914,560.75 was due to the shipowner from the respective cargo interests (&#8220;the cargo interests&#8221;) &#8211; the appellants on this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The cargo interests contend that they have no liability in general average in respect of the ransom payment. They submit that, on the true construction of the bills of lading, the shipowner&#8217;s only remedy was to recover the ransom payment under the terms of additional insurance cover which had been taken out in relation to such risks pursuant to the terms of the governing voyage charterparty, the premium for which was payable by the charterer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The principal issues which arise on the appeal are (1) whether on the proper interpretation of the voyage charter, and in particular the war risk clauses and the additional Gulf of Aden clause, and/or by implication, the shipowner was precluded from claiming against the charterer in respect of losses arising out of risks for which additional insurance had been obtained pursuant to those clauses; (2) whether all material parts of those clauses were incorporated into the bills of lading; (3) whether on the proper interpretation of those clauses in the bills of lading and/or by implication the shipowner was similarly precluded from claiming for such losses against the bill of lading holders; (4) if necessary, whether the wording of those clauses should be manipulated so as to substitute the words &#8220;the Charterers&#8221; with &#8220;the holders of the bill of lading&#8221; in the parts of those clauses allocating responsibility for the payment of the additional insurance premia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The dispute was referred to arbitration and in an award on preliminary issues dated 8 January 2020 (&#8220;the Award&#8221;) the arbitrators (Timothy Young QC, Dominic Kendrick QC and Simon Gault) upheld the cargo interests&#8217; case on issues (1) to (4). They held therefore that the cargo interests did not have to contribute to general average. On appeal Sir Nigel Teare agreed with the arbitrators on issues (1) and (2) but disagreed with them on issues (3) and (4) and so allowed the appeal &#8211; <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2020/3318" uk:canonical="[2020] EWHC 3318 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 3318 (Comm)</ref>, <ref href="#" uk:canonical="[2021] 1 Lloyd's Rep 150" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 Lloyd&#8217;s Rep 150</ref>. The Court of Appeal (Peter Jackson LJ, Males LJ and Sir Patrick Elias) dismissed the appeal &#8211; <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1828" uk:canonical="[2021] EWCA Civ 1828" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1828</ref>, <ref href="#" uk:canonical="[2022] 1 Lloyd's Rep 375" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 Lloyd&#8217;s Rep 375</ref>. They reached the same conclusion as the judge on each of the issues, save that they expressed no concluded view on issue (1). They therefore held that the cargo interests did have to contribute to general average. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">By a fixture recap dated 20 September 2010 (&#8220;the charter&#8221;) the vessel was chartered to Clearlake Shipping Ltd (&#8220;the charterer&#8221;) for a voyage from Tallin/St Petersburg to 1 safe port Fujairah or, in charterer&#8217;s option, 1/2 safe port / ship to ship locations in the Singapore area. The charter incorporated the BPVOY 4 form, including clause 39 &#8220;War Risks&#8221; as amended in the fixture recap (&#8220;clause 39&#8221;), and various additional clauses, including the &#8220;War Risk&#8221; clause (&#8220;the War Risk clause&#8221;) and the &#8216;Gulf of Aden&#8217; clause (&#8220;the Gulf of Aden clause&#8221;). Immediately below the applicable freight rates agreed for Fujairah and Singapore it was stated: &#8220;All above via Suez with the Suez costs to be for Owners account&#8221;. The freight rates were therefore agreed on the basis that the voyage would be via Suez.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Six bills of lading, numbered respectively 1-5 and 084VI (&#8220;the bills of lading&#8221;) were issued by the vessel&#8217;s master, dated variously 29 and 30 September 2010 and 2 October 2010, recording shipment at St Petersburg of a total cargo of 69,493.28 mts of fuel oil (&#8220;the cargo&#8221;) for carriage to Singapore &#8220;for orders&#8221;. The shippers under the bills of lading were Warley International Ltd, part of the Rosneft group. The consignees were stated to be to the order of BNP Paribas (Suisse) SA. It is common ground that Gunvor International BV (&#8220;Gunvor&#8221;) were the lawful holders of all six bills of lading at all material times and were the owners and eventual receivers of the entire cargo in Singapore.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The direct geographical route for the contractual voyage from St Petersburg to both Fujairah and Singapore was via Suez and the Gulf of Aden. The Gulf of Aden was designated a &#8220;High Risk Area&#8221; for the purposes of marine insurance. The arbitrators found that it was an &#8220;area well known for the risk of piratical attack and seizure for ransom&#8221; (para 88 of their award).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Before the vessel entered the Gulf of Aden &#8216;High Risk Area&#8217; the shipowner took out Kidnap and Ransom (&#8220;K&amp;R&#8221;) insurance with Griffin Underwriting Ltd for a single voyage not exceeding 14 days from 25 October 2010. The geographical limits of the K&amp;R insurance were &#8220;one voyage from Suez to Singapore including one Gulf of Aden transit ...&#8221;. The K&amp;R insurance provided cover of up to US$5m in respect of (among other things): &#8220;Ransom which has been surrendered under duress&#8221;</span><span style="font-style:italic;font-family:'Times New Roman'">. </span><span style="font-family:'Times New Roman'">It also contained the following statement by the underwriters: &#8220;We waive all rights of subrogation against other marine and/or marine war risks policies&#8221;. (This was a provision upon which the arbitrators placed significance but it has not been relied upon on the appeal, it being recognised that it does not affect the parties&#8217; rights under the charter.)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The shipowner also paid an additional premium to extend their annual Hull &amp; Machinery and War Risk insurance to cover the vessel&#8217;s proposed transit through &#8220;current Joint War Committee Listed Areas&#8221; (including the Gulf of Aden) for a period not exceeding 14 days in total. The shipowner had standard annual Hull &amp; Machinery and War Risk insurance on (inter alia) Institute War and Strikes Clauses Hulls &#8211; Time (1 October 1983). As with all such insurances, various geographical areas were excluded unless an additional premium was paid.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 30 October 2010, during the voyage from St Petersburg to Singapore, the vessel was seized by Somali pirates &#8220;while she was transiting the designated &#8216;High Risk Area&#8217; in the Gulf of Aden off the east coast of Africa&#8221; (para 1 of the Award and para 6 of the agreed Statement of Facts). The vessel was eventually released on 26 August 2011 following the payment of a ransom of US$7,700,000 by or on behalf of the shipowner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Most of the cargo was intact. After diverting for repairs, supplies and re-crewing, the vessel continued her voyage and finally delivered the balance of the cargo at Singapore in October 2011.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">General average was declared by the shipowner and before discharge of the cargo at Singapore a general average guarantee, dated 16 September 2011 (&#8220;the GA Guarantee&#8221;), was provided by cargo underwriters, and a general average bond, dated 28 September 2011 (&#8220;the GA Bond&#8221;), was provided by Gunvor. Both the GA Guarantee and the GA Bond are governed by English law, and provided expressly that any disputes should be referred to arbitration in London in accordance with the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> and the London Maritime Arbitrators Association (LMAA) Terms.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In due course, a general average adjustment was issued which concluded that US$4,829,393.22 was due to the shipowner from the respective cargo interests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Cargo interests denied that they were under any liability in general average in respect of the ransom payment and the shipowner commenced arbitrations in London under the GA Bond and the GA Guarantee. The same tribunal was appointed in both arbitrations.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The relevant contractual terms</span></p>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">The charter</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The fixture recap provided &#8220;GA Arb London. English law&#8221; and set out various &#8220;Additional Clauses&#8221;. These included the Gulf of Aden clause (said to be &#8220;for this CP only&#8221;) and the War Risk clause. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The first paragraph of the Gulf of Aden clause provided that half of any time awaiting an escort or protection team or other protective measures would count against used laytime or (if applicable) as time on demurrage. The second paragraph provided that any additional costs of such measures, including time and bunkers, would be shared 50/50 between the shipowner and the charterer. The third paragraph addressed additional insurance premia and crew bonuses and provided:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Any additional insurance premia (including, but not limited to, those in respect of H&amp;M, crew, P&amp;I kidnap risks and ransoms), crew bonuses (which to be in accordance with the international standard) shall be for chrtrs account. Max USD40,000 for charterer&#8217;s account</span><span style="font-family:'Times New Roman';color:#242021"> for any additional insurance premium except for crew bonus which to be max USD20,000 for charterers account.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The War Risks clause provided that any additional premia payable in respect of war risks incurred by reason of the vessel trading to excluded areas not covered by the shipowner&#8217;s basic war risk insurance were to be for charterer&#8217;s account (it was common ground that for the Gulf of Aden this was subject to the US$40,000 limit agreed in the Gulf of Aden clause). Any crew war bonus payable was also to be for charterer&#8217;s account up to a maximum of US$20,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The charter incorporated with some amendments the BPVOY 4 standard form of tanker voyage charterparty. This included clause 39 which defined war risks as including &#8220;acts of piracy&#8221;. It was common ground that the clause was fairly and accurately summarised by the judge at para 9 of his judgment as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Pursuant to clause 39.2 the Owners were entitled to cancel the charter if, at any time before the vessel commences loading, it is considered that performance of the contract of carriage may expose the vessel to war risks.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Pursuant to clause 39.3, the Owners were not required to continue to load or to sign bills of lading or to proceed or continue on a voyage where it appeared that the vessel may be exposed to war risks. If it should so appear the Owners were entitled to request the Charterers to nominate a safe port for the discharge of the cargo. If within 48 hours the Charterers failed to nominate such a port, Owners were entitled to discharge the cargo at any safe port of their choice in complete fulfilment of their obligations under the charter. The extra expenses of such discharge were payable by the Charterers.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Pursuant to clause 39.4, if, at any stage of the voyage, it appeared that the vessel may be exposed to war risks on any part of the route and there is another longer route to the discharge port, Owners were entitled to give notice to Charterers that this route should be taken. The extra expenses of such route, if the extra distance exceeded 100 miles, were payable by the Charterers.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Pursuant to clause 39.5, the Owners were at liberty to comply with the orders of identified third parties.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Pursuant to clause 39.6, anything done or not done in compliance with the clause shall not be a deviation.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The full text of the Gulf of Aden clause, the additional War Risk clause and clause 39 are set out in the annex to this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">The bills of lading</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On their face, all six bills of lading were on the INTANKBILL 78 form. However, whilst bills of lading nos. 1-5 comprised both sides of that form, the reverse of bill of lading no. 084VI was the CONGENBILL form.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">All six bills of lading had on their face the following words of incorporation:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;...pursuant and subject to all terms and conditions, liberties and exceptions as per TANKER VOYAGE CHARTER PARTY indicated hereunder, including provisions overleaf.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In addition, bill of lading no. 084VI provided on the reverse side:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">All terms and conditions, liberties and exceptions of the Charter Party, dated as overleaf, including the Law and Arbitration Clause are herein incorporated.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">None of the bills of lading specifically identified the charterparty intended to be incorporated but it was common ground that the charter was the relevant charterparty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The bills of lading contained on their face a statement that: &#8220;By taking delivery of the cargo the Consignee shall make himself liable for unpaid freight, deadfreight, demurrage and other charges&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Each of the bills of lading contained on their reverse side general average clauses providing for general average to be settled in accordance with the York-Antwerp Rules 1974 (or the 1994 Rules in the case of bill of lading no. 084VI).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Bills of lading nos. 1-5 (but not bill of lading no. 084VI) had a vertical marginal note on the reverse reading:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;For the purpose of the Bill of Lading, SHIPPER means the person consigning the cargo for the carriage on Charterer&#8217;s behalf. CHARTERER means the person entering a Charter Party contract with the Carrier. CARRIER is equivalent to terms like Shipowner, Owner, Chartered Owner, Disponent Owner, whichever is used in the Charter Party in this Bill of Lading to define a person undertaking the carriage.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The principal issues which arise on the appeal are as set out at para 4 above. Each will be addressed in turn.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue (1) - Whether on the proper interpretation of the charter, and in particular the war risk clauses and the additional Gulf of Aden clause and/or by implication the shipowner was precluded from claiming against the charterer in respect of losses arising out of risks for which additional insurance had been obtained pursuant to those clauses.</span></p>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is well established that contractual parties may agree that specified loss or damage is to be covered by insurance and that in the event of such loss or damage occurring the parties will seek recourse against insurers rather than their contractual counterparty. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the shipping context such an &#8216;insurance code&#8217; or &#8216;insurance fund&#8217; was held to exist under a demise charter in </span><span style="font-style:italic;font-family:'Times New Roman'">Gard Marine and Energy Ltd v China National Chartering Co Ltd (The Ocean Victory) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/35" uk:canonical="[2017] UKSC 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 35</ref>, <ref href="#" uk:canonical="[2017] 1 WLR 1793" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 1793</ref>. A complete code to similar effect was held to exist under a time charter in </span><span style="font-style:italic;font-family:'Times New Roman'">Kodros Shipping Corp of Monrovia v Empresa Cubana de Fletes (The Evia (No 2)) </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1983] 1 AC 736" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 AC 736</ref> [HL]. This is the first case in which it has been necessary to consider whether there is an insurance code or fund in a voyage charter and, if so, in bills of lading which incorporated the voyage charter terms. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The applicable principles were considered by the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory. </span><span style="font-family:'Times New Roman'">The principal issue in that case was whether there had been breach of the safe port undertaking. It was held that there was no breach because the combination of weather conditions which had led to the vessel&#8217;s casualty and total loss was an abnormal and unexpected occurrence. It was, however, further held by the majority (Lord Mance, Lord Hodge JJSC and Lord Toulson) that the provisions in clause 12 of the Barecon 89 charter form for joint insurance and a distribution of insurance proceeds precluded hull insurers&#8217; rights of subrogation and the right of owners to recover against the demise charterers for the insured loss of the vessel resulting from a breach of the safe port undertaking. Lord Clarke of Stone-cum-Ebony and Lord Sumption dissented on this issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under Clause 12 of the Barecon 89 charter the demise charterers were responsible: for arranging and maintaining insurance, in a form approved by the owners, in the names of both parties for an agreed value; for effecting all insured repairs; for repairs not covered by the insurance and, in the case of a total loss covered by the insurance, for the processing of the insurance moneys. By additional clause 29 the charter also provided a safe port undertaking. The issue was whether these insurance provisions precluded any claim by the owners or their subrogated hull insurers for an insured loss of the vessel caused by a breach of the safe port undertaking.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For the majority both Lord Mance and Lord Toulson gave judgments but agreed with each other&#8217;s judgments. Lord Hodge agreed with both judgments. Lord Toulson expressed the relevant issue in the following terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;139.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The critical question is whether the contractual scheme between the owners and the demise charterer precluded any claim by the former against the latter for the insured loss of the vessel. This is a matter of construction. It has become a common practice in various industries for the parties to provide for specified loss or damage to be covered by insurance for their mutual benefit, whether caused by one party&#8217;s fault or not, thus avoiding potential litigation between them. The question in each case is whether the parties are to be taken to have intended to create an insurance fund which would be the sole avenue for making good the relevant loss or damage, or whether the existence of the fund co-exists with an independent right of action for breach of a term of the contract which has caused that loss. Like all questions of construction, it depends on the provisions of the particular contract: see, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">Co-operative Retail Services Ltd v Taylor Young Partnership Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2002] 1 WLR 1419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 WLR 1419</ref>.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Lord Toulson concluded that the parties had intended to create such an insurance fund. He held that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:10pt">&#8220;142.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230; The risk existed that the vessel might be directed to an unsafe port, not necessarily by negligence on anyone&#8217;s part, so causing peril to the vessel, but the risk of consequential damage to the vessel was catered for by the insurance required to be maintained by the demise charterer in the joint names of itself and the owners. The commercial purpose of maintaining joint insurance in such circumstances is not only to provide a fund to make good the loss but to avoid litigation between them, or the bringing of a subrogation claim in the name of one against the other. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">144.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the present case, if one were to ask whether it would have accorded with the parties&#8217; intentions that on the morning after the loss the owners would have been entitled to demand immediate payment from the demise charterers, rather than make a claim on the insurers and wait for it to be settled, my answer would be that they intended no such thing. The insurance arrangements under clause 12 provided not only a fund but the avoidance of commercially unnecessary and undesirable disputes between the co-insured.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Lord Mance&#8217;s reasoning was similar, although he also drew attention to the contextual fact that the owners and demise charterers were part of the same group of companies and ultimate beneficial ownership. As he stated at para 114:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The scheme of clause 12 (and 13) is clearly intended to be comprehensive. Whatever the causes, both repairs and total losses fall to be dealt with in accordance with its terms, rather than by litigation to establish who might otherwise be responsible for undertaking them, for bearing the risk of their occurrence or for making them good. This is reinforced by the provisions for marine and war risks insurances to be taken out to protect the interests of owners, charterers and any mortgagees, and to be in the joint names of owners and charterers, as their interests may appear. It is well established, as Lord Sumption JSC and Lord Toulson both acknowledge, that, where it is agreed that insurance shall inure to the benefit of both parties to a venture, the parties cannot claim against each other in respect of an insured loss. This principle is now best viewed as resting on the natural interpretation of or implication from the contractual arrangements giving rise to such co-insurance: </span><span style="font-style:italic;font-family:'Times New Roman'">Co-operative Retail Services Ltd v Taylor Young Partnership Ltd (&#8216;CRS&#8217;)</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2002] 1 WLR 1419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 WLR 1419</ref>, per Lord Bingham of Cornhill, para 7 (favouring the rationale suggested by Brooke LJ in the Court of Appeal [2000] 2 All ER (Comm) 865, para 72) and Lord Hope of Craighead, paras 61-65. It is merely reinforced where, as here, the principal co-insureds, owners and charterers, are in the same group and ultimate beneficial ownership. Hull insurance covers losses whether or not it is due to the fault of any party, and it is, rightly, not suggested that the principle in </span><span style="font-style:italic;font-family:'Times New Roman'">CRS</span><span style="font-family:'Times New Roman'"> is subject to any exception where the loss is due to fault: see also on this point </span><span style="font-style:italic;font-family:'Times New Roman'">Mark Rowlands Ltd v Berni Inns Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1986] QB 211" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] QB 211</ref>, 232G-233B, per Kerr LJ.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There are a number of relevant matters which arise out of the court&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">First, whether or not the parties have agreed an insurance code or fund is a matter of construction of the contract &#8211; see, for example, Lord Mance at para 114 and Lord Toulson at para 139. It is the necessary consequence of the contractual scheme which has been agreed rather than of any express words which have been used. As such, it is akin to a necessarily implied term and involves a similarly high threshold. So, for example, Lord Mance referred to it being &#8220;inconceivable&#8221; that the parties intended fundamentally to alter the agreed incidence of risk in clause 12 by allowing breach-based claims (para 117) and he rejected various of the arguments raised as being contrary to &#8220;any sensible understanding&#8221; of the evident purpose of the scheme of clause 12. Similarly, Lord Toulson referred to and relied upon reasoning that any other conclusion would be &#8220;nonsensical&#8221; (paras 140 and 141).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> Secondly, </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory </span><span style="font-family:'Times New Roman'">involved an agreement to insure in the joint names of the contracting parties. This brings into play the rule that the law does not allow an action between two or more persons who are insured under the same policy against the same risk. Whether the basis of that rule is circuity of action or the parties&#8217; contract was discussed by the House of Lords in </span><span style="font-style:italic;font-family:'Times New Roman'">Co-operative Retail Services Ltd v Taylor Young Partnership Ltd</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman';color:#000000">(&#8220;CRS&#8221;)</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="#" uk:canonical="[2002] 1 WLR 1419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 WLR 1419</ref>. As Lord Mance stated in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The Ocean Victory </span><span style="font-family:'Times New Roman';color:#000000">at para 114, the rule is &#8220;now best viewed&#8221; as resting on the parties&#8217; contract. Where the parties agree to insurance arrangements which have the legal consequence that they cannot claim against each other in respect of an insured loss, it is well understandable that that may have the necessary consequence that there is an insurance code or fund under their contract.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Most cases in which there has been held to be an insurance code or fund have involved joint names&#8217; insurance &#8211; see, for example, construction contract cases such as </span><span style="font-style:italic;font-family:'Times New Roman'">Petrofina (UK) Ltd v Magnaload Ltd </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1984] QB 127" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] QB 127</ref> and </span><span style="font-style:italic;font-family:'Times New Roman'">CRS. </span><span style="font-family:'Times New Roman'">The only authorities we have been shown where this has not featured are the landlord and tenant cases which follow </span><span style="font-style:italic;font-family:'Times New Roman'">Mark Rowlands Ltd v Berni Inns Ltd </span><span style="font-family:'Times New Roman'">(</span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Mark Rowlands&#8221;</span><span style="font-family:'Times New Roman'">) <ref href="#" uk:canonical="[1986] QB 211" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] QB 211</ref> and </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span><span style="font-family:'Times New Roman'">The landlord and tenant cases turn on the particular terms of the tenancy &#8211; see, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">Frasca-Judd v Golovina </span><span style="font-family:'Times New Roman'">[2016] EWHC 497 at para 48. These mainly have no clear parallel in the charterparty context. It is also to be noted that a key feature stressed by Kerr LJ in the </span><span style="font-style:italic;font-family:'Times New Roman'">Mark Rowlands </span><span style="font-family:'Times New Roman'">case (at pp 227-228) was that the tenant had an insurable interest in the building insured. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Thirdly, although the agreement to joint names insurance is clearly a powerful factor in favour of there being an insurance code or fund, in </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory </span><span style="font-family:'Times New Roman'">it was not treated as being decisive. Various other factors were taken into account and relied upon such as the fact that charterers were to effect all insured repairs and pay for them, and then be reimbursed by insurers; time used for repairs was to remain on hire and form part of the charter period, and, if the vessel was to become a total loss, the insurance monies were to be split between the mortgagee, owners, and charterers, in accordance with their interests. Further, clause 13 of the Barecon 89 form, which allowed for owners&#8217; insurances to be carried on if the bareboat charter was for a short period, expressly excluded rights of recovery or subrogation for loss or damage covered by the insurance. The majority considered that clause 12 was intended to operate in the same way but that it was unnecessary for equivalent wording to be included. As Lord Toulson stated at para 135: &#8220;It cannot have been the parties&#8217; intention that the charterer&#8217;s exposure to liability should be greater under clause 13, where cover against marine and war risks was to be maintained at the owner&#8217;s expense than under clause 12, where it was to be maintained at the charterer&#8217;s expense&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> Fourthly, Mr Stephen Hofmeyr KC for the cargo interests placed considerable reliance upon the judgment of Longmore LJ in the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/16" uk:canonical="[2015] EWCA Civ 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 16</ref>, [2015] 2 All ER (Comm) 894. That judgment contains a number of general statements as to when there may be held to be an insurance code or fund even in the absence of joint names insurance, including the statement at para 83 that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;the prima facie position where a contract requires a party to that contract to insure should be that the parties have agreed to look to the insurers for indemnification rather than to each other.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Hofmeyr submitted that this reasoning had been endorsed by the Supreme Court and drew attention to Lord Toulson&#8217;s statement at para 128 that he agreed &#8220;with the reasoning and conclusion of the Court of Appeal&#8221;. However, no part of the judgments of Lord Toulson and Lord Mance focuses on or endorses this obiter dictum of Longmore LJ. Their judgments do not suggest that there is any &#8220;prima facie position&#8221;. On the contrary, even in a joint names insurance case they both looked for and relied upon other contractual indicia to support the conclusion that there was an insurance fund arrangement. There is no prima facie position in these cases. It always depends upon the construction of the contract terms as a whole and the necessary consequences of what has been agreed in relation to insurance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The other shipping case in which an insurance code has in effect been held to have been agreed is the House of Lords&#8217; decision in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span><span style="font-family:'Times New Roman'">The case is best known for establishing that the safe port undertaking in a time charter relates to the prospective safety of the port at the time of the order to go there. Because the nominated port was found to be prospectively safe, the owners&#8217; unsafe port claim failed. However, the House of Lords held that it also failed on the ground that the war risks clause in the Baltime charter freed the charterers from liability under which they might otherwise have been. It was held that the complete code provided for in clause 21 was exhaustive of the owners&#8217; rights and cast upon them and their insurers all risks of unsafety arising from dangers of the nature referred to therein. The judgment does not address the issue in terms of there being an insurance code or fund but rather in terms of clause 21 being a &#8220;complete code&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">the vessel had been time chartered in November 1979 on an amended Baltime form for 18 months. Clause 2 provided that the vessel was to be employed between &#8220;safe&#8221; ports. In March 1980 the charterers ordered the vessel to load a cargo for Basrah in the Shatt-al-Arab waterway. She arrived there on 1 July 1980 but by the time that discharge was completed on 22 September hostilities had broken out between Iran and Iraq and no ship was able to leave the waterway. The arbitral tribunal held that the port did not become unsafe until 22 September, that there had been no breach by the charterers of the safe port undertaking and that the charter was frustrated on 4 October 1980. On appeal before Robert Goff J this decision was reversed on the grounds that the charterers could not rely on frustration as a defence to the owners&#8217; claim for hire as it resulted from their breach of the safe port undertaking and was self-induced. The Court of Appeal allowed the appeal from this decision and restored the award. The House of Lords dismissed the owners&#8217; appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';font-size:13pt">45.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 21 of the Baltime form as amended provided in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 21(A), unless the consent of the owners was first obtained, the vessel was not to be &#8220;ordered nor continue to any place or on any voyage nor be used on any service which will bring her within a zone which is dangerous&#8221; as the result of war and related risks.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 21(B), should the vessel &#8220;approach or be brought or ordered within such zone or be exposed in any way to the said risks&#8221; then (1) the owners were entitled to insure the vessel against such risks and the charterers were to refund the premium and (2) hire was to be paid for all time lost owing to loss or injury to the crew or their actions in refusing to proceed to such zone or be exposed to such risks.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 21(D), the vessel was to have liberty to comply with orders or directions given by the government of the vessel&#8217;s flag nation or by any person having the right to give such orders or directions under the vessel's war risk insurance.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 21(E), in the event that the vessel&#8217;s flag nation became involved in war or warlike operations both the owners and the charterers could cancel the charter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(5)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 21(F), anything done in compliance with the provisions of the clause was not to be deemed a deviation.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The leading speech was given by Lord Roskill (with which the other law lords agreed). The complete code issue is addressed in one and a half pages at the end of the speech (766A-767D). Lord Roskill cites no authorities on this issue and treats it as depending on the construction of the particular terms of the charter. In support of his conclusion that there was a complete code Lord Roskill identified at p766B-C four particular features of the charter:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1in">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8220;First, clause 21 (A) gives the owners an unqualified right to refuse to accept orders for the ship to go or to continue to any place or on any voyage or to be used in any service which will subject her to any of the dangers to which this sub-clause refers&#8221; &#8211; see also at p767A: &#8220;clause 21 gives the owners an absolute veto upon employment which will imperil the ship in the various circumstances for which clause 21 (A) provides. They can impose their own terms.&#8221; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1in">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8220;Secondly, under clause 21 (B) the owners can, in the circumstances there prescribed, insure the ship and charge the premiums to the time charterers.&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1in">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8220;Thirdly, notwithstanding the off-hire clause (clause 11 (A)) the ship is to stay on-hire in the circumstances predicated in clause 21 (B) (2).&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1in">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8220;Fourthly, whereas clause 2 bears the rubric &#8216;trade&#8217;, clause 21 bears the rubric &#8216;war&#8217; and it is permissible to consider these rubrics when construing these various clauses</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">.</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Lord Roskill further relied upon the &#8220;remarkable result&#8221; which he considered would otherwise follow, commenting as follows at p766D-F:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;My Lords, whether clause 21 is a complete code and thus exhaustive of the owners&#8217; rights depends upon the construction of the time charterparty as a whole. But if the owners are right that clause 21 leaves the time charterers' obligations under clause 2 in full force and effect, one remarkable result follows. The time charterers are to repay to the owners the premiums for the extra insurance, including extra war risk insurance premiums. But if the dangers, against the risks on which they have paid those premiums, materialise and cause loss or damage to the ship, then war risk insurers, upon payment of the relevant claim, become subrogated to the owners' rights against the time charterers for the assumed breach of clause 2. My Lords, this result would no doubt be highly attractive to war risk insurers but the less fortunate time charterers would have paid the premiums not only for no benefit for themselves but without shedding any of the liabilities which clause 2 would, apart from clause 21, impose upon them. Of course, duplication of rights of recovery is not unknown. Indeed, it is because of such duplication that subrogation rights can be enforced.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">remains the only time charter case in which there has in effect been held to be an insurance code or fund. In all other reported cases in which such an argument has been raised it has been rejected &#8211; see </span><span style="font-style:italic;font-family:'Times New Roman'">St Vincent Shipping Co Ltd v Bock, Godeffroy &amp; Co (The Helen Miller), </span><span style="font-family:'Times New Roman'">[1980] </span><span style="font-family:'Times New Roman';color:#000000">2 Lloyd&#8217;s Rep 95</span><span style="font-family:'Times New Roman'"> (Mustill J); </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">D/S Idaho v Colossus Maritime SA (The Concordia Fjord),</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="#" uk:canonical="[1984] 1 Lloyd's Rep 385" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] 1 Lloyd&#8217;s Rep 385</ref> (Bingham J) and </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Pearl Carriers Inc v Japan Line Ltd (The Chemical Venture),</span><span style="font-family:'Times New Roman';color:#000000"> [1993] 1 Lloyd&#8217;s</span><span style="font-family:'Times New Roman'"/><span style="font-family:'Times New Roman';color:#000000">Rep 508 (Gatehouse J). These cases make it very clear that the mere fact that charterers pay an extra insurance premium is not enough to create an insurance code or fund.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Helen Miller </span><span style="font-family:'Times New Roman'">was decided before </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span><span style="font-family:'Times New Roman'">It was cited in argument in the House of Lords but was not commented upon by Lord Roskill. It concerned a time charter on an amended New York Produce Exchange form under which the charterers were to have liberty to trade the vessel outside Institute Warranty Limits on payment of extra insurance. The charterers paid the premium for doing so and the vessel suffered ice contact damage as a result of trading to ports within the St Lawrence system which lay outside those limits. Mustill J rejected the charterers&#8217; argument that it would be &#8220;absurd&#8221; to hold them liable in respect of the risks against which the extra premium was supposed to give protection as that would be paying premium for no benefit. At p 101RHC Mustill J stated as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Next it was argued that it would be absurd to hold that the charterers retain responsibility for the risks inherent in trading outside the area, since this would leave them liable in respect of the very risk against which the extra premium was supposed to give protection, so that they would be paying the premium for nothing. Although this argument is attractive at first sight, it is, in my judgment, unsound. If there were no extra insurance the owner could not safely accept an order for a voyage outside the limits, for he would be trading his ship uninsured. Nor would he ordinarily have any incentive to pay the premium himself, so as to be able to accept such an order. But when the charterer agrees to pay the extra premium the position is different, and the owner carries neither the risk nor the financial burden of widening the trading limits. Thus by paying the premium the charterer does obtain a benefit - the benefit of being able to send the ship on a voyage which the owner would not otherwise allow her to perform. But this is not at all the same as saying that the charterer thereby obtains the right to send her on such a voyage risk-free.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Concordia Fjord </span><span style="font-family:'Times New Roman'">was decided after </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">and distinguished it. It involved a time charter on an amended New York Produce Exchange form which included an additional clause which provided that any additional war risk premium which was payable because of the areas to which the charterers ordered the vessel was to be for the charterers&#8217; account. In reliance upon </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">it was argued that the effect of this additional clause was to relieve the charterers from liability for breach of the safe port undertaking in circumstances where the unsafety arose by reason of war risks for which premium had been paid by them. This argument was rejected by the sole arbitrator, the renowned shipping lawyer Mr Robert MacCrindle QC, and the appeal from his decision was dismissed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In his judgment Bingham J identified the four features of the charterparty in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">upon which Lord Roskill had placed particular significance, as set out in para 46 above. He then considered to what extent those features were present in the charterparty he was considering in </span><span style="font-style:italic;font-family:'Times New Roman'">The Concordia Fjord</span><span style="font-family:'Times New Roman'">. He concluded that they were wholly or partly absent and that in those circumstances he could not spell out the complete code contended for.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In relation to the payment of premium Bingham J observed as follows at p 387LHC:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;although the owners here are entitled under cl 49 to pay increased war risk premiums and recover these from the charterers, as the owners of </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia </span><span style="font-family:'Times New Roman'">were under cl 21 (B), cl 49 does not, as cl 21 (B) expressly did, apply to loss of hire and should not be construed as doing so (Marine Insurance Act, 1906, s 55 (2) (b)).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumberApproved"><span style="font-family:'Times New Roman'">(Under s 55(2)(b) the insurer is not liable for delay unless the policy otherwise provides).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He further stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Thirdly, there is no provision here, as there was in cl 21 (B) (2) of </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia </span><span style="font-family:'Times New Roman'">charter-party, that the vessel is to remain on hire despite loss of time as a result of exposure to war risks. Fourthly, the present charter-party does not have rubrics such as &#8216;trade&#8217; and &#8216;war&#8217; suggestive of an intention to codify.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He also expressed agreement with the following passage from the award and thereby with the statement, with which I agree, that there is no &#8220;principle exempting the Charterers from liability for their breaches of contract merely on the ground that they have directly or indirectly provided the funds whereby the Owners insured themselves against such damage&#8221;:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is true, of course, that this could mean that in a case where the Charterers ordered the vessel to a port which was unsafe by reason of war risks prevailing there, so that she thereby suffered damage, the Charterers would not only foot any bill for extra insurance premiums but would also effectively foot the bill of the insurers covering the risk for which the extra premium was paid. But I am not aware of any principle exempting the Charterers from liability for their breaches of contract merely on the ground that they have directly or indirectly provided the funds whereby the Owners insured themselves against such damage. The owners of a vessel on time charter for a number of years commonly look to the hire paid by her charterers as the source of funds for the premiums by which they (the owners) purchase the insurances on her hull. This does not give the charterers immunity from claims under the charterparty arising out of damage sustained by the vessel. It is no defence for them merely to say that such damage was caused by an insured peril, for the insured peril may have stemmed from their breach of charterparty. I see no difference in principle between the case of a charterparty whereunder charterers agree to pay by way of hire $3300 per day, leaving the owners to bear (inter alia) the cost of the vessel's insurance amounting to $100 per day; and the case of a charterparty whereunder charterers agree to pay by way of hire $3200 per day plus the cost ($100 per day) of the vessel's insurances. In neither case are the charterers assured. In each case the insurance premiums are paid to underwriters by or on behalf of the owners. In each case the total consideration paid by the charterers for the use of the vessel is $3300 per day. If all other clauses of the respective charterparties are identical that which would be a breach by the charterers in the one should equally be a breach in the other.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">His conclusion was that the construction of each charterparty must turn on consideration of its own detailed terms and that the award was not inconsistent with either the reasoning or the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Chemical Venture </span><span style="font-family:'Times New Roman'">concerned a five year time charter on an amended Shelltime 3 form. The vessel was ordered to load at Mina Al Ahmadi in Kuwait during the course of the Iran/Iraq war and was severely damaged after being hit by a missile in the approach channel to the terminal. The charter contained a &#8216;War Risks&#8217; clause and a &#8216;War Insurance&#8217; clause under which additional war risk premia were for charterers&#8217; account. In reliance upon </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">it was argued that the war risks clauses in the charter were an exhaustive code of the owners&#8217; rights in the event of any unsafety arising from the risks and dangers of war. This argument was rejected. Gatehouse J concluded that the terms of the charter were comparable to those considered in </span><span style="font-style:italic;font-family:'Times New Roman'">The Concordia Fjord </span><span style="font-family:'Times New Roman'">and materially different from those in the charter in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Application of the law to the charter</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';font-size:13pt">57.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The following general considerations are of relevance:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">General average is a common law right, albeit one regulated by the contract. For the shipowner to be held to have given up such a valuable right in relation to well-known kidnap and ransom risks requires a clear agreement to that effect &#8211; see, for example, </span><span style="font-style:italic;font-family:'Times New Roman';color:#242021">Gilbert-Ash (Northern) Ltd v Modern Engineering (Bristol) Ltd </span><span style="font-family:'Times New Roman';color:#242021"><ref href="#" uk:canonical="[1974] AC 689" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] AC 689</ref>, 717.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">To establish that the parties have agreed an insurance code or fund it has to be shown that this is a necessary consequence of what has been agreed &#8211; that is a high threshold.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This is not a case of joint names insurance.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';color:#242021;font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#242021">There is no principle </span><span style="font-family:'Times New Roman'">exempting charterers from liability for their breaches of contract or in general average merely on the ground that they have directly or indirectly provided the funds whereby the owners insured themselves against the relevant loss or damage.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#242021">Since the only non-joint names insurance shipping case in which there has in effect been held to be an insurance code is </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2)</span><span style="font-family:'Times New Roman'">, a critical question is whether or not the charter is materially different or distinguishable from the time charter in that case</span><span style="font-style:italic;font-family:'Times New Roman'">. </span><span style="font-family:'Times New Roman'">As in </span><span style="font-style:italic;font-family:'Times New Roman'">The Concordia Fjord</span><span style="font-family:'Times New Roman'">, this question should be considered by reference to the four features of significance identified by Lord Roskill and the &#8220;remarkable result&#8221; which he considered would otherwise follow.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';font-size:13pt">59.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Hofmeyr submitted that the war risks regime in the charter is materially indistinguishable from that in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">and that, if anything, it is a more sophisticated and comprehensive regime than clause 21 of the Baltime form. In relation to the four features of significance he submitted:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Much like clause 21(A), clause 39 provides the shipowner with sweeping rights and liberties to cancel, or substantially vary performance of, the charter (and hence the bills of lading contracts) if faced with war risks at any point during the various phases of the contractual voyage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Much like clause 21(B)(1), the Gulf of Aden clause and the War Risk clause make it clear that the shipowner can charge to their contractual counterparts the additional premia for insuring the ship before exposing it to war risks in areas that would not otherwise be covered by their basic insurance.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Much like Clause 21(B)(2), clause 39 makes provision for the shipowner to be paid for the charter service, even when they exercise their rights and liberties under the &#8220;war risks&#8221; regime. As the charter is a voyage charter (and the bill of lading contracts likewise cover a single laden voyage), that provision is necessarily more complicated than merely stipulating that hire shall continue to be paid, but nevertheless provision is made, for example, for freight to be paid even when the voyage originally planned is not completed or is completed in a different manner, and for the shipowner to be remunerated in respect of time lost and expense incurred.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Just like Clauses 2 and 21, the clauses making up the war risks regime bear the rubric of &#8220;War Risks&#8221; (and &#8220;Gulf of Aden&#8221;) in contrast to the routine clauses covering, for example, general average. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He further submitted that it would be an equally &#8220;remarkable result&#8221; if the charterer, or counterparties under the bills of lading, were to be liable for the additional war risk and K&amp;R premia, not only for no benefit for themselves, but without shedding any of the liabilities to contribute in general average to expenses and costs covered by that additional war risk and K&amp;R insurance. This is even more so where, as here, the liability would be one that involves no fault or breach of contract on the part of the charterer, or the holders</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">of the bills of lading. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The significance of the first feature depends upon whether the cargo interests are correct to contend that clause 39 confers an &#8220;unqualified right&#8221; and an &#8220;absolute veto&#8221; comparable to that of clause 21 of the Baltime form. Whilst clause 39 is expressed in broad and unqualified terms, it has to be construed in its contractual context and against the background of the circumstances existing at the date of the charter. Those circumstances included the &#8220;well known&#8230;risk of piratical attack and seizure for ransom&#8221; inherent in transiting the Gulf of Aden, and the agreement, in the light of those known piracy risks, that the contractual voyage would be &#8220;via Suez&#8221;, which would necessarily take the vessel through the Gulf of Aden, and the detailed agreement between the parties as to the terms upon which the vessel was to transit the Gulf of Aden. Those terms involved a sharing of costs and risks between the shipowner and the charterer (half time against laytime and demurrage; 50/50 sharing of additional costs, time and bunkers resulting from deviation; the charterer being liable for additional premia and crew bonuses subject to a cap). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Against the background of that specially agreed contractual regime for the known piracy risks of transiting the Gulf of Aden I do not consider that it would have been open to the shipowner to contend that such risks were &#8220;war risks&#8221; for the purposes of clause 39. Having agreed the vessel&#8217;s route and the terms upon which the Gulf of Aden would be transited neither the shipowner nor the master could then turn round and say that they had changed their mind and were no longer willing to take on the known piracy risk of transiting the Gulf of Aden on the terms agreed. If different war risks materialised in the Gulf of Aden or there was a change in the nature of the piracy risk, or a change in its degree sufficient to make it qualitatively different, then it may be that clause 39 could be relied upon, but not if there was no change in risk. In the present case there is no suggestion or finding that the piracy risk changed at any time from that known and contemplated at the time that the charter was agreed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Times New Roman';font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A similar issue arose in </span><span style="font-style:italic;font-family:'Times New Roman'">Abu Dhabi National Tanker Co v Product Star Shipping Ltd (The Product Star) </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1993] 1 Lloyd's Rep 397" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 Lloyd&#8217;s Rep 397</ref>. In that case a time charter was concluded at a time when it was well known that the Arabian Gulf was exposed to war risks as a result of the Iran/Iraq war. It was a term of the charter that any extra premiums due to trading to the Arabian Gulf were to be for the charterers&#8217; account. It was also a term of the charter that the master or owners had a discretion to refuse to proceed to a port of loading if it was considered dangerous to do so. The vessel was ordered to proceed to load at Ruwais in the Arabian Gulf but the owners refused to do so on the grounds that they considered entry there to be dangerous. At first instance (<ref href="#" uk:canonical="[1991] 2 Lloyd's Rep 468" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 2 Lloyd&#8217;s Rep 468</ref>) HHJ Diamond QC held that it was necessary to have regard to the standards and circumstances which existed at the date of the charter, that the charter entitled the charterers to order the vessel to ports which at the date of the charter were situated in the war zone, that the additional war risk premium was the agreed price for the right to be able to do so, that the owners could not exercise their discretion to refuse to proceed if the risks of doing so were no more extensive than they were at the date of the charter, and that there was no material upon which a reasonable owner could have considered that the risk of proceeding to Ruwais was a different risk from that which existed at the date of the charter which the owners had accepted. In those circumstances the owners&#8217; refusal to proceed was held to be a repudiatory breach of the charter. That decision was upheld on appeal. Leggatt LJ held that at the time when the charter was made the whole of the Arabian Gulf was a war zone and that the owners were accepting that in the circumstances prevailing at the date of the charter the risks of proceeding there were not such as would render their discretion exercisable (p 404-405). Similarly, in the present case, at the time of the charter the shipowner was accepting that the known piracy risk in the Gulf of Aden was not such as would render its liberties under clause 39 exercisable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Times New Roman';font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">Taokos Navigation SA v Komrowski Bulk Shipping KG </span><span style="font-family:'Times New Roman'">(</span><span style="font-style:italic;font-family:'Times New Roman'">The Paiwan Wisdom</span><span style="font-family:'Times New Roman'">) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/1888" uk:canonical="[2012] EWHC 1888 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 1888 (Comm)</ref>, <ref href="#" uk:canonical="[2012] 2 Lloyd's Rep 416" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 Lloyd&#8217;s Rep 416</ref> concerned a time charterparty which contained the CONWARTIME 2004 clause, which provided that the owners may refuse to proceed to a place which is dangerous on account of a war risk, and a trading limits clause which stated that &#8220;Passing Gulf of Aden always allowed with H&amp;M insurance authorisation&#8221;. Having been referred to </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">Teare J held </span><span style="font-style:italic;font-family:'Times New Roman'">obiter </span><span style="font-family:'Times New Roman'">that the owners were not entitled to refuse to pass through the Gulf of Aden in reliance on their rights under the CONWARTIME 2004 clause. He stated as follows at para 17:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The words &#8216;Passing Gulf of Aden always allowed with H&amp;M insurance authorization&#8217; in clause 50 indicate the Owners&#8217; agreement to pass through the Gulf of Aden. The Owners would therefore not be entitled to refuse, pursuant to CONWARTIME 2004, to pass through the Gulf of Aden on account of there being a danger of an attack by pirates. That is because CONWARTIME 2004 must be read in the light of the charterparty as a whole. Clause 50 contains an express agreement to pass through the Gulf of Aden and so it would be inconsistent with that express agreement to construe CONWARTIME 2004 in such a way as to permit the owners to refuse to pass through the Gulf of Aden.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Times New Roman';font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the present case the shipowner, in the context of well-known piracy risks, has agreed to pass through the Gulf of Aden on the terms set out in the Gulf of Aden clause. It would similarly be inconsistent with that express agreement to construe clause 39 in such a way as to permit the shipowner to refuse to transit the Gulf of Aden on account of such piracy risks.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Times New Roman';font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Hofmeyr submitted that even if an increased or different level of risk was required to trigger the right to exercise the liberties contained in clause 39, those remained sweeping rights and so it remains a feature of significance. In such circumstances, however, the &#8220;unqualified right&#8221; or &#8220;absolute veto&#8221; which Lord Roskill stressed and relied upon is not present. Alternatively, Mr Hofmeyr submitted that </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">was wrong and should not be followed. In particular, he submitted that (1) the Court of Appeal failed to give sufficient weight to the nature of war risks and the fact that they involve danger to life and limb; (2) it results in the severe practical difficulty of needing to determine when there is a sufficient change in the nature or degree of risk for clause 39 to be relied upon; (3) the Court of Appeal did not consider the analogy with safe port cases in which it has been held that there is no inconsistency between agreeing to go to a named port and a warranty that that port is safe, and (4) there are no cases in which </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">has been followed. I reject these submissions. As to (1), there is no reason to suppose that the Court of Appeal was unaware of the nature of war risks and their potential consequences, which are self-evident. As to (2), there is no difficulty in identifying a war risk which is different in nature from piracy risk. If an increased degree in piracy risk may in extreme cases be sufficient to amount to a change in risk, that too should be reasonably straightforward to identify. As to (3), in the safe port cases the essential reasoning of the courts is that there is no inconsistency between agreeing to go to a named port and expressly agreeing to a safe port warranty. The present case, however, is a case of inconsistency, as Teare J explained in </span><span style="font-style:italic;font-family:'Times New Roman'">The Paiwan Wisdom</span><span style="font-family:'Times New Roman'">. Where special terms are agreed for transiting the Gulf of Aden in the light of well-known piracy risks it would be inconsistent for the shipowner to be allowed to rely on its rights under clause 39 to refuse to do so on the basis of those same risks. As to (4), there may be many reasons why this may be so, including that </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">has been accepted as being correct without the need for litigation. In any event, </span><span style="font-style:italic;font-family:'Times New Roman'">The Paiwan Wisdom </span><span style="font-family:'Times New Roman'">is an example of the same approach being adopted. Finally, Mr Hofmeyr submitted that </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">should be distinguished on the grounds that the additional premium was there payable on delivery, but that is a distinction without a difference.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Times New Roman';font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is not necessary to rely on </span><span style="font-style:italic;font-family:'Times New Roman'">The Product Star </span><span style="font-family:'Times New Roman'">in order to conclude that the charter should be construed as set out in para 62 above. However, I consider that the reasoning and decision in that case support that construction, as do Teare J&#8217;s </span><span style="font-style:italic;font-family:'Times New Roman'">obiter</span><span style="font-family:'Times New Roman'"> observations in </span><span style="font-style:italic;font-family:'Times New Roman'">The Paiwan Wisdom. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Times New Roman';font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For all these reasons, the shipowner did not have an &#8220;unqualified right&#8221; or &#8220;absolute veto&#8221; under clause 39 in relation to the transit of the Gulf of Aden. Further, the charterer was getting a very real benefit from agreeing to the terms of the Gulf of Aden clause and to paying additional insurance premia, namely the foregoing of the shipowner&#8217;s liberties under clause 39 in respect of the known piracy risks of transiting the Gulf of Aden. The first feature of significance relied upon by Lord Roskill in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">is therefore of little weight in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Times New Roman';font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The second feature relied upon is the obligation on the charterers to pay additional war risk premium. That is a factor which points towards there being an insurance code or fund and a powerful factor if there is to be joint insurance, but that is not this case. </span><span style="font-style:italic;font-family:'Times New Roman'">The Helen Miller, The Concordia Fjord </span><span style="font-family:'Times New Roman'">and </span><span style="font-style:italic;font-family:'Times New Roman'">The Chemical Venture</span><span style="font-family:'Times New Roman'"> show that this is by no means a determinative factor, nor was it so treated in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2)</span><span style="font-family:'Times New Roman'">. Further, in this case there was a cap on the amount of premium which the charterer was obliged to pay and so there could have been a sharing of cost, as in relation to a number of the other matters covered by the Gulf of Aden clause.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Times New Roman';font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The third feature is the additional obligations which may fall on the charterer if the shipowner exercises its rights under clause 39. However, for the reasons given above, there were no such rights in respect of the known piracy risks of transiting the Gulf of Aden. Even if there were such rights, the consequent obligations imposed on the charterer would not be comparable to the additional liability assumed by the charterers under clause 21 of the Baltime form. Under the standard off-hire clause in the Baltime form the vessel would have been off-hire if the working of the vessel had been prevented by loss of crew or by their refusal to proceed into or in the war zone. Under clause 21(B) hire was to be paid for all time lost in such circumstances and the off-hire clause was disapplied. Under clause 39 there is no equivalent time lost liability on charterers if war risks materialise and the vessel is delayed thereby. The cargo interests seek to rely on the shipowner&#8217;s right to be paid additional freight in the event of the exercise of the right to divert the vessel under clause 39. </span><span style="font-family:'Times New Roman';color:#000000">That does not, however, address delay in the war risk zone. Nor does it disapply an otherwise contrary position. It echoes the similar rights to be paid pro rata for the provision of additional services by the shipowner outside a war risks context &#8211; see, for example, BPVOY 4 form clauses 22 (revised orders), 28.3 (ice diversion) and 31.3 (freight for additional ports).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Times New Roman';font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The fourth feature relates to the rubric of the clauses, but it is difficult to see how this can be a factor of much weight. If any rubric is of significance it is that of the Gulf of Aden clause which highlights the special agreement reached in relation to the specific known risks of transiting that war risk area.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Times New Roman';font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As to the &#8220;remarkable result&#8221; referred to by Lord Roskill, this was premised upon his conclusion that (1) the charterers would otherwise obtain no benefit from the payment of the additional premium and (2) they would do so in circumstances where they were undertaking a significant additional burden (in relation to the disapplication of the off-hire clause). For the reasons given above, neither consideration applies here. The charterer obtains the significant benefit of being entitled to transit the Gulf of Aden on the terms specially agreed notwithstanding the wide rights which would otherwise arise under clause 39. Further, there is no obligation assumed by the charterer equivalent to that in relation to hire under clause 21(B) of the Baltime form.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Times New Roman';font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For all these reasons I consider that the terms of the charter are materially different to those of the Baltime charter in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2). </span><span style="font-family:'Times New Roman'">In my judgment the decision in that case can and should be distinguished. It provides no support for there being an insurance code or fund in the charter. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Times New Roman';font-size:13pt">74.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The decision in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">turned on the particular terms of the charter in that case. It did not purport to establish any general principle, nor did it do so. In my judgment tribunals should be cautious before concluding that the reasoning and decision in </span><span style="font-style:italic;font-family:'Times New Roman'">The Evia (No 2) </span><span style="font-family:'Times New Roman'">should be followed in relation to differently termed charters. Aside from the general considerations set out at para 57 above, my reasons for so stating are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">English commercial law in general and shipping law in particular recognises the importance of certainty and predictability and fosters it so far as it can.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Leaving aside cases of joint insurance such as </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory, </span><span style="font-family:'Times New Roman'">the search for an insurance code or fund in a charterparty necessarily introduces uncertainty. No express code or fund has been established and it is a question of seeking to infer it from a consideration of the charterparty terms as a whole. This is a difficult exercise which is likely to require the input of lawyers, if not arbitration or mediation.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If parties wish to provide that there be no right of recovery or subrogation in respect of loss or damage covered by insurance that can be easily stated &#8211; as clause 13 of the Barecon 89 form illustrates.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The practical difficulties which may arise are illustrated by a consideration of the position of insurers. Whether or not they are to have rights of subrogation is likely to be material to their rating of the risk as it increases the risk of loss borne by them. Disclosure may, however, give rise to difficult issues. For example, it may be very unclear whether the subrogation position is known to the insured in circumstances where it all depends upon implications to be drawn from the terms of the charter. Similarly, if disclosure is sought to be met by providing a copy of the charter, whether that is full and fair disclosure must be questionable in circumstances where it says nothing expressly about subrogation rights. If no effective insurance cover were provided then issues would arise as to whether in such a case there is any code, and difficult questions might also arise if the insurance did not fully cover the losses suffered by the shipowner.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Times New Roman';font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For all these reasons, in my judgment there was no insurance code or fund agreed in the charter. The cargo interests&#8217; case therefore falls at the first hurdle. There was no insurance code which could be incorporated into the bill of lading contracts. Nevertheless, since the case was decided below on the basis that there was or was assumed to be an implicit understanding that the charter contained such a code, I shall address the further issues on that assumed basis, as the Court of Appeal did.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue </span><span style="font-family:'Times New Roman'">(2) - </span><span style="text-transform:none;font-family:'Times New Roman'">whether all material parts of those clauses were incorporated into the bills of lading</span></p>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Times New Roman';font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> There is a large body of case law relating to the incorporation of charterparty terms into bills of lading. Abundant citation of authority should, however, be discouraged.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Times New Roman';font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A helpful and succinct summary of the relevant principles is to be found in </span><span style="font-style:italic;font-family:'Times New Roman'">Scrutton on Charterparties </span><span style="font-family:'Times New Roman'">24</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> ed (2020) at paras 6-016 to 6-018, as cited by Males LJ in the Court of Appeal:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;It appears that in order to ascertain which, if any, terms of the charter are incorporated into the bills, an enquiry in three stages must be carried out:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The incorporating clause in the bill of lading must be construed in order to see whether it is wide enough to bring about a prima facie incorporation of the relevant term. General words of incorporation will be effective to incorporate only those terms of the charterparty which relate to the shipment, carriage or discharge of the cargo or the payment of freight. Which of those terms are incorporated into the bill depends on the width of the incorporating provision. Where specific words of incorporation are used, they are effective to bring about a prima facie incorporation even if the term in question does not relate to shipment, carriage or discharge, and even if some degree of manipulation is required. Further, on the modern approach, specific words of incorporation in the bill of lading may be sufficient to incorporate a term in the charterparty which it was clearly intended to incorporate, even if the term does not literally fall within the incorporating words, if it is clear that something has gone wrong with the language. Where the intention is doubtful, the court will not hold that the term is incorporated. If the incorporating clause in the bill of lading is not wide enough of its own to bring about a prima facie incorporation of the relevant term, then (semble) it will not be permissible to have regard to the terms of the charterparty in order to effect an incorporation which would otherwise fail.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If it is found that the incorporating clause is wide enough to effect a prima facie incorporation, the term which is sought to be incorporated must be examined to see whether it makes sense in the context of the bill of lading; if it does not, it must be rejected. This process should be performed intelligently and not mechanically, and must not be allowed to produce a result which flouts common sense. Where the term relates to shipment, carriage or delivery, some degree of manipulation is permissible to make its words fit the bill of lading, but not where the term relates to other matters. Where the intention to incorporate a specific clause is particularly clear, a greater degree of manipulation will be permitted. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where there is an incorporation which is prima facie effective, the term in question must be examined to see whether it is consistent with the express terms of the bill. If it is not, it will be rejected, although terms of the charterparty which are not incorporated for this reason may nevertheless negate the implication of terms which might otherwise be implied into the bill of lading.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Times New Roman';font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I agree with the further comments made by Males LJ at para 34:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;As the Supreme Court has explained, construction of contracts is a single &#8216;iterative&#8217; process. That means, in this context, that while it is convenient to approach the issue by reference to the sequence of steps described in </span><span style="font-style:italic;font-family:'Times New Roman'">Scrutton</span><span style="font-family:'Times New Roman'">, these should not be too rigidly applied. Moreover, it is important at each subsequent stage to be prepared to revisit a conclusion reached at an earlier stage, and to stand back at the end of the process to test the conclusion reached against the terms of the contract and business common sense. In this regard </span><span style="font-style:italic;font-family:'Times New Roman'">Scrutton&#8217;</span><span style="font-family:'Times New Roman'">s reference to &#8216;prima facie incorporation&#8217; is helpful as indicating that, at each preliminary stage, the conclusion reached can be no more than provisional.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Times New Roman';font-size:13pt">79.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I also agree that the three features of a bill of lading contract which he identifies in para 35 are relevant to issues of incorporation. These are:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Bills of lading are negotiable instruments and the contractual rights and obligations thereunder may be transferred down a chain of contracts to the ultimate receiver.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8220;Bills of lading on a single voyage may be for different cargoes and may be negotiated to a variety of receivers, who may be located in different discharge ports or even different countries. When the bill of lading contract is concluded, the identity of the receivers and the proposed discharge port(s) may not be known and, even if they are, plans may have changed by the time the vessel arrives at its destination.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The &#8220;cargo interests may have no knowledge of the charterparty terms and no ready means of finding out what they are when they have to decide whether to accept negotiation of the documents under their purchase contracts.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Times New Roman';font-size:13pt">80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I would also make the following general observations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Times New Roman';font-size:13pt">81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">First, what matters are the incorporating words in the bill of lading, not provisions relating to incorporation which may be found in the charter. If the incorporating clause in the bill of lading is not sufficient to incorporate the provision in question, then that is the end of the inquiry. This is clearly stated and explained in the Court of Appeal decisions in </span><span style="font-style:italic;font-family:'Times New Roman'">Skips A/S Nordheim v Syrian Petroleum Co and Petrofina SA (The Varenna)</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1984] QB 599" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] QB 599</ref> and </span><span style="font-style:italic;font-family:'Times New Roman'">Federal Bulk Carriers Inc v C Itoh &amp; Co Ltd </span><span style="font-family:'Times New Roman'">(</span><span style="font-style:italic;font-family:'Times New Roman'">The Federal Bulker) </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1989] 1 Lloyd's Rep 103" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] 1 Lloyd&#8217;s Rep 103</ref>; see also </span><span style="font-style:italic;font-family:'Times New Roman'">Siboti K/S v BP France SA </span><span style="font-family:'Times New Roman'">(</span><span style="font-style:italic;font-family:'Times New Roman'">The Siboti</span><span style="font-family:'Times New Roman'">)</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2003/1278" uk:canonical="[2003] EWHC 1278 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWHC 1278 (Comm)</ref>, <ref href="#" uk:canonical="[2003] 2 Lloyd's Rep 364" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 2 Lloyd&#8217;s Rep 364</ref>, paras 26 to 29 (Gross J) and </span><span style="font-style:italic;font-family:'Times New Roman'">Caresse Navigation Ltd v Office National de l&#8217;Electricite (The Channel Ranger) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1366" uk:canonical="[2014] EWCA Civ 1366" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1366</ref>, <ref href="#" uk:canonical="[2015] QB 366" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] QB 366</ref>, para 22 (Beatson LJ). As stated by Oliver LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">The Varenna </span><span style="font-family:'Times New Roman'">at p 618G-H:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;the primary consideration which must govern any approach to the problem is that the document which falls to be construed is the bill of lading, and not the charterparty. It may well be that, once having arrived at a conclusion that, as a matter of construction of the bill of lading, there fall to be incorporated referentially clauses of a particular type or description in the charterparty, it will then become necessary to construe the charterparty in order to see whether particular terms do or do not fall within that type or description. But the initial task must be to look at the bill of lading and at that document alone to see what its terms are and then, so far as it purports to include the terms of some other document by reference, to ascertain what are the terms so included.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">To the extent that the Court of Appeal decisions in </span><span style="font-style:italic;font-family:'Times New Roman'">TB&amp;S Batchelor &amp; Co Ltd v Owners of the SS Merak</span><span style="font-family:'Times New Roman'"> (The Merak) <ref href="#" uk:canonical="[1965] P 223" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1965">[1965] P 223</ref> and </span><span style="font-style:italic;font-family:'Times New Roman'">Owners of the Annefield v Owners of Cargo Lately Laden on Board the Annefield</span><span style="font-family:'Times New Roman'"> (The Annefield) <ref href="#" uk:canonical="[1971] P 168" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] P 168</ref> suggest that the charterparty terms are relevant to this inquiry, the approach adopted in The Varenna and The Federal Bulker is the more principled and is to be preferred.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Times New Roman';font-size:13pt">82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Secondly, many cases state that general words of incorporation only incorporate provisions of the charter which are &#8220;germane&#8221; to the shipment, carriage and delivery of the goods, or the payment of freight, under the bill of lading. It was submitted that this is archaic language and that a more current term should be used. I do not agree. It remains an apt term but if any tribunal would prefer to use a synonym I would suggest referring to provisions which &#8220;directly relate&#8221; to shipment, carriage and delivery of the cargo, or the payment of freight, provided that it is understood that no change in meaning is intended thereby. What matters is the function and significance of this established rule rather than the precise verbal formula used to describe it,</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Times New Roman';font-size:13pt">83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The principal significance of the established rule that general words only incorporate provisions which directly relate to shipment, carriage and delivery of the cargo, or the payment of freight, is that this excludes ancillary agreements such as an arbitration clause or a jurisdiction clause. To that extent the law of incorporation in the bill of lading context may differ to the law of incorporation in contract more generally, but that can be explained and justified by the negotiable nature of a bill of lading and the background features referred to in para 79 above. In any event, as Bingham LJ explained in </span><span style="font-style:italic;font-family:'Times New Roman'">The Federal Bulker </span><span style="font-family:'Times New Roman'">at p 105:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;</span><span style="font-family:'Times New Roman'">The importance of certainty in this field was emphasized by Lord Denning MR in </span><span style="font-style:italic;font-family:'Times New Roman'">The Annefield, </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1971] 1 Lloyd's Rep 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] 1 Lloyd's Rep 1</ref> at p 3, col 2; <ref href="#" uk:canonical="[1971] P 168" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] P 168</ref> at p 183G, by Sir John Donaldson MR in </span><span style="font-style:italic;font-family:'Times New Roman'">The Varenna </span><span style="font-family:'Times New Roman'">at p 594, col 2, and by Lord Justice Oliver in the same case at p 597 col 2. This is indeed a field in which it is perhaps preferable that the law should be clear, certain and well understood than that it should be perfect. Like others, I doubt whether the line drawn by the authorities is drawn where a modern commercial lawyer would be inclined to draw it. But it would, I think, be a source of mischief if we were to do anything other than try to give effect to settled authority as best we can.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Times New Roman';font-size:13pt">84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Thirdly, aside from ancillary agreements, the incorporation only of terms which are directly relevant to shipment, carriage and delivery of the cargo, or the payment of freight, will exclude provisions which are inapplicable in the bill of lading context (such as provisions which relate to the approach voyage or to matters after the completion of discharge) and provisions which make no sense in the bill of lading context (such as provisions relating to hire if the relevant charterparty is a time charter). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Times New Roman';font-size:13pt">85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Fourthly, where specific words of incorporation are used a degree of manipulation of the relevant clause in the charterparty will be appropriate so as to give effect to the parties&#8217; expressed intention. So, for example, if the bill of lading states that &#8220;all terms, conditions, and exceptions including the arbitration clause of the charterparty are incorporated&#8221; then the arbitration clause of the charterparty will be incorporated even if it only refers to disputes between owners and charterers and its language has to be adapted to refer to bill of lading holders &#8211; see, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">Pride Shipping Corpn v Chung Hwa Pulp Corpn (The Oinoussin Pride) </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1991] 1 Lloyd's Rep 126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 1 Lloyd&#8217;s Rep 126</ref>. The same result would be likely to follow if the bill of lading purported specifically to incorporate the arbitration clause in the charterparty but gave it the wrong clause number. If such an issue were to arise, I agree with the comments made by the Beatson LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">The Channel Ranger </span><span style="font-family:'Times New Roman'">at paras 36 to 38 as to why the reasoning of Sellers LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">The Merak </span><span style="font-family:'Times New Roman'">is to be preferred to that of the majority of the court in that case</span><span style="font-style:italic;font-family:'Times New Roman'">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Times New Roman';font-size:13pt">86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Fifthly, where general words of incorporation are used some degree of manipulation may be permissible of terms which directly relate to shipment, carriage and delivery of the cargo, or the payment of freight, in order to make the wording fit the bill of lading but there is no rule of construction to this effect &#8211; see </span><span style="font-style:italic;font-family:'Times New Roman'">Miramar Maritime Corpn v Holborn Oil Trading Ltd (The Miramar) </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1984] AC 676" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] AC 676</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Times New Roman';font-size:13pt">87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Finally, in the cargo interests&#8217; written case it was submitted that the case law on the incorporation of charterparty terms into bills of lading was &#8220;dated&#8221; and that it should be brought &#8220;into the modern era of interpreting contracts&#8221;. This submission was not developed orally. For reasons already given, the law involves an appropriately iterative approach and, as Gross J explained in </span><span style="font-style:italic;font-family:'Times New Roman'">The Siboti </span><span style="font-family:'Times New Roman'">at paras 34 to 35, it is not &#8220;hidebound, antiquated or over-technical&#8221;. Even if a different approach might be adopted in the absence of any authority, as Bingham LJ stated in </span><span style="font-style:italic;font-family:'Times New Roman'">The Federal Bulker </span><span style="font-family:'Times New Roman'">at p 105: &#8220;it is </span><span style="font-family:'Times New Roman';color:#000000">preferable that the law should be clear, certain and well understood than that it should be perfect&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Application of the law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Times New Roman';font-size:13pt">88.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The focus of the argument of the shipowner on this issue is those parts of the war clauses which concern the obligations for payment of insurance premia. It is submitted that </span><span style="font-family:'Times New Roman';color:#000000">these are not directly relevant to the loading, carriage, and discharge of the cargo. They do not in any way directly govern or direct how the loading, carriage or discharge of the cargo was to take place. They are archetypal provisions that are at best ancillary. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Times New Roman';font-size:13pt">89.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This argument was rejected by the judge and by the Court of Appeal on the grounds that the clauses relate to the route to be taken by the vessel and therefore are directly relevant to the carriage. I agree. There can be little doubt that there is a prima facie incorporation of clause 39 of the charter and the liberties given to the shipowner thereunder. These provide an important protection to the shipowner in relation to voyage war risks and are clearly relevant to carriage. That being the case, it is equally important that charter provisions which limit or qualify the wide liberties given under clause 39 are also incorporated. The intention must surely be to incorporate the entirety of the relevant contractual regime set out in the charter rather than to do so partially or incompletely. For reasons already given, the Gulf of Aden clause and the War Risk clause do bear on the liberties conferred under clause 39 and mean that they cannot be relied upon in relation to the known piracy risk of transiting the Gulf of Aden. The charterer&#8217;s obligation to pay insurance premia is an important element of the agreement of the shipowner to accept that risk. In my judgment in order to give effect in the bills of lading to the agreed allocation of risk in relation, in particular, to transiting the Gulf of Aden, the entirety of the Gulf of Aden clause and the War Risk clause should be regarded as incorporated in the bills of lading so as to be read alongside clause 39, as they would be in the charter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Times New Roman';font-size:13pt">90.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Even if the Gulf of Aden and the War Risk clause did not restrict the shipowner&#8217;s liberties under clause 39, they would still be directly relevant to carriage. For example, if the charterer did not pay the additional premium due for transiting the Gulf of Aden the shipowner might refuse to proceed there. If there was a contractual right to do so, it would clearly be important for the shipowner to be able to assert that right under both the charter and the bills of lading. Even if there were not such a right, it could well be important for the holders of the bill of lading to be able to know and understand the contractual basis upon which the shipowner was asserting that such a right existed. It might enable them, for example, to step in and pay the premium on behalf of the charterer in order to avoid delay.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue (3) - Whether on the proper interpretation of those clauses in the bill of lading and/or by implication the shipowner was similarly precluded from claiming for such losses against the bill of lading holders</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Times New Roman';font-size:13pt">91.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The assumption upon which this issue is to be addressed is that the charter does contain an insurance code or fund. If so, a key reason for so concluding is the charterer&#8217;s obligation to pay the insurance premia and the need to identify a benefit obtained thereby.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Times New Roman';font-size:13pt">92.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Once it has been determined which clauses of the charter are to be incorporated into the bills of lading, they are treated as being fully set out in the bill of lading contract. They then have to be interpreted in the context of that contract. For the purpose of Issue (3), it is to be assumed that this involves no manipulation of the wording.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Times New Roman';font-size:13pt">93.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If there is no manipulation of the wording of the incorporated clauses, then the obligation to pay the insurance premia rests on the charterer alone. There is no such obligation on the bill of lading holder. If so, then an essential reason for holding there is an insurance code or fund is inapplicable. To put it another way, the bill of lading holder does not buy into or pay the price for the insurance code or fund arrangements. There can be no &#8220;remarkable result&#8221; if the bill of lading holder has not paid any insurance premium and is under no obligation to do so. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Times New Roman';font-size:13pt">94.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Hofmeyr argued that the charterer should be regarded as paying the premium on behalf of cargo interests as it is they rather than the charterer who would be most directly concerned in the event of kidnap and ransom and they who would bear the principal liability to contribute in general average. There is, however, no term of the charter which supports this analysis. The obligation is that of the charterer and it has its own interest in ensuring proper performance of the charter. Moreover, there is no insurance code or fund case which extends any understanding to that effect beyond the parties to the relevant contract. The bargain made is that the parties will not look to each other to make good an insured loss. That is a bilateral agreement. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Times New Roman';font-size:13pt">95.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Consistently with </span><span style="font-style:italic;font-family:'Times New Roman'">The Ocean Victory, </span><span style="font-family:'Times New Roman'">cargo interests advanced their insurance code case as a matter of construction rather than implication. However, as explained above, it nevertheless needs to be shown that that construction necessarily follows from the terms which have been agreed. What necessarily follows in the context of the charter does not automatically transpose to the context of the bills of lading which, in the absence of manipulation, are on materially different terms. Moreover, those terms do not include the cornerstone of the insurance code case &#8211; namely, the obligation on the shipowner&#8217;s counterparty to pay the insurance premia on its behalf.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Times New Roman';font-size:13pt">96.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In agreement with the judge and the Court of Appeal I reject cargo interests&#8217; case on this issue.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue (4) - If necessary, whether the wording of those clauses should be manipulated so as to substitute the words &#8220;the Charterers&#8221; with &#8220;the holders of the bill of lading&#8221; in the parts of those clauses allocating responsibility for the payment of the additional insurance premia.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Times New Roman';font-size:13pt">97.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Manipulation of charter clauses incorporated by general words of incorporation may be permissible if it is necessary to do so in order to make the wording fit the bill of lading. There is no such need in this case. The Gulf of Aden and the War Risk clause make perfectly good sense in the context of the bills of lading as a record of the terms upon which the shipowner has agreed to transit the Gulf of Aden. They are both relevant and sensible in the bill of lading context in the terms set out in the charter, referring as they do to the charterer rather than the holders of the bill of lading. There is therefore no justification for manipulation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Times New Roman';font-size:13pt">98.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Further, as held by both the judge and the Court of Appeal, there are positive reasons why there should be no manipulation. One of the matters stressed in </span><span style="font-style:italic;font-family:'Times New Roman'">The Miramar </span><span style="font-family:'Times New Roman'">clause is the implausibility of bill of lading holders accepting a potential liability to pay unknown and unpredictable amounts. Similar considerations apply in this case. If the holders of the bills of lading are liable to pay the insurance premia the basis of that liability vis a vis the shipowner and each other is wholly unclear. Is each bill of lading holder liable for the full premia? If not, is its liability proportionate and, if so, is it proportionate to the quantity of the cargo covered by the bill of lading or its value? If a bill of lading holder pays the insurance premia what are its recourse rights against other bill of lading holders and how are they to be enforced? All of these issues arise in the context of putative bill of lading holders who might be a holder for different parcels of cargo for different lengths of time and only for a period if the cargo is traded afloat. I agree with and endorse all the reasons given by Males LJ as to why manipulation is not appropriate &#8211; see paras 49 to 51 of his judgment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Times New Roman';font-size:13pt">99.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For all the reasons set out above, I conclude that: (1) on the proper interpretation of the voyage charter, and in particular the war risk clauses and the additional Gulf of Aden clause, the shipowner was not precluded from claiming against the charterer in respect of losses arising out of risks for which additional insurance had been obtained pursuant to those clauses; (2) all material parts of those clauses were incorporated into the bills of lading; (3) on the proper interpretation of those clauses in the bill of lading the shipowner was not precluded from claiming for such losses against the bill of lading holders; (4) the wording of those clauses should not be manipulated so as to substitute the words &#8220;the Charterers&#8221; with &#8220;the holders of the bill of lading&#8221; in the parts of the those clauses allocating responsibility for the payment of the additional insurance premia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Times New Roman';font-size:13pt">100.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Since the shipowner succeeds on Issues (1), (3) and (4), it follows that the appeal must be dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+	<doc name="annex">
+	  <meta>
+	    <identification source="#tna">
+	      <FRBRWork>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/2/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/2"/>
+		<FRBRdate date="2024-01-17" name="judgment"/>
+		<FRBRauthor href="#uksc"/>
+		<FRBRcountry value="GB-UKM"/>
+	      </FRBRWork>
+	      <FRBRExpression>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2"/>
+		<FRBRdate date="2024-01-17" name="judgment"/>
+		<FRBRauthor href="#uksc"/>
+		<FRBRlanguage language="eng"/>
+	      </FRBRExpression>
+	      <FRBRManifestation>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2/annex/1/data.xml"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/2/data.xml"/>
+		<FRBRdate date="2024-11-10T04:15:46" name="transform"/>
+		<FRBRauthor href="#tna"/>
+		<FRBRformat value="application/xml"/>
+	      </FRBRManifestation>
+	    </identification>
+	  </meta>
+	  <mainBody>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:13pt;color:#000000">ANNEX</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">The &#8216;Gulf of Aden&#8217; Clause:</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">&#8220;GULF OF ADEN CLAUSE &#8211; FOR THIS CP ONLY DATED 20.09.10</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">IN CASE THE VESSEL FOR SAFETY REASONS IS ESCORTED BY NAVAL VESSEL(S) AND/OR RESTRICTED BY DAYLIGHT, AND/OR IF A PROTECTION TEAM AND OR ANY OTHER PROTECTIVE MEASURES IS EMPLOYED, ALL TIME USED WHILE AWAITING ESCORT AND/OR AWAITING DAYLIGHT AND/OR AWAITING THE PROTECTION TEAM AND/OR AWAITING IMPLEMENTATION OF PROTECTIVE MEASURES TO COUNT AT HALF TIME AGAINST USED LAYTIME OR DEMURRAGE IF VESSEL ALREADY ON DEMURRAGE.</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">FURTHERMORE IF IT IS NECESSARY FOR THE VESSEL TO FOLLOW A FIXED ROUTE (WAY POINTS) AND/OR TO ENTER A CONVOY AND/OR TO DEVIATE TO PICK UP/DROP OFF A PROTECTION TEAM AND/OR IMPLEMENT ANY OTHER PROTECTIVE REASONABLE MEASURE, AND/OR TO DEVIATE FROM THE USUAL ROUTE, ADDITIONAL COSTS (INCLUDING THE COSTS OF PROTECTION TEAM AND PROTECTIVE MEASURES), TIME AND BUNKERS USED TO BE SHARED 50/50 BETWEEN OWNERS AND CHARTERERS.</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">ANY ADDITIONAL INSURANCE PREMIA (INCLUDING, BUT NOT LIMITED TO, THOSE IN RESPECT OF H&amp;M, CREW, P&amp;I KIDNAP RISKS AND RANSOMS), CREW BONUSES (WHICH TO BE IN ACCORDANCE WITH THE INTERNATIONAL STANDARD) SHALL BE FOR CHRTRS ACCOUNT. MAX USD40,000 FOR CHARTERERS ACCOUNT FOR ANY ADDITIONAL INSURANCE PREMIUM EXCEPT FOR CREW BONUS WHICH TO BE MAX USD 20,000 FOR CHARTERERS ACCOUNT.&#8221;</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">The &#8216;War Risk&#8217; Clause:</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">&#8220;WAR RISK CLAUSE</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">ANY ADDITIONAL PREMIUMS PAYABLE BY OWNER IN RESPECT OF WAR RISKS UNDER THEIR POLICIES OF INSURANCE THAT ARE INCURRED BY REASON OF THE VESSEL TRADING TO EXCLUDED AREAS NOT COVERED BY OWNER'S BASIC WAR RISK INSURANCE SHALL BE FOR CHARTERER'S ACCOUNT. ANY BONUSES OR ADDITIONAL PREMIUMS PAYBLE (sic) BY OWNERS IN RESPECT OF THEIR CREW WHICH ARE DUE BY REASON OF TRADING TO SUCH EXCLUDED AREAS SHALL ALSO BE FOR CHARTERER'S ACCOUNT.</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">FOR THE AVOIDANCE OF DOUBT IT IS AGREED THAT IF THE VESSEL IS BOUND TO ENTER AN EXCLUDED AREA IN ORDER TO ARRIVE AT THE LOAD PORT, OR IF THE VESSEL WILL HAVE TO STEAM AWAY FROM THE DISCHARGE PORT IN ORDER TO LEAVE AN EXCLUDED AREA THEN THE ADDITIONAL PREMIUMS AND BONUSES PAYABLE BY CHARTERERS SHALL INCLUDE THOSE PAYABLE FROM THE TIME THE VESSEL PASSES INTO THE EXCLUDED AREA INBOUND TO THE LOAD PORT AND UNTIL THE TIME THE VESSEL PASSES OUT OF THE EXCLUDED AREA OUTWARD BOUND FROM THE DISCHARGE PORT CALCULATED AT NORMAL SPEEDS AND PRUDENT NAVIGATION. SUCH ADDITIONAL PREMIUMS AND EXPENSES THAT ARE FOR CHARTERER'S ACCOUNT ARE PAYABLE BY CHARTERERS TOGETHER WITH FREIGHT AGAINST OWNER'S INVOICE SUPPORTED BY APPROPRIATE DOCUMENTS. IF SUCH DOCUMENTS ARE NOT AVAILABLE THEN SUCH ADDITIONAL PREMIUMS AND EXPENSES SHALL BE SETTLED NOT LATER THAN 2 WEEKS AFTER RECEIPT BY CHARTERER FROM OWNER'S INVOICE AND APPROPRIATE SUPPORTING DOCUMENTS.</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">ANY DISCOUNT OR REBATE REFUNDED TO OWNER FOR WHATSOEVER REASON SHALL BE PASSED ON TO CHARTERER. ANY PREMIUMS AND INCREASE THERETO ATTRIBUTABLE TO CLOSURE </span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">MAX USD 20,000 CREW WAR BONUS FOR CHARTERERS ACCOUNT.&#8221;</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">The BPVOY 4 War Risk clause (as amended):</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">WAR RISKS</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">&#8220;39.1</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">For the purpose of this Clause 39 the words:-</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">&#8220;Owners&#8221; shall include the shipowners, bareboat charterers, disponent owners, managers or other operators who are charged with management and/or operation of the Vessel, and the Master; and</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">&#8220;War Risks&#8221; shall include any war (whether actual or threatened), act of war, civil war, hostilities, revolutions, rebellion, civil commotion, warlike operations, the laying of mines (whether actual or reported), acts of piracy, acts of terrorists, acts of hostility or malicious damage, blockades (whether imposed against all vessels or imposed selectively against vessels of certain flags or ownership, or against certain cargoes or crews or otherwise howsoever), by any person, body, terrorist or political group, of the Government of any state whatsoever, which, in the reasonable judgment of the Master and/or Owners, may be dangerous or are likely to become dangerous to the Vessel, her cargo, crew of other persons on board the Vessel.</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.2</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">If at any time the vessel commences loading, it appears, in the reasonable</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">judgement of the Master and/or Owners, that performance of the contract of carriage, or any part of it, may expose, or is likely to expose, the Vessel, her cargo, crew or other persons on board the Vessel to War Risks, Owners may give notice to Charterers cancelling this Charter, or may refuse to perform such part of it as may expose, or may be likely to expose, the Vessel, her cargo, crew or other persons on board the Vessel to War Risks provided always that if either Section E or F of PART 1 provides for a loading or discharging Range, as the case may be, and the Vessel, her crew, other persons on board, or cargo may be exposed, or may be likely to be exposed, to War Risks, at the port originally nominated by Charterers, then Owners shall first require Charterers to nominate a safe port which lies within the relevant Range, and may only cancel this Charter if Charterers shall not have nominated such safe port within forty eight (48) hours of such request.</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.3</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">Owners shall not be required to continue to load cargo for any voyage, or to sign Bills of Lading for any port, or to proceed or continue on any voyage, or on any part thereof, or to proposed through any canal or waterway, or to proceed to remain at any port whatsoever, where it appears, either after the loading or the cargo commences, or at any stage of the voyage thereafter before the discharge of the cargo is completed, that, in the reasonable judgement of the Master and/or Owners, the Vessel, her cargo (or any part thereof), crew or other persons on board the Vessel (or any one of them) maybe, or are likely to be, exposed to War Risks. If it should so appear, Owners may, by telex or email, request Charterers to nominate a safe port for the discharge of the cargo or any part thereof, and if within forty-eight (48) hours of the receipt of such telex or email, Charterers shall not have nominated such a port, Owners may discharge the cargo at any safe port of their choice (including the loading port) in complete fulfilment of their obligations under this Charter. Owners shall be entitled to recover from Charterers the extra expenses of such discharge and, if the discharge takes place at any port other than the loading port, to receive a full freight as though the cargo had been carried to the discharge port originally nominated. Any additional period by which the steaming time taken to reach the port at which the cargo is discharged exceeds the time which would have been taken had the Vessel proceeded to the original discharge port directly, and bunkers consumed for steaming during such additional period, shall be calculated and compensated in accordance with the provisions of Clause 22.3.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.4</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">If at any stage of the voyage after the loading of the cargo commences, it appears, in the reasonable judgement of the Master and/or Owners, that the Vessel, her cargo, crew or other persons on board the Vessel may be, or are likely to be, exposed to War Risks on any part of the route (including any canal or waterway) which is normally and customarily used in a voyage of the nature contracted for, and there is another longer route to the discharge port, Owners may give notice to Charterers that this route should be taken. [In such case this Charter shall be read in respect of freight and all other conditions whatsoever as if the voyage performed were that originally designated - replaced by] in this event the Owners shall be entitled, if the total extra distance exceeds 100 nautical miles to the extra expenses incurred (which to include extra time and bunkers consumed as a result of having to proceed via an alternative route less savings made) to be for charterers account. time shall count as laytime or if the vessel is on demurrage for demurrage.</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">However if the Vessel discharges the cargo at a port outside the Ranges stated in Section F of PART 1, freight shall be paid as for the voyage originally designated and any additional period by which the teaming time taken to reach the discharge port exceeds the time which would have been taken to reach the originally designated discharge port directly, and bunkers consumed for steaming during such additional period, shall be calculated and compensated in accordance with the provisions of Clause 22.3. Any additional port, canal or waterway expenses incurred by Owners as a result of the Vessel discharging outside the Ranges stated in Section F of PART 1 as aforesaid shall be for Charterers&#8217; account and Charterers shall reimburse to Owners any amounts due under this Clause 39.4 upon receipt of Owners&#8217; invoice together with full supporting documentation.</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">The Vessel shall have liberty:-</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.1</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">to comply with all orders, directions, recommendations or advice as to departure, arrival, routes, sailing in convoy, ports of call, stoppages, destinations, discharging of cargo, delivery or in any way whatsoever which are given by the government of the state under whose flag the Vessel sails, or other government to whose law Owners are subject, or any other government which so requires or anybody or group acting with the power to compel compliance with their orders or directions;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.2</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">to comply with the orders, direction or recommendations of any war risks</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">underwriters who have the authority to give the same under the terms of the war risks insurance applicable to the Vessel;</span></p>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.3</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">to comply with the terms of any resolution of the Security Council of the United Nations, any directions of the European Community, the effective orders of any other supranational body which has the right to issue and give the same, and with national laws aimed at enforcing the same to which Owners are subject, and to obey the orders and directions who are charged with their enforcement;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.4</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">to discharge at any other port any cargo or part thereof which may render the Vessel liable to confiscation as a contraband carrier;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.5</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">to call at any other port to change the crew or any part thereof or other persons on board the Vessel it there is good reason to believe that they may be subject to interment, imprisonment or other sanctions; and</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.5.6</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">If cargo has not been loaded or has been discharged by Owners under this Clause 39, to load other cargo for Owners&#8217; own benefit and carry it to any other port or ports whatsoever, whether backwards or forwards or in a contrary direction to the ordinary or custom any route.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:'Times New Roman';font-size:13pt">39.6</num>
+	      <p style="text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt;color:#000000">If any compliance with Clauses 39.2 to 39.5 anything is done or not done, such shall not be deemed to be a deviation, but shall be considered as due fulfilment by the party concerned of its obligations under this Charter.&#8221;</span></p>
+	    </blockContainer>
+	  </mainBody>
+	</doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1321 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/5"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/5"/>
+	  <FRBRdate date="2024-02-14" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="5"/>
+	  <FRBRname value="Jersey Choice Ltd v His Majesty's Treasury"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/5"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/5"/>
+	  <FRBRdate date="2024-02-14" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/5/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/5/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:32:14" name="transform"/>
+	  <FRBRdate date="2024-11-26T15:49:40" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-02-14" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="jersey-choice-ltd" href="" showAs="Jersey Choice Ltd"/>
+	<TLCPerson eId="his-majesty's-treasury" href="" showAs="His Majesty's Treasury"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>5</uk:number>
+	<uk:cite>[2024] UKSC 5</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>dbf3d6ecdc405769e2c1ac8101059e7c056e99e4f7066c28c39c32f4f6599b7e</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .fontstyle01 { font-style: italic; font-weight: normal; font-family: TimesNewRomanPS-Italic; font-size: 7pt; color: #000000; }
+#judgment .fontstyle21 { font-style: normal; font-weight: normal; font-family: TimesNewRomanPS; font-size: 7pt; color: #000000; }
+#judgment .fontstyle31 { font-style: normal; font-weight: normal; font-family: AdvP101691; font-size: 12pt; color: #050404; }
+#judgment .fontstyle41 { font-style: normal; font-weight: normal; font-family: AdvP101690; font-size: 12pt; color: #050404; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Hilary Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 5</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1941" style="font-style:italic;font-family:'Times New Roman'" uk:canonical="[2021] EWCA Civ 1941" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2021] EWCA Civ 1941</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#jersey-choice-ltd" style="font-family:'Times New Roman';font-size:20pt">Jersey Choice Ltd</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#respondent" refersTo="#his-majesty's-treasury" style="font-family:'Times New Roman';font-size:20pt">His Majesty's Treasury</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-lloyd-jones" style="font-family:'Times New Roman'">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-briggs" style="font-family:'Times New Roman'">Lord Briggs</judge><br/><judge refersTo="#judge-lord-leggatt" style="font-family:'Times New Roman'">Lord Leggatt</judge><br/><judge refersTo="#judge-lady-rose" style="font-family:'Times New Roman'">Lady Rose</judge><br/><judge refersTo="#judge-lord-richards" style="font-family:'Times New Roman'">Lord Richards</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-02-14" refersTo="#judgment" style="font-family:'Times New Roman'">14 February 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 7 November 2023</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellant</span><br/><span style="font-family:'Times New Roman'">Aidan O&#8217;Neill KC</span><br/><span style="font-family:'Times New Roman'">Nicholas Gibson</span><br/><span style="font-family:'Times New Roman'">(Instructed by CJ Jones Solicitors LLP)</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Respondent</span><br/><span style="font-family:'Times New Roman'">Jessica Simor KC</span><br/><span style="font-family:'Times New Roman'">Amy Mannion</span><br/><span style="font-family:'Times New Roman'">(Instructed by HMRC Solicitor&#8217;s Office and Legal Services (Stratford))</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-family:'Times New Roman'">Lord Lloyd-Jones and Lady Rose (</span><span style="text-transform:none;font-family:'Times New Roman'">with whom Lord Briggs, Lord Leggatt and Lord Richards agree</span><span style="font-family:'Times New Roman'">): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This appeal concerns liability to Value Added Tax (&#8220;VAT&#8221;) on low value goods which were sold and despatched by mail order from the Channel Islands to customers in the United Kingdom, at the time when the United Kingdom was a member of the European Union (&#8220;EU&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant, Jersey Choice Ltd (&#8220;JCL&#8221;), is a Jersey-registered company that grows horticultural products in Jersey, which it mainly exports by way of mail order directly to consumers in the United Kingdom in small packets. The value of the contents of these packets was so low at the relevant time as to attract the then-applicable low value consignment relief (&#8220;LVC Relief&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The respondent, His Majesty&#8217;s Treasury (&#8220;HMT&#8221;), has UK policy responsibility for taxation including, while the United Kingdom was a member of the EU, the implementation into national law and practice of EU law including EU VAT law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In these proceedings, commenced on 29 March 2018, JCL claims </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> damages (see </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich v Italian Republic</span><span style="font-family:'Times New Roman'"> (Joined cases C-6/90 and C-9/90) [1991] ECR I-5357, <ref href="#" uk:canonical="[1995] ICR 722" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] ICR 722</ref>) against the UK authorities for breach of EU law by virtue of the alleged incompatibility with EU law of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14/section/199" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 199</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2012</ref> headed &#8220;Relief from VAT on low value goods: restriction relating to Channel Islands&#8221;. That section had the effect of removing LVC Relief from low value goods sold and despatched using &#8220;distance selling arrangements&#8221; and imported on or after 1 April 2012 into the United Kingdom from the Channel Islands. It is JCL&#8217;s case that the decision of the UK authorities to withdraw LVC Relief from those goods constituted a serious breach of EU law contrary, in particular, to articles 28, 30 and 34 of the Treaty on the Functioning of the European Union (&#8220;TFEU&#8221;), which concern free movement of goods. It is alleged further that the withdrawal of the relief was contrary to general principles of EU law, including principles of equal treatment and proportionality. JCL claims that it suffered substantial loss and damage as a result of that decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claim was struck out by HHJ Johns QC on 27 November 2020 on the ground that it disclosed no reasonable grounds for the claim (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2020/3258" uk:canonical="[2020] EWHC 3258 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 3258 (Ch)</ref>). That decision was upheld by the Court of Appeal (Green, Arnold and Snowden LJJ) on 17 December 2021 (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1941" uk:canonical="[2021] EWCA Civ 1941" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1941</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Treaty and legislative</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'"/><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">provisions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The legal framework of this appeal is to be found in a number of different treaty provisions and Directives. For ease of reference, the relevant provisions are reproduced in full as an annex to this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The provisions setting out the relationship between the EU and the Channel Islands are article 355(5)(c) TFEU and Protocol 3 to the 1972 Treaty of Accession of the United Kingdom (&#8220;the Accession Treaty&#8221;). The relevant provisions relating to the EU customs union are articles 28, 30 and 34 TFEU. The relevant treaty provisions relating to the EU fiscal regime and internal taxation are articles 110 and 113 TFEU.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The relevant provisions of the Principal VAT Directive (Council Directive 2006/112/EC) as amended (&#8220;the VAT Directive&#8221;) are articles 5 and 6, which set out the VAT Directive&#8217;s territorial scope, article 30, which defines &#8220;importation of goods&#8221; and article 60 which specifies the &#8220;place of importation&#8221; for the purposes of the Directive. The relevant provisions of the Exemptions From VAT on Certain Goods Directive (Council Directive 2009/132/EC) (&#8220;the Exemptions Directive&#8221;) are its recitals and articles 1, 23 and 24. Articles 23 and 24 constitute Title IV of the Exemptions Directive, under the heading &#8220;Imports of Negligible Value&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">The status of the Channel Islands</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Channel Islands (which include the Bailiwick of Jersey) are not a state in international law. They are not part of the United Kingdom and have never been British colonies or British Overseas Territories. They are Crown Dependencies which enjoy a unique relationship with the United Kingdom and the Commonwealth through the Crown in the person of the Sovereign. The UK Government is responsible for the international relations of the Channel Islands. Under international law the UK Government has the power to extend to the Channel Islands the operation of a treaty which the United Kingdom has concluded (</span><span style="font-style:italic;font-family:'Times New Roman';color:#050404">R (Barclay) v Lord Chancellor and Secretary of State for Justice (No 2) (Attorney General of Jersey intervening</span><span style="font-family:'Times New Roman';color:#050404">) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/54" uk:canonical="[2014] UKSC 54" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 54</ref>, <ref href="#" uk:canonical="[2015] AC 276" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 276</ref>, paras 6-18; </span><span style="font-style:italic;font-family:'Times New Roman';color:#050404">Routier v Revenue and Customs Commissioners (Attorney General for Jersey intervening) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/43" uk:canonical="[2019] UKSC 43" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 43</ref>, <ref href="#" uk:canonical="[2021] AC 327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] AC 327</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Routier</span><span style="font-family:'Times New Roman'">&#8221;)</span><span style="font-family:'Times New Roman';color:#050404">, paras 8-10).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">While the United Kingdom was a member of the EU, as a matter of primary EU law (ie Treaty law) EU rules relating to the common customs area, and more generally the rules relevant to the EU internal free market for goods, applied in full to the Channel Islands (article 355(5)(c) TFEU; articles 1 and 2 of Protocol 3 to the Accession Treaty; </span><span style="font-style:italic;font-family:'Times New Roman'">Jersey Produce Marketing Association Ltd v States of Jersey</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-293/02" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-293/02</ref>) [2005] ECR I-9543, [2006] All ER (EC) 1126 at paras 35-37; </span><span style="font-style:italic;font-family:'Times New Roman'">Routier</span><span style="font-family:'Times New Roman'"> at paras 11-15). By contrast, the EU rules on VAT (as provided for in articles 110-113 TFEU) were not extended to the Channel Islands by the United Kingdom in Protocol 3 to the Accession Treaty and thus did not apply to the Channel Islands. The Channel Islands were, therefore, a territory to which the rules relating to the common customs area and, more generally, the EU internal free market for goods, applied in full but which fell outside the territorial scope of the EU VAT area, with the result that businesses operating within their jurisdiction were not subject to the EU rules relating to VAT. The Channel Islands shared this status with certain other territories within the customs territory of the EU as listed in article 6(1) of the VAT Directive. We shall refer to the territories listed in article 6(1) of the VAT Directive as &#8220;article 6(1) territories&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Legal and factual context</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Goods sold into the United Kingdom from the Channel Islands were, in the usual course, subject to import VAT. The VAT Directive set out its territorial scope in articles 5 and 6 (&#8220;the VAT Directive area&#8221;). The VAT Directive did not apply to the territories forming part of the customs territory of the EU listed in article 6(1) which included the Channel Islands. Article 30 of the VAT Directive provided that the entry of goods from the article 6(1) territories into the VAT Directive area should be considered VAT imports even if the goods were already in free circulation within the EU customs area, which would include within the article 6(1) territories. Imports from the Channel Islands to the United Kingdom were, therefore, VAT imports.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Article 23 of the Exemptions Directive made provision for exemption from VAT in the case of certain imports of negligible value. Goods of a total value not exceeding 10 euros were exempt on importation. Member States were given the power to grant exemption for imported goods of a total value of more than 10 euros but not exceeding 22 euros. It also granted Member States the power to exclude mail order imports from the exemption for goods of a value not exceeding 10 euros. By the Value Added Tax (Imported Goods) Relief Order 1984 (SI 1984/746) (&#8220;the 1984 Order&#8221;), the United Kingdom granted LVC Relief. The 1984 Order provided by article 5 that no tax shall be payable on the importation of goods of a description specified in any item in Schedule 2 to the Order. Item 8 of Group 8 of Schedule 2, as it applied at the relevant time, exempted any consignment of goods (other than alcoholic beverages, tobacco products, perfumes or toilet waters) not exceeding &#163;15 in value.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">HMT, the government department responsible for fiscal and economic policy and, while the United Kingdom was a Member State, for implementing applicable EU VAT law, became concerned about the fiscal consequences of LVC Relief being abused in the context of import by mail order of low value goods from the Channel Islands to the United Kingdom. Certain companies, which it is not suggested included JCL, engaged in a practice known as &#8220;round-tripping&#8221;. UK retailers would take large orders for goods from customers in the United Kingdom, which were then delivered to the Channel Islands from the United Kingdom before being dispatched back to the UK customer in a number of smaller low value units. This practice served no commercial purpose but produced beneficial tax consequences for the UK retailer, which paid VAT on the goods it bought in on their arrival in their UK warehouse, exported them to the Channel Islands free of VAT, then reimported the goods to the United Kingdom free of VAT, due to the application of LVC Relief. The UK retailer was able to recover the VAT paid on the goods on arrival at the UK warehouse as input tax. The UK customer paid for goods at a price that was free of VAT. The UK retailer claimed a VAT relief as input tax but did not have to account for the VAT output tax on the sale, as the sale was relieved of VAT through LVC Relief.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As a result, HMT decided to remove LVC Relief on mail order imports into the United Kingdom from the Channel Islands so that these supplies would be subject to VAT. On 23 March 2011 HMT announced its intention to limit the scope of LVC Relief. On 9 November 2011 it announced that from 1 April 2012 LVC Relief would no longer apply to goods supplied commercially as part of a distance selling arrangement from the Channel Islands. On 6 December 2011 the Government consulted on a draft clause for inclusion in the Finance Bill 2012 which would amend the Notes to Group 8 of Schedule 2 to the 1984 Order so as to provide, with effect from 1 April 2012, that LVC Relief under Item 8 of that Group would no longer apply to any goods sent from the Channel Islands to the United Kingdom under a distance selling arrangement (as defined in the new Note).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The governments of Jersey and Guernsey brought a judicial review challenge to the relevant clause in the Bill on the grounds that the removal of LVC Relief from mail order imports from the Channel Islands, whilst retaining it in relation to other article 6(1) territories, was a breach of the United Kingdom&#8217;s obligations under EU law. In particular, they submitted that article 23 of the Exemptions Directive did not permit selective disapplication of LVC Relief by reference to territories and that the proposed amendment would be contrary to the EU law principles of fiscal neutrality, non-discrimination and proportionality: </span><span style="font-style:italic;font-family:'Times New Roman'">R (Minister for Economic Development of the States of Jersey) v Revenue and Customs Commissioners</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2012/718" uk:canonical="[2012] EWHC 718 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 718 (Admin)</ref>, <ref href="#" uk:canonical="[2012] STC 1113" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] STC 1113</ref> (&#8220;the </span><span style="font-style:italic;font-family:'Times New Roman'">Channel Islands JR</span><span style="font-family:'Times New Roman'">&#8221;), Mitting J at para 33. (At that time JCL was concerned about the implications of the removal of LVC Relief for its business and wrote to HMT stating that its removal would breach EU law to the detriment of its business. A director of JCL, Mr Dunningham, produced a witness statement in support of the application. JCL did not, however, join the judicial review as a claimant or interested party, nor did it bring a separate claim.) </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In his judgment delivered on 15 March 2012 Mitting J dismissed the challenge. Referring to </span><span style="font-style:italic;font-family:'Times New Roman'">Offene Handelsgesellschaft in Firma Werner Faust v Commission of the European Communities </span><span style="font-family:'Times New Roman'">(Case 52/81) [1982] ECR 3745 and </span><span style="font-style:italic;font-family:'Times New Roman'">OTO SpA v Ministero delle Finanze</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-130/92" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-130/92</ref>) [1994] ECR I-3281, <ref href="#" uk:canonical="[1995] 1 CMLR 84" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 CMLR 84</ref> (both discussed further below), he concluded that the EU and Member States, when not prohibited from doing so by Union legislation, may, for any reason or none, discriminate against non-EU states in relation to the import of goods from them; even in the field of indirect taxation. There was no requirement that the United Kingdom should treat one non-EU territory in the same manner for purposes of LVC Relief as any other, or as every other. The principles of fiscal neutrality and proportionality were not engaged. As a result, there was no principle of EU law which required the United Kingdom to treat the importation of low value goods on mail order from the Channel Islands in the same manner as similar goods from any other non-EU territory. He held that the draft clause in the Finance Bill was not unlawful under EU law. There was no appeal against that decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 17 July 2012 Royal Assent was given to the <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2012</ref> which in <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14/section/199/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 199(3)</ref> amended Schedule 2 of the 1984 Order to remove LVC Relief on mail order imports of low value goods to UK customers from the Channel Islands with effect from 1 April 2012.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 29 March 2018, JCL brought the present claim for damages against HMT alleging that the removal of LVC Relief had breached its directly enforceable rights under articles 28, 30 and/or 34 TFEU and the general principles of EU law of equal treatment, fiscal neutrality and proportionality. It claimed for six years of losses that it had allegedly suffered as a consequence of having to account for VAT on its low value mail order sales to UK customers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 6 March 2020 HMT applied to strike out the particulars of claim on the basis that it disclosed no reasonable grounds for bringing the claim and/or that it was otherwise an abuse of the court&#8217;s process or was otherwise likely to obstruct the just disposal of the proceedings. Alternatively, HMT applied for summary judgment against JCL on the ground that there was no real prospect of success and there was no other compelling reason for the matter to go to trial. In a judgment dated 27 November 2020, HHJ Johns QC sitting as a Judge of the High Court struck out the claim on the basis that the particulars of claim disclosed no reasonable grounds for the claim and were otherwise an abuse of process. In a judgment dated 17 December 2021 the Court of Appeal (Green, Arnold, Snowden LJJ) allowed JCL&#8217;s appeal on the ground of abuse of process but otherwise dismissed JCL&#8217;s appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL now appeals to the Supreme Court. The strike out application on the basis of abuse of process is not pursued on this further appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Francovich</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'"> damages</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich v Italy</span><span style="font-family:'Times New Roman'"> (Joined Cases C-6/90 and C-9/90) [1991] ECR I-5357, <ref href="#" uk:canonical="[1995] ICR 722" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] ICR 722</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'">&#8221;)</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">the Court of Justice established a principle of EU law that Member States are obliged to make good loss and damage caused to individuals by breaches of EU law for which they can be held responsible. This principle was considered to be inherent in the duty of Member States to comply with their Treaty obligations and in the principle of effective protection of EU law rights. In </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> the Court of Justice held that a Member State could be held liable in damages as a result of its failure properly to implement a directive where, had it been properly implemented, benefits would have accrued to an individual (</span><span style="font-style:italic;font-family:'Times New Roman'">Francovich </span><span style="font-family:'Times New Roman'">at paras 31-37). The conditions which must be met before such liability can arise are that the rule of law infringed must be intended to confer rights on individuals, the breach must be sufficiently serious, and there must be a direct causal link between the breach of the obligation resting on the state and the damage sustained by the injured parties (</span><span style="font-style:italic;font-family:'Times New Roman'">Brasserie du P&#234;cheur SA v Federal Republic of Germany</span><span style="font-family:'Times New Roman'"> (Joined Cases C-46/93 and C-48/93) [1996] ECR I-1029, <ref href="#" uk:canonical="[1996] QB 404" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] QB 404</ref> at para 51). </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> liability is distinct from claims founded on the direct effect of EU law and it is clear that it can arise even in the absence of direct effect because the Member State&#8217;s liability is for its own failure to comply with its obligations under EU law (</span><span style="font-style:italic;font-family:'Times New Roman'">Brasserie du P&#234;cheur </span><span style="font-family:'Times New Roman'">at paras 20-22). In </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'">, Italy had failed to transpose a directive concerning the protection of employees in the event of the insolvency of the employer. As a result, the claimant employees were left without the protection they should have enjoyed. The fact that the directive did not have direct effect did not prevent liability under the </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich </span><span style="font-family:'Times New Roman'">principle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the present case JCL maintains that the withdrawal of LVC Relief was a breach of EU law. It claims </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> damages in respect of loss and damage which it asserts flowed from this breach. In this regard, JCL submits that EU law rights, breach of which might give rise to a </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> claim, arise not only where they are expressly granted by provisions of EU law but also by reason of positive or negative obligations which those EU law provisions impose in a clearly defined manner, whether on individuals, on Member States or on the EU institutions. This further submission is disputed by HMT.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">The claim as pleaded</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';font-size:13pt">23.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In its Particulars of Claim JCL claims that by disapplying LVC Relief in relation to any low value goods imported into the United Kingdom on mail order from the Channel Islands but not doing so in relation to such goods imported from the other third territories, HMT breached its statutory duty to comply with EU law. Its claims may be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">HMT exercised the power under article 23 of the Exemptions Directive in a manner incompatible with EU law, thereby removing the right of traders who imported low value mail order goods from the Channel Islands to the United Kingdom to do so exempt from VAT. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As a result of the amendment of the 1984 Order, the domestic law of the United Kingdom had since 1 April 2012 been incompatible with EU law. In particular, the United Kingdom had breached articles 28, 30 and/or 34 TFEU and general principles of EU law including the principles of equal treatment, fiscal neutrality and proportionality.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The effect of the amendment of the 1984 Order was to impose a customs duty or charge having equivalent effect (or a quantitative restriction or measure having equivalent effect) which created or was liable to create an unjustified restriction and/or distortion of the free movement of goods within the EU customs union contrary to articles 28, 30 and/or 34 TFEU.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There was no justification for the differential treatment of such goods from the Channel Islands and other third territories respectively, which constituted a breach of general principles of EU law. It was further alleged that it gave rise to a distortion of competition.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(5)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The amendment to the 1984 Order was disproportionate. In particular JCL alleged that instead of disapplying LVC Relief in respect of all goods sent by mail order from the Channel Islands, the United Kingdom could and should have disapplied LVC Relief in respect of specified classes of goods sent by mail order where there was sufficient evidence that suppliers of those specified classes of goods were exploiting and/or abusing LVC Relief as it existed prior to amendment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(6)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Each of the provisions of EU law breached by the United Kingdom was intended to confer rights on individuals.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(7)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Each of the breaches was sufficiently serious to come within the </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> principle.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(8)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There was a direct causal link between the breaches of EU law and the loss and damage suffered by JCL.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(9)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL claimed in respect of loss and damage suffered as a result of the denial of the right to rely on LVC Relief on every mail order placed by a UK customer for products priced at not more than &#163;15 including postage and packaging in the six years preceding the issue of the proceedings, including repayment of monies paid as VAT, lost profit resulting from reduced sales and increased costs, quantified in a total amount of at least &#163;15,544,000 as at 31 December 2017.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On an application to strike out a statement of case pursuant to CPR 3.4 on the ground of its disclosing no reasonable grounds for bringing the claim, the facts alleged are assumed to be true. The applicable test, that the claim discloses no reasonable grounds, is a high one.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Retained EU law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';font-size:13pt">25.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Since the present proceedings were commenced on 29 March 2018, the United Kingdom has ceased to be a Member State of the EU. In his judgment in the Court of Appeal, Green LJ considered in detail (at paras 20-26) the impact of the withdrawal of the United Kingdom on the present proceedings. He closely examined the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">European Union (Withdrawal) Act 2018</ref> (&#8220;the EU Withdrawal Act&#8221;) which made detailed transitional provisions. He concluded that JCL&#8217;s claim in these proceedings is not affected by the United Kingdom&#8217;s withdrawal from the EU. His reasoning may be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/68/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 2(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/68" uk:canonical="1972 c. 68" uk:origin="TNA" uk:type="legislation">European Communities Act 1972</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1972/68" uk:canonical="1972 c. 68" uk:origin="TNA" uk:type="legislation">ECA 1972</ref>&#8221;), the principal domestic measure which governed the relationship between EU law and domestic law in the United Kingdom, was repealed by section 1 of the EU Withdrawal Act with effect from &#8220;exit day&#8221; which was defined in section 20(1) as 31 January 2020 at 11.00 pm. Transitional and savings provisions were included for certain rights under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/68/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/68" uk:canonical="1972 c. 68" uk:origin="TNA" uk:type="legislation">ECA 1972</ref> which were to continue to be recognised and available in domestic law on and after &#8220;IP completion day&#8221;, defined as 31 December 2020 at 11.00 pm.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <intro>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Important exceptions to such saved and preserved rights were set out:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.23in">(a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.23in;text-indent:0.38in"><span style="font-family:'Times New Roman'">The EU Charter of Fundamental Rights was not part of UK domestic law on or after IP completion day (section 5(4) of the EU Withdrawal Act);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.23in">(b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.23in;text-indent:0.38in"><span style="font-family:'Times New Roman'">There was no right of action in domestic law on or after IP completion day based upon a failure to comply with any of the general principles of EU law (section 5(6) and Schedule 1, para 3 of the EU Withdrawal Act);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.23in">(c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.23in;text-indent:0.38in"><span style="font-family:'Times New Roman'">There was no right in domestic law on or after IP completion day to </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> damages (section 5(6) and Schedule 1, para 4 of the EU Withdrawal Act).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">These exceptions apply to anything occurring before IP completion day in addition to anything occurring after that date. However, they do not apply to proceedings commenced, but not finally decided, before a court or tribunal in the United Kingdom before IP completion day (section 23(7), Schedule 8, paras 39(1), (3) of the EU Withdrawal Act).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The removal of a right of action relating to general principles of EU law does not apply to any proceedings commenced within the period of 3 years beginning with IP completion day insofar as the proceedings involved a challenge to acts occurring before IP completion day and the challenge was not for the disapplication or quashing of an Act of Parliament or a rule of law which was not an enactment or certain other specified laws (section 23(7), Schedule 8, para 39(5) of the EU Withdrawal Act).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(5)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The removal of the right to </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> damages does not apply to proceedings commenced within the period of 2 years starting with IP completion day insofar as the proceedings relate to anything which occurred before IP completion day (section 23(7), Schedule 8, para 39(7) of the EU Withdrawal Act).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(6)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Rights which were saved under this regime form part of the body of retained EU case law and retained general principles of EU law in accordance with which domestic courts must decide any questions as to the validity, meaning or effect of retained EU law so far as relevant and so far as that law is unmodified on or after IP completion day (sections 6(3), (7) of the EU Withdrawal Act). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(7)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The UK Supreme Court is not bound by any retained EU case law (section 6(4) of the EU Withdrawal Act). However, neither of the parties to the proceedings has invited the Court to depart from any retained EU case law in this appeal. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(8)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">These proceedings were commenced before IP completion day on 31 December 2020. As a result, the present claim of JCL is preserved and the withdrawal of the United Kingdom from the European Union does not affect JCL&#8217;s right to pursue its damages claim, its reliance upon its rights under the EU Charter or its reliance upon rights under general principles of EU law.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On this further appeal to the Supreme Court, the parties agree that Green LJ accurately stated the law applicable to the present proceedings following the withdrawal of the United Kingdom from the EU. The Supreme Court has proceeded on this basis without having heard any argument on this matter and should not be taken as approving this analysis. It should be noted, however, that the law applied in this judgment is no longer the current law within the United Kingdom.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Issues on this appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';font-size:13pt">27.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The following issues arise on this appeal:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Did the Court of Appeal err in its formulation and application of the distinction between charges to tax (falling under articles 110 and 113 TFEU) and charges equivalent to customs duties (falling under articles 28 and 30 TFEU)?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Can a business such as JCL, which is established and operates in a territory that is within the EU customs union and the single internal market for goods but is outside the VAT Directive area, found a claim for </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> damages against a Member State on the basis that in exercising its discretionary power in secondary EU VAT law that Member State breached general principles of EU law?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Did the Court of Appeal fail in its duty to protect JCL&#8217;s fundamental rights at common law and separately under both EU law and the ECHR?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">What remedy or remedies, if any, should be afforded by this court to JCL in the event of this court finding in JCL&#8217;s favour on any of JCL&#8217;s grounds of appeal against the decision of the Court of Appeal?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In considering these issues, we bear in mind, as JCL has stressed, that the issues arise in the context of HMT&#8217;s strike out application which was made after the close of pleadings but before disclosure. The question for the court is whether, assuming that the facts pleaded by JCL are true, JCL has no realistic prospect of success in establishing after trial that the imposition of charges on imports after 1 April 2012 was contrary to EU law.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Issue 1: Did the Court of Appeal err in its formulation and application of the distinction between charges to tax (falling under articles 110/113 TFEU) and charges equivalent to customs duties (falling under articles 28 and 30 TFEU)?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL&#8217;s case is that it was a breach of EU law for the United Kingdom to exercise the discretionary powers allowed to Member States under article 23 of the Exemptions Directive when it restructured its LVC Relief exemption in a manner which, contrary to the EU principle of equal treatment, without justification failed to treat otherwise like cases alike (Appellant&#8217;s written case, para 3.3).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The primary argument advanced on behalf of JCL is that the reimposition of VAT as a result of the withdrawal of the LVC Relief amounted to a charge having equivalent effect to a customs duty in violation of articles 28 and 30 TFEU governing free movement of goods. As we have seen, EU law relating to free movement of goods applies to the Channel Islands. As a result, JCL is entitled, in principle, to rely on the legal protections provided by EU law in relation to the free movement of goods. This line of argument has distinct advantages for JCL in that the prohibitions in articles 28 and 30 TFEU are both strict and directly effective, ie they may be relied upon in proceedings before national courts. In </span><span style="font-style:italic;font-family:'Times New Roman'">Commission v Italy</span><span style="font-family:'Times New Roman'"> (Case 24/68) [1969] ECR 193 at paras 6-10 the Court of Justice emphasised the general and absolute nature of the prohibition of any customs duty applicable to goods moving between Member States. It explained that the justification for this prohibition is the fact that any pecuniary charge, however small, imposed on goods by reason of the fact that they cross a frontier constitutes an obstacle to the movement of such goods. Furthermore, the extension of the prohibition of customs duties to charges having equivalent effect was intended to supplement the prohibition against obstacles to trade created by such duties by increasing its efficiency. The Court went on to state that &#8220;the prohibition of new customs duties or charges having equivalent effect, linked to the principle of the free movement of goods, constitutes a fundamental rule which, without prejudice to the other provisions of the Treaty, does not permit of any exceptions&#8221; (at paragraph 10). However, it is significant for present purposes that the Court immediately went on to distinguish between the customs regime and the fiscal regime:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the concept of a charge having equivalent effect does not include taxation which is imposed in the same way within a State on similar or comparable domestic products, or at least falls, in the absence of such products, within the framework of general internal taxation, or which is intended to compensate for such internal taxation within the limits laid down by the Treaty.&#8221; (at paragraph 11).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On behalf of JCL, Mr Aidan O&#8217;Neill KC develops his argument in the following way. First, he submits that in withdrawing LVC Relief in relation to low value goods imported on or after 1 April 2012 on mail order to the United Kingdom from (and only from) the Channel Islands, the United Kingdom acted ultra vires and outside the power otherwise afforded to Member States by article 23 of the Exemptions Directive. He submits that this is because that power can only be lawfully exercised (a) in a manner conforming with general principles of EU law and (b) on condition that the exercise of that power was not liable to affect the conditions of competition within the European single market. He submits that the withdrawal of LVC Relief is a violation of both of these requirements. In particular, he submits that the removal of LVC Relief led to unlawful discrimination based upon the origin of the goods as between the Channel Islands and other article 6(1) territories and that it distorted competition between suppliers in the Channel Islands and suppliers in other article 6(1) territories. Secondly, he submits that, by reason of that violation, the resulting charges could only be classified under EU law as being charges having equivalent effect to customs duties on imports in breach of article 30 TFEU. Thirdly, he submits that general principles of EU law relied upon by JCL and the Treaty provisions governing free movement of goods can be directly relied upon by JCL in proceedings before national courts and that the violation of these principles and provisions constitutes, in the circumstances of this case, a sufficiently serious breach of EU law to found a claim against the United Kingdom for damages in EU law, either on the basis of </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich</span><span style="font-family:'Times New Roman'"> or on the basis of ordinary principles of the direct effect of EU law. Fourthly, on this basis he submits that JCL is entitled to compensation for the resulting loss sustained. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is therefore necessary to consider whether the charge imposed on imports following the withdrawal of LVC Relief falls to be assessed within the customs regime or the fiscal regime. In particular, was it a breach of EU rules relating to free movement of goods because it imposed charges having equivalent effect to a customs duty within the meaning of articles 28 and 30 TFEU? The regime under which a charge falls to be assessed is of critical importance because it is the rules of the governing regime which will determine the legality or illegality of the charge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The EU customs and fiscal regimes are mutually exclusive. The removal of LVC Relief is a measure falling either within the customs regime or the fiscal regime. In </span><span style="font-style:italic;font-family:'Times New Roman'">Weigel v Finanzlandesdirektion f&#252;r Vorarlberg</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-387/01" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-387/01</ref>) [2004] ECR I-4981, <ref href="#" uk:canonical="[2004] 3 CMLR 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 3 CMLR 42</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Weigel</span><span style="font-family:'Times New Roman'">&#8221;), the Court of Justice observed (at para 63):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230; as far as the respective spheres of application of Articles 25 EC and 90 EC [now articles 30 and 110 TFEU] are concerned, the court has consistently held that provisions relating to charges having equivalent effect and those relating to discriminatory internal taxation cannot be applied together, with the result that, under the system established by the Treaty, the same charge cannot belong to both categories at the same time [citing </span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">Nyg&#229;rd v Svineafgiftsfonden</span><span class="fontstyle01" style="font-style:normal;font-family:'Times New Roman';font-size:13pt"> (<ref href="#" uk:canonical="Case C-234/99" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-234/99</ref>) </span><span class="fontstyle21" style="font-family:'Times New Roman';font-size:13pt">[2002] ECR I-3657, para 17; </span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">Tulliasiamies v Siilin</span><span class="fontstyle21" style="font-family:'Times New Roman';font-size:13pt"> (<ref href="#" uk:canonical="Case C-101/00" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-101/00</ref>) [2002] ECR I-7487, para 115; and </span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">De Danske Bilimport&#248;rer v Skatteministeriet, Told- og Skattestyrelsen</span><span class="fontstyle01" style="font-style:normal;font-family:'Times New Roman';font-size:13pt"> (<ref href="#" uk:canonical="Case C-383/01" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-383/01</ref>)</span><span class="fontstyle21" style="font-family:'Times New Roman';font-size:13pt"> [2003] ECR I-6065; <ref href="#" uk:canonical="[2003] 2 CMLR 41" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 2 CMLR 41</ref>, para 33].&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Furthermore, </span><span style="font-style:italic;font-family:'Times New Roman'">Commission v Italy</span><span style="font-family:'Times New Roman'">, cited above at para 30, shows that the effect of article 110 TFEU is to exclude from attribution as a charge having equivalent effect to a customs duty within articles 28 and 30 TFEU taxation which is imposed in the same way within a state on similar or comparable domestic products, or at least falls, in the absence of such products, within the framework of general internal taxation, or which is intended to compensate for such internal taxation within the limits laid down by the Treaty. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The distinction between charges constituting taxation and charges having equivalent effect to customs duties, and the criteria on the basis of which the distinction must be drawn, have been variously expressed by the Court of Justice in a line of authority of which </span><span style="font-style:italic;font-family:'Times New Roman'">Commission v Italy</span><span style="font-family:'Times New Roman'"> is an early representative.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul Douane Expediteur BV v Inspecteur der Invoerrechten en Accijnzen, Roosendaal</span><span style="font-family:'Times New Roman'"> (Case 15/81) [1982] ECR 1409, <ref href="#" uk:canonical="[1982] 3 CMLR 229" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] 3 CMLR 229</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul</span><span style="font-family:'Times New Roman'">&#8221;)</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">the Court of Justice was asked whether it was compatible with articles 12 and 13 EEC for a Member State, the Netherlands, to levy, in accordance with the Community VAT directives, VAT on the sale price of a privately purchased boat when imported from another Member State, France, and supplied by a non-taxable person, if no such tax is levied on the supply of similar goods by a private person within the territory of the importing Member State. The Court held that the charge fell to be assessed under the fiscal regime and not the customs regime. In doing so, it described the distinction in terms which require to be set out in full:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;18.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">According to established case-law of the Court the prohibition, in relations between Member States, of charges having an effect equivalent to customs duties, covers any tax which is payable on or by reason of importation and which, as it applies specifically to an imported product to the exclusion of a similar domestic product, ultimately produces, by adversely affecting the cost price of the former product, the same effect upon the free movement of goods as a customs duty.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">19.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The essential characteristic of a charge having an effect equivalent to a customs duty, and the one which distinguishes it from internal taxation, is therefore that it affects only imported products as such whereas internal taxation affects both imported products and domestic products.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">20.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court has nevertheless recognized that a pecuniary charge payable on a product imported from another Member State and not on an identical or similar domestic product does not constitute a charge having equivalent effect but internal taxation within the meaning of Article 95 of the Treaty [now article 110 TFEU] if it is part of a general system of internal dues applicable systematically to categories of products according to objective criteria applied without regard to the origin of the products.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">21.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is apparent from those considerations that a tax of the kind referred to by the national court does not have the ingredients of a charge having an effect equivalent to customs duties on imports within the meaning of Articles 12 and 13(2) of the Treaty [</span><span style="font-style:italic;font-family:'Times New Roman'">the term now used in articles 28 and 30 TFEU</span><span style="font-family:'Times New Roman'">]. Such a tax is part of the system of value-added tax the structure of which, and the essential terms governing its application, have been laid down by the Council in harmonizing directives. Those directives have established a uniform taxation procedure covering systematically and according to objective criteria both transactions carried out within the territory of the Member States and import transactions. It should be pointed out in particular in that respect that the common system makes imports and supplies of like goods within the territory of a Member State subject to the same rate of tax. As a result the tax in question must be considered as an integral part of a general system of internal taxation for the purposes of Article 95 of the Treaty and its compatibility with Community law must be considered in the context of that article and not of that of Articles 12 et seq. of the Treaty.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Although in </span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul</span><span style="font-family:'Times New Roman'"> the charge arose because the goods had crossed a border within the EEC, as it then was, the Court held that it was, nevertheless, to be assessed under the rules governing VAT, namely article 95 EC (now article 110 TFEU). The Court went on to hold (at para 40) that the imposition of a charge to VAT on goods imported, where no equivalent tax was levied on the supply of similar products by a private person within the Netherlands, was internal taxation in excess of that imposed on similar domestic products within the meaning of article 95 EC, to the extent to which the residual part of the VAT paid in the Member State of exportation which was still contained in the value of the product on importation was not taken into account. (It will be necessary to consider further the significance of this conclusion.) The Court then went on to conclude (at para 46) that the prohibition in article 95 EC was of direct effect and creates for individuals personal rights which national courts are bound to protect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Weigel </span><span style="font-family:'Times New Roman'">Mr and Mrs Weigel were German nationals who on transferring their residence to Austria each imported a car into Austria where they were required to register the cars. Each received an assessment to Standard Fuel Consumption Tax (&#8220;Fuel Tax&#8221;) which included a base tax and a surcharge of 20% of the base tax. The surcharge had been introduced in order to compensate for a VAT undercharge that arose where Fuel Tax was not included in the chargeable value for VAT purposes. That happened, in particular, in the case of imported cars, where VAT is collected on importation, at which point the chargeable value for VAT purposes did not yet include Fuel Tax, since the charge to Fuel Tax arose only when the cars were subsequently registered. Mr and Mrs Weigel challenged those assessments on the ground that the tax imposed was contingent solely upon the importation of the vehicles and was, therefore, a prohibited charge having equivalent effect to a customs duty. The Court rejected the submission (at paras 64, 65):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The court has consistently held that any pecuniary charge, whatever its designation and mode of application, which is imposed unilaterally on goods by reason of the fact that they cross a border, and which is not a customs duty in the strict sense, constitutes a charge having equivalent effect within the meaning of Articles 23 EC and 25 EC [now Articles 28 and 30 TFEU]. However, such a charge may not be so characterised if it forms part of a general system of internal dues applying systematically to categories of products according to objective criteria applied without regard to the origin of the products, in which case it falls within the scope of Article 90 EC [now Article 110 TFEU]&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">In the present case, the [Fuel Tax] base tax is manifestly of a fiscal nature and it is charged not by reason of the vehicle crossing the border of the Member State which established it, but in view of other operative events, of which first-time registration of the vehicle in that State is one. It must therefore be regarded as part of a general system of internal dues on goods and hence examined in the light of Article 90 EC [now Article 110 TFEU].&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumberApproved"><span style="font-family:'Times New Roman'">The Court then went on to consider whether the 20% surcharge had been applied in a discriminatory way as between vehicles imported from another Member State and domestic transactions. Having examined the imposition of the surcharge, it held (at paras 88, 89) that it was discriminatory and incompatible with what is now article 110 TFEU.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Before a charge can be characterised as a charge having equivalent effect to a customs duty, therefore, it must be shown that it affects only imported products as such, as opposed to internal taxation which affects imported products and domestic products alike. Furthermore, even if a charge satisfies this first test, it will still not be characterised as a charge having equivalent effect to a customs duty if it is part of a general system of internal dues applicable systematically to categories of products according to objective criteria applied without regard to the origin of the products.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the present case, it is true that the charge to VAT following the removal of the concession applied to imports into the United Kingdom. However, the mere fact that a charge is made because goods cross a border cannot of itself make it equivalent to a customs duty. Were it otherwise, since crossing a border is a transaction for the purposes of the VAT Directive, all charges to VAT on importation would be equivalent to a customs duty, which is clearly not the case. Such a charge arises because importation counts as a relevant transaction for the purposes of the VAT system. Furthermore, corresponding products supplied within the United Kingdom are subject to VAT in precisely the same way. It is, therefore, a charge applied to domestic and imported goods alike. (In this regard, we reject the submission on behalf of JCL that the availability of the Agricultural Flat Rate Scheme to producers in the United Kingdom but not to producers in the Channel Islands was a material difference. This is addressed further at paras 49 and 50 below.) As a result, the charge to VAT on imports from the Channel Islands fails the first test and cannot qualify as a charge having equivalent effect to a customs duty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In any event, the charge to VAT on imports from the Channel Islands also fails the second test. The charge is correctly characterised as internal taxation because it is part of a general system of internal dues applicable systematically to categories of products according to objective criteria applied without regard to origin. As Green LJ pointed out in his lucid judgment in the Court of Appeal (at paras 88 and following), the charge was to VAT which was a recognised turnover tax applied across the EU. Both the grant of the exemption and the power granted to Member States to remove the charge were expressly mandated under the Exemptions Directive, which is undoubtedly a tax law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On behalf of JCL, Mr O&#8217;Neill seeks to counter this analysis by submitting that the 1984 Order, following the amendment in 2012, did not operate without regard to the origin of imports to the United Kingdom or as a general system of internal dues applied systematically in accordance with the same objective criteria to domestic products and imported and exported products alike. He submits that the removal of LVC Relief operated deliberately and unjustifiably to discriminate unlawfully between supplies made within the EU customs territory, imposing different criteria for Channel Island imports as against imports from other article 6(1) territories. In this regard, he relies in particular on the situation of the &#197;land Islands, which appear alongside the Channel Islands in article 6(1) of the VAT Directive which lists territories forming part of the customs territory of the EU (so that the EU rules on free movement of goods apply) but to which the VAT Directive does not apply (so that the EU rules on VAT do not apply). He submits that the effect of such unlawful discrimination is to remove the measures giving rise to the charges from the EU fiscal regime and into the EU customs regime.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This submission is untenable for two reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">First, the complaint of discrimination is misconceived. EU law does not impose any obligation on Member States to accord equal treatment to third countries outside the EU. In particular, there was nothing in EU law to prohibit a selective disapplication by the United Kingdom of LVC Relief as between territories outside the VAT Directive area. This will be addressed further under Issue 2, below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Secondly, even if the selective disapplication by the United Kingdom of LVC Relief had been contrary to EU law, it would not follow that the relevant measures would, as a result, require to be assessed within the customs regime as opposed to the fiscal regime. Not only is there no authority to support such a transposition, but there is clear authority to the contrary. In </span><span style="font-style:italic;font-family:'Times New Roman'">Tulliasiamies and Siilin</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-101/00" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-101/00</ref>) [2002] ECR I-7487, the national court in Finland asked the Court of Justice whether what is now article 110 TFEU precluded the levying in Finland of a tax payable on the car tax charged in respect of used cars imported from another Member State. The Commission argued (as recorded at para 110 of the judgment) that the tax constituted a charge having equivalent effect to customs duties because, in practice, the tax prevented an individual who was not liable to VAT from importing new and used cars into Finland. In the alternative, the Commission submitted that the tax produced discriminatory effects as against used cars imported from another Member State. The Court of Justice held that the charge, to the extent that it exceeded tax charged on an equivalent domestic transaction was unlawful as discriminatory under what is now article 110 TFEU. However, it rejected the Commission&#8217;s submission that it was a customs duty or a charge having equivalent effect: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;115 As regards categorisation as a charge having equivalent effect, it is settled case-law, most recently set out in [</span><span style="font-style:italic;font-family:'Times New Roman'">Nyg&#229;rd</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">v Svineafgiftsfonden</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-234/99" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-234/99</ref>) [2002] ECR I-3657, para 17], that the provisions relating to charges having equivalent effect and those relating to discriminatory internal taxation cannot be applied together, so that the same charge cannot, under the system established by the Treaty, belong to both those categories at the same time.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">116 Since the tax on car tax constitutes discriminatory internal taxation in so far as the amount charged as such a tax on an imported used car exceeds the amount of the residual tax incorporated in the value of a similar used car already registered in the national territory, it cannot at the same time constitute a charge having equivalent effect.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">It is clear from this case law that the fact that a charge to VAT may be held to be invalid because it discriminates against imported goods does not render the charge a customs charge or a charge having equivalent effect. The charge, even if invalid, still remains a VAT charge to be assessed under the fiscal regime and not under the free movement of goods provisions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This is also apparent from </span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul</span><span style="font-family:'Times New Roman'">, which is considered at paras 36 and 37 above. In that case the charge to VAT on the imported boat was held to be unlawful. The Court of Justice held (at para 40) that applying VAT to an imported product in circumstances where no equivalent tax was levied on the supply of similar products within the Netherlands constituted internal taxation in excess of that imposed upon similar domestic products, which was capable of falling within the prohibition in what is now article 110 TFEU. The Court further held (para 46) that the prohibition of discrimination under what is now article 110 TFEU had direct effect and created for individuals personal rights which the national courts were bound to protect. However, there is no suggestion in </span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul</span><span style="font-family:'Times New Roman'"> that the effect of this infringement of the rules under the VAT regime was to convert the charge into a customs charge or a measure having equivalent effect. On the contrary, the unlawful imposition of tax was addressed within the context of the VAT regime.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Similarly, in </span><span style="font-style:italic;font-family:'Times New Roman'">Weigel </span><span style="font-family:'Times New Roman'">(considered at para 38 above), notwithstanding the conclusion of the Court of Justice that the 20% surcharge within the Fuel Tax had been applied in a discriminatory way as between vehicles imported from another Member State and domestic transactions, the Court examined the consequences of such discrimination within the fiscal regime. There was no suggestion that the effect of the discriminatory breach of what is now article 110 TFEU resulted in the charge to tax becoming a customs charge or a measure having equivalent effect which required to be assessed under the customs regime. The consequences of the ultra vires imposition of tax were to be addressed within the fiscal regime.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is undoubtedly the case that a close analysis of the chargeable event is required when distinguishing between a charge to tax on the one hand and a customs charge or a measure having equivalent effect on the other. (See </span><span style="font-style:italic;font-family:'Times New Roman'">Viamar - Elliniki Aftokiniton kai Genikon Epicheiriseon AE v Elliniko Dimosio</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-402/14" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-402/14</ref>) ECLI:EU:C:2015:830, <ref href="#" uk:canonical="[2016] 3 CMLR 9" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 3 CMLR 9</ref> at paras 44, 45.) On behalf of JCL Mr O&#8217;Neill submits that the distinction is fact-sensitive and that therefore it is not appropriate to decide the issue on a summary basis. However, in the present case there is no relevant factual dispute. For example, JCL does not contend that the VAT is being imposed or collected in some specific way which might have a bearing on the characterisation of the charge. On the contrary, the challenge in these proceedings is to the legislation removing the relief from VAT.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Finally, in this regard, it is convenient to deal briefly with a further submission by Mr O&#8217;Neill on behalf of JCL concerning the Agricultural Flat Rate Scheme. On this appeal he submits that the existence of the scheme, which was (and remains) available to producers in the United Kingdom but not to producers in the Channel Islands, was a material difference in the treatment of imported goods which rendered the charge on imported goods equivalent to a customs duty. The Agricultural Flat Rate Scheme is a scheme available to farmers in the United Kingdom who meet certain conditions allowing them to opt out of VAT registration. Farmers within the scheme are allowed to charge and keep a flat-rate addition (set at 4%) to the price charged to customers in their invoices as a rough form of compensation for the loss of the ability to recover input VAT which they would have been able to deduct if they had been VAT registered. The scheme is a simplification exercise which was permitted by EU law which allowed Member States to devise a flat-rate scheme as an alternative to VAT for farmers in accordance with articles 295-305 of the VAT Directive. Designated activities under the scheme included the growing of plants and seeds which formed part of JCL&#8217;s business. JCL now claims that the Agricultural Flat Rate Scheme put it at a significant competitive disadvantage as against its online competitors based in the United Kingdom.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';font-size:13pt">50.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We note that JCL&#8217;s particulars of claim make no reference to the Agricultural Flat Rate Scheme or to the claim that Jersey agricultural traders faced a competitive disadvantage as compared with UK agricultural traders. The scheme is not mentioned in the judgments below in these proceedings nor in Mitting J&#8217;s judgment in the</span><span style="font-style:italic;font-family:'Times New Roman'"> Channel Islands JR</span><span style="font-family:'Times New Roman'">. The Agricultural Flat Rate Scheme was raised in JCL&#8217;s written case in the Supreme Court and in his oral submissions Mr O&#8217;Neill argued that the existence of the scheme was a second reason why charging VAT on low value goods imported from Jersey could not be classified as internal taxation, the first reason being differential treatment of low-value goods imported from the Channel Islands and from other third territories. In the circumstances, it is questionable whether the point was open to JCL on this appeal. In any event, the point is lacking in substance for the following reasons.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Agricultural Flat Rate Scheme is an opt-in scheme and the default position was that UK-based traders selling the same goods as JCL were required to charge VAT on their products. Furthermore, the scheme is subject to conditions which would have made many UK-based traders selling the same goods as JCL ineligible for the scheme. With effect from 1 January 2021 businesses with a turnover of over &#163;150,000 are excluded from the scheme. Prior to 2021, the Value Added Tax Regulations 1995 (SI 1995/2518) imposed a restriction based not on turnover but on the maximum amount by which a business could benefit from opting into the scheme. Any farmer who would gain more than &#163;3,000 from joining the Agricultural Flat Rate Scheme would have their application refused. Moreover, in his evidence in the</span><span style="font-style:italic;font-family:'Times New Roman'"> Channel Islands JR</span><span style="font-family:'Times New Roman'">, Mr Tim Dunningham, the founder of JCL, stated that most of JCL&#8217;s UK online competitors were not eligible for the scheme and would have to charge VAT on their sales, because they did not cultivate their own plants.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">These features of the Agricultural Flat Rate Scheme underscore why it is necessary to consider the alleged discriminatory treatment under article 110 TFEU as part of a &#8220;general system of internal dues applicable systematically to categories of products&#8221; see; </span><span style="font-style:italic;font-family:'Times New Roman'">Gaston Schul</span><span style="font-family:'Times New Roman'">, para 20 . The absence of VAT at sales point and its replacement with the lower flat-rate addition is only one feature of the Agricultural Flat Rate Scheme. The purpose of the flat-rate addition was to compensate UK farm businesses in a rough way for the loss of input VAT which they were no longer able to recover having de-registered. Singling out the absence of VAT in isolation from the other provisions of the scheme (and in particular the loss of the ability to claim input VAT) as would be required under an article 30 TFEU assessment, distorts the true picture of the scheme and its real impact on competition and the free movement of goods.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Articles 295-305 of the VAT Directive expressly permit Member States to exempt farmers from VAT and to subject them instead to a flat-rate scheme as a simplification measure. In </span><span style="font-style:italic;font-family:'Times New Roman'">Shields &amp; Sons Partnership v Revenue and Customs Comrs</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-262/16" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-262/16</ref>) ECLI:EU:C:2017:756, <ref href="#" uk:canonical="[2017] 4 WLR 208" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 4 WLR 208</ref> the Court of Justice observed (at para 34):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Among the two objectives of the flat-rate scheme is that relating to the need for administrative simplification for the farmers concerned, which must be reconciled with the objective of offsetting the input VAT borne by those farmers when acquiring goods used for the purposes of their activities &#8230;&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The nature and purpose of agricultural flat-rate schemes in the framework of EU legislation reinforce the conclusion that their functioning is firmly in the territory of taxation. </span></p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For the reasons set out above, the legality of the removal of the LVC Relief concession pursuant to article 23 of the Exemptions Directive must be assessed under the fiscal regime and not the customs regime. Consequently, the judge and the Court of Appeal were correct to conclude that JCL&#8217;s claim alleging breach of articles 28, 30 and/or 34 TFEU had no reasonable prospect of success.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Issue 2: Can a business such as JCL, which is established and operates in a territory that is within the EU customs union and the single internal market for goods but is outside the VAT Directive area, found a claim for </span><span style="font-style:italic;font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Francovich</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'"> damages against a Member State on the basis that in exercising its discretionary power in secondary EU VAT law that Member State breached general principles of EU law?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Our conclusion that the charge imposed on mail order imports from Jersey was not a customs duty and that its legality falls to be assessed as part of the fiscal regime is not the end of the matter so far as JCL is concerned. JCL&#8217;s second ground of appeal challenges the decision of the Court of Appeal that JCL has no rights on which it can rely to bring its damages claim arising from the general principles of EU law. JCL accepts that the United Kingdom could exercise its discretion under article 23 of the Exemptions Directive to remove the VAT exemption from mail order imports. But in exercising that discretion, JCL submits, the United Kingdom was bound to respect general principles of EU law including those of equal treatment and non-discrimination. By removing the LVC Relief from the Channel Islands but leaving it in place for imports from the other article 6(1) territories, the United Kingdom breached those principles. That breach disrupted the trade of goods within the EU customs area of which those territories form a part &#8211; or at least it is arguable that it did which is all that JCL needs to show to defeat the strike out application. JCL argues that such discrimination was contrary to the core premise of article 110 TFEU because it discriminates between goods imported from different parts of the EU single customs area. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the courts below, HMT challenged the justiciability of the general principles of EU law, arguing that they did not give rise to directly enforceable rights for the purpose of mounting a </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich </span><span style="font-family:'Times New Roman'">damages claim. However, during the course of the proceedings before the Court of Appeal, HMT accepted that the general principles are justiciable, as Green LJ records in para 97 of his judgment. The Court of Appeal concluded that the principles pleaded by JCL were capable of giving rise to </span><span style="font-style:italic;font-family:'Times New Roman'">Francovich </span><span style="font-family:'Times New Roman'">damages claims &#8220;in an appropriate case&#8221;: para 100. JCL argues that that belated concession on the part of HMT should have been sufficient to determine the appeal in its favour. HMT&#8217;s defence and its strike out application had been advanced on the basis that the principles were not justiciable. JCL complains that it was procedurally irregular and unfair for the Court of Appeal to formulate and answer a different issue from that pleaded, namely whether there had been any arguable breach of EU principles on which JCL could rely. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We do not accept that there was any unfairness here. It has been clear at all stages of JCL&#8217;s challenge that an issue in the case is whether, even if the general principles of EU law are justiciable, they provide JCL with an arguable claim. Mitting J discussed this issue at paras 75 and 76 of his judgment in the </span><span style="font-style:italic;font-family:'Times New Roman'">Channel Islands JR</span><span style="font-family:'Times New Roman'">, concluding that there was no principle of EU law which requires the United Kingdom to treat the importation of low value goods on mail order from the Channel Islands in the same manner as similar goods from any other non-EU territory. HHJ Johns KC in his judgment at first instance identified the central question before him as whether the amendment made by the <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2012</ref> &#8220;brought articles 28, 30 or 34 of TFEU or principles of fiscal neutrality, equal treatment and proportionality into play at all&#8221;: para 33. He said: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;If JCL is wrong on this central question, it will in truth have no real prospect overall of succeeding on its claim. If the articles or principles relied on do apply so that there is a relevant right, then the issues of the other requirements for damages for breach of EU law, including the issue of infringement of the principles, will be for trial.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Although HMT&#8217;s original pleaded defence focused on the question of the justiciability of the general principles, they also cited Mitting J&#8217;s conclusion that there is no principle of EU law which requires the United Kingdom to treat the importation of low value goods on mail order from the Channel Islands in the same manner as similar goods from any other non-EU territory.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We turn therefore to whether the Court of Appeal was right to hold that there was no arguable breach of the general principles on which JCL can rely. We note at the outset that JCL relies on the general principle of equal treatment because the consistent case law of the Court of Justice establishes that article 110 TFEU (and its predecessor article 95 EC) does not itself apply to prevent the imposition of taxes on goods imported directly from third countries. In </span><span style="font-style:italic;font-family:'Times New Roman'">OTO SpA v Ministero delle Finanze </span><span style="font-family:'Times New Roman'">(<ref href="#" uk:canonical="Case C-130/92" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-130/92</ref>) [1994] ECR I-3281, <ref href="#" uk:canonical="[1995] 1 CMLR 84" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 CMLR 84</ref></span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">(&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">OTO</span><span style="font-family:'Times New Roman'">&#8221;) discussed further below, the Court of Justice held that the charge imposed by the Italian Ministry on both domestically manufactured products and on imported products was a fiscal measure and not a customs duty. The Court rejected the assertion that article 95 EC had been infringed: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;18 The Court has also consistently held that Article 95 applies only to products from the Member States and, where appropriate, to goods originating in non-member countries which are in free circulation in the Member States. It follows that that provision is not applicable to products imported directly from non-member countries (see the judgment in [</span><span style="font-style:italic;font-family:'Times New Roman'">Simba SpA v Ministero delle finanze</span><span style="font-family:'Times New Roman'"> (Cases C-228/90, C-234/90, C-339/90, C-353/90) [1992] ECR I-3713], para 14).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">19 Accordingly, a tax such as that which is the subject-matter of the main proceedings does not come within the scope of Article 95 of the Treaty in so far as it is applicable to goods imported directly from non-member countries.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL&#8217;s argument proceeds as follows. It is clear from the case law of the Court of Justice that the general principle of equal treatment applies in the area of taxation. That principle requires similar situations not to be treated differently unless differentiation is objectively justified. But it is equally clear, JCL accepts, that there is no such principle as regards differentiating between imports from different countries outside the EU. The question is on which side of the line does JCL fall, given that it is outside the EU for the purposes of the VAT regime but inside the EU for the purposes of the customs union. The Court of Appeal held that JCL falls on the wrong side of that line so far as its claim is concerned. Although Jersey is within the customs union, that is irrelevant for present purposes. What matters is that it is outside the EU for the purposes of the VAT regime, and that, as we have already held, is the regime that is applicable to the facts of the present case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The starting point is the proposition that the general principle of equal treatment applies in the field of taxation. We agree that this is established by the case of </span><span style="font-style:italic;font-family:'Times New Roman'">NCC Construction Danmark A/S v Skatteministeriet </span><span style="font-family:'Times New Roman'">(<ref href="#" uk:canonical="Case C-174/08" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-174/08</ref>) [2009] ECR I-10567, <ref href="#" uk:canonical="[2010] STC 532" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] STC 532</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">NCC Construction</span><span style="font-family:'Times New Roman'">&#8221;). That case concerned a taxpayer in Denmark which carried out both taxable transactions, namely building and construction services, and exempt transactions, namely sales of land. Part of its business was building and constructing houses on its own account in order then to sell them. Under the relevant national law, such a self-supply of construction services by a person on his own account was treated as a taxable transaction and VAT was accounted for on a notional turnover from that deemed supply. Since the subsequent sale of that real estate by the taxpayer was an exempt transaction, the issue in the case concerned the deductibility of input tax paid on supplies which were used for both aspects of the business, that is for taxable construction services supplied to third parties and the self-supply of construction services. Only a proportion of that input tax was recoverable, reflecting the mix of taxable and exempt supplies. The particular issue referred for a preliminary ruling was whether an exempt sale of land by the taxpayer constituted an &#8220;incidental transaction&#8221; within the meaning of Council Directive 77/388/EEC (&#8220;the Sixth VAT Directive&#8221;). The Court of Justice held that the sales were not incidental transactions. More relevant for our purposes was that NCC argued that the national legislation had placed it in a worse position than construction businesses who were entitled to full VAT deductions for all general costs because they only carried out taxable supplies for third party developers. Although its self-supply of construction services was treated as a taxable supply at a deemed price, it did not, of course, generate any actual turnover for the business. The Court of Justice said at paras 44 and 45 (citations omitted):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;44 It is also appropriate to point out that the general principle of equal treatment, of which the principle of fiscal neutrality is a particular expression at the level of secondary Community law and in the specific area of taxation, requires similar situations not to be treated differently unless differentiation is objectively justified (&#8230;). It requires, in particular, that different types of economic operators in comparable situations be treated in the same way in order to avoid any distortion of competition within the internal market, in accordance with the provisions of article 3(1)(g) EC.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">45 In implementing the provisions of the Sixth Directive, the member states were obliged to take into account the principle of equal treatment, like the other general principles of Community law, which, having constitutional status, bind those member states when they take action in the field of Community law (&#8230;).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Justice went on to hold that the Danish legislature had taken due account of the general principle of equal treatment. Although NCC might have been in a worse position than a construction business which only made taxable supplies of those services, it was in a better position than building developers who only made exempt sales of land. Those developers could not deduct any of the input tax they paid to the third party businesses who carried out the construction work for them, because they charge no output tax from which that could be deducted. In those circumstances, the Court held, the principle of fiscal neutrality could not properly be relied on to challenge the Danish legislation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The second proposition established by the Court of Justice is that the general principle of equal treatment has no application to imports from third countries. The leading case is </span><span style="font-style:italic;font-family:'Times New Roman'">Offene Handelsgesellschaft in Firma Werner Faust v Commission of the European Communities</span><span style="font-family:'Times New Roman'"> (Case 52/81) [1982] ECR I-3745 (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Faust</span><span style="font-family:'Times New Roman'">&#8221;). This case concerned the import into the EU of preserved mushrooms. Faust brought an action under what is now article 340 TFEU seeking compensation from the EU for loss which it claimed to have suffered as a result of certain Commission regulations adopting or relaxing protective measures relating to the import into the EC territory of preserved mushrooms from non-Member States. Its business was to a large extent importing preserved mushrooms from Taiwan. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In its judgment, the Court of Justice noted, at para 24, that &#8220;in reality&#8221; Faust was challenging the way in which the Commission operated the system of import quotas by way of voluntary restraint. Faust&#8217;s complaint was that the import quota granted to each non-member country was set without any reference to the volume of imports from those countries effected in the preceding years. The effect of this was that Taiwan was dealt with less favourably than China. The Court of Justice said at para 25:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;25 Although Taiwan certainly appears to have been treated by the Commission less favourably than certain non-member countries, it should be remembered that there exists in the Treaty no general principle obliging the Community, in its external relations, to accord to non-member countries equal treatment in all respects. It is thus not necessary to examine on what basis Faust might seek to rely upon the prohibition of discrimination between producers or consumers within the Community contained in Article 40 of the Treaty [now article 40 TFEU]. It need merely be observed that, if different treatment of non-member countries is compatible with Community law, different treatment accorded to traders within the Community must also be regarded as compatible with Community law, where that different treatment is merely an automatic consequence of the different treatment accorded to non-member countries with which such traders have entered into commercial relations.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Justice also rejected Faust&#8217;s claim that the principle of the protection of legitimate expectation had been breached. The Court held (at para 27) that: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Since Community institutions enjoy a margin of discretion in the choice of the means needed to achieve their policies, traders are unable to claim that they have a legitimate expectation that an existing situation which is capable of being altered by decisions taken by those institutions within the limits of their discretionary power will be maintained.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Times New Roman';font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is important to note the second half of para 25 of the judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Faust </span><span style="font-family:'Times New Roman'">set out above. This was not a claim brought by a Taiwanese producer. Faust was itself a trader based in Hamburg claiming that its import business of preserved mushrooms from Taiwan had been damaged. JCL&#8217;s written submissions emphasise that it is a person established in the EU internal market for goods and so cannot be prevented from relying on justiciable general principles of EU law. </span><span style="font-style:italic;font-family:'Times New Roman'">Faust </span><span style="font-family:'Times New Roman'">shows that the fact that JCL itself is based inside the EU is not the relevant factor here. It is in no better and no worse position than a horticultural business based in an EU Member State would be if it claimed that the lifting of the LVC Relief from Jersey imports had damaged its business. As the Court also said in </span><span style="font-style:italic;font-family:'Times New Roman'">Faust</span><span style="font-family:'Times New Roman'">: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;23.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230; It is an unavoidable fact that changes in Community policies relating to external trade have repercussions on the prospects of traders in the sector concerned.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Times New Roman';font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The principle in </span><span style="font-style:italic;font-family:'Times New Roman'">Faust </span><span style="font-family:'Times New Roman'">has been confirmed a number of times by the Court of Justice. In </span><span style="font-style:italic;font-family:'Times New Roman'">OTO </span><span style="font-family:'Times New Roman'">the challenge concerned an Italian tax imposed on audiovisual and photo-optical products. The tax was imposed both on products manufactured in Italy and on imported products. The alleged discrimination on imports arose from the different base price on which the tax was calculated. For imported goods the base value was the customs value of the goods free at the national frontier. This meant that for goods that had been produced in a third country, imported into another Member State and then imported into Italy when already in free circulation, that customs value would include the customs duty that had been imposed on the goods when they first entered free circulation in the EU before being imported into Italy. By contrast, for goods imported directly into Italy from a third country, the value taken did not include the customs duty payable on entry into free circulation in Italy. OTO argued that under the regime, goods from non-member countries that were brought into free circulation in other Member States and then exported to Italy were treated less favourably than products exported directly to Italy from the non-member country concerned: see para 8 of the Court of Justice&#8217;s judgment. However, the Court confirmed that, although article 95 EC applies where appropriate to goods originating in non-member countries which are in free circulation in the Member States, it is not applicable to products imported directly from non-member countries: para 18 of the judgment. The tax did not therefore come within the scope of article 95 to that extent. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Times New Roman';font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The inapplicability of the principle of equal treatment to relations with third countries was considered by the Court of Appeal more recently in </span><span style="font-style:italic;font-family:'Times New Roman'">R (Swiss International Air Lines AG) v Secretary of State for Energy and Climate Change </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/331" uk:canonical="[2015] EWCA Civ 331" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 331</ref>; <ref href="#" uk:canonical="[2016] 3 All ER 123" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 3 All ER 123</ref>. Swiss Air Lines challenged the validity of regulations made by the UK Government to implement an EU Decision which derogated from the suspension of the emissions trading scheme in relation to third countries. Switzerland was excluded from the suspension so that Swiss Air Lines was subject to an obligation to surrender its emissions allowances under the trading scheme. Swiss Air Lines complained that the EU Decision was a breach of the EU principle of equal treatment. Its application for permission to apply for judicial review was dismissed at first instance on the grounds that the EU principle of equal treatment did not apply to differential treatment by the EU towards third countries. The issue before the Court of Appeal was whether a reference should be made to the Court of Justice to clarify the scope of the principle enunciated in </span><span style="font-style:italic;font-family:'Times New Roman'">Faust</span><span style="font-family:'Times New Roman'">. Swiss Air Lines submitted that the case law showed only that an exception to the principle of equal treatment arose where the adverse consequences for a third country were the result of the EU exercising its external actions competence, for example in making treaties with third countries. The instant case did not concern any treaty-making powers so the exception to the requirement of equal treatment did not apply. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Times New Roman';font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Having analysed </span><span style="font-style:italic;font-family:'Times New Roman'">Faust </span><span style="font-family:'Times New Roman'">and two other Court of Justice cases, the Court of Appeal referred the question to the Court of Justice. The Court of Justice&#8217;s judgment in response was very clear: </span><span style="font-style:italic;font-family:'Times New Roman'">R (Swiss International Air Lines AG) v Secretary of State for Energy and Climate Change </span><span style="font-family:'Times New Roman'">(<ref href="#" uk:canonical="Case C-272/15" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-272/15</ref>) ECLI:EU:C:2016:993, <ref href="#" uk:canonical="[2017] PTSR 511" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] PTSR 511</ref>. The Court of Justice emphasised that the institutions and agencies of the Union have a broad discretion in policy decisions in the conduct of external relations. This necessarily implies policy choices:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;25 In that regard, it must be stated that EU law imposes no express obligation on the Union to the effect that all third countries must be treated equally. As Advocate General Saugmandsgaard &#216;e observed in point&#160;65 of his Opinion, public international law contains no general principle of equal treatment of third countries. Accordingly, since an application of the principle of equal treatment of third countries would unilaterally restrict the Union&#8217;s freedom of action internationally, it cannot be held that the Union could have accepted such a requirement unless the equal treatment of third countries was expressly laid down in the treaties.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">26&#160;In accordance with the Court&#8217;s settled case-law, there is in the FEU Treaty no general principle obliging the Union, in its external relations, to accord in all respects equal treatment to different third countries and traders do not in any event have the right to rely on the existence of such a principle: see, inter alia, </span><span style="font-style:italic;font-family:'Times New Roman'">Balkan-Import Export </span><span style="font-family:'Times New Roman'">[</span><span style="font-style:italic;font-family:'Times New Roman'">GmbH v Hauptzollamt Berlin-Packhof</span><span style="font-family:'Times New Roman'"> (Case 55/75) [1976] ECR 19], para&#160;14, [</span><span style="font-style:italic;font-family:'Times New Roman'">Faust</span><span style="font-family:'Times New Roman'">], para&#160;25, </span><span style="font-style:italic;font-family:'Times New Roman'">Germany</span><span style="font-family:'Times New Roman'"> v </span><span style="font-style:italic;font-family:'Times New Roman'">Council of the European Union</span><span style="font-family:'Times New Roman'">, (<ref href="#" uk:canonical="Case C-122/95" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-122/95</ref>) [1998] ECR I-973, para&#160;56 and </span><span style="font-style:italic;font-family:'Times New Roman'">T&#160;Port GmbH &amp; Co v Hauptzollamt Hamburg-Jonas</span><span style="font-family:'Times New Roman'"> (Joined Cases C-364/95 and C-365/95) [1998] ECR I-1023, para&#160;76.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Times New Roman';font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Justice therefore emphatically rejected Swiss Air Lines&#8217; argument that the exception applies only in situations where the Union has exercised its external action competences: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;29 On the contrary, the effect of the case law cited in para 25 above is that the institutions and agencies of the Union are relieved of any obligation to apply the principle of equal treatment to third countries, in order to maintain their internal freedom of action in terms of policy. Accordingly, the Court has stated, in general terms, that a difference in treatment of third countries is not contrary to EU law, emphasising that there is no obligation to treat third countries equally: [</span><span style="font-style:italic;font-family:'Times New Roman'">Faust</span><span style="font-family:'Times New Roman'">], paras 25 and 27; </span><span style="font-style:italic;font-family:'Times New Roman'">Germany v Council of the European Union</span><span style="font-family:'Times New Roman'"> (Case C&#8209;122/95) [1998] ECR I-973, para 56 and the </span><span style="font-style:italic;font-family:'Times New Roman'">T Port GmbH </span><span style="font-family:'Times New Roman'">case [1998] ECR I-1023, para 76.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Times New Roman';font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The application of the general principle of equal treatment thus turns on whether Jersey is treated as a third country like Taiwan or an EU state like Denmark. JCL argues that the authorities referred to by the Court of Appeal all relate to third countries which are both outside the VAT Directive area and outside the customs union. Like the Court of Appeal, we have no doubt that in the present circumstances Jersey is a third country for this purpose. As Green LJ said at para 109: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;109.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230; the classification of the Channel Islands as an Article 6(1) PVD territory does not assist. That article lists territories to which the tax rules do not apply (see para 44 above). Once it has been determined that this is a tax case, and not a customs case, then Article 6(1) makes clear that the Channel Islands cannot in any way be equated with the Member States and they fall squarely into the category of non-member states to whom the protection of the general principles do not apply.&#8221; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Times New Roman';font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We have described the status of the Channel Islands at paras 9 and 10 above. Article 5 of the VAT Directive (set out in the annex) defines the &#8220;Community&#8221; and &#8220;territory of the Community&#8221; as meaning the territories of the Member States &#8220;with the exception of any territory referred to in Article 6 of this Directive&#8221;. It defines &#8220;third territories&#8221; as being those referred to in article 6, and that includes both territories which form part of the customs union such as the Channel Islands and the &#197;land Islands (which form an autonomous region of Finland) and territories which do not form part of the customs union such as Ceuta (a Spanish city on the northern shore of Africa) and the Island of Heligoland (part of Germany). Article 30 of the VAT Directive, in defining the term &#8220;importation of goods&#8221;, makes it clear that the term covers not just the entry into the Community of goods which are not in free circulation but also goods which are in free circulation if they come from a third territory forming part of the customs territory. It could not be clearer that for the purposes of applying the VAT Directive to imports from the Channel Islands, they are to be treated as being a third territory, regardless of the fact that they form part of the customs territory of the Community.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Times New Roman';font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In our judgment this also emerges from the decision of the Court of Justice in </span><span style="font-style:italic;font-family:'Times New Roman'">H Hansen Jun &amp; OC Balle GmbH &amp; Co v Haupzollamt Flensburg </span><span style="font-family:'Times New Roman'">(Case 148/77) [1978] ECR 1787, <ref href="#" uk:canonical="[1979] 1 CMLR 604" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">[1979] 1 CMLR 604</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'">&#8221;). That decision has often been cited as an early authority for the proposition that there is no Treaty rule similar to article 110 TFEU applicable to imports from third countries. As the Court said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;24 &#8230; the EEC Treaty does not include any provision prohibiting discrimination in the application of internal taxation to products imported from non-member countries, subject however to any treaty provisions which may be in force between the Community and the country of origin of a given product.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Times New Roman';font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">But the case is also instructive as to what it says about the application of the tax regime to the French overseas departments. Mr Hansen imported spirits from Guadeloupe, a French overseas department, into Germany. He complained that those spirits were subject to higher rates of tax than equivalent spirits produced domestically in Germany and that this was contrary to EU law. One of the questions referred to the Court of Justice was whether article 95 EC applied to the French overseas departments. Article 227(2) EC listed several general and particular provisions of the Treaty relating to free movement of goods which applied to the French overseas departments as soon as the Treaty came into force. The provisions listed did not include the tax provisions of the Treaty. However, article 227(2) went on to state that the conditions under which the other provisions of the Treaty were to apply would be determined within two years after the entry into force of the Treaty by decisions of the Council. No such decisions had been adopted. The issue for the Court in </span><span style="font-style:italic;font-family:'Times New Roman'">Hansen </span><span style="font-family:'Times New Roman'">was whether, after the expiry of that two year period, all the provisions of the Treaty applied to the French overseas departments or whether it was still only the listed provisions which applied. The Court held at para 10 that according to the French constitution, the overseas departments are an integral part of the French Republic. That meant that after the expiry of the transitional period, &#8220;the provisions of the Treaty and of secondary law must apply automatically to the French overseas departments inasmuch as they are an integral part of the French Republic&#8221; (para 11). That in turn meant that the tax provisions, in particular the prohibition on discrimination laid down by article 95, applied to goods coming from the French overseas departments. Those imported spirits were therefore entitled to benefit from the tax advantages conferred on domestic spirits if the imports met the necessary conditions for the application of those advantages. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Times New Roman';font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is true that the general principle of equal treatment was not referred to in the judgment and that is not surprising at this early stage of the Court&#8217;s jurisprudence. But what is significant in that case is that the question whether Guadeloupe was to be treated as a Member State or a third country for the purpose of discriminatory tax laws turned on whether those tax laws applied to it. The fact that the territory was clearly within the customs union as regards free movement of goods as soon as the Treaty entered into force was not sufficient to align it with Member States for this purpose. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Times New Roman';font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Channel Islands are much less integrated into the EU than Guadeloupe was at the time of the </span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'"> decision. There is nothing in article 355 TFEU that envisages the application of that Treaty to the Channel Islands to any extent greater than set out in Protocol 3 to the Treaty of Accession. That Protocol does not contain any provision similar in effect to the part of article 227(2) EC analysed in </span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'">. The </span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'"> judgment certainly does not support JCL&#8217;s submission that territories within the customs union but outside the relevant tax area enjoy some special status different from countries entirely outside the EU for all purposes. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Times New Roman';font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL argues that the Court of Appeal&#8217;s judgment leaves entities in Jersey in a &#8220;jurisdictional void&#8221; if they cannot rely on the principle of equal treatment as between countries which are inside the customs union but outside the VAT regime. They will be in a worse position than those who suffer discrimination relating to trade between other countries within the EU customs territory who can rely on </span><span style="font-style:italic;font-family:'Times New Roman'">NCC Construction</span><span style="font-family:'Times New Roman'">. They are also in a worse position than those who suffer discrimination relating to trade from third countries outside both the VAT regime and the customs union. True third countries may be able to rely on rights under international trade law or under the Union&#8217;s trade agreements which may ban protectionist measures. Jersey entities have no such rights. This is illustrated by the Court of Justice&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Simba SpA v Ministero delle Finanze </span><span style="font-family:'Times New Roman'">(Cases C-228/90, C-234/90, C-339/90, C-353/90) [1992] ECR I-3713. That judgment was one stage in the complex litigation arising from Italy&#8217;s consumer tax imposed on bananas. In an earlier judgment, the Court of Justice had held that the tax, which in practice applied almost exclusively to imported products because domestic production of bananas was extremely small, fell within the ambit of article 95 EC rather than within the free movement provisions. The tax was held to be contrary to article 95 in so far as it applied to bananas in free circulation which were then imported into Italy. The tax was then removed from bananas in free circulation in the Member States but was still imposed on bananas imported directly from third countries. One question referred to the Court of Justice by the Italian court was whether article 95 applied to direct imports from non-member countries. The Court of Justice held first that the tax still fell to be assessed under article 95 and not as a charge having equivalent effect to a customs duty. Since article 95 is, according to its wording, applicable only to products imported from other Member States, it did not apply to bananas directly imported from third countries. The Court of Justice went on, however (at para 16) to consider whether the tax was &#8220;incompatible with the spirit and the scheme of Community law&#8221; namely the implementation of a common commercial policy by Member States under article 113 EC (now, broadly, found in article 207 TFEU). The Court said: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;17 It is apparent that the Treaty provisions concerning the common commercial policy, and in particular Article 113, do not of themselves prohibit a Member State from levying on products imported directly from a non-member country a duty such as the national tax on consumption.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">18 As the Court has already established (see [</span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'">] ...) for trade with non-member countries, and as far as internal taxation is concerned, the Treaty itself does not include any rule similar to that laid down in Article 95.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">19 However, while the Treaty does not itself include provisions which prohibit possible discrimination in the application of internal taxes to products imported directly from non-member countries, account must be taken, in the present cases, of the international agreements in force between the Community and the non-member countries of origin of the consignments of bananas, which may contain such clauses and thus influence the outcome of the disputes in the main proceedings (see [</span><span style="font-style:italic;font-family:'Times New Roman'">Hansen</span><span style="font-family:'Times New Roman'">]).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Times New Roman';font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Depending on the origin of the bananas, therefore, the Court of Justice said the protectionist measure might contravene one such international agreement. If it did, then the supremacy of EU law meant that the national law would have to be disapplied and there would be no requirement to pay the duty. Similarly in </span><span style="font-style:italic;font-family:'Times New Roman'">OTO</span><span style="font-family:'Times New Roman'">, the rejection of the argument based on article 95 was followed by consideration of whether the tax challenged there was incompatible with the Treaty provisions relating to the implementation of the common commercial policy: para 21. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Times New Roman';font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We recognise that the position of Jersey and the other territories listed in article 6(1) may appear anomalous. That was a result of the long history of the Bailiwick&#8217;s connection with the United Kingdom and the careful negotiation that led to its unusual status within the EU pursuant to article 355(5)(c) TFEU and Protocol 3 to the 1972 Treaty of Accession. For the most part, that unusual status operated to the benefit of Jersey and its inhabitants. They enjoyed the benefits of being within the EU customs union so far as the free movement of goods was concerned. They did not share the burden of consumers in the UK of having to pay VAT on goods and services supplied internally or of suppliers of having to register and account for such VAT to HMRC. One aspect of that advantageous position was diminished by the legislative change of which JCL now complains. But it is an exaggeration to regard them as having been cast into a legal wilderness without rights.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Times New Roman';font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Similarly, we reject the assertion that JCL must be allowed to rely on the principle of equal treatment because the purpose of fiscal measures is to ensure the establishment and functioning of the internal market and to avoid distortions of competition. The lifting of LVC Relief was a measure designed to avoid the distortions that arose from the practice of &#8220;round-tripping&#8221;. It may be, as Green LJ said at the close of his judgment, that JCL had been &#8220;caught in the crossfire&#8221; between HMT and those who engaged in that practice. That does not arguably create a breach of the principle of equal treatment as between the Channel Islands and other third territories or third countries outside the VAT Directive area. Nor, in our judgment, does it breach the principle of proportionality. That principle cannot have any application in respect of the VAT treatment of third territories which are outside the VAT Directive area. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Times New Roman';font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> Finally on this ground, JCL drew to our attention an authorisation to derogate from the Sixth VAT Directive that had been granted by the EU Council to Denmark in 2005 to last until the end of 2010. This took the form of Council Decision of 14 March 2005 (2005/258/EEC) (OJ L 78, 24.3. 2005, p 47) (&#8220;the Danish Derogation&#8221;). Article 1 of the Danish Derogation provided: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;By way of derogation from Article 14(1)(d) of Directive 77/388/EEC, Denmark is authorised to apply VAT on the importation into Denmark of magazines, periodicals or the like, printed in the territory of the Community, as defined in Article 3 of the said Directive and sent to private individuals in Denmark.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Times New Roman';font-size:13pt">79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Article 14(1)(d) of the Sixth VAT Directive referred to in article 1 provided for a mandatory exemption for final importation of specified goods but gave Member States the option of &#8220;not granting exemption where this would be liable to have a serious effect on conditions of competition on the home market&#8221;. That exemption was implemented by Directive 83/181/EEC (OJ L 105, 23.4.1983, p. 38) which (as amended) contained in article 22 a LVC Relief in similar terms to article 23 of the Exemptions Directive. The recitals to the Danish Derogation record that the Danish authorities informed the Commission of their wish to introduce special measures for derogation from the Sixth VAT Directive in order to prevent certain types of tax evasion or avoidance. The authorities provided the Commission &#8220;with all the relevant information to that effect&#8221; and the other Member States were informed of the request. Recital (3) states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The Danish authorities have discovered that some publishing companies re-route the distribution of their publications to subscribers in Denmark via territories not covered by the Sixth Directive, with a loss in revenue for Denmark and consequently with a negative impact on the Community&#8217;s own resources. There is the risk that the loss of revenue will increase unless Denmark is authorised to prevent this type of tax avoidance.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Times New Roman';font-size:13pt">80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It goes on to state in recital (4) that the derogation only targets the consignments and situations connected with the avoidance scheme and &#8220;does not intend to exclude all mail order consignments from the exemption&#8221;. It therefore appeared that the proposed derogation &#8220;is in fact the most appropriate solution in this specific case&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Times New Roman';font-size:13pt">81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Danish Derogation was accompanied by an explanatory memorandum. This stated that the investigation by the Danish authorities disclosed that in the first nine months of 2003, some 3.5 million weeklies and magazines &#8220;were imported from the &#197;land islands only&#8221;, leading to an estimated loss of revenue to the state of some &#8364;6.2 million. The &#197;land islands are, according to article 2 of Protocol 2 of the Finnish Act of Accession 1994, to be regarded as a third territory excluded from the territorial application of the harmonisation of turnover taxes, excise duties and other forms of indirect taxation. The Danish Derogation did not single out goods coming from the &#197;land islands but appeared to apply to all magazines and periodicals that were printed in Denmark or elsewhere in the EU but then shipped to a third territory or third country and then exported to a private individual in Denmark.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Times New Roman';font-size:13pt">82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was not entirely clear from Mr O&#8217;Neill&#8217;s submissions at the hearing what conclusion he was inviting the court to draw from the existence of the Danish Derogation though it is fair to say that it was given more prominence in oral argument than it had been in JCL&#8217;s written submissions. JCL has never maintained that article 395 of the VAT Directive (the current version of article 27 of the Sixth VAT Directive) requires a Member State to apply for a Council decision every time it wishes to exercise the discretion conferred by article 23 of the Exemptions Directive to withdraw LVC Relief from mail order goods. It is too much of a leap &#8211; and rather counter-intuitive &#8211; to infer from the existence of the Danish Derogation that any exercise of that discretion which adopted something less than a complete removal of the exemption for all kinds of goods from all territories required an application to the Commission and a Council decision. HMT were unable to cast any light on why Denmark thought it needed to apply under article 27 of the Sixth VAT Directive despite the discretion conferred by article 22 of Directive 83/181/EEC. All one can say is that it is unclear why Denmark considered that it needed to apply for a derogation, though one can speculate that the practical reality that the measure was targeting a territory associated with a different Member State (Finland) may have made this a sensible precaution. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Issue 3: Failure to protect fundamental rights under the TEU, the Charter of Fundamental Rights and the European Convention on Human Rights</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Times New Roman';font-size:13pt">83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JCL argues that the Court of Appeal failed to provide effective legal protection for JCL&#8217;s EU law rights under article 19(1) TEU, article 47 of the Charter of Fundamental Rights and the European Convention on Human Rights. Article 19(1) TEU provides that &#8220;Member States shall provide remedies sufficient to ensure effective legal protection in the fields covered by Union law&#8221;. Article 47 of the Charter is to similar effect. JCL describes the effect of these provisions as imposing an overarching duty on national courts to ensure that their procedures in fields covered by EU law respect the principle of the effectiveness of rights conferred by EU law: see para 5.44 of their written case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Times New Roman';font-size:13pt">84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">That is all undoubtedly true, but the right to a remedy arises only where there has been a breach; it cannot of itself generate either a right under EU law or a breach of any such right. This argument does not therefore take JCL&#8217;s case any further. Nor does it assist to describe JCL&#8217;s claim to damages for breach of EU law as being a &#8220;possession&#8221; for the purposes of article 1 of Protocol 1 of the Convention for the Protection of Human Rights and Fundamental Freedoms. If, as we would hold, there has been no breach of EU law in respect of JCL&#8217;s business there cannot even arguably be any such possession. None of the provisions relied on enables JCL to defeat HMT&#8217;s strike out application and to insist on a hearing on the merits. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Times New Roman';font-size:13pt">85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As a result of our conclusions on Issues 1, 2 and 3, Issue 4 concerning remedies does not arise. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Times New Roman';font-size:13pt">86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We therefore conclude that the Court of Appeal was correct to characterise the charge imposed on mail order imports from the Channel Islands as a fiscal measure. Its legality therefore falls to be assessed under article 110 TFEU and not under the free movement provisions. The Channel Islands are a third territory for the purposes of the VAT Directive, despite being within the customs union for other purposes. Article 110 therefore has no application. The general principle of equal treatment cannot be relied on by JCL as entitling it to the same treatment as other third territories listed in the VAT Directive because that principle does not preclude different treatment of different third territories. We would therefore dismiss the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaHeading1" style="text-align:center"><span style="font-weight:normal;font-family:'Times New Roman'">ANNEX &#8211; RELEVANT LEGISLATIVE AND TREATY PROVISIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_13">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Treaty on the Functioning of the European Union (</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">&#8220;</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">TFEU</span><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">&#8221;)</span></p>
+	    <table class="TableGrid" uk:widths="1.03in 5.12in">
+	      <tr>
+		<td>
+		  <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">Provision</span></p>
+		</td>
+		<td>
+		  <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">Text</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 28</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The Union shall comprise a customs union which shall cover all trade in goods and which shall involve the prohibition between Member States of customs duties on imports and exports and of all charges having equivalent effect, and the adoption of a common customs tariff in their relations with third countries.</span></p>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The provisions of Article 30 and of Chapter 3 of this Title shall apply to products originating in Member States and to products coming from third countries which are in free circulation in Member States.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 30</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">Customs duties on imports and exports and charges having equivalent effect shall be prohibited between Member States. This prohibition shall also apply to customs duties of a fiscal nature.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 34</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">Quantitative restrictions on imports and all measures having equivalent effect shall be prohibited between Member States.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 110</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">No Member State shall impose, directly or indirectly, on the products of other Member States any internal taxation of any kind in excess of that imposed directly or indirectly on similar domestic products.</span></p>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">Furthermore, no Member State shall impose on the products of other Member States any internal taxation of such a nature as to afford indirect protection to other products.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 113</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The Council shall, acting unanimously in accordance with a special legislative procedure and after consulting the European Parliament and the Economic and Social Committee, adopt provisions for the harmonisation of legislation concerning turnover taxes, excise duties and other forms of indirect taxation to the extent that such harmonisation is necessary to ensure the establishment and the functioning of the internal market and to avoid distortion of competition.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 355(5)(c)</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">In addition to the provisions of Article 52 of the Treaty on European Union relating to the territorial scope of the Treaties, the following provisions shall apply&#8230;</span></p>
+		  <p/>
+		  <p style="margin-left:0.5in;text-indent:-0.5in"><span style="font-family:'Times New Roman';font-size:13pt">5. </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:13pt">Notwithstanding Article 52 of the Treaty on European Union and paragraphs 1 to 4 of this Article: &#8230; </span></p>
+		  <p style="margin-left:0.5in;text-indent:-0.5in"/>
+		  <p style="margin-left:0.5in;text-indent:-0.5in"><span style="font-family:'Times New Roman';font-size:13pt">(c)       the Treaties shall apply to the Channel Islands and the Isle of Man only to the extent necessary to ensure the implementation of the arrangements for those islands set out in the Treaty concerning the accession of new Member States to the European Economic Community and to the European Atomic Energy Community signed on 22 January 1972.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Protocol 3 to the 1972 Treaty of Accession</span></p>
+	    <table class="TableGrid" uk:widths="1.03in 5.12in">
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 1</span></p>
+		</td>
+		<td>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">1.</num>
+		    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">The Community rules on customs matters and quantitative restrictions, in particular those of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref> of Accession, shall apply to the Channel Islands and the Isle of Man under the same conditions as they apply to the United Kingdom. In particular, customs duties and charges having equivalent effect between those territories and the Community as originally constituted and between those territories and the new Member States shall be progressively reduced in accordance with the timetable laid down in Articles 32 and 36 of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref> of Accession. The Common Customs Tariff and the ECSC unified tariff shall be progressively applied in accordance with the timetable laid down in Articles 39 and 59 of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref> of Accession, and account being taken of Articles 109, 110 and 119 of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">that Act</ref>.</span></p>
+		  </blockContainer>
+		  <p class="ListParagraph" style="margin-left:0.5in"/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">2.</num>
+		    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">In respect of agricultural products and products processed therefrom which are the subject of a special trade regime, the levies and other import measures laid down in Community rules and applicable by the United Kingdom shall be applied to third countries.</span></p>
+		  </blockContainer>
+		  <p style="margin-left:0.47in"><span style="font-family:'Times New Roman';font-size:13pt">Such provisions of Community rules, in particular those of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref> of Accession, as are necessary to allow free movement and observance of normal conditions of competition in trade in these products shall also be applicable.</span></p>
+		  <p style="margin-left:0.47in"/>
+		  <p style="margin-left:0.47in"><span style="font-family:'Times New Roman';font-size:13pt">The Council, acting by a qualified majority on a proposal from the Commission, shall determine the conditions under which the provisions referred to in the preceding subparagraphs shall be applicable to these territories.</span></p>
+		  <p style="margin-left:0.47in"/>
+		</td>
+	      </tr>
+	    </table>
+	    <table class="TableGrid" uk:widths="1.03in 5.12in">
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 2</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The rights enjoyed by Channel Islanders or Manxmen in the United Kingdom shall not be affected by <ref href="http://www.legislation.gov.uk/id/ukpga/2012/14" uk:canonical="2012 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref> of Accession. However, such persons shall not benefit from Community provisions relating to the free movement of persons and services.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Principal VAT Directive (2006/112/EC) (as amended) (&#8220;the VAT Directive&#8221;)</span></p>
+	    <table class="TableGrid" uk:widths="1.1in 5.04in">
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 5</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">For the purposes of applying this Directive, the following definitions shall apply:</span></p>
+		  <p/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+		    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt">&#8216;Community&#8217; and &#8216;territory of the Community&#8217; mean the territories of the Member States as defined in point (2);</span></p>
+		  </blockContainer>
+		  <p class="ListParagraph" style="margin-left:0.5in"/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+		    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt">&#8216;Member State&#8217; and &#8216;territory of a Member State&#8217; mean the territory of each Member State of the Community to which the Treaty establishing the European Community is applicable, in accordance with Article 299 of that Treaty, with the exception of any territory referred to in Article 6 of this Directive;</span></p>
+		  </blockContainer>
+		  <p class="ListParagraph" style="margin-left:0.5in"/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+		    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt">&#8216;third territories&#8217; means those territories referred to in Article 6;</span></p>
+		  </blockContainer>
+		  <p class="ListParagraph" style="margin-left:0.5in"/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(4)</num>
+		    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt">&#8216;third country&#8217; means any State or territory to which the Treaty is not applicable.</span></p>
+		  </blockContainer>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 6(1)</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">1. This Directive shall not apply to the following territories forming part of the customs territory of the Community:</span></p>
+		  <p/>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(a) Mount Athos;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(b) the Canary Islands;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(c) the French territories referred to in Article 349 and Article 355(1) of the Treaty on the Functioning of the European Union;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(d) the &#197;land Islands;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(e) the Channel Islands;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(f) Campione d&#8217;Italia;</span></p>
+		  <p style="margin-left:0.25in"><span style="font-family:'Times New Roman';font-size:13pt">(g) the Italian waters of Lake Lugano.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 30</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">&#8216;Importation of goods&#8217; shall mean the entry into the Community of goods which are not in free circulation within the meaning of Article 24 of the Treaty.</span></p>
+		  <p/>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">In addition to the transaction referred to in the first paragraph, the entry into the Community of goods which are in free circulation, coming from a third territory forming part of the customs territory of the Community, shall be regarded as importation of goods.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 60</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The place of importation of goods shall be the Member State within whose territory the goods are located when they enter the Community.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-weight:normal;text-decoration-line:underline;text-decoration-style:solid;text-transform:none;font-family:'Times New Roman'">Exemptions Directive (2009/132/EC) (&#8220;the Exemptions Directive&#8221;)</span></p>
+	    <table class="TableGrid" uk:widths="1.03in 0.08in 5.04in">
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">recitals </span></p>
+		</td>
+		<td colspan="2">
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.32in;text-indent:-0.25in">(2)</num>
+		    <p class="Quote" style="margin-left:0.32in;margin-right:0.02in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Pursuant to Article 131 and Article 143(b) and (c) of Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax, Member States are, without prejudice to other Community provisions and under conditions which they shall lay down for the purpose, inter alia, of preventing any possible evasion, avoidance or abuse, to exempt final importation of goods qualifying for exemption from customs duties other than as provided for in the Common Customs Tariff.</span></p>
+		  </blockContainer>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.32in;text-indent:-0.25in">(3)</num>
+		    <p class="Quote" style="margin-left:0.32in;margin-right:0.02in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Pursuant to Article 145 of Directive 2006/112/EC, the Commission is required to submit to the Council proposals designed to lay down Community tax rules clarifying the scope of the exemptions referred to in Articles 143 and 144 of that Directive and detailed rules for their implementation.</span></p>
+		  </blockContainer>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.32in;text-indent:-0.25in">(4)</num>
+		    <p class="Quote" style="margin-left:0.32in;margin-right:0.02in;text-indent:0.12in"><span style="font-family:'Times New Roman'">While it is deemed desirable to achieve the greatest possible degree of uniformity between the system for customs duties and that for value added tax, account should be taken, nevertheless, in applying the latter system, of the differences as regards objective and structure between customs duties and value added tax.</span></p>
+		  </blockContainer>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.32in;text-indent:-0.25in">(5)</num>
+		    <p class="Quote" style="margin-left:0.32in;margin-right:0.02in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Separate arrangements for value added tax should be laid down for imported goods to the extent necessary to comply with the objectives of tax harmonisation. The exemptions on importation can be granted only on condition that they are not liable to affect the conditions of competition on the market.</span></p>
+		  </blockContainer>
+		</td>
+	      </tr>
+	      <tr>
+		<td colspan="2">
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 1</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">The scope of the exemptions from value added tax (hereinafter VAT) referred to in Article 143(b) and (c) of Directive 2006/112/EC and the rules for their implementation, referred to in Article 145 of that Directive, shall be defined by this Directive.</span></p>
+		  <p/>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">In accordance with Article 131 and Article 143(b) and (c) of Directive 2006/112/EC, the Member States shall apply the exemptions laid down in this Directive under the conditions fixed by them in order to ensure that such exemptions are correctly and simply applied and to prevent any evasion, avoidance or abuses.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td colspan="2">
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 23</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">Goods of a total value not exceeding EUR 10 shall be exempt on admission. Member States may grant exemption for imported goods of a total value of more than EUR 10, but not exceeding EUR 22.</span></p>
+		  <p/>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">However, Member States may exclude goods which have been imported on mail order from the exemption provided for in the first sentence of the first subparagraph.</span></p>
+		  <p/>
+		</td>
+	      </tr>
+	      <tr>
+		<td colspan="2">
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">article 24</span></p>
+		</td>
+		<td>
+		  <p><span style="font-family:'Times New Roman';font-size:13pt">Exemption shall not apply to the following:</span></p>
+		  <p/>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.22in">(a)</num>
+		    <p class="ParaLevel3" style="margin-left:0.22in;text-indent:0.38in"><span style="font-family:'Times New Roman'">alcoholic products;</span></p>
+		  </blockContainer>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.22in">(b)</num>
+		    <p class="ParaLevel3" style="margin-left:0.22in;text-indent:0.38in"><span style="font-family:'Times New Roman'">perfumes and toilet waters;</span></p>
+		  </blockContainer>
+		  <blockContainer>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.22in">(c)</num>
+		    <p class="ParaLevel3" style="margin-left:0.22in;text-indent:0.38in"><span style="font-family:'Times New Roman'">tobacco or tobacco products.</span></p>
+		  </blockContainer>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,914 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/7"/>
+	  <FRBRdate date="2024-01-15" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="7"/>
+	  <FRBRname value="Axis Speciality Europe SE v Discovery Land Company LLC &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/7"/>
+	  <FRBRdate date="2024-01-15" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/7/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/7/data.xml"/>
+	  <FRBRdate date="2024-11-10T03:45:47" name="transform"/>
+	  <FRBRdate date="2024-11-19T04:43:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="axis-specialty-europe-se" href="" showAs="AXIS SPECIALTY EUROPE SE"/>
+	<TLCPerson eId="discovery-land-company-llc" href="" showAs="DISCOVERY LAND COMPANY LLC"/>
+	<TLCPerson eId="taymouth-castle-dlc-llc" href="" showAs="TAYMOUTH CASTLE DLC LLC"/>
+	<TLCPerson eId="the-river-tay-castle-llp" href="" showAs="THE RIVER TAY CASTLE LLP"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-phillips" href="/judge-lord-justice-phillips" showAs="LORD JUSTICE PHILLIPS"/>
+	<TLCPerson eId="judge-lady-justice-elisabeth-laing" href="/judge-lady-justice-elisabeth-laing" showAs="LADY JUSTICE ELISABETH LAING"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>7</uk:number>
+	<uk:cite>[2024] EWCA Civ 7</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>95809187d7988d2b1d7f4ed3e178511e6d88f4cf28d1cd393b7f735287bb34ed</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCA Civ 7</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-001141</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</p>
+      <p class="CoverMain">KING&#8217;S BENCH DIVISION</p>
+      <p class="CoverMain">COMMERCIAL COURT </p>
+      <p class="CoverMain">Mr Justice Knowles</p>
+      <p class="CoverMain"><neutralCitation>[2023] EWHC 779 (Comm)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-01-15" refersTo="#judgment">15/01/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-phillips">LORD JUSTICE PHILLIPS</judge></p>
+      <p class="CoverMain" style="text-align:center">LADY JUSTICE ANDREWS<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-elisabeth-laing">LADY JUSTICE ELISABETH LAING</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.98in 4.64in 1.08in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#axis-specialty-europe-se" style="font-weight:bold">AXIS SPECIALTY EUROPE SE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant and Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#discovery-land-company-llc" style="font-weight:bold">DISCOVERY LAND COMPANY LLC</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#taymouth-castle-dlc-llc" style="font-weight:bold">TAYMOUTH CASTLE DLC LLC</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#the-river-tay-castle-llp" style="font-weight:bold">THE RIVER TAY CASTLE LLP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondents and Claimants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Patrick Lawrence KC and Helen Evans KC</span> (instructed by <span style="font-weight:bold">CMS Cameron McKenna Nabarro Olswang LLP</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">William Flenley KC and Heather McMahon </span>(instructed by<span style="font-weight:bold"> Davis Woolfe Solicitors</span>) for the <span style="font-weight:bold">Respondents</span></p>
+      <p style="text-align:center">Hearing dates: 29 and 30 November and 1 December2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 15<span style="vertical-align:super;font-size:smaller">th</span> January 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lady Justice Andrews:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading><span style="font-style:italic;font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This appeal concerns a dispute between the Claimants, who were clients of a dishonest solicitor, Mr Stephen Jones, and the insurer providing professional indemnity insurance to the firm in which Mr Jones was a partner (and to two associated companies of which he was a director) about:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">whether the insurer (&#8220;Axis&#8221;) can rely upon an exclusion clause in the insurance policy (&#8220;the Policy&#8221;) to exclude it from any liability to indemnify the Claimants that would otherwise arise under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/10/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/10" uk:canonical="2010 c. 10" uk:origin="TNA" uk:type="legislation">Third Party (Rights Against Insurers) Act 2010</ref> (the insured entities all being insolvent), and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">if not, whether Axis is entitled to rely on the aggregation clause in the Policy and treat the claims made against it as a single claim.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The insured entities were a firm named Jirehouse Partners LLP, and two private English registered companies, Jirehouse (an unlimited company) and Jirehouse Trustees Ltd (&#8220;JTL&#8221;) (a limited company). I shall refer to them collectively as &#8220;the Jirehouse Entities&#8221;. The Jirehouse Entities were part of a larger group controlled by Mr Jones, which included companies and limited partnerships engaged in commercial and financial transactions which did not provide legal services (&#8220;the Jirehouse Group&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The answer to the first of these questions depends on whether the only other member and director of the Jirehouse Entities, Mr Vieoence Prentice, condoned Mr Jones&#8217; dishonest behaviour which gave rise to the claims under the Policy. After a trial in which Mr Prentice gave evidence over 2&#189; days, Knowles J (&#8220;the Judge&#8221;) concluded that he did not. In this appeal, brought with the permission of the Judge himself, Axis challenges that finding of fact. I shall refer to this as &#8220;the condonation issue&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The answer to the second question depends on whether the claims arise from &#8220;similar acts or omissions in a series of related matters or transactions.&#8221; The Judge held that they did not. Again with the permission of the Judge himself, Axis challenges that conclusion. I shall refer to this as &#8220;the aggregation issue&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was a further issue at trial as to whether Mr Prentice&#8217;s admission on 2 June 2017 as a member of Jirehouse Partners LLP with effect from 1 April 2017, and his appointment as a director of Jirehouse and JTL on 2 June 2017 were sham transactions. That issue was resolved by the Judge in favour of the Claimants, and has not been appealed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons which are set out in this judgment, I would dismiss the appeal on both grounds. The Judge&#8217;s conclusion that Mr Prentice did not condone Mr Jones&#8217; dishonesty was one that he was entitled to reach on the evidence before him. He also correctly decided that Axis was not entitled to rely upon the aggregation clause.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The Policy of insurance</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By virtue of the SRA Indemnity Insurance Rules 2013, (&#8220;the Rules&#8221;) made by the Solicitors Regulation Authority Board under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/47/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 37</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/47" uk:canonical="1974 c. 47" uk:origin="TNA" uk:type="legislation">Solicitors&#8217; Act 1974</ref>, all solicitors&#8217; firms in private practice in England and Wales are required to take out and maintain professional indemnity insurance with participating insurers.  As the Judge noted, <ref href="http://www.legislation.gov.uk/id/ukpga/1974/47/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 37</ref> has as its principal purpose &#8220;to confer on the Law Society the power to safeguard the lay public&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">All solicitors&#8217; firms carrying on a practice during any indemnity period beginning on or after 1 October 2013, when the Rules came into force, have a continuing obligation to ensure that they have professional indemnity insurance in place which satisfies the minimum terms and conditions requirements for &#8220;qualifying insurance&#8221; set out from time to time in Appendix 1 to the Rules (&#8220;the MTC&#8221;). As these are minimum requirements, it is open to the insured to agree more generous terms of cover with a participating insurer.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Axis is a participating insurer. It was the provider of the primary layer of solicitors&#8217; professional indemnity insurance (&#163;3 million per claim, less a &#163;250,000 excess) to the three Jirehouse Entities, of which Mr Jones and Mr Prentice were the sole members and directors at all material times. The period of insurance covered by the Policy was 1 November 2018 to 31 October 2019. It is common ground that the excess applies to the claims brought by the Claimants against Axis under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/10" uk:canonical="2010 c. 10" uk:origin="TNA" uk:type="legislation">Third Party (Rights Against Insurers) Act 2010</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Policy must be interpreted in line with the principal purpose of insurance cover against professional liability, namely, the protection of that section of the public that makes use of the services of solicitors: see <span style="font-style:italic">Impact Funding Solutions Ltd v Barrington Support Services Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/57" uk:canonical="[2016] UKSC 57" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 57</ref>; <ref href="#" uk:canonical="[2017] AC 73" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] AC 73</ref>, particularly at [16]-[17] (per Lord Hodge JSC) and at [41] (per Lord Toulson JSC). Subject to this important consideration, the terms of the Policy, including any exclusions, are to be construed neutrally, i.e. without favouring either the insured or the insurer, applying the established principles of contractual construction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 5.1 of the Policy provides that the Policy &#8220;is intended to comply with the minimum terms and conditions&#8221; which are defined by Clause 8.17 as the MTC in force at the commencement of the Policy. It was common ground that these were the MTC in force as at October 2013. Accordingly, all further references to the MTC in this judgment are to those terms.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 2.5 of the MTC stipulates that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;The insurance may provide that, when considering what may be regarded as one claim for the purposes of the limits contemplated by clauses 2.1 and 2.3:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">all <span style="font-style:italic">claims</span> against one or more <span style="font-style:italic">insured</span> arising from</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in"><span/><marker name="tab"/>(i) one act or omission;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in"><span/><marker name="tab"/>(ii) one series of related acts or omissions;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(iii)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.79in;text-indent:0.32in">the same act or omission in a series of related matters or transactions;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(iv)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.79in;text-indent:0.32in">similar acts or omissions in a series of related matters or transactions</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">and</p>
+		    </wrapUp>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">all <span style="font-style:italic">claims</span> against one or more <span style="font-style:italic">insured</span> arising from one matter or transaction</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">will be regarded as one <span style="font-style:italic">claim.</span> &#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.79in">[Italics as in the original text].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 3.1 of the MTC permits the parties to agree upon an excess, provided that the cover is not reduced below the minimum amount specified for any one claim in clause 2.1 (&#163;3 million where the insured is a &#8220;relevant recognised body&#8221; or &#8220;relevant licensed body&#8221; and &#163;2 million in all other cases; in either case, exclusive of defence costs). Clause 3.5 specifies that the insurance may provide for multiple claims to be treated as one claim for the purposes of an excess contemplated by clause 3.1, on such terms as the insured and insurer agree.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Policy is on a &#8220;claims made&#8221; basis. Clause 1.1 provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;The <span style="font-style:italic;font-weight:bold">insurer</span> agrees to indemnify the <span style="font-style:italic;font-weight:bold">insured</span> up to the <span style="font-style:italic;font-weight:bold">limit of indemnity</span>, against a <span style="font-style:italic;font-weight:bold">claim</span> resulting in a civil liability where such <span style="font-style:italic;font-weight:bold">claim</span> arises from the <span style="font-style:italic;font-weight:bold">insured&#8217;s professional business</span><span style="font-style:italic"/>and</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">is first made against the <span style="font-style:italic;font-weight:bold">insured </span>during the <span style="font-style:italic;font-weight:bold">period of insurance</span><span style="font-weight:bold">;</span> or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">is first made against the <span style="font-style:italic;font-weight:bold">insured</span><span style="font-weight:bold"/>after the <span style="font-style:italic;font-weight:bold">period of insurance</span> but arises from <span style="font-style:italic;font-weight:bold">circumstances</span> notified to the <span style="font-style:italic;font-weight:bold">insurer</span><span style="font-weight:bold"/>in accordance with clause 3.2 below during <span style="font-style:italic;font-weight:bold">the period of insurance</span><span style="font-style:italic">.</span>&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">[All italicised terms as in the original text, referring to defined terms in the Policy].</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 2 sets out a list of exclusions for which the insurer shall have no liability under the Policy. These include, under Clause 2.8:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;Any <span style="font-style:italic;font-weight:bold">claims</span> directly or indirectly arising out of or in any way involving dishonest or fraudulent acts, errors or omissions committed or condoned by the <span style="font-style:italic;font-weight:bold">insured</span>, provided that:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8230;.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">no dishonest or fraudulent act, error or omission shall be imputed to a body corporate unless it was committed or condoned by, in the case of a company, all directors of that company, or, in the case of a Limited Liability Partnership, all members of that Limited Liability Partnership.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 5.2 provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.79in">&#8220;All <span style="font-style:italic;font-weight:bold">claims</span> against one or more <span style="font-style:italic;font-weight:bold">insured</span> arising from</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">one act or omission;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">one matter or transaction;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">one series of related acts or omissions;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(d)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">the same act or omission in a series of related matters or transactions;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(e)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in">similar acts or omissions in a series of related matters or transactions</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.79in">will be regarded as one <span style="font-style:italic;font-weight:bold">claim</span> for the purposes of this <span style="font-style:italic;font-weight:bold">Policy</span> and the payment of any <span style="font-style:italic;font-weight:bold">excess</span>.&#8221;</p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Since Clause 5.10, the interpretation clause, specifically provides that &#8220;any headings are for ease of reference only and shall not affect the interpretation of the provisions within this Policy,&#8221; I have deliberately omitted references to the headings of Clauses 2.8 and 5.2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We were told by Mr Lawrence KC, who appeared with Ms Evans KC for Axis, that most solicitors&#8217; professional indemnity insurance policies contain arbitration clauses, and therefore there is very little case law about the interpretation of terms in the MTC. However, the Supreme Court has considered the meaning of the expression &#8220;related matters or transactions&#8221; in Clause 2.5(iv) of the MTC in the case of <span style="font-style:italic">AIG Europe Ltd v Woodman and others </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/18" uk:canonical="[2017] UKSC 18" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 18</ref>; <ref href="#" uk:canonical="[2017] 1 WLR 1168" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 1168</ref>, which I shall return to consider in the context of the aggregation issue.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The events giving rise to the claims</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first claimant (&#8220;DLC&#8221;) is a property development company based in Arizona. The second claimant (&#8220;TCD&#8221;) is an affiliated company incorporated in Delaware for the specific purpose of purchasing Taymouth Castle, in Scotland. The third claimant (&#8220;RTC&#8221;) is a limited liability partnership based in the UK which TCD intended to use to hold the title to the castle once it had been purchased.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By a letter of engagement dated 11 April 2018, Jirehouse agreed to act as DLC&#8217;s English solicitors on the purchase of the castle and in &#8220;the structuring of the property holding in the most tax efficient way in accordance with the tax laws and regulations of the United Kingdom&#8221;. DLC had been introduced to Jirehouse as a client by a Mr Henry Anderson. A different, unconnected firm of solicitors was instructed by DLC to carry out the Scottish conveyancing aspects of the transaction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Jirehouse letter of engagement was accompanied by Jirehouse&#8217;s General Terms of Engagement which provided, by clause 7, that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;Unless otherwise expressly instructed by you in writing, all money which we may receive or hold from time to time on your behalf will be deposited by Jirehouse into a designated or general client bank account, segregated from its funds and those of any Jirehouse affiliates, and treated as client money in accordance with the SRA Rules.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 16 April 2018, DLC and/or TCD transferred the total sum of US$14,050,000, which was intended to be used to purchase the castle, into JTL&#8217;s general client account (which appears to have been used in practice as Jirehouse&#8217;s client account).  That money should have been held on trust by Jirehouse and JTL for DLC/TCD pending purchase of the castle. It was only to be used for that purpose. Instead, Mr Jones procured that on the same day as it was received, the entire amount was paid into a bank account in the name of Esquiline Finance Ltd, (&#8220;EFL&#8221;), one of a group of commercial companies separate from the Jirehouse Group, which he also owned or controlled. He then obtained DLC&#8217;s agreement to another Esquiline company, Esquiline Asset Management Ltd. (&#8220;EAML&#8221;), being interposed as a &#8220;front&#8221; for the purchase of the castle from the vendors, with a back-to-back sale by EAML to RTC.  The intention behind this appears to have been to conceal from the vendors the identity of a high net worth individual who stood behind the purchase of the castle.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Prentice was aware that the original US$14,050,000 had been received by Jirehouse/JTL, as in May 2018 he made some suggested amendments to a draft of a further letter from Jirehouse to DLC containing additional terms of engagement, which specifically referred to that sum being &#8220;received in our general client account&#8221;. Indeed, as the Judge found at [103] one of Mr Prentice&#8217;s proposed amendments was to the very paragraph in which that matter was mentioned. However, Mr Prentice was not directly involved in the purchase transaction, and there was no documentary evidence that he knew that the purchase price was paid out of Jirehouse/JTL&#8217;s client account almost as soon as it had been received.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Contracts for the sale and purchase of the castle were exchanged on 29 May 2018. The main sale contract referred to JTL holding &#163;1,433,000 (sterling) of the purchase price in a retention account.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Apart from the deposit, which was sent to the vendors&#8217; solicitors, Mr Jones misappropriated the balance of the transferred funds, which was US$9,300,000. He also misappropriated some further funds which he told DLC they needed to pay to complete the transaction, and which were also syphoned off through EFL. Mr Jones subsequently gave a variety of dishonest excuses to DLC/TLD&#8217;s representatives about why the balance supposedly held on client account by JTL could not be used to complete the transaction or repaid to them, beginning with alleged money laundering concerns about the source of the funds that were originally transferred. He told DLC that they should transfer another US$9,300,000 to Jirehouse (from a clearly identified and unimpeachable source) to enable completion to happen whilst those concerns were addressed. Jirehouse undertook that it would repay the &#8220;surplus&#8221; US$9,300,000 (&#8220;the Surplus Funds&#8221;) to  DLC/TCD within 2 working days of Jirehouse&#8217;s completion of due diligence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In consequence, DLC paid a further US$9,300,000 to complete the purchase of the castle on 7 December 2018. At around the same time, DLC agreed to lend EAML the money for the purchase and sub-sale, on the basis that the loan would be fully repaid in March 2019. The amount of the &#8220;loan&#8221; was the total amount - in excess of US$25 million - that had been transferred to Jirehouse for the purchase of the castle by the date of the loan agreement (i.e. the original US$14,050,000, the additional US $9,300,000 and the further monies demanded by Mr Jones and paid between the dates of those two transfers). Also on 7 December 2018, Jirehouse gave a letter of undertaking to the vendor&#8217;s solicitors to transfer them &#163;481,000 out of the retention monies (which, of course, had not been retained).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Jirehouse was obliged to account to DLC for the Surplus Funds, but never did. By the end of 2018, their excuses were wearing thin, and DLC had become very suspicious about why they had not been repaid. On 3 January 2019, Jirehouse/JTL&#8217;s bank accounts at Barclays bank were frozen, as was an account belonging to Mr Prentice. Mr Jones sent Mr Prentice an email in which he said that he suspected that Mr Anderson was behind this move. He subsequently sent another email to Mr Prentice suggesting that &#8220;coercive action&#8221; was being threatened against Jirehouse if they or their bankers did not act as demanded.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A series of emails between DLC&#8217;s representatives, Mr Holland, Mr Hinkle, and Mr Anderson, on the one hand, and Mr Jones, on the other, on 25 January 2019, in which DLC demanded proof that the Surplus Funds were being held in a client trust account and details of any outstanding compliance issues, were copied to Mr Prentice. These culminated in an email from Mr Anderson in which he said &#8220;there is nothing preventing you from making a wire [transfer] and hence all parties believe that something dodgy is going on&#8221;. In late January 2019, DLC instructed another firm of solicitors, Gibson Dunn, to represent them, and <span style="font-style:italic">they</span> began corresponding with Mr Jones about the segregation of the Surplus Funds.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Prentice did nothing about this correspondence, and left it to Mr Jones to handle the situation. He took no steps to check for himself that the funds in question were still being held in the client account. A few days later, on 30 January, the vendor&#8217;s solicitors sent an email to Mr Jones complaining about his failure to procure the release of the &#163;481,000 to them despite having received irrevocable instructions to do so. They described his conduct as &#8220;extremely unusual&#8221; and stated that they had &#8220;had to take the appropriate steps with the relevant authorities.&#8221; Mr Jones forwarded this document to Mr Prentice, commenting that: &#8220;this is not good &#8211; I think we do have to show some evidence of something held on account.&#8221;  Mr Prentice responded by asking Mr Jones to let him know &#8220;what he needed [him] to do on this&#8221;, but otherwise remained entirely passive.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst this was all going on, Mr Jones dishonestly and without authority used the castle as security for a loan of &#163;4,980,470 from Dragonfly Finance s.a.r.l. to RTC (&#8220;the Dragonfly Loan&#8221;). The charge was executed on 21 January 2019 by a Mr Clark, (who appears to have been a stooge of Mr Jones) purportedly on behalf of RTC, and the money was paid into Jirehouse&#8217;s client account on 10 or 11 February 2019.  The proceeds of the loan were then paid over to EFL on 12 February. The reason for the payment stated on the payment authorisation form was &#8220;Loan to [EAML] directed to [EFL].&#8221; Most of that sum was subsequently dissipated by Mr Jones. However, part of it appears to have been used on 15 February 2019 to restore the vendor&#8217;s retention sum, which was part of the money that Mr Jones had abstracted from the client account back in April 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is no evidence that Mr Prentice had any involvement in, or knowledge of the Dragonfly Loan arrangements at the time when they were made. His evidence, which the Judge accepted on this point, was that he was unaware of the Dragonfly Loan until 12 March 2019. He did not see any of the documentation relating to the setting up of the loan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Throughout February 2019, DLC and Gibson Dunn continued to press for evidence that the Surplus Funds were safely held and properly segregated. Mr Prentice was copied in to these emails. Again he chose to do nothing, and left it to Mr Jones to handle the dispute. On 6 March 2019, DLC became aware of the Dragonfly charge over the castle. On the following day, Gibson Dunn wrote a highly critical email to Mr Jones castigating Jirehouse&#8217;s conduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Matters came to a head on 13 March 2019 when DLC obtained a freezing order against EAML, and an ancillary order requiring Jirehouse to provide information. The evidence in support stated that the charge to secure the Dragonfly Loan had been registered without the Claimants&#8217; knowledge or consent. Mr Prentice was abroad in Nevis at the time when the order was served. On the afternoon of 14 March, Jirehouse sent a letter to Gibson Dunn by email, stating among other matters that &#163;4,980,479 was drawn down in respect of the Dragonfly loan facility. Mr Prentice&#8217;s evidence was that Mr Jones drafted that part of the letter.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 15 March 2019, Mr Jones initially sent an email asserting that Jirehouse had been asked by DLC to keep a loan available, and that the Dragonfly Loan was authorised. He copied that email to Mr Prentice. However a few hours later, in a telephone conversation with Mr Prentice, he confessed that the proceeds of the loan had been paid away. Mr Prentice tendered his resignation from his directorship and membership of the Jirehouse Entities by email early the same afternoon.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 30 July 2019, the Claimants obtained judgment in default against each of the Jirehouse Entities in respect of the misappropriation of the Surplus Funds and the Dragonfly Loan. The precise amount of their damages in respect of the Dragonfly claim has yet to be quantified, but that does not matter for present purposes. It is common ground that the Jirehouse Entities are insolvent.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The condonation issue</span></heading>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The insured under the Policy were the three Jirehouse Entities against whom the Claimants made the claims and obtained judgment. Clause 2.8 excluded Axis from liability to indemnify the insured in respect of claims arising out of dishonest or fraudulent acts, errors or omissions committed or condoned by the insured, but by reason of proviso (b), Mr Jones&#8217; dishonest acts (for which the Jirehouse Entities were vicariously liable) could not be imputed to them for the purposes of Clause 2.8 unless Mr Prentice was party to them (which was not alleged) or condoned them. It is common ground that the burden of proof that he did so rested on Axis.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The exclusion is aimed at the situation in which there is complicity by all the members or directors of the insured entity in the fraud or dishonesty of one (or some) of their number, such that it is appropriate to treat the entity itself as having acted fraudulently or otherwise dishonestly. It therefore reflects the fundamental principle of insurance law that a person cannot insure themselves against the consequences of their own dishonesty. Condonation, in this context, is inconsistent with innocence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As a matter of ordinary English, to condone means to treat as acceptable conduct which is unlawful or morally blameworthy. As the Judge said at [20], to &#8220;condone&#8221; conveys acceptance or approval, and it does not require an overt act. Mr Flenley KC, who appeared with Ms McMahon on behalf of the Claimants, accepted that condoning can (and most often will) take place silently and by conduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was some dispute between the parties as to what it is that Clause 2.8 requires to be &#8220;condoned&#8221; by all the directors or members of the insured entity who were not parties to the dishonest behaviour. The clause refers to claims &#8220;directly or indirectly arising out of, or in any way involving&#8221; dishonest or fraudulent acts, errors or omissions committed or condoned by the insured. Therefore, there must be a causal nexus between the dishonest behaviour said to have been condoned, and the claim against the insured for which they seek an indemnity under the Policy. It is the condonation of <span style="font-style:italic">that particular dishonest behaviour</span> which leads to it being attributed to the insured entity for the purposes of Clause 2.8.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The phrase &#8220;directly or indirectly arising out of&#8221; dishonest or fraudulent acts is straightforward. If Mr Prentice condoned Mr Jones misappropriating the particular client monies, the clause would be engaged. Although it was not the case the insured, and thus the Claimants, had to meet, I consider it would also have been engaged if Mr Prentice had condoned Mr Jones procuring the mortgage of the castle as security for the Dragonfly Loan behind the clients&#8217; backs, irrespective of whether he knew why Mr Jones did it or also condoned the subsequent theft of the money generated in this manner.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is because, as the Judge pointed out, the clause also refers to claims &#8220;in any way involving&#8221; dishonest conduct, even if the claim does not arise directly or indirectly from such conduct. The unauthorised entry into the loan agreement and related security arrangements, thereby exposing the clients to a legal liability to repay Dragonfly and putting the castle at risk, can be regarded as a separate act of dishonesty from the subsequent theft of the money paid by the lender into the client account, but it formed an essential part of the chain of events leading to the claim. Had it not been for the earlier dishonesty of Mr Jones which generated further funds for the clients, Mr Jones would not have been in a position to use those funds for his own purposes, including to cover up the theft of the retention monies. The earlier dishonesty was therefore essential. It facilitated the subsequent dishonesty which gave rise to the claim against Jirehouse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, given that Mr Prentice had no knowledge of the Dragonfly loan agreement or security arrangements until March 2019, and no reason to suspect that they existed, there was no factual basis for an allegation that the earlier dishonesty was condoned in this case; rather, as I understand it, it was the subsequent theft by Mr Jones of the loan funds which was said by Axis to form part of a pattern of dishonest misappropriation of client monies which Mr Prentice suspected and to which he turned a blind eye.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the Judge was right when he held at [23] that the language of Clause 2.8 is wide enough to embrace a situation in which someone condones a pattern of dishonest behaviour which is of the same type as the dishonest behaviour that directly gives rise to the claim, and of which the latter forms part (for example, if one member/director condoned the regular use by the other member/director of client funds for their own purposes). The question in each case would be whether or not knowledge and acceptance or approval of other acts in the same pattern amounted to condonation of the act or acts which gave rise to the claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In that situation, it seems to me that the individual concerned could not escape the consequences of his condonation of an established practice by the other director or member of taking or using client monies for his own purposes, by arguing that he was unaware of the specific instances of such behaviour which gave rise to the claim or claims &#8211; e.g. because he was on holiday when the relevant theft took place. I doubt whether he could do so by arguing, for example, that he was only condoning small thefts and not larger ones, or that he was only condoning the &#8220;borrowing&#8221; of client moneys rather than their outright misappropriation. That is why I have some reservations about the conclusion drawn by the Judge from his alternative (counterfactual) analysis of what, at most, Mr Prentice might have suspected/condoned, at [143]-[144]. Fortunately, in the light of his primary fact-findings, it is unnecessary to consider those matters for the purposes of this appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That said, it will always be a question of fact and degree in any given case whether the dishonest behaviour which gives rise to the claim truly forms part of a wider pattern of dishonest behaviour which has been either committed or condoned by all the directors or members of the insured entity. I accept that in principle, there may be cases in which even condonation of earlier mis-dealings of a similar nature would not suffice to amount to condonation of the acts of dishonesty which gave rise to the claim, because there is too great a disparity between them. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For my part, leaving aside the Judge&#8217;s findings about Mr Prentice&#8217;s subjective state of mind, I find it quite difficult to fit the Dragonfly Loan and the subsequent theft of the monies generated from it into any pattern of dishonesty that Axis had established to his satisfaction; so far as I can tell, there was no evidence that Mr Jones had a habit of making unauthorised borrowings against the security of client assets to generate further funds for him to misappropriate. Mr Jones may well have had a pattern of misappropriating monies which clients transferred into the Jirehouse/JTL client account, but misappropriating monies which he procured for the clients without their knowledge or assent does not fit that pattern.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">One cannot condone dishonest behaviour without having some knowledge or awareness of it.  That does not necessarily mean that the condoner must know of the fraud or other dishonest act before or at the time it was committed. If he does, and fails to do anything about it, he might be more appositely described as an accessory to the other person&#8217;s dishonesty, and thus as a party rather than a condoner. A person might condone another&#8217;s dishonest behaviour after the event, by doing or saying something (such as assisting to cover it up, or lying about it to others) or by not taking the type of action that one would expect an honest person in their position to take. If a person has a duty to act on becoming aware of the behaviour in question, and fails to do so, they are more likely to be found to have condoned it than someone who has no such duty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the present case, Axis did not claim that Mr Prentice had actual knowledge of Mr Jones&#8217; dishonest behaviour in respect of the Surplus Funds and the Dragonfly Loan.  Their case was that he had &#8220; blind eye&#8221; knowledge of Mr Jones&#8217; wrongdoing, as described by the Court of Appeal (albeit in a different context) in <span style="font-style:italic">Group Seven Ltd v Nasir </span>[201] EWCA Civ 614; <ref href="#" uk:canonical="[2020] Ch 129" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] Ch 129</ref> at [59]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;It is not enough that [the person concerned] merely suspects something to be the case, or that he negligently refrains from making further inquiries. As the House of Lords made clear in <span style="font-style:italic">Manifest Shipping Co Ltd v Uni-Polaris Insurance Co Ltd</span> (<span style="font-style:italic">The Star Sea</span>) <ref href="#" uk:canonical="[2003] 1 AC 469" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 AC 469</ref> the imputation of blind-eye knowledge requires two conditions to be satisfied. The first is the existence of a suspicion that certain facts may exist, and the second is a conscious decision to refrain from taking any step to confirm their existence&#8230; The judgments also make it clear that the existence of the suspicion is to be judged subjectively by reference to the beliefs of the relevant person, and that the decision to avoid obtaining confirmation must be deliberate.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> Moreover, as Lord Scott went on to explain in <span style="font-style:italic">The Star Sea</span> at [116]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;&#8230; in order for there to be blind-eye knowledge, the suspicion must be firmly grounded and targeted on specific facts. The deliberate decision must be a decision to avoid obtaining confirmation of facts in whose existence the individual has good reason to believe. To allow blind-eye knowledge to be constituted by a decision not to enquire into an untargeted or speculative suspicion would be to allow negligence, albeit gross, to be the basis of a finding of privity.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Axis&#8217;s case at trial, which the Judge rejected, was that Mr Prentice had a focussed suspicion (based on firm grounds) that Mr Jones was misappropriating client funds, and that he deliberately failed to do anything to follow up that suspicion, because he feared it would be confirmed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was no dispute as to the approach to be applied by an appellate court when considering an appeal against primary fact-findings made by a judge who has had the benefit of seeing and hearing the witnesses at trial. It is set out in cases such as <span style="font-style:italic">McGraddie v McGraddie</span> [2013] UKSC58; <ref href="#" uk:canonical="[2013] 1 WLR 2477" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 WLR 2477</ref>; <span style="font-style:italic">Fage UK Ltd v Chobani UK Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/5" uk:canonical="[2014] EWCA Civ 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 5</ref>; <ref href="#" uk:canonical="[2014] FSR 29" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] FSR 29</ref>; <span style="font-style:italic">Henderson v Foxworth Investments Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/41" uk:canonical="[2014] UKSC 41" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 41</ref>; <ref href="#" uk:canonical="[2014] 1 WLR 2600" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 2600</ref>; <span style="font-style:italic">JSC BTA Bank v Ablyazov</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/1176" uk:canonical="[2018] EWCA Civ 1176" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 1176</ref>; <ref href="#" uk:canonical="[2019] BCC 96" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] BCC 96</ref>; and most recently <span style="font-style:italic">Volpi v Volpi</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/464" uk:canonical="[2022] EWCA Civ 464" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 464</ref>; <ref href="#" uk:canonical="[2022] 4 WLR 47" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 4 WLR 47</ref>, where at [2], Lewison LJ helpfully distils six applicable principles from the previous authorities.  There is no need to repeat them in this judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Such findings should only be disturbed on appeal if they are &#8220;plainly wrong&#8221;, which in this context means that the decision is one that no reasonable judge could have reached. As Lord Reed observed in <span style="font-style:italic">Henderson v Foxworth </span>at [67], the appellant must be able to identify a material error in the judge&#8217;s process of reasoning, such as  &#8220;the making of a critical finding of fact which has no basis in the evidence, or a demonstrable misunderstanding of relevant evidence, or a demonstrable failure to consider relevant evidence&#8221;. Where the question is simply one of the weight to be given to the relevant evidence, the appellate court must be satisfied that the judge&#8217;s conclusion &#8220;cannot reasonably be explained or justified&#8221;. Mr Lawrence very fairly eschewed any contention that the Judge overlooked critical evidence. Nor did he contend that the Judge made findings for which there was no supporting evidence, or misunderstood relevant evidence. Axis&#8217;s case was that the conclusion he reached could not reasonably be explained or justified, particularly in the light of the numerous adverse findings that he had made about Mr Prentice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> As Lewison LJ emphasised in <span style="font-style:italic">Volpi v Volpi</span> at [66] it is not for an appeal court to come to an independent conclusion as a result of its own consideration of the evidence. The question is whether the judge&#8217;s finding of fact (in this case, that Mr Prentice did not have &#8220;blind eye knowledge&#8221; of Mr Jones&#8217; dishonest behaviour) was rationally insupportable. That is a high hurdle to overcome. In the present case, Axis fails to do so by some margin.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We were not taken to the transcripts of Mr Prentice&#8217;s oral evidence. Mr Lawrence explained this on the basis that there was nothing to be gained from doing so. Mr Prentice was a witness who, when challenged, stuck resolutely to the contents of his witness statement even if what he had said in it was demonstrably contradicted by contemporaneous documents. However, we were not taken to the witness statement either. We were only referred to a very small selection of the documents which were in the trial bundles.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Axis squarely founded its case on the adverse findings made by the Judge about Mr Prentice, which included findings that he had lied on oath and to Mr Jamie Smith KC, who interviewed him at the instigation of Axis in 2019. One of those lies was that he knew nothing about the $14,050,000 that had been transferred to the JTL client account in April 2018. Mr Lawrence submitted that in the light of the Judge&#8217;s adverse findings about Mr Prentice&#8217;s behaviour, which demonstrated that he was prepared to act dishonestly at the behest of Mr Jones and still remain a director and member of the Jirehouse entities, the Judge&#8217;s key finding that Mr Prentice would not have continued to work at Jirehouse with Mr Jones if he had the type of blind-eye knowledge of theft of client funds that Axis alleged, was unsustainable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is true that in the course of his judgment the Judge was highly critical of Mr Prentice, whom he described as an &#8220;intelligent and well-educated man&#8221;. He found that there was nothing in the evidence to suggest that he did not know, or was incapable of understanding, the responsibilities placed on a solicitor. The Judge held that he was dishonest, deeply unprofessional, and lacking in integrity in a number of respects. He expressly rejected Mr Prentice&#8217;s evidence that he did not see any evidence, before March 2019, that Mr Jones was acting in breach of the core conduct principles [98]. He found in terms that Mr Prentice was unsuitable to be a solicitor, or to be a member or a director of a legal practice, because he did not have the sense of personal responsibility required or see how serious his own professional obligations were [116]. Yet, for the reasons which he gave in the course of a lengthy, nuanced judgment which addressed the evidence in painstaking detail, the Judge found that Mr Prentice&#8217;s evidence contained a mixture of truth and untruth.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As Leggatt LJ observed in <span style="font-style:italic">Ablyazov</span> at [37]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;What significance, if any, should be attached to the fact that a witness has lied &#8230; falls squarely within the province of the judge whose role it is to find the relevant facts.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s evaluation of the lies was that they were told by Mr Prentice to try and distance himself from events and circumstances and the personal risk that closeness to those events and circumstances might involve, rather than because he had been aware that Mr Jones had been helping himself to client monies or had strong evidence to suggest that he might be doing so. The Judge therefore expressly addressed Mr Prentice&#8217;s motive for lying, and found that there was a plausible alternative explanation to the one urged upon him by Axis. That was a rational evaluation. We were shown no material that would begin to support a finding that the Judge was not entitled to take that view.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge also found that in the course of his long involvement with the Jirehouse Entities, Mr Prentice appreciated that they and other affiliated entities within the Jirehouse Group were suffering from cashflow difficulties, but that it appeared to him that Mr Jones resolved those difficulties, mostly quickly, and that the sums involved were relatively modest. Against that background, Mr Prentice was prepared to go to considerable lengths for Mr Jones, including making misrepresentations about the solvency of one Jirehouse Group company, Jirehouse Capital Finance Ltd., in two witness statements resisting winding up petitions brought against it. His conduct in that regard was &#8220;deeply unprofessional and was not honest&#8221; [55]. To that extent, the Judge accepted in a later passage that Mr Prentice realised Mr Jones was &#8220;up to no good&#8221;, was prepared to go along with that, was compliant and was prepared to turn a blind eye [135].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In February 2018 (two months before the first of the relevant thefts) Mr Prentice knew that the Jirehouse Entities were struggling to pay monthly salaries, (including his own) and that they were prepared to take client monies from the client account as soon as an invoice had been raised on the client for fees. A few months later, in July 2018, Mr Prentice acted without either professionalism or integrity in assisting Mr Jones to artificially raise bills for which Jirehouse claimed a lien against client funds, by recording excessive hours of chargeable time on a matter in which he had very limited involvement. The purpose behind raising the bills was plainly to reduce or extinguish an amount that had to be repaid to the client: [96] to [99].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Those findings largely neutralised the Claimants&#8217; point that Mr Prentice had no obvious motive for being complicit in Mr Jones&#8217; dishonesty and that no such motive was ever put to him by Axis (though in any event, as Mr Lawrence pointed out, condonation is not the same thing as committing a fraud, and requires no motive). However, the Judge&#8217;s evaluation was that the financial pressures on the Jirehouse Group and on Mr Jones were not such as would have led Mr Prentice to assess that Mr Jones might use client funds to meet the liabilities. There was insufficient material with which to conclude that he was &#8220;closing his eyes to the obvious&#8221;. Mr Prentice simply did not look into the question of what money was being used to meet Jirehouse&#8217;s liabilities. He should have done so as a matter of professional responsibility, but his failure to do so was not because he suspected that he might find client monies were being used for those purposes [143].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately for Axis, the conclusion that it wished the Judge to draw from Mr Prentice&#8217;s willing complicity in Mr Jones&#8217; dishonesty towards other clients in other respects, before and after the theft of the US$14,050,000, was not the only conclusion rationally open to him on the evidence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Perhaps the high watermark of Axis&#8217;s case concerning a pattern of dishonest behaviour was the evidence in relation to the &#8220;Rheno matter&#8221;, in which Mr Prentice became actively involved in June 2017 shortly after becoming a member and director of the Jirehouse Entities. This concerned a sum of around &#163;400,000 which was intended to be held in Jirehouse&#8217;s general client account as evidence of good faith in respect of some ongoing settlement negotiations. Instead, in a similar way to what happened with the monies initially sent by DLC/TCD, the monies were paid out of the client account to a corporate vehicle related to Mr Jones. However, that had happened around a year earlier, in the summer of 2016.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In June 2017, Mr Prentice was tasked by Mr Jones with drafting a letter which represented to Rheno (the client) that the funds were still held by Jirehouse. The Judge rejected Mr Prentice&#8217;s evidence that he had not read a chain of emails that indicated that the money had gone out of the client account, ostensibly as a &#8220;loan&#8221; from Rheno to the corporate vehicle in question. He also rejected as untruthful Mr Prentice&#8217;s evidence that he only typed up the letter, he did not draft it, and that he had been prepared to type a letter stating that the moneys were held on client account because he had been shown an internal accounts document which indicated that they were. There was no such document and Mr Prentice had made that up. Mr Prentice drafted the letter on the instruction of Mr Jones without concerning himself with whether its contents were true or false [71].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nevertheless the Judge&#8217;s assessment was that Mr Prentice&#8217;s lies, including in particular the one about the non-existent accounts document, were an attempt to exculpate himself after the event for his failure to carry out the checks he should have carried out. Regardless of what a more competent and professional lawyer might have made of what he saw and was asked to do and was told at the time, the Judge accepted Mr Prentice&#8217;s evidence that, at the date of the letter, he did not know that the Rheno moneys were not still held by Jirehouse [74]. He did not appreciate that from reading the chain of emails. Whilst the Judge did not directly address the question whether Mr Prentice <span style="font-style:italic">suspected</span> that to be the position, he went on to reject the assertion that Mr Prentice would have been prepared to draft a representation about client monies that he knew <span style="font-style:italic">or had reason to believe</span> to be false [75]. Moreover, he found that Mr Jones would not have expected Mr Prentice to be prepared to go that far.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Another judge who made the same adverse findings about Mr Prentice might have drawn less benign conclusions. However, the conclusions that were reached were based upon a perfectly proper evaluation of all the relevant evidence by the trial judge, who had the advantage that we do not possess of observing Mr Prentice being cross-examined at length. He was entitled to conclude that, whereas Mr Prentice was prepared to lie to clients about the solvency of the Jirehouse Entities, and to the Rheno clients (as it happened) about how much work he, Mr Prentice, had carried out on their behalf, he would have drawn the line at telling them that the monies were still in the client account if he knew or strongly suspected that to be untrue. In making that evaluation, the Judge expressly took into account two matters specifically relied on by Axis in support of its case, namely, that Mr Jones did nothing to hide the movement of the funds out of the client account from Mr Prentice [63], and that Mr Jones would not have asked him to assist with drafting the letter containing the misrepresentation about the whereabouts of the Rheno monies, if he had feared that he might ask awkward questions [75].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The SRA carried out an investigation into the Jirehouse Entities in July 2017, and although the material provided to the SRA contained some documents which showed only a tiny sum being held in relation to Rheno and only &#163;12,482.77 to the credit of the General Client Account, the investigation did not pick up any accounting irregularities. The Judge was not prepared to find that Mr Prentice was lying when he said he did not look at the material provided to the SRA. But even if he had looked at it, he would not have made any more of it than the SRA investigator, a Mr Carruthers. Nor did Mr Prentice appreciate that the Rheno money was no longer in the client account when an email from someone in the accounts department (which should have made that position clear to anyone who thought about its contents) referring to the &#8220;loan&#8221; from Rheno, was forwarded to him in February 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This last finding was perhaps the easiest for Axis to criticise, but although it might appear unduly benign to Mr Prentice, when considered in isolation, it cannot be described as an irrational finding by a fact-finder who had regard to the whole of the evidence. The Judge was entitled to accept Mr Prentice&#8217;s evidence that the content of the email struck him as nonsensical, in the light of his understanding at the time, and that he, Mr Prentice, was not sure what, if any, reliance he placed on it. It must be borne in mind that Mr Prentice had only had a peripheral involvement in the Rheno matter, and the letter that he drafted at Mr Jones&#8217;s instigation had been sent out several months earlier.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s conclusion on this issue was that, taking all the material now available relating to Rheno into account (though that was still incomplete) there was &#8220;every indication that client monies were misused or stolen by Mr Jones&#8221;, but that this was not in circumstances which either brought that fact home to Mr Prentice at the time, or would have done so to any honest solicitor in his position. The position was simply not clear enough then [136].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ultimately the view that the Judge formed was that if Mr Prentice had known or strongly suspected what Mr Jones had done with the Rheno monies, he would have resigned his position, as he did more or less immediately when Mr Jones confessed in March 2019 to the misappropriation of the Respondents&#8217; monies [139]. Mr Lawrence challenged that finding on the basis that it was incompatible with the fact that Mr Prentice was willing to put his own reputation on the line and did <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> resign when he was required by Mr Jones to tell other serious lies to Jirehouse&#8217;s clients, including Rheno, particularly in the summer of 2018. That was a powerful forensic point, but it was not irrational for the Judge to have been unpersuaded by it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Axis&#8217;s appeal on this particular issue suffers from many of the same features of appeals against findings of fact as were identified by Lewison LJ in <span style="font-style:italic">Volpi v Volpi</span> at [65]. In particular, it rests on a selection of evidence rather than the whole of the evidence that the trial judge saw and heard, (a process once colourfully described by Lewison LJ as &#8220;island-hopping&#8221;) and it seeks to persuade an appeal court to form its own evaluation of the reliability of witness evidence, when that is the quintessential function of the trial judge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is not a case in which Mr Lawrence was able to point to a damning contemporaneous document or documents which was or were incompatible with the Judge&#8217;s challenged fact-findings. The nearest he could get to that was the February 2018 internal email, and that was not enough to get Axis home. Although the judgment took some 8 months to deliver, the Judge had the advantage of full transcripts of the evidence and the legal arguments, and there was no particular reason to impugn his findings because of the delay.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ultimately, the Judge was entitled to reject Axis&#8217;s case on condonation for the reasons which he gave. His findings about Mr Prentice&#8217;s state of mind and the reasons why he failed to make proper enquiries, and why he lied to Mr Smith KC and to the Court, were not &#8220;rationally unsupportable.&#8221; His decision that there was no condonation by Mr Prentice of Mr Jones&#8217;s wrongdoing was not &#8220;plainly wrong&#8221;. I would dismiss the appeal on the condonation issue.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The Aggregation Issue</span></heading>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">AIG v Woodman </span>the Supreme Court was concerned with the construction of Clause 2.5(a)(iv) of the MTC, quoted in paragraph 12 above (which was in all material respects identical to the relevant sub-paragraph of the aggregation clause in the Policy, Clause 5(2)(e), (set out at paragraph 16 above)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The case concerned claims made by investors in one or both of two development schemes, one in Turkey and the other in Morocco, against firms of solicitors who had acted both for them and for the developers. The essential complaint was that the solicitors had failed to abide by an obligation not to allow the release to the developers of funds held in trust for the investors as security for their investment. Those funds should not have been released unless and until the value of the assets held by the trust, in the form of charges over the land to be developed, was sufficient to cover the investments to be protected (the so-called &#8220;cover test&#8221;). The developers ran into financial difficulties, and the schemes were not completed. The developers became insolvent and the investors lost their money.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The solicitors&#8217; professional liability insurers contended that all the investors&#8217; claims arose from &#8220;similar acts or omissions in a series of related matters or transactions&#8221; and therefore fell to be aggregated so that there was only one available &#8220;pot of indemnity&#8221;. It had been held by Teare J that the claims did arise from &#8220;similar acts or omissions&#8221; and that finding had not been appealed. The appeal concerned the meaning of the expression &#8220;related matters or transactions&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Supreme Court, in a judgment delivered by Lord Toulson JSC (with whom Lords Mance, Clarke, Sumption, and Reed JJSC agreed) held that the word &#8220;related&#8221; implies that there must be some inter-connection between the matters or transactions, or that in other words &#8220;they must in some way fit together.&#8221; Lord Toulson said that determining whether transactions are &#8220;related&#8221; is an acutely fact-sensitive exercise, which is an exercise of judgment. It was necessary to begin by identifying the relevant matters or transactions, and then consider whether they are related (by identifying and evaluating the nature and degree of any connecting factors). The application of the clause is to be judged objectively, looking at the transactions in the round.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the case of each development, the transaction involved an investment in a particular development scheme under a contract, of which the trust deed and escrow agreement were an integral part, being designed to provide each investor with security for their investment. The members of each group of investors were investing in a common development. The sums they advanced were intended, in combination, to provide the developers with the necessary capital, and they were also participants in what was in overall terms a standard scheme. They were also co-beneficiaries under a common trust.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The individual transactions therefore fitted together in that they shared the common underlying objective of the execution of a particular development project, and they also fitted together legally through the trusts of which the investors were co-beneficiaries. However, there was no relationship between the two groups of transactions. Although the development companies were members of the same group, and the legal structure of the development projects was similar, the projects themselves were separate and unconnected, they related to different sites, and the different groups of investors were protected by different deeds of trust over different assets. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore, it was held that the insurers were entitled to aggregate all the claims made by the investors in the Turkish site, and to aggregate all the claims made by the investors in the Morocco site, so that there were two &#8220;pots of indemnity&#8221;, one for each site, but (subject to the peculiar position of crossover investors) they were not entitled to aggregate all the claims in respect of both sites.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the present case, the question whether the Surplus Funds claim and the Dragonfly Loan claim arose from &#8220;similar acts or omissions in a series of related matters or transactions&#8221; within the meaning of Clause 5(2)(e) of the Policy involved an exercise of judgment based on a fact-sensitive evaluation. That is an evaluation to which this Court must pay due respect, although (in contrast with the condonation issue) it is in as good a position as the Judge to decide the aggregation issue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Lawrence submitted that the first matter to be considered was whether the acts or omissions generating claim 1 were similar to those generating claim 2. Although the Judge considered the issue of similarity <span style="font-style:italic">after</span> he addressed the question whether the acts or omissions giving rise to the claims were in a series of related transactions, I agree that logically the question of similarity arises first.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The only case in which the degree of similarity required by the aggregation clause has been considered is <span style="font-style:italic">AIG v Woodman</span> at first instance, [2015] EWHC 2398; [2016] Lloyd&#8217;s Rep (IR) 147. Teare J said at [29]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.79in">&#8220;There was no dispute that acts or omissions are similar if they bear a resemblance or likeness to each other without being identical. Nor was there any dispute that at one level of abstraction, labelled &#8220;very high&#8221; by counsel [for the claimants], the acts and omissions of [the defendant solicitors] were similar. But at a lower level, when one had regard to what they had actually failed to do, their acts or omissions were said to be not similar but different. At what level should one judge similarity?&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Teare J went on to consider that question in the light of the aim or object of Clause 2.5 of the MTC, which was to permit claims to be aggregated for the purpose of applying the limit of the insurer&#8217;s liability per claim, but he did not directly answer it. Instead, he held at [30] that: &#8220;the requisite degree of similarity must be a real or substantial degree of similarity as opposed to a fanciful or insubstantial degree of similarity&#8221;. He then found at [31] that on the facts of that case, there was a sufficient degree of similarity between the acts and omissions complained of, by identifying three specific aspects that all the claims had in common, namely, (i) that the developer could not pay the vendors, (ii) because of this the defendants failed to provide effective security, so that the cover test was not properly applied, and (iii) consequently, after the investors&#8217; monies had been released, the investors were exposed to loss in the event that the development failed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst I would agree with Teare J that the degree of similarity must be real or substantial, it does not follow that the issue of similarity must be approached at the highest or most superficial level. Nor do I read his judgment as suggesting that it should. On the contrary, it seems to me that in answering the question whether there is a &#8220;real or substantial&#8221; similarity between the acts or omissions giving rise to two or more claims, one cannot avoid consideration of the substance of each claim, i.e. what it is alleged that the defendant did or failed to do, when, and in what circumstances, with a view to identifying common or similar features, which is what Teare J did. It does not necessarily follow from the fact that the acts giving rise to the claims are of a similar nature (in this case, theft from a client account) that there is a real or substantial similarity between them. On the other hand, there may be sufficient substantive similarity between the acts or omissions complained of, even if there are distinctions between them on points of finer detail, as there were in the <span style="font-style:italic">AIG</span> case. It is a fact-sensitive evaluation in each case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Lawrence submitted that there was a point of substantial similarity between the acts generating the claims in the present case, in that the claims were both for stealing client money from a client account and the clients in question were closely connected entities. I agree with the Judge that this approach involves considering similarity at too high a level, ignoring the substantive differences between the acts complained of (which are not just questions of fine detail). The act giving rise to the Surplus Funds claim was a straightforward misappropriation of monies which the clients had transferred to the solicitors for a specific purpose (the purchase of the castle) and which should have been held on trust by them and applied only for that purpose. The acts giving rise to the Dragonfly Loan claim, as the Judge identified, consisted of the wrongful arrangement of a facility and charge, drawdown under the facility, and then release of the monies from the client account. Viewed objectively, the complaints are in substance about two very different things, even though on both occasions the dishonest behaviour of Mr Jones culminated in the theft of client monies.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The fact that the monies which were stolen on the second occasion were generated by granting a security over property owned by the client, whilst keeping the client in the dark about what was going on, is not a distinction without a difference, as Mr Lawrence contended. The unauthorised loan and mortgage were essential aspects of the claim; they provided the means by which Mr Jones was able to get hold of the money. The funds were not transferred into the client account by the clients themselves; they knew nothing about the circumstances in which they came to be generated until after the event, they never had the benefit of those monies and they (and their property) were exposed to a liability to the lenders. Moreover, although DLC, TCD and RTC are affiliated entities, and the castle to be purchased using the first lot of stolen funds was intended to be owned by RTC,  DLC/TCD were the victims of the first theft and RTC was the victim of the second. Looked at in the round, there is no substantial similarity between the acts giving rise to the claims.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However even if there were, the evaluation of the Judge that the acts giving rise to the two claims were not &#8220;acts or omissions in a series of transactions which were related&#8221; or, to use Lord Toulson&#8217;s phrase, &#8220;fitted together&#8221; was plainly right. The Surplus Funds claim arose in connection with the proposed purchase of the castle &#8211; that was the transaction to which the act giving rise to the claim related. That transaction had been completed before any of the acts giving rise to the Dragonfly Loan claim occurred. The transaction to which the acts giving rise to <span style="text-decoration-line:underline;text-decoration-style:solid">that</span> claim related was the subsequent loan agreement with Dragonfly and the charge over the castle. But that transaction was not in any sense part of a sequence of transactions in which the purchase of the castle was the first step. This was not a case in which the acquisition of the property was stage 1 in a larger development project, of which the raising of finance for the proposed development was going to be stage 2. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although at one point (though long after the misappropriation of the Surplus Funds) there was some consideration of taking out a loan (from a different lender) on the security of the castle, that idea was not pursued by the clients. As the Judge found at [157], it was not clear at the time of the theft of the US$14,050,000 whether there would later be loan monies; nor was there any need for borrowing to finance the acquisition of the castle. DLC/TDC advanced the full purchase price (and had the wherewithal to make up the shortfall when they were led to believe that the Surplus Funds were effectively unusable because they could not be released from the client account until due diligence was completed). The only connection between the purchase and the Dragonfly Loan, apart from the fact that RTC was intended to be the owner of the castle once it was acquired, is that the loan would probably not have been granted without the security of the charge over the property, which could not have been given until it was acquired by RTC; but that is not a sufficient connection to make the transactions &#8220;related&#8221; within the meaning of the clause.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Dragonfly Loan was never sanctioned by the clients; on the contrary, it was clandestinely arranged by Mr Jones against a background where he was being pressed for payment, including payment to the vendors of some of the retention monies, and desperately needed to generate funds to cover his tracks. Although the same property was involved and the victims of the frauds were clients who were closely related entities, those factors are insufficient to provide the necessary link between the two transactions. As the Judge also observed at [160], the fact that the purchase of the castle provided the opportunity for Mr Jones to steal the money on both occasions does not answer the question whether the transactions fitted together.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num>90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge carried out this fact-sensitive exercise with great care; his evaluation took into account all relevant factors and arguments and he reached a conclusion which was not only open to him on a holistic assessment, but in my view plainly correct. The aggregation clause in the Policy does not apply to the claims, and Axis is not permitted to aggregate them for the purpose of limiting their liability.  For those reasons, I would dismiss this appeal on the aggregation issue also.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lady Justice Elisabeth Laing</span>:</heading>
+	  <paragraph eId="para_91">
+	    <num>91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Phillips:</span></heading>
+	  <paragraph eId="para_92">
+	    <num>92.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

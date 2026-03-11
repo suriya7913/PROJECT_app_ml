@@ -1,0 +1,1478 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/7"/>
+	  <FRBRdate date="2022-03-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="7"/>
+	  <FRBRname value="Croydon London Borough Council v Kalonga"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/7"/>
+	  <FRBRdate date="2022-03-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/7/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/7/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:44:07" name="transform"/>
+	  <FRBRdate date="2025-08-07T22:22:17" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-03-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="croydon-london-borough-council" href="" showAs="Croydon London Borough Council"/>
+	<TLCPerson eId="kalonga" href="" showAs="Kalonga"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lady-arden" href="/judge-lady-arden" showAs="Lady Arden"/>
+	<TLCPerson eId="judge-lord-kitchin" href="/judge-lord-kitchin" showAs="Lord Kitchin"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>7</uk:number>
+	<uk:cite>[2022] UKSC 7</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>8942b757856c7b44d6cf1a436d0f2491887901a54263094e8ed30fe872e0f6e6</uk:hash>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 7</neutralCitation><br/><span style="font-style:italic">On appeal from: [2021] EWCA Civ 77</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#croydon-london-borough-council">Croydon London Borough Council</party> (<role refersTo="#appellant">Appellant</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#kalonga">Kalonga</party> (<role refersTo="#respondent">Respondent</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lady-arden">Lady Arden</judge><br/><judge refersTo="#judge-lord-kitchin">Lord Kitchin</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-03-09" refersTo="#judgment">9 March 2022</docDate><br/><br/>Heard on 12 January 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Kelvin Rutledge QC<br/>Riccardo Calzavara<br/>(Instructed by Croydon Council Legal &amp; Democratic Services)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Justin Bates<br/>Anneli Robins<br/>(Instructed by GT Stewart Solicitors (East Dulwich))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Briggs: (<span style="text-transform:none">with whom Lady Arden, Lord Kitchin, Lord Leggatt and Lord Stephens agree)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal raises an important question of construction of the statutory regime governing secure tenancies, now to be found in Part IV (<ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/79" uk:canonical="1985 c. 68 s. 79" uk:origin="TNA" uk:type="legislation">sections 79</ref> and following) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">Housing Act 1985</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>&#8221;). References in this judgment to numbered sections, without more, refer to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. The question relates to the circumstances in which, and the means by which, a secure tenancy for a fixed term which has not yet expired by effluxion of time may be terminated by the landlord. The regime for secure tenancies was first introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">Housing Act 1980</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>&#8221;). Its provisions were consolidated in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, which has been materially amended since then, but the question of construction has surprisingly lain dormant since 1980, and its answer is only marginally affected by those amendments.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Prior to 1980, residential tenancies granted by public sector landlords were not the subject of any form of statutory security of tenure, beyond that provided for all residential tenants by <ref href="http://www.legislation.gov.uk/id/ukpga/1977/43/section/2" uk:canonical="1977 c. 43 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1977/43" uk:canonical="1977 c. 43" uk:origin="TNA" uk:type="legislation">Protection from Eviction Act 1977</ref>, namely that a right of re-entry or forfeiture could not be enforced against them, while lawfully in residence, otherwise than by proceedings in court, by the statutory regime for notice of and relief from forfeiture in <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref> (&#8220;the LPA&#8221;), and by the ragged mixture of general law and statutory provision in relation to forfeiture for non-payment of rent. Nonetheless public sector tenants (at least where the landlord was a local authority) were widely regarded as having a form of <span style="font-style:italic">de facto</span> security. In its Green Paper on Housing Policy published in June 1977 the Government announced its intention to clothe that <span style="font-style:italic">de facto</span> protection with the force of law. At para 11.07 it stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;At present the lack of statutory security of tenure is the most important respect in which the public sector tenant&#8217;s position falls short of that of tenants in the private sector.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Local authority and new town tenants already enjoy a high degree of security in practice, and the Government propose to introduce legislation giving statutory recognition to this &#8216;de facto&#8217; security.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Inevitably this took the form of a regime which clothed the millions of existing tenants with statutory security of tenure beyond their existing contractual and proprietary rights, rather than merely providing for a new form of secure tenancy for the future. Although counsel could not offer any reliable statistics, it is very likely that the vast majority of existing public sector tenants had periodic tenancies, which offered no <span style="font-style:italic">de jure </span>security beyond the typically very short period required for a valid notice to quit. But a sufficient number had fixed term tenancies to make it necessary for specific provision to be made about them as well. A fixed term tenancy provides contractual security of tenure at least for the duration of the term, subject of course to forfeiture and to any other provisions for early termination (such as a break clause) which the tenancy agreement might contain. Quite apart from contract, a fixed term tenancy is also a valuable proprietary right, of which the undisturbed enjoyment of the demised premises for the entire duration of the term is its main element. Although forfeiture represents an inroad into that security, the court&#8217;s originally equitable jurisdiction to relieve from forfeiture means that it will not generally be allowed to operate more severely than as security for the performance of the tenant&#8217;s covenants. Although relief is discretionary, speaking very generally tenants are relieved from forfeiture if they remedy the breach which led to the forfeiture and (if necessary) undertake to behave properly in the future.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It will be necessary to set out the statutory regime for security of tenure in detail in due course but, in outline, its main elements have always been as follows. First, it defines a secure tenancy by reference to the identity of the landlord (as a public sector rather than private landlord) and by reference to a &#8220;tenant condition&#8221; which is that the tenant occupies the demised premises as their only or principal home. Secondly it provides that a periodic secure tenancy shall not be brought to an end by the landlord otherwise than as provided for in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. Thirdly it makes the same provision about a fixed term tenancy if it is &#8220;subject to termination by the landlord&#8221;. Fourthly it provides for a statutory periodic secure tenancy to follow upon the termination of a fixed term tenancy either by effluxion of time or by forfeiture. I will call that a &#8220;follow-on&#8221; tenancy for short. In that context it makes provision to cut down the right to forfeit from a right of re-entry to a right only to bring the fixed term tenancy to an early end.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The permitted means whereby a secure tenancy may be brought to an end by the landlord were originally two in number: first, by obtaining an order for possession on one of a number of specified grounds (which have been added to over time). Secondly, by obtaining a termination order in lieu of forfeiture, in relation to a fixed-term tenancy. In 2003 a third method was added, namely the obtaining of a demotion order on the ground of anti-social behaviour by the tenant or by someone residing in or visiting the house. Neither the second nor the third method enables the landlord to resume possession. The termination order gives rise to a follow-on tenancy, while a demotion order temporarily replaces the secure tenancy with a demoted tenancy which only provides reduced security of tenure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The statutory grounds for possession, set out in Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, may loosely be divided into three groups. Grounds 1 to 8 are mainly based on some default or misconduct by the tenant. If the ground is established, the landlord must also show that it is reasonable to make an order for possession. Grounds 9 to 11 may be loosely described as social housing management grounds. There is no requirement that it should be reasonable to make an order for possession, but the landlord must show that suitable alternative accommodation will be available to the tenant. Grounds 12 to 16 may also be described as management grounds, but they require both that it be reasonable to make an order for possession and that suitable alternative accommodation will be available: see <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The critical question to be determined on this appeal is whether the secure tenancy regime in the 1980 and 1985 Acts merely adds statutory security to the contractual and proprietary security already conferred by the tenancy itself, or whether it replaces it, and thereby to some extent reduces or removes that contractual and proprietary security. Two examples will suffice to illustrate the problem. The first summarises the assumed facts of this case. A secure tenant commits breaches of her fixed term tenancy agreement, sufficient to satisfy one or more of grounds 1 to 8. Can the landlord simply seek possession of the house before the tenancy expires by effluxion of time, or must the landlord also terminate the fixed term by a termination order in lieu of forfeiture (assuming that forfeiture is provided for under the tenancy agreement), and thereby enable the tenant to seek relief?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The second example relates to a five year fixed term tenancy with a landlord&#8217;s break clause exercisable by notice expiring at the end of year two. The landlord wishes however to obtain possession for redevelopment purposes at the end of year one. Can the landlord terminate the fixed term at the end of year one, under ground 10, which is available at any time during the tenancy? Or must the landlord first serve a break notice, and wait until the end of year two? A more rigorous example would be a tenancy for four years with no break clause at all. The tenant has five years&#8217; contractual security (subject only to forfeiture). Can a model tenant who commits no breach of the tenancy agreement be removed earlier than at the end of the five years, merely because the landlord wishes to redevelop and cannot reasonably do so without obtaining possession?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I have deliberately framed this question in more general terms than did the parties, focussed as they understandably were on the facts (or rather the assumed facts) of this case. I have added the redevelopment example because a break clause is perhaps the most common means whereby a fixed-term tenancy may be terminated earlier than by effluxion of time, other than by forfeiture. A sound interpretation of the statutory provisions must accommodate both examples. There are other ways in which a fixed-term tenancy may come to an early end under the general law, such as rescission for misrepresentation or failure of a condition. But these are much less common, and their detailed examination does not shed significant further light on the problem.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">The Facts</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This is a second appeal from a decision of the High Court (Tipples J) on preliminary issues, necessarily on assumed facts about the allegations of rent arrears and anti-social behaviour which underlie the landlord&#8217;s claim for possession. Subject to one point the issues are not fact-sensitive, so that the assumed facts may be shortly stated. The appellant local housing authority Croydon London Borough Council (&#8220;Croydon&#8221;) granted the respondent Ms Kalonga a &#8220;flexible&#8221; secure tenancy of 61 The Crescent, Croydon, Surrey for a fixed term of five years from 25 May 2015. The tenancy agreement stated that the landlord &#8220;may also take eviction action at any time if one or more of the grounds of possession set out in Schedule 2 of these conditions apply&#8221;. Schedule 2 set out in layman&#8217;s terms some of the statutory grounds for possession in Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, including rent arrears and anti-social behaviour.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">On 2 August 2017, a little over two years into the fixed term, Croydon served notice of its intention to seek possession of the property on the grounds of rent arrears and anti-social behaviour. The notice contained, as required by the Secure Tenancies (Notices) Regulations 1987 (SI 1987/755), a statement in the following terms:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;This Notice applies to you if you are a secure tenant under the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">Housing Act 1985</ref> and if your tenancy is for a fixed term, containing a provision which allows your landlord to bring it to an end before the fixed term expires. This may be because you have got into arrears with your rent or have broken some other condition of the tenancy. This is known as a provision for re-entry or forfeiture. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">The Act</ref> does not remove the need for your landlord to bring an action under such a provision, nor does it affect your right to seek relief against re-entry or forfeiture, in other words to ask the court not to bring the tenancy to an end. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">The Act</ref> gives additional rights to tenants, as described below.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Nonetheless in its covering letter Croydon stated that its position was that it did not need to seek to exercise its right of forfeiture, because the words quoted above &#8220;are now obsolete in light of the flexible tenancy scheme under the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">Localism Act 2011</ref> that applies to your tenancy&#8221;. Croydon no longer maintains this argument. Rather it submits that there has never, since 1980, been an obligation on the landlord under a secure fixed-term tenancy to terminate the fixed term by forfeiture, before or in addition to seeking possession under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">At no time during the proceedings for possession which followed did Croydon allege that it had forfeited Ms Kalonga&#8217;s tenancy. On the contrary, when Ms Kalonga raised the absence of a forfeiture in her Defence, and indeed the absence of a provision for forfeiture in her tenancy agreement, Croydon stated in its Reply that its claim did not rely upon forfeiture.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Following close of pleadings, HHJ Bailey transferred the case to the High Court for the determination of the following preliminary issue:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;as to the correct manner in which to determine a secure flexible tenancy during the fixed term (including whether, and if so how, any principles relating to forfeiture apply).&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">That issue was tried before Tipples J in April 2020 (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2020/1353" uk:canonical="[2020] EWHC 1353 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1353 (QB)</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 4809" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 4809</ref>). While her judgment remained reserved, the tenancy expired by effluxion of time on 24 May 2020, and a follow-on periodic tenancy ensued, under which Ms Kalonga continues to occupy the property. The result is that the preliminary issue determined by the judge and the subject of this appeal has become academic as between the parties, since there remains no fixed term tenancy to be determined. Nonetheless the proceedings have continued because of the importance of the underlying issues to Croydon, to public sector landlords and to secure tenants respectively. Ms Kalonga&#8217;s denial that her tenancy even contained a provision for forfeiture was also litigated as part of the preliminary issue, and remains live on this appeal. It was never of practical significance to her, since Croydon had not relied on forfeiture. But again, not least because her tenancy agreement is in a widely used standard form (at least by Croydon), this court has been invited to decide it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Tipples J dismissed Croydon&#8217;s claim on the main ground that the tenancy agreement did not contain any provision for forfeiture, so that the fixed term could not be terminated early by a claim for possession under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, because it was not &#8220;subject to termination by the landlord&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. Had it contained such a provision, she considered that a possession claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref> would have been sufficient, without the landlord having to seek a termination order in lieu of forfeiture. On Croydon&#8217;s appeal the Court of Appeal (King, Asplin and Arnold LJJ <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/77" uk:canonical="[2021] EWCA Civ 77" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 77</ref>; <ref href="#" uk:canonical="[2021] QB 962" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] QB 962</ref>) agreed that the tenancy agreement lacked a provision for forfeiture, but its main ground for dismissing the appeal was that the only way in which a fixed term tenancy could be brought to an early end under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> was by the use of a forfeiture provision to obtain a termination order in lieu of forfeiture, as provided by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref>. That required compliance with <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the LPA and the giving of an opportunity to the tenant to obtain relief. Croydon appealed to this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The issues formally raised by this appeal are first whether the existence of a provision for forfeiture in the tenancy agreement and its exercise by obtaining a termination order in lieu of forfeiture under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> is the only way in which a secure fixed-term tenancy can be brought to an early end and, secondly, whether Ms Kalonga&#8217;s tenancy agreement contained a provision for forfeiture. As already noted my view is that the underlying question which is determinative of the first issue is whether the 1980 and 1985 Acts leave the fixed term secure tenant&#8217;s contractual and proprietary rights to security of tenure intact, as suggested in the statutory text prescribed by the 1987 Notices Regulations, quoted above.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">The statutory regime in detail</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The preamble to <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>, by which the secure tenancy regime was first introduced, is as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;An Act to give security of tenure, and the right to buy their homes, to tenants of local authorities and other bodies; to make other provision with respect to those and other tenants; to amend the law about housing finance in the public sector; to make other provision with respect to housing; to restrict the discretion of the court in making orders for possession of land; and for connected purposes.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">That its relevant purpose was to give (rather than take away or replace) tenants&#8217; security rights is consistent with the extract from the 1977 Green Paper. Counsel did not suggest that any other <span style="font-style:italic">travaux preparatoires</span> were of assistance. Nor did Mr Bates for Ms Kalonga submit with any real force that the statement in the 1987 Notices Regulations, quoted above, or even the identical statement in the earlier 1980 Notices Regulations (SI 1980/339), were of compelling force in the process of statutory construction, even though they coincided with Ms Kalonga&#8217;s case. He was right not to do so. The 1980 Regulations post-date <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> is, for the most part, only a consolidating Act, which made no change to the wording of the key provisions, even though their ordering was altered. More to the point, to place much weight on a single small part of delegated legislation as reflective of parliamentary intention in the primary legislation tends to allow the tail to wag the dog.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In what follows I shall focus primarily on the relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, as in force at the relevant time (ie 2017) and currently, even though they have been amended and supplemented after 1985. By that I do not mean to belittle the importance of asking, as a matter of construction, what did the secure tenancy regime achieve when it was first introduced, onto an existing pattern of common law rights enjoyed by public sector tenants in 1980, immediately before <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> came into force. No-one suggests that, on the critical issues in this appeal, the later consolidation in 1985 or subsequent amendments brought about a relevant change. Much more significant changes have recently been enacted, by the <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">Housing and Planning Act 2016</ref>, but any relevant to this appeal have not been brought into force, and there is no current intention by government to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">The 1985 Act</ref> begins, at <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/79" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79</ref>, by defining a secure tenancy. It requires only that the landlord condition and the tenant condition (already described) need both to be satisfied at the relevant time. A given tenancy may therefore move in and out of the secure tenancy regime from time to time. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/79/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 79(3)</ref> also applies the same regime to licences to occupy a dwelling house, subject to an irrelevant exception. Sections 80 and 81 set out the landlord and tenant conditions. Nothing turns on their detail.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 82</ref> is of central importance. It provides as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;82.<marker name="tab"/>Security of tenure</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>A secure tenancy which is either -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>a weekly or other periodic tenancy, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>a tenancy for a term certain but subject to termination by the landlord,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">cannot be brought to an end by the landlord except as mentioned in subsection (1A).</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1A)<marker name="tab"/>The tenancy may be brought to an end by the landlord -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>obtaining -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in">(i)<marker name="tab"/>an order of the court for the possession of the dwelling-house, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in">(ii)<marker name="tab"/>the execution of the order,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>obtaining an order under subsection (3), or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>obtaining a demotion order under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>A.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>In the case mentioned in subsection (1A)(a), the tenancy ends when the order is executed.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>Where a secure tenancy is a tenancy for a term certain but with a provision for re-entry or forfeiture, the court shall not order possession of the dwelling-house in pursuance of that provision, but in a case where the court would have made such an order it shall instead make an order terminating the tenancy on a date specified in the order and section 86 (periodic tenancy arising on termination of fixed term) shall apply.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/><ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">Section 146</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref> (restriction on and relief against forfeiture), except subsection (4) (vesting in under-lessee), and any other enactment or rule of law relating to forfeiture, shall apply in relation to proceedings for an order under subsection (3) of this section as if they were proceedings to enforce a right of re-entry or forfeiture.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Subsection (1A) was introduced in 2003 so as to include a demotion order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>A. Sub<ref href="http://www.legislation.gov.uk/id/ukpga/1977/43/section/2" uk:canonical="1977 c. 43 s. 2" uk:origin="TNA" uk:type="legislation">section (2</ref>) was also amended in 2008 so as to make the date of execution of a possession order, rather than the date when possession was ordered to be given up, the date upon which the secure tenancy ended. This was to prevent a tenant who had been ordered to give up possession from obtaining a fresh secure tenancy by holding over. Thus prior to those amendments the two methods for bringing a secure tenancy to an end, both in 1980 and 1985, were by seeking (i) a possession order or (ii) a termination order in lieu of forfeiture under subsection (3).</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Section 83 makes provision for the service of notices by the landlord of its intention to seek either possession or termination. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 84</ref> sets out the statutory grounds for possession, mainly by reference to Schedule 2, but also spells out, as already summarised, the reasonableness and alternative accommodation conditions, and the particular grounds to which they apply. Section 85 gives the court an extended discretion to stay or suspend a possession order, or postpone the date for possession, where possession is sought on any of the grounds where reasonableness is a condition.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The final important section is section 86, as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;86.<marker name="tab"/>Periodic tenancy arising on termination of fixed term</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>Where a secure tenancy (&#8216;the first tenancy&#8217;) is a tenancy for a term certain and comes to an end -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>by effluxion of time, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>by an order of the court under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> (termination in pursuance of provision for re-entry or forfeiture),</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">a periodic tenancy of the same dwelling-house arises by virtue of this section, unless the tenant is granted another secure tenancy of the same dwelling-house (whether a tenancy for a term certain or a periodic tenancy) to begin on the coming to an end of the first tenancy.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>Where a periodic tenancy arises by virtue of this section -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>the periods of the tenancy are the same as those for which rent was last payable under the first tenancy, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>the parties and the terms of the tenancy are the same as those of the first tenancy at the end of it;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">except that the terms are confined to those which are compatible with a periodic tenancy and do not include any provision for re-entry or forfeiture.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Flexible tenancies were introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">Localism Act 2011</ref>, which inserted the relevant provisions as <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/107" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 107</ref>A to 107E of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. Counsel did not submit that anything turned on their detailed terms. They have to be granted with a fixed term of not less than two years: see <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/107" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 107</ref>A(2)(a). Despite the fixed term they are terminable early on notice by the tenant and, after expiry, possession can be obtained by the landlord on simpler grounds than under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84</ref> and Schedule 2. Subject to the landlord seeking possession, section 86 applies to create a periodic follow-on tenancy on expiry, but the simple grounds for possession apply to it as well. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/107" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 107</ref>D(10) provides that the other means whereby a landlord may obtain possession under <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref> remain available.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal does not turn on the fine detail of the statutory grounds for possession. For convenience they are set out (in their current form) in the schedule to this judgment.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">The First Issue: Does the secure tenancy regime adversely affect the tenant&#8217;s pre-existing contractual and proprietary security?</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The parties&#8217; submissions on this question, as they had been deployed by the end of the hearing, may (without I hope detracting unduly from their care and detailed precision) be summarised as follows. For Croydon Mr Kelvin Rutledge QC and Mr Riccardo Calzavara submitted that:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">a.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The phrase &#8220;subject to termination by the landlord&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) (and the same phrase in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>) encompassed any means by which a fixed-term tenancy might be brought to an end, not limited to forfeiture. Thus it would include, for example, a landlord&#8217;s break clause and, here, a right to seek early possession on a non-default ground under Schedule 2, such as ground 10 (redevelopment).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">b.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">Where <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) applied to a secure tenancy, then <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A) clearly provided a menu of options between which the landlord could choose, including seeking (i) a possession order, (ii) a termination order under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> in lieu of forfeiture and (now) (iii) a demotion order. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> the first two options were available. This was replicated in 1985, and the later addition of demotion made no difference for present purposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">c.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">Thus the landlord could bring a secure fixed-term tenancy to an early end simply by seeking possession on one of the statutory grounds, without having to seek a termination order in lieu of forfeiture, provided only that the tenancy agreement contained some provision for early termination by the landlord, whether or not that provision was a forfeiture clause or a break clause, and regardless of the presence or absence of any &#8220;match&#8221; between the statutory ground for possession and the relevant contractual provision for early termination by the landlord.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">d.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The absence of a need to seek termination in lieu of forfeiture effected no serious inroad on a secure tenant&#8217;s pre-existing contractual rights, since the absence of an opportunity for the tenant to seek relief from forfeiture (where the landlord simply sought possession) was matched by the protection conferred by the condition that it must be reasonable (under all the default grounds) to make an order.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">e.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">While some inroad into the tenant&#8217;s contractual rights was constituted by the landlord&#8217;s ability to seek possession on the non-default grounds 9 to 11, such as redevelopment under ground 10, even in the absence of any break clause in the tenancy, this was a fair quid pro quo for the added security conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>, and fairly recognised the need to enable the public landlord to perform its duties to manage its scarce housing stock in the public interest.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">f.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The attempt by the Court of Appeal to construe <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref> as conferring a right to seek possession only in relation to a periodic tenancy, and only a right to a termination order in lieu of forfeiture in relation to a fixed-term tenancy, found no support in the language of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A) or its predecessors, and would mean that, even if a fixed-term tenancy agreement contained a redevelopment break clause, the landlord could not make use of it for redevelopment against a model tenant who committed no breach attracting a forfeiture.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">For Ms Kalonga Mr Justin Bates and Ms Anneli Robins submitted:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">a.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The judge had been right to construe the phrase &#8220;subject to termination by the landlord&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) as meaning only subject to termination by forfeiture. This brought subsection (1)(b) into alignment with subsection (1A) and with section 86.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">b.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The Court of Appeal was right to hold that the landlord under a secure fixed-term tenancy could only terminate it early by seeking a termination order in lieu of forfeiture under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref>. On Croydon&#8217;s construction, termination in lieu of forfeiture would be virtually redundant, and a fixed term would confer no greater security than a secure periodic tenancy.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">c.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The word forfeiture should, in this statutory context at least, not be limited to termination for breach, but should be understood to accommodate all contractual means whereby a landlord could terminate a fixed term early, even if they did not depend on the tenant&#8217;s default. Thus a break clause should be treated as a forfeiture clause, requiring the landlord to exercise it as a means of bringing the tenancy to an early end by seeking a termination order under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref>. That would also make sense of section 86(1), since it would ensure that a statutory periodic tenancy would follow on from any kind of early termination of a fixed-term tenancy, rather than leave an unexplained gap in the tenant&#8217;s security.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">d.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The need to terminate a fixed-term tenancy early by seeking a termination order in lieu of forfeiture was consistent with the settled understanding of the Government (reflected in the quoted passage from the 1987 Notices Regulations), of local housing authorities and of the legal profession.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is much force in both parties&#8217; submissions, but neither succeeds in resolving some fundamental difficulties raised by this issue of construction. Taking Croydon&#8217;s submissions first, it is I think inescapable that the phrase &#8220;subject to termination by the landlord&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) must apply to any type of provision for early termination of a fixed-term tenancy by the landlord, including any kind of landlord&#8217;s break clause. The inclusion of such a break clause does not prevent the tenancy from being for a term certain: see <span style="font-style:italic">Livewest Homes Ltd (formerly Laverty Ltd) v Bamber</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/1174" uk:canonical="[2019] EWCA Civ 1174" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 1174</ref>; <ref href="#" uk:canonical="[2019] 1 WLR 6389" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 6389</ref>, per Patten LJ at para 59. Nor does it prevent the tenancy being a secure tenancy. If a secure tenancy for a term certain with a landlord&#8217;s break clause fell outside <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, then nothing in <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref> would prevent it being brought to an early end, and nothing in section 86 would give rise to a follow-on secure tenancy thereafter, because section 86 only does so where the fixed term expires by effluxion of time or by forfeiture. It would be an entirely illusory secure tenancy. In that respect I agree with para 53 of the judgment of Arnold LJ in the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is also much force in the linguistic point that, on its face, <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A) gives the landlord a menu of options for bringing the tenancy to an end, between which it may choose. Even in its original form, when there were only two options, it is not the natural meaning of the language to read the possession option as applying only to periodic tenancies, and only the termination option as applying to fixed-term tenancies. The Court of Appeal was compelled to insert &#8220;respectively&#8221; into <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 32</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> (the predecessor of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>): see per Arnold LJ at para 55.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">But following that point to its logical conclusion seems to me to give rise to fundamental objections. The relevant conclusion (so Croydon contends) is that every fixed-term tenancy may be terminated early by the landlord seeking possession under any of the Schedule 2 grounds, regardless whether that would be to cut down the contractual or proprietary security of tenure enjoyed by the tenant, apart from <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>. A secure fixed term tenancy regardless of its length would confer no greater security than a secure periodic tenancy. Furthermore it would produce a strange and (I would have thought) plainly unintended contrast in terms of security of tenure between a fixed-term tenancy with no provision for termination by the landlord, and one with any such provision.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is convenient to start with a tenancy for a five year term certain which is not subject to any provision for termination by the landlord, ie one with neither a forfeiture clause nor a break clause. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 82</ref> would have no application at all to such a tenancy, although of course section 86 would supply a follow-on periodic tenancy when it expired by effluxion of time. The tenant would have full security of tenure for the whole of the contractual five year term, unaffected by any of the Schedule 2 grounds for possession. Such a tenancy might be thought to be rather unlikely in the real world, but <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref> clearly contemplates it in principle, otherwise (at least on Croydon&#8217;s case) the menu of options in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A) could simply have been made applicable to all secure tenancies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Now suppose that the five year tenancy had a forfeiture clause, but no break clause. <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 82</ref> would plainly apply to it and, on Croydon&#8217;s case, it could be terminated early, even after only a few months, by a landlord relying not upon forfeiture but upon ground 10 in Schedule 2 (which does not require the landlord to show breach by the tenant, or that it would be reasonable for a possession order to be made). Why should a model tenant (with nothing to fear from the forfeiture clause) be nonetheless exposed by its mere existence to having his security of tenure cut down from five years to a few months under ground 10 merely because of the inclusion of a forfeiture clause in the tenancy agreement? And, returning to my example in para 8 above, if the tenancy agreement permitted the landlord to break the term at two years, why should the landlord be permitted to break it after one year, as ground 10 would permit it to do, if the statutory conditions were satisfied?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is also great force in Croydon&#8217;s point that, if termination in lieu of forfeiture is the only way (under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>) of bringing a fixed-term secure tenancy to an early end, why should a landlord which has reserved in a five year tenancy a contractual break clause after (say) two years, be prevented from seeking possession at that time under ground 10, even against a model tenant who was not vulnerable to forfeiture? Plainly the service of a contractual break notice would not be enough on its own to bring the tenancy to an end, not least because section 86 would not in such a case bring into existence a follow-on secure tenancy.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Ms Kalonga&#8217;s case in the Court of Appeal, which that court accepted, was that it was a necessary part of the statutory scheme for secure tenancies that break clauses (and all other means of early termination apart from forfeiture) were simply rendered ineffective, as a matter of clear language, and in particular because section 86 only provided for a follow-on tenancy in the cases of effluxion of time and termination in lieu of forfeiture. In this court Mr Bates has advanced the alternative case that &#8220;forfeiture&#8221; should simply be construed in this context as including all methods of early termination by the landlord, as explained above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Ingenious though it is, I am unable to accept this alternative case. In my view <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> (and its predecessor) use the phrase &#8220;re-entry or forfeiture&#8221; in exactly the same way as it is used in <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the LPA, that is as a means of terminating a fixed term early by reason of default by the tenant, so as to attract an entitlement of the tenant to seek relief from forfeiture, as traditionally described in <span style="font-style:italic">Clays Lane Housing Co-operative Ltd v Patrick</span>(1984) 17 HLR 188, p 193 per Fox LJ (see further below). <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">Section 146</ref> of the LPA is all about, and only about, early termination by reason of breach of covenant or condition by the tenant. Thus subsection (1) requires the landlord to give the tenant notice specifying the breach and giving the tenant time to remedy it, while sub<ref href="http://www.legislation.gov.uk/id/ukpga/1977/43/section/2" uk:canonical="1977 c. 43 s. 2" uk:origin="TNA" uk:type="legislation">section (2</ref>) provides a statutory form of the previous equitable jurisdiction to grant relief. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 82(4)</ref> applies <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the LPA to the termination of a secure tenancy by forfeiture. It cannot sensibly be applied to a no- default early termination, eg by reason of a break clause. There is no breach that can be remedied, and there is no jurisdiction, either statutory or equitable, to grant relief.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Mr Bates submitted that forfeiture has always extended to bankruptcy of the tenant or even of a guarantor, neither of which were, he said, cases of default by the tenant. I accept the premise of that submission, but not the conclusion. Bankruptcy was traditionally regarded as a matter fairly described as a default, and both bankruptcy and insolvency are in modern times routinely included within the list of events of default in a loan agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The parties&#8217; submissions therefore leave only two unpalatable alternatives. On Ms Kalonga&#8217;s case the landlord cannot terminate a secure tenancy early for the beneficial public purpose of redevelopment even though it has made contractual provision to do so in the tenancy by insisting on a break clause. On Croydon&#8217;s case a model tenant who has contracted for a full fixed term with no break clause (subject only to forfeiture) is exposed from the very start of the term to being evicted under ground 10 to enable the landlord to redevelop. And a tenant whose security of tenure is buttressed by a right to seek relief from forfeiture even if in breach was on Croydon&#8217;s case deprived of that right upon the coming into force of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is no answer to these apparent defects in the parties&#8217; cases to say that those granting and receiving secure tenancies must be taken to accept one or other of these unpalatable consequences because of the existing secure tenancy regime under which their tenancy agreement was negotiated. <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">The 1980 Act</ref> applied this new regime to a very large number of pre-existing tenancies, even if few of them remain in place now. Some may have had landlord&#8217;s break clauses. Others will have had fixed terms offering years&#8217; worth of security with no provision for early termination other than (usually) forfeiture for breach.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I consider that there is a solution to this conundrum which largely resolves these competing difficulties. Neither party advocated it in terms by the end of the hearing, although Croydon moved some way towards it in subsequent written submissions, provided at the court&#8217;s request. It begins by recognising that a fixed term tenancy usually confers a substantial element of security of tenure as a matter of contractual and proprietary right, which legislation designed to improve tenants&#8217; security should not lightly be construed as having taken away. I use the inelegant phrase &#8220;contractual and proprietary right&#8221; deliberately. As between the original parties the tenant&#8217;s right to the secure enjoyment of a fixed term is both contractual and proprietary. As between their successors (after an assignment of the tenancy or of the reversion) it may only be proprietary. But in either case they were in 1980 important rights to security of tenure, enjoyed by tenants under existing tenancies which then became secure tenancies. Parliament is not to be supposed to have taken those security rights away otherwise than by clear express words or a clear necessary implication.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The grounds upon which (where available) the landlord can obtain possession of a dwelling house held under a secure tenancy are all capable, in principle, but to different degrees of severity, of making inroads upon the tenant&#8217;s contractual and proprietary rights to security of tenure. Seeking possession under any of the default grounds (1 to 8) deprives the tenant of the right to be given time to remedy the breach, and to seek relief from forfeiture. Seeking possession under any of the non-default grounds (9 to 16) before the end of the fixed term will derogate from the tenant&#8217;s right to enjoy the fixed term in full unless the landlord has reserved a matching contractual right to obtain early possession in the tenancy agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The 1980 and 1985 Acts do not disclose a determination to apply the possession regime to all fixed-term secure tenancies. Those without any provision for early termination are immune from it until the tenancy expires by effluxion of time: see para 30 above. Even a demotion order is excluded. Nor in my view does either Act disclose a determination to expose a secure tenant to the loss of contractual security of tenure earlier than the landlord could have obtained possession under the terms of the tenancy, apart from <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>s.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The key to this conclusion lies in close attention to <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref> (and its substantially identical predecessor in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>), and in particular the phrases &#8220;subject to termination by the landlord&#8221;, followed by &#8220;cannot be brought to an end &#8230; except &#8230;&#8221;. The latter phrase assumes that, apart from <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>, the fixed term tenancy could at the relevant moment in time be brought to an end by the landlord under the terms of the tenancy agreement. It is framed in negative terms, as a prohibition upon what the landlord could otherwise then lawfully do, not in enabling terms, so as to create a right of termination which did not then otherwise exist. It therefore requires the landlord to show, when seeking to use the methods now specified in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A) that there exists no bar to obtaining possession under the terms of the tenancy agreement. An unexpired fixed term <span style="font-style:italic">prima facie</span> does create such a bar, unless a provision for earlier termination included in the tenancy agreement is by then available. The effect of the bar is that the fixed term is not, at that time, subject to termination by the landlord within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This does not mean, as the Court of Appeal thought, that the landlord can never seek possession on the statutory grounds in relation to a fixed-term tenancy, and is invariably confined to seeking termination in lieu of forfeiture. Thus, if the tenancy agreement contains a landlord&#8217;s break clause exercisable at any time after (say) two years, then the landlord can seek possession thereafter under any of the statutory grounds, but not before. Before then the tenancy will not be &#8220;subject to termination by the landlord&#8221; otherwise than perhaps by forfeiture. After then, it will be. Once two years have passed, the landlord can terminate the tenancy under its terms (by complying with any specified break-notice requirement) but only if one of the statutory grounds is also available.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The same analysis applies in relation to termination by forfeiture, although it operates by a different method. If the tenancy agreement contains no forfeiture clause, then <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> and its predecessor create no statutory equivalent. Thus a fixed-term tenancy without a forfeiture clause or a break clause cannot be terminated under <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>s until it expires by effluxion of time. It simply lacks any provision for earlier termination which satisfies <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b). But if the tenancy agreement does have a forfeiture clause (but no break clause), then the tenancy cannot be terminated otherwise than by termination in lieu of forfeiture, under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref>. This is because, if it has not been, the tenant is able to say, in defence to a purely statutory claim for possession, &#8220;my tenancy is not yet subject to termination by the landlord under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) because the only provision in my tenancy agreement for early termination (forfeiture) is not yet exercisable or (as in this case) has not been exercised&#8221;. The exercise of the landlord&#8217;s right to forfeit must comply with <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82 (3)</ref> and (4) with the result that (if relief is not obtained by the tenant) a follow-on periodic tenancy ensues under section 86, which qualifies under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A)(a) for termination by a statutory possession order.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The key to this analysis is an understanding, contrary to the assumption inherent in the parties&#8217; submissions, that a tenancy for a term certain is not &#8220;subject to termination by the landlord&#8221; under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) merely because the tenancy agreement contains a provision of some kind for early termination. It only becomes subject to (early) termination when a provision to that effect in the tenancy agreement becomes exercisable. Thus a landlord&#8217;s break clause becomes exercisable only when the conditions for its exercise are first satisfied. A forfeiture clause becomes exercisable only when there has been a qualifying breach of the terms of the tenancy and (if the breach is not rent arrears or the tenant&#8217;s bankruptcy) the landlord has served a <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> notice. By the same token the early termination right may cease to be exercisable. A break clause may require the landlord to exercise it on a particular date, or within a defined period. A forfeiture may be waived by acceptance of rent after the occurrence of a non-continuing breach. In such a case the tenancy ceases to be subject to early termination by the landlord under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b), so that, at the relevant time when it wishes to recover possession, the landlord has none of the termination options set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This solution meets all the objections to each of the parties&#8217; cases on construction. It requires no violence to be done to the language of the relevant statutory provisions. It also fully accords with the understanding reflected in the note (quoted above) in the 1980 and 1987 Notices Regulations. It ensures that a secure tenant cannot be deprived of the contractual security embedded in her fixed term by an application for possession based on a non-default ground such as ground 10. It enables a landlord to rely upon such a ground if it has become entitled to exercise a break clause under the tenancy agreement. It ensures that the right to seek relief from forfeiture embedded in any tenancy with a forfeiture clause cannot be by-passed by the landlord applying for possession rather than for termination in lieu of forfeiture. It leaves the termination in lieu of forfeiture option with real work to do, rather than almost redundant, and it preserves the real security of tenure which a fixed term without a break clause may offer (subject to forfeiture) beyond that offered by a periodic secure tenancy. It acknowledges that there may be circumstances in which possession may be obtained on a statutory ground during the currency of a fixed term tenancy, as is clear, for example, from the language of ground 15A. This is because the exercise of a contractual right to terminate early, other than termination in lieu of forfeiture, does not actually terminate the fixed term, or give rise to a statutory follow-on periodic tenancy under section 86. All that exercise does is to satisfy the requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) that the tenancy is subject to termination by the landlord.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It must remain a matter of conjecture why Parliament chose to use two different methods to deal with, on the one hand, early termination by forfeiture, and on the other hand early termination by any other method, such as the exercise of a landlord&#8217;s break clause. The first replaces the fixed term with a follow-on periodic tenancy. The second leaves the fixed term in place, but removes the defence (that the tenancy is not yet subject to termination by the landlord under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b)) which may otherwise prevent it from being brought to an early end by an application for possession on the statutory grounds. The reason may be that, by 1980, forfeiture against an occupying residential tenant generally required both an application to the court by the landlord and the exercise by the court of a discretion not to grant relief from forfeiture (if asked for by the tenant): see <ref href="http://www.legislation.gov.uk/id/ukpga/1977/43/section/2" uk:canonical="1977 c. 43 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1977/43" uk:canonical="1977 c. 43" uk:origin="TNA" uk:type="legislation">Protection from Eviction Act 1977</ref>. The exercise of a break clause required no court proceedings, in the absence of a challenge to its validity, and gave rise to no jurisdiction to grant relief. The forfeiture route to early termination may have been thought therefore to have deserved specific treatment within the context of a secure tenancy regime, and to have been worthy of being treated as leading to a concrete outcome, namely the early termination of the tenancy, whereas the automatic consequences of the exercise of a break clause were regarded as sufficiently recognised by their exercise making the fixed-term tenancy subject to termination within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b), without the need for separate proceedings. Any issue as to whether such a break clause had become exercisable, or had actually been exercised, may have been regarded as capable of being dealt with in any possession proceedings brought under the statutory ground.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I would therefore answer the question posed by the first issue as follows:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">a.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">The 1980 and 1985 Acts do not detract from the security of tenure enjoyed by a secure tenant under the terms of a fixed-term tenancy agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">b.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">Nonetheless the obtaining of a termination order in lieu of forfeiture is not the only way in which a landlord can bring about the termination of a fixed-term secure tenancy. If a means of early termination other than forfeiture has become available to the landlord under the tenancy agreement, so that the tenancy has become &#8220;subject to termination&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, then the landlord may obtain possession on the statutory grounds. An unexpired fixed term is not subject to termination by the landlord under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) unless the landlord has an existing right to terminate early under the terms of the tenancy, such as a break clause, which has become exercisable and (if exercise requires procedural steps to be taken, such as a period of notice or needs to be exercised within a specified period) any requisite steps have been taken.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">c.</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.50in;text-indent:0.50in">But if the only terms of the tenancy agreement which would, on the relevant facts, enable the landlord to obtain early termination are forfeiture provisions, then the landlord will need to seek an order for termination in lieu of forfeiture under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> before, or at the same time as, seeking possession on the statutory grounds.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">The second issue: Does Ms Kalonga&#8217;s tenancy agreement contain a forfeiture clause?</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Ms Kalonga originally raised this issue as part of her case that only by forfeiture could a fixed-term secure tenancy be terminated early. On the analysis of both the judge and the Court of Appeal the absence of a forfeiture clause would be fatal to Croydon&#8217;s case, although for different reasons. Furthermore both courts agreed that the tenancy agreement did not contain a forfeiture clause. In this court Ms Kalonga has maintained that position, although Mr Bates&#8217; alternative case that every kind of provision for the early termination of a fixed term secure tenancy should be treated as a forfeiture clause sits uncomfortably, to say the least, with that primary case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I have already rejected that part of Ms Kalonga&#8217;s case that a fixed term secure tenancy can only be terminated early by forfeiture, and have also been unable to accept Mr Bates&#8217; alternative case. It is not necessarily fatal to a landlord&#8217;s prospects of seeking early termination of a fixed term secure tenancy that there is no forfeiture clause, provided that there is a break clause which has by then become exercisable (and if necessary, exercised). If it is a true break clause and not a forfeiture clause, then the landlord may seek possession under any available statutory ground. If it is in truth a forfeiture clause, then the landlord must forfeit or, rather, obtain a termination order in lieu of forfeiture under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Whether a particular clause is or is not a forfeiture clause is a question of substance, not form. This is because the classification of a termination clause as a forfeiture attracts what was originally the equitable remedy of relief from forfeiture. In the landlord and tenant context that remedy is now statutory (apart from forfeitures based on non-payment of rent), but its <span style="font-style:italic">raison d&#8217;etre</span> remains the same. The basis on which equity grants relief from the strict enforcement of a forfeiture is that it regards the forfeiture as only a security for the performance of an underlying obligation: see <span style="font-style:italic">Shiloh Spinners Ltd v Harding</span><ref href="#" uk:canonical="[1973] AC 691" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1973">[1973] AC 691</ref>, 723-724 per Lord Wilberforce, recently affirmed by this court in <span style="font-style:italic">Vauxhall Motors Ltd (formerly General Motors UK Ltd) v Manchester Ship Canal Co Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/46" uk:canonical="[2019] UKSC 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 46</ref>; <ref href="#" uk:canonical="[2020] AC 1161" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 1161</ref>, para 17.<span style="font-style:italic"/>See also, in the landlord and tenant context, <span style="font-style:italic">Chandless-Chandless v Nicholson</span><ref href="#" uk:canonical="[1942] 2 KB 321" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1942">[1942] 2 KB 321</ref>, 323 per Lord Greene MR.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is not open to the drafter to avoid the consequences of a provision being in substance a forfeiture (and thereby attracting the jurisdiction to grant relief) by dressing it up as something else in form. In <span style="font-style:italic">Richard Clarke &amp; Co Ltd v Widnall</span> <ref href="#" uk:canonical="[1976] 1 WLR 845" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1976">[1976] 1 WLR 845</ref> a tenancy terminable on 12 months&#8217; notice could be terminated by the landlord on three months&#8217; notice if the tenant committed a breach of covenant. It was held to be a forfeiture. The landlord submitted that the clause was an ordinary contractual right to terminate on the expiry of a contractually provided period of notice. After noting that a condition of re-entry for breach of covenant is regarded as a security for the performance of the covenants Megaw LJ said, at pp 850-851:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;If the landlords were right, it would mean that both (in a case such as the present) the long-established doctrine of equity as to relief against forfeiture and also (in cases falling within <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref>) the statutory requirement as to relief from forfeiture, could be evaded by the mere insertion in the tenancy agreement of a provision for short notice - perhaps one day&#8217;s notice - in the event of a breach of covenant. That cannot be right.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Megaw LJ referred to the equitable rather than statutory jurisdiction to grant relief because that was a case of non-payment of rent, to which <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> does not apply.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Megaw LJ&#8217;s dictum in <span style="font-style:italic">Clarke v Widnall </span>was applied (although with a different outcome on the facts)<span style="font-style:italic"/>in the <span style="font-style:italic">Clays Lane </span>case (<span style="font-style:italic">supra</span>). At p 193 Fox LJ said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;We accept, for present purposes, the submission on behalf of the co-operative that a right to determine a lease by a landlord is a right of forfeiture if (a) when exercised, it operates to bring the lease to an end earlier than it would &#8216;naturally&#8217; terminate; and (b) it is exerciseable in the event of some default by the tenant.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">That is in my view a good working definition of what, in substance, constitutes a provision for forfeiture in a tenancy agreement, both under the general law and under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 82</ref> and 86 of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, and the equivalent provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/51" uk:canonical="1980 c. 51" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The terms of Ms Kalonga&#8217;s tenancy agreement are mainly to be found in a &#8220;conditions of tenancy booklet&#8221; supplied to her and incorporated into the tenancy by reference to it in a welcome letter entitled &#8220;Conditions of Flexible Tenancy&#8221; sent to her on 25 May 2015. The judge based her findings on these terms, but the Court of Appeal was mistakenly referred to a later version of the terms containing amendments to which Ms Kalonga had not consented. Nothing turns on the differences between the two.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The welcome letter summarises in a series of bullet points the key responsibilities of Croydon and of Ms Kalonga under the tenancy, and continues:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;We will not hesitate to take action against tenants who deliberately fail to observe the conditions of tenancy. Such action will, where appropriate, include seeking possession or the home, obtaining an injunction to stop the antisocial behaviour or harassment, or using any other legal remedies. This could result in you and your family being evicted from your home.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The accompanying booklet contained the following relevant terms:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Reasons for seeking possession (on pp 3-4)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Following the review we will take action to end your tenancy and repossess the property if:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">you have not kept to any of the conditions of the tenancy;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">We may also take eviction action <span style="text-decoration-line:underline;text-decoration-style:solid">at any time</span> (<span style="font-style:italic">my underlining</span>) if one or more of the grounds for possession set out in Schedule 2 of these conditions apply.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Clause 1: Rent payment (on p 9)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(<span style="font-style:italic">This clause contains a promise to pay the rent. Its detail does not matter.</span>)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Clause 3: Ending the tenancy &#8230; (on p 10)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Action by us</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">We may end a secure tenancy by first serving a notice of seeking possession and applying to the court for a possession order.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Clause 10: Grounds upon which we may seek possession (on p 13)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">We may seek possession if &#8230; you break any of the clauses of this agreement, or if any of the grounds in Schedule 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">Housing Act 1985</ref> as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/52" uk:canonical="1996 c. 52" uk:origin="TNA" uk:type="legislation">Housing Act 1996</ref>, or for any other ground that is made law and applies in the future, are breached. A summary of the grounds is set out in Schedule 2 at the end of this booklet. The number follow the numbering used by the Housing Act 1985.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Clause 25: Antisocial behaviour (p 20)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(<span style="font-style:italic">This lengthy clause makes the tenant responsible for her own behaviour and that of lodgers and visitors and continues.</span>)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">Note: we will ask the court to make an order for possession &#8230; if you cause nuisance, annoyance, alarm, intimidation, harassment or distress to anyone else.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Schedule 2: Grounds for possession (p 31)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(<span style="font-style:italic">This summarises the statutory grounds, including (1) non-payment of rent and (2a) nuisance or annoyance to neighbours.</span>)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(<span style="font-style:italic">Schedule 2 includes the non-default grounds 9 to 12.</span>)&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The judge summarised the relevant terms of Ms Kalonga&#8217;s tenancy agreement, reminded herself of the dictum of Fox LJ in the<span style="font-style:italic"> Clays Lane </span>case (quoted above) but concluded that none of those terms provided for the tenancy to be brought to an end before the end of the fixed term. She noted in particular that the provision on p 4 (quoted above) provided for the landlord to be able to take eviction action at any time, but said that it did not contain a right for the landlord, in the event of default by the tenant, to determine the tenancy agreement before the end of the fixed term. In relation to clauses 3 and 10 she said that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;the service of a notice seeking possession or the application to the court for a possession order is not the same thing as the exercise by a landlord of its right to determine the tenancy agreement before the end of the fixed term in the event of default by the tenant.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The Court of Appeal agreed with the judge but provided no additional reasons of its own for doing so.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I respectfully disagree with that conclusion. The terms of the tenancy agreement plainly entitle the landlord to go to court to seek possession &#8220;at any time&#8221; ie before the end of the fixed term if (<span style="font-style:italic">inter alia</span>)<span style="font-style:italic"/>the tenant breached a term of the tenancy agreement. That the landlord could do so at any time is expressly stated in the un-numbered clause on pp 3-4, and it is implicit in clause 10. While it may be said that the &#8220;at any time&#8221; unnumbered clause is triggered by the statutory grounds for possession, grounds 1 and 2(a) in Schedule 2 reflect express obligations of the tenant, and are triggered by the tenant&#8217;s default. They are the only two grounds relied on by Croydon in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I disagree in particular with the judge&#8217;s apparent conclusion that there is somehow a critical difference between seeking possession by court order and bringing the term to an early end by forfeiture in the event of default, where (as here) the grounds for possession are default grounds. The obtaining of an order for possession (ie eviction) plainly ends the fixed term, both under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, because it is expressly described as a means whereby a secure tenancy may be brought to an end, and as a matter of general law. Furthermore after 1977 the only way in which a landlord could enforce a forfeiture against a person lawfully occupying a dwelling house was by proceedings in court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In my judgment all the repeated provisions in Ms Kalonga&#8217;s tenancy agreement by which Croydon could bring her fixed term tenancy to an early end by reason of conduct by her amounting to default are forfeiture provisions. They fall squarely within the forfeiture test in the <span style="font-style:italic">Clays Lane </span>case as a matter of substance, and she had a right under the general law to seek relief from forfeiture in respect of those defaults, a right of which the secure tenancy regime did not deprive her.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">For completeness I should say that those grounds in her tenancy agreement by which Croydon could bring her fixed term to an early end otherwise than because of any default on her part are not forfeiture provisions. They include seeking possession on grounds 9 to 12 in Schedule 2 in her tenancy terms, which replicate the same numbered grounds in Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. Because of their inclusion in her tenancy terms they operate as a rather complicated break clause. But they only entitle the landlord to terminate early if the full statutory conditions for the operation of those grounds are applicable. That is because Schedule 2 of the tenancy terms is described only as a summary of the statutory grounds. Plainly they involve no default by the tenant. Thus the right to seek possession on those grounds is not a security for the tenant&#8217;s compliance with her obligations under the tenancy, and relief from forfeiture is of no application, nor is <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the LPA.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading5"><span style="font-style:normal">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Ms Kalonga&#8217;s fixed term tenancy therefore had numerous provisions by which the fixed term could be brought to an early end, some being forfeiture provisions and some not. Nonetheless, for the reasons already given, her secure tenancy was, on the assumed facts, only &#8220;subject to termination by the landlord&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, at the time when Croydon sought to terminate it early, on forfeiture grounds. No other (non-default) grounds have been alleged. Since Croydon had abjured forfeiture, or rather termination under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref> in lieu of forfeiture, then the possession claim was bound to fail. The fixed term expired by effluxion of time on 24 May 2020. Ms Kalonga has since then enjoyed only a follow-on secure periodic tenancy under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/86" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 86</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, which is the subject of separate proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">When the judge came to give judgment on 2 June 2020, Ms Kalonga&#8217;s fixed term tenancy had already expired. Her follow-on tenancy was by then liable to be terminated by a possession claim. But the procedure for terminating that follow-on tenancy is different from that required for terminating a fixed-term flexible tenancy. So the judge dismissed the claim. The judge also made the following declarations:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(i)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">that Croydon had no right to terminate Ms Kalonga&#8217;s tenancy before the expiry of the fixed term on 24 May 2020, and </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ii)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">that her tenancy agreement did not fall within <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, so that it could not be determined, prior to its expiry, under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82</ref>(1A).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The Court of Appeal simply dismissed Croydon&#8217;s appeal, albeit for reasons different in part from those of the judge.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I consider that the judge was right to dismiss Croydon&#8217;s claim. But the declarations were only partly correct, and only because the fixed term had by then expired by effluxion of time, so that it was too late for Croydon to have decided, after all, to seek a termination order in lieu of forfeiture under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/68/section/82/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 82(3)</ref>. On the assumed facts, but subject to waiver, Croydon could have sought a termination order in lieu of forfeiture before the fixed term expired by effluxion of time, subject to her right to seek relief from forfeiture.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Read in the context of her judgment, the declarations were intended to mean that, because Ms Kalonga&#8217;s tenancy agreement never contained a provision for forfeiture, it could never have been terminated by Croydon prior to the expiry of the fixed term, regardless of the underlying facts. I have reached a different conclusion. The tenancy agreement did contain a provision for forfeiture, of which, on the assumed facts about her conduct, Croydon could have availed itself by seeking a termination in lieu of forfeiture. That would have required Croydon to have complied with the statutory and common law requirements for forfeiture, so as in particular to enable her to seek relief, but it decided not to do so. The tenancy agreement also contained a number of other provisions for early termination otherwise than due to the tenant&#8217;s default which, if the requisite conditions had been satisfied, might have enabled Croydon to terminate the fixed term early by seeking possession on the statutory grounds rather than termination in lieu of forfeiture. But it has not been alleged that any of those conditions were ever satisfied before the fixed term expired by effluxion of time.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I would therefore allow the appeal to this court in part and, if my colleagues agree, invite counsel&#8217;s submissions on a form of declaration which would better reflect the reasoning in this judgment.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading1" style="text-align:center">SCHEDULE</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/68" uk:canonical="1985 c. 68" uk:origin="TNA" uk:type="legislation">Housing Act 1985</ref> statutory grounds for possession</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 1</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Rent lawfully due from the tenant has not been paid or an obligation of the tenancy has been broken or not performed.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 2 (in England)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The tenant or a person residing in or visiting the dwelling-house -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>has been guilty of conduct causing or likely to cause a nuisance or annoyance to a person residing, visiting or otherwise engaging in a lawful activity in the locality,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(aa)<marker name="tab"/>has been guilty of conduct causing or likely to cause a nuisance or annoyance to the landlord of the dwelling-house, or a person employed (whether or not by the landlord) in connection with the exercise of the landlord&#8217;s housing management functions, and that is directly or indirectly related to or affects those functions, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>has been convicted of -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">(i)<marker name="tab"/>using the dwelling-house or allowing it to be used for immoral or illegal purposes, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">(ii)<marker name="tab"/>an indictable offence committed in, or in the locality of, the dwelling-house.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 2ZA</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The tenant or an adult residing in the dwelling-house has been convicted of an indictable offence which took place during, and at the scene of, a riot in the United Kingdom.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In this Ground -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">&#8220;adult&#8221; means a person aged 18 or over;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">&#8220;indictable offence&#8221; does not include an offence that is triable only summarily by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/43/section/22" uk:canonical="1980 c. 43 s. 22" uk:origin="TNA" uk:type="legislation">section 22</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/43" uk:canonical="1980 c. 43" uk:origin="TNA" uk:type="legislation">Magistrates&#8217; Courts Act 1980</ref> (either way offences where value involved is small);</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">&#8220;riot&#8221; is to be construed in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1986/64/section/1" uk:canonical="1986 c. 64 s. 1" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/64" uk:canonical="1986 c. 64" uk:origin="TNA" uk:type="legislation">Public Order Act 1986</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">This Ground applies only in relation to dwelling-houses in England.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 2A</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house was occupied (whether alone or with others) by a married couple, a couple who are civil partners of each other or a couple living together as if they were a married couple or civil partners and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>one or both of the partners is a tenant of the dwelling-house,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>one partner has left because of violence or threats of violence by the other towards -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">(i)<marker name="tab"/>that partner, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">(ii)<marker name="tab"/>a member of the family of that partner who was residing with that partner immediately before the partner left, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(c)<marker name="tab"/>the court is satisfied that the partner who has left is unlikely to return.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 3</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The condition of the dwelling-house or of any of the common parts has deteriorated owing to acts of waste by, or the neglect or default of, the tenant or a person residing in the dwelling-house and, in the case of an act of waste by, or the neglect or default of, a person lodging with the tenant or a sub-tenant of his, the tenant has not taken such steps as he ought reasonably to have taken for the removal of the lodger or sub-tenant.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 4</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The condition of furniture provided by the landlord for use under the tenancy, or for use in the common parts, has deteriorated owing to ill-treatment by the tenant or a person residing in the dwelling-house and, in the case of ill-treatment by a person lodging with the tenant or a sub-tenant of his, the tenant has not taken such steps as he ought reasonably to have taken for the removal of the lodger or sub-tenant.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 5</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The tenant is the person, or one of the persons, to whom the tenancy was granted and the landlord was induced to grant the tenancy by a false statement made knowingly or recklessly by -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the tenant, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>a person acting at the tenant&#8217;s instigation.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 6</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The tenancy was assigned to the tenant, or to a predecessor in title of his who is a member of his family and is residing in the dwelling-house, by an assignment made by virtue of section 92 (assignments by way of exchange) and a premium was paid either in connection with that assignment or the assignment which the tenant or predecessor himself made by virtue of that section.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In this paragraph &#8220;premium&#8221; means any fine or other like sum and any other pecuniary consideration in addition to rent.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 7</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house forms part of, or is within the curtilage of, a building which, or so much of it as is held by the landlord, is held mainly for purposes other than housing purposes and consists mainly of accommodation other than housing accommodation, and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the dwelling-house was let to the tenant or a predecessor in title of his in consequence of the tenant or predecessor being in the employment of the landlord, or of -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a local authority,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a development corporation,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a housing action trust,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a Mayoral development corporation,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">an urban development corporation, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">the governors of an aided school, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the tenant or a person residing in the dwelling-house has been guilty of conduct such that, having regard to the purpose for which the building is used, it would not be right for him to continue in occupation of the dwelling-house.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 8</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house was made available for occupation by the tenant (or a predecessor in title of his) while works were carried out on the dwelling-house which he previously occupied as his only or principal home and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the tenant (or predecessor) was a secure tenant of the other dwelling-house at the time when he ceased to occupy it as his home,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the tenant (or predecessor) accepted the tenancy of the dwelling-house of which possession is sought on the understanding that he would give up occupation when, on completion of the works, the other dwelling-house was again available for occupation by him under a secure tenancy, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(c)<marker name="tab"/>the works have been completed and the other dwelling-house is so available.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 9</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house is overcrowded, within the meaning of Part X, in such circumstances as to render the occupier guilty of an offence.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 10</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The landlord intends, within a reasonable time of obtaining possession of the dwelling-house -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>to demolish or reconstruct the building or part of the building comprising the dwelling-house, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>to carry out work on that building or on land let together with, and thus treated as part of, the dwelling-house,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">and cannot reasonably do so without obtaining possession of the dwelling-house.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 10A</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house is in an area which is the subject of a redevelopment scheme approved by the Secretary of State or the Regulator of Social Housing or Scottish Homes in accordance with Part V of this Schedule and the landlord intends within a reasonable time of obtaining possession to dispose of the dwelling-house in accordance with the scheme.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Part of the dwelling-house is in such an area and the landlord intends within a reasonable time of obtaining possession to dispose of that part in accordance with the scheme and for that purpose reasonably requires possession of the dwelling-house.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 11</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The landlord is a charity and the tenant&#8217;s continued occupation of the dwelling-house would conflict with the objects of the charity.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 12</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house forms part of, or is within the curtilage of, a building which, or so much of it as is held by the landlord, is held mainly for purposes other than housing purposes and consists mainly of accommodation other than housing accommodation, or is situated in a cemetery, and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the dwelling-house was let to the tenant or a predecessor in title of his in consequence of the tenant or predecessor being in the employment of the landlord or of -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a local authority,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a development corporation,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a housing action trust,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">a Mayoral development corporation,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">an urban development corporation, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">the governors of an aided school,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:1.00in">and that employment has ceased, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the landlord reasonably requires the dwelling-house for occupation as a residence for some person either engaged in the employment of the landlord, or of such a body, or with whom a contract for such employment has been entered into conditional on housing being provided.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 13</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house has features which are substantially different from those of ordinary dwelling-houses and which are designed to make it suitable for occupation by a physically disabled person who requires accommodation of a kind provided by the dwelling-house and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>there is no longer such a person residing in the dwelling-house, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the landlord requires it for occupation (whether alone or with members of his family) by such a person.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 14</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The landlord is a housing association or housing trust which lets dwelling-houses only for occupation (whether alone or with others) by persons whose circumstances (other than merely financial circumstances) make it especially difficult for them to satisfy their need for housing, and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>either there is no longer such a person residing in the dwelling-house or the tenant has received from a local housing authority an offer of accommodation in premises which are to be let as a separate dwelling under a secure tenancy, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the landlord requires the dwelling-house for occupation (whether alone or with members of his family) by such a person.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 15</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house is one of a group of dwelling-houses which it is the practice of the landlord to let for occupation by persons with special needs and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>a social service or special facility is provided in close proximity to the group of dwelling-houses in order to assist persons with those special needs,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>there is no longer a person with those special needs residing in the dwelling-house, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(c)<marker name="tab"/>the landlord requires the dwelling-house for occupation (whether alone or with members of his family) by a person who has those special needs.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 15A</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house is in England, the accommodation afforded by it is more extensive than is reasonably required by the tenant and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the tenancy vested in the tenant by virtue of section 89 (succession to periodic tenancy) or 90 (devolution of term certain) in a case where the tenant was not the previous tenant&#8217;s spouse or civil partner, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>notice of the proceedings for possession was served under section 83 (or, where no such notice was served, the proceedings for possession were begun) more than six months but less than twelve months after the relevant date.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">For this purpose &#8220;the relevant date&#8221; is -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the date of the previous tenant&#8217;s death, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>if the court so directs, the date on which, in the opinion of the court, the landlord (or, in the case of joint landlords, any one of them) became aware of the previous tenant&#8217;s death.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The matters to be taken into account by the court in determining whether it is reasonable to make an order on this ground include -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the age of the tenant,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the period (if any) during which the tenant has occupied the dwelling-house as the tenant's only or principal home, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(c)<marker name="tab"/>any financial or other support given by the tenant to the previous tenant.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading2"><span style="font-weight:normal">Ground 16</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The dwelling-house is in Wales, the accommodation afforded by it is more extensive than is reasonably required by the tenant and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the tenancy vested in the tenant by virtue of section 89 (succession to periodic tenancy) or 90 (devolution of term certain), the tenant being qualified to succeed by virtue of section 87(b) (members of family other than spouse), and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>notice of the proceedings for possession was served under section 83 (or, where no such notice was served, the proceedings for possession were begun) more than six months but less than twelve months after the relevant date.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">For this purpose &#8220;the relevant date&#8221; is -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the date of the previous tenant's death, or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>if the court so directs, the date on which, in the opinion of the court, the landlord (or, in the case of joint landlords, any one of them) became aware of the previous tenant&#8217;s death.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The matters to be taken into account by the court in determining whether it is reasonable to make an order on this ground include -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(a)<marker name="tab"/>the age of the tenant,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(b)<marker name="tab"/>the period during which the tenant has occupied the dwelling-house as his only or principal home, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber" style="margin-left:0.50in">(c)<marker name="tab"/>any financial or other support given by the tenant to the previous tenant.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,519 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/6"/>
+	  <FRBRdate date="2023-02-08" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="6"/>
+	  <FRBRname value="Aviva Investors Ground Rent GP Ltd and another v Williams and others"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/6"/>
+	  <FRBRdate date="2023-02-08" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/6/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/6/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:33:22" name="transform"/>
+	  <FRBRdate date="2024-11-14T14:15:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-02-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="aviva-investors-ground-rent-gp-ltd-and-another" href="" showAs="Aviva Investors Ground Rent GP Ltd and another"/>
+	<TLCPerson eId="williams-and-others" href="" showAs="Williams and others"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-kitchin" href="/judge-lord-kitchin" showAs="Lord Kitchin"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>6</uk:number>
+	<uk:cite>[2023] UKSC 6</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>7ee4e5184e25261c57ed02ec7662b95d1964359cd6079911276b03a9c9707383</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2023] UKSC 6</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/27" style="font-style:italic" uk:canonical="[2021] EWCA Civ 27" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2021] EWCA Civ 27</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party as="#respondent" refersTo="#aviva-investors-ground-rent-gp-ltd-and-another" style="font-size:20pt">Aviva Investors Ground Rent GP Ltd and another</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondents</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#appellant" refersTo="#williams-and-others" style="font-size:20pt">Williams and others</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellants</role><span style="font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-kitchin">Lord Kitchin</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-richards">Lord Richards</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2023-02-08" refersTo="#judgment">8 February 2023</docDate><br/><br/>Heard on 8 December 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellants</span><br/>Philip Rainey KC<br/>James Sandham<br/>Robert Brown<br/>(Instructed by Northover Litigation)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondents</span><br/>Simon Allison </p>
+      <p class="JudgmentAppRespInt">Brooke Lyne<br/>(Instructed by Penningtons Manches Cooper LLP)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Intervener (The Property Institute) (written submissions only)</span><br/>Justin Bates</p>
+      <p class="JudgmentAppRespInt"> Rupert Cohen<br/>(Instructed by Property Management Legal Services Ltd)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS (<span style="text-transform:none">with whom Lord Reed, Lord Kitchin, Lord Sales and Lord Richards agree</span>): </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The levying of service charges by landlords under leases of residential property in respect of their expenditure upon repairs and the provision of other services has for long been controversial. This is both because of its propensity to generate disproportionately expensive and time-consuming litigation and because of the tendency of some landlords to seek to minimise that risk by the imposition of contractual restrictions in residential leases upon what would otherwise have been the tenants&#8217; rights to have disputes about service charges resolved in court, or in an appropriate tribunal. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1985</ref> (the &#8220;1985 Act&#8221;) was an attempt by Parliament to alleviate what was perceived to be the unfair restriction of residential tenants&#8217; access to justice inherent in such restrictions. This appeal raises the question just how far <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A goes in restraining what would otherwise be the parties&#8217; freedom of contract.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27</ref>A was introduced by amendment into <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> by the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref>. It provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">27A Liability to pay service charges: jurisdiction</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">An application may be made to the appropriate tribunal for a determination whether a service charge is payable and, if it is, as to&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person by whom it is payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person to whom it is payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the amount which is payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the date at or by which it is payable, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the manner in which it is payable.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (1) applies whether or not any payment has been made.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An application may also be made to the appropriate tribunal for a determination whether, if costs were incurred for services, repairs, maintenance, improvements, insurance or management of any specified description, a service charge would be payable for the costs and, if it would, as to&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person by whom it would be payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person to whom it would be payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the amount which would be payable,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the date at or by which it would be payable, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the manner in which it would be payable.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">No application under subsection (1) or (3) may be made in respect of a matter which&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">has been agreed or admitted by the tenant,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">has been, or is to be, referred to arbitration pursuant to a post-dispute arbitration agreement to which the tenant is a party,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">has been the subject of determination by a court, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">has been the subject of determination by an arbitral tribunal pursuant to a post-dispute arbitration agreement.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">But the tenant is not to be taken to have agreed or admitted any matter by reason only of having made any payment.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An agreement by the tenant of a dwelling (other than a post-dispute arbitration agreement) is void in so far as it purports to provide for a determination&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">in a particular manner, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">on particular evidence,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">of any question which may be the subject of an application under subsection (1) or (3).</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The jurisdiction conferred on the appropriate tribunal in respect of any matter by virtue of this section is in addition to any jurisdiction of a court in respect of the matter.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In England the &#8220;appropriate tribunal&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A is now the First-tier Tribunal (Property Chamber) (&#8220;the FtT&#8221;) replacing the Leasehold Valuation Tribunal (&#8220;the LVT&#8221;) which remains the &#8220;appropriate tribunal&#8221; in Wales (see <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 38</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>). Both tribunals are specialists in this field, and operate a limited costs-shifting regime under which tenants are not exposed to paying their landlord&#8217;s costs, providing they litigate reasonably.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question on this appeal is how far (if at all) <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) cuts down a contractual provision in a lease that provides for the tenant to pay a fixed proportion of common costs &#8220;or such part as the landlord may otherwise reasonably determine&#8221;. The leases in question are leases of residential units within a building in Southsea, Hampshire by which the apportionment of the landlord&#8217;s service charge expenditure between the tenants in the building may be adjusted by the landlord. A sample of the relevant clause for flat 64 (which is in standard form for all the residential units save as to the stated percentages) reads as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;your share of the insurance costs is 0.7135% or such part as the Landlord may otherwise reasonably determine;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">your share of building services costs is 0.7135% or such part as the Landlord may otherwise reasonably determine; and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">your share of estate services costs is 0.5427% or such part as the Landlord may otherwise reasonably determine.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">The insurance costs, the building services costs and the estate services costs together made up the whole of each residential tenant&#8217;s service charge liability. The numerically stated percentages were those imposed on the tenant of flat 64 at the commencement of the relevant lease, which was granted for a term of 125 years from 19 December 2008.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The particular service charge dispute leading to this appeal arose, in part, because the Respondent landlords demanded service charges on the basis of an apportionment different from (and, so far as the Appellants were concerned, higher than) the numerically stated percentages in the relevant leases. Mr Williams (the lessee of flat 64) and a number of his neighbouring lessees within the building claimed that the contractual entitlement of the landlords to determine an apportionment other than that numerically stated in the leases was rendered void by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6). They also claimed, in the alternative, that the re-apportionment imposed by the landlords was unreasonable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Each of the courts below responded to this challenge in a different way. The FtT (Judge Agnew and Mr D Banfield FRICS) held that the landlords&#8217; contractual power to re-apportion was not avoided in any way by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) because it did not purport to prevent the lessee from challenging its reasonableness in the FtT. The reasonableness challenge failed, so that the re-apportionment was enforced. The Upper Tribunal (Lands Chamber) (Judge Elizabeth Cooke) held that the whole of the provision for reapportionment was void, so that the fixed percentages were immutable, unless and until the parties agreed otherwise. The Court of Appeal (Lewison, Males and Rose LJJ) held that the provision for re-apportionment was void to the extent that only the landlord could exercise it, but that either party to the relevant lease could apply to the FtT for a re-apportionment under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">All three of the courts below correctly regarded themselves as bound by the decision of the Court of Appeal in<span style="font-style:italic"> Oliver v Sheffield City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/225" uk:canonical="[2017] EWCA Civ 225" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 225</ref>; <ref href="#" uk:canonical="[2017] 1 WLR 4473" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 4473</ref> in which, following <span style="font-style:italic">Windermere Marina Village Ltd v Wild</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2014/163" uk:canonical="[2014] UKUT 163 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 163 (LC)</ref>; [2014] L &amp; TR 30 and <span style="font-style:italic">Gater v Wellington Real Estate</span><span/><span style="font-style:italic">Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2014/561" uk:canonical="[2014] UKUT 561 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 561 (LC)</ref>; [2015] L &amp; TR 19, I held (with the agreement of Longmore and Lewison LJJ) that a provision which gave contractually determinative effect to a discretionary decision of the landlord about service charges was avoided by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) whether or not it provided expressly for the landlord&#8217;s decision to be final and binding. No submission to the contrary was (for understandable reasons) made in the courts below. But the correctness of those three decisions was squarely challenged by the Respondent landlords in the appeal to this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question in issue is of course purely one of law, namely the construction of a statutory provision, on which an appellate court must form its own view. While it will generally accord respect to the analysis of a lower (and in particular specialist) court or tribunal, if not bound by an earlier decision it must consider the question for itself. The long acceptance of a particular construction by the sector of the community most affected by it (here landlords and tenants of residential property) may disincline an appellate court from departing from it, but in the present case only five years have elapsed since the <span style="font-style:italic">Oliver</span> decision and, as will appear, the present case may fairly be regarded as having tested the principle there laid down to destruction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The central thrust of the Respondents&#8217; submission to this court, by Simon Allison and Brooke Lyne, is that to treat every contractual power of a landlord to decide any question about the quantum of a service charge as void will in many cases (including this one) mean that the relevant lease contains no provision at all for the determination of the amount or timing of a service charge by anyone other than the FtT, even in the absence of any dispute. As Lewison LJ put it in the Court of Appeal, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/27" uk:canonical="[2021] EWCA Civ 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 27</ref>; <ref href="#" uk:canonical="[2021] 1 WLR 2061" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 2061</ref>, at para 39, (applying <span style="font-style:italic">Oliver</span>), the effect in the present case of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) was that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the function of making that determination is [&#8230;] transferred from the landlord to the FTT.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">That would, so it was submitted, lay upon the shoulders of the FtT the administrative burden of making a multitude of service charge related decisions on a regular basis in relation to countless leases, in sharp contrast with its usual adversarial, dispute-resolution function where, for example, a decision by the landlord is challenged on contractual or statutory grounds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As with any question of statutory construction the answer depends upon reading the relevant words in their context, paying proper regard to their purpose, in this case to the mischief which the provision is designed to combat. In addition to looking at the whole of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A itself it is necessary to look a little wider at the statutory constraints upon the levying of service charges contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, which it may be supposed, at least, were intended to be given enhanced effect by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Starting outside <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A, the most important statutory constraint upon contractual obligations to pay service charges in the residential context is to be found in section 19, which limits relevant costs (forming the basis of a service charge) to costs reasonably incurred, and only for the provision of services or the carrying out of works to a reasonable standard. This was in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> from its inception. So also was a requirement for landlords to consult tenants in relation to specified works, with restrictions on recoverability in default, although those have been re-modelled. Section 21 requires landlords to supply upon request summaries of relevant costs. Of earlier origin is the time limit on service charge demands (18 months from the incurring of the relevant costs) in section 20B, which was introduced in 1987.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Other parts of the statutory regime include the restriction on the contractual ability of landlords to add litigation costs to service charge costs and the requirement to give credit for grant-aided works: see sections 20C and 20A respectively. All these statutory constraints upon the recovery of service charges were introduced by amendment before <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A. Alleged non-compliance by the landlord with any of them could give rise to questions about the amount of recoverable service charges.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Against that backdrop of detailed statutory control of the recovery of service charges from residential tenants, <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A provides for a generously worded jurisdiction of the FtT to determine whether a service charge is payable (<ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1)) or would be payable if specified costs were incurred (<ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(3)). Although there is detail about payability in terms of payer, payee, amount, timing and payment method, and in subsection (4) about when the FtT&#8217;s jurisdiction may not be invoked, nothing is said expressly about the principles which the FtT is to apply in determining payability. The natural assumption is that the FtT would decide by reference to common law principles of contractual liability, subject to the detailed scheme for statutory control laid down in the immediately preceding provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is common ground that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) is, viewed as a whole, plainly an anti-avoidance provision, designed to prevent specified types of contractual provisions designed to oust or limit the jurisdiction of the FtT conferred by the main operative provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A. The key words are:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;void in so far as it purports to provide for a determination [&#8230;] of any question which may be the subject of an application under subsection (1) or (3).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">An application under subsection (1) will necessarily be about the payability of an actual (i.e. already demanded) service charge. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(3) it will be about the payability of a prospective service charge (i.e. before the costs are incurred). Questions arising under such an application are, presumably, questions of contractual entitlement and statutory regulation. To the extent that they are regulated neither by contract nor by statute, such as management decisions which the landlord is contractually entitled to make, they would not appear to fall within &#8220;questions&#8221; which may be the subject of an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) or (3).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Generally speaking, the making of a demand upon a tenant for payment of a service charge in a particular year will have required the landlord first to have made a number of discretionary management decisions. They will include what works to carry out or services to perform, with whom to contract for their provision and at what price, and how to apportion the aggregate costs among the tenants benefited by the works or services. To some extent the answers to those questions may be prescribed in the relevant leases, for example by way of a covenant by the landlord to provide a list of specified services, or by a fixed apportionment regime. But even the most rigid and detailed contractual regime is likely to leave important decisions to the discretion of the landlord, such as whether merely to repair or wholly to replace a defective roof over the building, with major consequences in terms of that year&#8217;s service charge. Usually the conferring of this discretion on the landlord will be implicit, in order to give the lease business efficacy. But sometimes it may be express, as in the power of the landlord to re-apportion which is the subject of this case. It may be little more than happenstance whether these discretions are conferred expressly or implicitly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Speaking again generally (and this is a necessary predicate in construing a statutory provision applicable across a wide range of landlord and tenant relationships), the jurisdiction of the FtT under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) to decide whether a service charge demand is payable will extend to the contractual and/or statutory legitimacy of these discretionary management decisions. Thus, where the service charge enables the landlord to recover its cost of performing its repairing obligations under the lease, the replacement of a roof may give rise to questions whether replacement fell within the landlord&#8217;s repairing obligation (or rather whether it was an improvement) and whether, if it was a repair, the costs incurred satisfied the statutory reasonableness test in section 19. But, leaving aside <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) for the moment, it would not be a part of the FtT&#8217;s task to make those discretionary decisions itself, let alone for the first time. It would be too late, on an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1), and there would be no warrant either contractually in the lease or in the statutory regulatory regime under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70" uk:canonical="1985 c. 70" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> for it to do so. If the landlord&#8217;s discretionary decision in question was unaffected by the statutory regime and fell within the landlord&#8217;s contractual powers under the lease, then there might at the most be a jurisdiction to review it for rationality: see <span style="font-style:italic">Braganza v BP Shipping Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/17" uk:canonical="[2015] UKSC 17" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 17</ref>; <ref href="#" uk:canonical="[2015] 1 WLR 1661" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1661</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(3) in relation to a prospective service charge the FtT might well be invited to exercise its jurisdiction before the landlord made the relevant discretionary management decisions, but the jurisdiction would not thereby be enlarged from that described above merely because of the timing. Ignoring <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) for the moment, the FtT would still be limited to ruling upon the contractual and statutory legitimacy of the landlord&#8217;s proposal, coupled with a <span style="font-style:italic">Braganza</span> rationality review if necessary, which is really an aspect of the testing of contractual legitimacy. And the landlord would have to furnish the FtT with a sufficiently detailed plan of its proposals (including the relevant discretionary management decisions) to enable the FtT to rule prospectively upon the lawfulness of the service charge demand if the proposed works were carried out: see <span style="font-style:italic">Royal Borough of Kensington and Chelsea v Lessees of 1-124 Pond House</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2015/395" uk:canonical="[2015] UKUT 395 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 395 (LC)</ref>; [2016] L &amp; TR 10 at paras 66-67.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If those would be the limits of the jurisdiction conferred upon the FtT by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) and (3) then the question arises whether <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) extends it. There is no doubt that a provision in a lease for determination of a discretionary management question by the landlord falls within at least the literal meaning of the phrase &#8220;in a particular manner&#8221; within limb (a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6). But the bigger issue is whether, by apparently making such provision void, subsection (6) throws upon the FtT jurisdiction to decide all discretionary management matters thus supposedly removed from the power of the landlord. The answer depends upon whether such discretionary management matters are &#8220;question[s] which may be the subject of an application under subsection (1) or (3)&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment discretionary management decisions of this kind are not such &#8220;questions&#8221;. My reasons follow.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, thus to construe <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) would be to give it the effect of greatly adding to the jurisdiction of the FtT conferred by subsections (1) and (3) as already described, namely a jurisdiction to review a proposed or demanded service charge for contractual and statutory legitimacy. It would confer an original jurisdiction on the FtT to determine the service charge, including making the necessary discretionary management decisions itself wherever under the relevant lease they were, expressly or by necessary implication, conferred upon the landlord. But it is not lightly to be assumed that an anti-avoidance provision of this kind is intended to operate so as actually to extend the jurisdiction which it is seeking to protect. Ordinarily it should be construed, if it sensibly can, as leaving the scope of the protected jurisdiction where it already is.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Nor does a natural reading of the language of subsection (6) have the effect of extending the jurisdiction of the FtT in this way. Read as a whole, it protects the jurisdiction of the FtT to decide questions already within its jurisdiction under subsections (1) and (3), nothing more or less. It is only if &#8220;void in so far as it purports to provide for a determination in a particular manner&#8221; is read in isolation from the proper meaning of the phrase beginning with &#8220;question&#8221; that its propensity to increase the FtT&#8217;s jurisdiction becomes arguable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, the construction which (as the Court of Appeal described it) transfers the landlord&#8217;s discretionary management powers relating to service charges to the FtT produces the most bizarre and surely unintended results. If subsection (6) first renders void and then transfers to the FtT the landlord&#8217;s discretionary management powers, then it is hard to see how a landlord could ever safely incur relevant costs without first making an application to the FtT for clearance of proposed service charges under subsection (3). So many of the underlying discretionary decisions may suggest different answers to reasonable minds that the landlord could never incur costs and safely levy service charges because of the risk that the FtT, being completely free to do so on an application by one of many tenants affected by the charge, could make a different decision. In sharp contrast, under the construction that the FtT is limited to a review of the contractual and statutory lawfulness of the service charge demanded, reasonable and well-advised landlords would (and do) incur the costs and then make the service charge demands on the basis that the risk of losing in the FtT on an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) by one or more tenants is manageable. There is, in short, all the difference for a landlord between facing a regime under which the FtT has freedom to make a completely different discretionary decision from that made by the landlord, and one where the jurisdiction of the FtT is limited to deciding whether the landlord acted in breach of contract or in contravention of the statutory scheme regulating residential service charges.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If making an application under subsection (3) were to become the main route enabling landlords to incur relevant costs with a manageable risk of not recovering them in full from the tenants, then the FtT would be likely to become overwhelmed with prospective applications. This is of course unless agreement with all relevant tenants could be obtained in advance, so as to obtain the protection for the landlord of subsection (4)(a). But obtaining agreement from all tenants in a large block or estate in respect of all service charge decisions would surely be impracticable. This applies a fortiori in respect of apportionment decisions, where the tenants&#8217; interests are inherently in conflict with one another. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is no answer to this scenario to say that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) applies only to the relatively few express terms of the lease which assign discretionary decisions about service charges to the landlord, leaving the landlord empowered to make all other relevant discretionary decisions without them being invalidated. No doubt it is only a few of such decisions which are expressly placed within the discretion of the landlord, such as the power to re-allocate in the present case. But in relation to many more the conferring of that discretion upon the landlord is implied. If the officious bystander were to ask: &#8220;who under this lease (of one flat within a large block) has the power to decide whether the building needs a new roof, with the cost of it to be charged to the tenants?&#8221; he would be told that it goes without saying that it is the landlord. If that power is therefore to be implied, then on the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) that treats that as a discretionary question to be determined in a particular manner under the lease, it would be caught by subsection (6) just as much as the express power to re-allocate in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Nor is there any firm basis for separating apportionment decisions from the other discretionary decisions which affect the amount or timing of service charges (such as whether to repair or replace a roof), and treating only the former as caught by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6). The acid test is whether such decisions are about a &#8220;question which may be the subject of an application under subsection (1) or (3)&#8221; within the meaning of subsection (6). The one is no more or less discretionary than the other, and the latter may have a much greater effect upon the amount of the service charge liability in a particular year than the former. Both types of decision are aspects of management.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A further difficulty with this construction is that, where <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) is triggered, insoluble problems arise in deciding how to implement the requirement that the relevant provision be treated as void, without doing unintended damage to aspects of the bargain between the parties that do not offend against the statutory prohibition. This is demonstrated by the destruction testing to which this construction has been subjected by the facts of the present case, and the response to them of the Upper Tribunal and the Court of Appeal. The Upper Tribunal decided that the only way of excising the prohibited allocation to the landlord of the right to re-allocate the burden of service charge expenditure between tenants was to treat the whole of the re-allocation provision as void, leaving the lease with a fixed allocation for the whole of its 125-year term. But there is nothing offensive to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A, or to any part of the statutory scheme for regulating residential service charges, that an initial allocation should be capable of being revised to meet a change of circumstances (such as the addition or subtraction of residential units within the building or estate) occurring from time to time over such a long period. And the effect of the excision of the whole clause was not to preserve or even create a jurisdiction in the FtT to rule upon it. The excision left the originally agreed allocation set in stone, preserved for all time by subsection (4)(a). That was a commercially unattractive result and a far cry from the bargain the parties had apparently intended when attempting to provide for variation of the proportion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By contrast the Court of Appeal recognised that it was not the re-allocation provision itself which offended <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) but only the conferral of the relevant power on the landlord. But in substituting the FtT for the landlord they created (with open eyes) a provision whereby not only the landlord but also any tenant could apply to the FtT at any time (and any number of times) for a re-allocation. This would open a veritable Pandora&#8217;s box of disputes about allocation which was plainly not contemplated by the lease, under which the key to the box lay firmly with the landlord, and for obviously good reason in terms of estate management and the avoidance of disputes. Thus both of these alternative solutions radically altered the bargain between the parties, in a manner which the preservation of the jurisdiction of the FtT did not render necessary. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">To some extent difficulties of this kind, and the different solutions attempted by the Upper Tribunal and the Court of Appeal, may be said to stem from differences in the approach which should be taken to dealing with a contractual provision rendered partially void by statute. Do you apply the common law&#8217;s blue pencil, or do you have liberty to reconstruct the offending clause, adding words which preserve the inoffensive parts of the bargain? Save to note that, if the matter had arisen for decision I would have been minded to prefer the approach which permitted at least an element of reconstruction, it is unnecessary to delve further into the problem on these facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">But the alternative construction, that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) simply preserves the FtT&#8217;s existing jurisdiction to determine whether a service charge demand is contractually or statutorily legitimate, finesses them all. If a tenant applies under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) to the FtT to challenge a service charge demand on contractual or statutory grounds, then the FtT will treat as void any provision in the lease, other than a post-dispute arbitration agreement, which purports to provide for questions arising under such an application to be determined in any particular manner, or on particular evidence. The relevant provision needs neither to be blue-pencilled nor reconstructed. The offending part of it is just ignored, and the application allowed to proceed before the FtT in the usual way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Contractual provisions which would fall to be ignored under this construction would of course include a term which rendered the landlord&#8217;s decision final and binding, or for that matter the decision of anyone other than the FtT or a panel constituted under a post-dispute arbitration agreement. It would prevent a pre-dispute arbitration agreement from disabling the jurisdiction of the FtT, presumably to avoid a landlord-drafted lease imposing on tenants a disputes forum that might have less tenant-friendly costs or other procedural rules. And it would preclude reliance by the landlord on provisions whereby issues were to be decided by presuming or disregarding particular facts, as are very common in rent review clauses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I have to acknowledge, with embarrassment and contrition, that the above analysis cannot be reconciled with the trilogy of cases already mentioned, culminating in <span style="font-style:italic">Oliver v Sheffield City Council</span> (supra). They clearly decided that where the relevant lease conferred upon the landlord (or some person other than the FtT) a contractual right to determine a discretionary question about service charges, that determination was by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) rendered irrelevant to the determination of the same question by the FtT, which was not limited to a review of its contractual or statutory legitimacy. It was by no means the main issue in the <span style="font-style:italic">Oliver</span> case, and its report in the first volume of the Weekly Law Reports makes it impossible to be sure as to the extent of counsel&#8217;s submissions on the point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Looking back, it seems unlikely to me that the Court of Appeal was invited to dwell on the analysis which I have undertaken thus far, namely to ask what jurisdiction the FtT would have had, under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) and (3), to go behind a contractual decision-making power conferred upon the landlord and then to ask whether subsection (6) was designed merely to protect, rather than greatly to enlarge, that jurisdiction by, in effect, transferring the original decision-making power to the tribunal. It was simply assumed that the decision-making power conferred upon the landlord or other specified person automatically raised a question falling within the jurisdiction of the tribunal, so that the latter would be invaded by the former, unless the conferral of that contractual power was void. Nor does it appear likely that the courts in those cases were presented with the full consequences of this approach to construction, in terms of undermining the ordinary manner in which, inevitably, landlords have to make discretionary management decisions affecting service charges before they can be demanded, and the difficulties of adjusting partially void provisions illustrated by this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I have come to the conclusion that to allow subsection (6) to enlarge in that way the nature and type of &#8220;questions&#8221; before the FtT under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1) and (3) is to put the anti-avoidance cart before the jurisdictional horse. In my judgment it was not the purpose or effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6) to deprive that form of managerial decision-making by landlords of its ordinary contractual effect, save only to the extent that the contractual provision seeks to make the decision of the landlord or other specified person final and binding, so as to oust the ordinary jurisdiction of the FtT to review its contractual and statutory legitimacy. I therefore consider, for the reasons given above, that the <span style="font-style:italic">Oliver</span> case, and the two decisions that the Court of Appeal followed in that case were, to that extent, wrongly decided.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Applied to the provisions in issue in the present case, the construction which I now consider to be correct applies as follows. Those provisions gave the landlord two relevant closely related rights: first to trigger a re-allocation of the originally agreed contribution proportions and secondly to decide what the revised apportionment should be. In both respects the landlord is contractually obliged to act reasonably. The FtT decided that the landlord had acted reasonably in making the re-apportionment which was challenged, and it is not suggested that it fell foul of any part of the statutory regime, apart only from <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6). But that subsection did not avoid the power of the landlord to trigger and conduct that re-apportionment, because the jurisdiction of the FtT to review it for contractual and statutory legitimacy was not in any way impeded. The original question, whether there should be a re-apportionment and if so in what fractions, was not a &#8220;question&#8221; for the FtT within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(6). The question for the FtT was whether the re-apportionment had been reasonable, and that question the FtT was able to, and did, answer in ruling on the tenants&#8217; application under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/70/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>A(1).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I would therefore dismiss the tenants&#8217; appeal and, on the Respondents&#8217; application, restore both the decision and the reasoning of the FtT, in preference to that of both the Upper Tribunal and the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I wish to conclude by recording the court&#8217;s appreciation for the commitment of Mr Rainey KC, Mr Sandham and Mr Brown to conduct this appeal for the tenants pro bono. Even though unsuccessful, the fairness and quality of their skilled contribution was greatly appreciated.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

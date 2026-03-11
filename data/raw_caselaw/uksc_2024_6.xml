@@ -1,0 +1,820 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/6"/>
+	  <FRBRdate date="2024-02-14" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="6"/>
+	  <FRBRname value="Armstead v Royal &amp; Sun Alliance Insurance Company Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/6"/>
+	  <FRBRdate date="2024-02-14" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/6/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/6/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:32:05" name="transform"/>
+	  <FRBRdate date="2024-11-14T15:36:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-02-14" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="armstead" href="" showAs="Armstead"/>
+	<TLCPerson eId="royal-&amp;-sun-alliance-insurance-company-ltd" href="" showAs="Royal &amp; Sun Alliance Insurance Company Ltd"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+	<TLCPerson eId="judge-lady-simler" href="/judge-lady-simler" showAs="Lady Simler"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>6</uk:number>
+	<uk:cite>[2024] UKSC 6</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>3be7babc984383013ea52a3b79f2114292a02e852965a14fa4b4684a91133eed</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Hilary Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 6</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/497" style="font-style:italic;font-family:'Times New Roman'" uk:canonical="[2022] EWCA Civ 497" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2022] EWCA Civ 497</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#armstead" style="font-family:'Times New Roman';font-size:20pt">Armstead</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#respondent" refersTo="#royal-&amp;-sun-alliance-insurance-company-ltd" style="font-family:'Times New Roman';font-size:20pt">Royal &amp; Sun Alliance Insurance Company Ltd</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-briggs" style="font-family:'Times New Roman'">Lord Briggs</judge><br/><judge refersTo="#judge-lord-leggatt" style="font-family:'Times New Roman'">Lord Leggatt</judge><br/><judge refersTo="#judge-lord-burrows" style="font-family:'Times New Roman'">Lord Burrows</judge><br/><judge refersTo="#judge-lord-richards" style="font-family:'Times New Roman'">Lord Richards</judge><br/><judge refersTo="#judge-lady-simler" style="font-family:'Times New Roman'">Lady Simler</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-02-14" refersTo="#judgment" style="font-family:'Times New Roman'">14 February 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 23 November 2023</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellant</span><br/><span style="font-family:'Times New Roman'">Benjamin Williams KC</span><br/><span style="font-family:'Times New Roman'">Ben Smiley</span><br/><span style="font-family:'Times New Roman'">(Instructed by Principia Law (Rudheath))</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Respondent</span><br/><span style="font-family:'Times New Roman'">Lord Marks KC</span><br/><span style="font-family:'Times New Roman'">Quentin Tannock</span><br/><span style="font-family:'Times New Roman'">(Instructed by DAC Beachcroft Claims Ltd (Newport))</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Leggatt and lord Burrows (<span style="text-transform:none">with whom Lord Richards and Lady Simler agree</span>): </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Introduction</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num style="font-family:'Times New Roman';font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This claim for &#163;1,560 has reached the Supreme Court on a third appeal. Although the sum at stake is small, the decision has the potential to affect a significant number of other cases. Moreover, it raises some fundamental questions in applying the tort of negligence in a situation where economic loss, comprising a contractual liability to pay a sum of money, has resulted from physical damage to property. In particular, is that loss irrecoverable, either because it is &#8220;pure economic loss&#8221; or because it is too remote?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claim arises from a road traffic collision in which a hire car was damaged through the fault of the other driver. The main issue is whether the damages recoverable by the hirer from the other driver (or their insurer) include, as well as the cost of repair, a sum which the hirer has agreed to pay to the hire company for the company&#8217;s loss of use of the car while it is unavailable for hire because it is off the road for repairs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The facts</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claimant (and appellant), Lorna Armstead, was unlucky enough to be involved in two road traffic collisions within a short space of time, neither of which was her fault. After the first collision, while her car was being repaired, she hired a car, a Mini Cooper, from a company called Helphire Ltd on credit hire terms. The business model of credit hire companies is that they rent out a substitute car on credit to an accident victim believed not to have been at fault while the victim&#8217;s car is repaired. The hire company seeks to recover the hire cost on behalf of the victim from the other driver&#8217;s insurers and only looks to the victim for payment if the claim fails. In the normal course of events this enables the accident victim to have the use of a car for which she does not have to pay.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The hire agreement between Helphire and Ms Armstead dated 11 November 2015 was on Helphire&#8217;s standard terms, which included an obligation on the hirer to return the vehicle in the same condition as it was at the start of the hire and to indemnify Helphire for any damage to the vehicle. A further term of the agreement is central to this appeal. Clause 16 stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;You will on demand pay to [Helphire] an amount equal to the daily rental rate specified overleaf, up to a maximum of 30 days in respect of damages for loss of use for each calendar day or part of a calendar day when the vehicle is unavailable to Helphire for hire because &#8230; the Hire Vehicle has been damaged.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is evidence, and it is an agreed fact, that terms similar to clause 16 were common in car rental agreements.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 23 November 2015 a Ford Transit Connect van collided with the Mini Cooper hire car which Ms Armstead was driving. The parties have agreed that the driver of the van was negligent and that Ms Armstead was not at fault. Although the hire car was damaged, Ms Armstead was able to carry on driving it until the repairs to her own car had been completed, whereupon she returned the hire car to Helphire. The hire car was then repaired between 8 and 21 January 2016, a period of 12 days. Helphire subsequently made a demand on Ms Armstead under clause 16 of the hire agreement for the rental charge for this period. It is agreed that the applicable daily rental rate was &#163;130 so that the amount payable under clause 16 is &#163;1,560. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It should be noted that the daily rental hire rate was what is termed the &#8220;credit-hire&#8221; rate and it is not in dispute that this was significantly higher than the standard (ie &#8220;basic&#8221;) rental rate charged by a hire company that was not operating on credit hire terms.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">These proceedings</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Proceedings were brought by Ms Armstead as claimant against the van driver&#8217;s insurers, Royal &amp; Sun Alliance Insurance Company plc (&#8220;RSA&#8221;) who, under the European Communities (Rights Against Insurers) Regulations 2002, are directly liable to a party who has a cause of action against their insured in tort arising out of an accident. The remedy claimed was damages comprising (i) the cost of repairs and (ii) the sum claimed from Ms Armstead by Helphire under clause 16 of the hire agreement, which for short we will call &#8220;the clause 16 sum&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is fair to assume that Ms Armstead has not been paying out of her own pocket to pursue a claim for &#163;1,560 all the way to the Supreme Court and that the proceedings have been funded and pursued in her name by Helphire in the exercise of a right to do so that it has under the hire agreement. While it is as well to keep an eye on this commercial reality, it is not suggested by RSA (the respondent to this appeal) that it alters the legal analysis of the claim. Ms Armstead is the claimant; it is her rights which are being enforced and whether the claim is valid or not does not depend on who is funding the proceedings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its defence RSA admitted that the collision was caused by the negligence of its insured. It did not admit liability for the cost of repairs. In answer to the claim for the clause 16 sum, RSA pleaded that clause 16 was an unfair term under <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15/section/62" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 62</ref> and 63 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15" uk:canonical="2015 c. 15" uk:origin="TNA" uk:type="legislation">Consumer Rights Act 2015</ref> and/or a penalty and was therefore unenforceable. RSA further asserted that Ms Armstead had a duty to mitigate her loss by refusing to pay the clause 16 sum to Helphire. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in">T<span style="text-transform:none">he trial </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claim was allocated to the small claims track and was tried on 1 July 2019 in the County Court at Walsall before Deputy District Judge Fawcett. He dismissed the claim on the ground that Ms Armstead did not have any proprietary interest in the hire car and, accordingly, had no right to recover economic loss which she suffered as a result of the damage to the vehicle caused by the negligent driving of RSA&#8217;s insured. In other words, he held that the loss was irrecoverable pure economic loss. The Deputy District Judge did not make any findings as to clause 16 being unfair, unenforceable or a penalty. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The first appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Ms Armstead appealed against this decision. The appeal was heard by Recorder John Benson QC, who dismissed the appeal: [2022] Lloyd&#8217;s Rep IR 574. Before the Recorder, RSA accepted that the fact that Ms Armstead was in possession of the hire car as a bailee when it was damaged entitled her to recover compensation for the diminution in value of the car. RSA accordingly conceded that the Deputy District Judge had been wrong to reject the claim for the cost of repairs and that Ms Armstead was entitled to judgment for this sum. But RSA argued, and the Recorder accepted, that she was not entitled as a matter of law to recover the clause 16 sum. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The essence of the Recorder&#8217;s reasoning was that Helphire should not be able to recover, by way of a claim brought in the name of Ms Armstead, a greater sum as compensation for its loss of use of the vehicle while it was repaired than Helphire could have recovered if it had sued RSA for such loss directly. The Recorder concluded that, if Helphire had claimed damages for loss of use, the assessment of those damages would have followed the approach identified in <span style="font-style:italic">Beechwood Birmingham Ltd v Hoyer Group UK Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/647" uk:canonical="[2010] EWCA Civ 647" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 647</ref>; <ref href="#" uk:canonical="[2011] QB 357" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] QB 357</ref>. In that case the claimant was a substantial motor dealership with many vehicles at its disposal. A car driven by an employee, which was allocated to him out of the claimant&#8217;s stock for his personal use, was damaged as a result of the defendant&#8217;s negligence. Rather than allocating a similar car to the employee from the claimant&#8217;s own pool of available cars while the damage was repaired, the claimant hired a replacement vehicle on credit hire terms for its employee&#8217;s use. The Court of Appeal decided that, on these facts, the hire cost was not recoverable as damages for the loss of use and that the appropriate measure of damages was interest on the capital value of the damaged car and any depreciation in value during the period of repair. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Recorder held that in circumstances where the clause 16 sum was not, for this reason, a reasonable estimate of Helphire&#8217;s actual loss of use, Ms Armstead&#8217;s liability to pay this sum to Helphire was not a reasonably foreseeable consequence of the collision. He also held that the clause 16 sum amounted to &#8220;relational economic loss&#8221; which was not recoverable, and that RSA&#8217;s insured did not owe a duty of care to Ms Armstead to prevent her from incurring a contractual liability to pay this sum: see para 72 of his judgment. The Recorder said that he had not been persuaded that clause 16 was unfair under the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15" uk:canonical="2015 c. 15" uk:origin="TNA" uk:type="legislation">Consumer Rights Act 2015</ref> or that it was an unenforceable penalty clause, which in any event was not a ground on which the Deputy District Judge had relied to dismiss the claim (paras 75-76). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The Court of Appeal&#8217;s decision</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Ms Armstead appealed, once again, to the Court of Appeal. Again, her appeal was dismissed: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/497" uk:canonical="[2022] EWCA Civ 497" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 497</ref>; [2022] RTR 23. Two points should be noted about how the case was argued in the Court of Appeal which are relevant on this appeal. First, RSA did not pursue any argument that clause 16 was unenforceable either as an unfair term or as a penalty. Second, a concession was made by counsel for Ms Armstead that she could not claim the clause 16 sum as damages if it did not represent a genuine and reasonable attempt to assess the likely losses to be incurred by Helphire as a result of its loss of use of the hire car. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The main judgment was given by Dingemans LJ. He held that Ms Armstead was not entitled to recover the clause 16 sum as damages from RSA for a number of reasons. In summary, these were: (i) that clause 16 of the hire agreement was an &#8220;internal arrangement&#8221; between a bailee and the bailor and, as such, could not be a basis for recovering losses from a third party; (ii) that clause 16 was not negotiated at arm&#8217;s length and was not a &#8220;true independent agreement&#8221; between Helphire and Ms Armstead; (iii) that clause 16 did not represent a genuine and reasonable attempt to assess the likely losses to be incurred by Helphire as a result of loss of use of the hire car; (iv) that the clause 16 liability was a form of irrecoverable pure economic loss because it arose from the internal agreement between Helphire and Ms Armstead; and (v) that because clause 16 did not represent a genuine and reasonable attempt to assess the likely losses to be incurred as a result of loss of use of the hire car, the loss claimed was not reasonably foreseeable and was too remote to be recoverable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Singh LJ gave a short concurring judgment in which he held that Ms Armstead&#8217;s liability under clause 16 of the hire agreement was pure economic loss and was irrecoverable because it did not flow directly and foreseeably from the physical damage to the car. Bean LJ agreed with both the other judgments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">General Principles</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claim has been rejected in all three courts below. But numerous different reasons have been given for this result, most of which are, we think, clearly inconsistent with the basic legal principles applicable to claims in the tort of negligence arising out of damage to tangible property. It is helpful to start by recalling three well-established principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, a person owes a duty of care not to cause physical damage to another person&#8217;s property (such as a car) and, if in breach of that duty, is liable to pay damages to compensate that person for the diminution in value of the property and any other financial loss consequent on the damage: see eg <span style="font-style:italic">SCM (United Kingdom) Ltd v WJ Whittall &amp; Son Ltd</span> <ref href="#" uk:canonical="[1971] 1 QB 337" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] 1 QB 337</ref>; <span style="font-style:italic">Spartan Steel &amp; Alloys Ltd v Martin &amp; Co (Contractors) Ltd</span> <ref href="#" uk:canonical="[1973] QB 27" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1973">[1973] QB 27</ref>. This is subject to the general principles which limit the recovery of damages in tort, including the limitation that loss is not recoverable if it is too remote a consequence of the wrong.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Second, by contrast, someone who negligently causes physical damage to another person&#8217;s property is not liable to pay compensation to a third party claimant who suffers financial loss as a result of the damage: see eg <span style="font-style:italic">Cattle v Stockton Waterworks Co</span> (1875) <ref href="#" uk:canonical="LR 10 QB 453" uk:isNeutral="false" uk:origin="TNA" uk:type="case">LR 10 QB 453</ref>; <span style="font-style:italic">Candlewood Navigation Corpn Ltd v Mitsui OSK Lines Ltd</span> <ref href="#" uk:canonical="[1986] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] AC 1</ref>; <span style="font-style:italic">Leigh and Sillavan Ltd v Aliakmon Shipping Co Ltd (The &#8220;Aliakmon&#8221;)</span> <ref href="#" uk:canonical="[1986] AC 785" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] AC 785</ref>, 809-810. It is not enough that the claimant had contractual rights which were rendered less valuable by the damage if the property in question was not the claimant&#8217;s. For example, in <span style="font-style:italic">Cattle v Stockton Waterworks</span> the claimant contractor was engaged by a landowner to make a tunnel under a road. A water pipe running under the road which the defendant water company was responsible for maintaining leaked, causing flooding which hindered and delayed the construction work. The Court of Queen&#8217;s Bench held that, even if (as alleged) the leak resulted from the defendant&#8217;s negligent failure to keep the pipe in proper repair, the contractor had no claim against the water company for the economic loss which it suffered by reason of its contract with the landowner being less profitable as a result of the damage to the land. The economic loss suffered in cases of this kind, which cannot be recovered, is usually referred to as &#8220;pure economic loss&#8221;, meaning economic loss that is not consequent on damage to, or loss of, the claimant&#8217;s property (or on personal injury to the claimant). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Third, to count as the claimant&#8217;s property for this purpose it is sufficient that the claimant has a right to possession of the property. At common law a person in possession of property has a right to possession of it as against a stranger. Thus, a bailee in possession of property can claim damages from a stranger whose negligence results in the loss of, or physical damage to, the property: see eg <span style="font-style:italic">The Winkfield</span> <ref href="#" uk:canonical="[1902] P 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1902">[1902] P 42</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Subject to one point, the application of these principles to the present case is, or should be, straightforward. A relationship of bailment arises where a person voluntarily, whether gratuitously or under a contract, takes temporary possession of property from another with that other person&#8217;s consent. It is agreed: (i) that Ms Armstead was a bailee in possession of the hire car on the terms of the hire agreement with Helphire (the bailor) when RSA&#8217;s insured caused physical damage to the car by his negligent driving; and (ii) that, as a result of the damage, the car was unavailable for Helphire to hire out for 12 days. Further, as noted above, although RSA pleaded in its defence that clause 16 of the hire agreement was unenforceable, that contention was no longer pursued by the time the case reached the Court of Appeal. It must therefore be taken that, as a result of the physical damage to the car, Ms Armstead became liable to pay the clause 16 sum to Helphire. It follows from the well-established principles stated above that Ms Armstead is entitled to recover the clause 16 sum as damages from RSA, subject only to the question whether this loss is too remote or is excluded by any other limitation on the recovery of damages in tort.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Where it is shown that loss has (factually) been caused by the defendant&#8217;s breach of a duty of care, five principles are capable of limiting the damages recoverable by the claimant. They are: (i) the scope of the duty; (ii) remoteness; (iii) intervening cause; (iv) failure to mitigate; and (v) contributory negligence. Although RSA has raised the first four of these principles as further reasons (ie over and above no duty of care being owed in respect of pure economic loss) why the clause 16 sum cannot be recovered, as we shall explain below the real issue concerns remoteness. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The reasoning of the lower courts</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Before we consider this key question of remoteness, we should point out why many of the reasons given in the judgments of the courts below for holding that RSA is not liable in damages for the clause 16 sum are, in our view, misplaced. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As RSA subsequently accepted, the Deputy District Judge decided the case on a wrong basis because he did not appreciate that a bailee in possession of property is entitled to sue in the tort of negligence for loss caused by damage to the property and was under the mistaken impression that only the owner of the property may sue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">One reason given by the Recorder for rejecting the claim to recover the clause 16 sum was that Ms Armstead&#8217;s liability to pay that sum to Helphire was not reasonably foreseeable (ie too remote). As we have indicated, this is the real issue in the case and we will return to the Recorder&#8217;s reasoning when we come to consider this issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, as mentioned earlier, the Recorder also gave two further reasons for rejecting the claim for the clause 16 sum. One was that the sum claimed by Ms Armstead amounts to &#8220;relational economic loss&#8221;. Although this phrase has sometimes been used (see, eg, <span style="font-style:italic">Charlesworth &amp; Percy on Negligence</span>, 15th ed (2022), para 2-252; <span style="font-style:italic">Street on Torts, </span>16th ed (2021),<span style="font-style:italic"/>pp 105-106), it may confuse matters, and is best avoided, because its precise meaning is unclear. Certainly, the important underlying point is that, in general, pure economic loss is irrecoverable in the tort of negligence (see para 20 above) so that loss suffered as a result of damage to property is not recoverable if the claimant had no proprietary or possessory interest in the property when the damage occurred. The loss in this case is not pure economic loss because it is common ground that Ms Armstead had a possessory title to the hire car. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The final reason given by the Recorder was that RSA&#8217;s insured did not owe a duty of care to avoid Ms Armstead incurring a contractual liability. That is true but irrelevant because it is not Ms Armstead&#8217;s case that RSA&#8217;s insured owed her such a duty of care. Her case is that he owed her a duty of care to avoid causing physical damage to property in her possession and that she incurred a contractual liability in consequence of that physical damage. That duty of care is admitted and the factual consequence is undeniable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Both the Recorder and the Court of Appeal were troubled by the idea that the amount which the defendant is liable to pay as damages in this case should be determined by the terms of the contract between the hire company and its customer. They clearly had in mind the commercial reality that the contract terms are drafted by the hire company and that the liability imposed on the hirer by clause 16 (or any similar clause) is primarily a means by which the hire company, suing in the name of the hirer, can recover damages from the defendant&#8217;s liability insurers for its loss of use of the vehicle. They were understandably concerned that the hire company should not be able, simply by stipulating an amount of money in a contract to which the defendant is not a party and over which it has no control, to recover an amount which exceeds a fair or reasonable estimate of loss actually suffered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We agree that this is a valid concern. It is necessary, however, to identify precisely what feature of the arrangements is potentially objectionable and what legal principle prevents a company in the position of Helphire from recovering an unreasonable amount by way of a claim brought by the hirer of the vehicle for a contractually agreed sum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Claims based on contractual liabilities</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is no reason in principle why recoverable loss should not include a contractual liability to a third party provided that the liability is consequential on physical damage to the claimant&#8217;s property. Two cases cited in argument illustrate that a pre-existing contract may give rise to such a recoverable loss. The first is <span style="font-style:italic">Ehmler v Hall</span> <ref href="#" uk:canonical="[1993] 1 EGLR 137" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 EGLR 137</ref>, where the defendant negligently crashed his van into a car showroom owned by the claimant making it unusable for some eight weeks. The premises had been let on terms which relieved the tenant of the obligation to pay rent while the premises were out of use. It was held by the Court of Appeal that the claimant landlord was entitled to recover the rent thereby lost as loss consequential on the damage to the building. In <span style="font-style:italic">Ehmler v Hall</span> the loss took the form of loss of revenue. But there is no difference in principle between a loss suffered because the claimant does not receive revenue under a contract and a loss suffered because the claimant has to make a payment under a contract as a consequence of physical damage to its property. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The second case is <span style="font-style:italic">Network Rail Infrastructure Ltd v Conarken Group Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/644" uk:canonical="[2011] EWCA Civ 644" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 644</ref>; [2012] 1 All ER (Comm) 692, another decision of the Court of Appeal. This was a test case to address the situation where a motorist negligently crashes into a railway bridge or other property belonging to Network Rail leading to disruption of rail services. This situation is covered by the agreements made by Network Rail with the various train operating companies (&#8220;TOCs&#8221;) allowing them to operate trains on Network Rail&#8217;s track. A schedule (Schedule 8) to the relevant agreements specified a formula for calculating sums payable by Network Rail to the TOCs to compensate the TOCs for their financial losses resulting from the interruption in their ability to use the track. The liability to pay these sums reduced the revenue earned by Network Rail under the agreements. The issue was whether Network Rail could recover this loss of revenue from the defendant motorists.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal held that it could. Notably, it was conceded by the defendants that the sums calculated in accordance with Schedule 8 represented a reasonable estimate of the financial losses caused to the TOCs by the temporary unavailability of the track: see paras 11, 98 and 155 of the judgments. Each member of the court gave separate reasons for the decision and there were differences of approach, or at least of emphasis, between them. Pill LJ stressed that a finding or concession that the sums payable under the contracts between Network Rail and the TOCs were reasonable as between the contracting parties did not automatically mean that they were recoverable from the defendants. As he put it, at para 69: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;It is not open to a party to dictate to the whole world the extent of tortious liability and what is reasonably foreseeable and not too remote in order to achieve what it regards as a satisfactory contract with a third party.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Pill LJ nevertheless concluded, for reasons not altogether clear, that the defendants should be liable for the sums claimed, which were not too remote from the physical damage (paras 79-83). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Moore-Bick LJ considered that there are two types of loss which flow naturally from damage to a revenue-generating asset: the cost of repair and the loss of revenue attributable to the loss of availability of the asset. On the facts of the <span style="font-style:italic">Network Rail</span> case, it was reasonably foreseeable that physical damage to the infrastructure owned by Network Rail would cause both types of loss. In principle, the latter type of loss may arise either because the owner is unable to use the asset itself or because it is obliged to compensate another party whom it has allowed to make use of the asset for a fee for its loss of revenue. It is immaterial which form the loss takes in the particular case or what particular arrangements have been made: see paras 100-101. Thus, the fact that the loss in the <span style="font-style:italic">Network Rail</span> case took the form of a liability to make payments under the track access agreements did not make it too remote to be recoverable, since liability depends only on foreseeability of the type of loss suffered rather than the manner in which it was caused (para 102).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">To similar effect, Jackson LJ considered that the action &#8220;should be characterised as a simple claim for loss of income consequent upon damage to revenue-earning property&#8221; which is &#8220;a well-established category of recoverable economic loss&#8221; (para 150). He further expressed the view, at para 153, that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;Absent some exceptional circumstance or obviously unreasonable feature in the claimant's business arrangements, &#8230; it is not appropriate for the court to explore in detail the build-up of any loss of revenue following damage to revenue-generating property. It is sufficient for the claimant to prove that the loss of revenue has occurred.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The <span style="font-style:italic">Network Rail </span>case is thus authority for the following proposition. Where physical damage is negligently caused to revenue-generating property, the loss recoverable by the owner of the property from the person who caused the damage includes a sum payable by the owner, under an agreement with another party to compensate that party for its loss of revenue resulting from the damage, provided the sum agreed is a reasonable estimate of the likely amount of that loss. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Attempts to distinguish </span><span style="font-style:italic;text-transform:none">Ehmler v Hall</span><span style="text-transform:none"> and </span><span style="font-style:italic;text-transform:none">Network Rail</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal in this case gave several reasons for seeking to distinguish this case from <span style="font-style:italic">Ehmler v Hall</span> and <span style="font-style:italic">Network Rail</span> which we do not accept as valid.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In neither of those cases was the contract under which the claimant&#8217;s liability arose a contract between a bailor and a bailee. The first reason given by Dingemans LJ for deciding that Ms Armstead is not entitled to recover the clause 16 sum as damages was based on a theory that, where the contract under which the liability arises is one between a bailor and a bailee, a special rule applies. He formulated a principle that &#8220;the internal contractual arrangements between a bailor and a bailee cannot be a basis for recovering losses&#8221;. Dingemans LJ said that &#8220;the law of bailment treats the bailor and bailee as having one set of rights to claim for the damage and loss of use of the motor car&#8221; and that they &#8220;are treated as one when it comes to claiming damages&#8221;. From this he drew the conclusion that an &#8220;internal arrangement&#8221; between the bailor and bailee could not generate a loss recoverable from a third party (para 52). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We do not accept that there is any such principle. RSA did not argue for it in the Court of Appeal. The only authority cited in support of its existence is a statement in the judgment of Collins MR in <span style="font-style:italic">The Winkfield</span> <ref href="#" uk:canonical="[1902] P 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1902">[1902] P 42</ref>, 54-55, that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;the wrongdoer who is not defending under the title of the bailor is quite unconcerned with what the rights are between the bailor and bailee, and must treat the possessor as the owner of the goods for all purposes quite irrespective of the rights and obligations as between him and the bailor&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">The context for this statement was the defendant&#8217;s argument in <span style="font-style:italic">The Winkfield</span> that a bailee cannot recover compensation for loss of the goods caused by the defendant&#8217;s negligence if the bailee is not liable to the bailor for the loss. What Collins MR was saying in the passage quoted is that, against a wrongdoer who is not the bailor, possession is title and a bailee in possession of the goods must therefore be treated as their owner. It follows that the bailee is entitled to sue for damages for the loss of (or damage to) the goods simply by virtue of being treated as the owner, irrespective of what rights in the property exist as between the bailee and the bailor and whether the bailee is liable to the bailor for the loss. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">The Winkfield</span> did not decide that, where the bailee suffers loss arising from a contractual liability to the bailor, such loss cannot be recovered from the wrongdoer. Indeed, the premise of the decision is that such a liability does give rise to a recoverable loss - the issue in the case being whether the bailee could still recover in the absence of such a liability. Nor did <span style="font-style:italic">The Winkfield</span> (or any other case cited to us) decide that the bailor and bailee are treated as having one set of rights when it comes to claiming damages. To the contrary, <span style="font-style:italic">The Winkfield</span> and other authorities recognise that the bailor and the bailee may each be entitled to sue for the loss of or damage to the property. The only restriction is that there cannot be double recovery. Thus, a wrongdoer who has already paid compensation to the bailee for the value (or diminution in value) of the property has an answer to such a claim by the bailor: see <span style="font-style:italic">The Winkfield</span> <ref href="#" uk:canonical="[1902] P 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1902">[1902] P 42</ref>, 61. Likewise, the wrongdoer has a defence to such a claim by the bailee where the bailor has sued first and recovered compensation: see <span style="font-style:italic">O&#8217;Sullivan v Williams</span> <ref href="#" uk:canonical="[1992] 3 All ER 385" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1992">[1992] 3 All ER 385</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, Dingemans LJ sought to distinguish the present case from <span style="font-style:italic">Ehmler v Hall</span> and <span style="font-style:italic">Network Rail</span> on the ground that &#8220;there was no true independent agreement made by Ms Armstead and Helphire about the likely losses to be suffered by Helphire in the event of damage to the hired car&#8221; (para 54). It is not in dispute that there was a legally binding agreement made by Ms Armstead and Helphire and (as recorded in para 53 of Dingemans LJ&#8217;s judgment) RSA no longer maintained in the Court of Appeal that clause 16 is unenforceable. In saying that there was &#8220;no true independent agreement&#8221;, all that Dingemans LJ can, we think, have meant is that the terms of the agreement made by Ms Armstead and Helphire were not negotiated between commercial parties acting at arm&#8217;s length. This might have evidential significance. It may be said that in a case of this kind no inference can be drawn merely from the circumstances in which the agreement was made that its terms were reasonable as between the parties to it. Even this point is of limited weight given that, under <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15/section/62" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 62</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15" uk:canonical="2015 c. 15" uk:origin="TNA" uk:type="legislation">Consumer Rights Act 2015</ref>, if a term is unfair it is not binding on a consumer. If, however, Dingemans LJ intended to suggest that the fact that the hire agreement was not the subject of negotiation represents a legal distinction between the present case and <span style="font-style:italic">Network Rail</span> and <span style="font-style:italic">Ehmler v Hall</span>, he failed to explain why this is so, and we do not agree that it is. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The third and fifth reasons given by Dingemans LJ are inter-linked. His fifth reason was that a reasonably foreseeable loss which was not too remote &#8220;would have been one pursuant to a clause which represented a genuine and reasonable attempt to assess the likely losses to be incurred as a result of loss of use of the motor car&#8221; (para 57). His third reason was that &#8220;clause 16 of the Helphire agreement did not represent a genuine and reasonable attempt to assess the likely losses to be incurred by Helphire as a result of loss of use of the motor car&#8221; (para 55). These reasons are directed to what we regard as the real issue in the case, and we will consider them soon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">An additional, fourth, reason for rejecting the claim was said to be that the loss arising from the liability to pay the clause 16 sum was &#8220;an economic loss which was remote and not foreseeable&#8221; because &#8220;the liability arose from the internal agreement between Helphire and Ms Armstead.&#8221; Dingemans LJ added that &#8220;[i]t is not necessary to attempt to analyse the differences, if any, between a relational economic loss and this irrecoverable economic loss&#8221; (para 56). In our view, it is indeed necessary to distinguish between economic loss consequent on damage to the claimant&#8217;s property and irrecoverable pure economic loss but, as we have explained, the loss for which damages are claimed in this case is not pure economic loss. Nor, for reasons already given, does the fact that the liability arose from the &#8220;internal agreement&#8221; between Helphire and Ms Armstead make it not foreseeable and therefore too remote.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It follows from what we have already said that Singh LJ&#8217;s description of the sum claimed by Ms Armstead as &#8220;an example of pure economic loss&#8221; (para 66) is incorrect. Here it is indisputable that Ms Armstead&#8217;s liability to pay the clause 16 sum was a factual consequence of physical damage to the car in her possession. The loss in question was not pure economic loss.  Although inappropriately expressed, however, we think that Singh LJ&#8217;s additional reference to the loss not being foreseeable may indicate that the real argument that Singh LJ was making was that the loss was not a <span style="font-style:italic">foreseeable</span> consequence of physical damage to the car and hence was too remote. We agree that remoteness is central to this appeal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This brings us to what Mr Benjamin Williams KC on behalf of Ms Armstead submitted - and we agree - is the real issue in the case: namely, whether the Court of Appeal was entitled to conclude that the clause 16 sum was too remote to be recoverable on the ground that it was not a reasonable estimate of the loss likely to be incurred by Helphire as a result of the unavailability of the hire car while it was repaired.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">11.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Remoteness and the concession made on behalf of Ms Armstead</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We mentioned earlier the concession made on behalf of Ms Armstead (recorded at para 49 of Dingemans LJ&#8217;s judgment) in the Court of Appeal that she could not claim the clause 16 sum as damages if it did not represent a genuine and reasonable attempt to assess the likely losses to be incurred by Helphire as a result of its loss of use of the hire car. Mr Williams KC did not seek to withdraw that concession in this court. The point is central to the decision in this case. A concession on a point of law, however, does not bind the court: see eg <span style="font-style:italic">Bahamas International Trust Co Ltd v Threadgold</span> <ref href="#" uk:canonical="[1974] 1 WLR 1514" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] 1 WLR 1514</ref>, 1525 (Lord Diplock). It would be inappropriate to decide this appeal in reliance on a concession that we did not think was legally correct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';font-size:13pt">47.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, the concession was rightly made as a matter of law. Certainly, it was central to the decision in the <span style="font-style:italic">Network Rail </span>case that the losses for which Network Rail were contractually liable to the TOCs were a reasonable pre-estimate of the losses that would be suffered by the TOCs consequent on not being able to use the tracks. There is room for argument as to the appropriate legal analysis of this requirement. But, in our view, consistently with the judgment of Moore-Bick LJ in <span style="font-style:italic">Network Rail</span>, the best explanation is that this is an aspect of the normal rules on remoteness of loss. We can articulate the explanation in the following five points. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The test for remoteness in the tort of negligence, as laid down in <span style="font-style:italic">Overseas Tankship (UK) Ltd v Morts Dock &amp; Engineering Co, The Wagon Mound </span><ref href="#" uk:canonical="[1961] AC 388" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1961">[1961] AC 388</ref>, is that loss is too remote to be recoverable as damages if the type of loss suffered was not reasonably foreseeable at the time of the breach of duty. But if the type of loss was reasonably foreseeable, it does not matter that the precise manner in which it was incurred was not reasonably foreseeable: <span style="font-style:italic">Hughes v Lord Advocate </span><ref href="#" uk:canonical="[1963] AC 837" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1963">[1963] AC 837</ref><span style="font-style:italic">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">A reasonably foreseeable type of loss flowing from damage to a hire car is financial loss resulting from inability to use the car (for example, while it is being repaired). In this case the claimant did not suffer a loss of use herself because she carried on using the hire car after the accident. The type of loss that she suffered in respect of loss of use of the car was a contractual liability (under clause 16) to pay the hire company for its loss of use. Nevertheless, just as loss of use to the claimant is reasonably foreseeable and not too remote, so is the contractual liability of the claimant to pay damages for loss of use to the hire company. It can also be said that the precise manner by which the loss of use became a loss to the claimant need not have been reasonably foreseeable. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in">However, to fall within this reasonably foreseeable type of loss, it is necessary for the claimant&#8217;s contractual liability to reflect the loss of use of the hire company. As the <span style="font-style:italic">Network Rail</span> case confirms, there is nothing wrong in principle, in a case where the actual loss may be difficult to calculate, in using an amount estimated in advance as the basis of the contractual liability. But to serve this purpose the contractual liability must constitute a reasonable pre-estimate of the hire company&#8217;s loss of use. If, or in so far as, the contractual liability is not a reasonable pre-estimate of the hire company&#8217;s loss of use, it does not fall within the type of loss that is reasonably foreseeable. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">One might add that the underlying policy reason for the remoteness rule is to ensure that an excessive burden of liability does not fall on the defendant. A line must be drawn to ensure that the defendant is not held liable for all loss factually caused by the tort, however far removed in time and space. At paras 29-30 above, we have noted the danger that in a case of this kind, without an insistence that the contractual liability is a reasonable pre-estimate of the hire company&#8217;s loss of use, the contractual clause might specify a sum to be paid by the claimant (even if expressed as being for loss of use of the car) that would impose an excessive liability on the defendant. Put another way, without that restriction there is a danger that this sort of contractual arrangement would be open to abuse and would inappropriately burden the defendant with a liability that does not reflect any actual loss.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:0.5in">(v)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">In this case, therefore, the loss comprising the claimant&#8217;s contractual liability under clause 16 would be too remote if clause 16 was not a reasonable pre-estimate of Helphire&#8217;s loss of use of its vehicle. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is another line of reasoning that leads to the same conclusion. This focuses on the contractual validity of clause 16 and hence on the law concerning unfair terms in consumer contracts and penalties. In its defence (see para 10 above), RSA raised the issue of the validity of clause 16 in the context of alleging that, by not challenging the validity of the clause, the claimant had failed in her duty to mitigate her loss. Although touched on by the Recorder (see para 14 above), that allegation was abandoned before the Court of Appeal and did not play a part in the submissions before this court. Nevertheless, it is useful to see how remoteness and the legal validity of clause 16 can be tied together in requiring that the contractual liability is a reasonable pre-estimate of loss.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, the law on penalties. As Moore-Bick LJ indicated in <span style="font-style:italic">Network Rail</span>, a clause of the kind that we are concerned with can be seen as one by which the parties are agreeing damages for breach of contract (the breach here comprising Ms Armstead&#8217;s failure to return the car to the hire company in an undamaged state). To be enforceable as liquidated damages, rather than unenforceable as a penalty, such a clause must, on the old law laid down in <span style="font-style:italic">Dunlop Pneumatic Tyre Co Ltd v New Garage and Motor Co Ltd </span><ref href="#" uk:canonical="[1915] AC 79" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1915">[1915] AC 79</ref>, constitute a genuine pre-estimate of loss. Under the modern test formulated in <span style="font-style:italic">Cavendish Square Holding BV v Makdessi </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/67" uk:canonical="[2015] UKSC 67" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 67</ref>; <ref href="#" uk:canonical="[2016] AC 1172" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] AC 1172</ref> (&#8220;<span style="font-style:italic">Makdessi</span>&#8221;), the clause must not impose a liability to pay damages that are out of all proportion to a legitimate interest of the innocent party (here the hire company). On facts such as these, the new test is very unlikely to produce a different result from the old test: see <span style="font-style:italic">Makdessi </span>at paras 25 and 32. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, the law on unfair terms in consumer contracts. This is laid down in Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15" uk:canonical="2015 c. 15" uk:origin="TNA" uk:type="legislation">Consumer Rights Act 2015</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15/section/62" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 62</ref>, so far as relevant, reads as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;62.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:13pt">Requirement for contract terms &#8230; to be fair</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.25in;text-indent:-0.25in">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:13pt">An unfair term of a consumer contract is not binding on the consumer.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">A term is unfair if, contrary to the requirement of good faith, it causes a significant imbalance in the parties' rights and obligations under the contract to the detriment of the consumer.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">Whether a term is fair is to be determined&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">taking into account the nature of the subject matter of the contract, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:13pt">by reference to all the circumstances existing when the term was agreed and to all of the other terms of the contract or of any other contract on which it depends.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By section 63(1), guidance as to the kind of terms which may be regarded as unfair is given in an &#8220;indicative and non-exhaustive list&#8221; in Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/2015/15" uk:canonical="2015 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref>. One of the terms listed, at paragraph 6 in Part 1 of Schedule 2, reads as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;A term which has the object or effect of requiring a consumer who fails to fulfil his obligations under the contract to pay a disproportionately high sum in compensation.&#8221;   </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The link between remoteness and the law on unfair terms and penalties is that the type of loss, here a contractual liability, is only reasonably foreseeable if it really is a contractual liability. To be a valid contractual liability, as opposed to an unfair term or penalty, clause 16 must comprise a reasonable pre-estimate of the hire company&#8217;s loss of use. In contrast, a purported but invalid contractual liability is not the same type of loss and would not be reasonably foreseeable. Examining remoteness through the lens of the contractual validity of clause 16 is therefore an alternative way of explaining why it is necessary that the clause 16 sum is a reasonable pre-estimate of Helphire&#8217;s loss of use. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addition to remoteness, three other legal principles capable of limiting the recovery of damages in tort have been relied on by RSA at one or another stage of this litigation. It is convenient to explain here why none of them is applicable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, there was the allegation, abandoned in the Court of Appeal, that to mitigate her loss Ms Armstead should have refused to pay the clause 16 sum to Helphire. For such a defence to succeed, however, it would not have been sufficient for RSA to establish that clause 16 was unenforceable against Ms Armstead because it was a penalty or an unfair term. It would have been necessary to show that, on the facts, Ms Armstead acted unreasonably by not challenging the contractual validity of clause 16. Courts are reluctant to find that a claimant has acted unreasonably in not pursuing a course of action that would have involved litigation, at any rate where the issue is not clear-cut. For example, it was held in <span style="font-style:italic">Pilkington v Wood </span><ref href="#" uk:canonical="[1953] Ch 770" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1953">[1953] Ch 770</ref> that, in Harman J&#8217;s words at p 777:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;the so-called duty to mitigate does not go so far as to oblige the injured party &#8230; to embark on a complicated and difficult piece of litigation against a third party.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Second, RSA has argued that the loss comprising the liability to pay Helphire the clause 16 sum was outside the scope of the duty of care owed by its insured to Ms Armstead. The term &#8220;scope of duty&#8221; is sometimes used to refer to the concept of &#8220;remoteness&#8221; and, in so far as that is what was here being referred to, it has already been addressed. As a concept separate from remoteness, a contention that the loss is outside the scope of the duty of care refers to the principle recognised in <span style="font-style:italic">South Australia Asset Management Corpn v York Montague Ltd</span> (&#8220;<span style="font-style:italic">SAAMCO</span>&#8221;) <ref href="#" uk:canonical="[1997] AC 191" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] AC 191</ref>. However, this principle has no application here. There can be no issue about the scope of the relevant duty, being the commonplace duty to take care to avoid causing physical damage to another person&#8217;s property. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Third, in the oral argument on this appeal Lord Marks KC on behalf of RSA submitted that Ms Armstead's liability to pay the clause 16 sum, although as a matter of fact caused by the negligent driving of RSA&#8217;s insured, was not legally caused by the damage to the car. Rather, he submitted, the loss was legally caused by the contractual arrangement between Ms Armstead and Helphire. &#8220;Legal causation&#8221; is sometimes used to refer to remoteness or scope of duty: see <span style="font-style:italic">McGregor on Damages</span>, 21st ed (2021), para 8-001. These principles have already been considered. But, as a separate concept, &#8220;legal causation&#8221; refers to the question whether the defendant&#8217;s breach of duty is to be regarded in law as responsible for causing the loss for which damages are claimed when a subsequent and significant factual cause combines with it to produce the loss. This question is often expressed by asking whether the new intervening cause has &#8220;broken the chain of causation&#8221; between the defendant&#8217;s breach of duty and the loss. Such a question, however, cannot arise here as the chain of causation cannot have been broken by a contract that existed before the hire car was damaged by the negligent driving of RSA&#8217;s insured.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, therefore, the concession that Ms Armstead&#8217;s contractual liability to pay damages under clause 16 must be a reasonable pre-estimate of Helphire&#8217;s loss of use was rightly made for the sole but sufficient reason that the loss would otherwise be too remote to be recoverable. The crucial questions therefore become: was clause 16 a reasonable pre-estimate of Helphire&#8217;s loss of use and who has the burden of proof in relation to that? It is to those questions that we now turn.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The burden of proof</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The concession made on behalf of Ms Armstead left unclear who was being treated as having the legal burden of proof. The law is also unclear as to who has the legal burden of proof in a situation where it is not in dispute that a tort has been committed (in this case, by negligently causing physical damage to the car, which is the damage required to complete the cause of action) and what is in issue is whether consequential loss is irrecoverable on the ground that it is too remote. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, the correct analysis is that once the claimant has proved that a tort has been committed and that the loss claimed was in fact caused by the defendant&#8217;s breach of duty, it is for the defendant to assert and prove that one, or more, of the principles mentioned at para 23 above applies to limit the damages recoverable by the claimant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We can leave aside for present purposes the scope of the defendant&#8217;s duty, where it has been suggested that a different analysis applies: see <span style="font-style:italic">Hughes-Holland v BPE Solicitors</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/21" uk:canonical="[2017] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 21</ref>; <ref href="#" uk:canonical="[2018] AC 599" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] AC 599</ref>, para 53. This is not the occasion to discuss that view. Looking at the other limiting principles, the law is clear that the defendant bears the legal burden of pleading and proving a failure to mitigate loss caused by a tort (and the same applies in relation to breach of contract): see, eg, <span style="font-style:italic">Standard Chartered Bank v Pakistan National Shipping Corpn</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/55" uk:canonical="[2001] EWCA Civ 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 55</ref>; [2001] 1 All ER (Comm) 822, paras 33-41; <span style="font-style:italic">Geest plc v Lansiquot</span> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2002/48" uk:canonical="[2002] UKPC 48" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] UKPC 48</ref>; <ref href="#" uk:canonical="[2002] 1 WLR 3111" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 WLR 3111</ref>; <span style="font-style:italic">LE Jones (Insurance Brokers) Ltd v Portsmouth City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/1723" uk:canonical="[2002] EWCA Civ 1723" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 1723</ref>; <ref href="#" uk:canonical="[2003] 1 WLR 427" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 WLR 427</ref>, para 26. It is equally clear that the legal burden is on the defendant to assert and prove contributory negligence: see, eg, <span style="font-style:italic">Owners of</span><span/><span style="font-style:italic">SS Heranger v Owners of SS Diamond </span><ref href="#" uk:canonical="[1939] AC 94" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1939">[1939] AC 94</ref>, 104. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As regards legal causation (by which we mean the question whether an intervening event subsequent to the tort has broken the chain of causation between the tort and a particular loss), the authorities do not speak with one voice. But the weight of authority supports the view that here too the burden is on the defendant. This was clearly stated by Lord Haldane and Lord Dunedin in <span style="font-style:italic">The Metagama</span> (1927) 29 Ll L Rep 253, 254, 256. An opposite view was expressed by Lord Sumner in <span style="font-style:italic">Owners of</span><span/><span style="font-style:italic">SS Singleton Abbey v Owners of SS Paludina</span> <ref href="#" uk:canonical="[1927] AC 16" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1927">[1927] AC 16</ref>, 25-26, which was followed by Lord Merriman P in <span style="font-style:italic">The Guildford</span> <ref href="#" uk:canonical="[1956] P 364" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1956">[1956] P 364</ref>, 370, without attempting to resolve the divergence of opinion in the House of Lords. However, in subsequent ship collision cases courts have consistently preferred the view taken in <span style="font-style:italic">The Metagama</span> that, once it is shown that loss was in fact caused by the defendant&#8217;s tort, the burden is on the defendant to establish that a subsequent event operated as a new intervening cause: see eg <span style="font-style:italic">The Fritz Thyssen</span> <ref href="#" uk:canonical="[1967] 2 Lloyd's Rep 199" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 2 Lloyd&#8217;s Rep 199</ref>, 202-203; <span style="font-style:italic">The Lucile Bloomfield</span> <ref href="#" uk:canonical="[1967] 2 Lloyd's Rep 308" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 2 Lloyd&#8217;s Rep 308</ref>, 313; <span style="font-style:italic">The Zaglebie Dabrowskie (No 2)</span> <ref href="#" uk:canonical="[1978] 1 Lloyd's Rep 573" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] 1 Lloyd&#8217;s Rep 573</ref>, 574. This view is also supported by the decision of the Court of Appeal in <span style="font-style:italic">Philco Radio and Television Corpn of Great Britain Ltd v J Spurling Ltd</span> <ref href="#" uk:canonical="[1949] 2 All ER 882" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1949">[1949] 2 All ER 882</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is a surprising absence of authority on the question of who has the legal burden of proof in relation to remoteness. But, as a principle which cuts back the right to recover damages for loss that has been factually caused by a tort, remoteness plays an analogous role to the duty to mitigate, contributory negligence and, on what we think is the better view, the concept of an intervening cause. Logically, therefore, the legal burden of proof must likewise lie on the defendant to plead and prove that loss which was in fact caused by the defendant&#8217;s tort is nevertheless irrecoverable because it is too remote. As discussed above, in relation to the tort of negligence, this requires showing that the loss suffered was not of a type that was reasonably foreseeable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Times New Roman';font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The underlying justification for this approach rests, as we see it, on considerations of both fairness and efficiency. Once it has been proved that the defendant has committed a wrong which has caused loss to the claimant, it is fair to place the onus on the wrongdoer to show a good reason why the wrongdoer should not be liable to compensate the victim for the full extent of the loss caused. In addition, it would be unduly burdensome to require a claimant who has proved that the defendant committed a tort which has caused the claimant loss to have to anticipate ways in which it might nevertheless be said that the defendant should not be held legally responsible for the loss and rebut them. It is far more efficient, as well as just, to place the burden on the defendant to make such a case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Times New Roman';font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Here, as generally, the rules of pleading are a good guide to where the burden lies in accordance with the principle that the person who asserts (and not the person who denies) must prove: see, eg, <span style="font-style:italic">Imperial Smelting Corpn Ltd v Joseph Constantine Steamship Line Ltd</span> <ref href="#" uk:canonical="[1942] AC 154" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1942">[1942] AC 154</ref>, 174. It is not the practice, when pleading claims for the remedy of damages for the tort of negligence, for claimants to allege that losses claimed were of a reasonably foreseeable type any more than it is the practice for claimants to plead that they took all reasonable steps to mitigate the loss, or that they were not contributorily negligent, or that no intervening cause broke the chain of causation. In all these cases, in our view, the pleading practice is an accurate indication that the defendant bears the burden of proof. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Was clause 16 a reasonable pre-estimate of Helphire&#8217;s loss of use?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Times New Roman';font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In this case, RSA has not pleaded a case that the clause 16 sum was not a reasonable pre-estimate of Helphire&#8217;s loss of use. No argument to that effect was made by RSA at the trial and no finding to that effect was made by the trial judge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Times New Roman';font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Recorder appears to have assumed that the facts of this case are similar to those of <span style="font-style:italic">Beechwood </span>(see para 13 above).<span style="font-style:italic"/>In that case, however, the car that sustained damage was not a revenue-earning asset. Still more importantly, in <span style="font-style:italic">Beechwood</span> it was found as a fact that the claimant had a large pool of available cars at its disposal from which a substitute could have been provided without loss to the claimant (other than a loss measured by interest on capital and depreciation) while the damage to the car used by its employee was repaired. No such finding was made by the trial judge in this case and there was no evidence which justified the Recorder in making such an assumption. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Times New Roman';font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Para 55 of Dingemans LJ&#8217;s judgment, which contains the Court of Appeal&#8217;s reasons for concluding that clause 16 did not represent a reasonable attempt to estimate Helphire&#8217;s likely loss resulting from the unavailability of the hire car is, with respect, similarly flawed. Three reasons were given for that conclusion, none of which is in our opinion valid.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Times New Roman';font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The first reason given was that the rate claimed under clause 16 is the credit hire rate (which includes the cost of providing credit and other services to the accident victim) rather than simply the basic commercial hire rate for a car of the relevant specification. It was held by the House of Lords in <span style="font-style:italic">Dimond v Lovell</span> <ref href="#" uk:canonical="[2002] 1 AC 384" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 AC 384</ref> that an accident victim who hires a replacement car while her own car is being repaired is generally only entitled to recover damages assessed at the basic hire rate. There is an exception where the hirer is impecunious and unable to afford to hire a replacement vehicle at an ordinary commercial rate and whose only realistic option is therefore to enter into a credit hire agreement: see <span style="font-style:italic">Lagden v O&#8217;Connor</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2003/64" uk:canonical="[2003] UKHL 64" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] UKHL 64</ref>; <ref href="#" uk:canonical="[2004] 1 AC 1067" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 AC 1067</ref>. Dingemans LJ argued that there was no guarantee that someone such as Ms Armstead would be impecunious and so entitled to recover the credit hire rate and that in these circumstances the use of the credit hire rate in clause 16 of Helphire&#8217;s standard hire agreement could not be reasonable. This argument is, however, beside the point because we are not here concerned with a case where the claimant has a claim against a negligent driver for damage to the claimant&#8217;s own car and seeks to recover damages for the cost of hiring a replacement car. The loss of use which clause 16 is meant to compensate is <span style="font-style:italic">the hire company&#8217;s</span> loss of use, not the claimant&#8217;s own loss of use; and for a car rented on credit hire terms the rate charged to customers which is lost by the company if the car is unavailable to hire out is the credit hire rate. Whether the claimant was impecunious is irrelevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Times New Roman';font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Dingemans LJ went on to say that &#8220;it would not be the case that every hire made by Helphire would be at the full credit hire rate&#8221;. This statement was, however, speculation unsupported by any evidence. There is no evidence that Helphire rented out cars other than on credit hire terms. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Times New Roman';font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The final, and perhaps most important, reason given was that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:13pt">&#8220;&#8230; it seems very probable that there would have been other cars available to be hired by Helphire in the place of the Mini Cooper motor car for at least some of the period of repair. This might be proved by the percentage net usage rates for Helphire&#8217;s cars. This would have led to a reduction of the rate claimed in clause 16 of the Helphire agreement. The actual assessment of damages for loss of use by a party such as Helphire will be for decision in future cases, but this analysis shows that clause 16 does not represent a reasonable sum to claim against RSA&#8217;s insured driver.&#8221;   </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Again, however, there was no evidence that Helphire had or was likely to have had other spare cars available (ie cars that would not otherwise have been rented out) during the period of repair. It might seem plausible to speculate that this may sometimes be the case. However, as Mr Williams KC on behalf of Ms Armstead pointed out, clause 16 was limited to 30 days&#8217; loss of use even though it is conceivable that in some cases the period for which a hire car is unavailable for hire because it is damaged and awaiting or undergoing repair would exceed that period. Mr Williams further submitted - and we agree - that it is reasonable in principle to use as the measure of compensation a simple and easily calculated sum in preference to a complex and finely-tuned formula. What we do know is that Ms Armstead was required by clause 16 to pay, as damages for loss of use, the daily credit hire rate that she was being charged for the hire of the Mini. As Mr Williams submitted, this can be realistically viewed as merely a short-term extension of the hire period at the pre-agreed hire rate. On the face of it, agreeing the damages for Helphire&#8217;s loss of use, by taking the contractual rate that Ms Armstead had already agreed, was a reasonable way of pre-estimating that loss.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Times New Roman';font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The facts could have been investigated and evidence adduced at the trial. As it is, however, RSA, on whom the burden lay, pleaded no case and adduced no evidence to prove, or even suggest, that Helphire was likely to have had other spare cars available and that a liability to pay the daily hire rate for the vehicle limited to 30 days&#8217; loss of use was likely to result in overcompensation. In these circumstances it was not open to RSA to advance such a case on appeal. Nor was it open to the Court of Appeal to make factual assumptions which were entirely unsupported by evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Times New Roman';font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although it is not necessary to decide the point, the issue was raised in the submissions before us as to what the position would be if the pre-estimate of loss was found not to be a reasonable sum. Would that mean that Ms Armstead would recover no damages at all in respect of loss of use, as Dingemans LJ evidently assumed in the passage quoted at para 70 above? In our view, the answer to that is &#8220;no&#8221;. That is because, applying the sometimes overlooked principle recognised in <span style="font-style:italic">Cory v Thames Ironworks and Shipbuilding Co Ltd</span> (1868) <ref href="#" uk:canonical="LR 3 QB 181" uk:isNeutral="false" uk:origin="TNA" uk:type="case">LR 3 QB 181</ref>, the claimant would be entitled in this situation to recover as damages such lesser sum as would represent Helphire&#8217;s reasonably foreseeable loss of use. As it was put by Asquith LJ in <span style="font-style:italic">Victoria Laundry (Windsor) Ltd v Newman Industries Ltd</span> <ref href="#" uk:canonical="[1949] 2 KB 528" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1949">[1949] 2 KB 528</ref>, 539, the claimant would be &#8220;entitled to recover such part of the loss actually resulting as was &#8230; reasonably foreseeable as liable to result from the breach&#8221;. Although these cases involved claims for breach of contract, we see no reason why, in respect of this principle, the position should be different in tort. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">A checklist of six questions?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Times New Roman';font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Dingemans LJ, in response to submissions from the parties, used as a checklist for his conclusion six questions that were suggested by Lord Hodge and Lord Sales in obiter dicta in <span style="font-style:italic">Manchester Building Society v Grant Thornton UK LLP </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/20" uk:canonical="[2021] UKSC 20" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 20</ref>; <ref href="#" uk:canonical="[2022] AC 783" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] AC 783</ref>, para 6, and <span style="font-style:italic">Meadows v Khan </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/21" uk:canonical="[2021] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 21</ref>; <ref href="#" uk:canonical="[2022] AC 852" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] AC 852</ref>, para 28. Counsel for both parties performed the same exercise at the end of their submissions on this appeal. The six questions were formulated in cases concerned with whether particular damage fell within the scope of the duty of care owed by defendants who had assumed responsibility for providing professional services to the claimant. The questions were expressly said not to be an exclusive or comprehensive analysis but were suggested to help clarify the role of the scope of duty principle (exemplified by <span style="font-style:italic">SAAMCO</span>) in the tort of negligence. As discussed at para 55 above, this case does not engage the scope of duty principle. It was therefore unnecessary and, in our view, unhelpful to use those questions as a checklist in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <num style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Conclusion</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Times New Roman';font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We have explained why, in our opinion, the courts below were wrong to hold that Ms Armstead could not recover from RSA the sum which she was liable to pay to the hire company under clause 16 of her vehicle hire agreement as damages for its loss of use of the vehicle. Of the various reasons given for rejecting the claim, only one was in principle a legally valid reason. This was that the loss was too remote to be recoverable because the clause 16 sum was not a reasonable estimate of the hire company&#8217;s likely loss of revenue while the car was off the road for repairs. However, RSA, on whom the burden of proof lay, did not plead or adduce any evidence to show that the clause 16 sum was not a reasonable estimate of the hire company&#8217;s likely loss. In the absence of any such pleaded allegation or evidence, it was not open to the Court of Appeal to reject the claim on this ground. We would therefore allow the appeal and enter judgment in favour of Ms Armstead for the clause 16 sum of &#163;1,560. </p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS (<span style="text-transform:none">concurring</span>):</p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Times New Roman';font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I agree that this appeal should be allowed.  Subject only to one point, I also agree with the reasoning leading to that conclusion in the joint judgment of Lord Leggatt and Lord Burrows (&#8220;the Joint Judgment&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Times New Roman';font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">My only reservation (and it is no more than that) relates to their conclusion, at paras 47 and following of the Joint Judgment, that the concession made by counsel for the appellant (to the effect that a contractual liability of the clause 16 type could not be claimed as damages if it did not represent a genuine and reasonable pre-estimate of loss) was rightly made.  I would prefer simply to rely upon the concession, without giving the authority of this court to the proposition of law embedded in it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Times New Roman';font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By that I do not mean that I regard the concession as having been wrongly made, still less unwisely made.  In the event the making of the concession did the appellant no harm at all.  It was squarely based upon the authority of the Court of Appeal in the <span style="font-style:italic">Network Rail</span> case, and I can see considerable force in the analysis of Moore-Bick LJ to that effect.  My concern is only that, because the point went by concession, and was therefore common ground between the parties to this appeal, there was no adversarial argument about it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Times New Roman';font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">One of the enduring strengths of the common law is that, when it is developed in the appellate courts, the development is subjected to the refiners&#8217; fire of adversarial debate and testing before it is endorsed and, in effect, made into what is sometimes called judge-made law.  The epithet &#8220;judge-made&#8221; is a bit of a misnomer.  In reality these step by step developments in the common law are the result, not merely of judicial decision, but also of academic analysis, coupled with the imaginativeness and wisdom of counsel&#8217;s submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Times New Roman';font-size:13pt">79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A particular reason for my concern in the present context is that, as the Joint Judgment acknowledges at para 49, the law on penalties has moved on since <span style="font-style:italic">Network Rail</span>, at which time a conclusion that a clause of this kind did not represent a genuine and reasonable pre-estimate of loss would have rendered it unenforceable between the parties to it as a penalty.  I do not by that observation mean to say that Moore-Bick LJ was actually analysing enforceability as the only condition for the contractual liability sounding in damages.  But he was at least making use of a then well-recognised item in the common law tool box, albeit for a different purpose.  That item has now been discarded as the test for whether a contractual provision is a penalty.  I would have preferred to hear adversarial argument before lending this court&#8217;s authority to re-instating it for the different purpose for which the Joint Judgment states that it should now be used.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

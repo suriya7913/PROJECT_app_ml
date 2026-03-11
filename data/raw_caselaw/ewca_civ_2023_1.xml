@@ -1,0 +1,998 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/1"/>
+	  <FRBRdate date="2023-01-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1"/>
+	  <FRBRname value="S (A Child) and W (A Child) (s 20 Accommodation), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1"/>
+	  <FRBRdate date="2023-01-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1/data.xml"/>
+	  <FRBRdate date="2025-01-22T11:57:29" name="transform"/>
+	  <FRBRdate date="2025-07-19T04:52:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-lady-justice-king" href="/judge-lady-justice-king" showAs="LADY JUSTICE KING"/>
+	<TLCPerson eId="judge-lord-justice-warby" href="/judge-lord-justice-warby" showAs="LORD JUSTICE WARBY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>1</uk:number>
+	<uk:cite>[2023] EWCA Civ 1</uk:cite>
+	<uk:parser>0.26.18</uk:parser>
+	<uk:hash>20d43c32533fd128ace0794df15aaa249ede327b448fc7c2c080ac2d2bf5fb38</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Arial; font-size: 11pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .legds { }
+#judgment .coitalic { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .TitleChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWCA Civ 1</neutralCitation></p>
+      <p class="CoverText">Case No: CA-2022-001329 &amp; CA-2022-001232 </p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM</p>
+      <p class="CoverMain">Re S:</p>
+      <p class="CoverMain">CROYDON FAMILY COURT</p>
+      <p class="CoverMain">His Honour Judge Atkins</p>
+      <p class="CoverMain">ZE21C00312</p>
+      <p class="CoverMain">Re W:</p>
+      <p class="CoverMain">THE FAMILY COURT AT DARTFORD</p>
+      <p class="CoverMain">Her Honour Judge Coffey</p>
+      <p class="CoverMain">ME22C50060</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-01-05" refersTo="#judgment">05/01/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-king">LADY JUSTICE KING</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE ARNOLD<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-warby">LORD JUSTICE WARBY</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">In the matter of:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">Re S (A Child) and Re W (A Child) (s 20 Accommodation) </span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Re S Appeal</p>
+      <p style="text-align:center"><span style="font-weight:bold">Deirdre Fottrell KC and Joan Connell</span> (instructed by <span style="font-weight:bold">Taylor Rose MW</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mark Twomey KC </span>(instructed by<span style="font-weight:bold"> South London Legal Partnership</span>) for the <span style="font-weight:bold">First Respondent London Borough of Sutton </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Emily James </span>(instructed by<span style="font-weight:bold"> Philcox Gray &amp; Co</span>) for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Joanne Brown </span>(instructed by<span style="font-weight:bold"> Creighton and Partners Solicitors</span>) for the <span style="font-weight:bold">Third Respondent Child's Guardian</span></p>
+      <p style="text-align:center">Re W Appeal</p>
+      <p style="text-align:center"><span style="font-weight:bold">Alison Easton</span> (instructed by <span style="font-weight:bold">Russell-Cooke Solicitors</span>) for the <span style="font-weight:bold">First and Second Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Nick O'Brien </span>(instructed by<span style="font-weight:bold"> Invicta Law</span>) for the <span style="font-weight:bold">First Respondent Kent County Council </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Eilidh Gardner </span>(instructed by<span style="font-weight:bold"> GT Stewart Solicitors</span>) for the <span style="font-weight:bold">Second Respondent Child's Guardian</span></p>
+      <p style="text-align:center">Hearing dates: 1-2 November 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 5 January 2023 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lady Justice King:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These appeals concern the interplay between care orders which have been made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="1989 c. 41 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>&#8217;) and the voluntary accommodation of children in need under section 20 CA 1989 (&#8216;section 20&#8217;). The issue is whether and in what circumstances, the threshold criteria having been established and there being in place an agreed care plan, the court should decline to make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="1989 c. 41 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> CA 1989 and instead should make no order in accordance with the &#8216;no order&#8217; principle as set out in section 1(5) CA 1989.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Re S</span> is an appeal against the order of HHJ Atkins of 24 June 2022 whereby he ordered that a child S, aged 9 years, should be made the subject of a care order in favour of the London Borough of Sutton (&#8216;LBS&#8217;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Re W</span> is an appeal against the order of HHJ Coffey dated 16 June 2022 whereby she ordered that a girl W, aged 15 years, should be made the subject of a care order in favour of Kent County Council (&#8216;KCC&#8217;).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaHeading"><span style="font-style:italic">Background Facts in Re S</span></heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">S, a boy, is now aged 9 years and is one of two children of GSt (&#8216;S&#8217;s mother&#8217;) and GSs (&#8216;S&#8217;s father&#8217;). S has a younger brother, M. S has a number of complex needs including ASD, ADHD and a lack of awareness of danger together with significant behavioural issues.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In June 2017, the parents separated after an incident when S&#8217;s father spat and grabbed S&#8217;s mother whilst he was drunk. In September 2017, he turned up at the family home drunk and banging on the door and the police were called. Thereafter, S&#8217;s mother has had exclusive care of S and M without the necessity of a court order in her favour.  On 5 August 2020 there was a further incident when the father banged and kicked the door and dented S&#8217;s mother&#8217;s car door. This incident resulted in a conviction for damage to property.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">S&#8217;s father suffers from low mood, anxiety and depression and misuses alcohol and drugs. He has also been assessed to have a low average full scale IQ of 80. S&#8217;s father struggles to engage in assessments and is unreliable in exercising contact with S, although he has never sought to interfere with or undermine S&#8217;s mother&#8217;s care of either S or M.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Over time, S&#8217;s behaviour became increasingly challenging and on 20 January 2021 S&#8217;s mother called the child practitioner saying she was struggling to cope and would like S to be accommodated. In response to this, LBS&#8217;s support for S&#8217;s mother was increased to 59 hours a week. On 10 March 2021, both S and M were made subject to Child Protection Plans under the category of emotional harm, the harm anticipated being that to S in the event that he became separated from his family as a consequence of being accommodated by the local authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Notwithstanding this additional daytime support, S&#8217;s mother reached the stage where she knew she could no longer manage to look after S at home. A phased transition of S to LH a residential unit started on 28 April 2021 and on 9 May 2021 S moved there entirely. S has remained at LH ever since. He is settled and making excellent progress within the confines of his disabilities.  LBS initially approached this placement as one of respite care with a view to S returning to the care of his mother in due course. S&#8217;s mother, having done all she possibly could to care for S for the previous 8 years, had made what she described as the &#8216;agonising decision&#8217; to request accommodation for S and she knew that rehabilitation was simply not an option, guilty and distressed though she felt about having reached that conclusion. S&#8217;s mother accordingly told LBS on 18 May 2021 that she could not envisage caring for S as he grows older and stronger, but that she did not want LBS to issue care proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately, S&#8217;s father was not told until 4 May 2021 that S was moving to a residential placement.  He was initially against such a placement and put forward what was clearly an unrealistic proposal, that he should care for S with support. The father soon realised that S had settled well at LH and that his needs were being met. Therefore, a few weeks later he filed a statement in the care proceedings saying that he understood the need for and would now sign, a section 20 agreement. This he did on 2 July 2021. S&#8217;s father has not, at any time in the intervening 16 months, sought to withdraw that agreement, nor has he given anyone cause to think that he may do so.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">LBS issued care proceedings on 22 June 2021. This was said to be as a result of their concern that S&#8217;s mother was, as they perceived it, unable to &#8216;commit&#8217; to S&#8217;s return home or alternatively to a timescale for his rehabilitation. For reasons that are unknown, the care proceedings were issued in relation to both S and his younger brother M. The care plan was for an interim supervision order with a view to rehabilitation of S to his mother&#8217;s care or alternatively, an interim care order. No interim care order was made and S has continued to be accommodated under section 20 throughout the proceedings. On 17 August 2021, LBS sensibly withdrew the proceedings in relation to M.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Within the ensuing care proceedings, Dr Tammy Surgenor, an independent clinical psychologist, was appointed by the court to assess S and each of the parents. Dr Surgenor set out S&#8217;s complex presentation, highlighting his significant needs in terms of his emotional and behavioural regulation. Dr Surgenor&#8217;s expert opinion was that S is &#8216;extremely challenging&#8217; to parent and that it was difficult to envisage how a lone carer, even with a high level of support, would be able to meet his needs. She concluded that it was difficult to envisage how those needs could be met by an individual person or within an environment where carers were not specifically trained to understand and manage his needs. S, she said, &#8216;requires a specialist residential unit with a high staff-child ratio in order to reduce the compassion fatigue that would be associated with caring for a child with such complex needs&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Surgenor recommended weekly contact with S&#8217;s mother moving to overnight stays and monthly supervised contact with S&#8217;s father, with that level of contact to be reviewed if he could demonstrate that he could attend consistently.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">LBS filed its final statement in the care proceedings on 4 April 2022. Within the statement is a balance sheet which considered the factors for and against S remaining accommodated under section 20. One of the factors against such an outcome was said to be that &#8216;section 20 is not an effective or appropriate mechanism for children requiring long term care and care planning and does not provide adequately for emotional or practical security or stability needs of a child or those caring for that child on a day-to-day basis and into the future&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The court also had the benefit of a Cafcass report. The Cafcass officer, Ms Bedu, considered the totality of the evidence which included a parenting assessment carried out by an independent social worker, Ms Cole. It is recorded that Ms Cole had told Ms Bedu that had it not been for the case law regarding the misuse of section 20, she would not have been certain about the need for a care order. Ms Cole&#8217;s ambivalence was doubtless due to her view that S&#8217;s mother was an &#8216;extraordinary mother who has fought for many years to get the support her son needs&#8217;. She was, she said, confident that S&#8217;s mother would not act in any way that would undermine S&#8217;s placement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So far as S&#8217;s father was concerned, Ms Bedu had observed that despite his inconsistent contact with S, when contact did take place, it was of good quality and loving and that S responded well to his father&#8217;s care. Dr Surgenor, who had also observed a contact session, referred to S&#8217;s father as being &#8216;patient and tolerant, affectionate&#8217; and &#8216;accepting of feedback&#8217; as to how best to connect with S. Ms Bedu concluded that &#8216;quite possibly&#8217; the main risk from S&#8217;s father would be that &#8216;he would disappear from his life altogether&#8217;. Ms Bedu sounded a proper note of caution, however, saying that just because S&#8217;s father had not undermined the placement so far, that did not mean that he would not do so in the future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">LBS accepted the recommendation of Dr Surgenor and no longer sought the rehabilitation of S to his mother. Nevertheless, they continued with the care proceedings. The case summary prepared for the judge by LBS argued that section 20 was not appropriate on a long-term basis for the child. Given that neither parent felt able to assume S&#8217;s care in the foreseeable future and given S&#8217;s age, it was, the case summary said, &#8216;essential&#8217; that the local authority share parental responsibility.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately, the balanced and moderate assessment by the Cafcass officer, as set out above, unaccountably became significantly elevated in the position statement filed on behalf of the Guardian and was expressed in terms which were then adopted by and undoubtedly influenced the judge. The analysis in the Guardian&#8217;s report had identified that (i) the father, far from undermining the placement, had been wholly supportive of it, but this did not mean his position would not change in the future and (ii) the contact, whilst taken up erratically, was of good quality when it took place.  The position statement elevated this assessment, inaccurately saying that the Guardian considered that there was a &#8216;significant risk&#8217; that S&#8217;s father might &#8216;disrupt the placement&#8217; in the future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The matter came before the judge on 24 June 2022. The care plan was agreed, namely that S would remain at LH. The parents argued that the threshold criteria were not satisfied, but that in any event there should not be a care order made in favour of LBS.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge found the threshold to be satisfied on the basis that S was beyond parental control. There is no challenge to that decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge thereafter went on to make a care order. The judge rightly reminded himself that the fact that the threshold has been met does not mean that it is necessarily appropriate to make an order. The judge proceeded to go through the welfare checklist noting that neither parent was putting themselves forward to care for S.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge then moved on to consider the &#8216;no order&#8217; principle found at <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/5" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, namely that the judge shall not make an order &#8216;unless it considers that doing so would be better for the child than making no order at all&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although the judge noted the submission made on behalf of the mother that there was no evidence to suggest that either parent would withdraw their consent to the section 20 order, he went on to say, &#8216;that is not really quite right because what the Guardian says, actually, is that she considers there is a significant risk that [S&#8217;s father] might withdraw his support in the future&#8217;. The judge continued to refer to the fact that the father is &#8216;unpredictable&#8217; and that given his unreliability in attending contact, &#8216;it may be that the local authority will need to have parental responsibility in order to regulate that looking ahead&#8217;. The judge concluded that it was in the best interests of S to make a care order and not in his best interests simply to say that matters should continue as they have under section 20.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The grounds of appeal can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The judge wrongly concluded that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> order was necessary and proportionate on the basis that there was a &#8216;significant risk&#8217; that S&#8217;s father may withdraw his support for section 20 accommodation in the future, S&#8217;s father has been difficult to contact and communicate with and there have been contact difficulties in the past.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The judge erred when stating that the issue was &#8216;do the local authority need to share parental responsibility?&#8217;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The judge attached excessive weight to the certainty that would be provided by a care order. He failed to express a view as to whether <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> orders could be used for long term accommodation.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Judicial guidance would be of benefit as to the test to be applied where it is submitted that the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/5" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> &#8216;no order&#8217; principle should be adopted in preference to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaHeading"><span style="font-style:italic">Background facts in Re W</span></heading>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W was adopted by KW (&#8216;W&#8217;s mother&#8217;) and GW (&#8216;W&#8217;s father&#8217;) in 2008 when she was a little over a year old. She has a complicated diagnosis of ASD, ADHD, ARND (alcohol related neurodevelopmental disorder), FASD (foetal alcohol spectrum disorder), attachment disorder, dyspraxia, dyslexia, sensory processing difficulties and bladder bowel dysfunction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst her early years with her parents largely went well, W&#8217;s behaviour began significantly to deteriorate when she entered puberty. There were a number of incidents of aggressive and violent behaviour by W towards her family members, but most particularly towards her mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The devotion and dedication of W&#8217;s parents, both at this time and continuing, has been commented upon by all who have had dealings with them. Both parents have been courageous in facing the challenges presented to the family as a consequence of W&#8217;s various disabilities, exemplified by their engagement in various forms of family therapy. In 2020, in order to give her space away from the family, W was enrolled in a residential school, coming home at the weekends.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unhappily for all concerned, the relationship between W and her mother continued to deteriorate and it became clear to both the parents and to W that they could no longer live under the same roof. On 7 September 2021, W&#8217;s father, with the agreement of both W&#8217;s mother and W, signed a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> agreement and on 8 October 2021, W was placed with her current foster carers.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s placement is intended to be long term. She is settled and happy there. The foster carers have the day-to-day responsibility for W. Over the ensuing 14 months, W&#8217;s parents and the foster carers have worked together with considerable success and greatly to W&#8217;s benefit.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Following her reception into care, contact was initially arranged only between W and W&#8217;s father (and grandparents) due to the conflict between W and her mother. W has now started to see her mother again and on 11 June 2022 she had overnight contact with both parents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parents initially agreed to the making of a care order but, having had the opportunity to take legal advice and having spoken to other adopters, they notified the local authority that they would object to the making of a care order. They wished, they said to &#8216;parent from a distance&#8217; under a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">s20</ref> arrangement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 9 March 2022, KCC made an application for a care order. The first hearing took place on 4 April 2022. KCC did not apply for an interim care order. The parents accepted, and the court agreed, that the threshold criteria in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> were met on the limb of &#8216;beyond parental control&#8217;.  The care plan put before the court was one which had been agreed between KCC, the parents and W&#8217;s Children&#8217;s Guardian in advance of the hearing.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 16 June 2022, the final hearing came before HHJ Coffey. KCC&#8217;s application for a care order was supported by the Guardian. Both parents opposed the making of a care order on the basis that the arrangements under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> agreement should continue and that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> order was neither necessary nor proportionate. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge made a care order saying in summary that <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> orders should not be used as a long-term tool and that where W was to be in foster care &#8216;in the medium to longer term&#8217; &#8216;there is a need for a care order and that in such circumstances it is necessary and proportionate to make a care order notwithstanding the very positive way everyone concerned in this case has been supporting [W] in her placement&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge could see the &#8216;positives&#8217; in KCC having parental responsibility from the perspective of W &#8216;testing boundaries&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge was mindful of the fact that there had been a number of changes of social worker and wished to protect the role of the parents saying:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I suggested at the outset&#8230; setting out really clearly in terms of a recital to any order made today as to how parental responsibility should be exercised so that both the local authority and any future social worker and the parents are really clear on how that will be managed in circumstances where there are collaborative, cooperative and engaged parents&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the light of this, counsel agreed the terms of the order which included the recitals set out below. When the recitals were drafted and agreed by Counsel they were, this court was told, conscious of the need to respect the authority of the local authority once a care order has been made and therefore to avoid purporting (by way of the recitals) to impose conditions on KCC as to its exercise of its parental responsibility<span style="font-style:italic"/>(see<span style="font-style:italic"> In Re T (A Child) (Care Proceedings: Court&#8217;s Function)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/650" uk:canonical="[2018] EWCA Civ 650" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 650</ref>; <ref href="#" uk:canonical="[2018] 4 WLR 121" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 4 WLR 121</ref>).</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">E</span>. The Court, in making a Care Order for [W], wishes the parents to be reassured as to how the Local Authority will exercise parental responsibility and the following matters are recited:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">F. </span>The Local Authority remains committed to working collaboratively and in partnership with the parents.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">G.</span> [W] will be subject to 6 monthly CLA Reviews, to which the parents will continue to be invited.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">H.</span> The parents will be consulted in respect of all aspects of care planning (including education and health) for [W] and invited to meetings.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">I. </span>The parents will receive periodic updates regarding [W] and are able to access weekly reports by the foster carer&#8217;s social worker.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">J.</span> [W] will continue to have the oversight of her Independent Review Officer.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">K.</span> In the event of disagreement as to decision-making for [W], the parents are able to contact the Team Manager and/or Independent Reviewing Officer or utilise the formal complaint process&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The grounds of appeal filed following the making of the care order can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The judge erred in determining that the proper use and purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> is for short-term and temporary accommodation when the provisions of the CA 1989 do not restrict or qualify the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> CA 1989 accommodation in such a way.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Having determined the above, the judge erred in attaching substantial weight and reliance on that determination as the primary reason for making a care order.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The judge erred in considering that she was able to influence or fetter the local authority&#8217;s exercise of its parental responsibility during the care order or, in the alternative, placed weight on this consideration as part of her welfare and decision-making evaluation.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The judge erred in concluding that the no order principle and least interventionist approach was rebutted in the circumstances of this case and in failing to identify, or identify properly, the welfare benefits to the child of her parents retaining sole parental responsibility.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaHeading"><span style="font-style:italic">The comparative roles of section 31 care orders and section 20 accommodation orders</span></heading>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Before moving on to consider the merits of each of the two appeals, it is helpful to understand not just the limits of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order, but also how it differs from a care order. Miss Fottrell KC summarised it by saying that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> care order is the more draconian order and more interventionist. This is undoubtedly the case as not only does a local authority acquire parental responsibility pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/3" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33(3)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> when a care order is made, but also under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/3" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33(3)</ref>(b)(i) CA 1989 the local authority may &#8216;determine the extent to which a parent may meet his [or her] parental responsibility&#8217; for the child in question. In other words, as it was put in argument, when a care order is made, the local authority may (by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/4" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33(4)</ref> CA 1989), in order to &#8216;safeguard or promote the child&#8217;s welfare&#8217;, &#8216;trump&#8217; the parents whenever there is an issue between them. By contrast, as Ms Fottrell says, a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> accommodation order facilitates partnership and where it is functioning well under an agreed care plan, not only is the making of a care order not necessary but it is disproportionate. To make a care order in such circumstances would not she submitted, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/5" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> CA 1989, be &#8216;better for the child than making no order at all.&#8217;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In deciding whether to make a care order, the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> paramountcy principle applies and the court must also have regard to the welfare checklist found at <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/3" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1(3)</ref> CA 1989. Finally, the court must carry out a proportionality cross check before making a care order.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The reasons for the difference between the two orders is plain to see; unlike a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> accommodation order, a court cannot make a care order unless the threshold criteria are satisfied under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31/2" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.25in">&#8220;<span style="font-family:'Times New Roman';font-size:12pt">That the child concerned is suffering, or is likely to suffer, significant harm; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.25in">b.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">That the harm, or likelihood of harm, is attributable to &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.75in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.75in"><span style="font-family:'Times New Roman';font-size:12pt">The care given to the child, or likely to be given to him if the order were not made, not being what it would be reasonable to expect a parent to give to him; or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.75in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The child&#8217;s being beyond parental control.</span>&#8221;</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A finding that the threshold criteria are satisfied does not automatically lead to the making of a care order (or a supervision order) and in conducting its welfare analysis the court has to have in mind the &#8216;no order principle&#8217; which applies under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/5" uk:canonical="1989 c. 40 s. 1" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Further, the fact that the threshold criteria are satisfied does not necessarily mean that the parents are culpable in any way. In each of the two appeals with which the court is concerned, the threshold was satisfied on the basis that the &#8216;harm or likelihood of harm&#8217; was attributable to &#8216;the child&#8217;s being beyond parental control&#8217; in the circumstances set out above.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/17" uk:canonical="1989 c. 40 s. 17" uk:origin="TNA" uk:type="legislation">Section 17</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> is concerned with the &#8216;provision of services for children in need, their families and others&#8217;. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/17" uk:canonical="1989 c. 40 s. 17" uk:origin="TNA" uk:type="legislation">Section 17</ref> CA 1989 has played no part in the submissions made in these appeals. It is worth noting, however, that care proceedings do not necessarily provide the only route by which children such as S and W may be assisted. Under Schedule 2 para.7(a)(i) every local authority is required to take all reasonable steps to reduce the need to bring proceedings for care or supervision orders and by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/17/6" uk:canonical="1989 c. 40 s. 17" uk:origin="TNA" uk:type="legislation">section 17(6)</ref> the services provided may, in certain circumstances, include the provision of accommodation. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">Section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, with which this appeal is concerned, provides for the provision of accommodation:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1in;text-indent:0.5in">Every local authority shall provide accommodation for any child in need within their area who appears to them to require accommodation as a result of&#8211; </p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1in;text-indent:0.5in">&#8230;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.5in;text-indent:0.5in">The person who has been caring for him being prevented (whether or not permanently, and for whatever reason) from providing him with suitable accommodation or care.</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/>     (2)&#8230;</p>
+		    </wrapUp>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/>     (3)&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in;text-indent:0.5in">A local authority may provide accommodation for any child within their area (even though a person who has parental responsibility for him is able to provide him with accommodation) if they consider that to do so would safeguard or promote the child&#8217;s welfare.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parameters of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> are found within the section itself and can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Parents may ask the local authority to accommodate a child as part of the services they provide for children in need:<span style="font-style:italic"> Williams &amp; Another v London Borough of Hackney </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/37" uk:canonical="[2018] UKSC 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 37</ref>, <ref href="#" uk:canonical="[2018] AC 421" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] AC 421</ref><span style="font-style:italic"/>at para. [41].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A local authority cannot provide accommodation if any person who has parental responsibility and is able to provide or arrange for accommodation to be provided for the child objects: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20/7" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20(7)</ref>.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There is no statutory limit upon the duration of an order for accommodation made under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref>. That this is the case was confirmed in <span style="font-style:italic">Williams v Hackney LBC</span> at para.[49].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Whilst a person with parental responsibility may not surrender or transfer any part of their parental responsibility, they may delegate it by arranging for some or all of it to be met by one or more persons on their behalf: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/2/9" uk:canonical="1989 c. 40 s. 2" uk:origin="TNA" uk:type="legislation">section 2(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>. In agreeing to the making of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order a parent is &#8216;simply delegating the exercise of her parental responsibility for the time being to the local authority&#8217;: <span style="font-style:italic">Williams v Hackney LBC </span>at para. [39].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Any person with parental responsibility may at any time remove the child from the accommodation: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20/8" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20(8)</ref>.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If there is a child arrangements order naming a person with whom the child is to live and that person agrees to the child being accommodated, then no other person with parental responsibility may either object to the placement under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20/7" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20(7)</ref> or remove the child from the accommodation under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20/8" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20(8)</ref>.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaHeading"><span style="font-style:italic">Williams and another v London Borough of Hackney</span></heading>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The leading authority on the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> is <span style="font-style:italic">Williams v Hackney LBC </span>in which Baroness Hale&#8217;s judgment considers the limits of a local authority&#8217;s powers and duties to provide accommodation for children in need under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Baroness Hale set out the critical distinction at para [1] of her judgment saying that whilst in practice the distinction between various categories of service is not always clear, it is in law: &#8216;Compulsory intervention in the lives of children and their families requires the sanction of a court process. Providing them with a service does not&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In her judgment, Baroness Hale conducted a comprehensive review of the scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref>, in particular at para [15] quoting from the </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">Government White Paper,&#160;</span><span class="coitalic" style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF">The Law on Child Care and Family Services</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#160;(1987) (Cm 62), which said:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#8230;the provision of a service by the local authority to enable a child who is not under a care order to be cared for away from home should be seen in a wider context and as part of the range of services a local authority can offer to parents and families in need of help with the care of their children. Such a service should, in appropriate circumstances, be seen as a positive response to the needs of families and not as a mark of failure either on the part of the family or those professionals and others working to support them.&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF">An essential characteristic of this service should be its voluntary character, that is it should be based clearly on continuing parental agreement and operate as far as possible on a basis of partnership and co-operation between the local authority and parents</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#8221;. [My italics]</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Baroness Hale went on to review the case law in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> commenting at para. [32] that in the cases she was considering &#8216;the main focus of the court&#8217;s criticism was that the local authority had delayed for a long time after accommodating the child under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> before issuing proceedings for a care order&#8217;. Baroness Hale went on to identify the various problems which had arisen in these types of case before going on at para [34] to quote with approval Hedley J&#8217;s observation <span style="font-family:'Times New Roman'">in</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/I0A32A9E0DCFB11E19964EDD347B3D264/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=909594b2fd454f4da7deb806f06e4ca3&amp;contextData=(sc.Search)" style="font-style:italic;text-decoration-line:none;font-family:'Times New Roman';color:initial">Coventry City Council</a><span class="Hyperlink" style="font-style:italic;text-decoration-line:none;font-family:'Times New Roman';color:initial"> v C</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#160;<ref href="#" uk:canonical="[2013] 2 FLR 987" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 FLR 987</ref> at paras [25] and [26]:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">"the emphasis in&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/IB817F970E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=909594b2fd454f4da7deb806f06e4ca3&amp;contextData=(sc.Search)" style="font-family:'Times New Roman';color:initial">Part III</a><span style="font-family:'Times New Roman'">&#160;is on partnership &#8230; any attempt to restrict the use of&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/IB824CAB1E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=909594b2fd454f4da7deb806f06e4ca3&amp;contextData=(sc.Search)" style="font-family:'Times New Roman';color:initial"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref></a><span style="font-family:'Times New Roman'">&#160;runs the risk both of undermining the partnership element in&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/IB817F970E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=909594b2fd454f4da7deb806f06e4ca3&amp;contextData=(sc.Search)" style="font-family:'Times New Roman';color:initial">Part III</a><span style="font-family:'Times New Roman'">&#160;and of encroaching on a parent's right to exercise parental responsibility in any way they see fit to promote the welfare of their child."</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Having set out a total of nine points in relation to the proper use and effect of orders under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> between paras [38] and [49] Baroness Hale concluded her analysis by saying that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;50.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">Thus, although the object of&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/IB824CAB1E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=909594b2fd454f4da7deb806f06e4ca3&amp;contextData=(sc.Search)" style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref></a><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#160;accommodation is partnership with the parents, the local authority have also to be thinking of the longer term. There are bound to be cases where that should include consideration of whether or not the authority should seek to take parental responsibility for an accommodated child by applying for a care order</span><span style="font-family:'Times New Roman'">&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Reverting to the improper use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref>, Baroness Hale emphasised at para [51], that &#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> must not be used in a coercive way; if the state is to intervene compulsorily in family life, it must seek legal authority to do so&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is common ground between the parties to this appeal that cases concerning the operation of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> in place of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> care order have to date emphasised the provision of accommodation for a child under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> as a short term or temporary solution. In <span style="font-style:italic">Worcestershire County Council v AA</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/1855" uk:canonical="[2019] EWHC 1855 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 1855 (Fam)</ref>, Keehan J suggested the following as a (non-exhaustive) list of examples of cases in which it may be appropriate for the local authority to accommodate a child under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> without making an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> CA for a care order (at [12]):</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">a young person where his/her parents have requested their child's accommodation because of behavioural problems and where the parents and social services are working co-operatively together to resolve the issues and to secure a return home in early course;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">children&#160;or young people where the parent or parents have suffered an unexpected domestic crisis and require support from social services to accommodate the&#160;children&#160;or young people for a short period of time;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">an unaccompanied asylum-seeking child or young person requires accommodation in circumstances where there are no grounds to believe the threshold criteria of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>&#160;CA&#160;1989&#160;are satisfied;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">children&#160;or young people who suffer from a medical condition or disability and the parent or parents seek(s) respite care for a short period of time; or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">a shared care arrangement between the family and the local authority where the threshold for&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> care is not met, yet where support at this intensive level is needed periodically through a childhood or part of a childhood.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst none of the examples given by Keehan J match precisely the facts in the two appeals before this court, the common thread (save with regard to asylum seekers) is the need by parents who are not at fault to secure longer term support and services by way of accommodation without the need for a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> order in circumstances where they will work in partnership with the local authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Recently, in <span style="font-style:italic">In the matter of H-W (Children)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2022/1451" uk:canonical="[2022] UKSC 1451" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKSC 1451</ref>, Dame Siobhan Keegan considered an appeal concerning the proportionality of care orders. The family with whom she was concerned were opposing the making of a care order with a care plan which would lead to the removal of three children from the family home with a view to placing them in separate long term foster placements. Dame Siobhan&#8217;s observations at para.[45] are equally apposite to these appeals:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;45.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The effect of a care order is to vest parental responsibility for the child in the local authority: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/33" uk:canonical="1989 c. 41 s. 33" uk:origin="TNA" uk:type="legislation">section 33</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. Thereafter, the parents can exercise their parental responsibility only to the extent that the local authority determines. As this court explained in&#160;<span style="font-style:italic">In re B</span>, that intrusive power clearly engages the article 8 rights of the parents and children. It follows that a care order can only be made, even if the statutory threshold criteria under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31/2" uk:canonical="1989 c. 40 s. 31" uk:origin="TNA" uk:type="legislation">section 31(2)</ref> are met, if such an order is necessary in a democratic society for the protection of the child(ren)&#8217;s right to grow up free from harm. That means that the order can be made only if it is proportionate to the needs of the situation. See especially Lord Wilson at paras 32-34, Lord Neuberger of Abbotsbury at paras 73-79 and Baroness Hale of Richmond at paras 194-198. And it follows also that, as Lord Wilson put it at para 45, a judge considering a care order has an obligation not to act incompatibly with the article 8 rights involved. In truth, the obligation under article 8 ECHR, so clearly recognised in&#160;<span style="font-style:italic">In re B</span>&#160;does no more than re-state the longstanding proposition of English childcare law that the aim must be to make the least interventionist possible order, but the emphasis given to the issue in&#160;<span style="font-style:italic">In re B&#160;</span>was overdue&#8221;.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This court must therefore consider in each case whether the judge, in granting the applications for a care order in respect of each of these two children, did indeed &#8216;make the least interventionist order possible&#8217;.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaHeading"><span style="font-style:italic">The Public Law Working Group</span></heading>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In March 2021 the Public Law Working Group, which was established by the President of the Family Division Sir Andrew McFarlane (&#8216;the President&#8217;) and which was chaired by Keehan J published its report (&#8216;PLWG report&#8217;). The report not only analysed current issues but also gave best practice guidance concerning, inter alia, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> orders.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Simultaneously with the publication of the report, the President issued a &#8216;message&#8217; on 1 March 2021 in which he expressed the view that the recommendations made were &#8216;both sound and necessary&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In its analysis of the current use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> orders, the PLWG report first referred to the judgment of Sir James Munby P in<span style="font-style:italic"> Re N (Children) (Adoption: Jurisdiction</span>) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1112" uk:canonical="[2015] EWCA Civ 1112" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 1112</ref>; <ref href="#" uk:canonical="[2016] 2 WLR 713" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 2 WLR 713</ref> (&#8216;<span style="font-style:italic">Re N&#8217;). </span>This was a substantial appeal about adoption. Sir James at para. [157] under the heading of &#8216;Other matters: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>&#8217;, said that too often arrangements under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> are allowed to continue for far too long and, having set out future good practice in relation to the obtaining of consent, he went on at para [171] to say:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;171.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The misuse and abuse of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> in this context is not just a matter of bad practice. It is wrong; it is a denial of the fundamental rights of both the parent and the child; it will no longer be tolerated; and it must stop. Judges will and must be alert to the problem and pro-active in putting an end to it. From now on, local authorities which use <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> as a prelude to care proceedings for lengthy periods or which fail to follow the good practice I have identified, can expect to be subjected to probing questioning by the court. If the answers are not satisfactory, the local authority can expect stringent criticism and possible exposure to successful claims for damages.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The PLWG report concluded that these trenchant observations had &#8216;significantly contributed to the decline in the (appropriate) use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s20</ref>&#8217;. In summarising the current situation, the PLWG report went on at para [232] to say:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In summary, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s20</ref>, contains important statutory provisions and the (appropriate) use of those provisions has sharply declined. This may have contributed to the increase in public law applications in circumstances where the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s20</ref> may have better met the needs of the subject children and their families. There is an identified urgent need to reverse the trend in the decline of the appropriate use of these provisions&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This analysis was followed up by a number of recommendations, the first of which, at para [234], said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;There should be no imposition of time limits for the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s20</ref>. There are no legal time limits in place. The imposition of time limits will be counterproductive. However, it is recommended that, where possible, the purpose and the duration of any <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s20</ref> accommodation is agreed at the outset and regularly reviewed&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The accompanying &#8216;Best Practice Guidance&#8217; is found at Appendix G of the PLWG report. Of relevance to the present appeal is para [18] which repeats the need to identify the context and purpose for which <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> is being considered and goes on to say that &#8216;this may be short term accommodation during a period of assessment or respite; alternatively, it may be a longer period of accommodation, including the provision of education or medical treatment&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am conscious of the need to be cautious of the use made of such guidance as a guide to the interpretation of the statute and remind myself that it can only ever be of &#8216;some persuasive authority&#8217; (<span style="font-style:italic">Ellis v Bristol City Council </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/685" uk:canonical="[2007] EWCA Civ 685" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 685</ref>; <ref href="#" uk:canonical="[2007] 1 WLR 1407" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 1407</ref> at [27]). The guidance with which we are concerned is not however strictly in relation to statutory interpretation. The statute is unambiguous; there is no time limit on the length of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> order. Rather, the guidance goes to the proper use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> orders by building on and fleshing out, the observations of Baroness Hale in <span style="font-style:italic">Williams v Hackney LBC.</span> For my part, I can see no inhibition on a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> order being made in appropriate circumstances for a longer period of accommodation provided that proper consideration is given to the purpose of the accommodation and that the regular mandatory reviews are carried out.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, I am of the firm view, in common with Ms Fottrell who appears on behalf of S&#8217;s mother, that judicial guidance from this court would be of little benefit. In my judgement, the statute is clear in its terms; the Supreme Court have given careful consideration to the role of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> in<span style="font-style:italic"> Williams v Hackney LBC </span>and the PLWG has only recently given detailed consideration to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> against the backdrop of public law proceedings as a whole. These strands together should serve to disabuse all those involved with the provision of services for children in need of continuing support of the notion that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> order can only properly be utilised to provide short term accommodation for a child. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Turning then to the approach and consequent decisions of the two judges in the appeal with which the court is concerned.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Discussion of the decision in Re S</span></heading>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his judgment, the judge said at para.[25] that the Guardian considered that there was a &#8216;significant risk&#8217; that the father would withdraw his consent in the future, the judge also relied on the father&#8217;s initial reluctance to sign the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> accommodation papers in order to conclude that there was a significant risk that the father would withdraw his consent:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It is because I consider the Local Authority do need to share parental responsibility that I am making this order. I consider they do need to share parental responsibility because I accept that there is a significant risk, on the evidence, that the father may withdraw his support in the future. I accept that the father is somebody who is unpredictable and has been difficult to contact and communicate with. Thirdly I accept that there have been real difficulties in the past and it may be necessary to regulate contact in the future&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge did not fall into the trap of proceeding on the basis that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> order should only be made for a limited duration and carefully considered whether an order should or should not be made on the facts of the case. He did however, in my judgement, fall into error in his assessment of the risk presented by the father to the stability of S and to his placement. This in turn resulted in his making what was in my view, a disproportionate order. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As was rehearsed by Dame Siobhan Keegan in <span style="font-style:italic">In the matter of H-W</span> at para.[52], <span style="font-family:'Times New Roman'">&#8216;</span><span style="font-family:'Times New Roman';color:#000000">It is necessary as a matter of law for the court when asked to decide whether to make a care order to consider: (a) the nature and likelihood of risk of harm arising; and (b) the consequence of harm, if suffered&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, whilst the father&#8217;s mental health and addiction issues would undoubtedly have presented considerable risk factors had S been living at home and/or S&#8217;s mother failed to demonstrate an ability to protect S from the consequences of those difficulties, the situation here is very different. The father has never interfered in the care of S both when he was living at home and since he has lived at LH. True it is that, for a period of some weeks after S went to live at LH and in circumstances where on their own admission, LBS had failed properly to keep him informed, S&#8217;s father unhelpfully declined to sign the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> accommodation forms. Since he signed the forms, however, there has never been any hint that he may withdraw his consent. It should be recollected that the Guardian, far from saying there was a &#8216;significant risk&#8217; that the father would withdraw his consent, felt the most likely risk was that the father would disappear from S&#8217;s life altogether (although she realistically said in relation to the risk that he might withdraw his consent in the future, &#8216;never say never&#8217;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge also relied on the father&#8217;s unpredictability and the fact that he is difficult to contact. Both of these observations are undoubtedly the case, but when thinking of the consequences of these features, in reality they relate to the risk of the father disengaging from the LBS and failing to come and visit S as opposed to disrupting his placement. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, the risk identified by the Guardian in her report (as opposed to that as categorised in the Guardian&#8217;s position statement) does not lead to the making of a care order being a proportionate response to the identified risk.  Even when taken together with the father&#8217;s unpredictability in relation to attending contact. This is all the more the case when considered against the backdrop of the mother&#8217;s unimpeachable behaviour and the fact that S is secure in residential care. There is nothing in the evidence to justify restricting, as a care order inevitably would, the mother&#8217;s exercise of parental responsibility.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is common ground that the attention of the judge was not drawn to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20/9" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20(9)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> which would have had the effect of depriving the father of the ability to withdraw his consent to the accommodation order in the event that there was a &#8216;lived with&#8217; order made in favour of S&#8217;s mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The court was told that the father always has been and still would be prepared to consent to the making of such an order if it would provide LBS with additional reassurance. Counsel on behalf of LBS submitted that such an order could not be made in circumstances where a child was already in residential care. For my part, I do not see why not. What if for example, the residential unit was a specialist residential unit where the child in question returned to a parent at weekends or during school holidays?  If the parents subsequently separated, surely then a lived with order could be made to determine with whom the child lived when not at the unit? This point was not however fully argued before the court and it is unnecessary for the purposes of the appeal to go beyond this preliminary view.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaHeading"><span style="font-style:italic">Discussion of the decision in Re W:</span></heading>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The focus of the appeal in relation to <span style="font-style:italic">Re W </span>is whether the judge was wrong to approach the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> on the basis that it is intended to be used on a &#8216;more short-term basis&#8217;. The judge carefully noted that there is, to date, no authority on the long-term use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> cases &#8216;where there is full collaboration&#8217;. She considered the PLWG report but concluded that it was looking at a different type of case. The judge was reinforced in that view by the fact that the Independent Reviewing Officer from KCC also believed that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order was a short-term order. The judge also had in mind that, given W&#8217;s history of &#8216;very troubling behaviours&#8217;, there was likely to be challenging times ahead in her teenage years which would require &#8216;the ongoing exercise of parental responsibility and boundary setting&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Reading the judgment as a whole, it is clear that the judge was heavily influenced by her belief that <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> orders should only be used as a short-term measure. That error led the judge to approach the risk and proportionality exercises with the balance too heavily weighted in favour of the making of a care order. The judge&#8217;s discomfort with making such an order against a factual background so very removed from the earlier case law was clearly reflected in her request that the recitals set out above should be included in the order. These recitals, even after having been &#8216;carefully crafted by counsel&#8217;, came perilously close to purporting to dictate the manner in which the local authority&#8217;s care plan was to be implemented (see <span style="font-style:italic">Re T</span> para.[38]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my view, recitals of this nature have no place in an order as they either simply rehearse the local authority&#8217;s duties as prescribed by statute and regulation or, if they go further, are in danger of seeking to maintain control after the care order is made. In saying that, I should be clear that I wholly endorse the observations of Peter Jackson LJ in<span style="font-style:italic"> Re T </span>that it is not open to a local authority to decline to accept a court&#8217;s assessment of risk and welfare.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In her short ex-tempore judgment, the judge, whilst referring to the no order principle, did not refer to the welfare checklist. Had she done so, it may be that a more detailed analysis of the welfare benefits for and against the making of a care order would have been in sharper focus.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge in effect used as a makeweight the behavioural difficulties which she suggested may well arise during W&#8217;s teenage years. I have thought carefully whether, notwithstanding the judge&#8217;s error of law in relation to the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> orders, it would nevertheless be proportionate to make a care order to provide the local authority with the power under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> which would allow it to limit the extent to which the parents might utilise their parental responsibility in the event that issues in relation to setting boundaries or challenging behaviour should arise in future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, this concern would not justify the making of a care order. Upon the making of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order the parents delegate the exercise of their parental responsibility to the local authority (see<span style="font-style:italic"> Coventry City Council v C</span>, and<span style="font-style:italic"> Re N (Adoption Jurisdiction) </span>above). In reality, in this case that delegation is to the foster carers. The relationship between the parents and the foster carers has been tried and tested over many difficult and challenging months. There is no evidence to support the judge&#8217;s speculation that, given W&#8217;s history, trouble may lie ahead of a type which will necessitate the local authority having parental responsibility in order for her behaviour to be managed. The evidence before the judge was that W&#8217;s mother has at every stage accepted advice, particularly in relation to the distressing issue of the reintroduction of contact as between herself and W.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Further, the Care Planning, Placement and Case Review (England) Regulations 2010 rule 33(2) (&#8216;CPPCR&#8217;) requires the local authority to review W&#8217;s case at intervals of not more than six months regardless of whether the placement is by way of a care order or under a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order. There is also power under CPPCR rule 33(3)(a) to carry out a review before six months if the Independent Reporting Officer so requests. The considerations to which the local authority must have regard when reviewing a child&#8217;s case are set out in detail in CPPCR Schedule 7. Those extensive requirements, which include consideration of placement and contact arrangements, apply equally to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> placements as to placements under a care order.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows that, whilst KCC have delegated parental responsibility under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> rather than statutory parental responsibility under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, they do have delegated parental responsibility together with significant input into the arrangements for a child in their care through the review process. Taken together, this allows them to be highly influential in any decisions which relate to the welfare of W. In the unlikely event that these parents cease to co-operate or wish to act in a way which is regarded as contrary to the best interests of W, KCC can issue care proceedings and apply for an interim care order so as to maintain her placement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, the judge, through the use of the recitals recorded on the face of the order, did her level best to protect the role of these irreproachable parents within what she regarded as the confines of her jurisdiction. Had she not felt so constrained, it seems likely that she would not have regarded a care order to have been a proportionate outcome. In order to have done so, she would have had to decide that, notwithstanding the excellent working relationship between the foster carers and the parents, the risk of behavioural challenges on the part of W in the future were of a nature and extent that the local authority would need the statutory power under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="1989 c. 40 s. 33" uk:origin="TNA" uk:type="legislation">section 33</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> to limit the parent&#8217;s use of their parental responsibility.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows that, in my judgement, the appeal on the ground that the judge had sought by the use of the recitals to influence or fetter the local authority&#8217;s exercise of parental responsibility will be dismissed. The judge however fell into error in her approach to the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> which in turn impacted on her approach to the &#8216;no order&#8217; principle. In those circumstances, the appeal against the making of a care order is allowed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Conclusion and outcome</span></heading>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In each of the appeals I have concluded that appeals against the making of a care order should be allowed. No party in either case have suggested that the matter should be remitted for reconsideration. It follows therefore that both of these children will remain in the long-term placements provided by the respective local authorities under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would simply conclude by saying that each of these two cases must be viewed in the context in which they have come before this court, that is to say in relation to children who are settled in long-term placements which are meeting their respective needs in circumstances where both the placements and the accompanying care plans are supported by the parents. As the judge in<span style="font-style:italic"> Re W </span>observed, no court has hitherto considered the use of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/20" uk:canonical="1989 c. 40 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> order in this type of situation and it is hoped that this appeal will have served to fill that gap. Nothing I have said should on any view be taken to seek to undermine or dilute the Supreme Court&#8217;s decision in<span style="font-style:italic"> Williams v Hackney LBC</span>.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Lord Justice Arnold:</span></heading>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Lord Justice Warby:</span></heading>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

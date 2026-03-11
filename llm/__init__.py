@@ -1,0 +1,1 @@
+# LegalKGent — LLM Client & Prompts

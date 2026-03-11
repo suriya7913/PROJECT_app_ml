@@ -1,0 +1,693 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/5"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/5"/>
+	  <FRBRdate date="2022-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="5"/>
+	  <FRBRname value="Paul Cleeland (R on the application of) v Criminal Cases Review Commission"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/5"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/5"/>
+	  <FRBRdate date="2022-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/5/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/5/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:14:05" name="transform"/>
+	  <FRBRdate date="2025-07-19T04:57:13" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-01-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="paul-cleeland-r-on-the-application-of" href="" showAs="PAUL CLEELAND (R on the application of)"/>
+	<TLCPerson eId="criminal-cases-review-commission" href="" showAs="CRIMINAL CASES REVIEW COMMISSION"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-underhill" href="/judge-lord-justice-underhill" showAs="LORD JUSTICE UNDERHILL"/>
+	<TLCPerson eId="judge-lady-justice-andrews" href="/judge-lady-justice-andrews" showAs="LADY JUSTICE ANDREWS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>5</uk:number>
+	<uk:cite>[2022] EWCA Civ 5</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>fa8f43357b8c28ce5a9ec83f2a27a4901849e9c89bb1932f47c73932ff8f114d</uk:hash>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:1.0597222222222222in;height:1.05in;"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWCA Civ 5</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>C1/2021/1555/PTA</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">QUEEN&#8217;S BENCH DIVISION, ADMINISTRATIVE COURT</p>
+      <p class="CoverMain">MR JUSTICE LAVENDER</p>
+      <p class="CoverMain">CO/227/2020</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-01-11" refersTo="#judgment">11/01/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-underhill">LORD JUSTICE UNDERHILL</judge></p>
+      <p class="CoverMain" style="text-align:center"> (Vice-President, Court of Appeal, Civil Division)</p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE BEAN<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-andrews">LADY JUSTICE ANDREWS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1.00in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#paul-cleeland-r-on-the-application-of" style="font-weight:bold">THE QUEEN on the application of PAUL CLEELAND</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#criminal-cases-review-commission" style="font-weight:bold">CRIMINAL CASES REVIEW COMMISSION</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Edward Fitzgerald QC and Abigail Bright</span> (instructed by <span style="font-weight:bold">Arora Lodhi Heath</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sarah Clover </span>(instructed by<span style="font-weight:bold"> CCRC</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 8 December 2021</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Bean :</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 25 October 2019 the Criminal Cases Review Commission (&#8220;CCRC&#8221;) decided not to refer to the Court of Appeal, Criminal Division (&#8220;CACD&#8221;) the conviction of the Claimant, Paul Alexander Cleeland, on 25 June 1973 for murder. By a claim form issued on 22 January 2020 Mr Cleeland applied for permission to seek judicial review of that decision. Permission was refused on the papers by Garnham J on 13 March 2020. The Claimant renewed his application to an oral hearing. In a reserved judgment handed down on 30 June 2021 Lavender J dismissed the application. Mr Cleeland seeks permission to appeal to this court. The first question is whether we have jurisdiction to entertain the appeal.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Jurisdiction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Court of Appeal (Civil Division) has no jurisdiction to hear an appeal, or an application for permission to appeal, in a criminal cause or matter (<ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/18/1" uk:canonical="1981 c. 54 s. 18" uk:origin="TNA" uk:type="legislation">s.18(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>). In <span style="font-style:italic">R (Saxon) v CCRC</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/1384" uk:canonical="[2001] EWCA Civ 1384" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 1384</ref> it was decided that an application to review a decision of the CCRC not to refer a criminal conviction came within the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/18/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.18(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> as being a decision in a criminal cause or matter, so that this court has no jurisdiction. However, it seems plain to me (and Ms Clover for the CCRC accepts) that this cannot stand in the light of the decision of the Supreme Court in <span style="font-style:italic">Re McGuinness </span><ref href="#" uk:canonical="[2021] AC 392" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] AC 392</ref>; <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2020/6" uk:canonical="[2020] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKSC 6</ref>. The question in that case was whether a convicted murderer, Michael Stone, would be first eligible for release on licence in 2018 or 2024. The Parole Commissioners for Northern Ireland decided that the tariff expiry date was in 2018. Mrs McGuinness, widow of one of Stone&#8217;s victims, sought judicial review. The Divisional Court of the Queen&#8217;s Bench Division in Northern Ireland upheld her challenge and held that the correct date was 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Before the Divisional Court all parties accepted that the case was a &#8220;criminal cause or matter&#8221;. Mr Stone applied for and was granted a certificate that a point of law of general public importance was involved and the Supreme Court itself granted him permission to appeal. However, the Attorney General for Northern Ireland was permitted to intervene and to contend that the Supreme Court had no jurisdiction to hear a direct appeal from the Divisional Court because this was not a criminal cause or matter. The Supreme Court upheld this contention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Although the issue about Mr Stone&#8217;s eligibility for release arose under the Belfast Agreement of 1998, the statutory provisions relating to routes of appeal are identical for England and Wales and for Northern Ireland, in particular the restriction on appeals from the High Court to the Court of Appeal in a criminal cause or matter. Lord Sales, with whom the other Justices agreed, reviewed what he described as the &#8220;tangled web of jurisprudence&#8221; surrounding the phrase &#8220;criminal cause or matter&#8221;. He pointed out at [68] that if the phrase is given an &#8220;overly expansive interpretation&#8221;, this &#8220;would have the effect of reducing to an unacceptable degree parties&#8217; access to justice at appellate level, leaving pockets of unchallengeable, potentially erroneous first instance decisions.&#8221; In paragraph [77] he referred to the decision of the House of Lords in <span style="font-style:italic">Amand v Home Secretary </span><ref href="#" uk:canonical="[1943] AC 147" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1943">[1943] AC 147</ref>. That case explained how to identify what counts as a decision in a criminal cause or matter. Viscount Simon LC said that the question was whether the High Court proceedings were proceedings &#8220;the direct outcome of which may be trial of the applicant and his possible punishment for an alleged offence by a court claiming jurisdiction to do so&#8221;. Lord Wright said that the question was whether they were proceedings &#8220;which, if carried to [their] conclusion, might result in the conviction of the person charged and in a sentence of some punishment&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Applying those tests (which seem to me indistinguishable), Lord Sales held that the issue of Mr Stone&#8217;s tariff expiry date was not a decision in a criminal cause or matter and that the correct route of appeal from the Divisional Court was to the Northern Ireland Court of Appeal. I would hold that the <span style="font-style:italic">Saxon</span> case has clearly been overruled by <span style="font-style:italic">McGuinness </span>and that we therefore have jurisdiction to hear this application for permission to appeal. I note that the Divisional Court in Northern Ireland has taken the same view in <span style="font-style:italic">Re Quinn </span>[2020] NIQB 24.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Principles applicable to judicial review of the CCRC</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Prior to the establishment of the CCRC the only course open to a serving prisoner whose appeal against conviction or sentence had been dismissed was to petition the Home Office for a review of his case. The <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35" uk:canonical="1995 c. 35" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1995</ref> changed this by establishing the CCRC with the power under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35" uk:canonical="1995 c. 35" uk:origin="TNA" uk:type="legislation">the Act</ref> to refer a conviction to the CACD. Section 13(1)(a) provides that &#8220;a reference of a conviction <span style="font-style:italic">shall</span><span/><span style="font-style:italic">not</span> be made&#8221; [emphasis added] unless the Commission considers that there is a real possibility that the conviction would not be upheld. That raises the issue of what test the CACD applies when deciding whether to uphold a conviction in cases where evidence is put before them which was not before the jury at the appellant&#8217;s trial.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Principles applicable to fresh evidence cases in the CACD</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/2" uk:canonical="1968 c. 19 s. 2" uk:origin="TNA" uk:type="legislation">Section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1968</ref> (as amended) provides that, subject to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">the Act</ref>, the Court of Appeal:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(a) shall allow an appeal against conviction if they think that the conviction is unsafe; and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(b) shall dismiss such an appeal in any other case&#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 23(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> gives the CACD the power to receive any evidence which was not adduced at the trial. <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/23/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 23(2)</ref> provides that:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.08in;margin-right:0.45in;text-indent:-0.50in">&#8220;The Court of Appeal shall in considering whether to receive any evidence, have regard in particular to-</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">a)</num>
+	  <content>
+	    <p class="ParaLevel3" style="margin-left:1.48in">whether the evidence appears to the court to be capable of belief;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">b)</num>
+	  <content>
+	    <p class="ParaLevel3" style="margin-left:1.48in">whether it appears to the court that the evidence may afford any ground for allowing the appeal&#8230;&#8230;&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Fitzgerald QC relied on the speech of Lord Bingham in <span style="font-style:italic">R v Pendleton </span><span style="color:#3D3D3D;background-color:#FFFFFF"><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2001/66" uk:canonical="[2001] UKHL 66" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] UKHL 66</ref>;</span><span style="font-style:italic"/><ref href="#" uk:canonical="[2002] 1 WLR 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 WLR 72</ref> on the approach to the safety of a conviction in a fresh evidence appeal. The following points emerge from Lord Bingham&#8217;s speech:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1) The Court of Appeal is not, and should never become, the primary decision maker.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2) The Court of Appeal &#8220;has an imperfect and incomplete understanding of the full processes which led the jury to convict. The Court of Appeal can make its assessment of the fresh evidence it has heard but save in a clear case it is at a disadvantage in seeking to relate that evidence to the rest of the evidence which the jury heard.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(3) In a case of any difficulty, it will usually be wise for the Court to test its own provisional view by asking whether the fresh evidence might reasonably have affected the decision of the trial jury to convict.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(4) If the fresh evidence might reasonably have affected the decision of the jury then the conviction must be thought to be unsafe.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">However, it is clear from subsequent decisions of high authority that <span style="font-style:italic">Pendleton </span>does not alter the principle that the ultimate responsibility for deciding whether a conviction is safe rests with the CACD. In <span style="font-style:italic">Dial v Trinidad and Tobago</span><span style="font-family:'Source Sans Pro';font-size:10.5pt;color:#3D3D3D;background-color:#FFFFFF"/><span class="cosearchdetaillevel1" style="color:#3D3D3D;background-color:#FFFFFF"><ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2005/4" uk:canonical="[2005] UKPC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKPC 4</ref>,</span><span style="font-style:italic"/><ref href="#" uk:canonical="[2005] 1 WLR 1660" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 1660</ref> Lord Brown of Eaton-under-Heywood, giving the advice of the Judicial Committee of the Privy Council (one of whose members sitting on the appeal was Lord Bingham), said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The law is now clearly established and can simply be stated as follows. Where fresh evidence is adduced on a criminal appeal it is for the Court of Appeal, always assuming that it accepts it, to evaluate its importance in the context of the remainder of the evidence in the case. The primary question is for the court itself and is not what effect the fresh evidence would have had on the mind of the jury.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-style:italic">R v Noye </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/650" uk:canonical="[2011] EWCA Crim 650" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Crim 650</ref> Lord Judge CJ reaffirmed the position that the ultimate responsibility for deciding whether a conviction was safe rested with the CACD. He recognised at [31] the difficulties which can face the court when assessing the impact of fresh evidence on the safety of the conviction. But, he said, the essential question was whether in the light of the fresh evidence the conviction was unsafe. The responsibility rested with the court.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The test for the CCRC to apply</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"> It follows that the question for the CCRC to answer, when asked to refer a conviction to the CACD, is whether the CCRC considers that there is a real possibility that the CACD will admit the fresh evidence and in the light of it will consider the conviction unsafe. Mr Fitzgerald accepted that this is the usual position but argued that special principles apply where the fresh evidence is not extraneous to the evidence which was before the jury but undermines it. He drew our attention to the well-known case of <span style="font-style:italic">Barry George</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2007/2722" uk:canonical="[2007] EWCA Crim 2722" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Crim 2722</ref>. In that case a crucial element of the otherwise circumstantial case against the defendant was that a single particle of firearm discharge residue (FDR) had been found in the pocket of the defendant&#8217;s coat. The CACD quashed the conviction for murder and ordered a retrial (at which Mr George was acquitted). </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The CACD said:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;52 &#8230; We have to decide whether, had the evidence that we have heard been adduced at the trial, this might reasonably have affected the decision of the jury to convict, for this is a good test of whether, in the light of the fresh evidence, the conviction is unsafe &#8211; see <span style="font-style:italic">R v Pendleton</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2001/66" uk:canonical="[2001] UKHL 66" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] UKHL 66</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">53. The answer to this question is provided by the trial judge. After summarising the evidence in relation to the FDR he said:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.28in">"Nevertheless, you may think that the evidence of the particle is an important part of its case. If you are not sure that the prosecution has proved its case on this issue, you have to ask yourselves: can we be sure that the other evidence, about which we are sure, drives us to the inevitable conclusion that this defendant killed Jill Dando to the exclusion of all other explanations or possibilities?</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.28in">As I said to you earlier towards the start of my summing-up: in those circumstances, you may think you would have to be cautious - - very cautious - - and careful before arriving at that conclusion."</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">54. It is impossible to know what weight, if any, the jury attached to the FDR evidence. It is equally impossible to know what verdict they would have reached had they been told as we were told, by the witnesses who gave evidence before us, that it was just as likely that the single particle of FDR came from some extraneous source as it was that it came from a gun fired by the appellant. The verdict is unsafe. The conviction will be quashed.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">With respect to Mr Fitzgerald I cannot accept that this case is authority for the proposition which he advances that, where scientific evidence placed by the prosecution before the jury is undermined by fresh evidence, the CACD is bound to quash the conviction unless they take the view that the jury would &#8220;inevitably&#8221; have convicted. The test remains the one set out in <span style="font-style:italic">Dial </span>and in <span style="font-style:italic">Noye</span>. It is clear from the passage in the summing up of the trial judge in <span style="font-style:italic">Barry George</span> quoted by the CACD at [53] that in that case the FDR evidence was crucial. Each case in this respect depends on its own facts.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Principles applicable to judicial review of the CCRC</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-style:italic">R v CCRC, ex parte Pearson </span><ref href="#" uk:canonical="[2000] 1 Cr App R 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 Cr App R 141</ref> DC, Lord Bingham CJ (with whom Ognall J agreed), held that:- (a) the judgment under section13(1)(a) is entrusted to the CCRC and no-one else; (b) save in exceptional circumstances the CCRC must make its judgment on the basis of evidence or argument which has not already been placed before a court; and (c) on an application for judicial review the duty of the court is not to consider whether the CCRC was right or wrong but only whether its decision was lawful. At [55] Lord Bingham said that when the High Court is considering a claim for judicial review of a decision of the CCRC:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230;.we are not sitting as a court of appeal but as a court of review, and it is no part of our duty to decide whether the Commission's conclusion was right or wrong but only whether it was lawful or unlawful. We are clearly of opinion that it was not irrational. Nor was it vitiated by legal misdirection. It is not, however, in our judgment appropriate to subject the Commission's reasons to a rigorous audit to establish that they were not open to legal criticism. The real test must be to ask whether the reasons given by the Commission betray, to a significant extent, any of the defects which entitle a court of review to interfere ...&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At [59] Lord Bingham added:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The question lay fairly and squarely within the area of judgment entrusted to the Commission. If this court were to hold that a decision one way or the other was objectively right or objectively wrong, it would be exceeding its role. The Divisional Court will ensure that the Commission acts lawfully. That is its only role.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Lord Bingham&#8217;s successor as Lord Chief Justice was Lord Woolf. In <span style="font-style:italic">R (Hunt) v. Criminal Cases Review Commission </span>[2001] 2 Cr. App. R 76 (DC<span style="font-style:italic">),</span> he said:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; it is important that the courts should not in inappropriate cases allow the Commission to be sucked into judicial review proceedings which are bound to detract it from fulfilling its statutory role.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-style:italic">Mills &amp; Poole v. Criminal Cases Review Commission</span>[2001] EWHC (Admin) 1153, Lord Woolf CJ (giving the judgment of the court) repeated the warning.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;[14] ... It is important that this court does not fall into the trap of forming a view as to how the Court of Appeal would react and then concluding that that is what the Commission should necessarily have concluded, since this would be to usurp the Commission's function. Decisions of the Commission cannot be quashed merely because a court on a judicial review might have or indeed would have come to a different view of the significance of the material or the prospects of success.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">That remains good law today. In <span style="font-style:italic">R (Charles) v Criminal Cases Review Commission </span>[2017]<span style="font-style:italic"/>2 Cr App R 14 at [47]<span style="font-style:italic"/>the Divisional Court (Gross LJ and Singh J) summarised the authorities as follows:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(i) The CCRC exercises an important residual jurisdiction in the interests of justice.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(ii) The decision whether or not a case satisfies the threshold conditions and is to be referred to the CACD is for the CCRC and not the Court; it is not for the Court to usurp the CCRC's function.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(iii) The judgment required of the CCRC is unusual, carrying with it the predictive exercise as to the view the CACD might take.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(iv) The threshold conditions serve as an important filter, not least in preventing the CACD from inundation with threadbare cases; they also assist in striking the right balance between the interests of justice on the one hand and those of finality on the other.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(v) Even if the threshold conditions are satisfied, the CCRC retains a discretion not to refer a case to the CACD.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(vi) Though the decisions of the CCRC, whether or not to refer cases to the CACD, clearly are subject to judicial review (see recently, <span style="font-style:italic">R v. Neuberg</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2016/1927" uk:canonical="[2016] EWCA Crim 1927" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Crim 1927</ref>, at [52]-[53]): (1) the CCRC should not be vexed with inappropriate applications impacting on scarce resources; the Court's scrutiny at the permission stage is thus of importance; (2) on a judicial review, CCRC <span style="font-style:italic">reasons</span> should not be subjected to a 'rigorous audit' to establish that they were not open to legal criticism.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Mr Cleeland&#8217;s previous challenges to his conviction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In 1973 the Claimant applied to the CACD for permission to appeal against his conviction. That application was refused by the full court on 26 February 1976.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The subsequent history is helpfully summarised in the judgment of Lavender J. On five occasions between 1986 and 1996 the Claimant petitioned the Home Secretary for a reference to the Court of Appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/17" uk:canonical="1968 c. 19 s. 17" uk:origin="TNA" uk:type="legislation">section 17</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1968</ref>. Those petitions were all unsuccessful, as were applications for judicial review of two of the Secretary of State's decisions, made in 1991 and 1992. As part of those proceedings, judgments were given by the Divisional Court on 2 October 1991 and by Simon Brown J on 28 November 1991.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Claimant sought to prosecute the civil servant who prepared a memorandum for the Secretary of State in connection with his petition submitted in March 1986. The magistrate refused to issue a summons. The Claimant applied for judicial review. That application was dismissed: <span style="font-style:italic">R. v Horseferry Road Magistrates' Court, ex p. Cleeland</span>[1992] C.O.D. 110.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In connection with his petitions, the Claimant applied for disclosure of various documents and applied for judicial review of the Secretary of State's refusal to disclose certain police reports. The Divisional Court dismissed that application: <span style="font-style:italic">R. v Secretary of State for the Home Department, ex p. Cleeland </span>[1996] C.L.Y. 1366.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Once the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35" uk:canonical="1995 c. 35" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1995</ref> came into effect, on 20 July 1997 the Claimant applied to the Commission for his case to be referred to the Court of Appeal (Commission reference 00713/1997). On 23 October 1998 the Commission refused to refer the case, but that refusal was quashed by the Divisional Court on 21 January 2000, in an order made by consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 18 September 2000 the Claimant sought judicial review of the Commission's decision not to require further tests, including weight analysis of shot pellets. Permission to apply for judicial review was refused on 10 October 2000.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Commission obtained a report from Mr Spencer, a firearms expert, which was in part critical of Mr McCafferty, an expert who had testified at the trial. On the basis of Mr Spencer's report and its possible effect on the reliability of the evidence of Mr McCafferty, on 24 October 2000 the Commission referred the case to the Court of Appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35/section/9" uk:canonical="1995 c. 35 s. 9" uk:origin="TNA" uk:type="legislation">section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/35" uk:canonical="1995 c. 35" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1995</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Spencer gave evidence before the Court of Appeal, as did another expert, Mr Pryor. Mr McCafferty did not give evidence, because he was dead. Unusually, the Claimant himself was allowed to cross-examine the witnesses who gave evidence before the Court of Appeal and to make submissions to the Court of Appeal in addition to those made by his counsel. He advanced 20 grounds of appeal. On 13 February 2002 the Court of Appeal dismissed his appeal: <span style="font-style:italic">R v Cleeland</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2002/293" uk:canonical="[2002] EWCA Crim 293" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Crim 293</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At the trial the prosecution case had been that the murder weapon was a Gye and Moncrieff shotgun. One of the grounds of appeal in the 2002 judgment concerned two sawn-off shotguns which had been found by Essex police in a stream near Harlow in November 1972. The evidence of Mr Pryor and Mr Spencer was that neither of these was used in the murder of Terrence Clark. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Claimant made 8 applications to the Commission between the dismissal of his appeal in 2002 and the application which resulted in the decision of 25 October 2019. Again, I gratefully adopt Lavender J&#8217;s summary of them:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(1) In 2002 the Claimant made an application to the CCRC (Commission reference 00661/2002). That was refused on 31 March 2003. An application for permission to apply for judicial review was refused.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(2) The Claimant made another application in 2003 (Commission reference 00660/2003). That was refused on 1 March 2004.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(3) The Claimant made another application on 22 February 2007 (Commission reference 00229/2007). He asked that his application be given priority. The Commission refused. He sought judicial review of that refusal. On 15 August 2007 Burton J refused permission to apply for judicial review of that decision and on 18 December 2007 the Divisional Court dismissed the Claimant's renewed application for permission to apply for judicial review: <span style="font-style:italic">Cleeland v CCRC </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2007/3360" uk:canonical="[2007] EWHC 3360 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 3360 (Admin)</ref>. On 29 April 2008 the CCRC refused the Claimant's application. He was granted permission to apply for judicial review, but on 19 February 2009 the Divisional Court refused judicial review: <span style="font-style:italic">Cleeland v CCRC</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2009/474" uk:canonical="[2009] EWHC 474 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 474 (Admin)</ref>. A subsequent application for permission to apply for judicial review of the Commission, made in 2012, was also refused.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(4) The Claimant made two applications to the Commission in 2013 (Commission references 00563/2013 and 01417/2013), one of which was refused on 27 September 2013 and the other on 22 April 2014. He sought judicial review of each decision. His application in relation to the first decision was heard on 19 November 2014: <span style="font-style:italic">The Queen on the application of Paul Cleeland v CCRC</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2014/4594" uk:canonical="[2014] EWHC 4594 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 4594 (Admin)</ref>. Judicial review of the second decision was refused by the Divisional Court on 9 March 2015: <span style="font-style:italic">The Queen (on the application of Cleeland) v CCRC</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2015/155" uk:canonical="[2015] EWHC 155 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 155 (Admin)</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(5) The Claimant made an application to the Commission in 2016 (Commission reference 01115/2016), which was refused on 24 May 2017. He again sought judicial review, which was refused by the Divisional Court (Simon LJ and Farbey J) on 10 May 2019: <span style="font-style:italic">The Queen on the application of Paul Cleeland v CCRC</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/1175" uk:canonical="[2019] EWHC 1175 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 1175 (Admin)</ref>. It is relevant to note what is said in paragraph 78 of that judgment in respect of an application by the Claimant for permission to amend the claim form so as to rely on a point which he had not previously raised:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">"It cannot be open to a person to challenge a CCRC decision on grounds of irrationality or illegality in circumstances where the CCRC has not been referred to the evidence in question."</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(6) The Claimant made another application to the Commission in 2017 (Commission reference 00588/2017). This was refused on 3 July 2018.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Cleeland made another application to the Commission on 16 May 2019, less than a week after the Divisional Court had refused his latest application for judicial review. It was refused on 25 October 2019. The reasons for that refusal, which is the decision under review, are set out in three documents:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(1) a Provisional Statement of Reasons dated 15 July 2019 ("the First Statement of Reasons");</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(2) a Provisional Statement of Reasons dated 27 August 2019 ("the Second Statement of Reasons"); and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">(3) a Final Statement of Reasons dated 25 October 2019.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In summary, the Commission did not consider that the Claimant's most recent application gave rise to any issue which could be investigated which would make a difference to the decision which the Commission had previously made not to refer the Claimant's case to the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The CCRC&#8217;s decision under review. </span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Although the application for judicial review is directed at the Final Statement of Reasons dated 25 October 2019 (which was the only one of the series of documents dated within three months of the claim form, and is a relatively short letter), it was common ground that the three documents should be taken as a whole. In particular, the 15 July and 27 August 2019 documents give much more detail than the later ones. Nothing turns on that, and no point has been taken that the application to the Administrative Court was out of time.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Each of the three documents consists of a letter accompanied by some standard printed pages including this passage which appears to me to be an accurate statement of the law:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">The CCRC&#8217;s Powers to Refer</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">The CCRC may refer your conviction to the court if:-</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1) there is a real possibility that your conviction would be overturned if it were referred; and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2) this real possibility arises from evidence or argument which was not put forward at your trial or appeal (or there are exceptional circumstances)&#8230;&#8230;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">A footnote indicates that &#8220;exceptional circumstances to allow us to refer a case without something new are extremely rare&#8221;. </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the 15 July 2019 document the CCRC dealt in detail with a report from an expert, Mr Dudley Gibbs, which criticised the expert evidence of Mr Spencer before the CACD in 2002. Mr Cleeland went further and accused Mr Spencer of having committed perjury at the CACD hearing. He submitted to the CCRC that Mr McCafferty, who had given expert evidence at the original trial, had been entirely discredited, and argued that further expert evidence could and should be obtained. The CCRC considered whether seeking further expert evidence would be capable, at its highest, of yielding new evidence raising a real possibility that Mr Cleeland&#8217;s conviction would not be upheld by the Court of Appeal and concluded that it would not. The Commission also took the view that even if any further expert evidence did support the proposition that the Gye and Moncrieff shotgun was not the murder weapon, it had to be weighed against the other prosecution evidence adduced at the trial, which in their view had presented a &#8220;highly incriminating&#8221; case against the applicant.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The grounds for judicial review</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">There were five grounds for judicial review placed before Garnham J and Lavender J (with an application, which was refused, to add a sixth). Both the original skeleton argument in support of the appeal and the oral submissions of Mr Fitzgerald focussed entirely on Ground 2, which was in the following terms:-</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The defendant has failed to take any account of the misinformation given to the Court of Appeal in 2002 that distorted the issue as to whether two shotguns found at the time of the murder in Essex were in fact the guns used in the murder.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In refusing permission to apply for judicial review on the papers, Garnham J had said that Ground 2 was properly dealt with in the CCRC&#8217;s provisional and final decision and that disagreement with the Commission&#8217;s conclusions is not a ground of a challenge. Lavender J agreed and said that the Statements of Reasons demonstrated that the Commission had carefully considered the points made by the Claimant, but had concluded that the Court of Appeal would not consider that they affected the safety of his conviction.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The application to this court</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Two further skeleton arguments were lodged on the day before the hearing in this court, respectively headed &#8216;Supplementary Submissions on Remaining Circumstantial Evidence Once Scientific Evidence is Subtracted&#8217; and &#8216;Supplementary Submissions No. 2: Prominence of the Firearms and Ammunition Evidence at Trial and the Subsequent Undermining of that Evidence&#8217;. In these Mr Fitzgerald and Ms Bright set out detailed reasons why the CCRC were wrong. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The supplementary submissions ask us, in effect, to second-guess the Commission&#8217;s review of whether to refer the case by saying that we accept that the points which they make undermine or at least call into question the safety of Mr Cleeland&#8217;s conviction. But for us to do so would be exactly what Lord Bingham in <span style="font-style:italic">Pearson</span> and Lord Woolf in <span style="font-style:italic">Hunt </span>and <span style="font-style:italic">Mills &amp; Poole</span> said that courts must not do. The court&#8217;s role on judicial review is confined to considering whether the CCRC&#8217;s decision was irrational or otherwise unlawful. The supplementary submissions come nowhere near showing that such a test is met.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The CCRC&#8217;s decisions in this case in 2019 apply the correct legal test. The threshold question as to whether the safety of the conviction is undermined or placed in doubt is for the CCRC alone. Like Garnham J and Lavender J, I consider that there are no arguable grounds on which the court should interfere.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Persistent and repeated applications</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The CCRC is right not to have an absolute rule prohibiting an applicant from applying to it more than once. Some miscarriages of justice do not come to light at the first time of asking. But Mr Cleeland has abused the flexibility of the CCRC by making repeated applications to the point of now being vexatious. The Commission has limited resources and should be entitled to give priority to first applications by serving prisoners, rather than further applications by a man who has long since been released but who over a period of nearly half a century has challenged his conviction about 12 times. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I would refuse permission to appeal. Since the application has raised the jurisdiction issue (which was the reason for its listing before a full court) as well as some points of principle I would give permission for the decision to be cited.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold">Lady Justice Andrews:</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold">Lord Justice Underhill (Vice President, Court of Appeal, Civil Division):</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I also agree.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

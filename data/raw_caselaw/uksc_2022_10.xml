@@ -1,0 +1,867 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/10"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/10"/>
+	  <FRBRdate date="2022-04-27" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="10"/>
+	  <FRBRname value="Commissioners for Her Majesty&#8217;s Revenue and Customs v Coal Staff Superannuation Scheme Trustees Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/10"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/10"/>
+	  <FRBRdate date="2022-04-27" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/10/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/10/data.xml"/>
+	  <FRBRdate date="2024-11-09T00:35:07" name="transform"/>
+	  <FRBRdate date="2024-11-20T12:30:14" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-04-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="commissioners-for-her-majestys-revenue-and-customs" href="" showAs="Commissioners for Her Majesty&#8217;s Revenue and Customs"/>
+	<TLCPerson eId="coal-staff-superannuation-scheme-trustees-ltd" href="" showAs="Coal Staff Superannuation Scheme Trustees Ltd"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>10</uk:number>
+	<uk:cite>[2022] UKSC 10</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>ff60b48d35fb20788c69940c0ba2fa42783d244327ca3add34c72855b54d2b10</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:111pt;height:111pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Easter Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 10</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/1610" style="font-style:italic" uk:canonical="[2019] EWCA Civ 1610" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2019] EWCA Civ 1610</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#commissioners-for-her-majestys-revenue-and-customs">Commissioners for Her Majesty&#8217;s Revenue and Customs</party> (<role refersTo="#appellant">Appellant</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#coal-staff-superannuation-scheme-trustees-ltd">Coal Staff Superannuation Scheme Trustees Ltd</party> (<role refersTo="#respondent">Respondent</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-04-27" refersTo="#judgment">27 April 2022</docDate><br/><br/>Heard on 26 and 27 October 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Rupert Baldry QC<br/>Oliver Conolly<br/>(Instructed by HMRC Solicitor&#8217;s Office (Bush Office))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Malcolm Gammie QC<br/>James Rivett QC<br/>(Instructed by Pinsent Masons LLP (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS and lord sales: (<span style="text-transform:none">with whom Lord Reed, Lord Hodge and Lord Hamblen agree</span>)</p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal is about the tax treatment in the UK of income paid to tax-exempt investors under stock lending agreements. The specific questions for decision are (i) whether those arrangements, prior to 2014, included a restriction on the free movement of capital, contrary to article 56 of the Treaty Establishing the European Community (now article 63 of the Treaty on the Functioning of the European Union (&#8220;TFEU&#8221;) - we will refer to article 63 throughout this judgment to cover both provisions); (ii) if so, whether they can be justified, so as not to be unlawful; and (iii) if not, what is the appropriate remedy for the infringement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Stock lending is a relatively recent commercial activity by which, for an agreed fee, an investor (&#8220;lender&#8221;) transfers legal and beneficial ownership of shares in its portfolio to a counterparty (&#8220;borrower&#8221;), on contractual terms that the borrower will (i) return equivalent shares to the lender at the end of the lending period and (ii) in the meantime pay to the lender amounts equivalent to the dividend stream which the shares would have yielded to the lender if it had retained rather than lent them during the period of the loan. That amount is called, both generally and in the relevant tax legislation, a manufactured dividend (&#8220;MD&#8221;) if the shares are held in a company established in the UK (&#8220;UK shares&#8221;). If the shares are held in a company established outside the UK (&#8220;overseas shares&#8221;) the contractual income stream is called a manufactured overseas dividend (&#8220;MOD&#8221;). In this judgment the phrase manufactured dividend will be used to describe both types collectively, and the abbreviations MD and MOD used to describe each type separately.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The stock lending market has grown up to satisfy the desire of borrowers to make profits by doing things with the underlying shares which the lender either cannot or does not wish to do as part of its own business or investment activities. They include (i) short selling, that is selling shares into what the seller hopes will be a falling market with a view to buying them back at a lower price in the future and (ii) settling short positions, that is using borrowed shares to fulfil contractual obligations to deliver shares which the borrower does not already own. One benefit associated with stock lending is that it increases liquidity in the relevant markets.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Self-evidently stock lending agreements do not generally require the borrower to hold on to the borrowed shares during the period of the loan. Neither of the above-mentioned uses of them would be possible if they did. Rather the borrower is free to make any use of the borrowed shares, including their outright disposal, leaving the borrower to satisfy its obligation to deliver equivalent shares to the lender at the end of the period of loan either by buying shares on the market, or by further borrowing, from the same or a different lender. Thus it is by no means inevitable or even typical that the manufactured dividend (MD or MOD) payable to the lender will be funded by the receipt by the borrower of the dividend actually paid by the subject company during the period of the loan. The amount of that dividend merely fixes the amount of the financial obligation of the borrower to pay the manufactured dividend, from whatever financial resources the borrower may have available.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Nonetheless the terms of the typical stock lending agreement are designed to preserve for the lender the same income benefit as the dividend stream which it would have derived from the shares if it had not lent them, together with the additional stock lending fee, which may be described as the market price which the borrower is prepared to pay for the ability to obtain and to use the shares profitably during the period of the loan, without having to buy them outright. The risk to the lender that the borrower will be unable to return equivalent shares at the end of that period is generally met by the provision of security.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Dividend income received by a UK taxpayer is generally subject to UK income tax, unless the recipient is exempt. If the company paying the dividend is UK based, then the tax-exempt shareholder incurs no tax liability on the dividend. Dividend income from a company outside the UK is likewise subject to tax, depending upon whether the recipient is or is not exempt. But such a dividend (&#8220;an overseas dividend&#8221;) may also be subject to withholding tax levied by the country in which the company is based. To avoid double taxation the UK generally allows a tax credit for part or all of the foreign withholding tax. But that tax credit is only available as a way of reducing the UK shareholder&#8217;s own liability to UK tax. If therefore the shareholder is exempt from UK tax, the credit for foreign withholding tax is of no use to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The result of this limited use to which the foreign withholding tax credit can be put is that a tax-exempt UK investor such as a pension fund suffers a real disincentive from investing in overseas shares rather than UK shares. The extent of the disincentive is measurable by reference to the rate of foreign withholding tax levied by the country in which the subject company is based. The reason for the disincentive is that the UK gives tax credits against foreign withholding tax only as a means of relieving from double taxation, rather than as a way of ensuring that its exempt investors are truly exempted from any tax at all. Their exempt status is only from UK tax, not foreign tax. It is common ground that the participation of the UK in causing this disincentive, even if it is a restriction on the free movement of capital, is not contrary to EU law. The liability of overseas dividend payments to deduction of tax in the foreign state and then to taxation in the state where they are received (here, the UK) has come to be labelled &#8220;juridical double taxation&#8221; and is regarded as the unfortunate but currently inevitable consequence of the fact that the member states of the EU each have sovereign authority to tax income within their own jurisdiction and had not then (and still have not) harmonised their national tax systems: see <span style="font-style:italic">Haribo Lakritzen Hans Riegel BetriebsgmbH v Finanzamt Linz </span>(Joined Cases C-436/08 and C-437/08) <ref href="#" uk:canonical="[2011] STC 917" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] STC 917</ref>, paras 167-171 (&#8220;<span style="font-style:italic">Haribo</span>&#8221;). Thus for the purposes of EU law juridical double taxation is a fact of life and the operation of article 63 has to be assessed against that background.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Manufactured dividends payable under stock lending agreements are of course not dividends at all, and will usually not be sourced from dividends on the borrowed shares payable to the borrower. Where, as here, the borrower and the lender are both UK based, the manufactured dividends (MDs and MODs) are simply a contractual income stream which, absent any special rules, might be supposed to be taxable as income in the hands of the recipient in the usual way. But the UK was at pains to avoid differences in the taxation of manufactured dividends as opposed to real dividends causing distortions in the stock lending market. In short, the objective was to design a special regime for taxing manufactured dividends in such a way that there was neither a tax incentive nor a tax disincentive affecting a decision whether or not to lend shares. The stock lending market would therefore neither be unduly chilled nor overheated by tax considerations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The special tax regime for manufactured dividends (which was discontinued at the beginning of 2014) did achieve that objective, both for UK and overseas shares, and for tax-paying and tax-exempt lenders, as well as for borrowers. In summary, for UK shares, MDs were treated for tax purposes connected with the lender in exactly the same way as real dividends from the same companies. For overseas shares, MODs were treated as payable on a gross basis and subjected to a form of deemed withholding tax payable by the borrower (the &#8220;MOD WHT&#8221;), with a corresponding tax credit to the lender, deemed to be on account of overseas withholding tax, and at a rate equivalent to that which a UK based investor would have suffered at the hands of the country in which the subject company was based. The effect was that the lender received sums in relation to dividends which were the same as it would have received had it retained the shares, ie net of foreign withholding tax. Tax neutrality for the borrower was broadly achieved by a generous permission of set-off of the liability to account for the MOD WHT against both withholding tax credits on the underlying dividends or (if the borrower had sold the shares) other withholding tax credits.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The very fact that many countries deduct withholding tax from dividends paid by companies based there to overseas investors formed the basis of a third (undoubtedly tax-driven) purpose behind the stock lending market for overseas shares, which has come to be known as dividend arbitrage. It might better be labelled withholding tax arbitrage, but the conventional label will be used in this judgment. Countries typically levy withholding tax at different rates depending upon the status and country of residence of the shareholder, and may sometimes levy no withholding tax at all on dividends paid to a shareholder based in the same country as the subject company. A borrower of shares under a stock lending agreement can therefore increase the net return to be derived from overseas dividends by passing the borrowed shares on to a better located shareholder and, ideally, to a shareholder based in the same country as the subject company. The borrower may then enjoy an enhanced income if it transfers the shares by way of further loan, or an increased purchase price on an outright sale.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent (&#8220;the Trustee&#8221;) is the corporate trustee of a tax-exempt pension fund, with a very large portfolio of UK and overseas shares. It engaged in substantial stock lending of its portfolio during the period 2002 to 2008. It received deemed withholding tax credits amounting to more than &#163;8.8m in respect of the MOD WHT for which its borrowers were liable to account to the Revenue in respect of MODs paid to the Trustee. It claims that the MOD WHT was tax unlawfully charged on its income because that liability amounted to a restriction on the free movement of capital contrary to article 63, and seeks payment of the full sum with interest. This is a test case. The full amount of the liability of the Revenue to pay other tax-exempt lenders if the Trustee&#8217;s claim is in principle well-founded is said to amount to more than &#163;600m.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The central case advanced by the Trustee is very simple. Investment in overseas shares involves the movement of capital between member states or between a (then) member state (the UK) and third countries. That much is common ground. The obvious comparator for such an investment is investment in UK shares. Stock lending is a recognised use to which an investment in shares of either kind can be put. Whereas the MDs payable to the Trustee as a tax-exempt investor in respect of dividends paid on UK shares are received tax-free (we note that this is to say, free of UK tax), the equivalent MODs received in respect of dividends paid on overseas shares suffer deduction of UK tax at source (the MOD WHT) leaving the Trustee with a net income reduced by an amount equivalent to the foreign withholding tax which it would have suffered if there had been no stock loan, plus a useless tax credit. Therefore the difference between the tax-free yield from lent UK shares and the net after-tax yield from lent overseas shares is a difference in treatment which acts as a disincentive to investment in overseas shares, and therefore a restriction upon the free movement of capital contrary to article 63, which cannot be justified. It is not juridical double taxation because the difference in treatment is entirely the consequence of UK tax arrangements. A claim is made to repayment because the MOD WHT is to be classified, in the Trustee&#8217;s submission, as tax deducted at source from its own income.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issues which have divided the parties and the courts below regarding whether the MODs regime involved a restriction on the free movement of capital have not been mainly about the facts, about the meaning or effect (subject to one point) of the MOD tax regime or even about the relevant EU jurisprudence on article 63 or justification. The latter is all very well-travelled ground, both in this court and in the European Court of Justice, now the Court of Justice of the European Union (we refer to them together as &#8220;the CJEU&#8221;). Rather the main issue may be described as one of economic analysis. Does the UK tax regime affecting stock lending, and in particular the provisions for taxing MODs, operate as a disincentive to investment in, and then the lending of, overseas shares, by comparison with UK shares? The First-tier Tribunal (&#8220;FtT&#8221;) thought not. The Upper Tribunal (&#8220;UT&#8221;) and the Court of Appeal thought that it did, but for strikingly different reasons. It is (rightly) common ground that this is not regarded in the CJEU jurisprudence as a matter of proof by evidence, but rather as a matter of inference by reference to economic principle and assessment of likely behaviour by rational economic actors. But that makes the analysis no easier, in particular against the all-important context that juridical double taxation (for which the UK is not to blame and the existence of which does not involve any infringement of article 63) undoubtedly operates as a real disincentive to investment in overseas shares by a UK tax-exempt investor, compared with investment in UK shares.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addition to the question whether there is a restriction on the free movement of capital contrary to article 63, the other major question which arises on this appeal concerns the remedy which would be appropriate if there is.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The uncontentious facts need little elucidation beyond what has already been summarised. The Trustee was at the material time the sole corporate trustee of the British Coal Staff Superannuation Scheme (&#8220;the Scheme&#8221;) which was established in January 1947 under the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/9-10/59" uk:canonical="1946 (9 &amp; 10 Geo. 6) c. 59" uk:origin="TNA" uk:type="legislation">Coal Industry Nationalisation Act 1946</ref>. Before 6 April 2006, the Scheme was an approved occupational pension scheme, namely a retirement benefits scheme having been approved by the Board of the Inland Revenue for the purposes of Chapter 1 of Part XIV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">Income and Corporation Taxes Act 1988</ref> (&#8220;ICTA&#8221;). On 6 April 2006, the Scheme was treated, by paragraph 1 of Schedule 36 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/12" uk:canonical="2004 c. 12" uk:origin="TNA" uk:type="legislation">Finance Act 2004</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2004/12" uk:canonical="2004 c. 12" uk:origin="TNA" uk:type="legislation">FA 2004</ref>&#8221;), as having become a registered pension scheme for the purposes of Part 4 <ref href="http://www.legislation.gov.uk/id/ukpga/2004/12" uk:canonical="2004 c. 12" uk:origin="TNA" uk:type="legislation">FA 2004</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Scheme was at all material times the long-term holder of a large portfolio of both UK and overseas shares, in the latter case issued by companies established both in the EU and elsewhere. During the financial years from 2002/03 to 2007/08 the Trustee made stock lending arrangements in respect of its UK and overseas shares, in the case of the overseas shares through the agency of JP Morgan Chase Bank (&#8220;JPM&#8221;), in succession to Chase Manhattan Bank (London Branch) (&#8220;Chase&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The agreements pursuant to which the overseas shares were lent (at least for the six representative sample transactions chosen by the Revenue for the purposes of these proceedings) were in mainly standard form Overseas Shares Lending Agreements (&#8220;OSLAs&#8221;) between either Chase or JPM as agent for the Trustee and a series of UK based Authorised UK Intermediaries (&#8220;AUKIs&#8221;) as borrowers, whose identities have been anonymised for reasons of commercial confidentiality. Their effect was as summarised above. The way in which the objective was achieved of securing to the Trustee MODs equivalent to the dividend income which the Trustee would have received but for the lending was as follows: the AUKI promised as borrower to pay MODs in amounts equivalent to underlying dividends paid by the issuing company regardless of whether they were in fact received by the AUKI, grossed up by adding back any actual deductions (eg by way of foreign withholding tax), but net of the amount of the MOD WHT for which the AUKI had to account to the Revenue. The MOD WHT was (in accordance with regulations mentioned below) quantified by reference to the foreign withholding tax which the Trustee would have suffered on a real dividend in respect of the same shares, but for the stock lending.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The AUKIs as borrowers paid lending fees in respect of each stock loan to the Trustee via Chase or JPM in accordance with a negotiated formula. Late payment of MODs was to be reflected in payment of interest, and the AUKIs provided collateral security for performance of their re-delivery obligations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">One of the six sample transactions was described thus by the FtT in its fact-finding:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">it involved a loan of 5.5m shares in an Italian company to Lehman Bros, London;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">the loan period was 6 March 2006 to 12 May 2006;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in">on 26 April 2006 the Italian company paid a dividend of &#8364;1,210,000;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Italy operated a withholding tax of 15% on dividends paid to the UK;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(v)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">the borrower paid a MOD of &#8364;1,210,000, amounting to &#8364;1,028,500 net of MOD WHT at 15%.</p>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">It is not known, and the borrower was not obliged to inform the Trustee or JPM, by whom the underlying shares were owned when the dividend was paid, where the then owner was based, or how much (if any) withholding tax was actually levied on the dividend by the Italian tax authorities. Nor is it known for which of the three main purposes (short selling, settlement of short positions or dividend arbitrage) the loan of these shares was requested by the AUKI. Nor is the amount of the lending fee recorded in the findings of fact. Ignoring the lending fee, in this and all the other sample cases the Trustee received exactly the same amount of net MOD as it would have received by way of net real dividend if the shares had not been lent.</span></p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The evidence does not show whether all or any of the MOD WHT for which the AUKI was liable to account in respect of the MOD in each case was actually paid to the Revenue. This would have depended upon the availability to the AUKI borrower of tax credits allowable by way of set-off. It is stated in the Written Case of the Revenue (with a persuasive explanatory note about the reasons) that, generally speaking, AUKIs as active stock traders usually had more than sufficient available and otherwise unusable withholding tax credits to soak up the whole of their MOD WHT accounting liability. Although not admitted, this was not effectively challenged by the Trustee. The effect of this is that the Revenue did not in practice receive any sums by way of payment of tax in relation to the foreign dividends in fact paid or in respect of the fictional MODs payable to the lender. The fact that liability for payment to the Revenue of tax in relation to the MODs depended on the tax affairs of the AUKIs also indicates that such payment was, within the UK tax regime, payment of a tax on the AUKI, not payment of a tax on the lender.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Law: (i) the MOD Tax Arrangements</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The most relevant provisions dealing with the taxation of MODs during the relevant period were originally to be found in Schedule 23A to ICTA. With effect from the 2007/08 tax year those provisions were caught up and replaced in the &#8220;re-write&#8221; of much of ICTA and re-enacted in Chapter 9 part 15 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/3" uk:canonical="2007 c. 3" uk:origin="TNA" uk:type="legislation">Income Taxes Act 2007</ref>, but it is common ground that this brought about no relevant change in their meaning and effect. Accordingly the examination of the issues in this litigation has been based on Schedule 23A ICTA rather than on its successor, a convention to which this judgment will gladly adhere.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Schedule 23A also deals, at paragraph 2, with the taxation of MDs. For the lender the MD is treated as if it were a real dividend from the UK company the shares of which had been lent. For the borrower the MD is treated as if it were a dividend paid by the borrower itself. Nothing turns on the language by which that tax treatment is achieved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paragraph 4 of Schedule 23A is headed &#8220;Manufactured overseas dividends&#8221; and provides, so far as is relevant, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">This paragraph applies in any case where, under a contract or other arrangements for the transfer of overseas securities, one of the parties (the &#8216;overseas dividend manufacturer&#8217;) is required to pay to the other (&#8216;the recipient&#8217;) an amount representative of an overseas dividend on the overseas securities; and in this Schedule the &#8216;manufactured overseas dividend&#8217; means any payment which the overseas dividend manufacturer makes in discharge of that requirement.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Subject to sub-paragraph (3) below, where this paragraph applies the gross amount of the manufactured overseas dividend shall be treated for all purposes of the Tax Acts as an annual payment, within section 349, but -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">the amount which is to be deducted from that gross amount on account of income tax shall be an amount equal to the relevant withholding tax on that gross amount; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">in the application of sections 338B(4)(a) and 350(4) in relation to manufactured overseas dividends the references to Schedule 16 shall be taken as references to dividend manufacturing regulations;</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8230;</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Where a manufactured overseas dividend is paid after deduction of the amount required by sub-paragraph (2) above, &#8230; then for all purposes of the Tax Acts as they apply in relation to persons resident in the United Kingdom &#8230; -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">the manufactured overseas dividend shall be treated in relation to the recipient, and all persons claiming title through or under him, as if it were an overseas dividend of an amount equal to the gross amount of the manufactured overseas dividend, but paid after the withholding therefrom, on account of overseas tax, of the amount deducted under sub-paragraph (2) above; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">the amount so deducted shall accordingly be treated in relation to the recipient, and all persons claiming title through or under him, as an amount so withheld instead of as an amount on account of income tax.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Since paragraph 4(4) provided that the recipient of a MOD was deemed to have suffered overseas tax on the MOD, in the ordinary course that would give rise to the possibility of double taxation relief, pursuant to any double taxation treaty arrangement or relief against foreign tax granted by the UK unilaterally as a matter of its own tax policy. However, section 796 of ICTA provides that relief in respect of tax paid in overseas territories, including tax deemed to have been so paid by Schedule 23A, is available only to the extent that the taxpayer has a UK income tax liability for the year of assessment. As explained above, UK pension funds do not have such liability and are therefore unable to claim double taxation relief.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paragraph 4(5) of Schedule 23A defined the relevant withholding tax in relation to a MOD as an amount representative of the amount that would have been deducted by way of overseas tax from an overseas dividend of the same gross amount as the MOD, and the amount of any overseas tax credit in respect of such an overseas dividend. The dividend manufacturing regulations referred to in paragraph 4(2)(b) are the Income Tax (Manufactured Overseas Dividends) Regulations 1993 (SI 1993/2004), which provided for different rates of relevant withholding tax to apply in relation to shares located in different overseas territories. By regulation 3 they set the rate of the relevant withholding tax which is to be deducted under paragraph 4(2) of Schedule 23A (ie the MOD WHT) at the withholding tax rate which would, under the law of the relevant overseas country, have applied to the real overseas dividend of which the MOD is representative, if it had been paid to a UK taxpayer. Thus, in the example given in para 19 above, the withholding tax rate then imposed by Italy on dividend payments to a UK taxpayer was 15%. Therefore 15% was the rate of the MOD WHT which the AUKI had to deduct from the grossed-up MOD before payment to the Trustee.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 349 of ICTA, to which reference is made in paragraph 4(2) of Schedule 23A, provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Where -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">any annuity or other annual payment to which this paragraph applies; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">any royalty or other sum paid in respect of the user of a patent; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">...</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">is not payable or not wholly payable out of profits or gains brought into charge to income tax, the person by or through whom any payment thereof is made shall, on making the payment, deduct out of it a sum representing the amount of income tax thereon.&#8221;</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">Thus the effect of the deeming or &#8220;treating&#8221; of a MOD as if it were an annual payment under section 349 is to provide well-recognised machinery for the deducting of MOD WHT at source by the AUKI as borrower under a stock lending agreement, before payment of the MOD to the borrower. Mr Gammie QC for the Trustee explained that the section 349 mechanism for deduction of tax at source in respect of periodic payments as a feature of the UK tax regime was first introduced in 1803.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A major issue between the parties on this appeal was whether this way of providing for the deduction and payment of MOD WHT had the effect that it was tax levied by way of deduction at source, on the Trustee&#8217;s income as lender, or merely a tax liability of the AUKI as borrower. The submission of the Trustee that it was the former was the cornerstone of its case that, since the MOD WHT was unlawful, the Trustee&#8217;s proper remedy was a claim for repayment, rather than damages. This was the only real issue about the meaning and effect of the MOD tax regime. We return to this point in the section on remedy below.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Law: (ii) article 63 TFEU</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 63 of the TFEU provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Within the framework of the provisions set out in this Chapter, all restrictions on the movement of capital between member states and between member states and third countries shall be prohibited.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">This short provision, which enshrines one of the fundamental freedoms guaranteed by the TFEU, has been interpreted and applied by the CJEU in a way that has cut a deep swathe through UK tax law (as it had previously been understood). It has led to claims for the repayment of many billions of pounds of tax alleged to have been unlawfully demanded in breach of article 63, to numerous large cases before this court and its predecessor, and to numerous references to the CJEU. It has also led to a fundamental and contentious reappraisal of UK law about unjust enrichment and the limitation of actions. The position can be summarised as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A claim that there has been a breach of article 63 requires it to be shown that the relevant provisions of national law constitute a restriction, directly or indirectly, on the free movement of capital. That will be the case if they are liable to have a dissuasive effect in relation to cross-border investment. As the CJEU put it in <span style="font-style:italic">Bouanich v Directeur des services fiscaux de la Dr&#244;me</span> (<ref href="#" uk:canonical="Case C-375/12" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-375/12</ref>) ECLI:EU:C:2014:138, para 43 (&#8220;<span style="font-style:italic">Bouanich</span>&#8221;):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;According to settled case law, the measures prohibited by article 63(1) TFEU, as restrictions on the movement of capital, include those which are such as to discourage non-residents from making investments in a member state or to discourage that member state&#8217;s residents from doing so in other States (Joined Cases C-338/11 to C-347/11 </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Santander Asset Management SGIIC and others</span><span style="font-family:'Calibri, sans-serif'"> [2012] ECR, para 15 and the case law cited).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A restriction for the purposes of article 63 may arise from the application of different tax rules to objectively similar situations or the application of the same tax rules to situations which are objectively different (see <span style="font-style:italic">Bouanich</span>, para 45). There will therefore generally be a dissuasive effect if an international transaction constituting a movement of capital is treated less favourably, whether directly or indirectly, for tax purposes than one which is otherwise substantially similar but purely domestic in character (see <span style="font-style:italic">Test Claimants in the FII Group Litigation v Inland Revenue Comrs </span>(<ref href="#" uk:canonical="Case C-446/04" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-446/04</ref>) <ref href="#" uk:canonical="[2012] 2 AC 436" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 AC 436</ref>, para 145 (&#8220;<span style="font-style:italic">FII Test Claimants (No 1)</span>&#8221;)). The tax treatment of income is capable of giving rise to a dissuasive effect because of the impact this may have on the attractiveness of the capital investments from which the income is derived, including, in the case of income from or related to dividends, the acquisition, retention and transfer of shares (see <span style="font-style:italic">Staatssecretaris van Financi&#235;n v Verkooijen</span> (<ref href="#" uk:canonical="Case C-35/98" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-35/98</ref>) <ref href="#" uk:canonical="[2002] STC 654" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] STC 654</ref>, para 35). A dissuasive effect may therefore be created by treating, for tax purposes, income derived from shares in a foreign company less favourably than income derived from shares in a company resident in the same member state as the taxpayer. Thus, in <span style="font-style:italic">Bouanich</span> (para 56), the CJEU held that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;&#8230; legislation such as that at issue in the main proceedings, because of the difference in treatment it imposes between resident taxpayers depending on whether they receive dividends from a company established in the national territory or from a company established in another member state, constitutes a restriction on the free movement of capital prohibited, in principle, by article 63 TFEU.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">Similarly, in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Proceedings brought by</span><span style="font-family:'Calibri, sans-serif'"/><span style="font-style:italic;font-family:'Calibri, sans-serif'">Manninen</span><span style="font-family:'Calibri, sans-serif'"> (<ref href="#" uk:canonical="Case C-319/02" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-319/02</ref>) <ref href="#" uk:canonical="[2005] Ch 236" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] Ch 236</ref> (&#8220;</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Manninen</span><span style="font-family:'Calibri, sans-serif'">&#8221;), Advocate General Kokott said, at point 32 of her opinion, that: &#8220;The worse tax treatment of an investment in the shares of companies established abroad makes such investment less attractive for the investor than the acquisition of the shares of domestic companies and thus impedes the movement of capital.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Demonstration that the provisions of national law have the relevant dissuasive effect is not generally a matter of proof, by evidence, that relevant persons have actually been, or will actually be, dissuaded. Rather it is a matter of logical analysis: see Advocate General Kokott in <span style="font-style:italic">Manninen</span>, point 28. Nor need it be shown that the dissuasive effect is universal, or even particularly serious: see, by analogy with freedom of establishment, <span style="font-style:italic">De Lasteyrie du Saillant v Minist&#232;re de l&#8217;&#201;conomie, des Finances et de l&#8217;Industrie</span> (<ref href="#" uk:canonical="Case C-9/02" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-9/02</ref>), para 43, applied to article 63 TFEU in the Opinion of Advocate General Kokott in <span style="font-style:italic">Haribo</span>, point 23, footnote 15.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Applying those principles, any assessment of the potential dissuasive effect of the relevant provisions of national law will therefore entail the court asking what impact they would be likely to have on the behaviour of (it is to be assumed rational) economic actors doing business in the relevant market in relation to the transaction constituting the movement of capital. In other words, as indicated at para 13 above, the analysis is ultimately an economic one based upon the mechanics of the relevant type of transaction and its actual or potential real-world consequences for the different parties involved. Here, the relevant types of transaction are, first, the &#8220;lending&#8221; of shares by means of stock lending agreements and secondly, the acquisition of shares as investments, with a view to benefiting from them by stock lending thereafter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For a case such as the present where, as already noted, juridical double taxation is already a dissuasive factor affecting the acquisition of overseas shares, by comparison with UK shares, the economic analysis needs carefully to distinguish between that (unfortunate but lawful) aspect of dissuasive effect and that alleged to be attributable to the purely domestic tax legislation contrary to article 63, here the tax treatment of MODs compared with MDs. This is not a problem with which the existing EU jurisprudence has yet had to grapple.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, it is established in EU law that a member state commits no violation of article 63 where its tax regime does not seek to correct for the fact of juridical double taxation (<span style="font-style:italic">Kerckhaert v Belgium </span>(<ref href="#" uk:canonical="Case C-513/04" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-513/04</ref>) <ref href="#" uk:canonical="[2007] 1 WLR 1685" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 1685</ref>, paras 17-20), nor as regards a decision taken as a matter of its own tax policy when it grants a tax credit in respect of foreign withholding tax levied in another state to limit or avoid such double taxation (<span style="font-style:italic">Bouanich</span>, paras 39 and 41). In our view, therefore, the EU jurisprudence accepts that analysis of dissuasive effect for the purposes of article 63 should proceed against the background of juridical double taxation as a fact of life.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Analysis of the Courts Below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FtT (Judge Jonathan Cannan and Mrs Helen Myerscough) [2016] SFTD 750 (TC) considered that there was no restriction which offended article 63. In their view the MOD tax regime could not sensibly be said to inhibit the lending of overseas shares (once acquired), but on their analysis the Trustee&#8217;s real case was that it inhibited their acquisition in the first place. Addressing that case directly, at paras 127 to 129, they said that the MOD regime needed to be appraised as to its effect not in a vacuum but against the context of the withholding tax regime affecting actual dividends on overseas shares, and the inability of a tax-exempt shareholder to make use of the consequential tax credit. In their view it was that withholding tax regime (ie the fact of juridical double taxation) which was the only real dissuasive factor in the decision of a tax exempt investor to acquire overseas shares, which the MOD regime merely replicated in the event of stock lending. The MOD regime therefore involved no infringement of article 63.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The UT (Morgan J and Judge Berner) <ref href="#" uk:canonical="[2018] STC 1095" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] STC 1095</ref> took an altogether different approach, which in substance adopted the whole of the Trustee&#8217;s case. In their view the restriction was constituted by the imposition of the whole of the MOD WHT and the inability of a tax-exempt investor such as the Trustee to make any use of the corresponding tax credit. Since a tax-exempt investor would incur no tax on a MD (in the context of a lending of UK shares) there was a difference in treatment of MDs and MODs which arose from comparable transactions. This was a difference in treatment solely attributable to the UK tax regime and since it derived from the different treatment of overseas shares by contrast with UK shares, it necessarily amounted to an infringing restriction on the free movement of capital constituted by both the acquisition and lending of overseas shares. The UT rejected the Revenue&#8217;s defence of justification. Since, on the UT&#8217;s view, the MOD WHT was a deduction of tax at source from the Trustee&#8217;s income, it was entitled to claim repayment in full.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal (Newey, Asplin and Rose LJJ) <ref href="#" uk:canonical="[2020] 1 WLR 777" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 777</ref> reached the same end-point as the UT, but by a more nuanced route. In a joint judgment they rejected the Trustee&#8217;s case, and the UT&#8217;s conclusion, that the relevant restriction was constituted by the imposition of the whole of the MOD WHT. Their starting point was that juridical double taxation in the form of foreign withholding tax would adversely affect the income stream from dividends on lent overseas shares in any event. Even in the absence of the MOD tax regime, the Trustee could not have expected to receive as a MOD the whole of the gross dividend paid by the overseas company. For example, if the borrower had retained the shares it would have suffered foreign withholding tax on the dividend and the Trustee could not have expected to receive more than the net amount as its MOD. If the borrower had engaged in dividend arbitrage by selling the shares to a buyer which would incur less withholding tax (or none at all) the Trustee could not expect to receive the whole of the consequential benefit: &#8220;at best, it might have shared in the gain that could be realised&#8221; (para 39).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At para 41 the Court of Appeal expressed its conclusion in these terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;In the circumstances, we cannot accept Mr Baldry&#8217;s submission that the MOD regime did not give rise to any &#8216;adverse consequences&#8217; for the Trustee. True it may be, as the FTT said, that the Trustee was left in the position that it would have been in had it not lent the shares, but that cannot be determinative. While, as we have said, the MOD regime will not have reduced the Fund&#8217;s MODs by the full amount of the tax deducted pursuant to it, it can be expected to have impaired them to some degree. More often than not, the borrower will not have retained the shares and the dividend of which the MOD was representative may not then have been subject to overseas withholding tax at the rate used for the MOD regime, if at all. That suggests that, but for the MOD regime, the Trustee could have hoped to lend overseas shares on better terms. It could rationally be supposed that borrowers might at least sometimes be willing to pay the Trustee more than the net amount of a dividend after deduction of &#8216;relevant withholding tax&#8217; in accordance with paragraph 4 of Schedule 23A to ICTA. It follows, as we see it, that the MOD regime limited the returns available to investors such as the Fund from stock lending of overseas shares and, hence, was liable to discourage such investors from buying or retaining overseas shares. Investment in UK shares, of course, gave rise to no such issues.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Having reached a conclusion that there was an offending restriction by that much more cautious route, the Court of Appeal also rejected the Revenue&#8217;s case on justification and held that repayment in full of the MOD WHT was the appropriate remedy, notwithstanding the enormous disparity between the benefit conferred by the remedy and its perception of the very limited adverse effect of the restriction.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is convenient first to address the question whether the MOD regime had any dissuasive effect upon the lending of overseas shares, once acquired, compared with lending UK shares. We consider that the FtT was right to reject that part of the Trustee&#8217;s case. The scheme for the taxation of manufactured dividends was scrupulous in its endeavour to make the question whether or not to lend tax neutral, both for UK and overseas shares, as already described. The contrary was not seriously argued in this court. The real issue is whether that tax scheme created a disincentive to the acquisition of overseas rather than UK shares in the first place, additional to that already imposed by the juridical double taxation arising from the combined effect of foreign withholding tax and the inability of a tax-exempt UK investor to make use of the corresponding tax credit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We agree with the view of the Court of Appeal that, in reaching their opposite answers to that question, both the FtT and the UT took an over-simplistic approach to the question whether it operated as a disincentive. The FtT appears to have thought that, because the MOD tax regime did no more than replicate the effect of juridical double taxation upon the Trustee&#8217;s income from overseas shares in a stock lending context, it could not have amounted to a relevant additional disincentive. But it did not address the potential dissuasive effect arising in relation to dividend arbitrage, and the judgment of the CJEU in<span style="font-style:italic"> Trustees of the BT Pension Scheme v Revenue and Customs Comrs </span>(<ref href="#" uk:canonical="Case C-628/15" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-628/15</ref>) <ref href="#" uk:canonical="[2018] Ch 230" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] Ch 230</ref> (&#8220;<span style="font-style:italic">BTPS</span>&#8221;) demonstrates that the fact that the relevant tax impinges on income which is purely domestic (with no necessary formal cross-border element at all) does not foreclose an argument that it impedes the free movement of capital between member states.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In sharp contrast, the UT seems to have thought that, once UK shares were identified as the relevant comparator, the entirety of the MOD WHT represented a disincentive, because of the inability of a tax-exempt UK investor to make use of the corresponding tax credit. However, the fact that a tax-exempt investor receives a MOD from a borrower from which MOD WHT has been deducted whereas no such deduction would be made in relation to a MD does not necessarily lead to the conclusion that the MOD regime operates as an additional disincentive to the acquisition by such an investor of overseas shares, beyond the disincentive inherent in juridical double taxation, as the UT appears to have concluded. The unspoken assumption of the Court of Appeal, with which we agree, is that the answer depends upon a market economic analysis of the effect of the MOD tax regime upon the investor, best undertaken by the application of a &#8220;but for&#8221; test. The question is whether, had there been no MOD tax regime (or at least nothing materially different from the MD regime) the investor would have been sufficiently better off from engagement in stock lending than it was under the MOD regime, so that its presence could be described as an additional disincentive to the acquisition of overseas shares, as opposed to UK shares, beyond the disincentive already constituted by juridical double taxation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The reason why the use of a &#8220;but for&#8221; test is appropriate in this context is that it is an effective tool for splitting off the specific disadvantage (if any) of the MOD tax regime from the continuing disadvantage of juridical double taxation in connection with the stock lending of overseas shares. This is not a problem thus far specifically addressed by the EU jurisprudence. The essential context is that juridical double taxation is, as is obvious and as the Court of Appeal explained, inherently likely adversely to affect the income stream from MODs on lent overseas shares, as it does on dividends from retained shares, regardless of the existence of the MOD tax regime. If for example the borrower retained the lent shares, it could hardly be expected to pay the lender a MOD equal to the gross dividend, having already suffered foreign withholding tax itself. And we would add that if the borrower sold the shares to, eg, a UK buyer, then the sale price would equally be affected by the expectation of the buyer that it would receive dividends net of foreign withholding tax. This is just the practical working out of juridical double taxation in the stock lending context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal reasoned nonetheless that, absent the requirement for the AUKI to deduct the MOD WHT, MODs payable to lenders could have been to some extent higher, because the lender could have bargained for a larger MOD reflecting some share of the benefit realised by the borrower in dealing with the borrowed shares in such a way as to reduce the incidence of foreign withholding tax on the dividend stream, ie by dividend arbitrage, whereas the effect of the standard form OSLAs was strictly to limit the MODs to the net amount which the investor would have obtained from dividends if it had retained rather than lent the shares. In their words: &#8220;It could rationally be supposed that borrowers might at least sometimes be willing to pay the Trustee more than the net amount of a dividend after deduction of &#8216;relevant withholding tax&#8217; in accordance with paragraph 4 of Schedule 23A to ICTA&#8221; (ie after deduction of the MOD WHT).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is, in our view, a flawed market economic analysis. Stock lending takes place in a highly sophisticated market, in which both sides may be supposed broadly to understand what are the (very different) objectives of the counterparties. For the borrower, as already described, the objective is to make profitable use of the borrowed shares in ways that the lender cannot or does not wish to do as part of its own business, without having to buy the shares outright, but rather by the payment of lending fees and the provision of collateral security. Those uses include dividend arbitrage. The objective of the lender is to generate fee income from willing borrowers by lending the requisite shares, without in any way affecting the amount of the net income stream which would have been generated for the lender by way of dividend, if the shares had continued to be held in house as part of its investment portfolio.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Thus the provisions in the standard form OSLAs for the payment of MODs are specifically crafted so as precisely to replicate the lender&#8217;s net dividend income (ie the net dividend income which it would have received if it had held the shares), not to provide any share of the benefits derived from the uses to which the borrower wished to put the shares. It is no mere coincidence that in each of the six examined examples, the MODs did exactly that. That was what they were intended to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The lender&#8217;s sharing of the additional benefits generated by the borrower&#8217;s use of the lent shares is to be found not in the MOD but in the lending fee, which is tax-free in the hands of an exempt investor like the Trustee, just as are fees for the lending of UK shares. The MOD tax regime does not impose any structural constraint on what the lender may bargain for by way of fee for giving the borrower the opportunity to make profits from the use of the lent shares by, inter alia, dividend arbitrage. It is nothing to the point whether in fact the agreed lending fees were the result of an express haggle over the likely benefits to be derived from the borrower from dividend arbitrage. That seems rather improbable. But in a sophisticated market it is to be assumed that the lending fee represents the lender&#8217;s share (however modest) of all and any of the profitable opportunities which the borrower wished to enjoy in relation to the borrowed shares. The findings of the FtT show that dividend arbitrage was one of them, and this is very unlikely not to have been known by well-advised institutional lenders like the Trustee, and by the participants in the stock lending market generally. In a case in which dividend arbitrage was the sole beneficial use to which the borrower intended to put the borrowed shares, then the lending fee was, precisely, the lender&#8217;s share of those benefits. In a case where the borrower&#8217;s intended use was short selling into an expected falling market, then the lending fee was the lender&#8217;s share of the anticipated benefit which the borrower hoped to derive from that speculation. The standard form OSLAs imposed no obligation on borrowers to inform lenders as to the use to which they intended to, or did, put the shares. But that is neither here nor there.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That perception does not, of itself, necessarily conclude the market economic analysis of the question whether the MOD tax regime did operate as an additional disincentive to the acquisition of overseas shares by a tax-exempt borrower. It certainly, in our view, had no such direct effect, for the reasons already explained. Whether it had such an effect indirectly depends upon whether the obligation of the AUKI borrower to account to the Revenue for the MOD WHT is likely to have reduced the amount which it would otherwise have been prepared to pay the lender by way of lending fee for (inter alia) the opportunity to engage in dividend arbitrage. This must in turn depend upon whether the MOD WHT accounting liability affected the AUKI borrower in its pocket, in the sense of having actually to pay money to the Revenue. There is no evidence about this, but the court was given to understand that, in general, the Revenue received no cash attributable to MOD WHT because, as active stock traders, liable to corporation tax only on their profits, AUKIs typically had more than sufficient withholding tax credits available to soak up the MOD WHT liability by way of set-off, whether they held the shares or disposed of them, and that those tax credits were otherwise unavailable for use by them for any other economically beneficial purpose. If that is right, and the Revenue&#8217;s explanation why this was so went unchallenged, then it is hard to see why the MOD tax regime would be likely to have had a dissuasive effect on the willingness (if any) of AUKI borrowers to share with lenders the benefits of dividend arbitrage, or any other benefits, by way of lending fees. It is no more than pure speculation whether the MOD tax regime made any contribution by way of addition to the existing disincentive for tax-exempt investors to acquire overseas rather than UK shares, constituted by juridical double taxation. Pure speculation of that kind falls well short of the logical inferences which the court may be able to draw under the article 63 jurisprudence, typically in the absence of evidence about dissuasive effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The only &#8220;but for&#8221; economic benefit identified by the Court of Appeal of which lenders could be said to have been deprived by the MOD tax regime was a share in the benefit of the borrower&#8217;s dividend arbitrage. Even if, contrary to our view as explained above, that analysis were to be correct, it is hard to see how this is a relevant form of different treatment if the MD regime for UK shares is the relevant comparator. As explained to this court, dividend arbitrage depends upon the existence of differences in foreign withholding tax levied on dividends, dependent upon the status and place of establishment of the shareholder. No such benefits would appear to be capable of being derived for a UK investor or stock borrower from dealings in UK shares. It cannot be a legitimate element of an alleged dissuasive effect upon the free movement of capital that a particular tax regime impedes the generation of an additional benefit which would not be available in any event in relation to the comparator class.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For those reasons we would conclude, as did the FtT, that the MOD tax regime did not constitute, or include, any restriction on the free movement of capital contrary to article 63.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Law: (iii) Remedy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the reasoning above is sufficient to determine the appeal in the Revenue&#8217;s favour, we consider that there is an additional reason why the Revenue&#8217;s appeal should succeed even if we were wrong about the existence of a dissuasive effect associated with the MODs regime. This concerns the remedy applicable in relation to such restriction contrary to EU law as has been identified as having dissuasive effect in the context of this case in relation to investment in foreign equities. Again, the focus has to be upon the specific, limited nature of the restriction identified by the Court of Appeal at para 41 of its judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addressing the question of remedy we are prepared to assume that the Revenue is unable to establish any justification for the relevant difference in treatment of MDs and MODs, for the reasons given by the Court of Appeal at paras 45-68: the MODs regime is not a measure which is designed to prevent tax avoidance or to preserve a proper allocation of the sovereign taxing rights of other member states, nor is it a measure which preserves the fiscal cohesion of the UK&#8217;s own tax system within the meaning of <span style="font-style:italic">Bachmann v Belgium </span>(<ref href="#" uk:canonical="Case C-204/90" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-204/90</ref>) <ref href="#" uk:canonical="[1994] STC 855" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] STC 855</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We also discount another defence which the Revenue sought to raise for the first time in this court, claiming that article 63 was not applicable in this case by reason of the standstill provision in article 64 of the TFEU. This involved the Revenue in seeking to maintain that stock lending constitutes &#8220;financial services&#8221; within the meaning of article 64. The Revenue disavowed reliance on article 64 at first instance and it played no part in the argument before the Court of Appeal. We would refuse the Revenue permission to raise this as a new argument in this court. It would be unfair to the respondent to allow it to be introduced at this stage. It comes too late and is an issue on which it is possible that factual or expert evidence might have been relevant if it had been raised at first instance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although part of the argument in the Court of Appeal and an aspect of its judgment were taken up with the question whether a conforming interpretation of domestic legislation is possible to address the infringement of article 63 which that court identified, matters were considerably simplified by refinement of the argument in this court. Article 63 creates directly effective rights which are enforceable without the need for a conforming interpretation of domestic legislation and in the event Mr Gammie based the respondent&#8217;s case squarely on the principle of EU law set out in <span style="font-style:italic">Amministrazione delle Finanze dello Stato v SpA San Giorgio</span> (<ref href="#" uk:canonical="Case C-199/82" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-199/82</ref>) [1983] ECR 3595 (&#8220;<span style="font-style:italic">San Giorgio</span>&#8221;), as applied in <span style="font-style:italic">BTPS</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principle in <span style="font-style:italic">San Giorgio</span> is that a person is entitled to the repayment of national charges levied by a member state contrary to the rules of EU law, which is<span style="color:initial;background-color:#FFFFFF"> &#8220;a consequence of, and an adjunct to, the rights conferred on individuals by the Community provisions prohibiting charges having an effect equivalent to customs duties or, as the case may be, the discriminatory application of internal taxes&#8221; (judgment of the Court of Justice, para 12).</span><span style="font-style:italic"/>As referred to in <span style="font-style:italic">San Giorgio</span>, this is a principle which requires restitution to be made of charges or taxes improperly levied by the member state and received by it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the present case, on the other hand, the actual foreign withholding tax in respect of shares which were the subject of stock lending was not a charge levied by the UK and the Revenue did not receive the sums paid by way of such tax. A claim in respect of the actual foreign withholding tax would not be a claim for restitution of tax levied and received by the UK tax authorities, but for payment of sums representing tax levied and received elsewhere, and so could not itself fall within the scope of the <span style="font-style:italic">San Giorgio </span>principle. The Trustee&#8217;s complaint, rather, is that the UK tax regime should have allowed the Trustee to claim usable credits from the Revenue in relation to the liability of a borrower to pay a UK tax in the form of MOD WHT which represented (but did not necessarily exactly correspond to) such foreign withholding tax.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Developing this point, Mr Gammie argued that tax credits should have been paid to the Trustee in relation to MOD WHT attributable to stock lending by it, since the MOD WHT which represents foreign withholding tax was indeed tax levied on behalf of the UK tax authorities, as was the case in relation to MDs. He pointed out that the mechanism in the UK&#8217;s tax legislation which was chosen to give effect to deduction of and credit for MOD WHT was the same venerable regime applicable since 1803 whereby income tax payable in relation to certain periodic payments due to a person was withheld at source (and paid to the Revenue) and the person to whom the payments were due received a credit for such deducted tax. Withholding at source remains the position in relation to income from employment under the PAYE system and, prior to changes introduced in 2016, was applicable in relation to certain other income such as interest on deposits held at a bank. So, for example, prior to those changes, tax due on interest payments on deposits held at a bank was deducted and paid by the bank to the Revenue and the bank&#8217;s customer received a credit in respect of the tax deducted. If it transpired that the customer did not have a liability to income tax, it could reclaim the sum represented by the credit from the Revenue. Mr Gammie says that the use of this mechanism to provide for tax credits in relation to deductions of MOD WHT meant that the Revenue recognised that the MOD WHT was indeed UK tax bearing upon the lender under the stock lending arrangement for which the UK tax authorities had a responsibility to give credit to the lender as a tax levied by them on the lender. He says that this was the substance of the matter, and statements to the contrary in paragraph 4(4) of Schedule 23A were deeming provisions and hence were fictions to be ignored for the purposes of analysis under EU law, which is concerned with substance rather than form.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We do not accept this part of Mr Gammie&#8217;s submissions. MOD WHT was itself based on a fiction, namely that the MOD was a type of dividend (a manufactured dividend) rather than just a contractual income stream. In this hypothetical world both the contractual arrangements and the accompanying tax regime were deliberately created to mimic, where overseas shares were lent rather than retained by the lender, the position which would have obtained for the lender if it had retained the shares. The regime thereby sought to remove any tax incentive or disincentive for the lender to lend rather than hold the shares. The policy reason for operating such a system was to avoid distortions, and encourage liquidity, in the market.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A shareholder who retained overseas shares would only have received income in relation to the shares which was equivalent to a dividend paid net of foreign withholding tax. To this would have been added any credit allowed by the UK in the exercise of its sovereign taxing power as relief against double taxation. The UK chose that such credit was only available to be used by way of set off against UK taxable income, so it was not of use to an investor in the position of the Trustee, which had no such income. This involved no infringement of article 63, even though a credit for UK tax deducted in relation to dividend income on UK shares could have been used by such an investor to claim back an equivalent sum from the UK tax authorities. Paragraph 4 of Schedule 23A ensured that the same was true under the MOD regime as regards the manufactured overseas dividend income received by a lender and that the position as regards tax credits was the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In neither the real world when overseas shares were retained nor in the hypothetical world when they were lent and a manufactured dividend representing the overseas dividend was paid under an OSLA could the investor have expected to receive as income the whole of the dividend without deduction of an amount equivalent to the foreign withholding tax. As explained above (para 46), the OSLA was deliberately structured to ensure that, regardless of what the borrower did with the borrowed shares, the lender received as its MOD exactly the same amount as it would have received by way of dividend if it had not lent the shares: ie the gross dividend less the foreign withholding tax. From the perspective of the lender, the tax credit which it received under the MOD tax regime was exactly the same in its effect as the tax credit in respect of the foreign withholding tax which it would have suffered if it retained the shares.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is true that the UK decided to impose a tax of its own when stock lending occurred (the MOD WHT), and that the amount of the tax was calculated by reference to the ordinary foreign withholding tax rates according to the relevant country&#8217;s withholding tax regime. But this was a tax charged to the AUKI dividend manufacturer on its own account, not on account of the lender or representing any gross sum contractually due to the lender. It was a tax on the AUKI for its participation in stock lending of overseas shares, as was made clear by the fact that the AUKI was able to set off its own tax credits arising from other transactions against any tax due (see para 20 above).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There were therefore important differences between the two cases referred to by Mr Gammie (para 57 above). The domestic regime for deduction of tax at source and the giving of credit for that tax in relation to periodic payments such as bank interest payable in the UK operated in respect of UK tax payable in respect of UK income. The deduction of tax in such a case was a mechanism for the efficient collection of tax due to the UK tax authorities, who received the tax so deducted as UK tax payable by the recipient of the periodic payment and thus had to give credit to the recipient for what they received. It was the recipient&#8217;s tax because, but for the deduction at source, the recipient would have been contractually entitled to receive the gross sum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By contrast, the lender under a stock lending agreement had no contractual entitlement to a gross sum from which the borrower then deducted tax at source. The lender&#8217;s only contractual entitlement was to the amount of the underlying dividend, net of foreign withholding tax. The tax credits which the Trustee claims should have been paid in the present case were in respect of withholding tax levied by foreign tax authorities and retained by them. The UK tax authorities did not receive those sums. Where tax credits were granted to be used to set off against taxable income (where, unlike the Trustee, the recipient of a foreign dividend was liable to income tax), whether as a result of a double taxation treaty or by unilateral policy choice by the UK, the credits in respect of such foreign tax were intended to operate by way of a partial amelioration of the effects of juridical double taxation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This had nothing to do with the levying of tax by the UK authorities for their own benefit. Rather, it was concerned with providing access to credits in relation to tax levied by foreign states. The UK was entitled, in the exercise of its sovereign taxing powers, to choose the extent to which it wished to do this. Although the UK adapted the pre-existing deduction of tax and tax credit mechanism in its domestic tax-collection regime to achieve this object, that did not mean that as a matter of substance the foreign withholding tax was to be treated as though it had been collected by the UK tax authorities and retained by them for their own benefit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Further, in so far as one looks at MOD WHT as a UK tax, it was a tax imposed not on the lender under a stock lending arrangement, but on the AUKI. Moreover, as explained above, it was a tax which was routinely set off by AUKIs against credits, so no tax was actually paid to the Revenue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Seen in the light of these points, paragraph 4(4) of Schedule 23A to ICTA, set out at para 23 above, was not a provision which created a fiction contrary to the true substance of the case (as Mr Gammie contends). Rather, it was a provision which was necessary to ensure that the MOD regime mimicked the position which would have obtained if the lender had retained the relevant overseas shares, by giving the lender access to credits equivalent to those which would have been available to it in relation to foreign withholding tax, to avoid or ameliorate double taxation, if it had retained the shares. In substance the lender was just as affected by foreign withholding tax when it received a MOD, because the amount of the MOD was contractually set at the amount of the gross dividend less the foreign withholding tax.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The language of paragraph 4(4) also sought to ensure that no one was misled by the use of the section 349 mechanism in this situation into thinking that the MOD WHT was withheld on account of UK tax payable by the lender. Paragraph 4(4)(a) provided that where a MOD was paid with deduction of an amount equal to the relevant withholding tax the MOD &#8220;shall be treated in relation to the recipient &#8230; as if it were an overseas dividend of an amount equal to the gross amount of the [MOD], but paid after the withholding therefrom, <span style="font-style:italic">on account of overseas tax</span>, of the amount deducted &#8230;&#8221; and paragraph 4(4)(b) explained that &#8220;the amount so deducted shall accordingly be treated in relation to the recipient &#8230; as an amount so withheld <span style="font-style:italic">instead of as an amount on account of income tax</span>&#8221; (emphasis added). The latter sub-paragraph did not create a fiction, but recognised and emphasised the true substantive position. It cannot be disregarded for the purposes of EU law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Nonetheless, Mr Gammie submits that the decision of the CJEU in <span style="font-style:italic">BTPS</span> shows that the Trustee is entitled to the remedy it seeks of payment in full in respect of the credits it received in respect of MOD WHT in relation to the shares it lent in the relevant stock lending transactions. Before turning to <span style="font-style:italic">BTPS </span>it is important to emphasise that this is the nature of the Trustee&#8217;s claim. Although the dissuasive effect regarding investment in foreign shares identified by the Court of Appeal at para 41 of its judgment, which that court held constituted the breach of article 63, is comparatively small, the relief sought by the Trustee is of a different order, being a sum equal to the full amount of the credits. The Trustee has never sought to quantify the actual economic effect upon it of that dissuasive effect, nor has it sought to claim in the alternative a sum equivalent to this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Therefore, in so far as the dissuasive effect identified by the Court of Appeal is what constitutes the relevant breach of article 63, the remedy claimed by the Trustee is wholly disproportionate when compared with the breach. As we have explained (para 7 above), a member state has no obligation under article 63 to correct for the fact of juridical double taxation; yet the remedy sought by the Trustee would have the effect of compensating it for the impact of juridical double taxation. Nor is the present case one of a classic <span style="font-style:italic">San Giorgio </span>type in which the UK has itself levied and received tax according to rules which breached article 63 and which therefore ought to be restored to the tax-payer pursuant to a restitutionary claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">BTPS</span> an approved pension scheme which, like the Trustee, was exempt from income tax held shares in UK-resident companies which had elected to apply the foreign income dividend (&#8220;FID&#8221;) regime set out in sections 246A-246Y of ICTA to the distribution to their shareholders of dividends representing foreign-sourced income. UK-resident companies were liable, on paying dividends, to pay advance corporation tax (&#8220;ACT&#8221;) calculated by reference to the amount of the dividend and to deduct that ACT from the dividend paid. UK-resident shareholders who received such a dividend were entitled under section 231 of ICTA to a credit in respect of the ACT so paid and deducted against their own liability to income tax, and where, like the pension scheme, they were exempt from income tax section 231(3) provided that they were entitled to a payment equivalent to the amount of the tax credit. The effect of this was that such a shareholder did not have to bear tax in relation to the income it received funnelled up to it from companies in which they had invested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, where a company elected to pay dividends pursuant to the FID regime, under section 246C a shareholder was not entitled to tax credits in respect of dividends which were treated as FIDs. Instead, section 246D provided that in relation to FIDs taxable shareholders were to be treated as if the dividend was income that had already borne tax for the tax year in question. But since the pension scheme was exempt from income tax in respect of all dividends it received, it could not benefit from section 246D.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The effect of this was that, when paid a dividend by way of a FID, the pension scheme did in substance suffer a tax liability in respect of the dividend income received, by contrast with the usual position under section 231. For tax reasons of their own, UK-resident companies in receipt of foreign-sourced dividends had an incentive to elect to use the FID regime. The trustees of the pension scheme brought proceedings against the Revenue with a view to obtaining payment of tax credits for the dividends treated as FIDs which the pension scheme had received, contending that the FID regime was contrary to article 63 and that section 246C should therefore be disapplied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A reference was made to the CJEU, which held, among other things, that (i) the absence of a tax credit for shareholders who were not subject to income tax, such as the pension scheme, had the effect of discouraging them from investing in companies resident in the UK which received dividends from companies resident outside the UK, as compared with investment in companies resident in the UK which received dividends from companies resident in the UK, and therefore constituted a breach of article 63; (ii) article 63 conferred on shareholders receiving FIDs the right to the same tax treatment for those dividends as that reserved for dividends originating from income received from UK-resident companies; and (iii) shareholders, such as the pension scheme, who were not subject to income tax in respect of dividends who had received FIDs without having obtained a tax credit in relation to those dividends were entitled to the payment of the tax credit of which they were unduly deprived under the national legislation incompatible with article 63.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU held that, in accordance with the principles of equivalence and effectiveness, it was for the domestic courts to ensure that shareholders in the position of the pension scheme had a remedy which ensured payment of the tax credit of which the beneficiaries had been unduly deprived, under rules which were not less favourable than those relating to an action seeking payment of a tax credit, or a comparable tax advantage, in a situation where the tax authorities had unduly deprived the beneficiaries of that tax credit or tax advantage on a distribution of dividends which had their origin in the dividends received from a UK-resident company, and allowed the protection of the shareholders&#8217; rights under article 63 to be guaranteed in an effective manner. It was irrelevant that the infringement of EU law was not sufficiently serious to give rise to liability of a member state in damages to the company distributing dividends treated as FIDs according to the principle in <span style="font-style:italic">Brasserie du P&#234;cheur SA v Federal Republic of Germany; R v Secretary of State for Transport, Ex p Factortame Ltd (No 4) </span>(Joined Cases C-46/93 and C-48/93) <ref href="#" uk:canonical="[1996] QB 404" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] QB 404</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">BTPS</span> the relevant finding of breach of article 63 related to the absence of a tax credit for a shareholder which, like the pension scheme, was exempt from income tax. In order to remove the disincentive against investment in foreign-resident companies created by the UK&#8217;s FID tax regime, such a shareholder had to be able to claim tax credits in respect of dividends which were treated as FIDs in the same way that they could in respect of dividends received outside the FID regime. Accordingly, the remedy to be granted by the domestic courts to give effect to the breach of article 63 in relation to the pension scheme, to ensure that it received payments equivalent to the tax credits it was denied under the FID regime but would have received under the ordinary section 231 regime, precisely reflected the breach of article 63 identified in that case. As we have pointed out above, that is not so as regards the relief claimed by the Trustee in the present case. Therefore, it is necessary to identify the principles regarding relief articulated by the CJEU and to apply them in the different context which arises in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For that purpose, it is relevant to highlight differences in the analysis by Advocate General Wathelet in his opinion and by the CJEU in the judgment. The Advocate General identified the breach of article 63 as above and then turned to consider the remedy that should be provided to shareholders in the position of the pension scheme (points 72 and following of his opinion). The trustees of the pension scheme submitted that an effective remedy should result in the economic benefit derived by a member state from the infringement of article 63 being disgorged by way of a restitutionary remedy pursuant to the <span style="font-style:italic">San Giorgio </span>principle (points 74-75), whilst the UK Government submitted that while a member state is required by that principle to repay charges levied in breach of EU law this did not apply in the case of the trustees, who had been exempt from having to pay any tax on the FIDs they received (point 76). Citing para 201 of the CJEU&#8217;s judgment in <span style="font-style:italic">FII Test Claimants (No 1)</span>, the Advocate General pointed out that, in the absence of EU rules in the matter, it was not for the CJEU to determine what remedies should be available but for the national courts to determine the appropriate remedy in light of the principles of equivalence and effectiveness (points 77-78). He rejected the trustees&#8217; submission that the principle in <span style="font-style:italic">San Giorgio</span> was applicable (points 79-82). Instead, in his view the principle of the primacy of EU law obliged member states to adopt &#8220;such measures as are necessary to enable any person that has suffered discrimination prohibited by article 63 to obtain the payment of any sums to which it would have been entitled in the absence of such discrimination&#8221; and &#8220;placed, in so far as is possible and in a manner consistent with the principles of effectiveness and equivalence, in the position they would have been in had they not suffered discrimination as a result of the national provisions in question&#8221; (point 86). This had the result that, section 246C being disapplied on grounds of the primacy of EU law, the trustees should be entitled to a tax credit paid in cash, together with interest (point 87).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU identified the relevant question (para 46) as being whether and to what extent EU law requires that the domestic law of a member state should provide remedies in such a case in order to enable shareholders in the position of the pension scheme to enforce their rights under article 63. It noted at the outset (para 47) that under the principle of sincere co-operation member states &#8220;are to take any appropriate measure, general or particular, to ensure fulfilment of the obligations resulting from the acts of the institutions of the Union&#8221; and that pursuant to article 19(1) of the EU Treaty &#8220;member states are to provide remedies sufficient to ensure effective legal protection in the fields covered by EU law.&#8221; The CJEU held (para 48), in light of its ruling at (i) and (ii) above, that article 63 conferred on shareholders receiving FIDs the right to the same tax treatment as those receiving dividends from UK-resident companies outside the FID regime. It observed (para 49) that article 63 may render national rules that are inconsistent with it inapplicable and (at para 50) referred to the <span style="font-style:italic">San Giorgio</span> principle, which confers the right to a refund of charges levied by a member state in breach of rules of EU law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU referred to the argument of the UK Government that the <span style="font-style:italic">San Giorgio </span>principle did not apply because the trustees did not pay any tax, but at para 52 rejected it, saying that &#8220;the right to a refund, within the meaning of the case law cited in para 50 above, is concerned not only with the amounts paid to the member state by way of unlawful charges but also any deducted amount the refund of which is essential in restoring the equal treatment required by the provisions of the FEU Treaty on the freedoms of movement &#8230; including, consequently, the amounts due to the individual in respect of a tax credit of which he has been deprived under the national legislation precluded by EU law.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:13pt">79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Applying that principle, the CJEU held (para 53) that in the circumstances of the case shareholders such as the trustees were entitled to the payment of the tax credit &#8220;of which they have been unduly deprived under the national legislation incompatible with article 63&#8221;. The CJEU also observed (para 54) that it was the duty of the national administrative authorities and courts &#8220;to give full effect to [provisions of EU law], if necessary refusing of their own motion to apply any conflicting provision of national law&#8221;, including (para 55) by applying domestic legal procedures &#8220;which are appropriate to safeguard the individual rights conferred by EU law&#8221;. It accordingly held (para 56) that in the context of an action brought by non-taxable shareholders receiving dividends treated as FIDs &#8220;with a view to obtaining payment of the tax credit of which they have been unduly deprived by the national legislation at issue &#8230; the national court is, in principle, required to disapply the provisions of that legislation which is responsible for the treatment that is contrary to article 63, so as to give full effect to EU law&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:13pt">80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In discussing procedural rules governing such an action the CJEU again referred to payments of which individuals &#8220;have been unduly deprived&#8221; (paras 58, 60 and 61) and explained that domestic remedies should be provided in accordance with the principles of equivalence and effectiveness so as to allow for recovery of such payments &#8220;under rules which are not less favourable than those relating to an action seeking payment of such a tax credit, or of a comparable tax advantage, in a situation where the tax authorities have unduly deprived the beneficiaries of that tax advantage on a distribution of dividends which have their origin in the dividends received from a United Kingdom-resident company&#8221; and so as to allow &#8220;the protection of the rights conferred on such shareholders by article 63 to be guaranteed in an effective manner&#8221; (paras 60 and 61).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:13pt">81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is thus clear that the CJEU has held that the <span style="font-style:italic">San Giorgio </span>principle does not just apply to situations where a member state has levied and received tax payments pursuant to national laws which violate article 63, but can also apply in situations where the breach of article 63 arises from the non-payment by the national tax authorities of sums in respect of tax credits. Accordingly, the <span style="font-style:italic">San Giorgio </span>principle is not purely a restitutionary principle, as the UK Government had argued and as the Advocate General had thought. The extension of the <span style="font-style:italic">San Giorgio </span>principle by the CJEU in this way makes it clear that the claimant taxpayer in a case like <span style="font-style:italic">BTPS</span> is entitled to a remedy to ensure the effective protection of their directly effective rights under EU law in the form of compensation in relation to sums which they should have received from the national authorities without having to meet the exacting requirements of showing that the breach of EU law was &#8220;sufficiently serious&#8221; according to the test in <span style="font-style:italic">Brasserie du P&#234;cheur and Factortame</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:13pt">82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, in explaining at para 52 the way in which the extended <span style="font-style:italic">San Giorgio </span>principle operates, the CJEU was also at pains to explain its limits. The principle applies to confer a right to a refund which is &#8220;essential&#8221; to restore the equal treatment required under article 63 regarding the free movement of capital. Similarly, in explaining the governing principles with respect to the remedy to be provided in national law, the CJEU stated that the remedy required was in relation to payments of which the taxpayer had been &#8220;unduly deprived&#8221;, ie to the extent that the non-payment represented an infringement of the taxpayer&#8217;s directly effective right under article 63. In this way, the remedy to be provided in respect of a breach of article 63 is required to be proportionate to the violation of EU law which is found to have occurred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:13pt">83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Proportionality is a general principle of EU law: see T Tridimas, <span style="font-style:italic">The General Principles of EU Law</span>,<span style="font-style:italic"/>2nd ed (2006), chapters 3-5. As Tridimas points out (p 137) the principle permeates the whole of the EU legal system; and see Geiger, Khan and Kotzur, <span style="font-style:italic">European Union Treaties: A Commentary </span>(2015), p 40: &#8220;The principle of proportionality is one of the general principles of Community law&#8221;. Article 5(1) of the EU Treaty provides (among other things) that the use of EU competencies is governed by the principle of proportionality and article 5(4) states that under that principle the content and form of Union action shall not exceed what is necessary to achieve the objectives of the EU Treaties. As Geiger et al observe (p 40), article 5(4) &#8220;particularly emphasizes necessity as one aspect of the principle of proportionality as a general principle covering the relationship between the Union and the member states&#8221;. It is in accordance with this general principle that, when giving effect to individual rights under EU law and providing an effective remedy in relation to them, inconsistent rules of national law should be disapplied only to the extent necessary to secure compliance with those rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:13pt">84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Where a member state has taken money from the taxpayer under a national rule which offends against EU law, the due and proportionate enforcement of EU law requires that the member state make restitution of the sums taken, with interest. This was made clear by the CJEU in<span style="font-style:italic"> FII Test Claimants (No 1)</span> at paras 202-206.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:13pt">85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The position is different when the claim is not for reimbursement of tax unlawfully levied or interest thereon: <span style="font-style:italic">FII Test Claimants (No 1)</span>, para 207. In that case<span style="font-style:italic"/>the CJEU considered that further claims by the taxpayers for compensation for losses suffered by them as a result of waivers of reliefs by them or as a result of their elections to be taxed under the FID regime fell to be considered by reference to a different principle: it was for the national court to determine whether the relief claimed was in respect of &#8220;financial losses suffered by reason of a breach of Community law for which the member state in question is responsible&#8221; (para 208), and in the context of that case the relevant standard to be applied as regards that question was the &#8220;sufficiently serious breach&#8221; test laid down in <span style="font-style:italic">Brasserie du P&#234;cheur and Factortame</span> (paras 209-219).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:13pt">86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The judgment in <span style="font-style:italic">BTPS </span>shows that there is an intermediate case, based on the extended form of the <span style="font-style:italic">San Giorgio </span>principle, where a member state has not received taxes levied in breach of EU law but still has to make payment to a taxpayer to compensate it for a breach of EU law even though the &#8220;sufficiently serious breach&#8221; test is not satisfied. However, the basic approach laid down in<span style="font-style:italic"> FII Test Claimants (No 1)</span>, para 208, to ask which financial losses have been suffered by reason of a breach of EU law for which the member state is responsible, remains applicable. Accordingly, in our view, it is clear that where what is in issue is not the restitution of money received by the state but the provision by the state of some financial benefit, eg by payment of credits in relation to taxes paid to another state, as in this case (see para 60 above), the remedy to be granted has to be tailored to the wrong committed in breach of EU law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:13pt">87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Trustee&#8217;s position is not improved by focusing on MOD WHT as a UK tax, since it was a tax on borrowers, not lenders, and did not involve payment of sums to the UK tax authorities which were otherwise due to be received by lenders. In addition, as a matter of fact, the AUKI borrowers did not pay any sums to the UK tax authorities by way of MOD WHT. For both these reasons the Trustee is unable to sustain its claim on a pure restitutionary basis. The UK has not in fact received any money or money&#8217;s worth in respect of MOD WHT and, even if it had done, that would not have been a payment from or at the expense of the Trustee, as a lender.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-size:13pt">88.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This approach reflects authority and principle. It also ensures that a proper balance is maintained between EU law and the exercise of sovereign taxing powers by member states, allowing such exercise to be respected to the extent that it is not made unlawful by that law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-size:13pt">89.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addition, by ensuring that the intermediate extended <span style="font-style:italic">San Giorgio</span> principle is limited in this way, the CJEU has minimised the scope for conflict with the principle articulated in <span style="font-style:italic">Brasserie du P&#234;cheur and Factortame </span>which limits the availability of damages for breach of EU law where the impact of that law is uncertain by application of the &#8220;sufficiently serious breach&#8221; test to reduce substantially the degree to which a member state can be required to pay compensation outside a pure restitutionary situation where it has received money itself from a taxpayer. As noted above, the breach of EU law in <span style="font-style:italic">BTPS</span> was not &#8220;sufficiently serious&#8221; according to this standard, but the CJEU applied the extended <span style="font-style:italic">San Giorgio </span>principle in favour of the claimant taxpayer. It would be very odd to say that the Revenue should be liable to the Trustee for the whole amount of the credits which it claims even though there was no obligation under article 63 to have in place a system for payment of those sums and even though an ordinary damages claim under EU law would fall to be dismissed under the test in <span style="font-style:italic">Brasserie du P&#234;cheur and Factortame</span>. In giving its judgment in <span style="font-style:italic">BTPS</span>, the chamber cannot have intended to undermine or displace the landmark judgment of the Grand Chamber in <span style="font-style:italic">Brasserie du P&#234;cheur and Factortame</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-size:13pt">90.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We turn, then, to apply the approach in <span style="font-style:italic">BTPS </span>in the context of this case. As explained above, the Trustee&#8217;s claim that the relevant breach of article 63 arose from the difference on the face of the MDs regime and the MODs regime (as the UT found) cannot be sustained. If, contrary to our view in the first part of this judgment, there was a breach of article 63, it was only on the basis that the MODs regime omitted to allow for the grant of a tax credit payment to the Trustee to the extent that it could show that it had been unable to benefit from the possibility of sharing in the financial gains from dividend arbitrage by an AUKI: para 41 in the judgment of the Court of Appeal. On this basis, the only remedy which could be said to be &#8220;essential&#8221; to restore the equal treatment required by article 63 is a payment equivalent to the economic value of that possibility. The Trustee can only be said to have been &#8220;unduly deprived&#8221; of a benefit valued in that way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-size:13pt">91.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That is the extent of the relief to which the Trustee is entitled, if the remedy is to be kept proportionate to the wrong suffered. And that is the extent of the financial loss which the Trustee has suffered by reason of a breach of EU law for which the UK is responsible, according to the principle in <span style="font-style:italic">FII Test Claimants (No 1)</span>, para 208.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-size:13pt">92.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, the Trustee has never sought to claim for such a loss and has not presented any evidence to show that in fact it suffered any such loss. Contrary to Mr Gammie&#8217;s submission, the claim which the Trustee has brought is not supported by <span style="font-style:italic">BTPS</span> and falls to be rejected. Accordingly, in our judgment the appeal should be allowed on this ground as well.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-size:13pt">93.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">To summarise the position: (i) the typical OSLA visited upon lenders the reduction of their MOD below a payment of the gross equivalent of the dividend by reference to, and only because of, the foreign withholding tax, since that is what it was designed to, and did, do; (ii) without the MOD tax regime, a lender would have suffered the effect of the foreign withholding tax, in terms of reduced MOD payments, without any corresponding double taxation relief in the form of a tax credit of the type available if the relevant overseas shares had been retained by the lender (ie a credit useable only to set off against an income tax liability); (iii) the MOD tax regime remedied that precisely by providing a tax credit &#8220;in respect of foreign withholding tax&#8221;, and this was a matter of substance (indeed, a critical substantive effect intended to be produced by the MOD tax regime), not fiction; (iv) true it is that the MOD tax regime also imposed a tax on the borrower (the MOD WHT) which was calculated on a &#8220;deduction at source&#8221; basis involving the pretence that the pre-tax entitlement of the lender was to the full grossed up dividend equivalent, but that really was a fiction, because the lender had no contractual entitlement to the gross sum; (v) in fact, therefore, the MOD WHT neither impoverished the lender (who did not pay it, nor suffered any diminution of its MOD entitlement by reason of it) nor enriched the Revenue, because the borrower always set it off against a wide range of tax credits. There is, therefore, no basis for application of the extended <span style="font-style:italic">San Giorgio</span> principle in relation to the full amount of the tax credits in issue.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_94">
+	  <num style="font-size:13pt">94.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons we have given, we would allow the Revenue&#8217;s appeal on two grounds: (i) contrary to the view of the Court of Appeal, the Trustee has not established that there was any breach of article 63 in the circumstances of this case; alternatively, (ii) even if there had been a breach of article 63 as identified by the Court of Appeal, the claim as framed by the Trustee must fail because the remedy it seeks does not correspond with that breach and is out of all proportion to the wrong done, and the Trustee has not sought to present any alternative case, supported by evidence, for relief in the form of some lesser amount which reflects such breach.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

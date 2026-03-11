@@ -1,0 +1,881 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/3"/>
+	  <FRBRdate date="2022-02-02" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3"/>
+	  <FRBRname value="R (on the application of O (a minor, by her litigation friend AO)) v Secretary of State for the Home Department"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/3"/>
+	  <FRBRdate date="2022-02-02" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/3/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/3/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:26:58" name="transform"/>
+	  <FRBRdate date="2025-08-18T03:53:12" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-02-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="r-on-the-application-of-o-a-minor-by-her-litigation-friend-ao" href="" showAs="R (on the application of O (a minor, by her litigation friend AO))"/>
+	<TLCPerson eId="secretary-of-state-for-the-home-department" href="" showAs="Secretary of State for the Home Department"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lady-arden" href="/judge-lady-arden" showAs="Lady Arden"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>3</uk:number>
+	<uk:cite>[2022] UKSC 3</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>9288bd1bc00bd091d24b4d3d1a48531b54a36bd304768b25bca9d7445a80f90a</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="CourtOrder"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/>THE COURT ORDERED that no one shall publish or reveal the names or addresses of the Appellant who is the subject of these proceedings or publish or reveal any information which would be likely to lead to the identification of the Appellant or of any members of her family in connection with these proceedings.</p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 3</neutralCitation><br/><span style="font-style:italic">On appeal from: [2021] EWCA Civ 193</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#r-on-the-application-of-o-a-minor-by-her-litigation-friend-ao" style="font-size:20pt">R (on the application of O (a minor, by her litigation friend AO))</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#secretary-of-state-for-the-home-department" style="font-size:20pt">Secretary of State for the Home Department</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">)</span><br/><span style="font-size:20pt">R (on the application of The Project for the Registration of Children as British Citizens) (Appellant) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"> Secretary of State for the Home Department (Respondent)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lady-arden">Lady Arden</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-02-02" refersTo="#judgment">2 February 2022</docDate><br/><br/>Heard on 23 and 24 June 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">1st Appellant (O (a minor, by her litigation friend AO))</span><br/>Richard Drabble QC<br/>Jason Pobjoy<br/>Admas Habteslasie<br/>(Instructed by Solange Valdez-Symonds, Cardinal Hume Centre)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">2nd Appellant (The Project for the Registration of Children as British Citizens)</span><br/>Richard Drabble QC<br/>Isabel Buchanan<br/>Miranda Butler<br/>(Instructed by Maria Patsalos, Mishcon de Reya LLP (London))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Sir James Eadie QC<br/>William Hansen<br/>Nicholas Chapman<br/>(Instructed by The Government Legal Department)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Intervener (Amnesty International UK)</span><br/><span style="font-style:italic">(written submissions only)</span><br/>Ronan Toal<br/>Ubah Dirie<br/>Samuel Genen<br/>Adam Tear<br/>(Instructed by Scott-Moncrieff &amp; Associates Ltd (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD HODGE: (<span style="text-transform:none">with whom Lord Briggs, Lord Stephens and Lady Rose agree)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal raises a question whether subordinate legislation was ultra vires because it set the fee for the exercise by a child or young person of the right to be registered as a British citizen at a level which many young applicants have found to be unaffordable.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The facts may be stated shortly, as they were in the judgment of David Richards LJ (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/193" uk:canonical="[2021] EWCA Civ 193" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 193</ref>; <ref href="#" uk:canonical="[2021] 1 WLR 3049" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 3049</ref>), from which I derive this account. The claimant, O, was born in the United Kingdom in July 2007, attends school and has never left the UK. She has Nigerian citizenship, but from her tenth birthday she has satisfied the requirements to apply for registration as a British citizen under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="1981 c. 61 s. 1" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">British Nationality Act 1981</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>&#8221;). As explained more fully below, her entitlement arises because she was born in the UK and has lived here for ten years. She is one of three children who live with their mother who is a single parent in receipt of state benefits. In June 2015 the local authority began supporting O&#8217;s family on the basis that they were destitute. An application was made to register O as a British citizen on 15 December 2017. Her mother was unable to raise the full amount of the fee, which was &#163;973 at that time. She was able to raise only &#163;386, which would have covered the administrative cost of processing the application. Because the full fee was not paid, the Secretary of State refused to process the application at that time.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Since 6 April 2018 the fee payable on an application by a child has been fixed at &#163;1,012. The fee is fixed at a level which is designed to produce a substantial surplus over the administrative cost of processing an application to be applied in subsidising other parts of the immigration and nationality system.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">O challenges the level of the registration fee. She is joined in this challenge by The Project for the Registration of Children as British Citizens (&#8220;the PRCBC&#8221;), which is a charitable organisation. The PRCBC works to assist children and young persons to ascertain and establish their rights to British citizenship by providing legal advice and representation. It has also lobbied Parliament in relation to the level of the registration fee. The charity, Amnesty International UK, has intervened in the appeal with the permission of the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is not disputed that the right to become a British citizen is an important right as citizenship, once obtained, confers significant rights. Nor is it disputed that for many young people and their families the current level of fees is unaffordable. The difficulties which a young person may encounter from an inability to acquire British citizenship are revealed in the witness statements of teenage applicants which have been made available in these proceedings. It is also not in dispute that a young person&#8217;s right to apply to be registered as a British citizen under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>, once acquired, continues throughout that person&#8217;s life. A person, who has gained an entitlement to apply, can therefore acquire British citizenship later once he or she has obtained the means to pay the then current fee.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(1)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The legal background</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">The 1981 Act</ref> established a new regime for the acquisition of citizenship of the UK. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(1)</ref> provides that persons born in the UK after the commencement of the relevant parts of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the Act</ref> on 1 January 1983 are British citizens if at the time of birth their father or mother is a British citizen or is settled in the UK (ie if the parent has indefinite leave to remain). Citizenship by descent is conferred in certain circumstances on persons born outside the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Citizenship can also be obtained by registration. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(3)</ref> provides that persons born in the UK after commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the Act</ref> who are not British citizens by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> shall be entitled to be registered as a British citizen if, while they are minors (ie under the age of 18 years), their father or mother becomes a British citizen or becomes settled in the UK, and an application is made for registration as a British citizen. The other main category of case in which citizenship can be obtained by registration, which is the relevant provision in this appeal, is <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> which provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;A person born in the United Kingdom after commencement who is not a British citizen by virtue of sub<ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>), (1A) or (2) shall be entitled, on an application for his registration as a British citizen made at any time after he has attained the age of ten years, to be registered as such a citizen if, as regards each of the first ten years of that person&#8217;s life, the number of days on which he was absent from the United Kingdom in that year does not exceed 90.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">The Secretary of State is also given a discretionary power to cause a minor to be registered as a British citizen if she thinks fit: <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">From the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> a person&#8217;s entitlement to be registered as a British citizen has been conditional upon his or her payment of a fee. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/41/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 41(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> empowered the Secretary of State, with the consent of the Treasury, to make regulations by statutory instrument, subject to annulment by resolution of either House of Parliament, for the imposition, recovery and application of fees in connection with, among other things, applications for registration as a British citizen. Fees regulations have been in place since the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>. The conditional nature of an applicant&#8217;s entitlement to registration was set out in section 42(1), which provided that &#8220;a person shall not be registered under any provision of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">this Act</ref> as a citizen &#8230; unless - (i) any fee payable by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">this Act</ref> in connection with the registration ... has been paid&#8221;. Section 42(3) provided that &#8220;any provision of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">this Act</ref> which provides for a person to be entitled to registration as a citizen of any description &#8230; shall have effect subject to the preceding provisions of this section&#8221;. At that time and for over 20 years the fees were fixed so as to recover the full cost of the processing of the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The basis on which the fees were fixed changed after the enactment of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">Asylum and Immigration (Treatment of Claimants, etc) Act 2004</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>&#8221;). <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">that Act</ref> provided that in relation to immigration and nationality fees in, among other enactments, <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>, the Secretary of State could prescribe an amount intended to exceed the administrative costs of determining or processing an application and to reflect the benefits that the Secretary of State believed were likely to accrue to the person to whom the application related if it succeeded. The instrument prescribing such fees was subject to the affirmative resolution of each House of Parliament. <ref href="http://www.legislation.gov.uk/id/ukpga/2006/13/section/51" uk:canonical="2006 c. 13 s. 51" uk:origin="TNA" uk:type="legislation">Sections 51</ref>-52 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/13" uk:canonical="2006 c. 13" uk:origin="TNA" uk:type="legislation">Immigration, Asylum and Nationality Act 2006</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2006/13" uk:canonical="2006 c. 13" uk:origin="TNA" uk:type="legislation">the 2006 Act</ref>&#8221;) repealed the powers for levying fees in specified statutes, including <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>, and replaced them with a consolidated power to specify fees for applications or claims in connection with immigration or nationality. <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> was amended to reflect this change but continued to permit the Secretary of State to prescribe fees for applications that were made under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> that exceeded their administrative cost and reflected the benefits which accrued from citizenship. <ref href="http://www.legislation.gov.uk/id/ukpga/2007/30/section/20" uk:canonical="2007 c. 30 s. 20" uk:origin="TNA" uk:type="legislation">Section 20</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/30" uk:canonical="2007 c. 30" uk:origin="TNA" uk:type="legislation">UK Borders Act 2007</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2007/30" uk:canonical="2007 c. 30" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref>&#8221;) further amended <ref href="http://www.legislation.gov.uk/id/ukpga/2007/30/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> by inserting sub<ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (2</ref>A), enabling fees to reflect costs referable to other specified applications and functions.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/51" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 51</ref>-52 of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/13" uk:canonical="2006 c. 13" uk:origin="TNA" uk:type="legislation">the 2006 Act</ref> were repealed by the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">Immigration Act 2014</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref>&#8221;), which in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 68</ref>-74 contains the framework for the levying of fees in relation to all immigration and nationality applications, including applications to be registered as a citizen under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>. These provisions apply to the present case and remain in force.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(1)</ref> and (2) of <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> provide:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;(1)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The Secretary of State may provide, in accordance with this section, for fees to be charged in respect of the exercise of functions in connection with immigration and nationality.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">(2)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The functions in respect of which fees are to be charged are to be specified by the Secretary of State by order (&#8216;a fees order&#8217;).&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(3)</ref> and (4) provide for the calculation of fees in a fees order. Subsection (5) provides that where a fees order provides for a fee to be a fixed amount, it must specify a maximum amount for the fee and may specify a minimum amount.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(7)</ref> empowers the Secretary of State to make fees regulations. <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(8)</ref> provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;An amount &#8230; set by fees regulations for a fee in respect of the exercise of a specified function -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(a)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">must not -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in"><span style="font-family:Calibri, sans-serif">(i)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">exceed the maximum specified for that amount, &#8230;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in"><span style="font-family:Calibri, sans-serif">(ii)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">be less than the minimum, if any, so specified;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(b)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">subject to that, may be intended to exceed, or result in a fee which exceeds, the costs of exercising the function.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(9)</ref> provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;In setting the amount of any fee &#8230; in fees regulations, the Secretary of State may have regard only to -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(a)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">the costs of exercising the function;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(b)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">benefits that the Secretary of State thinks are likely to accrue to any person in connection with the exercise of the function;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(c)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">the costs of exercising any other function in connection with immigration or nationality;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(d)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">the promotion of economic growth;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(e)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">fees charged by or on behalf of governments of other countries in respect of comparable functions;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span style="font-family:Calibri, sans-serif">(f)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">any international agreement.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 68(10)</ref> enables fees regulations to provide for exceptions and for the reduction, waiver or refund of part or all of a fee.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/71" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 71</ref> provides that <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the Act</ref> does not limit any duty regarding the welfare of children imposed on the Secretary of State or any other person under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="2009 c. 11 s. 55" uk:origin="TNA" uk:type="legislation">section 55</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">Borders, Citizenship and Immigration Act 2009</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">the 2009 Act</ref>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Section 74 provides for the procedure for making fees orders and regulations by statutory instrument; fees orders are subject to the affirmative resolution procedure in each House of Parliament, and fees regulations are subject to the negative resolution procedure in each House.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In summary, Parliament has empowered the Secretary of State to set the fees for applications to obtain British citizenship at a level in excess of the cost of processing the relevant application. Parliament has instructed the Secretary of State to have regard only to the matters listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68(9)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref>, which include not only that cost but also the benefits that are likely to accrue from obtaining British citizenship and the costs of exercising other functions in relation to immigration and nationality. The Secretary of State is therefore empowered to have regard to the likely benefits accruing from British citizenship and to set fees at a level which would subsidise her other functions in relation to immigration and nationality. That power to set the relevant fees is subject to the maximum specified in the fees order made by the Secretary of State and approved by the affirmative resolutions of both Houses of Parliament.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The current fees order is the Immigration and Nationality (Fees) Order 2016 (SI 2016/177), which was made under <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref>. It provides in article 3(1) that the Secretary of State &#8220;must charge the fee specified in fees regulations&#8221; for the functions specified in the Order. Article 3(2) provides that a fee specified in regulations must not exceed the maximum amount specified for that function in the Order. In relation to an application for registration as a British citizen Table 7 in article 10 specifies the maximum amount that can be charged as &#163;1,500. The fees regulations are the Immigration and Nationality (Fees) Regulations 2018 (SI 2018/330) (&#8220;the 2018 Fees Regulations&#8221;), in which the fees for an application for registration as a British citizen are set at &#163;1,126 for an adult and &#163;1,012 where the applicant is a child: paragraphs 19.2.1 and 19.3.1 of Schedule 8 to the 2018 Fees Regulations. The regulations do not provide for any exceptions and do not give discretionary powers to waive fees for such applications.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">At the time of O&#8217;s application for registration as a British citizen the applicable fees regulations were the Immigration and Nationality (Fees) Regulations 2017 (SI 2017/515) (&#8220;the 2017 Fees Regulations&#8221;). They were materially identical to the 2018 Fees Regulations except that the specified fees were lower. The fee for an adult wishing to register as a British citizen was then &#163;1,083 and the fee for a child was &#163;973: paragraph 19.3.1 of Schedule 8 to the 2017 Fees Regulations.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(2)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The challenge to the 2018 Fees Regulations</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">On this appeal it is not disputed that a large number of children and their families cannot afford the fee charged where an applicant is a child. In para 31 of his judgment in the Court of Appeal David Richards LJ stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;the judge noted &#8230; that there was &#8216;a mass of evidence supporting the proposition that a significant number of children, and no doubt the majority growing up on low or middle incomes, could only pay the fee by those acting on their behalf being required to make unreasonable sacrifices&#8217;. I would only add that in cases such as that of O, one of three children of a single parent on state benefits, it is difficult to see how the fee could be afforded at all.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">O and the PRCBC challenge the fee charged to children in the 2018 Fees Regulations as ultra vires the rule making power in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22/section/68" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> on the basis that the Secretary of State did not have the power to set the fee at a level which rendered nugatory the underlying statutory right to become a British citizen.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Mr Richard Drabble QC for the appellants submits that <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> was a constitutional settlement which conferred a statutory entitlement to citizenship in <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>. He argues that that right is an important right which gives a person the right to live in the United Kingdom and a right to take part in its political life, including by voting in general elections and other elections. The statutory mechanism for setting a fee for processing the application is, he submits, ancillary to the right to become a citizen and the provisions requiring payment are simply imposing a sanction for non-payment. While the fees regime established by the legislation extends to a wide range of applicants of differing ages and many can afford to pay, many children and young persons who apply under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> cannot pay and therefore cannot exercise their statutory right. In short, he submits that their right to citizenship is rendered nugatory by the high level at which the fees have been set in the subordinate legislation, and that subordinate legislation is accordingly ultra vires.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(3)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The decisions of the High Court and the Court of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the High Court the appellants&#8217; argument included the ultra vires ground which I have summarised above. It also involved a challenge that the Secretary of State had failed to discharge her duty under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">the 2009 Act</ref> to have regard to the need to safeguard and promote the welfare of children who are in the UK when discharging any functions in relation to immigration, asylum or nationality. In his judgment (<ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/3536" uk:canonical="[2019] EWHC 3536 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3536 (Admin)</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 1486" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 1486</ref>) Jay J allowed the claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">the 2009 Act</ref>. He granted declarations that the Secretary of State had breached the procedural duty under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">the 2009 Act</ref> in setting the fees under the 2017 and 2018 Fees Regulations, but he refused to quash the regulations or grant any substantive relief. He dismissed the claim on the ultra vires ground on the basis that he was bound by the decision of the Court of Appeal in <span style="font-style:italic">R (Williams) v Secretary of State for the Home Department</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/98" uk:canonical="[2017] EWCA Civ 98" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 98</ref>; <ref href="#" uk:canonical="[2017] 1 WLR 3283" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 3283</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Jay J granted the appellants a certificate under <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/12" uk:canonical="1969 c. 58 s. 12" uk:origin="TNA" uk:type="legislation">section 12</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58" uk:canonical="1969 c. 58" uk:origin="TNA" uk:type="legislation">Administration of Justice Act 1969</ref> for a leapfrog appeal to this court on the vires ground. This court decided on 10 March 2020 to refuse permission to appeal stating that it wished the Court of Appeal to have the opportunity to consider the <span style="font-style:italic">Williams</span> decision in the light of this court&#8217;s decision in <span style="font-style:italic">R (UNISON) v Lord Chancellor (Nos 1 and 2)</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/51" uk:canonical="[2017] UKSC 51" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 51</ref>; <ref href="#" uk:canonical="[2020] AC 869" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 869</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Court of Appeal (David Richards, Singh and Nicola Davies LJJ) in a judgment dated 18 February 2021 (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/193" uk:canonical="[2021] EWCA Civ 193" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 193</ref>; <ref href="#" uk:canonical="[2021] 1 WLR 3049" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 3049</ref>) dismissed the Secretary of State&#8217;s appeal against Jay J&#8217;s decision on <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11" uk:canonical="2009 c. 11" uk:origin="TNA" uk:type="legislation">the 2009 Act</ref> and dismissed the claimants&#8217; cross-appeal on remedy, upholding Jay J&#8217;s exercise of discretion to limit relief to the form of the declarations he made. No appeal is taken against those decisions relating to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/11/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> ground. On the ultra vires challenge, the Court of Appeal reviewed its decision in <span style="font-style:italic">Williams </span>in the light of this court&#8217;s decision in <span style="font-style:italic">UNISON</span> and concluded that the reasoning in <span style="font-style:italic">Williams</span> had not been overtaken by this court&#8217;s judgment in <span style="font-style:italic">UNISON</span>. The Court of Appeal therefore dismissed the claimants&#8217; challenge to the vires of the 2017 and 2018 Fees Regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Court of Appeal granted the appellants permission to appeal to this court on the vires ground.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(4)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is no dispute as to the importance to an individual of the possession of British citizenship. It gives a right of abode in the UK which is not subject to the qualifications that apply to a non-citizen, including even someone who has indefinite leave to remain. It gives a right to acquire a British passport and thereby a right to come and go without let or hindrance. It can contribute to one&#8217;s sense of identity and belonging, assisting people, and not least young people in their sensitive teenage years, to feel part of the wider community. It allows a person to participate in the political life of the local community and the country at large. As the Secretary of State has stated in a guidance document, &#8220;Becoming a British citizen is a significant life event. Apart from allowing you to apply for a British Citizen passport, British citizenship gives you the opportunity to participate more fully in the life of your local community.&#8221; - Guide T, <span style="font-style:italic">Registration as a British citizen - a guide for those born in the UK on or after 1 January 1983 who have lived in the UK up to the age of ten</span> (March 2019), Introduction, p 3.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The rights conferred by British citizenship are rights conferred by a process laid down by statute and subordinate legislation and not by the common law. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">The 1981 Act</ref> reformed the basis on which people acquire British citizenship. Entitlement to citizenship by registration arises under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> as a result of a connection with the UK as laid down in <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58" uk:canonical="1969 c. 58" uk:origin="TNA" uk:type="legislation">that Act</ref> and compliance with the statutory procedures and conditions. The question raised in this appeal is one of statutory interpretation. The question in short is whether Parliament has authorised in primary legislation the imposition by subordinate legislation of the fees which the appellants challenge.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Having regard to the way in which both parties presented their cases, it is opportune to say something about the process of statutory interpretation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The courts in conducting statutory interpretation are &#8220;seeking the meaning of the words which Parliament used&#8221;: <span style="font-style:italic">Black-Clawson International Ltd v Papierwerke Waldhof-Aschaffenburg AG</span><ref href="#" uk:canonical="[1975] AC 591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1975">[1975] AC 591</ref>, 613 per Lord Reid of Drem. More recently, Lord Nicholls of Birkenhead stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Statutory interpretation is an exercise which requires the court to identify the meaning borne by the words in question in the particular context.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">(</span><span style="font-style:italic;font-family:Calibri, sans-serif">R v Secretary of State for the Environment, Transport and the Regions, Ex p Spath Holme Ltd</span><span style="font-family:Calibri, sans-serif"><ref href="#" uk:canonical="[2001] AC 349" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] AC 349</ref>, 396). Words and passages in a statute derive their meaning from their context. A phrase or passage must be read in the context of the section as a whole and in the wider context of a relevant group of sections. Other provisions in a statute and the statute as a whole may provide the relevant context. They are the words which Parliament has chosen to enact as an expression of the purpose of the legislation and are therefore the primary source by which meaning is ascertained. There is an important constitutional reason for having regard primarily to the statutory context as Lord Nicholls explained in </span><span style="font-style:italic;font-family:Calibri, sans-serif">Spath Holme</span><span style="font-family:Calibri, sans-serif">, 397:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Citizens, with the assistance of their advisers, are intended to be able to understand parliamentary enactments, so that they can regulate their conduct accordingly. They should be able to rely upon what they read in an Act of Parliament.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">External aids to interpretation therefore must play a secondary role. Explanatory notes, prepared under the authority of Parliament, may cast light on the meaning of particular statutory provisions. Other sources, such as Law Commission reports, reports of Royal Commissions and advisory committees, and Government White Papers may disclose the background to a statute and assist the court to identify not only the mischief which it addresses but also the purpose of the legislation, thereby assisting a purposive interpretation of a particular statutory provision. The context disclosed by such materials is relevant to assist the court to ascertain the meaning of the statute, whether or not there is ambiguity and uncertainty, and indeed may reveal ambiguity or uncertainty: <span style="font-style:italic">Bennion, Bailey and Norbury on Statutory Interpretation</span>, 8th ed (2020), para 11.2. But none of these external aids displace the meanings conveyed by the words of a statute that, after consideration of that context, are clear and unambiguous and which do not produce absurdity. In this appeal the parties did not refer the court to external aids, other than explanatory statements in statutory instruments, and statements in Parliament which I discuss below. Sir James Eadie QC for the Secretary of State submitted that the statutory scheme contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> should be read as a whole.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Statutory interpretation involves an objective assessment of the meaning which a reasonable legislature as a body would be seeking to convey in using the statutory words which are being considered. Lord Nicholls, again in <span style="font-style:italic">Spath Holme</span>, 396, in an important passage stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;The task of the court is often said to be to ascertain the intention of Parliament expressed in the language under consideration. This is correct and may be helpful, so long as it is remembered that the &#8216;intention of Parliament&#8217; is an objective concept, not subjective. The phrase is a shorthand reference to the intention which the court reasonably imputes to Parliament in respect of the language used. It is not the subjective intention of the minister or other persons who promoted the legislation. Nor is it the subjective intention of the draftsman, or of individual members or even of a majority of individual members of either House. &#8230; Thus, when courts say that such-and-such a meaning &#8216;cannot be what Parliament intended&#8217;, they are saying only that the words under consideration cannot reasonably be taken as used by Parliament with that meaning.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In their written case the appellants sought to support their contention that a child&#8217;s acquisition of substantial ties with the UK by spending time in the UK in the first ten years of his or her life created a complete entitlement to citizenship by referring to statements by a Government minister, Timothy Raison, to the Standing Committee which considered an amendment which became <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>. Such references are not a legitimate aid to statutory interpretation unless the three conditions set out by Lord Browne-Wilkinson in <span style="font-style:italic">Pepper v Hart</span><ref href="#" uk:canonical="[1993] AC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] AC 593</ref>, 640 are met. The three conditions are (i) that the legislative provision must be ambiguous, obscure or, on a conventional interpretation, lead to absurdity; (ii) that the material must be or include one or more statements by a minister or other promoter of the Bill; and (iii) the statement must be clear and unequivocal on the point of interpretation which the court is considering. It was not argued, and I am not satisfied, that the first and third conditions are met in this case. The court was not referred to any relevant provision of primary legislation that was said to be ambiguous and the statements in any event did not meet the stringent requirements of the third condition. Sir James Eadie in para 10 of the Secretary of State&#8217;s written case referred to a ministerial statement in the House of Lords during the passage of <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> which sought to explain the policy behind what became <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/68" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58" uk:canonical="1969 c. 58" uk:origin="TNA" uk:type="legislation">that Act</ref>. But it is not argued that this reference is admissible because the first condition in <span style="font-style:italic">Pepper v Hart </span>has been met. I am satisfied that there is no such ambiguity, obscurity or absurd result in the relevant statutory provisions which would allow the court to have regard to that statement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Before turning to consider the two cases on which the appellants principally relied in their submissions, it is necessary to observe that, as the appellants accepted in their submissions, this appeal is not concerned with common law rights which have been recognised as fundamental or constitutional nor is it asserted that any Convention rights under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> are engaged. In a series of cases between the early 1980s and the early 2000s the courts repeatedly recognised the right of unimpeded access to the courts as a fundamental or constitutional common law right, as for example in <span style="font-style:italic">Raymond v Honey</span><ref href="#" uk:canonical="[1983] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 AC 1</ref>; <span style="font-style:italic">R v Secretary of State for the Home Department, Ex p Leech</span><ref href="#" uk:canonical="[1984] QB 198" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] QB 198</ref> (CA);<span style="font-style:italic"> R v Lord Chancellor, Ex p Witham </span><ref href="#" uk:canonical="[1998] QB 575" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] QB 575</ref>;<span style="font-style:italic"> R v Secretary of State for the Home Department, Ex p Simms </span><ref href="#" uk:canonical="[2000] 2 AC 115" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 AC 115</ref>; and <span style="font-style:italic">R (Daly) v Secretary of State for the Home Department</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2001/26" uk:canonical="[2001] UKHL 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] UKHL 26</ref>; <ref href="#" uk:canonical="[2001] 2 AC 532" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 AC 532</ref>. Similarly, <span style="font-style:italic">in R v Secretary of State for the Home Department, Ex p Brind</span><ref href="#" uk:canonical="[1991] 1 AC 696" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 1 AC 696</ref>, the House of Lords accorded a similar status to the common law right of freedom of expression. In <span style="font-style:italic">Simms</span> (above), p 131, Lord Hoffmann described the relationship between parliamentary sovereignty and the principle of legality in these terms:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Parliamentary sovereignty means that Parliament can, if it chooses, legislate contrary to fundamental principles of human rights. &#8230; The constraints upon its exercise by Parliament are ultimately political, not legal. But the principle of legality means that Parliament must squarely confront what it is doing and accept the political cost. Fundamental rights cannot be overridden by general or ambiguous words. This is because there is too great a risk that the full implications of their unqualified meaning may have passed unnoticed in the democratic process. In the absence of express language or necessary implication to the contrary, the courts therefore presume that even the most general words were intended to be subject to the basic rights of the individual.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">More recently, in </span><span style="font-style:italic;font-family:Calibri, sans-serif">AXA General Insurance Ltd v HM Advocate</span><span style="font-family:Calibri, sans-serif"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/46" uk:canonical="[2011] UKSC 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 46</ref>; <ref href="#" uk:canonical="[2012] 1 AC 868" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 AC 868</ref>, para 152, Lord Reed stated:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;The principle of legality means not only that Parliament cannot override fundamental rights or the rule of law by general or ambiguous words, but also that it cannot confer on another body, by general or ambiguous words, the power to do so.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">Because, as is not disputed, we are not concerned in this appeal with fundamental common law rights, the special rule of construction, which is embodied in the principle of legality, has no application. Similarly, the principle, which Lord Reed articulated in </span><span style="font-style:italic;font-family:Calibri, sans-serif">UNISON</span><span style="font-family:Calibri, sans-serif"> (paras 80-82) by reference to dicta in the above-mentioned cases of</span><span style="font-style:italic;font-family:Calibri, sans-serif"> Leech</span><span style="font-family:Calibri, sans-serif">, </span><span style="font-style:italic;font-family:Calibri, sans-serif">Simms</span><span style="font-family:Calibri, sans-serif"> and</span><span style="font-style:italic;font-family:Calibri, sans-serif"> Daly</span><span style="font-family:Calibri, sans-serif">, that where a statutory power authorises an intrusion upon the right of access to the courts, it is interpreted as authorising only such degree of intrusion as is reasonably necessary to fulfil the objective of the provision in question, is not relevant as we are here not concerned with such a fundamental right. This conclusion is important when I discuss the judgment of this court in </span><span style="font-style:italic;font-family:Calibri, sans-serif">UNISON</span><span style="font-family:Calibri, sans-serif">, to which I now turn.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In his submission that the Court of Appeal erred in following its prior decision in <span style="font-style:italic">Williams</span>, Mr Drabble relies on the judgment of this court in <span style="font-style:italic">UNISON</span>. In that case this court held that regulations introducing fees for proceedings in employment tribunals and the Employment Appeal Tribunal were illegal because they were not affordable and as a result impeded the fundamental common law right of access to justice. In the leading judgment Lord Reed at para 65 recognised as important two constitutional principles which underlay the text of the statute. The first was the constitutional right of access to the courts, which I have discussed above. The second was the rule that &#8220;specific statutory rights are not to be cut down by subordinate legislation passed under the vires of a different Act&#8221;, a rule which I will discuss when I turn to consider the second case on which Mr Drabble relies, which is <span style="font-style:italic">R v Secretary of State for Social Security, Ex p Joint Council for the Welfare of Immigrants </span><ref href="#" uk:canonical="[1997] 1 WLR 275" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 1 WLR 275</ref> (&#8220;<span style="font-style:italic">JCWI</span>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Based on the first principle, the constitutional right of access to the courts, Lord Reed held (at para 87) that the fees order in question would be ultra vires &#8220;if there is a real risk that persons will effectively be prevented from having access to justice&#8221;. Further, he held that even if primary legislation authorised an intrusion on the right of access to justice, the degree of intrusion must not be greater than was justified by the objectives which the measure was intended to serve (para 88). He held that as the fees charged had been demonstrated not to be reasonably affordable to people from households on low to middle incomes and as they made it futile or irrational to bring modest claims, the fees order effectively prevented access to justice and was therefore unlawful (paras 90-98). He also held that the fees order was not justified as a necessary intrusion on the right of access to justice (paras 99-102). In paras 103 and 104 Lord Reed briefly addressed the second rule derived from the <span style="font-style:italic">JCWI</span> case. Having decided the appeal by reference to the constitutional right of access to justice he observed that the challenge based on the <span style="font-style:italic">JCWI </span>decision did not add anything. He stated that in so far as the fees order had the practical effect of making it unaffordable for people to exercise their statutory rights or of rendering the bringing of such claims a futile or irrational exercise, it rendered those rights nugatory.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In so far as the <span style="font-style:italic">UNISON</span> decision is based on the common law fundamental right of access to the courts as applied by analogy to the statutory system of employment tribunals, it has no relevance to the subject matter of the current appeal, which involves no vested fundamental right at common law or replicated in statute. It is necessary to consider in more detail the <span style="font-style:italic">JCWI</span> case, which this court endorsed in <span style="font-style:italic">UNISON</span>, and I turn to that case now.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In <span style="font-style:italic">JCWI </span>the Court of Appeal addressed a challenge by judicial review to subordinate legislation made in 1996 (the &#8220;1996 Regulations&#8221;) under the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">Social Security Contributions and Benefits Act 1992</ref>. The subordinate legislation removed the entitlement of certain categories of persons from abroad who were seeking asylum to claim urgent cases payments (paid at 90% of the normal income support level) until their claims for asylum were finally determined. The 1996 Regulations excluded from the entitlement to those payments those who sought asylum otherwise than on first arrival in the UK and those whose claims for asylum had been adversely determined by the Secretary of State and were awaiting appeal. The Court of Appeal by majority (Simon Brown and Waite LJJ; Neill LJ dissenting) held that the 1996 Regulations were ultra vires because they rendered nugatory the rights conferred on those asylum seekers to seek refugee status under the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/23" uk:canonical="1993 c. 23" uk:origin="TNA" uk:type="legislation">Asylum and Immigration Appeals Act 1993</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1993/23" uk:canonical="1993 c. 23" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Simon Brown LJ, who wrote the leading judgment of the majority, acknowledged the legitimacy of discouraging economic migrants from making and pursuing asylum claims as that would save the taxpayer money and speed up the processing of the claims by genuine refugees. But he saw the 1996 Regulations, by removing the entitlement to those benefits, as giving the affected asylum seekers who had genuine claims the &#8220;bleak choice&#8221; of living destitute and homeless until their claims were finally determined or of abandoning their claims and returning home to face the persecution from which they had fled (283H-284A). He accepted the applicants&#8217; argument that the right of access to refugee determination procedures, including appeals, was fundamental to the protection granted by the 1951 Refugee Convention to which <ref href="http://www.legislation.gov.uk/id/ukpga/1993/23" uk:canonical="1993 c. 23" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> gave effect. He recognised that the case did not involve the common law basic rights in issue in <span style="font-style:italic">Leech</span> (above), which were legal professional privilege, and unimpeded access both to the court and to legal advice, and he acknowledged that he was &#8220;carrying the <span style="font-style:italic">Ex p Leech </span>principle a step further&#8221; but concluded that the court should do so (292B-C). He justified this step at a time when Parliament had not given asylum seekers or anyone else the Convention rights which were later enacted into domestic law by the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>, by referring to the common law&#8217;s respect for basic rights (292E-H):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;[T]hese regulations for some genuine asylum seekers at least must be regarded as rendering [the rights conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1993/23" uk:canonical="1993 c. 23" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>] nugatory. Either that, or the Regulations necessarily contemplate for some a life so destitute that to my mind no civilised nation can tolerate it. So basic are the human rights here at issue that it cannot be necessary to resort to the European Convention on Human Rights to take note of their violation. Nearly 200 years ago Lord Ellenborough CJ in </span><span style="font-style:italic;font-family:Calibri, sans-serif">R v Inhabitants of Eastbourne </span><span style="font-family:Calibri, sans-serif">(1803) 4 East 103, 107 said:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in;margin-right:1.28in"><span style="font-family:Calibri, sans-serif">&#8216;As to there being no obligation for maintaining poor foreigners before the statutes ascertaining the different methods of acquiring settlements, the law of humanity, which is anterior to all positive laws, obliges us to afford them relief, to save them from starving; &#8230;&#8217;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8230; I would hold it unlawful to alter the benefit regime so drastically as must inevitably not merely prejudice, but on occasion defeat, the statutory right of asylum seekers to claim refugee status.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the course of his summary of the applicants&#8217; argument about interference with statutory rights Simon Brown LJ stated (290A-B):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Specific statutory rights are not to be cut down by subordinate legislation passed under the vires of a different Act. So much is clear.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">As I have said, Lord Reed referred to this principle as a constitutional principle in </span><span style="font-style:italic;font-family:Calibri, sans-serif">UNISON</span><span style="font-family:Calibri, sans-serif"> at para 65. In my view it is necessary to quote the concluding words of Simon Brown LJ&#8217;s judgment to explain the substance of this principle. He stated (293C-D):</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;I for my part regard the Regulations now in force as so uncompromisingly draconian in effect that they must indeed be held ultra vires. I would found my decision &#8230; on the wider ground that rights necessarily implicit in <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1993 are now inevitably being overborne. </span><span style="font-style:italic;font-family:Calibri, sans-serif">Parliament cannot have intended a significant number of genuine asylum seekers to be impaled on the horns of so intolerable a dilemma</span><span style="font-family:Calibri, sans-serif">: the need either to abandon their claims to refugee status or alternatively to maintain them as best they can but in a state of utter destitution. </span><span style="font-style:italic;font-family:Calibri, sans-serif">Primary legislation alone could in my judgment achieve that sorry state of affairs</span><span style="font-family:Calibri, sans-serif">.&#8221; (Emphasis added)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">In my view it is clear from this passage that Simon Brown LJ was interpreting the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">Social Security Contributions and Benefits Act 1992</ref>. He concluded that the general words in <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">that Act</ref> that authorised the Secretary of State to make subordinate legislation did not extend to empower the executive to undermine the basic rights to a determination of an asylum claim and to appeal that decision conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1993/23" uk:canonical="1993 c. 23" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>, which were akin to the common law right of access to justice. His expressed willingness to extend the principle in </span><span style="font-style:italic;font-family:Calibri, sans-serif">Ex p Leech </span><span style="font-family:Calibri, sans-serif">caused him to look for express language or necessary implication in <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">the 1992 Act</ref> that authorised that effect.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In his short concurring judgment, in which he accepted Simon Brown LJ&#8217;s reasoning, Waite LJ stated (293E):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;The principle is undisputed. Subsidiary legislation must not only be within the vires of the enabling statute but must also be so drawn as not to conflict with statutory rights already enacted by other primary legislation.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">I have a difficulty with this formulation in so far as it extends the principle beyond the vires of the enabling statute. In my view it is to that extent incorrect. It is an incident of the sovereignty of the UK Parliament that Parliament can legislate either expressly or by necessary implication to amend or repeal a previously enacted statute. Where it is asserted that an earlier statute (&#8220;statute 1&#8221;) has been amended by a later statute (&#8220;statute 2&#8221;) or that statute 2 has empowered the executive branch of government to make subordinate legislation which impinges upon and even removes rights conferred by statute 1, the question for the court is one of interpreting statute 2. Where statute 2 authorises subordinate legislation, the interpretative task is to ascertain the scope of the enabling power contained in statute 2. In other words, it is a question of vires.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In performing that interpretative task, the court has regard to well-established prima facie assumptions. It is an aspect of the principle of legality that Parliament is assumed to take for granted long-standing principles of constitutional and administrative law and a statute is to be interpreted accordingly: <span style="font-style:italic">R v Secretary of State for the Home Department, Ex p Pierson </span><ref href="#" uk:canonical="[1998] AC 539" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] AC 539</ref>, 587-588 per Lord Steyn. Thus, for example, where Parliament confers an administrative power there is a presumption that it will be exercised in a manner that is fair in all the circumstances: <span style="font-style:italic">R v Secretary of State for the Home Department, Ex p Doody </span><ref href="#" uk:canonical="[1994] 1 AC 531" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 1 AC 531</ref>, 560 per Lord Mustill. These and other assumptions or presumptions are part of the tools used by the courts in the interpretation of statutes. The weight to be attached to such presumptions will vary depending upon the circumstances of the case and the nature of the rights affected by the legislation under consideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The courts must take account of such assumptions or presumptions when interpreting statute 2 to ascertain whether it has empowered the executive to make subordinate legislation which restricts or removes rights conferred by statute 1. But the central task of the court is to ascertain the extent of the enabling power in statute 2. The statement of Simon Brown LJ which I have quoted in para 39 above and which Lord Reed endorsed in <span style="font-style:italic">UNISON </span>is to be understood as such an assumption or presumption rather than a rule of law which predetermines the vires of statute 2. If the court, having taken into consideration the established assumptions or presumptions concludes that statute 2, expressly or by necessary implication, has empowered the executive to make subordinate legislation which has the effect of removing rights conferred by statute 1, the principle enunciated by the Court of Appeal in <span style="font-style:italic">JCWI</span> imposes no additional hurdle for the Secretary of State.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Where the court is not dealing with an interference by statute with a common law constitutional right or with a statutory provision which declares such a fundamental or constitutional right, the normal canons of statutory interpretation apply. This is as it should be because Laws J was surely correct in his observation that it was necessary to keep within narrow bounds the category of rights that were properly classified as fundamental or constitutional. In <span style="font-style:italic">R v Lord Chancellor, Ex p Lightfoot </span><ref href="#" uk:canonical="[2000] QB 597" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] QB 597</ref>, 609B-D he stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;&#8230; the law should be astute to confine the concept of constitutional right to that special class of rights which, in truth, everyone living in a democracy under the rule of law ought to enjoy. &#8230; If the courts were to hold that more marginal claims of right should enjoy the protection of a rigorous rule of statutory construction not applied in contexts save that of the protection of fundamental rights and freedoms, they would impermissibly confine the powers of the elected legislature.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">In this appeal the court is not dealing with a vested right at common law or under statute but with a statutory procedure for registration by which a person can acquire British citizenship and the important rights which it confers by making an application which is subject to conditions specified by Parliament. In this context the rigorous rule of statutory construction of which Lord Hoffmann spoke in </span><span style="font-style:italic;font-family:Calibri, sans-serif">Simms</span><span style="font-family:Calibri, sans-serif"> and which Lord Reed described in </span><span style="font-style:italic;font-family:Calibri, sans-serif">AXA</span><span style="font-family:Calibri, sans-serif"> (para 33 above) is not in play.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Against that background I turn to consider the statutory provisions at issue in this appeal. I have set out briefly the history of the relevant legislation in paras 6-19 above. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/42/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 42(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> expressly required the prescribed fee to be paid before a person could be registered under any provision of <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">that Act</ref> as a citizen. Registration was conditional upon the payment of the prescribed fee. Between the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> on 1 January 1983 and 1 April 2005 when the British Nationality (Fees) (Amendment) Regulations 2005 (SI 2005/651) came into effect, the fee prescribed was set so as to recover the full cost of the application process.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is not necessary to consider the provisions of the 2004, 2006 and 2007 Acts in any detail as the application in this case is governed by <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> and I have set out the earlier legislative history in para 9 above. That legislative history reveals a process by which Parliament has authorised the Secretary of State to set the fees at levels which exceeded the cost of the provision of the service in question and which subsidised the wider immigration and nationality system. <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">The 1981 Act</ref> said nothing about the factors which the Secretary of State could take into account when setting the fees for applications under <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">that Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> first expressly permitted the Secretary of State to prescribe fees that exceeded the administrative costs of processing and determining an application and which reflected the benefits likely to accrue to the person from obtaining British citizenship. <ref href="http://www.legislation.gov.uk/id/ukpga/2006/13" uk:canonical="2006 c. 13" uk:origin="TNA" uk:type="legislation">The 2006 Act</ref> rationalised the powers to charge fees relating to immigration and nationality, repealed the powers to charge fees that had been contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>, and replaced that provision with the power to specify and require payment of fees for applications across all immigration and nationality legislation. It amended <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/42" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 42</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> to apply it to the new scheme but preserved the power of the Secretary of State to set fees which exceed the relevant administrative costs and reflected the benefits likely to accrue. This was the statutory scheme which the Court of Appeal considered in <span style="font-style:italic">Williams</span>. <ref href="http://www.legislation.gov.uk/id/ukpga/2007/30" uk:canonical="2007 c. 30" uk:origin="TNA" uk:type="legislation">The 2007 Act</ref> continued the trend of authorising the Secretary of State to use the fees to subsidise the costs of the immigration and nationality system by empowering the Secretary of State in fixing fees to have regard to such costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In paras 10-16 above I have set out the relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref>. In summary, primary legislation lays down the current arrangements which contain the following elements:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(i)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The Secretary of State is authorised to make a fees order which must set out the maximum fee which can be charged for a specified function if that fee is a fixed amount. The fees order is subject to the affirmative resolution of both Houses of Parliament (<ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/68/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 68(2)</ref>-(5); 74).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ii)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The Secretary of State is authorised to make fees regulations setting the amount of a fee in respect of a specified function. The amount set for a fee cannot exceed the maximum specified in the fees order but can exceed the costs of exercising the function in question. The fees regulations are subject to the negative resolution procedure (<ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/68/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 68(7)</ref> and 74).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iii)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.62in">The only matters to which the Secretary of State can have regard in setting the amount of any fee in fees regulations are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/68/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68(9)</ref>. They include the costs of exercising the function in question, the benefits that the Secretary of State thinks are likely to accrue to any person in connection with the exercise of the function, and the costs of exercising any other function in connection with immigration and nationality.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iv)</num>
+	  <content>
+	    <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The Secretary of State is empowered but not required to provide in the fees regulations for exceptions and for the reduction, waiver or refund of part or all of a fee (<ref href="http://www.legislation.gov.uk/id/ukpga/1969/58/section/68/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68(10)</ref>).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In this case, using the terminology which I have adopted in paras 40-42 above, <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> is statute 1. It created statutory rights to British citizenship, which included a right to such citizenship under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> subject to the requirement that there be an application which had to be accompanied by a fee if the application were to be valid. Davis LJ was entirely correct in stating in <span style="font-style:italic">Williams</span> (para 45):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;There is nothing in the requirement of a fee to defeat the statutory purpose and intent. On the contrary it is </span><span style="font-style:italic;font-family:Calibri, sans-serif">part</span><span style="font-family:Calibri, sans-serif"> of the statutory purpose and intent.&#8221; (Emphasis in the original)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">In other words, the statutory scheme made the payment of the fee a pre-condition for the acquisition of British citizenship by registration under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Again, using that terminology, <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> is statute 2 in the context of this appeal. Its predecessor legislation in 2006 had replaced <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> and conferred upon the Secretary of State new statutory powers to set fees for applications for registration under, among other provisions, <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">The 2014 Act</ref> then replaced the relevant provisions of the 2006 and 2007 Acts. The task of this court is to ascertain the scope of the enabling powers in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">The 2014 Act</ref> in authorising the Secretary of State to set the fees did not impose any criterion of affordability. On the contrary, it expressly empowered the Secretary of State to set fees at levels which (i) took account of benefits likely to accrue from citizenship and (ii) could subsidise the cost of the exercise of other functions in connection with immigration or nationality, thereby moving part at least of the financial burden of such functions from the UK taxpayer to the applicants. The mechanism of control of the level of fees of fixed amount which Parliament enacted was by empowering the Secretary of State to specify maximum fees in a fees order, over which Parliament could exercise a degree of control through the affirmative resolution procedure. Similarly, in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> Parliament did not specify that there must be adjustments made to the level of the fees charged or the waiver of such fees for children who could not afford to pay the specified fee. On the contrary, Parliament delegated to the Secretary of State the task of making such provision in the fees regulations, which were subject only to the negative resolution procedure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It follows in my view that in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/22" uk:canonical="2014 c. 22" uk:origin="TNA" uk:type="legislation">the 2014 Act</ref> Parliament has authorised the subordinate legislation by which the Secretary of State has fixed the impugned fee for the application to be registered as a British citizen under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The appropriateness of imposing the fee on children who apply for British citizenship under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> is a question of policy which is for political determination. It is not a matter for judges for whom the question is the much narrower one of whether Parliament has authorised the Secretary of State to set the impugned fee at the level which it has been set.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">For these reasons, which are essentially the same as those of Davis LJ in <span style="font-style:italic">Williams</span> and David Richards LJ in this case, the appeal must fail.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(5)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">The written cases and the intervention</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I am very grateful to Mr Drabble, Sir James Eadie and their legal teams for their succinct and focused written cases as well as their oral submissions which have assisted the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Amnesty International UK&#8217;s intervention concerns the UK&#8217;s obligations under the 1961 United Nations Convention on the Reduction of Statelessness which were implemented in <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 36</ref> of and Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>. Paragraph 3 of Schedule 2 enables a person who is stateless and under the age of 22 to apply to be registered as a British citizen. Amnesty International UK in summary submit (i) that, because the same language was used, one should read across from paragraph 3 of Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref> and (4) with the result that it is unlawful to impose an application fee that is greater than the cost of processing and determining the application in question and is not reasonably affordable by those who meet the requirements of paragraph 3(1) of Schedule 2, (ii) that the fees regulations are in conflict with article 13 of the 1961 Convention, and (iii) that the fees imposed frustrate the object and purpose of the 1961 Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Sir James Eadie for the Secretary of State has advanced a strong procedural challenge to this intervention. He points out that on 2 October 2019 Yip J refused Amnesty International UK permission to intervene at first instance because the claimants could make submissions on those provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref> and the Convention. Mr Drabble made such submissions, which were essentially the first of the three arguments set out in para 54 above, before Jay J who rejected them at para 77 of his judgment. No appeal was taken on this point and the Court of Appeal did not address the matter. Before the Court of Appeal the only issue was whether the decision on statutory interpretation in <span style="font-style:italic">Williams</span> should be reviewed in the light of this court&#8217;s judgment in <span style="font-style:italic">UNISON</span>. Amnesty International UK&#8217;s other two arguments, which are summarised in para 54 above, were not raised in the courts below and are completely new legal arguments which are unrelated to the subject matter of this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In my view there is substance in Sir James&#8217;s challenge and I would not allow these arguments to form part of this appeal. Without going into the substance of the submissions, I would add that the two new arguments which Amnesty International UK seeks to raise would face the difficulty that the UK adopts a dualist approach to international law which would exclude a challenge to the validity of primary legislation on the ground of inconsistency with an obligation of the UK in international law.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6"><span style="font-family:Calibri, sans-serif">(6)</span><marker name="tab"/><span style="font-family:Calibri, sans-serif">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-family:Calibri, sans-serif">LADY ARDEN:</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I agree with Lord Hodge, and take this opportunity to address one point, namely the wide role in statutory interpretation for pre-legislative material, that is relevant material created before a Bill is passed (other than the Bill itself). Lord Hodge refers to this in paras 30 and 31 of his judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I entirely agree with Lord Hodge that the task of the court when interpreting legislation is to find the meaning of the words that Parliament has used. This can be achieved by using the techniques which the courts have developed for this purpose. It is not for judges to impose their own view as to that meaning. They must find the meaning that they consider Parliament intended. Lord Nicholls of Birkenhead explains what this involves in <span style="font-style:italic">R v Secretary of State for the Environment, Transport and the Regions, Ex p Spath Holme Ltd</span><ref href="#" uk:canonical="[2001] 2 AC 349" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 AC 349</ref>:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Statutory interpretation is an exercise which requires the court to identify the meaning borne by the words in question in the particular context. The task of the court is often said to be to ascertain the intention of Parliament expressed in the language under consideration. This is correct and may be helpful, so long as it is remembered that the &#8216;intention of Parliament&#8217; is an objective concept, not subjective. The phrase is a shorthand reference to the intention which the court reasonably imputes to Parliament in respect of the language used. It is not the subjective intention of the minister or other persons who promoted the legislation. Nor is it the subjective intention of the draftsman, or of individual members or even of a majority of individual members of either House. These individuals will often have widely varying intentions. Their understanding of the legislation and the words used may be impressively complete or woefully inadequate. Thus, when courts say that such-and-such a meaning &#8216;cannot be what Parliament intended&#8217;, they are saying only that the words under consideration cannot reasonably be taken as used by Parliament with that meaning. As Lord Reid said in </span><span style="font-style:italic;font-family:Calibri, sans-serif">Black-Clawson International Ltd v Papierwerke Waldhof-Aschaffenburg AG </span><span style="font-family:Calibri, sans-serif"><ref href="#" uk:canonical="[1975] AC 591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1975">[1975] AC 591</ref>, 613: &#8216;We often say that we are looking for the intention of Parliament, but that is not quite accurate. We are seeking the meaning of the words which Parliament used.&#8217;&#8221; (pp 396 to 397)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Lord Hodge prefaces paras 30 and 31 of his judgment by recalling in para 29 the observations of Lord Nicholls in <span style="font-style:italic">Spath Holme </span>at p 397 about what I will call &#8220;the legal certainty issue&#8221;. One of the problems in the court using pre-legislative material, Lord Nicholls explained, is that it makes it more difficult for a citizen to know what a statute means if the court has been influenced by external material and it is not readily available. This reason no longer applies to explanatory notes accompanying Acts of Parliament or explanatory notes appended to statutory instruments. These are often published by commercial publishers alongside <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">the Act</ref> or statutory instrument. They are in any event available online without charge at https://www.legislation.gov.uk which is the official, web-accessible database of UK statute law. It is managed by The National Archives on behalf of the UK government. The database was not operational when the House of Lords decided <span style="font-style:italic">Spath Holme</span>. Explanatory notes were introduced following the Second Report of the Select Committee on Modernisation of the House of Commons (HC 389, 1997-98), which annexes a useful paper by the First Parliamentary Counsel, Christopher Jenkins CB, QC, explaining the reasons for proposing the introduction of explanatory notes. The report of the Select Committee on Modernisation expressly recognised that the courts might wish to use explanatory notes as a guide to Parliament&#8217;s intentions in passing a particular piece of legislation (para 37).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The concern of Lord Nicholls was also, as I read his judgment, on account of the constitutional implications, to which I refer further below.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The legal certainty issue leads Lord Hodge to the view that explanatory material must play a secondary role in interpretation. He puts explanatory notes prepared under the authority of an Act of Parliament into a different category from Law Commission reports, reports of Royal Commissions and advisory committees and Government White Papers. He states that the former may cast light on the meaning of a particular statutory provision whereas the latter disclose the background and help the court to identify both the mischief which the legislation addresses and its purpose, thereby assisting a purposive interpretation of a particular statutory provision.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I agree with Lord Hodge that such material is relevant to assist the court to ascertain the meaning of the statute, whether there is or is not ambiguity or uncertainty, and indeed may reveal ambiguity or uncertainty.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">The next sentence in para 30 of Lord Hodge&#8217;s judgment reads:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;But none of these external aids displace the meanings conveyed by the words of a statute that, after consideration of that context, are clear and unambiguous and which do not produce absurdity.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">I would put it this way. There are occasions when pre-legislative material may, depending on the circumstances, go further than simply provide the background or context for the statutory provision in question. It may influence its meaning. This is borne out by </span><span style="font-style:italic;font-family:Calibri, sans-serif">Spath Holme</span><span style="font-family:Calibri, sans-serif">, where Lord Nicholls held:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Nowadays the courts look at external aids for more than merely identifying the mischief the statute is intended to cure. In adopting a purposive approach to the interpretation of statutory language, courts seek to identify and give effect to the purpose of the legislation. To the extent that extraneous material assists in identifying the purpose of the legislation, it is a useful tool.&#8221; (p 397)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">While external material is likely to contribute to the court&#8217;s knowledge of the context of and background to the statute to be interpreted and its appreciation of its purpose, matters do not always stop there. In some but not all cases, its use may go further. This is exemplified by contrasting two situations, first, the situation where the external material deals with proposals which did not find their way into the statute. This material may provide information of value about the context of and background to the legislation but is not likely to be of further use. The second example I have in mind is where perusal of the external material reveals that the language of the statute - perhaps initially thought to be clear on its face so as not to need any further inquiry - is in fact ambiguous. Here the external material has a use which goes beyond the provision of background and context.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Lord Nicholls immediately entered a caveat about the constitutional implications of statutory interpretation. He held that in view of the constitutional implications of statutory interpretation the courts should be slow to allow external aids to be used for meanings which were otherwise clear and unambiguous and not productive of uncertainty. But Lord Nicholls did not say that the pre-legislative material could never displace the apparent meaning of a provision. While I do not doubt the presence of constitutional implications - statutory interpretation is bound to engage the courts&#8217; relationship with Parliament - it is difficult to see that there are adverse implications from the courts aiming to find a better-informed interpretation of a provision by reference to pre-legislative material which Parliament is more likely than not to have acted on. The process is quite different from finding a meaning which is not justified by the words that Parliament has used, or which is selected for some reason other than the presumed intention of Parliament. Neither of those approaches is in accordance with the principles of statutory interpretation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">That pre-legislative material may also influence the meaning which the court determines is the true meaning of the provision in question is also borne out by the judgment of Lord Diplock in <span style="font-style:italic">Fothergill v Monarch Airlines Ltd </span><ref href="#" uk:canonical="[1981] AC 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] AC 251</ref>. Lord Diplock held:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;Where <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">the Act</ref> has been preceded by a report of some official commission or committee that has been laid before Parliament and the legislation is introduced in consequence of that report, the report itself may be looked at by the court for the limited purpose of identifying the &#8216;mischief&#8217; that <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">the Act</ref> was intended to remedy, and </span><span style="font-style:italic;font-family:Calibri, sans-serif">for such assistance as is derivable from this knowledge in giving the right purposive construction to <ref href="http://www.legislation.gov.uk/id/ukpga/1992/4" uk:canonical="1992 c. 4" uk:origin="TNA" uk:type="legislation">the Act</ref>.</span><span style="font-family:Calibri, sans-serif">&#8221; (Emphasis added, p 281)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Indeed, the legal certainty issue would not give rise to concern unless the external material could influence the result.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Like Lord Hodge, I would emphasise that in statutory interpretation the function of the court is to obtain the meaning of the words in the statute that it is required to interpret. The ultimate purpose of interpretation is always to find the meaning of those words. I consider that recourse to pre-legislative material can in appropriate circumstances considerably help the judge better to perform his or her role of finding the intention of Parliament in any particular enactment. (I explained this in my recent Lord Renton lecture to the Statute Law Society &#8220;What makes good statute law: a judge&#8217;s view?&#8221; (<span style="color:#000000">Statute Law Review, Volume 43, Issue 2, June 2022</span>)). It follows that I would bear in mind the model of &#8220;the informed judge&#8221; which Viscount Simonds describes as applying to himself in <span style="font-style:italic">Attorney General v Prince Ernest Augustus of Hanover </span><ref href="#" uk:canonical="[1957] AC 436" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1957">[1957] AC 436</ref>, 460-461:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-family:Calibri, sans-serif">&#8220;</span><span style="font-family:Calibri, sans-serif;background-color:#FFFFFF">My Lords, the contention of the Attorney General was, in the first place, met by the bald general proposition that where the enacting part of a statute is clear and unambiguous, it cannot be cut down by the preamble, and a large part of the time which the hearing of this case occupied was spent in discussing authorities which were said to support that proposition. I wish at the outset to express my dissent from it, if it means that I cannot obtain assistance from the preamble in ascertaining the meaning of the relevant enacting part. For words, and particularly general words, cannot be read in isolation: their colour and content are derived from their context. So it is that I conceive it to be my right and duty to examine every word of a statute in its context, and I use &#8216;context&#8217; in its widest sense, which I have already indicated as including not only other enacting provisions of the same statute, but its preamble, the existing state of the law, other statutes in pari materia, and the mischief which I can, by those and other legitimate means, discern the statute was intended to remedy.</span><span style="font-family:Calibri, sans-serif">&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Viscount Simonds does not specifically mention Law Commission reports (the Law Commissions had not then been established). Nor does he mention White Papers or other documents, but the material to which he referred included external material. So, what Viscount Simonds says about obtaining &#8220;the colour and content&#8221; of a statute from its context must apply equally to pre-legislative material of this nature as well.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I have referred only to material of an official nature, as it seems to me that material emanating from a purely private source will not in general be capable of being used to interpret an enactment. An enactment is, after all, about regulating the activities of members of society.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">Pre-legislative materials can perform an even more helpful role in the 21st century than when Viscount Simonds was writing because of the increasing complexity and quantity of statute law. To obtain the meaning most likely to have been that intended by Parliament is a multi-dimensional exercise and, as I see it, the judge should draw on all the material which is properly available to him or her. Of course, he or she must consider the material with a critical eye so as to be sure that it really does help in interpreting the enactment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is necessary to bear in mind that the pre-legislative material is unlikely to provide the exact answer to what the words mean but a judge may, for instance, find out what view was taken about the existing legal situation at the time of the Bill, in which case this is another factor which may have to be considered. Even though the consideration of Parliamentary material does not yield the exact answer, it will have the beneficial effect of making the court better informed about the practical implications of the law in question, and generally the context and the objective of the legislation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">I do not include Hansard in these observations as there are special rules restricting the use that may be made of Hansard as an aid to interpretation. Nor do I exclude the possibility that explanatory notes to legislation carry greater weight than pre-legislative materials of the kind described above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="font-style:italic">Craies on Legislation</span>, 12th ed (2020), chapter 27 states that courts are increasingly prepared to look at any material that is likely to be genuinely helpful in illuminating the context in which legislation is to be construed but that they still start from the assumption that it is important that background material should not be allowed to take precedence over the clear meaning of the words used (para 27.1.1.2).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">In my judgment it is realistic also to recognise that pre-legislative material, where available, may inform the court about an ambiguity which was not apparent simply on the face of the words, the mischief to which the legislation was directed and the purpose of the provision, and may in an appropriate case influence the meaning of the statutory provision. The use of pre-legislative material in an appropriate case in one of these ways, mindful always that statutory interpretation must be consistent with the courts&#8217; relationship with Parliament, is an integral part of modern statutory interpretation. Moreover, the use of pre-legislative material in the ways I have described supports and strengthens the task of giving the correct meaning to the words that Parliament has used.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.25in">With these observations, I agree with Lord Hodge.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,579 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/6"/>
+	  <FRBRdate date="2022-02-23" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="6"/>
+	  <FRBRname value="Craig v Her Majesty&#8217;s Advocate (for the Government of the United States of America) and another (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/6"/>
+	  <FRBRdate date="2022-02-23" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/6/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/6/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:38:34" name="transform"/>
+	  <FRBRdate date="2025-08-18T03:52:35" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-02-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="craig" href="" showAs="Craig"/>
+	<TLCPerson eId="her-majestys-advocate-for-the-government-of-the-united-states-of-america-and-another" href="" showAs="Her Majesty&#8217;s Advocate (for the Government of the United States of America) and another"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-kitchin" href="/judge-lord-kitchin" showAs="Lord Kitchin"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>6</uk:number>
+	<uk:cite>[2022] UKSC 6</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>f83c9ba50ffc5712d9795990d8b1c591ae3d66406b8329874b01f47db714a4d1</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.25in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 6</neutralCitation><br/><span style="font-style:italic">On appeal from: [2020] HCJAC 22</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#craig">Craig</party> (<role refersTo="#appellant">Appellant</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#her-majestys-advocate-for-the-government-of-the-united-states-of-america-and-another">Her Majesty&#8217;s Advocate (for the Government of the United States of America) and another</party> (<role refersTo="#respondent">Respondents</role>) (Scotland)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-lloyd-jones">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-kitchin">Lord Kitchin</judge><br/><judge refersTo="#judge-lord-burrows">Lord Burrows</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-02-23" refersTo="#judgment">23 February 2022</docDate><br/><br/>Heard on 25 November 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Aidan O&#8217;Neill QC<br/>Fred Mackintosh QC<br/>(Instructed by Dunne Defence)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">1st Respondent (Her Majesty&#8217;s Advocate (for the Government of the United States of America))</span><br/>Kenny McBrearty QC<br/>Lesley Irvine<br/>(Instructed by International Co-operation Unit, Crown Office)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">2nd Respondent (Her Majesty&#8217;s Advocate General for Scotland)</span><br/>Andrew Webster QC<br/>(Instructed by Office of the Advocate General)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD REED: (<span style="text-transform:none">with whom Lord Lloyd-Jones, Lord Kitchin, Lord Burrows and Lord Stephens agree)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">This appeal concerns the powers of the Scottish Ministers. They exercise functions in relation to extradition proceedings in Scotland, but their powers are limited under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref> by a requirement not to act incompatibly with the rights guaranteed by the European Convention on Human Rights (&#8220;the Convention&#8221;). The appeal also raises issues under the constitutional law of the United Kingdom concerning the obligations of the Government in relation to the commencement of legislation which Parliament has enacted, and their obligations in relation to a declaration by a court that their conduct is unlawful.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The appeal arises from the unlawful failure of the Government (more specifically, the Home Secretary) to make a commencement order bringing into force provisions of an Act of Parliament which are designed for the protection of individuals whose extradition has been requested. That failure was successfully challenged by an individual whose extradition was sought, in proceedings in which the court issued a final order declaring that the Government were acting unlawfully and contrary to their duties under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">the Act</ref> of Parliament. Notwithstanding the court&#8217;s order, the Government&#8217;s failure to make the commencement order subsequently continued over a period of years, during which the extradition proceedings were pursued against the individual who had obtained the court order. The question which now arises is whether the conduct of the proceedings under those circumstances, and the extradition order made in those proceedings, are legally valid.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6">1.<marker name="tab"/>The legislative background</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In October 2010 the Home Secretary appointed a panel chaired by the Rt Hon Sir Scott Baker to conduct a review of the UK&#8217;s extradition arrangements, including the question whether a forum bar to extradition - that is to say, a bar to extradition on the ground that the UK was a more appropriate forum for prosecution - should be introduced. In the course of the review, the panel received representations on behalf of the Lord Advocate which opposed the introduction of a forum bar on the ground that it could involve the review by the courts of a prosecutorial decision. The review concluded that a forum bar should not be introduced.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In March 2012 the House of Commons Home Affairs Committee published its report, <span style="font-style:italic">The US-UK Extradition Treaty </span>(HC 644). It noted that the question of forum had been a significant issue in US-UK extradition cases, including cases concerned with the use of computers in the UK to commit alleged offences under US law. It concluded that the current arrangements for determining the forum in which a person should be tried were unsatisfactory. It appeared to be very easy to engage the jurisdiction of the US courts without ever entering the country, since activity on the internet could involve the use of communications systems based in the US. Decisions as to forum were made by prosecutors behind closed doors, without the accused having any opportunity to make representations. Fundamental principles of human rights, democracy and the rule of law required that justice was seen to be done in public. The Committee accordingly believed that it would be in the interests of justice for decisions about forum, in cases where there was concurrent jurisdiction, to be taken by a judge in open court, where the person whose extradition was requested would have the opportunity to put his case, rather than in private by prosecutors. The Committee therefore recommended that the Government introduce a forum bar as soon as possible.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Some months later the Government published <span style="font-style:italic">The Government Response to Sir Scott Baker&#8217;s Review of the United Kingdom&#8217;s Extradition Arrangements</span> (Cm 8458, October 2012), in which they rejected the review&#8217;s recommendation in relation to forum bar, and announced that they would seek to legislate for a forum bar, for the reasons given by the Committee. They duly did so in February 2013, when they introduced a suitable amendment to the Crime and Courts Bill then before Parliament.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In 2013 Parliament enacted the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">Crime and Courts Act 2013</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>&#8221;). Paragraphs 1 to 3 of Schedule 20, to which effect is given by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/50" uk:canonical="2003 c. 41 s. 50" uk:origin="TNA" uk:type="legislation">section 50</ref>, amend Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">Extradition Act 2003</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>&#8221;), concerned with extradition to category 1 territories, so as to introduce a forum bar defence. Paragraphs 4 to 6 make similar amendments to Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, concerned with extradition to category 2 territories, including the US. I shall refer to these provisions as the forum bar provisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In particular, paragraph 5 of Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> inserts into <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/79/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, which requires the judge to decide whether a person&#8217;s extradition to a category 2 territory is barred by reason of one or more of a number of considerations, an additional consideration, namely &#8220;(e) forum&#8221;. In that regard, <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/79/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(2)</ref> is also amended so as to provide that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 83</ref>A to 83E (in addition to sections 80 to 83, in the unamended version) apply for the interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/79/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(1)</ref>. Paragraph 6 of Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> also inserts into <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> the new <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 83</ref>A to 83E.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 83</ref>A provides in subsection (1) that the extradition of a person (&#8220;D&#8221;) to a category 2 territory is barred by reason of forum if the extradition would not be in the interests of justice. For that purpose, subsection (2) provides that the extradition would not be in the interests of justice if the judge (a) decides that a substantial measure of D&#8217;s relevant activity was performed in the UK and (b) decides, having regard to the matters specified in subsection (3) (and only those matters), that the extradition should not take place. The matters specified in subsection (3) are:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(a)<marker name="tab"/>the place where most of the loss or harm resulting from the extradition offence occurred or was intended to occur;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(b)<marker name="tab"/>the interests of any victims of the extradition offence;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(c)<marker name="tab"/>any belief of a prosecutor [defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>E(2) as meaning a person who has responsibility for prosecuting offences in any part of the United Kingdom] that the United Kingdom, or a particular part of the United Kingdom, is not the most appropriate jurisdiction in which to prosecute D in respect of the conduct constituting the extradition offence;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(d)<marker name="tab"/>were D to be prosecuted in a part of the United Kingdom for an offence that corresponds to the extradition offence, whether evidence necessary to prove the offence is or could be made available in the United Kingdom;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(e)<marker name="tab"/>any delay that might result from proceeding in one jurisdiction rather than another;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(f)<marker name="tab"/>the desirability and practicability of all prosecutions relating to the extradition offence taking place in one jurisdiction, having regard (in particular) to -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(i)<marker name="tab"/>the jurisdictions in which witnesses, co-defendants and other suspects are located, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(ii)<marker name="tab"/>the practicability of the evidence of such persons being given in the United Kingdom or in jurisdictions outside the United Kingdom;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(g)<marker name="tab"/>D&#8217;s connections with the United Kingdom.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The Divisional Court has described <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A as &#8220;clearly intended to provide a safeguard for requested persons, not distinctly to be found in any of the other bars to extradition or grounds for discharge, including section 87 and the wide scope of article 8 of the Convention&#8221;, and has identified its underlying aim as being &#8220;to prevent extradition where the offences can be fairly and effectively tried here, and it is not in the interests of justice that the requested person should be extradited&#8221;: <span style="font-style:italic">Love v Government of the United States of America</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2018/172" uk:canonical="[2018] EWHC 172 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWHC 172 (Admin)</ref>; <ref href="#" uk:canonical="[2018] 1 WLR 2889" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 1 WLR 2889</ref>, para 22. The court also observed (ibid) that the matters listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A(3) &#8220;do not leave to the court the task of some vague or broader evaluation of what is just. Nor is the bar a general provision requiring the court to form a view directly on which is the more suitable forum, let alone having regard to sentencing policy or the potential for prisoner transfer, save to the extent that one of the listed factors might in any particular case require consideration of it&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The forum bar provisions enable the domestic prosecution authorities to have an input into the question whether a requested person should be extradited in one of two ways. First, under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A(3)(c), a prosecutor can express a belief that the UK, or a particular part of it, is not the most appropriate jurisdiction for a prosecution. Such a belief is a matter to which the court must have regard, but it is not conclusive. Secondly, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 83</ref>B to 83D make provision for a &#8220;prosecutor&#8217;s certificate&#8221; to be given by a designated prosecutor (an expression which includes a prosecutor who is designated by subordinate legislation, or is within a description of prosecutors so designated) where (a) a formal decision has been made that the requested person should not be prosecuted, on the ground that there would be insufficient admissible evidence or that the prosecution would not be in the public interest, or (b) the prosecutor believes that the person should not be prosecuted because of concerns about the disclosure of sensitive material. If produced, such a certificate requires the appropriate judge to decide that extradition is not barred by reason of forum. The designated prosecutor&#8217;s decision relating to the certificate can, however, be questioned on appeal. In Scotland, such an appeal lies to the High Court of Justiciary. In determining such a question, the court is directed to &#8220;apply the procedures and principles that would be applied by it on an application for judicial review&#8221;: <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>D(3). In a case where the High Court of Justiciary quashes the prosecutor&#8217;s certificate, it must decide the issue of forum bar for itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Transitional provisions are set out in paragraph 7 of Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>. They provide that in a case where the Part 1 warrant or (in a Part 2 case, such as the present) the request for the person&#8217;s extradition has been issued before the amendments come into force, those amendments apply to the extradition concerned only if, at that time, the judge has not yet decided all of the existing extradition bar questions, ie the questions in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> (in the case of a Part 1 warrant) or <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/79/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">that Act</ref> (in a Part 2 case), as those questions stand before their amendment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Commencement provisions are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>. Subject to exceptions which are not relevant to the present case, <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61(2)</ref> provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> comes into force on such day as the Secretary of State may by order appoint; and different days may be appointed for different purposes and, in the case of Part 4 of Schedule 16 and section 44 so far as relating to that Part of that Schedule, for different areas &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/50" uk:canonical="2003 c. 41 s. 50" uk:origin="TNA" uk:type="legislation">Section 50</ref> and Schedule 20 were brought into force in England, Wales and Northern Ireland on 14 October 2013. They were not brought into force in Scotland. It was found in the courts below that that was because of the Government&#8217;s sensitivity to the views of the Scottish Ministers, ie the members of the devolved Scottish Government: <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46/section/44/2" uk:canonical="1998 c. 46 s. 44" uk:origin="TNA" uk:type="legislation">section 44(2)</ref>. In particular, the Lord Advocate, who is one of the Scottish Ministers (Scotland Act, <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46/section/44/1" uk:canonical="1998 c. 46 s. 44" uk:origin="TNA" uk:type="legislation">section 44(1)</ref>), regarded the provisions relating to the questioning of the prosecutor&#8217;s certificate as an inappropriate interference with his independence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">That finding was based on a body of material before Parliament. In particular, on the day when the provisions were introduced into Parliament as amendments to the Bill then before it, the Parliamentary Under-Secretary of State at the Home Office informed the House of Commons Public Bill Committee that &#8220;because Scottish Ministers and courts have a role in the process, we have decided that the provisions should be commenced only with their consent&#8221;. That decision was not, however, reflected in the terms of the legislation which Parliament enacted. Nevertheless, in evidence given to Parliament in 2014, the Lord Advocate stated that the provisions would only be brought into force in Scotland if the Scottish Ministers requested it, and that they had no intention to do so for the foreseeable future. That was confirmed by the Minister of State at the Home Office in answer to a Parliamentary question on 21 December 2017:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The Scottish Government has decided that it does not wish <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/50" uk:canonical="2013 c. 22 s. 50" uk:origin="TNA" uk:type="legislation">section 50</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">Crime and Courts Act 2013</ref> to be commenced in full in Scotland and there is no timetable for its commencement. This is a decision for the Scottish Government and there have been no recent discussions on the issue.&#8221; (House of Commons Daily Report, 21 December 2017, pp 131-132)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Contrary to that statement, this was not a decision for the Scottish Government. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>, the decision was for the Secretary of State alone.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading6">2.<marker name="tab"/>The present proceedings</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 15 May 2017 the US Government made a request for the extradition of the appellant, Mr James Craig, under Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. The appellant is a British citizen living in Scotland. Extradition proceedings in Scotland are conducted by the Lord Advocate, in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/191" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 191</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. The decision whether to make an extradition order, under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/93" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 93</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">that Act</ref> read together with <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/141" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 141</ref>, is the responsibility of the Scottish Ministers.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellant is accused of an offence relating to a fraudulent scheme. The US indictment alleges that he posted false information on Twitter in order to reduce the value of shares in US-based companies, so that he could purchase the shares and resell them on advantageous terms. This is said to have resulted in losses to shareholders exceeding $1.6m. In a supporting affidavit it is said that one of the accounts used to buy the shares was held in the name of the appellant&#8217;s girlfriend and registered to the appellant&#8217;s home address in Scotland, and that incriminating evidence was found on electronic devices seized during a search of that address.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Following receipt of the request, a warrant for the appellant&#8217;s arrest was issued under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/71" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 71</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. On 28 June 2017 he appeared in court and was admitted to bail in accordance with section 72. A date was fixed for the extradition hearing, but the hearing was subsequently adjourned in order to allow the appellant to bring the proceedings described in the next paragraph.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In March 2018 the appellant began proceedings for judicial review of the Government&#8217;s failure to commence the forum bar provisions in relation to Scotland, so as to be able to mount a defence under those provisions. The respondents to the proceedings were the Advocate General for Scotland, representing the Government in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44" uk:canonical="1857 (20 &amp; 21 Vict.) c. 44" uk:origin="TNA" uk:type="legislation">the Crown Suits (Scotland) Act 1857</ref>, and the Scottish Ministers.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Counsel appearing on behalf of the Advocate General, who also appeared on behalf of the Advocate General at the hearing of the present appeal, was either unable or unwilling to provide any explanation for the Government&#8217;s failure to bring the forum bar provisions into force in Scotland, and was equally unable or unwilling to provide any explanation for the failure to provide an explanation. In any event, it was argued, the ministerial statements referred to in para 14 above did not indicate that the provisions would never be brought into force in Scotland, or that there had been a delegation of responsibility to the Scottish Ministers. <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>, it was argued, permitted the provisions to be brought into force at different times in different parts of the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In his judgment, given on 12 December 2018, the Lord Ordinary, Lord Malcolm, rejected these contentions and held that the Government&#8217;s continuing failure to bring the forum bar provisions into force in Scotland was unlawful: <span style="font-style:italic">Craig v Advocate General for Scotland</span>[2018] CSOH 117; 2019 SC 230. He noted that the relevant words in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44" uk:canonical="1857 (20 &amp; 21 Vict.) c. 44" uk:origin="TNA" uk:type="legislation">this Act</ref> comes into force on such day as the Secretary of State may by order appoint&#8221;) were virtually identical to those of the commencement provisions which were in issue in the leading case of<span style="font-style:italic"> R v Secretary of State for the Home Department, Ex p Fire Brigades Union</span><ref href="#" uk:canonical="[1995] 2 AC 513" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 2 AC 513</ref> (&#8220;the <span style="font-style:italic">Fire Brigades Union</span> case&#8221;). The power given in the subsequent words in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> (quoted at para 12 above) to appoint different days for different areas was clearly limited to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46/section/44" uk:canonical="1998 c. 46 s. 44" uk:origin="TNA" uk:type="legislation">section 44</ref> and Part 4 of Schedule 16, which did not concern the forum bar provisions. It did not extend to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/50" uk:canonical="2013 c. 22 s. 50" uk:origin="TNA" uk:type="legislation">section 50</ref> and Schedule 20. It was also relevant that <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44/section/61/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61(10)</ref> prohibited the making of a commencement order in respect of section 49 or Schedule 19 unless the Secretary of State had consulted the Scottish Ministers. No such provision was made in respect of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/50" uk:canonical="2013 c. 22 s. 50" uk:origin="TNA" uk:type="legislation">section 50</ref> and Schedule 20. Accordingly, Parliament intended that the forum bar provisions would be brought into law throughout the UK, and <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/20-21/44/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> conferred no power to do so at different times in different parts of the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Malcolm dealt with the other aspects of the case on the basis of the principles established in the <span style="font-style:italic">Fire Brigades Union</span> case. The lesson of that case was that, absent a good reason to delay commencement, a failure to do so amounted to an abuse of power. It was equally an abuse of power if the relevant minister renounced the commencement power, failed to keep the matter under review, or delegated decision-making to a third party. In the circumstances before the court, it was clear from the answer given by the Minister of State (para 14 above) that the UK Government had decided not to bring the provisions into force, and that that would not change unless and until the Scottish Government altered their view on the matter. But a change in the view of the Scottish Government would merely return matters to the position as decided by Parliament at the outset.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On the same date, Lord Malcolm made an order in which he &#8220;found and declared that in its continuing failure to bring into force in Scotland the extradition forum bar provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/50" uk:canonical="2013 c. 22 s. 50" uk:origin="TNA" uk:type="legislation">section 50</ref> of, and Schedule 20 to, the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">Crime and Courts Act 2013</ref>, the UK Government is acting unlawfully and contrary to its duties under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the Act</ref>&#8221;. Counsel for the appellant did not seek an order requiring the Government to bring the forum bar provisions into force in Scotland, as it was assumed that they would do so in compliance with the declaratory order.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">No appeal was taken against that decision, which became final. Nevertheless, the Government&#8217;s failure to make a commencement order continued.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellant&#8217;s extradition hearing took place six months later, on 13 June 2019, before Sheriff Norman McFadyen. Prior to the hearing, the appellant gave notice of his intention to raise a devolution issue within the meaning of Schedule 6 to the Scotland Act. Paragraph 1(d) of that Schedule includes within the definition of &#8220;devolution issue&#8221; a question &#8220;whether a purported or proposed exercise of a function by a member of the Scottish Government is, or would be, incompatible with any of the Convention rights&#8221;. The term &#8220;functions&#8221; is defined by section 126 of the Scotland Act as including powers and duties.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On behalf of the appellant, it was argued at the hearing that his extradition would be incompatible with article 8 of the Convention, and was therefore beyond the powers of the Scottish Ministers, including the Lord Advocate, by reason of section 57(2) of the Scotland Act. That section provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;A member of the Scottish Government has no power to make any subordinate legislation, or to do any other act, so far as the legislation or act is incompatible with any of the Convention rights.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 8 of the Convention requires that any interference with the appellant&#8217;s right to respect for his private and family life, such as would result from his extradition, must be &#8220;in accordance with the law&#8221;. It was argued that that requirement was not met, by reason of the Government&#8217;s continuing unlawful failure to commence the forum bar provisions. In the course of the argument, it was accepted that the appellant had to show that he would have had a real prospect of meeting the test in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A, were it in force.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In response, it was submitted on behalf of the Lord Advocate that the failure to commence the forum bar provisions was merely a procedural irregularity, and made no difference, as questions relating to forum could be addressed under the unamended provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. In that regard, reference was made to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>, which requires the judge to &#8220;decide whether the person&#8217;s extradition would be compatible with the Convention rights within the meaning of the Human Rights Act&#8221;, and, if not, to order the person&#8217;s discharge. The principle of legality under article 8 was said not to have been violated, as the unamended provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> complied with that principle. Notwithstanding the appellant&#8217;s reliance upon section 57(2) of the Scotland Act, which renders acts ultra vires if they are incompatible with Convention rights, the arguments of both parties before the Sheriff (and also, subsequently, before the High Court of Justiciary) proceeded on the basis that, if the appellant&#8217;s submissions were well-founded, he would be entitled to be discharged in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 4 July 2019 the Sheriff held that there was no bar to extradition under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/79" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, and that the appellant&#8217;s extradition would be compatible with his Convention rights. He accordingly sent the case to the Scottish Ministers for their decision as to whether the appellant should be extradited: <span style="font-style:italic">HM Advocate v Craig</span> (unreported). He rejected the Lord Advocate&#8217;s contentions that the failure to commence the forum bar provisions was merely a procedural irregularity, and that it made no difference. As he observed, if the provisions made no difference, it would be hard to see why they were enacted or why the Lord Advocate opposed their commencement. He did not accept that the application of Convention rights under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> would necessarily bring about the same result as the application of the statutory bar arising under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 83</ref>A to 83E, although it might do in some cases. He considered that the court had to respond to the unlawful character of the non-commencement of the forum bar provisions by attempting to apply <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> in a way which was, so far as possible, compatible with those provisions. He commented that it was unsatisfactory that the court had in effect to apply <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A by the back door.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Approaching matters on that basis, the Sheriff considered whether the appellant was likely to have succeeded in a forum bar defence if the provisions had been in force. He felt able to decide that a substantial measure of the appellant&#8217;s relevant activity was performed within the UK, as required by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A(2). In relation to the matters specified in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A(3), little information was available, and no consideration had been given to those matters by the Crown. Nevertheless, carrying out this &#8220;hypothetical exercise&#8221; (para 50) as best he could under the circumstances, the Sheriff concluded that a forum bar defence under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/83" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 83</ref>A, if it had been in force, would have been unlikely to succeed. In the light of that conclusion, he considered that the argument on legality, under article 8, did not arise (para 52), and that the appellant&#8217;s extradition would be compatible with the Convention rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 6 September 2019 the Scottish Ministers decided under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/93" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 93</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> that the appellant should be extradited.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellant then appealed to the High Court of Justiciary (the Lord Justice Clerk, Lady Dorrian, Lord Brodie and Lord Turnbull) under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/103" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 103</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. The appeal was heard on 23 January 2020 and refused on 3 June 2020: <span style="font-style:italic">Craig v HM Advocate</span>[2020] HCJAC 22; 2020 JC 258.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Before the High Court, it was argued on behalf of the appellant that the Sheriff had erred in attempting to apply the forum bar provisions, since they were not in force. Their effect could not in any event be replicated by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, since the focus of the forum bar provisions, and the considerations which had to be taken into account, were different from those applicable under the Convention. The Sheriff should instead have focused on the legal consequences of the Government&#8217;s unlawful failure to bring the provisions into force, thereby unlawfully depriving the appellant of the forum bar defence which would have been available if a commencement order had been made. In those circumstances, the extradition proceedings failed to comply with the article 8 requirement of legality.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Those arguments were rejected. The Lord Justice Clerk, with whose reasoning the other members of the court agreed, considered that the legal consequences of the unlawful failure to commence the forum bar provisions depended on the extent to which the appellant had been prevented from relying on arguments which could otherwise have been made. That could be considered as part of the court&#8217;s assessment under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>. In applying that section, the Sheriff &#8220;would of course be expected to include as part of the balancing exercise the fact that the non-commencement of the forum bar provisions in Scotland has been found to be unlawful&#8221; (para 30). That would require the Sheriff &#8220;to take into account &#8230; the potential prejudice to an applicant of the failure to introduce provisions&#8221; (ibid). That was what the Sheriff had done.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 28 August 2020 the High Court granted leave to appeal to this court on the article 8 issue. In doing so, it must have recognised that it had determined a devolution issue, as no appeal would otherwise have lain from its decision: <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/114/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 114(13)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 6 September 2021 the Secretary of State made the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">Crime and Courts Act 2013</ref> (Commencement No 19) Order 2021 (SI 2021/1018), which brought <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/50" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 50</ref> of and Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> - that is to say, the forum bar provisions - into force in Scotland. The provisions do not apply to the appellant, if the Sheriff&#8217;s decision of 4 July 2019 is valid. That is because, as explained in para 11 above, paragraph 7 of Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> provides that where, in a Part 2 case such as the present, the request for the person&#8217;s extradition has been issued before the amendments come into force, those amendments apply to the extradition concerned only if, at that time, the judge has not yet decided all of the existing extradition bar questions, ie the questions in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/79/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, as those questions stand before their amendment. Those questions were purportedly decided by the Sheriff on 4 July 2019, more than two years before the amendments were brought into force.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6">3.<marker name="tab"/>The legal issues arising on the present appeal</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Paraheading6" style="margin-left:0.50in">(i)<marker name="tab"/>Two preliminary issues</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Two preliminary issues need to be addressed before considering the principal questions in the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">First, it is a matter of agreement between the parties that the High Court of Justiciary&#8217;s order of 3 June 2020 determined the devolution issue which had been raised on behalf of the appellant, and that this is accordingly an appeal under paragraph 13 of Schedule 6 to the Scotland Act. Such an appeal is not excluded by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>: see the decision of this court in <span style="font-style:italic">H v Lord Advocate</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/24" uk:canonical="[2012] UKSC 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKSC 24</ref>; <ref href="#" uk:canonical="[2013] 1 AC 413" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 AC 413</ref>; 2012 SC (UKSC) 308, given statutory effect in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/116" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 116</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, as amended by paragraph 26 of Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>. The Advocate General for Scotland represents the Government in this appeal, as he is entitled to do by virtue of paragraphs 5 and 6 of Schedule 6 to the Scotland Act.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, it follows that the question which ultimately requires to be answered is not whether the appellant is entitled to be discharged under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. The question is whether the Lord Advocate and the Scottish Ministers were acting ultra vires in performing their functions in relation to the appellant&#8217;s extradition. It is a matter of agreement that they had no power to do so, by reason of section 57(2) of the Scotland Act (para 25 above), if in doing so they were acting incompatibly with the appellant&#8217;s Convention rights. Accordingly, if the appeal is allowed, the court has available to it all the powers set out in rule 29(1) of the Supreme Court Rules 2009 (SI 2009/1603), in terms of which &#8220;the Supreme Court has all the powers of the court below and may - (a) affirm, set aside or vary any order or judgment made or given by that court; (b) remit any issue for determination by that court; (c) order a new trial or hearing&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6" style="margin-left:0.50in">(ii)<marker name="tab"/>Issues relating to the effect of the declaratory order</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">It is necessary next to consider the effect of the declaratory order granted by Lord Malcolm. That necessity arises in the light of the submissions made to this court by counsel appearing on behalf of the Advocate General.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Counsel stated, on behalf of the Home Secretary, that she accepted that successive Secretaries of State had acted unlawfully. It had been believed that the commencement provisions permitted the commencement of the forum bar provisions in only part of the UK. The court had told the Secretary of State that that belief was wrong. However, by making a declaratory order and refraining from granting an order for specific performance (a remedy available in Scotland for the enforcement of statutory duties, by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/36/section/45" uk:canonical="1988 c. 36 s. 45" uk:origin="TNA" uk:type="legislation">section 45</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/36" uk:canonical="1988 c. 36" uk:origin="TNA" uk:type="legislation">Court of Session Act 1988</ref>) - which, counsel said, it could have done - the court had told the Secretary of State that the failure to commence the provisions was unlawful, but not that the provisions had to be commenced. Notwithstanding the court&#8217;s order, the Lord Advocate&#8217;s concerns about the forum bar provisions remained. The Secretary of State therefore had to decide whether to impose the forum bar provisions despite the constitutional problem arising from those concerns, or to repeal the provisions for the whole of the UK (by which counsel presumably meant that the Secretary of State had to decide whether to propose to Parliament a legislative measure which, if enacted, would have that effect). The time taken to consider that question was said to explain the delay between December 2018, when the Secretary of State was declared to be acting unlawfully, and September 2021, when the commencement order was made.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In written submissions, counsel also contended that, following the declaratory order, it was for any party who sought to rely on the provisions not commenced to apply for an order for specific performance requiring the Home Secretary to bring them into effect. The effect of the declaratory order was not that the forum bar provisions were unlawfully excluded from the extradition scheme, but that they were &#8220;lawfully recognised as not part of the scheme, but on a basis that could be relied upon to bring them within the scheme if desired&#8221;. It seems, therefore, that the order was not regarded as having any practical implications for the Home Secretary unless and until a further, coercive, order was sought and obtained.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The submissions which I have summarised reveal a number of misunderstandings. First, Lord Malcolm did not merely reject the contention that <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> permitted the commencement of the forum bar provisions in only part of the UK. As was explained at para 21 above, he also made it clear that the Scottish Ministers&#8217; opposition to the provisions was not a lawful justification for the failure to bring them into force in Scotland: Parliament had decided, in enacting <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>, that they were to be brought into force throughout the UK. In those circumstances, the explanation put forward for the delay in commencement following Lord Malcolm&#8217;s judgment simply reflects a perpetuation of the same error of law as underlay the delay in commencement before that judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, the order made by Lord Malcolm did not merely imply that the Home Secretary had acted unlawfully in the past. It was expressed in the present tense: it declared that &#8220;in its <span style="font-style:italic">continuing</span> failure to bring into force in Scotland the extradition forum bar provisions &#8230; the UK government <span style="font-style:italic">is acting</span> unlawfully and contrary to its duties under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>&#8221; (emphasis added). That order was not challenged, and became final. In the absence, at least, of any material change of circumstances - in which event I am inclined to think that the Secretary of State might have applied to the court for a further order declaring that the failure to commence the provisions was no longer unlawful - it was the duty of the Secretary of State to act in conformity with the court&#8217;s order (and, as I have explained in para 41, the Secretary of State&#8217;s decision not to exercise the power to make a commencement order, after the court&#8217;s order, was in any event unlawful, as it was vitiated by an error of law).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, the argument that, where a statutory duty exists which is capable of being enforced by a coercive order, a party should apply for such an order against a Government minister, instead of relying upon compliance with a declaratory order, has implications for the constitutional relationship between the Government and the courts.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In that regard, some general observations about the use of declaratory orders in public law may be helpful. It has been firmly established since the case of <span style="font-style:italic">M v Home Office</span><ref href="#" uk:canonical="[1994] 1 AC 377" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 1 AC 377</ref> that there is a clear expectation that the executive will comply with a declaratory order, and that it is in reliance on that expectation that the courts usually refrain from making coercive orders against the executive and grant declaratory orders instead. In that case, the House of Lords held that a mandatory interim injunction had been properly granted against the Home Secretary, and that, following his department&#8217;s breach of the injunction, he could properly be found in contempt of court (although no punishment was considered necessary beyond the payment of costs). Lord Woolf, with whom the other members of their Lordships&#8217; House agreed, observed at p 397 that the fact that these issues had only arisen for the first time in that case was confirmation that in ordinary circumstances ministers of the Crown and government departments scrupulously observed decisions of the courts. He continued:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-style:italic">Because of this</span>, it is normally unnecessary for the courts to make an executory order against a minister or a government department since they will comply with any declaratory judgment made by the courts and pending the decision of the courts will not take any precipitous action.&#8221; (Emphasis added)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">He added at pp 422-423:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The fact that, in my view, the court should be regarded as having jurisdiction to grant interim and final injunctions against officers of the Crown does not mean that that jurisdiction should be exercised except in the most limited circumstances. In the majority of situations so far as final relief is concerned, a declaration will continue to be the appropriate remedy on an application for judicial review involving officers of the Crown. As has been the position in the past, the Crown can be relied upon to co-operate fully with such declarations.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The Government, for their part, have always accepted that they can be relied upon to comply with declarations: see, for example, the recent case of <span style="font-style:italic">Vince v Advocate General for Scotland </span>[2019] CSIH 51; 2020 SC 90, where the court accepted the Government&#8217;s submission that it was unnecessary to make a coercive order against the Prime Minister, since members of the Government could be expected to respect a declaratory order. It is to be hoped that the submissions made on behalf of the Government in the present case do not represent a fully considered departure from that longstanding approach.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The Government&#8217;s compliance with court orders, including declaratory orders, is one of the core principles of our constitution, and is vital to the mutual trust which underpins the relationship between the Government and the courts. The courts&#8217; willingness to forbear from making coercive orders against the Government, and to make declaratory orders instead, reflects that trust. But trust depends on the Government&#8217;s compliance with declaratory orders in the absence of coercion. In other words, it is because ours is a society governed by the rule of law, where the Government can be trusted to comply with court orders without having to be coerced, that declaratory orders can provide an effective remedy. Although cases have occurred from time to time in which ministers have failed to comply with court orders (such as <span style="font-style:italic">M v Home Office</span> and the recent case <span style="font-style:italic">of R (Majera (formerly SM (Rwanda)) v Secretary of State for the Home Department</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/46" uk:canonical="[2021] UKSC 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 46</ref>; <ref href="#" uk:canonical="[2021] 3 WLR 1075" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 3 WLR 1075</ref>), they are exceptional, and can generally be attributed to mistakes and misunderstandings rather than deliberate disregard. However, where a legally enforceable duty to act, or to refrain from acting, can be established, the court is capable of making a coercive order, as <span style="font-style:italic">M v Home Office</span> and <span style="font-style:italic">Davidson v Scottish Ministers</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2005/74" uk:canonical="[2005] UKHL 74" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKHL 74</ref>; 2006 SC (HL) 41 demonstrate. Furthermore, a declaratory order itself has important legal consequences. First, the legal issue which forms the subject matter of the declaration is determined and is res judicata as a result of the order being granted: S<span style="font-style:italic">t George&#8217;s Healthcare NHS Trust v S</span> <ref href="#" uk:canonical="[1999] Fam 26" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] Fam 26</ref>, 59-60. In addition, a minister who acts in disregard of the law as declared by the courts will normally be acting outside his authority as a minister, and may consequently expose himself to a personal liability for wrongdoing: <span style="font-style:italic">Dicey, Introduction to the Study of the Law of the Constitution</span>, 10th ed (1959), pp 193-194.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6" style="margin-left:0.50in">(iii)<marker name="tab"/>Article 8 and the powers of the Scottish Ministers</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">It is necessary to consider next whether the acts of the Lord Advocate in conducting the extradition proceedings against the appellant, and the decision of the Scottish Ministers to order his extradition, were ultra vires by reason of their being incompatible with his rights under article 8 of the Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 8 provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>Everyone has the right to respect for his private and family life, his home and his correspondence.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">2.<marker name="tab"/>There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic well-being of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Where an act would constitute an interference with the right guaranteed by article 8(1), it is therefore necessary to consider three questions: first, whether the interference is &#8220;in accordance with the law&#8221;; secondly, whether the interference pursues one of the legitimate aims listed in article 8(2); and thirdly, whether the interference is &#8220;necessary in a democratic society&#8221;, that is to say, is a proportionate means of achieving the legitimate aim pursued, balancing the competing public and private interests in question.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In the present case, there is no dispute that the appellant&#8217;s extradition would interfere with his right to respect for his private and family life under article 8(1). It therefore requires to be justified under article 8(2). The first question which arises under that provision is whether the interference is &#8220;in accordance with the law&#8221;. As the European Court of Human Rights stated in <span style="font-style:italic">Halford v United Kingdom</span><ref href="#" uk:canonical="(1997) 24 EHRR 523" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">(1997) 24 EHRR 523</ref>, 544, para 49, and has repeated many times since, &#8220;this expression does not only necessitate compliance with domestic law, but also relates to the quality of that law, requiring it to be compatible with the rule of law&#8221;. Accordingly, the interference must, in the first place, be in conformity with domestic law. In addition, the domestic law must meet the requirements of the rule of law, so as to afford adequate legal protection against arbitrariness.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">These matters were not addressed by the courts below. Although they accepted that the Home Secretary had acted unlawfully in failing to commence the forum bar provisions in Scotland, they did not treat that continuing breach of the law as meaning that the interference with the appellant&#8217;s article 8 rights would not be &#8220;in accordance with the law&#8221;. Instead, they treated the unlawfulness, and any consequent prejudice suffered by the appellant through his inability to invoke the forum bar provisions, as a matter which could be fully taken into account as a factor in the balancing exercise between the public and private interests involved: see paras 27-28 and 32 above. In other words, they did not address the first question identified in para 48 above, and instead proceeded directly to the third question, treating the Home Secretary&#8217;s failure to comply with <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref> as having a potential bearing on that issue. That was a mistaken approach. As was said in <span style="font-style:italic">In re Gallagher; R (P) v Secretary of State for Justice</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/3" uk:canonical="[2019] UKSC 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 3</ref>; <ref href="#" uk:canonical="[2020] AC 185" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 185</ref>, para 12, the requirement that an interference must be in accordance with the law is an absolute requirement. In meeting it, Convention states have no margin of appreciation under the Convention, and the executive and the legislature have no margin of discretion or judgment under domestic public law. Only if the test of legality is satisfied does the question arise whether the measures in question are necessary for some legitimate purpose and represent a proportionate means of achieving that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to the question whether the acts of the Lord Advocate and the Scottish Ministers were &#8220;in accordance with the law&#8221;, it was submitted on their behalf, and on behalf of the Advocate General, that the extradition proceedings had been conducted, and the extradition order made, in accordance with the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> which were in force. Those provisions were evidently in compliance with domestic law, since they formed part of that law. They met the Convention requirements of accessibility and predictability. The fact that a forum bar defence had not been available was irrelevant, since the forum bar provisions were not in force, and therefore did not form part of domestic law with which it was necessary to comply.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The flaw in this argument is that the commencement provision, <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">the 2013 Act</ref>, was undoubtedly in force and formed part of domestic law. The procedure followed was not in compliance with <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>, as Lord Malcolm had declared. That remained the position following his decision, as explained at paras 41-42 above, and as the courts below accepted. The procedure was therefore not in compliance with domestic law. It follows that it was not &#8220;in accordance with the law&#8221; within the meaning of article 8 of the Convention. In the light of that conclusion, the question which would have arisen on the Lord Advocate&#8217;s and Advocate General&#8217;s submissions, as to whether the treatment of the appellant (including the delay in complying with Lord Malcolm&#8217;s order) in any event complied with the rule of law, does not require to be determined.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The consequence is that the acts of the Lord Advocate in conducting the extradition proceedings, and the act of the Scottish Ministers in making the extradition order, were incompatible with the appellant&#8217;s Convention rights, and were therefore ultra vires by virtue of section 57(2) of the Scotland Act. In the language of paragraph 1(d) of Schedule 6 to the Scotland Act (para 24 above), they were merely &#8220;purported&#8221; acts, and were therefore invalid.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Paraheading6" style="margin-left:0.50in">(iv)<marker name="tab"/>The appropriate remedy</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">For these reasons, I would allow the appeal. I would leave it to the High Court of Justiciary to make such orders as fall to be made in consequence of this judgment in order to enable a new extradition hearing to be held before a different Sheriff. At that hearing, it will be open to the appellant to rely on the forum bar provisions (in addition to any other arguments properly available to him), since the effect of this judgment is that the Sheriff has not yet decided the existing extradition bar questions, ie the questions in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/79/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, as those questions stood before their amendment by the commencement order made in September 2021.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

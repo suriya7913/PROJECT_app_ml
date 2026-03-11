@@ -1,0 +1,1 @@
+# LegalKGent — Shared Utilities

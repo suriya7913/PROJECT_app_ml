@@ -1,0 +1,43 @@
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter ─────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Environment / Secrets ───────────────────
+.env
+.env.*
+*.key
+*.pem
+venv/
+.venv/
+
+# ── Neo4j data (local DB files) ────────────
+neo4j_data/
+
+# ── IDE / Editor ────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS generated ────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Trace / Debug files ─────────────────────
+trace_*.json
+
+# ── Docker ──────────────────────────────────
+docker-compose.override.yml
+
+# ── NOTE: data/ folder IS tracked ───────────
+# All XML, JSON, and other data files in data/ are intentionally committed.

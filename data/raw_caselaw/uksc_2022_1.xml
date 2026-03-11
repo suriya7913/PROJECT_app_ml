@@ -1,0 +1,771 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/1"/>
+	  <FRBRdate date="2022-01-12" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1"/>
+	  <FRBRname value="FirstPort Property Services Ltd v Settlers Court RTM Company Ltd and others"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/1"/>
+	  <FRBRdate date="2022-01-12" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/1/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/1/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:19:11" name="transform"/>
+	  <FRBRdate date="2024-01-30T21:47:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-01-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="firstport-property-services-ltd" href="" showAs="FirstPort Property Services Ltd"/>
+	<TLCPerson eId="settlers-court-rtm-company-ltd-and-others" href="" showAs="Settlers Court RTM Company Ltd and others"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>1</uk:number>
+	<uk:cite>[2022] UKSC 1</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>ba65e9a585c2f82b69c440db9a2bdb6eba1f850b870c4f1973c57a5e7685bdcb</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Revision { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .CommentText { font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 1</neutralCitation><br/><span style="font-style:italic">On appeal from: [2019] UKUT 243 (LC)</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#firstport-property-services-ltd">FirstPort Property Services Ltd</party> (<role refersTo="#appellant">Appellant</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#settlers-court-rtm-company-ltd-and-others">Settlers Court RTM Company Ltd and others</party> (<role refersTo="#respondent">Respondents</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge><br/><judge refersTo="#judge-lord-burrows">Lord Burrows</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-01-12" refersTo="#judgment">12 January 2022</docDate></p>
+      <p class="JudgmentJudges">Heard on 10 and 11 November 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Simon Allison<br/>Kimberley Ziya<br/>(Instructed by FirstPort Ltd Legal Services)<br/><br/><span style="font-style:italic">1st Respondent (Settlers Court RTM Company Ltd)</span><br/>Mark Loveday<br/>Amanda Gourlay<br/>(Instructed by Lazarev Cleaver LLP)<br/><br/><span style="font-style:italic">2nd to 14th Respondents (as listed below)</span><br/><br/><span style="font-style:italic">Intervener (Association of Residential Managing Agents Ltd)</span><br/><span style="font-style:italic">(written submissions only)</span><br/>Rupert Cohen<br/>(Instructed by Property Management Legal Services Ltd)</p>
+      <p class="JudgmentAppRespInt" style="text-align:left"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondents:</span><br/>(1)<marker name="tab"/>Settlers Court RTM Company Ltd<br/>(2)<marker name="tab"/>[Mr David Alexander Taylor]<br/>(3)<marker name="tab"/>[Mr Shan Peng and Ms Yingchao Dai]<br/>(4)<marker name="tab"/>[Ms Kanna Parasuraman]<br/>(5)<marker name="tab"/>[Mr Simon Gee]<br/>(6)<marker name="tab"/>[Mr Noel Gordon Young and Mrs Diane Young]<br/>(7)<marker name="tab"/>[Ms Poh Poh Tan]<br/>(8)<marker name="tab"/>[Mr Jeremy Kam Cheong Lee]<br/>(9)<marker name="tab"/>[Ms Ommar Win]<br/>(10)<marker name="tab"/>[Mr Stephen David Huggins and Mrs Jean Elizabeth Huggins]<br/>(11)<marker name="tab"/>[Ms Elena Gabriela Sandu]<br/>(12)<marker name="tab"/>[Ms Marghalar Rasulzada]<br/>(13)<marker name="tab"/>[Mr Qiming Li]<br/>(14)<marker name="tab"/>[Mr Amitesh Caesar Mishra and Ms Chiu Hoong Lim]</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS: (<span style="text-transform:none">with whom Lord Sales, Lord Leggatt, Lord Burrows and Lady Rose agree)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal concerns the extent of the &#8220;right to manage&#8221; conferred by Chapter 1 of Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>&#8221;). In bare outline, <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> enables long leasehold tenants of residential flats to take over the management of the building of which their flats form part through the medium of a company (&#8220;the RTM company&#8221;) of which they are members, in place either of the landlord or any other person upon whom management rights are conferred under the terms of the leases of the flats.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The problem with which this appeal is concerned typically arises where the relevant building (whether a purpose-built block of flats or a house converted into flats) forms part of a larger estate containing other blocks or houses together with facilities or amenities which, under the relevant leasehold structure, are managed by a common landlord or other third party at the collective expense of the tenants of all the blocks or houses in the estate, and which are not exclusively used or enjoyed by the tenants of flats in the relevant building (&#8220;the estate facilities&#8221;). The question is whether <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> confers upon the RTM company any and if so what rights of management of the estate facilities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Appellant says that <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> confers upon the RTM company an exclusive right to manage the relevant building, together with any other facilities used exclusively by tenants within that building, but no right to manage the estate facilities. The First Respondent RTM company claims all those exclusive rights, and also a right to share in the management of the estate facilities, together with any other person entitled or obliged to do so, with the terms of shared management and the allocation of its cost to be resolved between them by agreement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This is a leapfrog appeal from the Upper Tribunal (&#8220;UT&#8221;). Both it and the First-tier Tribunal (&#8220;F-tT&#8221;) regarded themselves as bound to decide the question in favour of the Respondents by the decision of the Court of Appeal in <span style="font-style:italic">Gala Unity Ltd v Ariadne Road RTM Co Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/1372" uk:canonical="[2012] EWCA Civ 1372" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 1372</ref>; <ref href="#" uk:canonical="[2013] 1 WLR 988" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 WLR 988</ref>. It therefore falls to this court to determine whether that case, which has stood as binding authority for just over nine years, was correctly decided. By contrast with the Court of Appeal in <span style="font-style:italic">Gala Unity</span> (which was addressed by lay representatives of the companies on both sides) this court has enjoyed the considerable benefit of extensive submissions from teams of counsel experienced in this specialist field, together with the written submissions and evidence of the Association of Residential Managing Agents Ltd (&#8220;ARMA&#8221;), as intervener. We are particularly grateful to Ms Gourlay who, we were told, appeared pro bono on behalf of the First Respondent RTM company.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">The Facts</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal turns upon the true construction of the relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>, which sets up a single &#8220;right to manage&#8221; scheme, enforceable as of right, but applicable to a very wide variety of different types of residential leasehold arrangements, both in terms of buildings and lease structures. The issue is not therefore sensitive to the particular facts of this case, but a brief description of them may illustrate some of the difficulties to which the relevant statutory provisions give rise, especially if interpreted in a particular way.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The locus in quo for this dispute is the Virginia Quay Estate (&#8220;the Estate&#8221;), lying on the north bank of the tidal Thames opposite the O2 Centre (formerly the Millennium Dome). It was developed between 1999 and 2002 as a residential estate containing ten blocks of flats (ranging from five to 11 storeys) and rows of three storey freehold terraced houses. The blocks of flats and houses are surrounded by communal areas including accessways, gardens and grounds together with a river wall separating the Estate from the Thames. The communal areas, including the river wall, are all &#8220;estate facilities&#8221; as defined above, because they serve or are used by all the residential occupiers of the blocks of flats and houses. The Estate includes some 778 residential units in all.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">One of the blocks of flats is called Settlers Court. It contains 76 flats, all let on 999-year leases in substantially identical terms. The Appellant FirstPort Property Services Ltd (&#8220;FirstPort&#8221;) is named in all the leases of flats within the Estate as the management company (then called Peverel OM Ltd) responsible for the management of the buildings, houses and estate facilities throughout the Estate, and entitled to payment of service charges from lessees (and freehold rentcharges from owners of the freehold houses). The service charge provisions (and therefore the Appellant&#8217;s service charge accounts) divide the service charge liabilities and expenditure into Estate Costs, Water/Drainage Costs, Block Costs and Parking Facility Costs, with a stated proportion of each type due from each leaseholder. The Appellant covenants to provide specified management services described under those headings, and the lessees covenant to pay the Appellant their specified share of the costs of management.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The services consisting of managing the estate facilities (&#8220;the Estate Services&#8221;) do not exactly correspond with Estate Costs as defined in the leases, but they include maintenance of all the communal areas (including the river wall), secure parking control systems, CCTV camera installations, on-site concierge and management facilities. In 2015-16 the recoverable cost of the Estate Services (&#8220;the Estate Charges&#8221;) amounted to &#163;379,702.78, and the aggregate share of them payable by the lessees within Settlers Court was 15.2% of the total.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The First Respondent Settlers Court RTM Company Ltd is the RTM company which, on 8 November 2014, acquired the statutory right to manage Settlers Court under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. The other respondents are all lessees of flats within Settlers Court. It is common ground that, from that date, the First Respondent has had both the exclusive responsibility and the exclusive right to manage the Settlers Court block itself, and the exclusive right to charge the lessees of Settlers Court for the provision of those management services, in place of the Appellant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">But the parties are in dispute about which of them have the responsibility and the right to provide the Estate Services, and the right to levy a proportion of the Estate Charges on the lessees of Settlers Court. In default of any agreement the Appellant has continued to provide the Estate Services, so as to avoid being in breach of its covenants to do so, given to the lessees of flats in the other blocks and to the freehold owners of the terraced houses. The Appellant claims that its exclusive right to provide and charge for the Estate Services is unaffected by the First Respondent&#8217;s right to manage Settlers Court under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. But some of the lessees of Settlers Court and the First Respondent have denied liability to contribute a share of the Estate Charges, and the First Respondent has done nothing (with very minor exceptions) to contribute in kind to the provision of the Estate Services, pending agreement about some form of sharing of the cost. The basis of this denial is that, so it is said, the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> is to remove from the Appellant the right to provide the Estate Services, and the concomitant obligation of the Settlers Court lessees to pay the Appellant a share of the cost of providing them, unless there is a sharing agreement with the First Respondent which has yet to be made. The court was informed that the First Respondent is collecting from the Settlers Court lessees, and holding, a fund from which to make such payments, following an appropriate sharing agreement, or the outcome of this litigation. Meanwhile the Appellant is incurring a shortfall of approximately 15% between its cost of providing the Estate Services and the Estate Charges being received from all the other residential occupants of units within the Estate. Neither side suggests that the fault, if any, for the absence of a sharing agreement in the meantime is relevant to the issue as to the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> with which this appeal is concerned.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">The 2002 Act</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The &#8220;right to manage&#8221; provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> represent the second incursion by Parliament into the often uncomfortable relationship between long leaseholders of flats and the landlord or other third party responsible for the provision of services. Its first was in Part II of the <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1987</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>&#8221;), which confers upon the Leasehold Valuation Tribunal (&#8220;LVT&#8221;), now the F-tT, a broad discretionary jurisdiction to appoint a manager of a building or part of a building, described as &#8220;premises&#8221;, containing two or more flats, to carry out in relation to the premises such management and/or receivership functions as the tribunal thinks fit. The jurisdiction is mainly fault-based, although the tribunal can make such an order if &#8220;such other circumstances exist which make it just and convenient for the order to be made&#8221; (section 24(2)(b)). Prior to the coming into force of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> a similar result had been achieved by recourse to the court&#8217;s general jurisdiction to appoint a receiver/manager, but Part II of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> created, for the first time, a bespoke statutory scheme.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The &#8220;right to manage&#8221; conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> is also a bespoke statutory scheme for the management of premises containing multiple flats, but it is otherwise wholly different from that created by <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>. For present purposes the most important differences are, first, that the circumstances in which the right arises and the extent of the management functions thereby conferred are prescribed entirely by the statute, and are not dependent upon the exercise of judicial discretion, nor subject to any kind of court control or supervision. Secondly, the right is conferred in relation to a more narrowly defined type of &#8220;premises&#8221; (although both Acts use that word). Thirdly, the right is conferred only upon a tightly-defined RTM company, which must have as its members at least half of the qualifying long leaseholders in the relevant building, and be regulated by a prescribed constitution. And it is now established, though not appreciated at the time of <span style="font-style:italic">Gala Unity, </span>that an RTM company may only manage one building: see <span style="font-style:italic">Ninety Broomfield Road RTM Co Ltd v Triplerose Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/282" uk:canonical="[2015] EWCA Civ 282" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 282</ref>; <ref href="#" uk:canonical="[2016] 1 WLR 275" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 275</ref>, a decision not challenged in this court. Fourthly, the regime in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> provides for all the management functions which make up the right to manage to be transferred automatically to the RTM company. It is not open to the RTM company to choose to take over some but not all of the functions that are included in the right and there is no mechanism whereby the court can determine that some of the functions should be left with the landlord or third party manager or transferred to a different entity. If <span style="font-style:italic">Gala Unity</span> is correct, therefore, every RTM company in an estate such as Virginia Quay must take on the management of the estate facilities, whether or not that is what the tenants would prefer. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, the tribunal could appoint the manager to carry out such functions in connection with the management of the premises as the tribunal thought fit: see section 24(1). The tribunal could also make provision in the order dealing with incidental or ancillary matters: see section 24(4).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Chapter 1 of Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> begins, under the headings RIGHT TO MANAGE and then <span style="font-style:italic">Introductory</span>, with a brief summary of the right to manage scheme in section 71:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">The right to manage</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>This Chapter makes provision for the acquisition and exercise of rights in relation to the management of premises to which this Chapter applies by a company which, in accordance with this Chapter, may acquire and exercise those rights (referred to in this Chapter as a RTM company).</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>The rights are to be acquired and exercised subject to and in accordance with this Chapter and are referred to in this Chapter as the right to manage.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Under the heading <span style="font-style:italic">Qualifying rules, </span>section 72<span style="font-style:italic"/>provides, so far as relevant, as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">Premises to which Chapter applies</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>This Chapter applies to premises if -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>they consist of a self-contained building or part of a building, with or without appurtenant property,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>they contain two or more flats held by qualifying tenants, and</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>the total number of flats held by such tenants is not less than two-thirds of the total number of flats contained in the premises.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>A building is a self-contained building if it is structurally detached.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>A part of a building is a self-contained part of the building if -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>it constitutes a vertical division of the building,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>the structure of the building is such that it could be redeveloped independently of the rest of the building, and</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>subsection (4) applies in relation to it.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/>This subsection applies in relation to a part of a building if the relevant services provided for occupiers of it -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>are provided independently of the relevant services provided for occupiers of the rest of the building, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>could be so provided without involving the carrying out of works likely to result in a significant interruption in the provision of any relevant services for occupiers of the rest of the building.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(5)<marker name="tab"/>Relevant services are services provided by means of pipes, cables or other fixed installations.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(6)<marker name="tab"/>&#8230;&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The word &#8220;premises&#8221; is not itself separately defined, although as will appear it is frequently used throughout the Chapter as the physical subject-matter of the right to manage, in phrases such as &#8220;the right to manage the premises&#8221;. But the phrase &#8220;appurtenant property&#8221; used in section 72(1)(a) is defined in section 112(1) as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8216;appurtenant property&#8217;, in relation to a building or part of a building or a flat, means any garage, outhouse, garden, yard or appurtenances belonging to, or usually enjoyed with, the building or part or flat.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Sections 73 and 74 set out the qualifying requirements for being an RTM company. Section 73(4) has the effect that there can only be a single RTM company per relevant premises. It provides as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;(4)<marker name="tab"/>And a company is not a RTM company in relation to premises if another company is already a RTM company in relation to the premises or to any premises containing or contained in the premises.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Sections 73 and 74, together with sections 78 and 79, ensure that the right to manage can only be acquired through an RTM company which has first invited all qualifying tenants within the relevant premises to become members, and has as its members at least half of them. A qualifying tenant is a long lessee of a flat (with joint tenants being treated as one): see section 75.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Under the heading <span style="font-style:italic">Claim to acquire right</span> sections 78 to 89 set out the detailed procedure whereby an RTM company may become entitled to manage specific premises. Nothing turns on the detail save to note that a qualifying RTM company is entitled to acquire the right to manage the relevant premises (ie the qualifying premises within which at least half its members are qualifying tenants), provided only that it follows the specified procedure, centred upon the giving of a claim notice to the landlord, to every qualifying tenant within the premises, to any other party to any lease of the whole or any part of the premises, and to any manager appointed under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> to act in relation to the premises. There is no requirement to give a claim notice to any tenant of another block within the same estate, or to a freeholder of a house sharing the use of the estate facilities. Although there is provision for the giving of a counter-notice by persons who have been given a claim notice, this only enables an objector to identify some relevant non-compliance with the requirements of the Chapter. The fact that the objector may have rational grounds for opposing the take-over of management of the premises by the RTM company is irrelevant to the acquisition of the right.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Section 85 gives the tribunal strictly limited jurisdiction to order that the RTM company is to acquire the right to manage the premises only in the exceptional circumstance that one or more of the persons entitled to be given a claim notice (other than qualifying tenants) cannot be found or identified. The tribunal may require the RTM company to make further efforts to trace the missing person, by advertisement or otherwise.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Under the heading <span style="font-style:italic">Acquisition of the right</span> section 90 makes comprehensive provision about the date upon which the acquisition takes effect. Sections 91 to 93 contain provisions designed to ensure that existing managers and contractors are identified and then notified of the acquisition of the right to manage the premises by the RTM company. Section 94 requires the landlord, third party manager and any<span style="color:#FF0000"/>manager under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> to pay to the RTM company any &#8220;accrued uncommitted service charges&#8221; held at the acquisition date, derived from &#8220;service charges in respect of the premises&#8221;. Section 94(3) enables such a person or the RTM company to apply to the tribunal to determine the amount of any such payment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The next section of the Chapter is headed <span style="font-style:italic">Exercising right</span>. It contains the only provisions which in express terms seek to describe the nature and extent of the right to manage, both in positive terms and by way of exception. Section 95 is purely introductory. The relevant parts of sections 96 and 97 deserve quotation in full.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">96</span><marker name="tab"/><span style="font-weight:bold">Management functions under leases</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>This section and section 97 apply in relation to management functions relating to the whole or any part of the premises.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>Management functions which a person who is landlord under a lease of the whole or any part of the premises has under the lease are instead functions of the RTM company.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>And where a person is party to a lease of the whole or any part of the premises otherwise than as landlord or tenant, management functions of his under the lease are also instead functions of the RTM company.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/>Accordingly, any provisions of the lease making provision about the relationship of -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>a person who is landlord under the lease, and</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>a person who is party to the lease otherwise than as landlord or tenant,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">in relation to such functions do not have effect.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(5)<marker name="tab"/>&#8216;Management functions&#8217; are functions with respect to services, repairs, maintenance, improvements, insurance and management.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(6)<marker name="tab"/>&#8230;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in"><span style="font-weight:bold">97</span><marker name="tab"/><span style="font-weight:bold">Management functions: supplementary</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>Any obligation owed by the RTM company by virtue of section 96 to a tenant under a lease of the whole or any part of the premises is also owed to each person who is landlord under the lease.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>A person who is -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>landlord under a lease of the whole or any part of the premises,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>party to such a lease otherwise than as landlord or tenant, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>a manager appointed under Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> to act in relation to the premises, or any premises containing or contained in the premises,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">is not entitled to do anything which the RTM company is required or empowered to do under the lease by virtue of section 96, except in accordance with an agreement made by him and the RTM company.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>But subsection (2) does not prevent any person from insuring the whole or any part of the premises at his own expense.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Sections 98 and 99 make detailed provision about the extent of the RTM company&#8217;s management function in relation to the grant of approvals. Nothing turns on their detail, save to note how painstaking is the drafting. Sections 100 and 101 make provision for the RTM company to enforce and monitor the performance of tenants&#8217; covenants in leases of the whole or any part of the premises, excluding the enforcement of any right of re-entry. The RTM company is required to report a failure to comply with tenants&#8217; covenants to the landlord.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Nothing in the remainder of the Chapter is material to the issues in this appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">The existing authorities</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is an abundance of authority on, or relevant to, the right to manage under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>, but only two cases deserve detailed analysis. The first, <span style="font-style:italic">Cawsand Fort Management Co Ltd v Stafford</span> [2007] L&amp;TR 13 (Lands Tribunal); <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1187" uk:canonical="[2007] EWCA Civ 1187" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 1187</ref>; <ref href="#" uk:canonical="[2008] 1 WLR 371" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 WLR 371</ref> (CA) is not about <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> at all, but rather about Part II of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, but the reasoning of both appellate courts was very influential in <span style="font-style:italic">Gala Unity</span>. The LVT had appointed a manager of the complex of flats into which Cawsand Fort (fronting Plymouth Sound) had been developed, on terms which authorised the manager to exercise management powers over parts of the freehold outside the curtilage of the leaseholders&#8217; buildings, but over which they enjoyed amenity rights and rights of way under their leases.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Both the Lands Tribunal (George Bartlett QC President) and the Court of Appeal dismissed appeals by the freeholder, claiming that the LVT had acted beyond its powers. The question was whether management of the servient land in relation to those amenity rights was a &#8220;function in relation to the premises or a function in connection with the management of the premises&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/24/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, it being conceded by the freeholder that the &#8220;premises&#8221; included the amenity rights as incorporeal rights. The President reasoned that, since (by concession) the premises included the amenity rights as easements, and the only way in which an easement could be managed was where necessary by doing works of maintenance to the servient tenement, the LVT plainly had jurisdiction to authorise the manager to carry out maintenance of the servient land outside the curtilage of the building.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The reasoning of the Court of Appeal appears from the following passage in the judgment of Mummery LJ:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;33.<marker name="tab"/>In my judgment, the flaw in the company&#8217;s submissions on the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24</ref> stems from narrowly concentrating on the definition of &#8216;the premises to which <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the Act</ref> applies&#8217; and neglecting the self-evident purpose of the provision and the width of the language in which the power of the tribunal is expressed.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">34.<marker name="tab"/>The practical purpose of Part II is to protect the interests of lessees of premises, which form part of a building, by enabling them to secure, through the flexible discretionary machinery of the appointment of a manager, the carrying out of the management functions which they are entitled to enjoy &#8216;in relation to&#8217; the premises of which their flats are part. There is nothing in the language of Part II or in its aim to justify limiting a manager&#8217;s functions to those which must be carried out on &#8216;the premises to which <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the Act</ref> applies&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/24/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24(1)</ref> in the way suggested by the company by reference to Parts I and III of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In <span style="font-style:italic">Gala Unity</span> the relevant estate consisted of two blocks of flats and two detached coach houses. Each coach house contained a single first floor flat, above parking spaces. There was also further adjacent land including residents&#8217; parking, footpaths, roads, visitor parking and grassed areas, used by the occupants of both blocks and the coach house flats in common. The respondent RTM company had given separate claim notices to manage each of the two blocks, but not the coach houses. It claimed to be entitled to manage all the parts of the estate in common use (including the parking areas under the coach houses). I will call them the estate common parts. The RTM company succeeded at all levels, LVT, the Upper Tribunal (Lands Chamber) and Court of Appeal. The objection came not from the tenants of the coach house flats, who were perfectly content with the scheme for management of the whole estate by a common RTM company. Rather it came from the freeholder.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the Upper Tribunal (<ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2011/425" uk:canonical="[2011] UKUT 425 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKUT 425 (LC)</ref>; <ref href="#" uk:canonical="[2012] 1 EGLR 99" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 EGLR 99</ref>) Mr George Bartlett QC (again) reasoned that the premises included the appurtenant property under section 72(1)(a), that appurtenant property included incorporeal rights in the nature of easements over the estate common parts and that, by parity of reasoning with <span style="font-style:italic">Cawsand Fort</span>, the right to manage extended to all the estate common parts as servient land in relation to those easements. He acknowledged the force of the freeholder&#8217;s argument that this could produce conflict between the rights of the RTM company and those of both the tenants of the coach houses, and the management company under the leases. But he ultimately concluded that the definition of appurtenant property as including the incorporeal rights over the estate common parts had to prevail. He expressed the hope that the RTM company, the freeholder and the management company under the leases (still responsible under the coach house leases for the management of the estate common parts), could agree some workable scheme. Even the freeholders had acknowledged that it made sense for the estate to be managed as a single whole.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Court of Appeal (Arden, Sullivan and Patten LJJ) took the same view. It appears by then to have been conceded by the lay representative of the freeholder that all the estate common parts were within the definition of appurtenant property in section 112(1): see per Sullivan LJ at para 14. Recognising however that they were appurtenant to both the separate blocks, he held that the inclusion of the phrase &#8220;enjoyed with&#8221; the building rather than just &#8220;belonging to&#8221; the building meant that there was no requirement that appurtenant property had to be subject to the exclusive use of the occupants of the relevant block, for it to be included within the premises affected by the right to manage under section 72(1). At para 16 he concluded:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;In my judgment, the wording of section 72(1)(a) is clear:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">there is no requirement that the appurtenant property should appertain exclusively to the self-contained building which is the subject of the claim to acquire the right to manage. The prospect of dual responsibility for the management of some of the appurtenant property in this and other similar cases is not a happy one. As Mr McGurk submitted, there is the potential for duplication of management effort and for conflict between the &#8216;old&#8217; management company and the new RTM company in respect of such appurtenant property, but I am not persuaded that these consequences are so grave, or that the end result is so manifestly absurd, that we would be justified in adding a gloss to words - appurtenant property - which are already defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the Act</ref>. It is always open to the parties, if they wish to avoid duplication and/or conflict, to reach an agreement which would make economic sense for all parties &#8230;&#8221;</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <heading class="Paraheading2">Outline of the Parties&#8217; Submissions</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This appeal was much more fully argued than in <span style="font-style:italic">Gala Unity</span>. For the Appellant Mr Simon Allison and Ms Kimberley Ziya submitted that in focussing only on the meaning of appurtenant property the Court of Appeal in <span style="font-style:italic">Gala Unity </span>lost sight of the purpose and intent of Chapter 1 as a whole, which was to confer exclusive management rights upon RTM companies in relation to single buildings or parts of buildings, narrowly defined, and not to confer a right to share the management of estate facilities used in common by the occupants of several buildings. For this purpose they emphasised the following passage in the Commonhold and Leasehold Reform Draft Bill and Consultation Paper, published in August 2000 (Cm 4843), at paragraph 88:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;In certain cases, a block of flats may be part of an estate of properties, with all blocks enjoying a number of common facilities. These may include, for example, a car park or gardens. Where that is the case, the RTM company would become responsible only for the management of the block for which RTM had been exercised. Responsibility for the management of the common facilities would remain as allocated under the lease, as would the liability of the leaseholders to pay towards the costs incurred.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Appellant submitted that the Court of Appeal&#8217;s construction produced absurd and unworkable results which could not have been intended, whereas a sensible and generally workable scheme could by arrived at in one of three alternative ways:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">By limiting &#8220;appurtenant property&#8221; to property which is exclusively enjoyed by the occupants of the relevant building;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">By giving proper weight to the requirement in section 72 that the premises be self-contained;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.62in">By treating the reference to appurtenant property in section 72(1) as meaning that a building could qualify regardless whether it did or did not have appurtenant property, but not as including any such appurtenant property outside the self-contained building as part of the premises subject to the right to manage. On that basis, the focus switches to section 96(1). A purposive construction of that provision limits the management functions &#8220;relating to&#8221; the premises to management functions relating to the premises as narrowly defined, and any other amenities exclusively enjoyed by the tenants in those premises.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Finally the Appellant submitted that the Court of Appeal had been wrong in any event to include incorporeal rights as part of appurtenant property, and had not been referred to the traditionally narrow meaning of &#8220;appurtenance&#8221; in decided cases. Reliance for that purpose on <span style="font-style:italic">Cawsand Fort</span> was misplaced because of the very different discretionary scheme created by Part II of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">For the First Respondent Mr Mark Loveday and Ms Amanda Gourlay (neither of whom appeared below) placed in the forefront of their case a submission which sought to finesse any difficulties arising from criticisms of the reasoning in <span style="font-style:italic">Gala Unity</span>. This was that the essence of the right to manage was captured by the phrase in section 71 &#8220;rights <span style="font-style:italic">in relation to </span>the management of premises&#8221; and again in section 96(1) by the phrase &#8220;management functions <span style="font-style:italic">relating to</span> the whole or any part of the premises&#8221;. In a statutory scheme designed to confer rights on tenants, the concept of relationship should be widely construed, so as to include the management of property over which occupants of the premises enjoyed rights connected with the use of their flats, even if in common with the occupants of other blocks in the estate. It did not therefore matter whether such common property was or was not captured and made part of the relevant premises by the reference to appurtenant property in section 72(1)(a). They submitted that section 96(2) and (3) showed that any management function conferred on a landlord or third party manager under a lease of a flat within the relevant block passed to the RTM company as part of its right to manage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The First Respondent submitted that none of the supposed absurdities in the provision for shared management to which its construction led were beyond the scope of sensible agreement under section 97(2), with the threat of the appointment of a manager under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> in default of agreement acting as a sufficient spur to the RTM company to reach a sensible sharing agreement. Finally it was submitted that the Appellant&#8217;s construction would require a difficult boundary line to be established in estate cases between management of a block and management of the rest of the estate. They argued that in many cases the spur to tenants to undertake the process of taking on responsibility for management through the RTM company is their long-standing dissatisfaction with the standard of service they have received from the landlord or third party manager. If management of the estate facilities is carved out from the scope of the RTM company&#8217;s remit, the tenants will still be forced to deal with, and pay charges levied by, the original provider. That cannot be what Parliament intended, they submit.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">Analysis</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The part of the Chapter which seeks expressly to lay down what are the management functions conferred by the right to manage is sections 95 to 103, headed <span style="font-style:italic">Exercising right. </span>For present purposes it is sections 96 and 97 that matter, set out (to the extent relevant) above. They are only functions relating to the whole or any part of the premises: section 96(1). Subject to that limitation, they include all the management functions (as defined by section 96(5)) which the landlord or third party manager (as the case may be) has under the relevant long lease of a flat within the relevant premises.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Section 97(2) makes it clear that, save in relation to insurance (see section 97(3)), the RTM company has the right to perform its allotted functions itself, to the exclusion of any participation by the landlord, third party manager or even a manager appointed under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, save to the extent that the RTM company agrees otherwise. In short, it has no obligation to share management with anyone. That is a very powerful pointer to a construction which confines the right to manage to that which the RTM company can manage on its own, namely the structure and facilities within the building or part of it constituting the relevant premises and, where they exist, those facilities outside it which are exclusively used by the occupants of the relevant premises.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The apparently unconstrained right of the RTM company to perform its management functions on its own runs into insuperable problems if those functions are construed to include management of shared estate facilities. This is because the landlord or third party manager will have the right and obligation to manage those facilities under the potentially very large number of leases of flats outside the RTM company&#8217;s allotted single block. All those tenants will have the right under their leases to insist that the landlord or third party manager (and no-one else) performs those functions, and it would be a very strong thing to read section 97(2) as taking that right away from them. They will have no reason to wish to acquiesce in the management of those estate facilities by an RTM company owned and controlled solely by what may be a bare majority of the long lessees of the flats in the relevant block, and they have no privity of contract or estate with the lessees who own the RTM company, or with the RTM company itself, which would enable them to exercise any influence on how that management is conducted, or to hold the RTM company to account. Nor does <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> provide that, in the management of shared facilities, the RTM company owes any obligation to those tenants. Sections 96 and 97(1) provides only for an obligation by the RTM company to the landlord and to the tenants of flats in the relevant premises.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Such a fundamental derogation from those other tenants&#8217; rights in relation to the management of the estate facilities would be all the more surprising because nothing in the elaborate provisions for the giving of claim notices requires that any of them be informed of the exercise of the right to manage, either at the time when it is being claimed, or even after it has come into force.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">It may fairly be said that a fundamental purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> is to confer management rights and responsibilities on a body (the RTM company) which is accountable to and controlled by the very tenants who will be affected by the conduct of that management, through their right to be members of the RTM company, rather than by either the landlord or a third party manager which will have its own agenda. That works perfectly well if the right to manage is confined to the relevant building which contains the flats occupied by those tenants, together with any facilities which they use exclusively. But it produces the opposite effect if the RTM company&#8217;s rights extend to the management of estate facilities used by tenants who are complete strangers to the RTM company.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">True it is that the phrase in section 96(1) &#8220;functions relating to&#8221; does not on its own spell out how close or tenuous that relationship has to be. Nor does the similar phrase in section 71(1), but that section is in my view purely introductory. To find out how close that relationship needs to be one must have regard to the whole of the Chapter to construe that key phrase purposively and in its context. That exercise reveals numerous signposts, all pointing to the need for a very close connection, sufficient to confine the right to manage to functions which the (necessarily) single-building RTM company can properly perform on its own, for the benefit and under the supervision of those tenants who will be directly affected by that performance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The starting point lies in section 72, which imposes a much tighter qualification requirement in relation to premises than the equivalent provision in <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>. The premises must be self-contained. If they constitute a whole building it must be structurally detached. If part of a building that part must be divided vertically from the rest of the building, be capable of being independently redeveloped and have services which either are or could without interruption to the rest of the building be made independent. All these requirements point strongly towards confining the right to manage to separate premises within which the quality of the management provided by the RTM company affects only the occupants of that building or part of it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Next, the Chapter is shot through with phraseology which describes the right to manage as a right to manage particular premises, meaning a building or part of a building. The phraseology appears in sections 73(2), 78(1) and (2), 79(1), 82(1), 84(2), (3), (5) and (6), 85(1), (2) and (6), 86(1), 90(1), (4) and (5), 91(1) and (5)(c), 93(1), 94(1) and 95, before section 96 is even reached. When it is borne in mind that a particular RTM company can only manage one building, this points strongly away from the right to manage premises including a right to manage, or share in the management of, shared estate facilities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">An equally compelling signpost lies in what the Chapter does not contain, but would be expected to contain, if the right to manage premises was intended to include shared estate facilities. Whereas the Chapter is careful and precise in the way in which it restructures the leasehold relationship between the landlord, the third party manager and the tenants of flats within the relevant building so as to admit the RTM company into a workable framework of mutual covenants, it is silent as to how the RTM company is to be retro-fitted into the relationships constituted by leases of flats in other buildings within a multi-block estate. At its highest section 97(2) might enable the RTM company to share management with the landlord or third party manager by agreement, but there is no machinery or means of recourse to the tribunal whereby, in default of agreement, the sharing of the management of the estate facilities rendered inevitable by the First Respondent&#8217;s construction is to be structured. And section 97(2) is by no means necessarily there for that purpose. Rather, it sensibly contemplates latitude for the RTM company to allow the landlord or third party manager to continue to perform some management function within the building (or the other facilities used exclusively by the tenants of the relevant building) in place of the RTM company. An example might be a tenants&#8217; car park where only some of the spaces were reserved for tenants of the relevant building. It would make obvious sense for the RTM company to agree to allow the landlord or third party manager to continue to manage the car park as a whole.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Finally, when stripped of the influence of the reasoning about the very different scheme under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, and looked at strictly in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>, the use of the defined term &#8220;appurtenant property&#8221; also points away from the inclusion of shared estate facilities in the subject matter of the right to manage. The definition in section 112 is stated to be for the purposes of Chapter 1 of Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. It lists any &#8220;garage, outhouse, garden, yard or appurtenances belonging to, or usually enjoyed with, the building or part or flat&#8221;. The first thing to note is that all the items listed, apart from the general reference to appurtenances, are physical, corporeal objects. There is force in construing the word &#8220;appurtenances&#8221; in this context <span style="font-style:italic">eiusdem generis</span> so as not to include incorporeal rights such as easements.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Secondly, and bearing in mind that the right to manage scheme in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> applies as much to former houses which have since been converted into flats as it does to purpose built blocks of flats, the garages, outhouses, gardens and yards are types of object ordinarily to be found within the curtilage of a house, so closely linked with the house that they may, colloquially rather than in law, be said to &#8220;belong&#8221; to the house, in the sense that although not within its four walls, they are in substance part of the house in question. The word &#8220;appurtenance&#8221; when used as a conveyancing term has been held to have much the same restrictive meaning: see <span style="font-style:italic">Methuen-Campbell v Walters</span> <ref href="#" uk:canonical="[1979] QB 525" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">[1979] QB 525</ref>, 533-535, per Goff LJ. It is something so closely connected with the house that it would pass on a conveyance of it without express mention and it is (usually) limited to something lying within the curtilage of the house. It has also been noted that the scope of the term &#8220;appurtenances&#8221; depends on the context in which it is used: see for example <span style="font-style:italic">Dartmouth Court Blackheath Ltd v Berisworth Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2008/350" uk:canonical="[2008] EWHC 350 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 350 (Ch)</ref>; [2008] L&amp;TR 12 and <span style="font-style:italic">Cadogan v McGirk </span><ref href="#" uk:canonical="[1996] 4 All ER 643" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 4 All ER 643</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Thirdly, although viewed separately the phrase &#8220;usually enjoyed with&#8221; the building is wide enough to accommodate non-exclusive enjoyment, so as to include the shared estate facilities, and that phrase is separated from &#8220;belonging to&#8221; by the disjunctive &#8220;or&#8221;, nonetheless the phrase &#8220;belonging to, or usually enjoyed with&#8221; viewed as part of a composite definition of appurtenant property does carry with it more restrictive flavour than one which would easily accommodate the whole of the shared facilities in a modern multi-block estate, necessarily within the word &#8220;appurtenances&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Finally it is instructive to observe the use which is made of the phrase &#8220;appurtenant property&#8221; in the operative parts of the Chapter. In section 72(1) it is used as part of the larger phrase &#8220;with or without appurtenant property&#8221; so as to make it clear, for example, that the fact that a building has an appurtenant outhouse or garage does not mean that it fails the requirement that it be self-contained. That is part of an entirely physical set of qualification requirements, not directed at all to the question what easements or other incorporeal rights may serve the building. It is indeed hard to imagine a building with flats served by no easements or other incorporeal rights at all (eg a right to light). So if &#8220;appurtenant property&#8221; was meant to include all easements and incorporeal rights serving the building it is hard to see how the drafter could have imagined a building without any appurtenant property. But this is plainly contemplated by section 72(1)(a) and makes sense only on the basis that the phrase was purely about physical objects. It is by no means hard to imagine a modern block of flats standing on its own in shared landscaped gardens and amenities, without any outhouses, garages, gardens yards or physical things of its own.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The other use made of &#8220;appurtenant property&#8221; is in section 77(5). There it is used to ensure that a long leaseholder does not fail to qualify for membership of the RTM company because he may hold two separate leases, either of different parts of the same flat or one of the flat and the other of appurtenant property; ie property appurtenant to that flat. Both leases are treated as a single long lease. Much the same analysis applies as it does above to section 72(1)(a). Section 77(5) again expressly contemplates that a flat may be without any appurtenant property. But if appurtenant property includes all easements and incorporeal rights serving the flat, such a contemplation would be unimaginable. Flats by their very nature have to be served by a variety of incorporeal rights over the structure and common parts of the building of which they form part. But it is easy to imagine a flat with no appurtenant property of a physical type, outside its four walls.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">An additional problem with treating the shared right to use estate facilities as appurtenant property, and therefore as part of the relevant premises, arises from section 73(4). It prohibits a second (in time) RTM company from managing premises if there is already another RTM company in relation to those premises or any premises contained in them. Such a construction would appear to prevent any other blocks (after the first) from becoming subject to the right to manage, since all the blocks would have the shared use of the same estate facilities as part of their premises. By contrast a construction which limits the premises to the relevant building together with appurtenant property in the exclusive use of the occupants of that building would cause no such difficulty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I acknowledge that this analysis of the meaning and effect of &#8220;appurtenant property&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> runs counter to the central thrust of the decision of both the specialist Upper Tribunal and the Court of Appeal in <span style="font-style:italic">Gala Unity</span>. But I am, with respect, convinced that their analysis, summarised above, was wrong. In the Upper Tribunal the reasoning that the premises subjected to a statutory scheme of management naturally included the easements serving the relevant building, so that management had to extend to the servient land (and therefore the estate facilities) originated, as he acknowledged, in the President&#8217;s analysis of the same issue in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, in <span style="font-style:italic">Cawsand Fort</span>. But first, the point that the premises included the easements serving the building had been conceded by the freeholder in <span style="font-style:italic">Cawsand Fort</span>. Secondly, and of greater importance, the broad discretionary nature of the tribunal&#8217;s jurisdiction under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>, in particular as to the appropriate terms of the manager&#8217;s functions, naturally lent itself to a liberal construction of the outer boundaries of that jurisdiction. In sharp contrast, the automatic and fixed nature of the right to manage under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> calls for more rigorous limits, and a less generous interpretation of its boundaries, not least to protect and preserve the interests of other stakeholders in the estate (the tenants in all the other blocks) who under the scheme are not entitled to be notified or to object to the exercise of the right to manage by the tenants within only one block.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The facts of <span style="font-style:italic">Gala Unity</span> largely obscured the very real problems of making workable a shared management concept in relation to estate facilities. The RTM claims related (impermissibly) to the management of the only two blocks in the estate by a single RTM company. The tenants of the only two flats not in the scheme (in the coach houses) supported the scheme. Thus all the estate facilities were enjoyed, and only enjoyed, by flats either within the RTM claims, or flats whose owners were on-side. The problems would have loomed much larger if, as should have happened, different (and differently owned) RTM companies had separately applied to manage each of the two blocks. It is to be noted that the President was initially of the view that those problems were unsurmountable. In the Court of Appeal Sullivan LJ described the prospect of dual management as not a happy one, but he felt obliged by the meaning of appurtenant property to conclude that <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> prescribed it in relation to shared estate facilities. In so doing he was probably assisted by the apparent concession that the estate facilities were at least potentially within the definition of appurtenant property, subject only to the question whether &#8220;enjoyed with&#8221; contemplated exclusive or shared enjoyment. As will appear the problems thrown up by the extension of the right to manage to shared estate facilities are so great as to amount to absurdity if the 2002 right to manage is construed in the way that it was in <span style="font-style:italic">Gala Unity.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I have already noted that neither the Upper Tribunal nor the Court of Appeal had the benefit of the submissions of specialist counsel, nor the assistance of the intervener, in the way that has been of great assistance to this court. Nor does it appear that they were shown paragraph 88 of the consultation paper on the draft Bill quoted above which, so far as is relevant, makes the then intention of the promoters of the Bill crystal clear on this very point.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Paragraph 88 easily satisfies the requirement for admissibility that it squarely addresses the point in issue. But it is only part of a consultation paper, and counsel were not able to put before the court any of the replies to consultation, or the other <span style="font-style:italic">travaux pr&#233;paratoires</span> which may have lain between that consultation stage and the passing of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. Mr Loveday was able to point to a significant change in wording between clause 53 of the draft Bill and <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/71" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 71</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the Act</ref>, by the introduction of the phrase &#8220;in relation to&#8221; the management of premises. This, he said, was amply sufficient to widen the previous management of the premises alone to a concept of the management of related shared rights and facilities. But no similar change was introduced into clause 71(1) of the draft Bill, which became <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/96/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 96(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. There even the draft Bill used the expression &#8220;relating to&#8221; the whole or any part of the premises. At that stage the promoters clearly did not regard the use of &#8220;relating to&#8221; as wide enough to extend the scheme to the shared management of estate facilities. In my view nothing turns on the change made to clause 53, since <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/71" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 71</ref> which replaces it is only introductory, and merely reflects <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/96/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 96(1)</ref> by way of summary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I would for my part be cautious in giving too much weight to a statement in a consultation paper, although I would not accept Mr Loveday&#8217;s supposed distinction between assistance in divining high level policy or purpose and detailed application, when the statement in question is so precisely on point. In the end it is the language Parliament has chosen to use which must be the primary guide, both to purpose and detailed application. In the present case that language easily persuades me that the right to manage conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> does not extend to the shared management of estate facilities. Paragraph 88 is just useful confirmation that this fully accords with the intention of the designers and promoters of the scheme.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">Absurdity</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">It is well established that the court will lean against a construction of legislation which produces absurd or unworkable results, if there is an available alternative construction which does not do so. I am persuaded that a construction of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> which either (on a rigorous view of section 97(2)) confers sole management of estate facilities on the RTM company with a right to manage one block or, on a more realistic view, forces the RTM company and the former manager (landlord, third party or manager under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>) or the RTM companies managing other blocks into a shared management relationship of the type contended for by the First Respondent, is both absurd and unworkable. By contrast a right to manage the premises, which extends only to the relevant building, and to facilities exclusively used by its occupying tenants, avoids all, or almost all, of those difficulties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Intervener in this appeal, ARMA, served a witness statement of Dr Nigel Glen, the Chief Executive Officer of the Association. ARMA is the leading trade association for firms involved in the management of private residential blocks. Its members include both professional managing agents such as the Appellant, FirstPort, and RTM companies such as the First Respondent. Dr Glen&#8217;s evidence and ARMA&#8217;s submissions highlighted the practical challenges that have been experienced in the sector because of the &#8220;dual responsibility&#8221; for the management of shared facilities. The difficulties can be abated by the RTM company and co-manager working together but the necessary goodwill, co-operation and shared vision is, they say, &#8220;likely to be in short supply&#8221; in many instances. ARMA also express concern about the financially precarious situation of RTM companies who derive their income solely from the service charges they collect from the tenants. Those charges are usually insufficient to cover the costs of managing the shared estate facilities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The central problem with a construction which entitles the RTM company to manage, or even share in the management of, estate facilities is that <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> fails to put in place any structure of mutual rights and obligations between the RTM company and the tenants in the other blocks, which would enable them to enforce the RTM company&#8217;s management obligations or enable the RTM company to enforce payment of their share of the expenditure. Taking the facts of this case as an example, the tenants of Settlers Court represent between 10% and 15% of the tenants in the Estate. Under the leasehold structure in place before the exercise of the right to manage they were responsible for 15% of the cost of the provision of the Estate Services. The other tenants were responsible for the remaining 85% of the cost, in each case rounded to the nearest percent. If, as the First Respondent claims, it has become entitled and obliged to the Settlers Court tenants to perform all the management functions set out in their leases (under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/96/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 96(3)</ref>), that means all the management of all the estate facilities. But since the only tenants with whom the RTM company has a contractual relationship (under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/96" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 96</ref>) are the Settlers Court tenants, it could only recover 15% of the cost of doing so. An RTM company is, because of the statutory provisions which regulate it, not a creature of substance. It is a company limited by guarantee with no share capital and no assets other than the right to enforce the tenant covenants in the leases of the flats in its building, otherwise than by forfeiture. It has no property which it could offer as security for a loan to cover the shortfall, while perhaps engaged in long drawn-out negotiations for a shared management agreement with the previous managers or with other RTM companies managing other blocks in the same estate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">A similar problem, although with less disastrous financial consequences on the facts of this case, faces the previous manager (whether landlord or third party). It is obliged to all the remaining tenants in the other blocks on the Estate to manage all the estate facilities, but it can only recover 85% of the cost, because it has been replaced by the RTM company as manager under the Settlers Court leases. The Appellant has been incurring this 15% shortfall for several years. Fortunately it is a creature of substance and has been able temporarily to absorb that loss. If it had been wholly dependent on payments from tenants on the Estate it would by now have become insolvent.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Nor does <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> explain how shared management is to work in practice. Mr Loveday submits that it can all be dealt with by a sensible agreement. But it is obviously preferable to interpret <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the Act</ref>, if possible, in a way that does not create a regime which is unworkable unless and until the parties are able to devise and reach an agreement which neither of them has any legal obligation to make. An additional problem is that an RTM company may have little commercial incentive to compromise if in practice (as in the present case) the previous manager is continuing to maintain the estate facilities. In any case, even with goodwill and best intentions on all sides, the practical difficulties may be insurmountable. Suppose that each block in the Virginia Quay Estate was the subject of a right to manage by ten different RTM companies, each controlled by the long leaseholders in their separate block. How would the ten managers, together with the Appellant representing the freehold owners of the terraced houses, be able to agree about management decisions requiring to be made on a daily basis? And how would the estate facilities be managed from the fixed commencement date (under section 90) until the making of a workable agreement between all of them? If each block became the subject of a right to manage on successive dates, would an agreement between say five of the RTM companies have to be renegotiated when a sixth came on the scene?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The First Respondent submits that the competing managers would be forced to make a sensible agreement by the prospect that, in default, an application could be made for the appointment of a manager under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>. This jurisdiction is preserved by <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> by paragraph 8 of Schedule 7. Even if the failure to reach agreement was no-one&#8217;s fault, the tribunal&#8217;s jurisdiction to appoint a manager under the just and convenient ground in <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24</ref> would come to the rescue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In my view it is genuinely absurd to think that <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> was framed with that route in mind as a tie-breaker solution in default of a sharing agreement between multiple managers of estate facilities. That jurisdiction is primarily, although not exclusively, fault-based. It can only be triggered by a tenant serving a notice under section 22. The whole thrust of the jurisdiction is to give relief to tenants who are dissatisfied with the management services provided by their existing manager. It contains no mechanism by which one or more RTM companies could apply to the court to resolve a disagreement about shared management.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">All these absurdities are avoided if the functions of the RTM company do not extend to the estate facilities. On this construction there is no shared management. Estate services remain under the management of the previous manager, and the existing leasehold structure makes continuing provision for that manager to recover the full cost from all relevant tenants.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2">Conclusion</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I consider that the right to manage scheme in Chapter 1 of Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> makes no provision within the statutory right to manage for management by the RTM company of shared estate facilities. It is concerned only with management of the relevant premises, that is the relevant building or part of a building, together with appurtenant property (if any) which means nearby physical property over which the occupants of the relevant building (or part) have exclusive rights. The right to manage is an exclusive right in the RTM company to manage the relevant premises, and no provision is made in Chapter 1 for any shared management of anything, save only where the RTM company chooses to agree otherwise.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In my view the <span style="font-style:italic">Gala Unity </span>case was wrongly decided and should be overruled. In so saying I bear in mind that it has stood as binding authority for several years, and that estate facilities in many estates may at present be being managed under sharing agreements made by RTM companies and others on the assumption that the law was as set out in that case. That is not, however, a sufficient reason to perpetuate an interpretation which is not merely causing practical difficulties but, more fundamentally, is contrary to the purpose of the statute.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I would therefore allow this appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

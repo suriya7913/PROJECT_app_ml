@@ -1,0 +1,709 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/3"/>
+	  <FRBRdate date="2024-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3"/>
+	  <FRBRname value="J (by his Litigation Friend, the Official Solicitor) v Luton Borough Council &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/3"/>
+	  <FRBRdate date="2024-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/3/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/3/data.xml"/>
+	  <FRBRdate date="2024-11-10T03:45:58" name="transform"/>
+	  <FRBRdate date="2024-11-13T00:24:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="j-by-his-litigation-friend-the-official-solicitor" href="" showAs="J (by his Litigation Friend, the Official Solicitor)"/>
+	<TLCPerson eId="luton-borough-council" href="" showAs="Luton Borough Council"/>
+	<TLCPerson eId="ad" href="" showAs="AD"/>
+	<TLCPerson eId="sd" href="" showAs="SD"/>
+	<TLCPerson eId="md" href="" showAs="MD"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-peter-jackson" href="/judge-lord-justice-peter-jackson" showAs="LORD JUSTICE PETER JACKSON"/>
+	<TLCPerson eId="judge-lord-justice-dingemans" href="/judge-lord-justice-dingemans" showAs="LORD JUSTICE DINGEMANS"/>
+	<TLCPerson eId="judge-lord-justice-lewis" href="/judge-lord-justice-lewis" showAs="LORD JUSTICE LEWIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>3</uk:number>
+	<uk:cite>[2024] EWCA Civ 3</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>1a725dad3bf045454ef25d09e97c456ca099d063ca1402853f29814218fd6dc0</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { font-size: 12pt; color: #1F3763; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.6in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .BodyTextIndent { margin-left: 0.2in; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .text { font-size: 12pt; }
+#judgment .Quote1 { font-size: 12pt; }
+#judgment .legclearfix2 { font-size: 9.5pt; color: #000000; }
+#judgment .EndnoteText { font-size: 10pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3Char { font-size: 12pt; color: #1F3763; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-size: 12pt; }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .BodyTextIndentChar { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .Strong { font-weight: bold; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .cosearchterm5 { font-weight: bold; color: #3D3D3D; }
+#judgment .legds2 { }
+#judgment .EndnoteTextChar { }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .ListParagraphChar { }
+#judgment .legds { }
+#judgment .legchangedelimiter { }
+#judgment .legaddition { }
+#judgment .legsubstitution { }
+#judgment .legterm { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCA Civ 3</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-001618</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE COURT OF PROTECTION</p>
+      <p class="CoverMain">Mrs. Justice Roberts</p>
+      <p class="CoverMain">LUF22F03078/COP14002142</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-01-11" refersTo="#judgment">11 January 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-peter-jackson">LORD JUSTICE PETER JACKSON</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-dingemans">LORD JUSTICE DINGEMANS</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-lewis">LORD JUSTICE LEWIS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <table uk:widths="0.91in 4.2in 1.11in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#j-by-his-litigation-friend-the-official-solicitor" style="font-weight:bold">J (by his Litigation Friend, the Official Solicitor)</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#luton-borough-council" style="font-weight:bold;font-size:12pt">Luton Borough Council</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#ad" style="font-weight:bold;font-size:12pt">AD</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#sd" style="font-weight:bold;font-size:12pt">SD</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(4)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#md" style="font-weight:bold;font-size:12pt">MD</party></p>
+	    </blockContainer>
+	    <p style="text-align:center"><span style="font-weight:bold"/></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Andrew Bagchi KC </span>and <span style="font-weight:bold">Kyle Squire</span> (instructed by <span style="font-weight:bold">Irwin Mitchell LLP</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Conrad Hallin </span>(instructed by <span style="font-weight:bold">Luton Borough Council</span>) for the <span style="font-weight:bold">Respondent Local Authority</span></p>
+      <p style="text-align:center">The<span style="font-weight:bold"> Second to Fourth Respondents represented themselves</span></p>
+      <p style="text-align:center">Hearing date: 30 November 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 11 January 2024 by circulation </p>
+      <p style="text-align:center">to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Peter Jackson:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in;text-indent:-0.5in"><span style="font-style:italic">Overview</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">This is an appeal from orders made by Mrs Justice Roberts on 26 July 2023 in parallel proceedings in the Court of Protection and the Family Division.  In the former, the judge made an interim order under the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> (&#8216;the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>&#8217;) declaring that it was not in the best interests of a young man (the Appellant J) to travel to Afghanistan with his family for a holiday. She reinforced that decision by continuing an order in the latter proceedings that prevented J&#8217;s family from removing him from England and Wales.  Anonymity was granted to J and the members of his family and no report of these proceedings shall identify them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">J, who is in his early 20s, has severe learning difficulties and is represented by the Official Solicitor as his litigation friend.  His appeal is supported by his parents and his adult sister but opposed by the local authority in whose area the family lives and which had sought the orders.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in"><span style="font-style:italic">Background</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Some years ago, J and his family moved to the UK from Afghanistan as refugees.  J, who is the eldest of seven siblings, lives at home with his parents.  He attends college and is making good progress.  He and his adult sister are now British citizens.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">In 2022, the family planned to travel to Afghanistan so that J and his sister could visit family members living there and enter into arranged marriages.  In January 2022, J&#8217;s sister contacted the local authority to ask its Learning and Disability team for support in bringing J&#8217;s intended wife to the UK.  On 2 August 2022, after the family had said that they planned to travel imminently, a mental capacity assessment was carried out.  J was assessed as lacking capacity to marry and to engage in sexual relations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">In August 2022, the local authority applied under Part 4A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/27" uk:canonical="1996 c. 27" uk:origin="TNA" uk:type="legislation">Family Law Act 1996</ref> for a Forced Marriage Protection Order (&#8216;FMPO&#8217;) in respect of J.  This was granted as an interim order.  A port alert was put in place, preventing the family from travelling.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">J&#8217;s family has accepted the capacity assessment, and the local authority and the court have accepted that there are no current plans for him to be married.  He is receiving ongoing education with a view to increasing his capacity.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">On 17 March 2023, the court discharged the FMPO in relation to J&#8217;s younger sister and the port alert in respect of the parents and sister, but the FMPO remained in place in relation to J.  A capacity assessment was directed in relation to the specific issue of his travelling to Afghanistan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">At a further hearing on 14 July 2023, the family made an oral application for an order that J should be allowed to travel with the family to Afghanistan on 31 July 2023 for approximately five weeks.  The application was listed for an urgent hearing on 26 July 2023.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_3">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in"><span style="font-style:italic">The judge&#8217;s decison</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">The judge met J and heard oral evidence from the father and the allocated social worker, the parents and sister being unrepresented.  She considered the Foreign, Commonwealth &amp; Development Office publication &#8216;Travel Advice to Afghanistan&#8217; updated 22 June 2023 (&#8216;the FCDO Advice&#8217;).  She received written and oral submissions. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">In an extempore decision the judge refused the family&#8217;s application: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;4.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The parents have made the decision to travel to Afghanistan to visit family members who remain in that jurisdiction.  That is an entirely understandable aspiration.  They plan to travel with their children on Monday next week and return some five weeks later.  The issue for me to determine today is whether J should accompany them on that trip. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>In terms of capacity, I am satisfied that is a choice he cannot make for himself because he is unable to weigh and balance the information which would enable him to make an independent choice.  The court in these circumstances has an obligation to make the decision in his best interests.  The legal principles engaged are agreed.  Given the time available to me, there is no need for me to set those out in this judgment, as agreed by both counsel.   </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>6.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>For now, I say only this. First, I have considered the Foreign and Commonwealth Office advice which is clear and unequivocal.  There are significant risks to any British nationals, including J, in travelling to that jurisdiction.  J has particular needs over and above most of the general population.  I am not satisfied from everything I have read and heard that travel to Afghanistan now would be a safe option for him.  I have concerns too for the wider family but it is not my responsibility to make decisions for capacitous adults.   </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>7.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>The parents share parental responsibility for their children, and these are decisions they are entitled to take for their own children.  In the context of a best interests' decision, I accept entirely the potential benefits of any trip for J to a country where he will spend time with his extended family members to enjoy that country's culture, and to experience the life his parents had before they came to England as refugees.  I see the many positives which flow from an experience of international travel and exposure to a new and different way of life from that which he currently enjoys at home.  He does have, I am sure, some memories of a family life in Afghanistan. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>8.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>There is no doubt in my mind that, but for the concerns reflected in the Foreign and Commonwealth Office guidance, this would be a positive and beneficial trip for him to make.  However, those benefits and the risk of any psychological effects of separation from his family for just over a month have to be seen in the context of the potential harm he might suffer if things do not go according to the family's plan. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>9.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>J&#8217;s father is a responsible and loving father; of that I have no doubt. He has made a home and a life for his family in England against very significant odds.  He and his wife have cared for J with complete devotion.  Yet it was clear to me from the evidence I heard from the father this morning that he accepts risks are there if, indeed, he does not view them as significant.  Even if the risk of travel for J is not as substantial as suggested by the Foreign and Commonwealth Office guidance, the harm which is likely to be caused in the event of a risk materialising could be very grave indeed.  Were he to become stranded in Afghanistan or worse, detained there, there would be very little prospect of any help or support becoming available to meet his particular needs. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>10.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>There is no access to any consular support, far less access to the kind of care and support he has been receiving in this jurisdiction.  It is a risk I am not prepared to take on his behalf, given the very significant progress he has been making. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>11.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>I want to deal with the submission which was made by Mr Squire on behalf of the Official Solicitor.  He referred me to the case of <span style="font-style:italic">An NHS Trust v P &amp;AMP and Another </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2013/50" uk:canonical="[2013] EWCOP 50" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 50 (COP)</ref>.  In that case, Hedley J said this:</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The intention of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/27" uk:canonical="1996 c. 27" uk:origin="TNA" uk:type="legislation">the Act</ref> is not to dress an incapacitous person in forensic cotton wool, but to allow them as far as possible to make the same mistakes that all other human beings are at liberty to make, and not infrequently do.&#8221;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>12.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>Making mistakes is part of the human condition.  In my judgment, Hedley J was referring in a very different context to a set of facts which can be clearly distinguished from the nature of the identified risks in this case which include risks to life, limb and liberty.  I do not set them out verbatim in my ruling but the terms of the official guidance, and the reasons underpinning that guidance, are a matter of public record and have been considered by me as part of the balancing exercise which I have undertaken. They are recognised and reflected in the Foreign and Commonwealth Office guidance as real and substantial risks to any individual travelling to Afghanistan at the present time. However devoted these parents may be, they are risks to which J would be potentially exposed were he to make the journey with his parents to Afghanistan at the present time.  I heard some evidence from his father about how he would propose to mitigate those risks by ensuring that the family remained at all times in the property at which they would be staying thus ensuring that the family maintained a &#8216;low profile&#8217; (my words, not his) during their trip.  Were this strategy to prove ineffective, and in the event of a period of enforced detention, whether as a returning refugee or otherwise, J stands to lose all the benefits of the support package which has been put in place to support him in this jurisdiction.  In the event that he were separated from his family members, those adverse consequences would only be magnified.   </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>13.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>I hope it has been clear from what I have already said that I have carefully weighed and considered the Article 8 rights of J and those of the family who love him.  Of course, it would be in his interests to travel on a family holiday with those who know him well and will protect him, but as the Official Solicitor accepts, it is impossible to mitigate against all those identified risks.  In the particular circumstances of this case, I reject any suggestion that a carefully balanced best interests' decision in this case amounts to judicial paternalism or discrimination.  </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>14.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:Arial"/>In rejecting the current application for what in effect amounts for a variation and permission for J to travel, I want to make it plain to the family that I am not ruling out travel to Afghanistan in the future.  The risks may change.  At the present time, I regard those risks as too significant to ignore.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_4">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.69in"><span style="font-style:italic">The FCDO Advice</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">The version of the advice that was before the judge had been updated on 22 June 2023.  Running to 15 pages, it began with this summary:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">The Foreign, Commonwealth &amp; Development Of&#64257;ce (FCDO) advises against all travel to Afghanistan.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">You should not travel to Afghanistan.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">The security situation in Afghanistan remains extremely volatile. There is an ongoing and high threat of terrorist attacks through Afghanistan, including around the airport. There is a heightened threat of terrorist attacks in or around religious sites and during religious festivals, such as the month of Ramadan. Travel throughout Afghanistan is extremely dangerous, and border crossings may not be open. See&#160;&#8216;Safety and security&#8217;.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">There are currently no British consular of&#64257;cials in Afghanistan and our ability to provide consular assistance is severely limited and cannot be delivered in person within Afghanistan.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">If you choose to travel to or stay in Afghanistan against FCDO advice, you should keep a low pro&#64257;le. Be vigilant, try to avoid all crowds and public events including religious events, and take appropriate security precautions.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">There is a heightened risk of detention of British nationals. The British Government may not be noti&#64257;ed about such detentions; communications with next of kin may not be guaranteed; and detention may be lengthy.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_5">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.69in"><span style="font-style:italic">The <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref></span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">These are the provisions that applied to the judge&#8217;s decision:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#000000">&#8220;</span><span class="legds" style="font-weight:bold;font-family:'Times New Roman';color:#000000">4 Best interests</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">The person making the determination must consider all the relevant circumstances and, in particular, take the following steps.</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(6)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">He must consider, so far as is reasonably ascertainable&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">the person's past and present wishes and feelings (and, in particular, any relevant written statement made by him when he had capacity),</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">the beliefs and values that would be likely to influence his decision if he had capacity, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">the other factors that he would be likely to consider if he were able to do so.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(7)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">He must take into account, if it is practicable and appropriate to consult them, the views of&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds" style="color:#1E1E1E">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">anyone engaged in caring for the person or interested in his welfare,</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#1E1E1E">as to what would be in the person's best interests and, in particular, as to the matters mentioned in subsection (6).</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds" style="font-family:'Times New Roman';color:#1E1E1E">&#8230;&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_6">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in;text-indent:-0.5in"><span style="font-style:italic">The appeal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_13">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">By an Appellant&#8217;s Notice submitted on 30 August 2023, the Official Solicitor sought permission to appeal on two grounds:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">1.</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.25in">The court failed to properly conduct a best interests analysis as required by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref>. Specifically:  </p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">The court placed undue weight on the Foreign, Commonwealth and Development Office (&#8220;FCDO&#8221;) guidance that British citizens should not travel to Afghanistan to the exclusion of other factors in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.4</ref> of the MCA.  </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">The court failed to give any weight to J&#8217;s wishes and feelings, as they were not mentioned at all during judgment; </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">The judge failed to give any or any sufficient weight to the specific mitigation that the family described in order to protect J;  </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">The court failed to give sufficient weight to J&#8217;s values and beliefs, and the views of his family;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(e)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">The court failed to give sufficient weight to the risk of harm to J in not travelling with his family.</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(f)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">A proper assessment of the above factors would have resulted in the granting of the application that it was in J&#8217;s best interests to travel to Afghanistan as planned.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">2.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">The decision amounts to a breach of J&#8217;s Article 14 rights against discrimination in securing his Convention rights, namely Art 8, on the basis of &#8216;other status&#8217;, namely his disabilities.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">On 12 October 2022, I granted permission to appeal under Ground 1 on the basis that it was arguable that the judge, in giving predominant weight to the general risks identified in the FCDO guidance, took insufficient account of factors specific to J and his family.  I also granted permission under Ground 2, while saying that I was not convinced that it added anything to Ground 1 as a sound best interests decision should contain justification for any difference in treatment.  An appeal would not be academic because the issue was likely to arise again for this family.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">On behalf of the Official Solicitor, Mr Bagchi KC and Mr Squire argue that the judge failed to properly conduct the evaluative exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>.  In particular, she effectively treated the FCDO advice as decisive, without considering the other matters she was required to consider.  She did not consider J&#8217;s wishes and feelings which should have been magnetic.  The decision is discriminatory as, but for J&#8217;s cognitive disability, he could have chosen not to follow the FCDO advice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Mr Bagchi took us to passages in a capacity assessment in May 2023 that showed J&#8217;s excitement at the prospect of returning to Afghanistan and seeing important family members again.  We were shown the parents&#8217; statement in July 2023 that emphasised the positives of the trip for J and gave their views about how any risks could be managed.  We were taken to a part of the social worker&#8217;s evidence concerning J&#8217;s wishes and his cultural values, which are important to him.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">In relation to the weight to be given to J&#8217;s wishes, Mr Bagchi referred centrally to the well-known passage in <span style="font-style:italic">Aintree University Hospitals NHS Foundation Trust v James and others</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/67" uk:canonical="[2013] UKSC 67" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 67</ref>; <ref href="#" uk:canonical="[2014] AC 591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 591</ref> at paragraph 45, where it was affirmed that the purpose of the best interests test is to consider matters from the individual&#8217;s point of view, and that insofar as it is possible to ascertain his wishes and feelings, his beliefs and values or the things which are important to him, it is those which should be taken into account because they are a component in making the choice which is right for him as an individual human being.  Mr Bagchi argued that no sufficient weight was given by the judge to J&#8217;s wishes and values, and the decision does not show how they were balanced against the risks of travel in a case where J, like his sister, would no doubt have accepted the risks if he had had capacity.  The judge should instead have considered what level of risk would have been acceptable to J, had he been able to use and weigh the relevant information.  Otherwise, he would become the victim of the over-protectiveness deprecated in the authorities, conveniently gathered together by Hayden J in <span style="font-style:italic">Re UR</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2021/10" uk:canonical="[2021] EWCOP 10" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCOP 10</ref>; [2021] COPLR 314 at paragraphs 21-29.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Mr Bagchi accepted that non-statutory advice may be influential but argued that it should not be regarded as decisive.  The advice in this case was generic, in the sense that it was addressed to everyone, and not specifically to those of Afghan origin who may have their own means of assessing risk.  We were taken to cases concerning the public health guidelines about vaccination as showing that such guidance may be persuasive but is not to be treated as binding.  Here, it is said that the judge elevated the FCDO advice into tramlines.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">In their skeleton argument, Mr Bagchi and Mr Squire argued that the appeal prompts wider questions of general importance: (1) Can a best interests decision be made which seems objectively unwise when other factors point to it being in P&#8217;s best interests? (2) What weight should be afforded to non-statutory public guidance in making a best interests decision? (3) Where a best interests decision which is based primarily on public guidance is taken in relation to a person who lacks capacity to make that decision in circumstances where a person in an analogous situation without disability is able and would choose not to follow that guidance, does this amount to unlawful discrimination?  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Mr Bagchi however accepted that Ground 2 ultimately raised no separate issue and that the appeal depended on Ground 1.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">J&#8217;s father, speaking for himself and his wife and daughter, told us that the judge&#8217;s decision had been incorrect.  She had placed too much weight on the FCDO view, which was no more than a view, and not an order.  He and his family understand conditions in Afghanistan and consider the risks to have reduced if sensible precautions are taken.  People from the UK are now travelling there frequently, as has been publicly reported.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">As to what happened after the judge&#8217;s order, the father told us that he had never been due to travel himself, and that the judge&#8217;s order meant that J also had to remain behind.  He had taken his wife and the other children to the airport.  What was unknown to them was that the record relating to the port alert, which had been discharged in March, had not been updated.  The result was that the family members who went airside were arrested and separated for several hours at night before being released.  Apart from the distress this caused to the whole family, it led to a significant financial loss in relation to the unused tickets, most of which was not refunded by the airline.  The family is seeking reparations for this.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">An appeal is not the occasion to look more fully into the regrettable situation relating to the failure to update the record relating to the port alert.<span style="font-family:Aptos;color:#000000">&#160; </span>We will refer our judgments to the President of the Family Division so that he can consider whether what occurred in this case was an isolated error or one requiring a systemic response. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">On behalf of the local authority, Mr Hallin reminded us of the stringent test that an appellant must meet when challenging a multi-factorial evaluative judgment and argued that no error of approach had been shown.  The transcript of the hearing and the judgment demonstrate that the judge was alive to all the relevant factors.  <span style="font-family:'Times New Roman'">On balance, she concluded that the disadvantages of refusal were outweighed by the risks to J if he travelled to Afghanistan.  It is difficult to see how she could reasonably have reached another conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Mr Hallin accepted that the structure of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> is designed to enable the greatest degree of autonomy, but with reference to <span style="font-style:italic">Aintree </span>at paragraph 24, recalled that the test is one of best interests and not of substituted judgment, so that what a person would do for themselves if they had capacity is a relevant factor but not the ultimate test.  In the present case, the capacity assessment showed that J&#8217;s ability to assess the risks of travel was very lacking.  Fundamentally, the answer to the Appellant&#8217;s broad questions is that the assessment of best interests will depend on the facts of each case.  The concept of &#8216;unwise decisions&#8217; is relevant to the assessment of capacity under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>, but not to the assessment of best interests under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>.  A best interests evaluation may lead to the court making an &#8216;unwise decision&#8217; on behalf of an individual who lacks capacity, though logic suggests that such a determination would be unusual.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_7">
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in"><span style="font-style:italic">Conclusion</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_26">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">This was an unusual application in the Court of Protection, involving a proposed visit by a person lacking decision-making capacity to a country of origin associated with significant risks.  We are only aware of one other reported decision of that court concerning travel.  This was <span style="font-style:italic">Re UR </span>(above), but that case concerned the very different factual situation of a permanent relocation to Poland.  In another context, the family court is familiar with decisions involving the proposed removal of children for holidays in a family&#8217;s country of origin.  The assessment in those cases is of the risk of non-return where the country is not a signatory to the 1980 Hague Convention on child abduction.  In the present case, the feared risk was mainly of detention and non-return of a young man who receives essential levels of support in the UK.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">When assessing risk in cases of this nature it is important that the fullest consideration is given to the importance of a person&#8217;s heritage and family relationships, with an awareness that an unduly risk-averse approach can itself cause harm or welfare disadvantage.  Permission to appeal was granted in the present case so that the Official Solicitor could argue that the judge&#8217;s decision in J&#8217;s case gave insufficient consideration to those matters.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">Having now heard full argument, I have reached the very clear conclusion that the judge took account of everything that she was obliged to consider and reached a decision that was comfortably open to her on the evidence that was available at the time.  Indeed, with the more generous opportunity we have had to look at the issues, it is apparent that there were two additional matters, referred to below, that probably also needed to be addressed before an order could be made in the terms sought by the family.  They were (a) that the court had no information about why asylum had been granted to this family, and (b) that J would have had to travel on his British passport as his Afghan passport had expired.  Each of these issues was potentially relevant to an assessment of the risks that J might face in Afghanistan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">As it is, the starting point is that this was an urgent application that had been listed at short notice and was not the only case in the court&#8217;s list.  After J&#8217;s meeting with the judge, the hearing itself, involving interpreters who were online, lasted for 3&#189; hours, during which the judge heard evidence from two witnesses, received full submissions and gave an extempore judgment.  In short, despite the short notice the court looked into the matter very fully.  It is clear from references in the transcript and the judgment that the judge was fully aware of J&#8217;s perspective and the importance of the trip to him, and also of the family&#8217;s perspective.  Mr Bagchi fairly accepted that she had all these matters in mind, and that the fact that she did not mention them individually in giving judgment did not advance the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">As to the FCDO advice, the judge did not treat it as decisive in any doctrinaire way.  Since it was the only counter-indicator to the trip, it naturally received close attention, but it was not treated as doing any more than bringing into the court&#8217;s consideration a series of facts that were not in reality in dispute.  The judge&#8217;s assessment that those facts gave rise to risks that tipped the best interests balance was no more than a conventional judicial exercise, taking account of the nature, likelihood and consequences of the feared harm.  Her decision, clearly reached with regret, was soundly based and amply reasoned.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">I would therefore dismiss the appeal.  In doing so, I note that the proceedings are continuing.  The issue of travel to Afghanistan will no doubt remain an important one for J and for the family as a whole.  It may be that J&#8217;s capacity to make a decision for himself can be maximised with further education.  However, if a future best interests decision has to be taken about travel, it is to be hoped that it can be done in a pre-planned way.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Dingemans:</span></heading>
+	  <paragraph eId="para_32">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Lewis:</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="margin-left:0.6in;text-indent:-0.5in">33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.6in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center;margin-left:0.1in">_______________</p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

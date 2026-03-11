@@ -1,0 +1,973 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2024/9"/>
+	  <FRBRdate date="2024-01-18" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="9"/>
+	  <FRBRname value="Commission Recovery Ltd v Marks &amp; Clerk LLP &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/9"/>
+	  <FRBRdate date="2024-01-18" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/9/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/9/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:14:11" name="transform"/>
+	  <FRBRdate date="2024-11-18T07:44:09" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="commission-recovery-ltd" href="" showAs="COMMISSION RECOVERY LTD"/>
+	<TLCPerson eId="marks-&amp;-clerk-llp" href="" showAs="MARKS &amp; CLERK LLP"/>
+	<TLCPerson eId="long-acre-renewals-a-firm" href="" showAs="LONG ACRE RENEWALS (A Firm)"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-sir-geoffrey-vos-master-of-the-rolls" href="/judge-sir-geoffrey-vos-master-of-the-rolls" showAs="SIR GEOFFREY VOS, MASTER OF THE ROLLS"/>
+	<TLCPerson eId="judge-lord-justice-nugee" href="/judge-lord-justice-nugee" showAs="LORD JUSTICE NUGEE"/>
+	<TLCPerson eId="judge-lord-justice-snowden" href="/judge-lord-justice-snowden" showAs="LORD JUSTICE SNOWDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>9</uk:number>
+	<uk:cite>[2024] EWCA Civ 9</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>7f39aa536186276fc7f341878116342240cba6c35f93fc99f034a68e40b6efbd</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCA Civ 9</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-000691</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES </p>
+      <p class="CoverMain">COMMERCIAL COURT (KBD)</p>
+      <p class="CoverMain">Mr Justice Robin Knowles CBE</p>
+      <p class="CoverMain"><neutralCitation>[2023] EWHC 398 (Comm)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-01-18" refersTo="#judgment">18 January 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-geoffrey-vos-master-of-the-rolls">SIR GEOFFREY VOS, MASTER OF THE ROLLS</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-nugee">LORD JUSTICE NUGEE </judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-snowden">LORD JUSTICE SNOWDEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.1in 3.94in 1.31in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#commission-recovery-ltd" style="font-weight:bold">COMMISSION RECOVERY LTD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Claimant/ Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><marker name="tab"/></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.25in;text-indent:0.12in"><party as="#appellant" refersTo="#marks-&amp;-clerk-llp" style="font-weight:bold">MARKS &amp; CLERK LLP</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.25in;text-indent:0.12in"><party as="#appellant" refersTo="#long-acre-renewals-a-firm" style="font-weight:bold">LONG ACRE RENEWALS (A Firm)</party></p>
+	    </blockContainer>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Defendants/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">John Machell KC </span>and<span style="font-weight:bold"> Russell Hopkins </span>(instructed by <span style="font-weight:bold">Clifford Chance LLP</span>) </p>
+      <p style="text-align:center">for the <span style="font-weight:bold">Appellants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Nico Leslie </span>and<span style="font-weight:bold"> Christopher Monaghan </span>(instructed by <span style="font-weight:bold">Signature Litigation LLP</span>)</p>
+      <p style="text-align:center">for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 21 and 22 November 2023</p>
+      <p style="text-align:center">Further written submissions dated 27 and 29 November and 6 and 7 December 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 18 January 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Nugee:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading><span style="font-style:italic">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This appeal concerns the question whether the Court should direct that the Claimant, Commission Recovery Ltd (<span style="font-weight:bold">&#8220;CRL&#8221;</span>), may not act as a representative of other persons who have, or are said to have, the same interest in the proceedings as CRL does.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Defendants, Marks &amp; Clerk LLP (<span style="font-weight:bold">&#8220;M&amp;C LLP&#8221;</span>) and a firm called Long Acre Renewals (<span style="font-weight:bold">&#8220;LAR&#8221;</span>), applied for, among other things, an order pursuant to what was then CPR r&#160;19.6(2) (now CPR r 19.8(2)) directing that CRL may not act as such a representative.  The application was heard in the Commercial Court by Robin Knowles&#160;J (<span style="font-weight:bold">&#8220;the Judge&#8221;</span>).  He handed down judgment on 24 February 2023 at <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2023/398" uk:canonical="[2023] EWHC 398 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 398 (Comm)</ref> dismissing the application.  M&amp;C LLP and LAR appeal to this Court with the permission of Males LJ.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although the facts are not especially complex, the law and practice in relation to representative proceedings is far from simple and we received wide-ranging submissions from Mr John Machell KC, who appeared with Mr Russell Hopkins for M&amp;C LLP and LAR, and from Mr Nico Leslie, who appeared with Mr Christopher Monaghan for CRL, supplemented by a number of rounds of written submissions.  On the overall question, I would, despite the able submissions of Mr Machell, uphold the decision of the Judge to allow the proceedings to go forward as a representative action and I would therefore dismiss the appeal; but the appeal has highlighted a number of issues which may lie ahead, and which will no doubt require careful case management.  </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Facts </span></heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The facts have of course not yet been found.  But as they currently appear to be (on the basis of the pleadings and the evidence filed for the present application) they can be summarised as follows.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">M&amp;C LLP is a well-known firm of patent and trademark attorneys.  It was incorporated in February 2009 to be the successor to a general partnership called Marks &amp; Clerk (<span style="font-weight:bold">&#8220;M&amp;C&#8221;</span>), and with effect from the end of 14 March 2009 M&amp;C&#8217;s business was transferred to it.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It acts for clients who wish to apply for the registration of intellectual property rights (<span style="font-weight:bold">&#8220;IP rights&#8221;</span>).  There are three main classes of registered IP rights, namely patents, trademarks and registered designs.  M&amp;C LLP&#8217;s primary business consists of preparing, filing and prosecuting applications for registration of these rights; it also provides related advisory services including advice on the infringement and validity of IP rights, and on their acquisition and disposal.  These are said to be typical of the services offered by firms of patent and trade mark attorneys in the UK.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In general however M&amp;C LLP does not offer services to its clients in respect of the payment of renewal fees.  IP rights are national, and each country has its own rules, but the usual pattern is for renewal fees to be payable in order to keep registered IP rights in existence.  Thus patents can typically subsist for 20 years from the date of filing subject to the payment of fees, usually payable annually once the patent has been granted; trademarks can last indefinitely subject to the payment of renewal fees, which tend to be payable at 10-yearly intervals; and registered design rights can typically remain in force for 25 years from the date of filing subject to the payment of renewal fees, which tend to be payable at 5-yearly intervals. In addition in some jurisdictions, for example in the European Patent Office, fees are also payable during the application process while a grant is pending.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Timely payment of the correct renewal fee is very important as failure to pay can result in the irrevocable loss of a right.  Most firms of patent and trademark attorneys therefore make arrangements to provide their clients with a means to monitor and/or arrange for the payment of renewal fees.  This can be done either in-house or by use of an outside arrangement.  As already referred to M&amp;C LLP does not itself usually provide these services.  Instead the usual position is that it will pass details of its clients&#8217; IP rights to an outside provider, CPA Global Ltd (in fact now known as Clarivate).  This is the successor to a firm originally established by a number of patent or trade mark attorneys in or around 1969 under the name of Computer Patent Annuities to deal with, among other things, the renewal of clients&#8217; IP rights.  I will refer, as the parties have done, to this firm and its successors in business as <span style="font-weight:bold">&#8220;CPA&#8221;</span>, it not being necessary for present purposes to distinguish between them.  Once M&amp;C LLP has passed a client&#8217;s details to CPA, CPA will then issue reminders to the client when a renewal fee is due.  It is then a matter for the client whether to instruct CPA, or to instruct another renewals provider, or to deal with the renewal itself (or allow the rights to lapse). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This arrangement is reflected in M&amp;C LLP&#8217;s standard terms of business.  There have been a number of iterations of these, but I can take that dated March 2009 by way of example.  This included the following provisions:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">Clause 1.1 provided:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;margin-right:0.5in;text-indent:-0.07in">&#8220;These terms shall apply to all matters in respect of which we accept instructions from you to provide professional services (&#8220;the Services&#8221;)&#8230;&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">Clause 2.1 provided that the partners and qualified staff must comply with the respective codes of professional conduct issued by their relevant professional body (The Chartered Institute of Patent Attorneys, the European Patent Institute, or the Institute of Trade Mark Attorneys).  We were told by Mr Leslie that it was common ground that those codes of conduct prevented conflicts of interest and required patent and trade mark attorneys to promote the interests of their clients.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">Clause 2.2 provided:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;margin-right:0.5in;text-indent:-0.07in">&#8220;It is our responsibility to: (a) practise competently, conscientiously and objectively, put your interests foremost while observing the law and our duty to any court or tribunal; and (b) avoid conflicts of interest&#8230;&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">Clause 4.3 provided:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;margin-right:0.5in;text-indent:-0.07in">&#8220;Unless otherwise specifically agreed by us, the Services will not extend to issuing you with reminders for and processing the renewals of any of your registered rights.  However, our standard practice is to pass details of all cases we handle requiring such renewals to specialist renewal agents, and you authorise us to instruct Computer Patent Annuities Limited, St Helier, Jersey, to remind the registered proprietors concerned or their appointed representatives of due dates for payment of renewal fees, and who will invoice such proprietors or their appointed representatives for their services under their current terms of business.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(5)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">Clause 10 was concerned with data protection.  Clause 10.1 set out the way in which M&amp;C LLP might use the client&#8217;s personal data.  Among other things it provided as follows:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;margin-right:0.5in;text-indent:-0.07in">&#8220;We may pass your personal data, including details of your registered rights to Computer Patent Annuities Limited and attorneys acting on their behalf for the issue of renewal reminders unless explicitly instructed not to do so.&#8221;  </p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As this makes clear, M&amp;C LLP did not itself generally issue reminders to its clients or deal with the payment of renewal fees, but it would, unless instructed not to do so, pass details of the client and their registered IP rights to CPA.  That enabled CPA to issue the client with reminders, and it was then a matter for the client whether to instruct CPA or not.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There were further iterations of M&amp;C LLP&#8217;s standard terms of business dated December 2012 and January 2015 respectively.  It was not suggested that their provisions were materially different (so far as affects the present question).  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When M&amp;C&#8217;s business was transferred to M&amp;C LLP in 2009 there was already a practice of CPA making payments of commission if a client referred by M&amp;C duly instructed CPA in respect of renewals.  This practice dates back to 2006 and has continued since.  The payments were (and continue to be) made not to M&amp;C LLP itself, but to LAR, a general partnership which includes members and former members of M&amp;C LLP.  Although LAR is a separate partnership which comprises an overlapping, but not identical, set of partners with the members of M&amp;C LLP, no point was taken by Mr Machell on the distinction between LAR and M&amp;C LLP, at any rate for the purposes of the present appeal.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The commission arrangements were formerly the subject of two agreements (one in respect of patents and the other in respect of trade marks) between CPA and LAR dated 5 November 2009 (but expressed to be effective from 1 February 2006, the agreements replacing an earlier agreement dated 31 January 2006); these agreements were in turn superseded by an agreement dated 7 July 2016 which is the current agreement.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is not necessary to refer to the terms of these agreements in any detail.  Their general purpose can be seen from recitals (C) and (D) to the 2006 agreement which recited respectively that the Customer (ie the firm that became LAR, then in fact called Marks &amp; Clerks Renewals) wished CPA to provide renewal payment services to certain of its existing clients and any new clients in return for a charge, and that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;CPA is willing to provide renewal payment services to the Customer&#8217;s clients for a charge and is willing to pay the Customer a commission out of the charges so received, subject to the terms and conditions of the agreement.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The agreements go on to provide, in effect, that where M&amp;C / M&amp;C LLP passed the details for one of its clients to CPA, and the client instructed CPA in relation to renewals, CPA would pay LAR a commission calculated as a percentage of the fees paid by the client to CPA.  Under the 2009 agreements this percentage varied from 12% to 60%; under the 2016 agreement the commission (now called a &#8220;client management fee&#8221; but otherwise similar) is set at 46% of the fees (subject to certain adjustments).  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Some further provisions may be briefly noted.  First by clause 2.2 of the 2009 agreements LAR agreed to use all reasonable endeavours to persuade all of its clients from time to time to use CPA&#8217;s renewal payment services for all of their renewable IP rights, and by clause 2.3 agreed that it would not carry on a renewal payments service business that competed with CPA.  By clause 2.8 reference to LAR&#8217;s clients was deemed to include reference to M&amp;C LLP&#8217;s clients, and LAR agreed to procure that M&amp;C LLP should abide by the provisions of clauses 2.2 and 2.3.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Second under both the 2009 and 2016 agreements, LAR agreed to keep the terms of the agreement confidential (save as required by law or professional rules or the like); there was provision enabling LAR to disclose the terms of the agreement to a client on the client&#8217;s reasonable request (provided that CPA was notified in advance), but the natural import of this is that unless the client asked it would not be told.  Nor was any reference made to the practice of paying commissions in M&amp;C LLP&#8217;s standard terms of business until 1 February 2018 when they were amended to include an express reference to the fact that CPA paid a client management fee on renewals work referred by M&amp;C LLP to CPA, calculated as a percentage (of between 30% and 46%) of the fees paid to CPA by the client. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We were not told the total amount of commission paid to LAR by CPA between 15 March 2009 (when M&amp;C LLP commenced business) and 1 February 2018 (when its terms of business were amended), but the evidence is that although the amount of individual commission may have been relatively small, there have since 2009 been &#8220;many thousands&#8221; of cases in respect of which commission has been paid, relating to &#8220;many thousands&#8221; of clients.  As explained below, CRL sues as assignee of one particular former client of M&amp;C LLP, Bambach Saddle Seat (Europe) Ltd (<span style="font-weight:bold">&#8220;Bambach Europe&#8221;</span>), and the evidence is that the total commission paid by CPA in its case was &#163;6,627.  It can be seen that if commissions paid were typically of that order, the total sum paid is likely to run into millions, or tens of millions, of pounds.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The proceedings </span></heading>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On these facts CRL&#8217;s case is a simple one.  I will have to look at it in more detail in due course but in essence it is that M&amp;C LLP owed its clients fiduciary duties; that in return for M&amp;C LLP encouraging its clients to use CPA for renewal services, CPA agreed to pay commissions to LAR; that M&amp;C LLP did not, until February 2018, disclose those commissions to its clients; that in arranging for secret commissions to be paid by CPA to LAR M&amp;C LLP acted in breach of its fiduciary duties; that both M&amp;C LLP and LAR are also liable for the tort of bribery; and that one way or another (whether by way of an account, or as equitable compensation, or damages for tort, or otherwise) they are liable to the clients for the amount of the commissions received.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">CRL was never itself a client of M&amp;C LLP.  Instead, as its name suggests, it was incorporated in 2019 as a vehicle for bringing these claims.  But it has taken an assignment from Bambach Europe of all Bambach Europe&#8217;s claims or rights arising out of the payment of undisclosed commission, and brings its claim as such assignee.  (It has also in fact taken an assignment from another (current) client of M&amp;C LLP called FireAngel Safety Technology Ltd (<span style="font-weight:bold">&#8220;FireAngel&#8221;</span>), but its claim is pleaded solely by reference to the facts in Bambach Europe&#8217;s case, and it is not necessary to refer to its position as assignee of FireAngel, which does not I think alter the analysis, and indeed was scarcely mentioned in argument).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 12 April 2021 CRL issued a Claim Form against M&amp;C LLP and LAR.  The Claim Form, and accompanying Particulars of Claim, made it clear that CRL sued as assignee and did so both in its own right and as a representative, pursuant to what was then CPR r 19.6, of a class of current or former clients of M&amp;C LLP where CPA had paid commission.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 30 June 2021 M&amp;C LLP and LAR served a Defence and Counterclaim.  At the same time they issued an application for various relief as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">By paragraph 1 they sought to strike out the claim (a) on the basis that the assignment by Bambach Europe to CRL was invalid on the grounds that it was a champertous assignment of a bare right to litigate; alternatively (b) that it was inadequately pleaded because it did not plead the facts and matters that would constitute a cause of action on the part of each member of the class.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">By paragraph 2 they sought a direction under CPR r 19.6(2) that CRL might not act as a representative.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">By paragraph 3 they sought summary judgment on certain issues raised by M&amp;C LLP&#8217;s and LAR&#8217;s Counterclaim.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application came before the Judge in May 2022.  By then it had been agreed that the summary judgment application in paragraph 3 would be stood over.  He handed down judgment on 24 February 2023 at <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2023/398" uk:canonical="[2023] EWHC 398 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 398 (Comm)</ref> dismissing the other aspects of the application.  So far as the application to strike out under paragraph 1(a) was concerned, he held that the assignment by Bambach Europe was, among other things, an assignment of property and hence not champertous.  There has been no appeal against that aspect of his decision and it is unnecessary to say any more about it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So far as the remainder of the application was concerned, in essence the Judge held that the case was sufficiently pleaded to enable the Defendants to know the case they had to meet and that it was not necessary to plead the facts for each member of the class; that the case was one where there was jurisdiction to permit CRL to act as representative; and that as a matter of discretion it was appropriate to allow it to do so.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Permission to appeal these parts of his judgment was granted by Males LJ on 25 May 2023.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the meantime there have been further developments as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">The pleadings have been formally amended.  CRL had applied in February 2022 to amend its Particulars of Claim, and its draft Amended Particulars of Claim were before the Judge at the hearing of the Defendants&#8217; application in May 2022.  In his judgment he had suggested that the parties might wish to revisit their pleadings but in the event CRL decided not to make any further changes and permission to amend the Particulars of Claim in the form of the draft was given (by consent) at a case management conference held by the Judge on 25 July 2023.  Permission was also given to the Defendants to amend, and they served an amended Defence and Counterclaim dated 3 August 2023.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">The Judge has approved a list of issues put forward by CRL for what is called the &#8220;Main Trial&#8221;.  The parties had suggested a list of issues at the CMC in July, but he did not then approve this list and directed the parties to seek to agree a revised list, with provision for him to resolve the question in the event of disagreement.  CRL put forward a revised list of issues on 8 August 2023, which was not agreed by the Defendants, and after receiving written submissions from the parties the Judge made an order without a hearing on 14 November 2023 directing that the issues for the Main Trial should be in the form provided by CRL, but providing that either party might invite further consideration and refinement of the issues at a second CMC, which he directed to take place on 26 January 2024.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">CPR r 19.8</span></heading>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although articulated through several grounds of appeal, the effective question is whether this is an appropriate case for CRL to act as a representative claimant under what is now CPR r 19.8.  This provides as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;19.8</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="font-weight:bold;color:#000000">Representative parties with same interest</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(1)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="color:#000000">Where more than one person has the same interest in a claim&#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.3in;margin-right:0.5in;text-indent:0.2in"><span style="color:#000000">the claim may be begun; or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.3in;margin-right:0.5in;text-indent:0.2in"><span style="color:#000000">the court may order that the claim be continued,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="color:#000000">by or against one or more of the persons who have the same interest as representatives of any other persons who have that interest.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="color:#000000">The court may direct that a person may not act as a representative.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="color:#000000">Any party may apply to the court for an order under paragraph (2).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in"><span style="color:#000000">Unless the court otherwise directs any judgment or order given in a claim in which a party is acting as a representative under this rule&#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.6in;margin-right:0.5in"><span style="color:#000000">is binding on all persons represented in the claim; but</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.6in;margin-right:0.5in"><span style="color:#000000">may only be enforced by or against a person who is not a party to the claim with the permission of the court.</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in;text-indent:-0.3in"><span style="color:#000000">&#8230;&#8221; </span></p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This rule was formerly CPR r 19.6 but was re-numbered r 19.8 (with no material alteration) in 2023.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The rule and its predecessors have a long history with their origins lying in the practice of the Court of Chancery before the Judicature Act.  The history is set out in the authoritative examination of the rule by Lord Leggatt JSC (with whom Lord Reed PSC, Lady Arden, Lord Sales and Lord Burrows JJSC agreed) in <span style="font-style:italic">Lloyd v Google LLC </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/50" uk:canonical="[2021] UKSC 50" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 50</ref>, <ref href="#" uk:canonical="[2022] AC 1217" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] AC 1217</ref> (<span style="font-style:italic;font-weight:bold">&#8220;Lloyd v Google&#8221;</span>) at [33ff].  It is not necessary to go over it again.  What appears from Lord Leggatt&#8217;s survey is that the practice of permitting actions to be brought by or against representative parties was in origin a relaxation of the rule that all parties interested in the matter in suit had to be joined: see at [36]-[38].  It is not perhaps surprising therefore that the rule finds its natural home in claims based on rights conferred on a class of people such as the rights of members of a company, or proprietary rights, or statutory rights.  The advantages of the rule in such a case are manifest: if a question arises which affects a large number of people, it is obviously convenient that it should be capable of being resolved definitively once and for all.  The rule enables this to be done without individually joining all the interested parties, but in such a way that the answer is <span style="font-style:italic">prima facie</span> binding on all of them.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As Lord Leggatt explains at [40]-[42], in <span style="font-style:italic">Temperton v Russell </span><ref href="#" uk:canonical="[1893] 1 QB 435" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1893">[1893] 1 QB 435</ref> Lindley LJ went so far as to say that the rule only applied to persons who have or claim some beneficial proprietary right, but this was disapproved by the House of Lords in <span style="font-style:italic">Duke of Bedford v Ellis </span><ref href="#" uk:canonical="[1901] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1901">[1901] AC 1</ref>, and in <span style="font-style:italic">Taff Vale Railway Co v Amalgamated Society of Railway Servants </span><ref href="#" uk:canonical="[1901] AC 426" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1901">[1901] AC 426</ref>, Lord Lindley accepted that he had been wrong to restrict the rule in this way.  In <span style="font-style:italic">Duke of Bedford v Ellis</span>, Lord Macnaghten said (at 8):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;Given a common interest and a common grievance, a representative suit was in order if the relief sought was in its nature beneficial to all whom the plaintiff proposed to represent.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">And (at 9) he said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;There are plenty of other cases which shew that, in order to justify suing in a representative character, it is quite enough that he has a common interest with those whom he claims to represent.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is of course reflected in the wording of the current form of the rule which requires the represented parties to have &#8220;the same interest in the claim&#8221; as the representative.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So the only jurisdictional requirement for the application of the rule is the same interest requirement: <span style="font-style:italic">Lloyd v Google </span>at [69] per Lord Leggatt.  What this means in practice is explained by Lord Leggatt at [70ff]: it is enough that there is a common issue (or issues) such that the representative can be relied on to conduct the litigation in a way that will effectively promote and protect the interests of all members of the represented class&#160;[71].  That is not possible where there is a <span style="font-style:italic">conflict</span> of interest between class members, that is where an argument which would advance the cause of some members would prejudice the position of others; but it is no impediment if the class members merely have <span style="font-style:italic">divergent</span> interests, that is where an issue may affect only some class members but advancing their case will not prejudice the position of others in the class&#160;[72].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Some other points should be noted.  First, it is no impediment that the members of the class all technically have separate causes of action.  The requirement is that they have the same interest in a claim in the sense of a common interest in one or more issues, not in the sense of a joint claim: see the examples of <span style="font-style:italic">David Jones v Cory Bros &amp; Co Ltd </span>(1921) 56 LJ 302 and <span style="font-style:italic">Prudential Assurance Co Ltd v Newman Industries Ltd</span> <ref href="#" uk:canonical="[1981] Ch 229" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] Ch 229</ref> (<span style="font-style:italic;font-weight:bold">&#8220;Prudential&#8221;</span>) referred to by Lord Leggatt at [45] and [47] respectively, in each of which it was held that a representative action was available despite the fact that each member of the class had a separate cause of action.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Second, the representative action finds its simplest application in claims for declaratory relief.  Even though each member of the class may have their own individual cause of action, a declaration obtained by the representative claimant may very easily be granted in such a way as to benefit all the members of the class.  All that is needed is to word the declaration so that it applies not just to the representative claimant but to all those represented.  No other change to the form of relief is required.  Examples of such cases are given by Lord Leggatt at [43]-[47], all of which were cases where the relief claimed in the representative action was limited to a declaration of legal rights (see at [48]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Third, where the object of the proceedings is to obtain monetary relief, whether in the form of damages or otherwise, the use of representative proceedings becomes less straightforward.  There are to my mind two reasons why claims for monetary relief are less easy to pursue by way of representative action than a claim for declaratory relief.  One is that the very nature of such a claim is apt to require an examination of the position of each individual claimant.  This is the point made by Lord Leggatt at [80].  He there explains that the fact that the relief sought is monetary is &#8220;not a bar&#8221; to a representative claim, but that what limits the scope for claiming damages in such an action is that the assessment of damages depends on the position of each individual claimant, which is something that usually necessitates an individualised assessment raising no common issue and requires the participation of the individuals concerned.  Hence a representative action is not a suitable vehicle for such an exercise.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The other potential issue with a claim for monetary relief is that unlike a claim for a declaration where it makes little difference to the form of relief granted whether it is granted for the benefit of one person or of many, this does make a very significant difference in the case of a claim for money.  To take the present case, if the only claim that CRL pursues to judgment is the claim which it has as assignee of Bambach Europe, the judgment it will obtain, even if wholly successful, will be of the order of &#163;6,627 plus interest, whereas if it can successfully pursue relief for the benefit of the whole class the claim will run into millions.  But it is not immediately obvious how CRL can obtain a money judgment on claims that do not belong to it.  They belong to each member of the class, and it is not suggested that they have been assigned to CRL.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Fourth, Lord Leggatt nevertheless contemplates that there may be scope for the use of representative proceedings where the relief claimed is damages.  Thus there are cases that lend themselves to what he calls a &#8220;bifurcated&#8221; approach, that is one where certain issues are dealt with on a representative basis which can then form the basis for individual claims for redress.  He refers to this at various points in his judgment: at [47]-[48] he says that <span style="font-style:italic">Prudential </span>was important in demonstrating the potential for such a process; and at [58] he endorses the suggestion by Professor Rachael Mulheron, a noted expert in this area, that it should have been possible to adopt a bifurcated process in <span style="font-style:italic">Emerald Supplies Ltd v British Airways plc </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1284" uk:canonical="[2010] EWCA Civ 1284" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 1284</ref>, <ref href="#" uk:canonical="[2011] Ch 345" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] Ch 345</ref> (<span style="font-style:italic;font-weight:bold">&#8220;Emerald Supplies&#8221;</span>).  Both of these were claims for damages, and Lord Leggatt returns to the potential for a bifurcated process in such a case at [81] as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;81</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in">In cases where damages would require individual assessment, there may nevertheless be advantages in terms of justice and efficiency in adopting a bifurcated process &#8211; as was done, for example, in the <span style="font-style:italic">Prudential</span> case <ref href="#" uk:canonical="[1981] Ch 229" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] Ch 229</ref> &#8211; whereby common issues of law or fact are decided through a representative claim, leaving any issues which require individual determination &#8211; whether they relate to liability or the amount of damages &#8211; to be dealt with at a subsequent stage of the proceedings&#8230;&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally at [84] he refers to the possibility that such a bifurcated process could have been adopted in <span style="font-style:italic">Lloyd v Google </span>itself, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;84</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in">In the present case I could see no legitimate objection to a representative claim brought to establish whether Google was in breach of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">DPA 1998</ref> and, if so, seeking a declaration that any member of the represented class who has suffered damage by reason of the breach is entitled to be paid compensation. The individual claims that could theoretically have been brought by each iPhone user who was affected by the Safari workaround clearly raise common issues; and it is not suggested that there is any conflict of interest among the members of the represented class. For the purpose of CPR r 19.6(1), all would therefore have the same interest in such a claim as the representative claimant. There is no suggestion that Mr Lloyd is an unsuitable person to act in that capacity&#8230; Moreover, even if only a few individuals were ultimately able to obtain compensation on the basis of a declaratory judgment, I cannot see why that should provide a reason for refusing to allow a representative claim to proceed for the purpose of establishing liability.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Fifth, although claims for damages normally require individualised assessment (and hence a bifurcated process) Lord Leggatt envisages that there may be cases where that it not necessary.  Thus at [82] he suggests that claims for damages may be pursued in a representative action &#8220;if the entitlement can be calculated on a basis that is common to all the members of the class&#8221;.  Examples might be if all members of the class were wrongly charged a fixed fee, or all members acquired a product with a defect that reduced its value by the same amount.  In <span style="font-style:italic">Lloyd v Google </span>itself, it was suggested for the claimant that the case was one of that type on the basis that damages could be awarded on a uniform per capita basis without the need to prove that any individual suffered any loss or distress (see at [88]-[89]), but Lord Leggatt rejected the premise (see at [138]).  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The sixth point is one that did not require detailed consideration in <span style="font-style:italic">Lloyd v Google</span> but was briefly mentioned by Lord Leggatt at [83], namely that even if money can be recovered in a representative action, this may give rise to problems of distribution to members of the represented class. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, CPR r 19.8(2) confers on the Court a discretion.  This was referred to by Lord Leggatt at [75] as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;75</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.3in;margin-right:0.5in">Where the same interest requirement is satisfied, the court has a discretion whether to allow a claim to proceed as a representative action. As with any power given to it by the Civil Procedure Rules, the court must in exercising its discretion seek to give effect to the overriding objective of dealing with cases justly and at proportionate cost: see CPR r 1.2(a). Many of the considerations specifically included in that objective (see CPR r 1.1(2)) &#8211; such as ensuring that the parties are on an equal footing, saving expense, dealing with the case in ways which are proportionate to the amount of money involved, ensuring that the case is dealt with expeditiously and fairly, and allotting to it an appropriate share of the court&#8217;s resources while taking into account the need to allot resources to other cases &#8211; are  likely to militate in favour of allowing a claim, where practicable, to be continued as a representative action rather than leaving members of the class to pursue claims individually.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Application to the present case</span></heading>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Those being the principles, it is now possible to apply them to the present case.  There are effectively two questions: (i) is this case within the rule at all? (ii) if so, should the Court nevertheless in its discretion direct that CRL may not act as a representative?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As appears above (paragraph 29) the first question depends on two points: do the claims of each member of the class raise a common issue or issues?  And is there any relevant conflict of interest between them?</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Do the claims of the members of the class raise a common issue or issues?</span></heading>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is I think primarily a matter for the claimant who wishes to act as a representative to identify the class which he wishes to represent.  In the present case CRL initially identified a class in its Particulars of Claim, and subsequently amended the definition in its Amended Particulars of Claim.  As so amended (omitting the struck-out parts of the original definition for clarity) it reads as follows (paragraph 8 of the Amended Particulars of Claim):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;the relevant class of affected clients comprises all current and former clients of [M&amp;C LLP]: (i) that had a direct contractual relationship with [M&amp;C LLP]; (ii) that were subject to [M&amp;C LLP]&#8217;s standard terms of business &#8230; from time to time; and (iii) in respect of the renewal of whose IP rights CPA made payments to [M&amp;C LLP] and/or [LRA] after 14 March 2009 and prior to 1 February 2018.  For the avoidance of doubt, the class includes current or former clients in respect of which such payments were made both before 14 March 2009 and/or after 1 February 2018 (although by these Amended Particulars of Claim the Claimant only claims in respect of payments made between those dates).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So the question is whether there are one or more issues common to all members of this class.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">CRL&#8217;s case, as I have already referred to, is a very simple one.  As articulated by Mr Leslie in oral argument, it runs as follows.  By definition, each member of the class contracted on M&amp;C LLP&#8217;s standard terms of business.  CRL&#8217;s case is that those terms of business, without more, are sufficient to establish that M&amp;C LLP owed each member of the class a duty, characterised by Mr Leslie as a duty to act on a disinterested or non-conflicted basis; and that all that is needed to establish breach of that duty is receipt of a payment by way of commission.  That is therefore sufficient to establish liability (whether for the tort of bribery or for breach of fiduciary duty), subject to two potential defences.  One is disclosure and fully informed consent, which Mr Leslie acknowledges is a defence to the claim, and the other is limitation.  Unless however either of those defences applies, the claim will succeed and entitle each member of the class to judgment for the amount of the commission payment and interest.  This is CRL&#8217;s core proposition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Machell said that that was too simplistic a view.  The terms of business do provide that M&amp;C LLP has a duty to avoid conflicts of interest, but the scope and content of that duty depends in any particular case on the particular circumstances of each retainer.    </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He illustrated this by reference to the facts in the case of Bambach Europe itself.  M&amp;C LLP&#8217;s case (and this may be disputed at trial) is as follows.  Bambach Europe became a client of M&amp;C LLP in 2014 and signed its standard terms of business.  Bambach Europe also used CPA for renewals and commission was paid to LAR in respect of them.  It therefore falls into the class as defined by CRL.  But M&amp;C LLP had not in fact referred Bambach Europe to CPA.  Rather what happened is that the relevant IP rights were initially held by Australian companies, namely A F Bambach Pty Ltd and The Bambach Saddle Seat Pty Ltd (together <span style="font-weight:bold">&#8220;Bambach Australia&#8221;</span>), who had instructed an English firm, Edward Evans &amp; Co, from around 1990 to file trademark and design applications in European countries.  Edward Evans &amp; Co passed details of Bambach Australia&#8217;s rights to CPA, and Bambach Australia used CPA for renewals.  Edward Evans &amp; Co later merged with M&amp;C, and when the commission arrangements were put in place in 2006, CPA therefore paid commission to LAR in respect of the renewal of Bambach Australia&#8217;s rights.  In 2013 Bambach Australia decided to assign its European rights to Bambach Europe, and in early 2014 Bambach Europe retained M&amp;C LLP in connection with recording the assignment in various European countries.  At about the same time Bambach Australia encouraged Bambach Europe to use CPA for its renewals, which Bambach Europe did.  So M&amp;C LLP&#8217;s retainer was not the usual one but an unusually narrow and limited one; and it made no introduction or referral of Bambach Europe to CPA.  This was something that Bambach Europe did of its own volition, having been recommended to do so by Bambach Australia.  Nevertheless CPA continued to pay commission to LAR in respect of the renewal of the rights on the basis that M&amp;C LLP (or its predecessors) had entered the case details in the first place.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, Mr Machell said, Bambach Europe did not place any trust or confidence in M&amp;C LLP in respect of its instruction of CPA.  But whether a payment was a bribe or secret commission depended on whether the payee owed a duty to give disinterested advice or recommendations or information (see <span style="font-style:italic">Wood v Commercial First Business Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/471" uk:canonical="[2021] EWCA Civ 471" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 471</ref>, <ref href="#" uk:canonical="[2022] Ch 123" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] Ch 123</ref> at [92] per David Richards LJ); and the facts in Bambach Europe&#8217;s case illustrated that the scope of M&amp;C LLP&#8217;s duty to give disinterested advice depended on the particular matters for which they were engaged.  That could not be answered simply by looking at the standard terms of business but required consideration of the individual facts in any particular case, and in particular what the agent was asked to do, what the agent actually did, and whether the principal reposed trust and confidence in the agent in respect of particular matters: cf <span style="font-style:italic">Prince Eze v Conway </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/88" uk:canonical="[2019] EWCA Civ 88" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 88</ref> at [38]-[44] per Asplin LJ.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Machell had a further submission which is that some of M&amp;C LLP&#8217;s clients are likely to have had knowledge of the practice of paying commissions.  M&amp;C LLP&#8217;s evidence was that there was at least one case where the client had been told not only that commission was paid but the amount of it; but that, quite apart from that, commission arrangements of this sort are not unique to M&amp;C LLP but very common in the IP profession, and some clients are likely to have been aware of the practice as a result of being told by someone in M&amp;C LLP, or their knowledge of the IP market generally, or through involvement with other firms here or overseas.  It is suggested for example that some Australasian firms routinely disclosed to their clients the fact that commission was paid.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In Mr Machell&#8217;s submission knowledge of this sort (which I will call knowledge of market practice) would be relevant to the question of liability for the tort of bribery: see <span style="font-style:italic">Hurstanger Ltd v Wilson</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/299" uk:canonical="[2007] EWCA Civ 299" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 299</ref> at [38]-[45] per Tuckey LJ where he drew a distinction between a case where there was <span style="font-style:italic">no </span>disclosure that a commission had been paid to an agent (which would be a secret commission giving rise to both the tort of bribery and a breach of fiduciary duty) and a case where there was <span style="font-style:italic">partial</span> (but inadequate) disclosure where the lack of secrecy might be sufficient to negative liability in tort, but the failure to establish fully informed consent would still mean that there was a breach of fiduciary duty.  Mr Machell also said that knowledge of market practice might in some cases be sufficient to mean that there was informed consent: M&amp;C LLP&#8217;s clients were not na&#239;ve consumers but commercial clients, many of great sophistication, and what amounts to informed consent itself depends on the circumstances.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although we heard some limited argument on these submissions, we were not in the end invited to come to any conclusion on them, and I do not consider it either necessary or appropriate to do so in the absence of full argument.  What they show to my mind is that there is indeed a common issue in which all members of the class have the same interest.  That issue can be simply stated as being whether CRL&#8217;s core proposition is correct as a matter of law.  To spell it out a bit more fully, is Mr Leslie right that, subject to the two potential defences that he acknowledges (disclosure and informed consent, and limitation) all that a client of M&amp;C LLP needs to prove in order to establish liability in bribery and/or breach of fiduciary duty is the fact that it contracted with M&amp;C LLP on its standard terms of business, and the fact that CPA paid commission to LAR in respect of the renewal of its IP rights?  Or is Mr Machell right that liability turns on the precise task that M&amp;C LLP were asked to do and the extent to which a client reposed trust and confidence in M&amp;C LLP&#8217;s recommendation of CPA, and/or that the client&#8217;s knowledge of market practice (even if not amounting to full disclosure) has a bearing on liability?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt from the submissions made to us that this is an issue which arises and which will have to be resolved in any event.  CRL&#8217;s core proposition that (subject to disclosure and informed consent, and limitation), all that needs to be proved to establish liability are the fact of contracting on the standard terms of business and the fact of payment of commission, will have to be resolved in CRL&#8217;s own claim as assignee of Bambach Europe where the pleaded defence is in effect that in the particular circumstances in which Bambach Europe instructed M&amp;C LLP the latter did not owe the former any duty to act on a disinterested basis, or give disinterested advice, in relation to renewals, and hence there was neither breach of fiduciary duty nor the tort of bribery.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Is this an issue which arises across the class and in which all members of the class have the same interest?  I think it is.  If CRL is right and establishes its core proposition, I see no difficulty in the Court so declaring, and it seems to me self-evident that such a declaration would be equally beneficial to every member of the class.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not think it matters that even if CRL succeeds in obtaining such a declaration it would not resolve all the issues in the case, even on liability.  It would necessarily leave over for further consideration the questions of (i) disclosure and informed consent, and (ii) limitation (quite apart from questions in relation to relief).  The first of these is undoubtedly an issue that would in principle require an individualised assessment.  But it may be doubtful how significant an issue it would be in practice.  It is not I think disputed that it is for a defendant to establish that there has been sufficiently full disclosure to negative what would otherwise be a breach of fiduciary duty, and although the evidence is that there has been at least one instance of this, and that there may have been some others, it is not suggested that there was any routine practice of informing clients about commission, and it seems likely that in many cases M&amp;C LLP and LAR will have no basis on which to assert that the defence is available.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for limitation, a significant number of cases will not be statute-barred on any view as the Claim Form was issued in April 2021 and the claims have a limitation period of 6 years (although quite how many is unclear, and depends in part on a contention raised in the Defence, but not yet resolved, that to the extent that any new claimants or new claims were added by amendment their claims should not date back to the issue of the Claim Form for limitation purposes); for claims outside the relevant 6-year period, CRL relies on deliberate concealment (or deliberate commission of a breach of duty) under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.&#160;32</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref>.  There was a dispute about the extent to which resolution of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.&#160;32</ref> point would require an individualised assessment, but we were not asked to decide this or addressed fully on it.  I will assume, without deciding, that Mr Machell may well be right that it would in principle require an individualised assessment, as it will depend on when each claimant could with reasonable diligence have discovered the concealment.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">But even if it does, it is clear from <span style="font-style:italic">Lloyd v Google </span>that it is not an impediment to the use of a representative action that not all issues can be resolved on a class basis.  This is clear from Lord Leggatt&#8217;s repeated endorsement of the possibility of adopting a bifurcated process, and is perhaps most clearly expressed at [81] (see paragraph 34 above) where he refers to such a process as one:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;whereby common issues of law or fact are decided through a representative claim, leaving any issues which require individual determination &#8211; whether they relate to liability or the amount of damages &#8211; to be dealt with at a subsequent stage of the proceedings&#8230;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So the fact that even if CRL is right there will remain issues which may require individual determination (and even if those issues go to liability and not just quantum) is not a bar to resolving common issues through a representative claim.  And it is also clear from what Lord Leggatt said in <span style="font-style:italic">Lloyd v Google</span> at [84] (see paragraph 35 above) that it does not matter how many members of the class will ultimately benefit from a declaration:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;Moreover, even if only a few individuals were ultimately able to obtain compensation on the basis of a declaratory judgment, I cannot see why that should provide a reason for refusing to allow a representative claim to proceed for the purpose of establishing liability.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So even if a declaration in CRL&#8217;s favour only benefited those whose claims were on any view not statute-barred, that would be sufficient.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nor of course does it matter that CRL may be wrong on its core proposition.  If Mr Machell is right that liability turns on the precise task that M&amp;C LLP were asked to do, and the extent to which a client reposed trust and confidence in M&amp;C LLP&#8217;s recommendation of CPA, then the Court will so decide.  Mr Machell submitted that this would mean a bifurcation within the issue of liability, and that it was wrong in principle to identify what would be a partial issue of liability (what he called taking a scalpel to, or salami slicing of, liability), or at least that it was inappropriate to do so as a matter of discretion.  I will come back below to the question of discretion, but I do not accept that there is anything wrong in principle with resolving common issues on a representative basis even if they do not lead to a conclusion on liability.  That to my mind emerges clearly from two passages in Lord Leggatt&#8217;s judgment in <span style="font-style:italic">Lloyd v Google</span>.  The first is one I have just quoted at paragraph 54 above, namely at [81] where Lord Leggatt refers to leaving over issues which require individualised assessment, whether they relate to liability or not.  That plainly envisages that the common issues may not fully resolve the question of liability.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The other passage is at [58] where he considers <span style="font-style:italic">Emerald Supplies</span>.  That was a case where the claim was that the defendant airline was a party to collective agreements or concerted practices to fix prices for air freight.  The claim was brought by direct and indirect purchasers of air freight, and one of the questions was whether it was a defence to the claim that the extra costs arising from inflated prices had been passed on.  Lord Leggatt says at [58] that it should have been possible to adopt a bifurcated process:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;in which the questions whether prices had been inflated by agreements or concerted practices and whether passing on was in principle available as a defence were decided in a representative action.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That plainly envisages that the question of principle whether passing on amounts to a defence might be resolved at a first, representative, stage of the proceedings as a common issue, even though (if the answer were Yes) it would not resolve liability in any particular case as that would depend on whether as a matter of fact each claimant did or did not pass on the inflated price.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Similarly it seems to me that there is no objection in principle to deciding at a first, representative, stage of these proceedings the common issue whether, as a matter of principle, the precise circumstances of M&amp;C LLP&#8217;s retainer, or the client&#8217;s knowledge of market practice, are available as an answer to the claim, even though (if the answer were Yes) the question of liability to any particular client would remain to be resolved at a subsequent stage. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There are likely to be very many cases of the sort described in argument as &#8220;plain vanilla&#8221;, that is where all that happened is that the client instructed M&amp;C LLP on its standard terms of business to prepare, file and prosecute an application for the registration of IP rights, M&amp;C LLP recommended the use of CPA for renewals, the client duly engaged CPA for that purpose, and CPA paid commission to LAR.  Mr&#160;Machell, when asked, accepted in terms that although this was not specifically addressed in the evidence he could not rebut the suggestion that there will be &#8220;many, many&#8221; cases in this category.  Even if Mr Machell is right that CRL&#8217;s core proposition is overstated and that liability turns on the precise nature and circumstances of M&amp;C LLP&#8217;s retainer, it is not obvious to me at this stage of the proceedings how this will provide M&amp;C LLP and LAR with a defence in the plain vanilla type of case, and I did not understand Mr Machell to suggest that it did.  So even if CRL&#8217;s core proposition fails, and whatever consequences that may have for CRL&#8217;s ability to take the case forward as assignee of Bambach Europe, the resolution of the common issue identified above seems to me likely to benefit many members of the class.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to Mr Machell&#8217;s point that knowledge of market practice may be relevant to liability for the tort of bribery, I understand the legal basis for the submission, but I have not understood what practical difference it will make in the present case.  The analysis of Tuckey LJ in <span style="font-style:italic">Hurstanger v Wilson </span>was to the effect that there could be a half-way house in which a defendant was not liable for the tort of bribery (a species of fraud) but could still be liable for breach of fiduciary duty.  In that case the distinction was significant because it made a difference to the relief available, namely whether the borrowers were entitled to have the loan rescinded as of right or only as a matter of discretion, and in the event the Court declined to rescind the loan: see at [46]-[50].  But in the present case the claim is for the amount of the commission to be repaid with interest.  It is not apparent to me why that claim cannot be pursued equally well whether the basis for liability is in tort, or only for breach of fiduciary duty.  I should make it clear that I am not purporting to decide any of these issues which will arise at a subsequent stage if at all; but this does tend to suggest that even if Mr Machell is right on this point, all members of the class may still be able to benefit, and, more pertinently, that they all have a similar interest in the point.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given I therefore consider that there is a common issue applicable to all the members of the class, namely that to which I have referred in paragraph 49 above (and including the points of principle to which I have referred in paragraph 57 above).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Is there any conflict of interest between the members of the class in relation to that issue?</span></heading>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As I have explained, <span style="font-style:italic">Lloyd v Google </span>establishes that the members of a class have the &#8220;same interest&#8221; in a claim for the purposes of CPR r 19.8(1) if there is a common issue and there is no conflict of interest between them in relation to that issue.  So the next question is whether there is any relevant conflict of interest between the members of the class.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This seems to me very straightforward.  It is in the interests of all the members of the class to establish CRL&#8217;s core proposition because it will make each of their claims easier to establish.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Machell said that there were three potential areas of conflict between members of the class.  The first is that the class is defined by reference to a matter in dispute: because the class is defined by reference to clients that contracted on the terms of business, that is necessarily something which goes to the question of duty and therefore presupposes something that would be in issue in the proceedings.  In <span style="font-style:italic">Emerald Supplies</span>, the class was framed as consisting of direct or indirect purchasers of air freight services the prices for which had been inflated by the alleged agreements or concerted practices (see per Mummery LJ at [26]).  That was held to be objectionable because (per Mummery LJ at [63]):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;It defies logic and common sense to treat as representative an action, if the issue of liability to the claimants sought to be represented would have to be decided before it could be known whether or not a person was a member of the represented class bound by the judgment.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That principle seems entirely understandable (and was referred to by Lord Leggatt in <span style="font-style:italic">Lloyd v Google</span> without adverse comment (at [56])).  But I have not understood how it applies to the present case.  In <span style="font-style:italic">Emerald Supplies </span>the problem was that one could not know, even at a conceptual level, whether a person was a member of the class until the whole case had been tried, and if the claim failed (because there were no concerted practices, or no inflated prices) the class would turn out to be an empty one.  But there does not seem to me to be any similar difficulty with the definition of the class in the present case.  I have set it out above (paragraph 41) and repeat it here for convenience:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;the relevant class of affected clients comprises all current and former clients of [M&amp;C LLP]: (i) that had a direct contractual relationship with [M&amp;C LLP]; (ii) that were subject to [M&amp;C LLP]&#8217;s standard terms of business &#8230; from time to time; and (iii) in respect of the renewal of whose IP rights CPA made payments to [M&amp;C LLP] and/or [LRA] after 14 March 2009 and prior to 1 February 2018.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This class is defined by objective facts: did a client contract directly with M&amp;C LLP on its standard terms or not? was a commission payment made in respect of the client&#8217;s renewals between 14 March 2009 and 1 February 2018 or not?  These facts do not depend in any way on whether the claim is a good one, and it is not disputed that there are many clients of M&amp;C LLP who did contract on its standard terms and where a commission payment between the relevant dates was made.  The class is therefore certainly not an empty one, and membership of the class will not depend on whether M&amp;C LLP committed a tort or a breach of duty.  I can see that there may in particular cases be a dispute as to whether a client did contract on the standard terms or not; but it is inevitable, however a class is defined, that there may be a dispute whether a particular individual meets the criteria for membership, and I do not see that that means that the definition of the class suffers from the same objection as that in <span style="font-style:italic">Emerald Supplies</span>.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Machell&#8217;s second suggested conflict was based on the fact that CRL&#8217;s claim was initially pleaded on the basis of a referral or introduction by M&amp;C LLP of Bambach Europe to CPA.  That has been removed by amendment but Mr Machell said that it showed that some members of the class might wish to argue, contrary to the position of CRL, that the touchstone for liability was referral or introduction.  I do not think this gives rise to a <span style="font-style:italic">conflict</span> of interest on the issue identified above (as opposed to a <span style="font-style:italic">divergence</span> of interest, as explained by Lord Leggatt in <span style="font-style:italic">Lloyd v Google</span> (see paragraph 29 above)).  If CRL establishes its core proposition, that will benefit not only those like Bambach Europe where there was (or is said to have been) no actual referral, but it will also benefit all those where there was a referral or introduction.  In those circumstances I do not see any risk of the argument which CRL proposes to advance prejudicing the position of others in the class.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The third point which Mr Machell relied on was in relation to election between remedies, but he accepted that that had been put off to a later stage of the proceedings.  I do not need to consider if it might give rise to a conflict at that later stage: it certainly does not create any conflict of interest between members of the class in having CRL&#8217;s core proposition determined.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I conclude that there is therefore both an issue common to all members of the class and no relevant conflict between them.  It follows that the members of the class have the &#8220;same interest&#8221; in the claim for the purposes of CPR r 19.8(1), and that the rule therefore applies.  That in effect deals with Grounds 2 and 3 of the Grounds of Appeal which were to the effect that the Judge erred in finding that the members had the same interest in the claim.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The pleading point</span></heading>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is a convenient stage at which to deal with Ground 1 of the Grounds of Appeal.  This is that the Amended Particulars of Claim were deficient in that they failed to set out the facts and matters necessary to establish the cause of action of each member of the class and should have been struck out.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Machell did not spend much time on this ground, and I consider that he was right not to do so.  Pleadings are intended to aid in the just resolution of disputes, not obstruct their just resolution.  I do not see that at this stage of the proceedings it is necessary for there to be any individualised pleading of the claim of each member of the class, or that any useful purpose would be served by such pleading.  The whole point of CRL&#8217;s core proposition is that it is not necessary at this stage to have an individualised assessment of each claim, as proof of contracting on the standard terms and of payment of commission is enough; what the position will be thereafter depends on whether CRL is right about this, what issues remain to be decided, to what extent individualised assessment is required, and if so whether and to what extent individualised pleadings are required for that purpose.  These are all future questions.  They are not a reason to regard the pleading as it currently stands as deficient.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In essence therefore I agree with the Judge who at [85]-[87] of his judgment declined to strike out the Particulars of Claim on the basis that they were sufficiently pleaded for the Defendants to know the case they had to meet, and that if further information was in due course required, they were not disadvantaged at this stage.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Should the Court in the exercise of its discretion direct that CRL not act as a representative pursuant to CPR r 19.8(2)?</span></heading>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The remaining question is whether the Judge erred in failing to exercise the power in CPR r 19.8(2) to direct that CRL may not act as a representative.  He decided in the exercise of his discretion to allow CRL to represent the class and to do so on the &#8220;opt out&#8221; basis, saying (at [81] of his judgment):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in">&#8220;If the choice is this or nothing, then better this.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He added (at [83]):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;If appropriate the Defendants may ask the Court to look at the position under CPR 19.6(2) again. The provision is not a &#8220;once and for all time&#8221; provision; it is dealing with a question that may be of continuing relevance, and that question may be re-examined where appropriate. Obviously re-examination will not be suitable where the points are simply the same.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The points put forward orally by Mr Machell on this aspect of the appeal were as follows.  The only purpose of this litigation is to obtain monetary relief.  It is not a case where a declaration by itself is of any value to either CRL or any of the other members of the class; or where some non-monetary relief is sought such as an injunction.  But no member of the class would in fact get to a money judgment without their individual participation; in other words, the individual members of the class would have to come forward.  There is however no real evidence of any enthusiasm among the members of the class to do this.  They are commercial clients that can take a sophisticated view as to whether to participate in proceedings and may decide that the sums involved do not warrant doing so.  CRL has put forward no plan as to how the litigation would be taken to a point where there are actually money judgments in favour of those who have opted in.  In those circumstances, he submits, the relevant question is whether the Court should devote resources to trying any common issues when it is quite unclear whether that will actually produce any money for anyone even if CRL succeeds.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These points were expanded upon in supplementary written submissions after the hearing.  But the essential points are the same: no money judgment could be entered until after individual claimants have come forward, and there is no guarantee that that will happen, or that anything worthwhile will be achieved.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I think there is a short answer to these points.  In general it is a matter for a claimant to decide if the claim he advances is worth pursuing.  The Court no doubt does have a discretion to prevent its resources being wasted on pointless litigation, where the game is simply not worth the candle, but save in clear cases I think the Court should be slow on such grounds to prevent a claimant with an arguable case from taking it forward.  CRL&#8217;s very purpose is to advance the claims in this litigation.  It has the benefit of advice from solicitors and counsel.  It has the backing of a commercial funder.  It has evidently formed the view that there are sufficient prospects of success &#8211; that is, not only that it will establish its core proposition, but that it will be able to translate that into a substantial money recovery by one means or another &#8211; to justify the significant costs that it is no doubt incurring.  I think there is no sufficiently good reason to stop it from seeking to do just that.  There may indeed be difficulties ahead for CRL, but the Court should not in my judgement seek to second-guess CRL&#8217;s decision that it is commercially worth its while to continue with the litigation unless it can clearly see that the exercise is futile.  I do not think that can be said.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It may be noted that the application under CPR r 19.8(2) is not premised on CRL being an unsuitable representative, or as having shown itself to be unfit to take on the role.  In seeking a direction from the Court that CRL &#8220;may not act as a representative&#8221;, M&amp;C LLP and LAR are not trying to have CRL replaced by someone more suitable, but to prevent the litigation being taken forward at all.  If CRL cannot act as a representative it is not to be supposed that it will pursue the case for the sake of some &#163;6,000, nor is it suggested that others are likely to come forward to take it over.  So in effect the question is whether, under the guise of an application under CPR r 19.8(2), the defendants to a claim should be able to have the claim stopped in its tracks entirely.  Here I think it is worth recalling the guidance given by Lord Leggatt in <span style="font-style:italic">Lloyd v Google </span>at [75] (paragraph 38 above) that many of the considerations included in the overriding objective:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:-0.07in">&#8220;are likely to militate in favour of allowing a claim, where practicable, to be continued as a representative action rather than leaving members of the class to pursue claims individually.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That seems to me applicable to the present case.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement therefore this is not a case in which a direction should have been given that CRL may not act as a representative; or, at the very lowest, that the decision that the Judge came to to permit CRL to continue as representative, at least for the time being, is not outside the generous ambit of his discretion.  That is sufficient to dispose of Ground 4 of the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Future conduct of the case</span></heading>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If my Lords agree with me so far, then the appeal will fall to be dismissed, the only issues for us on the appeal being whether the claim should have been struck out as inadequately pleaded, whether the case was within the rule at all, and whether the Court should have directed that CRL may not as a representative.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We are not hearing an appeal against the order of the Judge of 14 November 2023 directing which issues should be heard at what is called the Main Trial (see paragraph 25(2) above); far less are we being asked to decide in advance whether any adjustment to those issues should be made at the next CMC due on 26 January 2024.  I have suggested above the core issue that I consider can suitably be determined on a representative basis, but I do not mean thereby to prevent the parties and the Judge from refining that issue or deciding that other issues can also sensibly be tried.  We received certain submissions on these matters, but I think it is preferable to allow all such questions to be determined by the Judge at the forthcoming CMC, albeit with the benefit of such guidance as we have been able to give.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given I would dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Lord Justice Snowden:</span></heading>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Sir Geoffrey Vos, Master of the Rolls:</span></heading>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

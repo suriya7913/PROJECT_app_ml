@@ -1,0 +1,763 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/2"/>
+	  <FRBRdate date="2023-01-18" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2"/>
+	  <FRBRname value="Sara &amp; Hossein Asset Holdings Ltd v Blacks Outdoor Retail Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2"/>
+	  <FRBRdate date="2023-01-18" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:33:43" name="transform"/>
+	  <FRBRdate date="2024-11-12T10:32:33" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sara-&amp;-hossein-asset-holdings-ltd" href="" showAs="Sara &amp; Hossein Asset Holdings Ltd"/>
+	<TLCPerson eId="blacks-outdoor-retail-ltd" href="" showAs="Blacks Outdoor Retail Ltd"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-kitchin" href="/judge-lord-kitchin" showAs="Lord Kitchin"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2</uk:number>
+	<uk:cite>[2023] UKSC 2</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>384ace2625f5312a2ba2b8673f172a19415786d7b4516fefe04269d5ff92fffb</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.25in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2023] UKSC 2</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1521" style="font-style:italic" uk:canonical="[2020] EWCA Civ 1521" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2020] EWCA Civ 1521</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#respondent" refersTo="#sara-&amp;-hossein-asset-holdings-ltd">Sara &amp; Hossein Asset Holdings Ltd</party> (a company incorporated in the British Virgin Islands) (<role refersTo="#respondent">Respondent</role>) <span style="font-style:italic">v</span><span/><party as="#appellant" refersTo="#blacks-outdoor-retail-ltd">Blacks Outdoor Retail Ltd</party> (<role refersTo="#appellant">Appellant</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-kitchin">Lord Kitchin</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2023-01-18" refersTo="#judgment">18 January 2023</docDate><br/><br/>Heard on 8 November 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Brie Stevens-Hoare KC<br/>Morayo Fagborun Bennett<br/>Usman Roohani<br/>(Instructed by Gateley LLP (Manchester))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Richard Fowler<br/>(Instructed by Pinsent Masons LLP (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD HAMBLEN (<span style="text-transform:none">with whom Lord Hodge, Lord Kitchin and Lord Sales agree</span>): </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal concerns the extent of the conclusive effect of a clause in a lease providing for the landlord's certification of the service charge sum payable by the tenant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The relevant clause provided that the landlord should provide a certificate &#8220;as to the amount of the total cost and the sum payable by the tenant&#8221; and that this was to be &#8220;conclusive&#8221; in the absence of &#8220;manifest or mathematical error of fraud&#8221; (&#8220;the permitted defences&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The landlord, the respondent Sara &amp; Hossein Asset Holdings Ltd (&#8220;S&amp;H&#8221;), contends that its certification of the sum payable is conclusive subject only to the permitted defences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The tenant, the appellant Blacks Outdoor Retail Ltd (&#8220;Blacks&#8221;), contends that certification is conclusive as to the amount of costs incurred by the landlord but not as to the tenant&#8217;s service charge liability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Deputy Master Bartlett (&#8220;the master&#8221;) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2019/3414" uk:canonical="[2019] EWHC 3414 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3414 (Ch)</ref> upheld Blacks&#8217; case as to the proper interpretation of the certification clause and his decision was upheld on appeal by Kelyn Bacon QC (now Bacon J), sitting as a Deputy High Court judge (&#8220;the judge&#8221;) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2020/1263" uk:canonical="[2020] EWHC 1263 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1263 (Ch)</ref>; [2020] L &amp; TR 30. The Court of Appeal <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1521" uk:canonical="[2020] EWCA Civ 1521" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1521</ref>; [2021] 2 P &amp; CR 18 allowed the appeal and held in favour of S&amp;H&#8217;s case. Blacks now appeals to the Supreme Court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">Factual and procedural background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">S&amp;H is a property investment company. Blacks is a well-known retail chain selling outdoor and leisure clothing and goods.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The leases in question relate to retail commercial premises at Chicago buildings, Whitechapel and Stanley Street, Liverpool. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Blacks first came to occupy the premises following the entry into administration of the previous owner of Blacks&#8217; business (and previous tenant), The Outdoor Group Ltd. On 15 May 2013, IVG Institutional Funds GmbH (&#8220;IVG&#8221;) granted Blacks a lease of the premises (the"2013 lease"). S&amp;H was the successor in title to IVG from December 2016. The 2013 lease was for a term of ten years with a break option after five years which Blacks exercised. Blacks then entered into a lease for a further one year term from May 2018 to May 2019 (the &#8220;2018 lease&#8221;). The lease was not renewed thereafter. The 2018 lease was on materially the same terms as the 2013 lease.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The dispute between the parties arose when Blacks paid the main rent and certain other charges due under the leases but did not pay the service charge for the years 2017-18 and 2018-19 (which years ran from 1 October to 30 September). For the 2016-17 year S&amp;H had charged Blacks around &#163;55,000. For the 2017-18 year S&amp;H certified that over &#163;400,000 was payable, in circumstances where S&amp;H knew Blacks would be terminating the 2018 lease in May 2019. Blacks objected, claiming that this charge was excessive and included unnecessary items and expenses which fell outside the terms of the lease. For the seven months of the 2018-19 year, up until the expiry of the 2018 lease in May 2019, S&amp;H certified that around &#163;62,000 was payable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> On 11 April 2019 S&amp;H issued proceedings claiming the outstanding service charge. On 14 May 2019 Blacks served a defence and counterclaim. Blacks averred that the sums certified and demanded were not properly due on the basis that certain works either did not, by their nature, fall within the scope of S&amp;H's repair covenant or, if they did, were unnecessary at the time of their commission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 28 May 2019 S&amp;H issued an application for summary judgment which was heard by the master on 20 August 2019. The master dismissed the application but ordered that Blacks should make a payment into court of &#163;150,000. On 19 May 2020 the judge gave judgment dismissing the appeal. On 13 November 2020 the Court of Appeal (David Richards, Newey and Arnold LJJ) gave judgment allowing the appeal, granted summary judgment on the claim for the certificated service charges in the sum of &#163;407,842.77 and remitted the case to the Chancery Division to determine what, if any, issues on Blacks&#8217; counterclaim remained to be determined.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">The terms of the leases</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under clause 2.3 of the leases the tenant was required to pay rent and &#8220;the Service Charge calculated and payable at the times and in accordance with Schedule 6&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Clause 3(1)(a) is a no set-off provision under which the tenant covenanted: &#8220;To pay the yearly rent reserved by this lease at the times and in the manner required under clause 2.3 and not to exercise or seek to exercise any right or claim to withhold rent or any right or claim to legal or equitable set-off or counterclaim (save as required by law)&#8221;. It is accepted that this provision applies to all sums due under the lease, including the service charge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Clause 5.4 is a repair covenant by which the landlord covenanted: &#8220;To maintain and keep in good and substantial repair and condition the structure and exterior of the demised premises and to provide those services referred to in Part ll of Schedule 6 in accordance with the principles of good estate management and in an efficient and economical manner.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part A of Part II of Schedule 6 set out the services to be provided by the landlord. It specified various services and included a sweep-up provision covering &#8220;all and any other services by the landlord acting reasonably in the interests of good estate management&#8221; (para 13).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part B of Part II of Schedule 6 set out expenses to be borne by the landlord. In addition to specified expenses, it provided for inclusion of &#8220;the proper and reasonable fees costs and expenses incurred by the landlord in connection with general management of the building&#8221; (para 6) and &#8220;any other expenses properly incurred by the landlord attributable to the general supervision management security and proper maintenance of the building not otherwise specifically mentioned in this Schedule&#8221; (para 7).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part I of Schedule 6 set out the regime for the calculation and payment of the service charge. Its full terms are set out in the Appendix to this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under para 4 Blacks was required to make quarterly payments on account of the service charge in accordance with written estimates from S&amp;H. Although para 1 provided for the service charge year to run from 1 January to 31 December, in practice, and by agreement, the service charge year was treated as running from 1 October to 30 September.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Under para 1, at the end of each service charge year, S&amp;H was required to calculate &#8220;the total reasonable and proper cost&#8221; to it of providing &#8220;the services and expenses specified in Part II&#8221; (excluding costs and expenses met by insurers).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under para 2, Blacks was required to pay &#8220;a fair and reasonable proportion&#8221; of such total cost. Para 6 provided that this proportion should be &#8220;the proportion which the net internal area of the demised premises bears to the net internal area of the aggregate of all areas of the building&#8221; let or intended to be let. It further provided that a dispute over such proportion should be determined by &#8220;expert determination&#8221;. The definitions in clause 1.1 provided that this was to be by an independent valuer and that both parties were to be given the opportunity to make representations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Para 3 (&#8220;the certification provision&#8221;) is the critical provision in dispute. It provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The landlord shall on each occasion furnish to the tenant as soon as practicable after such total cost and the sum payable by the tenant shall have been ascertained a certificate as to the amount of the total cost and the sum payable by the tenant and in the absence of manifest or mathematical error or fraud such certificate shall be conclusive.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> On the quarter day following service of the certificate, a balancing payment was to be made (either by Blacks or by S&amp;H) reflecting &#8220;any difference between the sums paid on account and the sum payable by virtue of such certificate&#8221; (para 5).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Para 7 provided that S&amp;H should place sums properly applicable to the total costs of services and expenses in a separate interest-bearing account until they were needed to meet those costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paras 9 and 10 provided for certain costs and expenditure incurred by S&amp;H to be excluded from &#8220;the contribution payable by the tenant&#8221; (&#8220;excluded costs&#8221;). The excluded costs included recoveries made by the landlord under insurance policies or from persons other than tenants (para 10.2), costs &#8220;caused or necessitated by the negligence of the landlord&#8221; (para 10.3) and the cost of &#8220;any improvement, modernisation or refurbishment&#8221; which is not a cost of repair or maintenance (para 10.7).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paras 8 and 11 each made provision for Blacks to have access to material evidencing the sums claimed by way of service charge. Under para 8 S&amp;H was required for 12 months after receipt by Blacks of the certificate to make available all receipts, invoices or other satisfactory evidence evidencing the total costs incurred by S&amp;H and the contribution payable by Blacks. Under para 11 Blacks was entitled to inspect S&amp;H&#8217;s books, records, invoices and accounts relating to service costs for a period of three months from the date of &#8220;the relevant statement&#8221; at the offices of S&amp;H or its surveyor. It was agreed that &#8220;the relevant statement&#8221; meant the certificate.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">The judgments below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The master (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2019/3414" uk:canonical="[2019] EWHC 3414 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3414 (Ch)</ref>) held that S&amp;H&#8217;s certificate was conclusive only as to the amount spent by the S&amp;H on services and expenses, but not as to Black&#8217;s liability. His essential reasoning, at [28], was that it was unlikely that the parties would have intended that the landlord should be able &#8220;to decide conclusively the significant issues of law and principle which might arise in the course of determining the service charge payable&#8221;, thereby being &#8220;judge in his own cause&#8221;. He considered that this was all the more so in circumstances where the parties had provided for independent expert determination of the less important issue of the proportion of the landlord&#8217;s total costs payable the tenant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The judge (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2020/1263" uk:canonical="[2020] EWHC 1263 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1263 (Ch)</ref>) upheld the master&#8217;s decision and reasoning. She too stressed the implausibility of the parties agreeing that the landlord should be judge in his own cause of issues such as costs caused by the negligence of the landlord or the cost of improvement or modernisation. It would be &#8220;inconsistent&#8221; with &#8220;the carefully-defined dispute mechanism&#8221; in relation to the appropriate proportion of costs payable by the tenant if &#8220;the (potentially far more significant) question of the headline figure of the total costs and services was construed as falling to be determined conclusively by the landlord&#8221; (para 29). She accordingly concluded that the certificate is &#8220;conclusive as to the amount of the costs incurred, absent manifest or mathematical error, or fraud, but is not conclusive as to the question of whether those costs as a matter of principle fall within the scope of the service charge payable by the tenant under the lease&#8221; (para 30).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">David Richards LJ (now Lord Richards) gave the judgment of the Court of Appeal (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1521" uk:canonical="[2020] EWCA Civ 1521" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1521</ref>), with which the other lord justices agreed. He held that the natural meaning of the crucial words in the certification provision that the certificate is conclusive as to (i) &#8220;the amount of the total costs&#8221; and (ii) &#8220;the sum payable by the tenant&#8221; is that it is conclusive as to both those elements, not merely the first of them. &#8220;Treating the categorisation of the relevant services and expenses as not being conclusively determined by the landlord&#8217;s certificate (subject to mathematical or manifest error or fraud) would require express words to that effect or a necessary implication. There are no such express words, and, in my judgment, there are no grounds for a necessary implication to that effect&#8221; (para 21).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">Relevant legal principles</span></p>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal">Contractual interpretation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The relevant general principles are authoritatively explained by Lord Hodge in his judgment in <span style="font-style:italic">Wood v Capita Insurance Services Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/24" uk:canonical="[2017] UKSC 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 24</ref>, <ref href="#" uk:canonical="[2017] AC 1173" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] AC 1173</ref> at paras 10 to 15. So far as relevant to the present case, they may be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The contract must be interpreted objectively by asking what a reasonable person, with all the background knowledge which would reasonably have been available to the parties when they entered into the contract, would have understood the language of the contract to mean. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The court must consider the contract as a whole and, depending on the nature, formality and quality of its drafting, give more or less weight to elements of the wider context in reaching its view as to its objective meaning. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Interpretation is a unitary exercise which involves an iterative process by which each suggested interpretation is checked against the provisions of the contract and its implications and consequences are investigated.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal">Manifest error</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The narrowness of the permitted defences of &#8220;manifest or mathematical error or fraud&#8221; is relevant to the implications of the interpretation that the landlord&#8217;s certification is conclusive subject only to those defences. &#8220;Mathematical error&#8221; and &#8220;fraud&#8221; are self-explanatory terms but the meaning of &#8220;manifest error&#8221; is less clear. Whilst its precise meaning may depend on the particular contract and context in which it is used, there are a number of authorities which have considered the meaning of these words in conclusive evidence clauses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">An often cited and applied explanation of the meaning of &#8220;manifest error&#8221; is that given by Lewison J in <span style="font-style:italic">IIG Capital LLC v Van Der Merwe</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/2631" uk:canonical="[2007] EWHC 2631 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2631 (Ch)</ref>, [2008] 1 All ER (Comm) 435 at para 52: &#8220;A &#8216;manifest error&#8217; is one that is obvious or easily demonstrable without extensive investigation&#8221;. This formulation was approved by the Court of Appeal in the same case <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/542" uk:canonical="[2008] EWCA Civ 542" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 542</ref>, <ref href="#" uk:canonical="[2008] 2 Lloyd's Rep 187" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 Lloyd&#8217;s Rep 187</ref> (per Waller LJ at paras 33-35) and more recently in <span style="font-style:italic">Amey Birmingham Highwavs Ltd v Birmingham City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/264" uk:canonical="[2018] EWCA Civ 264" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 264</ref>, [2018] BLR 225 (per Jackson LJ at paras 83-87).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Guidance as to what is meant by being &#8220;obvious or easily demonstrable&#8221; is provided by the Court of Appeal&#8217;s decision in in <span style="font-style:italic">Veba Oil Supply &amp; Trading GmbH v Petrotrade Inc</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/1832" uk:canonical="[2001] EWCA Civ 1832" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 1832</ref>, <ref href="#" uk:canonical="[2002] 1 Lloyd's Rep 295" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 Lloyd&#8217;s Rep 295</ref> in which it was stated that manifest errors were &#8220;oversights and blunders so obvious <span style="font-style:italic">and obviously capable of affecting the determination as to admit of no difference of opinion</span>&#8221; (per Simon Brown LJ at para 33, his emphasis). This has been applied in a number of recent first<span style="font-family:'Times New Roman'"/>instance decisions &#8211; see, for example, <span style="font-style:italic">Septo Trading Inc v Tintrade Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2020/1795" uk:canonical="[2020] EWHC 1795 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1795 (Comm)</ref>; <ref href="#" uk:canonical="[2021] 1 Lloyd's Rep 258" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 Lloyd&#8217;s Rep 258</ref> (Teare J), <span style="font-style:italic">Flowgroup plc (In Liquidation) v Co-operative Energy Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2021/344" uk:canonical="[2021] EWHC 344 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 344 (Comm)</ref>; <ref href="#" uk:canonical="[2021] Bus LR 755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] Bus LR 755</ref> (Deputy High Court judge Adrian Beltrami QC), <span style="font-style:italic">Euler Hermes SA (NV) v Mackays Stores Group Ltd</span> [2022] EWHC 1918 Comm (Deputy High Court judge Philip Marshall QC).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">What is meant by being demonstrable &#8220;without extensive investigation&#8221; may depend on the context. Unless the contract makes it clear that only the certificate can be considered, extrinsic evidence will be admissible &#8211; see <span style="font-style:italic">Amey Birmingham </span>at para 87. Although it may not be necessary to be able to demonstrate the error immediately, in most cases this will need to be done readily &#8211; ie by an investigation limited in both time and extent. In so far as the decision of the Court of Appeal in <span style="font-style:italic">North Shore Ventures Ltd v Anstead Holdings Inc</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/230" uk:canonical="[2011] EWCA Civ 230" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 230</ref>, <ref href="#" uk:canonical="[2012] Ch 31" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] Ch 31</ref> suggests otherwise, I agree with Flaux J&#8217;s observation in <span style="font-style:italic">ABM Amro Commercial Finance plc v McGinn</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2014/1674" uk:canonical="[2014] EWHC 1674 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 1674 (Comm)</ref>; <ref href="#" uk:canonical="[2014] 2 Lloyd's Rep 33" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 Lloyd&#8217;s Rep 33</ref>, at paras 51 to 52 that it &#8220;has to be viewed with some circumspection&#8221; and that on any view it cannot depend on &#8220;a full blown trial&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is therefore clear that the permitted defences of &#8220;manifest or mathematical error or fraud&#8221; are indeed narrow. An arguable error will not suffice, however well founded the allegation of error may ultimately prove to be. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">Relevant background knowledge</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Both parties are sophisticated commercial entities. The leases are formal legal documents prepared by solicitors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Cashflow is an important consideration for a landlord. The landlord is obliged to incur costs and expenses under its repair covenant. It has an obvious interest in being able to secure reimbursement promptly and without prolonged dispute. Although Blacks&#8217; parent, JD Sports, is a very substantial undertaking, the previous owner of Blacks&#8217; business (and previous tenant), The Outdoor Group, had entered administration.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">The rival interpretations</span></p>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal">Blacks&#8217; case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Blacks point out that the correct categorisation of the services and expenses which make up the service charge requires various steps to be taken and may well be contentious. First, it is necessary to identify the services and expenses which the landlord provided in the relevant period. Secondly, the total costs incurred by the landlord in providing the services needs to be ascertained. Thirdly, the sum payable by the tenant must be determined. This involves: (i) deducting any elements of the landlord's incurred costs relating to the provision of services or the incurring of expenses which fall outside of the scope of the services listed within Schedule 6 ("out-of-scope costs"); (ii) deducting any elements of those costs which are excluded costs, and (iii) calculating the tenant&#8217;s &#8220;fair and reasonable proportion&#8221; of those costs (&#8220;the proportion adjustment&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Each step of the determination of the sum payable by the tenant may give rise to arguable disputes and a need for investigation. For example, in relation to out-of-scope costs, issues may arise as to whether services have been provided &#8220;in accordance with the principles of good estate management&#8221; or &#8220;in an efficient and economical manner&#8221; or whether a repair or replacement is &#8220;reasonable and proper&#8221;. Equally, issues may arise as to whether expenses are &#8220;proper and reasonable&#8221; or whether they were incurred &#8220;in connection with the general management of the building&#8221; or the &#8220;security and proper maintenance of the building&#8221;. In relation to excluded costs, issues may arise as to whether they have been &#8220;caused or necessitated by the negligence&#8221; of the landlord or are costs of &#8220;improvement, modernisation or refurbishment&#8221; rather than repair or are in respect of a part of the building for which another tenant is &#8220;wholly responsible&#8221;. Issues may also arise as to recoveries made or to be made by the landlord from insurers or third parties, some of which may arise after the certification of the service charge. In relation to the proportion adjustment, the potential for disputes is recognised by the dispute resolution mechanism provided for in the leases. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">None of the potential disputes outlined above are likely to fall within the permitted defences. On S&amp;H&#8217;s case the landlord will be the sole judge of such disputes. Not only will that make him &#8220;judge in his own cause&#8221; but that judgmental role is be carried out without there being any requirement to consider representations. The tenant is left powerless to challenge its liability to pay the certified sum. The uncommercial consequences of such an unbalanced arrangement are striking, and this was a factor which weighed heavily with both the master and the judge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Blacks further submits that S&amp;H&#8217;s case is inconsistent with other provisions of the contract. First, it does not fit with the detailed dispute mechanism, including expressly allowing for the making of representations, which is provided for disputes as to the proportion adjustment. As the master and the judge pointed out, this is likely to be a less important source of service charge disputes and it makes little sense for the parties to agree a detailed mechanism for resolving such disputes whilst not allowing any means for resolving more significant disputes. Secondly, it does not fit with paras 8 and 11 of Part I of Schedule 6 under which the tenant has respectively 12 and three months to inspect receipts, invoices and other evidence relating to the service charge. On S&amp;H&#8217;s case the balancing payment in relation to the conclusively certified sum will have had to be made before these periods had expired. Further, on S&amp;H&#8217;s case the only use that could be made of these detailed inspection rights would be to identify a permitted defence. Any arguable issue raised on inspection would be precluded by the conclusiveness of the certificate. Thirdly, it does not fit with the fact that the certificate may not be conclusive as to the proportion adjustment. The contract recognises that this may be disputed and provides a mechanism to resolve such disputes. On S&amp;H&#8217;s case the certificate is therefore conclusive as to some purposes but not others.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Blacks contends that these considerations point strongly to the correctness of its interpretation of the leases. The certificate is conclusive, save for the permitted defences, as to what costs and expenses the landlord has incurred in fact, but as the certification provision says nothing about whether a defined proportion of those costs is properly levied against the tenant, any such defence to liability is at large and must be resolved by the court in the ordinary way.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal">S&amp;H&#8217;s case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">S&amp;H contends that the certification provision must be understood in the context of its substantive commercial purpose and function; that is to impose an obligation on the tenant to pay a particular sum by way of service charge, in circumstances where the landlord will in all likelihood already have incurred the costs of providing the services pursuant to its own obligations under the leases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the light of that commercial purpose and function, it is unsurprising that the certification provision limits (without ousting) the right of the tenant to dispute its liability to pay certified service charge. The tenant can raise the permitted defences, but not other defences. This accords with the commercial reality that it would clearly be highly disadvantageous for a landlord to incur substantial costs in servicing the premises and then be compelled to litigate for months or years against its tenant (or tenants) to recover those costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">S&amp;H&#8217;s interpretation of the certification provision gives full force to that provision&#8217;s ordinary and natural meaning. It also accords with commercial logic. By contrast, Blacks&#8217; suggested interpretation does not do so, since: (i) it would render the phrase &#8220;and<span style="font-weight:bold"/>the sum payable by the tenant&#8221;<span style="font-style:italic"/>mere surplusage; (ii) it would render the certificates inconclusive as to the substantive function and purpose of the certification provision (which is to impose an obligation on the tenant to pay a particular sum by way of service charge), and (iii) it would denude of meaning the saving in the certification provision for the permitted defences. If Blacks were permitted to take any and all points arguably open to it to challenge a claim for service charge, there would seem no point in the leases specifically reserving the permitted defences at all and they would be rendered surplusage. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">Conclusion as to interpretation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Both parties referred to various authorities which were relied on by analogy to support the interpretation contended for. Those cases concerned different contracts and contexts and are of little assistance in determining the correct interpretation of the wording of these particular leases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I agree with the Court of Appeal that the natural and ordinary meaning of the certification provision supports S&amp;H&#8217;s case. Whilst Blacks has provided powerful reasons as to why its interpretation should be preferred, the fundamental difficulty it faces is the need to give meaning and effect to the words &#8220;and the sum payable by the tenant&#8221;. The certificate is stated to be conclusive both as to the &#8220;amount of the total cost&#8221; and as to &#8220;the sum payable by the tenant&#8221;. On Blacks&#8217; interpretation it is only conclusive as to the former.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is, moreover, force in S&amp;H&#8217;s submission that allowing Blacks to challenge payment of the service charge undermines the commercial purpose of enabling the landlord to recover the costs and expenses it has incurred without significant delay or dispute. This is the evident aim of a contractual scheme of conclusive certification subject to only limited permitted defences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the other hand, there is substance in Blacks&#8217; contention that S&amp;H&#8217;s interpretation is inconsistent with other provisions of the lease and the internal context of the contract. In particular, it does not fit well with the detailed dispute mechanism provided for in relation to the proportion adjustment, as to which the certificate is not &#8220;conclusive&#8221;, nor with the lengthy inspection rights given under paras 8 and 11 of Part I of Schedule 6. Moreover, any manifest or mathematical error will be discoverable under a para 8 inspection, so, on S&amp;H&#8217;s case, the only purpose of having the more detailed inspection rights under para 11 is for the rare case of fraud. There is also considerable force in Blacks&#8217; case that in circumstances where there are so many potentially arguable issues which may arise, in relation to both out-of-scope costs and excluded costs, it would be most surprising for the parties to agree that they could be determined conclusively by the landlord without representation or recourse, including in relation to issues as to the landlord&#8217;s own negligence. Further, there may be issues which the tenant can only raise at a later stage, such as in relation to insurer or third party recoveries. It is well established that in interpreting a contract one starts with the presumption that neither party intends to abandon any remedies which arise by operation of law and that clear words are necessary to do so &#8211; see, for example, <span style="font-style:italic">Gilbert-Ash (Northern) Ltd v Modern Engineering (Bristol) Ltd </span><ref href="#" uk:canonical="[1974] AC 689" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] AC 689</ref>, 717, per Lord Diplock.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Adopting an iterative approach, neither party&#8217;s interpretation is satisfactory. S&amp;H&#8217;s case fits well with the wording of the certification provision but not the wider contractual context. It suits the landlord&#8217;s commercial purpose but produces surprising and uncommercial consequences. Subject only to the permitted defences, it is a &#8220;pay now, argue never&#8221; regime. Conversely, Black&#8217;s case is supported by the internal context of the contract but not the certification of the &#8220;sum payable by the tenant&#8221;. It avoids the uncommercial consequences of S&amp;H&#8217;s interpretation but undermines the landlord&#8217;s need for reimbursement of costs and expenses incurred with minimal delay and dispute. It is an &#8220;argue now, pay later&#8221; regime.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is, however, an alternative interpretation that avoids all these difficulties. It gives effect to the words &#8220;sum payable by the tenant&#8221;, it protects the landlord&#8217;s cashflow concerns, but it also allows the tenant to contest arguable claims as to service charge liability and avoids the contextual inconsistencies and uncommercial consequences of being unable to do. It fits the wording of the leases and meets checks against the other provisions of the contract and investigation of its implications and consequences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> That interpretation is that the landlord&#8217;s certificate is indeed conclusive as to what is required to be paid under the Schedule 6 regime, subject only to the permitted defences. Under para 5 of Part I of Schedule 6 the balancing payment relates to the certified sum &#8211; &#8220;the sum payable by virtue of such certificate&#8221;. No set off is allowed against the sum so certified, save in relation to the permitted defences. The landlord is thereby assured of payment of the service charge without protracted delay or dispute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Payment of the certified sum does not, however, preclude the tenant from thereafter disputing liability for that payment. This gives full effect to the tenant&#8217;s inspection rights under paras 8 and 11 of Part 1 of Schedule 6 and any arguable disputes identified thereby. It entitles the tenant to raise and pursue arguable claims as to out-of-scope costs or excluded costs, including claims only discoverable at a later date, consistently with the tenant&#8217;s right to bring a later claim in relation to the proportion adjustment. The burden will, however, be on the tenant to pursue and establish any such claims. The landlord&#8217;s cashflow position is therefore protected, whilst the tenant is not deprived of the possibility of pursuing arguable claims.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On this interpretation, the certificate in para 3 of Schedule 6 functions within the lease in the context of that Schedule. Its role is to establish what service charge sum should be paid on a particular date. It is not addressing the working out of the parties&#8217; rights and obligations as generally set out in the lease, not just in Schedule 6. The conclusivity of the certificate is directed to the payment mechanism in Schedule 6 and is given full effect in that context, and there is no need to give it any wider effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This interpretation accords with the language of the lease because although para 3 states that the certificate shall be &#8220;conclusive&#8221;, it does not state how it is to be conclusive. It may be conclusive as to the requirement to make payment on a particular date under Schedule 6, or it may be conclusive as to underlying liability for the service charge under the lease generally. The document inspection provisions in paras 8 and 11 of Schedule 6 indicate that it is the former. It is clear, moreover, that the word &#8220;conclusive&#8221; cannot be read completely literally as it is not conclusive as to the proportion adjustment. This is not apparent from the terms of para 3, but becomes so when one reads it in its wider contractual context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Such an interpretation provides real benefit to the landlord not only in terms of cashflow but also because, from the landlord&#8217;s perspective, there is a world of difference between the tenant being able to hold up payment whenever charges are disputed and the tenant being required to pay first and then to have to take the initiative to initiate and establish a claim. This is illustrated by the facts of this case in which the principal issue between the parties has been entitlement to summary judgment. No such issue arises on this interpretation. The landlord would be entitled to summary judgment for the certified sum (subject to the permitted defences) but at the same time the tenant&#8217;s right to bring arguable counterclaims thereafter is protected.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The ability of the tenant to bring arguable counterclaims is not precluded by the no set-off provision. The purpose of that provision is to prevent the tenant from holding up payment by the assertion of disputed claims. It is directed to counterclaims which seek to obstruct the right to payment of that part of the rent represented by the certified service charge, as required under Part I of Schedule 6. It bars any counterclaim which is relied on as a basis for set off. It also means that any application for a stay of the claim for payment pending resolution of the counterclaim is most unlikely to be granted &#8211; see, for example, <span style="font-style:italic">Continental Illinois National Bank &amp; Trust Co of Chicago v Papanicolaou (The Fedora, The Tatiana and The Eretrea II)</span> <ref href="#" uk:canonical="[1986] 2 Lloyd's Rep 441" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] 2 Lloyd&#8217;s Rep 441</ref>, 445 (per Parker LJ). The clause does not, however, extinguish the right to bring a counterclaim. Much clearer language would be required to have that drastic effect. As was held in relation to the no set-off provision in <span style="font-style:italic">The Fedora, </span>&#8220;these clauses do not touch liability&#8221; (at p 444).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In summary, the certification provision should be interpreted as being conclusive as to the service charge &#8220;sum payable by the tenant&#8221; but not as to the underlying liability for the service charge. The tenant is entitled to bring a claim seeking repayment of a cost which it is contended had been improperly charged. It is a form of &#8220;pay now, argue later&#8221; provision, a contractual arrangement which is commonly found. Adopting an iterative approach, this interpretation is consistent with the contractual wording, it enables all the provisions of the leases to fit and work together satisfactorily and it avoids surprising implications and uncommercial consequences.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons set out above, the Court of Appeal was right to enter summary judgment for S&amp;H. That does not, however, preclude Blacks from pursuing its counterclaim.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD Briggs (<span style="text-transform:none">dissenting</span>): </p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I would, not without some regret, have dismissed this appeal in its entirety. Since I am alone in reaching this conclusion, and this is a question of construction of a particular lease (even though focussed upon a frequently used phrase), I will state my reasons as briefly as I can. I need add nothing to Lord Hamblen&#8217;s account of the relevant background, the terms of the lease, the conclusions of the courts below or the submissions of the parties. Nor do I take issue with his conclusions as to the general meaning (subject always to context) of &#8220;manifest error&#8221;, or the now well-settled principles regulating the construction of commercial documents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I am also at one with Lord Hamblen that the rival contentions put forward by the parties as to the meaning of the provisions in the lease as to liability to pay service charges both cause the court to wish to look for some alternative construction (to either of those put forward) because they each in different ways lead to results which make less than complete commercial sense. The construction advanced by S&amp;H deprives the tenant of recourse to the courts on important matters of potential dispute, save under narrowly framed permitted grounds, and leaves the landlord as judge in its own cause on the remainder. Conversely Blacks&#8217; construction (which Lord Hamblen aptly summarises as &#8220;argue now, pay later&#8221;) deprives the landlord of the intended benefit of preserving its cash flow from the serious inroads inherent in having to pay for services up front while only recovering full payment after potentially lengthy dispute. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Hamblen&#8217;s alternative construction neatly avoids both the Scylla and the Charybdis of the parties&#8217; alternative constructions. It might be said that a &#8220;pay now, argue later&#8221; regime is the plainly commercial solution which reconciles the parties&#8217; opposing interests in relation to the proper determination and prompt payment of service charges. It is precisely the commercial alternative construction to which a court would be happy to be driven, where the plain meaning of the words (which as Lord Hamblen acknowledges favours S&amp;H) appears uncommercial, and where the only competing construction proffered is also uncommercial, albeit for different reasons. But it is well-settled that the uncommerciality of the prima facie meaning of contractual words only yields to a more commercial alternative if there is some basis in the language of the contract as a peg upon which that alternative can properly be hung: see per Lord Hodge in <span style="font-style:italic">Arnold v Britton</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/36" uk:canonical="[2015] UKSC 36" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 36</ref>; <ref href="#" uk:canonical="[2015] AC 1619" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 1619</ref> at para 77:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220; &#8230; there must be a basis in the words used and the factual matrix for identifying a rival meaning. The role of the construct, the reasonable person, is to ascertain objectively, and with the benefit of the relevant background knowledge, the meaning of the words which the parties used. The construct is not there to re-write the parties&#8217; agreement &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">The court does not in such circumstances have carte blanche simply to make up a solution of its own. It must choose between genuinely available constructions, rather than mending the parties&#8217; bargain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">My difficulty with the &#8220;pay now, argue later&#8221; solution which Lord Hamblen proposes (and with which my other colleagues agree) is that I can discern no warrant for it at all in the lease. Furthermore it is a solution which, if desired by the parties, they could so easily have provided in clear terms. It assumes that paras 3 and 5 of Schedule 6 (which provide for the conclusive certificate of what the tenant has to pay and the adjustment to earlier payments on account by a further payment by the tenant or allowance by the landlord) are just mechanisms to preserve the landlord&#8217;s interim cash flow, and say nothing about the final service charge liability of the tenant for the relevant year, if the tenant disputes it on any ground. It assumes that the lease creates a separate underlying liability to pay service charges which is untouched (in terms of finality) by those paragraphs. In my view the whole structure of the service charge regime in the lease, as well as the ordinary meaning of the words used, is irreconcilable with that interpretation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> The starting point is to be found in clause 3.1(a) of the lease. It is a covenant by the tenant:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;to pay the yearly rent reserved by this lease at the times and in the manner required under clause 2.3&#8221; without set-off. </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumberApproved">The yearly rent includes, under clause 2.3(d):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the Service Charge calculated and payable at the times and in accordance with Schedule 6&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Although &#8220;Service Charge&#8221; with its title case appears to import a definition, the text of Schedule 6 is the only place where it is defined or explained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The point is that the whole of the tenant&#8217;s liability to pay rent by way of Service Charge is contained (apart from in clause 3.1(a) and 2.3(d)) in Schedule 6, and nowhere else. That schedule is about liability, not just a mechanism for the discharge of a liability provided for elsewhere. Within Schedule 6, the liabilities are first to make payments on account against the landlord&#8217;s estimate for the year in question (para 4) and then to make any required balancing payment on the quarter day after receipt of the conclusive certificate (para 5). Furthermore, since Schedule 6 is about liability as much as about the mechanism for payment, the phrase &#8220;shall be conclusive&#8221; at the end of para 3 is therefore also necessarily about liability. It means &#8220;conclusive as to liability&#8221; for the sum payable by the tenant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I have been unable to find any peg, within the language of the lease, upon which to hang the construction that &#8220;shall be conclusive&#8221; at the end of para 3 means only conclusive as to the requirement to make a balancing payment on the next quarter day following the furnishing of the certificate, but leaving ultimate liability up for grabs, if disputed on any ground. Nor does the combination of paras 3 and 5 appear to have any primary cash-flow protection purpose, as opposed to a &#8220;conclusive as to liability&#8221; purpose. Rather, the landlord&#8217;s cash flow is protected by the provisions in para 4 for payment on account by the tenant against the landlord&#8217;s written estimate of the Service Charge. The tenant will by the end of the relevant service charge year have paid 100% of that estimate, in 4 quarterly instalments, and the corrective amount called for by para 5 (on the later quarter day following the furnishing of the certificate) is as likely to be an allowance by the landlord as a further payment by the tenant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Hamblen supports his preferred construction by the observation that, taking it as a whole, the lease contains provisions which point both towards and away from the S&amp;H construction favoured by the Court of Appeal. The provisions which point towards it need no repetition, and I agree that they clearly do. But I respectfully disagree that other provisions of the lease point away from it. The candidates are (i) the provision for expert determination of the proportion adjustment, (ii) the tenant&#8217;s rights to inspect documents under paras 8 and 11 of Schedule 6 and (iii) the inclusion within the service charge formula of numerous items (such as out-of-scope and excluded costs) likely to give rise to dispute, but outwith the availability of the permitted defences. I will briefly take them in turn.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I cannot see any reason why the provision for expert determination of one particular item in the formula (apportionment) should be thought to point away from para 3 providing that all other items are to be finally determined by the landlord&#8217;s certificate, subject only to the permitted defences. Expert determination is itself a mode of dispute resolution that may bar access to the courts, and it may well be that reasonable parties could regard its subject matter as worthy of specific provision, because of the propensity for apportionment issues to affect a number of service charge years, rather than just one of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Nor can I see why the provision for inspection of the landlord&#8217;s documents by the tenant in paras 8 and 11 of Schedule 6 should point away from treating the conclusive certification provision in para 3 as meaning what it says. The permitted defences include manifest or mathematical error and it is hard to see how the tenant could have a prospect of relying on either of them, let alone fraud, without some reasonable provision for access to the relevant documents of the landlord. And it is unsurprising that the right to do so should extend beyond the quarter day following the provision of the certificate. It is in fact a slight misnomer to label them &#8220;permitted defences&#8221; rather than permitted grounds for challenging the certificate. This is because a tenant will generally have paid the year&#8217;s service charge in full (but on account) before the certificate is received, and the dispute may be as much about the amount of an allowance for the tenant as about a liability to make a further payment to the landlord, under para 5. The point is that there is nothing inconsistent with the S&amp;H construction (certificate conclusive subject to permitted grounds for challenge) for the essential facilities for inspection of documents to last well beyond the quarter day after the furnishing of the certificate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is clear that the calculation of the Service Charge under this lease involves numerous items which would not usually be amenable to challenge by means of the permitted grounds. But this does not seem to me to point significantly away from a construction under which they were not to become the subject of litigation save in clear cases, where the error was &#8220;manifest&#8221; ie beyond argument. The fact that these possibilities were highlighted by the detailed provisions about excluded costs does not seem to me to add a linguistic basis for treating &#8220;conclusive save on permitted grounds&#8221; as about liability as if it were contrary to the express terms of the lease. Disputes about items of this kind are inherent in service charge regimes, and commonly give rise to complex litigation where the cost and expense is disproportionate to the amount at stake. It is not at all uncommercial that the landlord should have wished, and insisted, on limiting the available grounds for such disproportionate litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The result is that, perhaps unlike the majority, I approach this question like the Court of Appeal on the basis that the ordinary meaning of the words of this lease clearly point to the construction advanced by S&amp;H, unless some other construction can be found which mitigates or removes the one-sided conferring upon the landlord of conclusive certification powers about a wide range of potential service charge disputes, subject only to narrow grounds of challenge which will not avail at all in relation to some of them. I agree that Blacks&#8217; construction fails to do so without defeating one of the main supposed purposes of certification. And it finds no support from the language of the lease.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">But I consider that the &#8220;pay now, argue later&#8221; solution does not do so either. It is not a construction thus far identified by any of the courts below, or proposed by either of the parties. It is an imaginative creation which the parties could sensibly have agreed to meet most of their respective concerns. But in my view it is not to be derived by any process of construction of the terms of Schedule 6 actually agreed. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+	<doc name="annex">
+	  <meta>
+	    <identification source="#tna">
+	      <FRBRWork>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/2/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/2"/>
+		<FRBRdate date="2023-01-18" name="judgment"/>
+		<FRBRauthor href="#uksc"/>
+		<FRBRcountry value="GB-UKM"/>
+	      </FRBRWork>
+	      <FRBRExpression>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2"/>
+		<FRBRdate date="2023-01-18" name="judgment"/>
+		<FRBRauthor href="#uksc"/>
+		<FRBRlanguage language="eng"/>
+	      </FRBRExpression>
+	      <FRBRManifestation>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2/annex/1/data.xml"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/2/data.xml"/>
+		<FRBRdate date="2024-11-09T06:33:43" name="transform"/>
+		<FRBRauthor href="#tna"/>
+		<FRBRformat value="application/xml"/>
+	      </FRBRManifestation>
+	    </identification>
+	  </meta>
+	  <mainBody>
+	    <p class="ParaHeading1" style="text-align:center">APPENDIX</p>
+	    <p class="ParaHeading1" style="text-align:center">&#8220;Schedule 6<br/>SERVICE CHARGE</p>
+	    <p class="Paraheading2">Part 1</p>
+	    <blockContainer>
+	      <num style="font-size:13pt">1.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">There shall be calculated by the landlord as soon as practicable after the 31</span><span style="vertical-align:super;font-size:13pt">st</span><span style="font-size:13pt"> day of December in each year the total reasonable and proper cost to the landlord during the calendar year ending on such 31</span><span style="vertical-align:super;font-size:13pt">st</span><span style="font-size:13pt"> day of December of the services and expenses specified in Part II of this Schedule (excluding costs and expenses met by the insurers under the policy of insurance effected by the landlord hereinbefore mentioned)</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">2.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">The further rent payable by the tenant shall be a sum equal to a fair and reasonable proportion of such total cost of the service and expenses specified in Part II of this Schedule and in the event of the Term commencing or determining during the course of the calendar year in question a corresponding proportion of such sum.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">3.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">The landlord shall on each occasion furnish to the tenant as soon as practicable after such total cost and the sum payable by the tenant shall have been ascertained a certificate as to the amount of the total cost and the sum payable by the tenant and in the absence of manifest or mathematical error or fraud such certificate shall be conclusive.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">4.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">The tenant shall pay to the landlord on account of the said further rent on the execution hereof and on each succeeding quarter day until the first certificate by the landlord shall have been furnished to the tenant as hereinbefore provided such sum as shall be notified by the landlord to the tenant in writing and thereafter on each succeeding quarter day a sum equal to one quarter of the sum estimated by the landlord as being the Service Charge for the year in question.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">5.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">As soon as the certificate of the landlord for the year in question shall have been furnished the landlord shall apply any sums paid on account of the further rent and not previously so applied by virtue of this present provision in or towards discharge of the liability of the tenant in respect of such further rent and on the quarter day next following the furnishing of such certificate any difference between the sums paid on account and the sum payable by virtue of such certificate shall be adjusted by payment by the tenant or allowance by the landlord as the circumstances shall require.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">6.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">The contribution payable by the tenant of the total costs of the services and expenses incurred by the landlord hereunder shall be the proportion which the net internal area of the demised premises bears to the net internal area of the aggregate of all areas of the building which are let or intend to be let and any dispute between the parties as to the proportion shall be determined by expert determination.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">7.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">The landlord shall place any sums that are properly applicable to the cost of the services and expenses incurred by the landlord in any year in a separate interest-bearing account or accounts until they are needed to meet those costs and any interest earned on that account shall be applied to the monies on that account on regular rests throughout the year.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">8.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">For a period of twelve (12) months after the receipt by the tenant of the certificate referred to above the landlord will make available all receipts or invoices or other such satisfactory evidence (and any related correspondence) evidencing the total costs of the services and expenses incurred by the landlord under this schedule and evidencing the contribution to such payable by the tenant on request by the tenant.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">9.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">There shall be excluded from the contribution payable by the tenant in respect of the total cost of the services and expenses incurred by the landlord hereunder any Excluded Costs.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">For the purposes of the preceding sub-paragraph Excluded Costs means any costs or expenditure incurred by the landlord;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.1</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">in respect of any part of the building for which the tenant or any other tenant is wholly responsible including for the avoidance of any doubt any area or areas intended for separate letting by the landlord (whether occupied or not);</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.2</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">that the landlord recovers or that is met under any insurance policy maintained by it (save for any excess) pursuant to its obligations in this lease or that it recovers in whole or in part from any person other than the tenant or any other tenant of the building;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.3</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">caused or necessitated by the negligence of the landlord or its servants;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.4</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">of or incidental to the recovery of the yearly rent or other sums reserved as rent or any other sums payable hereunder due from the tenant and occupiers of the building or for or incidental to enforcing covenants against such tenants or occupiers or in relation to negotiations or settlements of any rent review (including a rent review under the provisions of this lease) or in relation to the letting sale or other disposition of the building or any part;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.5</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">in respect of any adoption costs or charges arising from the adoption of any roads or service media (including any works required to enable such adoption); or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.6</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">for the provision of any apparatus or works incurred before the date of this lease; or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.7</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">the cost of any improvement, modernisation or refurbishment (but not the cost of repair (which shall include, where the repair is not economically viable, replacement with a material or product of a similar specification) and not the cost of maintenance (which shall be included)) of any part of the demised premises and /or the building); or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">10.8</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:13pt">any part of the cost of the initial construction, equipping and fitting out of any part of the building and/or the demised premises and the initial provision of any of the services or items required for such provision.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-size:13pt">11.</num>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-size:13pt">The landlord shall keep proper books and records of the service costs and the tenant or its authorised representative shall be entitled to inspect the books, records, invoices and accounts relating to the same included in the service charge certificate for the period of 3 months from the date of the relevant statement during normal office hours at the offices of the landlord or (if the landlord so elects) at the office of the landlord&#8217;s surveyor upon not less than 5 working days&#8217; prior notice provided that the proper and reasonable cost to providing any copies of invoices and other documents which the tenant may request shall be paid by the tenant.&#8221;</span></p>
+	    </blockContainer>
+	  </mainBody>
+	</doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

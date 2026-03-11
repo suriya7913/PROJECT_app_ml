@@ -1,0 +1,861 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/7"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="7"/>
+	  <FRBRname value="Sharp Corp Limited v Viterra BV (previously known as Glencore Agriculture BV)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/7"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/7/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/7/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:13:16" name="transform"/>
+	  <FRBRdate date="2024-11-14T02:15:43" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sharp-corp-limited" href="" showAs="SHARP CORP LIMITED"/>
+	<TLCPerson eId="viterra-bv" href="" showAs="VITERRA B.V."/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lady-justice-asplin" href="/judge-lady-justice-asplin" showAs="LADY JUSTICE ASPLIN"/>
+	<TLCPerson eId="judge-lord-justice-phillips" href="/judge-lord-justice-phillips" showAs="LORD JUSTICE PHILLIPS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>7</uk:number>
+	<uk:cite>[2023] EWCA Civ 7</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>555539fe700e5e714a2922a699a356484bf2db76cfc33420e73b6b65d1130e01</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-weight: bold; font-size: 14pt; }
+#judgment .Heading5 { font-style: italic; font-weight: bold; font-size: 13pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.49in; font-size: 12pt; }
+#judgment .ColorfulList-Accent11 { margin-left: 0.49in; font-size: 12pt; }
+#judgment .xmsolistparagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Heading2Char { font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4Char { font-weight: bold; font-size: 14pt; }
+#judgment .Heading5Char { font-style: italic; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .FooterChar1 { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .coothersearchterm { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.6pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWCA Civ 7</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2022-000629</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS OF ENGLAND</p>
+      <p class="CoverMain">AND WALES COMMERCIAL COURT (KBD)</p>
+      <p class="CoverMain">Mrs Justice Cockerill</p>
+      <p class="CoverMain"><neutralCitation>[2022] EWHC 354 (Comm)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-01-11" refersTo="#judgment">11/01/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-asplin">LADY JUSTICE ASPLIN</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE POPPLEWELL<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-phillips">LORD JUSTICE PHILLIPS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#sharp-corp-limited" style="font-weight:bold">SHARP CORP LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#viterra-bv" style="font-weight:bold">VITERRA B.V.</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(PREVIOUSLY KNOWN AS GLENCORE AGRICULTURE B.V.)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Chirag Karia KC</span> (instructed by <span style="font-weight:bold">Zaiwalla &amp; Co Ltd</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Michael Collett KC and Talia Zybutz </span>(instructed by<span style="font-weight:bold"> Reed Smith LLP</span>)<span style="font-weight:bold"/>for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 23-24 November, 19 December 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 2:00pm on 11 January 2023 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Popplewell :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold">Introduction</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">This is an appeal arising from two amended arbitration awards of the same five member GAFTA Appeal Board dated 1 April 2021 (collectively, &#8216;the Awards&#8217;), by which it awarded damages to the sellers of two cargoes, one of lentils and one of peas, for the buyers&#8217; default following delivery to Mundra, a privately owned port in Gujarat state in the north west of India.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Jacobs J granted the buyers leave to appeal pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/69" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 69</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> on the following question of law arising from the Awards:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.93in">&#8220;Where goods sold C&amp;F free out are located at their discharge port on the date of the buyer&#8217;s default, is &#8220;the actual or estimated value of the goods, on the date of default&#8221; under sub-clause (c) of the GAFTA Default Clause to be assessed by reference to </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.18in;text-indent:-0.25in">A)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in">the market value of goods at that discharge port (where they are located on the date of default); or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.18in;text-indent:-0.25in">B)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in">the theoretical cost on the date of default of (i) buying those goods FOB at the original port of shipment plus (ii) the market freight rate for transporting the goods from that port to the discharge port free out?&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The appeal was heard and dismissed by Cockerill J, who nevertheless granted permission to appeal to this court.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">4.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.64in">The defendant was formerly called Glencore Agriculture BV, and is a Dutch company in the well-known Glencore group engaged in international commodity trading.  I shall refer to them as &#8216;the Sellers&#8217;.  The claimant is an Indian company engaged at the material time in the business of sale and distribution of pulses in the Indian market.  I shall refer to them as &#8216;the Buyers&#8217;.  The cargoes with which this appeal is concerned were two of a larger number of cargoes which had been sold by Glencore group companies to the Buyers as part of a continuing trading relationship between them.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.64in"><span style="font-weight:bold">The facts</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The following facts are taken from the Awards.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The two contracts were dated 20 January 2017 and were in identical terms save as to quantity, price and commodity.  The lentils contract was for 20,000 mt of Canadian Crimson Lentils of Canadian origin in bulk, +/- 5 % at the Sellers&#8217; option, at US$600 per mt C&amp;F free out Mundra.  The peas contract was for 45,000 mt of Canadian Yellow Peas of Canadian origin, +/-5% at the Sellers&#8217; option, at US$339 per mt C&amp;F free out Mundra.  Payment under each contract was to be either by letter of credit against documents at sight, or by cash against documents (&#8216;CAD&#8217;) at the Buyers&#8217; option.  If the CAD option were exercised, payment was to be made 5 days prior to the vessel&#8217;s arrival at the discharge port, against presentation at the Buyers&#8217; bank of freight prepaid bills of lading made out to order and endorsed in blank with the Buyers as the notify party, together with commercial invoice and other specified documents evidencing the origin and quality of the goods.  Each contract had a bespoke &#8220;Non Payment Clause&#8221; which provided, amongst other things, that in the event of non-payment, the Buyers agreed to the Sellers reselling or transferring the goods to a new buyer, and would extend full cooperation to the Sellers by way of providing documents and authorisation to the authorities concerned to enable changes to the buyers&#8217; details accordingly.  &#8220;Free out&#8221; connotes that the entire costs of discharge are for buyer&#8217;s account (as distinct from a C&amp;F contract simpliciter in which the seller bears the cost of discharge from hold to the ship&#8217;s rail) as was confirmed by the express terms of the contracts.   Demurrage was to be for the Buyers&#8217; account.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Each contract provided that all terms and conditions not conflicting with the express terms of the contracts should be as per GAFTA Contract No 24.  GAFTA Contract No 24 has a default clause at Clause 25 which is common to many of the GAFTA standard contract forms.  So far as material it provides as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;25.</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1.04in;text-indent:0.61in"><span style="font-weight:bold">DEFAULT</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.18in;text-indent:0.04in">In default of fulfilment of contract by either party, the following provisions shall apply:</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.18in">[a] The party other than the defaulter shall, at their discretion have the right, after serving a notice on the defaulter to sell or purchase, as the case may be, against the defaulter, and such sale or purchase shall establish the default price.</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.18in;text-indent:0.04in">[b] If either party be dissatisfied with such default price or if the right at [a] is not exercised and damages cannot be mutually agreed, then the assessment of damages shall be settled by arbitration.</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.18in;text-indent:0.04in">[c] The damages payable shall be based on, but not limited to, the difference between the contract price of the goods and either the default price established under [a] above or upon the actual or estimated value of the goods, on the date of default, established under [b] above.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 26 April 2017 the Sellers nominated the vessel RB LEAH (&#8216;the Vessel&#8217;) under both contracts and sought the Buyers&#8217; declaration of payment method.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 10 May 2017 the Sellers shipped 21,000 mt of lentils and 47,250 of peas on the Vessel under bills of lading numbered 1-14.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 18 May 2017 the Buyers declared CAD as the payment option for both the cargoes. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 30 and 31 May 2017 the Sellers sent the original shipping documents to their own bank for prompt onward presentation to the Buyers&#8217; bank.  Copy documents were provided directly to the Buyers the same day.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Buyers did not pay for the goods 5 days before arrival of the Vessel at Mundra.  On 16 June 2017, 3 days before the ETA of Vessel at Mundra, the Buyers sent an email proposing payment by the end of July, paying 4% interest, with discharge of the goods without presentation of the bills of lading against a letter of indemnity. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The vessel arrived at Mundra on 19 June 2017.  It appears from a message sent by the Buyers on that day that the Sellers agreed to accommodate the discharge of the cargo with a letter of indemnity in place of presentation of original bills of lading, as they had on a previous cargo.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The cargoes were granted customs clearance on 20 June 2017.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 23 June 2017, pursuant to a request from the Sellers the previous day, the Buyers sent a letter addressed to the Sellers which is described in the Awards as a letter of indemnity.  It is not clear from the Awards whether there was a single letter or one for each cargo, but nothing turns on that and I shall refer to it/them simply as &#8216;the LOI&#8217;.  It recorded the Buyers&#8217; request to the Sellers to discharge the cargo &#8220;against buyers&#8217; LOI&#8221; in order to mitigate demurrage exposure.  It listed the bill of lading details for the cargo or cargoes.   It promised payment by the end of July.   It went on:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in">&#8220;Since cargo will need to be custom cleared for shifting cargo out of port due to space shortage inside port, we hereby irrevocably and unconditionally confirm that all cargo will be discharged and stored in custody of Mundra Port and no delivery shall be taken by [the Buyers] or any party related to [the Buyers] or representing [the Buyers] or acting on behalf of [the Buyers] against above mentioned Bs/L unless written instructions are received from [the Sellers] after cargo has been made with Original Bs/L having been submitted to vessel agent.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in">We irrevocably and unconditionally confirm to comply with the above conditions and shall remain liable for all consequences for not adhering to the above.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">There is clearly something missing after the word cargo in the expression &#8220;after cargo has been made&#8221;, which might be the word &#8220;discharge&#8221; or &#8220;payment&#8221;.  I shall return to the alternative possibilities below.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The peas and lentils were accordingly discharged, and placed into storage by the Buyers in the custody of the port owners (&#8216;Adani Port&#8217;), customs cleared. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Following discussions in July and August 2017 about allowing the Buyers further time for payment for these and other cargoes purchased by the Buyers from Glencore, on 8 September 2017 the Sellers set a payment deadline for all cargoes of 30 September 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 15 September 2017 the Buyers issued &#8220;no objection&#8221; letters to the customs authorities in relation to 32,500 mt of the peas cargo, saying that they could not pay for them and had no objection if the customs clearance documents were changed into names of the Sellers&#8217; nominees.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 25 September 2017 there was a meeting between the parties in Delhi.  In relation to the 32,500 mt of the peas cargo which the Buyers said they no longer wished to take, a washout agreement was signed, terminating the peas contract to that extent, with the Buyers agreeing to pay compensation in the total sum of US$967,500 in two instalments on 1 March and 1 September 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The next day, 26 September 2017, Addenda were signed in respect of the lentils and the remaining 15,000 mt of peas, giving the Buyers further time to pay.  For the lentils it was agreed that the Buyers would pay $518 per mt, amounting to some 86% of the price, &#8220;upon signature of the amendment, to be paid latest Oct 15 2017&#8221;; and the balance in two further instalments of US$ 41 per mt on each of 1 May and 1 September 2018 against presentation of a corresponding invoice.  For the remaining 15,000 mt of peas, the payment terms were identical save as to amounts, in this case being US$309 per mt (amounting to some 91% of the price) as the first instalment and US$15 per mt on 1 May and 1 September 2018.  The Addenda listed the bill of lading numbers and quantities for each cargo and further provided: &#8220;Each bill of lading to be released after receipt of the corresponding first instalment&#8221;.  The Addenda provided that all the other terms of the contracts remained unchanged. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 13 October 2017 the Buyers said that they would not be able to make the payments when due on 15 October 2017, and now planned to make payments between 3 and 20 November 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 18 October 2017, the Sellers demanded payment by 25 October 2017 at the latest, making clear that time was of the essence and reserving the right to declare the Buyers in default if payment of the first instalment under the Addenda was not made by that date.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">No such payment was made and on 25 October 2017 the Sellers&#8217; local affiliate, Glencore India, sent the Buyers a pro forma letter for the Buyers to present to Adani Port, authorising the release of the cargo to the Sellers.  On 26 October 2017 the Buyers declined to provide such authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 8 November 2017 the Government of India imposed an import tariff on peas of 50% with immediate effect.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 9 November 2017 the Sellers declared the Buyers in default under both contracts, claiming damages, of which details would be provided in due course.  The email(s) further notified the Buyers that it was the Sellers&#8217; intention to sell the goods to a third party, and reminded the Buyers of their obligations under the Non Payment Clause to cooperate in providing documents to enable the Sellers to do so.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Buyers failed to provide authorisation for release of the goods to the Sellers and on 18 December 2017 the Sellers commenced proceedings in the High Court of Gujarat against the Buyers and Adani Port to obtain possession of the goods.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 21 December 2017, the Government of India imposed an import tariff of 30.9% on lentils with immediate effect.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 2 February 2018 the Buyers eventually agreed to release of the cargo to the Sellers, and a consent order in the Gujarat proceedings provided for the Sellers to obtain possession of the goods.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">On 7 February 2018, the Sellers sold the peas to an associated company in the Glencore group, Agricore Commodities Ltd, for US$378 per mt on terms described as C&amp;F free out.  On 9 February 2018 the lentils were sold to the same Glencore associated company for US$431 per mt on the same terms.  </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold">The Awards</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_31">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Buyers alleged that the Sellers were in breach of contract in various ways.  The Appeal Board rejected these arguments and there is no appeal from those findings.  The Appeal Board found that the Sellers had fulfilled their contractual obligations in shipping conforming goods and presenting conforming shipping documents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in"> In relation to the Sellers&#8217; claim for damages, neither party contended that the resale price to Agricore Commodities Ltd was relevant, and neither party contended that paragraph (a) of the GAFTA 24 Default Clause (&#8220;the Default Clause&#8221;) was engaged.  The Appeal Board found as follows.  Damages fell to be assessed under paragraph (c) of the Default Clause.  The Buyers were in default in failing to pay for the goods and were liable for damages for such default in accordance with the Default Clause.  The Buyers were also in breach of the Non Payment Clause in failing to cooperate to enable the Sellers to obtain release of the cargoes from the Adani Port warehouse until 2 February 2018.  Accordingly 2 February 2018 was the &#8220;date of default&#8221; for the purposes of paragraph (c) of the Default clause.  The &#8220;actual or estimated value of the goods on the date of default&#8221; for the purposes of paragraph (c) of the Default Clause was the market value of the goods C&amp;F free out Mundra in bulk on 2 February 2018.  The value of the goods on the domestic market had &#8220;undoubtedly increased&#8221; since the imposition of the import tariffs but damages were not to be assessed by reference to the internal domestic market value in India.  The Sellers had supported their case on the market value C&amp;F free out Mundra on 2 February 2018 by evidence of the market price FOB Vancouver and the market rate of freight for carriage to Mundra, in each case on or about 2 February 2018.  That gave a total of US$401.75 per mt for the lentils and US$278.75 per mt for the peas.  The Appeal Board accepted those figures as the estimated value of the goods for the purposes of paragraph (c) of the default clause, and awarded damages for the difference between that value and the contract price in the sums of US$4,163,250 (lentils) and US$903,750 (peas).  In addition, the Sellers were awarded as damages the storage costs which they had to pay to the port authority, and the legal costs of the proceedings brought to secure release of the goods.  The Board allowed the Buyers&#8217; cross claim for the costs of discharging, in the sum of US$259,814.90 on the grounds that &#8220;the goods were returned to Sellers and resold by them&#8221;.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The Judgment</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Jacobs J granted permission to appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/69" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 69</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> on the grounds that the question of law was one of general public importance and the decision open to serious doubt, but went on to say that even if he had not taken that view of public importance, he would have given permission on the grounds that the decision was obviously wrong.  In his view the Appeal Board should have valued the goods by reference to the market price at the place where the goods were on the date of default, and not by reference to the cost of a new shipment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Judge reached a different conclusion after hearing full argument.  Her reasoning can be summarised as follows, although I am no doubt failing to do it full justice by attempting the summary. The formulated issue of law masked the real economic issue in the case, which was who should benefit from the increase in value of the goods on the domestic market caused by the imposition of the import tariffs. The decision of the Supreme Court in <span style="font-style:italic">Bunge SA v Nidera BV</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/43" uk:canonical="[2015] UKSC 43" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 43</ref> <ref href="#" uk:canonical="[2015] 3 All ER 1082" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 3 All E.R. 1082</ref> [2015] 2 Lloyd's Rep. 469, on a GAFTA default clause in identical terms to that in clause 25 of GAFTA Contract 24, establishes the following.  The Default Clause addresses &#8220;the usual situation of a non-delivery or non-acceptance of goods for which there was an available market&#8221; and must not be construed so as to place the innocent party &#8220;in a far better position than if the breach had not occurred&#8221; ([61] per Lord Toulson). &#8220;Sub-clauses (a) to (c) constitute an elaborate, indeed a complete, code for determining the market price or value of the goods that either were actually purchased [or sold] by way of mitigation or might have been purchased [or sold] under a notional substitute contract&#8221; ([31] per Lord Sumption).  The second alternative, namely valuation under paragraph (c) of &#8220;the actual or estimated value of the goods, on the date of default&#8221; assumes a sale or purchase by the innocent party &#8220;under a notional substitute contract&#8221; on an available market so as to provide &#8220;a surrogate for the valuation of the contract goods&#8221; ([31] per Lord Sumption, &amp; [59] per Lord Toulson).  Paragraph (a) of the default clause required the default price to be the sale price in the market where the unaccepted goods are located on the date of default, here Mundra.  However paragraph (c) assumes a notional substitute contract on the same terms save as to price on an available market so as to provide a surrogate for the valuation of the goods.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Board was faced with imperfect alternatives on the evidence: neither party adduced evidence of C&amp;F free out Mundra prices or values, and the Appeal Board decided that the Sellers&#8217; evidence &#8220;offered the better match&#8221;.  In those circumstances it was open to question whether the point of law as formulated for the appeal arose, but since it was raised for decision, she would grapple with it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">There was obvious force in the Buyers&#8217; submissions that (i) the value of the goods at the date of default should naturally be read as their value as is where is on that date; (ii) there is an artificiality in choosing the price of a notional replacement purchase by the innocent sellers, rather than the price of a sale of the goods which are wrongfully left in the innocent sellers&#8217; hands; (iii) the Appeal Board&#8217;s approach measures cost, not value, ignoring the profit element in a C&amp;F sale/purchase; and (iv) the Board&#8217;s approach measures value, in real terms, over a month after the default date when the notional replacement goods would have arrived at Mundra.  However the methodology in paragraph (c) of the Default Clause is not the same as that in (a).  <span style="font-style:italic">Bunge v Nidera </span>provides &#8220;at the very least a strong steer&#8221; that the value is to be taken by reference to a notional substitute contract on the same terms.  None of the other authorities relied on by the Buyers afford any support for a different approach.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">One way or another, one of the parties comes away with a &#8220;windfall&#8221;.  Given that the Buyers are responsible for the problem in the first place, it cannot be said to make a nonsense of the analysis for them not to be the party who reaps the benefit of that windfall.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Board therefore made no error of law but was merely faced with two imperfect proxies for the value based on a substitute C&amp;F contract. The Sellers advanced no C&amp;F prices and sought to use an FOB price plus freight as a proxy.  From the Buyers&#8217; point of view their evidence advanced as to the price on the domestic market was rejected by the Board as imperfect because it did not identify quantities or qualities for the goods being referred to.  Had the Board had clear evidence of the value of a substitute cargo at Mundra on the date of default &#8220;there is no reason to think that they would not have accepted that&#8221;.  As it was, however, the Board did the best it could with the evidence and the argument that it made an error of law was not made out.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The Arguments</span></heading>
+	  <paragraph eId="para_39">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Before us the Buyers&#8217; argument can be summarised as follows.  As a matter of construction, paragraph (c) of the Default Clause requires valuation &#8220;as is where is&#8221; on the date of default.  In a case of a buyer&#8217;s default by non-acceptance of the goods, &#8220;the goods&#8221; in paragraph (c) means the specific goods left in the innocent seller&#8217;s hands as a result of the buyer&#8217;s breach. Paragraph (c) envisages a notional mitigation sale, just as paragraph (a) is concerned with an actual mitigation sale.  Since on the default date the peas and lentils were customs cleared in Mundra, their actual or estimated value fell to be determined by a notional sale on the domestic market in India of such goods in bulk, customs cleared. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">These conclusions are supported by the authorities, in particular <span style="font-style:italic">Aryeh v Lawrence Kostoris &amp; Son Ltd</span> <ref href="#" uk:canonical="[1967] 1 Lloyd's Rep 63" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 1 Lloyd&#8217;s Rep 63</ref>;  <span style="font-style:italic">Cerealmangimi SpA v Alfred C Toepfer (&#8220;The Eurometal&#8221;)</span> <ref href="#" uk:canonical="[1981] 1 Lloyd's Rep 337" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] 1 Lloyd&#8217;s Rep 337</ref>; and <span style="font-style:italic">Pagnan &amp; Fratelli v Lebanese Organisation for International Commerce (&#8220;The Caloric&#8221;)</span> [1981] 2 Lloyd&#8217;s Rep; <span style="font-style:italic">Bem Dis A Turk Ticaret S/A TR v International Agri Trade Co Ltd (&#8220;The Selda&#8221;)</span> <ref href="#" uk:canonical="[1999] 1 Lloyd's Rep 729" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 Lloyd&#8217;s Rep 729</ref>; and by the dicta in <span style="font-style:italic">Bunge v Nidera</span> about a notional substitute contract, which support the Buyers&#8217; argument rather than the conclusion of the Judge.  The notional contract must be a notional sale by the innocent party to an alternative buyer of the specific ascertained goods wrongfully left in its hands. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">This is reinforced by the terms of the Non Payment Clause which expressly contemplates that upon non-payment/non-acceptance, the Sellers&#8217; remedy will be by way of a sale of the goods where they are. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Moreover, the logic of the Board taking the default date as the date on which the goods were first available to the Sellers for resale is that such a resale is to be used to measure their loss arising from the default.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The measure of loss adopted by the Board was wrong because it measured cost not value.  In order to use cost as a proxy, it would be necessary to factor in the increase to the price so obtained to reflect (a) an element of profit for the seller and (b) the fact that these goods in the hands of the Sellers were more valuable than goods received C&amp;F free out Mundra because they were customs cleared.    Moreover, the Board&#8217;s method did not measure value on the default date but, at best, over a month later when goods purchased by such method would have arrived in Mundra.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">There was no place for the Judge&#8217;s &#8220;windfall&#8221; analysis in the assessment of damages.  Damages are compensatory, and the Buyers would not receive a &#8220;windfall&#8221; if the effect of the tariff impositions was that the Sellers&#8217; loss was reduced by the date at which damages fell to be assessed, any more than if the value had increased as a result of other market factors.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Sellers&#8217; arguments can be summarised as follows.  There was no error of law in the Board&#8217;s conclusion that the actual or estimated value of the goods on the date of default was the market value of the goods C&amp;F free out Mundra in bulk on or about the date of default.  A C&amp;F contract is a contract for the sale of documents representing the goods; neither party was obliged to import or procure the import of goods into India (<span style="font-style:italic">Bangladesh Export Import Co Ltd v Sucden Kerry SA</span> <ref href="#" uk:canonical="[1995] 2 Lloyd's Rep 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 2 Lloyd&#8217;s Rep 1</ref>).  The common law measure of damages for non-acceptance under <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">Sale of Goods Act 1979</ref> where there is an available market is the &#8220;current or market price at the time when the goods ought to have been accepted&#8230;&#8221; and such market or current price is based on a notional substitute contract entered into on the same terms as the unfulfilled contract save as to price.   The words &#8220;actual or estimated value of the goods&#8221; in paragraph (c) of the Default Clause cover the same territory as <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">the 1979 Act</ref> but do not cover every other consideration which may be relevant to determine the injured party&#8217;s loss (per Lord Sumption at [32] of <span style="font-style:italic">Bunge v Nidera</span>).  In this case the Buyers did not seek to argue that the increase in the value of the goods as a result of the customs clearance and imposition of tariffs fell to be taken into account outside the mechanism of paragraph (c), and the normal paragraph (c) and common law value is to be taken, namely on the basis of a notional substitute contract on identical terms save as to price.  This was the legal test applied by the Appeal Board who made no error of law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The Board&#8217;s finding as to that value cannot properly be challenged.  It cannot be challenged on the basis that the Board was wrong to reach the factual conclusion on the evidence; it can only be challenged if the heavy burden is discharged of showing that there must have been a failure to apply the correct test because the conclusion is necessarily inconsistent with the application of the correct legal test: <span style="font-style:italic">Sylvia Shipping Co Ltd v Progress Bulk Carriers Ltd (&#8220;The Sylvia&#8221;)  </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2010/542" uk:canonical="[2010] EWHC 542 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWHC 542 (Comm)</ref> <ref href="#" uk:canonical="[2010] 2 Lloyd's Rep 81" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 Lloyd&#8217;s Rep 81</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold">Analysis</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_3_2">
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic">The Question of Law</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_47">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The question of law as framed, for which leave to appeal was given, might at first sight appear to ask an entirely theoretical question about C&amp;F contracts generically, without reference to the facts of this case.  If so understood, it is perplexing, because in a typical C&amp;F contract the buyers will have to pay for and take up the documents before discharge.  That is so because one of the documents will be the original bill of lading which the vessel will require to be presented by the buyers as a condition of permitting the buyers to take delivery from the vessel.  The reference to &#8220;goods located at their discharge port&#8221; in the question as framed would therefore be confined to goods on the vessel at the discharge port prior to discharge.  The Buyers&#8217; argument, however, and the argument before the Judge, proceeded on the basis of the facts of this case, as found by the Board, involving the goods having been discharged pursuant to the LOI and being customs cleared and stored in a warehouse at the date of default.  In the course of argument, I suggested that the framed question of law was to be understood as asking what the proper measure of damages was under paragraph (c) of the Default Clause in the factual circumstances as found by the Board.  Mr Karia KC, after some hesitation, agreed.  Mr Collett KC disagreed and submitted that it was a pure question of law premised on a C&amp;F contract; and that in the absence of any application to amend, that was the question, and the only question, which fell to be resolved on the appeal.   This dispute assumes considerable significance in the context of what I have concluded is the issue at the heart of this case, which is whether the contract between the parties at the default date, amended as it was by the LOI and Addenda, is the contract to which the proper measure of damage under paragraph (c) of the Default Clause must be applied.  I shall return to the dispute as to the scope of the question of law for which leave to appeal was granted below.  Before doing so it is necessary to address first the correct interpretation of paragraph (c) of the Default Clause and secondly the nature of the contractual bargain between the parties on the default date, on the facts found by the Appeal Board.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_3">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-style:italic">Construction of paragraph (c) of the Default Clause.</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_48">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">I start by considering the assistance which is to be derived from the decision of the Supreme Court in <span style="font-style:italic">Bunge v Nidera</span>.  The claim in that case was by a buyer for damages caused by a seller&#8217;s anticipatory breach in cancelling an FOB contract which incorporated a GAFTA default clause in materially the same terms as that in the present case.  The anticipatory breach consisted of cancelling the contract at a time when it was not certain that a prohibition on export from the loading port would persist so as to prevent performance at the end of the performance window.  However, the prohibition did in fact persist, so that the sellers would have been entitled to cancel at the performance date.  If the principles articulated in <span style="font-style:italic">Golden Strait Corpn v Nippon Yusen Kubishika Kaisha (&#8220;The Golden Victory&#8221;) </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/27" uk:canonical="[2007] UKHL 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 27</ref> 12 <ref href="#" uk:canonical="[2007] AC 353" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] AC 353</ref> applied, the buyers therefore suffered no loss.  Two questions fell for decision in the Supreme Court.  One was whether the <span style="font-style:italic">Golden Victory</span> principle applied to a single contract of sale, rather than a period charterparty which was the contract in <span style="font-style:italic">The Golden Victory</span> case itself.  The Supreme Court answered this question in the affirmative.  The second question was whether paragraph (c) of the GAFTA default clause excluded <span style="font-style:italic">The Golden Victory</span> principle.  The Supreme Court held that it did not.  In the course of addressing and answering this second question, the judgments of Lord Sumption and Lord Toulson, with each of which the other Justices agreed, considered in some detail the construction and working of paragraph (c) and its relationship with the measure of loss recoverable at common law, and under the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50</ref> and 51 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">Sale of Goods Act 1979</ref>.  What was said on that subject was therefore obiter but of considerable weight as guidance as to the meaning and operation of the clause.  What was said was in the context of a defaulting seller, so that the concepts of a mitigation contract and a notional substitute contract were of a contract of purchase by the buyer.  However because what was said was advanced by way of general principle, the dicta can be transposed to the context of the present case where the default is by the Buyers not the Sellers, so that a mitigation contract or a notional substitute contract is a sale by the Sellers.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The following statements of principle are of direct assistance in this case.  The fundamental principle of the common law measure of damages is the compensatory principle which requires that the injured party is, so far as money can do it, to be placed in the same situation with respect to damages as if the contract had been performed: Lord Sumption at [14]  The fundamental compensatory principle makes it axiomatic that any method of assessment of damages must reflect the nature of the bargain which the innocent party has lost as a result of the breach: Lord Toulson at [85].  In this, <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 50</ref> and 51 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">Sale of Goods Act 1979</ref>, like the corresponding principles of the common law, are concerned with the value of the goods or services which would have been delivered under the contract, not with the value of the contract as an article of commerce in itself: Lord Sumption at [21].  Paragraph (c) of the Default Clause covers the same territory as <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 50(3)</ref> and 51(3) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">Sale of Goods Act 1979</ref> (Lord Sumption at [32]), which themselves treat as the prima facie measure of loss the common law compensatory measure where there is an available market, which is the difference between the contract price and the price which would have been agreed under a notional substitute contract assumed to have been entered into in its place on the date of breach at the market rate but otherwise on the same terms: Lord Sumption at [14], [31], [32] and Lord Toulson at [78]-[79], [87].  However, paragraph (c) departs from this measure to the extent that the words &#8220;actual or estimated value&#8221; contemplate that the assessment may be made by reference to the market price of different but comparable goods, for example goods of a different origin or shipment date: Lord Sumption at [28(4)].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia KC submitted that the statements about a notional substitute contract were confined to cases of anticipatory breach, which, as Lord Sumption observed at [13], give rise to particular problems of legal analysis when it comes to the assessment of damages.  However, it is impossible to read the passages in question as so limited.   The judgments address the particular problems of anticipatory renunciatory breach, concluding that the common law and Sale of Goods Act measure treats the loss as calculable on the date of performance, not the earlier date of accepted renunciation, but that because there arises a duty to mitigate as soon as the renunciation is accepted, it will in practice be the market price at this earlier date which is determinative; whereas by contrast paragraph (c) of the default clause ties the measure of loss to the market price at the date of performance, not the earlier accepted renunciation date: see Lord Sumption at [17] and [28(1),(3)].  The paragraphs I have cited above addressing a notional substitute contract as a surrogate are part of the more general reasoning applicable to cases of actual breach.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">At paragraph [31] Lord Sumption explained that the default clause (apart from paragraph (d) which related to additional expenses), was concerned only with the question as to what was the relevant market price or value of the goods for the purposes of assessing damages.  As such &#8220;Sub-clauses (a)-(c) constitute an elaborate, indeed a complete, code for determining the market price or value of the goods that either were actually purchased by way of mitigation or might have been purchased under a notional substitute contract.&#8221;  It is clear from the context of these remarks that these two formulations were reflective of sub paragraph (a) and (c) respectively i.e. that the actual purchase by way of mitigation was the transaction with which paragraph (a) was concerned and that goods &#8220;which might have been purchased under a notional substitute contract&#8221; was the measure adopted by paragraph (c).  Contrary to Mr Karia&#8217;s submission, paragraph (c) is not concerned with an identical transaction to that with which paragraph (a) is concerned.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">This is entirely consistent with principle.  The Default Clause is concerned to provide a measure of certainty in fixing the damages suffered by the innocent party for his loss of bargain, whilst adhering to the compensatory principle.  The loss of bargain at the default date will be measured by reference to a notional substitute contract entered into on that date on identical terms save as to price.  That is how the value of the goods is to be ascertained which when compared with the contractual price will reflect the loss of bargain.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">It is inherent in this approach, and as Lord Toulson said in terms at [85] in <span style="font-style:italic">Bunge v Nidera</span> axiomatic to the compensatory principle, that the assessment of damages must reflect the nature of the bargain which the innocent party has lost.  That involves an examination of the parties&#8217; bargain as it existed at the date of default.  If the contract has been varied at that date from the terms originally agreed, it is a notional contract on those varied terms, save as to price, which must be taken as the substitute.  Only by doing so is it a true substitute, and only by doing so is the loss calculated as a loss of bargain: the bargain which the innocent party has lost is the contract as varied at the date of default.  To the extent that any different loss flows from the terms originally agreed, that is the result of the agreement to the variation, not the default of the defaulting party.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia&#8217;s argument fails to give effect to these principles.  Mr Karia submits that in all cases of a C&amp;F sale the value on the default date is to be measured by reference to a sale of the landed goods at the port of destination.  However if a buyer defaults whilst the goods are afloat and there is an existing market for a sale of the same goods afloat on the same C&amp;F terms, that is the measure of the seller&#8217;s loss of bargain because whether or not it chooses to do so, that is the available market in which it can crystallise its loss.  By contrast a sale as is where is of discharged goods at the discharge port does not reflect his loss of bargain because in a standard C&amp;F sale his bargain did not involve owning discharged goods at the destination.  The difference not only involves the costs of discharge but will often include demurrage, which is typically for a C&amp;F buyer&#8217;s account.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Of course there may be cases where under the common law compensatory principle and <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(2)</ref> of the Sale of Goods Act, for which <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(3)</ref> provides a prima facie but not definitive measure, the innocent sellers&#8217; loss under a C&amp;F contract is to be measured by reference to a sale of the goods once landed because such a sale is the most reasonable mitigation of loss and/or because there is no market for the goods afloat in a substitute C&amp;F sale.  The Default Clause accounts for such cases: paragraph (a) caters for when a mitigation sale takes place; and paragraph (c) assumes the availability of a notional substitute contract, but with the latitude recognised by Lord Sumption at [28(4)] of <span style="font-style:italic">Bunge v Nidera</span> that the value may be &#8220;estimated&#8221; by reference to a different contract.  If the different contract is one for sale of goods post discharge, the value must be adjusted to reflect the fact that the sellers&#8217; price in his C&amp;F contract was in respect of goods which were undischarged and for which the C&amp;F buyer would have to pay the discharge expenses and, usually, bear any discharge port demurrage, which the as is where is buyer of landed goods does not have to factor into his price.  If the seller has borne these costs himself, they can be claimed separately as expenses (outside the framework of paragraph (c)), but not if the goods have been discharged at someone else&#8217;s expense.  Mr Karia&#8217;s suggested blanket rule, that an as is where is sale at destination is the measure in all cases, involves comparing apples with pears, and is not a measure of loss of bargain.  It offends, rather than gives effect to, the compensatory principle.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia argued that the sale contemplated in paragraph (c) must be a sale in the same market as the sale contemplated by paragraph (a), but I see no reason why that should be so.  Paragraph (a) is concerned with a sale made by way of mitigation, and the market in which that mitigation sale is made turns upon what is reasonable in the particular circumstances of the case. It may be reasonable to sell against the buyer in a different market.  By contrast paragraph (c) is addressing itself to a notional substitute sale which, subject to the latitude to which Lord Sumption referred at [28(4)]] of <span style="font-style:italic">Bunge v Nidera</span>, is the contractual market.  There is nothing in either the language or scheme of the Default Clause to support Mr Karia&#8217;s argument.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia&#8217;s reliance on the fact that the Non Payment Clause envisages a resale, as is where is, is also, in my view, misplaced.  That clause imposes additional obligations on the Buyers to facilitate such a resale, which, if breached may give rise to a claim for damages outside the scope of paragraph (c).  If there had been a continually falling market, the Sellers in this case could have claimed their damages by reference to the market rate in November as a date of default, under paragraph (c), and additional damages in respect of the further fall in value because the breach of the Non-Payment clause prevented them from being able to realise the November value in a sale in the Indian market.  The existence of such an additional claim does not dictate that paragraph (c) damages are to be determined by reference to a sale as is where is.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The authorities upon which Mr Karia relies do not support any different conclusion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">In <span style="font-style:italic">Aryeh v Lawrence Kostoris</span>, Diplock LJ said at p 71: &#8220;I would accept that where, to the knowledge of both buyer and seller, goods are bought c.i.f. or f.o.b. for shipment to a particular market (in this case Iran), the relevant values to be taken into consideration are the values of the goods upon that market upon arrival there&#8221;  However that was said in the context of the buyer&#8217;s claim in that case for breach of warranty of quality under an fob contract of purchase.  In such a case the goods are accepted and so the loss of bargain is to be determined by reference to the market at the place where the goods are accepted.  The dictum casts no light on the principles applicable to the GAFTA Default Clause in the case of a buyer&#8217;s non-acceptance, which are to be found in <span style="font-style:italic">Bunge v Nidera</span>.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">In <span style="font-style:italic">The Eurometal</span> buyers defaulted under a contract for delivery of barley in bulk cif one safe port west coast Italy at $132 per tonne.  Demurrage was, unusually, for the sellers&#8217; account under the contract of sale.  When the vessel arrived the buyers declined to accept delivery on the grounds that it was infested with weevils.  There was a delay resulting in demurrage being incurred before the buyers rejected the documents.  The dispute as to whether the buyers or the sellers were in default was resolved against the buyers.  The sellers sought bids and sold the cargo, then on board the vessel at La Spezia, to SIAT for $114 per mt free out La Spezia with an option, which SIAT exercised, to take delivery at Venice for an additional $2 per mt.  SIAT also agreed to pay the accrued demurrage of $55,066, plus any further demurrage accruing at Venice, which amounted in all to $63,838, with the result that the effective price to SIAT, as found in the award, was $126 per mt.  The sellers claimed the difference between the contract price of $132 and the SIAT price of $116.  The claim succeeded before the GAFTA Board of Appeal, but was reduced on appeal by Lloyd J to reflect the difference between the contract price of $132 and a price of $126.  $126 was not only the effective resale price paid by SIAT, but was also expressly found by the Board to be the market price at La Spezia of the goods where they lay on the vessel.  There was a GAFTA default clause, in different terms to that in the present case, but which limited the damages recoverable to &#8220;the difference between the contract price and the market price (or its equivalent as found by the Arbitrators or Court of Appeal) on the default date.&#8221;  It made no difference on the facts of that case whether the loss was measured by reference to the adjusted resale price, or the market price, both being determined by the Board to be $126.  Lloyd J&#8217;s decision, however, was founded on the Board&#8217;s finding of the market price being $126 per mt.  The market price being referred to was for goods where they lay on the vessel, at La Spezia. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in"> Mr Karia relies upon the decision as determining the relevant market for goods under the GAFTA default clause as being that for the goods where they are at the date of default.  However there is nothing in that case which identifies how the Board reached its finding as to the market value of the goods lying on the vessel at La Spezia.  The finding that the market price was $126 was entirely consistent with that being the equivalent of a notional substitute cif contract price.  Where goods are afloat at the discharge port, one would expect such valuation by reference to a substitute contract to coincide with the price which a buyer was in fact prepared to pay for the goods afloat, adjusted to reflect any difference in the terms of the resale.  It does not follow that the same applies to goods landed and customs cleared, where such equivalence cannot be presumed.  The case lends no support to the proposition that when goods have been landed the proper measure is always that of a resale as is where is.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia relied upon <span style="font-style:italic">The Caloric</span>, another decision of Lloyd J, which involved a default clause containing wording materially identical to paragraph (c), for the proposition that where goods have been appropriated to a contract, it is those specific appropriated goods which fall to be valued under paragraph (c), not generic goods of the same description. That was a case of default by sellers under a cif Beirut contract in failing to present shipping documents.  The proposition does not assist Mr Karia&#8217;s argument. The argument which was rejected was that the default clause could be interpreted simply by reference to goods of the same description which were available to the buyers from a substitute seller, Nidera, but on terms which did not involve the same shipment position, which would have resulted in a much later arrival at Beirut. That provides no guidance, however, on how the Default Clause is to be applied to valuation of the actual appropriated goods at the date of default.  On that question the Appeal Board had awarded nominal damages on the basis that although the market value could not be precisely estimated, it was less than the contract price.  In a passage at p. 678 col 1 Lloyd J discussed the ways in which the Board might properly have reached their conclusion as to the market rate (which were obviously not patent from the Award); one was by reference to their landed value, which would have had to have been reduced to take account of the demurrage which would be payable by reason of Beirut being closed by hostilities; another was by reference to the evidence of the of the price available for purchase from the substitute seller, Nidera, but with an adjustment for the fact that the goods were in a different shipment position and would have involved less or no demurrage by the time they arrived at Beirut with the reopening of the port.  The latter would have been in accordance with the principles in <span style="font-style:italic">Bunge v Nidera</span> as valuing the goods by reference to a notional substitute purchase contract, but with the latitude permitted by what Lord Sumption said at [28(4)].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in"><span style="font-style:italic">The Selda</span> involved a sale of tapioca C&amp;F Turkey.  Before the cargo was shipped, an import ban was imposed and the buyers repudiated the contract.  The claim by the sellers was for the costs of cancelling the contract of carriage.  The issues were, first, whether such wasted expenditure was recoverable as damages under <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54" uk:canonical="1979 c. 54" uk:origin="TNA" uk:type="legislation">Sale of Goods Act 1979</ref>; and secondly, if so, whether such a claim was excluded by the GAFTA default clause on the basis that the clause excluded claims for wasted expenditure.  This court held that the wasted expenditure was recoverable under <ref href="http://www.legislation.gov.uk/id/ukpga/1979/54/section/50/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 50(2)</ref> and was not excluded by the GAFTA default clause.  When dealing with the first issue, Hirst LJ, giving the leading judgment, referred at p. 732 to an argument by counsel for the buyers that the arbitrators had not found that there was no available market, and her reliance in that respect on the  dictum of Diplock LJ in <span style="font-style:italic">Aryeh</span> to which I have referred.  Hirst LJ rejected the argument, on the basis that it was implicit that there was no available market in the tribunal&#8217;s finding that Turkey had prohibited imports.  Mr Karia&#8217;s submission as to the support he derived from this case was, in effect, that Hirst LJ&#8217;s recording of counsel&#8217;s reference to Diplock LJ&#8217;s dictum in <span style="font-style:italic">Aryeh</span> constituted approval of the <span style="font-style:italic">Aryeh</span> dictum as determining the test for an available market, in the context of a buyer&#8217;s non-acceptance under a cif contract.  This is put more weight on the passage in Hirst LJ&#8217;s judgment than it will bear.  All Hirst LJ was saying was that the tribunal had found there was no market because import into Turkey was prohibited.  That would have precluded the existence of a market, whether the market was defined by reference to resale of goods in Turkey (which in that case were not yet appropriated not even having been loaded) or by reference to a notional substitute contract C&amp;F Turkey.  The issue which is currently under consideration did not arise and was not addressed.  Hirst LJ was merely recording counsel&#8217;s submissions.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-style:italic">The contractual terms on the date of default</span></heading>
+	  <paragraph eId="para_64">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The notional substitute contract which is required to be posited for the purposes of paragraph (c) of the Default Clause is one which is on the same terms as the parties&#8217; contract, save as to price, at the date of default.  The date of default in this case was held to be 2 February 2018 and there is no challenge from either side to that finding.  In fact there were two relevant defaults by the Buyers; the first was a failure to pay for the goods which was accepted by the Sellers as terminating the contracts on 9 November 2017.  The second was the breach of the Non Payment clause by failing to enable the Sellers to regain control of the goods until 2 February 2018.  The Sellers might have sought to claim their loss of bargain under paragraph (c) at the November default date, and any additional loss by reference to the breach of the Non Payment clause outside the terms of paragraph (c), but they chose not to do so, and 2 February 2018 must be taken as the default date for the purposes of the application of paragraph (c).  What then was the nature of the contract between the Sellers and Buyers at that date?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The effect of the LOI was that the parties had agreed that the goods should be discharged from the Vessel, customs cleared, and stored ashore by the Buyers in a warehouse, subject to a contractual undertaking from the Buyers that they would not take the goods out of the warehouse without the Sellers&#8217; written consent.  Payment therefor was to be in instalments, with the first instalment being for the majority of the price, but leaving two further instalments which were to be paid on 1 March and 1 September 2018.  Those later instalments were unsecured, because the Addenda provided for the whole cargo to be released upon payment of the first instalment.  Property in the goods remained with the Sellers under the C&amp;F contract terms, and remained with the Sellers under the Addenda until payment of the first instalment under the Addenda; the agreement to release the whole cargo against the first instalment indicates an intention that property in the whole cargo should at that point of time.  By contrast, risk had passed to the Buyers on shipment and the goods remained at Buyers&#8217; risk in the warehouse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The court invited submissions as to what could be inferred from the terms of the Awards as to what happened to the original bills of lading on discharge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Collett submitted as follows.  The goods were discharged against delivery letters of indemnity issued by the Buyers to the shipowners.  In the ordinary way, the letters of indemnity would have requested delivery be made to the Buyers (although the actual terms of the letters of indemnity are not in evidence).  The Court can infer that at all relevant times up to the date of default (which was the date of the consent order which enabled the goods to be released from storage), the bills of lading were either in the possession of the Sellers or held to the Sellers&#8217; order (as the CAD payment terms envisaged presentation of documents at Buyers&#8217; bank, but until payment the Buyers&#8217; bank would hold the documents to the Sellers&#8217; order).   The terms of the Addenda included the wording &#8220;each bill of lading to be released after receipt of the corresponding first instalment&#8221; and &#8220;All other terms and conditions of the above mentioned contract remain unchanged, including arbitration clause and governing law.&#8221;  Discharge against such letters of indemnity was essentially a provisional act pending the Buyers&#8217; payment, so far as the contracts were concerned.&#160; Physically it was performed by the Buyers, who incurred the costs awarded to them in the Awards.&#160; Upon payment of the first instalment and corresponding release of the bills of lading to the Buyers, in accordance with the Addenda, for the purposes of the contracts the Buyers would be treated as having taken delivery of the goods from the Vessel/shipowners.&#160; The LOI refers to the Buyers&#8217; undertaking not to take delivery until the original bills had been submitted to the vessel&#8217;s agent.  That indicates that the goods were held ashore to the Vessel&#8217;s order, with the bills of lading retaining their function of controlling possession of the goods. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia submitted that it is not correct that the goods were &#8220;held ashore to the Vessel&#8217;s order&#8221;.  Rather the removal of the goods from the warehouse in Mundra was subject to the consent of the Buyers and Sellers.  The only letter of indemnity referred to in the Awards is the LOI issued by the Buyers to the Sellers under the sale contracts.  That is not a letter of indemnity issued by the charterer of the Vessel (presumably, the Sellers) to the shipowners to secure discharge without presentation of the original bills of lading.  Absent such a letter of indemnity, for which there is no evidence, the only way the goods could have been discharged from the Vessel is against presentation to the vessel&#8217;s agent of the original bills of lading by or on behalf of the Sellers.  The correct inference is that that is what happened: the goods were discharged from the Vessel against presentation of the original bills of lading to the vessel.  The words, &#8220;<span style="font-style:italic">after cargo has been made with Original Bs/L having been submitted to vessel agent</span>&#8221; in the LOI means after discharge of the cargo has been made, and refer to the presentation of the bills of lading to obtain discharge of the cargo on or soon after 23 June 2017.&#160; The meaning of that sentence as a whole is that, even after the cargo has been discharged from the Vessel (against presentation of the original bills of lading), the Buyers will not take delivery of the cargo from the warehouse &#8220;<span style="font-style:italic">unless written instructions are received from [the Sellers]&#8221;.</span>  It is correct that the addenda refer to &#8220;<span style="font-style:italic">Each bill of lading to be released after receipt of the corresponding first instalment payment</span>&#8221; but that is a reference to the quantity of goods set out against each bill of lading listed in the second paragraph of the addenda, not the documents themselves.   This provision allowed the Buyers to pay for each bill of lading quantity separately and sequentially, if it wanted to take partial deliveries before the deadline of 15 October 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Karia&#8217;s submissions are to be preferred.  Not only is there no reference in the Awards to a letter of indemnity being provided to the Vessel&#8217;s owners to secure discharge, but the terms of the Award are also inconsistent with the goods in the warehouse after discharge being held to the Vessel&#8217;s order.  Paragraphs 3.26 of the lentils Award and 3.29 of the peas Award refer to a proforma letter which Glencore India sent to the Buyers for the Buyers to send to Adani Port to authorise the release of the cargo to the Sellers.  Had the goods been held to the order of the shipowners, the authority for release would have come from the shipowners, not the Buyers.  Moreover, the Award records that the proceedings brought by the Sellers in the High Court of Gujarat to obtain possession of the goods named only the Buyers and Adani Port as the respondents; had the goods been being held to the order of the shipowners, they would have to have been joined to obtain release.  Further, the terms of the LOI only make sense if the missing word is &#8220;discharge&#8221; in the sentence &#8220;<span style="font-style:italic">after cargo [discharge] has been made with Original Bs/L having been submitted to vessel agent</span>&#8221;.  The only possible alternative is &#8220;payment&#8221; but that would envisage that the Sellers held the original bills after discharge, had to endorse them to the Buyers in return for payment, requiring Buyers then to present them to the vessel&#8217;s agent.  The only possible reason for requiring them to be presented to the vessel&#8217;s agent after discharge would be to discharge any continuing liability under a letter of indemnity which had been given to the Vessel in return for discharge.  If such a letter of indemnity had been provided by the Buyers to the shipowners there would be no commercial purpose in requiring the Buyers to do this before the Sellers could be required to give consent to release of the goods; equally if a letter of indemnity had been provided to the shipowners by the Sellers, there would be no commercial purpose in the Sellers having to endorse them to the Buyers and get the Buyers to present them to the shipowner in order to terminate their liability under the letter of indemnity when they could simply do so themselves as continuing holders.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The obvious inference is that the bills of lading ceased to be documents of title becoming &#8220;accomplished&#8221; or exhausted upon delivery against them of the goods to the persons entitled to delivery, i.e. the Buyers:  <span style="font-style:italic">Barber v Meyerstein</span> (1870) LR 4 HL 317.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">71.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.64in">At the date of default, therefore, the contract between the parties had ceased to be a C&amp;F contract.  It was not quite equivalent to a contract for sale ex warehouse because the risk in the goods had passed to and remained with the Buyers.  But it was otherwise an ex warehouse sale of the specific goods stored there on instalment payment terms.  A similar position arose in <span style="font-style:italic">Leigh and Sillavan Ltd v Aliakmon Shipping Co Ltd</span> <ref href="#" uk:canonical="[1986] 1 AC 785" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] 1 AC 785</ref>, in which a contract for steel coils C&amp;F free out Immingham had been varied by an exchange of letters as a result of the buyers&#8217; inability to pay.  In that case the bills of lading were provided to the buyers and the goods discharged at Immingham on terms that despite such transfer the sellers reserved the right of disposal of the goods, the buyers would present the bills so as to take delivery from the vessel, customs clear and store the goods, and the goods in storage were to be held to the sole order of the sellers.   At p. 809C Lord Brandon said:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.64in">In the events which occurred, however, what had originally been a usual kind of c. and f. contract of sale had been varied so as to become, in effect, a contract of sale ex warehouse at Immingham.  The contract as so varied was, however, unusual in an important respect.  Under an ordinary contract of sale ex warehouse both the risk and the property would pass from the seller to the buyer at the same time, that time being determined by the intention of the parties.  Under this varied contract, however, the risk had already passed to the buyers on shipment because of the original C &amp; F terms, and there was nothing in the new terms which caused it to revert to the sellers.&#8221;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Similarly, in this case the contracts had become contracts for the sale of the specific goods ex warehouse Mundra, subject to the same qualification in relation to risk, and on the instalment payment terms set out in the addenda.  </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_4_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-style:italic">The proper measure under paragraph (c) in this case</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_73">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">It follows that the value of the goods under paragraph (c) falls to be measured by reference to a notional sale of the goods in bulk ex warehouse Mundra on 2 February 2018 on instalment payment terms as per the Addenda but with risk passing to the buyer at the date of contract.  This is almost, but not quite, the answer contended for by the Buyers in alternative A of the framed question of law, but on a different basis from that primarily advanced by Mr Karia on their behalf.  Mr Karia ultimately adopted it as an alternative, albeit hesitantly.  His hesitation was explained to be because the Buyers were confident about their submissions on the application to paragraph (c) to a typical C&amp;F free out contract, submissions which I have been unable to accept.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Mr Collett further submitted that the Appeal Board held in para.7.36 of each Award that the terms of the contracts were C&amp;F free out Mundra and that was a finding as at the date of default.  The Buyers had never argued otherwise or suggested that the contracts had been varied.&#160; In those circumstances, regardless of whether the facts found in the Awards might have supported an argument of variation, the appeal must proceed on the basis that the contracts were on C&amp;F free out terms at the date of default. Mr Karia initially conceded that this was the effect of the Awards, but ultimately withdrew the concession, again with some hesitation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">In my view paragraph 7.36 of the Awards cannot sensibly be read as containing any finding that the contract had not been varied from its original terms at the date of default and remained at that date a contract on terms  C&amp;F free out Mundra.  It does not purport to be addressing the status of the contractual arrangements at the date of default, but merely contains the legal conclusion that the appropriate measure of loss under the GAFTA Default clause is by reference to a C&amp;F free out contract.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The legal conclusion as to the correct measure of damage must be addressed to the findings made in the Award about the LOI, discharge, customs clearance, storage and amendment to payment terms, all of which are quite inconsistent with the contract in February 2018 remaining one of sale C&amp;F free out Mundra, in which the Sellers&#8217; obligations would be to ship conforming goods and tender conforming documents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">This also disposes of any question of &#8220;windfall&#8221; playing any part in the assessment of damages by reference to the fact that the goods were more valuable when customs cleared, after the imposition of the import tariffs, than they were before then.  The increase in the value of the goods by reason of their being customs cleared was simply the consequence of the contract being varied to become one for delivery of customs cleared goods ex warehouse.  That was a result of the contractual variation reflected in the LOI on 23 June 2017.  If customs cleared goods became more valuable by reason of tariff impositions by the date of default, that is a consequence of the contractual bargain, as varied.  It does not provide any &#8220;windfall&#8221; to the Buyers by reason of the assessment of damages taking place on the default date, which is what is required by paragraph (c) of the Default Clause.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">If we are free to do so, therefore, I would hold that the Appeal Board erred in treating the notional substitute contract under paragraph (c) of the Default Clause as one on terms C&amp;F free out Mundra; that the correct substitute contract is a contract on the terms as varied between the parties which I have identified; and that the case should be remitted to the Appeal Board to determine the amount of loss applying those principles. </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_4_2">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-style:italic">The Question of Law</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_79">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">That brings me back to the question of law as framed.  Under an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/69" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 69</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref>, the court can only remit an award to the tribunal for reconsideration under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/69/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 69(7)</ref>(c) &#8220;in the light of the court&#8217;s determination&#8221;.  That is a reference to the determination of the &#8220;question of law to be determined&#8221; in sub section (4), that is to say the question of law for which leave to appeal has been granted.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">As Hamblen J observed in <span style="font-style:italic">Cottonex Anstalt v Patriot Spinning Mills</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2014/236" uk:canonical="[2014] EWHC 236 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 236 (Comm)</ref> <ref href="#" uk:canonical="[2014] 1 Lloyd's Rep 615" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 Lloyd&#8217;s Rep 615</ref>, it is quite common for minor refinements to the question of law to be made at the appeal stage in the light of fuller argument and, on occasion, the court&#8217;s own views.  Provided the substance of the question of law remains the same, and the question to be determined remains within the spirit if not the letter of the leave granted, there is no need for any formal permission to amend: [20]-[22] following Eder J in <span style="font-style:italic">Parbulk II A/S v Heritage Maritime Ltd SA (&#8220;The Mahakam&#8221;)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2011/2917" uk:canonical="[2011] EWHC 2917 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 2917 (Comm)</ref> <ref href="#" uk:canonical="[2012] 1 Lloyd's Rep 87" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 Lloyd&#8217;s Rep 87</ref> at [15].  The refinement he allowed in that case was to make clear that what was drafted as a question of law by reference to a notional contract term should be read as asking the question by reference to the particular contract terms which the parties had entered into.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">In this case it is clear from Jacobs J&#8217;s reasons when granting leave that he had in mind the particular features of this case, as found in the Award, which led to the goods being in the place they were at the date of default, including that they had been discharged, customs cleared and stored.  The fact of their customs clearance was relied on in the Buyers&#8217; two skeleton arguments in support of the application for permission.  Arguments were addressed to Cockerill J, by both parties, by reference to the particular circumstances of the case, with emphasis laid on the economic effect of customs clearance on the value of the goods, and points on &#8220;windfall&#8221;.  Her grant of permission to appeal to this court was likewise premised on the particular facts found by the Board as to circumstances after discharge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">In my view the question of law can properly be treated as being </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.93in">&#8220;Where goods sold C&amp;F free out are located at their discharge port on the date of the buyer&#8217;s default, <span style="font-style:italic">in the circumstances as found by the Appeal Board in the Awards</span>, is &#8220;the actual or estimated value of the goods, on the date of default&#8221; under sub-clause (c) of the GAFTA Default Clause to be assessed by reference to </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.18in;text-indent:-0.25in">A.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in">the market value of goods at that discharge port (where they are located on the date of default); or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.18in;text-indent:-0.25in">B.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in">the theoretical cost on the date of default of (i) buying those goods FOB at the original port of shipment plus (ii) the market freight rate for transporting the goods from that port to the discharge port free out?&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Such a refinement is within the spirit of the leave granted and would not affect the assessment of Jacobs J or Cockerill J that the point was one of general public importance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">Such a formulation permits this court to address the question on the basis of the contracts as varied at the date of default.  The reference to C&amp;F free out contracts in the opening words is merely to explain the nature of the contracts originally entered into, which is necessary in order for the alternative B, which the Board adopted, to make any sense.  The question of law, however, is what is the proper measure of loss for the contracts on the terms which existed at the date of default, in accordance with the Appeal Board&#8217;s findings.  </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_4_3">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_85">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">The answer to the question of law is that the value of the goods under paragraph (c) of the Default Clause falls to be measured by reference to a notional sale of the goods in bulk ex warehouse Mundra on 2 February 2018, on instalment payment terms as per the Addenda, but with risk passing to the buyer at the date of contract.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="margin-left:0.64in;text-indent:-0.25in">86.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.64in">I would therefore remit the Awards to the Appeal Board for reconsideration in the light of that determination. </p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold">Lord Justice Phillips :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">87.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.64in">I agree.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Lady Justice Asplin :</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.64in">I also agree</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

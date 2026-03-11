@@ -1,0 +1,957 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/1"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1"/>
+	  <FRBRname value="McCue (as guardian for Andrew McCue) v Glasgow City Council (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/1"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/1"/>
+	  <FRBRdate date="2023-01-11" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/1/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/1/data.xml"/>
+	  <FRBRdate date="2024-11-09T05:34:52" name="transform"/>
+	  <FRBRdate date="2024-11-11T18:19:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mccue" href="" showAs="McCue"/>
+	<TLCPerson eId="glasgow-city-council" href="" showAs="Glasgow City Council"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>1</uk:number>
+	<uk:cite>[2023] UKSC 1</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>87a886033326e69612070f0b32507c51ed4326759aa76cb624481ba9e377c037</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2023] UKSC 1</neutralCitation><br/><span style="font-style:italic">On appeal from: [2020] CSIH 51</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#mccue">McCue</party> (as guardian for Andrew McCue) (<role refersTo="#appellant">Appellant</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#glasgow-city-council">Glasgow City Council</party> (<role refersTo="#respondent">Respondent</role>) (Scotland)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-lloyd-jones">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-burrows">Lord Burrows</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2023-01-11" refersTo="#judgment">11 January 2023</docDate><br/><br/>Heard on 18 October 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Mike Dailly, Solicitor Advocate<br/>(Instructed by Drummond Miller LLP (Edinburgh))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Ruth Crawford KC<br/>Dan Byrne, Advocate<br/>(Instructed by Morton Fraser LLP (Edinburgh))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord sales (<span style="text-transform:none">with whom Lord Reed, Lord Lloyd-Jones, Lord Burrows and Lord Stephens agree</span>): </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal is concerned with the effect of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;the Equality Act&#8221;) in relation to the provision of community care services to disabled persons pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">Social Work (Scotland) Act 1968</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>&#8221;) and the charges made for such provision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant is Mrs Terri McCue, acting as guardian for her son, Andrew (&#8220;Mr McCue&#8221;). Mr McCue is now 27 years old. He has Down&#8217;s Syndrome and lives with his parents. He is disabled within the meaning of section 6 of the Equality Act. His disability results in him being provided with community care services by the respondent, Glasgow City Council (&#8220;the Council&#8221;). An issue has arisen regarding the amount, if any, which the Council is entitled to charge Mr McCue for those services.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant contends that, in calculating the charge for the services, the Council has failed to make adequate deductions from Mr McCue&#8217;s income which is liable to be brought into the assessment of the charge to be levied. The appellant says that the Council should have made greater deductions from Mr McCue&#8217;s assessable income in respect of certain disability related expenditure. This would have had the effect that the charges levied by the Council for the services provided to Mr McCue would have been reduced, leaving him with more of his income to spend as he chooses. The appellant submits that in failing to make greater deductions for disability related expenditure the Council discriminated unlawfully against Mr McCue on grounds of his disability, within the meaning of section 15 of the Equality Act. She also submits that in failing to make such greater deductions the Council acted in breach of its duty under section 20 of the Equality Act, which required it to make reasonable adjustments to take account of Mr McCue&#8217;s disability.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">The 1968 Act</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>, headed &#8220;General social welfare duties of local authorities&#8221;, as amended, provides so far as relevant as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It shall be the duty of every local authority to promote social welfare by making available advice, guidance and assistance on such a scale as may be appropriate for their area, and in that behalf to make arrangements and to provide or secure the provision of such facilities (including the provision or arranging for the provision of residential and other establishments) as they may consider suitable and adequate, and such assistance may, subject to subsections (3) to (5) of this section, be given in kind or in cash to, or in respect of, any relevant person. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person is a relevant person for the purposes of this section if, not being less than eighteen years of age, he is in need requiring assistance in kind or, in exceptional circumstances constituting an emergency, in cash, where the giving of assistance in either form would avoid the local authority being caused greater expense in the giving of assistance in another form, or where probable aggravation of the person's need would cause greater expense to the local authority on a later occasion.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="background-color:#FFFFFF;font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:initial;background-color:#FFFFFF">Assistance given in kind or in cash to, or in respect of, persons under this section may be given unconditionally or subject to such conditions as to the repayment of the assistance, or of its value, whether in whole or in part, as the local authority may consider reasonable having regard to the means of the person receiving the assistance and to the eligibility of the person for assistance from any other statutory body.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="color:initial;background-color:#FFFFFF">&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref>A (as amended) imposes a duty on local authorities to assess needs. So far as relevant, subsection (1) provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to the provisions of this section, where it appears to a local authority that any person for whom they are under a duty or have a power to provide, or to secure the provision of, community care services may be in need of any such services, the authority&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">shall make an assessment of the needs of that person for those services; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">shall then decide, having regard to the results of that assessment, and taking account&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">if an adult carer provides, or intends to provide, care for that person, of the care provided by that carer,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230; [and]</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">in so far as it is reasonable and practicable to do so,&#160;of the views of the person whose needs are being assessed&#160;(provided that&#160;there is a wish, or as the case may be a capacity, to express a view),</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">whether the needs of the person being assessed call for the provision of any such services.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Section 5 of the Social Care (Self-directed Support) (Scotland) Act 2013 gives the person provided with community care services under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref>(1A)(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> certain rights to choose the form of support provided, but this does not affect the issues which arise on this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 87 (as amended) gives local authorities power to charge for services which they may provide under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. It provides in relevant part as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; a local authority providing a service under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref>&#160;&#8230; may recover such charge (if any) for it as they consider reasonable.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(1A) If a person&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">avails himself of a service provided under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref>&#160;&#8230;; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">satisfies the authority providing the service that his means are insufficient for it to be reasonably practicable for him to pay for the service the amount which he would otherwise be obliged to pay for it,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#160;the authority shall not require him to pay more for it than it appears to them that it is practicable for him to pay.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Secretary of State may, with the consent of the Treasury, make regulations for modifying or adjusting the rates at which payments under this section are made, where such a course appears to him to be justified, and any such regulations may provide for the waiving of any such payment in whole or in part in such circumstances as may be specified in the regulations.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Regulations have been made to specify certain sums which shall not be brought into account when assessing the extent of a person&#8217;s income and assets which may be available to pay a charge for services and accommodation under section 87. For present purposes, it is sufficient to note that the regulations specify that a proportion of the care element of the Disability Living Allowance to which Mr McCue is entitled and the whole of the mobility element of that allowance must be disregarded when assessing his available income.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">The Equality Act</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 4 of the Equality Act sets out protected characteristics for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">that Act</ref>. These include &#8220;disability&#8221;. Section 6(1) provides that a person has a disability if (a) he has a physical or mental impairment, and (b) the impairment has a substantial and long-term adverse effect on his ability to carry out normal day-to-day activities. A reference to a disabled person is a reference to a person who has a disability: section 6(2). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 29, headed &#8220;Provision of services, etc&#8221;, provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person (a &#8216;service-provider&#8217;) concerned with the provision of a service to the public or a section of the public (for payment or not) must not discriminate against a person requiring the service by not providing the person with the service. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A service-provider (A) must not, in providing the service, discriminate against a person (B)&#8212; (a) as to the terms on which A provides the service to B; (b) by terminating the provision of the service to B; (c) by subjecting B to any other detriment. </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A duty to make reasonable adjustments applies to&#8212; (a) a service-provider &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 15 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person (A) discriminates against a disabled person (B) if&#8212; (a) A treats B unfavourably because of something arising in consequence of B's disability, and (b) A cannot show that the treatment is a proportionate means of achieving a legitimate aim. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (1) does not apply if A shows that A did not know, and could not reasonably have been expected to know, that B had the disability.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 20, headed &#8220;Duty to make adjustments&#8221;, so far as relevant, provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref> imposes a duty to make reasonable adjustments on a person, this section, sections 21 and 22 and the applicable Schedule apply; and for those purposes, a person on whom the duty is imposed is referred to as A. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The duty comprises the following three requirements. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The first requirement is a requirement, where a provision, criterion or practice of A's puts a disabled person at a substantial disadvantage in relation to a relevant matter in comparison with persons who are not disabled, to take such steps as it is reasonable to have to take to avoid the disadvantage.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(8)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A reference in section 21 or 22 or an applicable Schedule to the first, second or third requirement is to be construed in accordance with this section.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Subsection (13) provides that the applicable Schedule for the relevant part of the Equality Act, relating to services and public functions, is Schedule 2. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 21, headed &#8220;Failure to comply with duty&#8221;, provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A failure to comply with the first, second or third requirement is a failure to comply with a duty to make reasonable adjustments. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A discriminates against a disabled person if A fails to comply with that duty in relation to that person.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Schedule 2 is brought into effect by section 31(9). Paragraph 1 of Schedule 2 provides that the schedule applies when a duty to make reasonable adjustments is imposed on A by the relevant Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the Act</ref>. Paragraph 2 provides in relevant part as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A must comply with the first, second and third requirements.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of this paragraph, the reference in&#160;section 20(3), (4) or (5)&#160;to a disabled person is to disabled persons generally.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In relation to each requirement, the relevant matter is the provision of the service, or the exercise of the function, by A.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Being placed at a substantial disadvantage in relation to the exercise of a function means&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">if a benefit is or may be conferred in the exercise of the function, being placed at a substantial disadvantage in relation to the conferment of the benefit, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">if a person is or may be subjected to a detriment in the exercise of the function, suffering an unreasonably adverse experience when being subjected to the detriment.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">The policy framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Convention of Scottish Local Authorities (&#8220;COSLA&#8221;) has issued a National Strategy and Guidance on Charges Applying to Social Care Support for people at home (&#8220;the COSLA Guidance&#8221;). The argument on the appeal proceeded with reference to the 2022/2023 version of the COSLA Guidance, which it is understood was in substantially similar terms in previous years. The COSLA Guidance recommends a common approach for all Scottish local authorities in setting minimum income thresholds for charging for community care services. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The COSLA Guidance addresses disability related expenditure at paras 6.32-6.35. It refers to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> and notes that according to that provision charges must be both reasonable and practicable for an individual to pay. The Guidance explains: &#8220;Understanding the associated additional daily living costs of living with an illness or an impairment is essential to ensure charging levels meet this test. Failure to take Disability Related Expenditure &#8230; into account as part of the financial assessment could result in charging levels which cause financial hardship and undermine the right of people living with an illness or impairment to live independently.&#8221; It enjoins local authorities to be proactive in considering disregarding income, when working out an individual&#8217;s means available to meet charges (which I will call their &#8220;available means&#8221;), &#8220;where additional expenditure is incurred by a supported person as a result of living as a disabled person&#8221; and to ensure that people are encouraged to provide information relating to such expenditure. At para 6.34 a non-exhaustive list of examples is given, including items such as &#8220;additional heating requirements&#8221;, &#8220;specialist clothing&#8221; and &#8220;additional bedding&#8221;. It is pointed out (para 6.35) that costs to be disregarded in this way &#8220;will vary on a person by person basis.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In light of, and with a view to complying with, the COSLA Guidance, the Council has promulgated a document entitled &#8220;Social Work Services: Social Care Charging Policy&#8221; (&#8220;the policy document&#8221;). This is updated from time to time, but retains the same basic format. The policy document is concerned with charging for non-residential services. It explains the legislative background to charges levied in relation to the provision of such services and describes the services to which service user contributions apply and minimum income thresholds and taper arrangements. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The policy document follows the approach proposed in the COSLA Guidance and sets out minimum income thresholds for each year. It explains in section 8 that the Council determines the amount of disposable income in excess of those thresholds which will be taken into account when determining the level of the charges it will levy from service users. The level of charges is determined by the application of a taper formula in the policy document, which establishes how the cost of provision of services is to be shared between the individual in receipt of them (to the extent their available income is above the minimum threshold) and the Council. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref> of the policy document is headed &#8220;Income to be disregarded&#8221;. It explains the principles the Council follows when making an assessment of the income of the recipient of services which is available to be taken into account in setting the charge to be levied for the provision of those services. The only relevant part of this for present purposes is the statement in para 12.2 that &#8220;Consideration will be given to representations to take into account other specific costs of living, eg in relation to disability related expenditure.&#8221; Accordingly, in line with the COSLA Guidance, persons involved in the charging assessment process, to whom the policy document is provided, are encouraged to provide information about disability related expenditure. It is left to the judgment of the relevant Council officials whether, in applying the test in <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>, any particular item of expenditure which is claimed to be disability related expenditure is of a character and amount as will reduce the available means of an individual subject to assessment so as to affect what is &#8220;reasonably practicable for him to pay for the service&#8221; (subsection (1A)).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">The factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Over many years, the Council has assessed Mr McCue as having needs which require the provision of community care services under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. The Council has put in place a support plan which provides Mr McCue with non-personal care between 9 am and 3 pm during weekdays at certain locations outside the home. The current version of the support plan includes provision of various activities for Mr McCue to participate in together with support to enable him to do so. It also includes periods of respite care to provide short breaks for carers. The appellant accepts that the support plan is adequate to meet those of Mr McCue&#8217;s needs as a disabled person which the Council is under a duty to meet pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 12</ref> and 12A of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> the Council has assessed Mr McCue&#8217;s means and levied charges for the community care services it provides under the support plan, in the light of information about his disability related expenditure which the appellant has provided. The present appeal is concerned with the calculation of Mr McCue&#8217;s means which are available to meet such charges and, consequently, with the amount of those charges.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr McCue is in receipt of income by way of various social security payments to which he is entitled. This income is in excess of the minimum income threshold applied by the Council. Mr McCue has accordingly potentially been liable to assessment by the Council that he should be subject to a charge for the community care services provided to him, so that the cost of those services is shared between him and the public purse. However, over several years, starting in 2012, the appellant has made representations to the Council on Mr McCue&#8217;s behalf that he has to bear various items of disability related expenditure which ought to be deducted from the amount of his available means to be brought into account by the Council when assessing the amount which he is charged for the provision of the services.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Save to a small extent, the Council has not been persuaded by the appellant&#8217;s representations and has not made the deductions from Mr McCue&#8217;s available means which the appellant has requested. The effect of this has been that the amount of Mr McCue&#8217;s assessed available means is greater, with the result that he has been charged a higher amount for the provision of the community care services to him than would otherwise have been the case. It is the Council&#8217;s decision not to accept the appellant&#8217;s representations regarding Mr McCue&#8217;s disability related expenditure, with the consequence that it has continued to charge him at the higher amount for the provision of the services, which is the subject of the appellant&#8217;s complaint on his behalf in these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">After a lengthy period of debate and disagreement, the present dispute crystallised in relation to the Council&#8217;s assessment of the charge due from Mr McCue in the period from 2015. The Council assessed the charge due at &#163;28.07 per week<span style="font-size:10pt">. </span>By a letter dated 6 March 2015 the appellant sought a decision from the Council that certain items of expenditure by Mr McCue should be classed as disability related expenditure and therefore treated as a deduction from Mr McCue&#8217;s available means for the purposes of assessment of the charge. The Council decided, however, that the items should not be deducted. By letter dated 1 May 2015<span style="font-size:11pt"/>the appellant requested reconsideration of this decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant set out her then estimate of the additional costs that Mr McCue faces by reason of his disability: gas and electricity at &#163;45 per 4 week period, for increased heating and lighting because he needs the house heated to a higher temperature than most people and spends more time at home because of his disability; petrol at &#163;60 per 4 week period for his additional transport needs due to his disability, to get to college, clubs, hospital appointments, doctor&#8217;s appointments, opticians and supported work placements; laundry of clothes and bedding at &#163;67.98 per 4 week period as an additional cost due to creams being applied to manage a dermatological condition; replacement of clothing and bedding averaged out at &#163;20 per 4 week period as another additional cost due to the effect of the creams; alterations of clothes averaged out at &#163;10 per 4 week period due to off-the-peg clothing not fitting him; additional cost of the replacement of footwear averaged out at &#163;15 per 4 week period due to wear and tear arising from his hypermobility and gait associated with his disability; cost of &#163;80 per 4 week period for attendance at specialised clubs for social activities appropriate for his disability; cost of &#163;25 per 4 week period for a support worker to attend music concerts with Mr McCue, to enable him to engage in this as a social activity; and cost of &#163;40 per 4 week period for repayment of a debt for services incurred due to Mr McCue&#8217;s disability. The appellant contended that taking all these additional costs into account had the effect that Mr McCue&#8217;s available means would be reduced to such an extent that the Council should not be levying any charge under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> in respect of the services it provided to him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council reconsidered the appellant&#8217;s request. By a letter dated 28 May 2015 it informed the appellant that it accepted that it was appropriate to make a deduction of &#163;6.25 per week for clothing alterations and additional footwear costs, but otherwise it considered that the other expenditure should be met from Mr McCue&#8217;s income. The result was that the charge which was Mr McCue&#8217;s assessed contribution to the services provided was reduced to &#163;21.82 per week (rising thereafter to &#163;22.21 for the next period of assessment). The Council informed the appellant that if she was dissatisfied with its decision, she could complain to the Scottish Public Services Ombudsman (&#8220;the Ombudsman&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant renewed her complaints to the Council. The Council affirmed its decision. Apart from the expenditure of &#163;6.25 referred to above, which the Council accepted was disability related expenditure in the sense relevant for the purposes of the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>, the Council assessed the other elements of expense to be concerned with the repayment of a debt not sufficiently connected with Mr McCue&#8217;s disability or the payment of ordinary living expenses. The appellant remained dissatisfied, so in February 2016 the Council convened a complaints review committee of independent persons. The committee rejected the appellant&#8217;s complaints and found that the level of financial support by the Council for the community care services provided to Mr McCue was equitable and adequate to Mr McCue&#8217;s needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr McCue, acting by the appellant, refused to pay the charge assessed by the Council. Instead, the appellant sought legal advice and made a further complaint to the Council, protesting that Mr McCue&#8217;s available means should have been reduced by more than &#163;6.25 per week and maintaining that as a result he should not have been subject to any charge at all. The appellant provided further information about Mr McCue&#8217;s expenditure. The Council agreed to make a further assessment decision regarding the charge which Mr McCue was required to pay. By its further decision letter dated 10 July 2017, the Council affirmed its previous assessment of Mr McCue&#8217;s available means and, consequent upon that assessment, of the charges he should pay. In the Council&#8217;s assessment, the other items of expenditure which the appellant claimed should be deducted from Mr McCue&#8217;s available means were not &#8220;essential or necessary expenditures related to disability such that application of discretion is warranted in the circumstances&#8221;. The Council again referred to the possibility of a complaint to the Ombudsman and also to judicial review. However, no complaint was made to the Ombudsman.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr McCue, acting by the appellant, again refused to pay the charges. The dispute continued. By letter dated 11 June 2018 the appellant provided further information about Mr McCue&#8217;s disability related expenditure and asked that this be taken into account &#8220;in compliance with the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>&#8221; when calculating what, if any, charges Mr McCue was due to pay<span style="font-size:11pt">.</span> The information provided included details of the charges for attending various social clubs (together with the costs of petrol for transporting Mr McCue to them) and for a pilgrimage to Lourdes and the cost of an additional ticket to music concerts for a person to accompany Mr McCue to enable him to attend. The Council&#8217;s assessment, as notified by letter dated 14 August 2018, remained essentially unchanged. It set out its calculation of the charge due from Mr McCue based on his welfare benefits entitlements (Employment Support Allowance and Disability Living Allowance) totalling &#163;272.50 per week, from which were deducted relevant elements of his Disability Living Allowance plus &#163;6.25 for &#8220;Clothing/Footwear (DRE [disability related expenditure]).&#8221; The amount remaining after application of the minimum income threshold of &#163;136 was &#163;42.20, to which the relevant taper set out in the policy document was applied. This left the charge which the Council assessed Mr McCue should pay as &#163;21.10. The Council maintained that Mr McCue&#8217;s support plan provided meaningful day opportunities and community engagement for Mr McCue and short breaks for his carers, and that the choice to spend money on &#8220;participation in additional activities and or socialisation opportunities&#8221; was a matter of discretionary choice for the appellant and her husband, as Mr McCue&#8217;s guardians. In other words, the Council did not regard the cost of such additional activities as reductions in Mr McCue&#8217;s available means in a way which meant that, to the extent that such cost was incurred, it would not be reasonably practicable for him to make a financial contribution to the provision of services to him by the Council within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A) of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By letter dated 4 September 2018 from Mr Mike Dailly, the solicitor acting for the appellant and Mr McCue, Mr Dailly notified the Council of a further complaint from the appellant, on the same lines as previously. Mr Dailly referred to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A) of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> and complained that the Council&#8217;s assessment of the charge which Mr McCue was due to pay was unlawful and unreasonable because the Council had not explained why Mr McCue&#8217;s additional bedding costs &#8220;due to creams being applied because of his disability&#8221; and additional ironing costs had not been treated as deductions; it had not deducted the costs of Mr McCue&#8217;s attendance at evening social clubs (and associated transport costs), nor the additional costs for Mr McCue to have holidays with support, even though these were &#8220;normal and reasonable expenditure for Mr McCue to have independent living&#8221;; and complaining that the Council&#8217;s policy document and charging decision were unlawful because they discriminated against Mr McCue by reason of his disability, within the meaning of sections 15 and 20 of the Equality Act.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant received no substantive response from the Council. In May 2019 the appellant commenced judicial review proceedings against the Council, claiming that the Council&#8217;s policy document and charging decision were unlawful because they discriminated against Mr McCue by reason of his disability, contrary to sections 15, 20 and 21 of the Equality Act. These proceedings have therefore been concerned with the application of those provisions of the Equality Act. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant did not claim that the Council&#8217;s charging decision was irrational or in any way unlawful on general public law grounds separate from the application of the Equality Act. As a result, the Council was not called on to file evidence to defend or explain the way in which it assessed the sum due from Mr McCue as a charge pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Instead, in answer to factual averments made by the appellant regarding Mr McCue&#8217;s income and his expenditure on various items referred to above such as specialist clubs, attendance of a supporter at music concerts and the cost of additional bedding required to accommodate replacing sheets more frequently than a non-disabled person due to Mr McCue&#8217;s use of medical creams, the Council pleaded its general position in summary terms. The Council referred to the letters it had written (see above), and said that it &#8220;rejected items of DRE [disability related expenditure] for one of three reasons. Firstly, items were rejected because they do not relate to disability. Secondly, items were rejected because, whilst relating to disability, Andrew McCue receives a benefit to meet the cost in question. Thirdly, items were rejected because they represented discretionary spending and were not necessary to meet the assessed need.&#8221; The Council denied that it discriminated against Mr McCue on grounds of his disability, within the meaning of the provisions of the Equality Act relied on. It also maintained that the appellant should have pursued an alternative remedy by complaining to the Ombudsman, rather than bringing judicial review proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, after proceedings were commenced, the Council did adjust its position in one respect. The evidence filed by the appellant in support of the judicial review claim included an article by a medical expert which explained how a skin condition of the kind suffered by Mr McCue, for which he uses special cream, is related to Down&#8217;s Syndrome. This had not been provided to the Council previously. In the light of this new evidence, in October 2019 the Council reviewed the calculation of the charge due and decided that the appellant had now established to its satisfaction that the use of the cream was related to Mr McCue&#8217;s disability (Down&#8217;s Syndrome) in the relevant sense and that therefore the cost of additional laundry at &#163;2.50 per week incurred to deal with soiling from the cream should also be deducted from his available means as relevant disability related expenditure in the same way as the amount of &#163;6.25 previously deducted.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">The decisions of the courts below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the Court of Session (Outer House), Lady Wolffe dismissed the appellant&#8217;s claim. Her primary reason was that she accepted the Council&#8217;s submission that the appellant had a suitable alternative remedy in the form of an application to the Ombudsman which she should have pursued. In due course, the Inner House (Second Division) disagreed with the judge on this point. There has been no appeal against that part of the Inner House&#8217;s judgment and it is not necessary to say anything more about this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, Lady Wolffe also gave reasons why she would in any event have dismissed the appellant&#8217;s claim on the merits: [2019] CSOH 109; 2020 SLT 41. She noted that the appellant did not challenge the appropriateness and sufficiency of the Council&#8217;s support plan for Mr McCue and said that this concession undermined the appellant&#8217;s case on the merits. In the judge&#8217;s view (para 25), in the relevant statutory context disability related expenditure &#8220;means the additional expenditure incurred as a consequence of disability <span style="font-style:italic">and</span> used to meet the <span style="font-style:italic">assessed</span> needs of the individual in receipt of social care&#8221; (emphasis in original). Since it was accepted that the support plan fully met Mr McCue&#8217;s assessed needs, the judge considered that the additional items of expense claimed by the appellant on behalf of Mr McCue could not qualify as disability related expenditure in any relevant sense. The provisions of the Equality Act relied on by the appellant did not affect the lawfulness of what the Council had done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Inner House (Lady Dorrian, as Lord Justice Clerk, Lord Glennie and Lord Pentland) dismissed the appellant&#8217;s appeal on the merits: [2020] CSIH 51; 2021 SC 107. The appellant&#8217;s complaint under the Equality Act was directed against the policy document, on the grounds that it failed to set out a policy which positively protected Mr McCue from having his income reduced by reason of expenditure he incurred in order to have a reasonably normal life, correcting the effects of his disability so far as possible. In the view of the Inner House, however, the policy document was not discriminatory, in breach of the Equality Act. The appellant&#8217;s argument improperly sought to rely on the Equality Act to require payment of sums claimed as disability related expenditure independently of the statutory obligations of the Council under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>, and hence divorced the power to levy a charge under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">that Act</ref> from the proper context of the Council&#8217;s obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">that Act</ref>. In the judgment of the Inner House (para 51), the purpose of the statement in para 12.2 of the policy document against which the appellant&#8217;s challenge was brought (para 18 above) was to enable the Council to discharge the obligations imposed by the Equality Act in respect of a person like Mr McCue who requires community care: &#8220;It does so by recognising that notwithstanding that there has been an assessment of his needs (and in this case one which is accepted as being sufficient for [Mr McCue&#8217;s] needs), there may be some essential disability related expenditure associated with those needs which may have been overlooked or otherwise slipped through the net. The effect of the [Equality Act] is not to create some entirely different obligation on the [Council] to pay for disability related expenditure which does not relate to the services provided by them under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> On behalf of Mr McCue, the appellant now appeals to this court. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">The parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the appeal, the appellant&#8217;s case continues to be based, as it was below, on section 15 and section 20 (read with section 21) of the Equality Act. However, the submissions on each side have been modified to a degree. Mr Dailly, who appeared for the appellant on the appeal as he did below, focused the appellant&#8217;s challenge not only on para 12.2 of the policy document but also on the statement in the Council&#8217;s pleading (para 32 above), which he submitted constituted a policy, criterion or practice of the Council which failed to comply with its duty not to discriminate on grounds of disability, within the meaning of sections 15 and 20 of the Equality Act. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Dailly relied on grounds of appeal which for present purposes can be conveniently grouped together and summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The courts below were wrong to hold that Mr McCue&#8217;s disability related expenditure for the purposes of calculation of his available income is only relevant in so far as it relates to his needs as assessed by the Council when deciding what services should be provided in the support plan.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">In terms of section 20 of the Equality Act, the Council applied a provision, criterion or practice (&#8220;PCP&#8221;) which put Mr McCue at a substantial disadvantage in relation to its charging policy in comparison with persons who are not disabled. The relevant PCP was the approach which the Council set out in its pleading. The appellant had provided evidence of living expenses which Mr McCue had paid to meet his additional costs as a disabled person, which placed him at a substantial disadvantage to a non-disabled person who did not have disability related expenditure when it came to the Council&#8217;s charging policy for community care services. Pursuant to section 20(3) the Council had to take such steps as is reasonable to take to avoid the disadvantage, but it had failed to do this. The support plan for Mr McCue only covers provision of community care services on weekdays, from 9am to 3pm, ie for 30 hours per week; however, the effects of Mr McCue&#8217;s disability are not part-time in this way, but apply all the time (ie for 168 hours per week) and the disability related expenditure he incurs to deal with those effects similarly cannot be confined to the 30 hours a week covered by the support plan. The Council was therefore obliged pursuant to section 15 or section 20 of the Equality Act to take into account all the disability related expenditure on which Mr McCue relied, and for which he provided evidence, as deductions when assessing his available means and the charges due from him under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in"> The judge and the Inner House were wrong to hold that the additional expenditure which the appellant asked to be deducted in the assessment of Mr McCue&#8217;s available income did not qualify as disability related expenditure. Mr McCue incurred the extra costs of attending specialist clubs as his only form of social activity in the evenings and at weekends; he incurred the extra cost of petrol in being driven to such clubs because he was unable to travel on his own or on public transport because of his Down&#8217;s Syndrome; he incurred extra costs for bedding because of a skin condition related to his disability (an element of expenditure now accepted by the Council as an appropriate deduction from Mr McCue&#8217;s available means); he incurred the extra costs of a support worker attending events because he was unable to go on his own because of his disability; and he incurred additional costs for washing and ironing clothes because he could not do this himself. The Inner House &#8220;erred in its definition of [disability related expenditure] as only being relevant if it were &#8216;essential&#8217; or non-discretionary expenditure.&#8221; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">It is not open to the Council at this stage to seek to defend its treatment of Mr McCue as a proportionate means of achieving a legitimate aim, because such a defence was not pleaded, no evidence was adduced by the Council in support of it, it was not argued in the courts below and was not the basis of the decisions they reached.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Miss Ruth Crawford KC, for the Council, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">As regards section 15 of the Equality Act, the relevant treatment is the application of the Council&#8217;s policy in the policy document and the availability of a deduction representing disability related expenditure from the otherwise chargeable amount (ie Mr McCue&#8217;s available means) in the calculation of the charge to Mr McCue for the community care services provided under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. The treatment is not in any sense unfavourable. It is to bestow upon Mr McCue the benefit of exempting disability related expenditure from the assessment of his available means, which is a benefit brought about only by the policy and is only a benefit for disabled persons. It is a policy to benefit disabled persons by contrast with non-disabled persons. The appellant&#8217;s complaint is that the benefit bestowed pursuant to the policy does not go far enough, and that greater benefits should have been bestowed by allowing more generous deductions of expenditure in the assessment of Mr McCue&#8217;s available means. But section 15 does not support such a claim: see <span style="font-style:italic">Trustees of Swansea University Pension and Assurance Scheme v Williams </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/65" uk:canonical="[2018] UKSC 65" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 65</ref>; <ref href="#" uk:canonical="[2019] 1 WLR 93" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 93</ref> (&#8220;<span style="font-style:italic">Swansea University Trustees</span>&#8221;). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Even if the relevant treatment was unfavourable, it did not arise in consequence of disability, and for this reason also it does not offend against section 15. Mr McCue&#8217;s disability needs are met, including in relation to participation in suitable activities, by the support plan put in place by the Council. Expenditure on items such as concert tickets does not arise as a consequence of an unmet disability need, but as a result of a choice by the appellant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in">Further and in the alternative, even if there has been discrimination as a result of the Council&#8217;s treatment of Mr McCue, it can be justified as a proportionate means of achieving a legitimate aim in the public interest. The Council&#8217;s approach is a proportionate assessment when spending limited public funds on social services. It should not have to expend public funds to subsidise discretionary spending choices where the expenditure is not required to meet a need arising from Mr McCue&#8217;s disability. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">As regards section 20 of the Equality Act, the fact that there has been no unfavourable treatment under section 15 means that there has been no &#8220;disadvantage&#8221; within the meaning of section 20(3). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(v)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">In any event, the policy document sets out the relevant PCP. Any &#8220;substantial disadvantage&#8221; that arises on the application of a charge to a disabled person under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> is addressed by para 12.2 of the policy document, which provides for deductions for disability related expenditure. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(vi)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Further and in the alternative, in assessing whether the Council took such steps as it was reasonable to take to avoid any relevant disadvantage, the policy document (which allowed for deduction of disability related expenditure when assessing Mr McCue&#8217;s available means) and its application were reasonable, having regard to the points mentioned at (iii) above and in the light of the guidance in the Code of Practice on services, public functions and associations (2011) promulgated by the Equality and Human Rights Commission pursuant to the Equality Act, in particular at para 7.30.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <heading class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">Analysis</span></heading>
+	  <paragraph>
+	    <num style="font-style:italic;font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaSubHeading1" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:normal">The operation of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref></span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A local authority may be under a duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> to provide community care services to a range of people for various reasons. Disabled persons are a subset of the general class of persons who may be eligible to receive services under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Where a local authority provides services under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>, then by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> it has a discretion whether to charge the recipient for such services. It &#8220;may&#8221; recover such charge &#8220;as they consider reasonable&#8221;. Under this provision, it is left to the judgment of the local authority whether a charge should be made and, if it is, what the reasonable amount to be charged should be. To make such an assessment, the local authority has to take into account the public funds available to it (for paying for services provided to the individual and other persons under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> and to meet other calls on its resources) and the income and capital of the individual subject to assessment. In making its assessment, the local authority is subject to the usual general obligations arising under public law, including to act fairly and rationally, to have regard to relevant considerations and to ignore irrelevant considerations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A) the local authority is subject to a further specific constraint. If the individual subject to assessment &#8220;satisfies the authority&#8221; that his means (ie taking account of his income and any capital resources) &#8220;are insufficient for it to be reasonably practicable for him to pay&#8221; the amount which would otherwise be due, then the authority may not charge more &#8220;than it appears to them that it is practicable for him to pay.&#8221; According to this provision, it is the local authority which has the function of forming a judgment whether the individual&#8217;s means are insufficient to the extent that it is not &#8220;practicable&#8221; for the individual to pay for the services provided. The onus is on the individual to satisfy the local authority of this. In forming the relevant evaluative judgement required, the local authority is again subject to the usual general obligations arising under public law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the phrase &#8220;disability related expenditure&#8221; is used in the COSLA Guidance, the policy document and the correspondence between the parties, it should be emphasised that it is not a statutory term. Rather, it is a term used in the COSLA Guidance, the policy document and the Council&#8217;s letters to indicate when expenditure incurred by an individual is so unavoidably imposed on him as a result of his disability that the local authority making the relevant assessments under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> and (1A) will judge that such expenditure should be regarded as reducing his available income and capital in the sense that, to that extent, it is not reasonably practicable for him to use the resources required to meet that expenditure to pay the local authority for the community care services provided to him under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At points in his submissions Mr Dailly referred to &#8220;disability related expenditure&#8221; as if it were a statutory term to be applied as such. Hence he pointed out that the items of Mr McCue&#8217;s expenditure, as to which there is a dispute whether they should be deducted from his available means, can indeed be described as being related to his disability. For instance, if Mr McCue wishes to go to a music concert, his disability means that he has to be accompanied by another person so the expenditure on a ticket for that person is expenditure related to his disability. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, that is not the proper way of framing the question to be asked when analysing the Council&#8217;s legal obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>. The relevant question, having regard to subsection (1A), is whether the Council is satisfied that Mr McCue, by his expenditure on the various items in dispute, has shown that his means are insufficient for it to be reasonably practicable for him to pay for the community care services provided to him by the Council, such that it is not &#8220;practicable&#8221; for him to pay a charge calculated without deduction of those items. As already mentioned, the appellant does not contend on this appeal that the Council acted irrationally or in any way unlawfully, according to the usual general obligations arising under public law, when deciding that it was not so satisfied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A related suggestion by Mr Dailly was that the Council could not properly assess welfare benefits paid to Mr McCue to help him to live an independent life despite his disability as being available to meet a charge for the community care services provided by the Council, in the sense that it would be reasonably practicable for him to have recourse to such sums within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A). To require Mr McCue to use part of those benefits to pay for the services provided by the Council would undermine that objective. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, no such limit is imposed on a local authority&#8217;s power of assessment under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>. A local authority is entitled to have regard to the means of the individual subject to assessment, howsoever arising, when making the evaluative judgment required under that provision. The welfare benefits paid to Mr McCue leave him, and his guardians, with the discretion to choose how they are spent, and the Council was entitled to take account of those benefits and that element of discretion when deciding (under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref>) what charge it was reasonable for Mr McCue to pay for the services provided to him and whether (under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A)) it was &#8220;practicable for him to pay&#8221; that charge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Notwithstanding these points, the analysis above shows that Mr Dailly is correct in his submission that Lady Wolffe erred at para 25 of her judgment (para 35 above). In the context of applying <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> it is wrong to say that disability related expenditure has to be expenditure used to meet the needs of the individual as assessed by a local authority under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 12</ref> and 12A of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. On the contrary, expenditure may be related to disability in the relevant sense if it is used to meet other needs of the individual arising by reason of his disability, so long as those needs are so pressing that the relevant local authority assesses (or should assess) that expenditure to meet them has the effect that, to that extent, the individual&#8217;s means are reduced below what it would otherwise be practicable for him to pay as a charge for the services provided by the authority. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is not clear to me that the Inner House made the same error at para 51 of its judgment (para 36 above). However, it can be said that it was not entirely precise in the way it expressed itself and it is possible to read that paragraph as perhaps limiting the concept of disability related expenditure in the same way as the judge. It should be pointed out that, if so read, this would be mistaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">What is clear is that the Council has not adopted any such mistaken approach to the concept of disability related expenditure. The deductions of &#163;6.25 and &#163;2.50 from Mr McCue&#8217;s available means (paras 25 and 33 above) were in respect of expenditure to meet needs different from and additional to those assessed by the Council under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 12</ref> and 12A of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>, in respect of which it provided the community care services set out in the support plan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As regards the remaining disputed items of disability related expenditure by Mr McCue, the Council&#8217;s assessment under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> is that they have not reduced his means in such a way that, to the extent they have been incurred, it would not be practicable for him to pay the charge imposed by the Council for the provision of services.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addition to the usual general obligations arising under public law referred to above, in acting pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 12</ref>, 12A and 87 of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> a local authority is subject to applicable obligations arising under the Equality Act. The questions on this appeal are whether the Council has acted in breach of obligations arising by virtue of section 15 and section 20 of the Equality Act, to which I now turn.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaSubHeading1" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:normal">Section 15 of the Equality Act</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By reason of his Down&#8217;s Syndrome, Mr McCue is a disabled person for the purposes of application of section 15. The principal question which arises under section 15 is whether the Council has treated Mr McCue &#8220;unfavourably&#8221; because of something arising in consequence of his disability: subsection (1)(a). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is inherent in section 15(1)(a) that, to determine whether there has been unfavourable treatment arising in consequence of the complainant&#8217;s disability, a comparison has to be made between two states of affairs: what has happened to the complainant in fact and what would have happened to him in a counterfactual world without the treatment alleged to have been unfavourable. In some circumstances, this may involve a relatively straightforward exercise to compare what has happened with what would have happened in the ordinary course of events if the defendant had not reacted to the complainant&#8217;s disability in a particular way. For example, if a defendant is looking to recruit an employee and it appears it would have recruited the complainant but decided not to by reason of his disability, relevant unfavourable treatment arising in consequence of the complainant&#8217;s disability would be established. It is not necessary to identify a non-disabled comparator to find that there has been unfavourable treatment, but it may assist a complainant to do so, as a means of showing that the treatment he has been subjected to was unfavourable and that it occurred because of something arising in consequence of his disability. As Elias LJ explained in <span style="font-style:italic">Griffiths v Secretary of State for Work and Pensions </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1265" uk:canonical="[2015] EWCA Civ 1265" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 1265</ref>; <ref href="#" uk:canonical="[2017] ICR 160" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] ICR 160</ref> (&#8220;<span style="font-style:italic">Griffiths</span>&#8221;), para 55, the formulation in section 15, by contrast with previous law, removes the need for a comparator, &#8220;although a comparison may well in many cases cast light on the question whether the treatment is unfavourable.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, in some cases the application of the test in section 15(1)(a) is not so straightforward. In the <span style="font-style:italic">Swansea University Trustees </span>case the complaint related to an employer&#8217;s pension scheme under which employees who retired due to ill-health were entitled to take their accrued pension benefits immediately, calculated by reference to the salary they were receiving on their actual retirement date. The claimant brought a claim of disability discrimination against the trustees of the scheme and the employer relying on section 15, contending that the scheme was inherently discriminatory in that, because he had a progressive illness and had been able to work only part-time immediately before his early retirement, his rights to early receipt of his pension had been based on part-time pay, whereas if he had not been ill he would have continued to work full time. He maintained that he had been treated &#8220;unfavourably&#8221; within the meaning of section 15(1)(a) as a consequence of his disability and that that treatment was not justified within section 15(1)(b). His claim failed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This court held that section 15 does not depend on a comparison with a non-disabled person, but instead raises two simple questions of fact: &#8220;what was the relevant treatment and was it unfavourable to the claimant?&#8221;: para 12, per Lord Carnwath. The relevant treatment, so far as concerned the claimant, was the award of a pension, and there was nothing intrinsically unfavourable about that: para 28. The only basis on which he was entitled to any pension award at the relevant time (ie on his retirement through ill-health) was by reason of his disability, since, if he had been able to work full time, he would have had no immediate right to a pension at all. Accordingly, the award of a pension of that amount and at that time was not &#8220;unfavourable&#8221; for the purposes of section 15. At para 17 Lord Carnwath quoted with evident approval a passage in the judgment by Langstaff J in the Employment Appeal Tribunal, where he said &#8220;treatment which is advantageous cannot be said to be &#8216;unfavourable&#8217; merely because it is thought it could have been more advantageous, or, put the other way round, because it is insufficiently advantageous.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my view, the relevant treatment in the present case is the Council&#8217;s application of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> in deciding that Mr McCue should be charged something for the services provided to him (subsection (1)) and its evaluation as to what deductions should be made in calculating Mr McCue&#8217;s available means and what sum it was practicable for Mr McCue to pay (subsection (1A)). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council provides community care services to a wide range of persons, some of whom are disabled and some are not. It is clear from the policy document (and it is not suggested otherwise) that the Council charges both disabled and non-disabled persons according to the same basic scheme as set out in the document and that it applies <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref> to disabled and non-disabled persons alike. In both cases, an individual subject to assessment may be subject to practically unavoidable financial pressures for a variety of reasons (eg the need to heat their residence at a reasonable level or the need to carry out indispensable repairs at their own cost to make it weather-proof) which mean that it is not reasonably practicable for them to use the part of their means required to meet such pressures in order to pay a charge to the local authority providing them with community care services under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49" uk:canonical="1968 c. 49" uk:origin="TNA" uk:type="legislation">the 1968 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The COSLA Guidance (which the Council states it follows) and the policy document both make it clear that in applying <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>(1A) in the case of disabled persons the Council is willing to consider whether disability related expenditure should be deducted on the same basis when calculating a disabled individual&#8217;s available means and what charge it is practicable for them to pay. This is an extension of the Council&#8217;s general approach under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> in order to take account of an additional category of practically unavoidable costs which the disabled individual may have to bear, over and above those which non-disabled persons have to bear. Accordingly, this aspect of the Council&#8217;s approach to the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> cannot be regarded as unfavourable to disabled persons. On the contrary, it is favourable to them, since it allows for a greater range of possible deductions to be made in calculating their available means when the Council assesses the charge which it is practicable for them to pay.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It can thus be seen that the true nature of the appellant&#8217;s complaint under section 15 is that this aspect of the treatment to which Mr McCue is subject is not generous enough, although it benefits persons with disabilities. The appellant&#8217;s submission is that the Council should have been more generous (to Mr McCue) in deciding the extent of the deductions from his available means by reason of his disability related expenditure. But as noted above, the appellant has no case that the Council has failed properly to apply <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> and (1A) in accordance with their terms and in accordance with its usual general public law obligations. The Council has followed the same approach in applying <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> as it has adopted in relation to all persons in receipt of community care services provided by it, with appropriate modification in Mr McCue&#8217;s favour to take account of additional practically unavoidable financial pressures to which he is subject by reason of his disability. As made clear in the <span style="font-style:italic">Swansea University Trustees </span>case the failure of the Council to apply <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> in a more generous way, beyond the favourable treatment for Mr McCue as a disabled person already built into its approach, does not constitute unfavourable treatment for the purposes of section 15(1)(a). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I would add, however, that I do not accept a wider submission made by Miss Crawford for the Council, to the effect that just because there is a favourable feature for disabled persons in the Council&#8217;s approach to the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>, this in itself necessarily rules out any possibility of a claim of unlawful discrimination on grounds of disability under section 15. This is not sustainable as a general proposition. The overall policy or approach adopted by a defendant may establish a normal standard of conferral of benefits from which it might be possible to identify a departure adverse to disabled persons, even though they receive benefits under the policy or approach so that it can be said that, in a certain sense, they are complaining that the policy is not favourable enough for them. It would then be possible for them to rely on the basic comparative exercise referred to in para 55 above, referring to the general context created by the overall policy or approach itself. So, for example, if the appellant had been able to show that in its approach to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> the Council applied a stricter standard before allowing deductions for disability related expenditure than it applied before allowing deductions for other forms of necessary expenditure which might be incurred by both disabled and non-disabled people, it would have been possible to argue that Mr McCue had been treated unfavourably because of something arising in consequence of his disability. But this was not the case presented by the appellant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons given above, which are different from those given by the courts below, I would dismiss the appellant&#8217;s ground of appeal founded on section 15 of the Equality Act. It is not necessary to examine whether the Council is entitled at this stage to raise the proportionality defence under section 15(1)(b) and whether any such defence could be made out. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:13pt;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaSubHeading1" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:normal">Section 20 of the Equality Act: duty to make adjustments</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In providing community care services to Mr McCue, the Council is acting within the scope of Part 3 of the Equality Act, so Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">that Act</ref> applies: see <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(13)</ref>. The Council is subject to a duty to make reasonable adjustments in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the appellant&#8217;s complaint based on <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> she seeks to rely on the first requirement comprised within the duty, as set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> (see para 11 above). The appellant has to show that a PCP of the Council puts Mr McCue at a substantial disadvantage in relation to a relevant matter in comparison with persons who are not disabled, in order to be able to say that it must take reasonable steps to avoid the disadvantage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Miss Crawford submitted that, if this court were to conclude that the appellant&#8217;s case under section 15 of the Equality Act failed, it must follow that her case based on <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> also fails. I do not agree. The two provisions are different. They use distinct concepts which have to be applied according to their terms. Even if (as I would hold) the Council has not discriminated against Mr McCue on grounds of his disability within the meaning of section 15, it remains open to the appellant to contend that it has discriminated against him within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> by failing to make reasonable adjustments when subject to a duty to do so pursuant to subsection (3). Although not depending on identification of a comparator as such, but on a notional comparable state of affairs, section 15 can be said to involve a form of direct discrimination. By contrast, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> is capable of applying both in relation to forms of direct discrimination (since a PCP may discriminate directly against disabled people) and in relation to forms of indirect discrimination such as may arise from the application of a PCP which is apparently neutral in form with general application to disabled and non-disabled persons alike, where that application produces a particular degree of detriment for a disabled person which ought to be corrected.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Griffiths </span>Elias LJ captured this feature of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> when, at para 58, he distinguished it from a provision establishing a test of direct discrimination, observing that this involved a different form of comparative exercise, and noted that &#8220;[t]he fact that [the disabled person and the non-disabled person] are treated equally and may both be subject to the same disadvantage &#8230; does not eliminate the disadvantage if the PCP bites harder on the disabled, or a category of them, than it does on the able bodied.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> it is necessary to identify a PCP of the Council which bears upon the provision of community care services by it. If the Council were subject to a statutory duty to act as it has done, its approach would not have been a PCP of its own, but something imposed on it by the law. However, since <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref> confers a discretion on the Council whether to charge Mr McCue for the provision of services and a power of evaluation as to how to calculate such a charge, it is possible for the Council itself to adopt a PCP which is capable of falling within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As mentioned above, the Council has adopted a policy or practice whereby it will consider charging any person to whom it provides community care services, whether they are disabled or not, for those services. But such a policy or practice does not put a disabled person at a disadvantage in comparison with non-disabled people, so it cannot in itself found a claim of discrimination under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council also has a policy or practice to charge for community care services where it assesses that it is reasonable and practicable for the recipient to pay such a charge, having regard to the financial pressures to which he or she is subject. Again, that is a policy or practice which does not, in itself, put a disabled person at a disadvantage in comparison with non-disabled people, so it likewise cannot in itself found a claim of discrimination under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Dailly&#8217;s submission under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> was concentrated on another aspect of what the Council has done, namely the way in which it has assessed what it will treat as Mr McCue&#8217;s disability related expenditure when calculating Mr McCue&#8217;s available means and, in consequence, the charge he should pay. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Neither the COSLA Guidance nor the policy document state what substantive policy the Council will apply when deciding what costs it will treat as disability related expenditure in the relevant sense, for the purposes of applying <ref href="http://www.legislation.gov.uk/id/ukpga/1968/49/section/87" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87</ref>. The COSLA Guidance simply says that disability related expenditure will be deducted from a person&#8217;s available income, to be determined on a case-by-case basis. The policy document simply says that the Council will ask for information to assist it to decide what deductions to make from a disabled person&#8217;s available income. Neither the COSLA Guidance nor the policy document contain a PCP in these respects which puts a disabled person at any disadvantage in comparison with non-disabled people. They indicate that a disabled person might be able to ask the Council to make deductions in calculating their available means which would not be made in calculating the available means of a non-disabled person.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Dailly therefore focused primarily on the more substantive policy which he maintained was stated in the Council&#8217;s pleaded case (para 32 above). However, that pleading was not a statement of policy by the Council, but was only its pleaded case in very summary form of what it had in fact done in relation to the disputed items of disability related expenditure in Mr McCue&#8217;s case. Nonetheless, even if the Council did not explicitly adopt such a policy, I am prepared to infer from that pleading that the Council has adopted a practice according to which items are rejected if they do not relate to disability; or if, while relating to disability, a person receives a benefit to meet the cost in question; or if they represent discretionary spending and are not necessary to meet the disabled person&#8217;s needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question then is whether that practice puts Mr McCue, as a disabled person, at a disadvantage so far as concerns setting charges for services provided by the Council in comparison with persons who are not disabled. In my view, it is clear that it does not. This is for the simple reason that the practice only applies to disabled people. As a distinct practice, as Mr Dailly identified it, it does not allow for any comparison to be made with the treatment of persons who are not disabled, so there is no scope for the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref>. Alternatively, one could say that this practice, as so identified, confers an advantage on disabled persons in comparison with non-disabled persons, not a disadvantage. Either way, the appellant&#8217;s claim based on <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> and the practice identified by Mr Dailly fails.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is not necessary to address the other submissions raised by the parties in relation to the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons given above, which differ from those given by the courts below, I would dismiss the appellant&#8217;s ground of appeal based on <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaHeading1"><span style="font-style:italic;font-weight:normal;text-transform:none">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As explained above, I would dismiss this appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

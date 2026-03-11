@@ -1,0 +1,1299 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/8"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2023/8"/>
+	  <FRBRdate date="2023-03-01" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="8"/>
+	  <FRBRname value="R (on the application of Day) v Shropshire Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/8"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/8"/>
+	  <FRBRdate date="2023-03-01" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2023/8/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2023/8/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:33:14" name="transform"/>
+	  <FRBRdate date="2024-11-19T23:28:30" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-03-01" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="r" href="" showAs="R"/>
+	<TLCPerson eId="shropshire-council" href="" showAs="Shropshire Council"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-kitchin" href="/judge-lord-kitchin" showAs="Lord Kitchin"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>8</uk:number>
+	<uk:cite>[2023] UKSC 8</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>a5390b0b406425f80b20838ea707fd917c19ff1e1bf67b4870da7db51e44a1ad</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2023] UKSC 8</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1751" style="font-style:italic" uk:canonical="[2020] EWCA Civ 1751" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2020] EWCA Civ 1751</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#r" style="font-size:20pt">R</party><span style="font-size:20pt"> (on the application of Day) (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">)</span><span style="font-style:italic;font-size:20pt"> v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#shropshire-council" style="font-size:20pt">Shropshire Council</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-kitchin">Lord Kitchin</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2023-03-01" refersTo="#judgment">1 March 2023</docDate><br/><br/>Heard on 7 December 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Alex Goodman<br/>Kimberley Ziya<br/>(Instructed by Leigh Day)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Killian Garvey<br/>(Instructed by Shropshire Council Legal Services)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LADY ROSE (<span style="text-transform:none">with whom Lord Reed, Lord Kitchin, Lord Hamblen and Lord Stephens agree</span>): </p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <num style="font-weight:bold;font-size:13pt">(1)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-size:13pt">1.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For many years Parliament has recognised the importance for local communities of having green spaces where people can take exercise, play sport and meet each other in the outdoors. Certainly, the events of recent years blighted by the Covid-19 pandemic with compulsory lock downs and social distancing have confirmed that recreation areas have a vital role to play in the physical and mental well-being of people living in an urban environment. The National Planning Policy Framework published by the Ministry of Housing, Communities &amp; Local Government in July 2021 states at para 98:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Access to a network of high quality open spaces and opportunities for sport and physical activity is important for the health and well-being of communities, and can deliver wider benefits for nature and support efforts to address climate change. Planning policies should be based on robust and up-to-date assessments of the need for open space, sport and recreation facilities (including quantitative or qualitative deficits or surpluses) and opportunities for new provision. Information gained from the assessments should be used to determine what open space, sport and recreational provision is needed, which plans should then seek to accommodate.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-size:13pt">2.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Legislation has conferred powers on local councils to acquire and lay out recreation grounds and provide them to residents. Where a local authority uses the powers conferred by the Public Health Act 1875 (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>&#8221;) or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">Open Spaces Act 1906</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>&#8221;) to acquire and provide recreation land or open space to the public, the land is subject to a statutory trust in favour of the public and members of the public have a right to go onto the land for the purpose of recreation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-size:13pt">3.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The powers of local authorities to dispose of land in their possession, particularly land used for recreation, have been subject to conditions and limits over many years. The procedure which is relevant for the purpose of this appeal is that currently set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) and (2B) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>&#8221;) (inserted into <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> in 1980). Those subsections provide that before disposing of land which is subject to a statutory trust under either the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>, the council must advertise their intention to do so in the local newspaper for two consecutive weeks. They must then consider any objections to the proposed disposal that may be made to them. If the council disposes of land having complied with that procedure then, according to <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, the land is freed from any public trust. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-size:13pt">4.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question raised by this appeal is what happens to the public&#8217;s rights to use the land when the local authority disposes of land which is subject to a statutory trust but where it fails to comply with the consultation requirements laid down by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) and (2B). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-size:13pt">5.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issue arises in the context of a challenge to the grant of planning permission by the Respondent, Shropshire Council, to a private company CSE Development (Shropshire) Limited (&#8220;CSE&#8221;) in respect of land within Shropshire Council&#8217;s remit. The land forms part of the Greenfields Recreation Ground in Shrewsbury. In October 2017, CSE bought the land from Shrewsbury Town Council (&#8220;Shrewsbury TC&#8221;) which is a parish council for the purposes of the relevant statutory provisions. <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/127/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 127(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> provides that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) and (2B) apply to disposals of land by parish councils as they apply to disposals of land under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> itself. At the time of the sale, Shrewsbury TC did not realise that the land it was selling was subject to a statutory trust for the benefit of the public and did not therefore comply with the necessary procedure under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) as applied to it by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/127/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. Shortly after buying the land, CSE applied for planning permission to build houses on it and Shropshire Council granted that planning permission in November 2018. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-size:13pt">6.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Appellant, Dr Day, is a local resident who opposes the development. He and a number of other residents have formed the Greenfields Community Group. Dr Day did not know about the disposal of the land by Shrewsbury TC to CSE but he did know of the application for planning permission. He investigated the long history of the recreation ground using the Shrewsbury town archives and this, he thought, established that the land was subject to a statutory trust for the benefit of the public under either the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. Dr Day brought judicial review proceedings challenging the grant to CSE of planning permission. He asserts in these proceedings that the statutory trust created by the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> continues to adhere to the land in the hands of CSE. If that is right, then, he submits, the grant of planning permission must be quashed on the ground, amongst others, that the existence of the trust was a material factor to which Shropshire Council should have, but failed to have, regard within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/70/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 70(2)</ref>(c) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> when considering whether to grant permission for CSE&#8217;s proposed development. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-size:13pt">7.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Shropshire Council now accepts that before the sale by Shrewsbury TC to CSE the land was subject to a statutory trust under either the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. But it argues that the statutory trust did not survive the disposal of the land to a private party, even if the advertising and consultation procedure in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) was not complied with. Shropshire Council relies in particular on <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> which provides, in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(a), that a disposal of land which was subject to an advertising requirement &#8220;shall not be invalid by reason that&#8221; the requirement has not been complied with and, further in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b), that the purchaser of the land &#8220;shall not be concerned to see or enquire&#8221; whether any such requirement has been complied with. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-size:13pt">8.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Shropshire Council says that the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> is that upon the sale of the land to CSE, the statutory trust was extinguished -- or at least that the rights of the public to access the land did not survive in a form that gave rise to a material consideration that the planning committee needed to take into account when deciding whether to grant planning permission.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-size:13pt">9.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lang J at first instance dismissed Dr Day&#8217;s application for judicial review. She held that even if the public&#8217;s rights under the statutory trust had survived the sale of the land by Shrewsbury TC to CSE, those rights were now unenforceable as against the developer so that it was not appropriate to grant Dr Day any relief. The Court of Appeal dismissed Dr Day&#8217;s appeal though their reasoning differed from that of Lang J. They held that the statutory trust was extinguished on the sale of the land. Dr Day now appeals with the permission of this court.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <num style="font-weight:bold;text-transform:uppercase;font-size:13pt">(2)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The decision challenged and the judicial review proceedings</span></heading>
+	  <paragraph eId="para_10">
+	    <num style="font-size:13pt">10.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The disputed land lies in Shrewsbury, the county town of Shropshire. During the 19th century, Shrewsbury Borough Council became a municipal corporation. In March 1926, land was bought by the Mayor, Aldermen and Burgesses of the Borough of Shrewsbury. This followed a petition presented by local residents in the Greenfields district of Shrewsbury, asking for the provision of playing fields because of the danger to children from fast moving traffic. In later council documents the land was referred to as part of &#8220;Greenfields Recreation Ground&#8221; or as &#8220;public recreation ground&#8221;. In 1942 a small portion of the recreation ground was allocated to allotments as part of the &#8220;Dig for Victory&#8221; project but later the allotments fell into disuse and the land was used by the council instead as a tree nursery. The tree nursery ceased operations probably at some point in the late 1990s or 2000, the fencing was not maintained and the public was able to gain access. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-size:13pt">11.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In 2010 the land which had been purchased in 1926 was transferred into the ownership of Shrewsbury TC as part of a local government reorganisation. The land had been registered at the Land Registry in 2005 as &#8220;Land at Greenfields&#8221; and this transfer was registered referring to the &#8220;Greenfields Recreation Ground and Allotments&#8221;. On 23 March 2016, Shropshire Council granted outline planning permission to Shrewsbury TC for an area slightly smaller than the area currently in dispute but essentially covering the same land. The development did not take place. The disputed land was sold by Shrewsbury TC to CSE on 4 October 2017 and CSE was also granted a right of access over a small neighbouring area which was retained by Shrewsbury TC. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-size:13pt">12.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 27 October 2017, CSE applied for planning permission for 17 dwellings. An Officer&#8217;s Report was commissioned by Shropshire Council to consider the proposal. The proposal was referred to as the erection of 15 dwellings including two affordable homes, a new access road and associated parking. The site address was stated to be &#8220;Land off Greenfields Recreation Ground, Falstaff Street, Shrewsbury Shropshire&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-size:13pt">13.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Report was placed before the Central Planning Committee of the Shropshire Council at their meeting on 30 August 2018. The Report described the land in the following terms: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;2.1</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The site is an overgrown vacant piece of land to the west of Greenfields recreation land and was previously owned by Shrewsbury Town Council. The trees that remained on the site following its previous use as a tree nursery were cleared prior to the submission of a planning application by the Town Council in 2012 for residential development of the site for 8 large detached dwellings that were described as 'eco homes'.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-size:13pt">14.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Report recorded the receipt of 90 comments from local residents objecting to the development and 11 comments in support. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-size:13pt">15.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Officer&#8217;s opinion was that the provision of housing within the urban area of Shrewsbury accorded with the policy that identified Shrewsbury as the primary focus for housing development for Shropshire. The land was contained within the urban development boundary and was in a sustainable location within walking distance of the town centre. Residential development of the site was acceptable in principle. At para 6.1.2, the Officer noted that a request had been made by the Greenfields Community Group to revoke the earlier grant of planning permission because &#8220;some residents consider that the application site is public open space and part of the recreation ground and that both the previous and this current application should be determined having regard to this.&#8221; The Officer then set out the evidence put forward by the Group in support of their contention that the site might be recreation ground. The Officer reviewed the history of the site and said: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;6.1.8</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">That some residents have used the site informally to walk their dogs, or that children have used it to play on at different times does not make the land public open space or recreation land. There are also some residents in addition to officers of the Town Council that disagree with this claim that the land has been available as public open space for the periods when it was not in use as allotments or tree nursery.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-size:13pt">16.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Officer said that Shrewsbury TC was &#8220;quite rightly&#8221; of the view that the application site was not public open space and concluded at para 6.1.13 that &#8220;suggestions that the land was or is public open space are unsubstantiated and therefore cannot be given weight in the planning decision making process.&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-size:13pt">17.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At the meeting on 30 August 2018, the Committee resolved to grant planning permission which was duly granted by Shropshire Council on 8 November 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-size:13pt">18.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In his judicial review claim challenging that decision, Dr Day alleged that Shropshire Council had committed a public law error by its failure to inquire into and ascertain that a public trust and recreational rights (whether suspended or subsisting) existed over the land and that the land was open space. Dr Day contended that Shrewsbury TC&#8217;s failure to comply with the requirements for advertising and consultation meant that the land was not freed from the statutory trust under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. Dr Day accepted that this did not make the sale invalid but said that the disputed land remained subject to the statutory trust and could not be developed. Shropshire Council argued before Lang J that the land was not open space and was not subject to a statutory trust under either the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. In the alternative, it argued that if a statutory trust had existed, that trust ceased to have effect once the land was sold to CSE in 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-size:13pt">19.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lang J handed down her judgment on 19 December 2019: <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/3539" uk:canonical="[2019] EWHC 3539 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3539 (Admin)</ref>. She described the history of the planning process and found at para 54 that the planning officer had failed to take reasonable steps to ascertain the extent of the recreation ground that had been created when the land was bought in 1926. She found that the plans before her provided compelling evidence that the land sold to CSE was part of what became the Greenfields Recreation Ground. She said that the planning officer and the planning committee should have sought more detailed advice about the legal status of the land from its Legal Services department before making its decision on the planning application: para 57. She then went on to consider that legal status herself and concluded at para 80 that if Shropshire Council had addressed its mind to the legal status of the recreation ground, it would have been likely to conclude that the recreation ground was purchased and established pursuant to powers in the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>, and that it was held by Shrewsbury TC on a statutory trust for the benefit of the residents of the area. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-size:13pt">20.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lang J then considered the effect on the statutory trust of the sale of the land to CSE. She observed that the freehold of the land was of no benefit to CSE if the land could not be developed. Presumably CSE would seek to set aside the sale and/or seek compensation from Shrewsbury TC if Dr Day&#8217;s claim succeeded. She held that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> was inconsistent with Dr Day&#8217;s contention that the statutory trust was enforceable against the buyer unless or until the advertising and consideration of objections requirements had been complied with. If that were the case, plainly a buyer would be &#8220;concerned to see and enquire&#8221; whether those requirements had been met, and subparagraph (b) would be misleading. She concluded that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> contains two separate protections for the buyer: subsection (2)(a) protects the validity of the transaction and subsection (2)(b) protects the buyer from the need to inquire into the local authority's compliance with sub<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, and thus whether the statutory trust has been extinguished under sub<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-size:13pt">21.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">She therefore held that if Shropshire Council had properly considered the status of the land following the sale to CSE, it would have concluded that the rights under the statutory trust insofar as they subsisted could not be enforced against CSE. Although Dr Day had succeeded on his judicial review grounds as regards Shropshire Council&#8217;s failures, Lang J applied <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, because she concluded that it was highly likely that if the conduct complained of had not occurred, the outcome of the planning application would not have been substantially different. She therefore refused relief. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-size:13pt">22.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By the time the appeal against Lang J&#8217;s ruling came before the Court of Appeal some important points had become common ground. It was accepted by Shropshire Council that the land sold to CSE by Shrewsbury TC in October 2017 had indeed been held by the town council under a statutory trust for public recreation: see para 9 of the Court of Appeal&#8217;s judgment. It was also common ground that CSE was not put on notice of the possible existence of the trust; that Shrewsbury TC had not complied with the advertising requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and hence that it had acted unlawfully. It was also common ground that the disposal of the freehold of the land to CSE was valid.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-size:13pt">23.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal (David Richards, Hickinbottom and Andrews LJJ) dismissed Dr Day&#8217;s appeal in a judgment of the court handed down on 23 December 2020: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1751" uk:canonical="[2020] EWCA Civ 1751" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1751</ref>, <ref href="#" uk:canonical="[2021] QB 1127" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] QB 1127</ref>. The Court of Appeal recognised at para 21 the unusual nature of the statutory trust created by the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;However, a section 10 trust is not a trust in the usual private law sense because, although the local authority is clearly obliged to hold the relevant legal title for the benefit of the public, the trust does not have any beneficiary recognised as such in equity; nor is it a charitable trust or one of the small band of non-charitable purpose trusts (such as for the upkeep of a grave) which equity recognises. It is a statutory construct, in respect of which Parliament alone has determined the obligations and rights involved.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-size:13pt">24.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the trust had some similarities with a purpose trust, the Court of Appeal held that there was a significant difference: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; in the case of section 10 trust, the land is held and administered by the local authority to allow <span style="font-style:italic">its</span> enjoyment by the public as an open space, and there are no residuary beneficiaries entitled in the event that the purpose fails. In this sense, the land and the trust are inseparable.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-size:13pt">25.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal described the history of the powers of sale conferred on local authorities. They recorded the submissions of the Appellant that there was no power to discharge the statutory trust over and above that provided for in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and of the Respondent that the trust obligations &#8220;cannot be divorced from ownership and/or control over the relevant land&#8221; by the authority so that on disposal of the land, the disponee is not obliged to allow the public access to the land at all (para 40). The Court concluded that while some strands of each of those arguments had force, they were unable wholly to accept either of them. The Court held that the correct analysis of the statutory provision was that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> has to be read with <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> which is expressly for the protection of purchasers. <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref>(a) deals with legal title to the land in all circumstances, so that &#8220;whatever the circumstances of the disposal and irrespective of what is or should be in the mind of the authority and the disponee, it overcomes any argument that the disposal was void (and therefore the disponee has no legal title) because the authority had no power to make it.&#8221; (para 44). <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref>(b) must therefore be dealing with something other than legal title: (para 45)</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; It provides that a disponee 'shall not be concerned to see or enquire whether any ... [<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A)] requirement has been complied with&#8217;. That is a classic formula for setting at nought any argument based on constructive notice, i.e. it provides that the disponee is not to be fixed with constructive notice of a failure to comply with those requirements. As <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(a) renders any reference to constructive notice redundant for the purposes of the legal title, in our view this can only be construed as giving the disponee title to the land free from the section 10 trust where he has no more than constructive notice of that failure. In other words, he will take the land without the burden of the section 10 trust unless he has actual knowledge that the requirements have not been met.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-size:13pt">26.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal concluded at para 48 that it did not matter whether the authority inadvertently or knowingly disposed of the land without complying with the statutory requirement. If it did so knowingly, then the authority and/or individual officers or councillors may be open to civil and/or criminal sanctions. But the Court reiterated at para 51 that the position would be different if the disponee had <span style="font-style:italic">actual </span>knowledge of the non-compliance with <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-size:13pt">27.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Despite the dismissal of Dr Day&#8217;s judicial review application and of his appeal, the courts&#8217; rulings have had important repercussions for Shrewsbury TC and the land. On 16 April 2020, Shrewsbury TC&#8217;s appointed auditors sent the council a public interest report under Schedule 7 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">Local Audit and Accountability Act 2014</ref>. This identified &#8220;serious governance weaknesses&#8221; surrounding the sale of the land to CSE resulting in the Council&#8217;s failure to establish the legal status of the land prior to selling it. In light of Lang J&#8217;s judgment and that auditors&#8217; report, Shrewsbury TC appointed Michael Redfern KC to conduct an independent investigation into its conduct. His report dated 23 May 2022 (&#8220;the Redfern Report&#8221;) was highly critical of the conduct of Shrewsbury TC, particularly in its dealings with Dr Day and the Greenfields Community Group. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-size:13pt">28.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 8 June 2022 Shrewsbury TC passed a motion at a full council meeting stating that it accepted the findings of the Redfern Report and unreservedly apologised to the residents of Greenfields, members of the Greenfields Community Group and the wider Shrewsbury community for its handling of the sale. The Council has since considered whether the land can be returned to public ownership so that it can be made available as a public amenity. At the hearing of the appeal, this court was told that consideration of that option has been paused pending the outcome of this appeal. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <num style="font-weight:bold;font-size:13pt">(3)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The issues raised by the appeal</span></heading>
+	  <paragraph eId="para_29">
+	    <num style="font-size:13pt">29.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is convenient to set out here the statutory provisions which need to be construed. The current wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> so far as relevant is as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;123.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">&#8211; Disposal of land by principal councils</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:13pt">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to the following provisions of this section, &#8230; a principal council may dispose of land held by them in any manner they wish.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:13pt">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Except with the consent of the Secretary of State, a council shall not dispose of land under this section, otherwise than by way of a short tenancy, for a consideration less than the best that can reasonably be obtained.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">(2A) A principal council may not dispose under subsection (1) above of any land consisting or forming part of an open space unless before disposing of the land they cause notice of their intention to do so, specifying the land in question, to be advertised in two consecutive weeks in a newspaper circulating in the area in which the land is situated, and consider any objections to the proposed disposal which may be made to them.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">(2B) Where by virtue of subsection (2A) above &#8230; a council dispose of land which is held&#8212;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">for the purposes of section 164 of the Public Health Act 1875 (pleasure grounds); or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">Open Spaces Act 1906</ref> (duty of local authority to maintain open spaces and burial grounds),</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">the land shall by virtue of the disposal be freed from any trust arising solely by virtue of its being land held in trust for enjoyment by the public in accordance with the said section 164 or, as the case may be, the said <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref>.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-size:13pt">30.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref> provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">128</span><span/><span style="font-weight:bold">Consents to land transactions by local authorities and protection of purchasers</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230; </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:13pt">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where under the foregoing provisions of this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref> or under any other enactment, whether passed before, at the same time as, or after, <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref>, a local authority purport to acquire, appropriate or dispose of land, then&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">in favour of any person claiming under the authority, the acquisition, appropriation or disposal so purporting to be made shall not be invalid by reason that any consent of a Minister which is required thereto has not been given or that any requirement as to advertisement or consideration of objections has not been complied with, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a person dealing with the authority or a person claiming under the authority shall not be concerned to see or enquire whether any such consent has been given or whether any such requirement has been complied with.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-size:13pt">31.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principal question raised by this appeal is whether the Court of Appeal was right to hold that the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref><span style="font-weight:bold"/>is that where land which is held as described in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B)(a) and (b) is disposed of without compliance with the procedure in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A), the land is still freed from any statutory trust by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> unless the disponee had &#8220;actual knowledge&#8221; of the existence of the statutory trust prior to disposal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-size:13pt">32.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Dr Day maintains that the statutory trusts continue to bind CSE. Prompted by the recent events following the Redfern Report, Dr Day adopts an alternative argument that if the courts below were right that the rights were not enforceable following the sale, then the rights continue to exist in a dormant, suspended or inchoate state and are capable of revival if the land comes back into local authority ownership.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-size:13pt">33.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The second ground of appeal is whether if the Court of Appeal was right to hold that the statutory rights were extinguished, their former existence was still a material consideration that needed to be taken into account by Shropshire Council when deciding whether to grant planning permission to CSE. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <num style="font-weight:bold;font-size:13pt">(4)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The rights created by the statutory trusts</span></heading>
+	  <level eId="lvl_4_1">
+	    <num style="font-style:italic;font-size:13pt">(a)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The statutory trusts under the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref></span></heading>
+	    <paragraph eId="para_34">
+	      <num style="font-size:13pt">34.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> was a consolidating and amending Act which sought to address longstanding public health problems in relation to such matters as sewerage, housing, water supply and the prevention of epidemic disease. <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 164</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> provides: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-size:13pt">&#8220;164.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Urban authority may provide places of public recreation.</span></p>
+		      </content>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">Any [local authority] may purchase or take on lease lay out plant improve and maintain lands for the purpose of being used as public walks or pleasure grounds, and may support or contribute to the support of public walks or pleasure grounds provided by any person whomsoever.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_35">
+	      <num style="font-size:13pt">35.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The reference there to a &#8220;local authority&#8221; was inserted by the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> (Schedule 14 Part II, paragraph 27). A &#8220;local authority&#8221; for this purpose includes a parish council like Shrewsbury TC: see <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/270" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 270</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. Otherwise, the provision remains in force in its original form.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_36">
+	      <num style="font-size:13pt">36.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> was enacted to consolidate enactments relating to open spaces. <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 2</ref> to 5 of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> provided for the transfer of open spaces owned by trustees, charities or other owners to a local authority. By section 9, the local authority was given power to acquire the freehold or other interest in an open space:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-size:13pt">&#8220;9.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Power of local authority to acquire open space or burial ground</span></p>
+		      </content>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">A local authority may, subject to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref> -</p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <num style="font-size:13pt">(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">acquire by agreement and for valuable or nominal consideration &#8230; the freehold of &#8230; any open space or burial ground, whether situate within the district of the local authority or not; and</p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-size:13pt">(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">undertake the entire or partial care, management, and control of any such open space or burial ground, whether any interest in the soil is transferred to the local authority or not; and</p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-size:13pt">(c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">for the purposes aforesaid, make any agreement with any person authorised by <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref> or otherwise to convey or to agree with reference to any open space or burial ground, or with any other persons interested therein.&#8221;</p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_37">
+	      <num style="font-size:13pt">37.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As noted by the Court of Appeal (para 17), by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/42/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/42" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 42" uk:origin="TNA" uk:type="legislation">Parish Council Act 1957</ref>, &#8220;local authority&#8221; expressly includes a parish council for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. Shrewsbury TC is thus a local authority for all purposes relevant to this appeal.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_38">
+	      <num style="font-size:13pt">38.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">According to <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>, the local authority holds the open space acquired under section 9 in trust for the enjoyment of the public and is required to maintain and keep it in a good and decent state: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-size:13pt">&#8220;10.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Maintenance of open spaces and burial grounds by local authority.</span></p>
+		      </content>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">A local authority who have acquired any estate or interest in or control over any open space or burial ground under <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref> shall, subject to any conditions under which the estate, interest, or control was so acquired &#8212;</p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <num style="font-size:13pt">(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">hold and administer the open space or burial ground in trust to allow, and with a view to, the enjoyment thereof by the public as an open space within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref> and under proper control and regulation and for no other purpose: and</p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-size:13pt">(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">maintain and keep the open space or burial ground in a good and decent state </p>
+		      </content>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">and may inclose it or keep it inclosed with proper railings and gates, and may drain, level, lay out, turf, plant, ornament, light, provide with seats, and otherwise improve it, and do all such works and things and employ such officers and servants as may be requisite for the purposes aforesaid or any of them.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_39">
+	      <num style="font-size:13pt">39.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 20</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> defined &#8220;open space&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">that Act</ref> as follows: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;The expression &#8216;open space&#8217; means any land, whether inclosed or not, on which there are no buildings or of which not more than one-twentieth part is covered with buildings, and the whole or the remainder of which is laid out as a garden or is used for purposes of recreation, or lies waste and unoccupied:&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_40">
+	      <num style="font-size:13pt">40.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> does not expressly refer to a statutory trust, it has been held, and it was common ground before us, that it creates the same trust as is expressly created by <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. In <span style="font-style:italic">R (Friends of Finsbury Park) v Haringey London Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1831" uk:canonical="[2017] EWCA Civ 1831" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1831</ref>, <ref href="#" uk:canonical="[2018] PTSR 644" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] PTSR 644</ref>, Hickinbottom LJ stated that even where a park has been established under statutory provisions that contain no express statutory trust, such as <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>, the land is held on trust for the purpose of public enjoyment. </p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_4_2">
+	    <num style="font-style:italic;font-size:13pt">(b)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The public&#8217;s rights to enjoy land held on statutory trust for their benefit</span></heading>
+	    <paragraph eId="para_41">
+	      <num style="font-size:13pt">41.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There have been many cases describing how the statutory trusts created over recreation grounds and open spaces both restrict the ability of the local authority to use the land for any purpose other than recreation and also confer rights on the public to use the land for that purpose. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_42">
+	      <num style="font-size:13pt">42.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Attorney General v Sunderland Corpn </span>(1876) <ref href="#" uk:canonical="2 Ch D 634" uk:isNeutral="false" uk:origin="TNA" uk:type="case">2 Ch D 634</ref>, the local authority wished to use part of a public garden to build town buildings, a museum, a public library and school of art and a conservatory. Bacon VC rejected the corporation&#8217;s submission that they were entitled to use the land for any public purpose. He said: (p 639) </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;It is plain that these lands were vested in this corporation for a public purpose. It has been argued over and over again that a discretion was given to the corporation. But more than ten years ago this land was granted to be used &#8216;only as and for public walks or pleasure-grounds for the use of the inhabitants of the borough;&#8217; and that trust has been executed by the corporation ever since.</p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">Acts of Parliament have been referred to, which give very extensive powers to corporations. They give, amongst other things, powers to build offices; but they do not give powers to build offices upon other people's land, or to take other people's land for that purpose.</p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">Now, these lands have been made into a park, which is intended only for the recreation and healthful exercise of the people of Sunderland. It has been argued that these statutes may, by a circuity, be brought round to give to the corporation power of constructing buildings for other purposes, provided such purposes are not inconsistent with public use and benefit. But I am of opinion that buildings which are intended for purposes not connected with public walks or pleasure-grounds are plainly unlawful.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_43">
+	      <num style="font-size:13pt">43.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Vice-Chancellor held that the museum and conservatory were within the original trust but he granted a decree restraining the use of the site for any building not needed for or incidental to the maintenance of the park as public walks or pleasure grounds. His decision was upheld on appeal although James LJ (with whom Mellish LJ and Baggallay JA agreed) considered that &#8220;A library into which people may turn if the weather becomes unfavourable also seems allowable if <span style="font-style:italic">bona fide </span>intended for the use of person frequenting the grounds&#8221; (p 642). </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_44">
+	      <num style="font-size:13pt">44.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The nature of the public&#8217;s rights to use the statutory trust and consequently the extent of the council&#8217;s rights in the land have also been considered in the context of disputes over the rateable value of the land in the hands of the local authority. In <span style="font-style:italic">Lambeth Overseers v London County Council </span><ref href="#" uk:canonical="[1897] AC 625" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1897">[1897] AC 625</ref> (&#8220;<span style="font-style:italic">Lambeth Overseers</span>&#8221;) the question arose whether the council was the occupier of a park for the purpose of determining whether the council was rateable in respect of the park. The park land had been acquired by Lambeth under the powers of the London Council (General Powers) Act 1890 which required that they must hold and maintain the park &#8220;for the perpetual use thereof by the public for exercise and recreation&#8221;. Lord Halsbury LC held that the fact that the park was vested in the county council did not make them the occupiers. He held that there was no occupation by the council at all, &#8220;the county council being merely custodians and trustees for the public&#8221;. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_45">
+	      <num style="font-size:13pt">45.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">More recently the same issue arose in <span style="font-style:italic">Blake v Hendon Corpn </span><ref href="#" uk:canonical="[1962] 1 QB 283" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1962">[1962] 1 QB 283</ref> (&#8220;<span style="font-style:italic">Blake v Hendon</span>&#8221;). This was a ratings dispute which arose in respect of land which had been acquired by the local authority in 1932 under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>. The land had been laid out as a park and used by the public as such, after it was officially opened in 1934. The local authority claimed that the park should be exempt from rating on the ground that the beneficial occupation of the park was in the public. The valuation officer disputed this, arguing amongst other things that the exemption did not arise because there was no obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> to dedicate the park to the public. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_46">
+	      <num style="font-size:13pt">46.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That argument was rejected. Devlin LJ described the question before the court as follows: (pp 292 &#8211; 293) </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;If the corporation are merely custodians and trustees of the park for the benefit of the public there is no beneficial occupation by them and occupation by the public is not rateable. If the corporation has the full ownership of the park, beneficial as well as legal, and the public are admitted not as beneficiaries but as licensees, the park is in law occupied by the corporation, who must pay rates accordingly. A highway is the obvious example of land which cannot be said to be occupied at all unless by the public; a decision that Putney Bridge was not rateable started this branch of rating law: <span style="font-style:italic">Hare v Overseers of Putney </span>(1881) <ref href="#" uk:canonical="7 QBD 223" uk:isNeutral="false" uk:origin="TNA" uk:type="case">7 QBD 223</ref> CA. In the cases that have followed public parks have generally been treated as highways; but other premises enjoyed by the public, such as libraries and art galleries owned by local authorities, have generally been treated as places occupied by local authorities to which members of the public are admitted as licensees.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_47">
+	      <num style="font-size:13pt">47.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Devlin LJ referred to many earlier cases where the courts were called upon to consider whether statutory powers, conferred on local authorities in respect of the land they owned and managed, interfered with the free and unrestricted use of the land by the public so as to make the local authority the occupier of the land. He noted that &#8220;So far such contentions have not succeeded&#8221;. He cited a case in which Lord Evershed MR held that allowing a private club, in return for payment, to use cricket and football pitches on land acquired under the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> was ancillary to their management of the field as an open space (<span style="font-style:italic">Burnell v Downham Market Urban District Council </span><ref href="#" uk:canonical="[1952] 2 QB 55" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1952">[1952] 2 QB 55</ref>, <ref href="#" uk:canonical="[1952] 1 All ER 601" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1952">[1952] 1 All ER 601</ref>). Similarly ancillary was the letting of a refreshment pavilion to a caterer at an annual rent: <span style="font-style:italic">Sheffield Corpn v Tranter </span><ref href="#" uk:canonical="[1957] 1 WLR 843" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1957">[1957] 1 WLR 843</ref>.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_48">
+	      <num style="font-size:13pt">48.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The effect of the public&#8217;s statutory rights has been affirmed in a variety of different legal contexts. In <span style="font-style:italic">Glasgow Corpn v Taylor </span><ref href="#" uk:canonical="[1922] 1 AC 44" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1922">[1922] 1 AC 44</ref>, a child died after eating poisonous berries growing in Glasgow&#8217;s public botanic gardens. In the House of Lords, Lord Atkinson said that it was not disputed that the unfortunate child who lost his life was in the gardens &#8220;not merely as a licensee but as of right&#8221; (p 51). Lord Shaw of Dunfermline said that the child had, equally with any other citizen, a right to gain access to the shrubbery where the poisonous berries were growing: (p 60). The House of Lords held that the child had not been a trespasser so the father&#8217;s claim against the Corporation should go forward to trial.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_49">
+	      <num style="font-size:13pt">49.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Hall v Beckenham Corpn </span><ref href="#" uk:canonical="[1949] 1 KB 716" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1949">[1949] 1 KB 716</ref>, the local authority managed and controlled a recreation ground that it had acquired under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>. Neighbours complained that people using the ground flew noisy model aircraft. They sued the local authority in nuisance raising as a preliminary point the question whether the local authority was in occupation. Finnemore J held that the local authority was not, noting that it was not the occupier for ratings purposes, citing <span style="font-style:italic">Lambeth Overseers</span>. The neighbours could bring a claim only against the individual plane fliers: (p 728)</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;I think that the corporation are the trustees and guardians of the park, and that they are bound to admit to it any citizen who wishes to enter it within the times when it is open. I do not think that they can interfere with any person in the park unless he breaks the general law or one of their by-laws. They cannot put themselves in the position of judges of whether a person may be causing a nuisance to someone outside the park. Their proper attitude to such a complaint is to say that the complainer must take action against the person who is said to be committing the nuisance.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_4_3">
+	    <num style="font-style:italic;font-size:13pt">(c)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Analogy with private trusts</span></heading>
+	    <paragraph eId="para_50">
+	      <num style="font-size:13pt">50.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I agree with the Court of Appeal that although the arrangement created by <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> is called a &#8220;public trust&#8221;, it is not a trust which has the incidents of a private trust. One must be careful, therefore, not to import into the statute concepts that are familiar from private trusts. The parties drew our attention to a passage from <span style="font-style:italic">Lewin on Trusts, </span>20<span style="vertical-align:super;font-size:smaller">th</span> ed (2020), para 7-102 which says:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;Where a trust is created by statute, the statute may not create a comprehensive set of rules concerning the rights of the beneficiaries or the duties, rights and powers of the trustees. In such a case, it is inappropriate to apply the general rule of interpretation which applies to statutory provisions and non-statutory instruments that if provision is not made for some event, the most usual inference to be drawn is that nothing is to happen. Rather, the general rules of trust law and principles of equity, such as rules concerning self-dealing, the duties of a trustee to account, tracing and pooling of assets, so far as not excluded or modified by statute, are applied by default so as to fill the gap left by the terms of the statute; and where the effect of trust law is to take away private property law rights which would otherwise exist, or to confer a power not expressly conferred by the statute concerned, the court will not apply any general presumption that the statute was not intended to take away such rights nor confer such a power.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_51">
+	      <num style="font-size:13pt">51.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A question arose during the hearing before this court as to whether the statutory trusts could be overreached under, pursuant to, or at least by analogy with <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref>. That might result in the statutory trust being overreached on the sale to CSE as a purchaser in good faith for valuable consideration (which is how &#8220;purchaser&#8221; is defined for this purpose by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/205/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 205(1)</ref>(xxi) of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">the 1925 Act</ref>) and the trust attached instead to the proceeds of sale in the hands of Shrewsbury TC. Dr Day argued that those provisions have no application here because the statutory trust created over the land here is a <span style="font-style:italic">sui generis</span> creature of statute.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_52">
+	      <num style="font-size:13pt">52.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In so far as there is any inconsistency between what the Court of Appeal said at para 21 of its judgment in this case and that passage in <span style="font-style:italic">Lewin</span>, I respectfully prefer the view of the Court of Appeal. Whether it is ever appropriate to fill a gap in these statutes by importing concepts from private trust law seems to me doubtful but does not arise for decision in this case. We did not hear submissions from Shrewsbury TC as to the difficulties that would arise if it had received the proceeds of sale from CSE impressed with trusts. But it is not difficult to foresee that such a situation would cut across the detailed provisions in the local government legislation dealing with which monies can be used for what purposes. </p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_4_4">
+	    <num style="font-style:italic;font-size:13pt">(d)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Can the rights survive transfer of the land into private ownership at all?</span></heading>
+	    <paragraph eId="para_53">
+	      <num style="font-size:13pt">53.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Shropshire Council argued before the Court of Appeal that the obligations on a local authority cannot be divorced from ownership and/or control over the relevant land by that authority - the statute does not impose any obligations on third parties. Therefore, on a disposal of land, the disponee whose legal title and interests are protected by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> is not obliged to allow the public access to the land at all. The Court of Appeal appears to have rejected this argument, preferring to rely on reasoning more directly based on the interpretation and operation of the statutory provisions: see paras 41 onwards.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_54">
+	      <num style="font-size:13pt">54.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, the Court of Appeal said at para 23 that <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> attaches the obligations of the statutory trust to land only where a local authority has acquired an &#8220;estate or interest or control over&#8221; the relevant open space. The Court continued: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;on the face of the statute, the trust obligations on the authority therefore go hand-in-hand with ownership or control. Indeed, for the primary obligation to allow the public free access to be satisfied, some control over the relevant land must generally be essential.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_55">
+	      <num style="font-size:13pt">55.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">They referred to <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> which gives the local authority the power to undertake the care and management of an open space where it neither owns nor has any interest in or control over the land. The Court said: &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> does not appear to envisage any circumstances in which any obligations of or powers in a local authority arise other than in the context of (i) ownership or control of the relevant land, or (ii) agreement with someone else who owns or controls the relevant land.&#8221;</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_56">
+	      <num style="font-size:13pt">56.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Mr Goodman appearing before us and before the Court of Appeal for the Appellant pointed out, the Court of Appeal concluded, nevertheless, that the statutory trust would not be extinguished by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) if the purchaser had actual notice that the land was subject to a statutory trust and that the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) had not been complied with: see para 51. It appears that to that extent the Court of Appeal did recognise that the public&#8217;s rights under the trust could subsist even if the local authority transferred ownership and control of the land to another person. That would seem inconsistent with a conclusion that the trusts must be extinguished once the land leaves the ownership or control of the local authority. The Court of Appeal fairly recognised that there was this inconsistency and that may explain why they were unable wholly to accept Mr Garvey&#8217;s submissions on behalf of Shropshire Council. Referring to a situation where the purchaser had actual notice, the Court of Appeal said: (para 51)</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;That situation is covered by neither <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) nor <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) as we have construed it. They are circumstances which do not arise in this appeal, and we hope are unlikely to occur in practice; but, if they were to do so, then it seems to us that the disponee would take the legal title but the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> trust would continue. We acknowledge that, despite the general linking of the land and the trust which we have described (see paras 21-23 above), the ownership and control over the land would then be divorced from the local authority's obligations under the enduring <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> trust. However, we see nothing unfair, disproportionate or odd about a disponee in such circumstances being saddled with land which remained subject to the statutory trust for public use and enjoyment.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_57">
+	      <num style="font-size:13pt">57.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment the simple transfer of the land subject to the statutory trust into private ownership is not sufficient to extinguish the trusts. Mr Goodman makes the simple but powerful point that if it were the case that the statutory trust over the land was extinguished as soon as the land was sold to a private person, there would hardly be any need for <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) or <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. The restrictions and conditions that have always attached to the sale of statutory trust land would be very easily circumvented. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_58">
+	      <num style="font-size:13pt">58.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> I also accept Mr Goodman&#8217;s submission that the public rights relied on here are analogous in this respect with public rights in village and town greens and over public highways. It is clear that those rights survive the transfer of control of the land into private ownership, although what effect that has on the obligations of the former public authority owner has not been worked out in the case law. One cannot push the analogy between these different, ancient rights too far since they have acquired their own particular incidents over the centuries. But there seems to me no reason to suppose that the public&#8217;s rights under the statutory trusts should be so much more precarious than these other public rights. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_59">
+	      <num style="font-size:13pt">59.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issue as to the exercise of public rights in village and town greens arises under the test for registration of land as a village or town green under the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/64" uk:canonical="1965 c. 64" uk:origin="TNA" uk:type="legislation">Commons Registration Act 1965</ref> and under the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/26" uk:canonical="2006 c. 26" uk:origin="TNA" uk:type="legislation">Commons Act 2006</ref> (which replaced <ref href="http://www.legislation.gov.uk/id/ukpga/1965/64" uk:canonical="1965 c. 64" uk:origin="TNA" uk:type="legislation">the 1965 Act</ref>). That test includes the criterion that a significant number of local inhabitants have indulged &#8220;as of right&#8221; in lawful sports and pastimes on the land for not less than 20 years: see <ref href="http://www.legislation.gov.uk/id/ukpga/2006/26/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/26" uk:canonical="2006 c. 26" uk:origin="TNA" uk:type="legislation">the 2006 Act</ref> and the definition of &#8220;town or village green&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1965/64/section/22/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/64" uk:canonical="1965 c. 64" uk:origin="TNA" uk:type="legislation">the 1965 Act</ref>. As Lord Neuberger of Abbotsbury PSC explained in <span style="font-style:italic">R (Barkas) v North Yorkshire County Council </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/31" uk:canonical="[2014] UKSC 31" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 31</ref>, <ref href="#" uk:canonical="[2015] AC 195" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 195</ref>, the legal meaning of the term &#8220;as of right&#8221; is almost the opposite of &#8220;of right&#8221; or &#8220;by right&#8221;: (para 14) </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;Thus, if a person uses privately owned land &#8216;of right&#8217; or &#8216;by right&#8217;, the use will have been permitted by the landowner -- hence the use is rightful. However, if the use of such land is &#8216;as of right&#8217;, it is without the permission of the landowner, and therefore is not &#8216;of right&#8217; or &#8216;by right&#8217;, but is actually carried on as if it were by right - hence &#8216;as of right&#8217;. The significance of the little word &#8216;as&#8217; is therefore crucial, and renders the expression &#8216;as of right&#8217; effectively the antithesis of &#8216;of right&#8217; or &#8216;by right&#8217;.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_60">
+	      <num style="font-size:13pt">60.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">R (Lewis) v Redcar and Cleveland Borough Council (No 2) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/11" uk:canonical="[2010] UKSC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 11</ref>, <ref href="#" uk:canonical="[2010] 2 AC 70" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 AC 70</ref> (&#8220;<span style="font-style:italic">Lewis</span>&#8221;) this court considered an application to register land as a town green. The Borough Council was the freehold owner of the disputed land but until 2002 the disputed land had been leased to the trustees of Cleveland Golf Club and had been used regularly by the members of that club. The question was whether the use which had been made of the land by the public during that period amounted to recreation &#8220;as of right&#8221;. Only if it was, could those seeking to register the land as a town green establish the necessary 20 years of qualifying use. The application had been rejected by the inspector because the evidence showed that the public had shown &#8220;deference&#8221; to the golfers when the two groups came into contact on the links. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_61">
+	      <num style="font-size:13pt">61.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Walker of Gestingthorpe did not accept that a reasonable owner would have concluded that the residents were not asserting a right to walk on the disputed land simply because they showed civility and common sense in their dealings with the golfers: para 36: &#8220;A reasonably alert owner of the land could not have failed to recognise that this user was the assertion of a right and would mature into an established right unless the owner took action to stop it&#8221;. Lord Hope of Craighead DPSC also rejected the idea that the deference of the walkers to the golfers indicated that there was no assertion by the public of use of the land as of right. The supposed deference was &#8220;simply attributable to an acceptance that where two or more rights coexist over the same land there may be occasions when they cannot practically be enjoyed simultaneously&#8221;: para 76. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_62">
+	      <num style="font-size:13pt">62.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The court in <span style="font-style:italic">Lewis </span>rejected the submission that registration of the land as a town green was likely to bring the golfers and the walkers into conflict even if they had coexisted peacefully before. As Lord Rodger of Earlsferry put it: &#8220;If the inhabitants had previously shown no inclination to break out the croquet hoops, or to set up butts or cricket stumps or to dance around a maypole on the disputed land, it seems unlikely that registration would have suddenly brought on the urge.&#8221;: para 84.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_63">
+	      <num style="font-size:13pt">63.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As regards the rights of the public to use a public highway, Mr Goodman referred us to <span style="font-style:italic">R (Smith) v Land Registry (Peterborough) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/200" uk:canonical="[2010] EWCA Civ 200" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 200</ref>, <ref href="#" uk:canonical="[2011] QB 413" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] QB 413</ref>. This case concerned whether rights can be acquired by prescription over a public highway by someone who had parked his caravan on an unmetalled byway and applied for first registration of his title to the land. Arden LJ described a highway as having two elements, it has both a public right to pass over a defined route and the physical land or other property (such as a bridge) over which the right is exercised: para 8. Where there is a highway, the surface of the land or other property is dedicated to public use. But she said that it is clear that a private person can acquire an interest in the land below the surface because cellars of neighbouring houses, mines, drains and cables all run under highways. She said that the claimant had to show not just that he had dispossessed the owner of the highway but that he had dispossessed the public entitled to a right of passage over the highway as well: para 23. Arden LJ clearly regarded it as possible that Mr Smith could have acquired title to the land but still subject to the public&#8217;s right of way over it. Unless he could show that the public&#8217;s right to use the highway was extinguished at the same time as he acquired title to the highway, &#8220;he has in practice achieved nothing if the right of passage over the land he occupies still subsists&#8221;: para 25. She held that adverse possession could not operate to transfer title to the highway. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_64">
+	      <num style="font-size:13pt">64.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I would therefore reject the argument that the answer to the present case is simply that as soon as the land comes into private ownership, the trust must be extinguished. There is no support for such a conclusion in the authorities and the cases on village or town greens and public highways suggest that analogous rights can co-exist with private rights. </p>
+	      </content>
+	    </paragraph>
+	  </level>
+	</level>
+	<level eId="lvl_5">
+	  <num style="font-weight:bold;font-size:13pt">(5)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The local authority&#8217;s powers to dispose of land</span></heading>
+	  <level eId="lvl_5_1">
+	    <num style="font-style:italic;font-size:13pt">(a)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The local authority&#8217;s earlier statutory powers to sell land</span></heading>
+	    <paragraph eId="para_65">
+	      <num style="font-size:13pt">65.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Like the Court of Appeal, I consider that the answer to this appeal lies in the proper construction of the statutory provisions. With that in mind, I turn to consider the evolution of the local authority&#8217;s powers in respect of their land in general and recreation grounds or open spaces in particular. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_66">
+	      <num style="font-size:13pt">66.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The powers of local authorities to appropriate land acquired for one purpose so as to use it for another, and to sell land they have acquired for their statutory purpose have a long history. A constant theme that emerges from that legislation is that in many instances, apparently broad powers to deal with land have been hedged about with conditions and requirements, in particular for Ministerial consent or, more recently, public consultation. For our purposes I will start with the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/23-24/51" uk:canonical="1933 (23 &amp; 24 Geo. 5) c. 51" uk:origin="TNA" uk:type="legislation">Local Government Act 1933</ref> (&#8220;the LGA 1933&#8221;) which conferred on the local authority powers to let or sell land or to appropriate it for a purpose other than that for which the land was acquired.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_67">
+	      <num style="font-size:13pt">67.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These powers were set out in sections 163 (appropriation), 164 (letting) and 165 (sale or exchange) of the LGA 1933. In most instances, the consent of the Minister to the transaction or the approval of the Minister of the new purpose was required. <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 164</ref> of the LGA 1933 empowered a local authority (other than a parish council) to let any land which they may possess with the consent of the Minister for any term or without the consent of the Minister for a term not exceeding seven years. Section 165(a) of the LGA 1933 provided that a local authority could with the consent of the Minister sell any land which they may possess but only if that land was not required for the purpose for which it had been acquired or was being used. Similar powers to let, sell or exchange land were conferred on parish councils: see sections 169 and 170 of the LGA 1933, again, subject to the consent of the Minister. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_68">
+	      <num style="font-size:13pt">68.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 179 of the LGA 1933, headed &#8220;Savings&#8221; provided that nothing in those provisions authorised the various transactions specified there, including by section 179(d) as follows: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">179 Savings </span></p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">Nothing in this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/23-24/51" uk:canonical="1933 (23 &amp; 24 Geo. 5) c. 51" uk:origin="TNA" uk:type="legislation">this Act</ref> shall &#8212;</p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8230;</p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <num style="font-size:13pt">(d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">authorise the disposal of land by a local authority, whether by sale, lease, or exchange, in breach of any trust, covenant or agreement binding upon the authority;&#8221; </p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_69">
+	      <num style="font-size:13pt">69.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The requirement for Ministerial consent was removed for some sales of land by local authorities by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1959</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref>&#8221;). That provided (as originally enacted) that where any enactment conferred a power on any authority to dispose of land but the power was conferred subject to obtaining the consent of the Minister, then the enactment had effect as if it conferred the power free from that requirement. That relaxation of the requirement for Ministerial consent was not, however, applied to disposals of open spaces. Instead, <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26(2)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> provided that where a disposal by a local authority was of land which consisted of or formed part of an open space, then if it was a disposal which needed the consent of &#8220;a Minister&#8221;, it needed instead the consent of the particular Minister specified in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref>. The term &#8220;open space&#8221; was defined as meaning any land laid out as a public garden or used for the purpose of public recreation, or land being a disused burial ground: see <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/57/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 57(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> importing definitions from earlier statutes. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_70">
+	      <num style="font-size:13pt">70.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> also dealt with what was to happen if the necessary consent, in so far as it was still required, was not obtained. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> provided that where a local authority purported to dispose of land under a power conferred by an enactment, then the disposal was not invalid by reason that any consent of a Minister which was required had not been given and:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;a person dealing with the authority, or with a person claiming under the authority, shall not be concerned to see or inquire whether any such consent has been given&#8221;. </p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_5_2">
+	    <num style="font-style:italic;font-size:13pt">(b)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Blake v Hendon and Laverstoke</span></heading>
+	    <paragraph eId="para_71">
+	      <num style="font-size:13pt">71.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question of how these powers of disposal applied in relation to recreation land which was subject to a statutory trust was considered in <span style="font-style:italic">Blake v Hendon </span>to which I have referred earlier. The valuation officer contended in <span style="font-style:italic">Blake v Hendon</span> that the ability of the local authority under the LGA 1933 to let any land in their possession was unrestricted. Hendon Corporation could therefore have let the park to anyone and thereby excluded the public from it. It was argued that Hendon was therefore in occupation of the land for ratings purposes unless and until it had done something to &#8220;dedicate&#8221; the land to the public and any such dedication would be a fettering of the discretion given to it to let the land. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_72">
+	      <num style="font-size:13pt">72.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This argument was rejected for two reasons. First, it was wrong because it assumed that something over and above acquiring the land under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> needed to be done by the local authority before the public &#8220;enter into the enjoyment of rights similar to those which they enjoy over the highway&#8221; (p 299). There was no such need:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;The purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of [the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>] is to provide the public with public walks and pleasure grounds. The public is not a legal entity and cannot be vested with the legal ownership of the walks and pleasure grounds which it is to enjoy. But if it can be given the beneficial ownership, that is what it should have. &#8230; the local authority has no right to retain out of lands intended for the enjoyment of the public a right of occupation that is not necessary for their management.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_73">
+	      <num style="font-size:13pt">73.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Devlin LJ went on to hold that the power to let land conferred by the LGA 1933 was subordinate or supplementary to the main power in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>. The power to let could therefore only be used if it was compatible with the full use by the public of the park as public walks and pleasure grounds. The Corporation in <span style="font-style:italic">Blake v Hendon </span>also relied on section 179(d) of the LGA 1933. The Corporation argued that that provision meant that <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> LGA 1933 was wide enough to authorise any letting which was not in breach of any trust, covenant or agreement. The Court of Appeal disagreed, stating that the effect of section 179(d) LGA 1933 was to cut down the power of letting not to extend it. The argument based on <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> LGA 1933 failed. Devlin LJ added (p 303) that the Corporation had based a similar argument on other statutory provisions giving the local authority powers in relation to lands which it held. Some of these powers were general, such as power to let or to sell lands that were not required for the statutory purpose, and others related to parks and pleasure gardens in particular and dealt with the provision of amenities for them, such as pavilions and recreation grounds, and the right to charge for admission to them. Again, he said, that if in any of the provisions Parliament specifically authorised the use of a pleasure ground acquired under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> in a manner which was a real denial of its free and unrestricted use by the public, and if the language was explicit and its meaning could not be cut down by reference to the object of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> taken by itself, it would be necessary to construe the two provisions together, and maybe to hold that the object of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> had been altered. But that was not the case for the powers conferred on the local authority by the LGA 1933.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_74">
+	      <num style="font-size:13pt">74.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The use of the power in section 165 LGA 1933 to dispose of land acquired or held under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> but which was no longer required for that purpose was later considered in <span style="font-style:italic">Laverstoke Property Co Ltd v Peterborough Corpn</span> <ref href="#" uk:canonical="[1972] 1 WLR 1400" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1972">[1972] 1 W.L.R. 1400</ref>, 1406-7 (&#8220;<span style="font-style:italic">Laverstoke</span>&#8221;). <span style="font-style:italic">Laverstoke </span>concerned land acquired by Peterborough Corporation under the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> but which was no longer required for that purpose. In that respect the land was different from the land involved in the <span style="font-style:italic">Blake v Hendon </span>case. The contract under which Peterborough Corporation sold the land was subject to a special condition that required the necessary ministerial approvals and consents and the release of land from the restrictions and obligations of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>, including <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">that Act</ref>. The Corporation did not satisfy the special condition but allowed the purchaser onto the land and the purchaser built offices on it. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_75">
+	      <num style="font-size:13pt">75.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Corporation argued that it could sell the land pursuant to section 165 and, further, that the requirement in that section for Ministerial consent had been abrogated by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref>. Goff J held that the plaintiffs faced &#8220;an unanswerable difficulty&#8221; in section 179(d) of the LGA 1933. That made clear that nothing in section 165 LGA 1933 authorised a disposal in breach of trust and <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> expressly created a trust. Goff J rejected the submission that the statutory trust created by the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> was not the kind of trust referred to in section 179(d) LGA 1933. He observed that there may be other powers which allowed the Minister to consent to the disposal of the land subject to a statutory trust or which abrogated the trust, but that the trust could not be overridden by the power in section 165 LGA 1933 alone: p 1408A.</p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_5_3">
+	    <num style="font-style:italic;font-size:13pt">(c)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> as originally enacted and as amended in 1980</span></heading>
+	    <paragraph eId="para_76">
+	      <num style="font-size:13pt">76.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> repealed the LGA 1933 and provided in Part VII of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">the Act</ref> new powers for local authorities to acquire, appropriate, and dispose of land. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_77">
+	      <num style="font-size:13pt">77.</num>
+	      <intro>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As originally enacted, <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> allowed for the disposal of what was called &#8220;public trust land&#8221; but subject to conditions, namely that:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:13pt;margin-left:0.5in">(i)</num>
+		<content>
+		  <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">the total of the land disposed of in any particular public walk, pleasure ground or other open space had to be less than 250 square yards: (<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref>(a)); and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+		<content>
+		  <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">before disposing of the land, the local authority was required to cause a notice of their intention to do so to be advertised in two consecutive weeks in a newspaper circulating in the area in which the land is situated and consider any objections to the proposed disposal which were made to them: (<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref>(b)).</p>
+		</content>
+	      </subparagraph>
+	    </paragraph>
+	    <paragraph eId="para_78">
+	      <num style="font-size:13pt">78.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If those conditions were satisfied, then <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> provided that the land would &#8220;by virtue of the disposal, be freed from any trust arising solely by reason of its being public trust land&#8221;. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_79">
+	      <num style="font-size:13pt">79.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That wording had not been included in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> LGA 1933 or <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 26</ref> or 29 <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref>. It was not included in the initial draft clause introduced into Parliament which became <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. As Mr Goodman showed us, this wording first appeared when the clause came to be considered by the House of Lords in Committee when an amendment was proposed to introduce the &#8220;freed from any trust&#8221; wording. The intention behind the amendment was said by the Earl of Gowrie when moving the amendment to be &#8220;to put beyond doubt that where public walks or pleasure grounds or public open space is appropriated or disposed of, to the very limited extent allowed under the Bill, the land is freed from any public trust so that it can be used for the purpose for which it is appropriated or disposed of&#8221;: see Hansard (HL Debates), 18 September 1972, col 798-799.</p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_80">
+	      <num style="font-size:13pt">80.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref> as originally enacted was in the same form as it remains for the purposes of this appeal and has been set out at para 30 above. It was based on <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/29/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> but the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(a) was supplemented so as to cover any requirement to advertise and consider objections as well as any requirement for Ministerial consent. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 26</ref> and 29 of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> were not wholly repealed but they were disapplied by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> so as not to overlap with the powers to sell with which we are concerned. <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(3)</ref> thus provides that the powers in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 22</ref>, 23 and 26 of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> shall not apply in relation to the exercise by principal councils of powers conferred by Part VII of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> (which was the predecessor of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>) was disapplied by excluding from its scope the principal councils covered by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_81">
+	      <num style="font-size:13pt">81.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 179(d) of the LGA 1933, which had been considered in <span style="font-style:italic">Laverstoke</span>, was replaced by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/131/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131(1)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, revised so that the carving out of disposals which would be in breach of any binding trust, covenant or agreement was itself subject to an exception for statutory trusts<span style="font-style:italic">. </span><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/131/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 131(1)</ref>(a) provides: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;131.- <span style="font-weight:bold">Savings</span></p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <num style="font-size:13pt">(1)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">Nothing in the foregoing provisions of this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref> or in Part VIII below&#8212;</p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-size:13pt">(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">shall authorise the disposal of any land by a local authority in breach of any trust, covenant or agreement which is binding upon them, excluding any trust arising solely by reason of the land being held as public walks or pleasure grounds or in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">Open Spaces Act 1906</ref>;</p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_82">
+	      <num style="font-size:13pt">82.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 123</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> was amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/65" uk:canonical="1980 c. 65" uk:origin="TNA" uk:type="legislation">Local Government, Planning and Land Act 1980</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/65" uk:canonical="1980 c. 65" uk:origin="TNA" uk:type="legislation">LGPLA 1980</ref>&#8221;) by the insertion of sub<ref href="http://www.legislation.gov.uk/id/ukpga/1980/65/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (2</ref>A) and (2B), as I have set out at para 29, above. The <ref href="http://www.legislation.gov.uk/id/ukpga/1980/65" uk:canonical="1980 c. 65" uk:origin="TNA" uk:type="legislation">LGPLA 1980</ref> also substituted a new <ref href="http://www.legislation.gov.uk/id/ukpga/1980/65/section/26/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> to remove the requirement for Ministerial consent and replace it with the advertisement and consultation requirements mirroring the new <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A). </p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <level eId="lvl_5_4">
+	    <num style="font-style:italic;font-size:13pt">(d)</num>
+	    <heading class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Cases on the effect of section 128(2) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref></span></heading>
+	    <paragraph eId="para_83">
+	      <num style="font-size:13pt">83.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The scope and effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> have been considered in previous cases not involving land subject to statutory trusts. <span style="font-style:italic">R (Structadene Ltd) v Hackney London Borough Council </span><ref href="#" uk:canonical="[2001] 2 All ER 225" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 All ER 225</ref> concerned a sale by a local authority of industrial units which it admitted it had sold for less than best value. A sale for less than best value needed the consent of the Secretary of State pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, without which the sale was unlawful. The sale had not been completed and an injunction was granted preventing completion. The local authority, however, resisted an application for an order quashing its decision and setting aside the sale contract, arguing that the rights of the third party purchaser were protected by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_84">
+	      <num style="font-size:13pt">84.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Elias J held that there had been no disposal within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> because completion had not yet taken place. He therefore quashed the sale and declared the contract invalid. He went on to consider the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) and held that it only relieved the purchaser from the failure by the council to obtain Ministerial consent. That was not the same as saying that the purchaser should be treated as if the consent had been given: (para 28)</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in"><span class="QuoteChar" style="font-family:'Calibri, sans-serif'">&#8220;That is not what the statute says. In my opinion the purchaser can use the provision as a shield to fend off any challenge that he has failed to obtain consent, but he cannot use it to fashion a sword entitling him to claim that he has consent.&#8221;</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_85">
+	      <num style="font-size:13pt">85.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The significance of the distinction was, Elias J held, that in so far as the applicant was able to identify independent breaches of the law, the provision did not give any protection. The applicant had prima facie made out its claim that the respondent council had acted in breach of its fiduciary duty to the ratepayers. For the same reason, the court was compelled to find that the respondent had acted unreasonably in rejecting an offer which was substantially higher than the offer it accepted for the land. That was not a defect which the purchaser could surmount relying on <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128</ref> because it involved treating <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128</ref> as though the court must assume that consent had been granted: para 34. </p>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_86">
+	      <num style="font-size:13pt">86.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A different result was arrived at in <span style="font-style:italic">R v Pembrokeshire County Council, Ex p Coker </span><ref href="#" uk:canonical="[1999] 4 All ER 1007" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 4 All ER 1007</ref>. That case also concerned land alleged to have been sold for less than best consideration and the necessary consent of the Secretary of State had not been given. On the facts, the court found that best value had been obtained. Lightman J considered what would have happened if best value had not been obtained. He held that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> would have prevented the invalidation of the lease: (para 14)</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;The language of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 128(2)</ref> is perfectly clear and unambiguous: in favour of a person claiming under the council (and that includes CSSL as lessee under the lease), the lease is not invalid even if a higher rent or a greater consideration could have been obtained and the necessary consent of the minister was not obtained.&#8221; </p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </paragraph>
+	    <paragraph eId="para_87">
+	      <num style="font-size:13pt">87.</num>
+	      <content>
+		<p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref> therefore protected the title of the lessee from exposure to the risk of the invalidity of the lease by reason of the failure of the council to obtain a required consent and precluded the grant of any relief impugning the validity of or setting aside the lease on this ground. Lightman J rejected a submission that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> did not apply where a lease was challenged in judicial review proceedings but only where the issue as to validity arose in some other context or proceedings: para 14.</p>
+	      </content>
+	    </paragraph>
+	  </level>
+	</level>
+	<level eId="lvl_6">
+	  <num style="font-weight:bold;text-transform:uppercase;font-size:13pt">(6)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The proper construction of sections 123(2A) and (2B) and 128(2) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref></span></heading>
+	  <paragraph eId="para_88">
+	    <num style="font-size:13pt">88.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Both Lang J and the Court of Appeal recognised that there is no construction of these statutory provisions which gives a wholly satisfactory result for both the public who have been deprived of the opportunity to challenge the sale of land to which they have a right of access under the statutory trust and for the unfortunate purchaser which may have paid a price for the land reflecting its potential development value but then finds it has bought land to which the public have access &#8220;as of right&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-size:13pt">89.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The problem can be summarised by contrasting passages in the judgments below. Lang J acknowledged the disadvantages of the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> she arrived at: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;117.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">I recognise that this interpretation will have the unfortunate effect of depriving local residents of the enjoyment of part of the Recreation Ground which was very probably held in trust for their use. In principle, local residents can challenge a local authority's unlawful disposal of land held under a statutory trust by way of judicial review, but if the proposed disposal is not advertised, they may well not learn of it in time. By the time this claim for judicial review was issued on 19 December 2018, the Claimant was hopelessly out of time to challenge the lawfulness of the Town Council's disposal of the Site to [CSE] on 4 October 2017.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-size:13pt">90.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Conversely, the Court of Appeal regarded the dilemma facing the purchaser who has relied on <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> as strong support for their construction of the provision: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;47.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; However, <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) provides that a person claiming under the authority (e.g. a disponee such as the Developer in this case) &#8216;shall not be concerned to see or enquire&#8217; whether any of the statutory consents or requirements has been complied with. In our view, that is inconsistent with the trust continuing. It is to be noted that it is in negative mandatory terms (&#8216;... shall not ...&#8217;). Such a provision would be odd - indeed, positively misleading - if Mr Goodman's construction were correct. &#8230; he would risk obtaining legal title to land subject to a perpetual statutory trust which, leaving aside the inherently unlikely (e.g. he was committed to building only a bandstand on land which he properly considered to have no relevant restriction on development), may effectively deny him the opportunity to develop or use the land at all whilst leaving him with that interest in the land which he purchased (and any private law remedies the purchaser may have). As Mr Garvey submitted, that would make the apparent benefit given by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>( a) a positive burden, and belie the heading and apparent purpose of the section, namely &#8216;... protection of purchasers&#8217;.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-size:13pt">91.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Having considered the history of the provisions and how they have evolved in response to the case law, I have concluded that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> properly construed does not operate to extinguish the rights enjoyed by the public under the statutory trusts created by <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. Those rights are only extinguished if the local authority complies with the bespoke procedure set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) and (2B). I have arrived at that conclusion for the following reasons. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-size:13pt">92.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The general powers conferred on local authorities to buy, appropriate, lease and sell land for their ordinary statutory purposes have always been subject to special conditions or restrictions either set out expressly in the legislation or as construed by the courts. Further, statutory trust land has generally been treated as different from other land, so that wide powers applicable to disposals of all land held are not regarded as overriding the public&#8217;s rights to enjoy recreation land. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-size:13pt">93.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This has been the consistent line of the law&#8217;s development. In addition to the cases I have already cited, one of the earliest cases to which we were referred was <span style="font-style:italic">Attorney-General v The Mayor, Aldermen and Burgesses of the Corporation of Southampton </span>(1859) 1 Giff 363. The Vice-Chancellor (Sir John Stuart) had to construe a general power in clause 139 of a local Act. The power appeared to allow the Mayor, Aldermen and Burgesses of Southampton to give notice that the annual May fair would henceforth be held on such parts of the waste lands for the time being vested in them &#8220;as they shall think fit&#8221;. The Vice-Chancellor held that, despite its apparent breadth, clause 139 did not empower them to move the fair to land which clause 18 of the same Act required them to set aside for public recreation &#8220;for ever thereafter&#8221;. The Vice-Chancellor said: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Taking the 18th clause, and construing the 139th clause by the light of it, it is quite plain that the Corporation must look for some other pieces of waste land than that included in the 18th section for the purpose of holding this fair. The general words in section 139, which allow them to fix upon such part of the waste lands as they may think fit, on which to hold the fair, must be read as controlled by the particular words of the 18th section.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num style="font-size:13pt">94.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I have described how the Court of Appeal in <span style="font-style:italic">Blake v Hendon </span>rejected an argument that the LGA 1933 power conferred on the Corporation to let the land took precedence over the statutory trust. Devlin LJ rejected that in the following terms:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The correct way of dealing with a situation in which two or more powers given to a local authority overlap and may conflict is laid down in <span style="font-style:italic">British Transport Commission </span>v. <span style="font-style:italic">Westmorland County Council. </span>You must ascertain first the object for which the land is held. All other powers are subordinate to the main power to carry out the statutory object and can be used only to the extent that their exercise is compatible with that object. &#8230; Applying this to the present case, the power to let in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of 1933 is subordinate or supplementary to the main power in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of [<ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref>] and can, therefore, be validly exercised only if it is compatible with the full use by the public of Stonegrove Park as public walks and pleasure ground. &#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Of course, if <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> of [LGA 1933] had been worded in such terms that it specifically authorised the local authority to let a public park for use for some commercial purpose, the position would be different. &#8230; It would mean, in effect, that the corporation was given express statutory authority of its own motion to alter the statutory object for which it held the park.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-size:13pt">95.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Laverstoke</span>, the Corporation argued before Goff J that unless section 165 LGA 1933 did apply, then any open space within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> could never be sold save under a specific statutory authority: p 1406. Goff J accepted that that may be true in respect of open space actually acquired under the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> if there was no express power of sale in the deed of sale. That was not enough to make him change his view as to the proper construction of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/179" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 179</ref>(d) LGA 1933.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-size:13pt">96.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Another striking instance of the courts&#8217; restrictive interpretation of general statutory powers relied on to override public rights was referred to by Mr Goodman at the hearing: <span style="font-style:italic">Shonleigh Nominees Ltd v Attorney General </span><ref href="#" uk:canonical="[1974] 1 WLR 305" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] 1 WLR 305</ref> (&#8220;<span style="font-style:italic">Shonleigh</span>&#8221;). That concerned the public&#8217;s right of way over an unmetalled road across farmland. The road had been stopped up using powers under the Defence Regulations during the Second World War. Those powers were effective until the end of 1960. The land was sold by the Crown to the appellants for use as a civilian airfield and the question arose whether the right of way across the land was still in existence. It was said that the right of way had been extinguished by <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94" uk:canonical="1842 (5 &amp; 6 Vict.) c. 94" uk:origin="TNA" uk:type="legislation">the Defence Act 1842</ref>. Under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94" uk:canonical="1842 (5 &amp; 6 Vict.) c. 94" uk:origin="TNA" uk:type="legislation">that Act</ref>, the principal officers of Her Majesty&#8217;s Ordnance were given power to enter onto lands wanted for the service of the department or the defence of the realm. They were also given power to stop up any public or private footpaths for as long as the exigencies of the public service should require, subject to a proviso that an alternative path should be provided. <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94" uk:canonical="1842 (5 &amp; 6 Vict.) c. 94" uk:origin="TNA" uk:type="legislation">the 1842 Act</ref> gave the principal officers power to sell or exchange or to dispose of or demise lands they had acquired. <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 14</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94" uk:canonical="1842 (5 &amp; 6 Vict.) c. 94" uk:origin="TNA" uk:type="legislation">the 1842 Act</ref> then provided that, immediately on the payment of the purchase price and the execution of the conveyance, the purchaser was deemed and adjudged to stand seised and possessed of the land and notwithstanding any defect in the title of the said principal officers thereto, freed and absolutely discharged of and from any and all manner of prior estates, rights, interests, claims and demands whatsoever.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-size:13pt">97.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the House of Lords, Lord Morris of Borth-y-Gest, dissenting, said that the clear intention of Parliament was that after a sale by the Secretary of State, &#8220;land &#8230; is freed and absolutely discharged from all manner of rights whatsoever which any person whomsoever may set up in respect of the land.&#8221; (p 312). The wording showed, he thought, the concern of the draftsman to cover every burden that could affect land and there was no justification for reading the words &#8220;except rights of way&#8221; into the statutory language.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-size:13pt">98.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The majority of their Lordships, however, disagreed and held that even that apparently comprehensive language was not sufficient to extinguish the public right of way on the sale of the land. Viscount Dilhorne said that <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> had to be read in the context of the rest of the legislation. In particular, <ref href="http://www.legislation.gov.uk/id/ukpga/2006/26/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> provided that any person who, by operation of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> lost any right, was entitled to compensation. He said that every member of the public had a right to pass along a public highway but that it was &#8220;inconceivable that Parliament intended by <ref href="http://www.legislation.gov.uk/id/ukpga/2006/26/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> to give every member of the public a right to compensation&#8221;: p 318G. That factor strongly reinforced his view that the rights covered by <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> were only proprietary rights, and the right of the public to pass along a highway was not a right to any land or part of land. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num style="font-size:13pt">99.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Viscount Dilhorne also referred to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/Will4/5-6/50" uk:canonical="1835 (5 &amp; 6 Will. 4) c. 50" uk:origin="TNA" uk:type="legislation">the Highways Act 1835</ref> which had made elaborate provision for the publication of notices and advertisements before a highway could be stopped up and for justices of the peace to certify that the highway should be stopped up. Viscount Dilhorne said: pp 319 &#8211; 320</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;These elaborate provisions were clearly designed to secure that members of the public should have ample opportunity of learning what was proposed and the right to contend that a highway should not be closed or diverted.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Yet seven years later, if [counsel for the purchaser] is right in his contentions, Parliament provided for the closing of public highways without any notice to the public, without any member of the public having the right to object and without the matter having to go before any court, as the automatic result of a sale by the principal officers, while not providing for the stopping up or diversion of anything more than a footpath or bridle-way when the principal officers had the use of the land for defence purposes.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">I cannot believe that Parliament can have had any such intention and, in my opinion, <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> when construed in the light of the other provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/Will4/5-6/50" uk:canonical="1835 (5 &amp; 6 Will. 4) c. 50" uk:origin="TNA" uk:type="legislation">the Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Will4/5-6/50" uk:canonical="1835 (5 &amp; 6 Will. 4) c. 50" uk:origin="TNA" uk:type="legislation">the Highways Act 1835</ref> does not have that effect.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num style="font-size:13pt">100.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Reid agreed with Viscount Dilhorne, and Lord Hodson delivered a concurring speech holding that <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> did not extend to public rights. Lord Salmon also dissented and construed <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/5-6/94/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> as extinguishing all rights including public rights of way. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num style="font-size:13pt">101.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">What I gather from all the cases to which we have been referred is that Parliament, when enacting Part VII of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and when amending those provisions in 1980, can have been in absolutely no doubt that very clear words indeed were needed in order for a power to dispose of land to be effective in extinguishing the public&#8217;s rights under the statutory trusts created in public walks and pleasure grounds under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/164" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 164</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or open spaces under <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num style="font-size:13pt">102.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Very clear words indeed were used in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref> as originally enacted and in the amended provisions. Those expressly stated that where the statutory requirements were complied with, the land disposed of would be &#8220;freed from any trust arising solely by reason of its being public trust land&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num style="font-size:13pt">103.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Applying the approach that has been adopted by courts for well over a century to the construction of the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> as they currently stand, it is clear that the generally applicable provision in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) cannot override the statutory trusts. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref>(b) applies not only to disposals of land subject to statutory trusts but to any conditions set under the provisions of Part VII of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> &#8220;or under any other enactment, whether passed before, at the same time as, or after <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221;. Part VII of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> is headed &#8220;Miscellaneous powers of local authorities&#8221; and covers dealings with land by parish and community councils including the acquisition, appropriation and disposal of land in many different contexts. There is nothing in its terms that expressly refers to statutory trusts and it can be contrasted in that respect both with <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/131/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131(1)</ref>(a) (which I consider further below). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num style="font-size:13pt">104.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) has never been regarded as operating as a &#8220;cure all&#8221;, rendering a disposal unimpeachable regardless of the nature of the defect. As the decision in <span style="font-style:italic">Structadene </span>shows, a purchaser would be wrong to think that buying land which appears to be an open space from a local authority is bound to be trouble-free because of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num style="font-size:13pt">105.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">No doubt, despite the limited application of the protection as construed in <span style="font-style:italic">Structadene</span>, <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> serves a useful purpose in many instances for some people dealing in land with the authority or claiming under the authority. It does confer useful protection in respect of some provisions within Part VII of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>: see <span style="font-style:italic">Coker</span>. It is also incorporated in respect of disposals of land acquired for planning purposes: see <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/233/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 233(9)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num style="font-size:13pt">106.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The fact that on my construction, CSE is not fully protected from the adverse consequences of Shrewsbury TC&#8217;s failings does not mean that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) is otiose as a provision. Nor does it mean that it is so misleading as to justify extending the scope of the protection so that it &#8220;protects&#8221; the person dealing with the local authority from the public&#8217;s rights to use the land. It is a useful provision even if it does not do what Shropshire Council and CSE hoped it would do in this case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num style="font-size:13pt">107.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Further, as Mr Goodman pointed out, the wording used in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> not only applies generally to a number of powers in Part VII of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> but is also used in other legislative contexts which have nothing to do with disposal of land subject to a statutory trust. As I described earlier, the wording now used in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> was enacted in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 53" uk:origin="TNA" uk:type="legislation">TCPA 1959</ref> which also applied to generally worded powers not limited to open space or statutory trust land. Similar wording is currently found in other statutes; for example, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/50/section/72" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/50" uk:canonical="1988 c. 50" uk:origin="TNA" uk:type="legislation">Housing Act 1988</ref> provides that a housing action trust must comply with any directions given by the Secretary of State in the exercise of its functions. But <ref href="http://www.legislation.gov.uk/id/ukpga/1988/50/section/72/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72(4)</ref> provides: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:13pt">&#8220;(4)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A transaction between any person and a housing action trust acting in purported exercise of its powers under this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/50" uk:canonical="1988 c. 50" uk:origin="TNA" uk:type="legislation">this Act</ref> shall not be void by reason only that the transaction was carried out in contravention of a direction given under this section; and a person dealing with a housing action trust shall not be concerned to see or enquire whether a direction under this section has been given or complied with.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num style="font-size:13pt">108.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I agree with Mr Goodman&#8217;s submission that the Court of Appeal&#8217;s interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) is inconsistent with the very limited circumstances in which <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref> originally contemplated the disposal of land subject to statutory trusts. <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 123(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> as originally enacted distinguished between a disposal of land which was public trust land (<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref>) and disposal of land which was an open space but not public trust land: (<ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(4)</ref> read with <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(5)</ref>(a)). <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 123(3)</ref> precluded any sale of public trust land if the area disposed of exceeded 250 square yards. Where the area disposed of was below that limit, the advertising requirement was imposed in order for the land to be freed from any trust. If the land was open space (as defined) but not public trust land, <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(4)</ref> as originally enacted did not impose an area restriction but required the consent of the Minister for any disposal beyond a short tenancy. Public trust land was defined in section 122(6) as land held as public walks or pleasure grounds or in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num style="font-size:13pt">109.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If a local authority at the time before <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> LGA 1982 was amended had been unaware of the existence of the public trust and had sold a large area of land without advertisement, <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) as originally enacted could not have freed the land from the statutory trust. That only protected the purchaser from the advertising requirement and did not refer to the 250 square yards limitation. The changes made by the introduction into <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> of the new sub<ref href="http://www.legislation.gov.uk/id/ukpga/1980/65/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (2</ref>A) and (2B) by the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/65" uk:canonical="1980 c. 65" uk:origin="TNA" uk:type="legislation">LGPLA 1980</ref> removed the land area restriction for public land and the requirement for Ministerial consent for open space other than public trust land. But it still specified expressly what was needed in order for the land to be freed from the public trust, if it was open space which was held for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num style="font-size:13pt">110.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This careful and considered amendment of the original provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> does not make sense if the intention was all along that <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> swept away the public trusts referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B). The express provisions are designed to delimit the circumstances in which the statutory trusts referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2B) will be overridden by a sale of the land. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref> by contrast is not designed to free land from public trusts when that land is sold and should not be construed as having accidentally done so. What Viscount Dilhorne said in <span style="font-style:italic">Shonleigh </span>can be echoed here. The elaborate provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> were clearly designed to secure that members of the public should have ample opportunity to learn what was proposed and the right to contend that the statutory trust land should not be sold. It cannot be right to construe <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b) as meaning that Parliament provided a few sections later in the same Act for the extinguishment of the trust without any notice to the public and without any member of the public having the right to object as the automatic result of a sale by the local authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num style="font-size:13pt">111.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) are not of themselves onerous; where the local authority knows the status of the land in its control there should be no difficulty in it complying with the requirements. The difficulty of then proceeding with the sale and freeing the land from the statutory trust will depend on the number and persistence of the objectors. The Respondent relies on authorities that make clear that a decision to dispose of open space without complying with the advertising requirement involves a public law element sufficient to have entitled Dr Day to bring a judicial review challenge to the sale: see for example <span style="font-style:italic">R v Bolsover District Council (Ex p Pepper) </span><ref href="#" uk:canonical="[2001] LGR 43" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] LGR 43</ref>, para 33. Dr Day could have challenged the failure to comply with <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> at the time of the sale to CSE but he is, Shropshire Council argue, now out of time for doing so and should not be allowed a &#8220;workaround&#8221; for that failure. I can well imagine Dr Day&#8217;s likely riposte that if Shrewsbury TC had advertised the sale in his local newspaper as they ought to have done, he might have found out about it and brought his challenge then. This is not a legitimate argument for Shropshire Council to make in the circumstances. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num style="font-size:13pt">112.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Does the revised version of the former <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/179" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 179</ref>(d) LGA 1933 now found in 131(1)(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> help Shropshire Council? It provides that nothing in Part VII of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">the Act</ref> authorises a disposal of land in breach of trust, excluding any trust created under the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/38-39/55" uk:canonical="1875 (38 &amp; 39 Vict.) c. 55" uk:origin="TNA" uk:type="legislation">PHA 1875</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25" uk:canonical="1906 (6 Edw. 7) c. 25" uk:origin="TNA" uk:type="legislation">OSA 1906</ref>. One might construe that as simply authorising the local authority to sell land in breach of trust, but that interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/6/25/section/179" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 179</ref>(d) was rightly rejected by the Court of Appeal in <span style="font-style:italic">Blake v Hendon</span> pp 302 &#8211; 303. It cannot, in my view, be argued that the effect of that addition to <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/131/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131(1)</ref>(a) is to alter the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> so that a local authority is now &#8220;authorised&#8221; to dispose of land in breach of the statutory trust. Those words were added to accommodate the change that had been made to <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(3)</ref>, now in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(2A) and (2B), which authorised the disposal of trust land only to the extent permitted by those new provisions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num style="font-size:13pt">113.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I therefore respectfully differ from the analysis both of Lang J and of the Court of Appeal. <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128(2)</ref>(b) in my judgment neither extinguishes the public rights under the statutory trust as the Court of Appeal held nor has the effect that the rights, in so far as they subsist, cannot be enforced against CSE the purchaser, as Lang J held. I do not need therefore to address the Appellant&#8217;s alternative arguments that the rights lie dormant to be revived if and when the land comes back into Shrewsbury TC&#8217;s ownership or that even the extinguished rights would be a material factor in the planning decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num style="font-size:13pt">114.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It would not be appropriate to comment on where that leaves the rights and obligations of Shrewsbury TC, CSE and the residents of the Greenfields area or whether and how the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref> can be brought to bear in future discussions between CSE and Shrewsbury TC as vendor of the disputed land, should CSE wish to unwind that sale. It is enough for the purposes of this appeal to conclude that the continued existence of the statutory trust binding the land would clearly have been an important consideration for Shropshire Council when considering CSE&#8217;s planning application.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <num style="font-weight:bold;font-size:13pt">(7)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Conclusion</span></heading>
+	  <paragraph eId="para_115">
+	    <num style="font-size:13pt">115.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to the outcome of the appeal, the appeal should be allowed and the grant of planning permission should be quashed. It is impossible to say, for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, that it is highly likely that the outcome of the planning application would not have been substantially different if the mistake had not been made. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num style="font-size:13pt">116.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I recognise that this leaves a rather messy situation in which CSE no doubt bought the land in the expectation of being able to develop it. But that is a consequence of Shrewsbury TC&#8217;s acknowledged failure to do the investigatory work that Dr Day did to establish the status of the land and hence the absence of any opportunity for Dr Day and his fellow local residents to object to the sale of the land before it was completed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num style="font-size:13pt">117.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It may be that the drafter of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> in both its original and revised form assumed that local authorities keep records as to the basis on which, and the purposes for which, they hold the different parcels of land in their possession. I referred in the Introduction to this judgment to the public interest report issued to Shrewsbury TC by its auditors following the judgment of Lang J. The auditors expressed the view that there had been serious governance failures in the sale of the land: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It is our view that [Shrewsbury TC] must put robust procedures in place to ensure that an oversight such as this is not permitted to recur. Where there should be any future sale of land [Shrewsbury TC] must be able to demonstrate that [it] has taken sufficient steps to establish the legal status of that land and act in accordance with all relevant legislation prior to sale. [Shrewsbury TC] should consider whether it has the legal power to proceed with any future disposals and, for the sake of good governance, should formally document the powers on which it has relied when making any such decisions.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num style="font-size:13pt">118.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If, as a result of this appeal, other local authorities and parish councils decide to follow that advice and take stock of how they acquired and now hold the pleasure grounds, public walks and open spaces that they make available to the public to enjoy then that, in my judgment, would be all to the good.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

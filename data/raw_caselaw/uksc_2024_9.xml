@@ -1,0 +1,1083 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/9"/>
+	  <FRBRdate date="2024-03-06" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="9"/>
+	  <FRBRname value="Bertino v Public Prosecutor's Office, Italy"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/9"/>
+	  <FRBRdate date="2024-03-06" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/9/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/9/data.xml"/>
+	  <FRBRdate date="2024-11-10T06:06:57" name="transform"/>
+	  <FRBRdate date="2024-12-07T09:15:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-03-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="bertino" href="" showAs="Bertino"/>
+	<TLCPerson eId="public-prosecutor's-office-italy" href="" showAs="Public Prosecutor's Office, Italy"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lord-burnett" href="/judge-lord-burnett" showAs="Lord Burnett"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>9</uk:number>
+	<uk:cite>[2024] UKSC 9</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>67c2681d56cb27b41f6d109915c695826583eb8bf79a2da0cf4982fcc6e8f2c5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .N1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .N2 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .N3 { text-align: justify; margin-left: 0.51in; font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .N4 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .N5 { text-align: justify; margin-left: 2.89in; font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .sbb9ee52a { }
+#judgment .sa36b60a1 { }
+#judgment .N3Char { font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .N4Char { font-family: 'Times New Roman'; font-size: 10.5pt; }
+#judgment .PlaceholderText { color: #666666; }
+#judgment .FootnoteTextChar { font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .cf01 { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Hilary Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 9</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: [2022] EWHC 665 (Admin)</span></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#bertino" style="font-family:'Times New Roman';font-size:20pt">Bertino</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#respondent" refersTo="#public-prosecutor's-office-italy" style="font-family:'Times New Roman';font-size:20pt">Public Prosecutor's Office, Italy</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-hodge-deputy-president" style="font-family:'Times New Roman'">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-sales" style="font-family:'Times New Roman'">Lord Sales</judge><br/><judge refersTo="#judge-lord-burrows" style="font-family:'Times New Roman'">Lord Burrows</judge><br/><judge refersTo="#judge-lord-stephens" style="font-family:'Times New Roman'">Lord Stephens</judge><br/><judge refersTo="#judge-lord-burnett" style="font-family:'Times New Roman'">Lord Burnett</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-03-06" refersTo="#judgment" style="font-family:'Times New Roman'">6 March 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 28 November 2023</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellant</span><br/><span style="font-family:'Times New Roman'">Edward Fitzgerald KC</span><br/><span style="font-family:'Times New Roman'">Graeme L Hall</span><br/><span style="font-family:'Times New Roman'">(Instructed by Lloyds PR Solicitors Firm (Harlesden))</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Respondent</span><br/><span style="font-family:'Times New Roman'">Helen Malcolm KC</span><br/><span style="font-family:'Times New Roman'">Stefan Hyman</span><br/><span style="font-family:'Times New Roman'">(Instructed by Crown Prosecution Service Appeals and Review Unit)</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-family:'Times New Roman'">Lord Stephens and Lord Burnett (</span><span style="text-transform:none;font-family:'Times New Roman'">with whom Lord Hodge, Lord Sales and Lord Burrows agree</span><span style="font-family:'Times New Roman'">): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The central issue in this appeal is whether Deputy Senior District Judge Ikram was correct to conclude that the appellant had &#8220;deliberately absented himself from his trial&#8221; in Italy for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">Extradition Act 2003</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>&#8221;) and so should be extradited to serve his sentence despite not having an entitlement to a retrial. That conclusion was upheld on appeal in the High Court by Swift J <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2022/665" uk:canonical="[2022] EWHC 665 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 665 (Admin)</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The circumstances in which a person convicted in his or her absence may be extradited pursuant to a European arrest warrant (&#8220;EAW&#8221;) are prescribed by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> and by the Council Framework Decision of 13 June 2002 (2002/584/JHA) (&#8220;the FD 2002&#8221;) as amended by the Council Framework Decision of 26 February 2009 (2009/299/JHA) (&#8220;the FD 2009&#8221;). That Framework Decision as amended (&#8220;the Amended Framework Decision&#8221;) provides that a convicted person </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">must</span><span style="font-family:'Times New Roman'"> be extradited in various given circumstances, notwithstanding a trial in absence. If none of those circumstances applies, a discretion to extradite remains to be exercised in the executing state in accordance with national law and the European Convention on Human Rights (&#8220;the Convention&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The Facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant&#8217;s extradition is sought pursuant to an EAW issued on 6 February 2020 by the public prosecutor&#8217;s office of the Court of Pordenone (&#8220;the requesting judicial authority&#8221;) seeking to enforce a sentence of one year&#8217;s imprisonment imposed following a trial in the Court of Pordenone in his absence. He was convicted and sentenced on 16 April 2018, with the sentence being activated on 27 January 2020. The offence was one of sexual activity with an under-age person contrary to article 609 of the Italian Criminal Code, through grooming a 14-year-old girl by sending her WhatsApp messages asking for oral sex. The sentence provided that if compensation were paid it would be suspended. The compensation was not paid. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The offence was alleged to have taken place on 19 June 2015 in the Province of Venice at a holiday camp at which the appellant was working as an entertainer. The police were informed promptly of the allegation and attended the appellant&#8217;s place of work. His phone was seized. The formal information provided by the requesting judicial authority in response to a request for further information issued by the Crown Prosecution Service confirms that the appellant was not arrested or questioned formally at the time, although it appears from the appellant&#8217;s own account that he went to the local police station. The appellant was sacked from his job and returned to Sicily from where he came. He later voluntarily attended the police station in Spadafora, Sicily on 23 July 2015. He signed a document which recorded that he was under investigation. The document invited the appellant to elect domicile in Italy. The document stated that &#8220;as [the appellant] is being investigated, he is under an obligation to notify any change of his declared or elected domicile by a statement to be rendered to the judicial authority&#8221;. It also warned &#8220;that if [the appellant] does not notify any change of his declared or elected domicile &#8230; the service of any document will be executed by delivery to the defence lawyer of choice or to a court-appointed defence lawyer.&#8221; The appellant elected his domicile by giving an address in Venetico, Messina. He also indicated on the form that he &#8220;will be assisted by a defence lawyer that will be appointed by the court.&#8221; The document was read to him by the judicial police officer. Both he and the police officer signed the document of which the appellant was given a copy.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant left Italy in November 2015 and came to the United Kingdom. He found work and moved from time to time. The prosecution in Italy was commenced on 8 June 2017. A writ of summons for the hearing set by the judge was issued on 12 June 2017. It summoned the appellant to appear at the Pordenone Court on 28 September 2017 and included a warning that non-attendance without &#8220;lawful impediment&#8221; would &#8220;lead to a judgment in absentia&#8221;. The appellant did not receive the summons. By that date the requesting judicial authority knew that he was no longer at the address he had provided in July 2015. In information provided by the requesting judicial authority to the High Court of England and Wales dated 16 January 2022 it confirmed that &#8220;service of the judicial document failed because the addressee was untraceable ...[T]he writ of summons was served on the court-appointed defence counsel ... because Mr Bertino had failed to notify any change of address.&#8221; The requesting judicial authority made various unsuccessful attempts to trace the appellant in Italy between 2016 and 2019. They eventually obtained contact details at an address in England in January 2019 and were given his mobile telephone number by his mother. These factual details are found in further information provided by the requesting judicial authority during the extradition proceedings. The appellant&#8217;s unchallenged evidence before the District Judge was that he notified the authorities of his departure to the United Kingdom for family law purposes (his marriage was failing and arrangements had to be made for the children) but not the police in connection with the investigation. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The EAW</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">EAWs follow a prescribed form found in the Amended Framework Decision. Having set out details of the requested person, the relevant judicial decision and sentence, section (d) of the EAW concerns whether the requested person appeared in person at the trial. Box 1 of this section enables the requesting judicial authority to confirm that the requested person was present at the trial. If that is not the case, Box 2 provides the opportunity to state that the trial was conducted in the absence of the requested person. The requesting judicial authority used Box 2 to state that the appellant did not appear in person at his trial. The EAW continues, &#8220;if you have ticked the box under point 2, please confirm the existence of one of the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-family:'Times New Roman';color:#242021"> &#61702; </span><span style="font-family:'Times New Roman'">3.1a. the person was summoned in person on &#8230; (day/month/year) and thereby informed of the scheduled date and place of the trial which resulted in the decision and was informed that a decision may be handed down if he or she does not appear for the trial;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">OR</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#242021">&#61702; </span><span style="font-family:'Times New Roman'">3.1b. the person was not summoned in person but by other means actually received official information of the scheduled date and place of the trial which resulted in the decision, in such a manner that it was unequivocally established that he or she was aware of the scheduled trial, and was informed that a decision may be handed down if he or she does not appear for the trial;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">OR</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#242021">&#61702; </span><span style="font-family:'Times New Roman'">3.2 being aware of the scheduled trial, the person had given a mandate to a legal counsellor, who was either appointed by the person concerned or by the State, to defend him or her at the trial, and was indeed defended by that counsellor at the trial;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">OR</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#242021">&#61702;</span><span style="font-family:'Times New Roman'">3.3 the person was served with the decision on &#8230; (day/month/year) and was expressly informed about the right to a retrial or appeal, in which he or she has the right to participate and which allows the merits of the case, including fresh evidence, to be re-examined, and which may lead to the original decision being reversed, and</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman';color:#242021">&#61702; </span><span style="font-family:'Times New Roman'">The person expressly stated that he does not contest this decision,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">OR</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman';color:#242021">&#61702; </span><span style="font-family:'Times New Roman'">The person did not request a retrial or appeal within the applicable time frame;</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">OR</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#242021">&#61702; </span><span style="font-family:'Times New Roman'">3.4 the person was not personally served with the decision, but</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">&#8212; the person will be personally served with this decision without delay after the surrender, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">&#8212; when served with the decision, the person will be expressly informed of his or her right to a retrial or appeal, in which he or she has the right to participate and which allows the merits of the case, including fresh evidence, to be re-examined, and which may lead to the original decision being reversed,, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">&#8212; the person will be informed of the time frame within which he or she has to request a retrial or appeal which will be &#8230; days.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If you have ticked the box under points 3.1b, 3.2 or 3.3 above, please provide information about how the relevant condition has been met:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The various options between point 3.1a and point 3.4 reflect the alternative circumstances under the Amended Framework Decision in which a requested person must be extradited despite not having been present at the trial. Point 3.1a requires personal service of a summons and that the requested person is told that failure to attend may result in a trial in absence. Point 3.1b provides for official notification of the trial (for example by post), an unequivocal awareness of the trial and being told that failure to attend may result in a trial in absence. Point 3.2 requires a requested person to be aware of the scheduled trial and to be professionally defended. Point 3.3 assumes that the requested person does not know of the date and place of the trial but was served with the decision after trial and told of a right to a retrial or appeal on the merits; or, knowing of that right, decides not to contest the decision or fails to do so within the applicable timeframe. Point 3.4 is similar to point 3.3 but covers the situation where service of the decision and information about retrial and appeal rights has not yet occurred and will be given on surrender.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">None of the boxes was ticked and therefore the requesting judicial authority did not seek to rely upon any of those criteria. There was no personal service of the summons, nor could it be shown that the appellant was unequivocally aware of the place and date of his trial. On the contrary, the information provided by the requesting judicial authority, to which we have referred, confirms that he was unaware of the date and place of trial and, indeed, that he was unaware that a decision had been taken to prosecute him. Thus points 3.1a and 3.1b could not be in play; neither could point 3.2, despite the fact that the appellant was represented at the trial by a court appointed counsellor. There was no suggestion at the extradition hearing that the criteria in point 3.3 or point 3.4 could be satisfied, but in any event the relevant boxes were not ticked. We note that there was an attempt at the appeal hearing before Swift J in the High Court to raise an argument that point 3.4 would be satisfied in this case but it was not pursued.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The Extradition Proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Before the district judge the only issue for determination arose under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, namely whether the requested person &#8220;deliberately absented himself from his trial&#8221;. He concluded, in the light of the document signed by the appellant in Sicily, that the police had imposed an obligation on him of which he was aware to notify them of a change of address. He found that the appellant was aware from then that &#8220;criminal proceedings were a possibility and &#8230; accepted that court papers could be served on [an appointed lawyer].&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The district judge noted that the requesting judicial authority must prove to the criminal standard that the appellant deliberately absented himself from his trial. His core reasoning is found in paragraphs 10 to 12 of his decision:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I find it no coincidence that the [requested person] left his address without notifying a forwarding address and emigrated to the UK within months of being released from the police station. He did so in full knowledge that the police wanted his address so that they knew where court papers could be served. I find that he left the country so that he could not be served with court papers/future dates for his trial.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In any event, I am sure that the [requested person] demonstrated a &#8216;manifest lack of diligence&#8217; in moving address without notifying of an updated address and thus ensuring that he could not, personally, be served and notified of the date of his court hearing (but allowing service on a court appointed lawyer).</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I am sure that the [requested person] deliberately absented himself from the trial. It follows that he is not entitled to a retrial.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The reference to a &#8220;manifest lack of diligence&#8221; adopts the language of the Court of Justice of the European Union (&#8220;the Luxembourg Court&#8221;) in </span><span style="font-style:italic;font-family:'Times New Roman'">Dworzecki </span><span style="font-family:'Times New Roman'">(Case C&#8211;108/16 PPU) at para 51 and recital 8 to the FD 2009.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 18 January 2021 the district judge ordered the appellant&#8217;s extradition to Italy. The appeal to the High Court focussed on the consequence of the appellant not being warned that he might be tried in his absence. The appellant did not obtain permission directly to attack the conclusion of the district judge that he had deliberately absented himself from his trial, in other words that the reason for leaving Italy was to put himself beyond the reach of the police should the investigation result in a decision to prosecute. Before the High Court, it was argued on behalf of the appellant that to show that the requested person had deliberately absented himself from trial the requesting judicial authority was required to establish that the requested person had been warned that he might be tried in his absence. Swift J recorded the argument at para 23:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'"> &#8220; &#8230; being told of the possibility of trial and sentence </span><span style="font-style:italic;font-family:'Times New Roman'">in absentia</span><span style="font-family:'Times New Roman'"> is something distinct from being given information about the place and date of trial. &#8230; [T]hat information must always be conveyed to the person concerned and received by him, and unless that happens extradition is prevented by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 20(3)</ref> must be read so that a person who has not been told that he could be tried and sentenced </span><span style="font-style:italic;font-family:'Times New Roman'">in absentia</span><span style="font-family:'Times New Roman'"> may not be regarded as having deliberately absented himself from his trial.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The judge continued at paras 24 and 25:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;24.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I do not accept that submission. I do not agree there is any reason in principle to distinguish between a requested person&#8217;s knowledge of the date and place of trial and his knowledge that if he does not attend trial, he could be tried </span><span style="font-style:italic;font-family:'Times New Roman'">in absentia</span><span style="font-family:'Times New Roman'"> to establish a requirement under article 6 [of the Convention] for actual knowledge of the latter. The material part of article 6 [of the Convention] is the requested person&#8217;s right to be present at trial. It is well established this right may well be waived. Waiver may be either express or inferred. For present purposes express waiver can be put to one side. Absent express waiver, in each case the issue will be whether it is appropriate on the facts to infer that the requested person has waived his right to be present at trial. Whether a requested person&#8217;s conduct will be taken to amount to a waiver of his right to be present at trial will include consideration of what he could reasonably have foreseen to be the consequences of his conduct. When a requested person such as Mr Bertino, acts to avoid being contacted by the authorities, to prevent them informing him of the date and place of trial, the question is whether it is appropriate to infer from that that he has waived his right to be present at trial. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">25.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Seen in this way, there is no relevant distinction between knowledge of the date and place set for trial and knowledge that the trial may take place even if the requested person does not attend. If it can be shown that the requested person did know that if he failed to attend, he could be tried </span><span style="font-style:italic;font-family:'Times New Roman'">in absentia</span><span style="font-family:'Times New Roman'"> that would go to support a conclusion that he had waived his right to be present at trial. But want of such evidence will not, of itself, prevent an inference of waiver. The question will remain what the requested person ought to have reasonably foreseen to be the consequence of his conduct.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> It appears to have been common ground before Swift J, as it was before us, that the concept of &#8220;deliberately absenting&#8221; oneself from trial and <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> more generally reflect the circumstances in which a trial in absence would not amount to a violation of article 6 of the Convention.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> Swift J certified a point of law of general public importance arising from this aspect of the appeal:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;For a requested person to have deliberately absented himself from trial for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">Extradition Act 2003</ref>, must the requesting authority prove that he has actual knowledge that he could be convicted and sentenced in absentia?&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The requesting judicial authority had argued that the court should draw an inference that the requested person could reasonably have foreseen that, by failing to notify his change of address whilst under investigation, he might be prosecuted, convicted and sentenced in his absence. The judge accepted that submission. Although he certified a second point of law of general public importance, in essence whether such an inference must be the only reasonable inference that can be drawn from the primary facts, the issue barely arose in argument before this court, and it will be unnecessary for this court to consider it in this judgment. In any event, Miss Malcolm KC accepted on behalf of the respondent that if two inferences could be drawn from a set of facts, both plausible, then it would not be possible to establish to the criminal standard of proof one rather than the other. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The Legal Framework</span></p>
+	    <p class="ParaSubHeading1"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">The 2003 Act</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> applies to extradition arrangements involving members of the European Union (&#8220;EU&#8221;) operated through the EAW. The EAW with which this appeal is concerned was issued when the implementation period, as defined in the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">European Union (Withdrawal) Act 2018</ref> (as amended), remained in effect with the consequence that the EAW regime still applied to the United Kingdom through <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> as then in force. Post exit arrangements for an extradition system between the member states of the European Union on the one hand and the United Kingdom on the other, which in large part reflect the EAW system, have been made by the EU-UK Trade and Cooperation Agreement 2020 and implemented into domestic law by the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/29" uk:canonical="2020 c. 29" uk:origin="TNA" uk:type="legislation">European Union (Future Relationship) Act 2020</ref> and by amendments to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> governs cases where requested persons have been convicted in their absence. It provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;20 Case where person has been convicted</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge is required to proceed under this section (by virtue of section 11) he must decide whether the person was convicted in his presence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides the question in subsection (1) in the affirmative he must proceed under section 21.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides that question in the negative he must decide whether the person deliberately absented himself from his trial.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides the question in subsection (3) in the affirmative he must proceed under section 21.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides that question in the negative he must decide whether the person would be entitled to a retrial or (on appeal) to a review amounting to a retrial.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides the question in subsection (5) in the affirmative he must proceed under section 21.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If the judge decides that question in the negative he must order the person&#8217;s discharge.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(8)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The judge must not decide the question in subsection (5) in the affirmative unless, in any proceedings that it is alleged would constitute a retrial or a review amounting to a retrial, the person would have these rights&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the right to defend himself in person or through legal assistance of his own choosing or, if he had not sufficient means to pay for legal assistance, to be given it free when the interests of justice so required;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the right to examine or have examined witnesses against him and to obtain the attendance and examination of witnesses on his behalf under the same conditions as witnesses against him.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Section 11 (referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(1)</ref>) is concerned with bars to extradition which, if established, would require the requested person&#8217;s discharge. It is only if those bars to extradition are not established that the extradition court proceeds to other matters, including <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>. Section 21(1) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;If the judge is required to proceed under this section (by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>) he must decide whether the person&#8217;s extradition would be compatible with the Convention rights withing the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> (c 42).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">It is common for arguments to be raised under section 21 to resist extradition, despite no breach of article 6 rights by a trial in absence, relying on articles 3 or 8 of the Convention, the former particularly in connection with prison conditions in the receiving state and the latter relying on the impact on family life.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-family:'Times New Roman'">The Framework Decisions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> is the domestic law provision governing the impact of a trial in a requested person&#8217;s absence on whether extradition should nonetheless proceed in response to an EAW. It was enacted after the FD 2002. The original trial in absence provisions, before the amendments in 2009, were found in article 5.1 of the FD 2002. That provided:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The execution of the European arrest warrant by the executing judicial authority may, by the law of the executing Member State, be subject to the following conditions:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.25in;text-indent:-0.25in">1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in"><span style="font-family:'Times New Roman'">where the European arrest warrant has been issued for the purposes of executing a sentence or a detention order imposed by a decision rendered in absentia and if the person concerned has not been summoned in person or otherwise informed of the date and place of the hearing which led to the decision rendered in absentia, surrender may be subject to the condition that the issuing judicial authority gives an assurance deemed adequate to guarantee the person who is the subject of the European arrest warrant that he or she will have an opportunity to apply for a retrial of the case in the issuing Member State and to be present at the judgment; &#8230;.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> It was deleted by the FD 2009 and a new article 4a inserted in these terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">"</span><span style="font-style:italic;font-family:'Times New Roman'">Article 4a</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;font-family:'Times New Roman'">Decisions rendered following a trial at which the person did not appear in person</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The executing judicial authority may also refuse to execute the European arrest warrant issued for the purpose of executing a custodial sentence or a detention order if the person did not appear in person at the trial resulting in the decision, unless the European arrest warrant states that the person, in accordance with further procedural requirements defined in the national law of the issuing Member State:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(a)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">in due time:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">either was summoned in person and thereby informed of the scheduled date and place of the trial which resulted in the decision, or by other means actually received official information of the scheduled date and place of that trial in such a manner that it was unequivocally established that he or she was aware of the scheduled trial;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">was informed that a decision may be handed down if he or she does not appear for the trial;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">or</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">being aware of the scheduled trial, had given a mandate to a legal counsellor, who was either appointed by the person concerned or by the State, to defend him or her at the trial, and was indeed defended by that counsellor at the trial;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">or</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(c)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">after being served with the decision and being expressly informed about the right to a retrial, or an appeal, in which the person has the right to participate and which allows the merits of the case, including fresh evidence, to be re-examined, and which may lead to the original decision being reversed:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">expressly stated that he or she does not contest the decision;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">did not request a retrial or appeal within the applicable time frame;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">or</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(d)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">was not personally served with the decision but:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">will be personally served with it without delay after the surrender and will be expressly informed of his or her right to a retrial, or an appeal, in which the person has the right to participate and which allows the merits of the case, including fresh evidence, to be re-examined, and which may lead to the original decision being reversed;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">will be informed of the time frame within which he or she has to request such a retrial or appeal, as mentioned in the relevant European arrest warrant.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Section (d) of the pro forma EAW, which we have set out in paragraph 6 above in its up to date form, was amended to reflect these changes. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Article 1(1) of the FD 2009 states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the objectives of this Framework Decision are to enhance the procedural rights of persons subject to criminal proceedings, to facilitate judicial cooperation in criminal matters and, in particular, to improve mutual recognition of judicial decisions between Member States.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">Article 1(2) of the FD 2009 makes clear that the FD 2009 did not modify the obligations with respect to fundamental rights enshrined in article 6 of the Treaty on the European Union (which refers to the Charter of Fundamental Rights of the European Union and the Convention) &#8220;including the right of defence of persons subject to criminal proceedings, and any obligations incumbent upon judicial authorities in this respect shall remain unaffected.&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The first recital to the FD 2009 notes that the fair trial provisions of article 6 of the Convention, as interpreted by the European Court of Human Rights (&#8220;the Strasbourg Court&#8221;), do not guarantee an absolute right for an accused person to appear in person at the trial &#8220;and that under certain conditions the accused person may, of his or her own free will, expressly or tacitly but unequivocally, waive that right.&#8221; Recital (4) explains that the amendments were designed to provide clear and common grounds which allow the executing authority to order extradition despite the absence of a person from trial &#8220;while fully respecting the person&#8217;s right to defence.&#8221; Recital (6) explains that the amendments set the conditions under which extradition should follow despite the requested person&#8217;s absence from trial and that by completing the relevant section of the EAW the requesting state gives the necessary assurances. Recital (8) repeats a reference to the fair trial rights guaranteed by article 6 of the Convention and its interpretation by the Strasbourg Court. It continues:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;In order to exercise this right, the person concerned needs to be aware of the scheduled trial. Under this Framework Decision, the person&#8217;s awareness should be ensured by each Member State in accordance with its national law, it being understood that this must comply with the requirements of that Convention. In accordance with the case law of the [Strasbourg Court], when considering whether the way in which the information is provided is sufficient to ensure the person&#8217;s awareness of the trial, particular attention could, where appropriate, also be paid to the diligence exercised by the person concerned in order to receive information addressed to him or her.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-family:'Times New Roman'">Cretu v Local Court of Suceava, Romania</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The relationship between <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> and the Amended Framework Decision was considered by a Divisional Court of the High Court (Burnett LJ and Irwin J) in </span><span style="font-style:italic;font-family:'Times New Roman'">Cretu v Local Court of Suceava, Romania </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/353" uk:canonical="[2016] EWHC 353 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 353 (Admin)</ref>; <ref href="#" uk:canonical="[2016] 1 WLR 3344" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 3344</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The case raised a wide range of issues. The first was whether domestic courts were obliged by the principle of statutory construction of conforming interpretation to interpret <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> to ensure conformity with the Amended Framework Decision. The answer to that was &#8220;yes&#8221;: see paras 14 to 18.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The answers to the balance of the questions arising from <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> and the Amended Framework Decision were summarised in the judgment of Burnett LJ at para 34:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;In my judgment, when read in the light of article 4a <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, by applying a</span><span style="font-style:italic;font-family:'Times New Roman'"> Pupino</span><span style="font-family:'Times New Roman'"> conforming interpretation, should be interpreted as follows: </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8216;Trial&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> must be read as meaning &#8216;trial which resulted in the decision&#8217; in conformity with article 4a(1)(a)(i). That suggests an event with a &#8216;scheduled date and place&#8217; and is not referring to a general prosecution process, Mitting J was right to foreshadow this in </span><span style="font-style:italic;font-family:'Times New Roman'">Bicioc&#8217;s</span><span style="font-family:'Times New Roman'"> case. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An accused must be taken to be deliberately absent from his trial if he has been summoned as envisaged by article 4a(1)(a)(i) in a manner which, even though he may have been unaware of the scheduled date and place, does not violate article 6 of the Convention.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An accused who has instructed (&#8220;mandated&#8221;) a lawyer to represent him in the trial is not, for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>, absent from his trial, however he may have become aware of it.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The question whether an accused is entitled to a retrial or a review amounting to a retrial for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(5)</ref>, is to be determined by reference to article 4a(1)(d).</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Whilst, by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/206" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 206</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, it remains for the requesting state to satisfy the court conducting the extradition hearing in the United Kingdom to the criminal standard that one (or more) of the four exceptions found in article 4a applies, the burden of proof will be discharged to the requisite standard if the information required by article 4a is set out in the EAW.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">We endorse those conclusions.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-family:'Times New Roman'">Domestic, Convention and EU law on trial in absence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The domestic courts have long had to consider the circumstances in which it is fair to proceed with a trial in the absence of a defendant. The Court of Appeal reviewed domestic and Strasbourg jurisprudence in </span><span style="font-style:italic;font-family:'Times New Roman'">R v Hayward </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2001/168" uk:canonical="[2001] EWCA Crim 168" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Crim 168</ref>; <ref href="#" uk:canonical="[2001] QB 862" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] QB 862</ref>. The case went to the House of Lords as </span><span style="font-style:italic;font-family:'Times New Roman'">R v Jones (Anthony) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2002/5" uk:canonical="[2002] UKHL 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] UKHL 5</ref>; <ref href="#" uk:canonical="[2003] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 AC 1</ref>. </span><span style="font-style:italic;font-family:'Times New Roman'">Jones&#8217;s case</span><span style="font-family:'Times New Roman'"> had been one of a number before the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Hayward</span><span style="font-family:'Times New Roman'">. The certified question before the House of Lords was whether English law allowed a trial in the absence, from its commencement, of a defendant. The defendants had been committed for trial on bail. They were arraigned and pleaded not guilty but failed to surrender for trial. The trial proceeded after attempts to find the defendants had failed and they were convicted. </span><span style="font-style:italic;font-family:'Times New Roman'">Jones </span><span style="font-family:'Times New Roman'">was also unrepresented. It followed that two important article 6 rights were in play: the right to be present and the right to be represented.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In his speech at paras 8 and 9 Lord Bingham of Cornhill analysed the jurisprudence of the Strasbourg Court as it then stood regarding the appearance of a criminal defendant at trial:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">&#8220;8.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The European Court of Human Rights and the Commission have repeatedly made clear that it regards the appearance of a criminal defendant at his trial as a matter of capital importance: see, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">Poitrimol v France</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="(1993) 18 EHRR 130" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">(1993) 18 EHRR 130</ref>, 146, para 35; </span><span style="font-style:italic;font-family:'Times New Roman'">Pelladoah v Netherlands</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="(1994) 19 EHRR 81" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">(1994) 19 EHRR 81</ref>, 94, para 40; </span><span style="font-style:italic;font-family:'Times New Roman'">Lala v Netherlands</span><span style="font-family:'Times New Roman'"/><a class="Hyperlink" href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/eu/cases/ECHR/1994/30.html" style="text-decoration-line:none;font-family:'Times New Roman';color:initial"><ref href="#" uk:canonical="(1994) 18 EHRR 586" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">(1994) 18 EHRR 586</ref></a><span style="font-family:'Times New Roman'">, 597, para 33. That court has also laid down</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">that a fair hearing requires a defendant to be notified of the proceedings against him: </span><span style="font-style:italic;font-family:'Times New Roman'">Colozza v Italy</span><span style="font-family:'Times New Roman'"/><a class="Hyperlink" href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/eu/cases/ECHR/1985/1.html" style="text-decoration-line:none;font-family:'Times New Roman';color:initial"><ref href="#" uk:canonical="(1985) 7 EHRR 516" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">(1985) 7 EHRR 516</ref></a><span style="font-family:'Times New Roman'">, 523-524, para 28; </span><span style="font-style:italic;font-family:'Times New Roman'">Brozicek v Italy</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="(1989) 12 EHRR 371" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">(1989) 12 EHRR 371</ref>; </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">that a person should as a general principle be entitled to be present at his trial: </span><span style="font-style:italic;font-family:'Times New Roman'">Ekbatani v Sweden</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="(1988) 13 EHRR 504" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">(1988) 13 EHRR 504</ref>, 509, para 25; </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">that a defendant in a criminal trial should have the opportunity to present his arguments adequately and participate effectively: </span><span style="font-style:italic;font-family:'Times New Roman'">Ensslin, Baader and Raspe v Germany</span><span style="font-family:'Times New Roman'"> (1978) 14 DR 64, 115; </span><span style="font-style:italic;font-family:'Times New Roman'">Stanford v United Kingdom</span><span style="font-family:'Times New Roman'"> 23 February 1994, Publications of the European Court of Human Rights, Series A/282-A; </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(4)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">that a defendant should be entitled to be represented by counsel at trial and on appeal, whether or not he is present or has previously absconded: </span><span style="font-style:italic;font-family:'Times New Roman'">Delcourt v Belgium</span><span style="font-family:'Times New Roman'"/><a class="Hyperlink" href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/eu/cases/ECHR/1970/1.html" style="text-decoration-line:none;font-family:'Times New Roman';color:initial"><ref href="#" uk:canonical="(1970) 1 EHRR 355" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1970">(1970) 1 EHRR 355</ref></a><span style="font-family:'Times New Roman'">, 366-367, para 25; </span><span style="font-style:italic;font-family:'Times New Roman'">Poitrimol v France</span><span style="font-family:'Times New Roman'">, 18 EHRR 130, 146, 147, paras 34, 38; </span><span style="font-style:italic;font-family:'Times New Roman'">Pelladoah v Netherlands</span><span style="font-family:'Times New Roman'">, 19 EHRR 81, 94, para 40; </span><span style="font-style:italic;font-family:'Times New Roman'">Lala v Netherlands</span><span style="font-family:'Times New Roman'">, 18 EHRR 586, 597-598, paras 33-34; </span><span style="font-style:italic;font-family:'Times New Roman'">Van Geyseghem v Belgium</span><span style="font-family:'Times New Roman'"> Reports of Judgments and Decisions 1999-I, 127, 140, para 34; </span><span style="font-style:italic;font-family:'Times New Roman'">Omar v France</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="(1998) 29 EHRR 210" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">(1998) 29 EHRR 210</ref>, 233, paras 41-42. </span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">The right to be defended has also been described by the European Court of Justice as a fundamental right deriving from the constitutional traditions common to the member states of the European Union: </span><span style="font-style:italic;font-family:'Times New Roman'">Bamberski v Krombach</span><span style="font-family:'Times New Roman'"> (<ref href="#" uk:canonical="Case C-7/98" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-7/98</ref>) <ref href="#" uk:canonical="[2001] QB 709" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] QB 709</ref>.</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman';font-size:13pt">9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">All these principles may be very readily accepted. They are given full effect by the law of the United Kingdom. But the European Court of Human Rights has never found a breach of the Convention where a defendant, fully informed of a forthcoming trial, has voluntarily chosen not to attend and the trial has continued. In the </span><span style="font-style:italic;font-family:'Times New Roman'">Ensslin</span><span style="font-family:'Times New Roman'"> case 14 DR 64, in which proceedings were continued during the absence of the defendants caused in large measure by self-induced illness, the proceedings were held to have been properly continued. In </span><span style="font-style:italic;font-family:'Times New Roman'">Poitrimol v France</span><span style="font-family:'Times New Roman'"> 18 EHRR 130, 145, para 31 the court questioned whether a full hearing on appeal could be required by a defendant who had waived his right to appear and defend himself at trial. In </span><span style="font-style:italic;font-family:'Times New Roman'">Van Geyseghem v Belgium</span><span style="font-family:'Times New Roman'"> 21 January 1999, at p 138, para 28 the court was not concerned that the applicant had not wished to avail herself of her right to attend an appeal hearing. In a concurring opinion in that case Judge Bonello (at p 145) held that the presence of a defendant during his trial was basically his right, not his obligation. There is nothing in the Strasbourg jurisprudence to suggest that a trial of a criminal defendant held in his absence is inconsistent with the Convention.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> All members of the Committee answered the certified question: Yes. A trial in the absence of a defendant was not forbidden by domestic law and, on the facts of </span><span style="font-style:italic;font-family:'Times New Roman'">Jones&#8217;s case</span><span style="font-family:'Times New Roman'">, there was no breach of article 6 of the Convention. The majority of their Lordships considered, as had the Court of Appeal, that the appellant had waived his rights. Lord Rodger of Earlsferry and Lord Hoffmann concluded that the rights were not waived but that, nonetheless, there was no breach of article 6 because of the nature of the appeal proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Jones unsuccessfully complained to the Strasbourg Court. In a judgment of the Fourth Section ((2003) 37 EHRR CD 269) the court noted that a trial in the defendant&#8217;s absence would not be incompatible with article 6 &#8220;if the person concerned can subsequently obtain from a court which has heard him a fresh determination of the merits of the charge, in respect of both law and fact.&#8221; It continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Moreover, it is open to question whether this latter requirement applies when the accused has waived his right to appear and to defend himself. In order to be effective for Convention purposes, such a waiver must be established in an unequivocal manner and be attended by minimum safeguards commensurate to its importance &#8230;. For example, the Court considers that before an accused can be said to have impliedly, through his conduct, waived an important right under Art. 6 it must be shown that he could reasonably have foreseen what the consequences of his conduct would be.&#8221; (CD 278)</span><span style="font-style:italic;font-family:'Times New Roman'">.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This reference to a defendant being able to foresee the consequences of his non-attendance was significant in </span><span style="font-style:italic;font-family:'Times New Roman'">Jones</span><span style="font-family:'Times New Roman'">. At para 38 the court referred in passing to the speech of</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">Lord Rodger of Earlsferry and attributed to him an observation that &#8220;it was not clearly established under English law that it was possible to try an accused in his absence throughout&#8221; and then continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'"> &#8220;The Court considers that the applicant, as a layman, cannot have been expected to appreciate that his failure to attend on the date set for the commencement would result in his being tried and convicted in his absence and in the absence of a legal representative. It cannot be said, therefore, that he unequivocally and intentionally waived his rights under Article 6 (see, </span><span style="font-style:italic;font-family:'Times New Roman'">mutatis mutandis, Pfeifer and Plankl v Austria</span><span style="font-family:'Times New Roman'">: <ref href="#" uk:canonical="(1992) 14 EHRR 622" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1992">(1992) 14 EHRR 622</ref>, para [38].&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The observation attributed to Lord Rodger is an attempt to distil various parts of his speech. At para 42 Lord Rodger referred to the &#8220;tract of authority&#8221; that established that a trial which had started with the defendant present could be continued in the defendant&#8217;s absence; but that it was only in 1991 that the Court of Appeal determined that the whole trial could be conducted in the absence of a defendant who had absconded. We would regard that as having established the principle. But Lord Rodger went on to make telling points, which supported the conclusion of the Strasbourg Court. At para 51 he said that, although the appellant knew that he would not be present when the trial was due to take place, that did not justify the conclusion that he had waived his article 6 rights.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Such an inference could be drawn only if one could be satisfied that the appellant not only knew that the trial was due to take place when he would be absent, but also knew that it </span><span style="font-style:italic;font-family:'Times New Roman'">could </span><span style="font-family:'Times New Roman'">take place even though he was not there &#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">So far as that was concerned, Lord Rodger noted, at para 52, that the experienced trial judge, along with colleagues he had consulted, had never heard of that happening and so &#8220;it would be rash to attribute to the appellant greater knowledge of the arcana of English criminal procedure than [the judge] and his colleagues actually possessed.&#8221; Lord Rodger could see no proper basis for assuming that the appellant would have known that he might be tried in his absence. Accordingly, he would not draw the inference that he had waived his right to be present. For completeness, we note that Lord Rodger reached the same conclusion in respect of the right to representation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Strasbourg Court took much the same view, as is clear from the quotation above. Nonetheless, the court accepted that there was no breach of article 6 because of the way in which the appeal was conducted and the possibility of adducing fresh evidence in the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The Strasbourg Court has reviewed the law in this area since the </span><span style="font-style:italic;font-family:'Times New Roman'">Jones </span><span style="font-family:'Times New Roman'">case, in particular in the judgment of the Grand Chamber of 1 March 2006 in </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic v Italy</span><span style="font-family:'Times New Roman'">, (Application No 56581/00). The applicant was convicted of murder in his absence. He had been identified promptly by several witnesses as responsible for a killing, but he immediately disappeared. He was never arrested or questioned in connection with the offence and was unaware of the criminal proceedings. He was represented at his trial by a court appointed lawyer. The court reiterated the general principles concerning a trial in the absence of a defendant before turning to the question of waiver of the right to appear at the trial at para 86. A person may waive the rights guaranteed by article 6 &#8220;of his own free will, either expressly or tacitly. However, if it is to be effective for Convention purposes, a waiver of the right to take part in the trial must be established in an unequivocal manner and be attended by minimum safeguards commensurate to its importance.&#8221; At para 87 the court reiterated that waiver cannot be inferred merely from a defendant&#8217;s status as a fugitive and repeated the observation in </span><span style="font-style:italic;font-family:'Times New Roman'">Jones</span><span style="font-family:'Times New Roman'"> that before concluding that a right to trial in person had been implicitly waived &#8220;it must be shown that he could reasonably have foreseen what the consequences of his conduct would be.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Neither </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'"> nor </span><span style="font-style:italic;font-family:'Times New Roman'">Jones </span><span style="font-family:'Times New Roman'">elaborated on what &#8220;reasonable foreseeability&#8221; means in this context. However, in a series of cases involving Russia the Strasbourg Court has done so. </span><span style="font-style:italic;font-family:'Times New Roman'">Pishchalnikov v Russia</span><span style="font-family:'Times New Roman'"> (Application No 7025/04) (judgment 24 September 2009) concerned the right under article 6 to legal assistance during questioning in the context of confessions made during interview. At para 77 the court observed that, &#8220;</span><span class="sbb9ee52a" style="font-family:'Times New Roman'">A waiver of the right, once invoked, must not only be voluntary, but must also constitute a knowing and intelligent relinquishment of a right.&#8221; </span><span style="font-style:italic;font-family:'Times New Roman'">Sibgatullin v Russia</span><span style="font-family:'Times New Roman'"> (Application No 143/05) (judgment 24 April 2012) concerned the right to examine witnesses. At para 47 the court stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;there can be no question of waiver by the mere fact that an individual could have avoided, by acting diligently, the situation that led to the impairment of his rights. The conclusion is more salient in a case of a person without sufficient knowledge of his prosecution and of the charges against him and without the benefit of legal advice to be cautioned on the course of his actions, including on the possibility of his conduct being interpreted as an implied waiver of his fair trial rights.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span class="sbb9ee52a" style="font-family:'Times New Roman'">It continued at</span><span style="font-family:'Times New Roman'"> para 48:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span class="sbb9ee52a" style="font-family:'Times New Roman'">The Court further observes that as a matter of principle the waiver of the right must be a knowing, voluntary and intelligent act, done with sufficient awareness of the relevant circumstances. Before an accused can be said to have implicitly, through his conduct, waived an important right under Article 6, it must be shown that he could reasonably have foreseen what the consequences of his conduct would be (see </span><span class="sa36b60a1" style="font-style:italic;font-family:'Times New Roman'">Talat Tun&#231; v Turkey</span><span class="sbb9ee52a" style="font-family:'Times New Roman'">, no </span><a class="Hyperlink" href="https://hudoc.echr.coe.int/eng" style="text-decoration-line:none;font-family:'Times New Roman';color:initial">32432/96</a><span class="sbb9ee52a" style="font-family:'Times New Roman'">, 27&#160;March 2007, &#167;&#160;59, </span><span class="sbb9ee52a" style="font-style:italic;font-family:'Times New Roman'">and </span><span class="sa36b60a1" style="font-style:italic;font-family:'Times New Roman'">Jones v the United Kingdom</span><span class="sa36b60a1" style="font-family:'Times New Roman'"/><span class="sbb9ee52a" style="font-family:'Times New Roman'">(dec.), no </span><a class="Hyperlink" href="https://hudoc.echr.coe.int/eng" style="text-decoration-line:none;font-family:'Times New Roman';color:initial">30900/02</a><span class="sbb9ee52a" style="font-family:'Times New Roman'">, 9 September 2003). It is not to be ruled out that, after initially being advised of his rights, an accused may himself validly renounce them and agree to proceed with the trial without, for instance, being afforded an opportunity to examine witnesses against him. The Court, however, considers that the right to confront witnesses, being a fundamental right among those which constitute the notion of fair trial, is an example of the rights which require the special protection of the knowing and intelligent waiver standard.</span><span style="font-family:'Times New Roman'"/><span class="sbb9ee52a" style="font-family:'Times New Roman'">The Court is not satisfied that sufficient safeguards were in place in the present case for it to be considered that the applicant had decided to relinquish his right. There is no reason to conclude that the applicant should have been fully aware that by leaving Uzbekistan he was abandoning his right to confront witnesses, or, for that matter, that he understood the nature of that right and could reasonably have foreseen what the consequences of his conduct would be (see </span><span class="sa36b60a1" style="font-style:italic;font-family:'Times New Roman'">Bonev v Bulgaria</span><span class="sbb9ee52a" style="font-family:'Times New Roman'">, no.&#160;</span><a class="Hyperlink" href="https://hudoc.echr.coe.int/eng" style="text-decoration-line:none;font-family:'Times New Roman';color:initial">60018/00</a><span class="sbb9ee52a" style="font-family:'Times New Roman'">, &#167;&#160;40, 8&#160;June 2006, with further references, and </span><span class="sa36b60a1" style="font-style:italic;font-family:'Times New Roman'">Bocos-Cuesta v the Netherlands</span><span class="sbb9ee52a" style="font-family:'Times New Roman'">, no </span><a class="Hyperlink" href="https://hudoc.echr.coe.int/eng" style="text-decoration-line:none;font-family:'Times New Roman';color:initial">54789/00</a><span class="sbb9ee52a" style="font-family:'Times New Roman'">, &#167; 66, 10 November 2005).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Idalov v Russia</span><span style="font-family:'Times New Roman'"> (Application No 5826/03) (judgment 22 May 2012) concerned the removal of a defendant from his trial for misbehaviour at its outset with the trial continuing in his absence to conviction. Citing both </span><span style="font-style:italic;font-family:'Times New Roman'">Jones </span><span style="font-family:'Times New Roman'">and </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'">, the Grand Chamber restated the need to establish that the applicant could reasonably foresee the consequences of his improper conduct. The trial judge had neither adjourned the case with a warning to the applicant of the potential consequences of his behaviour nor considered a short adjournment to enable him to compose himself. In those circumstances, it could not be established that the accused had reasonably foreseen the consequences of his conduct. He did not waive his article 6 right to be present. The Grand Chamber found a violation of article 6, para 177 and para 178. Similarly, In </span><span style="font-style:italic;font-family:'Times New Roman'">Ananyev v Russia </span><span style="font-family:'Times New Roman'">(Application No 20292/04) (judgment 30 July 2009) the applicant was removed as a result of threatening people present in court. The evidence was then heard in his absence. He returned to make a final submission and was convicted. The Strasbourg Court accepted that he was properly removed but said it was incumbent on the presiding judge to establish that the applicant could reasonably foresee the consequences of his conduct. The applicant was not made aware of the consequences of his actions. The trial proceeded in his absence and without legal representation. There was no unequivocal waiver of the right to be present or the right to be represented: see paras 45 and 46.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">restated additional article 6 principles. At para 89 the court referred to the right &#8220;to be informed promptly &#8230; of the nature and cause of the accusation against him&#8221; guaranteed by article 6.3(a). It continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;This provision points to the need for special attention to be paid to the notification of the &#8216;accusation&#8217; to the defendant. An indictment plays a crucial role in the criminal process, in that it is from the moment of its service that the defendant is formally put on notice of the factual and legal basis of the charges against him (see </span><span style="font-style:italic;font-family:'Times New Roman'">Kamasinski v Austria, </span><span style="font-family:'Times New Roman'">19 December 1989, para 79, Series A no 168).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">It emphasised that &#8220;the provision of full, detailed information concerning the charges against the defendant, and consequently the legal characterisation that the courts might adopt in the matter, is an essential prerequisite for ensuring that the proceedings are fair&#8230;.&#8221;: see para 90.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> In </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">the Italian Government relied upon </span><span style="font-style:italic;font-family:'Times New Roman'">Medenica v Switzerland</span><span style="font-family:'Times New Roman'"> (Application No 20491/92 ECHR 2001-VI) in support of the proposition that the applicant had lost his entitlement to a new trial because he sought to evade justice and he had known or suspected that he was wanted by the police but had absconded. The court identified the difference between </span><span style="font-style:italic;font-family:'Times New Roman'">Medenica </span><span style="font-family:'Times New Roman'">and </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'">: </span><span style="font-style:italic;font-family:'Times New Roman'">Medenica </span><span style="font-family:'Times New Roman'">had been informed in good time of the proceedings and of the date of his trial. </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">had not. The question was whether </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'"> could be regarded as having sufficient awareness of the prosecution and trial to be able to decide to waive his right to appear at trial, or to evade justice: see paras 97 and 98.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The court then referred in general terms to previous cases which had established that &#8220;to inform someone of a prosecution brought against him is a legal act of such importance that it must be carried out in accordance with procedural and substantive requirements capable of guaranteeing the effective exercise of the accused&#8217;s rights; vague and informal knowledge cannot suffice.&#8221; It continued, at para 99:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The Court cannot, however, rule out the possibility that certain established facts might provide an unequivocal indication that the accused is aware of the existence of the criminal proceedings against him and of the nature and the cause of the accusation and does not intend to take part in the trial or wishes to escape prosecution. This may be the case, for example, where the accused states publicly or in writing that he does not intend to respond to summonses of which he has become aware through sources other than the authorities, or succeeds in evading an attempted arrest &#8230; or when materials are brought to the attention of the authorities which unequivocally show that he is aware of the proceedings pending against him and of the charges he faces.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">This paragraph of its judgment sees the Strasbourg Court, in language that is familiar, carefully avoiding drawing hard lines. Cases are fact specific. It leaves open the possibility of a finding of unequivocal waiver if the facts are strong enough without, for example, the accused having been explicitly being told that the trial could proceed in absence. In </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'">, given that the argument for unequivocal waiver was based on no more than the applicant&#8217;s absence from his usual address, coupled with an assumption that the evidence against him was strong, the court considered that the applicant did not have sufficient knowledge of the prosecution and charges against him. He did not unequivocally waive his right to appear in court: see paras 100 and 101.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Luxembourg Court too has on occasion had cause to examine the article 6 implications of trials in absence. In </span><span style="font-style:italic;font-family:'Times New Roman'">IR </span><span style="font-family:'Times New Roman'">(2022) C-569/20 (judgment 19 May 2022) it dealt with a reference under articles 8 and 9 of Directive 2016/343 (&#8220;the Directive&#8221;) which concern the right to be present at trial. The material parts of the Directive and article 4a of the Amended Framework Decision are the same. Para 1 of the judgment confirms that the interpretation applies to the Amended Framework Decision as it does to the Directive in question. The case concerned an accused tried in his absence for tax evasion in Bulgaria. At para 48 the court explained:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;It is only where it is apparent from precise and objective indicia that the person concerned, while having been officially informed that he or she is accused of having committed a criminal offence, and therefore aware that he or she is going to be brought to trial, takes deliberate steps to avoid receiving officially the information regarding the date and place of the trial that the person may, &#8230; , be deemed to have been informed of the trial and to have voluntarily and unequivocally foregone exercise of the right to be present at it. The situation of such a person who received sufficient information to know that he or she was going to be brought to trial and, by deliberate acts and with the intention of evading justice, prevented the authorities from informing him or her officially of that trial in due time by means of the document referred to in paragraph 41 of the present judgement is thus covered by Article 8(2) of the directive.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The document referred to at para 41 is one that refers unequivocally to the date and place fixed for trial and, in the absence of a mandated lawyer, to the consequences of non-appearance. Article 8(2) of the Directive is the analogue of article 4a(1)(a) and (b) of the Amended Framework Decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We noted at para 11 above that the district judge referred to </span><span style="font-style:italic;font-family:'Times New Roman'">Dworzecki </span><span style="font-family:'Times New Roman'">(Case C &#8211;108/16 PPU). The factual context of the case was whether service upon a person in the defendant&#8217;s household who said he would pass the summons on to the defendant satisfied article 4a(1)(a)(i) of the Amended Framework Decision. The answer was &#8220;no&#8221; in the absence of evidence that the defendant had &#8220;actually received official information relating to the date and place of his trial.&#8221;: see paras 49 and 54. The Luxembourg Court had earlier confirmed that the executing judicial authority was obliged to surrender the requested person if one of the conditions set out in article 4a(1) was satisfied but otherwise there remained a discretion: see para 34. It returned to factors that might affect that discretion between paras 50 to 53 of its judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At para 50 it recognised that the executing judicial authority may take into account circumstances other than those set in article 4a(1) &#8220;that enable it to be assured that the surrender of the person concerned does not mean a breach of his rights of defence&#8221;. It was in the context of that assessment that the executing judicial authority could have regard to the person&#8217;s conduct and whether there had been a &#8220;manifest lack of diligence&#8221; on his or her part, &#8220;notably where it transpires that he sought to avoid service of the information addressed to him&#8221;: see para 51. In context, &#8220;the information&#8221; is a reference to the information about the date and place of trial. The executing judicial authority could take account of the fact that a request for a retrial might be made: see para 52. The executing judicial authority could also seek further information from the requesting state: see para 53</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Core submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Fitzgerald KC submitted on behalf of the appellant that both the decision of the district judge and of Swift J are flawed. The appellant was never arrested or questioned about the alleged offending. The high point was that he was told he was being investigated, something the district judge himself recognised in saying the criminal proceedings were only a possibility when the appellant provided his address to the Italian police. The decision to prosecute him was taken almost two years later. He was not informed that if he failed to notify the authorities of a change of address that he might be prosecuted and if he was prosecuted that the proceedings could be conducted in his absence. There was no basis to conclude for the purposes of article 6 of the Convention that the appellant had unequivocally waived his right to be present at his trial. The application of the Strasbourg and Luxembourg jurisprudence leads to the opposite conclusion. In particular, what occurred was not &#8220;reasonably foreseeable&#8221; for the purposes of Strasbourg jurisprudence. Moreover, the references to &#8220;due diligence&#8221; were inapt because they appeared to elevate the question of a due diligence to one that determines the question of waiver.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Miss Malcolm KC submitted that the document signed by the appellant at Spadafora Police Station was concerned with the &#8220;service of process&#8221; which meant criminal process. She submitted that the appellant was by then aware, or should have been aware, that he faced a trial with serious consequences. He failed to notify the judicial police of his move to England or of a new address. He was aware of the jeopardy in which he stood. There was no breach of article 6 of the Convention because &#8220;he was aware of the existence of the criminal proceedings against him and of the nature and the cause of the accusation&#8221; and by his behaviour demonstrated that &#8220;he does not intend to take part in the trial or wishes to escape prosecution&#8221;, in the language of </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">at para 99. His waiver of his rights was, in the circumstances, voluntary and unequivocal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Our assessment of the law and its application to the facts </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The procedural history of this claim is unusual in that the EAW identified that the appellant was absent from his trial but failed to rely upon any of the criteria which, if established, would nonetheless have required his extradition pursuant to the Amended Framework Decision. When the EAW is used properly to convey information which demonstrates that one of the criteria is satisfied that is ordinarily determinative and forecloses an endless factual exploration: </span><span style="font-style:italic;font-family:'Times New Roman'">Cretu </span><span style="font-family:'Times New Roman'">at paras 33 and 35 for the limited circumstances where further inquiry may be appropriate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Amended Framework Decision recognises that the question whether to extradite is a matter for domestic law when none of the criteria is satisfied. In this instance the applicable domestic law is found in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. The sole issue before the district judge was whether the appellant had &#8220;deliberately absented himself from his trial&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref>. The anterior question whether he was present at his trial was answered in the negative and the subsequent question regarding a retrial did not arise because the district judge concluded that the appellant had deliberately absented himself. Just as the Amended Framework Decision reflects the provisions of article 6 of the Convention, as interpreted by the Strasbourg Court, on the right to be present at trial so too does <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>. The phrase &#8220;deliberately absented himself from his trial&#8221; should be understood as being synonymous with the concept in Strasbourg jurisprudence that an accused has unequivocally waived his right to be present at the trial. If the circumstances suggest a violation of article 6, the answer to the question in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> would be &#8220;no&#8221; and the judge would be required to go on to consider the question in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(5)</ref> on retrial or appeal in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(8)</ref>. By contrast, if the circumstances suggest that the trial of the accused in his or her absence did </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">not</span><span style="font-family:'Times New Roman'"> give rise to a violation of article 6 of the Convention, then the person is taken to have absented himself deliberately from the trial. The answer to the question in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> would be &#8220;yes&#8221; with the consequence that the judge must proceed pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(4)</ref> to consider wider compatibility with the Convention under section 21.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Such an interpretation ensures that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> conforms with the Amended Framework Decision and with the right to be present at trial guaranteed by article 6, which itself is at the heart of the Amended Framework Decision. As we have explained above at para 26 we endorse the conclusions at para 34 in </span><span style="font-style:italic;font-family:'Times New Roman'">Cretu</span><span style="font-family:'Times New Roman'">. They include that defendants in criminal proceedings are not to be taken as absent from trial if they have instructed a lawyer to be present who represents them; and that &#8220;trial&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> (just as in the Amended Framework Decision) is an event with a scheduled date and place rather than a general process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Strasbourg Court has emphasised the &#8220;capital&#8221; importance of the right of defendants to be present at their trials (</span><span style="font-style:italic;font-family:'Times New Roman'">Poitrimol v France </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="(1993) 18 EHRR 130" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">(1993) 18 EHRR 130</ref> para 35) and also that a fair hearing requires that defendants are notified of the proceedings against them (</span><span style="font-style:italic;font-family:'Times New Roman'">Colozza v Italy </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="(1985) 7 EHRR 516" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">(1985) 7 EHRR 516</ref>, para 35). Moreover, as was reiterated in </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">at para 89, the notification of the formal &#8220;accusation&#8221; to the defendant plays a crucial role because it is then that the defendant is put on notice of the factual and legal basis of the charges.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was for the requesting judicial authority to prove to the criminal standard that the appellant had unequivocally waived his right to be present at his trial: see <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/206" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 206</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In this case, the appellant was under investigation. He had not been charged and, in fact, had never been arrested or questioned in connection with the alleged offending (with the attendant right to legal assistance) when he provided his details to the judicial police in July 2015. The decision to initiate criminal proceedings was made in June 2017. As the district judge himself recognised in his ruling, in July 2015 a prosecution was no more than a possibility. The appellant was never officially informed that he was being prosecuted nor was he notified of the time and place of his trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant&#8217;s dealings with the police both in Venice and Sicily fell a long way short of being provided by the authorities with an official &#8220;accusation&#8221;. He knew that he was suspected of a crime and that it was being investigated. There was no certainty that a prosecution would follow. When the appellant left Italy without giving the judicial police a new address there were no criminal proceedings of which he could have been aware, still less was there a trial from which he was in a position deliberately to absent himself. In those circumstances we conclude that the District Judge and Swift J erred in reaching the conclusion that he had deliberately absented himself from his trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">His conduct was far removed from the sort envisaged by the Strasbourg Court in </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic </span><span style="font-family:'Times New Roman'">at para 99 or the Luxembourg Cout in </span><span style="font-style:italic;font-family:'Times New Roman'">IR </span><span style="font-family:'Times New Roman'">at para 48 (see paras 38 and 39 above) which might justify a contrary conclusion. That is sufficient to dispose of this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was implicit in the decisions in both the Magistrates&#8217; Court and the High Court, to use the language of </span><span style="font-style:italic;font-family:'Times New Roman'">Jones, </span><span style="font-family:'Times New Roman'">that the inference that the appellant had &#8220;unequivocally and intentionally&#8221; waived his right to be present at his trial included a finding that &#8220;he could reasonably foresee what the consequences of his conduct would be&#8221;, namely that the trial would proceed in his absence. In this context it should be noted that the concepts of waiver and reasonable foreseeability take their meaning from the Strasbourg case law. They are not synonymous with the same concepts in English private law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The issue of reasonable foreseeability feeds into the submission, rejected by Swift J, that an accused must be told that the trial may proceed in his or her absence in the event of non-attendance in accordance with the notification of trial. We have summarised the Strasbourg jurisprudence on what is meant by reasonable foreseeability for this purpose at paras 34 and 35 above. In </span><span style="font-style:italic;font-family:'Times New Roman'">Jones</span><span style="font-family:'Times New Roman'"> the court had concluded that an unrepresented defendant could not have been expected to foresee that failing to attend his scheduled trial would result in a trial in his absence. In </span><span style="font-style:italic;font-family:'Times New Roman'">Pishchalnikov </span><span style="font-family:'Times New Roman'">the</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">Strasbourg Court equated reasonable foreseeability with &#8220;a knowing and intelligent relinquishment of a right.&#8221; That concept was elaborated in </span><span style="font-style:italic;font-family:'Times New Roman'">Sibgatullin </span><span style="font-family:'Times New Roman'">at paras 47 and 48, quoted above. The absence of legal advice warning on the possibility of a defendant&#8217;s conduct being interpreted as an implied waiver of article 6 rights was a factor. The person concerned needed sufficient awareness of the circumstances to waive a right by a &#8220;knowing, voluntary and intelligent act&#8221; but &#8220;having been advised of his rights&#8221; may validly renounce them. In both </span><span style="font-style:italic;font-family:'Times New Roman'">Idalov </span><span style="font-family:'Times New Roman'">and</span><span style="font-style:italic;font-family:'Times New Roman'"> Ananyev </span><span style="font-family:'Times New Roman'">the defendant in criminal proceedings was excluded from his trial as a result of disruptive behaviour, which is itself consistent with article 6, was not taken to have waived the right to be present at the trial without more. In each case the failing identified was in the judge not warning the defendant that the trial might proceed in his absence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is apparent from these cases that the standard imposed by the Strasbourg Court is that for a waiver to be unequivocal and effective, knowing and intelligent, ordinarily the accused must be shown to have appreciated the consequences of his or her behaviour. That will usually require the defendant to be warned in one way or another. A direct warning was expected from the judges in the exclusion cases. The Amended Framework Decision, reflecting an understanding of the obligations imposed by article 6, requires the summons to warn the accused that a failure to attend might result in a trial in absence. In </span><span style="font-style:italic;font-family:'Times New Roman'">Sibgatullin </span><span style="font-family:'Times New Roman'">there was no reason to conclude that the applicant should have been fully aware of the consequences of his actions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It appears from the reasoning of the district judge that he may have regarded a general manifest lack of diligence which results in ignorance of criminal proceedings as itself being sufficient to support a conclusion that an accused had deliberately absented himself from trial (in the language of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>) or unequivocally waived his right to attend (in the language of the case law on article 6 of the Convention). </span><span style="font-style:italic;font-family:'Times New Roman'">Dworzecki</span><span style="font-family:'Times New Roman'">, to which he referred (see para 40 above), is not authority for that proposition. Indeed, </span><span style="font-style:italic;font-family:'Times New Roman'">Sibgatullin </span><span style="font-family:'Times New Roman'">makes clear at para 47 that &#8220;there can be no question of waiver by the mere fact that an individual could have avoided, by acting diligently, the situation that led to the impairment of his rights&#8221; (see para 34 above).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It follows that the Divisional Court in </span><span style="font-style:italic;font-family:'Times New Roman'">Zagrean v Romania </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/2786" uk:canonical="[2016] EWHC 2786 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 2786 (Admin)</ref> put the point too widely at para 81 in saying &#8220;a requested person will be taken to have deliberately absented himself from his trial where the fault was his own conduct in leading him to be unaware of the date and time of trial.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">We were reminded by Miss Malcolm KC that the requirement to inform a defendant of the consequences of failing to attend at trial in Crown Court proceedings in England and Wales is covered by the Criminal Procedure Rules 2020 (SI 2020/759). Rule 25.2(1)(b) provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;the court must not proceed if the defendant is absent, unless the court is satisfied that&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.48in;text-indent:-0in">(i)</num>
+		    <content>
+		      <p class="ParaLevel3" style="margin-left:1.48in;text-indent:0.37in"><span style="font-family:'Times New Roman'">the defendant has waived the right to attend, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt;margin-left:1.48in;text-indent:-0in">(ii)</num>
+		    <content>
+		      <p class="ParaLevel3" style="margin-left:1.48in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the trial will be fair despite the defendant&#8217;s absence.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">That imports the requirements of article 6. Additionally, rule 3.21(2)(c) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;unless the defendant pleads guilty, [the court must] satisfy itself that there has been explained to the defendant, in terms the defendant can understand (with help, if necessary) that at the trial</span><span style="font-family:'Times New Roman';font-size:14pt">&#8213;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the defendant will have the right to give evidence after the court has heard the prosecution case,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if the defendant does not attend, the trial may take place in the defendant&#8217;s absence,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Times New Roman';font-size:13pt">(iii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if the trial takes place in the defendant&#8217;s absence, the judge may inform the jury of the reason for that absence, &#8230;&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The certified question on this issue poses a choice in black and white terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;For a requested person to have deliberately absented himself from trial for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">Extradition Act 2003</ref>, must the requesting authority prove that he had actual knowledge that he could be convicted and sentenced in absentia?&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The Strasbourg Court has been careful not to present the issue in such stark terms although ordinarily it would be expected that the requesting authority must prove that the requested person had actual knowledge that he could be convicted and sentenced in absentia. As we have already indicted, in </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'"> at para 99 (see para 38 above), on which Miss Malcolm KC relied, the court was careful to leave open the precise boundaries of behaviour that would support a conclusion that the right to be present at trial had been unequivocally waived. The cases we have cited provide many examples where the Strasbourg Court has decided that a particular indicator does not itself support that conclusion. But behaviour of an extreme enough form might support a finding of unequivocal waiver even if an accused cannot be shown to have had actual knowledge that the trial would proceed in absence. It may be that the key to the question is in the examples given in </span><span style="font-style:italic;font-family:'Times New Roman'">Sejdovic</span><span style="font-family:'Times New Roman'"> at para 99. The court recognised the possibility that the facts might provide an unequivocal indication that the accused is aware of the existence of the criminal proceedings against him and of the nature and the cause of the accusation and does not intend to take part in the trial or wishes to escape prosecution. Examples given were where the accused states publicly or in writing an intention not to respond to summonses of which he has become aware; or succeeds in evading an attempted arrest; or when materials are brought to the attention of the authorities which unequivocally show that he is aware of the proceedings pending against him and of the charges he faces. This points towards circumstances which demonstrate that when accused persons put themselves beyond the jurisdiction of the prosecuting and judicial authorities in a knowing and intelligent way with the result that for practical purposes a trial with them present would not be possible, they may be taken to appreciate that a trial in absence is the only option. But such considerations do not arise in this appeal, where the facts are far removed from unequivocal waiver in a knowing and intelligent way. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant did not unequivocally waive his right to be present at his trial. For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/20/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> he was not deliberately absent from his trial. With respect, we conclude that the district judge and Swift J erred in coming to the contrary conclusion. The question should have been decided differently. In the result we would allow the appeal and, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/33/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, order the appellant&#8217;s discharge and quash the order for his extradition.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
