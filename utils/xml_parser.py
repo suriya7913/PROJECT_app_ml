@@ -2,7 +2,7 @@
 LegalKGent — XML Parsing Utilities
 ====================================
 All XML parsers for legislation, case law, effects, and explanatory notes.
-Extracted from 2_kg_creation.py to enable reuse and independent testing.
+Contains CLMLParser (class-based recursive walker) for hierarchical CLML parsing.
 """
 
 import os
@@ -34,6 +34,11 @@ def _meta(tag):
     return f'{{{META_NS}}}{tag}'
 
 
+def _strip_ns(tag):
+    """Strip namespace from a tag, returning the local name."""
+    return tag.split('}')[-1] if '}' in tag else tag
+
+
 # ─────────────────────────────────────────────
 # TEXT EXTRACTION HELPERS
 # ─────────────────────────────────────────────
@@ -50,14 +55,120 @@ def extract_text_recursive(elem):
     return " ".join(p for p in parts if p)
 
 
-def extract_defined_terms(root):
-    """Find all <Term> definitions in the XML: 'the Act' -> full name."""
-    terms = {}
-    for term_elem in root.iter(_leg('Term')):
-        term_text = extract_text_recursive(term_elem)
-        if term_text:
+def _extract_own_text(elem):
+    """
+    Extract text from an element and its children,
+    but SKIP <BlockAmendment> subtrees entirely.
+    This gives us the section's 'own' text without foreign legislation.
+    """
+    parts = []
+    if elem.text:
+        parts.append(elem.text.strip())
+    for child in elem:
+        if _strip_ns(child.tag) == 'BlockAmendment':
+            # Skip the block amendment content, but keep any tail text
+            if child.tail:
+                parts.append(child.tail.strip())
+        else:
+            parts.append(_extract_own_text(child))
+            if child.tail:
+                parts.append(child.tail.strip())
+    return " ".join(p for p in parts if p)
+
+
+# ─────────────────────────────────────────────
+# CLMLParser — CLASS-BASED RECURSIVE WALKER
+# ─────────────────────────────────────────────
+
+class CLMLParser:
+    """
+    Recursive CLML parser that walks UK Legislation XML sequentially,
+    maintaining hierarchical context, preventing text duplication,
+    and capturing explicit relationships for a Knowledge Graph.
+    """
+
+    STRUCTURAL_TAGS = {'Part', 'Chapter', 'Pblock'}
+    SECTION_TAGS = {'P1group'}
+    SKIP_TAGS = {'BlockAmendment'}
+
+    def __init__(self, filepath: str):
+        self.filepath = filepath
+        self.filename = os.path.basename(filepath).replace('.xml', '')
+        self.tree = ET.parse(filepath)
+        self.root = self.tree.getroot()
+        self.chunks = []
+        self.commentary_lookup = {}   # id -> {text, affecting_act, type}
+        self.doc_title = self.filename
+        self.year = "unknown"
+        self.enactment_date = None
+        self.defined_terms = {}
+
+    # ── Step 1: Extract document-level metadata ──
+
+    def _extract_doc_metadata(self):
+        """Extract title, year, enactment date, and defined terms."""
+        root = self.root
+
+        # Title
+        prelim_title = root.find(f'.//{_leg("PrimaryPrelims")}/{_leg("Title")}')
+        if prelim_title is not None:
+            self.doc_title = extract_text_recursive(prelim_title)
+        else:
+            title_elem = root.find(f'.//{_leg("Title")}')
+            if title_elem is not None:
+                self.doc_title = extract_text_recursive(title_elem)
+
+        # Year
+        number_elem = root.find(f'.//{_leg("Number")}')
+        year_text = extract_text_recursive(number_elem) if number_elem is not None else self.filename
+        year_match = re.search(r'(\d{4})', year_text)
+        self.year = year_match.group(1) if year_match else "unknown"
+
+        # Enactment date
+        date_elem = root.find(f'.//{_leg("DateOfEnactment")}/{_leg("DateText")}')
+        if date_elem is not None:
+            date_text = extract_text_recursive(date_elem)
+            date_match = re.search(r'(\d{1,2})\w*\s+(\w+)\s+(\d{4})', date_text)
+            if date_match:
+                try:
+                    from datetime import datetime
+                    self.enactment_date = datetime.strptime(
+                        f"{date_match.group(1)} {date_match.group(2)} {date_match.group(3)}",
+                        "%d %B %Y"
+                    ).strftime("%Y-%m-%d")
+                except ValueError:
+                    pass
+
+        # Defined terms
+        self.defined_terms = self._extract_defined_terms()
+
+    def _extract_defined_terms(self):
+        """Find all <Term> definitions: short name -> full Act name."""
+        terms = {}
+        for term_elem in self.root.iter(_leg('Term')):
+            term_id = term_elem.get('id', '')
+            term_text = extract_text_recursive(term_elem)
+            if not term_text:
+                continue
+
+            # Try the id-based approach first (e.g., id="term-the-corporation")
+            if term_id:
+                # Find the parent context for the full definition
+                parent = None
+                for p in self.root.iter():
+                    if term_elem in list(p):
+                        parent = p
+                        break
+                if parent is not None:
+                    parent_text = extract_text_recursive(parent)
+                    # Pattern: "short name" means ...
+                    # Store the term with its definition context
+                    terms[term_text] = parent_text[:300]
+                continue
+
+            # Fallback: Act-abbreviation pattern
             parent = None
-            for p in root.iter():
+            for p in self.root.iter():
                 if term_elem in list(p):
                     parent = p
                     break
@@ -69,186 +180,396 @@ def extract_defined_terms(root):
                 )
                 if match:
                     terms[term_text] = match.group(1).strip()
-    return terms
+        return terms
 
+    # ── Step 2: Build commentary lookup table ──
 
-def extract_internal_links(section_elem):
-    """Extract all <InternalLink> references from a section."""
-    refs = []
-    for link in section_elem.iter(_leg('InternalLink')):
-        ref_text = extract_text_recursive(link)
-        if ref_text:
-            refs.append(ref_text)
-    return refs
+    def _build_commentary_lookup(self):
+        """
+        Pre-scan <Commentaries> block to build a lookup:
+          commentary_id -> {type, text, affecting_act, affecting_uri}
+        """
+        for commentary in self.root.iter(_leg('Commentary')):
+            cid = commentary.get('id', '')
+            ctype = commentary.get('Type', '')
+            if not cid:
+                continue
 
+            text = extract_text_recursive(commentary)
 
-def extract_inline_amendments(section_elem):
-    """Extract all <InlineAmendment> text from a section."""
-    amendments = []
-    for amend in section_elem.iter(_leg('InlineAmendment')):
-        amend_text = extract_text_recursive(amend)
-        if amend_text:
-            amendments.append(amend_text)
-    return amendments
+            # Extract affecting act from <Citation> child
+            # Citations can be in legislation NS or metadata NS
+            affecting_act = ''
+            affecting_uri = ''
+            for citation in commentary.iter(_leg('Citation')):
+                affecting_act = citation.get('Title', '') or extract_text_recursive(citation)
+                affecting_uri = citation.get('URI', '')
+                break  # Take the first citation
+            # Fallback: check metadata namespace
+            if not affecting_act:
+                for citation in commentary.iter(_meta('Citation')):
+                    affecting_act = citation.get('Title', '') or extract_text_recursive(citation)
+                    affecting_uri = citation.get('URI', '')
+                    break
 
+            self.commentary_lookup[cid] = {
+                'type': ctype,
+                'text': text[:500],
+                'affecting_act': affecting_act,
+                'affecting_uri': affecting_uri,
+            }
 
-def get_parent_pblock_title(elem, root):
-    """Walk up the tree to find the nearest <Pblock>/<Part> Title ancestor."""
-    parent_map = {c: p for p in root.iter() for c in p}
-    current = elem
-    while current is not None:
-        tag_local = current.tag.split('}')[-1] if '}' in current.tag else current.tag
-        if tag_local in ('Pblock', 'Part'):
-            title_elem = current.find(_leg('Title'))
-            if title_elem is not None:
-                return extract_text_recursive(title_elem)
-        current = parent_map.get(current)
-    return None
+    # ── Helper: iterate skipping BlockAmendment subtrees ──
 
+    def _iter_skip_ba(self, node):
+        """Iterate descendants of node, skipping BlockAmendment subtrees."""
+        for child in node:
+            if _strip_ns(child.tag) == 'BlockAmendment':
+                continue
+            yield child
+            yield from self._iter_skip_ba(child)
 
-# ─────────────────────────────────────────────
-# PARSER: PRIMARY LEGISLATION (CLML)
-# ─────────────────────────────────────────────
+    # ── Step 3: Recursive walker engine ──
+
+    def _walk_tree(self, node, context: dict):
+        """
+        Recursively walk the XML tree, maintaining hierarchical context.
+        CRITICAL: context is cloned at each level to prevent sibling bleed.
+        """
+        current_context = context.copy()
+        # Deep-copy the hierarchy dict to prevent mutation
+        current_context['hierarchy'] = context['hierarchy'].copy()
+
+        # Inherit RestrictStartDate / RestrictExtent if present on this node
+        if node.get('RestrictStartDate'):
+            current_context['in_force_date'] = node.get('RestrictStartDate')
+        if node.get('RestrictExtent'):
+            current_context['extent'] = node.get('RestrictExtent')
+
+        tag = _strip_ns(node.tag)
+
+        # Step 4: Structural hierarchy — update context, don't yield chunks
+        if tag in self.STRUCTURAL_TAGS:
+            self._handle_structure(node, tag, current_context)
+            return
+
+        # Step 5: BlockAmendment — halt recursion for this branch
+        if tag in self.SKIP_TAGS:
+            return
+
+        # Step 6: Section processing — yield chunks
+        if tag in self.SECTION_TAGS:
+            self._handle_p1group(node, current_context)
+            return
+
+        # For all other tags, continue walking children
+        for child in node:
+            self._walk_tree(child, current_context)
+
+    # ── Step 4: Structural hierarchy handlers ──
+
+    def _handle_structure(self, node, tag, context):
+        """
+        Handle Part, Chapter, Pblock elements.
+        Extract their Number+Title, update context hierarchy, then recurse.
+        """
+        # Extract number
+        number_elem = node.find(_leg('Number'))
+        number_text = extract_text_recursive(number_elem) if number_elem is not None else ''
+
+        # Extract title
+        title_elem = node.find(_leg('Title'))
+        title_text = extract_text_recursive(title_elem) if title_elem is not None else ''
+
+        # Build label: e.g., "Part 1: Income tax and corporation tax"
+        if number_text and title_text:
+            label = f"{number_text}: {title_text}"
+        elif number_text:
+            label = number_text
+        elif title_text:
+            label = title_text
+        else:
+            label = tag
+
+        # Map tag to hierarchy key
+        hierarchy_key = tag.lower()
+        if hierarchy_key == 'pblock':
+            hierarchy_key = 'crossheading'
+
+        context['hierarchy'][hierarchy_key] = label
+
+        # Continue walking children
+        for child in node:
+            self._walk_tree(child, context)
+
+    # ── Step 6: P1group processing ──
+
+    def _handle_p1group(self, p1group_node, context):
+        """
+        Handle <P1group>: extract heading from <Title>,
+        find child <P1> elements, and process each.
+        """
+        # Extract heading from P1group's <Title>
+        title_elem = p1group_node.find(_leg('Title'))
+        heading = extract_text_recursive(title_elem) if title_elem is not None else None
+
+        # Clean up repealed headings (dots only)
+        if heading and re.match(r'^[\s.]+$', heading):
+            heading = "[Repealed]"
+
+        context['heading'] = heading
+
+        # Inherit RestrictStartDate / RestrictExtent from P1group
+        if p1group_node.get('RestrictStartDate'):
+            context['in_force_date'] = p1group_node.get('RestrictStartDate')
+        if p1group_node.get('RestrictExtent'):
+            context['extent'] = p1group_node.get('RestrictExtent')
+
+        # Find and process all <P1> children (usually one, but can be multiple)
+        for p1 in p1group_node:
+            if _strip_ns(p1.tag) == 'P1':
+                self._process_section(p1, context)
+
+    # ── Step 7: Section text extraction & graph edge generation ──
+
+    def _process_section(self, p1_node, context):
+        """
+        Process a <P1> element: extract section number, text, subsections,
+        commentary references, block amendments, and internal links.
+        """
+        # Extract section number from <Pnumber>
+        pnum_elem = p1_node.find(_leg('Pnumber'))
+        if pnum_elem is not None:
+            section_number = extract_text_recursive(pnum_elem)
+        else:
+            section_number = p1_node.get('id', '').replace('section-', '')
+
+        if not section_number:
+            return
+
+        # Extract vector_text — own text EXCLUDING BlockAmendment content
+        vector_text = _extract_own_text(p1_node)
+        if not vector_text or len(vector_text) < 20:
+            return
+
+        # Extract subsections (P2 only — skip those inside BlockAmendment)
+        subsections = []
+        for child in self._iter_skip_ba(p1_node):
+            tag = _strip_ns(child.tag)
+            if tag == 'P2':
+                pnum = child.find(_leg('Pnumber'))
+                sub_num = extract_text_recursive(pnum) if pnum is not None else ""
+                if sub_num:
+                    subsections.append(f"{section_number}({sub_num})")
+
+        # Resolve CommentaryRef tags (from own text only)
+        amended_by = []
+        seen_refs = set()
+        for cref in self._iter_skip_ba(p1_node):
+            if _strip_ns(cref.tag) == 'CommentaryRef':
+                ref_id = cref.get('Ref', '')
+                if ref_id and ref_id in self.commentary_lookup and ref_id not in seen_refs:
+                    seen_refs.add(ref_id)
+                    entry = self.commentary_lookup[ref_id]
+                    amended_by.append({
+                        'commentary_id': ref_id,
+                        'affecting_act': entry['affecting_act'],
+                        'type': entry['type'],
+                        'text': entry['text'],
+                    })
+
+        # Detect and extract BlockAmendment content
+        has_block_amendment = False
+        block_amendment_text = ""
+        for child in p1_node.iter():
+            if _strip_ns(child.tag) == 'BlockAmendment':
+                has_block_amendment = True
+                ba_text = extract_text_recursive(child)
+                if ba_text:
+                    block_amendment_text += ba_text[:1000] + " "
+        block_amendment_text = block_amendment_text.strip()[:2000]
+
+        # Extract internal links (skip BlockAmendment)
+        internal_refs = []
+        for elem in self._iter_skip_ba(p1_node):
+            if _strip_ns(elem.tag) == 'InternalLink':
+                ref_text = extract_text_recursive(elem)
+                if ref_text:
+                    internal_refs.append(ref_text)
+
+        # Extract inline amendments (skip BlockAmendment)
+        inline_amendments = []
+        for elem in self._iter_skip_ba(p1_node):
+            if _strip_ns(elem.tag) == 'InlineAmendment':
+                amend_text = extract_text_recursive(elem)
+                if amend_text:
+                    inline_amendments.append(amend_text)
+
+        # Determine in_force_date (inherit from context or node attributes)
+        in_force_date = (
+            p1_node.get('RestrictStartDate')
+            or context.get('in_force_date')
+            or self.enactment_date
+        )
+        extent = (
+            p1_node.get('RestrictExtent')
+            or context.get('extent')
+        )
+
+        # Build the chunk
+        chunk_id = f"{self.filename}.xml_{section_number}"
+
+        # Build graph_edges
+        graph_edges = {
+            'has_subsection': subsections if subsections else [],
+            'contains_block_amendment': has_block_amendment,
+            'internal_refs': internal_refs if internal_refs else [],
+            'inline_amendments': inline_amendments if inline_amendments else [],
+            'amended_by': amended_by if amended_by else [],
+        }
+        if block_amendment_text:
+            graph_edges['block_amendment_text'] = block_amendment_text
+
+        self.chunks.append({
+            'chunk_id': chunk_id,
+            'source': 'legislation',
+            'doc_title': self.doc_title,
+            'year': self.year,
+            'section_number': str(section_number),
+            'heading': context.get('heading'),
+            'hierarchy': context['hierarchy'].copy(),
+            'in_force_date': in_force_date,
+            'extent': extent,
+            'enactment_date': self.enactment_date,
+            'defined_terms': self.defined_terms if self.defined_terms else None,
+            'vector_text': vector_text,
+            'graph_edges': graph_edges,
+        })
+
+    # ── Step 8: Schedule processing ──
+
+    def _process_schedules(self):
+        """Parse <Schedule> elements into chunks, preserving hierarchy."""
+        for schedule in self.root.iter(_leg('Schedule')):
+            sched_num_elem = schedule.find(_leg('Number'))
+            sched_num = extract_text_recursive(sched_num_elem) if sched_num_elem is not None else "SCHEDULE"
+
+            sched_title_elem = schedule.find(_leg('Title'))
+            sched_title = extract_text_recursive(sched_title_elem) if sched_title_elem is not None else ""
+
+            sched_label = f"{sched_num}: {sched_title}" if sched_title else sched_num
+
+            for para in schedule.iter(_leg('P1')):
+                pnum = para.find(f'.//{_leg("Pnumber")}')
+                para_num = extract_text_recursive(pnum) if pnum is not None else ""
+                para_id = f"{sched_num}" + (f"_{para_num}" if para_num else "")
+
+                vector_text = _extract_own_text(para)
+                if not vector_text or len(vector_text) < 20:
+                    continue
+
+                # Subsections
+                subsections = []
+                for child in para.iter():
+                    if _strip_ns(child.tag) == 'P2':
+                        sub_pnum = child.find(_leg('Pnumber'))
+                        sub_num = extract_text_recursive(sub_pnum) if sub_pnum is not None else ""
+                        if sub_num:
+                            subsections.append(f"{para_num}({sub_num})")
+
+                # Block amendments
+                has_ba = False
+                ba_text = ""
+                for child in para.iter():
+                    if _strip_ns(child.tag) == 'BlockAmendment':
+                        has_ba = True
+                        ba = extract_text_recursive(child)
+                        if ba:
+                            ba_text += ba[:1000] + " "
+                ba_text = ba_text.strip()[:2000]
+
+                # Commentary refs
+                amended_by = []
+                for cref in para.iter(_leg('CommentaryRef')):
+                    ref_id = cref.get('Ref', '')
+                    if ref_id and ref_id in self.commentary_lookup:
+                        entry = self.commentary_lookup[ref_id]
+                        amended_by.append({
+                            'commentary_id': ref_id,
+                            'affecting_act': entry['affecting_act'],
+                            'type': entry['type'],
+                            'text': entry['text'],
+                        })
+
+                extent = para.get('RestrictExtent', schedule.get('RestrictExtent'))
+                in_force = para.get('RestrictStartDate', schedule.get('RestrictStartDate'))
+
+                graph_edges = {
+                    'has_subsection': subsections,
+                    'contains_block_amendment': has_ba,
+                    'internal_refs': [extract_text_recursive(l) for l in para.iter(_leg('InternalLink')) if extract_text_recursive(l)],
+                    'inline_amendments': [extract_text_recursive(a) for a in para.iter(_leg('InlineAmendment')) if extract_text_recursive(a)],
+                    'amended_by': amended_by,
+                }
+                if ba_text:
+                    graph_edges['block_amendment_text'] = ba_text
+
+                self.chunks.append({
+                    'chunk_id': f"{self.filename}.xml_{para_id}",
+                    'source': 'legislation',
+                    'doc_title': self.doc_title,
+                    'year': self.year,
+                    'section_number': para_id,
+                    'heading': None,
+                    'hierarchy': {'schedule': sched_label},
+                    'in_force_date': in_force or self.enactment_date,
+                    'extent': extent,
+                    'enactment_date': self.enactment_date,
+                    'defined_terms': self.defined_terms if self.defined_terms else None,
+                    'vector_text': vector_text,
+                    'graph_edges': graph_edges,
+                })
+
+    # ── Main entry point ──
+
+    def parse(self) -> list[dict]:
+        """Run the full parse: metadata → commentaries → tree walk → schedules."""
+        self._extract_doc_metadata()
+        self._build_commentary_lookup()
+
+        # Initial context for the recursive walker
+        initial_context = {
+            'hierarchy': {},
+            'in_force_date': self.root.get('RestrictStartDate'),
+            'extent': self.root.get('RestrictExtent'),
+            'heading': None,
+        }
+
+        # Walk the body of the legislation
+        body = self.root.find(f'.//{_leg("Body")}')
+        if body is not None:
+            self._walk_tree(body, initial_context)
+
+        # Also walk Primary (for acts without explicit body)
+        if not self.chunks:
+            primary = self.root.find(f'.//{_leg("Primary")}')
+            if primary is not None:
+                self._walk_tree(primary, initial_context)
+
+        # Process schedules separately
+        self._process_schedules()
+
+        return self.chunks
+
 
 def parse_legislation_xml(filepath: str) -> list[dict]:
-    """Parse a CLML legislation XML file into smart chunks."""
+    """Parse a CLML legislation XML file into smart hierarchical chunks."""
     try:
-        tree = ET.parse(filepath)
-        root = tree.getroot()
+        parser = CLMLParser(filepath)
+        return parser.parse()
     except ET.ParseError as e:
         print(f"    ⚠️ XML parse error: {filepath}: {e}")
         return []
-
-    filename = os.path.basename(filepath).replace('.xml', '')
-
-    # Extract document title
-    doc_title = filename
-    prelim_title = root.find(f'.//{_leg("PrimaryPrelims")}/{_leg("Title")}')
-    if prelim_title is not None:
-        doc_title = extract_text_recursive(prelim_title)
-    else:
-        title_elem = root.find(f'.//{_leg("Title")}')
-        if title_elem is not None:
-            doc_title = extract_text_recursive(title_elem)
-
-    # Extract year
-    number_elem = root.find(f'.//{_leg("Number")}')
-    year_text = extract_text_recursive(number_elem) if number_elem is not None else filename
-    year_match = re.search(r'(\d{4})', year_text)
-    year = year_match.group(1) if year_match else "unknown"
-
-    # Extract document-level defined terms
-    defined_terms = extract_defined_terms(root)
-
-    # Extract date of enactment
-    date_elem = root.find(f'.//{_leg("DateOfEnactment")}/{_leg("DateText")}')
-    enactment_date = None
-    if date_elem is not None:
-        date_text = extract_text_recursive(date_elem)
-        date_match = re.search(r'(\d{1,2})\w*\s+(\w+)\s+(\d{4})', date_text)
-        if date_match:
-            try:
-                from datetime import datetime
-                enactment_date = datetime.strptime(
-                    f"{date_match.group(1)} {date_match.group(2)} {date_match.group(3)}",
-                    "%d %B %Y"
-                ).strftime("%Y-%m-%d")
-            except ValueError:
-                pass
-
-    chunks = []
-
-    # Parse sections (P1, P1group)
-    for section_elem in root.iter():
-        tag_local = section_elem.tag.split('}')[-1] if '}' in section_elem.tag else section_elem.tag
-        if tag_local not in ('P1', 'P1group'):
-            continue
-
-        pnum_elem = section_elem.find(f'.//{_leg("Pnumber")}')
-        section_num = extract_text_recursive(pnum_elem) if pnum_elem is not None else None
-        id_attr = section_elem.get('id', '')
-
-        if section_num:
-            section_id = section_num
-        elif id_attr:
-            section_id = id_attr.replace('section-', '').replace('schedule-', 'SCHEDULE ')
-        else:
-            continue
-
-        chunk_id = f"{filename}.xml_{section_id}"
-        content = extract_text_recursive(section_elem)
-        if not content or len(content) < 20:
-            continue
-
-        heading = None
-        title_elem = section_elem.find(_leg('Title'))
-        if title_elem is not None:
-            heading = extract_text_recursive(title_elem)
-
-        extent = section_elem.get('RestrictExtent', None)
-        in_force_date = section_elem.get('RestrictStartDate', None)
-        part_title = get_parent_pblock_title(section_elem, root)
-        internal_refs = extract_internal_links(section_elem)
-        inline_amendments = extract_inline_amendments(section_elem)
-
-        content_prefix = f"ACT: {doc_title} ({year}) | SECTION: {section_id}"
-        if part_title:
-            content_prefix += f" | PART: {part_title}"
-        if heading:
-            content_prefix += f" | HEADING: {heading}"
-        content_prefix += " | TEXT: "
-
-        chunks.append({
-            "id": chunk_id,
-            "source": "legislation",
-            "doc_title": doc_title,
-            "year": year,
-            "section": str(section_id),
-            "part": part_title,
-            "heading": heading,
-            "extent": extent,
-            "in_force_date": in_force_date or enactment_date,
-            "internal_refs": internal_refs or None,
-            "inline_amendments": inline_amendments or None,
-            "defined_terms": defined_terms or None,
-            "content": content_prefix + content
-        })
-
-    # Parse Schedules
-    for schedule in root.iter(_leg('Schedule')):
-        sched_num = schedule.find(_leg('Number'))
-        sched_id = extract_text_recursive(sched_num) if sched_num is not None else "SCHEDULE"
-
-        for para in schedule.iter(_leg('P1')):
-            pnum = para.find(f'.//{_leg("Pnumber")}')
-            para_num = extract_text_recursive(pnum) if pnum is not None else ""
-            para_id = f"{sched_id}" + (f"_{para_num}" if para_num else "")
-            chunk_id = f"{filename}.xml_{para_id}"
-
-            content = extract_text_recursive(para)
-            if not content or len(content) < 20:
-                continue
-
-            extent = para.get('RestrictExtent', schedule.get('RestrictExtent'))
-            in_force = para.get('RestrictStartDate', schedule.get('RestrictStartDate'))
-
-            chunks.append({
-                "id": chunk_id,
-                "source": "legislation",
-                "doc_title": doc_title,
-                "year": year,
-                "section": para_id,
-                "part": sched_id,
-                "heading": None,
-                "extent": extent,
-                "in_force_date": in_force or enactment_date,
-                "internal_refs": extract_internal_links(para) or None,
-                "inline_amendments": extract_inline_amendments(para) or None,
-                "defined_terms": defined_terms or None,
-                "content": f"ACT: {doc_title} ({year}) | SECTION: {para_id} | TEXT: {content}"
-            })
-
-    return chunks
 
 
 # ─────────────────────────────────────────────
@@ -541,6 +862,7 @@ def build_smart_corpus(
 
     # 1. Parse primary legislation
     if os.path.exists(legislation_dir):
+        
         xml_files = sorted(f for f in os.listdir(legislation_dir) if f.endswith('.xml'))
         print(f"📂 Found {len(xml_files)} legislation XML files")
         for f in xml_files:
