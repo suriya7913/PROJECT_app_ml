@@ -669,27 +669,105 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
 
 ATOM_NS = "http://www.w3.org/2005/Atom"
 
+# Map legislation.gov.uk class names to our filename prefixes
+_CLASS_TO_PREFIX = {
+    'UnitedKingdomPublicGeneralAct':        'ukpga',
+    'UnitedKingdomLocalAct':                'ukla',
+    'UnitedKingdomStatutoryInstrument':      'uksi',
+    'ScottishAct':                          'asp',
+    'WelshParliamentAct':                   'asc',
+    'NorthernIrelandAct':                   'nia',
+    'NorthernIrelandOrderInCouncil':        'nisi',
+    'UnitedKingdomMinisterialOrder':        'ukmo',
+    'UnitedKingdomChurchInstrument':        'ukci',
+    'ScottishStatutoryInstrument':          'ssi',
+    'WelshStatutoryInstrument':             'wsi',
+}
+
+
+def _ref_to_section_id(ref: str) -> str | None:
+    """
+    Convert a ukm:Section Ref value to a section-level ID matching our chunk_ids.
+
+    Examples:
+        'section-52A-13'        → '52A'     (subsection stripped)
+        'section-46-1'          → '46'      (subsection stripped)
+        'section-47'            → '47'
+        'schedule-6-paragraph-10'→ 'Schedule 6_10'
+        'schedule-4'            → 'Schedule 4'
+        'part-III'              → None      (part-level, not a chunk)
+        'article-2'             → 'article_2'
+    """
+    if not ref:
+        return None
+
+    # Schedule references: schedule-6-paragraph-4-3 → Schedule 6_4
+    m = re.match(r'schedule-(\d+)-paragraph-(\w+)', ref)
+    if m:
+        return f"Schedule {m.group(1)}_{m.group(2)}"
+
+    # Bare schedule: schedule-4 → Schedule 4
+    m = re.match(r'schedule-(\d+)$', ref)
+    if m:
+        return f"Schedule {m.group(1)}"
+
+    # Section references: section-52A-13 → 52A
+    m = re.match(r'section-(\d+[A-Z]?)', ref)
+    if m:
+        return m.group(1)
+
+    # Article references (SIs): article-2 → article_2
+    m = re.match(r'article-(\d+)', ref)
+    if m:
+        return f"article_{m.group(1)}"
+
+    # Part-level refs are not chunks, skip
+    if ref.startswith('part-'):
+        return None
+
+    return None
+
+
+def _extract_section_refs(provisions_elem) -> list[dict]:
+    """
+    Extract all <ukm:Section> and <ukm:SectionRange> references from
+    a provisions element.
+
+    Returns list of dicts: [{'ref': ..., 'uri': ..., 'text': ...}, ...]
+    """
+    refs = []
+    if provisions_elem is None:
+        return refs
+
+    # Single sections
+    for sec in provisions_elem.iter(_meta('Section')):
+        refs.append({
+            'ref': sec.get('Ref', ''),
+            'uri': sec.get('URI', ''),
+            'text': extract_text_recursive(sec) or '',
+        })
+
+    # Section ranges (e.g. s. 46(1)-(3))
+    for sr in provisions_elem.iter(_meta('SectionRange')):
+        refs.append({
+            'ref': sr.get('Start', ''),
+            'uri': sr.get('URI', ''),
+            'text': extract_text_recursive(sr) or '',
+            'range_end': sr.get('End', ''),
+        })
+
+    return refs
+
+
 def parse_effects_xml(filepath: str) -> list[dict]:
     """
-    Parse an effects/amendments XML feed into ground-truth triples.
-    The effects feed from legislation.gov.uk contains structured data about
-    which provisions modify which other provisions — this is API-verified,
-    not LLM-extracted.
+    Parse an effects/amendments XML feed into high-fidelity ground-truth triples.
 
-    XML structure (Atom feed with ukm: namespace):
-      <entry>
-        <content>
-          <ukm:Effect Type="words substituted" AffectedProvisions="s. 5(1)" ...>
-            <ukm:AffectedTitle>Transport Act 2000</ukm:AffectedTitle>
-            <ukm:AffectingTitle>Railways Act 2005</ukm:AffectingTitle>
-            <ukm:InForceDates>
-              <ukm:InForce Date="2024-01-01" .../>
-            </ukm:InForceDates>
-          </ukm:Effect>
-        </content>
-      </entry>
+    Extracts structured <ukm:Section Ref="..."/> references and maps them
+    to deterministic chunk IDs (matching CLMLParser output), enabling precise
+    Knowledge Graph edge creation.
 
-    Returns list of dicts with: source, action, target, detail, confidence=1.0
+    Returns list of dicts with enriched fields including target_chunk_ids.
     """
     try:
         tree = ET.parse(filepath)
@@ -700,16 +778,16 @@ def parse_effects_xml(filepath: str) -> list[dict]:
 
     triples = []
 
-    # Find <ukm:Effect> elements (metadata namespace)
     for effect in root.iter(_meta('Effect')):
         effect_type = effect.get('Type', '')
+        effect_id = effect.get('EffectId', '')
 
         # Map effect type to our canonical actions
         action = _map_effect_type(effect_type)
         if not action:
             continue
 
-        # Titles are CHILD ELEMENTS, not attributes
+        # ── Titles (child elements) ──
         affected_title_elem = effect.find(_meta('AffectedTitle'))
         affecting_title_elem = effect.find(_meta('AffectingTitle'))
 
@@ -719,11 +797,49 @@ def parse_effects_xml(filepath: str) -> list[dict]:
         if not affected_title or not affecting_title:
             continue
 
-        # Provisions are in ATTRIBUTES on the <ukm:Effect> element
+        # ── Build base filename for target chunk IDs ──
+        affected_class = effect.get('AffectedClass', '')
+        affected_year = effect.get('AffectedYear', '')
+        affected_number = effect.get('AffectedNumber', '')
+        prefix = _CLASS_TO_PREFIX.get(affected_class, 'ukpga')
+        base_filename = f"{prefix}_{affected_year}_{affected_number}"
+
+        # ── Extract structured section references ──
+        affected_prov_elem = effect.find(_meta('AffectedProvisions'))
+        affecting_prov_elem = effect.find(_meta('AffectingProvisions'))
+
+        affected_refs = _extract_section_refs(affected_prov_elem)
+        affecting_refs = _extract_section_refs(affecting_prov_elem)
+
+        # Map refs to chunk IDs
+        target_chunk_ids = []
+        for ref_info in affected_refs:
+            sec_id = _ref_to_section_id(ref_info['ref'])
+            if sec_id:
+                chunk_id = f"{base_filename}.xml_{sec_id}"
+                if chunk_id not in target_chunk_ids:
+                    target_chunk_ids.append(chunk_id)
+
+        # Build source chunk IDs (from affecting act)
+        affecting_class = effect.get('AffectingClass', '')
+        affecting_year = effect.get('AffectingYear', '')
+        affecting_number = effect.get('AffectingNumber', '')
+        affecting_prefix = _CLASS_TO_PREFIX.get(affecting_class, 'ukpga')
+        affecting_base = f"{affecting_prefix}_{affecting_year}_{affecting_number}"
+
+        source_chunk_ids = []
+        for ref_info in affecting_refs:
+            sec_id = _ref_to_section_id(ref_info['ref'])
+            if sec_id:
+                chunk_id = f"{affecting_base}.xml_{sec_id}"
+                if chunk_id not in source_chunk_ids:
+                    source_chunk_ids.append(chunk_id)
+
+        # ── Fallback text provisions (from attributes) ──
         affected_provisions = effect.get('AffectedProvisions', '')
         affecting_provisions = effect.get('AffectingProvisions', '')
 
-        # Build citations
+        # Build human-readable citations
         target_citation = affected_title
         if affected_provisions:
             target_citation += f" {affected_provisions}"
@@ -731,24 +847,43 @@ def parse_effects_xml(filepath: str) -> list[dict]:
         if affecting_provisions:
             source_citation += f" {affecting_provisions}"
 
-        # Extract in-force date from <ukm:InForceDates>/<ukm:InForce Date="..."/>
+        # ── Extract in-force dates ──
         effective_date = None
+        is_prospective = False
         in_force_dates = effect.find(_meta('InForceDates'))
         if in_force_dates is not None:
-            in_force = in_force_dates.find(_meta('InForce'))
-            if in_force is not None:
-                effective_date = in_force.get('Date')
+            for in_force in in_force_dates.iter(_meta('InForce')):
+                date = in_force.get('Date')
+                if date:
+                    effective_date = date
+                    break
+                if in_force.get('Prospective') == 'true':
+                    is_prospective = True
 
         triples.append({
-            "source_id": f"effects_{affecting_title}",
+            "effect_id": effect_id,
+            "action": action,
+            "effect_type_raw": effect_type,
+
+            # Target (affected legislation)
+            "target_act_name": affected_title,
+            "target_citation": target_citation.strip(),
+            "target_chunk_ids": target_chunk_ids,
+            "affected_uri": effect.get('AffectedURI', ''),
+
+            # Source (affecting legislation)
             "source_title": affecting_title,
             "source_section": affecting_provisions,
-            "action": action,
-            "target_citation": target_citation.strip(),
-            "target_act_name": affected_title,
-            "detail_text": f"{effect_type} by {source_citation}",
+            "source_chunk_ids": source_chunk_ids,
+            "affecting_uri": effect.get('AffectingURI', ''),
+
+            # Temporal
             "effective_date": effective_date,
-            "confidence": 1.0,  # Ground truth from API
+            "is_prospective": is_prospective,
+            "applied": effect.get('Applied', '') == 'true',
+
+            # Metadata
+            "confidence": 1.0,
             "provenance": "effects_api",
         })
 

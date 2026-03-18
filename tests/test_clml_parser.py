@@ -155,3 +155,116 @@ class TestTransportAct1980(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+# ═══════════════════════════════════════════════════
+# Effects / Amendments Parser Tests
+# ═══════════════════════════════════════════════════
+
+from utils.xml_parser import (
+    parse_effects_xml, load_effects_triples,
+    _ref_to_section_id, _extract_section_refs,
+)
+
+TRANSPORT_EFFECTS = os.path.join(PROJECT_ROOT, "data", "amendments", "ukpga_1980_34_effects.xml")
+FINANCE_EFFECTS = os.path.join(PROJECT_ROOT, "data", "amendments", "ukpga_2024_3_effects.xml")
+
+
+class TestRefToSectionId(unittest.TestCase):
+    """Test _ref_to_section_id helper."""
+
+    def test_simple_section(self):
+        self.assertEqual(_ref_to_section_id('section-47'), '47')
+
+    def test_section_with_letter(self):
+        self.assertEqual(_ref_to_section_id('section-52A-13'), '52A')
+
+    def test_section_subsection_stripped(self):
+        self.assertEqual(_ref_to_section_id('section-46-1'), '46')
+
+    def test_schedule_paragraph(self):
+        self.assertEqual(_ref_to_section_id('schedule-6-paragraph-10'), 'Schedule 6_10')
+
+    def test_bare_schedule(self):
+        self.assertEqual(_ref_to_section_id('schedule-4'), 'Schedule 4')
+
+    def test_part_returns_none(self):
+        self.assertIsNone(_ref_to_section_id('part-III'))
+
+    def test_article(self):
+        self.assertEqual(_ref_to_section_id('article-2'), 'article_2')
+
+    def test_empty_returns_none(self):
+        self.assertIsNone(_ref_to_section_id(''))
+        self.assertIsNone(_ref_to_section_id(None))
+
+
+@unittest.skipUnless(os.path.exists(TRANSPORT_EFFECTS), "Transport Act effects XML not available")
+class TestTransportEffects(unittest.TestCase):
+    """Test parse_effects_xml against Transport Act 1980 effects."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.effects = parse_effects_xml(TRANSPORT_EFFECTS)
+
+    def test_produces_effects(self):
+        self.assertGreater(len(self.effects), 10)
+
+    def test_output_schema(self):
+        required = [
+            'effect_id', 'action', 'target_act_name', 'target_citation',
+            'target_chunk_ids', 'source_title', 'source_chunk_ids',
+            'confidence', 'provenance',
+        ]
+        for e in self.effects:
+            for field in required:
+                self.assertIn(field, e, f"Missing field '{field}'")
+
+    def test_target_chunk_ids_format(self):
+        """Target chunk IDs should follow ukpga_YYYY_NN.xml_SECTION pattern."""
+        for e in self.effects:
+            for cid in e['target_chunk_ids']:
+                self.assertTrue(cid.startswith('ukpga_1980_34.xml_'),
+                              f"Bad target chunk ID: {cid}")
+
+    def test_repeals_have_chunk_ids(self):
+        """REPEALS effects should have target chunk IDs."""
+        repeals = [e for e in self.effects if e['action'] == 'REPEALS']
+        self.assertGreater(len(repeals), 0)
+        for r in repeals:
+            self.assertGreater(len(r['target_chunk_ids']), 0,
+                             f"REPEALS effect {r['effect_id']} missing target_chunk_ids")
+
+    def test_confidence_is_one(self):
+        for e in self.effects:
+            self.assertEqual(e['confidence'], 1.0)
+
+    def test_provenance(self):
+        for e in self.effects:
+            self.assertEqual(e['provenance'], 'effects_api')
+
+
+@unittest.skipUnless(
+    os.path.exists(os.path.join(PROJECT_ROOT, "data", "amendments")),
+    "Amendments directory not available"
+)
+class TestLoadAllEffects(unittest.TestCase):
+    """Integration test for load_effects_triples across all files."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.all_effects = load_effects_triples()
+
+    def test_produces_effects(self):
+        self.assertGreater(len(self.all_effects), 100)
+
+    def test_high_chunk_id_coverage(self):
+        """At least 90% of effects should have target_chunk_ids."""
+        with_ids = sum(1 for e in self.all_effects if e['target_chunk_ids'])
+        ratio = with_ids / len(self.all_effects)
+        self.assertGreater(ratio, 0.90,
+                          f"Only {ratio:.1%} of effects have target_chunk_ids")
+
+
+if __name__ == '__main__':
+    unittest.main()
