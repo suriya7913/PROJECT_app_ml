@@ -1,0 +1,2268 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2026/524"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2026/524"/>
+	  <FRBRdate date="2026-03-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="524"/>
+	  <FRBRname value="Philip Morris v Knights Professional Services Limited &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/524"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/524"/>
+	  <FRBRdate date="2026-03-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/524/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/524/data.xml"/>
+	  <FRBRdate date="2026-03-11T12:21:07" name="transform"/>
+	  <FRBRdate date="2026-03-11T12:57:51" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-chancery" href="https://www.gov.uk/courts-tribunals/chancery-division-of-the-high-court" showAs="The Chancery Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="philip-morris" href="" showAs="PHILIP MORRIS"/>
+	<TLCPerson eId="knights-professional-services-limited" href="" showAs="KNIGHTS PROFESSIONAL SERVICES LIMITED"/>
+	<TLCPerson eId="knights-solicitors-llp" href="" showAs="KNIGHTS SOLICITORS LLP"/>
+	<TLCPerson eId="knights-and-sons" href="" showAs="KNIGHTS AND SONS"/>
+	<TLCPerson eId="wilson-horne" href="" showAs="WILSON HORNE"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-hh-judge-davis-white-kc" href="/judge-hh-judge-davis-white-kc" showAs="HH JUDGE DAVIS-WHITE KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Chancery-Business</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>524</uk:number>
+	<uk:cite>[2026] EWHC 524 (Ch)</uk:cite>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>cbf7a2f5b2204c7cce43e79787073981df173ce9c7d0c5b5957b1b26b33afccf</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWHC 524 (Ch)</neutralCitation></p>
+      <p class="CoverText">Case No:BL-2022-NCL-000006</p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS AND PROPERTY COURTS IN NEWCASTLE</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS LIST (ChD)</span></p>
+      <p class="CoverText">Newcastle Civil &amp; Family Courts and Tribunals Centre, </p>
+      <p class="CoverText">Barras Bridge, </p>
+      <p class="CoverText">Newcastle upon Tyne NE1 8QF</p>
+      <p class="CoverText">Date: <docDate date="2026-03-11" refersTo="#judgment">11/03/2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-hh-judge-davis-white-kc" style="font-weight:bold">HH JUDGE DAVIS-WHITE KC</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">(SITTING AS A Judge of the Chancery Division)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#philip-morris" style="font-weight:bold">PHILIP MORRIS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#knights-professional-services-limited" style="font-weight:bold">KNIGHTS PROFESSIONAL SERVICES LIMITED</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#knights-solicitors-llp" style="font-weight:bold">KNIGHTS SOLICITORS LLP</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#knights-and-sons" style="font-weight:bold">KNIGHTS AND SONS</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(4)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#wilson-horne" style="font-weight:bold">WILSON HORNE</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr David Morris </span>(of Morris Law Limited) for the Claimant</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Benjamin Wood</span> (instructed by Reynolds Porter Chamberlain LLP (for the 1<span style="vertical-align:super;font-size:smaller">st</span> -3<span style="vertical-align:super;font-size:smaller">rd</span> Defendants and Clyde &amp; Co (for the 4<span style="vertical-align:super;font-size:smaller">th</span> Defendant)) for the Defendants</p>
+      <p style="text-align:center">Hearing dates: 4 November 2025 &amp; 26-27 January 2026</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30 am on 11 March 2026 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HH JUDGE DAVIS-WHITE KC (SITTING AS A JUDGE OF THE CHANCERY DIVISION)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Judge Davis-White KC :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have before me:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">An application by the Claimant by application notice issued on 01 August 2025 seeking an extension of time for filing and exchanging witness statements.  Further time is said to be required &#8220;<span style="font-style:italic">as there have been issues raised with the extended disclosure provided by the Claimant</span>&#8221; (the &#8220;1<span style="vertical-align:super;font-size:smaller">st</span> Application&#8221;).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">An application by the Claimant by application notice dated 28 October 2025 and issued on 31 October 2025 seeking relief from sanctions &#8220;<span style="font-style:italic">if it is deemed that the Claimant has not complied with an order for extended disclosure</span>&#8221;, the application notice asked that this be heard at the hearing of the 1<span style="vertical-align:super;font-size:smaller">st</span> Application, although issued less than three clear days before it, on the basis that there would be time to hear the same and that it was &#8220;<span style="font-style:italic">essentially a variation of the existing application</span>&#8221;. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The background to these applications is an order made by me on 8 April 2025 at the costs and case management stage of these proceedings (the &#8220;April Order&#8221;).  In particular, I made directions down to a 10 day trial to be listed in a trial window from 4 May 2026 to 4 October 2026.  The trial was subsequently listed to commence on 11 May 2026.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In circumstances that I will come on to explain, I made a series of default orders in the event that the Claimant failed to comply with particular provisions of my order.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One such order was that the Claimant was to give search based extended disclosure in Model D in accordance with the Disclosure Review Document approved by the Judge and was to take the steps in PD 57AD paragraph 12.1(1)-(3) by 4pm on 3 June 2025.  In default the claim was to be automatically struck out. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applications before me in effect turned on whether there had or had not been compliance by the Claimant with this order, if not what the consequences were and if the consequence was that the sanction of strike out that I had imposed applied, then whether the Claimant should be granted relief from sanctions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant was represented by Mr David Morris of Morris Law Limited (&#8220;Mr D. Morris&#8221;).  Mr Morris is the nephew of the Claimant.  In a judgment of HH Judge Kramer in these proceedings delivered on 5 October 2022, the Judge noted that there were indications from earlier stages of this litigation that Mr D. Morris was &#8220;out of his depth&#8221; and referred to there being a &#8220;question mark over&#8221; his competence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Shortly before the start of each day that <span style="font-family:'Times New Roman'">this hearing took place, the Claimant  provided more documents.  This was deeply unsatisfactory. As a matter of generality, Mr Wood, Counsel for the Defendants, described the Claimant&#8217;s  approach as one of &#8220;whac-a-mole&#8221;. Named after the arcade game in which </span><span style="font-family:'Times New Roman';color:#000000;background-color:#FBFBFB">imitation moles continuously pop up from different holes at random, and players attempt to hit them with a mallet, the meaning was one of </span><span style="font-family:'Times New Roman'">dealing with issues in a </span><span style="font-family:'Times New Roman';color:#000000;background-color:#FBFBFB">piecemeal or superficial manner, resulting merely in temporary or minor improvement, or to a situation in which problems continually or unpredictably arise (see generally the Oxford English Dictionary).</span>  In my judgment, there is some force in the description put forward by Mr Wood.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendants were represented by Mr Wood, instructed by Reynold Porter Chamberlain LLP (&#8220;RPC&#8221;) for the 1<span style="vertical-align:super;font-size:smaller">st</span>-3<span style="vertical-align:super;font-size:smaller">rd</span> Defendants and Clyde &amp; Co for the 4<span style="vertical-align:super;font-size:smaller">th</span> Defendant.  At previous hearings in these proceedings he had been instructed on behalf of the first three Defendants only.  As a cost saving exercise, on this occasion he also represented the Fourth Defendant.  I am grateful to him and his solicitors for keeping the hearing bundle up to date as documents kept flowing in, in some cases in response to requests from me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To understand the disclosure that was ordered in this case and the development of these proceedings, I need to explain the background to the proceedings and then say something about the course of these proceedings.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Background to the proceedings  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings are professional negligence proceedings brought against a firm of solicitors, and its successor firms (collectively &#8220;Knights&#8221;), and Counsel. The claims involve complaints about the conduct of Knights in advising in and about a share sale agreement to which the Claimant was party as vendor, and then in unsuccessful litigation seeking to enforce that agreement in the terms that the Claimant understood it to have been agreed (the &#8220;SPA Litigation&#8221;).  The Fourth Defendant is brought into the proceedings as having advised and acted in the SPA Litigation.  The share sale agreement concerned shares in a company which ran a care home business.  The Claimant, Mr Philip Morris (&#8220;Mr Philip Morris&#8221; or the &#8220;Claimant&#8221;), is a qualified solicitor. He is also a director of Morris Law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I take the following from a judgment of Dame Elizabeth Gloster on an appeal against the decision of HHJ Bird in the SPA Litigation, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/2763" uk:canonical="[2018] EWCA Civ 2763" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 2763</ref>:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in">[3]  On 9 November 2006, the claimant and his business partner, Christine Smith, sold their shares in the capital of Glenpath Holdings Limited (defined in the SPA as &#8220;the Company&#8221;) to the defendant [Swanton Care &amp; Community Ltd (&#8220;SCC&#8221;)] for an initial consideration of &#163;16,077,842 subject to certain adjustments, and a deferred consideration through an earn-out provision. The Company provided residential care for autistic men and women. The terms of the agreement were set out in the SPA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in">[4] Christine Smith was unwell at the time the Agreement was entered into and has since died. Her estate has played no part in the proceedings.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SPA provided for an &#8220;Initial Consideration&#8221; of just over &#163;16 million and an &#8220;Earn Out&#8221; consideration. The former was to be shared between the Claimant and Ms Smith.  The Earn Out consideration was to be paid solely to the Claimant and was set out in Schedule 5 of the SPA.  In broad terms, the Claimant was given the option for a 4 year period &#8220;and following such period as shall reasonably be agreed between [the Claimant] and the Buyer to provide the following services&#8221;.     The services in question included identifying up to seven suitable new properties from which to conduct similar services to those of the Group Companies, being companies associated with the buyer, SCC, in order to provide up to 35 new beds in total, to oversee development of such properties and to use all reasonable endeavours to fill such places for residents.   The Claimant was then to be paid a sum as equates to one year&#8217;s fees for each individual placement taken up at the new properties (subject to the placement having lasted a certain period).  At the same time, the Claimant and SCC entered into a side letter also dated 9 November 2006 (the &#8220;Side Letter&#8221;).  In summary, the Side Letter described the Earn-Out consideration as being in the nature of deferred consideration and contained tax gross-up and other set-off provisions depending upon the treatment of the consideration by HM Revenue &amp; Customs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of the initial four year period referred to in Earn Out provisions, the Claimant was paid Earn-Out Consideration of just over &#163;4 million.  Towards the end of the 4 year period, the Claimant asked for a reasonable extension to the initial 4-year period. This was refused. The Claimant, advised by Knights and the 4<span style="vertical-align:super;font-size:smaller">th</span> Defendant, commenced the SPA Litigation against SCC. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial took place before HH Judge Bird in what was then the Mercantile Court sitting in Manchester (now the Circuit Commercial Court, part of the Business and Property Courts).  His decision was handed down on 24 March 2017 and was summarised by Dame Elizabeth Gloster, in the appeal against his decision which I have referred to, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p style="margin-left:0.79in">&#8220;[11]  In summary, the judge found that, whilst the claimant had an enforceable right to provide the Consultancy Services during the initial 4-year period, he did not have an enforceable right to provide the Consultancy Services during any further period to be reasonably agreed between the claimant and the defendant. In so holding, the judge took the view:</p>
+		  </intro>
+		  <subparagraph>
+		    <num>i)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in">that the SPA imposed an obligation on the parties to agree on the length of the second period in a reasonable way (see [69]);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>ii)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in">but that this obligation was not enforceable because the agreement was effectively an agreement to agree and there was no mechanism set out in the SPA to enable the court to reach a conclusion as to the length of the second period in the SPA or objective standard that the court could resort to in order to determine the length of the further period (see generally [70] &#8211; [80]).&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant appealed the decision of HHJ Bird, as I have indicated. The appeal was heard by Dame Elizabeth Gloster and the then Chancellor of the High Court, Sir Geoffrey Vos.  On the appeal, the Claimant was represented by Mr Choo-Choy QC (now KC) instructed by Morris Law rather than by the 4<span style="vertical-align:super;font-size:smaller">th</span> Defendant instructed by Knights.  The appeal was dismissed and judgments handed down on 11 December 2018.  In summary:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.89in">&#8220;[26]  Despite Mr Choo-Choy&#8217;s careful and detailed arguments, I have no doubt that, on their true construction, the relevant provisions of paragraph 1.1 of Schedule 5 amount to an agreement to agree in relation to the further period after the agreed 4 years and are consequently unenforceable. It follows that I agree with the judge&#8217;s conclusion and would dismiss this appeal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">These proceedings: procedural course </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I take the following from a judgment of HH Judge Kramer handed down in these proceedings, following a hearing in July 2022, on 5 October 2022 (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2022/3679" uk:canonical="[2022] EWHC 3679 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 3679 (Ch)</ref>):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;[13]  The claim form in the current claim was issued by the County Court Money Claims Centre on 4 November 2019, though it was delivered to the court on 25 October 2019&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:TimesNewRomanPSMT">[17]  &#8230;The Claim Form, together with a Particulars of Claim, was served on 3 March 2020. On 13 March 2020, a Deputy District Judge at the Centre made an order staying the claim until 4 June 2020 to enable the parties to comply with the pre-action protocol for professional negligence; the claimant&#8217;s application to stay was made without notice.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">[18]</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman'">There was a further order made by consent of all parties. The order appears to have been finalised by the parties on 8 June 2020 but was not issued until 29 December 2020. The order provides, insofar as it is material:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">&#8220;1.</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman'">The Claimant to serve a fully particularised Letter of Claim on the Defendants by 25 June 2020.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">2.</num>
+	    <content>
+	      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman'">The matter is stayed for a further period of 6 months until 04/12/2020 to enable the parties to comply with the Pre Action Protocol for Professional Negligence Claims.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-family:TimesNewRomanPSMT">[19]  The claimant sent letters of claim to the first three defendants and to the fourth defendant on 24 and 25 June 2020 respectively. RPC, solicitors for the first three defendants, wrote to the claimant&#8217;s solicitor on 15 July 2020, asking for key documents, under the pre-action protocol, and his case on date of knowledge. Chasing emails were sent on 3 and 23 September. Mr D Morris, responded on 13 October 2020 apologising for the delay, explaining that he was out of the office due to local lock down restrictions and would send a substantive response that week.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-family:TimesNewRomanPSMT">[20]  After further chasing correspondence from RPC on 23 October and 11 November, Mr D Morris replied, on 31 December 2020, that the date of knowledge started with HHJ Bird&#8217;s judgment. He said that Knights had the key documents as they drafted the SPA and conducted the litigation. He also said that he had applied to amend the Particulars of Claim to correct typographical errors. He said that the fourth defendant had asked for copies of any documents in which Knights had advised on the merits of the action. He indicated that he did not wish to misrepresent matters to the fourth defendant but the electronic file he had been sent was difficult to follow. He asked if he could send copies of emails from Knights to his client. RPC&#8217;s response, on 7 January 2021, was that it was up to the claimant what he disclosed to the fourth defendant. They criticised Mr D Morris for failing to provide a copy of the judgment of the Court of Appeal in the claim against the buyer, notwithstanding that it was available on BAILII, and complained that, by way of example, they could not answer the allegations that their defendants had failed to identify or advise on a conflict of interest without details as to how the conflict is said to have arisen and how it was said the advice on the litigation fell below the standard of the reasonably competent lawyer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p style="margin-left:0.79in"><span style="font-family:TimesNewRomanPSMT">[21]   On 22 January 2021 Mr Preece, for the fourth defendant, emailed Mr D Morris to say he had discussed the case with RPC and they thought it sensible to seek a further 6 month stay. He said that he was awaiting documents from the claimant, but even if they were received, there would not be sufficient time to prepare defences. RPC also emailed the claimant&#8217;s solicitor requesting agreement to the consent order, including the stay. Mr D Morris agreed to the order. He wrote to RPC on 25 January repeating that he had been asked by the fourth defendant for a copy of all advice given by Knights and that he did not want to misrepresent their defendants&#8217; position and requesting from them copies of all emails/letter/telephone attendances and physical attendances, limited to advice on the claim. The parties agreed to a further consent order on 25 January 2021. This gave the claimant permission to amend the Particulars of Claim. It also stayed the claim to 25 July 2021 and included the following paragraph:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">3.The Claimant provide clarification of the claim and documents requested by the Defendants by no later than 22 February 2021.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman'">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.78in"><span style="font-family:'Times New Roman'">[22] On 27 January 2021 RPC wrote to Mr D Morris responding to his email of 25 January. They said they had already dealt with his request for documents in saying that it was up to him what he disclosed to the fourth defendant. They said they were waiting for a substantive response to their letter of 7 January, their letter of 15 July 2020 and a copy of the judgment of the Court of Appeal. They added that they could not provide their client&#8217;s letter of response until they had this information. In fact, they had received a substantive response to the request for the case on limitation and for documents on 31 December 2020, albeit they did not accept that this was adequate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.78in;text-indent:0in"><span style="font-family:'Times New Roman'">[23]  On 28 March 2021, Mr D Morris sent Clyde &amp; Co the one attendance note he had of the advice given by the fourth defendant. On 17 May 2021 RPC wrote to Mr D Morris complaining that without the information they had requested they could not produce a letter of response and stated that he had done nothing to advance the claim since issue. They wrote again on 27 July 2021 pointing out they had not received a reply. They complained of warehousing and identified what, they said, were deficiencies with the claim. Mr D Morris responded by email on 10 August 2021 to RPC and Clyde &amp; Co, where he set out, in bullet points, his arguments on limitation and, to a limited extent, negligence, both as to the drafting of the SPA and the advice received as to the merits of the litigation. By a separate email the same day to all defendants, he indicated that there had been a letter of claim which set out detailed examples of negligence. The claim had been stayed to comply with the Protocol and to enable the defendants to investigate and there were further stays to explore settlement and ADR. He said that the claim had not been warehoused and would not be discontinued.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.78in;text-indent:0in"><span style="font-family:'Times New Roman'">[24]  There was further correspondence between Mr D Morris and Clyde &amp; Co in which the latter were saying that they could not respond to the claim without more documents and the former was saying that enough information had been supplied for the fourth defendant to respond. He did, however, say that he would provide a core bundle of documents after the August 2021 bank holiday. In the event, he sent to the fourth defendant and other defendants on 7 and 15 October 2021, respectively, a large bundle of documents, made up of an indexed version of the first three defendants&#8217; files. By then, however, the first to third defendants had issued their application to strike out of 16 September 2021.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.78in;text-indent:0in"><span style="font-family:'Times New Roman'">[25]  Mr D Morris has sought to explain some of the delay in his second statement. He says that the files originally provided by Knights, for the purposes of pursuing the appeal, on 24 April 2017 were extremely disorderly. He said that they comprised a thousand individual pdfs in no logical sequence and that it was incomplete, in that it only contained the one note relating to a conference with counsel. The claimant had no relevant documents which Knights did not also have, which is the point he was making in response to the request for key documents. On 16 March 2022, RPC sent him a schedule listing 125 documents, which included attendance notes that had not previously been provided and 3 further records of conferences with counsel, together with 27 documents withheld on the grounds of privilege. Mr D Morris said that it was difficult to extract information due to shortcomings with the schedule and the identification of documents. These deficiencies resulted in him having to open and print off 89 pdf files and re-order the documents into 2 lever arch files. He did not explain why he had not replied to correspondence.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">HH Judge Kramer, in his judgment of 05 October 2022, dealt with:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.04in;text-indent:0.12in">An application dated 16 September 2021 by the First to Third Defendants for summary judgment or to strike out the claim against them;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.04in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.04in;text-indent:0.12in">A reverse application by the Claimant dated 28 February 2022, seeking summary judgment and to re-amend the Particulars of Claim.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application to strike out was based upon allegations of breach of the order dated 25 January 2021 and an allegation of abuse of the court&#8217;s process on the basis that the claim had been &#8220;warehoused&#8221;, that is started with no intention of bringing it to a conclusion or, having commenced proceedings, instead of continuing in accordance with the rules, seeking to do so at the Claimant&#8217;s  convenience, (see <span style="font-style:italic">Alfozan v Quastel Midgen LLP</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2022/66" uk:canonical="[2022] EWHC 66 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 66 (Comm)</ref> as relied upon before the Judge).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge rejected the application to strike out.  As regards non-compliance with the order of 25 January 2021 he said as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;[21]   There should have been compliance with the order by 22 February 2021. The claimant accepts that he is in breach and Mr Butler apologised on his behalf. I am not going to strike out for these reasons. The claimant says that he has since given as much disclosure as he is able. This is not a case in which he was seeking to withhold information from the first to third defendants as, on the evidence, he only had copies of documents held by those defendants. The breach of the order did not create the risk that there would not be a fair trial. The order was not a peremptory one. It would not be proportionate to deprive the claimant of his convention right to access to the court to determine his dispute and a fair trial when the court has powers short of striking out to enforce compliance with the order. The solicitor defendants have sufficient information to investigate the claim; indeed, in my view, they had such information at the time the order was made, a matter I shall deal with when considering warehousing. Even if it was necessary to make some order at this stage to enforce compliance, it would need to be in very much more defined terms than the January 2021 order so that it was sufficiently clear what the claimant was required to do so that the court could judge whether he had fallen short.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the warehousing claim, the Judge considered, on balance, that he was satisfied that the claim was issued with no intention of pursuing the claim in accordance with the rules of court but at the Claimant&#8217;s convenience and that in consequence there was an abuse of process (see paragraph [56]). Having looked at the detail he said the following by way of broad summary:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in">&#8220;[54]   <span style="font-family:'Times New Roman'">The overall impression of Mr D Morris&#8217;s behaviour is that</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">he did not actively progress the proceedings until prompted to do so when some action became essential as a stay was about to expire, save in relation to the provision of the note of conference to Clyde &amp; Co, but by that stage he was subject to the January consent order, and even then, there was late compliance. The cumulative delay from service to the issue of the application to strike out is 16 months. Neither the claimant nor Mr D Morris has explained the claimant&#8217;s inactivity during this time. The laggardly way in which this case has been prosecuted could give rise to an inference of warehousing</span><span style="font-family:NotoSans-Regular;font-size:14pt">.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in"><span style="font-family:'Times New Roman'">[56]  Looking at these factors in the round, what is striking is</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">the minimal effort the claimant, through Mr D Morris, has been prepared to devote to what, he says, is a valuable claim and one which is potentially complex. The claim seems to have been run at minimal cost, evidenced by the lack of activity and the production of an in-house, defective pleading. It has the hallmark of a case issued in the hope that the other parties will come to the table and settle if the claim grinds on long enough. Such an intention is not in conflict with the motive articulated by Mr Butler or Mr D Morris&#8217;s threat to seek a lifting of the stay if the parties did not engage in mediation. Accordingly, on balance, I am persuaded that Mr Morris issued this claim with no intention of pursuing the claim in accordance with the rules of court but his intention was to do so at his convenience and, in consequence, he is guilty of an abuse of process.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, he went on to decide that, as a matter of discretion, the claim should not be struck out. In particular, and among other factors, he considered that the court&#8217;s wide ranging powers to manage the case to ensure that henceforth it is prosecuted in accordance with the rules, including the aims of the overriding objective:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8220; [63]&#8230;.<span style="font-family:'Times New Roman'">The power to issue peremptory orders should be sufficient to ensure that if there is any further failure to comply with rules or orders, the case will proceed no further&#8230;.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He then went on to consider the Third Defendant&#8217;s claim for summary judgment based on a limitation argument.  In brief, the Claimant accepted that he suffered damage on 09 November 2006 when he entered into the SPA without an enforceable extension to the earn out provision. The primary limitation period had expired by the time of the issue of the proceedings. The Claimant, in respect of this aspect of his claim, therefore had to rely upon <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/14" uk:canonical="1980 c. 58 s. 14" uk:origin="TNA" uk:type="legislation">s14</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref>.  As regards that, the Claimant said that his knowledge was within the 3 year period prior to delivery of his claim form to the court, namely when HHJ Bird handed down his judgment on 24 March 2017. The Judge decided that he was not satisfied that the Claimant had no reasonable prospect of proving that his date of knowledge was that upon which judgment was given against him in the proceedings against the buyer, SCC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Claimant&#8217;s case for summary judgment was based upon submissions that the Third Defendant had not provided detail of the circumstances rebutting a presumption of negligence if a solicitor drafts a contract in such a way that it is unenforceable and that there was an unassailable case on limitation. The Judge decided that he was not satisfied that the Third Defendant had no realistic prospect of defending the claim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Finally, the Judge turned to the first and second defendant&#8217;s application to strike out of lack of coherence and the adequacy of the pleading and the Claimant&#8217;s application to amend. As regards that the Judge struck out certain paragraphs and refused permission to amend certain paragraphs but then adjourned the application to allow for a proposed re-amended draft.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In due course, an order was made on 29 September 2023 permitting a re-amended draft (after further opposition and further hearings).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The current pleaded case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because it is relevant to the issues of disclosure which have been raised before me, I briefly outline the claims that are now articulated without fully setting out each and every issue that arises.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As against the First Defendant, the claim is one in the tort of negligence in failing to exercise reasonable care and skill in the negotiation and drafting of the SPA, in not drafting the earn out provision in a manner that was enforceable. It is said that neither the Claimant nor SCC wanted an unenforceable agreement and there was an alternative interested buyer, so the likelihood is that if the provisions regarding an extension to the relevant 4 year period had been drafted in a way that was enforceable, SCC would have agreed to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The defences include limitation and that there was no real or substantial chance of SCC agreeing to a relevant period of more than 4 years.  Causation and loss (and also breach of duty) are denied on this basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As against the Second Defendant, the claim is for a breach of the duty of care in tort in not advising of a potential conflict of interest; not advising regarding limitation periods and the need to take independent advice sooner rather than later; not advising that, as regards the extension to the relevant 4 year period, the provisions of the SPA were unenforceable, alternatively there was a substantial risk that they would held to be so and giving overly robust advice on the prospects of success of a claim to enforce the same; not advising of the need to protect against the risk of the First Defendant relying upon limitation; grossly underestimating the Claimant&#8217;s exposure to costs as regards the proceedings against SCC and causing the Claimant to embark on that litigation without having in place proper protection against adverse costs orders, namely ATE insurance, and raising that possibility late at a time by which the premium was prohibitively high and would not provide cover extending to the substantial costs already incurred by SCC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the Third Defendant, the claim in contract and tort is that the Third Defendant was in breach of the relevant duties of care and skill in not advising of a conflict of interest; not advising of the need to take advice speedily given the limitation position regarding claims against the First Defendant; failing to advise that the agreement regarding extension to the relevant 4 year period was unenforceable or that there was a substantial risk that it would be held to be so and instead giving overly robust advice on the prospects of success of a claim to enforce the extension; failing to advise the Claimant to accept an offer made in October 2016; causing the Claimant to continue with the proceedings against SCC without having in place ATE insurance; advising the Claimant to do a deal with SCC on increasing costs budgets.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the Second and Third Defendants, the defences are that it was not clear and obvious that there had been any breach of duty by the First Defendant such as to give rise to a conflict of interest; that advice as to time limits for claims against the First Defendant did not need to be given; the advice regarding the prospect of success against SCC and the settlement offer in October 2016 was not negligent and was given in reliance on advice from the Fourth Defendant; that regular and adequate costs estimates were give and the Claimant was aware of the risks of adverse costs orders; that the Second and Third Defendants advised and acted appropriately regarding ATE and increases in costs budgets.     Causation is also denied as is loss and contributory negligence is also relied upon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the Fourth Defendant, the claim is for breach of the duty in tort to exercise reasonable care and skill. Again, in broad terms, the breaches alleged are a failure to advise on 14 January 2014 (or subsequently) that there was merit in SCC&#8217;s argument that the relevant part of the SPA was an unenforceable agreement to agree and that as a consequence, (a) independent advice should be sought as to the continued role of the Second Defendant; (b) there might be a claim against the First Defendant; (c) the First Defendant might have a limitation defence (and various consequential matters should have been advised); and finally the giving throughout of inappropriately robust advice as to the success of the proceedings against SCC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The summary of the Fourth Defendant&#8217;s defence is that he acted in a reasonably competent manner at all material times, he did not cause the Claimant to lose the ability to pursue any claim in respect of the drafting of the SPA and did not cause the Claimant to pursue litigation which he would not otherwise have pursued.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The course of the proceedings after the judgments of HH Judge Kramer</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judgment of HH Judge Kramer that I have referred to was the subject of an application for permission to appeal by the First to Third Defendants. Permission was refused by Arnold LJ by order dated 23 February 2023.  The basis of his decision was that the challenge was to an exercise of discretion and there was no error in terms of the law applied nor any error in terms of principle that could be said to have a real prospect of success.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should also note that Arnold LJ referred to the Judge having given &#8220;cogent reasons for finding&#8221; that the [Claimant&#8217;s] solicitor was &#8220;out of his depth&#8221; but that it was &#8220;arguable that the Judge was in error in concluding that the [Claimant] was guilty of abuse of process.&#8221; As I read it, Arnold LJ was indicating that it might be the proper inference from the facts that there had not been an abuse of the court&#8217;s process in terms of warehousing, but simply one of incompetence on the part of the Claimant&#8217;s solicitor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s application to re-amend the Particulars of Claim was adjourned on 1 July 2022, 5 October 2022 and 9 November 2022. Various versions of the Re-Amended Particulars of Claim were produced prior to 29 September 2023 when HHJ Kramer made an order giving permission to re-amend in the then latest form. He gave further directions leading to a CCMC which he directed should be held on the next available date after 5 February 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The CCMC was listed for 10 April 2024 but by consent, and to enable ADR to be explored, adjourned by order dated 26 January 2024 to the first available date after 17 July 2024 and, by order of the court&#8217;s own motion made at the same time, to 24 July 2024.  Directions were given of the court&#8217;s own motion to make the CCMC efficient. Included among those directions were obligations on the Claimant to prepare various documents with a view to them being agreed (a draft case summary and statement of issues; a draft chronology and draft directions as well as an electronic hearing bundle).   No application was made to set aside or vary those directions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By consent order dated 27 June 2024, the proceedings were stayed until 1 November 2024 to enable ADR to be explored. Of the court&#8217;s own motion, the CCMC was directed to take place on the first available date after 14 November 2024 and the parties were to lodge dates of availability for the window from 14 November 2024 to 14 January 2025. Detailed directions for the purposes of the CCMC were set out in the order.  The CCMC was in due course set for 7 January 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By order dated 9 November 2024, the stay was extended, by consent, to 3 March 2025 and the CCMC was re-listed for 08 April 2025. By 7 March 2025 no progress had been made in finding dates when a mediation could take place. Frustration at the failure of the Claimant to provide dates for a mediation had been voiced in correspondence both from RPC and Clyde &amp; Co. By way of example:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">By email dated 17 December 2014, RPC wrote to Mr David Morris saying:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:'Times New Roman'">&#8220; It is unclear why it is taking your client so long to provide dates of availability for the mediation. Does he still intend to mediate? If not, please explain why.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">By email dated 16 January 2025, Clyde &amp; Co wrote to Morris Law saying:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.39in;text-indent:0.39in"><span style="font-family:'Times New Roman'">&#8220;We are going round in circles, frankly.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">With respect the issue has always been that we await suitable dates from you which work for your client.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">Please can you now provide dates when your client can mediate from mid February to the end March. We can then see if either suggested mediator is available on those dates (such as work for RPC/ourselves) and if not, I am sure we can agree an alternative mediator who is available on a mutually convenient date.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have said, the CCMC was due to take place on 08 April 2025.  By email dated 07 March 2025, Clyde &amp; Co, having pointed out that no progress had been made in respect of arranging a mediation and that their email of 16 January 2025 was still unanswered, sought to reach agreement as to the revised dates by which the former directions for a CCMC, contained in the order dated 26 January 2024, should be met.  By 12 March 2025, as shown by an email of that date, the timetable for directions was agreed as between RPC and Clyde &amp; Co, subject to any comments from the Claimant.  As I understand it there were none.  Thereafter the Defendants&#8217; solicitors proceeded on the basis that the timetable for steps to be taken before the CCMC applied but with the dates as agreed between them by 12 March 2025 and to which Morris Law had not demurred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 26 March 2025, Clyde &amp; Co pointed out that the Claimant&#8217;s cost budget was a day late and that, while they did not object, an application for relief from sanctions would seem to be needed. Further, by the day before (25 March) the Claimant was supposed to have served drafts of a case summary and list of issues, a draft chronology and draft directions suggested to be made at the CCMC with a view to agreement on them being reached by 28 March. The email sought confirmation as to when these draft documents would be sent to the other parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s precedent R discussion reports on the Defendants&#8217; costs budgets were sent by email on 28 March 2025. However, as Clyde &amp; Co pointed out in an email of that date, their email of 26 March had not been answered and the deadline for agreeing the CCMC hearing bundle had passed, being 27 March 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 28 March 2025, RPC agreed with Clyde &amp; Co&#8217;s comments regarding CCMC preparation and asked that all outstanding bundle documents be addressed by Morris Law as a matter of urgency.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 01 April 2025, Clyde &amp; Co pointed out that the paginated and electronic CCMC bundle was due to be served that day and asked for provision of draft CCMC documents (including draft directions) by no later than 12pm that day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 02 April 2025, Clyde &amp; Co wrote again complaining that non- compliance with the directions made was prejudicing their and their counsel&#8217;s preparation for the CCMC.  The bundle was supposed to have been served days before and yet not only was there no bundle there had not even been circulation of an index for the hearing bundle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 03 April 2025, Clyde &amp; Co took matters into their own hands and circulated a draft bundle index and asked for Mr D. Morris&#8217; comments by 12 noon on 4 April absent which they said that they would lodge an agreed Defendants&#8217; bundle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 4 April 2025, Clyde &amp; Co sent to Mr D. Morris a revised CCMC bundle index, proposed directions (as agreed between the Defendants) and a case summary (as agreed between the Defendants) and sought comments on the documents sent by return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At last by email dated 4 April 2025, sent just after midday, Mr Morris attached a chronology, a bundle index, revised proposed directions, a disclosure report form and said that he could agree the Defendants&#8217; case summary. He said that he was in the process of revising his Precedent H document regarding costs. As I go onto explain later in this judgment, this approach of reacting at the last minute continued in the course of the applications that I am currently dealing with.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The CCMC</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the CCMC on 8 April 2025, I made a series of directions down to trial.  These included, among others, the following relating to Disclosure:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in">&#8220; <span style="font-weight:bold;font-family:TimesNewRomanPS-BoldMT">Disclosure</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">6.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">This claim is to be treated as a Less Complex Claim for the purposes of Practice Direction 57AD.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">7.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">The Claimant only shall give search-based Extended Disclosure in Model D in accordance with the LCC DRD approved by the Judge, and shall take the steps in Practice Direction 57A paragraph 12.1(1) to (3) by 4pm on 3 June 2025.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">8.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">An updated copy of the LCC DRD is to be filed and served by the Claimant by 4pm on 15 April 2025.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">9.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">The issues for disclosure may be revised and/or supplemented by agreement between the parties subject to the approval of the Court. Within 7 days of any agreement the Claimant shall file a draft Consent Order providing for the modification to take effect, accompanied by a revised LCC DRD reflecting the modifications.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Order was sealed on 22 April 2025. By that time Mr David Morris had filed with the court the agreed updated and approved DRD dated 15 April 2025. Amongst the issues identified were the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;Disclosure Review Document for Extended Disclosure in Less Complex Claims</p>
+		    <table class="TableGrid" uk:widths="0.28in 0.99in 1.38in 0.78in 1.68in 0.79in">
+		      <tr>
+			<td rowspan="4">
+			  <p class="ParaLevel1"><span style="font-weight:bold">1.</span></p>
+			</td>
+			<td rowspan="4">
+			  <p class="ParaLevel1"><span style="font-weight:bold">Issues for Disclosure and disclosure model proposals</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1"><span style="font-weight:bold">Issue for Disclosure</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1"><span style="font-weight:bold">Proposed Disclosure Models</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1"><span style="font-weight:bold">Issue agreed?</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1"><span style="font-weight:bold">Model agreed?</span></p>
+			</td>
+		      </tr>
+		      <tr>
+			<td>
+			  <p><span style="font-size:11.5pt">2. Advice C received from other</span></p>
+			  <p><span style="font-size:11.5pt">professionals, including accountants and</span></p>
+			  <p><span style="font-size:11.5pt">corporate financiers in relation to a/the SPA a/the transaction</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Claimant Model D</p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Yes, although it was SCC who took tax advice and not the Claimant</p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Yes</p>
+			</td>
+		      </tr>
+		      <tr>
+			<td>
+			  <p><span style="font-size:11.5pt">3. Advice C received in respect of the tax planning and tax consequences of the sale</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Claimant Model D</p>
+			</td>
+			<td>
+			  <p><span style="font-size:11.5pt">Yes, although the</span></p>
+			  <p><span style="font-size:11.5pt">tax advice was</span></p>
+			  <p><span style="font-size:11.5pt">taken by SCC and not the Claimant</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Yes</p>
+			</td>
+		      </tr>
+		      <tr>
+			<td>
+			  <p><span style="font-size:11.5pt">7. Quantification: documents evidencing:</span></p>
+			  <p><span style="font-size:11.5pt">a) Alleged loss of Earn-Out-Consideration on</span></p>
+			  <p><span style="font-size:11.5pt">Claimant's counter-factual;</span></p>
+			  <p><span style="font-size:11.5pt">b) Loss of opportunity to advance claim</span></p>
+			  <p><span style="font-size:11.5pt">against D1;</span></p>
+			  <p><span style="font-size:11.5pt">c) Adverse costs of SCC litigation;</span></p>
+			  <p><span style="font-size:11.5pt">d) Own costs of SCC litigation; and</span></p>
+			  <p><span style="font-size:11.5pt">e) Costs of the failed appeal</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Claimant Model D</p>
+			</td>
+			<td>
+			  <p><span style="font-size:11.5pt">Yes</span></p>
+			  <p><span style="font-size:11.5pt">a) Yes</span></p>
+			  <p><span style="font-size:11.5pt">b) Yes</span></p>
+			  <p><span style="font-size:11.5pt">c) Yes</span></p>
+			  <p><span style="font-size:11.5pt">d) Yes</span></p>
+			  <p><span style="font-size:11.5pt">e) Yes</span></p>
+			</td>
+			<td>
+			  <p class="ParaLevel1">Yes</p>
+			</td>
+		      </tr>
+		    </table>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Order of 08 April 2025 also included provisions regarding witness statements, key among them were:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">CPR PD57AC (Trial witness statements in the Business and Property Courts) shall apply to this claim.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">Each party shall serve on every other party witness statements (complying with the provisions of Practice Direction 57AC) setting out the evidence which the party serving the statement intends to rely on in relation to any issues of fact and any notices of intention to rely on hearsay evidence to be tendered for exchange by 4.00pm on 1 August 2025.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">12.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">Before witness statements are served, the parties shall liaise with a view to agreeing a method of identification of any documents referred to in the witness statements and the preparation of a core bundle of key documents for the witnesses&#8217; use.&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">13.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">Oral evidence will not be permitted at trial from a witness whose statement has not been served or has been served late, except with permission from the Court.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The unless order was contained in paragraph 5:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in">&#8220; <span style="font-weight:bold;font-family:TimesNewRomanPS-BoldMT">Unless Order</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:TimesNewRomanPSMT">5.</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:TimesNewRomanPSMT">Unless the Claimant complies with his obligations at paragraphs 7 (disclosure), 17 (chronology and list of common ground and issues), 26 (PTR bundle), 28 (PTR skeleton), 32 (trial bundle index), 34 (trial bundle service), 35 (trial bundle filing) and 36 (trial skeleton) of this order (by the time stated in those paragraphs or by any time as may be varied by further order or by  written agreement amongst the parties, provided that such agreement is reached prior to any deadline), the claim shall be immediately and automatically be struck out and the Claimant shall pay the Defendants&#8217; costs of the claim to be assessed if not agreed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:TimesNewRomanPSMT">After the CCMC</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 03 June 2025, Mr D. Morris sent the other solicitors an email referring to &#8220;an enclosed Disclosure certificate and link to the documents in support by way of service&#8221;. This was the last possible day for compliance with the order of 08 April 2025.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">18 June 2025: Defendants raise concerns regarding Claimant&#8217;s extended disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By letter dated 18 June 2025, RPC (on behalf of all Defendants) wrote to Morris Law regarding the extended disclosure that the Claimant had purported to give. The letter started by noting that no prior permission to serve disclosure by email had been requested or agreed.   The letter went on to refer to the unsatisfactory manner in which agreement on the DRD had been reached, set out the direction that had been made for Extended Disclosure by the Claimant and set out various relevant provisions of CPR PD57AD.  For present purposes, I need only focus on those matters raised that were issues on which I was addressed on the current applications.  In respect of the vast majority, a repeated question raised was whether proper searches had been carried out.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.89in;text-indent:-0.39in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Disclosure issue 1 related to the Claimant&#8217;s relationship with Ms Smith, the importance and urgency of completing a sale of the business due to her illness and any communications with her relating to a sale. A point was raised about the fact that only one document had been disclosed in relation to this issue.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.89in;text-indent:-0.39in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Disclosure Issue 2 on the DRD related to advice received by the Claimant from other professionals, including accountants and corporate financiers in relation to the SPA and the transaction.  The 18 June 2025 letter indicated that an invoice from Bates Weston (&#8220;BW&#8221;) had been disclosed addressed to the Claimant and Ms Smith in the sum of &#163;332,000 plus VAT for &#8220;Work done in accordance with our engagement letter dated 31 March 2006 as detailed in the attached fee schedule&#8221;. In the Claimant&#8217;s Reply, it was admitted that BW were instructed as selling agent for the business. RPC asserted that the inference to be made was that some sort of advice/assistance had been given to the Claimant and Ms Smith in relation to the SPA/sale.  However, neither the fee schedule nor the engagement letter had been disclosed. Nor had it been explained (if that was the case) why the documents were not capable of being disclosed (in accordance with paragraph 12.3 PD 57AD which expands upon this requirement). The only disclosure was said to have been the invoice front page and an Information Memorandum prospectus but, said RPC, it seemed unlikely there was no written advice or other written communication provided to the Claimant in light of the significant fees billed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.89in;text-indent:-0.39in">(3)</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Disclosure Issue 3 on the DRD related to advice received by the Claimant in respect of the tax planning and tax consequences of the sale.  RPC noted that the DRD also contained the comment that tax advice had been taken by SCC and not the Claimant.  However, they pointed out that an email dated 01 November 2006 from a Tobi Gowers [of SCC] to the Claimant referring to a draft clearance letter that KPMG were drafting to be sent to the Revenue and saying that the draft should be with them the following day and that &#8220;I will obviously liaise with you in terms of the particulars to be entered in the letter&#8221;.  RPC inferred that the Claimant was involved with the process of producing and reviewing drafts of the clearance letter regarding how he would be taxed as a result of income he would receive under the earnout.  RPC asked if a proper search had been carried out. I note here that the email from Mr Gowers that I have referred to formed part of a chain.  The first was dated 31 October 2006 and was from Mr Gowers discussing with Mr Morris and mentioning taper relief.  This was replied to by the Claimant by email dated 1 November 2006 in which he said he would &#8220;run it by Chris Jones tomorrow and come back to you&#8221; and asking if &#8220;your tax boys&#8221; could summarise the whole scheme &#8220;so I can just forward it&#8221;.  That resulted in the email of 1 November from Mr Gowers already referred to.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.75in;text-indent:0.04in">(4)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.41in"><span style="font-family:'Times New Roman'">Disclosure issue 4 was the Claimant&#8217;s counter-factual case that SCC would have agreed a longer earn out period (paragraph 30.2 of the Claimant&#8217;s Re-Amended Particulars of Claim, stated that </span><span style="font-style:italic;font-family:'Times New Roman'">"had the matter been left to be determined by a mechanism capable of being triggered at the date of the request, then it is likely that a 9-month extension would have been granted")</span><span style="font-family:'Times New Roman'">. No documents had been disclosed by reference to this issue.  RPC made the following point:</span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p style="margin-left:1.18in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">To the extent that your client might suggest that the issue is dealt with by documents listed under other issues, this has not been explicitly set out and, in any event, there has been no relevant document disclosed that relates to your client's counter-factual.&#8221;</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Disclosure issue 5 was the breakdown in the Claimant&#8217;s relationship with SCC which informed the approach to the litigation between them. Two emails had been disclosed in relation to this disclosure issue.  One gave brief comments as to what happened after the Claimant left SCC&#8217;s board of directors. The other was from the Third Defendant in 2016 enclosing a &#8220;drop-hands offer&#8221; from SCC.  RPC suggested that it was at the least surprising that there were no further documents.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Disclosure issue 6 was the Claimant&#8217;s efforts to obtain ATE insurance for the SCC litigation. Again, a total of two emails had been disclosed. RPC made the following key points:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.89in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Despite it being clear that your client was liaising with a contact to source his own ATE insurance over a significant period of time (from November 2015 &#8211; September 2016), and despite him indeed confirming that he had been offered ATE cover (as discussed in conference with the Third and Fourth Defendants on 9 September 2016), not a single document has been disclosed to evidence the attempts made by your client to source ATE insurance;&#8221; and</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.89in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;We would anticipate there being numerous emails exchanged with the &#8216;contact&#8217; in respect of ATE insurance. We refer you to paragraphs 102, 106, 110, 113, 116, 129, 132, 141 and 167.7 of the First to Third Defendants&#8217; Defence which deal with this issue. Indeed, the Reply to the First to Third Defendants&#8217; Defence positively pleads that ATE quotations had been received, alleged to not provide cover for the SCC Litigation (paragraph 43(g)) and yet we have no had sight of the quotations specifically referred to in that pleading;&#8221;and</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.89in;text-indent:0.01in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">It seems clear that there are numerous documents that your client has or at the very least would have had in his possession (i.e. the communications with the ATE provider and/or insurance contact and the ATE quotations received) and which he has failed to either disclose</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.89in"><span style="font-style:italic;font-family:'Times New Roman'">or explain their non-disclosure pursuant to the Document Production Requirements.</span><span style="font-family:'Times New Roman'">&#8221; (The reference to Document Production Requirements is a reference to the duty under paragraph 12.3 of PD57AD to provide explanations where documents no longer exist, the party no longer has them in their possession or there are other reasons for non-production of a document).</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Disclosure Issue 7 was &#8220; Quantification: documents evidencing: a) Alleged loss of Earn-Out-Consideration on Claimant's counter-factual; b) Loss of opportunity to advance claim against D1; c) Adverse costs of SCC litigation; d) Own costs of SCC litigation; and e) Costs of the failed appeal.&#8221; Complaint was made that no or very limited disclosure had been made as regards items 7c, 7d and 7e.  </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.89in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">At the very least, we would have expected to see proof of payment (of Adverse Costs of SCC litigation and Own costs of SCC litigation) and some documentation pertaining to the Costs of the failed appeal, alleged to total &#163;90,347 at paragraph 26 of the Re-Amended Particulars of Claim.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">Once again, it is the Defendants' position that there are inevitably further documents which your client has or would have had in his possession (i.e. proof of payment personally of adverse costs of the SCC litigation and the failed appeal, proof of payment of own costs, and communications in respect of the level of Costs of the failed appeal as evidence of mitigation etc.), which he has failed to either disclose, or explain their non-disclosure pursuant to the Document Production Requirements&#8221;.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Disclosure issue 8 was the Claimant&#8217;s actual/constructive knowledge for limitation purposes.  There had however been no disclosure by reference to this issue.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(9)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Disclosure issue 9 was &#8220;Contributory negligence in relation to the </span>Claim&#8221;.  Again, no disclosure had been given. If documents listed under other issues were relevant under this issue that had not been explained nor had the Document Production Requirements been met (if applicable).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(10)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman'"/>A response was requested by 23 June 2025.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">The failure to respond substantively and developments to October 2025</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 23 June 2025, Mr D. Morris responded saying that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.04in">&#8220;<span style="font-style:italic">I will send a substantive response by noon 24 June 2025 and trust this is acceptable</span>&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On 24 June 2025 Morris Law responded to say that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in"><span style="font-family:'Times New Roman'">&#8220; </span><span style="font-style:italic;font-family:'Times New Roman'">I am meeting with my client today and will have the full</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Times New Roman'">response to you today</span><span style="font-family:'Times New Roman'">.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="margin-left:0.39in"><span style="font-family:'Times New Roman'">The letter also stated: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;My client has carried out extensive searches of both</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">his current computer and previous computer that took almost a week to </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">go through. He has provided full and frank disclosure. He is providing me with full access to both computers this afternoon&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By letter dated 26 June 2025, after being chased for a response by RPC, Mr D. Morris said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">I have been through the process of double checking the disclosure to ensure that nothing has been inadvertently missed and that process has taken longer than I thought it would. There were two computers to check and compare to all the documents disclosed to me. I will be able to respond today</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">and thank you for your patience</span><span style="font-family:'Times New Roman'">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 1 July 2025, Mr D. Morris wrote to say that he </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic">&#8220;[had] been cross referencing the disclosure against two computers which has taken much longer than expected but I am on the last period now and so will be able to respond soon&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">RPC chased on 09 July 2025. On 14 July 2025, Mr D. Morris stated that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.29in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">A substantive response will be with you shortly&#8221;.  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Also on 14 July 2025, </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">RPC replied, in exasperation:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.39in;text-indent:0.39in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">What does 'shortly' mean, please? Today?</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">This recent email exchange is a microcosm of your conduct of this litigation throughout, or at least one aspect of it &#8211; the references to the times by which you will do something ('today', 'soon' and now 'shortly') appear to be meaningless. This issue is urgent so please set out your 'full' and/or 'substantive' response by return.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Clyde &amp; Co replied, noting that a substantive reply was urgently awaited and suggesting in the meantime that the service of witness statements be delayed to 31 October 2025, a suggestion that RPC were in agreement with.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 July 2025, Clyde &amp; Co chased Morris Law for a reply to their communication of 14 July, saying that without one they would have to apply to the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By letter dated 29 July 2025, jointly written for the Fourth Defendant as well as the First to Third Defendants, RPC wrote to Morris Law pointing out that the letter of 18 June 2025 had not been substantively answered, there having been no communication since that of 14 July 2025, and that RPC and Clyde &amp; Co considered that the claim had been struck out and had written to the court accordingly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A letter to the court, setting out the RPC/Clyde &amp; Co joint position that the claim had been struck out for failure to comply with the CCMC order regarding disclosure was also dated 29 July 2025 and copied to Morris Law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 01 August 2025, Morris Law presented an undated application notice to the court which was issued on the same date (the 1<span style="vertical-align:super;font-size:smaller">st</span> Application).     As I have said, it sought an extension of time for the serving of witness statements.  The period of extension sought was until 29 August 2025.  It was said that &#8220;<span style="font-style:italic">Further time is required as there have been issues raised with extended disclosure provided by the Claimant</span>&#8221;. In Box 10, setting out the evidence relied upon, various points were made, in relation to what were said to be by way of example, Disclosure Issues one, three and five.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application notice issued on 01 August 2025, having been referred to a District Judge, was initially listed by the court for 14 October 2025 in a back to back list before two District Judges hearing BPC cases.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By letter dated 18 August 2025, Clyde &amp; Co (also writing on behalf of RPC) asked that the case be listed before me for the first available date after 1 October and that the listing for 14 October be vacated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The hearing was then listed for 3 hours on 4 November 2025. A hearing notice was sent to the parties dated 09 September 2025.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Mr Preece&#8217;s witness statement for the Defendants 23 October 2025</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 23 October 2025, Mr Preece of Clyde &amp; Co made and filed his second witness statement in the proceedings. The statement started by setting out the position of the First to Fourth Defendants.  In summary, the claim was, they maintained, struck out due to the failure to comply with the extended disclosure requirements of the CCMC Order.  In this respect, and among other points, the witness statement raised the following matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Extent of searches</span>: The Claimant&#8217;s disclosure certificate was required to set out: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.75in;text-indent:0.04in"><span style="font-family:'Times New Roman'">&#8220; </span><span style="font-style:italic;font-family:'Times New Roman'">Unless already particularised in the Disclosure Review Document or in any Extended Disclosure List of Documents, if any of Models C, D or E (search-based Extended Disclosure) were ordered in respect of any Issues for Disclosure, set out here the limits of the search conducted, by reference to custodians, date ranges, locations, document types, keyword searches and any relevant limits specified.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.75in"><span style="font-family:'Times New Roman'">The answer given in the relevant box was &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">See Disclosure review document.</span><span style="font-family:'Times New Roman'">&#8221;    That document however was silent on the extent of the searches.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The certificate goes on to say:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">To the extent any of these limits were not contained in the Disclosure Order/s or recorded in an agreement in writing between the parties either in the Disclosure Review Document or elsewhere, please identify them and explain why they were necessary and why they were not agreed with the other parties.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">The answer given in the relevant box was &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">N/A</span><span style="font-family:'Times New Roman'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Mr D Morris&#8217; Response by email of 27 October 2025 (the &#8220;27 October Response email&#8221;).</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By email dated 27 October 2025, six business days before the hearing and over 18 weeks after the Defendants&#8217; joint letter of 18 June 2025 and some 15 weeks after his last relevant communication on 14 July 2025 promising a substantive reply &#8220;shortly&#8221;, Mr D. Morris finally provided some sort of substantive response to the Defendants&#8217; concerns.  It was neither verified by, nor its contents set out in, a witness statement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">As regards the extent of searches, it was said that the Claimant had carried out:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.04in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;extensive searches.  To explain the extent of the search I can advise that the Claimant carried out searches between 2005 to the present date in the following:&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There then followed a list of individuals, firms and other entities.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Towards the end of the email it was also said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.78in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">Searches were made against all relevant parties between the years 2005 to the current date&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The email then went on to address each of the disclosure issues contained in the DRD.  I will return to the individual points made later in this judgment.  For present purposes however it is important to note that a number of documents were attached to the relevant email in connection with Disclosure Issues as set out below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Disclosure Issue 2: (Other professional advice regarding the SPA)</span>:  The email attached an email (attaching an invoice) from Bates Weston (the selling agents) and the letter of engagement. As regards the latter it was said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="text-decoration-line:underline;text-decoration-style:solid">&#8220;</span><span style="font-style:italic">This was not seen as relevant because it does not set out any advice on the sale (as this area of disclosure required) but is disclosed now for complete transparency.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The letter of engagement sets out (among other things):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">We will assist and advise you on the proposed disposal by carrying out the following work:-</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">(a)&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(g)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">we will negotiate price, terms and conditions with potential purchasers, subject to your overall control, including advising on any Letter of Intent, Sale and Purchase Agreement and any other relevant information.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8230;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Tax Advice</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">Our fee includes tax advisory work. This will cover our advice to you in structuring the disposal so as to optimise the tax treatment in respect of the shareholders. The scope of this work to be agreed at an early stage in the disposal process.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Additional Services</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">We should be pleased to discuss additional services, such as tax advice, that we can provide you with in relation to the disposal. Additional services will be the subject of a separate engagement letter and fee arrangement.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the Bates Weston position, Mr D. Morris&#8217; email of 27 October 2025 went on to say:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">There was no written advice on tax. We have asked Bates Weston to confirm that this was the case but you will see from the engagement letter that although it says in one part that the fees cover tax advice and then in the following paragraph says additional services, tax advice at additional costs. My client can confirm that although Graham Bucknall liaised with KPMG there was no written tax advice and no additional charges made. The invoice at the set fixed price confirms this position. The Defendants are fully aware of this in any event having dealt with the litigation.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(10)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">There are no relevant documents from Bates Weston that have not been disclosed. The high level of fees related to the fixed structure for finding the purchasers and linked directly to the value of the sale. Once the buyers were found Bates Weston simply let the parties get on with things and the transactions moved very quickly&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Disclosure Issue 7: Quantification Documents evidencing a) Alleged loss of Earn Outs consideration on the Claimant&#8217;s counter factual b) Loss of Opportunity to advance the claim against D1 c) Adverse Costs of SCC litigation d) own costs of SCC Litigation and e) Costs of failed appeal.</span><span style="font-family:'Times New Roman'">  The email was said to attach a bank statement said to show payment of the Claimant&#8217;s own costs of the SCC litigation.   Rather than addressing disclosure of documents the email otherwise focused on setting out what the relevant costs were said to be.  The documents attached in fact included a bank statement as well as a fee note from Mr Choo Choy KC (who acted for the Claimant in the appeal against the order of HHJ Bird) dated 20 September 2017. The invoice showed three payments having been made in July 2017; an outstanding balance of in excess of &#163;43,000 (including VAT) as at 20 September 2017 and the fact that the invoice had previously been submitted on six previous occasions on dates in April, May, June, July (x2) and September 2017.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Events leading up to the November hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By separate email of 27 October 2025, dealing with bundle indices, Mr D. Morris wrote to Clyde &amp; Co (copying in RPC) to say:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">we are in the process of filing an application for relief from sanctions given the Defendants&#8217; views&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/><span style="font-family:'Times New Roman'">and that that would be added to the bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Despite various assurances as to the bundle being prepared by Morris Law and as to it being provided by certain deadlines that then passed, in the end Clyde &amp; Co had to take matters in its own hands and prepare the hearing bundle on the afternoon of 28 October 2025.  In fact Morris Law did send a bundle later that afternoon but after the time when they had been warned that the Defendants were going to have to take matters in their own hands and when remaining silent during most of the day to the increasingly desperate emails from the Defendants&#8217; solicitors chasing for the bundle. Morris Law&#8217;s bundle did not comply with the Chancery Guide (though Mr D. Morris denied that in part, referring to what he said he had found judges to prefer). The Defendants&#8217; bundle did.  It was the Defendants&#8217; bundle that was ultimately used.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 30 October, Mr Wood signed and filed his skeleton argument on behalf of the Defendants.  He noted that although an application for relief from sanctions had been intimated there was nothing to be said about it because nothing had by then been served in this respect. In his skeleton argument, Mr Wood submitted (among other points) that there were clear breaches of the disclosure order that had been made, Referring back to the correspondence he particularly highlighted (a) failure to disclose documents, demonstrated not least by the recent documents disclosed by the 27 October Response email and the fact that the fee note from Mr Choo Choy itself revealed further documents that had not been disclosed; (b) an ongoing failure to identify properly what searches had been undertaken and the limits of the searches; (c) failure to provide a compliant list of documents (dates being omitted in a significant number of cases, descriptions being woefully inadequate and documents not matching their descriptions, the list not being in chronological order); and (d) electronic documents not being produced in native format but instead as one large pdf).  The Defendants&#8217; position was the claim had been struck out under the relevant &#8220;unless&#8221; order and made clear that further submissions would be made in the event that the Claimant sought to maintain that he was not in breach of the unless order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On Friday 31 October 2025:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">At about 12:27, Mr D. Morris served an unsealed version of the application notice seeking relief from sanctions and said that he would revert regarding counsel and the exchanging of Skeleton arguments.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">in the afternoon, the application notice dated 28 October 2025 seeking relief from sanctions was submitted and issued. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application for relief from sanctions was supported by a witness statement of Mr D. Morris dated 30 October 2025.  That witness statement, amongst other things:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Asserted that the Claimant &#8220;has no further documents which are relevant to the areas of extended disclosure&#8221; (paragraph 8);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Relied upon the 27 October Response email and what was said in the Application notice seeking an extension of time for service of witness statements;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">asserted that there were &#8220;no documents which the Claimant had in his possession but no longer has in his possession&#8221; (paragraph 10).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">if there was a breach of the relevant court order, then relief from sanctions was sought.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">As regards the first part limb of the test in <span style="font-style:italic">Denton v T H White </span>[201411 WLR 3926 (&#8220;<span style="font-style:italic">Denton</span>&#8221;), the breach was not serious:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;18.</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">&#8230;It would be regarded as a technical breach but in reality all the Defendants received the Claimant's disclosure documents in time. Accordingly, on the scale of seriousness it should be regarded at the minor end.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">17.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">All the Defendants were able to deal with the</span> [sic]&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">As regards the second limb of the <span style="font-style:italic">Denton</span> test:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;19.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.14in;text-indent:0.39in"><span style="font-style:italic;font-family:'Times New Roman';color:#1D1D1D">If the Court finds there was a technical breach then then it should be clear that this was inadvertent and no disrespect was intended. It is the type of breach that in civil litigation would not be taken as a point by an opponent as it had no impact or prejudice to them whatsoever.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;color:#1D1D1D">20.</num>
+		    <content>
+		      <p style="margin-left:1.14in;text-indent:0.36in"><span style="font-style:italic;font-family:'Times New Roman';color:#1D1D1D">If the Court considers this a genuine and good reason for the inadvertent breach then the Court should grant relief and should not spend any considerable time on the third stage.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in">As regards the third limb of the <span style="font-style:italic">Denton</span> test, a number of points were made including that the breach was not due to the Claimant and was due to a &#8220;<span style="font-style:italic">minor technical mistake</span>&#8221; by his lawyers, it was not deliberate or intentional and &#8220;<span style="font-style:italic">t</span><span style="font-style:italic;color:#1D1D1D">he parties were able to deal with the contents of the disclosure as evidenced by their questions regarding whether the disclosure was complete</span><span style="color:#1D1D1D">.&#8221;</span>  As regards the delay in dealing with the position, he said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;26.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.14in;text-indent:0.39in"><span style="font-style:italic">There has been delay in fully responding to the Defendants disclosure concerns and that is regrettable and for which I can only apologise. I was required to go through over 20 years of emailed communications and double check that nothing had been missed. This was a task which took a massive amount of time but am pleased to say that it confirmed that the Claimant has done an very thorough job in the first place.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The late service of a draft application notice seeking relief from sanctions activated a Supplemental Note by Mr Wood dated 03 November 2025 setting out the Defendants&#8217; position with regard to it and among other things pointing out its lateness and the fact that the only breach directly addressed appeared to be the service of the relevant documents by email which was not a substantive complaint that the Defendants had ever pursued (other than noting it in passing).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris also served a Skeleton Argument dated 03 November 2025. In that he accepted that insufficient notice had been given for the relief from sanctions application and that if relief was required he asked that directions for the hearing of the application should be given.  As regards the allegations of breach he said that there were two: first service of the disclosure documentation by email (rather than post) and secondly the content of what had been disclosed.  As regards the first he relied upon CPR r3.10 and said that if there was a breach of the order in that respect, relief should be granted under CPR r3.10 and that this was more appropriate than considering relief from sanctions.  As regards the content of the disclosure, he referred back to his 27 October 2025 Reply email and the content of the original application for an extension of time as &#8220;clarifying&#8221; the contents of the disclosure that had been given. There was no further disclosure and accordingly the order for disclosure had been complied with.  If the court disagreed, then relief from sanctions was sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The skeleton argument of Mr D. Morris did not condescend to any detail at all about the contents of the disclosure that had been given.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The hearing on 04 November 2025</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was insufficient time to complete the hearing of the applications on 04 November 2025.  In part, issues were caused by the lateness of the application for relief from sanctions and the failure of the Claimant to engage with the thrust of the points made by the Defendants.  Accordingly, the case was adjourned part heard to 26/27 January 2026. Given that Mr D. Morris maintained, even in the light of the Defendants&#8217; evidence, skeleton arguments/Notes, and oral submissions that there had been no breach of the original disclosure order, I also directed that he file a detailed skeleton argument, addressing the Defendants&#8217; submissions as to the Claimant&#8217;s non-compliance with the unless order, by 4pm on 25 November 2025.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">November 2025 to January 2026</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris did file and serve a Supplemental Skeleton Argument dated 25 November 2025, as ordered.  I deal with the detailed points made later in this judgment but for present purposes it suffices to note that he now sought to extend reliance on CPR 3.10 from the failure to serve the disclosure documentation by the correct means to any other failings (which were all denied) in disclosure (though still relying on relief from sanctions by way of fall back). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 22 January 2026, Mr Wood filed and served an Updating Note setting out the Defendants&#8217; position. Among other points he pointed out that there had been no further disclosure and no further attempt by the Claimant to &#8220;regularise&#8221; the position since the hearing on 4 November 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the first morning of the resumed hearing on 26 January 2026, by email sent at about 9:22 to RPC and Clyde &amp; Co., Mr D. Morris said as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;<span style="font-style:italic">Further to the updating note of Benjamin Wood I enclose herewith 2 emails, the first contains the fee notes of Counsel, although the fees were set out in full in the previous disclosure given.  The second contains the native format of the disclosure which has already been provided.  This is to regularise the position as Counsel puts it.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>Eight fee notes were included<span style="font-style:italic"/>from Mr Choo Choy of which one was dated 19 October 2017 and showed a nil outstanding balance (a further payment shown as having been made in October 2017 to discharge the then remaining outstanding sum).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the second morning of the resumed hearing Mr D. Morris filed and served a further witness statement.  That witness statement was reactive to the submissions of Mr Wood the previous day though little of those submissions was new. It also incorporated and repeated a certain amount of what had been said in the earlier witness statement.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Law:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_16">
+	  <num style="font-weight:bold">(a)</num>
+	  <content>
+	    <p class="ParaLevel5" style="margin-left:0.39in"><span style="font-weight:bold">Construction of the Order</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn briefly to the law.  The first issue is what was required by the Order for disclosure that was made.  That is a matter of construction of the order. I will deal with the specific matters relied upon by the Defendants on a topic by topic basis later in this judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For present purposes however I should say that, other than in respect of specific matters which I shall come onto, it was not suggested by Mr D. Morris that the order for disclosure had, in the relevant respects, been complied with.  His argument was that so far as there had been non-compliance, that non- compliance was a procedural default which fell to be validated under CPR 3.10.   In that respect the submissions on each side focussed on what was or was not a procedural default falling within CPR 3.10 and whether or it was or should be validated under CPR 3.10.  Nevertheless, because some of the arguments addressed to me on that front were reminiscent of the arguments put forward in other cases on questions of construction of the order, I consider that I should briefly refer to the recent case of <span style="font-style:italic">Midland Premier Properties Limited</span><span/><span style="font-style:italic">v Doal</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/117" uk:canonical="[2026] EWCA Civ 117" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2026">[2026] EWCA Civ 117</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the <span style="font-style:italic">Doal </span>case the first appeal in the case arose from an &#8220;unless&#8221; order:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in;text-indent:0.39in">&#8220; <span style="font-style:italic;font-family:TimesNewRomanPSMT">The Judge concluded in that judgment that the second to sixth</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-style:italic;font-family:TimesNewRomanPSMT">defendants had failed to comply with an unless order dated 31 July 2024 and should be refused relief from sanction, with the result that their defences were struck out and they were debarred from defending the claim. The Judge further said that, had he not found the unless order to have been breached, he would anyway have considered it appropriate to strike out the defences of the second to sixth defendants in the light of their failure to comply with Court orders. However, the appellants contend that they did not breach the unless order; that, if they did, they should have been granted relief from sanction; and that it was not appropriate to strike out their defences or to debar them from defending.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Doal, </span>Newey LJ considered earlier authorities and drew the various threads from those cases together as follows, at paragraph [45] of his judgment as <span style="font-family:'Times New Roman'">follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(i)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">Just as the terms of an order granting an injunction are to be &#8220;restrictively construed&#8221; (to quote Flaux LJ in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Pan Petroleum</span><span style="font-style:italic;font-family:'Times New Roman'">), so, given the consequences of failure to comply, must an unless order be;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(ii)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">An unless order must make it quite clear what the party to whom it is</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Times New Roman'">addressed has to do;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(iii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">The mere fact that a party subject to an unless order acted in good faith need not prevent the order from taking effect. While there was reference to &#8220;good faith&#8221; in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Reiss v Woolf</span><span style="font-style:italic;font-family:'Times New Roman'"> and that case was cited in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Realkredit</span><span style="font-style:italic;font-family:'Times New Roman'"> and </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Morgans v Needham</span><span style="font-style:italic;font-family:'Times New Roman'">, the continuing significance of </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Reiss v Woolf </span><span style="font-style:italic;font-family:'Times New Roman'">was doubted in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">QPS</span><span style="font-style:italic;font-family:'Times New Roman'"> and, in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Smailes v McNally</span><span style="font-style:italic;font-family:'Times New Roman'">, Lewison LJ explained that &#8220;the absence of bad faith does not necessarily mean that the order was complied with&#8221;, albeit that a </span><span style="font-style:italic;font-family:TimesNewRomanPSMT">party acting in good faith may have a &#8220;margin of appreciation&#8221;. The interpretation of an unless order is a matter for the Court and if, correctly construed, it has not been complied with the existence of good faith will not stop it taking effect;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:TimesNewRomanPSMT">(iv)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:TimesNewRomanPSMT">The Courts have used somewhat varying expressions when considering whether an unless order in respect of further information (or, formerly, further and better particulars) or disclosure (or, formerly, discovery) has been complied with. Plainly, the fact that a document bearing the appropriate heading (&#8220;Further information&#8221;, say) has been served will not of itself suffice.  In the context of further information, the Courts have latterly asked whether the response could &#8220;reasonably be thought to be complete and sufficient&#8221;. With disclosure, there has been reference to whether a list was &#8220;illusory&#8221; or could &#8220;fairly be described as such&#8221;. Whatever the appropriate test, it is evident that, where a party has purported to comply with an order for either further information or disclosure, there can potentially be scope for dispute as to whether an answer (in the case of further information) or list (in the case of disclosure) was good enough to satisfy the requirements of the order;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:TimesNewRomanPSMT">(v)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:TimesNewRomanPSMT">At the end of the day, the terms of an unless order are crucial. If, properly interpreted, such an order stipulated that X would happen unless Y was done, then, in the absence of relief from sanction, the order will have taken effect if it is clear that Y was not done.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case paragraph 5 of the Order of 08 April 2025 was, in my judgement, clear:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;5.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">Unless the Claimant complies with his obligations at paragraph.. 7&#8230;. (disclosure), of this order (by the time stated in [that] paragraph.. or by any time as may be varied by further order or by written agreement amongst the parties, provided that such agreement is reached prior to any deadline), the claim shall be immediately and automatically be struck out and the Claimant shall pay the Defendants&#8217; costs of the claim to be assessed if not agreed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>The question is whether or not there was any relevant failure to comply with paragraph 7 of the Order relating to disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For completeness I should at this stage refer also to CPR PD57AD paragraph 20:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;20.</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">Sanctions</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num class="Strong" style="font-style:italic;color:#212121">20.1</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">Throughout disclosure the court retains its full powers of case management and the full range of sanctions available to it.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num class="Strong" style="font-style:italic;color:#212121">20.2</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">If a party has failed to comply with its obligations under this Practice Direction including by&#8212;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">failing to comply with any procedural step required to be taken;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(2)</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">failing to discharge its Disclosure Duties; or</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">failing to cooperate with the other parties, including in&#160;&#160;the process of seeking to complete, agree and update the Disclosure Review Document,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">the court may adjourn any hearing, make an adverse order for costs or order that any further disclosure by a party be conditional on any matter the court shall specify. This provision does not limit the court&#8217;s power to deal with the failure as a contempt of court in an appropriate case.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In construing the order, it is in my judgment to bear in mind the background and expressed reasons for making the unless order in question, matters known to all parties and well-ventilated at the CCMC.  They included the previous history of a last minute and lackadaisical approach by the Claimant to date and the upcoming trial and fairly tight timetable to trial that then existed and in circumstances where (as with any trial but particularly this one, given the length of time the proceedings had taken to date), it would be important if at all possible to keep to the trial date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num style="font-weight:bold">(b)</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">the impact of CPR r3.10</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The main submission of Mr D. Morris was to the extent that there was a &#8220;technical&#8221; non-compliance with any requirement in connection with disclosure (which is how he characterised all of the alleged breaches in this case), such non-compliance was a procedural defect which fell within CPR r3.10.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">CPR 3.10 provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Heading3" style="margin-left:0.79in">&#8220;<span style="font-family:'Times New Roman';font-size:12pt;color:#212121">General power of the court to rectify matters where there has been an error of procedure</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#212121">3.10</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';color:#212121">Where there has been an error of procedure such as a failure to comply with a rule or practice direction &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#212121">(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';color:#212121">the error does not invalidate any step taken in the proceedings unless the court so orders; and</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#212121">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#212121">the court may make an order to remedy the error.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">CPR r3.10, Mr D. Morris submitted, meant that none of the steps taken to comply with the disclosure aspects of CPR 57AD were &#8220;invalid&#8221; and that the court should validate each one.  In particular, he submitted that (some of) the appropriate ways in which the court might validate the steps in fact taken was by making any one or more of the forms of order referred to in CPR PD57AD paragraph 17 which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold">&#8220;17.</num>
+		  <content>
+		    <p class="Heading3" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#212121">Failure adequately to comply with an order for Extended Disclosure</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;color:#212121">17.1</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">Where there has been or may have been a failure adequately to comply with an order for Extended Disclosure the court may make such further orders as may be appropriate, including an order requiring a party to&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#212121">(1)</num>
+		  <intro>
+		    <p style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">serve a further, or revised, Disclosure Certificate;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;color:#212121">(2)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">undertake further steps, including further or more extended searches, to ensure compliance with an order for Extended Disclosure;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;color:#212121">(3)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">provide a further or improved Extended Disclosure List of Documents;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#212121">(4)</num>
+		  <intro>
+		    <p style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">produce documents; or</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;color:#212121">(5)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">make a witness statement explaining any matter relating to disclosure.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;color:#212121">17.2</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">The party applying for an order under paragraph 17.1 must satisfy the court that making an order is reasonable and proportionate (as defined in paragraph 6.4).&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold;color:#212121">17.3</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#212121">An application for any order under paragraph 17.1 should normally be supported by a witness statement.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Wood denied that failings that he relied upon were &#8220;errors of procedure&#8221; falling within CPR r3.10.  Mr D. Morris asserted that they were.  Each had some difficulty in putting forward a convincing description/definition of what was and what was not an error of procedure.  Mr D. Morris, I think, submitted that it covered (in the context of the current case) any error, or non-compliance with any, of the procedural rules/practice directions of court (save for any particular rule/PD  that was to be construed as having its own applicable regime regarding non-compliance) but that that would not cover (for example) the situation of a blank document with the heading &#8220;Disclosure certificate&#8221;.  As I understood it, he would say that there had to be an error of procedure not simply a complete refusal to follow a procedural requirement.  In that respect he seemed to me to be getting close to relying upon the difference between a &#8220;good faith&#8221; attempt to comply with a rule which could fairly be thought to do so and something falling far short of that as considered in e.g. <span style="font-style:italic">Reiss v Woolf</span><span/><span style="font-style:italic"/>[1952] 2 QB as referred to in the <span style="font-style:italic">Doal </span>case:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.89in"><span style="font-style:italic;font-family:TimesNewRomanPSMT">&#8220;[32]</span><span style="font-family:TimesNewRomanPSMT"/><span style="font-style:italic;font-family:TimesNewRomanPSMT">There [Reiss v Woolf], an order had provided for paragraphs in a defence to be struck out unless the defendant delivered &#8220;the undermentioned further and better particulars&#8221;. Further and better particulars were delivered, but these stated that the defendant was unable to give certain details until after discovery, or perhaps at all. The plaintiff contended that, as a result, the relevant paragraphs of the defence had been struck out, but the Court of Appeal disagreed. It agreed with Devlin J, from whom the appeal had been brought, that it would not have sufficed for &#8220;any document with writing on it&#8221; to be delivered: it must, Devlin J had said, be &#8220;a document made in good faith and which can fairly be entitled &#8216;particulars&#8217;&#8221;. &#8220;That is the test,&#8221; Devlin J had said, &#8220;and not &#8230;whether each demand for particulars has been substantially met&#8221;.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris relied upon cases such as <span style="font-style:italic">Steele v Mooney</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/96" uk:canonical="[2005] EWCA Civ 96" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 96</ref>; <ref href="#" uk:canonical="[2005] 1 WLR 2819" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 2819</ref> and <span style="font-style:italic">Integral Petroleum SA v SCU-Finanz AG</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2014/702" uk:canonical="[2014] EWHC 702 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 702 (Comm)</ref> as indicating the wide meaning to be given to &#8220;error of procedure&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On this point I incline to the view that Mr D. Morris may well be correct in what he says about the width of &#8220;error of procedure&#8221; in CPR r3.10.  However, I do not need to determine the point.  That is because I have a more fundamental reason for considering that CPR r3.10 has limited relevance on the facts of this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">CPR r3.10 does not, it seems to me, determine that a step taken is valid notwithstanding that it may amount to an error of procedure.  What it says is that a procedural error will not invalidate a step taken unless the court orders otherwise and that the court can (in effect) validate the step. The situation in the present case is that the court has already made an order, pursuant to CPR r3.1(3), providing for the effect of a breach of the court order, whether or not such breach amounted to a procedural error in complying with the order in question. The court has ordered that the step will not be valid, indeed a relevant breach will result in the sanction set out in the order coming into effect.  In those circumstances the issue is whether or not there should be relief from sanctions in accordance with what is now well established principle (see CPR r3.8 under which the sanction takes effect ,unless the court orders otherwise).  In other words, there is no room for operation of CPR r3.10 if a procedural error has occurred at a prior step nor is there room for a different approach to validation other than relief from sanctions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment this approach is justified by analogy with the reasoning in <span style="font-style:italic">Walsham Chalet Park Limited v Tallington Lakes Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1607" uk:canonical="[2014] EWCA Civ 1607" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1607</ref>; [2015] 1 Costs LO 157. In that case the question was whether failure to follow a court timetable for witness statements, disclosure and provision of a statement of account should result in an order for strike out.  The court considered that the <span style="font-style:italic">Denton</span> principles were applicable to that question but because the question was whether a sanction should be imposed rather than relief from an existing sanction be granted, the court had to consider as part of the overall position whether or not the sanction was proportionate:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">It must be stressed, however, that the ultimate question for the court in deciding whether to impose the sanction of strike-out is materially different from that in deciding whether to grant relief from a sanction that has already been imposed. In a strike-out application under rule 3.4 the proportionality of the sanction itself is in issue, whereas an application under rule 3.9 for relief from sanction has to proceed on the basis that the sanction was properly imposed (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Mitchell</span><span style="font-style:italic;font-family:'Times New Roman'">, paras 44&#8211;45).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court accepted that had an issue of relief from the sanction in r32.10 been before the court, the court would have had to consider whether to grant relief or not.  That was a sanction derived from the rules themselves. In this case the sanction flows from a court order but the same must apply.  In short, it would, in my judgment, make a nonsense of case management order imposing sanctions for non-compliance if, in the event of non-compliance, the court did not proceed straight to the question of whether relief should be granted and instead had to carry out some lesser test under CPR r3.10 every time, on the basis that the step was not automatically invalid or a breach of the order imposing the sanction for breach. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, if a breach of the order is made out then the sanction will apply unless relief from sanctions is granted in accordance with the <span style="font-style:italic">Denton</span> principles.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Are there breaches of the order?</span></heading>
+	  <paragraph>
+	    <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Defective disclosure certificate</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The April Order required the Claimant to give search based disclosure in Model D in accordance with the DRD and to take the steps in paragraph 12.1 of PD57AD by the date specified. Paragraph 12.1(1) requires service of a Disclosure Certificate substantially in the form set out in Appendix 4 signed by the party giving disclosure, to include a statement supported by a statement of truth signed by the party or an appropriate person at the party that all known adverse documents have been disclosed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant form of disclosure certificate contains the following as regards searches:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8220;<span style="font-style:italic;font-family:'Times New Roman'">Unless already particularised in the Disclosure Review Document or in any Extended Disclosure List of Documents, if any of Models C, D or E (searchbased Extended Disclosure) were ordered in respect of any Issues for Disclosure, set out here the limits of the search conducted, by reference to custodians, date ranges, locations, document types, keyword searches and any relevant limits specified.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">[Box to complete &#8220;Box 1&#8221;]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">To the extent any of these limits were not contained in the Disclosure Order/s or recorded in an agreement in writing between the parties either in the Disclosure Review Document or elsewhere, please identify them and explain why they were necessary and why they were not agreed with the other part[y/ies]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Times New Roman'">[Box to complete: Box 2]</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The importance of the disclosure of the extent of searches made is emphasised by the declaration forming part of the certificate (paragraph (C)):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;I, [name] certify [for and on behalf of the above-named Party] that I am aware of and, to the best of my knowledge and belief, have complied with [my / Party&#8217;s] duties under Practice Direction 57AD, including having:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">A)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">taken and caused to be taken reasonable steps to preserve documents in [the Party&#8217;s] control that may be relevant to any issue in the proceedings;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">B)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">disclosed documents I am aware (or, in the case of a company or organisation, of which the company or organisation is aware, within the meaning of paragraph 2.9 of Practice Direction 57AD) are or have been in [my] or [the Party&#8217;s / company&#8217;s] control and adverse to [my/the Party&#8217;s] case on any issue in the proceedings, unless they are privileged;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">C)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">[ in the case of an order for Extended Disclosure of Model C, D or E only ]undertaken and caused to be undertaken any search for documents in a responsible and conscientious manner to fulfil the stated purpose of the search and in accordance with [my/the Party&#8217;s] obligations as set out in Practice Direction 57AD and [the Disclosure Order/s];</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">D)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">acted honestly in relation to the process of giving disclosure;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic">E)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">used reasonable efforts to avoid providing documents to another party that have no relevance to the Issues for Disclosure in the proceedings.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have said, the certificate provided stated &#8220;See Disclosure Review Document&#8221; in the first box referred to in paragraph &#8206;110 above and as regards the second box simply said &#8220;N/A&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There were, in my judgment, two respects in which the detail of the searches undertaken was inadequate: first, the certificate did not disclose the limits of the searches conducted &#8220;<span style="font-style:italic;font-family:'Times New Roman'">by reference to custodians, date ranges, locations, document types, keyword searches and any relevant limits specified&#8221;.  </span><span style="font-family:'Times New Roman'">Secondly, the certificate did not identify the limits on the searches which were not set out in the DRD or court order, why they were necessary and why they were not agreed with the other parties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because this was a case where it was agreed (and ordered) that disclosure be carried out on the basis that the case was a &#8220;less complex case&#8221; the applicable DRD did not cover the sort of detail on custodians and the like which it might otherwise have done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris initially submitted that there were no &#8220;limits&#8221;, at least as regards custodians and locations.  However, it is clear that there were limits in that respect.  The position that has emerged is taken from the certificate provided and dated 27 January 2026. As regards those limits (a) custodian: only documents of which the Claimant was custodian were searched (there was no attempt for example to obtain documents from Bates Weston or any other counterparty (actual or proposed) e.g. on ATE insurance provision); (b) date ranges: there was apparently no limit by date range (the 27 October Reply email suggested that the search had been limited to 2005 to present day but that position was later changed to there having been searches unlimited by date time and that 2005 was simply the earliest date of documents which responded to the search as relevant documents); (c) locations: apparently a desktop computer, laptop computer and a dropbox account were searched as were hard copy records contained at the Claimant&#8217;s home office (including  a hard copy file referred to as an HMRC file);  (d) soft and hard copy documents were searched at the locations referred to; and (e) key words searches were applied being the keywords set out in the 27 October Reply email (though it was not clear from that email that that is what those words represented).  These matters are all set out in the revised disclosure certificate provided and dated 27 January 2026. As regards the box requiring the explanation as to why limits were not agreed, it is simply said that the searches were reasonable and proportionate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris also initially suggested (see his skeleton argument dated 25 November 2025) that as the Court had not directed particular searches and no limits to searches had been agreed, there were no limits on searches to disclose.  That is simply to misunderstand the process under Part 57AD, clear language of the disclosure certificate and how the certificate is meant to be completed.  These submissions were again troubling because, as with others, they were not simply put forward as legal submissions on the day but the suggestion seemed to be that this was the thinking that explained the state of the Claimant&#8217;s disclosure in June 2025. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num>117.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that the certificate initially provided did not comply with the April Order.  Disclosure of the extent of the searches under Model D was a key part of the disclosure certificate. I do not consider that the absence of that information is such that it can be said that the certificate provided was &#8220;substantially&#8221; in the form of the prescribed certificate as required by paragraph 12.1(1) PD57AB.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold">Defective list of documents</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num>118.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under the April Order the Claimant was required to comply with paragraph 12(2) of PD57AD requiring service (by the time specified in the order) of an Extended Disclosure List of Documents.   As defined by Appendix 1 of the PD:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.10</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.78in;text-indent:0.22in"><span style="font-style:italic">&#8220;List of Documents&#8221; means a list of documents in chronological order (or if appropriate classes of documents in chronological order), identifying each document with a clear description including the date and, where applicable any author, sender or recipient. Where appropriate the list must distinguish between documents which exist and those that no longer exist.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num>119.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The list provided did not comply with the requirements of Appendix 1. First, there were significant numbers of documents with no date.  Secondly, there were a significant number of descriptions that were inaccurate if not misleading. In his original Skeleton Argument Mr Wood gave examples of defects.  In line with the &#8220;whac-a-mole&#8221; approach of Mr D. Morris, he initially addressed the specific examples given but did not carry out a proper review and address all of the defective entries until 27 January 2026, the complaint having been maintained after he had addressed the initial examples given.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num>120.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his skeleton argument dated 25 November 2025, Mr D. Morris suggested that matters that he accepted did not comply with the requirements as to specifying a date etc. were not &#8220;defects&#8221; and that the position was clear on careful inspection of the underlying documents.  In other words, that there was no breach because the relevant consequences were (he said) not very serious.  I disagree with his submissions that therefore there was no relevant breach of the April Order and consider that there were clear breaches in the respects identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_19">
+	  <num>(3)</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Defective production of documents</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num>121.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As required by the April Order, the Claimant was, by the time provided for, to take the step in paragraph 12.1(3) PD57AD. That required the Claimant to produce  &#8220;<span style="font-style:italic">the documents which are disclosed over which no claim is made to withhold production or (if the party cannot produce a particular document) compliance with paragraph 12.3</span>.&#8221; (see paragraph 12.1(3) PD57AD). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num>122.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 13.1 of PD57AD provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.29in"><span style="font-style:italic">&#8220;Production of documents </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">13.1</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">Save where otherwise agreed or ordered, a party shall produce&#8212; </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(1)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">disclosable electronic documents to the other parties by providing electronic copies in the documents&#8217; native format, in a manner which preserves metadata; and</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num>123.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What was provided in this case in June was a single pdf which meant that the documents were not in their native format nor was metadata preserved. As I have said, this defect was apparently rectified on the first morning of the resumed hearing on 26 January 2026, although raised as long ago as Mr Wood&#8217;s skeleton argument dated 30 October 2025 (though I accept that Mr D. Morris did not see it on that date). Because of the late production of what was said to be the documents in native format the Defendants had no opportunity to check the same and confirm their position.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num>124.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his skeleton argument dated 25 November 2025, Mr D. Morris submitted that there was a lack of clarity in PD57AD as to whether documents needed to be provided in their native format.  As regards this, he submitted that there was a contradiction between paragraph 13.1 and paragraph 13.4.  Paragraph 13.4 provides (in effect) that not more than one copy of a document should be disclosed unless additional copies contain or bear modifications, obliterations or other markings of features causing the additional copies to fall within a party&#8217;s disclosure obligations.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num>125.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not consider that there is any relevant confusion. Paragraph 13.1 deals in two paragraphs with (a) electronic documents and (b) hard copy documents.  Paragraph 13.4 is dealing, it seems to me, with copies of electronic documents and copies of hard copy documents.  It is not dealing with a document which may be in hard copy and in soft copy (which is in fact two separate documents for disclosure purposes). In any event, it was unclear to me to how this was said to apply in this case (given that Mr D. Morris initially represented to me that the documents disclosed as a pdf in fact retained the relevant metadata of each electronic document now comprised within one pdf.  He later agreed that metadata was nor preserved as he had originally suggested.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num>126.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that the April Order was breached in this respect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_20">
+	  <num style="font-weight:bold">(4)</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Inadequate disclosure: documents not disclosed</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num>127.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The requirement of the April Order on the Claimant was to give search-based Disclosure in model D in accordance with the DRD.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Disclosure Issue 7</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num>128.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, there are the fee notes of Mr Choo Choy and the bank statement showing payment of fees within the original SCC proceedings.  These documents were relevant to Disclosure issue 7 regarding costs of the SCC litigation and the costs of the failed appeal. As I have explained a fee note of Mr Choo Choy (who acted on the appeal for the Claimant) dated September 2017 was produced in October 2025, days before the hearing on 4 November 2025,  a further eight fee notes, one of which was dated 19 October 2017 and added to the hearing bundle (the others were not and I was not shown them), was produced on the first morning of the resumed hearing on 26 January 2026.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num>129.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his skeleton argument dated 25 November 2025, Mr D. Morris described the fee note dated 20 September 2017 as disclosed in October 2025 as being the &#8220;final&#8221; fee note which &#8220;sets out the entirety of the work performed and the amounts paid for each item.&#8221; In fact, as became clear in January 2026, this was not the final fee note. The &#8220;final&#8221; fee note setting out all the relevant payments appears to be that dated 19 October 2017, as produced only on 26 January 2026.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num>130.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Seven other fees notes (which I was not shown) were also produced on 26 January 2026.   Mr D. Morris, in his skeleton argument dated 25 November 2025, submitted that any fee notes other than that of 20 September 2017 were &#8220;irrelevant&#8221; and not disclosable.  This was on the basis that they are &#8220;replicated&#8221; by the 20 September 2017 fee note, and &#8220;serve no useful purpose&#8221;, they neither assist the Claimant&#8217;s case nor adversely affect it and are not disclosable. I disagree. Mr D Morris at times seems to approach disclosure as if what is being disclosed is information rather than documents containing information.  Each relevant fee note will support (or may adversely affect, I have not seen them) the Claimant&#8217;s case.  The disclosure test has to be applied to each document not to some wider question of whether it adds anything to some other document that has been disclosed.  At the original hearing in November I understood Mr D. Morris to submit that the earlier fee notes were simply &#8220;copies&#8221; of the later fee note and that accordingly there was no obligation to disclose them. If that was his point I disagree but it is not a point he seems to have persisted in. Although fee notes were later provided the approach to disclosure and reasoning behind it is concerning.  As Mr Wood said on a number of occasions, although particular documents may eventually have been disclosed neither the Defendants nor the Court know whether others have not been disclosed that should have been disclosed. Such non-disclosure may well flow from a mistaken understanding as to what is disclosable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num>131.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Also in his skeleton argument, Mr D. Morris submitted that the invoice of 20 September 2017 (and the bank statement disclosed at the same time) were disclosed because of a request made by the Defendants.  In my judgment this is irrelevant. The documents were clearly &#8220;relevant&#8221; in the Model D search sense and should have been disclosed originally.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num>132.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the bank statement, Mr D. Morris asserted that the Defendants acted for the Claimant when the Order was made (though the position of the Fourth Defendant seems to me potentially different to that of the first three Defendants in any event), and so &#8220;there is not an area of dispute&#8221;.  However, it is an issue on the pleadings and an agreed issue for disclosure.  The Defendants were not acting when the costs order was discharged by payment through the Morris Law client account (as shown by the bank statement disclosed) and whether the costs order had been met was clearly an issue in relation to which disclosure should have been given.  The submission of Mr D. Morris shows a worrying misunderstanding as to the disclosure process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num>133.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that there was a breach of the April Order so far as these extra documents were only disclosed in October 2025 and thereafter.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Disclosure Issue 2</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num>134.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have dealt with the late disclosure, in October 2025, of the BW engagement letter. This letter is clearly relevant as indicating that BW were undertaking some tax advice in connection with the structuring of the deal even if it also indicated that they would charge separately for (possibly, other) tax advice.  The letter is at the very least unclear and on one construction suggests that BW were giving tax advice.  Accordingly, it was disclosable and I am satisfied that the late disclosure amounted to a breach of the April Order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num>135.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr D. Morris&#8217; submission that because the engagement letter does not comprise &#8220;written advice&#8221; it was not disclosable is again concerning.  What was disclosable were documents bearing on the issue of whether professional advice had or had not been given, by whom and its contents. To suggest that Disclosure Issue 2 only required disclosure of written advice is to misunderstand the disclosure process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num>136.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the basis that the April Order has not been complied with in the respects I have identified (though only one breach would suffice), it follows that the proceedings are struck out unless relief from sanctions should be granted.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Relief From Sanctions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_137">
+	  <num>137.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If, as I have held, the issue of relief from sanctions arises, the parties were agreed as to the appropriate approach which is, following <span style="font-style:italic">Denton</span>, a three stage approach, the court asking itself:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Is the breach serious and/or significant?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">If it is, is there an explanation for the breach?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">If not, should relief be granted considering all the circumstances of the case including need&#8212; (a) for litigation to be conducted efficiently and at proportionate cost; and (b) to enforce compliance with rules, practice directions and orders (see CPR r3.9).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num>138.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should also note that an application for relief is supposed to be supported by evidence.  On too many occasions, Mr D. Morris sought in effect to give evidence by way of submission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num>139.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have fully set out the circumstances earlier in this judgment. It seems to me that taken both individually and together the breaches of the April Order were both serious and significant.  As I have already said, part of the weighing exercise in this respect is affected by the background to the April Order, the then looming trial and trial timetable and what the April Order was clearly understood to be trying to achieve.  In addition, the explanations, to the extent that they have emerged, although forming the focus of stage 2 of the <span style="font-style:italic">Denton</span> test, are also relevant when assessing the stage one part of the test.  The relevant stages are inevitably not &#8220;watertight&#8221;.  As I have indicated, the explanations given are either concerning or non-existent.  Looking at the individual matters briefly (and the following should not be taken as being exhaustive):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0.12in">the revelation of how searches had been conducted is a key aspect of search based disclosure so that the receiving party can be satisfied in relevant respects that disclosure has been conducted properly. The default in this respect was serious;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0.12in">although &#8220;technical&#8221; it is no answer to say as regards the defects in the list of documents that the true position could be gained by looking the underlying documents.  First, that detracts from the whole point of having a list, secondly the proposition was not a good one: it was accepted (for example) that in some cases dates of documents could only be gleaned from the metadata which had not been provided.  Furthermore it is not just a case of there being the odd misdescription, missing date or absence of chronological order (within sections).  The number of defaults was itself significant and serious.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0.12in">as regards defective production (soft copy documents not being in native format), this was a serious and significant failing. It is no answer to say that (at present) the Defendants have not identified any document where the metadata will be key or significant.  In any event, if, as I understand the position to be, the dates of some documents are only ascertainable by way of access to the metadata then that demonstrates the fact that the metadata is important.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0.12in">as regards the documents disclosed in October 2025 (and January 2026), their relevance was obvious and it is difficult to understand why they would not have been disclosed had any proper and competent disclosure process been carried out.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num>140.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards explanations for the breaches, these are, as I have indicated, either non-existent or unsatisfactory.  When it is said that the breaches were inadvertent and no disrespect was intended, I accept that there was not a deliberate intention not to comply with the April Order.  However, it is quite clear that at the very least there was carelessness of a marked degree.  The disclosure process was apparently undertaken by the Claimant in person and Mr D. Morris only reviewed (and in effect duplicated) that process in the period once concerns had been raised and it took him until October 2025 to put in any form of substantive response and until 27 January 2026 to deal with the individual points that had not been dealt with adequately (and even then at such a late stage that the Defendants were unable to confirm their position having had inadequate time to consider late disclosed documents).   There are concerns that the explanations given point to a misunderstanding and misapplication of the proper disclosure practice and that this may have spilled over into other areas of documentation that have bot been identified.  Further, although Mr Wood referred to the duty to preserve the same, I was not shown a copy of the record of the Claimant&#8217;s methodology used in the disclosure exercise (see paragraph 7 of Appendix 2 to PD57AD).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num>141.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to &#8220;all the circumstances&#8221;, the matters mentioned in CPR r3.9(1)(a) and (b) obviously are strong factors in this case leaning against relief.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num>142.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It might be said that as by 27 January 2026, the April Order regarding disclosure had (belatedly) been complied with, this (plus the seriousness of the consequences of the sanction applying) was a strong factor in favour of the grant of relief.   To be weighed against this however were the facts that late disclosure meant that the defendants were unable to confirm that their points had all been dealt with and  that as at the end of January, the trial was some 14 weeks away with a PTR fixed for 16 March, some 6 weeks or so away.  Witness statements had still to be prepared and served. The time allowed under the April Order for preparation and service of witness statements was just under 9 weeks from disclosure.   Mr D. Morris suggested that 4 weeks would be adequate to prepare witness statements. I consider that not to be realistically achievable.  Halting the position as at the end of the hearing before me, 27 January 2026, I consider that the 10 day trial listing would have had to be lost.  That is serious not just in the circumstances of this case where the relevant events took place some years ago but also bearing in mind the effect on other court users.  There is only one resident BPC Judge at the relevant level to hear trials such as in this case in Newcastle and removing a ten day trial from the list but then having to put it back again has a serious impact on other court users.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num>143.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am also not satisfied that disclosure would be at an end.  There is a very real issue as to how the search terms identified would operate in practice and whether documents may have been missed because an electronic search using the search terms used would not have picked up the use of initials or shortened form names or nicknames in correspondence/notes.  There are issues as to precisely how the searches of the deposit of documents were carried out.  Further, there might be issues as to need for third party disclosure.   Mr D. Morris&#8217; suggestion that the court might make further orders regarding disclosure to fill any gaps would again suggest that a line cannot safely be drawn under the disclosure process at this time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num>144.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Had Mr D. Morris dealt with the matter promptly, then the timetable would not have been in such jeopardy and things may have been fully ironed out.    However, he effectively failed to respond to the concerns raised in June until October and only then days before the hearing.  Further a relief from sanctions application was obviously called for but only issued on short notice before the hearing listed in November 2025 which hearing was obviously too short given the material emerging from Mr D. Morris. Even after the 04 November hearing, it was only on the mornings of 26 and 27 January 2026, during the course of the adjourned hearing, that Mr D. Morris finally condescended to deal with points that had been well explored at the 04 November 2025 hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_145">
+	  <num>145.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Looking at the matter in the round, I am wholly satisfied that the grant of relief from sanctions is not appropriate and I dismiss the application for relief.  The consequence is that the proceedings are struck out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num>146.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When circulating a draft of this judgment, I invited the parties to seek to agree a form of order (or as much of it as they could) before judgment was formally handed down. A draft has been provided.  The main orders to give effect to the judgment are agreed. I make orders in those terms.  Certain consequential matters are not agreed.  I adjourn determination of those to the date currently set for the PTR which will now be a consequentials hearing</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

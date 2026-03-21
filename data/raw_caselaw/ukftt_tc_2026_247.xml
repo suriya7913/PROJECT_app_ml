@@ -1,0 +1,512 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/247"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/247"/>
+	  <FRBRdate date="2026-01-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="247"/>
+	  <FRBRname value="IPSC Recruitment Ltd v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/247"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/247"/>
+	  <FRBRdate date="2026-01-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/247/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/247/data.xml"/>
+	  <FRBRdate date="2026-02-20T12:20:11" name="transform"/>
+	  <FRBRdate date="2026-02-20T13:35:22" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-15" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-01-20" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="ipsc-recriutment-ltd" href="" showAs="IPSC RECRIUTMENT LTD"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-amanda-brown-kc" href="/judge-tribunal-judge-amanda-brown-kc" showAs="TRIBUNAL JUDGE AMANDA BROWN KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>247</uk:number>
+	<uk:cite>[2026] UKFTT 247 (TC)</uk:cite>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>dddd81bbb4a36d0cd18ee0010252568f862da89c63b8338cbea1601a688843d9</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading8 { text-align: left; font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.45pt;height:52.6pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation>[2026] UKFTT 00247 (TC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: TC 09783</p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">[By remote video/telephone hearing]</p>
+      <p style="text-align:right">Appeal reference: TC/2025/03456</p>
+      <p style="text-align:right">TC/2024/03423</p>
+      <p><span style="font-style:italic">VAT &#8211; notice of requirement for security &#8211; whether HMRC decision reasonable &#8211; yes &#8211; appeal dismissed</span></p>
+      <p><span style="font-style:italic">PAYE/NICs &#8211; notice of requirement for security &#8211; whether HMRC decision reasonable &#8211; yes &#8211; appeal dismissed</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2026-01-15" refersTo="#hearing">15 January 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>20 January 2026</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-amanda-brown-kc" style="font-weight:bold">TRIBUNAL JUDGE AMANDA BROWN KC</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">ANN CHRISTIAN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#ipsc-recriutment-ltd" style="font-weight:bold">IPSC RECRIUTMENT LTD</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>Martin Kaney XVAT</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Ms Preetika Sharma, litigator of HM Revenue and Customs&#8217; Solicitor&#8217;s Office</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">With the consent of the parties, the form of the hearing was a video hearing.  A face-to-face hearing was not held because it was not expedient to do so.  The documents to which we were referred were contained in a single documents and authorities bundle of 546 pages.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-size:11pt">2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Prior notice of the hearing had been published on the gov.uk website, with information about how representatives of the media or members of the public could apply to join the hearing remotely in order to observe the proceedings.  As such, the hearing was held in public.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This matter concerns consolidated appeals by IPSC Recruitment Ltd (<span style="font-weight:bold">Appellant</span>) against two Notices of Requirement (<span style="font-weight:bold">NoRs</span>) issued by HM Revenue &amp; Customs (<span style="font-weight:bold">HMRC</span>): one in respect of Value Added Tax (<span style="font-weight:bold">VAT</span>) and the other in respect of Pay As You Earn (<span style="font-weight:bold">PAYE</span>) and National Insurance Contributions (<span style="font-weight:bold">NICs</span>). The VAT NoR, dated 15 April 2025, required security in the sum of &#163;158,037.00. The PAYE/NICs NoR, dated 16 April 2025, required security in the sum of &#163;281,756.69. The PAYE/NICs NoR was issued on a joint and several liability basis to the Appellant, Mr Kieran Ryan and Mr Robert Nealon.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The NoRs were issued on the basis that HMRC considered there to be a serious risk that the Appellant would not pay its tax liabilities as they fell due, in light of its own compliance history and its connections to a succession of failed entities with substantial unpaid tax debts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We delivered a judgment in this matter at the end of the hearing upholding both NoRs.  This is our full facts and reasons judgment as requested by the Appellant.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Background</heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant was incorporated on 9 October 2024 and registered for VAT on 1 November 2024.  Its registered office and/or principal place of business is/are the same as those of the following companies:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">IPeople SC Solutions Ltd</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">IPeople Solutions Ltd</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Action First Assessments Ltd</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Action First Recruitment Limited</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Like the companies in paragraph 6 above and also IPeople Services Ltd and IPeople Ltd (which have different registered officers/principal places of business but whom have also defaulted in their tax obligations), the Appellant operates under the trading activity of &#8220;other business support services not classified elsewhere&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">IPeople SC Solutions Ltd ceased trading in November 2024 and was liquidated on 13 March 2025.  We note that the company ceased to trade at approximately the same time as a determination by this Tribunal that it was required to pay security, the appeal being dismissed in November 2024.  The Appellant employed 37 of the previous employees of IPeople SC Solutions Ltd.  One of those employees is Mr R Nealon.  Records show that he is the Appellant&#8217;s highest paid employee.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Kieran Ryan is the sole statutory director of the Appellant. Mr Nealon is not a statutory director of the Appellant but was appointed to the role of finance director.  He was, however, a statutory director of IPeople SC Solutions Ltd, IPeople Solutions Ltd, IPeople Services Ltd, IPeople Ltd, Action First Assessments Ltd, Action First Recruitment Limited, and Action First IPeople Ltd.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Each of the companies with which Mr Nealon has been associated has defaulted in respect of tax obligations (in all but the case of IPeople Ltd, the defaults were of both VAT and PAYE) and, as at April 2025, owed significant sums to HMRC.  All but Action First Assessments Ltd have ceased to trade and entered insolvency procedures.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ryan and Mr Nealon were both directors of a further company: The Synergy Group Ltd from 1 August 2009 until it was dissolved on 8 September 2015 (it having ceased to trade on 20 May 2011).  It too defaulted in its tax obligations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The total tax losses arising from IPeople SC Solutions Ltd, IPeople Solutions Ltd, IPeople Services Ltd, and IPeople Ltd amounts to &#163;3,337,524.01.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant rendered its first period VAT return for the period from registration to 31 January 2025 declaring net VAT due of &#163;52,687.77.  The amount declared was not paid.  The Appellant also made its PAYE declarations for December 2024 to March 2025, declaring PAYE and NICs due of &#163;140,878.  That amount too was not paid.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having become aware of the Appellant&#8217;s failure to pay VAT and PAYE, and having established what HMRC considered to be relevant connections between the Appellant company and, at least, the IPeople businesses, HMRC determined that in order to protect the revenue they would need to issue the NoRs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Following issue, each NoR was challenged: in the case of VAT by way of a request for reconsideration and then review; and for PAYE/NICs by an appeal to HMRC, who issued a view of the matter letter which was then reviewed.  In each case, HMRC maintained their view that the NoRs were required.  In the review conclusion letters HMRC explained that they considered that the Appellant was a vehicle through which the business of IPeople SC Solutions Ltd and its predecessors was being continued.  As those companies had incurred significant tax debts, the NoRs were required to protect the revenue.  HMRC took no account of the asserted inability of the Appellant, Mr Ryan or Mr Nealon to pay the security requirements as they considered that a factor which they were entitled to ignore.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant then appealed to the Tribunal.  The grounds of appeal were stated to be:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:0.79in">&#8220;[the Appellant] does not have funds or access to loan funds to pay the Security Requirement in addition to meeting its ongoing compliance obligations.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:0.79in">The decision to impose a Security Requirement is unreasonable on the facts.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Before us the Appellant&#8217;s case had changed.  Mr Kaney contended that HMRC&#8217;s decision was unreasonable because HMRC could not reasonably have concluded that the Appellant, whose sole director is Mr Ryan, was relevantly connected to IPeople SC Solutions Ltd or its predecessors through Mr Nealon.  It was submitted that without the connection to the tax losses from those companies the only connected tax losses were those from The Synergy Group Ltd and those, arising between 2009 and 2011, were too remote to be relevant when objectively determining whether a NoR was reasonably required.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Despite those arguments not having been pleaded, we allowed the Appellant to advance them and for them to form the basis of Mr Kaney&#8217;s cross examination of Officer D&#8217;Arcy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Kaney confirmed that the Appellant does not challenge the procedure for raising and notifying the NoR, nor is there any challenge that, if the NoRs were reasonably required, their quantum had been reasonably determined.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">Relevant legal test</heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The legal framework for the issue of a NoR to provide security is set out primarily in paragraph 4(2)(a) of Schedule 11 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">Value Added Tax Act 1994</ref> (VATA 94) for VAT, and in Part 4A of the Income Tax (Pay As You Earn) Regulations 2003 and Part 3B of Schedule 4 to the Social Security (Contributions) Regulations 2001 for PAYE and NICs. The right of appeal is provided under section 83(1)(l) VATA 94 for VAT and under Regulation 97V of the PAYE Regulations 2003 and Paragraph 29V of the Contributions Regulations 2001 for PAYE/NICs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In the case of the VAT NoR the Tribunal&#8217;s jurisdiction is supervisory, not appellate. This means the Tribunal is limited to considering whether HMRC&#8217;s decision to issue the NoR was reasonable in all the circumstances at the time it was made. The Tribunal does not substitute its own decision for that of HMRC, but reviews whether HMRC acted in a way that no reasonable panel of Commissioners could have acted, or whether they took into account irrelevant matters or failed to consider relevant ones. This principle is established in <span style="font-style:italic">John Dee Ltd v Customs and Excise Commissioners</span> <ref href="#" uk:canonical="[1995] STC 941" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] STC 941</ref> (<span style="font-style:italic;font-weight:bold">John Dee</span>), where the Court of Appeal held that the Tribunal&#8217;s role is to examine whether the statutory condition for requiring security was satisfied and whether the Commissioners&#8217; discretion was exercised reasonably.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For PAYE and NICs, the Tribunal&#8217;s jurisdiction is broader. Under Regulation 97V(5) of the PAYE Regulations 2003, the Tribunal may confirm, vary, or set aside the NoR. However, the Tribunal is still guided by the principle of reasonableness and proportionality, as established in case law such as <span style="font-style:italic">D-Media Communications Ltd v HMRC</span> [2016] TC 05183 and <span style="font-style:italic">Highlake Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2017/0808" uk:canonical="[2017] UKFTT 0808 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKFTT 0808 (TC)</ref> (<span style="font-style:italic;font-weight:bold">Highlake</span>). The Tribunal may consider whether the amount of security is reasonable and proportionate to the risk to the revenue, but it does not exercise a fresh discretion as to whether security should be required unless HMRC&#8217;s decision is found to be unreasonable or procedurally flawed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Where exercising a supervisory jurisdiction (and, by assimilation, the broader appellate jurisdiction concerned with whether HMRC have acted reasonably) even where HMRC act unreasonably the appeal can be dismissed if we are satisfied that, excluding any unreasonable factors, the decision reached to issue a NoR would nevertheless have been inevitable (see <span style="font-style:italic">John Dee</span>).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The legal basis for joint and several liability in the context of NoRs for PAYE and NICs is found in Regulation 97P of the Income Tax (Pay As You Earn) Regulations 2003 and the corresponding provisions in the Social Security (Contributions) Regulations 2001. These regulations empower HMRC to require security from more than one person, including company directors and persons &#8220;purporting to act in [the capacity of a director]&#8221;, and to make them jointly and severally liable for the full amount of the security.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The burden of proof lies with the Appellant to show, on the balance of probabilities, that HMRC acted unreasonably in deciding to require security. The Tribunal considers only the facts and circumstances known to HMRC at the time the decision was made; subsequent developments are not relevant to the lawfulness of the original decision (<span style="font-style:italic">Customs and Excise Commissioners v Peachtree Enterprises Ltd</span> [1994] BVC 209).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was previously accepted in <span style="font-style:italic">Highlake</span> that the company&#8217;s inability to pay the security is not a matter relevant to the reasonableness of a NoR.  Nor is the potential impact on its ability to continue trading (see <span style="font-style:italic">Rosebronze Ltd v HMRC </span>LON/84/154 (<span style="font-style:italic;font-weight:bold">Rosebronze</span>)).  In each case the Tribunal (and its predecessor) held that the legislation is concerned solely with the protection of revenue, not with balancing this objective against the company&#8217;s ability to trade or the consequences for employees.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">Evidence </heading>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We were provided with a bundle of source documents which were considered by Officer Wyatt before issuing the NoRs.  These documents were reviewed by Officer D&#8217;Arcy, who provided a witness statement and sworn testimony on which she was cross examined by Mr Kaney.  In her statement she explains the relevance of the documents and the conclusions drawn from them.  We accept Officer D&#8217;Arcy&#8217;s evidence.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Kaney did not cross examine Officer D&#8217;Arcy concerning any of the source documents which provided the details of the various companies of which Mr Nealon was a director.  We are therefore entitled to accept that Officer D&#8217;Arcy&#8217;s assessment of what those documents prove is correct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In response to questions put concerning whether the Appellant had been precluded from entering into a time to pay arrangement Officer D&#8217;Arcy confirmed that it was HMRC&#8217;s policy to refuse time to pay where there is an outstanding NoR.  The Appellant&#8217;s time to pay offer made on 8 April 2025 of &#163;4,400 per month had not been accepted, as it would have taken considerably more than a year repay the debt then outstanding, which was also increasing month on month and quarter on quarter because the Appellant continued to fail to pay the tax shown on returns and declarations.  Time to pay was then precluded by the issue of the NoR.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Officer D&#8217;Arcy considered that, as the Appellant operated the same type of business, from the same premises and with many of the same employees as IPeople SC Solutions Ltd, there was sufficient and reasonable evidence that the Appellant business had sufficient connection to IPeople SC Solutions Ltd to represent a risk to the revenue, particularly when taken with the Appellant&#8217;s own failure to meet any of the tax debt, that had arisen through its own trading.  Officer D&#8217;Arcy also informed us that Mr Ryan had received sums from IPeople Solutions Ltd and Action First Recruitment Ltd which were said to be loan repayments, thereby establishing to her reasonable satisfaction, a further connection between Mr Ryan and those defaulting companies.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ryan also gave evidence and was cross examined.  His statement was limited.  He stated that he was the CEO of the Appellant.  The Appellant had been unable to secure loan funding to enable it to meet its liability under the NoRs and  he did not have the personal resources to meet the PAYE/NICs NoR.  He claimed that the business would need to cease if HMRC sought to collect the security amounts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">When cross examined by Ms Sharma Mr Ryan accepted that the Appellant had rendered relevant returns and declarations but had not paid any amounts due on them.  He accepted that the Appellant&#8217;s business represented a risk to the revenue given the outstanding liabilities.  In answer to a question put to him by the Tribunal panel he confirmed that the Appellant had represented a risk to the revenue in April 2025 in consequence of its failure at that time to have paid its tax obligations.  Such an answer was a reasonable one to give absent any explanation for non-payment of the tax sums, particularly the VAT due which had been collected from the Appellant&#8217;s customers and not paid over to HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ryan also confirmed that Mr Nealon was appointed as the Appellant&#8217;s finance director but claimed that he, himself, was responsible for the finances of the Appellant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> We received no evidence from Mr Nealon as to his relationship, or otherwise, to the Appellant.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">Findings of fact</heading>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We remind ourselves that we are concerned only with evidence of facts as at 15 and 16 April 2025 and that the issue we must determine is whether HMRC formed a reasonable view that the Appellant&#8217;s business represented a risk to the revenue justifying the issue of the NoRs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In this context we find:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">On 15 April 2025 the Appellant had outstanding VAT liabilities of &#163;52,687.77, representing all liabilities arising throughout its period of trade.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">On 16 April 2025 the Appellant had outstanding PAYE/NICs liabilities of &#163;140,878, also representing its entire PAYE/NICs liability during its period of trade.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">With its own debts totalling &#163;193,555 accruing over a period of only 5 months and not a single penny paid on account of those liabilities (as accepted by Mr Ryan) the Appellant represented a risk to the revenue without any connection to IPeople SC Solutions Ltd or any of the other companies.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">However, on the basis that the Appellant operated from the same premises, the same registered office and employed 37 of the previous employees of IPeople SC Solutions Ltd, it was reasonable for HMRC to conclude that the Appellant represented a continuation of the business previously carried on by IPeople SC Solutions Ltd.  The losses attributed to that business compounded the risk to the revenue presented by the Appellant&#8217;s own trade.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Mr Nealon was appointed to the role of finance director, as confirmed by Mr Ryan.  It is therefore to be inferred that he was responsible for the financial administration of the Appellant&#8217;s business albeit that from a statutory perspective Mr Ryan would have been required to sign accounts, etc.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Given that Mr Nealon had previously been involved as a statutory director in all the businesses with some derivation of the IPeople name and was employed as the finance director of the Appellant, as its most highly paid employee, it was objectively reasonable for HMRC to conclude that he was a person &#8220;purporting to act&#8221; in the capacity of a director of the Appellant further solidifying a conclusion that the Appellant represented a risk to the revenue and rendering him a person of a description prescribed in Regulation 97P of the Income Tax (Pay As You Earn) Regulations 2003 and the corresponding provisions in the Social Security (Contributions) Regulations 2001.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Mr Nealon has not contested that he should be jointly and severally liable under the PAYE/NICs NoR; it is therefore reasonable to conclude that he considers himself to have purported to act as a director of the Appellant.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(8)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">We have no evidence from either Mr Ryan (whose statement was sworn on 6 November 2025 and made no mention of Mr Nealon) or from Mr Nealon that Mr Nealon was unconnected with the Appellant&#8217;s business, for example that he had sold the business to Mr Ryan. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(9)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">We accept that Mr Ryan and the Appellant have not been able to secure loans.  We do not accept that the Appellant does not have any funds from which to meet, at least the VAT liability.  The Appellant&#8217;s customers have paid for the services they received inclusive of the VAT due on those services.  The Appellant has thereby collected the sums which it owes to HMRC in this regard.  That money should have been, or presently is, available to meet the VAT debt.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxheading1">Discussion </heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Our task in this appeal was to determine what evidence was available to HMRC when they took their decision to impose the NoRs and to determine whether, on that evidence, their decision was a reasonable one i.e. whether HMRC considered all the evidence available and did not take account of any irrelevant factors.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant&#8217;s appeal was pleaded on the basis that HMRC had not taken account of its inability to pay the sums due on the NoRs and the difficulties it would cause the business were payment to have to be made.  The cases of <span style="font-style:italic">Highlake </span>and <span style="font-style:italic">Rosebronze </span>indicate that given the context of the need to protect the revenue, such factors are irrelevant.  HMRC were therefore right not to take them into account, and neither do we.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The case before us was that Mr Ryan&#8217;s business should not be tainted by the previous failings of businesses of which Mr Nealon was a director.  We have found that HMRC were entitled to conclude that the Appellant&#8217;s business was relevantly connected to all those identified and considered by HMRC, either as a continuation of those businesses and/or through Mr Nealon&#8217;s involvement in those businesses and in his capacity as finance director (thereby purporting to act as a director, including in name) of the Appellant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In addition, however, and on the facts we have found, HMRC could reasonably have concluded that the NoRs were necessary without reference to any of Mr Nealon&#8217;s businesses, such that even had we considered that HMRC had unreasonably taken those businesses into account, their decision to issue the NoRs was inevitable and we would have upheld it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant&#8217;s business represents the latest phoenix to rise from the ashes of previous businesses with which Mr Ryan and Mr Nealon have been connected which have, over time, left behind them considerable tax losses.  The Appellant is precisely the type of business to which the taxpaying public would expect HMRC to issue NoRs.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Taxheading1">Disposition</heading>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For these reasons we dismiss the appeals.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="Taxheading1">Right to apply for permission to appeal</heading>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This document contains full findings of fact and reasons for the decision.  Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.  The application must be received by this Tribunal not later than 56 days after this decision is sent to that party.  The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">Release date:</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_8_2">
+	    <content>
+	      <p style="text-align:center"><docDate date="2026-01-20" refersTo="#decision" style="font-weight:bold">20 January 2026</docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

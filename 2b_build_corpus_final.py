@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-LegalKGent — Step 2: Build Smart Corpus
-=========================================
-Parses all raw XML files (legislation, SIs, case law, notes) into a unified
+LegalKGent — Step 2b: Build Final Unified Corpus
+================================================
+Parses all raw XML files (legislation, SIs, case law) into a unified
 corpus with CLML structural metadata. Also loads effects triples.
 
 Usage:
-    python 2_build_corpus.py
+    python 2b_build_corpus_final.py
 
 Reads:
     data/raw_legislation/*.xml
     data/raw_caselaw/*.xml
     data/raw_statutory_instruments/*.xml
-    data/explanatory_notes/*.xml
+    data/raw_statutory_instruments/*.xml
     data/amendments/*.xml
 
 Writes:
@@ -29,12 +29,12 @@ from utils.normalizers import build_abbreviation_table, build_id_to_title_map
 def main():
     print("""
 ╔══════════════════════════════════════════════════════════╗
-║  LegalKGent — Step 2: Build Smart Corpus                ║
+║  LegalKGent — Step 2b: Build Final Unified Corpus       ║
 ╚══════════════════════════════════════════════════════════╝
     """)
 
     # 1. Build smart corpus from all raw XML
-    corpus = build_smart_corpus()
+    corpus = build_smart_corpus(types=['legislation', 'si', 'caselaw'])
 
     # 2. Save corpus
     with open(CORPUS_FILE, "w", encoding="utf-8") as f:
@@ -58,10 +58,7 @@ def main():
     for src, count in sorted(sources.items()):
         print(f"   {src}: {count} chunks")
 
-    # Count enriched chunks
-    with_notes = sum(1 for c in corpus if c.get("notes_text"))
-    if with_notes:
-        print(f"   With explanatory notes: {with_notes}")
+
 
     # 4. Load effects triples (ground-truth from API)
     effects = load_effects_triples()

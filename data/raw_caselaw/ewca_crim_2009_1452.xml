@@ -1,0 +1,613 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/1452"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/1452"/>
+	  <FRBRdate date="2009-07-14" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1452"/>
+	  <FRBRname value="Coe, R. v"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/1452"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/1452"/>
+	  <FRBRdate date="2009-07-14" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/1452/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/1452/data.xml"/>
+	  <FRBRdate date="2024-08-31T02:00:38" name="transform"/>
+	  <FRBRdate date="2024-11-21T06:10:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2009-07-14" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="regina" href="" showAs="REGINA"/>
+	<TLCPerson eId="christopher-steven-coe" href="" showAs="CHRISTOPHER STEVEN COE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lady-justice-hallett" href="/judge-lady-justice-hallett" showAs="LADY JUSTICE HALLETT"/>
+	<TLCPerson eId="judge-mr-justice-hickinbottom" href="/judge-mr-justice-hickinbottom" showAs="Mr JUSTICE HICKINBOTTOM"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2009</uk:year>
+	<uk:number>1452</uk:number>
+	<uk:cite>[2009] EWCA Crim 1452</uk:cite>
+	<uk:parser>0.26.0</uk:parser>
+	<uk:hash>dbad984a13f2e691edbb1805966877a94f3b52d56d1c7e7f566bf02d2e17db20</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2009] EWCA Crim 1452</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>2008/04202</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">IN THE SUPREME COURT OF JUDICATURE</courtType></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM</p>
+      <p class="CoverMain">HIS HONOUR JUDGE FIELD QC</p>
+      <p class="CoverMain">T2007/7012</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2009-07-14" refersTo="#judgment">14/07/2009</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-hallett">LADY JUSTICE HALLETT</judge></p>
+      <p class="CoverMain" style="text-align:center">MR JUSTICE MADDISON<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-hickinbottom">Mr JUSTICE HICKINBOTTOM</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#regina" style="font-weight:bold">REGINA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#christopher-steven-coe" style="font-weight:bold">CHRISTOPHER STEVEN COE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Christopher Oswald</span> (instructed by <span style="font-weight:bold">Ross Solicitors</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Ian Dixey </span>(instructed by<span style="font-weight:bold"> CPS Wiltshire</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates : 30 June &#8211; 3 July 2008</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Maddison:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 3 July 2008 at the Crown Court at Swindon, the appellant Christopher Steven Coe (now aged 43) was convicted of an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (to which we will refer as &#8220;the RTA&#8221;).  On 31 July he was sentenced by His Honour Judge Field to serve 5 years&#8217; imprisonment, and was disqualified from driving for 5 years and until thereafter he had passed an extended driving test.  He appeals against his conviction by leave of the Single Judge, who referred his application for leave to appeal against sentence to the Full Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>A(1) of the RTA provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel2" style="margin-left:0.79in">&#8220;If a person causes the death of another person by driving a mechanically propelled vehicle on a road or other public place without due care and attention, or without reasonable consideration for other persons using the road or place, and &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		    <content>
+		      <p class="ParaLevel3" style="margin-left:1.48in">he is, at the time when he is driving, unfit to drive through drink or drugs, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		    <content>
+		      <p class="ParaLevel3" style="margin-left:1.48in">he has consumed so much alcohol that the proportion of it in his breath, blood or urine at that time exceeds the prescribed limit, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		    <content>
+		      <p class="ParaLevel3" style="margin-left:1.48in">he is, within 18 hours after that time, required to provide a specimen in pursuance of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref>, but without reasonable excuse fails to provide it, or</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.85in">d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">he is required by a constable to give his permission for a laboratory test of a specimen of blood taken from him under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref>, but without reasonable excuse fails to do so, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-indent:0.5in">he is guilty of an offence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be helpful at this stage to set out or summarise other statutory provisions insofar as they are relevant for the purposes of this judgment.  Section 4(1) of the RTA provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;A person who, when driving &#8230;. a &#8230;. vehicle on a road &#8230;. is unfit to drive through drink or drugs is guilty of an offence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:-0.5in">Section 5(1) provides:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:-0.5in"><marker name="tab"/>&#8220;If a person &#8230; drives &#8230; a &#8230; vehicle on a road &#8230;after consuming so much alcohol that the proportion of it in his breath, blood or urine exceeds the prescribed limit he is guilty of an offence.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:-0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7(1)</ref> provides:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:-0.5in"><marker name="tab"/>&#8220;In the course of an investigation into whether a person has committed an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A, 4 or 5 of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref> a constable may &#8230; require him (a) to provide two specimens of breath for analysis&#8230; or (b) to provide a specimen of blood or urine for a laboratory test.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:-0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7(6)</ref> provides:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:-0.5in"><marker name="tab"/>&#8220;A person who, without reasonable excuse, fails to provide a specimen when required to do so in pursuance of this section commits an offence.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7</ref>A of the RTA is a rather complex provision, and we will summarise the parts of it which are relevant for the purposes of this judgment.  <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7</ref>A(1) permits a constable to request a medical practitioner to take a specimen of blood from a person, whether the person consents or not, if the constable would normally have been entitled to request a specimen under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>, but it appears to the constable that the person has been involved in an accident which is under investigation, and for medical reasons is or may be incapable of giving a valid consent to the taking of a specimen of blood.  <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7</ref>A(4) provides that such a specimen shall not be subjected to a laboratory test unless, amongst other things, the person concerned has been required by a constable to give and has given his permission for such a test.  <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7</ref>A(6) provides that a person who fails without reasonable excuse to give such permission is guilty of an offence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We now return to the offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1) of the RTA.  In every case, the prosecution must of course prove what is set out in the initial passage  set out in paragraph 2 above ending with &#8220;&#8230; and &#8211; &#8221;.  Thereafter, however, paragraphs 3A(1)(a) to (d) provide four different ways in which the offence can be committed, in effect requiring the prosecution also to prove an offence contrary to section 4(1) <span style="text-decoration-line:underline;text-decoration-style:solid">or</span> 5(1) <span style="text-decoration-line:underline;text-decoration-style:solid">or</span> 7(6) <span style="text-decoration-line:underline;text-decoration-style:solid">or</span> 7A(6) respectively.  In the case we are considering, the charge was laid under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c).  The Particulars of Offence in the indictment read: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Christopher Steven Coe, on the 17<span style="vertical-align:super;font-size:smaller">th</span> May 2007, caused the death of Richard Flynn by driving a mechanically propelled vehicle, namely a Suzuki motor cycle&#8230;. on a road, namely Queens Drive, Swindon without due care and attention and within 18 hours after that time was required to provide a specimen in pursuance of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of the [RTA] but without reasonable excuse failed to provide it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We turn to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> (to which we will refer as &#8220;the RTOA&#8221;) and to those parts of section 15 which are relevant to the charge laid against the appellant and the issues raised in this appeal.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="text-indent:0.39in">Section 15(1) provides: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;This section &#8230; [applies] in respect of proceedings of an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A, 4 or 5 of the [RTA] (driving offences connected with drink or drugs); and expressions used in this section &#8230; have the same meaning as in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 3</ref>A to 10 of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">that Act</ref>.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="text-indent:0.39in">Section 15(2) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Evidence of the proportion of alcohol or any drug in a specimen of breath, blood or urine provided by or taken from the accused shall in all cases (including cases where the specimen was not provided or taken in connection with the alleged offence) be taken into account and &#8230; it shall be assumed that the proportion of alcohol in the accused&#8217;s breath, blood or urine at the time of the alleged offence was not less than in the specimen.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.39in">Section 15(4) provides that a specimen of blood not taken in a police station &#8220;&#8230; shall be disregarded unless (a) it was taken from the accused with his consent &#8230; (ii) &#8230; by a medical practitioner.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="text-indent:0.39in">Section 15(5) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;Where, at the time a specimen of blood &#8230; was provided by the accused, he asked to be provided with such a specimen, evidence of the proportion of alcohol &#8230; found in this specimen is not admissible on behalf of the prosecution unless &#8211; </p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the specimen&#8230; in which the alcohol or drug was found is one of two parts into which the specimen &#8230; was divided at the time it was provided, and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the other part was supplied to the accused.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We now turn to the facts of the case.  Shortly after 9.30pm on 17 May 2007 Richard Flynn was crossing Queens Drive in Swindon at a pelican crossing.  Queens Drive was a well-lit dual carriageway, each carriageway having two traffic lanes.  The speed limit was 40mph.  The pelican crossing had two sections, one for each carriageway of the road.  Each section was controlled by separate traffic lights.  Zig-zag lines 28 metres long led up to the crossing.  Mr Flynn crossed to the first section in accordance with the lights, which had been operated by another pedestrian, the prosecution witness Kieran Owen.  Mr Owen then decided to cross the second section of the crossing without operating the lights and made it safely to the other side.  Mr Flynn followed him, but as he was crossing he was struck and killed by a motor cycle driven by the appellant, on which a lady called Debra Trott was a pillion passenger.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In all, four vehicles had been approaching the second section of the pelican crossing as Mr Flynn set off to cross it.  One was a green Ford vehicle driven by the prosecution witness Andrew Sturmey, who was on the inside lane.  Behind him were two motor cycles, one driven by the prosecution witness Robert Hammonds, also in the inside lane, and the other driven by the appellant.  Some way behind them all was a white van driven by the prosecution witness Jackie Blackmore.  Mr Sturmey said that he was travelling at 30 to 35mph.  He saw Mr Flynn ahead of him in the middle of the road.  The lights were green in favour of the traffic approaching the crossing.  Mr Sturmey slowed down, and said that Mr Flynn would have got safely to the other side had he carried on walking.  However, he stopped, looked at Mr Sturmey&#8217;s vehicle and then took two steps back into the overtaking lane.  Mr Sturmey then saw the appellant accelerating in the overtaking lane before colliding with Mr Flynn.  Mr Sturmey estimated that the appellant was travelling at between 30 and 45mph at the time of the collision.  The appellant and his passenger fell off the motor cycle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Hammonds said that he was travelling at 30 to 40mph.  He too was in the inside lane.  He saw Mr Flynn walk into the carriageway and Mr Sturmey slow down.  He said that Mr Flynn got two-thirds of the way across, stopped, stepped back towards the centre of the carriageway, and then stood still.  Mr Hammonds saw the appellant overtaking in the outside lane at a speed he put at slightly over 40mh, and continuing at about that speed until his motor cycle struck Mr Flynn who was &#8220;flicked into the air&#8221;.  Mr Hammonds saw the appellant's brakes go on only at the point of impact.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Jackie Blackmore did not see the collision, but gave evidence that some distance from the point of the collision the appellant had overtaken her and then pulled in to the nearside lane.  This was the only evidence that the appellant had been in the inside lane at any stage as he approached the pelican crossing.  The other pedestrian Kieran Owen, to whom we referred earlier, did not see the collision either.  When he safely reached the other side of the crossing he heard a shout and turned to see the appellant and his passenger falling off their motor cycle and Mr Flynn lying in the road.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The scene was later examined, and two skid marks were found on the road, starting some 10 metres from the crossing.  Two accident reconstruction experts gave evidence, one for the prosecution and one for the defence.  Since they substantially agreed, it will be convenient to take them together.  P.C. Beresford Smith, called by the prosecution, estimated that the appellant was 46 metres from Mr Flynn when he first saw him, but would have had a clear view of the crossing from 200 metres away if, as the appellant himself contended, he had been in the outside lane at that point.  If he had been in the inside lane, his view of the crossing would have been obscured to some extent, depending on how close he was to the vehicles in front, until he pulled into the outside lane.  P.C. Beresford Smith added that had the appellant been travelling at 40mph when he first saw Mr Flynn the appellant should have been able to stop within 49 metres, but was in fact still travelling at an estimated 34 to 41mph when he struck Mr Flynn.  For the sake of completeness, we should add that P.C. Beresford Smith also pointed out that the Highway Code prohibits overtaking within the area covered by the zig-zag lines leading up to a pelican crossing, but in the event the evidence allowed for the possibility that the appellant was already ahead of Mr Sturmey as he entered the area of road concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">John Marshall, the defence expert, gave evidence broadly consistent with that of P.C. Beresford Smith.  Mr Marshall added that the degree to which the appellant's view of the crossing would have been obscured if in the inside would have been increased by the fact that the seat of the motor cycle was 3" to 4" lower than on a normal motor cycle.  Mr Marshall also referred to the skid marks on the road, and said that if those marks indicated the appellant's initial perception of Mr Flynn, the collision was inevitable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant himself gave accounts of the accident both when interviewed by the police and in evidence at the trial.  In interview he said that he had been in the outside lane at all relevant times.  He was travelling at 40mph.  He had a clear view of the crossing from a football pitch length away, as he put it.  Mr Flynn stepped out into the road when the appellant was so close to him &#8211; no more than 20 feet away &#8211; that he could not avoid a collision.  The appellant did not sound his horn but tried to shout something.  In evidence, the appellant repeated that he had been in the outside lane.  He said that his memory was not good in relation to the accident.  He was unaware of a pedestrian until suddenly a person appeared from nowhere, facing him in the road.  He shouted and braked before the impact.  He admitted both in interview and evidence that he had been drinking that evening, but only two pints of lager, one at each of two licensed premises that he and Debra Trott had visited.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A blood sample was later taken from the deceased&#8217;s body, and on analysis was found to contain 299 milligrams of alcohol per 100 millilitres of blood, the legal limit for driving being 80.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We turn to the evidence relating to the appellant's condition after the accident.  Matthew Baskerville a paramedic dealt with the appellant and Ms Trott after the accident.  He said that both smelt strongly of alcohol.  He put the appellant in a collar and placed him on a board.  The appellant seemed to exaggerate his injuries, crying out when no one was touching him, and being unhelpful.  Doctor Dunn, an Accident and Emergency Registrar, gave evidence that he carried out the preliminary examination of the appellant when he arrived at the hospital.  He assessed the appellant's verbal responses and noticed that the appellant had a swelling to the side of his face.  The appellant complained of a loss of sensation below his waist, as a result of which he was examined by an orthopaedic surgeon but nothing further was found.  Dr Dunn gave evidence as to the appellant's level of consciousness.  The appellant had been a bit confused when he arrived at the hospital, but was certainly not unconscious and scored 14 out of 15 on the Glasgow Coma Scale, on which 15 indicated the highest level of consciousness.  Dr Dunn said that he too, had smelt alcohol on the appellant's breath.  Mr Allen, a Consultant Oral Surgeon, found that the appellant had an un-displaced fracture of his right cheek bone.  The symptoms of such a fracture would be pain, numbness, swelling, double vision and possible nose bleeds.  The injury would have caused distress, and blows to the face could cause disorientation, but the appellant's injury was a common one and in itself would not have rendered him unconscious.  The injury did not require surgical intervention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Soon after the appellant arrived at the hospital, blood samples were taken from him by a member of the hospital staff.  The police had no involvement in this process.  Dr Dunn said that the samples would have been taken as a matter of routine by a doctor, or a qualified nurse or assistant.  However, the identity of the person who took the samples was not known.  There was no evidence of any difficulty from the appellant in relation to the obtaining of those samples.  The appellant said in evidence that he could not recall being asked for any specimen of blood at the hospital.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The blood collection tubes used to collect the specimens had been manufactured by a company represented by the prosecution witness Aaron Cousins.  He said that the tubes were manufactured in environmentally controlled conditions; alcohol was not added to any of them in the course of production, neither did any of the component parts contain alcohol, as far as the company was aware; and on completion of their manufacture the tubes were sealed and sterilised.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Simon Grove, a biomedical scientist who was on duty at a laboratory in the hospital that night, received the blood samples.  There were four of them.  One of them was to ascertain the blood group; the second to ascertain the blood count; the third to assess clotting ability; and the fourth was for general chemical analysis.  During the testing of the samples, the lids of two of the tubes would have been removed for a time, and the lids of the other two would have been pierced by probes.  The laboratory and the equipment used in it were sterile, though a theoretical possibility of contamination could not be excluded.  Having been tested, the samples were put in a refrigerator.  None of the tests would have involved the introduction of alcohol.  No preservative was added to the blood samples.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 22 May 2007 the police obtained from a Circuit Judge an order for the production of the blood samples.  One of them (it was not known which) was then tested in June 2007 by a forensic scientist, the prosecution witness Marcus Donohue, at the Chorley laboratory of the Forensic Science Service, and found to contain 210 milligrams of alcohol per 100 millilitres of blood, more than 2&#189; times the legal driving limit.  Mr Donohue noticed that the sample was unpreserved, which was not usual in samples of this sort supplied to the laboratory.  He said that if the sample had been taken in sterile conditions, and the recepticle was sterile, there would have been a loss of alcohol over time.  Otherwise, there was a possibility of microbial action having increased the amount of alcohol in the specimen.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although these blood specimens were not taken by or at the request of the police, the police did try to obtain a specimen from the appellant pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of the RTA.  P.C. Brewster gave evidence that at 11pm he asked Dr Dunn for permission to take a sample of breath from the appellant, and Dr Dunn gave permission.  Dr Dunn confirmed this in evidence.  He said that there was no reason why the appellant could not give samples to the police, notwithstanding his fractured cheek bone.  P.C. Brewster said that he followed the appropriate procedure for taking a sample of breath and explained this to the appellant, who was lying down and wearing a neck brace.  The appellant did not reply to any of P.C. Brewster&#8217;s requests or questions, and did not react when the mouthpiece of the machine was placed against his lips.  P.C. Brewster was concerned that the appellant may have been unconscious and spoke to Dr Dunn again.  Dr Dunn said that due to the appellant's highly intoxicated state, he may have been &#8220;in and out of consciousness&#8221;.  P.C Brewster followed the procedure designed to deal with unconscious hospital patients (presumably that prescribed by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>A of the RTA) and called for Dr Leaper, a police surgeon.  When Dr Leaper arrived he and P.C. Brewster went to see the appellant.  The appellant was lying motionless on a bed.  When Dr Leaper approached, however, the appellant opened his eyes.  P.C Brewster noticed that they were blood-shot and glazed.  The appellant asked not to be &#8220;put back in that machine&#8221; (apparently a reference to equipment in which he had earlier been scanned) and then crossed his arms tightly, preventing Dr Leaper&#8217;s access to his vein for a blood test.  P.C Brewster explained several times to the appellant that it was an offence not to provide a sample and advised him that he would be charged with this offence.  Dr Leaper spent several minutes trying to persuade the appellant to cooperate, but without success.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Leaper&#8217;s evidence at the trial was to similar effect.  He believed the appellant had been deliberately preventing him from taking a sample.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant's evidence in this regard was as follows.  He said that after the accident his next real memory was waking up in hospital when a catheter was being inserted into him.  He remembered being in a machine and being afraid that he was going to die.  He could not recall being asked for a specimen of breath or blood.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We now turn to the trial.  On the appellant's behalf, application was made to exclude the evidence of the analysis of the routine blood sample to which we have referred.  Defence Counsel observed that in the absence of evidence by whom and in what circumstances that the sample was taken, there was room for conjecture that there may have been some contamination of the sample.  Moreover there was no evidence that the sample had been taken with the consent of the appellant, and section 15(4) of the RTOA therefore required that it be disregarded.  In addition, the procedure for dividing a specimen prescribed by section 15(5) had not been followed, as a result of which the evidence of the proportion of alcohol found in the specimen was not admissible on behalf of the prosecution.  In any event, it was submitted that the admission of the evidence would be so unfair that it should be excluded under section 78 of the Police and Criminal Evidence Act, 1984.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The prosecution replied that section 15 of the RTOA applied only to offences which required the prosecution to prove that the accused was unfit to drive through drink or drugs or had consumed so much alcohol that the proportion of it in his breath, blood or urine exceeded the prescribed limit.  This was not such a case.  Moreover, the analysis of the blood sample was relevant because it went to the standard of the appellant's driving and to the reasons for his refusal to provide a specimen when requested to do so by the police.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge accepted the prosecution&#8217;s submissions and admitted the evidence.  Having done so he appears to have had second thoughts and later in the trial he expressed concerns about the integrity of the blood sample.  Prosecuting Counsel, however, observed that there was no evidence that the sample had in fact been contaminated.  He submitted that the ordinary rule was that everything was presumed to have been done properly unless the contrary was proved.  He reminded the judge of Dr Dunn&#8217;s evidence that the sample must have been taken by a properly qualified person; and of the evidence of Mr Grove the laboratory technician that his equipment and laboratory were sterile, albeit that he could not rule out the theoretical risk of contamination.  In addition, prosecuting Counsel said that he intended to read the statement of Aaron Cousins, to whom we have referred, as to the sterility of the blood collection tubes.  This clearly met the concerns of the judge, and the case proceeded.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When the judge summed up, he directed the jury that they could take into account the evidence of the analysis of the blood only if they found it to be reliable; in which case it was for them to decide to what extent if at all it helped them in deciding whether the appellant was driving without due care and attention, and whether or not he was deliberately obstructive towards P.C Brewster and Dr Leaper when they were attempting to obtain the samples.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before us, Mr Oswald, on behalf of the appellant has in essence developed the arguments he advanced at the trial to His Honour Judge Field.  He submits that the judge was wrong to admit the evidence of the analysis of the blood sample.  He ignored the relevant provisions of section 15 of the RTOA.  Further or alternatively, he should have excluded the evidence under section 78 of the 1984 Act, not least because of the judge&#8217;s own concerns about the reliability of the sample.  The judge also failed properly to apply the test set out in R v McBride (1961) 45 Crim. App. R. 262 when deciding whether or not to admit the evidence.  We will return to that case later in this judgment.  In reply, Mr Dixey has substantially reiterated the submissions he made to the judge at the trial, adding that the evidence of the analysis of the blood sample was also relevant to rebut the appellant's assertion that he had drunk only two pints of lager.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is important to note what the prosecution had to prove in this case.  Given that the offence charged was contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) of the RTA, the prosecution had to prove only that the appellant was driving without due care and attention (it not being disputed that the impact caused Mr Flynn&#8217;s death) and that the appellant had no reasonable excuse for his failure to provide specimens of breath and blood.  The prosecution did not have to prove that the appellant had taken drink or how much drink he had taken, as they would have had to do if the charge had been contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(a) or (b) of the RTA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In our judgment, there was ample evidence of both of the matters that the prosecution did have to prove, independently of the blood sample analysis.  In relation to driving without due care and attention there was clear evidence, including from the appellant himself, that he was in the outside lane as he approached the crossing.  In that lane he would have had an unrestricted view of the crossing for some 200 metres.  Mr Flynn entered the carriageway from the centre of the road, and thus from the side nearest to the appellant's lane.  As the appellant neared the junction he was ahead of any other vehicle that might otherwise have obstructed his view.  He jammed on the brakes only 10 metres or so from the crossing.  He himself said that he did not see Mr Flynn until he was some 20 feet away.  The appellant clearly failed to keep a proper lookout and braked far too late.  In relation to failing to provide the specimen, there was evidence from P.C Brewster, Dr Dunn and Dr Leaper, to which we have referred, from which the jury was perfectly entitled to conclude that the appellant was conscious at all relevant times, was doing his best to avoid giving a specimen, and that he had no reasonable excuse for failing to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that had the evidence of the analysis of the blood sample been admitted in error, it would not in our view have affected the safety of the conviction.  That is sufficient to dismiss the appeal against conviction, which we do.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, although it is not necessary for our decision, we have gone on to consider whether the evidence of the analysis was rightly admitted in the circumstances of this case.  In our view it was, for the following reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, it was relevant evidence.  The evidence went to the issue whether the appellant was driving without due care and attention, since the alcohol level was so high that it tended to show that the amount of drink taken was such as would adversely affect a driver, or that the appellant was in fact adversely affected (see R. v McBride <ref href="#" uk:canonical="[1961] 3 WLR 549" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1961">[1961] 3 WLR 549</ref>, R. v Thorpe <ref href="#" uk:canonical="[1972] 1 WLR 342" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1972">[1972] 1 WLR 342</ref> and R. v Millington [1996] RTR 80).  The evidence was also relevant to the reasons for which the appellant refused to provide any specimens.  We note that when summing up the judge limited to these two points the use to which the jury could put the evidence, and correctly directed the jury that it was for them to decide to what extent the blood analysis evidence assisted them in this regard.  In our view, the judge could properly have added that the jury might take into account the evidence of the analysis, to the extent that they thought fit, when considering the assertion of the accused that he had drunk but two pints of lager that evening.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, in our view section 15 of the RTOA had no bearing on the admissibility of the evidence of analysis in this case.  We accept that that section is capable of applying to a specimen of blood whether it is provided or taken pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> or 7A of the RTA or, as here, taken as a matter of routine by a member of the hospital staff.  That in our view follows from the bracketed passage in section 15(2) of the RTOA  (see paragraph 6 above).  But section 15(1) limits the application of the entire section to &#8220; &#8230;proceedings for an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A, 4 or 5 of the [RTA] (driving offences connected with drink or drugs) &#8230;&#8221;; and in our view the reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A must have been intended by Parliament to apply only to offences contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(a) and (b), and not to offences contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) and (d), even though section 15(1) does not expressly say so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a preface to our reasons for this conclusion, we will summarise the legislative history.  In their original forms, the RTA did not include <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A, and section 15(1) of the RTOA referred only to offences contrary to sections 4 and 5 of the RTA.  <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>A of the RTA was inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40" uk:canonical="1991 c. 40" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1991</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 48</ref> and Schedule 4 of which amended section 15(1) of the RTOA to add the reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A of the RTA (though the marginal note to section 15 still reads: &#8220;Use of specimens in proceedings for an offence under section 4 or 5 of the [RTA]&#8221;).  In its original form <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1) contained only paragraphs (a) to (c).  Paragraph (d) was added by <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>1 of the Road Safety Act, 2006, as was <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>A of the RTA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Our reasons for concluding that section 15 of the RTOA does not apply to offences contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) and (d) of the RTA are as follows.  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In our view it is clear from the juxtaposition in section 15(1) of the RTOA of the reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A of the RTA to the references to sections 4 and 5, and from the wording of the bracketed passage in section 15(1), &#8220;(driving offences connected with drink or drugs)&#8221;, that Parliament intended section 15 to apply only to those parts of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A of the RTA which (like sections 4 and 5) require the prosecution to prove either that the accused was unfit to drive through drink or drugs or that the proportion of alcohol in his breath, blood or urine exceeded the prescribed limit.  This is not the case in offences contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 3</ref>A(1)(c) and (d).  These are not &#8220;driving offences connected with drink or drugs&#8221;.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The fact that Parliament omitted any reference to an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/7/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(6)</ref> of the RTA in the original and amended forms of section 15(1) of the RTOA points clearly to the same conclusion.  <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/7/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 7(6)</ref>, like <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) is based on the failure of the accused to provide a specimen, whether or not he is unfit to drive and whether or not the proportion of alcohol in his breath, blood or urine exceeds the prescribed limit.  It would be completely illogical for section 15(1) to apply to an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) of the RTA but not to an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/7/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(6)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40" uk:canonical="1991 c. 40" uk:origin="TNA" uk:type="legislation">that Act</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">If the reference in section 15(1) of the RTOA to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A of the RTA was intended to extend to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c) it would presumably have to extend also to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(d), a provision which did not exist when section 15(1) was amended to include the reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A.  More importantly, <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(d), like <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(c), does not require the prosecution to prove that the accused was unfit to drive through drink or drugs or that the proportion of alcohol in his breath, blood or urine exceeded the prescribed limit.  Thus, had Parliament intended section 15(1) of the RTOA to cross-refer to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A(1)(d) of the RTA one would have expected the Road Safety Act, 2006 to have amended section 15(1) to add a reference to an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 7</ref>A(6) of the RTA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Our conclusion is also supported by the decision of this Court in R. v Ash [1999] RTR 34.  That was the case of causing death by dangerous driving, contrary to section 1 of the RTA.  The appellant was seriously injured in the collision concerned and lost a great deal of blood.  Although he provided a blood sample with consent, it was not possible to take enough blood for two samples to be made.  The sample taken was analysed and found to contain alcohol in excess of the prescribed limit.  This Court rejected a submission that section 15(5) of the RTOA rendered evidence of the analysis inadmissible, because the sample had not been divided.  As the Court said, the simple answer to that submission was that section 15 expressly applies only to offences contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 3</ref>A, 4 and 5 of the RTA.  However, Laws J., giving the judgment of the Court, referred to section 15(2) of the RTOA as &#8220; &#8230; a provision specific to offences where the taking of drink and the quantity of drink taken are constitutive of the offence itself&#8221; and added: &#8220;The section is concerned to regulate the proof of the prosecution case in relation to offences of that kind and no other.&#8221;  The taking of drink and the quantity of drink taken were not constitutive of the offence with which the appellant was charged.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having concluded that the evidence of the analysis of the blood specimen was relevant and that section 15 of the RTOA did not operate to exclude it, we next consider whether the evidence should have been excluded pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/60/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/60" uk:canonical="1984 c. 60" uk:origin="TNA" uk:type="legislation">Police and Criminal Evidence Act 1984</ref>.  We can see no reason why it should have been.  The case of McBride to which we have already referred is relevant again in this context.  It was a case of causing death by dangerous driving.  Ashworth J., giving the judgment of the Court, accepted that evidence that the accused was adversely affected by drink was relevant, and went on to consider whether it should have been excluded on the grounds that it was more prejudicial than probative.  In this regard, he said: &#8220;&#8230;. If such evidence is to be introduced, it should at least appear of substantial weight&#8221;.  (See also R. v Woodward <ref href="#" uk:canonical="[1995] 1 WLR 375" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 WLR 375</ref> to similar effect).  It was submitted on behalf of the appellant that the judge had mis-applied this test.  In our view he did not.  The evidence was of substantial weight.  It showed a level of alcohol more than 2&#189; times the prescribed limit.  True it is that the judge had some initial doubts about the possible contamination of the sample, but those doubts were assuaged.  We share what must have been the judge&#8217;s final view that the jury could properly have concluded from the evidence on this issue that this sample had not been contaminated before analysis, even though the judge rightly directed the jury to disregard the evidence of the analysis if that was not their conclusion.  Before leaving <ref href="http://www.legislation.gov.uk/id/ukpga/1984/60/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/60" uk:canonical="1984 c. 60" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, we would add that there was no evidence of bad faith on the part of the person who took the blood sample, or on the part of the police who had nothing to do with its taking.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In concluding that the evidence of the analysis of the routine specimen of blood was admissible, we are not intending to set any sort of precedent for future cases in which it is sought to admit such evidence.  Each case will inevitably turn on its own facts and circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We next consider the application for leave to appeal against sentence.  The appellant had previous convictions for offences for violence and contrary to the Public Order Act, 1986.  He was also convicted in 2001 of driving a vehicle with excess alcohol, and was disqualified from driving for 32 months.  He committed the current offence during the operational period of a 30-week suspended sentence imposed on 1 December 2006 for an offence of affray.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge had a pre-sentence report which we have read.  This stated that the appellant accepted full responsibility for the collision.  He had worked hard to address his alcohol consumption and greatly reduced his intake.  He had custody of his 4-year old son for four days of the week.  He also had a lot of contact with his baby daughter and a step-son.  He was seen as posing a low risk of reconviction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Passing sentence, the judge said that he was satisfied that the appellant was just over 2&#189; times the legal limit when driving his motor cycle.  That was a very serious and aggravating factor.  The judge accepted that the deceased should never have been in the road and that he had been four times over the limit, but other motorists had had time to see him and avoid colliding with him.  The appellant had a recent previous conviction for driving with excess alcohol.  The judge accepted that the appellant was remorseful and that any term of imprisonment would impact on his young son.  The judge said that he was not taking into account the Sentencing Guidelines Council&#8217;s Definitive Guideline on Causing Death by Driving, which was due to come into force on 4 August 2008, very shortly after the date of sentence, but that he had considered other guideline cases that were available to him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This must have been a reference to the cases of R. v Cooksley and Others [2003] 2 Crim. App. R. 18 and R. v Richardson and Robertson [2007] 2 Crim. App. R. (S) 36.  In the former case this Court issued guidance on sentencing for offences contrary to section 1 of the RTA, for which the maximum sentence was then 10 years&#8217; imprisonment.  The Court identified four categories of offences of increasing gravity, depending on the number of identified aggravating factors which were present.  It is not necessary for us to refer specifically to these factors.  The Court suggested a starting point for each of the four categories.  It added that no separate guidance was needed for an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A, for which at the time the maximum sentence was also of 10 years.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 24 February 2004 the maximum sentence for both offences was increased to 14 years by section 285 of the Criminal Justice Act, 2003 in the light of which this Court in the case of Richardson and Robertson re-assessed the four sentencing starting points identified in Cooksley as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.79in">For a case with no aggravating circumstances &#8211; 12 months&#8217; to 2 years&#8217; imprisonment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.3in">For a case of intermediate culpability &#8211; 2 to 4&#189; years&#8217; imprisonment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.3in">For a case of higher culpability &#8211; 4&#189; to 7 years&#8217; imprisonment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.3in">For a case of the most serious culpability &#8211; 7 to 14 years&#8217; imprisonment.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court in Richardson and Robertson also issued further guidance in relation to offences to contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A stating, amongst other things, that by the time the consumption of alcohol was at or about double the legal limit the case would fall within the category of intermediate culpability and that higher levels of alcohol would usually take the case into the categories of higher and then most serious culpability (see paragraph 30 of the judgment of the court).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Applying that guidance, in our judgment it is not properly arguable that the sentence of 5 years&#8217; imprisonment on the appellant was manifestly excessive.  Evidence of analysis which in our view was properly admitted at the trial, and to which the judge was entitled to have regard when sentencing, showed that the alcohol level was more than 2&#189; times the legal limit.  The appellant had a previous conviction for an offence of driving with excess alcohol.  The suspended sentence of which he was in breach was not activated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, we have considered the Sentencing Guidelines Council&#8217;s Definitive Guideline despite the judge&#8217;s reluctance to do so.  We refer to page 13.  Even were one to treat this as a case of momentary inattention with no aggravating features apart from the level of alcohol, the starting point suggested by the guideline is 6 years&#8217; imprisonment, with a suggested sentencing range of 5 to 10 years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons, we refuse the application for leave to appeal against the sentence.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

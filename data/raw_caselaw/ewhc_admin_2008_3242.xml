@@ -1,0 +1,734 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2008/3242"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2008/3242"/>
+	  <FRBRdate date="2008-11-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3242"/>
+	  <FRBRname value="Crown Prosecution Service v Inegbu"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2008/3242"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2008/3242"/>
+	  <FRBRdate date="2008-11-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2008/3242/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2008/3242/data.xml"/>
+	  <FRBRdate date="2024-11-06T05:34:16" name="transform"/>
+	  <FRBRdate date="2024-11-19T10:56:19" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2008-11-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="crown-prosecution-service" href="" showAs="CROWN PROSECUTION SERVICE"/>
+	<TLCPerson eId="inegbu" href="" showAs="INEGBU"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-lord-justice-latham" href="/judge-lord-justice-latham" showAs="LORD JUSTICE LATHAM"/>
+	<TLCPerson eId="judge-mr-justice-davis" href="/judge-mr-justice-davis" showAs="MR JUSTICE DAVIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2008</uk:year>
+	<uk:number>3242</uk:number>
+	<uk:cite>[2008] EWHC 3242 (Admin)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>9bf45d5d1f480c7e53adfa108f32f21010856c3b22a07db00763d442f738aa27</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Fixed { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Question { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answer { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Colloquy { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinA { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Rightflush { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineSQ { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineQS { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .0Style { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal1 { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal2 { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal3 { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal4 { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal5 { margin-left: 1.2in; margin-right: 1.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal6 { margin-left: 1.6in; margin-right: 0.91in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal7 { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .9Style { margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Header { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Footer { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Questionquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Speakerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .questionPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .answerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .speakerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Marginsecondary { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Extramargin { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Ordinaryextramargin { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .certifiedQuestion { margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index1 { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .IndexBlank { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .captionbox { margin-right: 3.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index2 { margin-left: 0.4in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index3 { margin-left: 1.5in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index4 { margin-left: 4in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RCJquotes { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RCJquote { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .HEADINGNUMBERED { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Speaker2 { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .speakerpara2 { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RESTRICTEDACCESS { text-align: center; margin-right: 1.21in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p>Neutral Citation Number: <neutralCitation>[2008] EWHC 3242 (Admin)</neutralCitation></p>
+      <p class="Normal7" style="margin-right:0.01in"><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">CO/5447/2008</docketNumber></p>
+      <p class="0Style" style="margin-right:0.01in"><courtType refersTo="#ewhc-qbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p class="0Style" style="margin-right:0.01in"><courtType refersTo="#ewhc-qbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">QUEEN'S BENCH DIVISION </courtType></p>
+      <p class="0Style" style="margin-right:0.01in"><courtType refersTo="#ewhc-qbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">DIVISIONAL COURT </courtType></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Strand</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">London WC2A 2LL</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><docDate date="2008-11-26" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Wednesday, 26th November 2008</docDate></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">B e f o r e</span><span style="font-family:'Times New Roman'">:</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><judge refersTo="#judge-lord-justice-latham" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">LORD JUSTICE LATHAM</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><judge refersTo="#judge-mr-justice-davis" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR JUSTICE DAVIS</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - -</span></p>
+      <p class="Centered" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">Between</span><span style="font-family:'Times New Roman'">: </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><party as="#claimant" refersTo="#crown-prosecution-service" style="font-weight:bold;font-family:'Times New Roman'">CROWN PROSECUTION SERVICE</party></p>
+      <p class="Normal7" style="margin-right:0.01in"><role refersTo="#claimant" style="font-weight:bold;font-family:'Times New Roman'">Claimant</role></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">v</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><party as="#defendant" refersTo="#inegbu" style="font-weight:bold;font-family:'Times New Roman'">INEGBU</party></p>
+      <p class="Normal7" style="margin-right:0.01in"><role refersTo="#defendant" style="font-weight:bold;font-family:'Times New Roman'">Defendant</role></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - -</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Computer-Aided Transcript of the Stenograph Notes of  </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">WordWave International Limited</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">A Merrill Communications Company </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">190 Fleet Street  London EC4A 2AG</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Tel No: 020 7404 1400 Fax No: 020 7831 8838</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">(Official Shorthand Writers to the Court)</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - -</span></p>
+      <p class="0Style" style="text-align:center;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">Mr D Atkinson</span><span style="font-family:'Times New Roman'"> (instructed by the CPS) appeared on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Claimant</span></p>
+      <p class="0Style" style="text-align:center;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">Mr R Thomas</span><span style="font-family:'Times New Roman'"> (instructed by Howells) appeared on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Defendant</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - -</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">J U D G M E N T</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR JUSTICE DAVIS:  Mr Inegbu, the respondent to this appeal by way of case stated, was travelling with his wife on 25th January 2007 on a train from London King's Cross to Edinburgh.  The train was operated by GNER.  It is said that there was a dispute about the validity of his wife's ticket.  According to the prosecution, Mr Inegbu became abusive and aggressive towards train staff.  When the train arrived at Doncaster, at all events, he and his wife got off the train and he was spoken to by police.  He denied that he had been abusive or aggressive, but expressed regret that matters had gone as far as they had. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In the event, an information was preferred on 15th June 2007 in the Doncaster Magistrates' Court.  It charged Mr Inegbu, whilst on the railway, with using threatening, abusive, obscene or offensive language contrary to railway byelaws 6(1) and 24 made under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">After adjournments, the matter was heard by a District Judge (Magistrates' Courts) at Doncaster Magistrates' Court on 19th March 2008.  But the case was not decided then on what might be called the merits, that is to say: were the matters charged proved?  On the contrary (and as flagged up at previous hearings which had been adjourned) the lawyers acting for Mr Inegbu took a point which was entirely technical.  They said that the railway byelaws in question, relied on in the information, had not been properly proved in accordance with any applicable statutory provision.  The District Judge (Magistrates' Courts) acceded to that argument and accordingly dismissed the information, no further evidence having been offered in the light of the ruling.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The prosecuting authorities decided to appeal and a case was in due course stated.  The question posed is as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"When an information is laid that alleges an offence contrary to byelaws made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref> (now repealed but such byelaws continue to have effect by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">Railways Act 2005</ref>), in preserving the byelaws, did Parliament similarly preserve the manner in which those byelaws are produced in evidence?" </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In order to understand the legal point so arising, it is necessary to refer to the legislation.  The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref>, by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/201" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 201</ref>, created a body corporate known as the Strategic Rail Authority (referred to in that part of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> as "the Authority" and which I will call "SRA").  Power was conferred on the SRA by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> to make byelaws in these terms: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>"(1)</num>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">The Authority may make byelaws regulating --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the use and working of railway assets, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">travel on or by means of railway assets, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(c)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the maintenance of order on railway assets, and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(d)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the conduct of persons while on railway assets</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">. . .  . . </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">Schedule 20 makes further provision about byelaws under this section."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Turning then to Schedule 20, the relevant paragraph for present purposes is paragraph 7.  It may be noted, all the same, that by paragraph 1 "byelaws" was defined so as to mean byelaws under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref>, and, by paragraph 3, that byelaws should not come into operation until they had been confirmed by the Secretary of State.  Paragraph 7 of schedule 20 reads as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"The production of a printed copy of byelaws which have been confirmed and on which there is indorsed a certificate purporting to be signed by the chief executive of the Authority, or a person authorised by the Authority to act for him, stating --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that the byelaws were made by the Authority, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that the copy is a true copy of the byelaws, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(c)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that on a specified day the byelaws were confirmed by the Secretary of State, and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(d)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the date when the byelaws came into operation, </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">shall be prima facie evidence of the facts stated in the certificate." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">Pausing there, that plainly is intended to provide a convenient and relatively informal way of proving the validity and currency of the applicable byelaws.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In due course, railway byelaws were made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref>.  They are detailed.  The seal of the SRA was affixed to them on 24th May 2004; and they were subsequently confirmed by the Secretary of State, who fixed 7th July 2005 as the date on which they would come into operation.  In particular, for present purpose, byelaw 6(1) provides: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"No person shall use any threatening, abusive, obscene or offensive language on the railway." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">And byelaw 24(1) provides: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"Any person who breaches any of these byelaws commits an offence and, with the exception of byelaw 17, may be liable for each such offence to a penalty not exceeding level 3 on the standard scale."</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">On 7th April 2005 the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">Railways Act 2005</ref> was passed.  That substantially repealed the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref> with various commencement dates for various sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  It was provided by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> that Schedule 1 had effect.  That Schedule relates, amongst other things, to the transfer of function from the SRA to the Secretary of State.  Those transfers have been completed, and we were told that the SRA itself ceased to exist as a corporate body on 1st December 2006. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">The 2005 Act</ref> itself made provisions for making byelaws.  That power is set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 46(1)</ref> reads in this way: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"A railway operator may make byelaws regulating one or more of the following --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the use and working of a relevant asset; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">travel on or by means of a relevant asset; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(c)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the maintenance of order on relevant assets; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(d)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the conduct of persons while on relevant assets." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">By subsection (3): </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"Schedule 9 (which makes provisions about byelaws under this section) has effect." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">Subsection (4) has prime importance for the purposes of this appeal and reads as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"Byelaws which --</span></p>
+	      </intro>
+	      <subparagraph>
+		<num>(a)</num>
+		<content>
+		  <p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">were made by the Strategic Rail Authority under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>, and  </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(b)</num>
+		<content>
+		  <p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">are in force immediately before the repeal of that section by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">this Act</ref>, </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">shall continue to have effect after the coming into force of that repeal as if every reference in those byelaws to that Authority were a reference to the Secretary of State." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">In subsection (7) it is stated that "railway operator" meant an operator of a railway asset who was authorised to be an operator of that asset in the specified circumstances and other such matters.  It is common ground before us that the SRA was not a railway operator within the meaning of this section.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">As for <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref>, that was repealed by virtue of paragraph 36(c) of Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, and by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/59" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 59</ref> and Schedule 13 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  Schedule 20 of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> was likewise repealed by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/59" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 59</ref> and Schedule 13 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  Part 2 of paragraph 2 of Schedule 13, however, expressly provided that the repeal of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> had effect subject to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">As to Schedule 9 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, incorporated by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(3)</ref>, that provided by paragraph 7 as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"The production of a printed copy of byelaws which is indorsed with a certificate --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">stating one or more matters specified in subparagraph (2), and  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">purporting to be signed by an officer of the railway operator by whom the byelaws purport to have been made, </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">is evidence of what is stated. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">Those matters are --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that the byelaws were made by the railway operator in question; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that the copy is a true copy of the byelaws; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(c)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">that the byelaws were confirmed by the appropriate national authority on the date specified in the certificate; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(d)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the date of the coming into force of the byelaws." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">It may be noted that "byelaws" were so defined in paragraph 1 of Schedule 9 as to mean byelaws under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> and "railway operator" was defined to have the same meaning as in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Pausing there, the scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> is, for this purpose, clear enough.  It conferred power on the SRA to make byelaws and, by paragraph 7 of Schedule 20, provided a simple and convenient means of proving such byelaws by a process of certification.  The scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> was in this regard a corresponding scheme.  It conferred power on railway operators to make byelaws and, by paragraph 7 of Schedule 9, similarly provided a simple and convenient means of proving such byelaws by a process of certification.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In the present case, the byelaws relied on in the information were made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>.  But by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, and Part 2 of Schedule 13 to <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, they continue to have effect, notwithstanding the repeal of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/219" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 219</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>.  There is no dispute before us that that is so.  As Mr Atkinson put it, it is reasonably clear that a smooth transition in this regard was intended.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The District Judge (Magistrates' Courts) was in fact told, as were we, that, so far as is known, no individual railway operator had made fresh byelaws under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  They have, thus far, been content to rely on the present byelaws.  We were in fact told that in the last year, 2,283 prosecutions have been brought under those byelaws.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The point raised successfully below on behalf of Mr Inegbu, and repeated before us today, was based on the proposition that Schedule 20 of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> has been repealed by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, but the actual certificate produced before the District Judge (Magistrates' Courts) was self-evidently based on Schedule 20 of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>.  Such certificate was in this form.  It is undated and states: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"It is hereby certified that --</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the above byelaws were made by the Strategic Railway Authority; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">this is a true copy of the byelaws; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(3)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">on 22 June 2005 the byelaws were confirmed pursuant to Schedule 20 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref> by the Secretary of State for Transport; and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(4)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">the byelaws came into operation on 7th July 2005." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">That certificate was signed by an individual designated as Secretariat Team Manager of the Strategic Rail Authority.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The argument of the respondent thus goes that there was no power to certify in that way, just because Schedule 20 of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> has been repealed.  There is power to certify under paragraph 7 of Schedule 9 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>: but that cannot assist the prosecution here, because such certification under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> is only available to byelaws made by "railway operators" under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> and the SRA was not, as it is accepted, such a railway operator.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Accordingly, it was and is said that the prosecuting authorities would have to prove the existence and validity of the railway byelaws by some other means, such as calling oral evidence or adducing section 9 written evidence -- for example, from an officer of the GNER or a former official of the SRA -- to explain how the byelaws were made and otherwise to verify the matters set out in the schedule.  Put shortly, therefore, the respondent says that whilst the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">effect of the railway byelaws was preserved by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> and Part 2 of Schedule 13 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, nothing has been done to preserve the mechanism</span><span style="font-family:'Times New Roman'"> by which the byelaws could be proved; that is to say by paragraph 7 of schedule 20 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Such a conclusion is -- as Mr Thomas on behalf of the respondent frankly acknowledged -- devoid of any sense, although he did say that it was not an entirely absurd conclusion in that at least some alternative means of proof would be available.  Both <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> had, as I have indicated, expressly contemplated that proof of the byelaws made under the respective Act could be provided without evidential complexity by certification.  There can have been no purpose whatsoever in giving rise to some different result for breaches of byelaws made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> which continue in effect by reason of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  Certainly, Mr Thomas could offer no such reason.  It cannot have been the Parliamentary intention to reintroduce evidential inconvenience for such categories of cases.  But Mr Thomas says, nevertheless, that that is the effect of the actual wording of the legislation and, this being a penal statutory provision, penal in effect, it should, he submitted, properly be read restrictively.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">I cannot agree with Mr Thomas's submissions, ably put though they were.  The general rule that penal statutes should be read restrictively does not, in all circumstances, require a court to construe them senselessly (see for example Europe Limited v First Choice Distribution <ref href="#" uk:canonical="[2000] 1 WLR 586" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 586</ref> at 592 C to 593 and </span><span style="font-weight:bold;font-family:'Times New Roman'">R (Crown Prosecution Service) v Bow Street Magistrates' Court</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2007] 1 WLR 291" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 291</ref>).  If there is here a seeming lacuna in the legislation, plainly not filling Parliament's intention, I think that in this particular case it can be properly filled by the court by a process of interpretation: and <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> in my view is, on its wording, sufficient to convey the continuing applicability of Schedule 20 to byelaws made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> which continue in effect. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">I think, in fact, some further assistance is available in this regard, if needed, under the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>.  We were referred by Mr Atkinson to two sections in this regard.  Section 16 in the relevant respect provides as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"Without prejudice to section 15, where an Act repeals an enactment, the repeal does not, unless the contrary intention appears . . .  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(e)</num>
+	      <content>
+		<p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">affect any investigation, legal proceeding or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture or punishment . . . " </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">I have difficulty in accepting that those provisions can apply to the circumstances of this case, given the chronology that we have recited.  But rather more in point, Mr Atkinson referred to <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 17</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>.  Sub<ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (2</ref>) reads as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"Where an Act repeals and re-enacts, with or without modification, a previous enactment then, unless the contrary intention appears . . .  </span></p>
+	      </intro>
+	      <subparagraph>
+		<num>(b)</num>
+		<content>
+		  <p class="Ordinaryextramargin" style="text-align:justify;margin-left:1.6in;margin-right:0.81in"><span style="font-family:'Times New Roman'">in so far as any subordinate legislation made or other thing done under the enactment so repealed, or having effect as if so made or done, could have been made or done under the provision re-enacted, it shall have effect as if made or done under that provision." </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In the context of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>, we were referred by Mr Atkinson to the case of </span><span style="font-weight:bold;font-family:'Times New Roman'">Aitken v South Hams District Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1995] 1 AC 262" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 AC 262</ref>.  In that particular case, a notice was served in 1983 under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/40/section/58" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 58</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/40" uk:canonical="1974 c. 40" uk:origin="TNA" uk:type="legislation">Control of Pollution Act 1974</ref> requiring the abatement of a noise nuisance.  That section was repealed by the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/43" uk:canonical="1990 c. 43" uk:origin="TNA" uk:type="legislation">Environmental Protection Act 1990</ref>, with effect from 1st January 1991, and a new procedure for statutory nuisance was substituted.  On 25th January 1992, an information was preferred alleging recurrence of a noise nuisance between August and October 1991, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1974/40/section/58" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 58</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1974/40" uk:canonical="1974 c. 40" uk:origin="TNA" uk:type="legislation">the 1974 Act</ref>.  It was held that the notice served in 1983 remained valid, notwithstanding the subsequent repeal by the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/43" uk:canonical="1990 c. 43" uk:origin="TNA" uk:type="legislation">Environmental Protection Act 1990</ref>, and the ability to enforce the obligation was preserved by <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>.  Thus, the situation there was not on all fours with the present case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Even so, as it seems to me, the approach of the House of Lords is instructive, and it is to be noted that at page 272 of his judgment, Lord Woolf stressed that it was for the repealing Act to manifest the contrary intention.  He said this, after citing the case of </span><span style="font-weight:bold;font-family:'Times New Roman'">Floor v Davies</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1980] AC 695" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] AC 695</ref>, at page 272 G: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"It is the repealing Act, not <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1974, which is required to manifest the contrary intention so as to exclude the operation of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref>.  Were the position otherwise the object of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref>, which is to make it unnecessary to include in the subsequent legislation the provisions contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref>, would be frustrated.  The silence of the subsequent legislation is consistent and not inconsistent with <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> applying." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:0in"><span style="font-family:'Times New Roman'">As it seems to me, that kind of approach is likewise capable of being applicable to <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 17</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In his written argument (although in oral argument he was reluctant to accept the point), Mr Thomas had accepted that the sections of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref> may have been applicable here had the previous method of certification simply been revoked with no new method introduced.  Mr Thomas, at all events, submitted that there was here a contrary intention since, he asserted, <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> did introduce a new method of certification in paragraph 7 of Schedule 9.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">I cannot agree with that.  That paragraph, I repeat, is dealing with new byelaws made by railway operators.  It is not dealing with, or in terms replacing, the position for byelaws made by the SRA under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>, which byelaws are capable of being continued in effect under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  As it seems to me, the overall general scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> in this regard, with modification, is that a thing done (that is to say, certification) under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> could have been done under the re-enacted provision, even though it is the case that paragraph 7 of Schedule 9 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> in terms necessarily only relates to new byelaws prospectively made by railway operators.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">It follows, as it seems to me, that this court is not compelled to reach a senseless interpretation of the statutory provisions, particularly <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref>, of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> advanced by the respondent.  Further, reading <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> in the way indicated can give rise to no possible detriment to persons in the position of Mr Inegbu.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">With all respect, I think that the District Judge (Magistrates' Courts) was persuaded into error on this point.  Accordingly, in my judgment, the question posed is to be answered in the affirmative and I for my part would allow the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  I agree.  It seems to me that the intention of Parliament can be clearly gleaned from the structure of the amended legislation which envisaged that the byelaws would continue in effect, which could only be an effective provision if continued together with the procedural provisions in Schedule 2.  It seems to me that there is no need to go, therefore, beyond <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(4)</ref> in order to provide the right answer.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">However, in case it were to be thought that that is going too far in statutory construction terms, I agree with my Lord that <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/17/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 17(2)</ref> of the Interpretation Act provides, in itself, a clear solution to the problem.  Between the two of them, they have produced a sensible statutory scheme whereby the byelaws made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> can continue, as intended by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, until such time as replaced by byelaws under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  I accordingly, like my Lord, would allow this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR ATKINSON:  My Lord, there are two consequential matters.  The first is in relation to a potential retrial of Mr Inegbu, which is a matter referred to in my learned friend's skeleton.  My Lords will be aware that the prosecution offered no further evidence following the ruling of the District Judge.  I am instructed to ask for an order that there be a retrial and the matter be remitted to the Magistrates' Court for trial, although I do that against the background that there was an offering of no further evidence by the prosecution. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  That is your first application, yes?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR ATKINSON:  The second application is the application for the appellant's costs of the proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  Mr Thomas, as far as retrial is concerned, you say so much time has passed since what was a relatively -- but if the prosecution evidence was correct, not a very pleasant incident, and realistically it is raking over old coals.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  That is my argument.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR JUSTICE DAVIS:  Was this matter privately funded by Mr Inegbu?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  My instructions are that his costs were being paid by central funds.  That would mean yes, he was privately funded.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR JUSTICE DAVIS:  So if there is an adverse consequence on costs, there has been a sting in these proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  In the Magistrates' Court it was privately funded.  In these courts he has a representation order.  So I would ask if there was to be an order for costs against him for the usual order.  Firstly, I would say that there should not be costs, which I can develop.  Secondly, I would say that if that was the case it be the usual order that costs are not to be enforced without leave of the court. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  I am not sure Mr Atkinson's application includes an application in relation to costs below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR ATKINSON:  My Lord, my application is solely for the costs of these proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  All right.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  My response in terms of substantive on costs is that the Crown brought these proceedings.  They could have in the Magistrates' Court sought to prove the byelaws by way of another --</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  Mr Thomas, that is hopeless.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  I simply make the point that they could have pursued it by another method, which is accepted in this court could have been done.  I would ask for the usual order, not to be enforced without leave of the court. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  That nowadays is the responsibility of the taxing judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  I would have to ask for a detailed assessment as well. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">LORD JUSTICE LATHAM:  Thank you very much, Mr Thomas.  As far as retrial is concerned, we consider that the time that has passed in relation to the seriousness of the offence does not suggest that justice requires a retrial in this case.  So there will not be a retrial.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">As far as costs are concerned, the respondent is to pay the appellant's costs, but those are to be subject to a detailed assessment and consideration in the usual way by the costs judge of the issue arising out of the fact that your client has a representation order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">MR THOMAS:  I am grateful.   </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

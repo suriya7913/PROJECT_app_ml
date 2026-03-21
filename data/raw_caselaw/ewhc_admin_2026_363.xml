@@ -1,0 +1,846 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/363"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/363"/>
+	  <FRBRdate date="2026-02-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="363"/>
+	  <FRBRname value="STS, R (on the application of) v The Secretary of State for Defence"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/363"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/363"/>
+	  <FRBRdate date="2026-02-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/363/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/363/data.xml"/>
+	  <FRBRdate date="2026-02-20T11:05:40" name="transform"/>
+	  <FRBRdate date="2026-02-20T12:12:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sts" href="" showAs="STS"/>
+	<TLCPerson eId="the-secretary-of-state-for-defence" href="" showAs="THE SECRETARY OF STATE FOR DEFENCE"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-mr-justice-sheldon" href="/judge-mr-justice-sheldon" showAs="MR JUSTICE SHELDON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>363</uk:number>
+	<uk:cite>[2026] EWHC 363 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2025-LON-000807</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>7c0c0bec18eb8acafaf5bbad3040d3cda212cb74c984e7a83ae8d89eda7aab60</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWHC 363 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2025-LON-000807</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-02-20" refersTo="#judgment">20/02/26</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-sheldon" style="font-weight:bold">MR JUSTICE SHELDON</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#sts" style="font-weight:bold">THE KING (On the application of STS)</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#the-secretary-of-state-for-defence" style="font-weight:bold">THE SECRETARY OF STATE FOR DEFENCE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Tim Owen KC and Emma Daykin </span>(instructed by<span style="font-weight:bold"> Wilson Solicitors LLP</span>) for the Claimant</p>
+      <p style="text-align:center"><span style="font-weight:bold">Alan Payne KC and Karl Laird </span>(instructed by the <span style="font-weight:bold">Government Legal Department</span>) for the Defendant</p>
+      <p style="text-align:center">Hearing date: 26<span style="vertical-align:super;font-size:smaller">th</span> January 2026</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 11:00am on 20/02/26 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE SHELDON</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">MR JUSTICE SHELDON :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant, who has the benefit of an anonymity order and is referred to as &#8220;STS&#8221;, challenges the decision of the Secretary of State for Defence refusing his application for relocation to the United Kingdom pursuant to the Afghan Relocations and Assistance Policy (&#8220;ARAP&#8221;).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Permission to proceed with the application for judicial review was granted by Swift J at an oral hearing on 25 September 2025. At the substantive hearing before me, STS was represented by Mr Tim Owen KC and Miss Emma Daykin, and the Secretary of State was represented by Mr Alan Payne KC and Mr Karl Laird.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There has been much consideration of ARAP by the Administrative Court and Court of Appeal. The general background to the policy and how it fits with the Immigration Rules was described by Lewis LJ in <span style="text-decoration-line:underline;text-decoration-style:solid">R (LND1) v Secretary of State for the Home Department</span> <ref href="#" uk:canonical="[2024] 1 WLR 4433" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] 1 WLR 4433</ref> at [7] &#8211; [15]. A brief description of the United Kingdom&#8217;s involvement in Afghanistan is set out by Lewis LJ at [16] &#8211; [17].  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the present case, there is one ground of challenge. It is contended that the conclusion that STS had not made &#8220;a substantive and positive contribution towards the achievement of the UK Government&#8217;s national security objectives with respect to Afghanistan (and for these purposes, the UK Government&#8217;s national security objectives include . . . counter-narcotics . . . objectives)&#8221;, and therefore failed to satisfy the requirements of ARAP, was irrational.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Factual Background </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">STS is a former employee of Adam Smith International (&#8220;ASI&#8221;), a company that was contracted by His Majesty&#8217;s Government to provide specialist aid implementing programmes in Afghanistan. STS worked for ASI from September 2006 until 2010.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">STS continues to live in Afghanistan. He made an application pursuant to ARAP on 3 March 2022. His application was refused on 29 November 2023. He submitted a request for review. By letter dated 16 December 2024, STS was informed that his review had been refused. STS was subsequently provided with the review decision-maker&#8217;s notes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">From these notes, it can be seen that the decision-maker identified the relevant eligibility criteria for relocation as a Category 4 case, and assessed STS&#8217;s case against conditions 1 and 2 set out at ARAP 3.6. The decision-maker stated that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Condition 1 is that at any time on or after 1 October 2001, the person:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Was directly employed in Afghanistan by a UK government department; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Provided goods or services in Afghanistan under contract to a UK government department (whether as, or on behalf of, a party to the contract); or.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(c)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Worked in Afghanistan alongside a UK government department, in partnership with or closely supporting and assisting that department.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Condition 2 is that the person, in the course of that employment or work or the provision of those services, made a substantive and positive contribution towards the achievement of:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">the UK government&#8217;s military objectives with respect to Afghanistan; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">the UK government&#8217;s national security objectives with respect to Afghanistan (and for these purposes, the UK government&#8217;s national security objectives include counter-terrorism, counter-narcotics and anti-corruption objectives).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Condition 3 is that because of that employment, that work or those services, the person:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">is or was at an elevated risk of targeted attacks; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">is or was at high risk of death or serious injury;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in;text-indent:0.5in"><span style="font-style:italic">Condition 4 is that the person holds information the disclosure of which would give rise to or aggravate a specific threat to the UK government or its interests.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision-maker set out the evidence provided by the applicant: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">&#8220;The applicant claims they were employed by Adam Smith International (ASI) as an Office Manager and Interpreter at the ASI Herat guesthouse from September 2006 to May 2010. The applicant claims the ASI guesthouse was used by ASI consultants on visits to Herat. The applicant further claims to have worked with the Governor's Office and the Ministry of Counter Narcotics on the Counter Narcotics programme. The applicant also claims to have worked on the Tax Administration Project (TAP).</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">. . . The applicant provided documents relating to their litigation case as part of their review.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The litigation document bundle provided by the applicant provides evidence to demonstrate that the applicant worked with ASI as an Office Manager and Interpreter from 2006 to 2010 at the ASI Herat guesthouse.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The bundle contains information relating to the applicant&#8217;s work in setting up the Tax Administration Project (TAP). This evidence was provided by the applicant, as well as by an ASI member of staff (Daniel Pimlott).</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">In the course of assessing the review request I have considered the additional evidence submitted.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">. . .  As part of the review request, the applicant stated:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in"><span style="font-style:italic">&#8220;I believe that I meet the criteria for being granted relocation under ARAP. I worked on the Counter Narcotics Project funded by DFID (now part of FCDO) and implemented by the organization Adam Smith International. One of my colleagues from the same project working in the same position as me was relocated to the UK. I have also given details about the risk to my wife as a result of her work. We both remain in danger in Afghanistan.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">As detailed above, the applicant provided further evidence as part of their case which has been considered.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to Condition 1, the decision-maker found that condition 1(b) was met: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">&#8220;as they did provide goods or services in Afghanistan under contract to a UK government department (whether as, or on behalf of, a party to the contract). </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The applicant meets</span><span style="font-weight:bold"> Condition 1(b) under Category 4</span> as, in his two roles working for ASI, he provided goods or services in Afghanistan under contract to a UK government department (DFID/FCO). He was employed by ASI, who were contracted by DFID and FCO.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to Condition 2, the decision-maker made the following assessment with respect to the work of ASI: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">&#8220;As supported by the applicant&#8217;s employment letters and ID cards from Adam Smith International (ASI) the applicant worked as an employee of ASI as an Office Manager and Interpreter on the UK Support to Counter Narcotics Institutions Project and provided assistance in setting up the Tax Administration Project (TAP) from September 2006 to May 2010.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in"><span style="font-weight:bold">UK Support to Counter Narcotics Institutions Project</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1in;margin-right:0.8in">As confirmed by Daniel Pimlott&#8217;s statement, the applicant worked as an Office Manager and Interpreter on the UK Support to Counter Narcotics Institutions Project.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1in;margin-right:1in"><span style="font-weight:bold">The UK Support to Counter Narcotics Institutions Project </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:1.25in;text-indent:-0.25in">&#183;</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.25in;margin-right:1in">This was a DFID then FCO project. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:1.25in;text-indent:-0.25in">&#183;</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.25in;margin-right:1in">The contractor delivering this project was ASI. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:1.25in;text-indent:-0.25in">&#183;</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.25in;margin-right:1in">The project was active between 2005 and 2008 (DFID 2005 &#8211; 2007; FCO 2007-2008). </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The purpose of this project was to strengthen the government institutions responsible for counter narcotics at central and provincial levels. Its goal was to reduce poppy cultivation, production, processing and trafficking in Afghanistan.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The intended outcomes were: </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num>1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">Establishment of Counter Narcotics (CN) institutions with a clear, legitimate and broadly recognised mandate to lead on policy, coordination and direction of operational aspects of CN activity in Afghanistan;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">Establishment of legal framework for establishment and functioning of CN Institutions; adoption of appropriate regulatory framework including secondary legislation, regulations and standard operating procedures where appropriate;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">Improved human capacity in CN institutions, contributing to the overall efficacy of governance and law enforcement in Afghanistan;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">More effective coordination and use of limited resources in the fight against the production, processing and trade in poppy and opium-based products and in development of alternative livelihoods for poppy farmers;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">Reduction in the risk that the military and financial power and influence of those engaged in narcotics would overwhelm state capacity to implement an effective counter narcotic policy - ever; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.1in;margin-right:1.1in;text-indent:0.4in">Reduction in the production, processing and trade in narcotics in Afghanistan, and increasing engagement in the licit economy. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:0.8in">I concluded that the above programme was a capacity building programme designed to strengthen Afghan government institutions and improve their overall efficiency. This was in order to improve good governance and security in the country to support Afghanistan&#8217;s own institutional and economic development and the security of its own inhabitants. As such it was established as part of DFID&#8217;s State Building programme rather than part of, or specifically owned by a UK Government department leading on UK counter narcotics objectives. Whilst it was not a programme designed specifically to focus on and address UK counter narcotics objectives in Afghanistan it may have had secondary benefits to those objectives as a result of improvements in Afghan internal governance and security, particularly the strengthening of counter narcotics institutions. I concluded that it was therefore potentially possible for a person working on that programme to make a positive and substantive contribution to the UK government&#8217;s counter narcotics objectives in Afghanistan, but whether or not they made such a contribution would depend on their individual role and the work they carried out.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to STS&#8217;s involvement with the UK Support to Counter Narcotics Institutions Project, the decision-maker said as follows: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">&#8220;The applicant stated as part of their witness statement that as part of their management of the ASI Herat guesthouse; <span style="font-style:italic">&#8220;I was responsible for all the administrative activities of the offices and guesthouse. The Olive Security Group were also based there. They had the security contract with ASI. Most of our transportation was arranged by the Olive Group at a high security level and in armoured vehicles with armed guards. I was there from the start of the project. When setting up the project and throughout the project itself, we coordinated with the Counter Narcotics Police, the Counter Narcotics Directorate, Governor&#8217;s Office, law enforcement sections and prosecutors. I used to arranged sic) and be present in all the meetings and interpret for the international staff...&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The applicant further claimed in their witness statement that: <span style="font-style:italic">&#8220;the Counter Narcotic&#8217;s project was itself designed by the UK and counter-narcotics was one of the objectives of the UK government. I was directly involved in implementing it. I was directly involved with the ex-patriate advisers and some of them used to have meetings with DFID. Without me performing my role, the project would not have been able to function. It would not have been possible for the ex-patriate staff to establish contact with the relevant government departments. Initially, for the first two years, I was the only Afghan employee...without me during the first two years, they would not have been able to arrange and coordinate meetings. Also, I acted as interpreter so that both sides could communicate with each other. Equally, in terms of office and administration and accommodation, the team of entirely ex-patriate staff would not have been able to do any of these things as they did not have knowledge of the local language or customs or have local contacts.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">The statement provided by Daniel Pimlott, supports that the applicant whilst carrying out his duties on the CN project: <span style="font-style:italic">&#8220;served as a liaison between the ASI team and the counternarcotics police, counternarcotics directorate and the governor&#8217;s office. STS&#8217;s role as an office manager and interpreter was instrumental in setting up the counternarcotics programme and establishing relationships with relevant government departments that the programme interfaced with. STS was the only Afghan member of staff for the first two years and he arranged all the meetings between the programme and Afghan government agencies within that time.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">It is relevant to note that Mr Pimlott confirms he was not employed by ASI at the time the applicant was working on the CN project. He is therefore unable to provide specific comment on the nature of work carried out by the applicant given he did not have a personal relationship with the applicant and did not work with him.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">I concluded that while Mr Pimlott&#8217;s statement provides a helpful degree of background detail relevant to the context, it does not provide compelling evidence that whilst carrying out his role on the CN project, the applicant made a positive and substantive contribution to the UK&#8217;s national security objectives in Afghanistan. <span style="font-weight:bold">The description provided by Mr Pimlott suggests that the applicant&#8217;s role was not operational but rather a generic role which could have been carried out on any project being implemented, irrespective of its purpose. I concluded that the evidence provided by the applicant shows that they played a role in the facilitation of the programme which required generalist skills and did not require subject specific knowledge. Although the applicant&#8217;s administrative role in running the ASI guesthouse required them to interact, liaise and manage relations with Afghan Government agencies, this was in a coordination capacity only. The applicant was facilitating and assisting colleagues in the implementation of the programme and was not responsible for delivery of the programme objectives. The applicant&#8217;s role in the programme therefore did not make a positive and substantive contribution towards the UK&#8217;s national security objectives with respect to Afghanistan (and for these purposes, the UK government&#8217;s national security objectives include counter-terrorism, counter-narcotics and anti-corruption objectives).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">I concluded that with respect to this role and to condition 2a, I was unable to make an assessment as to whether the applicant made a substantive and positive contribution to the UK&#8217;s military objectives with respect to Afghanistan. Any evidence relating to whether the applicant meets this condition is for the Ministry of Defence to assess. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in"><span style="font-weight:bold">I concluded that with respect to this role on the CN project, that the applicant did not meet condition 2b: the applicant, through his work as an Office Manager and Interpreter on the Counter Narcotics Institutions Project, did not make a substantive and positive contribution to the UK government&#8217;s national security objectives with respect to Afghanistan (and for these purposes, the UK government&#8217;s national security objectives include counter-terrorism, counter-narcotics and anti-corruption objectives).</span>&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p><marker name="tab"/><marker name="tab"/>(My emphasis in bold; the italics are contained in the original text). </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision-maker went on to consider STS&#8217;s role with the Tax Administration Project (TAP). This part of the decision is not challenged, and so I do not set out the evidence or analysis with respect to TAP. The overall decision reached by the decision-maker was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">&#8220;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Overall assessment and sponsorship decision</span> &#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.8in">I therefore conclude that the applicant is not eligible for ARAP CAT 4, as the application does not meet conditions 2, 3, and 4. I am therefore upholding the previous decision made by the MoD.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Legal Framework </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As identified in the case review notes, STS&#8217;s case was considered as &#8220;a Category 4 case&#8221; pursuant to the requirements of paragraph 3.6 of ARAP. This case is concerned with Condition 2 of paragraph 3.6 of ARAP, whether or not STS made &#8220;a substantive and positive contribution towards the achievement of the UK Government&#8217;s national security objectives with respect to Afghanistan&#8221;, and in particular the UK Government&#8217;s &#8220;counter-narcotics objectives&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ARAP does not contain a definition of what is meant by &#8220;a substantive and positive contribution&#8221;. It is generally accepted (see, for instance, <span style="text-decoration-line:underline;text-decoration-style:solid">LND1</span> at [37]) that the interpretation of ARAP 3.6, and therefore these particular words, is &#8220;an objective question for the court whose task is to decide what a reasonable, literate person&#8217;s understanding of the policy would be. This requires an examination of the words of the policy, taken as a whole, and in the light of its context and purpose.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some assistance can be gained from the following propositions derived from the case law.  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In <span style="text-decoration-line:underline;text-decoration-style:solid">LND1</span>, it was held at [46] that the contribution made by the institution where the applicant for ARAP worked to the United Kingdom&#8217;s national security objectives is &#8220;likely to be principally relevant to an assessment of whether condition 2&#8221; was met. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In <span style="text-decoration-line:underline;text-decoration-style:solid">R (CX1 and others) (&#8220;CX1 No.2&#8221;) v Secretary of State for Defence</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2024/94" uk:canonical="[2024] EWHC 94 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 94 (Admin)</ref>, the Divisional Court observed at [74] that the achievement of the national security objectives did not need to be the &#8220;goal&#8221; of the work carried out by the applicants. The test was whether the applicant for ARAP had made the relevant contribution to the national security objectives.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In <span style="text-decoration-line:underline;text-decoration-style:solid">R (AFA and others) v Secretary of State for Home Department, Secretary of State for Defence</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/2143" uk:canonical="[2025] EWHC 2143 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 2143 (Admin)</ref>, Garnham J held that it is not the person&#8217;s status or job title which is decisive. Further, &#8220;it is not the programme by which an applicant is employed that has to be shown to have made a substantive and positive contribution; it is the work of the individual applicant&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In <span style="text-decoration-line:underline;text-decoration-style:solid">R (MKA) v Secretary of State for Defence</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2023/1164" uk:canonical="[2023] EWHC 1164 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 1164 (Admin)</ref>, it was made clear by Foster J at [53] that the scheme was &#8220;not intended to exclude those whose work offering was of a humbler or non-professional character&#8221;.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.11in"><span style="text-decoration-line:underline;text-decoration-style:solid">Submissions  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Submissions for STS</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The single ground of challenge was that the conclusion reached by the decision-maker that Condition 2 was not met was irrational. Mr Owen KC, for STS, contended that the Court needed to apply &#8220;anxious scrutiny&#8221; given the fundamental rights that were at stake. Mr Owen KC contended that the decision-maker had failed to satisfy the test of &#8220;process rationality&#8221;, according to the taxonomy outlined by Chamberlain J in <span style="text-decoration-line:underline;text-decoration-style:solid">R (KP) v Secretary of State for Foreign Commonwealth and Development Affairs</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/370" uk:canonical="[2025] EWHC 370 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 370 (Admin)</ref> at [56]: that is, the decision-maker failed to have regard to relevant considerations, and the process of reasoning contained a logical error or critical gap. Mr Owen KC also contended that the decision was irrational in the substantive sense referred to by Chamberlain J in <span style="text-decoration-line:underline;text-decoration-style:solid">KP</span> at [57]: described as &#8220;outcome rationality&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Owen KC suggested that the reasoning process looked like someone trying to reach a preconceived conclusion. The decision-maker came up with reasons to justify a decision to refuse eligibility for ARAP, even though Mr Pimlott&#8217;s assessment had been that STS had carried out a vital role. The decision-maker had introduced various hurdles for STS to get over that were not in the policy or the case law.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Owen KC submitted that the language of &#8220;substantive and positive contribution&#8221; at paragraph 3.6 of ARAP should bear the same meaning as used at paragraph 3.5(b) (eligibility for interpreters) which included the condition that &#8220;the nature of the role in which the person was employed was such that the UK&#8217;s operations in Afghanistan would have been materially less efficient or materially less successful if a role or roles of that nature had not been performed&#8221;.  In other words, paragraph 3.6 of ARAP would be satisfied if the UK&#8217;s operations in Afghanistan would have been &#8220;materially less efficient or materially less successful&#8221; if the relevant role had not been performed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Owen KC submitted that there were a number of aspects of the decision that failed the test of &#8220;process rationality&#8221;. It was contended that the approach to Mr Pimlott&#8217;s evidence was irrational in that the decision-maker required Mr Pimlott to have had a personal relationship with STS, and to have worked with him, in order to comment on the work he carried out for ASI, when Mr Pimlott was entitled to rely upon the institutional knowledge of ASI. By downgrading Mr Pimlott&#8217;s evidence, the decision-maker failed to have proper regard to his opinion that STS was &#8220;instrumental in setting up the counternarcotics programme and establishing relationships with the relevant government departments that the programme interfaced with&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Owen KC argued that the decision was irrational in that it required STS&#8217;s role to be &#8220;operational&#8221; to satisfy Condition 2; and the contrast between an &#8220;operational&#8221; and &#8220;generic&#8217; role was spurious.  The conclusion that STS&#8217;s role was not operational was irrational. What is &#8220;operational&#8221; is, in the context of a business, carrying out the day-to-day activities of the business. STS was the only Afghan member of staff for the first 2 years of the project and served as the liaison between the ASI team and the counter-narcotics police, counter-narcotics directorate and the Governor&#8217;s office, setting up all the meetings and establishing those relationships. Simply put, the project would not have got off the ground without STS.  The decision was irrational in that it required the role performed by STS to need subject-specific knowledge to satisfy Condition 2, and for requiring STS to be responsible for the delivery of the programme objectives. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A further point that was set out in the Statement of Facts and Grounds, and in the skeleton argument for the hearing, was that the decision in STS&#8217;s case was inconsistent with the positive eligibility decision reached in the case of a former colleague of STS who, it was said, performed the same or a very similar role. In the course of oral argument, Mr Owen KC accepted that this point could not really be advanced given that STS&#8217;s own description of the other individual&#8217;s role in his second witness statement -- that the other individual &#8220;liaised with internal departments and government[al] institutions providing advice on local security issues&#8221; -- was different from how his own role had been presented to the Secretary of State.  </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Submissions for the Secretary of State</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC, for the Secretary of State, contended that there was a high threshold to succeed on a claim of irrationality and that, even if the Court applied the &#8220;anxious scrutiny&#8221; standard of review, that threshold was not met on the facts of this case. This was especially so given that the decision-maker had expertise in this area. By analogy with <span style="text-decoration-line:underline;text-decoration-style:solid">R (BAL) v Secretary of State for Defence</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2022/2757" uk:canonical="[2022] EWHC 2757 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 2757 (Admin)</ref> at [102], it can reasonably be inferred that decision-makers &#8220;are able to bring to bear knowledge drawn from the range of cases that come before them.&#8221;  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC also pointed out that the context in which ARAP decisions need to be made has to be borne in mind. These decisions have to be taken rapidly, and the reasons can be quite summary.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC submitted that Condition 2 was intended to address those who were very much involved in the delivery of the United Kingdom&#8217;s national security objectives. The closer the individual&#8217;s involvement to the delivery of the objectives the more likely that they would be eligible.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In support of this argument, Mr Payne KC sought to rely on caseworker guidance entitled &#8220;Category Four (Cat 4) Operational Guidance &#8211; FCDO Sponsorship and Review&#8221;: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">&#8220;The following questions and examples are intended to help caseworkers reach a reasoned assessment as to whether the eligibility criteria set out in the Immigration Rules have been met or not.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">. . .  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">. . . has evidence been provided that . . . the individual made a substantive and positive contribution to HMG&#8217;s military or national security objectives (including counter-terrorism, counter narcotics and anti-corruption) with respect to Afghanistan? <span style="font-weight:bold">For example, has the individual worked in or with an HMG partner unit directly supporting/contributing to HMG Counter Terrorism or other national security objectives?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">. . .  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in"><span style="text-decoration-line:underline;text-decoration-style:solid">Condition 2  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">The applicant must have made a &#8220;substantive and positive contribution to the UK&#8217;s military objectives or national security objectives (which includes counter-terrorism, counter narcotics and anti-corruption objectives) with respect to Afghanistan&#8221;.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">Where there is evidence of work for, with or alongside FCDO (or former FCO/DFID) that meets Condition 1 but <span style="font-weight:bold">the applicant&#8217;s role did not have a clear and specific national security objective (which includes counter-terrorism, counter narcotics or anti-corruption) with respect to Afghanistan</span>, and/or that role was not directly linked to their relationship with the FCDO under Condition 1, <span style="font-weight:bold">then that role is unlikely to give rise to eligibility. </span>An example would be a judge or prosecutor, employed by the government of Afghanistan and who had a close working relationship with the FCDO by reason of their contribution to UK rule of law objectives, but who was concerned with normal criminal matters rather than national security objectives. By way of example, if a specialist judge heard only or primarily national security cases, that might indicate this part of the criteria is fulfilled.  . . .  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.8in">Applicants who worked with HMG in sensitive operational roles on national security issues, for example judges, prosecutors, or investigators working on counter-terrorism, counter narcotics or corruption cases, are likely to meet condition 2. Individuals working on FCDO funded development, governance or human rights projects are unlikely to meet this condition.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The wording in emphasis was said to highlight the significance of direct support or contribution to the objectives.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC also referred to the caseworker guidance where it is stated that there is a &#8220;high threshold for relocation under Category 4&#8221;. Mr Payne KC observed that not everybody who was working alongside the United Kingdom government or its agents would be eligible for relocation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC disagreed with Mr Owen KC&#8217;s attempt to align the language at paragraph 3.5(b) for interpreters with that in paragraph 3.6. There were, he said, obvious differences between those two paragraphs.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC also contended that where an individual was working on a project which made a substantive contribution to a national security objective, it is far more likely that the individual&#8217;s role with that programme will contribute to that objective than if the project they are working on, as was found to be the case here, only had &#8220;secondary benefits&#8221; to a national security objective.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Addressing the different ways in which it was asserted that the decision was irrational, Mr Payne KC submitted that the weight to be accorded to Mr Pimlott&#8217;s evidence was pre-eminently a matter for the decision-maker. It was clear that Mr Pimlott had no first-hand knowledge of STS&#8217;s work, and so there were obvious limitations in the evidence that he could provide. Moreover, there was no explanation by Mr Pimlott as to the source of his knowledge: no reference to records or documents or any source of information beyond STS himself. Furthermore, it was entirely reasonable for the decision-maker to say that Mr Pimlott was &#8220;unable to provide specific comment on the nature of work carried out by&#8221; STS. In fact, however, the evidence of Mr Pimlott was not disregarded, but it could be seen that he did not say why STS was &#8220;instrumental&#8221; and that, even then, it was only in respect to the setting up of the programme.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC submitted that there were also questionable aspects of Mr Pimlott&#8217;s evidence when compared to that of STS, which demonstrated why it was appropriate for the decision-maker not to rely on his supposed institutional knowledge. For instance, Mr Pimlott said that the counter-narcotics project ran from 2005 to 2008, and yet STS says that he worked on the project from 2 September 2006. Mr Payne KC also pointed out that Mr Pimlott&#8217;s evidence that STS was the only member of staff for the first two-year period (September 2006-2008) was not consistent with the second witness statement of STS &#8211; submitted after the decision under challenge &#8211; where he refers to two Afghan consultants being engaged by ASI in December 2006/January 2007.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC further submitted that it was not irrational for the decision-maker to characterise STS&#8217;s role as not operational: that was consistent with the evidence he had provided. This was not a requirement to satisfy the test, but was a relevant factor for the assessment that was being made.  Similarly, the decision-maker&#8217;s reference to STS&#8217;S role not requiring subject-specific knowledge was not a requirement that had to be met, but was a relevant factor for the assessment that was being made.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC contended that it was not irrational for the decision-maker to conclude that STS&#8217;s role was not &#8220;operational&#8221;. What is operational can mean many different things, but there needed to be a link to the making of a substantive contribution to the national security objective. That was more likely to be the case where the role involved front-line delivery. Whether or not the role was operational was a matter of judgment, and based on the evidence presented the conclusion that STS&#8217;s role was not operational was entirely rational. In any event, this was not determinative of the outcome but one factor to be considered as part of the overall assessment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was not irrational for the decision-maker to conclude that STS did not satisfy the criteria mandated by ARAP given that his role, on his own evidence, was confined to assisting others to deliver the objectives of the counter-narcotics programme. This was consistent with the judgment of Garnham J in <span style="text-decoration-line:underline;text-decoration-style:solid">R (AFA) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/2143" uk:canonical="[2025] EWHC 2143 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 2143 (Admin)</ref>, where it was held that </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">&#8220;There was nothing to suggest that the Claimant personally had made any significant contribution to national security. His role, admittedly conducted under dangerous conditions, was routine and mundane. It was work that could have been carried out by anyone able to drive the relevant types of vehicle. More importantly, taken alone, it cannot be said to have had any significant effect, or any direct effect, or any positive effect on the UK&#8217;s national security. In fact, no evidence was adduced by the Claimant, or considered by the Defendant, that suggested that the work carried out by this particular applicant made any material contribution to the achievement of any identifiable national security objective&#8221;.   </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Payne KC also submitted that if the Court identified an error in the decision-maker&#8217;s reasoning, the same result was highly likely to have been reached and so relief should be refused under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Discussion </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the significance of the decision for STS and potential impact of a negative decision, I accept that anxious scrutiny should be applied to the decision-making process. It is necessary to bear in mind, however, that whilst applying anxious scrutiny, the process is reasonably expedited, and the reasoning can be quite brief.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="text-decoration-line:underline;text-decoration-style:solid">MKA</span>, Foster J observed at [50] that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">&#8220;The relevant features of the ARAP are not equivalent to hearing evidence, resulting in a judicial or quasi-judicial decision, it is a discretion-based scheme, and it is necessarily reasonably expedited. Judgements of fact and degree must be made and it may not be possible to give detailed reasons or any developed explanation about why as a matter of judgement a person falls to one side of a policy line rather than another.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, whilst applying anxious scrutiny, the reasons provided cannot be examined as if they were the product of judicial drafting to which an overly forensic analysis should be applied. Rather, the Court should focus on the essential analysis and core findings made by the decision-maker and test this against public law principles, rather than apply a fine toothcomb to some of the wording used. The Court should also allow a degree of deference to the decision-maker, given that they have expertise in the area, drawing from the range of cases that come before them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the instant case, the reasons provided by the decision-maker with respect to whether STS had made a &#8220;substantive and positive contribution&#8221; to the United Kingdom&#8217;s national security objectives were brief. The core findings were that (i) STS&#8217;s role was not &#8220;operational&#8221;; (ii) he did not require &#8220;subject specific knowledge&#8221; to perform his role; (iii) his administrative role in running the guesthouse was in &#8220;a coordination capacity only&#8221;; and (iv) STS was &#8220;facilitating and assisting colleagues in the implementation of the programme [the UK Support to Counter Narcotics Institutions Project] and was not responsible for delivery of the programme objectives&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Based on these findings, the decision-maker concluded that STS&#8217;s role as an Office Manager and Interpreter on the UK Support to Counter Narcotics Institutions Project did not make a positive and substantive contribution to the United Kingdom&#8217;s national security objectives with respect to Afghanistan: namely, the counter-narcotics objective of the United Kingdom government. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the core findings made (identified at paragraph 38 above) were clearly available to the decision-maker. These findings were compliant with public law in that they were relevant, or not irrelevant, to the assessment that had to be made. Furthermore, the conclusion reached was not irrational, whether looked at from the perspective of &#8220;process&#8221; or &#8220;outcome&#8221; irrationality, using the taxonomy set out in <span style="text-decoration-line:underline;text-decoration-style:solid">KP</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The starting point for the analysis is that not all individuals who were employed by, or provided services to, a United Kingdom Government department in Afghanistan, or worked alongside a United Kingdom Government department in Afghanistan will be eligible: that is a necessary condition (Condition 1: ARAP 3.6(a)), but is not sufficient. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A further condition is required to be satisfied: that is, whether the individual made &#8220;a substantive and positive contribution&#8221; to the United Kingdom&#8217;s national security objectives with respect to Afghanistan. In determining whether that condition is satisfied, consideration has to be given to what the individual did and what effect the individual&#8217;s services had in furthering the United Kingdom&#8217;s national security objectives has to be carried out by the decision-maker. That requires an evaluation on which different decision-makers, acting reasonably, may disagree. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The test set out at ARAP 3.6(2) of making &#8220;a substantive and positive contribution&#8221; towards the achievement of the United Kingdom Government&#8217;s national security objectives is not to be equated or aligned directly with the test set out for interpreters and others at ARAP 3.5(b) -- that &#8220;the nature of the role in which the person was employed was such that the UK&#8217;s operations in Afghanistan would have been materially less efficient or materially less successful if a role or roles of that nature had not been performed&#8221;. The language in the two sections is different; and it serves a different purpose. The focus of ARAP 3.6(2) is on the contribution to national security objectives, whereas the focus of ARAP 3.5(b) is on the United Kingdom&#8217;s operations in Afghanistan more generally. Nevertheless, I accept that if an individual&#8217;s contribution to a national security objective is not &#8220;material&#8221; or meaningful, it cannot amount to &#8220;a substantive and positive contribution&#8221; to that objective: see <span style="text-decoration-line:underline;text-decoration-style:solid">AFA</span> at [65]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the instant case, the relevant national security objective was that of counter-narcotics. The decision-maker found that the UK Support to Counter Narcotics Institutions Project was &#8220;a capacity building programme designed to strengthen Afghan government institutions and improve their overall efficiency&#8221;; a programme which was not &#8220;designed specifically to focus on and address UK counter narcotics objectives in Afghanistan&#8221;, but &#8220;may have had secondary benefits to those objectives as a result of improvements in Afghan internal governance and security, particularly the strengthening of counter narcotics institutions&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">STS&#8217;s role was not to deliver or implement a counter-narcotics programme. STS&#8217;s role was not to provide advice to Afghanistan government officials as to the nature or content of a counter-narcotics project or as to how counter-narcotics objectives could be achieved. Rather, STS&#8217;s role had been to facilitate and assist colleagues in the implementation of a programme which was not itself a counter-narcotics programme. The role of STS was, therefore, quite removed from the relevant national security objective and, based on the findings of fact, it was plainly open to the decision-maker to conclude that STS had not made a contribution to the United Kingdom&#8217;s national security objective which was &#8220;material&#8221; or meaningful, and so could not have been &#8220;substantive and positive&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not consider that the specific criticisms made by Mr Owen KC as to the reasoning of the decision-maker, and the findings of fact, undermine that conclusion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Owen KC critiques the statement by the decision-maker that Mr Pimlott was  &#8220;unable to provide specific comment on the nature of work carried out by the applicant given he did not have a personal relationship with the applicant and did not work with him&#8221;. Mr Owen KC contends that this ignores the fact that Mr Pimlott refers to and relies on institutional knowledge about STS&#8217;s work. That contention would be a fair one, and would undercut the evidential basis of the decision, if the decision-maker had gone on to ignore the substance of what Mr Pimlott had to say about STS. It was not necessary for Mr Pimlott to have known STS personally to be able to describe the work that he did for ASI. Nevertheless, it is clear that the decision-maker did not ignore what Mr Pimlott had to say. It was described and considered, along with the evidence provided by STS himself, and then evaluated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In making that evaluation, the decision-maker came to the view that the role of STS involved &#8220;facilitating and assisting colleagues in the implementation of the programme&#8221; delivered by ASI: the &#8220;UK Support to Counter Narcotics Institutions Project&#8221;. This finding was entirely consistent with the evidence provided by Mr Pimlott, and by STS himself, as to his role with that programme: STS arranged and co-ordinated meetings between expatriate staff and government officials, and interpreted at meetings. Whilst Mr Pimlott described STS as having been &#8220;instrumental&#8221; in setting up the programme and establishing relationships, and a similar point was made by STS himself, it was not wrong for the decision-maker to characterise STS&#8217;s role as really being one of &#8220;facilitation&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The finding by the decision-maker that STS&#8217;s role was not &#8220;operational&#8221; and &#8220;did not require subject specific knowledge&#8221; is also consistent with Mr Pimlott&#8217;s description of what STS did, and the evidence provided by STS himself. It was entirely rational, therefore, for the decision-maker to make this finding and to rely upon it as part of the reasoning. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Furthermore, I disagree with Mr Owen KC&#8217;s contention that the decision-maker <span style="text-decoration-line:underline;text-decoration-style:solid">required </span>STS&#8217;s role to be &#8220;operational&#8221; to satisfy Condition 2: the decision-maker did not say that STS&#8217;s role had to be &#8220;operational&#8221;. Rather, the fact that STS&#8217;s role was not &#8220;operational&#8221; was regarded by the decision-maker as a relevant factor which could be taken into account in the analysis. That was not irrational. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the foregoing reasons, therefore, this application for judicial review is dismissed. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

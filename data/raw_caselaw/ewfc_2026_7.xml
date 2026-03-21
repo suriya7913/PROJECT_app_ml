@@ -1,0 +1,987 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2026/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2026/7"/>
+	  <FRBRdate date="2026-01-13" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="7"/>
+	  <FRBRname value="RRE v JPR"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2026/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2026/7"/>
+	  <FRBRdate date="2026-01-13" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2026/7/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2026/7/data.xml"/>
+	  <FRBRdate date="2026-03-13T15:41:02" name="transform"/>
+	  <FRBRdate date="2026-03-13T16:38:33" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rre" href="" showAs="RRE"/>
+	<TLCPerson eId="jpr" href="" showAs="JPR"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-sir-jonathan-cohen" href="/judge-sir-jonathan-cohen" showAs="Sir Jonathan Cohen"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>7</uk:number>
+	<uk:cite>[2026] EWFC 7</uk:cite>
+	<uk:caseNumber>1668-1629-4350-8720</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>9efacaa208bd49cb157141092952bdb45140fefce2e90ac28b6ed676ab1abda6</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWFC 7</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>1668-1629-4350-8720</docketNumber></p>
+      <p class="CoverMain">IN THE FAMILY COURT SITTING AT</p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">THE ROYAL COURTS OF JUSTICE</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-01-13" refersTo="#judgment">13/1/2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-jonathan-cohen">Sir Jonathan Cohen</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#rre" style="font-weight:bold">RRE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#jpr" style="font-weight:bold">JPR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Southgate KC &amp; Ms Kate Edgington </span>(instructed by<span style="font-weight:bold"> Seddons GSC</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Deborah Bangay KC and Ms Georgina Howitt</span> (instructed by <span style="font-weight:bold">Howard Kennedy</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 3 - 10 December 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am by circulation to the parties or their representatives by e-mail.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">SIR JONATHAN COHEN</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Sir Jonathan Cohen :</span></p>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is a claim by H for financial remedy orders following the breakdown of the marriage between H and W.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties&#8217; opening documents describe the net assets as being broadly in the bracket - &#163;21m-&#163;27m depending on the quantum of the sum determined by the court as held for their daughter X aged 29.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of the marriage, both before and after separation, H caused large sums of money to be placed in a trust of which H and W were beneficiaries and from which distributions were made to W so that she now holds the majority of the parties&#8217; wealth.  Those sums derived entirely or almost entirely from outside the marital partnership.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key issue in the case has been the circumstances in which they came to be placed in W&#8217;s name and what impact that should have on the outcome.  It is accepted by W that their origin is as near as makes no difference entirely non-matrimonial derived from inherited family banking assets. In addition, H received reparations made by the government of Germany in respect of assets removed from H&#8217;s family during the period of Nazi rule.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H is now 85. He was born in the United States of America. W is 70. She was born in Taiwan.  H was married before and had 3 sons, one of whom is deceased.  W had not been married before so far as I know.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties met in London in 1992 and married in 1993.  At that time H was 53 and W was 37.  Their only child X was born in 1996.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 December 2013 the parties separated.  At that time they were living in rented accommodation in Knightsbridge, having sold their former home and were waiting for the renovations to a new property in London to be completed.  When those works were completed after separation, W and X moved into what had been intended to be the new family home (the "London home") and H stayed in the rented accommodation that he had moved into after separation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties remained on amicable terms post separation and neither of them contemplated there being divorce proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In late 2021 a disagreement broke out between the parties.  H wanted W to transfer to him some of the funds that were in her name and W offered what H regarded as a derisory amount.  Lawyers were instructed.  There was an exchange of voluntary financial information.  W followed that up with a questionnaire and H issued his divorce application on 19 October 2022, followed soon after by his form A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H&#8217;s background was in investment management which gave him a good income until his retirement in 2005 as he reached the age of 65.  He has had some intermittent employment since then, but that is now coming to an end.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W had made her career working for a music agency and then as an impresario.  Both she and H are enthusiastic and generous supporters of the arts, and in particular young musicians.  W has not had gainful employment since about 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since March 2023 W has been resident in Monaco so as to avoid a significant tax liability.  She needs to stay there until either 2028 or 2029 when she will be able to return to the UK without a liability.  She lives in a small flat there and I accept that she will return to England as soon thereafter as she can. She is limited to what will soon be 120 days pa in the UK but is currently a maximum of 90 days. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H divides his time between Thailand where his Thai partner lives, London where he rents a flat, and the USA where most members of his family live.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Further relevant chronology</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the mid-19th century H&#8217;s ancestors founded a bank in Germany.  Over time that merged and grew.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1935 H&#8217;s grandfather died following a brutal interrogation by the Nazi governor, provoking the family to flee Germany.  The bank was subsequently sold at a fraction of its true value leading to the restitutionary claims against the German government.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following their arrival in America, H&#8217;s great uncles established new branches of the bank abroad.  Over time the New York branch became very successful.  The shares which H inherited reflected the holding in this new entity.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Over the years H inherited various shares in the family bank.  His 3 siblings inherited in the same way that he did.  Some of the shares that H received were given to his children, the 3 sons by his first marriage and X.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1998 the GG Trust was established with W as the grantor and W, H and their descendants being the relevant beneficiaries.  There has been no run of accounts obtained from the trust for its early days as the trustees said they were not available but it appears that no significant and relevant assets (so far as what the court is concerned with) other than the freehold of the then family home were placed within the trust until 2007.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When the parties met H lived in his own house in Barnes purchased without a mortgage using restitution monies received in or around 1991.  The property did not become the matrimonial home because W did not wish to live as far out as Barnes.  In consequence the Barnes property was sold and the parties moved to Kensington where they lived until 2012.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2007 and in anticipation of a partial sale of the bank it was agreed that the shares held by H&#8217;s late mother should come to H and his 3 siblings during their stepfather&#8217;s lifetime to reduce exposure to tax.  To achieve that end, the shares were transferred into the GG Trust and were then the subject of a number of sales and distributions which took place between 2007-2012.  The total sum received into the GG Trust over a longer period and distributed to W was very substantial.  The issue of how the sums received into the trust have been utilised has been the subject of significant enquiry during this hearing.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to apply the well-known provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">Matrimonial Causes Act 1973</ref> so as to reach a fair division of the parties&#8217; assets in all the circumstances of the case. However, in this case it is of particular importance to distinguish between matrimonial and non-matrimonial assets and to apply the relevant law as set out in the recent authorities which have clarified how assets which in their origin were non-matrimonial should be treated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The tests which I should apply so far as material to this case are summarised in </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="text-decoration-line:underline;text-decoration-style:solid">NV v GD <ref href="#" uk:canonical="[2022] 1 FLR 716" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 FLR 716</ref></span> per Peel J:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">[48]<span style="font-style:italic"/>Usually, non-marital wealth has one or more of three origins, namely (i) property brought into the marriage by one or other party, (ii) property generated by one or other party after separation (for example by significant earnings) and/or (iii) inheritances or gifts received by one or other party. Difficult questions can arise as to whether and to what extent property which starts out as non-marital acquires a marital<span style="font-style:italic"/>character requiring it to be divided under the sharing principle. It will all depend on the circumstances, and the court will look at when the property was acquired, how it has been used, whether it has been mingled with the family finances and what the parties intended. I accept the submission on behalf of H that in the ordinary course of events (acknowledging, of course, that each case will turn on its own facts) the attribution of income derived from a non-marital asset towards the domestic economy will generally not convert the character of the underlying capital asset from non-marital to marital and therefore susceptible to the sharing principle; I am fortified in this analysis by the decision of Roberts J in WX v HX (NX and Another Intervening) (Treatment of Matrimonial and Non-Matrimonial Property) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/241" uk:canonical="[2021] EWHC 241 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 241 (Fam)</ref>, [2021] All ER (D) 61 (Mar)</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="text-decoration-line:underline;text-decoration-style:solid">Standish v Standish <ref href="#" uk:canonical="[2025] 3 WLR 155" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] 3 WLR 155</ref> </span>in the Supreme Court:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaNoNumber" style="margin-left:0.98in">[47] First, it is important to recognise that there is a conceptual distinction between matrimonial and non-matrimonial property. In general terms, this distinction turns on the source of the assets. Non-matrimonial property is typically pre-marital property brought into the marriage by one of the parties or property acquired by one of the parties by external inheritance or gift. In contrast, matrimonial property is property that comprises the fruits of the marriage partnership or reflects the marriage partnership or is the product of the parties&#8217; common endeavour. It has long been recognised that what is not determinative in deciding what is and what is not matrimonial property is who has title to the property: see, e g, Lord Nicholls in White <ref href="#" uk:canonical="[2001] 1 AC 596" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 AC 596</ref>, 611D&#8212;G. Moylan LJ correctly pointed out in the Court of Appeal in this case, at para 152, that to base an award on title would run counter to the discrimination and sharing principles.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaNoNumber" style="margin-left:0.98in">[48] Secondly, the time has come to make clear that non-matrimonial property should not be subject to the sharing principle (though non-matrimonial property can be subject to the principles of needs and compensation) &#8230;.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">[51] Fourthly, what starts as non-matrimonial property may become matrimonial property. Roberts J referred to this as &#8220;matrimonialisation&#8221; in WX v HX [2021] 3 FCR 249, paras 104, 112 and 121; and the same label was used by Moylan LJ in the Court of Appeal in this case. Although it may be new to the English language, we accept that that is a useful shorthand term to describe the process or mechanism by which non-matrimonial property may become matrimonial property. But whether one is using that label or not, the important question on any facts is whether that transformation has occurred. The leading examination of matrimonialisation (although that term was not used) was in KvL <ref href="#" uk:canonical="[2012] 1 WLR 306" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 306</ref>. At para 18, Wilson LJ said: </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">&#8220;Thus, with respect to Lady Hale, I believe that the true proposition is that the importance of the source of the assets may diminish over time. Three situations come to mind: (a) Over time matrimonial property of such value has been acquired as to diminish the significance of the initial contribution by one spouse of non-matrimonial property. (b) Over time the non-matrimonial property initially contributed has been mixed with matrimonial property in circumstances in which the contributor may be said to have accepted that it should be treated as matrimonial property or in which, at any rate, the task of identifying its current value is too difficult. (c) The contributor of non-matrimonial property has chosen to invest it in the purchase of a matrimonial home which, although vested in his or her sole name, has-as in most cases one would expect-come over time to be treated by the parties as a central item of matrimonial property. The situations described in (a) and (b) were both present in White v White. By contrast, there is nothing in the facts of the present case which logically justifies a conclusion that, as the long marriage proceeded, there was a diminution in the importance of the source of the parties&#8217; entire wealth, at all times ringfenced by share certificates in the wife&#8217;s sole name which to a large extent were just kept safely and left to grow in value.&#8221; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">[52] We agree with those obiter dicta of Wilson LJ. But it is important to note that Wilson LJ&#8217;s three situations were plainly not expressed to be exclusive categories. In this case in the Court of Appeal, Moylan LJ said, at para 163, that &#8220;the concept of matrimonialisation should be applied narrowly&#8221;. We disagree. There is no good reason to treat matrimonialisation as a narrow concept. It is neither narrow nor wide. Although this has not previously been clearly spelt out, what is important (leaving aside matrimonial property resting on contributions from each party) is to consider how the parties have been dealing with the asset and whether this shows that, over time, they have been treating the asset as shared between them. That is, matrimonialisation rests on the parties, over time, treating the asset as shared. This analysis draws on Lord Nicholls&#8217; reference in Miller/McFarlane, at para 25, to the way the parties organised their financial affairs as being relevant and to Wilson LJ&#8217;s references in KvL to the acceptance by the contributor that the asset should be treated as matrimonial property. See also, for example, Mostyn J in N v F (Financial Orders: Pre-Acquired Wealth) <ref href="#" uk:canonical="[2011] 2 FLR 533" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 533</ref>, para 44. &#8220;Over time&#8221;, which was the phrase used by Wilson LJ in relation to each of his three situations, means that the period of time must be sufficiently long for the parties&#8217; treatment of the asset as shared to be regarded as settled.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">&#8230;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">[54] It is the parties&#8217; treatment of the asset as shared over time that underpins at least the second and third situations articulated by Wilson LJ, but plainly there can be such treatment in other situations. In this case in the Court of Appeal, at para 165, Moylan LJ asked himself the question, &#8220;Does fairness require or justify the asset being included within the sharing principle?&#8221;  We agree that the sharing principle must be tied back to seeking a fair outcome. But putting to one side contributions made by both parties so that the assets in question are matrimonial for that reason, it is our view that it is the parties&#8217; treatment of what was initially non-matrimonial property, over time, as shared between them, that is central in deciding the fairness of that property being viewed as matrimonialised. At least the second and third of Wilson LJ&#8217;s three situations illustrate that. They are both situations where what was non-matrimonial property has become matrimonial property because of the way in which the parties have been dealing with the asset which shows that, over time, they have been treating the asset as shared between them. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">[56] The fifth and final principle relates directly to matrimonialisation in the context of the facts of this case. In relation to a scheme designed to save tax, under which one spouse transfers an asset to the other spouse, the parties&#8217; dealings with the asset, irrespective of the time period involved, do not normally show that the asset is being treated as shared between them. Rather the intention is simply to save tax. Tax planning schemes to save income tax, involving transfers of assets from one spouse to another, are commonplace given that there is no capital transfer tax on transfers between spouses. However, transfers of capital assets with the intention of saving tax, do not, without some further compelling evidence, establish that the parties are treating the capital asset as shared between them.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">The assets</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The schedule of assets is largely agreed but there are a number of issues that I need to resolve. I append to this judgment a summary schedule of assets incorporating my findings.  I shall not include in this judgment the arguments about those assets which became agreed during the trial.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The house in Thailand: this is a plot of land purchased by H and on which has been constructed a home for his partner and, when he is in Thailand, also for H.  It is the home where H spends more of his time than anywhere else, but he is limited to 6 months in a year if he wishes to avoid Thai tax.  The property is held in the name of his partner because property could not under Thai law be held in his name.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">Left to himself H would say that he has no interest in the property, but on his behalf Mr Southgate KC argues for the figure of &#163;285k which was the agreed value for FDR purposes earlier this year.  My interlocutory order had provided for either party to obtain a valuation post FDR if so wished but neither did.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">Ms Bangay KC asks me to take the figure of &#163;450k, that being the approximate sum that has been spent on the property.  H says that the property is not worth that sum.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">I take the figure of &#163;285k as being its value for two reasons.  First, it was the agreed figure for the FDR and neither party has sought a further valuation.  Secondly, the London home was bought in 2013 for &#163;4.5m and a sum, suggested by W to be &#163;1m, was spent on its refurbishment.  It has now been valued by a SJE at &#163;4.5m, although both parties stated in their Forms E that it was worth very considerably more.  It would be inconsistent to take the figure of &#163;450k as the sum spent and thus the value of the house in Thailand and yet limit the London home to &#163;4.5m, ignoring the expenditure upon it, as W seeks. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Thai condominium: H spent &#163;65k for the purchase of a condominium.  The developer went bust and H has no means of recovering his investment.  The money is lost.  There has been no suggestion of squandering.  I ascribe no value to it.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Q investment:  H invested a sum of &#163;614k which has a guaranteed growth of 20%, taking the total to &#163;736k upon realisation.  It is due to be repaid in December 2025 and is secured upon property worth more than that sum. Although it may not be paid immediately, I shall take the higher figure as that which he will receive.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">W complains about various gifts made by H, some to his more needy relatives and one to his old college.  I decline to add-back any of these sums.  The parties have a long history of philanthropy.  These were gifts made, some with W&#8217;s knowledge and some without.  In the context of the assets in this case it would not be appropriate to add-back these relatively small sums.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Gifted shares: These were gifted to the parties by a wealthy individual as a form of compensation for their failed investment in one of his projects. At the moment they appear to have little value but might attain value in due course.  This all happened during the marriage and the eventual proposal to split them equally in specie is appropriate.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H gifted a jointly owned sculpture to a German Museum in a process that took place between 2021-2023.   He did so without seeking W&#8217;s approval.  The piece of art was bought during the marriage for &#8364;450k [&#163;362,903] and H had long wished at an appropriate time to give something back to the city in which his family had grown up and prospered pre-war.  There had been a similar piece of sculpture in the museum before it was removed and destroyed by the Nazis as being degenerate.  The replacement given by H stands in the museum with a plaque saying that it is in honour of one of H's family members.  As a gift to a public institution it is commendable but in the light of the concession made by H in evidence that he would consider it reasonable to add its value back, I shall do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept Mr Southgate&#8217;s suggestion that I should offset against this figure the sums totalling &#163;206k received relatively recently by H as what is likely to have been the final restitutionary payments from Germany.  It has no relation to the sculpture and since the burden of the case is that the payments received by H are non-matrimonial, it would be double counting to offset them.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Chattels </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A list of chattels has been provided by the parties.  It includes 3 items which W wishes to ascribe to X, a step in respect of which H does not demur provided that they really do go to her rather than being retained by W.  I therefore remove those 3 items from the schedule along with an etching which H bought before he ever met W and which was an item missing from the collection made by his mother.  This is non-matrimonial and should have no value ascribed to it.  It will remain with H.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the witness box it was put to H that other valuable items should be given to X.  H was plainly uncomfortable with the proposition that they would in fact go to X, no doubt having in mind that X lives with W and his reservations that X would in fact benefit.  I did not consider this was a proper part of the court process and that if the parties subsequently wish to make further gifts to X, that will be a matter for them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The other items total in value &#163;3.835m if I exclude, as I do W&#8217;s earrings.  They were all purchased during the marriage from monies earned during the marriage. Either party may choose an item to retain at its agreed value.  H has indicated that he would particularly like to keep a particular painting and W wishes to defer her decision about which if any items she retains until she knows the outcome of the case. I have little doubt that the parties will be able to agree the future of the chattels.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Disclosure - H</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Each party accuses the other of non-disclosure and dishonesty.  Although I find that neither party has been a reliable witness, I am satisfied that there are not now, at the end of the case, undisclosed assets.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt that H concealed the investment which funded part of his expenditure in Thailand. When questioned about the source of the funds which were transmitted to Thailand it was obvious that he was hiding something.  He admitted in his oral evidence that in 2014 he invested in an offshore fund called Fund Y and that it was declared insolvent in September 2025. The existence of this investment was not disclosed in either his Form E or in reply to questionnaire, as it should have been.  H said that he had invested in Fund Y about $350k and withdrew $364k and those sums can be seen coming into and out of his Bangkok bank account.  This was a serious underestimate. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The schedule produced from the litigation file shows that over a long period H invested some &#163;977k in Fund Y and withdrew &#163;1.039m.  Of the withdrawals, &#163;547k can be seen going into the Thai account held by H for his partner but the remaining funds, says H, went into the same account.  This cannot be cross-checked because the court does not have the earlier Thai bank statements. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">None of this would have emerged if W&#8217;s solicitors had not conducted an internet search when H said that he was taking legal action in respect of the insolvency.  His disclosure was not willingly volunteered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H struck me as being not only a bad but also a reluctant liar on this issue.  On the second day of his evidence, he arrived at court with documents which he had previously said were not in his possession in relation to the proceedings that he and a co-applicant had instituted against the fund.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Save for the product of any litigation claim which is very speculative, I am satisfied that there are no further undisclosed funds in relation to H&#8217;s Thai assets or investments.  I am equally satisfied that H&#8217;s motive in seeking to conceal this investment was to try to protect his partner who has been the recipient of the funds.  Indeed, he struck me as fixated upon preserving for her those funds that he has transferred to Thailand or which were intended for that purpose.  It is similar to his denial of an interest in the house in Thailand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The truth of the Fund Y investment provided the missing piece of the jigsaw to explain the movements into his Thai bank account. It is a great shame that he was not more honest earlier as his non-disclosure has fuelled W&#8217;s mistrust.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Bangay asks me to addback the sum of &#163;1m to represent what she says are funds that have gone into Thailand and which cannot be traced.  She says that &#163;1.857m went from H&#8217;s accounts to Thailand. Of that something around &#163;600k went into the purchase of the house in Thailand and its development and the Thai condominium project, and whilst H would have had to bear the living expenses of his Thai household over a long period, she says that there remains a substantial sum not accounted for. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not regard the fact that the monies in Thailand were under the control of his partner as conclusive of wastage or disposal when they were also for his benefit. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One difficulty that the court is faced with is that the extent of H&#8217;s spending had not been set up in advance as an issue to be determined at trial. The funds came out over 6 years from the start of 2019 until the end of 2024.  The documents in the litigation file produced during the hearing support his account that the money from Fund Y went into the Thai bank account as the amounts and nature of the transactions referred to in the Fund Y file are consistent with what can be seen in the Thai bank account, albeit that this is limited to the later years as earlier statements were not produced. There is no reason to assume a different picture for earlier years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The material to categorise the expenditure as excessive is therefore limited.  The other problem is that W says that her expenditure of approximately &#163;600k pa exclusive of her Monaco rent reflected the standard of living to which she has been used, which suggests that H&#8217;s level of expenditure is not obviously any higher and arguably lower than that which W has expended.  This is a relevant factor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I remind myself of <span style="text-decoration-line:underline;text-decoration-style:solid">Evans v Evans</span> [2013] 2FLR 99 at paragraphs 105-108 and the quotation from Wilson LJ in <span style="text-decoration-line:underline;text-decoration-style:solid">Vaughan v Vaughan</span> [2008] 1FLR 1108 to the effect that there needs to be both clear evidence of wanton dissipation and that it would be fair to conduct a notional reattribution.  I do not find either to be the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, my finding that H deliberately did not disclose this source of investment into Thailand does mean that I have to look at the rest of his evidence with particular caution.  I have also reminded myself both in respect of his evidence and in respect of W&#8217;s evidence the need to give myself a Lucas direction.  The fact that a witness may have told an untruth in one aspect of their evidence does not mean that the whole of their evidence must be disbelieved.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The parties&#8217; use of funds</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H&#8217;s funds emanated from two non-matrimonial sources. Substantial payments were made by the German government over about a 30 year period from the early 1990s.  It appears that those payments have now come to an end.  Indeed, H says that there may be a possible claim in respect of overpayment, but I have been told and have read nothing that suggests this is either imminent or probable.  I therefore disregard it.  These funds were paid to him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, bank shares representing his portion of what his ancestors had created after they left Germany came to be placed in W&#8217;s name and I must resolve what the intention of the parties was in putting them in her name.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H took tax advice in the period approximately 2010-2012.  The shares or proceeds of sale of the shares of H and his siblings had been placed in the GG Trust, which had been established in 1998, and H&#8217;s siblings needed to receive their portion in the most tax efficient manner. The gist of the advice was that the Trust should make a distribution of the shares to W and for her then to gift to H&#8217;s siblings their portion of the cash and shares.  To guard against the risk of her death within 7 years, a policy would be taken out against W&#8217;s premature death.  I am confident that this was the agreement that the parties put into operation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The separation of the parties did not impact on their financial arrangements.  They remained on good terms and neither contemplated there being a divorce.  In the context of this couple, the fact of their separation did not change their financial arrangements. By reference to the schedule of Trust transactions, capital distributions to W were made both before and after the separation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W sought to argue that after separation:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The sums distributed out of the GG Trust to her were, after payment to H&#8217;s siblings, a gift by H to her;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">They were gifted after separation for no good tax saving reason;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In any event, H had received from the trust as much as she retained;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Under her stewardship, the funds that she now has have significantly increased as a result of her good management of them;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">And as a result, that if the funds in her name were to be treated as matrimonialised rather than her separate property, she should receive the bulk of them.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reject each of these arguments.  First, I do not accept that the funds or any part of them were a gift to W.  These substantial sums remaining in the trust after payment to the siblings were parked there for what was thought to be tax efficient planning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In assessing the reliability of each party&#8217;s account, I give particular weight to contemporary documentation.  I accept the warning given by Leggat J (as he then was) in Gestmin v Credit Suisse <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2013/3560" uk:canonical="[2013] EWHC 3560 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3560 (Comm)</ref> about the fallacy of memory years after an event.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What the documents clearly show is that the foundation of placing assets in the name of W via the trust was for tax-planning. Thereafter and for whatever reason, the parties ceased to take any tax advice that the court has heard of until far more recent times.  But, I have been shown various emails into which W was copied, sent by H in the period 2016/2017 to financial professionals dealing with the management of the funds, either still within the trust or having been paid out to W, which include making reference to the funds being in W&#8217;s name for tax reasons without there being any suggestion from either H or W that the funds belonged beneficially to W or had been gifted to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 8 December 2021 in the very initial correspondence between solicitors when H was demanding back money, W&#8217;s solicitors replied that this demand was &#8220;completely at odds with (i) the agreed estate planning strategy which the parties had adopted both during their marriage and since separation&#8230;&#8221;.  No mention was made of any gifting, which I would have expected to have been stated if that was then W&#8217;s case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no document which describes the funds put in W&#8217;s name as a gift or any statement by her before these proceedings began in which she described having a proprietary interest in them.  Less surprisingly, there is no document which shows that H was averring that he remained the true owner and that W was only the custodian. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">True it is that the tax efficiency of the scheme became nugatory because H was tax resident in the UK only for the 3 years between 2017-2020.  Nevertheless, he followed the advice that he was given before the significant distributions were made and seems never to have bothered to have checked whether that advice remained valid.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A further point militating against the funds being a gift is that H was anxious to benefit equally the children that he had by both of his marriages. H&#8217;s email of 21 October 2021 says that all four children had been treated equally.    But it is inevitable that unless his children by the first marriage were to benefit from some of the funds distributed from the GG Trust to W, they would be disadvantaged.  This would arise because W, on her own evidence, would die intestate so that all her estate would go to X. This is not what I find that either party envisaged at the time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties&#8217; evidence about their testamentary intentions was curious.  H was taken to two wills that he made in 2017, one in the US and one in England which made minimal provisions for any of his children on the basis that he had already done so during his lifetime.  He said that those wills had been replaced by a subsequent will, the contents of which were not given in evidence.  But why did he never set out in writing that he wished his sons to benefit from the retained funds held by W?  This was a curious omission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s evidence about her will struck me as even more curious.  She said that notwithstanding the expert lawyers she had instructed over the last 4 years in these proceedings, she had never written a will of any sort.  If this were to be true, then one can only assume that this was because she wanted X, her only child, to be the sole beneficiary of her estate. Yet this would be inconsistent with her oral evidence when she accepted that she had agreed to benefit H&#8217;s sons and that both she and X wanted H&#8217;s sons to benefit.  I do not believe her when she said that she did not realise that only X would benefit if she died intestate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear that H received two significant distributions of wealth.  The first was about $2.5m by way of cash distribution from his mother&#8217;s will trust in 2012.  The second was the sum of $3,101,114 which was received on 26 June 2014.  The precision of this sum is important as it is exactly &#8531; of the sum of $9,303,348 received in December 2013 which was paid in equal parts to each of H&#8217;s 3 siblings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that these are the only two significant sums that have been paid out to H.  The remainder of the funds remained in the GG Trust, which was in due course wound up for tax reasons, and now are under W&#8217;s control in the accounts that she holds.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am reinforced in my view that what H received was limited as set out above by the fact that the statement of capital distributions from the trust at page 1656/7, the only reliable and complete evidence, makes reference, apart from various small sums, only to the sum of $3.101m being paid to H in two tranches in April and June 2014 and with all other capital distributions being paid to W.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst there are gaps in the documentary evidence, I do not accept W&#8217;s evidence that H received his 25% portion of the share sales which had been appointed out to her.  There is no evidence of such payments out to him.  Despite intensive enquiries no trace has been found of the sums which W claims were paid out to H actually having been so paid.   There has been no evidence produced of any kind of other payments to H from the trust or from W&#8217;s account or of receipt into H&#8217;s account. I am satisfied that they remained with W and were not paid out to H. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s evidence of any communication from H about H making a gift to her was devoid of detail.  It only came out in her oral evidence that she said that it was as a result of conversations that she and H had, mainly in London restaurants.  By the end of her evidence it was only one sum that she claimed was gifted to her, the very substantial sum of $9,980,000, along with certain payments of dividends which she said were related to that sum.  I am sure that she is not right on this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Part of the difficulty that she faced was that her case changed in terms of what she received by way of gift. At paragraph 33 of her main statement, she set out that funds were transferred to her of $14.678m of which she said just under $3.6m was ascribed to X. In her closing schedules the amount that she claimed was gifted to her increased to $13.015m.  It was hard to establish the rationale for what was claimed by her to be a gift and what was not a gift.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The foundation of her case was the receipt of $9.980m on 8 December 2015. She said that it was this sum which produced dividends of $54k and $380k, but that cannot be right as the principal sum was the product of a share sale and there could be no reason why the payment of dividends should be made 6 and then 8 months after the shares had been sold. Nor is there any description of these payments in the ledgers as being dividends.  Moreover, these were funds that W in the same statement said were received by her for X, and not for her (W&#8217;s) benefit.  The other $200k on her schedule was totally different and arose from a completely different share sale.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She also claimed that the sum of $550k was gifted to her in early April 2017.  The correspondence shows clearly that this was a transaction rushed through before the start of the new tax year which would have brought significant adverse consequences if not completed before. There is no reference to the money being a gift and it had no relation to previous sums which W claims to have been gifted.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a sense this dispute becomes less important as W accepts that the sums that she has received are entirely, or almost entirely, the proceeds of the sale of bank shares which had no matrimonial element to them. Her case as put to me was that they, having been the non-matrimonial property of H, became the non-matrimonial property of W as they were a gift to her (an untenable argument in law) or became matrimonialised and on the facts of this case should be treated as largely for her benefit. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s assertion that she had grown the funds as a result of her careful management after they were placed under her control was unsustainable.  When asked questions of detail about the funds, in particular in relation to withdrawals and investments, she was not able to answer them and her repeated refrain was that she had no idea about finance and relied completely on initially H and then her portfolio advisor SA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The idea that she took investment decisions for the benefit of the fund was implausible.  When it was pointed out to her that the performance of the fund had in fact been poor over the last decade, she explained that that was a result of the incompetence of SA (I deliberately use only his first name as he has had no opportunity to reply to her criticisms).  At the best the fund seems to me to have had passive growth. I do not put any weight on H&#8217;s acceptance of her good management of the fund when at the time he had no direct knowledge of the facts and was dependent on her for information and say-so which was not backed up by the documents that she herself provided from the portfolio managers in these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W is plainly intelligent and I accept that she was interested in what happened to the funds. I accept her case that she discussed some matters with SA, but she gave no evidence of any investment decisions that she made.  Indeed, as I have stated the performance of the portfolio has not been good.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W took objection to the nature of the questioning about the portfolio, but it would never have come about if she had not been claiming credit for what she regarded as her wise stewardship of the funds in her name so as to lead to her receiving an enhanced award from the court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">X&#8217;s funds</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties agree that they wished to provide for X. A schedule has been produced which shows a total received for X&#8217;s benefit of $3,233,491.  These funds were received almost entirely by the end of March 2017.  As the parties agree that those funds were allocated to X I do not go behind that agreement.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s case as to which funds have been allocated to X has gone through a series of permutations. I find that they were never segregated from W&#8217;s other funds so that it is difficult to see how they could be easily identified or calculated.  The sums have been progressively reduced in value by W as her presentation changed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W produced a schedule which initially showed that the sum of a little less than $8.3m was due to X.  She revised that downwards to $7.5m as she says that was a figure that SA had told her (but had never put in writing) as being the sum of X&#8217;s fund.  It is impossible to know where this figure comes from because it is quite apparent that X&#8217;s funds were never kept separate from other funds in W&#8217;s name, a matter that she puts down to SA&#8217;s failings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The many changes in W&#8217;s presentation of the amount of funds gifted to X does not increase the reliance that can be attached to what she says was gifted by H to W herself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 14 October 2025 H wrote a WhatsApp message to X which reads as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="font-style:italic">I have made it very clear to the lawyers that I have agreed to protect your $6.5m.  They agree, but want to understand why M made so many deposits and withdrawals in her accounts.  There is no apparent trail which leads to your total and it is confusing.  However, nobody is disputing your amount.  That is safe.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Neither party says that I should rely on that figure.  H says that X told him, presumably having obtained information from W, that this is what her portfolio was worth.  X was plainly wrong but H did not want to challenge X.  It is, in my judgment, rather typical of H&#8217;s approach.  He repeatedly said that he did not want, at his age, to burden himself with further assets.  He did not want to buy a flat in London (as opposed to renting) and he did not want to be surrounded with expensive artwork that was not already in his possession.  He seemed keen to minimise his needs.  His main concern was to ensure that his partner and all of his children were well catered for and dealt with equally</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the course of the presentation of W&#8217;s case, her legal team sought to attach a 6% annual compound growth to X&#8217;s funds. There was no justification for this arbitrary figure when the portfolio statements set out what the actual return was, which was in general terms significantly lower. H&#8217;s worked schedule using actual figures produced the sum of $4,624,678.  I accept this calculation, and I was not prepared to permit W to adduce new documents in closing which W had obtained but which had not been the subject of evidence and when the parties had in the trial bundle the documents which provided information to which I have referred. I reject W&#8217;s calculation of the sum being $5,418,230.  The difference between the parties&#8217; figures is explained by the different figures which each has adopted for growth in the period 2015-2021 where W has used a much higher return than that shown on the portfolio documents that had been put in evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties having agreed the amount of the initial investment for X and which I have found grew to the sum of $4,624,678, I adopt the converted figure of &#163;3,530,288 as being the sterling value of her gifted funds exclusive of the Kensington flat which was purchased initially for W&#8217;s mother and then subsequently passed to X.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Needs </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H has the benefit of the use of the house in Thailand where he spends about 5 months a year.  He spends about 4 months a year in a small rented flat in London and has no wish to purchase a home here.  He spends the remainder of his time travelling or in the USA where most members of his family live.  H put his income needs at around &#163;290k pa.  Of that, about &#163;80k reflected the rental costs of his London flat.  I find this to be a reasonable budget.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He has a pension and earned income of about &#163;69k pa but with a big question mark over the continuation of some &#163;24k of that. He will plainly be able to meet his needs from what he is left with from this litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W lives in the London home.  It is a substantial house in a far more fashionable part of London than where H rents.  It includes 4 bedrooms, a media room and a home gym. The house is described as being in good condition apart from some isolated damp patches.  W says that she was told that if money was spent on the property, it might be worth &#163;6.5m.  At the present time, it is occupied by X and, when in England, W.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that W&#8217;s reasonable housing needs could be met for a sum of &#163;3m inclusive of the costs of purchase. She cannot reasonably require a 4 bedroom house over 4 floors in London for her sole occupation.  I thought that the particulars provided on behalf of H of properties in the range of &#163;2.5m-&#163;2.6m were appropriate.  Whether and when W does trade down will be a matter for her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her budget was an eye-watering sum of over &#163;600k by way of recurring costs and expenditure.  She claimed that she was doing no more than continuing to enjoy the standard of living she had enjoyed during the marriage.  It included over &#163;200k for holidays and hotels.  Many of the figures were in my view significantly exaggerated. W took offence at the challenges to her figures, both by Mr Southgate and by the Court. But, scrutiny of a large needs budget is justified when or if it is to be met from funds that were not hers, whether in whole or in part.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In closing, W produced a new budget, which if the cost of the Monaco rent is removed, came in at &#163;400k pa. It removed expenditure referable to X, who is 29, in full-time work, and with her own separate investment portfolio not referred to above in a sum which W says X is not prepared to reveal.  She is a wealthy young woman, and her needs should not be an expense of W. She also owns the flat, provided by her parents, in a fashionable part of London which she could rent out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Self-evidently, this second budget was much more reasonable, but it still included &#163;200k for holidays.   I see no reason why W&#8217;s needs should not properly be met for &#163;300k.  This places her needs at the same level as those of H.  I accept that he has the benefit of a lower cost of living in Thailand, but he has the greater expenditure of a rented home in London which balances things out.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Allowing for an 18 year duration of provision, a fund of &#163;4.56m would be required to provide at this level for W&#8217;s expected lifespan.  To that I need to add &#163;250k for 3 years rental of her Monaco flat. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These figures total &#163;7.8m. W is currently in good health.  I look at the capitalised income components with a degree of caution because although she might die early, it would not be right that she should run the risk of living into old age beyond the average life expectancy with an expired fund.  I bear in mind also H&#8217;s statements which I find that he made that he wished W to live after he died as a &#8220;merry widow&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have mused over how to deal with this eventuality. I note that in his open offer made only last month, H was prepared for W to receive all the equity of  the London home up to the level of a sale at &#163;4.5m. I therefore have decided that the fairest solution is for W to go forward with the sum of &#163;4.8m for income inclusive of the cost of the short-term Monaco rental, and the ownership of the London home If she cannot live within budget or if her life expectancy proves greater than predicted, she has the option of trading down in terms of her housing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whether W wishes to take some of her award in art is a matter for her. If she does not, it can either be taken by H or sold.  I do not include as part of her available resources the earrings that appear as her jewellery item. In a case of this value, it is unnecessary to do so. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Open Offers</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W by her offer of 16 July 2025 proposed a division which she calculated would mean that she would exit with &#163;14m (66% of the assets) and H would exit with &#163;7.2m (34% of the assets).  In fact, H would end up with less (by my calculation &#163;6.8m) as his assets have been depleted, no doubt largely by costs, and W would end up with considerably more because I have not accepted her too high figure for the value of X&#8217;s investments. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H&#8217;s revised offer of 19 November 2025 was intended to provide W with a sum that I calculate as being &#163;5.106m plus the London home, which he required to be sold immediately, but subject to a clawback provision if it sold for more than the SJE valuation. In addition, it offered a half share of two valuable works of art worth &#163;1.425m.  In closing he advocated a &#8220;needs plus&#8221; approach which I have adopted, albeit differently structured. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W has calculated H&#8217;s offer to leave her with &#163;10.047m (35%) and him with &#163;18.559m (65%), as opposed to his calculation of 42.5:57.5.  However, this seems to me to be based on a number of misconceptions. It assumes the London home to have an equity of &#163;6.305m. If that is corrected to &#163;4.365m net of sale costs, then the percentages change to 30:70.  On the other hand it omits the value of the two artworks and appears to me to miscalculate the amount of the capital fund H was offering to W.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have found that the sums transferred into trust and/or paid out to W were not treated by H and W as shared between them, let alone treated as hers alone. They remained his non-matrimonial funds. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s entitlement claim, which would be limited to half the value of the home and chattels is much less than her needs claim, which must prevail.  W&#8217;s needs must be met by H but thereafter both as a matter of law and a matter of fairness the remaining funds should be treated as his non-matrimonial funds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case, the following facts (as found by me) seem to me to be particularly relevant</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is agreed that the provenance of the funds was non-matrimonial;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The funds were placed in W&#8217;s name for what was thought to be good tax planning reasons;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The funds remained managed by H and SA albeit copying in W, at least until proceedings started;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Despite the parties separating, the management of their finances did not change, reflecting their continued harmony;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The funds have remained intact with W only drawing upon the income;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There was no material change of which I have been told as to the use or investment of the funds after being placed in W&#8217;s name;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There is no documentary evidence and no oral evidence upon which I can rely that ownership of the fund was ever gifted by H to W.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaNoNumber"><span style="text-decoration-line:underline;text-decoration-style:solid">Cross-check</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My award of a capital sum of &#163;4.8m is &#163;300k lighter than H&#8217;s offer but I have not ordered a sale of the matrimonial home or allowed a clawback.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If H wishes to continue to offer the share of the two paintings that he offered in his open offer, that is a matter entirely for him.  If he did, it would provide W with an even more substantial cushion. The offer that he made was as part of a package that was rejected by W. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My award will leave W with the property at &#163;4.350m and a fund of &#163;4.8m which totals when her jewellery is added in approx. &#163;9.2m.  H will have approx. &#163;17.9m.  This amounts to a division 34:66. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is fair in all the circumstances. In the light of their provenance, I would regard this as a fair outcome even if the funds had been matrimonialised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W asserts that she may have a liability to HMRC.  This is unquantified and has not been the subject of any demand.  I will hear counsel as to what if any provision I should make in respect of this, as neither has addressed me upon this issue.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

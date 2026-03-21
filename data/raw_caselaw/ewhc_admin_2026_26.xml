@@ -1,0 +1,2587 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/26"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/26"/>
+	  <FRBRdate date="2026-01-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="26"/>
+	  <FRBRname value="Green Lane Association Limited &amp; Anor v Central Bedfordshire Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/26"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/26"/>
+	  <FRBRdate date="2026-01-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/26/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/26/data.xml"/>
+	  <FRBRdate date="2026-01-12T11:49:56" name="transform"/>
+	  <FRBRdate date="2026-01-12T12:02:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-planning" href="https://www.gov.uk/courts-tribunals/planning-court" shortForm="The Planning Court" showAs="The Planning Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="central-bedfordshire-council" href="" showAs="CENTRAL BEDFORDSHIRE COUNCIL"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Planning</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>26</uk:number>
+	<uk:cite>[2026] EWHC 26 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2025-LON-001230</uk:caseNumber>
+	<uk:caseNumber>001208</uk:caseNumber>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>3924f79a688721611897543521d1f757fd5f33c7184371a7107c072b8ddc0c1b</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Subtitle { font-size: 11pt; color: #5A5A5A; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .SubtitleChar { color: #5A5A5A; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWHC 26 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2025-LON-001230</docketNumber> and <docketNumber>001208</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-planning">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING&#8217;S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">PLANNING COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-01-12" refersTo="#judgment">12<span style="vertical-align:super;font-size:smaller">th</span> January 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><span style="font-weight:bold">Neil Cameron KC </span></p>
+      <p style="text-align:center">sitting as a Deputy High Court Judge</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.26in 3.95in 1.27in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">GREEN LANE ASSOCIATION LIMITED </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right">Claimant (claim 001230)</p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">TRAIL RIDERS FELLOWSHIP</span></p>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="CoverMain"><span style="text-decoration-line:none"/>Claimant (claim 001208)</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#central-bedfordshire-council" style="font-weight:bold">CENTRAL BEDFORDSHIRE COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Brendan Brett  </span>(instructed by Richard Buxton Solicitors) for the <span style="font-weight:bold">Claimant in claim 001230</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Adrian Pay </span>(instructed by DMH Stallard) for the <span style="font-weight:bold">Claimant in claim 001208</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Joel Semakula </span>(instructed by Pathfinder Legal Services) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 9<span style="vertical-align:super;font-size:smaller">th</span> and 10<span style="vertical-align:super;font-size:smaller">th</span> December 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">The Deputy Judge (Neil Cameron KC):</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are two claims before the court. One claim is made by Green Lane Association Limited, who I will refer to as the First Claimant, and the other by the Trail Riders Fellowship, who I will refer to as the Second Claimant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision under challenge is the same in both claims. It is the decision of the Defendant to make The Central Bedfordshire Council (Prohibition of Motor Vehicles) (BOAT No.33, Sandy Lane, Aspley Heath) Experimental Order 2025 (&#8220;the 2025 ETRO&#8221;). The 2025 ETRO was made on 11<span style="vertical-align:super;font-size:smaller">th</span> March 2025 and came into operation on 27<span style="vertical-align:super;font-size:smaller">th</span> March 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The First Claimant objects to the Defendant&#8217;s reliance on the evidence of Ms Bettles (Rights of Way and Arboriculture Manager for the Defendant)  (in relation to Ground 2 of its challenge).  I will address that application when considering the ground of challenge to which it relates.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Background Facts </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Aspley Heath byway open to all traffic (&#8220;BOAT&#8221;) No.33 starts at its junction with Milton Keynes Bow Brickhill BOAT No.29 and runs in a generally north-north-east direction for approximately 870 metres to its junction with Heath Road, Church Road and BOAT No.27 in Aspley Heath. BOAT No.33 runs through mixed coniferous and deciduous woodland over sandy soils, and is known as &#8216;Sandy Lane&#8217;.  I will refer to BOAT No.33 as  the &#8220;Sandy Lane BOAT&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant is the traffic authority for the Sandy Lane BOAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Sandy Lane BOAT is situated within the Wavendon and Aspley Woods County Wildlife Site. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In early 2024 the Defendant carried out works to repair the surface of the Sandy Lane BOAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 12<span style="vertical-align:super;font-size:smaller">th</span> March 2024 the Defendant made the Central Bedfordshire Council (Prohibition of Motor Vehicles) (BOAT No.33, Sandy Lane, Aspley Heath) Experimental Order 2024 (&#8220;the 2024 ETRO&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The First Claimant and the Second Claimant brought claims under paragraph 35 of Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref>&#8221;) by which they challenged the validity of the 2024 ETRO. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By consent orders sealed on 15<span style="vertical-align:super;font-size:smaller">th</span> May 2024, the 2024 ETRO was quashed. In the Schedule of Reasons attached to the consent orders the Defendant stated that they accepted that they had failed to carry out a proper consultation as required by regulation 6 of the Local Authorities Traffic Orders (Procedure) (England and Wales) Regulations 1996 (&#8220;the 1996 Regulations&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the 14<span style="vertical-align:super;font-size:smaller">th</span> August 2024 the Defendant sent an email to a number of parties, including the Claimants. In that email the Defendant stated that they were consulting the recipients before deciding whether to make an experimental traffic regulation order which would prohibit use of motor vehicles on BOAT No.33 (Sandy Lane).  The email was accompanied by a public notice dated 14<span style="vertical-align:super;font-size:smaller">th</span> August 2024. That notice included the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">&#8220;Notice is hereby given that on (sic) Central Bedfordshire Council intends to make an Experimental Order under Sections 9, 10 and Part IV of Schedule 9 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref> and all other enabling powers, after consultation with the Chief Officer of the Police in accordance with Part III of Schedule 9 to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">If the order comes into operation it will introduce a Prohibition of Motor Vehicles as detailed on the length of road below at a date to be confirmed.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">Reason for Experimental Order:</span> The decision has been made to propose to prohibit all motorised vehicles in order to address inappropriate usage of Sandy Lane Byway. Reported inappropriate usage includes anti-social behaviour, fly-tipping, racing and use of the Byway by unsuitable vehicles which have consequently damaged the road surface. The Prohibition of Motor Vehicles will prevent all motorised vehicles from using the Byway and this will be enforced using a coded gate and bollards.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">Implementing this as an Experimental Order will enable the Council to monitor the scheme to assess it&#8217;s impact on addressing the anti-social behavior (sic) and its impact on the wider local area, and modify or remove it at any time should the need arise.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">If made, it is proposed that the Experimental Order will be in operation for up to 18 months and Central Bedfordshire Council will consider in due course whether the provisions of this Order should be continued indefinitely. Within a period of 6 months beginning with the day on which the Order comes into force, any member of the public may object to the making of Order and making the effects permanent.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in">&#8230; &#8220;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 16<span style="vertical-align:super;font-size:smaller">th</span> August 2024 Pete Jones, the Legal Manager for the First Claimant wrote to the Defendant. That email included the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;The proposal's stated aim is to address the inappropriate usage of Sandy Lane Byway. No further information is provided on how the Council has decided the listed behaviours are inappropriate.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">Consequently, it is difficult for the Association to make an informed response. I would be grateful if you could provide the information and reports relied on to support the proposal.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the 19<span style="vertical-align:super;font-size:smaller">th</span> August 2024 Clive Beckett sent an email to a number of recipients including employees of the Defendant in which he said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;I am familiar with this lane through management of Aspley Woods. For years this lane has had an issue with unsocial behaviour but we refrained from any action to restrict vehicular access as it is also well used by motor vehicles particularly 4x4's and motor cyclists. As far as I am aware that use continues. If this was a road would the highway authority close it or would the police take appropriate action.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">The lane serves as a short cut to Aspley Heath from Bow Brickhil (sic) and other settlements and has been used in the past as a link to the local school.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">At the time we felt that the problem was more a police matter and closage (sic) was absolutely the last resort.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">Also, is closure to all vehicles necessary. I am sure the Off Road Fellowship will.oppose such a proposal.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Beckett is the Chair of the Local Access Forum (&#8220;LAF&#8221;). In his email of 19<span style="vertical-align:super;font-size:smaller">th</span> August 2024, Mr Beckett did not refer to his position as Chair of the LAF.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024 a Principal Highways Officer employed by the Defendant sent an email to Mr Jones of the First Claimant to which she attached a spreadsheet which contained approximately sixteen photographs together with commentary. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a letter dated 3<span style="vertical-align:super;font-size:smaller">rd</span> September 2024 Mr Jones of the First Claimant sent a letter setting out grounds of objection to the proposed ETRO. At paragraph 4 of his letter, Mr Jones states that he has attached a copy of the First Claimant&#8217;s publication &#8220;Inclusive Countryside Access&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 26<span style="vertical-align:super;font-size:smaller">th</span> November 2024 the Defendant&#8217;s officers produced a report to be presented to the decision making members at a Traffic Management Meeting (&#8220;the OR&#8221;). </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The OR recommended that an ETRO be made prohibiting Sandy Lane from being used by motorised vehicles.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Paragraphs 6 and 7 of the OR state:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;6.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">The introduction of an Experimental Traffic Regulation Order would provide the opportunity to repair the worst eroded sections of Sandy Lane, protect it from further damage by motor vehicles, and would allow the Council to monitor the level of erosion without the impact of motorised vehicles. For the period, the BOAT would operate as a traffic-free amenity route for walkers, cyclists, and horse-riders.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>7.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">By introducing the order as an ETRO, the Council has a period of up to 18 months to assess its impact, noting that comments and objections can be raised during the first six months. Hence, after a minimum six-month period the Council will review its impact and effectiveness and whether it would be appropriate for the arrangement to continue and/or be made permanent.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">At paragraphs 19-21 the OR considered &#8216;Options for Consideration&#8217;</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;19.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">The Council considered but discounted the option of advertising the order as a permanent TRO under the powers conferred by the Road Traffic Regulations Act (1984). This was discounted on the view of officers that an experimental period would be preferable, as this would allow for a considered assessment of the impact on the Byway surface of motor vehicle use.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>20.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">The recommended option is to introduce the ETRO as advertised.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>21.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">There is also the option to uphold the objections and not progress with the order or make the restrictions less onerous.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The following was included under the heading Equalities and Fairness Implication (at OR paragraphs 30-31)</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;30.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (the &#8220;Act&#8221;) provides protection from discrimination in respect of certain protected characteristics namely: age, disability, gender re-assignment, pregnancy and maternity, race, religion or beliefs and sex and sexual orientation. It places the Council under a legal duty to have due regard to the advancement of equality in the exercise of its powers. In particular, the Council must pay due regard to the need to:</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8226; eliminate discrimination, harassment, victimisation and any other conduct that is prohibited by or under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8226; advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it; and</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8226; foster good relations between persons who share a relevant protected characteristic and persons who do not share it</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Due regard must also be given to the Public Sector Equality Duty (PSED). <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">Section 149</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> requires the Council to consider all individuals when carrying out their functions; this includes changes to policy. The duty requires that due regard be given to the need to eliminate discrimination, advance equality of opportunity, and foster good relations between different people. Specifically, the following protected characteristics must be given due regard - age, disability, gender reassignment, pregnancy and maternity, race, religion or belief, sex, sexual orientation. The PSED also applies to marriage and civil partnership, but only in relation to the need to eliminate discrimination, harassment and discrimination</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>31.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">It is accepted that drivers of off-road vehicles will be disadvantaged by the prohibition to traffic whereas other, more vulnerable users including pedestrians, equestrians and cyclists, are likely to feel significantly less at risk. We are conducting equality screening to ensure we identify any potential equality impacts as we monitor the implementation of the proposal for closure to vehicles.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The following is set out at paragraphs 33 and 34:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8220;Other Corporate Implications</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>33.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">Closing this section to motor vehicles is likely to reduce the level of anti-social behaviour including fly tipping which has previously been reported on this section of Sandy Lane.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Conclusion and next steps</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>34.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.02in">It is recommended that approval is granted to introduce an Experimental Traffic Regulation Order that prohibits traffic from using Aspley Heath BOAT No. 33 and that a report is bought back to the Traffic Management Meeting as to its impact after a period of no less than 6 months and no more than 15 months.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The following documents are listed as appendices to the OR:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8220;Appendix A: Public Notice</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix B: Drawing</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix C: Police Response</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix D: Parish Council Response</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix E: Ward Member Response</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix F: Statutory Consultee and Prescribed Bodies Responses</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">Appendix G: County Wildlife Site Designation&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The documents in Appendix F to the OR included:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The spreadsheet and photographs attached to the 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024 email from the Defendant&#8217;s Principal Highways Officer to Mr Jones of the First Claimant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The First Claimant&#8217;s letter of 3<span style="vertical-align:super;font-size:smaller">rd</span> September 2024. The document &#8216;Inclusive Countryside Access&#8217; was not included in the appendices to the OR.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her First Witness Statement Ms Bettles states that an Equality Impact Assessment was carried out as part of the report writing process. She says that an equality and diversity checklist document was filled out in consultation with the Defendant&#8217;s EDI Strategy Officers.  Ms Bettles produced an Equality and Diversity Checklist (&#8220;the Checklist&#8221;) dated 15<span style="vertical-align:super;font-size:smaller">th</span> January 2025. The following appears at Section B of the Checklist:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;B)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">In which ways does the proposal support Central Bedfordshire&#8217;s legal duty to:</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#61623; Eliminate unlawful discrimination harassment and victimisation and other conduct prohibited by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">By allowing safe access to pedestrians, cyclists and horse riders safer access to the use of the Byway without fear for safety or harassment</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#61623; Advance equality of opportunity between people who share a protected characteristic and people who do not share it</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">By allowing both people who share a protected characteristic and people who do not share it to have equal access to a safe use of the route</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#61623; Foster good relations between people who share a protected characteristic and people who do not share it</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">By allowing both people who share a protected characteristic and people who do not share it the same access and rights to pass and repass along the Byway safely&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the 23<span style="vertical-align:super;font-size:smaller">rd</span> January 2025 a traffic management meeting was held. The meeting was chaired by Councillor John Baker. As Councillor Baker is the ward councillor for the area which includes the Sandy Lane BOAT the agenda item at which the proposal to make the 2025 ETRO was considered was chaired by Councillor Zerny.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A representative of the First Claimant (Mr Jones) spoke at the meeting by video call using Microsoft Teams. In his witness statement Mr Jones said that he delivered a prepared three-minute speech, but that as the audio function did not work he was unable to listen to the proceedings, and therefore unable to respond to any points made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes of the meeting held on 23<span style="vertical-align:super;font-size:smaller">rd</span> January 2025 record (amongst other things):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A statement submitted by the LAF was read by the Committee Services Officer. In that statement the LAF opposed the proposed ETRO.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A statement submitted by the Second Claimant opposing the making of the proposed ETRO was read by the Committee Services Officer. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The decision:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;1.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:1.18in;text-indent:0.32in">That the proposal for an Experimental Traffic Regulation Order (ETRO) to introduce a prohibition of Motor Vehicles be implemented as advertised on the following length of road in Aspley Heath:-</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:1.18in">- Sandy Lane (BOAT 33), from the crossroads at Aspley Heath Lodge where Bridleway No.4 meets Byway No.33 and extending in a south westerly direction for approximately 687 metres (ending at the county boundary).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The 2025 ETRO was made on the 11<span style="vertical-align:super;font-size:smaller">th</span> March 2025 and came into force on 27<span style="vertical-align:super;font-size:smaller">th</span> March 2025.  Articles 3 and 4 of the 2025 ETRO provide:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.68in;text-indent:0.32in">Save as provided in article 4 of this Order no person shall cause any mechanically propelled vehicle to proceed in the roads specified in the schedule to this order.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.68in;text-indent:0.32in">Nothing in Article 3 of this Order shall apply to:-</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.68in;text-indent:0.32in">a vehicle being used for police, ambulance, fire service or special forces</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.68in">purposes;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>b)</num>
+		  <content>
+		    <p class="ParaLevel3" style="margin-left:0.68in;text-indent:0.32in">a pedal cycle which is not a motor vehicle;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Legal Framework </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p><marker name="tab"/><span style="font-style:italic;font-weight:bold">Road Traffic Regulation Orders</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/1" uk:canonical="1984 c. 27 s. 1" uk:origin="TNA" uk:type="legislation">Section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8212; <span style="font-weight:bold">Traffic regulation orders outside Greater London.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">[The traffic authority for a road outside Greater London may make an order under this section (referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> as a &#8220;traffic regulation order&#8221; ) in respect of the road]  where it appears to the authority making the order that it is expedient to make it&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for avoiding danger to persons or other traffic using the road or any other road or for preventing the likelihood of any such danger arising, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for preventing damage to the road or to any building on or near the road, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for facilitating the passage on the road or any other road of any class of traffic (including pedestrians), or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for preventing the use of the road by vehicular traffic of a kind which, or its use by vehicular traffic in a manner which, is unsuitable having regard to the existing character of the road or adjoining property, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">(without prejudice to the generality of paragraph (d) above) for preserving the character of the road in a case where it is specially suitable for use by persons on horseback or on foot, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(f)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for preserving or improving the amenities of the area through which the road runs; or </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(g)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">for any of the purposes specified in paragraphs (a) to (c) of sub<ref href="http://www.legislation.gov.uk/id/ukpga/1995/25/section/1" uk:canonical="1995 c. 25 s. 1" uk:origin="TNA" uk:type="legislation">section (1</ref>) of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/25/section/87" uk:canonical="1995 c. 25 s. 87" uk:origin="TNA" uk:type="legislation">section 87</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/25" uk:canonical="1995 c. 25" uk:origin="TNA" uk:type="legislation">Environment Act 1995</ref> (air quality).</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">Section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;9.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8212; <span style="font-weight:bold">Experimental traffic orders.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The traffic authority for a road may, for the purposes of carrying out an experimental scheme of traffic control, make an order under this section (referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> as an &#8220;experimental traffic order&#8221; ) making any such provision&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">as respects a road outside Greater London, as may be made by a traffic regulation order;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">An experimental traffic order shall not continue in force for longer than 18 months.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Carnwath J (as he then was) considered the ambit of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref>  in <span style="font-style:italic;font-weight:bold">UK Waste Management Ltd. v. West Lancs DC </span>[1997] RTR 201 at page 208E-G; his conclusions were summarised by Kerr J in <span style="font-style:italic;font-weight:bold">R (oao Sheakh) v. LB of Lambeth </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2021/1745" uk:canonical="[2021] EWHC 1745 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 1745 (Admin)</ref> at paragraph 23 (affirmed by the Court of Appeal <ref href="#" uk:canonical="[2022] PTSR 1315" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] PTSR 1315</ref>, at paragraph 59):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;23.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">An ETO must be genuinely experimental in nature. It cannot be in truth and substance permanent though made under the guise of an experiment: it must be "an operation designed to glean information about the workings of the scheme in practice" (per Carnwath J, as he then was, in <span style="font-style:italic">UK Waste Management Ltd v. West Lancashire DC</span> [1997] RTR 201 , at 208E-F). "[F]or there to be a valid experimental order there must be an experiment and the authority must be able to explain what it is" (ibid. at 108F-G).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Peak District National Park Authority </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2012/3359" uk:canonical="[2012] EWHC 3359 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 3359 (Admin)</ref> Ouseley J said (at paragraph 31) &#8220;The Order-making authority simply has to identify what the experiment is and its purpose.&#8221; That purpose is to be identified in the statement of reasons. The authority must have a rational basis for the experiment (paragraph 36). A claimant is entitled to refer to material other than the statement of reasons to show that the stated purpose is not the real purpose (paragraph 37). There is no need for elaborate explanation (paragraph 39). The judge doubted that reference to extraneous material by a traffic authority is permitted to ascertain the purpose of an experimental order, but contemplated that it may be admissible to resolve a genuine ambiguity (paragraph 43). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">Section 122</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;122.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8212; <span style="font-weight:bold">Exercise of functions by [ strategic highways companies or]  local authorities.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">It shall be the duty of every strategic highways company and local authority upon whom functions are conferred by or under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>, so to exercise the functions conferred on them by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> as (so far as practicable having regard to the matters specified in subsection (2) below) to secure the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians) and the provision of suitable and adequate parking facilities on and off the highway or, in Scotland, the road</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The matters referred to in sub<ref href="http://www.legislation.gov.uk/id/ukpga/1995/25/section/1" uk:canonical="1995 c. 25 s. 1" uk:origin="TNA" uk:type="legislation">section (1</ref>) above as being specified in this subsection are&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the desirability of securing and maintaining reasonable access to premises;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the effect on the amenities of any locality affected and (without prejudice to the generality of this paragraph) the importance of regulating and restricting the use of roads by heavy commercial vehicles, so as to preserve or improve the amenities of the areas through which the roads run;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(bb)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the strategy prepared under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/25/section/80" uk:canonical="1995 c. 25 s. 80" uk:origin="TNA" uk:type="legislation">section 80</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/25" uk:canonical="1995 c. 25" uk:origin="TNA" uk:type="legislation">Environment Act 1995</ref> (national air quality strategy);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the importance of facilitating the passage of public service vehicles and of securing the safety and convenience of persons using or desiring to use such vehicles; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">any other matters appearing to the strategic highways company or the local authority to be relevant.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The balancing exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> was considered by the Court of Appeal in <span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire CC</span> <ref href="#" uk:canonical="[2020] PTSR 194" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] PTSR 194</ref>. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The relevant balancing exercise is described by Longmore LJ (with whom Lewison and Coulson LJJ agreed on these issues)  at paragraph 37:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8220;37 One must, of course, be clear what the relevant balancing exercise is. On the one hand regard must be had to the duty set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122/1" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122(1)</ref> so far as practicable &#8220;to secure the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians)&#8221;; as the judge points out (paras 37(i) and 44) it is significant that pedestrians are included. On the other hand, regard must be had to the effect on the amenities of the locality affected and other matters appearing to the traffic authority to be relevant (<ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122/2" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122(2)</ref>(b) and (d)). This is not a particularly difficult or complicated exercise for the traffic authority to conduct. &#8230;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no requirement to make specific reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref>; if the order-making authority does in fact conduct the balancing exercise that is sufficient (paragraph 35).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In considering whether the right balancing exercise has been conducted the analysis is not to be restricted to the statement of reasons (as the balancing exercise is to be conducted after representations have been received). Regard can be had, in particular, to the officer report which informed the decision to make the order (paragraph 36).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There has to be actual evidence that the balancing process has been, in substance, conducted (paragraph 38).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">At paragraph 40 Longmore LJ summarised the approach to be taken by order-making authorities:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in">&#8220;40 Before parting with this aspect of the case it may be helpful to summarise the approach which should be adopted by traffic authorities in considering whether to make a TRO: (1) the decision-maker should have in mind the duty (as set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 122(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>) to secure the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians) so far as practicable; (2) the decision-maker should then have regard to factors which may point in favour of imposing a restriction on that movement; such factors will include the effect of such movement on the amenities of the locality and any other matters appearing to be relevant which will include all the factors mentioned in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> as being expedient in deciding whether a TRO should be made; and (3) the decision-maker should then balance the various considerations and come to the appropriate decision. As I have already said, this is not a particularly difficult or complicated exercise nor should it be.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraphs 35 and 36 of Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> provide:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;35.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"/>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">If any person desires to question the validity of, or of any provision contained in, an order to which this Part of this Schedule applies, on the grounds&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">that it is not within the relevant powers, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">that any of the relevant requirements has not been complied with in relation to the order,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">he may, within 6 weeks from the date on which the order is made, make an application for the  purpose to the High Court or, in Scotland, to the Court of Session.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">36.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">On any application under this Part of this Schedule the court&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">may, &#8230;; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">if satisfied that the order, or any provision of the order, is not within the relevant powers, or that the interests of the applicant have been substantially prejudiced by failure to comply with any of the relevant requirements, may quash the order or any provision of the order.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The approach to be taken by the court to a paragraph 35 statutory review is akin to that taken in judicial review proceedings.  A failure to comply with relevant requirements will only result in order being quashed if the Claimant has been substantially prejudiced  by the failure.  The power to quash is discretionary and therefore regard can be had to the approach adopted in <span style="font-style:italic;font-weight:bold">Simplex GE (Holdings) Ltd. v. Secretary of State for the Environment </span><ref href="#" uk:canonical="[2017] PTSR 1041" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] PTSR 1041</ref> at page 1060E).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/18/section/16" uk:canonical="2004 c. 18 s. 16" uk:origin="TNA" uk:type="legislation">Section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/18" uk:canonical="2004 c. 18" uk:origin="TNA" uk:type="legislation">Traffic Management Act 2004</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2004/18" uk:canonical="2004 c. 18" uk:origin="TNA" uk:type="legislation">TMA 2004</ref>&#8221;) imposes the network management duty:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;16 <span style="font-weight:bold">The network management duty</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">It is the duty of a local traffic authority or a strategic highways company (&#8220;the network management authority&#8221;) to manage their road network with a view to achieving, so far as may be reasonably practicable having regard to their other obligations, policies and objectives, the following objectives&#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">securing the expeditious movement of traffic on the authority's road network; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">facilitating the expeditious movement of traffic on road networks for which another authority is the traffic authority.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:-0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The procedure for making traffic regulation orders is governed by the 1996 Regulations. The publicity requirements for experimental orders are more limited than for traffic regulation orders with permanent effect. The consultation requirements imposed by regulation 6 apply to experimental orders.  Regulation 22 makes express provision for experimental orders.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Regulation 22 provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;22.</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.21in">&#8212; Experimental orders</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.21in">The provisions of regulations 7 (publication of proposals) and 8 (objections) shall not apply to an experimental order.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.21in">No provision of an experimental order shall come into force before the expiration of the period of seven days beginning with the day on which a notice of making in relation to the order is published.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.21in">The order making authority shall, subject to Part VI, comply with the requirements of Schedule 2 as to the making of deposited documents relating to an experimental order available for public inspection.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.21in">Deposited documents shall be so made available, at the times and at the places specified in the notice of making in relation to the experimental order, for a period beginning with the date on which that advertisement is first published and ending when the order ceases to have effect.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Regulation 23 makes provision for the procedure to be followed when the sole effect of an order is to reproduce and continue in force indefinitely the provisions of an experimental order.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It can be seen that regulation 22(3) of the 1996 Regulations maintains the obligation to comply with the requirements of Schedule 2. Those requirements include the requirement at paragraph 2(d) of Schedule 2 for the deposited documents to include:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;a statement setting out the reasons why the authority proposed to make the order including, in the case of an experimental order, the reasons for proceeding by way of experiment and a statement as to whether the authority intends to consider making an order having the same effect which is not an experimental order;&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Local Access Forums</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/37/section/94" uk:canonical="2000 c. 37 s. 94" uk:origin="TNA" uk:type="legislation">Section 94</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/37" uk:canonical="2000 c. 37" uk:origin="TNA" uk:type="legislation">Countryside and Rights of Way Act 2000</ref> (&#8220;CROW 2000&#8221;) provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;94.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8212;<span style="font-weight:bold"> Local access forums</span>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The appointing authority for any area shall in accordance with regulations establish for that area, or for each part of it, an advisory body to be known as a local access forum.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">It is the function of a local access forum, as respects the area for which it is established, to advise&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the appointing authority,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">any body exercising functions under Part I in relation to land in that area,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">if the appointing authority is a National Park authority, the local highway authority for any part of that area, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">such other bodies as may be prescribed,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">as to the improvement of public access to land in that area for the purposes of open-air recreation and the enjoyment of the area, and as to such other matters as may be prescribed.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The bodies mentioned in paragraphs (a) to (d) of subsection (4) shall have regard, in carrying out their functions, to any relevant advice given to them by a local access forum under that subsection or any other provision of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/18" uk:canonical="2004 c. 18" uk:origin="TNA" uk:type="legislation">this Act</ref>.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Public Sector Equality Duty</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">Section 149</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>&#8221;) provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;149 <span style="font-weight:bold">Public sector equality duty</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">A public authority must, in the exercise of its functions, have due regard to the need to&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">eliminate discrimination, harassment, victimisation and any other conduct that is prohibited by or under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">foster good relations between persons who share a relevant protected characteristic and persons who do not share it.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The principles relating to the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>  were summarised by McCombe LJ in <span style="font-style:italic;font-weight:bold">Bracking v. Secretary of State for Work and Pensions </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1345" uk:canonical="[2013] EWCA Civ 1345" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1345</ref> at paragraph 25:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">As stated by Arden LJ in <span style="font-style:italic">R (Elias) v Secretary of State for Defence</span> <ref href="#" uk:canonical="[2006] 1 WLR 3213" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 WLR 3213</ref>; <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/1293" uk:canonical="[2006] EWCA Civ 1293" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 1293</ref> at [274], equality duties are an integral and important part of the mechanisms for ensuring the fulfilment of the aims of anti-discrimination legislation.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">An important evidential element in the demonstration of the discharge of the duty is the recording of the steps taken by the decision maker in seeking to meet the statutory requirements: <span style="font-style:italic">R (BAPIO Action Ltd) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2007/199" uk:canonical="[2007] EWHC 199 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 199 (QB)</ref> (Stanley Burnton J (as he then was)).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The relevant duty is upon the Minister or other decision maker personally. What matters is what he or she took into account and what he or she knew. Thus, the Minister or decision maker cannot be taken to know what his or her officials know or what may have been in the minds of officials in proffering their advice: <span style="font-style:italic">R (National Association of Health Stores) v Department of Health</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/154" uk:canonical="[2005] EWCA Civ 154" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 154</ref> at [26 &#8211; 27] per Sedley LJ.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">A Minister must assess the risk and extent of any adverse impact and the ways in which such risk may be eliminated before the adoption of a proposed policy and not merely as a &#8220;rearguard action&#8221;, following a concluded decision: per Moses LJ, sitting as a Judge of the Administrative Court, in <span style="font-style:italic">Kaur &amp; Shah v LB Ealing</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/2062" uk:canonical="[2008] EWHC 2062 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 2062 (Admin)</ref> at [23 &#8211; 24].</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">These and other points were reviewed by Aikens LJ, giving the judgment of the Divisional Court, in <span style="font-style:italic">R (Brown) v Secretary of State for Work and Pensions</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/3158" uk:canonical="[2008] EWHC 3158 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 3158 (Admin)</ref>, as follows:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>i)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The public authority decision maker must be aware of the duty to have &#8220;due regard&#8221; to the relevant matters;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>ii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The duty must be fulfilled before and at the time when a particular policy is being considered;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The duty must be &#8220;exercised in substance, with rigour, and with an open mind&#8221;. It is not a question of &#8220;ticking boxes&#8221;; while there is no duty to make express reference to the regard paid to the relevant duty, reference to it and to the relevant criteria reduces the scope for argument;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iv)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The duty is non-delegable; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>v)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Is a continuing one.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>vi)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">It is good practice for a decision maker to keep records demonstrating consideration of the duty.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">&#8220;[G]eneral regard to issues of equality is not the same as having specific regard, by way of conscious approach to the statutory criteria.&#8221; (per Davis J (as he then was) in <span style="font-style:italic">R (Meany) v Harlow DC </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2009/559" uk:canonical="[2009] EWHC 559 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 559 (Admin)</ref> at [84], approved in this court in <span style="font-style:italic">R (Bailey) v Brent LBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1586" uk:canonical="[2011] EWCA Civ 1586" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1586</ref> at [74&#8211;75].)</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Officials reporting to or advising Ministers/other public authority decision makers, on matters material to the discharge of the duty, must not merely tell the Minister/decision maker what he/she wants to hear but they have to be &#8220;rigorous in both enquiring and reporting to them&#8221;: <span style="font-style:italic">R (Domb) v Hammersmith &amp; Fulham LBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/941" uk:canonical="[2009] EWCA Civ 941" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 941</ref> at [79] per Sedley LJ.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(8)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Finally, and with respect, it is I think, helpful to recall passages from the judgment of my Lord, Elias LJ, in <span style="font-style:italic">R (Hurley &amp; Moore) v Secretary of State for Business, Innovation and Skills</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2012/201" uk:canonical="[2012] EWHC 201 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 201 (Admin)</ref> (Divisional Court) as follows:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">At paragraphs [77&#8211;78]</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;[77] Contrary to a submission advanced by Ms Mountfield, I do not accept that this means that it is for the court to determine whether appropriate weight has been given to the duty.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">Provided the court is satisfied that there has been a rigorous consideration of the duty, so that there is a proper appreciation of the potential impact of the decision on equality objectives and the desirability of promoting them, then as Dyson LJ in <span style="font-style:italic">Baker</span> (para [34]) made clear, it is for the decision maker to decide how much weight should be given to the various factors informing the decision.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">[78] The concept of &#8216;due regard&#8217; requires the court to ensure that there has been a proper and conscientious focus on the statutory criteria, but if that is done, the court cannot interfere with the decision simply because it would have given greater weight to the equality implications of the decision than did the decision maker. In short, the decision maker must be clear precisely what the equality implications are when he puts them in the balance, and he must recognise the desirability of achieving them, but ultimately it is for him to decide what weight they should be given in the light of all relevant factors. If Ms Mountfield's submissions on this point were correct, it would allow unelected judges to review on substantive merits grounds almost all aspects of public decision making.&#8221;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">At paragraphs [89&#8211;90]</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;[89] It is also alleged that the PSED in this case involves a duty of inquiry. The submission is that the combination of the principles in <span style="font-style:italic">Secretary of State for Education and Science v Tameside Metropolitan Borough Council</span> <ref href="#" uk:canonical="[1977] AC 1014" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1977">[1977] AC 1014</ref> and the duty of due regard under the statute requires public authorities to be properly informed before taking a decision. If the relevant material is not available, there will be a duty to acquire it and this will frequently mean than some further consultation with appropriate groups is required. Ms Mountfield referred to the following passage from the judgment of Aikens LJ in <span style="font-style:italic">Brown</span> (para [85]):</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8216;&#8230;.the public authority concerned will, in our view, have to have due regard to the need to take steps to gather relevant information in order that it can properly take steps to take into account disabled persons' disabilities in the context of the particular function under consideration.&#8217;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:-0.5in">[90] I respectfully agree&#8230;.&#8221; &#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As noted by Lang J at paragraph 89 in <span style="font-style:italic;font-weight:bold">Coulthard v. Secretary of State </span>[2024] EWHC 3252, McCombe LJ&#8217;s summary of the principles in <span style="font-style:italic;font-weight:bold">Bracking </span>was approved by Lord Neuberger in <span style="font-style:italic;font-weight:bold">Hotak v. Southwark </span><ref href="#" uk:canonical="[2016] AC 811" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] AC 811</ref> at paragraph 73, with the following additions at paragraph 75:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;75.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">As was made clear in a passage quoted in the <span style="font-style:italic;color:#3D3D3D">Bracking case [2014] Eq LR 60</span> , para 60, the duty &#8220;must be exercised in &#8216;substance, with rigour, and with an open mind&#8217;&#8221;: per Aikens LJ in <span style="font-style:italic;color:#3D3D3D">R (Brown) v Secretary of State for Work and Pensions (Equality and Human Rights Commission intervening) <ref href="#" uk:canonical="[2009] PTSR 1506" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] PTSR 1506</ref></span> , para 92. And, as Elias LJ said in the <span style="font-style:italic;color:#3D3D3D">Hurley case <ref href="#" uk:canonical="[2012] HRLR 13" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] HRLR 13</ref></span> , paras 77&#8211;78 it is for the decision-maker to determine how much weight to give to the duty: the court simply has to be satisfied that &#8220;there has been a rigorous consideration of the duty&#8221;. Provided that there has been &#8220;a proper and conscientious focus on the statutory criteria&#8221;, he said &#8220;the court cannot interfere &#8230; simply because it would have given greater weight to the equality implications of the decision&#8221;.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When an order is experimental and is therefore only one stage in a sequence of decision making and where the full effects of the decision are to be ascertained over time the court must take care not to apply too demanding a standard in establishing whether the &#8216;due regard&#8217; duty was discharged (<span style="font-style:italic;font-weight:bold">R (oao) Sheakh v. LB of Lambeth </span><ref href="#" uk:canonical="[2022] PTSR 1315" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] PTSR 1315</ref> at paragraph 70).  A &#8216;rolling-assessment&#8217; is not automatically appropriate where the function being exercised is to initiate an experiment; it may be appropriate but this will depend on the facts (<span style="font-style:italic;font-weight:bold">Sheakh</span> paragraph 71).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Consultation </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation 6 of the 1996 Regulations imposes a duty to consult.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Irrespective of how a duty to consult arises, the common law duty of procedural fairness will inform the manner in which the consultation should be conducted (<span style="font-style:italic;font-weight:bold">R (Moseley) v. Haringey LBC</span> <ref href="#" uk:canonical="[2014] PTSR 1317" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] PTSR 1317</ref> at paragraph 23).  The four &#8216;Sedley criteria&#8217; (accepted by Hodgson J in <span style="font-style:italic;font-weight:bold">R v. Brent LBC ex parte Gunning </span>(1985) 84 LGR 168 at page 189) were endorsed by the Supreme Court (<span style="font-style:italic;font-weight:bold">Moseley</span> at paragraph 25).</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;Mr Sedley submits that these basic requirements are essential if the consultation 'process is to have a sensible content. First, that consultation must be at a time when proposals are still at a formative stage. Second, that the proposer must give sufficient reasons for any proposal to permit of intelligent consideration and response. Third, to which I shall return, that adequate time must be given for consideration and response and, finally, fourth, that the product of consultation must be conscientiously taken into account in finalising any statutory proposals.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At stage 4 of the process (conscientious consideration) there is no obligation to consider each and every specific point of detail (<span style="font-style:italic;font-weight:bold">R(oao Electric Collar Manufacturers Association) v. Secretary of State for Environment, Food and Rural Affairs </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/2813" uk:canonical="[2019] EWHC 2813 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 2813 (Admin)</ref> at paragraph 151).  When considering reasons the real question is whether the response to the issues identified by consultees is rational (<span style="font-style:italic;font-weight:bold">Electric Collar</span> at paragraph 153). There should be evidence of consideration of important points made by consultees (<span style="font-style:italic;font-weight:bold">Electric Collar</span> at paragraph 153).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Reasons</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;font-weight:bold">South Buckinghamshire DC v. Porter (No.2) </span><ref href="#" uk:canonical="[2004] 1 WLR 1953" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 1953</ref> at paragraph 36, Lord Brown set out the standard of reasons required in the planning context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;font-weight:bold">Williams v. LB of Waltham Forest</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2015/3907" uk:canonical="[2015] EWHC 3907 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 3907 (Admin)</ref> Holgate J (as he then was) considered a challenge to the making of experimental traffic orders. At paragraphs 92 and 93  the judge considered the standard of reasons applicable when giving reasons pursuant to paragraph 2(d) of Schedule 2 to the 1996 Regulations:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;92.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Mr Wragg referred to the passage at paragraph 19 of the judgment given in <span style="font-style:italic">Sarah Jane Williams v Devon County Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2015/568" uk:canonical="[2015] EWHC 568 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 568 (Admin)</ref> , which applied the well-known statement by Lord Brown in <span style="font-style:italic">South Buckinghamshire District Council</span> on the scope of the requirement of the duty to give reasons to a challenge to the adequacy of a statement issued under paragraph 2(d) of schedule 2 to the 1996 Regulations. However, the reasoning in that case does not appear to have recognised that the <span style="font-style:italic">Trail Riders</span> decision upon which the judge's view was based had been concerned instead with reasons given under regulation 17(3). In so far as the <span style="font-style:italic">Sarah Jane Williams</span> decision suggested that the principles in <span style="font-style:italic">South Buckinghamshire District Council</span> apply to a statement under paragraph 2(d) of schedule 2 to the RTRA , I would not be inclined to follow it.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>93.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">A statement under paragraph 2(d) of schedule 2 forms part of a package of notices and documents required to be placed on deposit so as to publicise the intention to make an order under the RTRA , the measures proposed and the reasons for taking those measures. The object is to enable the public to understand the nature of the proposals so that they may consider whether they wish to object to the order and, if so, on what grounds. The 1996 Regulations do not suggest that the statement under paragraph 2(d) of schedule 2 is required to give detailed reasons or to address every relevant consideration which has been taken into account.&#8221;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Officer Reports</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The principles to be applied when a challenge is based on criticism of an officer's report to a planning committee were set out by Lindblom LJ at paragraph 42 in&#160;<a href="https://uk.westlaw.com/Document/I193B1C10970E11E7B20EC362AA326594/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=fe0aa3d4e7ca4548ba283521afcc63a9&amp;contextData=(sc.DocLink)"><span class="Hyperlink" style="font-style:italic;font-weight:bold;text-decoration-line:none;color:initial">Mansell v. Tonbridge and Malling BC</span><span class="Hyperlink" style="text-decoration-line:none;color:initial"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1314" uk:canonical="[2017] EWCA Civ 1314" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1314</ref></span></a>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although <span style="font-style:italic;font-weight:bold">Mansell </span> was concerned with a report to a planning committee, reports relating to a traffic regulation order are also written for councillors with local knowledge. In my judgment a similar approach to that identified in <span style="font-style:italic;font-weight:bold">Mansell</span> is to be applied when considering a report prepared by officers to inform a decision on whether to make a traffic regulation order. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Grounds of Challenge</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The First Claimant relies upon the following grounds of challenge:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 1: the 2025 ETRO was not made for an experimental purpose.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 2: the Defendant breached its statutory duty to give reasons for the making of the 2025 ETRO and proceeding by way of experiment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Ground 3: the Defendant failed to carry out the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> balancing exercise.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 4: the Defendant failed to carry out a lawful consultation pursuant to its statutory duty under regulation 6 of the 1996 Regulations causing the Claimant substantial prejudice.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 5: the Defendant failed to comply with the public sector equality duty contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149/1" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">section 149(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>; and/or acted irrationally and/or failed to take into account material considerations.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Second Claimant relies upon the following grounds of challenge:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 1: The 2025 ETRO is outside the statutory powers and has no sufficient evidence base.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 2: the statement of reasons for the 2025 ETRO does not disclose any genuine experiment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Ground 3: the Defendant failed to carry out the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> balancing exercise.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Ground 4: the Defendant failed to have regard to the advice given by the LAF.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will consider the grounds advanced by both Claimants under the following headings:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Does the 2025 ETRO fall outside the ambit of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> as it was not made for experimental purposes (First Claimant Ground 1 and the Second Claimant Ground 2).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Did the Defendant breach their statutory duty to give reasons for the making of the 2025 ETRO and proceeding by way of experiment (First Claimant Ground 2).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Did the Defendant carry out the balancing exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> (First Claimant Ground 3, Second Claimant Ground 3). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Did the Defendant fail to carry out a lawful consultation pursuant to its statutory duty under regulation 6 of the 1996 Regulations causing the Claimant substantial prejudice (First Claimant Ground 4).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Did the Defendant fail to comply with the public sector equality duty contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149/1" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">section 149(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>; and/or did they act irrationally and/or fail to take into account material considerations (First Claimant Ground 5).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Did the Defendant act outside its statutory powers when making the 2025 ETRO and did it have a sufficient evidence base (Second Claimant Ground 1).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Did the Defendant fail to have regard to the advice given by the LAF (Second Claimant Ground 4).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="text-indent:0.5in"><span style="font-weight:bold">Does the 2025 ETRO fall outside the ambit of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> as it was not made for experimental purposes (First Claimant Ground 1 and the Second Claimant Ground 2).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Brett, for the First Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The purpose of the 2025 ETRO as set out in the statement of reasons is contradicted by the OR.  The reason given in the statement of reasons is to enable the authority to assess impact of the order on addressing anti-social behaviour and its impact on the wider local area. The reason given in the OR is to monitor the level of erosion without the impact of motorised vehicles.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The OR provides evidence that there was no genuine experimental purpose as the authority had already reached a decided view on the effects and impacts of the restriction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">To the extent that the purpose of the 2025 ETRO was that set out in the statement of reasons and was genuinely experimental it was irrational as there was no rational connection between the problem complained of and all mechanically propelled vehicles.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Pay, for the Second Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The reasoning is to the effect that an ETRO has been made because it can be revoked or modified during its currency. That does not amount to an experiment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The reasoning set out in the OR is inconsistent with the basis upon which the statement of reasons sets out the experimental basis for the order and also shows the lack of any genuine experiment.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The appropriate place to look to determine the experiment is the statement of reasons.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The suggestion that the statement of reasons and the OR are inconsistent is misplaced.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Defendant is entitled to act on informed hypotheses and assess outcomes over time.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The obligation on the Defendant was to identify what the experiment is and its purpose. The purpose is to be identified in the statement of reasons.  In the statement of reasons the Defendant states that implementing the prohibition on motorised vehicles using the Sandy Lane BOAT will enable them to monitor the scheme and assess its impact on addressing the anti-social behaviour and its impact on the wider area. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is first necessary to consider whether the order was designed to glean information about the effect of the prohibition on anti-social behaviour. The Claimants contend that examination of the OR reveals that the stated purpose was not the real purpose in making the order. In <span style="font-style:italic;font-weight:bold">Peak District </span>(at paragraph 37) Ouseley J accepted that a claimant is entitled to look at other material to show that the purpose stated in the statement of reasons is not the real purpose for making the order. The OR (at paragraph 5) refers to anti-social behaviour. However, at paragraph 6 the OR states that the making of an ETRO would allow the eroded sections of the Sandy Lane BOAT to be repaired, to protect it from further erosion, and to monitor the level of erosion without the impact of motorised vehicles. At paragraph 22 of the OR it is said that the proposed order will help protect and preserve the surface of the BOAT and promote its amenity value for walkers and equestrians, and assist the Council&#8217;s efforts to reduce antisocial behaviour including fly tipping.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Sandy Lane BOAT had been repaired in early 2024. In that respect this case can be distinguished from the facts considered in <span style="font-style:italic;font-weight:bold">Peak District </span>(where repairs were carried out to some degree after the ETRO came into force &#8211; paragraph 35). Making an ETRO which prohibited use by motorised vehicles would allow the Defendant to monitor the level of erosion without the impact of motorised vehicles. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although it is said that the proposed ETRO will &#8216;also assist&#8217; in  the Defendant&#8217;s efforts to reduce antisocial behaviour and fly tipping, the purpose of the experimental order stated in the OR is to provide the opportunity to repair the worst eroded sections of Sandy Lane, to protect it from further damage by motor vehicles and to allow the Defendant to monitor the level of erosion. The purpose stated in the statement of reasons is to assess impact on anti-social behaviour and its impact on the wider local area. On the basis of those facts I accept the submissions made on behalf of the Claimants that there is an inconsistency between the statement of reasons and the OR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The statement made at paragraph 22 of the OR (as to the effects of the proposed order) does not, in my judgment, indicate that the Defendant had reached a decision on the effect of the order. The statements in paragraph 22 set out the anticipated effect of the order, not a final determination as to its effect. I accept Mr Semakula&#8217;s submission that an authority conducting an experiment is entitled to act on informed hypotheses as to the likely effect of the experiment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The real issue to be determined is whether the experiment identified in the statement of reasons was a genuine experiment to determine the effect of the prohibition on the use of motorised vehicles on antisocial behaviour. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The explanation given in the statement of reasons does not identify the nature of the antisocial behaviour, and does not identify the nature of the impact on the wider area which it said will be monitored. There is no explanation of the operation which is to be undertaken to glean information about the workings of the scheme.  In my judgment the statement of reasons does not explain what the experiment is.  Insofar as it is permissible to refer to the OR in order to resolve any ambiguity, that report does not assist. The OR gives a different reason (from that set out in the statement of reasons) for making the 2025 ETRO. Even if, in theory an experiment could consider both impact on anti-social behaviour and on surface erosion, the statement of reasons does not set out the terms of the experiment, in the sense that it does not identify an operation designed to glean information about the workings of the scheme in practice. Further, if reference is made to the OR, it again, does not set out the terms of the experiment.  For those reasons I have come to the conclusion that the 2025 ETRO is not within the relevant powers, as it is not an experiment (or alternatively not a genuine experiment) in the sense that the nature of the experiment is not clear, and the authority&#8217;s statement of reasons does not explain what the terms of the experiment are.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons the First Claimant&#8217;s Ground 1 and the Second Claimant&#8217;s Ground 2 are made out. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold">ii)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant breach their statutory duty to give reasons for the making of the 2025 ETRO and proceeding by way of experiment (First Claimant Ground 2).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Brett for the First Claimant submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The standard of reasons required is that set out in <span style="font-style:italic;font-weight:bold">South Buckinghamshire</span>. The reasons required when making a traffic regulation order serve the same purpose as the reasons to be given when making a decision on a planning application, namely, to allow the decision to be understood. The <span style="font-style:italic;font-weight:bold">South Bucks</span> standard is flexible and can be adapted to meet the circumstances.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The reasons given in the statement of reasons is inadequate as it is not possible to understand from the reasons provided:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">What is meant by &#8220;anti-social behaviour&#8221;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">What is meant by &#8220;unsuitable vehicles&#8221;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Whether or not and how problems identified by the Defendant are associated with or caused by the use of the Sandy Lane BOAT by any or all types of motor vehicle.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Whether the Defendant considers that it is only the &#8220;unsuitable vehicles&#8221; which &#8220;have consequently damaged the roadsurface&#8221;, or whether they consider that &#8220;anti-social behaviour, fly-tipping, racing&#8221; have also had that effect? </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">In what way it is said that &#8220;unsuitable vehicles&#8221; caused damage to the road surface, and the extent to which such damage is caused by other factors.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The absence of proper reasons has caused the First Claimant material prejudice.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The witness evidence of Ms Bettles constitutes inadmissible &#8216;ex post facto&#8217; evidence as it seeks to supplement the reasoning (<span style="font-style:italic;font-weight:bold">R (United Trade Action Group Ltd) v. Transport for London </span>[2022] R.T.R. 2 at paragraph 125).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The 1996 Regulations do not require that the statement under paragraph 2(d) of Schedule 2 should set out detailed reasons which address every relevant consideration which has been taken into account. It is sufficient for the reasons to be set out in general terms to fulfil the function of public notification (<span style="font-style:italic;font-weight:bold">Williams</span> at paragraph 93).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In the alternative, if the <span style="font-style:italic;font-weight:bold">South Buckinghamshire </span>standard applies it is met.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The reasons set out in the statement of reasons were legally adequate as they identified both:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The reasons for the measures proposed, namely, to address anti-social behaviour, fly-tipping, racing and use of the byway by unsuitable vehicles which have consequently damaged the road surface; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Explained why an experimental order was proposed.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Read together with the OR the references in the statement of reasons identify the type of conduct and effects being addressed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Even if the reasons were inadequate, the First Claimant did not suffer substantial prejudice as a result of breach of the relevant requirement.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The statutory duty to give reasons is set out in paragraph 2(d) of Schedule 2 to the 1996 Regulations. The traffic authority is to provide a statement setting out the reasons why the authority propose to make the order, including, in the case of an experimental order, the reason for proceeding by way of an experiment, and a statement as to whether the authority intends to consider making an order having the same effect which is not an experimental order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first issue to consider is the standard to be applied when considering the adequacy of the reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation 17(1) of the 1996 Regulations provides that as soon as practicable after an order has been made, the order making authority shall include among the deposited documents a copy of the order as actually made. Regulation 17(2) of the 1996 Regulations provides that the order making authority shall, within 14 days of the making of the order, publish a &#8216;notice of making&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation 22(3) of the 1996 Regulations provides that an order making authority shall comply with the requirements of schedule 2 as to the making of deposited documents relating to an experimental order available for public inspection. Regulation 22(4) provides that the deposited documents are to be made available at the times and at the places specified in the notice of making. The documents to be deposited include the statement of reasons required by paragraph 2(d) of schedule 2.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Holgate J expressed doubt about whether the legal requirements of a duty to give reasons when deciding an appeal or when deciding whether to accede to an objection when giving reasons under regulation 17(3) of the 1996 Regulations apply to a statement of reasons set out in deposited documents pursuant to paragraph 2(d) of Schedule 2 (<span style="font-style:italic;font-weight:bold">Williams</span> at paragraphs 91 and 92). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I note that the statement of reasons set out in documents deposited following the notice of making of an ETRO precedes an objection process. The notice of making of the 2025 ETRO was published on 20<span style="vertical-align:super;font-size:smaller">th</span> March 2025. In accordance with the requirements of paragraph 2 of Schedule 5 to the 1996 Regulations, the notice of making states &#8220;within a period of 6 months beginning with the day on which the Order comes into force, any person may object to the making of Order and making the effects permanent.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the time of the notice of making the 2025 ETRO had undergone consultation pursuant to regulation 6 of the 1996 Regulations but had not undergone a process whereby objections could be made and considered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Holgate J that legal requirements for a statement of reasons deposited following the notice of making of ETRO are not the same as those applicable to reasons given for a  decision following consideration of objections, such as a decision on a planning application, or reasons given for a decision pursuant to regulation 17(3) of the 1996 Regulations.  It follows that, when considering a challenge to the adequacy of reasons given pursuant to paragraph 2(d) of Schedule 2 following the notice of making of an ETRO, it is not appropriate to apply the standard set out in <span style="font-style:italic;font-weight:bold">South Buckinghamshire</span> without making some modifications to take account of the fact that the decision was not made following a process which allowed for the making and consideration of objections. In particular in a statement of reasons made at that stage it is not necessary to set out conclusions reached on principal controversial issues raised in objections, as the statement precedes the making and consideration of objections. Nonetheless, a statement of reasons produced pursuant to the obligation imposed by paragraph 2(d) of Schedule 2 to the 1996 Regulations (in relation to an ETRO), must enable the public to understand the nature of the proposals (in particular the nature of the experiment) so that they may consider whether they wish to object and on what grounds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I next consider the admissibility of the evidence provided by Ms Bettles in her first witness statement in which she provides further explanation as to the reasons why the Defendant made the 2025 ETRO. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The law relating to the admissibility of  &#8216;ex post facto&#8217; evidence is summarised at paragraph 125 in the judgment of the Court of Appeal in <span style="font-style:italic;font-weight:bold">United Trade Action Group</span>.  At sub-paragraph (7) of paragraph 125 the court stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(7)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Judges will usually be able to distinguish between genuine elucidation of a decision and impermissible justification or contradiction after the event, without having to rule on applications to exclude parts of the opposing party&#8217;s written evidence or documents it seeks to adduce. It follows that the best way for the court to proceed may be to receive the contentious evidence &#8220;de bene esse&#8221;, and, having heard argument on the issues in the claim, simply to disregard any of the evidence that is irrelevant or superfluous, rather than embarking on a painstaking assessment of strict admissibility.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As stated by Green J (as he then was) in <span style="font-style:italic;font-weight:bold">Timmins v. Gedling BC </span> [2014] EWHC 654 at paragraph 110, a judicial review focuses the spotlight on the reasons given at the time of the decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Insofar as the evidence of Ms Bettles seeks to refer to discussions she had with the Senior Rights of Way Officer in which they discussed alternatives, and insofar as it seeks to expand on the reasons given in the statement of reasons and the OR, I disregard it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the Defendant failed to give proper and adequate reasons for making the 2025 ETRO as:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">For the reasons I have given when addressing issue (i) above, the nature of the experiment is not clear.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The decision is said to be made to address inappropriate usage of the Sandy Lane BOAT.  Reported inappropriate usage is said to include anti-social behaviour, fly-tipping, racing and use of the byway by unsuitable vehicles. The nature of the &#8216;anti-social behaviour&#8217; is not described. The type of vehicles which are said to be &#8216;unsuitable&#8217; are not identified. Without that description or identification the reader is not able to understand why the Defendant has decided to make the ETRO. In addition a potential objector is not able to address, and seek to counter, the reasons put forward by the Defendant for making the order, or to address the maters to be considered as the experiment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Reference to the OR does not assist in making the reasons clear, as (for the reasons given at paragraph [56] above) there is an inconsistency between the reasons given in the OR and those set out in the statement of reasons.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the interests of the First Claimant have been substantially prejudiced by the failure to give adequate reasons as it has been prevented from being able to formulate an objection which addresses the reasons for making the 2025 ETRO, and has been unable to formulate a response to the experiment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering the adequacy of the reasons I have not applied the full <span style="font-style:italic;font-weight:bold">South Buckinghamshire </span>standard, as I have not considered whether the reasons allowed the reader to understand conclusions reached on principal controversial issues. If I had applied that standard I would have come to the same conclusion, namely that the reasons were inadequate, as the reasons did not address the main issues raised in the consultation responses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons I conclude that the relevant requirements relating to the giving of reasons were not complied with and the interests of the First Claimant have been substantially prejudiced as a result. Accordingly this ground of claim is made out.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold">iii)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant carry out the balancing exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> (First Claimant Ground 3, Second Claimant Ground 3). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Brett, for the First Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In order to comply with the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> duty there must be actual evidence that the balancing exercise has, in substance, been conducted. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A three stage approach must be applied by the authority</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The duty to secure the expeditious, convenient and safe movement of vehicular and other traffic must be borne in mind.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Regard must be had to factors which point in favour of imposing a restriction on the movement of such traffic.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The factors should be balanced.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="text-align:left;margin-left:0.98in;text-indent:0.01in">There is no evidence that, in substance, the balancing exercise was conducted, as:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The Defendant makes no reference to the duty.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The OR does not identify or recognise the impact that restricting the use of  the Sandy Lane BOAT by motor vehicles would have on the need to secure the safe, expeditious and convenient movement of all forms of traffic.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">There is no evidence in the OR of the undertaking of the balance.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The Defendant has provided no assessment as to how or why any damage to the surface of the BOAT has been caused by any or all types of mechanically propelled vehicles.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">There is no real consideration of alternatives to the 2025 ETRO or any less restrictive measures.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Pay, for the Second Claimant, submits that there has been a failure to comply with <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> (in oral argument Mr Pay accepted that reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2004/18/section/16" uk:canonical="2004 c. 18 s. 16" uk:origin="TNA" uk:type="legislation">section 16</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2004/18" uk:canonical="2004 c. 18" uk:origin="TNA" uk:type="legislation">TMA 2004</ref> added nothing to the submissions on <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref>) as:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is  no reasoning in the statement of reasons which addresses the balancing exercise.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no reasoning in the OR which addresses the balancing exercise.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The balancing exercise was, in substance, carried out.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant had the duty of securing expeditions, convenient and safe movement of vehicular and other traffic so far as practicable in mind as the OR identifies the key statutory purposes, preventing danger, preventing damage to the surface of the BOAT, and preserving amenity and safe use for non-motorised users. A key purpose of the experiment was to gather sufficient information to determine whether the restriction will:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">contribute to more efficient use of the road network or the avoidance, elimination or reduction of disruption to the movement of traffic on their road network;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">have a positive impact on the amenities of the locality and the other factors mentioned in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/1" uk:canonical="1984 c. 27 s. 1" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref>.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Defendant had regard to the factors favouring restriction. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant balanced the considerations.  In making this submission Mr Semakula relied, in particular, upon paragraphs 25 and  31 of the OR. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If the court were to hold that there was a failure to comply with the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> duty it should consider its discretion not to quash the making of the 2025 ETRO.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question to be determined is one of substance not of form (<span style="font-style:italic;font-weight:bold">Bouchti v. LB of Enfield </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2022/2809" uk:canonical="[2022] EWHC 2809 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 2809 (Admin)</ref> at paragraph 76). It is for the Council as decision maker to decide where the balance lies and to determine the relevant weight to be given to different matters going into the balance (<span style="font-style:italic;font-weight:bold">Bouchti </span>at paragraph 88).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not necessary to make express reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> (<span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire </span>at paragraph 35), however there has to be actual evidence that the balancing exercise has been, in substance, conducted (<span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire </span>at paragraph 38).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In determining whether the balancing process has, in substance, been undertaken, the court&#8217;s consideration is not restricted to the statement of reasons and regard can be had to the OR (<span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire </span>at paragraph 36).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 40 in <span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire</span> Longmore LJ sets out a three stage approach which should be adopted.  In my judgment, whether or not those three distinct stages are expressly identified in an officer report, the essential question to ask is whether the balancing exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> has in substance been undertaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The possibility of a less restrictive ETRO is, in principle, a factor which an authority should consider when undertaking the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> balancing exercise (<span style="font-style:italic;font-weight:bold">Peak District</span> at paragraph 52). In this case the First Claimant&#8217;s consultation response identified a number of potential alternatives, including maintaining the road surface, the use of public spaces protection orders, and using enforcement powers to control fly tipping. The Second Claimant&#8217;s consultation response suggested changing the restriction so as to allow motorcycles to continue to use the Sandy Lane BOAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The duty imposed upon a local authority by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref> is to exercise their functions to secure the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians).  In order to conduct the required balancing exercise an authority should bear in mind that duty so far as practicable, have regard to the factors which may point in favour of imposing a restriction on that movement, and balance the various considerations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case the OR:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Does not make express reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Does not identify the three stages referred to at paragraph 40 in <span style="font-style:italic;font-weight:bold">Trail Riders Fellowship v. Hampshire</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Refers (at OR paragraph 31) to the disadvantage which would be suffered by drivers of off-road vehicles, but does not refer to securing the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Refers (at OR paragraph 25) to the factors which point in favour of imposing the restriction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Identifies (at OR paragraph 31) those who will suffer disadvantage and those who will benefit, but does not explain how the balance is struck between those competing interests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The OR does (at paragraph 21) refer to the option of not making the order or making the restrictions less onerous, but does not consider the specific suggestion made by the Second Claimant (to allow motorcycles to continue to use the BOAT) or the alternatives put forward by the First Claimant. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The OR fails to articulate the primary statutory duty (of securing the expeditious, convenient and safe movement of vehicular and other traffic (including pedestrians)). To the extent that a weighing exercise is conducted there is no explanation as to how the balance is struck between competing objectives.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, in my judgment, the Defendant failed, in substance, to conduct the balancing exercise required by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/122" uk:canonical="1984 c. 27 s. 122" uk:origin="TNA" uk:type="legislation">section 122</ref>, as it failed to refer to securing the expeditious, convenient and safe movement of vehicular and other traffic whether directly or by implication, and failed to balance the factors for and against imposing the restriction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons the First Claimant&#8217;s Ground 3 and the Second Claimant&#8217;s Ground 3 are made out. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold">iv)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant fail to carry out a lawful consultation pursuant to its statutory duty under regulation 6 of the 1996 Regulations causing the Claimant substantial prejudice (First Claimant Ground 4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Brett, for the First Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The second <span style="font-style:italic;font-weight:bold">Gunning </span>principle was breached as the Defendant failed to provide adequate reasons to allow the First Claimant to make an adequate and informed response on key elements of the proposal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The fourth <span style="font-style:italic;font-weight:bold">Gunning </span>principle was breached as the Defendant failed to give conscientious consideration to the product of consultation. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Defendant failed to give any reasons for rejecting the First Claimant&#8217;s submissions (reliance was placed on <span style="font-style:italic;font-weight:bold">Watton v. Cornwall Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2023/2436" uk:canonical="[2023] EWHC 2436 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 2436 (Admin)</ref> at paragraph 30).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">At the regulation 6 (of the 1996 Regulations) consultation stage there was no need to provide exhaustive definitions. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The First Claimant understood the thrust of the proposal as is demonstrated by its detailed consultation response.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The First Claimant&#8217;s consultation response was appended to the OR. The principal themes were identified and addressed in the OR. There is no obligation to consider each and every specific item of detail (<span style="font-style:italic;font-weight:bold">Electric Collar </span>at paragraph 151).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The First Claimant&#8217;s third ground is no different to the reasons challenge.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute that the common law duty of procedural fairness, as set out in <span style="font-style:italic;font-weight:bold">Gunning</span>,<span style="font-style:italic;font-weight:bold"/>applies to a consultation carried out pursuant to regulation 6 of the 1996 Regulations. The requirements of fairness must be linked to the purposes of the consultation. In this case the consultation related to the proposed making of an ETRO. It has to be borne in mind that a regulation 6 consultation is a preliminary stage of a longer process, and that if an ETRO is made an opportunity to make formal objections will then arise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the email sent to the Defendant by the First Claimant on 16<span style="vertical-align:super;font-size:smaller">th</span> August 2024 it was said that as no further information was provided as to how the Council has decided that the behaviours listed in the draft statement of reasons were inappropriate it was not possible to make an informed response. In an email dated 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024 the Defendant&#8217;s officer sent the First Claimant a spreadsheet which included photographs of the Sandy Lane Boat with commentary on those photographs. In that response the Defendant&#8217;s officer states &#8220;A full report is being written by relevant officers and this will contain more background information and evidence re the proposal and it is expected this will be presented at a Traffic Management Committee &#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In its response to the consultation dated 3<span style="vertical-align:super;font-size:smaller">rd</span> September 2024 the First Claimant continued to contend that the Defendant had not provided information as to which vehicles they considered to be inappropriate or why certain vehicles were deemed unsuitable, and had not provided information on the behaviour which was considered to be anti-social, and that as a result the First Claimant found it difficult to respond.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first issue to determine is whether the Defendant gave sufficient reasons to allow the First Claimant (and others) to give the proposal intelligent consideration and make a response. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The obligation under regulation 6 of the 1996 Regulations is to consult the specified consultees. It is to be noted that, when making an ETRO, the requirements imposed by regulations 7 and 8 do not apply; the opportunity to make an objection arises at a later stage. The sufficiency of the reasons given have to be seen in that context. Reasons which would be insufficient at a later stage of the process, may be sufficient at the early formative stage. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The draft notice of making formed part of the consultation material. The 14<span style="vertical-align:super;font-size:smaller">th</span> August 2024 draft notice of making set out the same statement of reasons as those set out in the notice of making dated 20<span style="vertical-align:super;font-size:smaller">th</span> March 2025. I have already found that the Defendant failed to give adequate and proper reasons for the making of the 2025 ETRO for the reasons set out above. For the same reasons I find that the reasons given at the time of the regulation 6 consultation were not sufficient to permit of intelligent consideration and response, in particular, because the nature of the experiment proposed was unclear. As a result it was not possible for consultees to make intelligent representations on whether or not such an experiment should be conducted. Accordingly I find that there was a failure to comply with <span style="font-style:italic;font-weight:bold">Gunning </span>principle (ii).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The OR refers to and appends the response from the First Claimant. In addition a representative of the First Claimant was permitted to address the Traffic Management Meeting. Given that the full response from the First Claimant was appended to the OR, and that the First Claimant&#8217;s representative was allowed to address the meeting, and the disadvantage to drivers of off-road vehicles was recognised in the OR, I find no breach of <span style="font-style:italic;font-weight:bold">Gunning </span>principle (iv).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Semakula that the third point taken by Mr Brett is a reasons point. I have already considered the reasons challenge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the basis of my finding of a breach of <span style="font-style:italic;font-weight:bold">Gunning </span>principle (ii) I find that there was a breach of a relevant requirement, namely the duty to consult imposed by regulation 6 of the 1996 Regulations.  I find that the interests of the First Claimant were substantially prejudiced by this failure, as it was not able to provide an intelligent and informed response to address the question of whether the experiment should be conducted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons this ground of challenge is made out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold">v)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant fail to comply with the public sector equality duty contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149/1" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">section 149(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>; and/or did they act irrationally and/or fail to take into account material considerations (First Claimant Ground 5).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Brett, for the First Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no evidence that the Defendant had due regard to the impact of the 2025 ETRO on elderly or disabled people who rely on motorised vehicles to access the countryside.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The approach taken at paragraph 31 of the OR is unlawful and/or irrational as it does not refer to those with protected characteristics.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The document produced by the First Claimant &#8220;Inclusive Countryside Access&#8221; explains the varied types of people, especially the elderly, disabled and mobility impaired who benefit from access to the countryside in vehicles. That document was appended to the First Claimant&#8217;s consultation response to the proposal to make the 2025 ETRO but was not included in the appendices to the OR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Equality and Diversity Checklist undertaken by Ms Bettles does not assist the Defendant as:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">It is dated 15<span style="vertical-align:super;font-size:smaller">th</span> January 2025 and was therefore prepared after the OR was written in November 2024.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The duty imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> is on the decision maker personally (<span style="font-style:italic;font-weight:bold">Bracking</span> paragraph 25(3)); and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The Equality and Diversity Checklist does not attempt to identify or assess the differential implications of the closure of the route to mechanically propelled vehicles on those with protected characteristics. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Due regard is context sensitive (<span style="font-style:italic;font-weight:bold">Sheakh</span> at paragraph 56). Impacts will be considered again when a decision is made on whether to make the order permanent. Paragraph 31 of the OR refers to the fact that equality screening is being conducted to ensure that the Defendant monitors potential equality impacts as the implementation of the 2025 ETRO is monitored.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The OR contained a discrete Equalities and Fairness section (at paragraphs 30-31) which included express reference to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The consultation responses were appended to the OR. Those responses included that made by the First Claimant which referred to access to the countryside by those with disabilities. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision to make an ETRO comes at an early stage of the process. The process will allow objections to be made, the effects of the order to be monitored, and a decision to be made on whether the order should be made permanent.  As noted at paragraph 56 in <span style="font-style:italic;font-weight:bold">Sheakh</span> a decision made on an ETRO will not fix, once and for all, the impacts on people with protected characteristics. As a result the level of assessment required to qualify as &#8216;due regard&#8217; is less demanding than if the decision is permanent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nonetheless the requirement to have due regard requires a decision maker to consider the effects on people with protected characteristics. The OR sets out the duty at paragraph 30. At paragraph 31 the OR accepts that drivers of off-road vehicles will be disadvantaged by the prohibition. The extent of the prohibition is referred to at paragraph 25 of the OR. The reference to drivers of off-road vehicles is a reference to a user type, not to people with protected characteristics.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In oral argument Mr Semakula fairly accepted that paragraph 31 of the OR does not consider impact by reference to protected characteristics. Nowhere in the OR are the effects of the prohibition on people with protected characteristics considered. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Equality and Diversity Checklist was completed after the OR was prepared and was not before the councillor who made the decision at the Traffic Management Meeting. In any event the Equality and Diversity Checklist does not identify, by reference to protected characteristics, those who will be affected by the 2025 ETRO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The First Claimant&#8217;s consultation response dated 3<span style="vertical-align:super;font-size:smaller">rd</span> September 2024 was appended to the OR. That letter refers to inclusivity and to protected characteristics. The Inclusive Countryside Access document which was appended to the First Claimant&#8217;s letter was not included in the documents appended to the OR. Paragraph 4 of the First Claimant&#8217;s letter dated 3<span style="vertical-align:super;font-size:smaller">rd</span> September 2024 states that the publication &#8216;Inclusive Countryside Access&#8217; is attached. Given the need not to overburden decision makers with very lengthy reports and appendices, given that it would not be expected that documents which are referred to in (but not attached to) consultation responses would not be expected to be added to appendices to officer reports, and given that express reference is made in the consultation response which was appended to the OR to the fact that the publication was attached to the letter, I do not consider that the Defendant fell into legal error in failing to include the publication in the appendices to the OR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The duty imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> was imposed upon the Defendant. It was for the Defendant to have due regard to the matters set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Even though the level of assessment required to qualify as &#8216;due regard&#8217; is less demanding that if the decision is permanent, there must be some specific regard by way of conscious approach to the statutory criteria. In this case the OR does not consider impact by reference to protected characteristics. As a result it is my judgment that there was a failure to comply with the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 149</ref> duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons this ground of challenge is made out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold">vi)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant act outside their statutory powers when making the 2025 ETRO and did they have a sufficient evidence base (Second Claimant Ground 1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Pay, for the Second Claimant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There was no proper basis or evidence base to make an order prohibiting all mechanically propelled vehicles from the route, particularly motorcyclists, and/or responsible users such as members of the Trail Riders Fellowship, and to make such an order was irrational.  The Defendant did not obtain the information on fly-tipping until after they had made the decision.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There should not be a ban on all forms of mechanically propelled vehicle without some form of investigation. As a result there was a breach by the Defendant of the duty to take reasonable steps to acquaint themselves with the relevant information (<span style="font-style:italic;font-weight:bold">Secretary of State for Education and Science v. Tameside MBC </span><ref href="#" uk:canonical="[1977] AC 1014" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1977">[1977] AC 1014</ref> at page 1065A-B).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Semakula, for the Defendant, submits:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> does not set a highly prescriptive framework for traffic authorities when making ETROs. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant had a rational evidence base and made such enquiries as were reasonable in the context. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">Section 9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">RTRA 1984</ref> empowers a traffic authority to make an experimental traffic order making any such provision as may be made by a traffic regulation order. A traffic regulation order may be made where it appears to the authority that it is expedient to make it for any of the purpose set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/1/1" uk:canonical="1984 c. 27 s. 1" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> of the RTRA 1984. A traffic regulation order may make any provision prohibiting, restricting or regulating the use of a road by vehicular traffic or by vehicular traffic of any class specified in the order (section 2(1) RTRA 1984).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num>117.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The general principles relating to the <span style="font-style:italic;font-weight:bold">Tameside </span>duty were set out by the Court of Appeal in <span style="font-style:italic;font-weight:bold">Balajigari v. Secretary of State for the Home Department</span> <ref href="#" uk:canonical="[2019] 1 WLR 4670" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 4670</ref> at paragraph 70:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;70.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The general principles on the Tameside duty were summarised by Haddon-Cave J in <span style="font-style:italic">R (Plantagenet Alliance Ltd) v Secretary of State for Justice</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2014/1662" uk:canonical="[2014] EWHC 1662 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 1662 (Admin)</ref> at paras. 99-100. In that passage, having referred to the speech of Lord Diplock in <span style="font-style:italic">Tameside</span> , Haddon-Cave J summarised the relevant principles which are to be derived from authorities since <span style="font-style:italic">Tameside</span> itself as follows. First, the obligation on the decision-maker is only to take such steps to inform himself as are reasonable. Secondly, subject to a <span style="font-style:italic">Wednesbury</span> challenge, it is for the public body and not the court to decide upon the manner and intensity of enquiry to be undertaken: see <span style="font-style:italic">R (Khatun) v Newham LBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/55" uk:canonical="[2004] EWCA Civ 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 55</ref>, <ref href="#" uk:canonical="[2005] QB 37" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] QB 37</ref> , at para. 35 (Laws LJ). Thirdly, the court should not intervene merely because it considers that further enquiries would have been sensible or desirable. It should intervene only if no reasonable authority could have been satisfied on the basis of the enquiries made that it possessed the information necessary for its decision. Fourthly, the court should establish what material was before the authority and should only strike down a decision not to make further enquiries if no reasonable authority possessed of that material could suppose that the enquiries they had made were sufficient. Fifthly, the principle that the decision-maker must call his own attention to considerations relevant to his decision, a duty which in practice may require him to consult outside bodies with a particular knowledge or involvement in the case, does not spring from a duty of procedural fairness to the applicant but rather from the Secretary of State's duty so to inform himself as to arrive at a rational conclusion. Sixthly, the wider the discretion conferred on the Secretary of State, the more important it must be that he has all the relevant material to enable him properly to exercise it.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num>118.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the time that the Defendant made their decision at the January 2025 Traffic Management Meeting, they had before them the information they had obtained, including the photographs and commentary in the spreadsheet attached to the email sent to the First Claimant on 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024, and the consultation responses received. That information was appended to the OR. The information in the spreadsheet included photographs of fly-tipping which had been sent to the Defendant by Aspley Heath Parish Council.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num>119.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the steps taken by the Defendant to obtain information were reasonable. It was for the Defendant to determine the manner and intensity of the inquiry to be undertaken. The information obtained related to fly-tipping, use of the Sandy Lane BOAT, and to the condition of the surface of the road. The purposes for which a road traffic regulation order can be made include preventing damage to the road, and preserving or improving the amenities of the area through which the road runs. It is not sufficient to establish that further inquiries on the effect of different types of mechanically propelled vehicles might be sensible or desirable.  In my judgment, it cannot be said that no reasonable authority could have been satisfied on the basis of the enquiries made that it possessed the information necessary for it to make a decision on whether to make an ETRO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num>120.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition the decision to make an ETRO cannot be said to be irrational on the basis that the Defendant had failed to obtain information. The Defendant had obtained information which was relevant to the purposes for which a road traffic regulation order may be made. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num>121.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons I reject this ground of challenge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold">vii)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold">Did the Defendant fail to have regard to the advice given by the LAF (Second Claimant Ground 4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num>122.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The duty imposed upon the Defendant by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/37/section/94/5" uk:canonical="2000 c. 37 s. 94" uk:origin="TNA" uk:type="legislation">section 94(5)</ref> of CROW 2000 is to have regard to relevant advice given to them by a LAF.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num>123.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The essence of the complaint made by the Second Claimant under this ground is that, although an email written by the Chair of the LAF was included in Appendix F to the OR, all personal data was redacted, and therefore the decision maker had no way of knowing that the email was from Mr Beckett. I note that the copy of the email included in Appendix F to the OR is dated 20<span style="vertical-align:super;font-size:smaller">th</span> August 2024, whereas the unredacted version is dated 19<span style="vertical-align:super;font-size:smaller">th</span> August 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num>124.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 68 of the Second Claimant&#8217;s grounds it is said that (at that time) it was unclear whether the decision maker was aware of the email of the 21<span style="vertical-align:super;font-size:smaller">st</span> January 2025 sent by the Chair of the LAF to the Defendant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num>125.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes of the Traffic Management Meeting held on 23<span style="vertical-align:super;font-size:smaller">rd</span> January 2025 record that the Committee Services Officer read out the statement from the Chair of the LAF. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num>126.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In advancing this ground of claim the Second Claimant has not addressed the fact that the statement from the Chair of the LAF was read out at the Traffic Management Meeting. Given that the statement was read out as being a statement from the LAF represented by its Chair, Mr Beckett, the contention that the Defendant failed to have regard to relevant advice from the LAF is not made out on the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num>127.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons I reject this ground of challenge.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Relief</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num>128.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have found that the First Claimant succeed on all its grounds, and the Second Claimant on grounds 2 and 3.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num>129.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It cannot be said that the Defendant would necessarily have still made the same decision if the errors which have led to me upholding those grounds which establish that the Defendant did not act within the relevant powers had not occurred (applying <span style="font-style:italic;font-weight:bold">Simplex</span>). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num>130.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given, the claims succeed and the decision to make the 2025 ETRO is quashed. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

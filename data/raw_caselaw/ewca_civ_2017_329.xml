@@ -1,0 +1,582 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2017/329"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2017/329"/>
+	  <FRBRdate date="2017-05-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="329"/>
+	  <FRBRname value="Day v Health Education England &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/329"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/329"/>
+	  <FRBRdate date="2017-05-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/329/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/329/data.xml"/>
+	  <FRBRdate date="2024-11-07T20:42:56" name="transform"/>
+	  <FRBRdate date="2024-11-26T14:57:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-05-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="dr-day" href="" showAs="DR DAY"/>
+	<TLCPerson eId="health-education-england" href="" showAs="HEALTH EDUCATION ENGLAND"/>
+	<TLCPerson eId="public-concern-at-work" href="" showAs="PUBLIC CONCERN AT WORK"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="intervener" href="" showAs="Intervener"/>
+	<TLCPerson eId="judge-lady-justice-gloster" href="/judge-lady-justice-gloster" showAs="LADY JUSTICE GLOSTER,"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>329</uk:number>
+	<uk:cite>[2017] EWCA Civ 329</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>d91907e9117864a369dbf2e9af80613f63127b8a18c0af40d100a115604d39b7</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .legclearfix2 { font-size: 9.5pt; color: #000000; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .text { text-align: justify; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .legaddition5 { }
+#judgment .legds2 { }
+#judgment .legterm { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>A2/2016/1898/EATRF</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWCA Civ 329</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p class="CoverMain">MR JUSTICE LANGSTAFF</p>
+      <p class="CoverMain">UKEATPA/0250/1</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-05-05" refersTo="#judgment">5 May 2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-gloster">LADY JUSTICE GLOSTER,</judge></p>
+      <p class="CoverMain" style="text-align:center">VICE PRESIDENT OF THE COURT OF APPEAL, CIVIL DIVISION</p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE ELIAS</p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">- and -</span></p>
+      <p class="CoverMain" style="text-align:center">MR JUSTICE MOYLAN</p>
+      <p style="text-align:center"><span style="font-weight:bold">- - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#dr-day" style="font-weight:bold">DR DAY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.25in"/>
+	    <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#health-education-england" style="font-weight:bold">HEALTH EDUCATION ENGLAND</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain"/>
+	    <p class="CoverMain"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.25in"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.25in"/>
+	    <p style="text-align:center;margin-left:0.25in"><party as="#intervener" refersTo="#public-concern-at-work" style="font-weight:bold">PUBLIC CONCERN AT WORK</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#intervener">Interveners</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.25in"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold"/></p>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">      LEWISHAM AND GREENWICH NHS TRUST </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center">Interested</p>
+	    <p class="CoverMain" style="text-align:center">Party</p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">- - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:0.39in"><span style="font-weight:bold;font-size:10pt">James Laddie QC </span><span style="font-size:10pt">and</span><span style="font-weight:bold;font-size:10pt"> Christopher Milsom</span><span style="font-size:10pt"> (instructed by </span><span style="font-weight:bold;font-size:10pt">Tim Johnson/ Law</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Appellant</span></p>
+      <p style="text-align:center;text-indent:0.39in"><span style="font-weight:bold;font-size:10pt">David Reade QC </span><span style="font-size:10pt">and</span><span style="font-weight:bold;font-size:10pt"> Nicholas Siddall </span><span style="font-size:10pt">(instructed by</span><span style="font-weight:bold;font-size:10pt"> Hill Dickinson</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Respondent</span></p>
+      <p style="text-align:center;text-indent:0.39in"><span style="font-weight:bold;font-size:10pt">Thomas Linden QC</span><span style="font-size:10pt"> (instructed by </span><span style="font-weight:bold;font-size:10pt">C M Murray</span><span style="font-size:10pt"> for Public Concern at Work) for the I</span><span style="font-weight:bold;font-size:10pt">nterveners</span></p>
+      <p style="text-align:center">Hearing date : 21 March 2017</p>
+      <p style="text-align:center"><span style="font-weight:bold">- - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaNoNumber"><span style="font-weight:bold">Lord Justice Elias:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="font-style:italic">Introduction</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Part IVA, read together with <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/47" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 47</ref>B and 103A, of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref> (&#8220;ERA&#8221;), protects workers who disclose information about certain alleged wrongdoing to their employers (colloquially known as &#8220;whistleblowers&#8221;) from being subjected to victimisation or dismissal as a consequence.  There is an extended concept of &#8220;worker&#8221; and &#8220;employer&#8221; in section 43K which ensures that certain persons who perform work but do not fall within the general concept of worker found in section 230(3) of the ERA will nonetheless be able to claim the protection afforded by these provisions.  This appeal concerns the proper construction of section 43K and the application of that section to a certain category of doctors operating in the health service.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We have heard valuable submissions not only from counsel for the appellant and HEE, Mr James Laddie QC and Mr David Reade QC respectively, but also from Mr Thomas Linden QC who represented the interveners, Public Concern at Work. He made submissions principally on the scope of section 43K.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Background</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Day is a medical doctor who wanted to specialise in Acute Care Common Stem Emergency Medicine. In early Spring 2011 he was accepted by the London Deanery, the body then responsible for training doctors in London, to take up a post from August in that year. He entered into a training contract which the parties agreed was not a contract of employment. He was allocated to the respondent NHS Trust.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In April 2013 the Deaneries were taken over by the Local Education Training Boards. They have no independent legal personality but are part of the second respondent, Health Education England (&#8220;HEE&#8221;). Trainee doctors are allocated for relatively short fixed periods to NHS Trusts.  They enter into contracts of employment with each Trust. Initially Dr Day worked at the Princess Royal University Hospital and later, following a short career break, was allocated to the Queen Elizabeth Hospital.  He trained in intensive care and then in anaesthetics before his engagement came to an end in August 2014. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst Dr Day was at the Queen Elizabeth Hospital, he raised a number of concerns with both the Trust and with the South London Health Education Board about what he considered to be serious staffing problems affecting the safety of patients.  He alleges that these were protected disclosures within the meaning of the relevant legislation on whistleblowers, and he asserts that he was subject to various significant detriments by HEE as a consequence. He took proceedings before the employment tribunal (&#8220;ET&#8221;) against both the Trust and HEE, as the body responsible for the actions of the South London Board. HEE deny any wrongdoing but took a preliminary point that the tribunal had no jurisdiction to hear these claims.  In order to bring a whistle-blowing claim, the applicant has to fall within the statutory definition of worker and the defendant has to be his employer. HEE contended that this was not the position and accordingly that even if the facts alleged by Dr Day were true, HEE could not be liable in law for any acts causing him detriment. It is common ground that he did not fall within the definition of worker in section 230(3) and the only question was whether Dr Day was a worker within the extended definition in section 43K and HEE was his employer as defined in that section.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This issue was taken at a preliminary hearing. In principle that was in my view a sensible course of action. There is virtually no overlap in the evidence going to this question and the evidence relating to the merits of the whistle-blowing claims, and a ruling in favour of HEE would bring the proceedings against it to an end.  In my view it would have been desirable for this issue to be taken as a preliminary issue to be determined following findings of fact. Unfortunately, the preliminary hearing took the form of an application to strike out the claims on the grounds that they had no reasonable prospect of success. There was an agreed statement of facts as regards the history of Dr Day&#8217;s involvement with HEE and the ET plainly had some documentation relating to the terms and conditions of employment. There were also witness statements from both Dr Day and Mr Mckay, an officer who worked on behalf of Health Education South London, who also gave evidence orally. In the light of the material it had, the ET concluded that the claims against HEE had no realistic prospect of success and struck them out. Dr Day unsuccessfully appealed that decision to the Employment Appeal Tribunal (&#8220;EAT&#8221;).  I gave permission for Dr Day to appeal to this court.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-style:italic">The legislation </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Section 230(3) of the ERA provides a general definition of &#8220;worker&#8221; as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legds2">&#8220;In <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8220;</span><span class="legterm">worker</span><span class="legds2">&#8221; &#8230;means an individual who has entered into or works under (or, where the employment has ceased, worked under)&#8212;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds2">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a contract of employment, or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">any other contract, whether express or implied and (if it is express) whether oral or in writing, whereby the individual undertakes to do or perform personally any work or services for another party to the contract whose status is not by virtue of the contract that of a client or customer of any profession or business undertaking carried on by the individual.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The extended definition of worker relevant to this appeal is found in section 43K(1)(a):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span class="legaddition5">For the purposes of this Part &#8220;worker&#8221; includes an individual who is not a worker as defined by section 230(3) but who&#8212; &#8221;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legaddition5">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legaddition5">works or worked for a person in circumstances in which&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition5">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legaddition5">he is or was introduced or supplied to do that work by a third person, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition5">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legaddition5">the terms on which he is or was engaged to do the work are or were in practice substantially determined not by him but by the person for whom he works or worked, by the third person or by both of them&#8230;..</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">And any reference to a worker&#8217;s contract, to employment or to a worker being employed shall be construed accordingly.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">(I will refer to the person for whom the individual works as the end-user, and the party introducing or supplying that worker as the introducer.) </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The subsection then sets out a number of other groups of workers who are brought within the scope of the section including some working in the NHS and certain individuals pursuing work experience. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">An extended concept of &#8220;employer&#8221; is also adopted, being defined by reference to the extended definition of &#8220;worker&#8221; in section 43K(2)(a): </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legaddition5">&#8220;For the purposes of this Part &#8220;employer&#8221; includes&#8212; </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legaddition5">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legaddition5">in relation to a worker falling within paragraph (a) of subsection (1), the person who substantially determines or determined the terms on which he is or was engaged,</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The principal set of relationships caught by this definition is agency relationships, but the section is not limited to them.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would make two preliminary observations about these definitions.  The first is that if the terms on which the individual is engaged are substantially determined by the individual himself, he cannot bring himself within this extended definition of &#8220;worker&#8221;. That is so even if the end-user and/or introducer can also be said substantially to determine the terms of engagement. The second is that if the terms of engagement are not substantially determined by the individual, his employer is the person who does substantially determine them.  It is envisaged in section 43K(1)(a)(ii) that this may be both the end-user and the introducer.  That might be either because the introducer and the end-user determine the terms jointly, or because each determines different terms but each to a substantial extent.  Mr Reade submitted that notwithstanding that both introducer and end-user may substantially determine the terms of engagement, the definition of employer in subsection 43K(2)(a) was limited to the person who played the greater role in determining the terms of engagement. He submitted that this follows from the reference to &#8220;<span style="font-style:italic">the</span> person&#8221; in that sub-section.  I see no warrant for restricting the scope of the section in that way. By <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref> the singular includes the plural unless the contrary intention appears, and in my view it does not do so here. Indeed, Mr Reade&#8217;s construction involves giving a different meaning to &#8220;substantially determines&#8221; in subsection (1) than in subsection (2). Since both introducer and end-user can in principle substantially determine the terms of engagement for the purposes of the definition of worker, I see no basis for concluding that they cannot do so when it comes to applying the extended definition of employer. This will in some cases have the effect that both introducer and end-user are employers and each will then be subject to the whistleblowing provisions. Indeed, that would seem to be an inevitable conclusion if the terms are determined by the end-user and introducer acting jointly.  If only one party can be the employer, it is difficult to see by what principle it would be possible to determine who that should be.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.39in"><span style="font-style:italic">  The issues in the appeal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The question for the courts below was whether Dr Day and HEE were respectively worker and employer within the meaning of the extended definitions. The answer to that question turns on two disputed aspects of the definition of &#8220;worker&#8221;. The first arises in the following way.  The extended definition does not apply if the worker already falls within the scope of section 230(3). Dr Day does so with respect to the Trust; it is common ground that he was employed by them. Does that prevent him from relying upon the extended definition with respect to HEE?  This was not a point considered by the ET but the issue was argued on appeal before the EAT. Langstaff J held that since Dr Day was employed by the Trust, he could not take advantage of the extended definition with respect to HEE, and that would be so even if HEE did substantially determine the terms of his engagement.  Dr Day submits that the judge was in error in reaching this conclusion and has misconstrued the section.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second issue assumes that HEE could in principle constitute an employer within the meaning of section 43K(2)(a) notwithstanding that Dr Day is in a section 230(3) working relationship with the Trust.  The question then is whether in the circumstances HEE could be said to be substantially determining &#8220;the terms on which he is or was engaged to do the work&#8221; so as to be an employer within the meaning of section 43<span style="font-variant:small-caps">K(2)(</span>a)? The ET analysed the relationship between Dr Day and HEE and the Trust respectively. It noted that the terms and conditions of employment were determined by negotiating bodies on which HEE had no representation.  Its overall conclusion was that HEE did not substantially determine the terms and conditions on which Dr Day was engaged and therefore Dr Day was not their worker and it was not his employer.  There was a training relationship which ran alongside the employment relationship but this was not material to the terms of engagement. The applications were dismissed on the grounds that they had no real prospect of success. The EAT held that this was a conclusion open to the ET on the evidence before it which displayed no error of law. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> The principal ground of appeal with respect to this issue is that the ET wrongly analysed the question it had to determine. Mr Laddie submits that it focused on which body, as between the Trust and HEE, played the greater role in determining the terms of engagement and thereby failed to appreciate that both may do so.  It is further submitted that if the proper test had been applied, the only proper conclusion would have been that HEE did substantially determine the terms of engagement and therefore constituted an employer.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.39in"><span style="font-style:italic"> Discussion</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I turn to consider the first issue: did the fact that the Trust was a section 230(3) employer preclude HEE from also having that status?  Langstaff J concluded that it did. He accepted that a purposive approach should be taken to the construction of the section, following a number of earlier decisions where observations had been made to that effect: see e.g. <span style="font-style:italic">Croke v Hydro Aluminium Worcester Limited</span> <ref href="#" uk:canonical="[2007] ICR 1303" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] ICR 1303</ref> para.33  per Wilkie J; <span style="font-style:italic">BP PLC v Elstone</span> <ref href="#" uk:canonical="[2010] IRLR 558" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] IRLR 558</ref>, para.17 per Langstaff J and <span style="font-style:italic">Woodward v Abbey National plc</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/822" uk:canonical="[2006] EWCA Civ 822" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 822</ref>; <ref href="#" uk:canonical="[2006] ICR 1436" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] ICR 1436</ref>, para.68 per Ward LJ.  But in his view the language of the provision was clear and its effect was to deny any remedy to Dr Day against HEE.  After referring to the various sub-paragraphs in section 43K(1) the judge continued as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;37.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>One feature, however, does cover all: that is that they cannot be a worker as defined by Section 230(3).&#160; Mr Milsom had no satisfactory explanation for the presence of those words.&#160; The list that follows in 43K(1)(a)-(d) is subject to those introductory words.&#160; His submission that the words might be included as mere introductory expression or to provide &#8220;belt and braces&#8221; does not suffice, for if a person is within 43K(1)(a) and is also an employee or a limb (b) worker, there is no need to extend the meaning to include him.&#160; If the section had been intended to add a category of employer against whom a person might act in addition to others who were his employer, there would be no need for the words &#8220;who is not a worker as defined by Section 230(3)&#8221;.&#160; They were intended to have a meaning.&#160; They have no additional force if construed as Mr Milsom would wish.&#160; Construed as Mr Siddall suggests, they apply a policy to the effect that those who are workers within Section 230(3) should adopt the route of complaint set out in Section 43C &#8211; 43H but have no, and need no, additional protection against those who are more peripheral to their employment.&#160; There is no reason in policy to include those who are tangential to the work which is relevant.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>38.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>Accepting these submissions, as I do, does no violence to the principle of purposive construction.&#160; The purpose of this part of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">the Act</ref> is to extend the meaning of worker to a limited category of other relationships.&#160; It is, plainly, to give them a route to remedy which they might not otherwise have (the agency worker, for instance, is likely to be neither an employee nor worker in respect of the end user under whose control the work would normally be performed). That purpose is fulfilled. It does not need the relevant introductory words to be written out.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I respectfully disagree with this conclusion. I would start by observing that there must be some limitation on the words of the section. They cannot be read literally. Take an agency worker who has a second job serving in a restaurant in the evenings.  The fact that she is a section 230 worker in an unrelated position could not sensibly preclude her from seeking to rely upon the extended definition of worker with respect to the agency work. Mr Reade accepted that this must be so. Some words need to be added to the provision to limit the impact of these words.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The only question is what the limitation should be. Mr Reade suggested that the words to be added were &#8220;in respect of the worker relationship described below&#8221; so that the provision would read<span class="legaddition5" style="font-family:Arial;font-size:9pt">:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legaddition5">&#8220;&#8220; worker &#8221; includes an individual who </span><span class="legaddition5" style="font-style:italic">in respect of the worker relationship described below</span><span class="legaddition5"> is not a worker as defined by section 230(3)</span><span class="legaddition5" style="font-family:Arial;font-size:9pt"/>.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">Mr Linden and Mr Laddie would insert some such phrase as &#8220;as against a given respondent&#8221; so that the definition of worker would be as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span class="legaddition5">&#8220;&#8220;worker &#8221; includes an individual who</span><span class="legaddition5" style="font-style:italic"> as against a given respondent</span><span class="legaddition5"> is not a worker as defined by section 230(3).&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The former insertion would exclude section 43K if the individual has a section 230(3) relationship with either end-user or introducer, whereas the latter would allow the section to operate against one of those parties even if there was a section 230(3) relationship with the other.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the latter implication is to be preferred. I say this for a number of reasons. First, I would accept, as did Langstaff J, that the whistleblowing legislation should be given a purposive construction. That does not permit the court to distort the language of a statute on the vague premise that action against whistleblowers is undesirable and should be forbidden: see the observations to this effect made in <span style="font-style:italic">Fecitt and Others v NHS Manchester</span> <ref href="#" uk:canonical="[2012] ICR 372" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] ICR 372</ref>, paras 58-59 per Elias LJ. So, as Mr Laddie accepts, if a training body does not determine the terms and conditions of the worker&#8217;s engagement at all, it cannot be an employer within the wider definition. It can subject a whistleblowing trainee to a detriment without risk of legal sanction. A court cannot simply ignore the language of the statute to achieve what it conceives to be a desirable policy objective. But where, as here, some words need to be read into the provision because a literal construction cannot be what Parliament intended, then in my view the court should read in such words as maximise the protection whilst remaining true to the language of the statute. In my judgment the words which both the appellant and intervener suggest should be inserted better achieve that objective.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> Second, in this context I do not accept, as Langstaff J did, that the worker will have no need for protection against the introducer if he has protection against the end-user.  That is of no use to him if, as is alleged here, the victimisation comes from the introducer itself.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Third, for reasons I have given in para.11 above, in my view under the extended definition Dr Day can in principle be employed by both the end-user and the third party introducer. There is no obvious rationale in a provision which says that if the individual is a section 230(3) worker in respect of either the end-user or the third party, he cannot rely upon the extended definition against the other.  Furthermore, it has odd consequences. It means that if he is not a section 230(3) worker with respect to either, he may fall within the extended section 43K definition of worker in respect of both and each may be his employer.  Conversely, if he is a section 230(3) worker with effect to one of them, he cannot be a section 43K worker with respect to the other.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I recognise that it can be said that on this analysis the section 230 exception is largely superfluous; it simply removes from the scope of section 43K someone who qualifies as a worker in any event. That was a factor which weighed heavily with Langstaff J. But in my view it is understandable that Parliament might want to make it clear that the section is simply extending the standard definition and that there is no need to engage with section 43K at all if the worker falls within the scope of section 230(3).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am reinforced in my conclusion that this is the correct construction of section 43K by the fact that this was also the approach adopted by the current President of the EAT, Simler J, in <span style="font-style:italic">McTigue v University Hospital Bristol NHS Trust</span> <ref href="#" uk:canonical="[2016] ICR 1156" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 1156</ref>. That case raised the question whether an end user in an agency arrangement was an employer within the meaning of the extended definition in section 43K. It was submitted, relying upon the EAT judgment in <span style="font-style:italic">Day</span>, that the end-user was not because there was a section 230(3) relationship with the agency itself.  Mrs Justice Simler rejected this argument and in so doing highlighted the unsatisfactory consequences if it were right. After citing paras. 37-38 of the <span style="font-style:italic">Day</span> decision, set out above, she continued (paras<span style="color:#FF0000">.</span> 24-29 ): </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;24.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Respondent relies on that reasoning to submit that the opening words of s.43 K(1) &#8216; &#8220;worker&#8221; includes an individual who <span style="text-decoration-line:underline;text-decoration-style:solid">is not</span> a worker as defined by section 230(3) <span style="text-decoration-line:underline;text-decoration-style:solid">but who</span>&#8230;&#8217; mean that the extended protection only applies where someone is not otherwise a worker under s. 230(3) irrespective of the identity of the respondent and the identity of the person with whom the worker has a s.230(3) worker relationship. &#160;In other words, if an agency worker has a s.230(3) &#8216;limb (b)&#8217; worker contract with the agency, the agency worker is excluded from the extended protection available under s.43K(1)(a) vis &#224; vis all others, including the end user. &#160;The agency may be insolvent and the end user vicariously liable for the detriments done to the individual in the course of working at the end user by its employees because of the protected disclosures, but no remedy is available. &#160;Ms Fraser Butlin accepts that this interpretation substantially reduces the protection the provision appears to have been intended to afford but submits that Parliament has specifically delineated the extended protection afforded and further submits that for purposes of clarity and certainty it is important that a worker knows who their employer is for the purposes of making a protected disclosure.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>25.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>I do not accept this submission <span style="color:#FF0000">&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>26.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>I accept that the opening words in s.43K(1) mean that the provision is only engaged where an individual is not a worker within s.230(3) in relation to the respondent in question. &#160;If he or she is such a worker there is no need to extend the meaning of worker to afford protection against that respondent. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>27.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>However, an important purpose of s.43K is to extend cover to agency workers in relation to victimisation for protected disclosures made while working at the end user. &#160;This case exemplifies that situation. &#160;Although an employee of Tascor, the Claimant was supplied to work at the Respondent&#8217;s Bridge centre with the Respondent&#8217;s employees who were thus in a position to subject her to detriments after she made protected disclosures. &#160;It is against that treatment (if it is established) that she requires protection. &#160;The extended definition of worker in s.43K(1)(a) potentially provides it in respect of her claim against the Respondent. &#160;The fact that she has worker status in relation to the agency, Tascor, under s.230 and cannot accordingly rely on s.43K in relation to Tascor (and does not need to do so in any event so far as Tascor is concerned) is irrelevant in relation to her claim against the Respondent. &#160;She is not a s.230(3) worker in relation to the Respondent. &#160;The extended definition of worker provides a potential route to a remedy the Claimant would not otherwise have had as an agency worker who is neither an employee nor a limb (b) worker in respect of the Respondent end user for whom she carries out the work.&#160; </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>28.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>Moreover, this construction gives meaning to the introductory words of s.43K(1) which apply to all categories of worker identified at subsections (a) to (d) and is entirely consistent with the stated purpose of the provision.&#160; There is no resulting uncertainty or lack of clarity.&#160; An agency worker may complain to both the end user and the agency about matters of concern, as the Claimant did here, as both are potential employers for protected disclosure purposes.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>29.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:7pt"/>This construction of s.43K(1) gives effect to Parliament's intentions as evidenced by the language of the provision having regard to the statutory and social context. &#160;It is unnecessary to resort to a purposive construction that would give an extended meaning of &#8216;worker&#8217; beyond the legitimate reach of the subsection (whether because it is thought that the broad objective of the statute would be better effected by that approach or on some other basis).&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree with those observations. Accordingly, I would find for the appellant on the first ground. HEE could in principle fall within the scope of section 43K(2)(a) notwithstanding that Dr Day had a contract with the Hospital Trust. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-style:italic">  The second issue</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second ground of appeal asserts that the ET erred in concluding that HEE did not substantially determine the terms on which the worker was engaged. There are two elements to this submission. First, Mr Laddie submits that passages in the ET judgment demonstrate that the tribunal was applying the wrong test; it was asking itself which party, as between HEE and the Trust, played the greater role in determining the terms on which Dr Day was engaged. It did not envisage the possibility that both could substantially determine the terms of engagement. Second, he submits that if the correct test had been adopted, the inevitable conclusion would have been that the ET must have found in his favour.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree with the first submission. In my view on a fair reading of the ET decision, it did commit the error alleged. For example, both in para.42 and para.46 the Tribunal appears to have seen its task as being to identify &#8220;the body&#8221; which substantially determined the terms of engagement, as though it were necessary to identify the single body which was primarily responsible. The Employment Judge evaluated the relationship of Dr Day with both HEE and the Trust and concluded that the latter had substantially determined the terms.  There is no express recognition that both could have done so, which in my view is the proper reading of the provision. This reading of the ET&#8217;s judgment is reinforced when the judgment is considered in the light of the submissions in the skeleton argument then advanced on behalf of HEE which we have seen. That was premised on the assumption that the ET should identify as the employer the body which played the greater role in determining the terms of engagement. Indeed, that was also the way in which Mr Reade advanced his case before us.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Once the question was posed in that way, realistically there was only one answer. The Trust clearly played a more significant role than HEE, as I think Mr Laddie accepted. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, therefore, the ET did not engage directly with the question whether HEE itself &#8220;substantially determined&#8221; the terms on which Dr Day was engaged. Langstaff J&#8217;s analysis in the EAT, as Mr Reade submits, is at least consistent with the assumption that it was the tribunal&#8217;s task under section 43K(2)(a) to determine which of the two employers had played the greater role in determining the terms of engagement. In my judgment that was a mistaken approach and it follows that the EAT was wrong to uphold the employment tribunal&#8217;s conclusion. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, I do not accept Mr Laddie&#8217;s further submission that the ET would have been bound to find in favour of Dr Day had it properly directed itself. He submits that this follows from the fact that it decides for whom the trainee should work. HEE submitted that on the contrary, it is clear from the reasoning of the ET that it would inevitably have found in its favour.  I do not accept that submission either, particularly in the context of a strike out application.  It is not for this court to make relevant findings of fact and in my judgment the case needs to be remitted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is one further matter which I should address which emerged during the course of submissions (although I doubt whether it will have any material impact upon the analysis which the ET will have to carry out in this case). The issue is whether, when considering the terms on which the person is engaged, the tribunal is limited to considering contractual terms and must ignore other matters which might affect the way in which the work is carried out but are not contractual in nature.  The argument in favour of so limiting it is that in <span style="font-style:italic">Sharpe v Bishop of Worcester</span> <ref href="#" uk:canonical="[2015] ICR 1421" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] ICR 1421</ref> the Court of Appeal held that in order for section 43K to bite, there must at least be a contract of some sort with the putative employer. So, it is said, the reference to terms must be to contractual terms. It is right to say that neither party sought to challenge the <span style="font-style:italic">Sharpe</span> decision nor to suggest that we need not follow it.  However, even if it be the case that some of the terms of engagement must be contractual (on the assumption that the relationship needs to be contractual) I do not accept that it follows that a tribunal should limit itself to focusing solely on the contractual terms, although no doubt the terms will be overwhelmingly contractual. The section requires the tribunal to focus on what happens in practice and I do not think that Parliament will have envisaged fine arguments on whether a term is contractual or not before it can be taken into account. In my judgment when determining who substantially determines the terms of engagement, a tribunal should make the assessment on a relatively broad brush basis having regard to all the factors bearing upon the terms on which the worker was engaged to do the work.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Disposal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would therefore uphold the appeal and remit the matter. In the circumstances I would remit it to a fresh tribunal to decide as a preliminary issue whether HEE substantially determined the terms of engagement of Dr Day. I appreciate that the original application was a strike out, but as I have explained the former is the more appropriate procedure, and the arguments before us were for the most part conducted as though the employment tribunal had resolved the issue as a preliminary question to be determined.  The parties will have an opportunity to adduce evidence about the terms on which Dr Day was engaged by the Trust and the tribunal will need to make findings of fact from which to carry out its assessment of the legal question.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Lord Justice Moylan:</span></heading>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Lady Justice Gloster:</span></heading>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

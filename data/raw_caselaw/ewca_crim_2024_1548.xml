@@ -1,0 +1,1368 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1548"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1548"/>
+	  <FRBRdate date="2024-12-13" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1548"/>
+	  <FRBRname value="R v Danny Barnes"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1548"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1548"/>
+	  <FRBRdate date="2024-12-13" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1548/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1548/data.xml"/>
+	  <FRBRdate date="2024-12-13T10:37:46" name="transform"/>
+	  <FRBRdate date="2025-07-19T03:03:43" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>1548</uk:number>
+	<uk:cite>[2024] EWCA Crim 1548</uk:cite>
+	<uk:parser>0.26.16</uk:parser>
+	<uk:hash>1563747c428b03a252eb2f0a510844f0732d19120912d885dd5eafc0567dff45</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCA Crim 1548</neutralCitation><span/><br/><span style="text-decoration-line:none;font-size:10pt"/>[2024] EWHC 3192 (Admin)</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-12-13" refersTo="#judgment">13/12/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">PRESIDENT OF THE KING&#8217;S BENCH DIVISION</span></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">MR JUSTICE SWIFT</span></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">MRS JUSTICE FARBEY DBE</span></p>
+      <p class="CoverText" style="text-align:center"><span style="text-decoration-line:none">-------------------------------------</span></p>
+      <p class="CoverText"><span style="font-weight:bold">Case No. </span><docketNumber style="font-weight:bold">202402457 A5</docketNumber></p>
+      <p class="CoverMain">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CENTRAL CRIMINAL COURT</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">HHJ MAYO KC; T20237129</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                                                                         REX                                                      </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">v</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                                                                DANNY BARNES                                            </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                                         SECRETARY OF STATE FOR JUSTICE                       </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Intervener</span></p>
+      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Case No. 202403068 A3</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CROWN COURT AT SOUTHWARK</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">HHJ HEHIR; CP 01MP1214423</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">ATTORNEY-GENERAL&#8217;S REFERENCE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">UNDER SECTION 36 OF THE CRIMINAL JUSTICE ACT 1988</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">REX</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">v</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">YOUSSEF BEROUAIN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                                         SECRETARY OF STATE FOR JUSTICE                       </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Intervener</span></p>
+      <p style="text-align:right"><marker name="tab"/><span style="font-weight:bold">`</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">AC-2024-LON-000849</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE HIGH COURT OF JUSTICE</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING&#8217;S BENCH DIVISION </span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">THE KING </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">on the application of</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                                                  JORDAN LILL                                  </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and- </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">                            SECRETARY OF STATE FOR JUSTICE            </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Defendant</span></p>
+      <p style="text-align:center">Hearing date: 11 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Henry Blaxland KC, Emma Fenn </span>and<span style="font-weight:bold"> Will Hanson</span> (instructed by <span style="font-weight:bold">GT Stewart Solicitors</span>) </p>
+      <p style="text-align:center">for <span style="font-weight:bold">Danny Barnes</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">John Price KC </span>(instructed by the <span style="font-weight:bold">CPS</span>) for the <span style="font-weight:bold">Crown</span> in Barnes</p>
+      <p style="text-align:center"><span style="font-weight:bold">Catherine Pattison</span> appeared on behalf of the <span style="font-weight:bold">Attorney-General </span>in Berouain</p>
+      <p style="text-align:center"><span style="font-weight:bold">Nathaniel Wade </span>(instructed by <span style="font-weight:bold">Mians Solicitors</span>) for <span style="font-weight:bold">Youssef Berouain</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Jyoti Wood </span>(instructed by <span style="font-weight:bold">Patterson Solicitors</span>)<span style="font-weight:bold"/>for <span style="font-weight:bold">Jordan Lill</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Iain Steele</span> (instructed by GLD) for <span style="font-weight:bold">Secretary of State for Justice </span></p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 13 December 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">PRESIDENT OF THE KING'S BENCH DIVISION</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="CoverMain"><span style="text-decoration-line:none">Dame Victoria Sharp P.,</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">This is the judgment of the court. It addresses an application for judicial review brought by Jordan Lill, an application for leave to appeal against sentence brought by Danny Barnes, and an application by the Attorney-General for leave to refer the sentence in <span style="font-style:italic">R v Youssef Berouain </span>which he regards as unduly lenient.  These proceedings raise one common issue: the proper application of the provisions for release of prisoners on licence in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="2003 c. 44 s. 244" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>&#8221;) to persons convicted of the offence of causing death by dangerous driving, when the offending took place before 28 June 2022 but the sentence was passed after that date. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">This issue arises because of amendments made by the <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">Police, Crime, Sentencing and Courts Act 2022</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref>&#8221;) to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> (&#8220;the RTA&#8221; and &#8220;RTOA&#8221;, respectively).  <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 86</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> amended various provisions in the RTA and the RTOA. One of the amendments (made by <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 86(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref>) increased the maximum penalty for causing death by dangerous driving from 14 years&#8217; imprisonment to life imprisonment. By <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 86(9)</ref> the amendments to the RTA and RTOA made by <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 86</ref> do not apply &#8220;in relation to offences committed before the provision comes into force.&#8221;  <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 86</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> came into force on 28 June 2022.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/130" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 130</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> inserted a new provision into <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA.  In part, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA restates the provisions on release of prisoners on licence previously contained in the Release of Prisoners (Alteration of Relevant Proportion of Sentence) Order 2020 (&#8220;the 2020 Order&#8221;). The 2020 Order, which had been made in exercise of the power at <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/267" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 267</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, was revoked by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/130/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 130(9)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref>.  The 2020 Order had identified a class of offenders who would not qualify for release on licence under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> after serving half of the sentence imposed on them but would instead qualify for release on licence only when they had served two-thirds of the sentence of imprisonment imposed by the court.  In further part, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA established additional classes of prisoner who would only qualify for release on licence after serving two-thirds of their sentence.  The amendment made by <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/130" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 130</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> also came into effect on 28 June 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In relation to Mr Lill and Mr Barnes, the issue concerning the effect in their circumstances of the amendments made by <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> (which we shall refer to as &#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="2003 c. 44 s. 244" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue&#8221;) is the only issue that arises. The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="2003 c. 44 s. 244" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue also arises in relation to Mr Berouain but is not the main issue in those proceedings.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The facts of the cases so far as they concern the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="2003 c. 44 s. 244" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">Jordan Lill</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><marker name="tab"/>On 30 July 2020, Jordan Lill and Christopher Milsom, each the driver of a car, were involved in a collision which caused the death of a pedestrian.  On 23 July 2023, Mr Lill pleaded guilty to causing death by dangerous driving contrary to section 1 of the RTA.  Mr Lill and Mr Milsom were both sentenced on 28 November 2023.  In his sentencing remarks, HHJ Kelson KC set out the facts of the offence which we do not for present purposes need to rehearse.  He then continued as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In short, you were both showing off.  You&#8217;d had been doing wheelspins and you, one of you, accelerating with such force that it pushed your passenger back into her seat as you accelerated away.  It was night time.  You were driving at massive speeds; competing; racing; showing off.  And during the course of those one of your two vehicles killed Carl Queen.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Lill was sentenced to 7&#189; years&#8217; imprisonment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><marker name="tab"/>By sections 34 and 97 of and Schedule 2 to the RTOA a person convicted of causing death by dangerous driving must be disqualified from driving. By section 35A of the RTOA the disqualification period must comprise a &#8220;discretionary disqualification period&#8221; which is the period of disqualification imposed by the court (pursuant to section 34 of the RTOA) reflecting the gravity of what the offender did, and an &#8220;extension period&#8221; equivalent to the time the offender will spend in custody. Taken together, the intention is to ensure that the disqualification period imposed under section 34 of the RTOA commences at the point the offender is released on licence.  To ensure this is so, provisions within section 35A require the sentencing court to consider whether, by reason of the provisions for release on licence, the offender will be released at the halfway point in the sentence or when two-thirds of the sentence has been served.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><marker name="tab"/>When dealing with Mr Lill the Judge concluded that he should be disqualified from driving from 5 years from his date of release.  He imposed a 10-year disqualification on the basis that Mr Lill would be released after serving two-thirds of the sentence. Further, the Judge required Mr Lill, following the period of disqualification, to pass the extended driving test to be able to get his driving licence back. The transcript of the Judge&#8217;s sentencing remarks records that the hearing ended just before 11:30am.  We have been told that later the same day at the request of both counsel, the Judge revised the detail of the disqualification order.  Counsel considered that the consequence of the early release provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref> and 244ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> was that Mr Lill would be released after serving half of the sentence imposed.  The order for imprisonment dated 28 November 2023 therefore provided that the period of disqualification from driving was 8 years and 9 months.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Lill&#8217;s application for judicial review, which comes before the court as a rolled-up hearing, is directed to a decision evidenced in a Release Date Notification Slip dated 8 December 2023 given to Mr Lill at HMP Stocken.  The slip states Mr Lill&#8217;s conditional release date will be 26 November 2028, i.e. when he will have served two-thirds of the sentence imposed by the court. Mr Lill&#8217;s case is that that decision rests on a misapplication to the facts of his case of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 244</ref> and 244ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in;text-indent:-0.39in"><span style="font-style:italic">Danny Barnes</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 26 April 2024 at the Central Criminal Court, Danny Barnes was convicted of causing death by dangerous driving. The offence had occurred on 24 April 2022. Mr Barnes had caused the death of Harry Bent. Mr Bent was 87 years old.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In his sentencing remarks, HHJ Mayo KC described what had happened:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;5.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">On Sunday 24 April 2022, at 3:46pm, you were driving a high-performance BMW motorcycle. You stopped at a set of lights at a pedestrian crossing near the junction of Brixton Hill and Acre Lane.  Members of the public said they heard you &#8220;rev&#8221; the engine of your motorcycle loudly as you waited for the lights to change from red to green.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">When the lights changed you accelerated quickly from that junction at high speed. From a standing start, you quickly reached a speed of <span style="text-decoration-line:underline;text-decoration-style:solid">at least</span> 37 mph (and possibly higher) as you travelled along Acre Lane.  That section of Acre Lane along which you were driving is lined with commercial and residential premises; there is a large church and Lambeth Town Hall is also located on that part of Acre Lane.  As one might expect on such a busy south London street, the speed limit is 20 mph.  It follows that you were travelling at nearly twice the speed limit.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Further up Acre Lane, an 87-year-old gentleman named Harry Bent and his niece, Enid Aldred, were crossing Acre Lane. A matter of seconds later, your motorbike, now travelling at 31 mph, struck Mr Bent and knocked him to the ground.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the point at which you collided with Mr Bent, the forensic collision investigator estimated that Mr Bent was only a short distance from the pavement and would have successfully reached safely on the pavement in less than 2 seconds.  The collision investigator said that the collision was completely avoidable if you had been travelling at or even near the speed limit.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">We also heard evidence about the width of the lane in which you were driving on Acre Lane. That was relevant because you claimed there was insufficient room for you to drive around Mr Bent and Mrs Aldred without trespassing into the oncoming lane. I am satisfied on the evidence heard at trial that was simply not correct.  There was sufficient room to pass within the lane and therefore avoid the collision.  As Mrs Aldred (Harry Bent&#8217;s niece) said in her witness statement: &#8216;<span style="font-style:italic">I can&#8217;t understand how he knocked Uncle Harry.  Even if we were close, he could have</span><span/><span style="font-style:italic">easily swerved or he could have even stopped</span>.&#8221; <span style="font-style:italic">He had to have seen us.  It wasn&#8217;t as if there was loads of people blocking us</span>.  <span style="font-style:italic">The road was very clear</span>.&#8217;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For some reason, perhaps only known to you, you drove far too close to Mr Bent and your motorbike struck him with force and knocked him to the ground.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In evidence, you tried to put the blame on Mr Bent and Ms Aldred by suggesting that they had caused or contributed to the collision by signalling to you that you should proceed.  The jury clearly rejected that suggestion &#8211; they were right to do so.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Mr Bent was taken by ambulance to hospital where he was to suffer a heart attack and die at 6.07 pm that evening.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Barnes was sentenced to 9 years&#8217; imprisonment and was disqualified from driving for 11 years.  The discretionary period of disqualification was 5 years.  The extension period was 6 years and was set by the Judge on the basis that Mr Barnes would not qualify for early release on licence until the two-thirds point in his sentence.  HHJ Mayo KC reached that conclusion having heard submissions on the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA.  His reasons for the decision are set out in the &#8220;Footnote&#8221; to the sentencing remarks.  (The Footnote is detailed, running to 13 paragraphs over 6 pages).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Barnes seeks leave to appeal against sentence on the grounds that the extended disqualification period was wrong; and that the period should have been 4&#189; years rather than 6 years because Mr Barnes would be eligible for release on licence after serving half his sentence of imprisonment. His application for leave to appeal was referred by the Registrar to the full court.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">The Attorney-General&#8217;s Reference (Youssef Berouain)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Attorney-General&#8217;s application for leave to refer concerns the sentence imposed on Youssef Berouain by HHJ Hehir on 26 July 2024 at Southworth Crown Court.  On 14 June 2024, Mr Berouain had pleaded guilty to offences of causing death by dangerous driving, contrary to section 1 of the RTA, and causing serious injury by dangerous driving, contrary to section 1A of the RT<span style="text-transform:uppercase">A. </span> As stated already, the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue is an issue in the Reference but not the main point.  We will set out the facts of the offending in greater detail below when we consider the main points raised in the Reference.  For present purposes it is sufficient to note the following.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The offences were committed just after 10:30pm on 10 December 2020 when the Audi Q7 Mr Berouain was driving collided with a Toyota Prius, on the Fulham Palace Road in London.  There is a 30-mph speed limit on that road.  Mr Berouain had been driving at between 63 and 66 mph.  The accident investigation concluded that, at the point of impact, Mr Berouain&#8217;s car was travelling at approximately 47 mph.  The Toyota Prius was being used as a private hire vehicle.  One of the passengers, Caroline Atkinson, was killed. The other passenger, Penelope Seguss, suffered very serious physical and psychological injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The matter came before HHJ Hehir on 12 June 2024, 14 June 2024, and 26 July 2024.  On 12 and 14 June 2024 the Judge gave a <span style="font-style:italic">Goodyear</span> ruling.  Following that ruling Mr Berouain pleaded guilty to Count 1 on the indictment (causing death by dangerous driving) and Count 4 (causing serious injury by dangerous driving).  On Count 1 the Judge imposed a sentence of 8&#189; years&#8217; imprisonment, after a discount of 15 per cent for the guilty plea.  The sentence imposed on Count 4 was 3 years&#8217; imprisonment, to be served concurrently.  The Judge disqualified Mr Berouain from driving for 7 years and 3 months.   This was on the basis of a discretionary disqualification period of 3 years and on the basis that Mr Berouain would be eligible for release on licence after serving half the sentence of imprisonment.  One of the matters raised by the Attorney-General in the Reference is whether the Judge was correct to proceed on that basis or whether he should have determined the length of the disqualification period on the basis that Mr Berouain would not be eligible for release on licence until he had served two-thirds of the sentence. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 244(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> imposes a duty on the Secretary of State to release fixed-term prisoners on licence when they have served &#8220;the requisite custodial period&#8221; which, by subsection (3), is in general one half of the sentence imposed by the court.  The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244(1)</ref> duty is subject to several exceptions: see <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244 (1)</ref> itself, and subsections (1ZA) and (1A).  One exception is for fixed-term prisoners to whom <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA applies.  Where <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA applies the relevant requisite period is two-thirds of the prisoner&#8217;s sentence: see <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(8).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In full, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA is as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">244ZA Release on licence of certain violent or sexual offenders</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">As soon as a fixed-term prisoner to whom this section applies has served the requisite custodial period for the purposes of this section, it is the duty of the Secretary of State to release the prisoner on licence under this section.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section applies to a prisoner who&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is serving a fixed-term sentence within subsection (4), (5) or (6),</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is not a prisoner to whom <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>A, 246A or 247A applies, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">has not been released on licence (provision for the release of persons recalled under section 254 being made by sections 255B and 255C).</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (1) does not apply if&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">the prisoner's case has been referred to the Board under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZB, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">a notice given to the prisoner under subsection (4) of that section is in force.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A fixed-term sentence is within this subsection if it&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is a sentence of&#8212;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">imprisonment, or</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">detention under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/6/section/96" uk:canonical="2000 c. 6 s. 96" uk:origin="TNA" uk:type="legislation">section 96</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/6" uk:canonical="2000 c. 6" uk:origin="TNA" uk:type="legislation">PCC(S)A 2000</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/2000/6/section/262" uk:canonical="2000 c. 6 s. 262" uk:origin="TNA" uk:type="legislation">section 262</ref> of the Sentencing Code,</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is for a term of 7 years or more,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed on or after 1 April 2020, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed in respect of an offence&#8212;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">that is specified in Part 1 or 2 of Schedule 15, and</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">for which a sentence of life imprisonment could have been imposed (in the case of an offender aged 21 or over) at the time when the actual sentence was imposed.</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A fixed-term sentence is within this subsection if it&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is a sentence of imprisonment or a sentence of detention under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/6/section/262" uk:canonical="2000 c. 6 s. 262" uk:origin="TNA" uk:type="legislation">section 262</ref> of the Sentencing Code,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is for a term of at least 4 years but less than 7 years,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed on or after the day on which <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/130" uk:canonical="2022 c. 32 s. 130" uk:origin="TNA" uk:type="legislation">section 130</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">Police, Crime, Sentencing and Courts Act 2022</ref> came into force, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed in respect of an offence within subsection (7).</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A fixed-term sentence is within this subsection if it&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is a sentence of detention under section 250 of the Sentencing Code,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is for a term of 7 years or more,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed on or after the day on which <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/130" uk:canonical="2022 c. 32 s. 130" uk:origin="TNA" uk:type="legislation">section 130</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">Police, Crime, Sentencing and Courts Act 2022</ref> came into force, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">was imposed in respect of an offence within subsection (7).</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An offence is within this subsection if&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">it is specified in any of the following paragraphs of Part 1 of Schedule 15&#8212;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">paragraph 1 (manslaughter);</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">paragraph 4 (soliciting murder);</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(iii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">paragraph 6 (wounding with intent to cause grievous bodily harm);</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(iv)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">paragraph 64 (ancillary offences), so far as it relates to an offence listed in paragraph 1, 4 or 6;</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(v)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">paragraph 65 (inchoate offences in relation to murder), or</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">it is an offence&#8212;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">that is specified in Part 2 of that Schedule (sexual offences), and</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.67in;text-indent:0.33in">for which a sentence of life imprisonment could have been imposed (in the case of an offender aged 21 or over) at the time when the actual sentence was imposed.</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(8)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of this section&#160;<span style="font-style:italic">&#8216;the requisite custodial period&#8217;&#160;</span>means&#8212;&#160;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">in relation to a prisoner serving one sentence, two-thirds of the prisoner's sentence, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">in relation to a prisoner serving two or more concurrent or consecutive sentences, the period determined under sections 263(2) and 264(2B) or (2E).&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As arguments about the retroactive effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA were relied on, it is convenient to set out Article 7(1) of the European Convention on Human Rights (&#8220;the Convention&#8221;) which guarantees that there is no punishment without law in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;No one shall be held guilty of any criminal offence on account of any act or omission which did not constitute a criminal offence under national or international law at the time when it was committed. <span style="font-weight:bold">Nor shall a heavier penalty be imposed than the one that was applicable at the time the criminal offence was committed</span>&#8221; (emphasis added).  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">The formulation of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In the present cases, each offender committed an offence of causing death by dangerous driving before 28 June 2022, when the maximum sentence for that offence was 14 years&#8217; imprisonment. Had sentences been passed before 28 June 2022 there could be no suggestion that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> could apply or that the date for release on licence would occur only when two-thirds of the sentence has been served.  Conversely, had the offending in each case occurred on or after 28 June 2022, by which time the maximum penalty for the offence of causing death by dangerous driving had increased to life imprisonment, there would be no question but that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> did apply and that &#8220;the requisite custodial period&#8221; would be two-thirds of the sentence imposed by the court.  However, in each of these cases the offences were committed before 28 June 2022 and sentencing took place after 28 June 2022.  The question therefore arises as to the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4)(d)(ii) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Specifically, the question arises whether &#8220;&#8230; an offence &#8230; for which a sentence of imprisonment could have been imposed &#8230; at the time the actual sentence was imposed&#8221; refers to the maximum sentence that the court could have imposed on the offender who was sentenced by the court or to the maximum sentence that could be imposed for the offence as it stood at the date of the sentencing hearing.  If it is the former, each of the offenders falls outside <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) because when each was sentenced the court did not have the power to sentence any of them to life imprisonment, and each is instead within <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> and will be eligible for release on licence after serving one half of the sentence.  If it is the latter, then each will fall within <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> and will be eligible for release on licence after serving two-thirds of his sentence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In each of the cases before us, the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue is arguable.  We grant the requisite leave or permission in each case and go on to consider the substantive merits.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">Previous case law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue has had some consideration in four previous decisions of the Court of Appeal Criminal Division.  The decision first in time was in <span style="font-style:italic">R v Jeffries</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/1503" uk:canonical="[2022] EWCA Crim 1503" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Crim 1503</ref>,  [2023] 1 Cr. App. R. (S.) 31.  Judgment was given on 8 November 2022.  In that case, Mr Jeffries had been convicted of causing death by dangerous driving on 24 March 2022 and on 25 March 2022, had been sentenced to 8&#189; years&#8217; imprisonment and disqualified from driving for 15 years.  The offending had taken place on 19 April 2018. Both the offending and sentencing occurred before 28 June 2022.  May J gave the judgment of the court.  At paragraph 21 she said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;21.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the time of this offending the maximum sentence for causing death by dangerous driving was 14 years. Accordingly, although the offence is listed in Schedule 15 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref> at paragraph 48, the release provisions under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of the Criminal Justice Act 2003 (increasing to two-thirds the time to be served in respect of sentences of 7 years or more for certain offences) did not apply to sentences of 7 years or more passed in respect of&#160;<span style="font-style:italic">this</span>&#160;offence. But the position is now changed for offences of causing death by dangerous driving committed on or after 28 June 2022, in respect of which the maximum sentence has now increased from 14 years to life. The change to a maximum sentence of life imprisonment means that the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA will now apply to sentences of 7 years or more passed for an offence of causing death by dangerous driving.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is consistent with a conclusion that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> does not apply if the offence was committed before 28 June 2022 regardless of the date the sentencing hearing takes place. However, the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue was not formally an issue in <span style="font-style:italic">Jeffries</span> and the judgment does not suggest the court heard argument on the matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The next judgment is <span style="font-style:italic">R v Lomas</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2023/1436" uk:canonical="[2023] EWCA Crim 1436" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Crim 1436</ref>, handed down on 15 November 2023.  On 4 May 2023 Mr Lomas had pleaded guilty to causing death by dangerous driving, and on 8 June 2023 had been sentenced to 9 years&#8217; imprisonment and disqualified from driving for 13 years and 2 months. The offending had occurred on 27 August 2021.  The issue in that appeal was whether the judge had correctly applied the Sentencing Guideline: see the judgment of Males LJ at paragraphs 13- 17.   However, at paragraph 11 of his judgment Males LJ said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the time of the collision the maximum sentence for causing death by dangerous driving was 14 years&#8217; imprisonment, although it has since been increased to life imprisonment. That increase was not retrospective and therefore the maximum sentence available to the judge on count 1 was one of 14 years. However, the change in the law which came into effect in June 2022 (thus between the date of the collision and the sentence in this case) had the effect that the time to be served for this offence was two-thirds of the sentence imposed whereas previously it had been one-half. That change in the law applies to sentences imposed after that date, with the effect, therefore, that the sentence imposed on the appellant in this case is one of which he will have to serve two-thirds rather than one-half.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, and although once again the issue does not appear to have been argued, the clear view of the court on that occasion was that, regardless of the date of offending, if the defendant was sentenced after 28 June 2022, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> applied and the requisite custodial period would be two-thirds of the sentence imposed by the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The court (this time comprising William Davis LJ, Farbey J and HHJ Moreland) gave judgment in <span style="font-style:italic">R v Freeth</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2023/1754" uk:canonical="[2023] EWCA Crim 1754" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Crim 1754</ref> on 20 December 2023.  Mr Freeth had pleaded guilty to causing death by dangerous driving on 22 June 2023, and on 27 July 2023 had been sentenced to 9 years 4 months&#8217; imprisonment and disqualified from driving for 14 years and 2 months.  Mr Freeth appealed against sentence, contending that the Sentencing Council Guideline had not been properly applied to the circumstances of his offending.  The court considered two matters identified by the Registrar.  One matter was that between the date of the offence and the date of sentence the Sentencing Council had issued a new guideline for the offence in light of the increase in the maximum sentence to life imprisonment, a maximum sentence that could not have been imposed on Mr Freeth as his offending pre-dated 28 June 2022.  The issue identified by the Registrar was &#8220;&#8230; whether the judge who sentenced Mr Freeth had done so under a misapprehension as to the maximum sentence.&#8221;   The court addressed that issue at paragraphs 20 &#8211; 25 of its judgment, holding that the new guideline did not differentiate between cases to which the new maximum sentence applied and those to which it did not.  Subject to not exceeding the relevant statutory maximum applicable in an individual case, the structure of the new guideline applied irrespective of the applicable maximum sentence and meant that the starting point for serious cases of causing death by dangerous driving would be greater than before.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Another matter identified by the Registrar in <span style="font-style:italic">Freeth</span> was the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue.  The material passages in the judgment are at paragraphs 6, 7 and 26:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The second matter was that the extension period for disqualification assumed that the applicant would have to serve two-thirds of his sentence before release. That assumption was incorrect because the maximum sentence at the relevant time was 14 years. Thus, the applicant in fact will be eligible for release at the halfway point of his sentence. A matter subsidiary to that in relation to disqualification is that at the time of the offence the minimum obligatory disqualification was two years, whereas now it is five years. There was some thought that it may be the judge&#8217;s period of disqualification of eight years might have been affected by a misapprehension as to what the minimum obligatory disqualification was.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>Both parties have provided skeleton arguments dealing with the matters raised by the Registrar. <span style="font-weight:bold">There is no issue as to the error made in respect of the period of disqualification calculated by reference to the release date. </span>Thus, we will give leave to appeal in order to allow that error to be corrected. &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>26.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">We allow the appeal in relation to the extension period. That will be reduced to four years eight months. To that very limited extent, the appeal is allowed&#8221; (emphasis added).  </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, the court accepted that even when sentencing took place after 28 June 2022, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> would not apply in cases where the offending had occurred before 28 June 2022 and life imprisonment was not the maximum penalty that could be imposed.  As recorded in the judgment, both parties agreed that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA did not apply so that the court did not need to provide a reasoned judgment on the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The final judgment is <span style="font-style:italic">R v Bates </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/684" uk:canonical="[2024] EWCA Crim 684" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Crim 684</ref>,<span style="font-style:italic"/>[2024] 2 Cr. App. R. (S.) 28, handed down on 8 May 2024.  The sequence of events in that case was materially the same as in <span style="font-style:italic">Freeth</span> and as in each of the cases before us: the offending had occurred on 21 October 2021, but Mr Bates had not been sentenced until 26 April 2023.  The grounds of appeal in that case did not raise the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue.  However, when dealing with what is described in the judgment as a &#8220;small correction&#8221; to the disqualification period, Popplewell LJ, who gave the judgment of the court said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;15.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The offence of causing death by dangerous driving is listed in Part 2 of Schedule 15, but at the time that the appellant committed the offence it was punishable with a maximum sentence of 14 years. The sentence for this offence was increased to life imprisonment with effect from 28 June 2022, but only for offences committed after that date (see <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/86/9" uk:canonical="2022 c. 32 s. 86" uk:origin="TNA" uk:type="legislation">section 86(9)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">Police Crime Sentencing and Courts Act 2022</ref>). The index offence was committed on 2 October 2021. The judge was, therefore, right to proceed, as he evidently did, on the basis that the extension required by section 35A was of a period equivalent to half the sentence of imprisonment. That would be 42.5 months.&#160;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>16.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">However, the judge appears to have rounded this up to 43 months. There is no power under section 35A to round up in this way. Accordingly, the length of the disqualification needs to be reduced by half a month, so that it becomes a total period of nine years six and a half months, rather than nine years seven months. The nine years six and a half months comprises a discretionary period of six years and an extended period of forty-two and a half months. To that extent, and only to that extent, the appeal is allowed.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, the court&#8217;s assumption in <span style="font-style:italic">Bates</span> that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) did not apply was the same as the court&#8217;s decision in <span style="font-style:italic">Freeth. </span>One point that can be made in respect to this small group of cases is that in each, the court gave judgment apparently without having been referred to any of the other judgments.  The hearing in the cases before us is the first opportunity for the court to consider the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue with the benefit of all these judgments.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">The parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">So far as concerns the cases presently before the court, all counsel in all cases have provided submissions on the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue.  As regards the offenders, Henry Blaxland KC and Jyoti Wood (supported by Nathaniel Wade on behalf of Mr Berouain) submitted that, applying the plain and ordinary meaning of the language, the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA made clear that it applies only where a life sentence could actually as a matter of law have been imposed at the time that the offender was sentenced.  They submitted that the wording of subsection (4)(d)(ii) should be construed as being intended to prevent the anomaly of a prisoner to whom the maximum sentence of life imprisonment did not apply being, nonetheless, subject to release provisions which could only apply where a life sentence was available.   They submitted that the words &#8220;for which a sentence of life imprisonment could have been imposed&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4)(d)(ii) cannot &#8211; on any straightforward as opposed to strained meaning &#8211; extend to cases in which a person was sentenced before the maximum sentence for causing death by dangerous driving was increased.   That is because a life sentence plainly could not have been imposed on that person.  They submitted that the words &#8220;actual sentence&#8221; in the same subsection operate to make clear that it is the sentence for the particular offender which is being considered. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Blaxland and Ms Wood submitted that the purpose of the 2020 Order, and  subsequently <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA, was to increase the custodial period of a sentence for those sentenced for offences of a certain level of seriousness.  The extension of the custodial period from one-half to two-thirds for offenders convicted and sentenced before the increase to the maximum sentence had a penal effect because it kept people in prison for longer.  As a penal measure, an interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA as stipulating release at the two-thirds point of the sentence would not be compatible with Article 7(1) of the Convention in so far as the release provisions would be read and given effect in a way that would have a retroactive effect.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Blaxland and Ms Wood emphasised that the maximum sentence for an offence of causing death by dangerous driving was increased to life imprisonment only for offences committed after the implementation date in order to avoid the provision operating retroactively. The fact that the commencement dates for both the increase in the maximum sentence and the increase in the custodial term to be served for cases falling within <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA were the same leads to a presumption that the provisions had been synchronised so that a person who is sentenced for an offence which is not caught by the increase in the maximum sentence should also not be subject to the increased custodial term provisions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"> It was submitted, in the alternative, that if the court were to conclude that the wording of the subsection is ambiguous then the principle that, if a penal provision is reasonably capable of two interpretations, that interpretation which is most favourable to the offender must be adopted (as per Lord Reid in <span style="font-style:italic">Sweet v Parsley</span> <ref href="#" uk:canonical="[1970] AC 132" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1970">[1970] A.C. 132</ref> at p.149).  The appellant&#8217;s construction should therefore be preferred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Iain Steele (supported by John Price KC for the Prosecution in <span style="font-style:italic">Barnes</span> and Catherine Pattison for the Attorney-General in <span style="font-style:italic">Berouain</span>) submitted that within subsection (4) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA there is a distinction to be drawn between on the one hand paragraphs (a) &#8211; (c), which are concerned with the circumstances of the particular fixed-term prisoner, that he is serving a sentence of imprisonment, that the sentence is for a period of 7 years or more and was imposed on or after 20 April 2020 (that having been the commencement date for the 2020 Order) and, on the other hand paragraph (d) which, it was submitted, is concerned only with identifying the category of offences to which <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) applies, i.e. offences sufficiently serious as to justify the requirement that the &#8220;requisite custodial period&#8221; is two-thirds of the sentence imposed by the court.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Steele submitted that paragraph (d) identifies the point in time to assess whether an offence falls into that category as the time when sentencing takes place. He submitted that when sub-paragraph (d)(ii) refers to a life sentence that &#8220;&#8230; could have been imposed &#8230; at the time when the actual sentence was imposed&#8221;, it is referring to the maximum penalty for the offence if it were committed at the date of the sentencing hearing. Thus, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) applies to offences specified in either Part 1 or Part 2 of Schedule 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> that, if committed on the date of the sentencing hearing, would carry a life sentence.  It follows that in the circumstances of each of the present cases the paragraph (d) requirements are met.  It was submitted that for the purposes of paragraph (d) it does not matter that, when each of the offenders was sentenced, none could have been sentenced to life imprisonment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Steele relied on the words in brackets in sub-paragraph (d)(ii).  It was submitted that those words make clear that sub-paragraph (d)(ii) is concerned with a set of hypothetical matters and not the circumstances of any specific fixed-term prisoner.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Steele also relied on Parliamentary materials. We have been referred to the Explanatory Notes for the 2020 Order and <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref>, the wording of clause 107 of the Police, Crime, Sentencing and Courts Bill (the provision later enacted as <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32/section/130" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 130</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref>) and an extract from Hansard for 10 November 2021 during the Committee stage of the Police, Crime, Sentencing and Courts Bill in the House of Lords.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">Article 7 ECHR</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As its heading makes plain, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA provides for the early release on licence of certain violent and sexual offenders.  The question arises whether Article 7(1) of the Convention is engaged.  More specifically, the question is whether the change to early release provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA would, if applied to those who offended before 28 June 2022, amount to the imposition of a &#8220;heavier penalty&#8230; than the one that was applicable at the time the criminal offence was committed.&#8221;  If so, the court would be bound by <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="1998 c. 42 s. 3" uk:origin="TNA" uk:type="legislation">section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> to accept the submissions of the offenders in order that the legislation be read and given effect in a way that is compatible with Article 7.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">This is not upon analysis new legal ground.  In <span style="font-style:italic">R (Uttley) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2004/38" uk:canonical="[2004] UKHL 38" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] UKHL 38</ref>, <ref href="#" uk:canonical="[2004] 1 WLR 2278" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 2278</ref>, the House of Lords considered the changes to the release regime brought about by the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/53" uk:canonical="1991 c. 53" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 1991</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1991/53" uk:canonical="1991 c. 53" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref>&#8221;) for prisoners who had committed an offence before, but who were sentenced after, that regime came into force.  Had Mr Uttley been sentenced under provisions in force before <ref href="http://www.legislation.gov.uk/id/ukpga/1991/53" uk:canonical="1991 c. 53" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref>, he would (subject to good behaviour) have been released on remission after serving two-thirds of his sentence, which would then have expired.  The regime of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/53" uk:canonical="1991 c. 53" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref> made him eligible for release at the two-third point of his sentence but subject to conditions of licence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The House of Lords considered the argument on behalf of Mr Uttley that a sentence of 12 years&#8217; imprisonment with a period of licence was a heavier penalty than was applicable at the date of the offence and so was incompatible with Article 7.   The argument failed.  The case is authority for the proposition that the severity of the &#8220;penalty&#8221; within the meaning of Article 7(1) must be assessed by reference to the sentence imposed by the sentencing judge and not by reference to early release provisions.  The penalty that &#8220;was applicable at the time the criminal offence was committed&#8221; is the maximum sentence for the offence at the date it was committed.  Provided that a judge has not imposed a sentence of imprisonment in excess of that maximum, Article 7 is not engaged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As we have indicated, the focus is on the sentence imposed by the judge.  As elucidated by Lord Rodger: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;38.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of Art.7(1), the proper comparison is between the penalties which the court imposed for the offences&#8230; and the penalties which the legislature prescribed for those offences when they were committed...  As I have explained, the cumulative penalty of 12 years&#8217; imprisonment that the court imposed for all the offences&#8230; was not heavier than the maximum sentence which the law would have permitted it to pass for the same offences at the time they were committed...  There is accordingly no breach of Art. 7(1) &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>43.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Here there was no change in the relevant penalties which the law permitted a court to impose.  What changed between [the commission of the offences and the sentence] were the arrangements that were to apply on the prisoner&#8217;s early release from any sentence of imprisonment imposed by the court&#8230; There is no violation of Art.7(1).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The release of a prisoner on licence &#8211; albeit subject to conditions &#8211; was held to mitigate rather than increase the severity of the sentence of imprisonment (paragraph 28 per Lord Phillips).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Uttley fared no better before the European Court of Human Rights (&#8220;ECtHR&#8221;).  In <span style="font-style:italic">Uttley v United Kingdom</span> (App. no. 36946/03) (unreported) 29 November 2005, ECtHR, the court held at p.8 of its decision:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Although, as the Court of Appeal found in the present case, the licence conditions imposed on the applicant on his release after eight years can be considered as &#8216;onerous&#8217; in the sense that they inevitably limited his freedom of action, they did not form part of the &#8216;penalty&#8217; within the meaning of Article 7, but were part of the regime by which prisoners could be released before serving the full term of the sentence imposed.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Accordingly, the application to the applicant of the post-1991 Act regime for early release was not part of the &#8216;penalty&#8217; imposed on him, with the result that no comparison is necessary between the early release regime before 1983 and that after 1991. As the sole penalties applied were those imposed by the sentencing judge, no &#8216;heavier&#8217; penalty was applied than the one applicable when the offences were committed.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in">For these reasons, Mr Uttley&#8217;s application was manifestly ill-founded and inadmissible.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">There is nothing in the reasoning of the House of Lords or the ECtHR to suggest that the focus on the sentence imposed by the judge does not extend to cases where an offender will, by dint of new release arrangements, spend a greater amount of time in custody (as opposed to facing, as in <span style="font-style:italic">Uttley</span>, more onerous licence conditions).   On the contrary, the cases cited to us show a constant and consistent approach towards release arrangements.  We need cite only three examples. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In <span style="font-style:italic">Del R&#237;o Prada v Spain</span> (2014) 58 E.H.R.R. 37, the ECtHR reiterated the distinction between a penalty on the one hand and the execution or enforcement of a penalty on the other.  While recognising that the distinction may not always be clear cut (paragraph 85), it held that early release provisions fell into the latter description:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;83.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Both the Commission and the Court in their case-law have drawn a distinction between a measure that constitutes in substance a &#8216;penalty&#8217; and a measure that concerns the &#8216;execution&#8217; or &#8216;enforcement&#8217; of the &#8216;penalty&#8217;. In consequence, where the nature and purpose of a measure relate to the remission of a sentence or a change in a regime for early release, this does not form part of the &#8216;penalty&#8217; within the meaning of&#160;art.7.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In <span style="font-style:italic">R (Khan) v Secretary of State for Justice</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2020/2084" uk:canonical="[2020] EWHC 2084 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 2084 (Admin)</ref>, <ref href="#" uk:canonical="[2020] 1 WLR 3932" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 3932</ref>, the Divisional Court (Fulford LJ and Garnham J) considered the insertion into <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/247" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 247</ref>A which restricted early release for fixed-term prisoners serving sentences for certain terrorist offences.  In summary, the new arrangements meant that certain offenders would be released not at the half-way point of the sentence but after referral to the Parole Board at the two-thirds point.  The court reviewed the relevant Article 7 case law and held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;105.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the present case the changes wrought by [the relevant statutory provisions] were changes in the arrangements for early release; they were not changes to the sentence imposed by the sentencing judge.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On that basis, the arrangements did not amount to the imposition of a heavier penalty and did not breach Article 7(1).  We agree with the approach in <span style="font-style:italic">Khan</span> which concerned the law in England and Wales.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Similar (but not identical) changes in the law of Northern Ireland, governing the release of prisoners who had committed terrorism offences, were considered by the Supreme Court in <span style="font-style:italic">Morgan v Ministry of Justice</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2023/14" uk:canonical="[2023] UKSC 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKSC 14</ref>, <ref href="#" uk:canonical="[2024] AC 130" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] AC 130</ref>.  Lord Stephens JSC (with whom the other members of the court agreed) confirmed that the concept of a &#8220;penalty&#8221; is an autonomous Convention concept which requires the court to assess the substance rather than the appearance of the measure (paragraphs 78-79).  He held, nevertheless, that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;114.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; The purpose [of the new measures] was to protect the public from terrorist prisoners by confining them for a longer period under their determinate custodial sentences and then only releasing them on licence after the Parole Commissioners directed their release being satisfied that it was no longer necessary for the protection of the public that they should be confined. The nature of the measures was to&#160;change the manner of execution of the determinate custodial sentences by restricting the eligibility for release on licence of terrorist prisoners. The nature and purpose of the changes&#8230; was not to lengthen the determinate custodial sentences imposed on the respondents. The length of those sentences was not increased in any sense &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>116.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I consider that there has been no retroactive increase in the penalties imposed by the [judge].  Section 30 of the 2021 Act and article 20A of the 2008 Order [i.e. the new measures] concern exclusively the way in which the lawfully prescribed determinate custodial sentence imposed on the respondents are to be executed.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We have received no submissions to persuade us that the release arrangements in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA can be distinguished from those that formed the subject of this line of cases.  We do not accept that the release arrangements introduced by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA amounted to an increase in the penalty imposed on the offenders rather than relating to the execution or enforcement of their sentences.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">For these reasons, the cases before us do not engage Article 7(1).  We reject the submissions on behalf of the offenders in this regard.   No question of the compatibility of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA with Convention rights arises.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Policy considerations</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We turn to consider whether, leaving aside Article 7(1), there are policy considerations for interpreting <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA as not applying to offenders who could not as a matter of chronology have been sentenced to life imprisonment.  As we have indicated, Mr Blaxland and Ms Wood submitted that there would be an anomaly if the changes brought about by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA were interpreted as being applicable to this group of offenders.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As we understand the submission, the anomaly would arise in two ways.  First, it would mark a difference of approach to the 2020 Order which expressly did not change release arrangements in relation to any sentence imposed before the Order came into force, thereby signalling a clear intention to avoid any kind of retroactive effect.  Secondly, it was submitted that Parliament&#8217;s intention when enacting the same commencement date for the new life sentence provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2022/32" uk:canonical="2022 c. 32" uk:origin="TNA" uk:type="legislation">the 2022 Act</ref> and the new release arrangements in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> would be undermined: the synchronicity marked an intention that both the new life sentence and the new release arrangements would not apply to one group of offenders, namely those who had committed an offence before 28 June 2022.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We do not accept that the nature and extent of non-retroactivity in the 2020 Order should be assumed to apply in an identical way to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA.  Such an assumption would risk overriding the language of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA and undermining the Parliamentary intention.  Nor do we agree that the bringing into force of these different provisions on the same day should lead to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA being interpreted in the way that Mr Blaxland and Ms Wood contended.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">It is the function of Parliament, not the courts, to formulate policy about the release of those who have committed serious criminal offences.  It is not obvious why an offence committed before <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA came into force should as a matter of policy be treated as less serious because of its timing.  It is a rational and readily comprehensible legislative policy that the seriousness of the offence of causing death by dangerous driving should be marked both by a new maximum sentence (albeit for offences committed after the specified commencement date) and by new release provisions for all offenders (irrespective of when they committed an offence).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"> Even if any of the offenders before us were, prior to offending, aware of the more generous release provisions as then in force, they can hardly claim that it is unfair or unjust for Parliament, as a matter of public policy, to ascribe the same seriousness to their offences as to the offending of others occurring at a later date.  There is no anomaly on either of the bases advanced by the offenders.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The language of the statute</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In ascertaining Parliament&#8217;s intention in enacting <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA, the court will on conventional principle consider the ordinary meaning of the language in its statutory setting and context.  The key subsection is subsection (4).  Within that subsection, paragraphs (a) and (b) can be read together as meaning that the subsection applies to fixed-term prisoners serving custodial sentences of 7 years or more.  In these paragraphs, Parliament acknowledges that not all violent and sexual offenders should spend two-thirds of their sentence in custody.  A sentence of less than 7 years indicates less serious offending.  An offender may be released at the half-way point on licence conditions that provide sufficient protection for the community.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Subsection (4)(c) deals expressly with retroactivity by enshrining the equivalent provision of the 2020 Order: offenders sentenced before 1 April 2020 are not subject to the new release regime of subsection (4).  We note too that there is express provision for non-retroactivity in subsection (2)(c) to the extent that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA does not apply to those who have been released on licence.  These express provisions indicate that Parliament has, as a matter of legislative choice, determined the extent to which <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA should have retroactive effect.  As Parliament has confronted retroactivity,  there is no need for the court to fill a lacuna by interpreting <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA as containing further or other provision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The provisions of subsection (4)(a) &#8211; (c) concern individual cases, whether by reference to the length of sentence or to the date of the offence.  We agree with Mr Steele that subsection (4)(d) then turns from individual cases to the type of offence that has been committed.  The turn from offender to offence is plain from the opening words of subsection (4)(d) &#8211; &#8220;in respect of an offence&#8221; &#8211; which govern the remainder of the subsection, i.e. its two sub-paragraphs.   We shall deal with these sub-paragraphs in turn.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">It is not in dispute that the terms of sub-paragraph (d)(i) are offence-based: they relate to offences specified in Parts 1 or 2 of Schedule 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.  An offender who has committed a specified offence automatically falls within this sub-paragraph: it is the offence and not the characteristics of the offender that counts.  In order to define and delineate the nature of the violent and sexual offences whose perpetrators should not be released at the half-way point, Parliament refers in general terms to offences in Schedule 15.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In our judgment, the proper interpretation of the words &#8220;could have been imposed&#8230;at the time when the actual sentence was imposed&#8221; in sub-paragraph (d)(ii) must be read in this context.  As we have said, both the opening words of subsection (4)(d) and the words of sub-paragraph (d)(i) deal with the offence for which a fixed-term sentence was imposed and not with the offender on whom it was imposed.  We reject the proposition that Parliament intended a different approach from one sub-paragraph to the next.  In our judgment, Parliament acknowledges in sub-paragraph (d)(ii) that not all offences in Schedule 15 are of equal gravity and that not all of them require a perpetrator to serve two-thirds of the sentence in custody.  The barometer of seriousness is that an offence be punishable with life imprisonment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Parliament is therefore saying in sub-paragraph (d)(ii) that perpetrators of serious offences will spend longer in custody.  The words &#8220;could have been imposed&#8230;at the time when the actual sentence was imposed&#8221; are not in context safeguards against retroactivity.  They do not revert to the theme of retroactivity which is the subject of other provisions earlier in the section.  They are not referring to anything about the maximum sentence that a particular offender could, as a matter of law, face.  They are part of a subsection within <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA that describes the type of offending behaviour that should in the interests of public safety require an offender to spend longer in custody before release on conditions of licence.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The interpretation advanced by the offenders in the cases before us would interrupt the scheme of the subsection by reverting to subjects already covered in earlier paragraphs, namely individual cases and their timing.   We see no reason to suppose that Parliament intended such an interruption.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We agree that the offenders&#8217; interpretation fails to take account of the effect of the bracketed words within <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4)(d)(ii) which refer to the case of an offender aged 21 or over.  As Mr Steele sets out in his written submissions, an offender who commits the same offence after 28 June 2022 but while aged between 18 and 21 could not receive a sentence of life imprisonment: he would be subject to detention in a Young Offender Institution rather than to imprisonment. However, as the words in parenthesis make clear, it is the fact that the offence generally attracts a maximum sentence of life imprisonment as at the date of sentence that matters, irrespective of whether the particular offender could personally have received a sentence of life imprisonment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We agree, therefore, with the analysis of HHJ Mayo, who said in his sentencing remarks as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;46.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The language&#8230;speaks of a life sentence which the court is able to impose in the case of a hypothetical 21 year old defendant at the date of sentence. Had Parliament intended to anchor these conditions to the sentence that was available in the particular offender&#8217;s case, the provision would have been drafted differently&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>47.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The provisions in sub-paragraph (4) provide two proxies of seriousness for the offence: the length of the determinate sentence (seven years +) and the availability of a life sentence for an offender aged 21 years or older. The first proxy of seriousness relates to the seriousness of the particular offending (such as to require a sentence of seven years or more) but the second proxy relates to the seriousness of the offence itself. The interpretation of those provisions in that way would appear to be consistent with the policy which underpins this legislation.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">It follows that the question of the release dates in each of the cases before us falls to be determined by reference to (i) whether the offence was specified in Parts 1 or 2 of Schedule 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> and (ii) whether as at the date of sentence it carried a life sentence.  By reference to those yardsticks, the two-thirds custodial term applied.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Our interpretation means that like crimes are treated in a like way.  There is no unfairness.  Any resort to the proposition that it is wrong to treat offenders differently because they offended before the maximum sentence was increased is in our judgment an attempt to rely on a bar to retrospectivity that has no foundation in law or policy.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Parliamentary materials</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We have reached this conclusion on the basis of the statutory language without resort to external aids to construction.  We have considered the Parliamentary materials concerning an amendment to what was then clause 107 of the Police, Crime, Sentencing and Courts Bill (including the extract from Hansard) which was the clause by which <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA was to be inserted into <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>.  As originally drafted, clause 107 would have inserted <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(d)(ii) in the following terms: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">was imposed in respect of an offence&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that is specified in Part 1 or 2 of Schedule 15, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">for which a sentence of life imprisonment <span style="font-weight:bold">may be </span>imposed&#8221; (emphasis added).  </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">An amendment was proposed because it was thought the language originally used in clause 107 &#8211; &#8220;for which a sentence of life imprisonment may be imposed&#8221; &#8211; presented a risk that the release provisions that applied to a prisoner might change while he was serving his sentence. This difficulty with the wording of clause 107 was raised by the then Parliamentary Under-Secretary of State for Justice, Lord Wolfson, in moving a drafting amendment that would prevent the new regime from applying to serving prisoners. The amendment clearly did address that concern and <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4)(d)(ii) was thereby enacted in its current form.  In this respect, the drafting history is consistent with our conclusion but is not essential to it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">There is nothing further in the Parliamentary materials that definitively addresses the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA issue.  There is no need to resort to the materials and so we shall not say more about them.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><marker name="tab"/>Drawing these threads together, we accept Mr Steele&#8217;s submission that when applying paragraph (d) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA(4) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> the question to be considered is whether a sentence of life imprisonment could have been imposed for an offence of causing death by dangerous driving at the date of the sentencing hearing rather than at the date of the offence.  We agree, therefore, with the judgment of the court in <span style="font-style:italic">Lomas</span>.  We conclude that, on this issue, the judgments in <span style="font-style:italic">Jeffries</span>, <span style="font-style:italic">Freeth</span> and <span style="font-style:italic">Bates</span> were wrong.   Our conclusion is consistent with the overall approach required when applying <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/244" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 244</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, the function performed by paragraph (4)(d) and the language of the paragraph read as a whole. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision on the Attorney-General&#8217;s Reference</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As regards the Attorney-General&#8217;s main point in the relation to Mr Berouain, we turn in more detail to the facts of the offending.  On Thursday 10 December 2020, shortly before 10.30pm, Mr Berouain, then aged 27, was driving his Audi Q7 car along the northbound carriageway of Fulham Palace Road, London. At around the same time, Shafiquallah Saied was driving a Toyota Prius along Niton Street towards Fulham Palace Road. Mr Saied was an Uber driver. He had just collected two passengers, Caroline Atkinson and Penelope Seguss.  Both were in the car&#8217;s rear passenger seats. Mr Saied was driving them to Wandsworth. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Fulham Palace Road has three lanes. There are two northbound lanes, one designated for buses, motorcycles, pedal cycles and taxis, the other is for all traffic. There is one southbound lane. The speed limit is 30 mph. On the night of the collision, it was dark, but visibility was fair; there had been intermittent showers, and the road surface was wet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">CCTV footage showed Mr Saied approaching the junction of Niton Street with Fulham Palace Road at 10.25pm. The journey to Wandsworth required Mr Saied to turn right across the Fulham Palace Road, crossing the northbound lanes. Mr Saied waited at the junction for just over 1 minute to allow traffic to pass in both directions. At 10.36pm a vehicle travelling on the southbound carriageway flashed its headlights several times. Mr Saied then edged his way out of the junction into the northbound lane. He then stopped his vehicle, blocking the northbound lane.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As Mr Saied edged out of Niton Road, Mr Berouain&#8217;s car was approximately 117 metres away in the northbound lane. Later, the police forensic collision investigator concluded that if Mr Berouain had been travelling at 30 mph, Mr Saied would have had 8.7 seconds to complete his right turn out of Niton Street. In fact, Mr Berouain was travelling at between 63 and 66 mph, over twice the speed limit. He braked approximately 66 metres before impact, swerved left to avoid the Prius, but hit the car. Mr Berouain&#8217;s speed at the point of impact was approximated to be 47mph.  Travelling at 63 mph the stopping distance was 68 metres. Had he been travelling at 30mph the stopping distance would have been 15.48 metres. Had Mr Berouain been driving at 30mph he would have had enough distance to stop and avoid the collision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">After the collision, Mr Berouain remained at the scene. Police officers and paramedics attended a short time later. Mr Berouain completed a roadside &#8220;Q&amp;A&#8221;. He confirmed that he was the driver of the Audi Q7; stated that the Prius pulled out in front of him, and he had attempted to swerve; and he estimated his speed at 20 - 25 mph. Mr Berouain refused to provide a roadside breath test. He was subsequently arrested for failing to provide a breath test and causing death by dangerous driving. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Berouain was then taken to hospital as he said he was feeling unwell. At this time he agreed to provide a sample of breath to the police, but the breathalyser was broken. The police asked him to provide a sample of blood or urine. Mr Berouain refused, stating he had already provided a sample of blood at the hospital and did not want to provide any more.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">One of the passengers in the Prius, Caroline Atkinson, suffered chest and abdominal injuries which included a ruptured aorta and a lacerated liver. She lost consciousness shortly after the collision and died in hospital approximately two hours later. She was 54 years of age. The other passenger, Penelope Seguss suffered fractures to her vertebrae and ribs, a shattered pelvis and hip, a severely broken femur, damage to her liver, bladder and bowel, and a blood clot in her lungs. She was in hospital for three weeks and in a rehabilitation clinic for six weeks. She underwent surgery on several occasions. She was in a wheelchair and then crutches for over a year after the collision. She was off work for just under a year. She requires regular physiotherapy and has extensive scarring from her injuries. She continues to have psychological therapy and suffers from Post-Traumatic Stress Disorder. She has also experienced what is commonly referred to as survivor&#8217;s guilt; guilt that she survived but her close friend did not. Mr Saied was not injured in the collision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">When interviewed on 11 December 2020 by police following his arrest, Mr Berouain denied he had been speeding, said the Prius had pulled out in front of him suddenly, and said that he tried to swerve before impact. He said that he did not take drugs and the last time he drank alcohol was a week or two before the collision. He was released on police bail pending the outcome of a forensic collision report. By letter dated 30 December 2020, Mr Berouain was informed that he was &#8220;released under investigation&#8221;. He was instructed to inform the police of any change of address.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Berouain remained under investigation for offences arising out of the collision. On 3 June 2021 a postal requisition was sent to Mr Berouain charging him with failing to provide a specimen of breath. Mr Berouain was due to attend Westminster Magistrates&#8217; Court on 29 July 2021 but did not attend. It then became apparent that Mr Berouain had left the United Kingdom in late 2021 and travelled to the United States of America. Mr Berouain has family in the United States. A request for extradition was made. Mr Berouain was arrested in California on 20 July 2023 and was extradited to the United Kingdom on 9 November 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 9 November 2023 Mr Berouain was charged with four offences: causing death by dangerous driving; causing death by careless driving and failing to provide a specimen; causing death by careless driving; and causing serious injury by dangerous driving. He was produced at Westminster Magistrates&#8217; Court on 10 November 2023. There was no indication of plea to the four offences charged. The case was sent to the Central Criminal Court and Mr Berouain was remanded in custody.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 9 January 2024, at the Plea and Trial Preparation Hearing, Mr Berouain pleaded guilty to Count 3 (causing death by careless driving) and not guilty to Count 1 (causing death by dangerous driving), Count 2 (causing death by careless driving and failing to provide a specimen) and Count 4 (causing serious injury by dangerous driving). A trial date was fixed for 17 June 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In a defence statement uploaded on the digital case system on 7 May 2024, Mr Berouain admitted driving above the speed limit for a &#8220;very short period&#8221; but &#8220;not as fast as has been suggested&#8221;. He also stated that &#8220;without warning [the Prius] pulled out almost immediately in front of him, when it was not safe to do so, and when his vehicle ought to have been seen by the driver. This left him little to almost no time to react &#8230; whilst the actions of the other driver [Mr Saied] were the principal cause of the accident, he [Mr Berouain] accepts that he would have had more time to react had he been driving at a slower speed&#8221;. The defence statement stated that &#8220;he did brake and turn left, to try and avoid the collision &#8230;&#8221;. Mr Berouain denied refusing to provide a specimen of breath, although admitted he was &#8220;initially reluctant&#8221;. He denied consuming any alcohol or drugs prior to making the journey.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Proceedings in the Crown Court</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 5 June 2024, the case was listed for mention before HHJ Hehir. Mr Berouain&#8217;s counsel invited the Judge to give a <span style="font-style:italic">Goodyear</span> indication. The case was adjourned until 12 June 2024. On 12 June 2024, the Judge gave a <span style="font-style:italic">Goodyear</span> indication in respect of Counts 1 and 4. The Judge indicated a maximum total sentence of 8 years 6 months. This was subsequently revised to 8 years 10 months to reflect the fact that Mr Berouain would be sentenced on the basis that he failed to provide an evidential sample of blood or urine (reflected by Count 2 on the indictment). Mr Berouain asked for time to consider his position. During the hearing on 12 June 2024, the Judge stated the following: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in">&#8220;&#8230; And I am sure you will have explained the position to [Mr Berouain], but I spell this out. If he does &#8211; this <span style="font-style:italic">Goodyear</span> indication is given against the obvious factual backdrop that the offence of causing death by dangerous driving, is an offence towards the unduly lenient sentence scheme applies. And therefore, the fact that if I give a <span style="font-style:italic">Goodyear</span> indication and I sentence him on foot of that indication, that is no guarantee that the prosecution would not, if they thought the sentence unduly lenient, seek to appeal it&#8221;. </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 14 June 2024 Mr Berouain was re-arraigned on Counts 1 and 4 and pleaded guilty. Count 2 was directed to lie on file. The guilty plea to Count 3 was vacated and directed to lie on file. Sentence was adjourned. The trial date of 17 June 2024 was vacated.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Sentencing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">So far as concerns his personal circumstances, Mr Berouain has held a full driving licence since November 2011. Prior to his plea and sentence in 2024, he had five convictions for five offences the earliest in July 2010 the most recent in January 2019.  Those convictions were for non-related offences; four had resulted in the imposition of a financial penalty; the other having been dealt with by a referral order imposed in July 2010. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Berouain was sentenced on 26 July 2024. The judge imposed concurrent sentences for Counts 1 and 4 (the offences of causing death by dangerous driving and causing serious injury by dangerous driving) and then applied an uplift to the sentence on Count 1 to reflect the seriousness of the injury suffered by Ms Seguss and the totality principle.  The judge stated but did not further explain the 3-year sentence on Count 4.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge explained the sentence passed on Count 1 as follows. Applying the relevant sentencing guideline, he placed Mr Berouain&#8217;s culpability in Category A.  The Judge considered two of the Category A criteria were met: that there had been &#8220;a deliberate decision to ignore the rules of the road and disregard for risk of danger to others&#8221;; and that Mr Berouain had driven at &#8220;speed significantly in excess of the speed limit&#8221;.  The starting point for a Category A is 12 years&#8217; imprisonment.  The category range is 8 to 18 years&#8217; imprisonment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge then identified aggravating and mitigating factors. Mr Berouain&#8217;s failure to provide a sample at the scene of the collision was an aggravating matter.  The Judge said as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The one specific separate aggravating factor in your case, is your culpable failure to provide any evidential sample to the police.  I have viewed the CCTV footage of your behaviour in the custody suite at the police station after your release from hospital, where you had been taken as a precaution.  I have also viewed the police body worn footage of your behaviour at the roadside immediately after the crash. Even making allowance for any shock you may have been experiencing as a result of the collision, none of it does you any credit. I stress however, that I cannot and do not sentence you on the basis that you were actually impaired through alcohol or drugs at the time of the collision.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"> The judge then referred to a number of matters raised by counsel as mitigating considerations: Mr Berouain&#8217;s age at the time of the offence; the absence of any relevant previous convictions; the likely impact of his imprisonment on his wife and daughter; testimonials provided on his behalf; the actions of the driver of the Prius; whether the passengers in the Prius had been wearing seatbelts; and a letter Mr Berouain had written to the Judge expressing remorse for what he had done.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge expressly rejected some of these matters. He considered the letter of remorse that had been provided very late in the day as &#8220;just words designed to improve [Mr Berouain&#8217;s position]&#8221;.  The judge gave no allowance for the actions of the driver of the Prius saying:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The reason Mr Saied&#8217;s manoeuvre was followed by disaster was, to put it bluntly, because you had decided to drive like an idiot. Driving at over twice the speed limit in a busy road in London with plenty of side turnings, made you to use a cliched, but in this case, highly appropriate expression, an accident waiting to happen, and it did happen.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge also gave no allowance for the possibility (it being no more than that) that the passengers in the Prius may not have been wearing seatbelts.  The judge observed that the point made on behalf of Mr Berouain would not make the &#8220;&#8230;  decision to drive at over 60 mph in a 30mph zone less culpable in the slightest&#8221;.  So far as concerns the remaining matters the judge said only &#8220;I give all the mitigation open to you such weight as I can&#8221;.  The only matter going to reduce the sentence that the judge particularised was a reduction of 15per cent for the guilty plea Mr Berouain had entered on 14 June 2024.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge&#8217;s reasoning then continues as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In arriving at the appropriate sentence in your case I have, as I say, been greatly assisted by the case of <span style="font-style:italic">Saeed Ahmed</span>. The judgment of the Court of Appeal Criminal Division was given by Lord Justice William Davis. He pointed out that in cases like yours, where only one or two Category A features are present, sentence after trial may well be located at or near the bottom of the wide category range, spanning as it does, sentences between 8- and 18-years&#8217; custody, with a starting point of 12 years.  I do place your offending towards the bottom of the range.  But the sentence that would have followed after trial cannot be at the very bottom in particular because of the uplift to reflect count 4.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Balancing the aggravating and mitigating features in your case, my conclusion is that the least total sentence I could have imposed had you contested these matters and been convicted by a jury, would have been 10 year&#8217;s imprisonment.  Allowing credit for 15per cent for your guilty pleas that reduces to 8&#189; years, which is the sentence I impose on count 1. There will be a concurrent sentence of 3 years&#8217; imprisonment on count 4, making a total of 8&#189; year&#8217;s imprisonment.  You will serve up to half that time in custody and will be on licence and liable to recall for the balance of the sentence.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The total term of disqualification from driving for the reasons I have already explained will be 7 years and 3 months.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Ms Pattison submitted that the overall sentence was unduly lenient.  For Mr Berouain it was submitted by Mr Wade that the judge correctly relied on the judgment of the Court of Appeal in <span style="font-style:italic">Ahmed</span> and applied the Guideline recognising both that the maximum sentence available for causing death by dangerous driving was in this instance 14 years&#8217; imprisonment and (as put in the submission) that while Mr Berouain&#8217;s offending was serious it was not among the most serious examples of the offence &#8220;by some margin&#8221;.  Mr Wade further contended that, so far as concerns the uplift of the sentence to take account of the concurrent sentence for the causing serious injury by dangerous driving offence, the Judge properly applied the principle of totality.  It was also submitted that the 15 per cent reduction for the plea was correct and in any event is not criticised in the Attorney-General&#8217;s grounds in support of the Reference.  Overall, the sentence was not unduly lenient.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">We do not agree.  We consider the judge erred in his understanding and application of the judgment in <span style="font-style:italic">R v Ahmed</span> &#160;<ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2023/1537" uk:canonical="[2023] EWCA Crim 1537" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Crim 1537</ref>, [2024] 1 Cr. App. R. (S.) 36.<span style="font-style:italic"/>The primary issue in that case concerned the application of the Sentencing Council&#8217;s July 2023 Guideline for causing death by dangerous driving, in circumstances when the offence was committed before 28 June 2022 and so punishable by a maximum sentence of 14 years&#8217; imprisonment and not a maximum sentence of life imprisonment. The court concluded that the July 2023 Guideline was to be applied even in cases where the new maximum sentence did not apply.  At paragraph 32 of his judgment William Davis LJ said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;32.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Sentencing Council spent many months considering the guidelines for driving offences introduced on 1 July 2023. The levels of sentence for cases involving a death were particularly anxiously considered. They were the subject of significant consultation, as described by Hughes LJ in&#160;<span style="font-style:italic">Healey</span>. Although one factor which was relevant to the Council's work was the increase in the maximum penalty for causing death by dangerous driving, the guideline was not predicated simply on that increase.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">So far as concerns the application of the Guideline to the facts of that case, William   Davis LJ said this at paragraph 36 of his judgment.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;36.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this case, we consider that the judge would have been entitled to put the case towards, if not at the bottom, of the category range, namely, 8 years. There were only two high culpability factors. Each factor reflected the same behaviour, namely driving much too fast for the prevailing road conditions. There were relevant aggravating factors. Mr Kristiansen was a vulnerable road user as a cyclist. The offender failed to stop after the accident. Indeed, his behaviour after the accident was reprehensible. There was mitigation. He had a good driving record, he had positive good character, there was an element of remorse and there was the impact of a first prison sentence on a man with some health issues.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">It is important to note that the conclusion in that case, that the judge would have been entitled to put the case towards or at the bottom of the category range, was a conclusion reached on evaluation of all the facts of that case. The court was not suggesting that every case in which only one or two of the Category A culpability factors were met would be at or near the bottom of the category range.  Each case must be assessed on its own terms. That is not simply an exercise in totting up how many of the listed factors might apply to describe the offending.  The approach must be genuinely evaluative.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The judge described Mr Berouain as &#8220;driving like an idiot&#8221; at over twice the speed limit on &#8220;a busy London road with plenty of side turnings&#8221;.  We have reviewed the CCTV footage from the evening of 10 December 2020.  That bears out the judge&#8217;s observations.  Mr Berouain drove at vastly excessive speed in busy London streets over an extended period.  The Judge noted that two of the Category A culpability factors applied for reasons that overlapped and then placed the conduct towards the bottom of the category range.  By doing so, he failed to reflect the overall seriousness of Mr Berouain&#8217;s offending.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">By placing the offending towards the bottom of the category range, the judge failed to take account of the statement in the Guideline that the starting points and category ranges &#8220;relate to a single offence resulting in a single death.&#8221;  In the present case, the judge was bound to impose an overall sentence that not only reflected the seriousness of Count 1 but also the very serious nature of the offence in Count 4 and the failure to provide an evidential sample that was to be treated as an aggravating factor after Count 2 was left on the file.   Taking into account the totality of the offending, the judge should have applied a very significant upward adjustment to the starting point under the Guideline.  The notional sentence of 10 years before discount for plea was significantly too low.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The sentence on Count 1 was unduly lenient and must be quashed. There is no dispute that Mr Berouain&#8217;s conduct is properly classified within culpability Category A.   As we have said, there must be a significant upward adjustment to reflect Count 4 and the failure to provide a specimen.  This was very serious offending.  It is our conclusion that before discount for the guilty plea the sentence should be 13 years&#8217; imprisonment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Attorney-General&#8217;s submissions took no specific point on the 15 per cent credit the judge allowed for the guilty pleas.  However, we are not satisfied that that allowance in the circumstances of this case properly reflected the Sentencing Council Guideline on reduction of sentence for guilty pleas.  Mr Berouain&#8217;s pleas were made very shortly before the date set for the commencement of the trial. The 15 per cent allowed by the judge is somewhere between 25 per cent, the maximum reduction when the plea is made after the first stage of the proceedings, and the 10 per cent, the maximum reduction when a plea is made on the first day of trial.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">However, the Guideline does not require an allowance of more than the 10 per cent simply because the plea is made before the first day of trial.  It is important to have the principles that inform the Guideline well in mind.  The Guideline identifies the benefits of guilty pleas as being reducing the impact of crime on victims, saving victims and witnesses from having to testify, and promoting the public interest in saving time and money on investigations and trials.  The Guideline then states that the purpose of reducing a sentence for a guilty plea is, in some or other measure, to secure one or more of these benefits.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In this case, by July 2021 Mr Berouain had absconded. He travelled to the United States.  He had to be extradited to face trial.  That process was not completed until 9 November 2023.  Although by his pleas in June 2024 Mr Berouain spared the victims and witnesses the distress of attending a trial, those pleas so long after the events of 20 December 2020, did little to reduce the impact of his actions on Ms Seguss and her family and Ms Atkinson&#8217;s family and next of kin.  Rather, he delayed the trial which must have materially added to their distress.  Further, given the need to secure Mr Berouain&#8217;s extradition from the United States, the pleas did little to further the public interests the Guideline refers to, or at least served to promote those interests in only a more attenuated form.  Taking these matters in the round the appropriate reduction for the pleas in this case is 10 per cent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">For these reasons, we grant the application for leave to refer the sentence to this court.  We quash the sentence of imprisonment imposed by the judge on Count 1.  We conclude that the minimum term of imprisonment on Count 1, allowing 10 per cent credit for plea of guilty,  and bearing in mind the matters of mitigation raised before the Judge, is one of 11 years and 8 months&#8217; imprisonment. That is the sentence that will be substituted. We quash the disqualification order imposed by the judge.&#160; Giving Mr Berouain the benefit of some rounding in the course of the calculation, we substitute an order of 10 years and 9 months which includes the extension period that is necessary to take account of the two-third release point.<span style="font-style:italic"/>All other elements of Mr Berouain&#8217;s sentence remain unchanged.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">For the reasons we have given, Mr Lill&#8217;s application for judicial review is dismissed.  Mr Barnes&#8217; appeal is against sentence is dismissed.  The Attorney-General&#8217;s application succeeds to the extent we have set out above.   We are grateful to all counsel for their submissions. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

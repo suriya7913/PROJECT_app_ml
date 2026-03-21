@@ -1,0 +1,587 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/461"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/461"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="461"/>
+	  <FRBRname value="R v Zia Akbar"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/461"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/461"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/461/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/461/data.xml"/>
+	  <FRBRdate date="2025-04-15T08:01:20" name="transform"/>
+	  <FRBRdate date="2025-07-19T02:07:20" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-lord-justice-stuart-smith" href="/judge-lord-justice-stuart-smith" showAs="LORD JUSTICE STUART-SMITH"/>
+	<TLCPerson eId="judge-mr-justice-bryan" href="/judge-mr-justice-bryan" showAs="MR JUSTICE BRYAN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>461</uk:number>
+	<uk:cite>[2025] EWCA Crim 461</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>f5c1d41ad8b1695fc7902b8987d6502c34be94dd6d746ba4ed83fd32023328af</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Fixed { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Question { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Answer { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Colloquy { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinA { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Rightflush { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .BylineSQ { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .BylineQS { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .0Style { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Normal1 { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal2 { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal3 { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal4 { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .Normal5 { margin-left: 1.2in; margin-right: 1.01in; font-family: 'Courier New'; }
+#judgment .Normal6 { margin-left: 1.6in; margin-right: 0.91in; font-family: 'Courier New'; }
+#judgment .Normal7 { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .9Style { margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Header { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Footer { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Questionquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Answerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Speakerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .questionPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .answerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .speakerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Marginsecondary { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Extramargin { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Ordinaryextramargin { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .RESTRICTEDACCESS { text-align: center; margin-right: 1.21in; font-family: Arial; }
+#judgment .certifiedQuestion { margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Index1 { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; }
+#judgment .IndexBlank { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; }
+#judgment .captionbox { margin-right: 3.51in; font-family: 'Courier New'; }
+#judgment .Index2 { margin-left: 0.4in; margin-right: 1.51in; font-family: 'Courier New'; }
+#judgment .Index3 { margin-left: 1.5in; margin-right: 1.51in; font-family: 'Courier New'; }
+#judgment .Index4 { margin-left: 4in; margin-right: 1.51in; font-family: 'Courier New'; }
+#judgment .RCJquotes { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .RCJquote { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .HEADINGNUMBERED { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <table uk:widths="4.63in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">[2025] EWCA Crim 461</neutralCitation></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</span></p>
+	    <p style="margin-left:-0.07in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">ON APPEAL FROM THE CROWN COURT AT STAFFORD</span></p>
+	    <p style="margin-left:-0.07in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">HHJ Kristina Montgomery</span></p>
+	    <p style="margin-left:-0.07in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">21GS1639822</span></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Case Nos: 202402828 A3 and 202402791 A3</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Strand, London, WC2A 2LL</span></p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Date: </span><docDate date="2025-03-27" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">27 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-stuart-smith" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">LORD JUSTICE STUART-SMITH</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-bryan" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR JUSTICE BRYAN</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">HIS HONOUR JUDGE ANDREW LEES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">(Sitting as a Judge of the CACD)</span></p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="font-weight:bold;font-family:'Times New Roman'">Between:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">REX</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">-v-</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">ZIA AKBAR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">REFERENCE BY THE ATTORNEY GENERAL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">UNDER S.36 CRIMINAL JUSTICE ACT 1988</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">__________</span></p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MS C PATTISON</span><span style="font-family:'Times New Roman'"> appeared on behalf of the Attorney General.</span></p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MS K RIEKSTINA</span><span style="font-family:'Times New Roman'"> appeared on behalf of the Offender/Applicant.</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">_________</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:16pt">Approved Judgment</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.4in;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">Lord Justice Stuart-Smith:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Times New Roman'">1.</num>
+	    <content>
+	      <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 9&#160;July 2024, in the Crown Court at Stafford, Mr&#160;Zia Akbar (who was then aged 32) and a person of positive good character, was sentenced by HHJ Kristina Montgomery KC to 8 years 6 months&#8217; imprisonment concurrent for each of two offences of causing death by dangerous driving, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/1" uk:canonical="1988 c. 52 s. 1" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>.  He was also disqualified from driving for 9 years and 8 months, that being 4 years&#8217; discretionary period and an extension of 5 years and 8 months pursuant to&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> and until an extended driving test is passed.  Mr&#160;Akbar had held his licence, which was clean, for 12 years.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Times New Roman'">2.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Mr&#160;Akbar had previously indicated his intention to plead guilty to those two offences on a date some 4 months after the pre-trial preparation hearing, having until then indicated an intention to contest the charges.  He pleaded guilty on 2&#160;June 2023, 6 months after the PTPH.  He later submitted a basis of plea which led to a </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing, of which more later.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Times New Roman'">3.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">An unusual feature of the sentence imposed by the judge is that it has provoked two applications.  Mr&#160;Akbar appeals to this Court on the basis that his sentence is manifestly excessive or wrong in principle.  His Majesty&#8217;s Attorney General takes&#160;a different view, and applies to this Court for leave to refer the sentence which he regards as unduly lenient.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Times New Roman'">4.</num>
+	    <intro>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Mr&#160;Akbar is represented before&#160;us by Ms&#160;Riekstina, who represented him before the Crown Court.  Ms&#160;Pattison, who did not appear below, appears for the Attorney General on the Reference and for the respondent to Mr&#160;Akbar&#8217;s appeal.  Both counsel made submissions which were of a conspicuously high standard and we are grateful to them both. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="LeftFlush" style="text-align:justify;margin-left:0.4in;margin-right:0.01in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">The Facts</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Times New Roman'">5.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On Sunday 16&#160;January 2022, at 4.30 pm approximately, Mr&#160;Akbar (who was then aged 29) was driving a black Mercedes AMG motor vehicle along the A34 towards Stoke-on-Trent.  He held a full clean driving licence at the time.  His girlfriend, Ms&#160;Lapina, was sitting in the front passenger seat.  At about the same time, Mr&#160;Barry Salt, who was then aged 73, was driving his grey Ford Grand C-Max turbo motor vehicle along Yarnfield Lane towards the A34.  His wife, Mrs&#160;Megan Salt, who was aged 74, was in the rear passenger seat.  Their step granddaughter, Ms&#160;Paige Dunn, who was aged 17, was in the front passenger seat.  Mrs&#160;Salt was not wearing her seatbelt at the time.  Mr&#160;Salt and Ms&#160;Dunn were wearing theirs.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Times New Roman'">6.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The A34 at this point is a dual carriageway with two lanes in each direction.  The speed limit was 50 mph.  It was dusk.  The weather was overcast and dry; the road surface was damp but in good overall condition.  Visibility was good.  Mr&#160;Salt approached the junction with the A34.  There was a gap in the central reservation.  Road signs present were intended to direct drivers entering the carriageway to turn left, in keeping with the direction of travel of oncoming vehicles in the nearer carriageway.  The road signs did not prohibit a vehicle leaving Yarnfield Lane from travelling across the near carriageway to the central reservation and then turning right.  Mr&#160;Salt proceeded to drive across the near carriageway intending to reach the gap in the central reservation and then turn right.  As he did so, Mr&#160;Akbar&#8217;s car, approaching from Mr&#160;Salt&#8217;s right, was at a distance and in the overtaking lane.  Mr&#160;Akbar overtook a van.  The van was being driven by a Mr&#160;Ackerley.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Times New Roman'">7.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Airbag data subsequently confirmed that 5 seconds prior to the collision Mr&#160;Akbar was driving at approximately 100 miles per hour, that being twice the permitted speed limit.  He began to brake about 3 seconds before impact when he was about 120 to 140 metres away.  At the point of impact, Mr&#160;Akbar was still travelling at approximately 75 mph.  The Mercedes collided with the driver&#8217;s side of Mr&#160;Salt&#8217;s Ford.  There were no mechanical defects with Mr&#160;Akbar&#8217;s vehicle or Mr&#160;Salt&#8217;s vehicle that could have contributed to the collision.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Times New Roman'">8.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">PC Sarah Mulvey, the forensic collision investigator, concluded that, had the offender been driving at 50 mph, there would have been enough distance for the Mercedes to stop and avoid the collision.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Times New Roman'">9.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Police officers and paramedics arrived on the scene.  Mr&#160;Salt told the paramedics that it was his fault and that he had thought &#8220;the central reservation was the stop&#8221;.  Mr&#160;Salt, Mrs&#160;Salt and Ms&#160;Dunn were taken to the Royal Stoke University Hospital.  Mr&#160;Salt suffered from a fractured sternum and fractured ribs.  He suffered a cardiac arrest at hospital and died on 17&#160;January 2022.  Mrs&#160;Salt suffered rib fractures, a fracture to the sternum and the shoulder.  There were lacerations to her spleen and liver.  There was blood around her lungs.  She died on 17&#160;January 2022.  Ms&#160;Dunn was physically uninjured but was traumatised, as set out in her victim personal statement to which we will return.  Mr&#160;Akbar and Ms&#160;Lapina were taken to Walsall Manor Hospital.  Ms&#160;Lapina suffered injuries.  Despite attempts, the police were unable to obtain medical records to prove the degree of injury suffered.  Ms&#160;Lapina provided a witness statement to the police saying, in summary, that Mr&#160;Salt was responsible for the collision and not the offender.  The offender suffered injuries to his feet, which have required multiple surgical interventions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Times New Roman'">10.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">When first interviewed by the police following his arrest, the offender denied that he had been speeding and said that the Ford suddenly appeared and stopped in front of him before impact.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in;text-indent:-0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">The Proceedings</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Times New Roman'">11.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 24&#160;October 2022, the offender was charged by postal requisition with two offences of causing death, that being the deaths of Mr&#160;and Mrs&#160;Salt, by dangerous driving and an offence of causing serious injury by dangerous driving, that being the injuries to Ms&#160;Lapina.  The offender attended Cannock Magistrates&#8217; Court on 23&#160;November 2022.  There was no indication of plea to the three offences charged.  The case was sent to Stafford Crown Court.  The offender was remanded on bail.  On 4&#160;January 2023, at the PTPH, the offender pleaded not guilty to counts 1 and 2, those being the counts of causing death by dangerous driving.  He was not arraigned on count 3, which was causing serious injury by dangerous driving.  A trial date was fixed for 30&#160;October 2023.  On 1&#160;May 2023, those instructed on behalf of the offender offered pleas of guilty to counts 1 and 2 but not to count 3.  That was acceptable to the prosecution.  The case was therefore listed on 2&#160;June 2023.  The offender was re-arraigned on counts 1 and 2 and pleaded guilty.  The prosecution applied to quash count 3.  An interim disqualification order was imposed which expired after 6 months.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Times New Roman'">12.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The sentence hearing was adjourned on several occasions to allow for the preparation of a pre-sentence report and a psychological report.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Times New Roman'">13.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">A basis of plea was submitted on 7&#160;December 2023 which read as follows: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;I, Zia Akbar, have already pleaded guilty to counts 1 &amp; 2 of causing death by dangerous driving on 2nd June 2023. </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">I plead guilty on the following basis: </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">1.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">I accept that I was driving in excess of the speed limit, but I had already begun to brake/slow down before the deceased vehicle entered the dual carriageway as I realised and self-corrected. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">2.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">I believed the blue circular signs with white arrows all along this stretch of road indicated that vehicles joining the dual carriageway must turn left as I always did. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">3.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">At all times I was in the outside lane (lane 2).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">4.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">As I approached the location of this incident, my vehicle was likely obscured by the transit van travelling in the nearside lane (lane 1) as the deceased&#8217;s vehicle entered and crossed the dual carriageway.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">5.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">As my vehicle passed the transit van, the deceased&#8217;s vehicle was on the dual carriageway, so I immediately braked.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">6.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">The deceased&#8217;s vehicle was stationary in my lane at the point of impact &amp; impact was inevitable. Even if I was travelling at the speed limit, I could not have avoided impact. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">7.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">The point of impact was towards the middle offside of the deceased&#8217;s vehicle;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">8.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">I believe that the deceased misjudged the junction for the central reservation, as he said himself. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Times New Roman'">9.</num>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in;text-indent:0.32in"><span style="font-family:'Times New Roman'">I do not believe the rear seat passenger (Mrs Salt) was wearing a seat belt at the point of impact as her granddaughter explained.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in;text-indent:0in"><span style="font-family:'Times New Roman'">The prosecution submitted that there was a dispute in respect of paragraph 6 of the basis of plea, such that it made a material difference to sentence.  The judge agreed.   The remaining paragraphs were not contentious.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Times New Roman'">14.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 11&#160;December 2023, HHJ Paul Glenn noted the following on the widely shared comments of the Digital Case System: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;I have warned the defendant that loss of the trial of issue will mean significant loss of credit for plea&#8230;the delay in this case, largely attributable to the defence, is appalling.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Times New Roman'">15.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">A </span><span style="font-style:italic;font-family:'Times New Roman'">Newton </span><span style="font-family:'Times New Roman'">hearing was fixed for&#160;May 2024.  It was refixed for 13&#160;June 2024, to allow the offender to undergo further surgery.  On 13 and 14&#160;June 2024, a </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing took&#160;place before HHJ Kristina Montgomery KC.  The driver of the van, Mr&#160;Ackerley, gave evidence, as did Ms&#160;Dunn.  Both were challenged on behalf of the offender, as neither accepted that Mr&#160;Salt had stopped his vehicle in the lane.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Times New Roman'">16.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">PC Mulvey, the forensic collision investigator, gave evidence and was challenged as to whether the collision was avoidable.  Mr&#160;Akbar gave evidence and said that he did not see the Ford until it was entering his carriageway and then the Ford stopped.  He denied that he braked 3 seconds prior to the collision because he had seen the Ford cross the carriageway about 140 metres before the impact point.  The offender did not rely on any expert evidence.  On the second day of the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton </span><span style="font-family:'Times New Roman'">hearing the prosecution summarised non-contentious evidence.  Ms&#160;Dunn read her victim personal statement and the prosecution read victim personal statements prepared by others.  The hearing was then adjourned until 9&#160;July, to allow counsel instructed on behalf of Mr&#160;Akbar to draft submissions in the light of&#160;the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Times New Roman'">17.</num>
+	    <intro>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">As a result of the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing the judge made findings that were adverse to Mr&#160;Akbar as follows:  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in;text-indent:0in"><span style="font-family:'Times New Roman'">In respect of whether Mr&#160;Salt&#8217;s vehicle was stationary the judge stated: </span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;I find that the Salt vehicle paused, possibly slowing without coming to a complete stop on arriving at the line demarcating the central reservation. This can be described as a hesitation and as such was imperceptible to the other road users.&#8221;</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Times New Roman'">18.</num>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In respect of when the offender first saw the Salt vehicle, the judge rejected the offender&#8217;s evidence that he was side by side with Mr&#160;Ackerley&#8217;s van until he was almost at the mouth of the junction from which Mr&#160;Salt emerged.  The judge considered that the evidence of Mr&#160;Ackerley and Ms&#160;Dunn to be reliable.  Ms&#160;Dunn described seeing the offender&#8217;s car alongside overtaking the van driven by Mr&#160;Ackerley &#8220;in the distance&#8221;. Mr&#160;Ackerley stated that he was overtaken by the offender some distance before the junction from which Mr&#160;Salt&#8217;s car emerged. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Times New Roman'">19.</num>
+	    <intro>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In respect of when the offender began to brake the judge stated: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the Offender began to brake consistently as a reaction to seeing the Ford emerge into the carriageway, approximately 1.5 seconds before he took that action.  He only began to emergency brake at 0.5 seconds before impact, when he realised that the vehicle was still crossing more slowly and hesitatingly than would have been anticipated, and was not therefore going to make it across the carriageway before he was upon it.  By that stage, it was too late to avoid the collision, given that he was still travelling at over 88 miles per hour. I am satisfied so that, I am sure. Had the Offender been driving at the [50mph] speed limit, he had adequate time to see and react to movement of Mr Salt&#8217;s vehicle across the carriageway, and its hesitation at the central reservation would have been noted and he would have been able to stop short of the Ford and avoid collision.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="LeftFlush" style="text-align:justify;margin-left:0.4in;margin-right:0.01in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">The Sentencing Hearing</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Times New Roman'">20.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The judge had the benefit of seven victim impact statements, all of which we have read with care.  They speak exceptionally eloquently of the devastating effect that the loss of Mr&#160;and Mrs Salt has had on those affected.  Ms&#160;Dunn, although escaping significant physical injury, was traumatised by the accident and has struggled to come to terms with the aftermath blaming herself for being &#8220;broken&#8221;, blaming herself for having called her dad first after the accident, and blaming herself for not being the person she was before the accident, though none of what she has gone through could remotely be said to be her responsibility.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Times New Roman'">21.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On the other side, the judge had the benefit of ten character references for Mr&#160;Akbar which, as the judge accepted, showed him to be a person of positive good character.  We have read all of them with the same care as we have the victim impact statements.  He is a dedicated family man, who has worked hard to build up his business.  We have also read the letter that Mr&#160;Akbar wrote to his victim&#8217;s family in which he apologised to them, though we note that the effect of his apology will inevitably have been blunted by his maintaining that what happened was &#8220;in the truest sense of the word an accident&#8221; and merely that his actions had &#8220;contributed&#8221; to the deaths.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Times New Roman'">22.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The pre-sentence report also attested to Mr&#160;Akbar&#8217;s genuine remorse and the adverse impact that the accident had on him, both in terms of serious injuries to his feet and to his declining mental health and development of PTSD under the weight of responsibility that he felt for what had happened.  He was engaging in weekly therapy sessions and was taking medication for depression and PTSD.  He has in the past attempted to overdose and expressed the view that he did not deserve to live when others had lost their lives because of his actions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Times New Roman'">23.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">At the hearing on 9&#160;July 2024, the judge set out the findings she made in the light of the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing (see above).  When she came to sentence Mr&#160;Akbar, she correctly noted that the maximum sentence, because of the date of the offence, was 14 years, and that she was to use the guideline for cases of causing death by dangerous driving where sentence was passed on or after 1&#160;July 2023.  She rejected the submission that she should have regard to the previous guideline because, as she said, the current guideline reflected a change in sentencing policy which she was bound to follow.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Times New Roman'">24.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On the basis of the current guideline the judge characterised each offence as a category A offence.  She was pressed to say that the only feature that justified that characterisation was that Mr&#160;Akbar drove at a speed which was significantly in excess of the speed limit.  Her response was:  </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;This case is a category A case, the defendant drove at a speed which was significantly in excess of the speed limit.  I have been invited to say that that is the single ground that renders him liable to be sentenced in that category.  I agree, but only to this extent, the suggestion that is not concomitant with a deliberate decision to ignore the rules of the road, is to suggest that his speeding was inadvertent. </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">I do not accept that.  He made a conscious decision to increase his speed to a point at which he was driving twice the prescribed limit, and that he cannot have been doing a speed such as that, without him being cognisant of the grossly excessive nature of it in the conditions in which he found himself.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Times New Roman'">25.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">There has been some debate about precisely what the judge meant by this observation.  In our judgment, the position is clear: the fact that Mr&#160;Akbar was driving at twice the speed limit could not be ascribed to inadvertence.  The judge found that his acceleration to that speed or at least something close to it must have been conscious.  In our judgment, the judge would have been entitled to hold that consciously accelerating to the very high speed at which he was travelling constituted a deliberate decision to ignore the rules of the road as to speeding and disregard for the risk of danger to others.  That risk was plain and obvious given the layout of the A34 and the likelihood of slow-moving traffic joining or crossing it.  As it was, the judge found, and was plainly entitled to find, that Mr&#160;Akbar was cognisant (ie aware) of the grossly excessive speed in the conditions in which he found himself.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Times New Roman'">26.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On the basis of her findings and categorisation, the judge correctly identified that the starting point under the guideline for a single offence was 12 years, with a category range from 8 to 18 years although in the circumstances of this case, the top of the category range that might be imposed could not exceed 14 years.  She noted that category A might also include those whose ability to drive was significantly impaired, who were engaged in a pursuit or race, or who had engaged in persistently dangerous manoeuvring and other unacceptable aspects of road usage, none of which was applicable to the present case.  The judge then identified the relevant aggravating features of which the most important was that Mr&#160;Akbar&#8217;s driving had caused the death of two people not one.  In addition, she regarded the effect on Ms&#160;Dunn as being an aggravating feature.  Turning to mitigating features, the judge took into account the extensive evidence that led her to conclude that Mr&#160;Akbar was a man of positive good character and that he is genuinely remorseful of his actions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Times New Roman'">27.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Turning to the question of delay, she held that it was not the sort of delay that enables a defendant justifiably to ask for a downward adjustment of their sentence.  She attributed the delay before Mr&#160;Akbar was charged to &#8220;the complexity of the calculations that required to be completed before the charging decision was taken&#8221; and the delay since being charged was for reasons that did not bear close scrutiny.  Implicit in her review of delay was that there was nothing in the delays that should lead her to take the old guideline into account rather than the new.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Times New Roman'">28.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The judge held that Mr&#160;Akbar&#8217;s mental health issues were not relevant to his offending but she regarded them as: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;... an additional burden in his struggle to maintain a positive outlook and to foresee the conclusion of these proceedings in terms that are for him, capable of being reconciled with his own struggles.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in;text-indent:0in"><span style="font-family:'Times New Roman'">She regarded them as making his inevitable custodial sentence more difficult than it might be for others to serve.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Times New Roman'">29.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The judge rejected a submission that Mr&#160;Salt&#8217;s driving had contributed significantly to the collision.  The various signs near the mouth of Yarnfield Lane did not require Mr&#160;Salt to turn left, and any hesitation before the impact was momentary and did not contribute significantly to the happening of the accident.  She also rejected the submission that Mrs&#160;Salt&#8217;s failure to wear a seatbelt significantly contributed to her death, there being an absence of evidence on that point.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Times New Roman'">30.</num>
+	    <intro>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The judge held the reduction for which the defence contended of 20 per&#160;cent, on account of his guilty pleas, would have been well founded but for the findings she had made in the</span><span style="font-style:italic;font-family:'Times New Roman'"> Newton</span><span style="font-family:'Times New Roman'"> hearing.  On that basis, she reduced the appropriate credit to 15 per&#160;cent, without giving any explanation of how or why she got to that figure.  She then explained her sentencing decision as follows: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;In my view, the sentence for causing of the death of one person in the circumstances of this case, would result in a sentence after trial and before mitigation but taking account of the aggravating features, I have identified that of 10 years&#8217; imprisonment.  It would be inappropriate to pass consecutive sentences for causing the death of Mr and Mrs Salt, as it would prevent the principle of totality to pass sentences in that way.   </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">So the sentence after trial would needs to be adjusted to take account of the second death caused.  That adjustment would result in a significantly longer sentence, close to the</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">statutory maximum.  There would then, of course, need to be a downward adjustment to take account of the very substantial personal mitigation.  I have performed those adjustments to reflect the mitigation that I have heard, and in my view, the appropriate sentence after trial on each of counts 1 and 2 would be a sentence of 10 years&#8217; imprisonment.  A reduction of 15 per cent to reflect the defendant&#8217;s guilty plea means the sentence on each of those counts will be reduced to 102 months or to put it another way, 8 months and 6 years&#8217; imprisonment.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="LeftFlush" style="text-align:justify;margin-left:0.4in;margin-right:0.01in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">The competing submissions</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Times New Roman'">31.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The competing submissions may be relatively shortly stated.   The Attorney General submits, first, that the notional sentence of 10 years, before reduction for Mr&#160;Akbar&#8217;s guilty pleas, failed sufficiently to reflect the facts that (a) two deaths were caused; (b) the presence of others in the vehicles and (c) the totality of Mr&#160;Akbar&#8217;s offending.  Second, the Attorney General submits that the reduction of 15 per&#160;cent for Mr&#160;Akbar&#8217;s guilty plea was too generous in the light of the Guideline on Reduction for Guilty Pleas which provides at paragraph F2: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Parenthetical" style="text-align:justify;margin-left:1.18in;margin-right:0.51in"><span style="font-family:'Times New Roman'">&#8220;In circumstances where an offender&#8217;s version of events is rejected at a Newton hearing or special reasons hearing, the reduction which would have been available at the stage of proceedings the plea was indicated should normally be halved. Where witnesses are called during such a hearing, it may be appropriate further to decrease the reduction.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Times New Roman'">32.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On that basis, the Attorney General submits that the judge should have allowed not more than 10 per&#160;cent rather than the 15 per&#160;cent which she did allow and that the judge did not explain why she did not adopt that course.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Times New Roman'">33.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">For Mr&#160;Akbar, Ms&#160;Riekstina submits that the judge did not give sufficient credit for his personal mitigation.  She submits that the only factor leading to characterisation of the&#160;offences as category A was Mr&#160;Akbar&#8217;s excessive speed, which she optimistically describes as &#8220;a momentary lapse in judgment&#8221; rather than a prolonged and deliberate course of conduct involving other dangerous actions.  She also refers to the many character references that the judge had and submits that the judge should have held Mrs&#160;Salt&#8217;s failure to wear a seatbelt was a significant contributor to her death.  In relation to the reduction for Mr&#160;Akbar&#8217;s guilty plea, Ms&#160;Riekstina submits that originally the Crown did not contest the assertion that Mr&#160;Salt had been stationary before impact as alleged in the basis of plea.  She notes, correctly, that at the outset of the&#160;sentencing hearing on 13&#160;June 2024, the prosecution reiterated its position as being that the basis of plea was not in issue, save for the second sentence at paragraph 6, which was the assertion that Mr&#160;Akbar could not have avoided the collision even if he had been travelling within the speed limit of 50 miles per hour.  In the event, the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing and the judge&#8217;s findings went wider than merely determining the accuracy of the second sentence of paragraph 6 of the basis of plea.  She submits that should not prejudice Mr&#160;Akbar&#8217;s position on reduction of credit for his guilty plea.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Times New Roman'">34.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In oral submissions, she relies on the submission that Mr&#160;Akbar was always acting on legal advice and that the point of contention in the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing was at least originally a mathematical exercise to determine whether or not he was right to assert that the collision was unavoidable.  This she contrasts with what she describes as defendants taking any spurious point going in an attempt to improve their position.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Times New Roman'">35.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">As a fallback position, in circumstances where Ms&#160;Pattison very fairly accepted that the Attorney General could not have complained if the reduction from 14 years had been one of 3 years, Ms&#160;Riekstina submits that the matters on which the Attorney General relies are marginal and should not lead to a finding that the sentence is unduly lenient.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="LeftFlush" style="text-align:justify;margin-left:0.39in;margin-right:0.01in;text-indent:-0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Discussion and resolution</span></heading>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Times New Roman'">36.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The context for the judge&#8217;s sentencing decision was that the increase in the maximum sentence for causing death by dangerous driving from 14 years to life imprisonment did not apply to the present case.  But the relevant guideline was the new one which was drafted with the increased maximum in contemplation.  Applying the new guideline meant that the starting point for a category A case was 12 years, which leaves little room for upward adjustment for aggravating features.  We start with the judge&#8217;s selection of 10 years for causing the death of one person.  The judge had identified and was clearly aware of the starting point of 12 years under the guideline and did not fully explain why she settled on 10 years.  In addition, there is a possible tension between her identification of 10 years for the causing the death of one person and her statement that it took into account the aggravating features in the case, since she had previously described the most aggravating feature as being Mr&#160;Akbar&#8217;s driving caused the death of two people.  We consider it probable that the judge had in mind the guideline statement under step 2 that &#8220;where more than one death is caused and they are charged in separate counts...  concurrent sentences reflecting the overall criminality will be appropriate.&#8221;  That is certainly how she approached the upward adjustment from 10 years to &#8220;close to the statutory maximum.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Times New Roman'">37.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In our judgment, when the judge&#8217;s careful sentencing remarks are read fairly and in full,  the explanation for her settling on 10 years as an adjusted starting point for one offence is to be found in her earlier observation that the present case did not involve a driver whose ability to drive was seriously impaired or who is engaged in pursuit or a race which could reasonably be regarded as worse and appropriate cases for the application of the guideline starting point of 12 years.  Whether that is what she intended or not, it is to our minds a rational and justifiable reason for her to have settled on a notional sentence of 10 years for a single offence rather than the guideline starting point of 12 years.  We would therefore not criticise the judge&#8217;s decision on this point.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Times New Roman'">38.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The judge then had to take into account the second death caused.  No-one criticises the judge for imposing concurrent sentences on counts 1 and 2, and&#160;nor do we.   The judge reflected the overall criminality of Mr&#160;Akbar&#8217;s offending by increasing the notional overall sentence to &#8220;close to the statutory maximum&#8221;.  In our judgment, that was a right decision.  Whether she would have gone further had applicable statutory maximum been life than 14 years is a moot point because she had to operate within the constraints imposed by the existing statutory maximum and the currently applicable guideline.  While some judges might have gone to </span><span style="font-style:italic;font-family:'Times New Roman'">the </span><span style="font-family:'Times New Roman'">statutory maximum rather than &#8220;close to it&#8221;, we would not criticise the judge&#8217;s decision in this case, not least because it will have made very little, if any, difference to the overall outcome.  We conclude that on the basis that concurrent sentences were going to be imposed, a notional sentence on each count of or close to 14 years before taking into account personal mitigation and any reduction for guilty pleas was reasonable and appropriate.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Times New Roman'">39.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We come then to the judge&#8217;s downward adjustment of 4 years to a notional sentence of 10 years for Mr&#160;Akbar&#8217;s mitigation.  We bear in mind Ms&#160;Riekstina&#8217;s submission that if she started close to but not at the statutory maximum, the downward adjustment could correspondingly be slightly less.  We acknowledge that his personal mitigation as summarised by the judge and as we have read in detail for the purposes of this appeal, was strong.  On any view however, this was a generous reduction, even when maximum weight is given to the mitigation.  Standing back, our view is that the Attorney General is right to accept that a reduction of 3 years so as to reach a notional sentence of 11 years would have been readily justifiable but a reduction of 4 years was stretching the limits of what could properly be allowed. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Times New Roman'">40.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We then come to the reduction of 15 per cent allowed for Mr&#160;Akbar&#8217;s guilty plea.  But for the </span><span style="font-style:italic;font-family:'Times New Roman'">Newton </span><span style="font-family:'Times New Roman'">hearing a reduction of 20 per&#160;cent would have been appropriate and, as the judge indicated, would have been applied.  There is no sign that the judge had the guideline on reduction for guilty pleas in general or paragraph F2 in particular in mind.  It is possible, as a very experienced judge, she did have it in mind, although there is no sign that she was referred to it.  But if she did have it in mind she did not explain why she was deviating from the advice in the guideline.  It therefore seems likely that the reduction of 15 per&#160;cent was based upon the judge&#8217;s view of the case as a whole and the impact of the need for a </span><span style="font-style:italic;font-family:'Times New Roman'">Newton</span><span style="font-family:'Times New Roman'"> hearing on the proceedings as a whole.  We take account of Ms&#160;Riekstina&#8217;s submissions that the</span><span style="font-style:italic;font-family:'Times New Roman'"> Newton</span><span style="font-family:'Times New Roman'"> hearing expanded in its scope and that the expansion involved a reneging by the prosecution (that being Ms&#160;Riekstina&#8217;s word) on its previously stated position of challenging only the second sentence of paragraph 6 of the basis.  We are however unable to attach much weight to that submission, since the need for a</span><span style="font-style:italic;font-family:'Times New Roman'"> Newton</span><span style="font-family:'Times New Roman'"> hearing, even if only on that point, was clear even if its scope expanded somewhat; and the findings in relation to the original point were adverse to Mr&#160;Akbar.  We are left in the position that the judge did not explain why she settled on 15 per&#160;cent rather than 10 per&#160;cent as would be indicated by a straightforward reading of the guideline.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Times New Roman'">41.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">What then is the impact of these considerations?  In our judgment, the Attorney General can reasonably submit that a combination of the reduction to 10 years and the reduction for a plea of 15 per&#160;cent has led to a sentence that is lenient.  However, if the reduction to 10 years for mitigation is greater than was reasonable, it was not by much for the reasons we have given.  Similarly it seems clear to&#160;us that, had the judge been referred to paragraph F2, she would in all probability have reduced the credit for plea to no less than 10 per&#160;cent.  While we accept that it is possible that she would have stayed at 15 per&#160;cent, reasons for doing so are not self-evident and the judge did not provide any.  If one treats the reduction to 10 years as being just acceptable for the purposes of&#160;illustration, a further reduction of 10 per&#160;cent would have led to a sentence of 9 years rather than the 8 years and 6 months imposed by the judge.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Times New Roman'">42.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Although one can adjust the figures at will, the conclusion we reach is that whether or not one describes the sentence passed by the judge as not merely lenient but unduly lenient, such a finding could reasonably be described as marginal.  At all events, for the reasons we have given we do not consider that the degree of leniency is such that this Court should intervene.  Viewed through the prism of Mr&#160;Akbar&#8217;s appeal against sentence, we reject outright the submission that the sentence imposed by the judge was manifestly excessive.  If anything, Mr&#160;Akbar may regard himself as fortunate in the extent of&#160;the reduction for personal mitigation and in the further reduction of 15 per&#160;cent for his plea.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Times New Roman'">43.</num>
+	    <content>
+	      <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0.01in"><span style="font-family:'Times New Roman'">For these reasons (i) on the Attorney General&#8217;s application, we give leave but dismiss the Reference and (ii) Mr&#160;Akbar&#8217;s appeal against sentence is dismissed. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

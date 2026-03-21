@@ -1,0 +1,419 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1658"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1658"/>
+	  <FRBRdate date="2024-12-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1658"/>
+	  <FRBRname value="R v Jake Patrick Weston"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1658"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1658"/>
+	  <FRBRdate date="2024-12-05" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1658/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1658/data.xml"/>
+	  <FRBRdate date="2025-05-12T14:42:38" name="transform"/>
+	  <FRBRdate date="2025-07-19T07:21:39" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="regina" href="" showAs="REGINA"/>
+	<TLCPerson eId="jake-patrick-weston" href="" showAs="JAKE PATRICK WESTON"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lord-justice-jeremy-baker" href="/judge-lord-justice-jeremy-baker" showAs="LORD JUSTICE JEREMY BAKER"/>
+	<TLCPerson eId="judge-mrs-justice-jefford" href="/judge-mrs-justice-jefford" showAs="MRS JUSTICE JEFFORD"/>
+	<TLCPerson eId="judge-sir-nigel-davis" href="/judge-sir-nigel-davis" showAs="SIR NIGEL DAVIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>1658</uk:number>
+	<uk:cite>[2024] EWCA Crim 1658</uk:cite>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>c67c8b4dfc5bf9e2f6118963757585fb70928aaccb1ff37fd3924cb68d45163b</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2 { text-align: center; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { font-size: 14pt; color: #2F5496; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .P { margin-left: 0.89in; margin-right: 0.59in; font-size: 12pt; }
+#judgment .s { margin-left: 0.26in; font-size: 12pt; }
+#judgment .S0 { margin-left: 0.26in; font-size: 12pt; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Fixed { margin-right: 0.51in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PChar { font-size: 12pt; }
+#judgment .sChar { font-size: 12pt; }
+#judgment .SChar0 { font-size: 12pt; }
+#judgment .Heading3Char { font-size: 14pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <block name="restriction"><span style="font-weight:bold;font-size:10pt">WARNING: reporting restrictions may apply to the contents transcribed in this document, particularly if the case concerned a sexual offence or involved a child. Reporting restrictions prohibit the publication of the applicable information to the public or any section of the public, in writing, in a broadcast or by means of the internet, including social media. Anyone who receives a copy of this transcript is responsible in law for making sure that applicable restrictions are not breached. A person who breaches a reporting restriction is liable to a fine and/or imprisonment. For guidance on whether reporting restrictions apply, and to what information, ask at the court office or take legal advice.</span></block>
+      <p><span style="font-weight:bold;font-size:10pt">This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.</span></p>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <table uk:widths="4.6in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid">IN THE COURT OF APPEAL</courtType></p>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid">CRIMINAL DIVISION</courtType></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CROWN COURT AT WOOLWICH</span></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR RECORDER TURNER   T20210189 &amp; T20227127</span></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid">[2024] EWCA Crim 1658</neutralCitation></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in">CASE NO:  202303778 A1</p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Royal Courts of Justice</span></p>
+      <p style="text-align:right">Strand</p>
+      <p style="text-align:right">London</p>
+      <p style="text-align:right">WC2A 2LL</p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><docDate date="2024-12-05" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid">Thursday 5 December 2024</docDate></p>
+      <p style="text-align:center">Before:</p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-jeremy-baker" style="text-decoration-line:underline;text-decoration-style:solid">LORD JUSTICE JEREMY BAKER</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mrs-justice-jefford" style="text-decoration-line:underline;text-decoration-style:solid">MRS JUSTICE JEFFORD</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-sir-nigel-davis" style="text-decoration-line:underline;text-decoration-style:solid">SIR NIGEL DAVIS</judge></p>
+      <p style="text-align:center"><party as="#before-the-v" refersTo="#regina">REGINA</party></p>
+      <p style="text-align:center">v</p>
+      <p style="text-align:center"><party as="#after-the-v" refersTo="#jake-patrick-weston">JAKE PATRICK WESTON</party></p>
+      <p style="text-align:center">__________</p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Computer Aided Transcript of Epiq Europe Ltd, </span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Lower Ground, 46 Chancery Lane, London WC2A 1JE</span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Tel No: 020 7404 1400; Email: rcj@epiqglobal.co.uk (Official Shorthand Writers to the Court)</span></p>
+      <p style="text-align:center">_________</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR RICHARD PATON-PHILIP</span> appeared on behalf of the Applicant</p>
+      <p style="text-align:center">_________</p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">(As Approved)</p>
+	    <p><span style="font-weight:bold">MRS JUSTICE JEFFORD</span>:</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 9&#160;May&#160;2023 in the Crown Court at Woolwich, the applicant (then aged 28) changed his pleas to guilty on nine offences.  Other offences were ordered to lie on the file.  He also pleaded guilty to seven further offences set out in a section&#160;51 schedule. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 2&#160;October&#160;2023, also in the Crown Court at Woolwich, the applicant was sentenced.  The Recorder took as the lead offence the count of wounding with intent to resist or prevent the lawful apprehension or detainer of himself contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100" uk:origin="TNA" uk:type="legislation">the Offences Against the Person Act 1861</ref>.  For that offence a&#160;sentence of 12&#160;years' imprisonment was imposed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">For the indictable offences the Recorder imposed further concurrent sentences as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 1, possessing a controlled drug of Class&#160;B (namely cannabis) with intent to supply, 10 months' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 4, aggravated vehicle taking contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60/section/12" uk:canonical="1968 c. 60 s. 12" uk:origin="TNA" uk:type="legislation">section&#160;12</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60" uk:canonical="1968 c. 60" uk:origin="TNA" uk:type="legislation">Theft Act 1968</ref>, 21 months' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 5, possessing a prohibited weapon, 5 months' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 7, possessing a&#160;controlled drug of Class&#160;A (namely cocaine) with intent to supply, 4&#160;years' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 8, possessing a&#160;controlled drug of Class&#160;A (namely MDMA) with intent to supply, 4&#160;years' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.75in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On count 9, possessing a&#160;controlled drug of Class&#160;B (namely cannabis) with intent to supply, 16 months' imprisonment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">It is unnecessary at this point to say more about the sentences for the offences in the section&#160;51 schedule.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-weight:bold;font-family:'Times New Roman'">The Facts</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The material facts are as follows.  On 17&#160;September&#160;2021 at around 5&#160;pm, a&#160;number of police officers, in three unmarked cars, from the Violent Crime Task Force had been on patrol in Forest Hill, London SE23.  They were stopped at some temporary traffic lights.  As the lights turned green one of the police officers was looking at the stationary line of traffic waiting to pass in the opposite direction and spotted the applicant driving a&#160;Hyundai Tucson motor vehicle.  At that stage the applicant had not seen the police officers.  There were two other males in the car with him.  The applicant then spotted the police officers and averted his gaze in what seemed to them to be a&#160;nervous manner, so the police officers decided to follow the Hyundai.  The police officers activated their blue lights to order for the Hyundai to stop, and for a&#160;moment it appeared that it would.  The car pulled over and almost came to a&#160;stop, before one of the police officers came round to the side of the car, but then it accelerated and pulled away.  All three unmarked cars subsequently travelled at around 60 mph along residential roads to try to keep pace with the Hyundai.  There was evidence that at one point the speed exceeded 70 mph.  The speed limit at all times was 20 mph.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The Hyundai swerved lanes on to the wrong side of the road into oncoming traffic to avoid the police.  The car struck a&#160;motorcyclist, Mr&#160;Kulendran, who had been travelling in the same direction as it.  No attempt was made to avoid the collision and the motorcycle driver was knocked to the floor and left in the road.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The car mounted the pavement and struck a&#160;pedestrian, Mr&#160;Plenderleith, who had been walking across the side road that Mr&#160;Kulendran had been trying to turn into.  Mr&#160;Plenderleith was been knocked off his feet, first on to the bonnet of the car and then underneath the car.  The car accelerated with Mr&#160;Plenderleith being dragged along underneath it for around 100&#160;metres before he finally came loose.  A&#160;number of other members of the public had been on the street at the time including a&#160;child.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The Hyundai then hit the back of another vehicle driven by Mr&#160;Rae, who was driving in the same direction as it.  The Hyundai turned over onto its roof and came to a&#160;halt.  The applicant and one of his passengers were apprehended by the police and arrested.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Much if not all of what had happened was captured on CCTV.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Checks made on the Hyundai showed that it had been stolen and was being driven on false number plates.  A&#160;number of different number plates were found in the vehicle when it was later examined.  A&#160;black bag belonging to the applicant was found on the road by the Hyundai which contained items including pepper spray; 1.45 gms of cocaine at 60 to 80 per cent purity with an&#160;estimated street value of &#163;140; 47 MDMA tablets with a&#160;street value of between &#163;235 and &#163;470; two bags of herbal cannabis weighing 11.6 gms; &#163;1,190 in cash; a set of digital scales; and a&#160;passport in the applicant's name.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant was arrested.  He denied being the driver of the Hyundai.  In interview he answered 'no comment' to all questions.  He provided a&#160;prepared statement in which he denied being the driver of the Hyundai, stating that someone else who had been the driver had made off from the scene.  In a&#160;subsequent interview the applicant was shown CCTV footage and told of the injuries sustained by the victims and of the items found in his bag.  He still answered 'no comment' to all questions asked.  He thereafter conceded in the Defence Statement that he had been out selling drugs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.49in;text-indent:-0.3in">12.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.49in;margin-right:0.01in"><span style="font-family:'Times New Roman'">As for the injured persons, Mr&#160;Kulendran was taken to University Lewisham Hospital as he had lost and then regained consciousness.  There were no underlying injuries fortunately for him, and Mr&#160;Kulendran was discharged from hospital.  Mr&#160;Rae suffered a&#160;whiplash-type injury and was told it would take 8 to 10 months to settle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Mr&#160;Plenderleith&#8217;s injurieswere a&#160;different matter.  He suffered extreme injuries, including a&#160;scalp wound and visible skull fractures.  He was taken to hospital by air ambulance.  He had multiple facial fractures, a&#160;fractured left clavicle, injuries to his abdomen, hands and legs, and a&#160;broken foot.  Mr&#160;Plenderleith was taken to the Major Trauma Centre at King's College Hospital where surgery was performed to repair the skull fracture and he underwent further surgical procedures to treat his numerous injuries.  Mr&#160;Plenderleith had no recollection of the incident.  He spent 2 weeks in hospital in a&#160;coma.  He remained in intensive care for 5 weeks as a&#160;result of his injuries.  The count of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> wounding relates to the injuries to Mr&#160;Plenderleith.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-weight:bold;font-family:'Times New Roman'">Sentencing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In sentencing the applicant the Recorder set out the facts and that he had carefully reviewed the CCTV footage.  He was satisfied that the applicant's making no attempt to avoid either Mr&#160;Plenderleith or Mr&#160;Kulendran was a&#160;deliberate action and that as a&#160;consequence the vehicle was used as a highly dangerous weapon.  He also considered the injuries to Mr&#160;Plenderleith to be grievous and life changing.  Having made those decisions and having regard to the Guideline, he placed the offence in category 1A, with a&#160;starting point of 12&#160;years and a&#160;range of 10 to 16&#160;years' imprisonment.  He identified a&#160;number of aggravating factors: that the applicant was under the influence of drugs, that three people were in fact injured, and that children were present walking in a&#160;20-mph area.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In terms of mitigation the Recorder noted that the applicant had a&#160;diagnosis of PTSD but considered that that had nothing to do with his offending.  He noted difficulties in the applicant's upbringing but did not consider that they offered any mitigation.  Put shortly, he said the applicant had become involved in drug dealing and his offending flowed from that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The Recorder would have passed a&#160;sentence of 15&#160;years' imprisonment.  He gave credit for the guilty plea on the day of trial of 10 per cent and then made a&#160;further reduction for mitigation.  Although the mitigation ought to have been taken into account before the percentage reduction, the order that the Recorder adopted in fact favoured the applicant.  By that route the Recorder reached his sentence of 12&#160;years' imprisonment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The Recorder considered whether the sentences for the other offences should be consecutive or concurrent.  He concluded that having regard to totality those sentences should be served concurrently.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-weight:bold;font-family:'Times New Roman'">The Grounds of Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant sought leave to appeal on the ground that the notional sentence, which was 3&#160;years above the category starting point, was manifestly excessive.  The applicant argued that, in terms of culpability, the car was not intended for use as a&#160;weapon but as a&#160;means of escape; the applicant did not intend to harm Mr&#160;Plenderleith and did not use the car as a&#160;weapon in the sense intended by the guideline.  These are matters which, although put slightly differently, Mr Paton-Philip has repeated before us today.  Further it was argued that the injuries of Mr&#160;Plenderleith, although sufficiently grave to fall within category 1 harm, were not so particularly grave that they should have caused the judge to uplift the sentence from the starting point.  The applicant also submitted that the sentence had taken insufficient account of his mitigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The single judge refused leave.  In doing so he observed that there might be some debate about the application of the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> Guideline but that it would nonetheless be persuasive.  He then said that whatever the position in that respect, no complaint could be made of the overall sentence in terms of reflecting the overall criminality, including the Class&#160;A drug dealing, the appallingly high speed at which the applicant had driven whilst intoxicated, the injuries to other road users, and the fact that the driving continued for some time after the applicant knew a&#160;pedestrian had been hit and was being dragged under the vehicle.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant now renews his application for leave.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-weight:bold;font-family:'Times New Roman'">Discussion </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We do not consider that there is any substance in the submission made in relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> Guideline.  There was a&#160;clear finding by the sentencing judge which cannot be challenged that the applicant accelerated knowing Mr&#160;Plenderleith was under the car.  Although not the basis of the offence charged, the intention to cause Mr&#160;Plenderleith grievous bodily harm was then self-evident.  Even if that were not the case, there was both the intent to avoid arrest and, by the applicant's own admission in his grounds of appeal, gross recklessness as to the harm to Mr&#160;Plenderleith once he had been hit.  Aggregating those two matters there can be no sensible submission that the application of the Guideline was wrong in principle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">There were further a&#160;number of aggravating features, as the Recorder observed, and the credit he gave for mitigation was, in our judgment, more than adequate. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Had the Recorder approached the matter differently, he could have taken a lesser notional sentence for the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> offence and uplifted that sentence to take account of the other offences and the overall criminality.  This was an&#160;appalling, highly dangerous sequence of driving in a&#160;residential area with the risk to numerous members of the public, three of whom were injured, one very seriously, and it was entirely the product of drug dealing.  Having regard to the overall criminality, as the single judge said, the sentence could not be regarded as manifestly excessive.  As we have observed, the Recorder could have reached that sentence by a&#160;different route; it makes no difference.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We grant any necessary application for an&#160;extension of time to make this renewed application but we  refuse leave to appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We have, however, also to address other aspects of the sentencing.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">One of the offences committed to the Crown Court for sentencing was the offence of driving with a&#160;proportion of a specified controlled drug above the specified limit.  For this offence the Recorder disqualified the applicant from driving for 12&#160;years.  The Recorder said that he intended to disqualify the applicant for 4&#160;years for this offence but he added an&#160;extension period of 8&#160;years to reflect the period of imprisonment on the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> offence and therefore pronounced a&#160;period of disqualification of 12&#160;years.  The applicant had not, however, received a&#160;custodial sentence for this drug driving offence, so the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> did not apply.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant had received a&#160;custodial sentence of 21 months for aggravated vehicle taking, for which a&#160;minimum period of 12 months' disqualification applies in the absence of special circumstances.  No period of disqualification was pronounced for this offence. We would therefore impose a&#160;period of disqualification of 12 months for this offence, to run concurrently with the disqualification for the drug driving and an&#160;extension period of 10-and-a-half months.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant also received a&#160;custodial sentence for another offence (the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/18" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 18" uk:origin="TNA" uk:type="legislation">section&#160;18</ref> offence) and under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>B of the aforesaid Act we would therefore impose a&#160;further extension period of 7&#160;years and 1-and-a-half months.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The disqualification on the drug driving offence will therefore be for a&#160;period of 4&#160;years, with no separate penalty to accompany the disqualification but with the extensions made up of two periods that we have identified, giving a&#160;total of 8&#160;years.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The appeal is therefore allowed and the sentence varied to that extent, but that makes no material difference to the period of disqualification.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Therefore we give leave to appeal in that respect, allow the appeal and vary the sentence to that extent, but we repeat that it makes no material difference to the period for disqualification. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold">Epiq Europe Ltd</span> hereby certify that the above is an accurate and complete record of the proceedings or part thereof.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Lower Ground Floor, 46 Chancery Lane, London, WC2A 1JE</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Tel No: 020 7404 1400  Email:  Rcj@epiqglobal.co.uk</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,479 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/289"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/289"/>
+	  <FRBRdate date="2026-02-13" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="289"/>
+	  <FRBRname value="James Campbell, R (on the application of) v Secretary of State for the Home Department"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/289"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/289"/>
+	  <FRBRdate date="2026-02-13" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/289/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/289/data.xml"/>
+	  <FRBRdate date="2026-02-13T13:48:58" name="transform"/>
+	  <FRBRdate date="2026-02-13T14:38:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="james-campbell" href="" showAs="JAMES CAMPBELL"/>
+	<TLCPerson eId="secretary-of-state-for-the-home-department" href="" showAs="SECRETARY OF STATE FOR THE HOME DEPARTMENT"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-his-honour-judge-jarman-kc" href="/judge-his-honour-judge-jarman-kc" showAs="HIS HONOUR JUDGE JARMAN KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>289</uk:number>
+	<uk:cite>[2026] EWHC 289 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2024-CDF-000185</uk:caseNumber>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>4872c10805ef7ebf0ad270fb33ea44e5e71bf015d60e02460da170f93b57be4b</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .leglisttextstandard { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .legp1no { }
+#judgment .legds { }
+#judgment .legterm { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWHC 289 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-CDF-000185</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Cardiff Civil and Family Justice Centre</p>
+      <p class="CoverText">2 Park Street, Cardiff CF10 1ET</p>
+      <p class="CoverText">Date: <docDate date="2026-02-13" refersTo="#judgment">13 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-jarman-kc">HIS HONOUR JUDGE JARMAN KC</judge></p>
+      <p style="text-align:center">Sitting as a judge of the High Court</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">THE KING</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">On the application of</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#james-campbell" style="font-weight:bold">JAMES CAMPBELL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#secretary-of-state-for-the-home-department" style="font-weight:bold">SECRETARY OF STATE FOR THE HOME DEPARTMENT</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Claimant represented himself</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Michael Biggs</span> (instructed by <span style="font-weight:bold">Government Legal Department</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 15 September 2025 and 26 January 2026</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 13 February 2026 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HIS HONOUR JUDGE JARMAN KC</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">HHJ JARMAN KC:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant was born on 11 May 1994 in Hong Kong and until 1 July 1997, when sovereignty was transferred from Great Britain to the People&#8217;s Republic of China, was a British Dependant Territory citizen (BDTC). That status ceased on transfer, but such citizens were entitled to apply to be registered as a British National (Overseas) (BNO) under the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/15" uk:canonical="1985 c. 15" uk:origin="TNA" uk:type="legislation">Hong Kong Act 1985</ref> and orders in council made thereafter. The claimant was only three years old at the time. He says that his father, who was born in Hong Kong, was sometimes absent. He says his mother was born in China and spoke no English. No such application was made then. He has applied to the defendant three times for a BNO passport but has been refused. It is the latest refusal dated 27 September 2024 which he seeks to challenge by way of judicial review. He has Chinese nationality and is currently studying in the United States of America.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The refusal was put on the basis that all legal deadlines for such registration had passed and that the claimant is eligible to apply for a Hong Kong Special Administrative Region (HKSAR) passport. That is not in dispute. The reasoning given was set out as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Due to your connection with Hong Kong, you were a British dependent territories citizen until 30th June 1997. On 1st July 1997, Hong Kong lost its status as a British dependent territory and on that date you stopped being a British national. You would have remained a British national if you had registered as a British national (overseas) under the Hong Kong (British nationality) Order 1986, for which all legal deadlines have now passed. It is likely that you are a Chinese national under the Chinese nationality law (which applies in the Hong Kong Special Administrative Region - HKSAR) and are eligible for a HKSAR passport. The HKSAR passport is issued by the HKSAR Immigration Department on the authority of the Chinese Government to Chinese nationals who are permanent residents of Hong Kong and who hold Hong Kong permanent identity cards. You can get more information and application forms from the Chinese Embassy. (www.chinese-embassy.org.uk) If you have settled in the United Kingdom you can get more information and the requirements to qualify for British citizenship from: https:/lwww.gov.uk.becoming-abritish-citizen If you become a British citizen you will then be eligible to re-apply for a British passport. You will need to supply the certificate of citizenship when you re-apply. However, before doing so you may like to contact the Chinese Embassy to see whether gaining British citizenship would affect your eligibility to hold a HKSAR passport.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The statutory framework is as follows. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/15/section/1/1" uk:canonical="1985 c. 15 s. 1" uk:origin="TNA" uk:type="legislation">Section 1(1)</ref> of The <ref href="http://www.legislation.gov.uk/id/ukpga/1985/15" uk:canonical="1985 c. 15" uk:origin="TNA" uk:type="legislation">Hong Kong Act 1985</ref> gives effect to the Sino-British Joint Declaration regarding the transfer of sovereignty of Hong Kong to China with effect from 1 July 1997. Section 2(2) and paragraph 2(1)-(3) of the schedule provided for the making of an order in council to provide for the abolition of BDTC and its replacement with BNO status which could be acquired by way of a timely application made by a holder of BDTC which application is to be made by a specified time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraphs 2(1)-(3) of the schedule to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/15" uk:canonical="1985 c. 15" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> accordingly provide: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Her Majesty may by Order in Council make provision whereby&#8212; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">British Dependent Territories citizenship cannot be retained or acquired on or after the relevant date by virtue of a connection with Hong Kong; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">persons who are British Dependent Territories citizens by virtue of any such connection may before that date (or before the end of 1997 if born in that year before the relevant date) acquire a new form of British nationality the holders of which shall be known as British Nationals (Overseas). </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An Order under this paragraph may require applications in respect of the new status mentioned in sub-paragraph (1)(b) above to be made before such time or times as are specified in the Order and may make provision whereby that status is to be held on and after the relevant date only by persons who are British Dependent Territories citizens immediately before that date. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An Order under this paragraph may make provision for the avoidance of statelessness and may contain such supplementary, transitional and consequential provisions as appear to Her Majesty to be necessary or expedient for the purposes of the Order, including provisions amending the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/61" uk:canonical="1981 c. 61" uk:origin="TNA" uk:type="legislation">British Nationality Act 1981</ref> and any other enactment.&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant date is defined by paragraph 1 of the schedule as 1 July 1997.  The Hong Kong (British Nationality) Order 1986 was made under paragraph 2 and came into effect on 1 July 1987. It was amended by the Hong Kong (British Nationality) (Amendment) Order 1993, which as its name suggests served only to make amendments to the 1986 Order with effect from 20 July 1993.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 3 of the 1986 Order as so amended, deals with, as it is headed, the loss of British Dependent Territories citizenship as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Any person who, immediately before 1st July 1997&#8212; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">is a British Dependent Territories citizen by virtue (wholly or partly) of his having a connection with Hong Kong; and (b) but for his having a connection with Hong Kong would not be a British Dependent Territories citizen, shall on that date cease to be such a citizen. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next article deals with the right to acquire the new status of British National (Overseas), again as it is headed, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8212;(1) On and after 1st July 1987 there shall be a new form of British nationality the holders of which shall be known as British Nationals (Overseas).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Any person who is a British Dependent Territories citizen by virtue (wholly or partly) of his having a connection with Hong Kong and who, but for his having a connection with Hong Kong, would not be such a citizen and who applies on or before the relevant date shall be entitled, before 1st July 1997 (or before the end of 1997 if born in that year before that date), to be registered as a British National (Overseas) and to hold or be included in a passport appropriate to that status. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Any person who, having become a British National (Overseas) by virtue of paragraph (2) above, ceases at any time before 1st July 1997 to be a British Dependent Territories citizen shall at the same time cease to be a British National (Overseas). </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An application for registration under paragraph (2) above made after the relevant date may be accepted if the applicant shows that there are special circumstances which justify his being so registered. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where any person is registered (or naturalised) as a British Dependent Territories citizen by virtue (wholly or partly) of his having a connection with Hong Kong, after, or less than three months before, the relevant date, the Secretary of State shall register him as a British National (Overseas) if he applies within three months after the date of his registration (or naturalisation) as a British Dependent Territories citizen. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this article &#8220;the relevant date&#8221; in relation to a person whose year of birth falls within one of the entries in column 1 of the Second Schedule to this Order, means the date shown in the corresponding entry in column 2.&#8230; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The years of birth specified in the last three entries in column 1 are 1992-1995, 1996, and 1997 respectively. The corresponding final dates for receipt of applications for registration are 31 December 1996, 31 March 1997 and 30  September 1997.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 6 makes provision for reducing statelessness:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8212;(1) Where a person ceases on 1st July 1997 by virtue of Article 3 to be a British Dependent Territories citizen and would, but for this paragraph, thereby be rendered stateless, he shall become on that date a British Overseas citizen. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where a person born on or after 1st July 1997 would, but for this paragraph, be born stateless, then, if at the time of the birth his father or mother is a British National (Overseas) or a British Overseas citizen by virtue of paragraph (1) above, he shall be a British Overseas citizen. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person born stateless on or after 1st July 1997 outside the dependent territories shall be entitled, on an application for his  erregistration as a British Overseas citizen made within the period of twelve months from the date of the birth, to be registered as  such a citizen if the requirements specified in paragraph (4) below are fulfilled in the case of either that person's father of his mother (&#8220;the parent in question&#8221;). </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The requirements referred to in paragraph (3) above are&#8212; (a)that the parent in question was a British Overseas citizen by virtue of paragraph (2) above at the time of the birth; and (b)that the father or mother of the parent in question was, immediately before 1st July 1997, a British Dependent Territories citizen otherwise than by descent by virtue of having a connection with Hong Kong or would have been so but for his or her death. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If in the special circumstances of any particular case the Secretary of State thinks fit, he may treat paragraph (3) above as if the reference to twelve months were a reference to six years.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The substantive hearing first came on before me on 15 September 2025 by video link. The claimant represented himself and appeared from the United States of America and the defendant was represented by Mr Biggs. At that hearing Mr Biggs accepted that the relevant order, the 1986 Order as amended, provides in article 4.4 that an application for registration thereunder made after the relevant date may be accepted if the applicant shows that there are special circumstances which justify his being so registered. The essence of his submission was that the claimant&#8217;s application was not for registration, but for a BNO passport. Accordingly, he accepted that no consideration of special circumstances was made in respect of the claimant&#8217;s applications.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This, it seemed to me, is a very important point which may affect many people in similar situations to the claimant. Upon my enquiry, Mr Biggs told me that he was not aware of any decision of the courts, or of the defendant in similar cases, which may be relevant, an answer which I found somewhat surprising. He did refer to the defendant&#8217;s policies and guidance, none of which was in the papers before me. On the form of the application, again upon my enquiry, he seemed to accept that there is no longer a separate form for registration as opposed to an application for a BNO passport. He &#8220;assumed&#8221; that there were separate forms when it was possible to so register, but the claimant maintained that there were not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It seemed to me that to give proper consideration to this important point, the court should be provided with evidence of relevant policy and guidance and as to the proper forms. Accordingly, after discussing with the parties the possibility of adjourning the hearing part heard for this to be done, and no objection being taken, that is the course I adopted. I gave the defendant 14 days to file such evidence and to send copies to the claimant, and the claimant a further 14 days to put in evidence in response if he wished to do so.  This they did.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the defendant, a witness statement dated 29 September 2025 of Dylan Young, a policy advisor in its Nationality Policy Team since 2023, was filed. He refers to and exhibits the defendant&#8217;s guidance in force at the time that he says applications for BNO should have been made by the deadline of 30 June 1997. In relation to forms, that guidance stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;51.2.1</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Acquisition of British National (Overseas) status was by registration at entitlement but, because the person needed to apply simultaneously for a passport in that status, the registration application was incorporated in the passport application. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>51.2.2</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the United Kingdom, an application was, therefore, normally made to Passport Offices: &#8226; on Form BNO-A (adults); or &#8226; on Form BNO-B (child under 16); or &#8226; on Form BNO-CAF (child to be added to an adult BN(O) passport).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for the registration authority it was stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;51.3.1</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Home Secretary was the registration authority but, because the application for registration was made at the same time as the application for a passport, registration in the United Kingdom was effected by the United Kingdom Passport Service not by the Immigration and Nationality Directorate.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Young also states that a central register was maintained by the British Consulate in Hong Kong, of such applications which register he believes was subsequently transferred to the UK. He confirms that no application was then made by or on behalf of the claimant and who thus became a Chinese national because of his Chinese ethnicity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Young refers to the three applications for a BNO passport which the claimant made, one in 2022 and two in 2024. The applications were made electronically via the GOV.UK web portal. He exhibits a blank form. He says that His Majesty&#8217;s Passport Office (HMPO) then checked the Hong Kong application database and there is no evidence of any application being made in respect of the claimant. He also confirms that HMPO have no plans for retrospectively conferring BNO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He exhibits the published Home Office guidance on BNOs, version 46.0, which tells HMPO staff how to process passport applications from a customer who is a BNO. That guidance, which was published on 16 October 2024, states that previous guidance has been updated to explain that digital application processing will issue a British national (overseas) passport when renewing, replacing or changing a BNO passport. It further states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;You must not issue a BN(O) passport to a customer if they cannot provide a genuine passport or there is no trace of their personal details in any of our records. You can only issue a new passport if we can confirm the customer is entitled to a BN(O) passport. If you cannot confirm the customer is entitled to BN(O) status you must refer the application to an appropriately trained person who will deal with the application.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That guidance also referred to the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/34" uk:canonical="1990 c. 34" uk:origin="TNA" uk:type="legislation">British Nationality (Hong Kong) Act 1990</ref>. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/34/section/1/1" uk:canonical="1990 c. 34 s. 1" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> specially selected people from Hong Kong were invited by the Governor of Hong Kong to register as British citizens between 1990 and 1997.  It also referred to the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/20" uk:canonical="1997 c. 20" uk:origin="TNA" uk:type="legislation">British Nationality (Hong Kong) Act 1997</ref> which allowed people who were British only because of their connection to Hong Kong to register as British citizens. An example was given where a person born outside Hong Kong who held British dependent territories citizenship by descent through a parent born in Hong Kong would be registered under that act as a British citizen by descent. Neither party referred to or relied on <ref href="http://www.legislation.gov.uk/id/ukpga/1990/34" uk:canonical="1990 c. 34" uk:origin="TNA" uk:type="legislation">the 1990 Act</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1997/20" uk:canonical="1997 c. 20" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref> in their written or oral submissions before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant replied to that witness statement in a document dated 10 October 2025. He refers to Mr Young&#8217;s evidence that registration as a BNO is tied to an application for a BNO passport and no separate registration certificate would be issued upon successful registration. He says that that appears to be inconsistent with what Mr Biggs submitted at the first hearing that a separate procedure exists for applications for BNO status, and an application could not simply submit a passport application to register as a BNO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant also refers to the provision for applicants who missed their respective relevant dates as set out in the second schedule to register for BNO status under special circumstances. He submits that it follows logically that Parliament considered it reasonable to provide a pathway for minor Hong Kong BDTCs who had missed their respective relevant registration dates to register for BNO status independently upon attaining the age of majority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant further submits that Hong Kong was transferred in 1997 without any consultation with its inhabitants, the majority of whom were British nationals and who overwhelmingly preferred to remain under British administration. Again, he submits that it follows logically that Parliament must be taken to have intended to provide BDTCs who were minors prior to the transfer of sovereignty with an opportunity to retain British nationality and Commonwealth citizenship upon attaining majority, to avoid unfairly depriving them of their rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He further submits that the phrase &#8220;shall on that date cease to be such a citizen&#8217; in the 1986 Order as amended means a BDTC and not BNO, as the latter requires registration and was not conferred by birth in Hong Kong or marriage to a BDTC by virtue of a connection only with Hong Kong. Article 3 of the 1986 Order was made pursuant to the power conferred by paragraph 2(1)(a) 1985 Act and is irrelevant to the acquisition of BNO status.  Article 3(b) refers to persons having a connection with Hong Kong before the relevant date. Such a connection is known more widely locally as permanent resident status and is governed by the Immigration Ordinance (Cap. 115), which remains in force in Hong Kong under Chinese administration. He concluded by saying that he applies not for a mere travel document nor an immigration benefit, but to have recognition for his genuine and rightful identity as a national of a country in which he was born and has always pledged allegiance to. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the resumed hearing, each of the parties made further oral submissions. The claimant submits that it makes no legitimate sense for a child to apply for a passport and that the chronology of two different Orders some seven years apart is important.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf  of the defendant, Mr Biggs submits that upon the cessation of BDTC immediately before 1 July 1997,  the claimant could then only acquire BNO by applying in accordance with article 4(2)-(6) of the 1986 Order for registration as a BNO by being stateless, which he was not, and having automatic BNO under article 6(1). The claimant has not applied for late registration pursuant to Article 4(4) and the challenged decision is not respect of any such an application, but one which refused to issue the claimant a passport as a BNO because he was not a BNO and so was not entitled to a passport.  The reference in that paragraph to special circumstances which justify his being so registered makes clear that there is a discretion as to whether to accept such an application,  but no special circumstances have been shown here given the length of time that has passed after he reached the age of majority in 2012.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his skeleton argument Mr Biggs submits that even now, the claimant has not applied for registration as a BNO. He made it clear that the merits of any such application is not something which this court should consider as part of this present challenge.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although on one view that may be seen as form over substance, I have come to the conclusion that the clear wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/15" uk:canonical="1985 c. 15" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, and the 1986 Order made thereunder, and the guidance to HMPO staff dealing with the claimant&#8217;s application for a BNO passport, means that the decision not to issue a BNO passport to him, becasue he is not registered as a BNO, was one which the defendant was entitled to take. I have some sympathy for the claimant in the position he now finds himself but I accept the defendant&#8217;s submission that this claim is not about the registration of him as a BNO. I further accept that in this challenge it is not appopriate for me to deal with the merits of any such application which he may make, and nothing in this judgment should be taken, one way or the other, as expressing a view as to the outcome of any such application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties should attempt to agree a draft order to reflect the above and file it, together with any written submissons on consequential matters which cannot be agreed, within 14 days of hand down of this judgment. Any such matters will then be determined on the basis of the written submissions.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

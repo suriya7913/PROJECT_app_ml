@@ -1,0 +1,768 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/2798"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/2798"/>
+	  <FRBRdate date="2025-10-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2798"/>
+	  <FRBRname value="Director of Public Prosecutions v Denis Micura"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/2798"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/2798"/>
+	  <FRBRdate date="2025-10-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/2798/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/2798/data.xml"/>
+	  <FRBRdate date="2025-10-29T10:49:08" name="transform"/>
+	  <FRBRdate date="2025-10-29T12:08:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="director-of-public-prosecutions" href="" showAs="DIRECTOR OF PUBLIC PROSECUTIONS"/>
+	<TLCPerson eId="denis-micura" href="" showAs="DENIS MICURA"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-lieven" href="/judge-mrs-justice-lieven" showAs="MRS JUSTICE LIEVEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>2798</uk:number>
+	<uk:cite>[2025] EWHC 2798 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2025-LON-000004</uk:caseNumber>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>30887610fe85ef4c9d2c2421178198ac1ec262da390817db637f9dcf27108d0c</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 2798 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2025-LON-000004</docketNumber></p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEENS'S BENCH DIVISION</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</span></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF AN APPEAL BY WAY OF CASE STATED</docTitle></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-10-28" refersTo="#judgment">28/10/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-lieven">MRS JUSTICE LIEVEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#director-of-public-prosecutions" style="font-weight:bold">DIRECTOR OF PUBLIC PROSECUTIONS</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#denis-micura" style="font-weight:bold">DENIS MICURA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Paul Jarvis KC </span>(instructed by <span style="font-weight:bold">CPS Appeals &amp; Review Unit</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Denis Micura</span> in person for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 14 October 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center"><span style="font-style:italic">This judgment was handed down remotely at 14.30pm on 28/10/2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</span></p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE LIEVEN</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Lieven:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="Heading2"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:initial">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">This is an appeal by way of case stated against the decision of the Cheltenham Magistrates to acquit the Respondent, Mr Denis Micura, of two charges. The appeal is only against the decision on one of the charges</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">The Appellant was represented by Mr Jarvis KC. Mr Micura appeared as a litigant in person. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">On 25 June 2024, Mr Micura was sent a Single Justice Procedure notice charging him with two summary-only motoring offences, namely:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Charge 1 &#8211; Driving, stopping or causing to remain at rest a motor vehicle drawing a trailer in the offside lane of a motorway, contrary to regulation 12(2) of the Motorways Traffic (England and Wales) Regulations 1982, <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/17/4" uk:canonical="1984 c. 27 s. 17" uk:origin="TNA" uk:type="legislation">section 17(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulations Act 1984</ref> and Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Charge 2 &#8211; Failing to give information relating to the identification of the driver of a vehicle when required, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> and Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">The Respondent pleaded not guilty to these offences and stood trial before the justices of the Cheltenham Magistrates&#8217; Court on 18 September 2024.  He was acquitted of both charges at the conclusion of that trial.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">The Appellant (the Director of Public Prosecutions) seeks to appeal by way of case stated against the Respondent&#8217;s acquittal on the second charge.  The question stated by the justices for the opinion of the High Court is:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Was our decision to acquit the respondent wrong in law given the defendant&#8217;s failure</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">to provide details in section C of the notice served upon him?&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman'">The Appellant submits that the answer to that question is &#8216;yes&#8217; and invites the Court</span><span style="font-family:'Times New Roman';color:#000000"> to set aside the Respondent&#8217;s acquittal and to remit his case to the magistrates&#8217; court with a direction that he should be convicted of Charge 2.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Offence</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">Section 172(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> provides as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic">(2)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.8in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Where the driver of a vehicle is alleged to be guilty of an offence to which this section applies &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;margin-left:1.18in;text-indent:-0.49in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The person keeping the vehicle shall give such information as to the identity of the driver as he may be required to give by or on behalf of a chief officer of police&#8230;, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;margin-left:1.18in;text-indent:-0.49in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Any other person shall if required as stated above give any information which it is in his power to give and may lead to identification of the driver.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">Section 172(3)</ref> and (4) provides;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1F1F1F">(3)</num>
+	      <content>
+		<p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;color:#1F1F1F">Subject to the following provisions, a person who fails to comply with a requirement under subsection (2) above shall be guilty of an offence.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1F1F1F">(4)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;color:#1F1F1F">A person shall not be guilty of an offence by virtue of paragraph (a) of subsection (2) above if he shows that he did not know and could not with reasonable diligence have ascertained who the driver of the vehicle was.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Facts</span></heading>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">At around 2 pm on 17 January 2024, a person drove a Renault Master van on the offside lane of the M5 motorway while pulling a trailer.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">That was an offence contrary to </span><span style="font-family:'Times New Roman'">regulation 12(2) of the Motorways Traffic (England and Wales) Regulations 1982, <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/17/4" uk:canonical="1984 c. 27 s. 17" uk:origin="TNA" uk:type="legislation">section 17(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulations Act 1984</ref> and Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">According to records held by DVLA, the registered keeper of that vehicle was a company called Million Rides, with a registered address at 11 Granville Road, Melton Mowbray, Leicester, LE13 0SN.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 18 January 2024, a Notice of Intended Prosecution was sent to the company at that address along with a response form requiring the company to provide the information set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">There was no response to that Notice, and so the police sent a further Notice to the company at the same address on 16 February 2024.  Again, there was no response.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The police investigated and found that the only person who had been insured to drive that motor vehicle on 17 January 2024 was the Respondent, whose home address was the same as the registered address of the company.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent had previously been a registered director of the company, but by the date of the offence on 17 January 2024 he was no longer a director.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The police also discovered that the Respondent had become the registered keeper of the motor vehicle on 28 February 2024 in place of the company. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">By that date (28 February 2024), the company had already been sent two Notices and two response forms at its registered address, which was also the Respondent&#8217;s home address. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 8 March 2024, the police sent a further Notice and response form to the Respondent at his home address in his capacity as the keeper of the vehicle at that time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent did not respond to those documents.  A reminder notice was sent to him at his home address on 8 April 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 17 April 2024, the police received the response form from the Respondent that he had been sent on 8 March 2024. The response form was dated 8 April 2024. The precise content of the form and the responses are important, and I set them out below. On the first page of the letter from the police it states:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">&#8220;BY LAW UNDER SECTION 172 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> YOU ARE REQUIRED TO SUPPLY THE INFORMATION ABOVE WITHIN 28 DAYS OF THE DATE OF THIS NOTICE. THE PENALTY FOR FAILURE TO SUPPLY THIS INFORMATION IS A FINE OF UP TO &#163;1000 AND 6 PENALTY POINTS&#8221; [capitals in original]</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">In Section A, Question 1 reads &#8211; &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Were you the driver at the time of the alleged offence?</span><span style="font-family:'Times New Roman';color:#000000">&#8221;, to which the Respondent had ticked the box &#8216;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">No</span><span style="font-family:'Times New Roman';color:#000000">&#8217;.  The form then required him to complete Sections B and C.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">Section B required the Respondent to tick the relevant box </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">and</span><span style="font-family:'Times New Roman';color:#000000"> fill in Section C. It is entirely clear from the form that Section C must be filled in. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">In Section B, the first box is marked:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;I was not the driver at the time of the alleged offence.  Details of the driver are provided below.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">(Now complete Section C with the new driver details)</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent did not tick that box.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The third box in Section C is marked</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;At the time of the alleged offence I was not the owner / keeper.  I had sold / purchased / disposed / returned the vehicle before / after the alleged offence.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">(Now complete Section C with details of the new keeper / previous keeper)</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">Beneath those words, next to the words &#8220;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Date of Sale / Purchase</span><span style="font-family:'Times New Roman';color:#000000">&#8221;, the Respondent wrote &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">28 02 2024</span><span style="font-family:'Times New Roman';color:#000000">&#8221;.  He then signed Section B and dated it 8 April 2024. I note that there is no requirement on the form to delete the parts of the sentence above that do not apply. There is therefore some potential for confusion by the police as to exactly what is being stated. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent left Section C blank.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 17 April 2024, the police sent a further Notice and response form to the Respondent at his home address. That letter read as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">I write in reference to your responses to the above numbered notice where you have stated that you sold this vehicle on 28.02.24.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The offence date is prior to this sale, therefore, you are required to give driver details on the enclosed form.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">I enclose a copy of the photographic evidence to assist</span><span style="color:#000000">.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">It appears that the police were under the mistaken impression that the Respondent had stated in his response that he had </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">sold</span><span style="font-family:'Times New Roman';color:#000000"> the vehicle on 28 February 2024, and thus that he had been the keeper of the vehicle on 17 January 2024 and in a position to identify the driver on that date.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">However, the Respondent actually meant that he had </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">purchased</span><span style="font-family:'Times New Roman';color:#000000"> the vehicle on 28 February 2024 and hence that he had not been the keeper of the vehicle on 17 January 2024. This was despite the fact that he had been the only person insured to drive the vehicle on that date.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 26 April 2024, the Respondent sent to the police another version of the response form he had completed on 8 April 2024.  The information in that form was the same as the information in the form dated 8 April 2024, only this time the form bore the date 26 April 2024.  The police received that reply on 29 April 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 22 May 2024, the police sent a further Notice and response form to the Respondent, again asking him to identify the driver from 17 January 2024.  The Respondent did not reply to that letter.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Trial</span></heading>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">At the trial, the justices found that the Respondent had not complied with the statutory requirement to identify the driver of the vehicle on 17 January 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent gave evidence at the trial.  He told the court he is Lithuanian but that he has no difficulties understanding or reading English. I note that when the Respondent appeared before me it was clear that his English was excellent, and he fully understood both what was said and the nature of the proceedings. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">He explained to the Magistrates that as of 17 January 2024, his mother-in-law was a director of the company.  She lived in Leicester, and she was the keeper of the motor vehicle.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">When he received the Notice and response form in the name of the company, the Respondent said that he sent them to his mother-in-law for her to complete. I note that the covering letter from the police states; </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">&#8220;ONLY THE ADDRESSEE MUST COMPLETE THE DETAILS OVERLEAF. DO NOT PASS THIS FORM TO ANOTHER PERSON.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">As the recipient of this form you must fully complete section A of the form overleaf and section B and C if required.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent said he forgot to reply to the first Notice and response form that was addressed to him at his home address.  He said he did reply to the reminder letter.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent&#8217;s account was that he had spoken to his mother-in-law and asked her who the driver of the motor vehicle had been on 17 January 2024.  She told him that she did not know.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent said that he had not been the driver of the motor vehicle on 17 January 2024 and that the person in the photograph he had been sent by the police was not him.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The Respondent said he did not know who had been driving the motor vehicle on 17 January 2024 and he did not believe that his mother-in-law could recall either.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">He said that he did not include his mother-in-law&#8217;s details on the response form because he did not believe that she had been driving the motor vehicle on 17 January 2024 and, in any event, he believed the police must have known that she had been the keeper of the vehicle at that time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The justices found the Respondent not guilty on Charge 1 on the basis that he denied being the driver of the motor vehicle on 17 January 2024 and the photographic evidence was inclusive as to the identity of the driver.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000">The justices also found the Respondent not guilty on Charge 2. At paragraph 6(d) of the stated Case, when dealing with the law, they referred to;</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the defence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref>, where a person shall not be guilty of an offence by virtue of (a) of subsection (2) above if he shows that he did not know and could not with reasonable diligence have ascertained who the driver was.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';color:#000000"> Their reasons for the acquittal, as set out in the stated Case, included; </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;7(c)&#8230;he was not responsible for the vehicle at the time of the offence, and covered due diligence by trying to ID the vehicle and trying try (sic) to get his mother-in-law to respond and provide the information, however the mother-in-law did not provide this to the respondent.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">7(d) The defendant could not therefore have completed Part C of the form&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Submissions</span></heading>
+	  <paragraph eId="para_45">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Mr Jarvis submits that as at the date of the alleged offence, 17 January 2024, the registered keeper of the vehicle was the company Million Miles. The Justices found as a fact that the actual keeper was the Respondent&#8217;s mother in law. It follows that the Respondent was not the keeper at the relevant date. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Respondent denied being the driver of the vehicle and denied being able to identify the driver. The Justices accepted this as a fact. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Therefore the obligation upon the Respondent arose under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">RTA 1988</ref>, &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Where the driver of a vehicle is alleged to be guilty of an offence to which this section applies&#8230;.(b) any other person shall if required as stated above give any information which it is in his power to give and may lead to identification of the driver&#8221;</span><span style="font-family:'Times New Roman';color:#000000">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">On the Notice of Intended Prosecution, it was made completely clear that if the recipient of the Notice, here the Notice of 8 March 2024, denied being the driver then they had to complete Sections B </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">and </span><span style="font-family:'Times New Roman';color:#000000">C of the Notice. The box that the Respondent ticked in Section B expressly states, </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">&#8220;Now complete Section C with details of the new keeper/previous keeper&#8221;</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">(the bold type is in the Notice itself). Therefore, the form is clear that if, as was the case here, the recipient of the Notice purchased the vehicle after the alleged offence, they must provide the details of the previous keeper &#8211; here the mother in law. The Respondent failed to do that. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Even assuming the Respondent believed that his mother in law was not the driver and did not know who the driver was, that is irrelevant. The legal obligation was to name the previous keeper. If that had been done the police would then have been able to serve a fresh Notice on that person. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Respondent failed to comply with the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(b) and was thus guilty of an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(3)</ref>. The defence in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> is not available to him because that only applies to an offence by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a), i.e. where the person &#8220;keeping the vehicle&#8221; fails to give information as to the identity of the driver. In this case the Respondent was not the person keeping the vehicle at the time of the offence, and therefore this falls within subsection (b), not (a), of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> defence does not arise. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Mr Jarvis submits that the reference in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) to the &#8220;person keeping the vehicle&#8221; must be to the time of the alleged offence, rather than a subsequent keeper who received the Notice. It would make no sense for a subsequent keeper, who might well have no knowledge of the driver but would necessarily know the identity of the previous keeper, to be able to avail themselves of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> defence if they failed to identify the previous keeper. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">This analysis is supported by </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">DPP v Grant</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2001/1114" uk:canonical="[2001] EWHC 1114 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC Admin 1114</ref> at [19]-[21] where the Court said;</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic">&#8220;19.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Third, the power to provide information is not something which can be regarded as other than an ingredient of the offence. If the phrase &#8220;information which it is in his power to give&#8221; does not require some proof on the part of the prosecution, those words might as well not be in the statute. They are there for a purpose. But that purpose is satisfied in the case of a person who produces no return at all or produces a blank one in this way: everyone has the power without further or specific proof to provide the minimal information &#8220;I do not know who the driver was; I know nothing of this vehicle&#8221;. That is information which satisfies the statutory requirement. It is information which it is in that person's power to give, and which may lead to the identification of the driver. That may happen in a number of ways. It may lead to the identification of the driver by elimination; it may lead to the identification of the driver through the process of showing that there has been an error through a random selection; it may mean that the police refocus their inquiries and retrace their steps over the information which has been given. In that way, an answer which says &#8220;I know nothing of the car and I have no connection with it&#8221; is both information which it is within the power of any person to give as a minimum and information which may lead to the identification of the driver. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">20.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">If the answer comes back, pursuant to the requirement, in the way which I have suggested might be regarded as the minimum information, it would then be incumbent on the prosecution, if they wished to make out an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(3)</ref>, to demonstrate that the defendant had the power to give more information than had been given; or it would be incumbent on the prosecution to prove that that asserted absence of knowledge was untrue. In that way, again, the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(b) are given effect. It is an ingredient of the offence that there be information which it is in the power of the defendant to give, and it would be incumbent on the prosecution to prove it. But they do so in a case where the form is returned blank or returned not at all by simply pointing to the fact that every person has the power to give that minimum of information to which I have referred. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">21.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">I should just add that it is important in construing this provision to recognise that the specific defence in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(4)</ref> does not apply to &#8220;any other person&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(b). There is a reason for that. It is because &#8220;any other person&#8221; does indeed have the power to provide the minimum information to which I have referred. Accordingly, there is no need for that specific defence to be provided as a general defence for all those who are the recipients of a notice for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(b). The keeper however is required under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(a) to provide information which the police may specify; accordingly, a defence is necessary to cover his inability to provide it. But in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(b) no such defence is provided because every other person is able to provide a minimum of information, even if negative in form. That is the reason, in my judgment, for the distinction in terms of defence between the two provisions.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Therefore, the Respondent, not being the keeper at the relevant time, could not be expected to identify the driver, but would be expected to hold other &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">information&#8221;</span><span style="font-family:'Times New Roman';color:#000000"> which &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">may lead to identification of the driver</span><span style="font-family:'Times New Roman';color:#000000">&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Mr Micura was a litigant in person. He produced at the hearing short written submissions which he freely accepted had been in part written by Chat GPT. Those submissions referred to three cases. It transpired after some investigation by the Court and Mr Jarvis that one of those cases was cited as being in the Court of Appeal but was actually a decision of Moses J in the High Court. The second had the wrong reference but did appear to be a genuine case. The third did not appear to exist. This is an example of the extreme caution that needs to be exercised when receiving submissions from a litigant in person, which purport to refer to previous authorities. I should make it clear that I have no reason to believe that the Respondent knew the cases were either &#8220;fake&#8221; or with the wrong references, he had simply relied on Chat GPT. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Mr Micura submits that he had responded truthfully to the Justices that he did not know who the driver was and had passed the Notices on to his mother in law. He had acted with due diligence, as the Justices had found.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">He said that the police had issued their Notices on the false assumption that he was the keeper of the vehicle at the time of the offence. Therefore, he was not correctly identified under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) or (b). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">He said that he had done everything that he reasonably could have done to give the police the information required. The Magistrates findings were open to them and there was no error of law in their conclusions. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I note that some of the Respondent&#8217;s submissions were simply wrong, presumably because Chat GPT had not merely made up the cases but mis-stated what the genuine cases said. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Conclusions</span></heading>
+	  <paragraph eId="para_59">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">In my view the Magistrates erred in law in two respects. Firstly, they applied the defence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> even though that only applies where the Respondent was &#8220;the person keeping the vehicle&#8221; at the time of the offence. Secondly, they appear to have considered that the only obligation on the Respondent was to name the driver, and once they had accepted that he could not do that, he was not guilty of the offence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The person keeping the vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) is not defined, nor is the &#8220;keeper&#8221; in the Notice of Intended Prosecution. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/10" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">Section 172(10)</ref> defines the &#8220;registered keeper&#8221; as the person registered under the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/22" uk:canonical="1994 c. 22" uk:origin="TNA" uk:type="legislation">Vehicle Excise and Registration Act 1994</ref>, in practice the person named on the DVLA form V5C. However, that person (whether real or legal) might in practice not have day-to-day knowledge of the vehicle. As Mr Jarvis submitted, the registered keeper could go away and leave the vehicle with a third party for a prolonged period. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">Section 172(2)</ref>(a) must deliberately be referring to the actual keeper rather than merely the registered keeper, or it would use the terminology later in the same section of &#8220;registered keeper&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000"> The purpose of the statutory provision appears to be that the person who has day-to-day care and control over the vehicle might be reasonably expected to know the identity of the driver and therefore is the person referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I accept Mr Jarvis&#8217;s submission that the reference to the person keeping the vehicle in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) must be to the person keeping the vehicle at the date of the offence. Firstly, a subsequent keeper on whom a Notice was served could not generally be expected to know who the driver was before they became the keeper. So it is a more natural and purposive interpretation of the words that it be the keeper at the time of the offence. Secondly, the defence in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> and its restriction to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) cases makes little sense if a subsequent keeper can be availed of it, even when they know the identity of the previous keeper, but do not know the identity of the driver. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Therefore, in my view <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(a) applies to the person who was the keeper at the time of the offence and therefore does not apply to the Respondent in the present case. The consequence of that is that the Justices were wrong to allow the Respondent to rely on the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(4)</ref> defence, because that did not apply to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>(b) cases.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">In </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Mohindra v DPP</span><span style="font-family:'Times New Roman';color:#000000"> [2004] EWHC 490 Moses J was dealing with an argument that there were two separate offences under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">s.172(2)</ref>, he said at [14]</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;I conclude that <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(3)</ref> creates only one offence and the information need do no more than allege an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/3" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(3)</ref>. Where a defendant asserts, in response to the information, that he is not the keeper of the vehicle at the time of the alleged offence, the prosecution will be required to prove that the information which he has failed to give was information which was in his power to give and which may lead to identification of the driver. Where the defendant asserts that he was the keeper, the prosecution need do no more than prove the failure to respond, leaving the defendant, if he wishes, to prove the defence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(4)</ref>. Where the defendant is silent the prosecution need do no more than prove the absence of any response. Whether the failure to comply with the requirement is a breach of an obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/2" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(2)</ref>(a) or (2)(b) is not an issue unless and until the addressee asserts that he is not the keeper or, as a keeper, seeks to rely on the defence under (4). The precise nature of the obligation which it is alleged has been breached is simply not material in the case of one who remains silent.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">In relation to the registered keeper, he said at [11];</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;The obvious purpose of the legislation is to discover information about an alleged offending driver. It is plain that until an addressee responds to the requirement to give information, the enquirer cannot know whether the addressee is the keeper or not. The most that may be discovered is the identity of the registered keeper. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">Section 172</ref> draws a distinction between one who keeps the vehicle and one who is merely the registered keeper (see <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/10" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(10)</ref>). One who keeps the vehicle is presumed to know the information required unless he proves otherwise (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/172/4" uk:canonical="1988 c. 52 s. 172" uk:origin="TNA" uk:type="legislation">section 172(4)</ref>). One who is merely a registered keeper is not presumed to have such information, and the prosecution must prove that the information is in his power to give (see as to the different burdens of proof Blackstone 2004 C2.15).&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Although not directly on the same point, it appears to me that these passages support the analysis above. Moses J proceeds on the assumption in [14] that the keeper is the person who keeps the vehicle at the date of the offence. In [11] the distinction between the registered keeper and the actual keeper suggests that the test is one of who has care and control of the vehicle. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Justices appear to have entirely focused on whether the Respondent could identify the driver of the vehicle. However, it is apparent from the Notice that the obligation on the Respondent was to identify the previous keeper. This is made very clear from the words in Section B and the requirement to complete Section C as well as Section B. The Respondent undoubtedly knew the name of the previous keeper but failed to complete that part of the form. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I do not accept the Respondent&#8217;s argument that the police knew who the registered keeper was, and they should have sought information from his mother in law as one of the directors of the company. The obligation on the Respondent was to reply correctly to the information required by the Notice. Whether or not the police had other routes of investigation is irrelevant to the offence. Similarly, the fact that the police had assumed from his response to the form that he had sold the vehicle, rather than purchased the vehicle, does not change the information that was required. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I do not consider that the form itself is ambiguous and would have required the Respondent to speculate as to what information was required. Box B, as set out above, is quite clear that if the recipient is the present keeper but was not the keeper at the time of the alleged offence, the previous keeper must be identified in Section C. There is express reference to </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;details of&#8230;previous keeper&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Therefore, I find that the Appellant is correct that the Magistrates erred in law in finding the Respondent not guilty of charge 2. On the facts as found the Respondent must have been so guilty and I therefore set aside the acquittal and remit the case with a direction that the Magistrates find the Respondent guilty of charge 2.  2. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

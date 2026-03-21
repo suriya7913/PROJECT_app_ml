@@ -1,0 +1,320 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/978"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/978"/>
+	  <FRBRdate date="2025-07-04" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="978"/>
+	  <FRBRname value="R v Shane Smith"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/978"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/978"/>
+	  <FRBRdate date="2025-07-04" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/978/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/978/data.xml"/>
+	  <FRBRdate date="2025-07-24T09:48:49" name="transform"/>
+	  <FRBRdate date="2025-07-24T10:49:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-07-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rex" href="" showAs="REX"/>
+	<TLCPerson eId="shane-smith" href="" showAs="SHANE SMITH"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lady-justice-andrews" href="/judge-lady-justice-andrews" showAs="LADY JUSTICE ANDREWS"/>
+	<TLCPerson eId="judge-mrs-justice-cutts" href="/judge-mrs-justice-cutts" showAs="MRS JUSTICE CUTTS"/>
+	<TLCPerson eId="judge-his-honour-judge-hirst" href="/judge-his-honour-judge-hirst" showAs="HIS HONOUR JUDGE HIRST"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>978</uk:number>
+	<uk:cite>[2025] EWCA Crim 978</uk:cite>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>38802f7a38476312a71728fdb5d4d5f51025a1eca41aba1f694b16a8c6a80ac9</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .Header { font-family: 'Times New Roman'; }
+#judgment .Footer { font-family: 'Times New Roman'; }
+#judgment .Fixed { margin-right: 0.51in; font-family: 'Times New Roman'; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; }
+#judgment .FooterChar { font-family: 'Times New Roman'; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><span style="font-weight:bold;font-size:10pt">This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.</span></p>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <table uk:widths="4.6in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">Neutral Citation No  </span><span style="font-weight:bold;font-family:Arial;font-size:9.5pt;color:#000000">&#160;</span><neutralCitation style="font-weight:bold;font-family:Arial;font-size:9.5pt;color:#000000">[2025] EWCA Crim 978</neutralCitation></p>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CROWN COURT AT LUTON</span></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">HER HONOUR JUDGE DHALIWAL-THOMAS) </span></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">40AD1709823 </span></p>
+	    <p style="margin-left:-0.07in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Case No:</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:14.5pt;color:#0B0C0C;background-color:#FFFFFF"/><span style="text-decoration-line:underline;text-decoration-style:solid"/><span style="text-decoration-line:underline;text-decoration-style:solid;color:#0B0C0C">202402030 A3</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Royal Courts of Justice</span></p>
+      <p style="text-align:right">Strand</p>
+      <p style="text-align:right">London</p>
+      <p style="text-align:right">WC2A 2LL</p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><docDate date="2025-07-04" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid">Friday 4 July 2025</docDate></p>
+      <p style="text-align:center">Before:</p>
+      <p style="text-align:center"><judge refersTo="#judge-lady-justice-andrews" style="text-decoration-line:underline;text-decoration-style:solid">LADY JUSTICE ANDREWS</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mrs-justice-cutts" style="text-decoration-line:underline;text-decoration-style:solid">MRS JUSTICE CUTTS </judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-hirst" style="text-decoration-line:underline;text-decoration-style:solid">HIS HONOUR JUDGE HIRST</judge></p>
+      <p style="text-align:center"><party as="#before-the-v" refersTo="#rex">REX</party></p>
+      <p style="text-align:center">v</p>
+      <p style="text-align:center"><party as="#after-the-v" refersTo="#shane-smith">SHANE SMITH</party></p>
+      <p style="text-align:center">__________</p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Computer Aided Transcript of Epiq Europe Ltd, </span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Lower Ground, 46 Chancery Lane, London WC2A 1JE</span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Tel No: 020 7404 1400; Email: rcj@epiqglobal.co.uk (Official Shorthand Writers to the Court)</span></p>
+      <p style="text-align:center">_________</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR LAURENCE HARRIS</span> appeared on behalf of the Appellant</p>
+      <p style="text-align:center">_________</p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LADY JUSTICE ANDREWS:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The appellant is a career burglar whose offending is linked to substance abuse. On 3&#160;May&#160;2024 in the Crown Court at Luton he was sentenced by Her Honour Judge Dhaliwal-Thomas to a&#160;total of 11&#160;years' imprisonment for six offences of burglary (with two other burglaries taken into consideration), robbery, theft, aggravated vehicle taking, handling stolen goods, dangerous driving and two related summary offences under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/37/section/51/11" uk:canonical="1998 c. 37 s. 51" uk:origin="TNA" uk:type="legislation">section&#160;51(11)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/37" uk:canonical="1998 c. 37" uk:origin="TNA" uk:type="legislation">Crime and Disorder Act 1998</ref>, namely taking a&#160;motor vehicle without the owner's consent and driving without insurance.  He had pleaded guilty to all these offences on two earlier occasions, and he was afforded credit of 25% across the board.  He appeals against sentence by leave of the single judge on the sole ground that the judge misapplied the Totality guideline. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The appellant was 40&#160;years old at the time of sentence.  He had 18 previous convictions for 67 offences over a&#160;period from 1999 to 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The offences for which he was being sentenced on this occasion were committed during what could aptly be described as a&#160;crime spree between 6&#160;November&#160;2023 and 18 December 2023.  At the time of this offending, he was subject to the licence period of a 6-year custodial sentence imposed in September 2020 for a&#160;series of burglary offences.  He had been released into a&#160;hostel on 20&#160;June&#160;2023.  He was recalled to prison to serve the remainder of that sentence, which comes to an&#160;end on 31 July 2026.  His most recent convictions have been in 2022, for three dwelling burglaries and assaulting an&#160;emergency worker.  He was subject to the 3-year mandatory minimum sentence provisions as a third-strike burglar.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The judge sentenced without requiring a&#160;pre-sentence report, although she did have the benefit of a&#160;Response to Supervision report from a&#160;senior probation officer, which we have also read. This indicated that following his release on licence, the appellant had been engaging with the relevant agencies including a&#160;drug misuse agency, and that he had complied with the conditions of his licence for a&#160;time, but that his behaviour had deteriorated in the weeks prior to his recall, for reasons which the author of the report had yet to ascertain.  The judge accepted that he had returned to drugs and that this addiction was so severe that on two separate occasions he was admitted to hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">It is unnecessary for this court to order a&#160;pre-sentence report for the purposes of determining this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">There is no need to rehearse the facts in any detail.  All the dwelling-house burglaries fell into category B1.  Most took place at night.  On one occasion the homeowner was in the premises when the burglary took place.  At around 11.30 pm she was confronted in her bedroom by the appellant.  She challenged him, and fortunately on that occasion he ran off without stealing anything.  On other occasions he stole items of great sentimental value, or work tools or Christmas presents, or took vehicles which were then recovered but found to be damaged&#160;- in the case of a&#160;motorcycle, damaged beyond repair.  Some of the items were subsequently recovered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The starting point for a&#160;single B1 burglary is 2&#160;years with a&#160;range of 1 to 4&#160;years, but of course the appellant was subject to the minimum sentence provisions and therefore the judge could not have passed a&#160;sentence of less than 3&#160;years for any single count of burglary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The robbery was a&#160;category A3 offence under the guideline for street and less sophisticated commercial robberies. On 9&#160;December&#160;2023 the complainant, Mr&#160;Grocott, found the appellant and a&#160;female accomplice trying to steal his van from a&#160;car park.  The appellant was in the driver's seat attempting to start the van and his accomplice was outside the van holding on to the driver's door.  When he confronted them, the appellant got out of the van, punched Mr&#160;Grocott in the face, and stabbed him in the upper arm with a&#160;screwdriver he had taken from the van, after initially aiming the blow at his chest.  The blow was forceful enough to penetrate two layers of clothing protecting Mr&#160;Grocott's arms, and it is fortunate that his injury was not more serious than it was.  After the appellant and his accomplice ran off, Mr&#160;Grocott discovered that some items had been stolen from the van, including an&#160;iPad and a&#160;pair of Bose speakers.  The inside of the van had also been damaged. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">Category A3 has a&#160;starting point of 4&#160;years' imprisonment and a&#160;range of 3 to 6&#160;years.  However, there were numerous aggravating features, including the appellant's litany of previous convictions.  We note amongst his antecedents that he had received 5&#160;years and 6 months' imprisonment for three robberies, albeit that those offences were committed back in 2002. The current offence was committed whilst he was out on licence; he assumed a&#160;leading role in group activity; and the circumstances involved a&#160;punch to the victim's face, followed by a&#160;lunge with a&#160;screwdriver at the victim's chest before contact was made with his arm.  The notional sentence after trial should have been very much higher than the 4-year starting point if this offence had been taken in isolation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The aggravating vehicle taking and dangerous driving arose out of the theft of another vehicle, a&#160;Mitsubishi Space Star.  The owner reported the theft on 10&#160;December&#160;2023 (that was the day of the robbery).  Two days later, on 12&#160;December, two plain clothes police officers in an&#160;unmarked car saw the appellant in the stolen vehicle which was parked by the side of the road.  He was in the driver's seat and there was a&#160;female in the front passenger seat.  One of the officers recognised the appellant as someone they wished to question in connection with multiple burglaries.  As they came alongside the stolen vehicle it sped off on to a&#160;road called Potton Road, where it both overtook and undertook other vehicles at high speed.  The appellant also drove along the footpath for a considerable period of time, narrowly missing a&#160;pedestrian as the car mounted the pavement.  This can be seen from the CCTV footage.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The officers alerted traffic police to assist them in stopping the vehicle. In the course of the ensuing pursuit the stolen vehicle was driven on the wrong side of Potton Road and hit a Hyundai car as it was attempting to turn right at a junction, causing so much damage that it was written off by the owner's insurers. The owner (who was driving that car) was fortunately uninjured but she had to find a&#160;replacement vehicle as she needed a&#160;car for her job.  The appellant sped off after that collision.  Further down the road the stolen vehicle collided with a&#160;learner motorcyclist, knocking him off his bike and injuring his foot.  The incident has caused that cyclist considerable anxiety about driving any vehicle on a&#160;road again.  Shortly after the second collision the appellant crashed the stolen Mitsubishi into a&#160;fence.  The appellant then ran off, leaving the female passenger in the crashed car.  Stolen items were found in the vehicle, some of which had been stolen during the domestic burglaries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">There is no specific sentencing guideline for aggravated vehicle taking, but it was accepted by the defence that the dangerous driving offence fell into category A1 because the driving caused both an&#160;injury and property damage.  That category has a&#160;starting point of 18 months and a&#160;range of 1 to 2&#160;years - 2&#160;years being the maximum available sentence for this offence.  Disqualification for a&#160;period of at least 1 year is obligatory, as is a&#160;compulsory extended retest unless the offender is already serving a period of disqualification which requires the taking of such a&#160;test, as it now transpires the appellant was.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The judge decided to treat one of the burglaries (count 1, where the householder was confronted in her home late at night) as the lead offence and to treat the other burglaries as aggravating features.  She imposed a&#160;sentence of 7&#160;years' imprisonment on that and the remaining dwelling-house burglaries, all to run concurrently.  That was the equivalent of a notional sentence after trial of 9&#160;years 4 months before giving credit for the guilty plea.  Those sentences were to run concurrently.  She then imposed a&#160;consecutive sentence of 3&#160;years' imprisonment on the robbery (count 5) and a&#160;further consecutive sentence of 1 year on count 8 (the aggravated vehicle taking) with a&#160;1-year sentence on the dangerous driving offence running concurrently to that sentence.  She imposed shorter concurrent sentences or no separate penalty on all the other charges.  The total sentence was therefore one of 11&#160;years' imprisonment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The judge also ordered that the appellant be disqualified from driving for a&#160;period of 5&#160;years and ordered him to take a mandatory retest. Subsequently, at a&#160;slip rule hearing, the judge indicated it was not her intention that the period of disqualification should run whilst the appellant was still in custody.  She directed that there should be 5&#160;years' disqualification plus an extension of 5-and-a-half years under what she said was <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.  That aspect of the sentence was wrongly structured, and we will deal with it after consideration of the merits of the substantive appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">On behalf of the appellant, Mr&#160;Harris contends that the judge erred in a&#160;number of ways, offending against the Totality guideline, resulting in a&#160;sentence which was manifestly excessive.  He pointed to the fact that the burglary offences which were taken as the lead offences were sentenced at a&#160;very high level.  He submitted that if one then added consecutive sentences for the robbery and the dangerous driving and aggravated vehicle taking, it pushed the length of the sentence beyond a&#160;limit which was just and proportionate to the overall offending.  He pointed out that the judge did not appear to have stood back, having looked at the sentences overall, and asked herself whether or not the overall sentence was just and proportionate.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">Mr Harris submitted that as a&#160;matter of principle the robbery offence did not comfortably sit within the examples that are given in the sentencing guidelines of situations in which it would be apposite to mark the separate criminality by a&#160;consecutive as opposed to a&#160;concurrent sentence. He also drew our attention to the fact that Mr&#160;Smith is incarcerated for a&#160;very long time, and that there is cyclical offending because he comes out of prison and then gets into the same old bad habits of taking drugs and then committing criminal offences of this nature in order to fund his addiction.  But that point does not really affect the totality of the sentence, because Mr&#160;Smith was looking at a&#160;lengthy period of incarceration in any event, and if he really is motivated to deal with his addiction there are opportunities to do so within the prison environment.  That cannot be a&#160;matter which affects the question of whether this sentence was just and proportionate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">It is fair to say that another judge might well have structured the sentencing differently, particularly given that the robbery was clearly the most serious of all these offences and on the face of it the most obvious candidate to choose as the lead offence.  However, as a&#160;matter of principle there was nothing wrong with imposing consecutive sentences in respect of the robbery and the aggravated vehicle taking/dangerous driving provided that there was an&#160;appropriate adjustment to the overall tariff to reflect totality.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">These were not part of a&#160;series of offences of the same or similar kind.  Although they took place during the same overall period of offending and there was an&#160;element of acquisitive crime involved, they were offences with very different and distinctive characteristics and different victims.  In the case of the robbery, we have already identified the main aggravating features: the appellant had an accomplice, though he plainly took the lead role in the offending; he deliberately inflicted violence on the owner of the van he was attempting to steal when he need not have done so; he did so using a&#160;weapon he had taken out of the van for that purpose.  In the case of the aggravated vehicle taking and dangerous driving, the appellant's wish to evade apprehension led him to behave with reckless disregard for the safety of other road users and pedestrians; serious damage was caused to a&#160;car and a&#160;motorbike; there was personal injury to a motorcyclist; and the overall criminality was exacerbated by the prolonged period of erratic dangerous driving which posed a serious risk to members of the public. The appellant's driving also put the safety of his female passenger at risk. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The principle of totality is that the overall sentence should reflect all of the offending behaviour, and be just and proportionate.  This was plainly very serious offending which merited a&#160;significant sentence in the context of the appellant's bad record.  Standing back and looking at the overall sentence of 11 years, which is the equivalent of a&#160;notional sentence after trial of 14&#160;years and 8 months, we consider that regardless of how it was structured, for offending of this prolific nature by someone with this appellant's appalling record, with multiple victims and little by way of mitigation, the overall sentence cannot be said to be disproportionate or unjust.  For those reasons the appeal is dismissed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">There are some further matters that we need to deal with.  The Registrar has pointed out that whilst an&#160;offence of dangerous driving requires the court to impose a disqualification until an&#160;extended driving test is passed (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/36" uk:canonical="1988 c. 53 s. 36" uk:origin="TNA" uk:type="legislation">section&#160;36</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>) <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/36/7" uk:canonical="1988 c. 53 s. 36" uk:origin="TNA" uk:type="legislation">section&#160;36(7)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">that Act</ref> prevents the court from making such an&#160;order whilst an&#160;appellant is so disqualified.  In this case he was disqualified for dangerous driving in 2020 for a&#160;period of 6&#160;years, so that disqualification was in force as at the date of sentencing.  Accordingly, the order that was made under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/36" uk:canonical="1988 c. 53 s. 36" uk:origin="TNA" uk:type="legislation">section&#160;36</ref> was unlawful because it duplicates the existing requirement that he pass such a&#160;test (to which, for the avoidance of doubt, he remains subject: see <span style="font-style:italic">R&#160;v Anderson</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/3060" uk:canonical="[2013] EWCA Crim 3060" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Crim 3060</ref>).  We therefore direct that the Crown Court record be amended to delete references to the requirement to pass an&#160;extended driving test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">Moreover, even after the slip rule hearing, it appears that the disqualification imposed was not pronounced or recorded in accordance with the guidance in <span style="font-style:italic">R&#160;v Needham &amp; Ors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2016/455" uk:canonical="[2016] EWCA Crim 455" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Crim 455</ref>.  This was a&#160;case to which both <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> applied, the latter both because at the time of sentencing a&#160;custodial sentence imposed on the appellant on an&#160;earlier occasion had not expired, and because the court was proposing to impose a custodial sentence on him for other more serious offences as well as a&#160;custodial sentence on him for the offences of driving which mandated a&#160;minimum period of disqualification.  This is a&#160;situation (C) case in [28] of <span style="font-style:italic">Needham</span>.  It is also a&#160;situation (D) case because the appellant has been recalled to custody for earlier offences and would not be released from that sentence until July&#160;2026 as we have already mentioned. The judge should have confined the use of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A to identifying the appropriate extension period by reference <span style="font-style:italic">only</span> to the motoring offences.  She should have identified the appropriate discretionary period of disqualification, the extension period pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A(4) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> and any uplift to the discretionary period pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>B.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">In this case the driving disqualification was imposed in respect of the offences of aggravated vehicle taking and dangerous driving (on which the sentences passed are of 1 year's imprisonment to run concurrently) as well as in respect of the two <ref href="http://www.legislation.gov.uk/id/ukpga/1998/37/section/51" uk:canonical="1998 c. 37 s. 51" uk:origin="TNA" uk:type="legislation">section&#160;51</ref> offences for which there was no separate penalty.  The extension period under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A was therefore 6 months.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">In order to achieve the judge's intention that the appellant should serve a&#160;period of disqualification of 5&#160;years after his release from custody, the sentences should have been expressed differently, but in fact that cannot be achieved in practical terms because we cannot restructure the sentence to take account of the fact that, because he will be serving sentences of more than 4&#160;years, the appellant will not be released after serving only half his custodial sentences. We cannot restructure in that way without contravening <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/11/3" uk:canonical="1968 c. 19 s. 11" uk:origin="TNA" uk:type="legislation">section&#160;11(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1968</ref>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in">The period of disqualification articulated by the judge at the slip rule hearing can be reflected by restructuring without contravening that section in the following way:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.5in;margin-right:0.01in;text-indent:0in">In accordance with <span style="font-style:italic">Needham</span>, the disqualification is for 10&#160;years and 6 months, comprising an initial discretionary disqualification of 5&#160;years, an&#160;extension period of 6 months under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>A, and a&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>B adjustment to the discretionary period of 5&#160;years.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="text-align:justify;margin-left:0.75in;margin-right:0.01in;text-indent:-0.25in">We direct that the Crown Court record be amended accordingly.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold">Epiq Europe Ltd</span> hereby certify that the above is an accurate and complete record of the proceedings or part thereof. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Lower Ground Floor, 46 Chancery Lane, London, WC2A 1JE</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Tel No: 020 7404 1400  Email:  Rcj@epiqglobal.co.uk</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,760 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/394"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/394"/>
+	  <FRBRdate date="2026-02-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="394"/>
+	  <FRBRname value="Malcolm Richards v The Parole Board of England and Wales"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/394"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/394"/>
+	  <FRBRdate date="2026-02-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/394/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/394/data.xml"/>
+	  <FRBRdate date="2026-02-25T12:23:44" name="transform"/>
+	  <FRBRdate date="2026-02-25T12:51:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="malcolm-richards" href="" showAs="Malcolm Richards"/>
+	<TLCPerson eId="the-parole-board-of-england-and-wales" href="" showAs="The Parole Board of England and Wales"/>
+	<TLCPerson eId="secretary-of-state-for-justice" href="" showAs="Secretary of State for Justice"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>394</uk:number>
+	<uk:cite>[2026] EWHC 394 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2025-CDF-000141</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>e32845c4656b49f7463b74c3ebc894746644aaab6513028d26d9f5aedfc0f95d</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: Arial; font-size: 12pt; color: #2F5496; }
+#judgment .EndnoteText { font-family: Arial; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: Arial; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .EndnoteTextChar { font-family: Arial; }
+#judgment .EndnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation style="font-weight:bold">[2026] EWHC 394 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2025-CDF-000141</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Bristol Civil Justice Centre</p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">2 Redcliff Street, Bristol, BS1 6GR</span></p>
+      <p class="CoverText">Date: <docDate date="2026-02-20" refersTo="#judgment">20 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">JUDGE BARRY CLARKE</p>
+      <p class="CoverMain" style="text-align:center">(sitting as a Judge of the High Court)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#malcolm-richards" style="font-weight:bold">The King (on the application of Malcolm Richards)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#the-parole-board-of-england-and-wales" style="font-weight:bold">The Parole Board of England and Wales</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#interested-party" refersTo="#secretary-of-state-for-justice" style="font-weight:bold">Secretary of State for Justice</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right;margin-left:-0.45in"><role refersTo="#interested-party">Interested Party</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Mirren Gidda </span>(instructed by<span style="font-weight:bold"> SL5 Legal, Tuckers Solicitors</span>) for the Claimant</p>
+      <p style="text-align:center">The Defendant and the Interested Party were not present and not represented</p>
+      <p style="text-align:center">Hearing dates: 11 February 2026</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">This judgment was handed down remotely by circulation to the parties&#8217; representatives at 10.30 am on 24 February 2026 and by release to the National Archives</p>
+	    <p><span style="font-weight:bold">Judge Barry Clarke :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">This is a challenge by way of judicial review to a decision by the Parole Board for England and Wales (&#8220;the Board&#8221;) to decline to direct the release on licence of the claimant, Mr Malcolm Richards, a post-tariff life sentence prisoner. It concerns the scope of the so-called &#8220;slip rule&#8221; at rule 30(1) of the Parole Board Rules 2019. This empowers the Board to &#8220;<span style="font-style:italic">correct an accidental slip or omission in a decision at any time until the end of the period of twelve weeks, beginning with the day on which the decision becomes final</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In these proceedings, the Board is the defendant but has adopted its customary neutrality. The Secretary of State, as an interested party, has also been neutral. The only submissions I received were from Ms Gidda for the claimant. I was supplied with a core bundle (CB, 159 pages), a supplementary bundle (SB, 930 pages) and an authorities bundle (AB, 328 pages).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In this judgment, I will set out some relevant introductory remarks about sentences and release; the factual background to this case; the Board&#8217;s decision(s) under challenge; the grounds of challenge; the applicable law; and then my analysis and conclusion.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Sentences and release</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">An indeterminate sentence is a prison term with no fixed end date, requiring an offender to serve a minimum term or &#8220;tariff&#8221; set by the court before becoming eligible for parole (and, if parole is granted, release on licence). This is in contrast to a determinate sentence, where the prison term is for a fixed period and release on licence at the specified point is automatic. To be on licence is to be on probation; it refers to a period of supervision and a set of conditions with which the offender must comply. The licence period acts as a bridge between the period of custody and freedom, ensuring that the offender is appropriately monitored while being reintegrated into the community. If an offender breaches their licence, or commits a further offence while on licence, they are liable to be recalled to prison.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">An indeterminate sentence can take the form of a life sentence (whether mandatory or discretionary), an Imprisonment for Public Protection (IPP) sentence, or a Detention for Public Protection (DPP) sentence. IPP and DPP sentences were introduced in 2005 but abolished in 2012. Those given IPP or DPP sentences between 2005 and 2012 remain on such sentences until they are released and their licence is subsequently terminated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">A person serving an indeterminate sentence once the minimum term has passed &#8211; referred to as a &#8220;post-tariff&#8221; prisoner &#8211; can only be released on licence if the Board is satisfied that &#8220;<span style="font-style:italic">it is no longer necessary for the protection of the public that the prisoner should be confined</span>&#8221;; see <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/28/6" uk:canonical="1997 c. 43 s. 28" uk:origin="TNA" uk:type="legislation">section 28(6)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">Crime (Sentences) Act 1997</ref> (the &#8220;1997 Act&#8221;). This is the release test. It requires the Board to make what is called a &#8220;<span style="font-style:italic">public protection decision</span>&#8221;, by which it must be satisfied that &#8220;<span style="font-style:italic">there is no more than a minimal risk that, were the prisoner no longer confined, the prisoner would commit a further offence the commission of which would cause serious harm</span>&#8221; (<ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref>ZA(3) of <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref>, in force from 3 February 2025 by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2024/21/section/58" uk:canonical="2024 c. 21 s. 58" uk:origin="TNA" uk:type="legislation">section 58</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2024/21" uk:canonical="2024 c. 21" uk:origin="TNA" uk:type="legislation">Victims and Prisoners Act 2024</ref>). Rule 25(1) of the Parole Board Rules 2019 describes the Board&#8217;s task as binary: &#8220;<span style="font-style:italic">it must decide either that (a) the prisoner is suitable for release, or (b) the prisoner is not suitable for release</span>&#8221;. Central to the Board&#8217;s analysis in each case is its assessment of the level of risk of serious harm upon release and, more generally, how any risk posed upon release can be addressed during the licence period by way of supervision and conditions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">When making its decision, the Board has the advantage of a &#8220;<span style="font-style:italic">parole dossier</span>&#8221;. This is compiled by the Public Protection Casework Section of HM Prison and Probation Service. It contains required and relevant information about such matters as the prisoner&#8217;s sentence, offending history and progression during incarceration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">When a person serving a life sentence is released from custody, they will be on licence for life; as <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/31/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref> puts it, &#8220;<span style="font-style:italic">the licence shall, unless previously revoked under <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 32</ref> below, remain in force until his death</span>&#8221;. <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 32</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref> deals with the recall of life prisoners while on licence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">For a person serving an IPP sentence, the licence arrangements, as set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref>, are different. Until recently, a person serving an IPP sentence would be on licence indefinitely upon release from custody but would qualify for termination of their licence after ten years. <ref href="http://www.legislation.gov.uk/id/ukpga/2024/21/section/66" uk:canonical="2024 c. 21 s. 66" uk:origin="TNA" uk:type="legislation">Section 66</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2024/21" uk:canonical="2024 c. 21" uk:origin="TNA" uk:type="legislation">Victims and Prisoners Act 2024</ref>, brought fully into effect from 1 February 2025, has amended <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 31</ref>, 31A and 32 of <ref href="http://www.legislation.gov.uk/id/ukpga/1997/43" uk:canonical="1997 c. 43" uk:origin="TNA" uk:type="legislation">the 1997 Act</ref>. The thrust of the changes is that a person serving an IPP licence, who has been released on licence, is now automatically referred to the Board for a termination review three years after first release. For DPP sentences, the automatic referral for a termination review comes after two years. There is now a presumption that the licence will be terminated. If an IPP licence is not terminated at the three-year point, a sunset arrangement requires the automatic termination of the licence after two years in the community (presupposing the offender has not in the meantime been recalled or sent to prison for any other reason).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">For the purposes of this judgment, the detail of the mechanism by which an IPP licence terminates matters less than two points: (a) it operates differently to a life sentence; and (b) there is reference to a two-year period in the community.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Relevant factual background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">On 15 December 2008, at the Crown Court in Maidstone, the claimant was convicted of multiple sexual offences against children. The victims of his offending are entitled to lifelong anonymity pursuant to the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref>. On 4 February 2009, he was given a discretionary life sentence with a minimum term of ten years. He was 43 when sentenced. Taking account of the time spent on remand, his minimum term expired on 2 April 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Board considered the claimant&#8217;s case on 13 May 2020. Its decision on that occasion summarised his offending history from the detailed account provided in the Offender Assessment System (called OASys). It described his offending as &#8220;<span style="font-style:italic">an exceptional case of cruelty and abuse</span>&#8221; (SB, p.416). Nonetheless, it decided that his good behaviour in custody and his enhanced status as a prisoner boded well for his future compliance and therefore recommended his transfer to an open prison. He was duly transferred to open conditions on 26 August 2020. Today, at the age of 61, the claimant remains a serving prisoner, under open conditions and with enhanced status. He is eligible for short-term leave from prison (known as release on temporary licence or &#8220;ROTL&#8221;), including overnight leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The claimant&#8217;s case came before the Board again on 29 June 2023. By a decision dated 6 July 2023, the Board declined to issue a direction for his release (SB, pp.393-403). It incorporated the OASys analysis of his previous offending from the May 2020 decision. It noted some concerns about his insight into his offending past and about his relationship with his Community Offender Manager. Its decision stated: &#8220;<span style="font-style:italic">however robust a risk management plan was put in place on release, it would not be strong enough to manage </span>[the claimant&#8217;s]<span style="font-style:italic"> risks over time as he was unlikely to disclose important information that would be critical for the management of his risk</span>&#8221; (SB, pp.402-403)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">On 2 January 2024, the Public Protection Casework Section wrote to the Board, referring the claimant&#8217;s case again for decision as to whether or not it was appropriate to direct his release (SB, p.33). The subsequent dossier contained two important reports for the next review hearing: one was written by Mr Clee, the claimant&#8217;s Prison Offender Manager, dated 29 February 2024; the other was written by Ms Afulukwe on behalf of his Community Offender Manager, Mr Burton, dated 15 April 2024. Both reports inaccurately stated that the claimant was serving an IPP sentence (SB, p.218, p.227). The claimant&#8217;s solicitor, Ms McClure, pointed out this error at the start of her submissions to the Board dated 20 May 2024, in which she sought an oral hearing (SB, p.348).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Board decided on 28 June 2024 to adjourn the matter pending further information (SB, pp.407-410). It is not quite clear from the documents before the court what happened next, but it is sufficient to note that the matter returned to the Board the following year. The error about the claimant being an IPP prisoner was repeated in a further report from Mr Clee dated 2 May 2025 (SB, p.906).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Board hearing was held via video on 15 May 2025. This led to the first decision under challenge in these proceedings.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">First decision under challenge</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Ms McClure attended the Board hearing on the claimant&#8217;s behalf. She has filed a witness statement with the court in which she states that, when Mr Clee gave evidence, he acknowledged in response to questions from the chair of the panel that he had incorrectly referred to the claimant as an IPP prisoner (CB, p.129).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Parole Board issued its decision on 28 May 2025 (CB, pp.78-90). The following can be noted:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>18.1</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The template for the decision, if it can properly be so described, had a box on the front page identifying &#8220;<span style="font-style:italic">context and legal framework</span>&#8221;. This stated that the type of case being considered was &#8220;<span style="font-style:italic">life sentence on or post tariff review</span>&#8221; (CB, p.78). The meaning of &#8220;<span style="font-style:italic">on or</span>&#8221; in this context is unclear, since both life prisoners and IPP prisoners can have post-tariff reviews.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>18.2</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">It incorporated the analysis of his previous offending from the May 2020 and July 2023 decisions (CB, pp.80-83). It noted that he had since engaged with the Chiron IIRMS (the Intensive Intervention and Risk Management Service), that he had one overnight ROTL and some day releases, and that his custodial behaviour continued to be good (CB, pp.84-85). The Board considered that the claimant &#8220;<span style="font-style:italic">presented at least a medium risk of further contact sexual offending. Were he to reoffend, he could cause serious harm</span>&#8221; (CB, p.86). It noted that he had been accepted by a PIPE hostel (that is, one offering a Psychologically Informed Planned Environment) for up to six months (CB, p.87).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>18.3</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The Board noted with the claimant wished to continue working with the Chiron service for another five to ten years in the community. However, it expressed a concern: the Chiron support &#8220;<span style="font-style:italic">would drop away if his licence was terminated, which would happen automatically after 2 years if he remains in the community</span>&#8221; (CB, p.88, paragraph 3.8). This was an error. The claimant was a post-tariff life prisoner, not a post-tariff IPP prisoner; and, as I have noted above, offenders released from a life sentence remain on licence until they die.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>18.4</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The Board acknowledged that the claimant&#8217;s psychologist, the prison psychologist and Mr Clee (the Prison Offender Manager) had all recommended release. The Community Offender Manager expressed some concern about the need for robust communication between agencies to notice any failure by the claimant to disclose a developing relationship, but expected the claimant to engage; nonetheless, she wanted to test his progress through further ROTLs. The Board&#8217;s view was that &#8220;<span style="font-style:italic">external controls would be key</span>&#8221;, and it was not confident that controls would remain in place once the claimant left approved premises (CB, p.88).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Board declined to direct the claimant&#8217;s release. In its conclusion (at CB, p.89, paragraphs 4.3 to 4.5), it said this (with my added emphasis):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:11pt">4.3</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">&#8230; Little of substance has changed since the last review. As </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> is not able to complete core risk reduction work, the panel has to look elsewhere for evidence of a reduction in his risks. </span><span style="font-size:11pt">[The claimant&#8217;s] </span><span style="font-weight:bold;font-size:11pt">access to ROTLs has been limited, in part by his attitude towards day releases and in part because of the lack of availability in approved premises.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:11pt">4.4</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">Although </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> presented some, albeit limited, evidence of internal controls, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">the key to the management of his risks in the community would be external controls</span><span style="font-weight:bold;font-size:11pt">. The panel was not confident that </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> would be able to see and to disclose any warning signs, particularly as he says that he is not currently having sexual thoughts. For his risk to be safely managed in the community, Probation and the Police would need to know if he were to be in a relationship. </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Whilst</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt"> [the claimant]</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt"> would be closely monitored when in approved premises, after that, and particularly after his IPP licence could be automatically terminated after 2 years, the panel was not confident that he had the ability to manage his risks</span><span style="font-weight:bold;font-size:11pt">. There is no evidence to suggest that his current unwillingness to discuss difficult questions with professionals would change once in the community.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:11pt">4.5</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">The panel was mindful that the psychologists and Prison Offender Manager recommended release whilst the Community Offender Manager wanted </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> to be tested on more ROTLs. The panel is entitled to disagree with the psychologists and Prison Offender Manager although does not go against them lightly. However, the panel placed weight on the very serious nature of </span><span style="font-size:11pt">[the claimant&#8217;s]</span><span style="font-weight:bold;font-size:11pt"> offending and his relative lack of internal controls.   </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Thus there were two clear factual errors in the decision. The first was in paragraph 3.8, in the section where the Board analysed future risk, which wrongly noted that the claimant&#8217;s licence would terminate automatically after two years in the community. The second was in paragraph 4.4, in the concluding section, where the claimant was specifically identified as an IPP prisoner whose licence was liable for automatic termination after two years. This did not accurately reflect the way IPP licences are now terminated but the provenance of the two-year period is discernible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">On 5 June 2025, Mr Clee emailed the Board and the parties in these terms (CB, p.96-97):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">I note more than one reference within the decision that </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> is an IPP prisoner, when in fact he is a life sentenced prisoner. This is relevant in relation to the panel&#8217;s comments around his supervision, and subsequent long-term management of his case expiring after two years post release, when this will not be the case. This would likely have a clear impact on the wider risk assessment and arguably the outcome. Just wanted to flag this.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Second decision under challenge</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Acting on its own initiative, and in all likelihood by way of response to Mr Clee&#8217;s email, the Board issued an amended decision on 11 June 2025 (CB, pp.98-110), stating that it had done so &#8220;<span style="font-style:italic">under Rule 30(1) the slip rule to remove an accidental mention of an IPP sentence</span>&#8221;. The amended decision omitted the reference to the claimant as an IPP prisoner in paragraph 4.4, albeit it retained the reference to automatic termination of his licence after two years in paragraph 3.8. The relevant passage at paragraph 4.4 now read:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">Whilst </span><span style="font-size:11pt">[the claimant]</span><span style="font-weight:bold;font-size:11pt"> would be closely monitored when in approved premises, after that, the panel was not confident that he had the ability to manage his risks.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">This is the second decision under challenge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Ms Gidda referred me to the &#8220;<span style="font-style:italic">Types of Case Member Guidance</span>&#8221; issued by the Board. The latest iteration was issued in February 2025 (AB, pp.34-97). It says this at paragraph 12.2 (AB, p.78):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">Panels should be cautious when considering requests to change decisions or make further directions after the decision has been made. It may be possible to correct minor accidental errors or omissions by using the slip rule provided for under rule 30 of the Rules. However, this rule can only be used up to 12 weeks after a decision becomes final. If such a request has been received, the panel should consult the Parole Board&#8217;s Practice Advisor.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">To test whether the last sentence of the above extract had been followed, the claimant&#8217;s solicitors sought disclosure from the Board of communications passing between its secretariat and the panel about the amended decision. The Board&#8217;s legal director replied to say that the only information falling to be disclosed was an email from the panel chair to the case manager dated 10 June 2025, referring to Mr Clee&#8217;s email, which said this: &#8220;<span style="font-style:italic">Noted, there&#8217;s one reference. I have amended the decision letter under the slip rule &#8211; attached</span>&#8221; (CB, p.144).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Third decision under challenge</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In two submissions dated 11 and 12 June 2025, the claimant&#8217;s solicitors applied on his behalf for reconsideration of the Board&#8217;s decision. The first submission addressed the unamended decision (CB, pp.116-121). It contended that the Board&#8217;s decision was made on the basis of a fundamental mistake as to the type of sentence he was serving. The second submission addressed the amended decision (CB, pp.122-123). It contended that the Board had inappropriate used the slip rule to remove a substantive element of its reasoning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Rule 28(1) of the Parole Board Rules 2019 confirms that, where a decision of the Board is eligible for reconsideration, an application for reconsideration can only be made on the grounds that the decision &#8220;<span style="font-style:italic">(a) contains an error of law; (b) is irrational; or (c) is procedurally unfair</span>&#8221;. A separate panel, called an assessment panel, is convened for this purpose, rather than the original Board panel. The claimant&#8217;s application duly came before Her Honour Barbara Mensah, who considered the matter on the papers and issued her decision on 10 July 2025 (CB, pp.124-128). She refused the application. The critical parts of her reasoning were at paragraphs 29 to 31:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">The second reference to the IPP licence initially occurred in the conclusion section of the decision. However, that reference was subsequently removed by the panel under Rule 30(1) (the slip rule provisions). The Rule allows the Board to correct genuine slips or omissions which were made by accident, it cannot be used to correct substantive mistakes such as errors in law. The use of the rule by the panel was in this instance to correct a mistake, namely the incorrect insertion of a passage. That this was the case is clear from the reading of the decision as a whole which is not aimed at an IPP prisoner and is also clear from the fact that the removal of that section did not require any further change, amendment or explanation by the panel. In other words the sense remained even with the removal of the passage. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">The grounds argue that the passage formed a key element of the Panel&#8217;s reasoning. That is not evidenced in the decision. The panel reminded itself of the correct test to be applied. It considered all the evidence presented (none of which was based on an IPP status). It noted the Applicant&#8217;s denial of guilt, the lack of risk reduction or offence focussed work and the need to rely on external controls to manage his risk. The panel found that his stay in Approved Premises would provide monitoring of the Applicant&#8217;s risk but once he had moved on from the Approved Premises and that external oversight having been removed the panel then could not have confidence that his own internal controls would provide the control required. None of that reasoning was based on a consideration that the Applicant was serving an IPP sentence and the reference to IPP in the passage was clearly a mistake, not amounting to an error of law, not amounting to a procedural error and not amounting to irrationality.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">There was no unfairness or injustice to the Applicant in correcting an error which plainly made no difference to the panel&#8217;s overall conclusion.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">This is the third decision under challenge.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">The grounds of challenge</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The claimant followed the pre-action protocol before commencing his application for judicial review. The Board declined any further review or reconsideration of its decision on the basis that it was now <span style="font-style:italic">functus</span>. The claimant brings three grounds of challenge, each of which proceeds on the observation &#8211; which is not controversial &#8211; that the Board&#8217;s decision erroneously referred to him on two occasions, directly or by implication, as an IPP prisoner who would only be on licence post-release for two years. I intend Ms Gidda no discourtesy in summarising briefly each of the claimant&#8217;s grounds of challenge and the supplementary arguments she made in court:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>29.1</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The first ground of challenge is that the Board erred in law in its use of the slip rule. I was referred to a number of authorities on the scope of the slip rule in its various guises across the court system and to commentary in the White Book. Ms Gidda&#8217;s central contention was that it was improper for the Board to view its error as to the sentence the claimant was serving as the type of minor one capable of remedy via that route.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>29.2</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The second ground of challenge was parasitic on the first. If I agreed that the Board improperly used the slip rule, the amended decision would be unlawful. That being so, I would then have to consider whether the decision as originally made (prior to amendment) was unlawful due to a material error of fact about the type of sentence the claimant had been serving or was otherwise at fault for inadequacy of reasoning.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>29.3</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The third ground of challenge was also parasitic on the first. If I decided that the Board lawfully used the slip rule, then the claimant would still contend in the alternative that the amended decision was vitiated by an error of fact in that there remained one implicit reference to the claimant remaining on licence for only two years.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Finally, Ms Gidda contended that this was not the sort of case where the court should, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, refuse relief under what is sometimes called the &#8220;make no difference principle&#8221;.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">The applicable law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The slip rule at rule 30(1) of the Parole Board Rules 2019 permits the correction of an &#8220;<span style="font-style:italic">accidental slip or omission in a decision</span>&#8221;. Save for the permitted period of twelve weeks, that formulation &#8211; an accidental slip or omission &#8211; is materially the same as it appears in other jurisdictions. By way of illustration:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>31.1</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Rule 40.12(1) of the Civil Procedure Rules 1998: &#8220;<span style="font-style:italic">The court may at any time correct an accidental slip or omission in a judgment or order</span>&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>31.2</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Rule 29.16(1) of the Family Procedure Rules 2010: &#8220;<span style="font-style:italic">The court may at any time correct an accidental slip or omission in a judgment or order</span>&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>31.3</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Rule 31 of the Tribunal Procedure (First-tier Tribunal) (Immigration and Asylum Chamber) Rules 2014: &#8220;<span style="font-style:italic">The Tribunal may at any time correct any clerical mistake or other accidental slip or omission in a decision, direction or any document produced by it, by &#8212; (a) providing notification of the amended decision or direction, or a copy of the amended document, to all parties; and (b) making any necessary amendment to any information published in relation to the decision, direction or document</span>&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>31.4</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Rule 42 of the Tribunal Procedure (Upper Tribunal) Rules 2008: &#8220;<span style="font-style:italic">The Upper Tribunal may at any time correct any clerical mistake or other accidental slip or omission in a decision or record of a decision by &#8212; (a) sending notification of the amended decision, or a copy of the amended record, to all parties; and (b) making any necessary amendment to any information published in relation to the decision or record</span>.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Ms Gidda supplied me with commentary in the White Book which, at page 1295, describes the slip rule as &#8220;<span style="font-style:italic">one of the most widely known but misunderstood rules</span>&#8221;. The authorities mentioned below are drawn from that commentary, or from a reading of the cases mentioned in the commentary, or from the authorities bundle, or from the oral submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The first case to consider, chronologically, is <span style="font-style:italic">Bentley v O'Sullivan</span> [1925] WN 95. There, the court had made an order that the plaintiff should recover its costs &#8220;<span style="font-style:italic">to be taxed if not agreed</span>&#8221;. A referee, as they were then known, amended the order at the instigation of the plaintiff to clarify that costs would be taxed on the High Court scale. The defendant challenged this and the Court of Appeal held that the referee should not have made that amendment. Banks LJ said this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">It would be unwise to lay down rules purporting to be of universal application that </span><span style="font-size:11pt">[the predecessor provision to the slip rule]</span><span style="font-weight:bold;font-size:11pt"> should be applied with extreme caution, because it be of the worst example if that rule was loosely used to the purpose of altering a stupid mistake, a purpose for which it was never intended &#8230; In the present case there was no &#8220;accidental slip&#8221;. What was done was done deliberately. The special referee did not realise in making his original order that it was not carrying out his intention. He made the order deliberately and therefore had no jurisdiction to make the amendment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Hulbert v Thurston</span> [1931] WN 171, following a successful appeal by the defendant, the Court of Appeal ordered that judgment be entered for the defendant with costs. It subsequently refused to use the slip rule to amend the order so that the costs could be enforced against the plaintiff&#8217;s litigation friend. That was not the order it had originally been asked to make.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Molnlycke AB v Proctor and Gamble Ltd</span> <ref href="#" uk:canonical="[1993] FSR 154" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] FSR 154</ref>, a dispute arose between the parties about the plaintiff&#8217;s entitlement to immediate taxation and payment of costs. Morritt J concluded that his order did provide for this; but, having considered the <span style="font-style:italic">Bentley</span> and <span style="font-style:italic">Hulbert</span> cases, he said he would have rejected an alternative submission that he could have used the slip rule to make the amendment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Secretary of State for Trade &amp; Industry v Rogers</span> [1996] All ER 854, a case about disqualification of a company director, the Court of Appeal deprecated a suggestion that it could use the slip rule to remove a reference in the order under appeal to a company director being dishonest, a finding that the first-instance judge had made deliberately and intentionally.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Mutual Shipping Corporation v Bayshore Shipping Co</span> [1985] 1 Lloyd's LR 189, an arbitrator had a made an award which erroneously transposed the names of the parties. The Court of Appeal decided that this could be corrected under the slip rule. Sir John Donaldson MR described the difficulty in trying to distinguish between (on the one hand) a case where the court has had second thoughts about a decision it later accepts was erroneous and (on the other hand) a case where the court corrects a decision to give effect to first thoughts or intentions. In the same case, Robert Goff LJ said: &#8220;<span style="font-style:italic">I do not think it would be right for me to attempt in this judgment to define what is meant by &#8216;accidental slip or omission&#8217;: the animal is, I suspect, usually recognizable when it appears on the scene</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Bristol-Myers Squibb v Baker Norton Pharmaceuticals Inc</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/414" uk:canonical="[2001] EWCA Civ 414" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 414</ref>, the Court of Appeal expressed its judgment in such a way that it deprived the successful party of about &#163;50,000 worth of interest that had accrued on a sum it was owed by way of costs recovery. The successful party asked the Court of Appeal to amend its order under the slip rule, contending that the oversight must have been inadvertent. The Court of Appeal reviewed the pre-CPR authorities, including the <span style="font-style:italic">Bentley</span>, <span style="font-style:italic">Hulbert</span>, <span style="font-style:italic">Molnlycke </span>and <span style="font-style:italic">Mutual Shipping</span> cases mentioned above, and decided that it <span style="text-decoration-line:underline;text-decoration-style:solid">could</span> use the slip rule to correct the error. Aldous LJ said the following at paragraph 25:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">Those cases establish that the slip rule cannot enable a court to have second or additional thoughts. Once the order is drawn up any mistakes must be corrected by an appellate court. However it is possible under the slip rule to amend an order to give effect to the intention of the Court.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Markos v Goodfellow &amp; others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/1542" uk:canonical="[2002] EWCA Civ 1542" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 1542</ref>, a boundary dispute between neighbours, the judge at first instance dismissed the claim on the basis that a 3-4 inch encroachment was <span style="font-style:italic">de minimis</span>. A High Court judge refused permission to appeal but used the slip rule to alter the trial judge&#8217;s judgment such that the claim was upheld but only nominal damages awarded. The Court of Appeal, referring to <span style="font-style:italic">Secretary of State for Trade &amp; Industry v Rogers</span>, held that this was an inappropriate use of the slip rule: it could not be used to correct an error of substance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Foenander v Foenander</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1675" uk:canonical="[2004] EWCA Civ 1675" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1675</ref>, Wall LJ accepted at paragraph 57 that the slip rule was &#8220;<span style="font-style:italic">primarily designed to correct typographical or grammatical errors</span>&#8221;. However, applying <span style="font-style:italic">Bristol-Myers Squibb</span>, he said it was permissible to use it &#8220;<span style="font-style:italic">to amend a court order to give effect to the intention of the court</span>&#8221;. This was in the context of construing the terms of a civil restraint order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">SmithKline Beecham Plc &amp; others v Apotex Europe Ltd &amp; others</span> <ref href="#" uk:canonical="[2006] 1 WLR 872" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 WLR 872</ref>, Lewison J declined to use the slip rule to permit an amendment to a cross undertaking in damages. The error had not been accidental; it had simply not occurred to anyone that a particular form of relief might be available.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">R+V Versicherung AG v Risk Insurance and Reinsurance Solutions SA</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2007/79" uk:canonical="[2007] EWHC 79 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 79 (Comm)</ref>, Gloster J declined to use the slip rule to alter an earlier judgment of Moore-Bick J to remove two of the defendants from its scope. She said this at paragraph 23:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">It is clear from the note to the rule contained in the White Book that, essentially, the rule is there to do no more than correct typographical errors or matters that are clearly genuine slips or mistakes. It is well-established that the slip rule cannot be used to correct errors of substance, nor in an attempt to add to or detract from the original order made by the judge. In my judgment, in the circumstances of this case, and in particular the way in which the matter was argued at trial, there is no basis for any application under the slip rule here. There is no basis for characterising the relevant provisions of Moore-Bick J's orders as an "accidental slip" or "omission". The reality is that the proposed alterations to the orders of Moore-Bick J which are sought, are matters of substance which challenge his judgment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Dickenson &amp; others v Tesco plc &amp; others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/226" uk:canonical="[2013] EWCA Civ 226" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 226</ref>, the Court of Appeal dealt with an appeal about claims for credit hire costs resulting from road traffic accidents, specifically on the point of whether fresh evidence could be admitted. The Court of Appeal allowed the appeal, intending that there be retrials of the issue of the recoverable hire rate. Its order adopted a slightly different formulation suggesting that other issues of quantum around car hire (such as the need for a hire car and the length of the hire period) might also be up for grabs. It deployed the slip rule to clarify that the rate of hire was the only issue to be reopened at trial, that having been its original intention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Re A (a Child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/871" uk:canonical="[2014] EWCA Civ 871" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 871</ref>, a case about financial provision for a child, the father applied to the trial judge to deploy the slip rule to amend his judgment so as to remove adverse factual findings about him that he described as libellous. The trial judge refused. On appeal, the Court of Appeal agreed that the slip rule was not available in this context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In <span style="font-style:italic">Kotsanga</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/iac/2016/228" uk:canonical="[2016] UKUT 228 (IAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 228 (IAC)</ref>, the judge at first instance had issued an order in which she allowed an asylum appeal on human rights grounds despite it being obvious from her reasoning that she had intended to dismiss it. She corrected her decision under the slip rule. On appeal, the Upper Tribunal held this was not permissible. Relying on <span style="font-style:italic">Bristol-Myers Squibb</span>, it decided that the slip rule could not be used to change the substance of a judgment or order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">A similar scenario arose in <span style="font-style:italic">Secretary of State for the Home Department v Devani</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/612" uk:canonical="[2020] EWCA Civ 612" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 612</ref>. The judge at first instance issued a decision upholding an asylum appeal on Article 3 grounds. Her subsequent order then had the opposite effect of dismissing it. The matter reached the Court of Appeal, which said <span style="font-style:italic">Kotsanga</span> had been wrongly decided. At paragraph 23 of <span style="font-style:italic">Devani</span>, Underhill LJ said this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.36in;text-indent:0in"><span style="font-weight:bold;font-size:11pt">The essential distinction to bear in mind in considering the application of the slip rule, in any of its legislative formulations, is between the case where the order in question does not express what the Court actually intended at the moment of promulgation and the case where it does express what the Court intended at the time but it subsequently appreciates that it should have intended something different &#8230; how the distinction applies in a particular case may not always be straightforward, but the concept is clear. The proposition &#8230; from the White Book commentary, namely that the slip rule &#8220;cannot be used to change the substance of a judgment or order&#8221;, is perfectly apt as a reference to the second of the two classes of case that I have mentioned; but it appears from the UT&#8217;s actual decision that it understood it to mean that the slip rule could not be used in a case where the correction would produce a decision with the opposite effect to that promulgated. With all respect, that is simply wrong. In the case of a simple failure of expression &#8211; most obviously a straightforward slip of the pen &#8211; the error can and should be corrected even if it alters the outcome (as initially expressed) by 180&#176;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In summary, the distinction is, in principle, a clear one. As Underhill LJ put it in <span style="font-style:italic">Devani</span>, it is between (on the one hand) a case where the order in question does not express what the court intended at the moment of promulgation and (on the other hand) a case where the order does express what the court intended at the time but it subsequently appreciates that it should have intended something different. As Sir John Donaldson MR put it in <span style="font-style:italic">Mutual Shipping Corporation</span>, the distinction is between a case where the court corrects a decision to give effect to first thoughts and a case where the court has had second thoughts. The slip rule is apt for deployment in the first category of case, but not the second. The second category of error can only be remedied upon appeal. The test for use of the slip rule is certainly not whether, stepping back, one can be confident that the ultimate decision reached was the right one.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">A mere typographical or grammatical correction is the most obvious, and least controversial, example of the first category of case. There the slip rule can safely be deployed. In contrast, a change that alters the substance of a judgment or order, or purports to correct findings of fact, exemplifies the second category of case. The distinction between the two is not always clear, and some cases will be harder to categorise than others. The case law authorities considered above serve mainly as helpful illustration of the how the slip rule operates in practice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The slip rule aside, I will mention briefly the key authority dealing with alleged errors of fact in public law decisions. It is of course <span style="font-style:italic">E v Secretary of State for the Home Department</span> <ref href="#" uk:canonical="[2004] 2 WLR 1351" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 WLR 1351</ref>. In that case, Carnwath LJ (as he then was) expounded the well-known four-stage test to be applied when considering if a mistake of fact is sufficient to render a public law decision unlawful. The following must be demonstrated: first, there must have been a mistake as to an existing fact, including a mistake as to the availability of evidence on a particular matter; secondly, the fact or evidence must have been established, in the sense that it was uncontentious and objectively verifiable; thirdly, the appellant (or his advisers) must not been have been responsible for the mistake; and fourthly, the mistake must have played a material (but not necessarily decisive) part in the reasoning. The fourth element of the test in <span style="font-style:italic">E</span> can be asked in an alternative formulation: is it possible to say that the mistake did <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> play a part in the reasoning? See <span style="font-style:italic">R (Watt) v London Borough of Hackney</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/1978" uk:canonical="[2016] EWHC 1978 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 1978 (Admin)</ref>, per Gilbart J at paragraph 52.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Ms Gidda helpfully referred me to examples of Parole Board decision where, in respect of the fourth element, the High Court had decided that mistakes of fact did play a material part in the reasoning (<span style="font-style:italic">R (H) v Parole Board</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2011/2081" uk:canonical="[2011] EWHC 2081 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 2081 (Admin)</ref> and <span style="font-style:italic">R (Hall-Chung) v Parole Board</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/1879" uk:canonical="[2025] EWHC 1879 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 1879 (Admin)</ref>) or that they did not (<span style="font-style:italic">R (Morton) v Parole Board </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2009/188" uk:canonical="[2009] EWHC 188 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 188 (Admin)</ref>).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Analysis and conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I begin with the first ground of challenge, which concerns the Board&#8217;s use of the slip rule in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Board&#8217;s decision must of course be read fairly and as a whole. In doing so, it is abundantly clear to me that it was troubled by the impact on the claimant of a limited licence period. This in turn influenced its assessment of the risk that he would pose if no longer confined. The Board made clear that it did not take lightly its disagreement about release with both psychologists and Mr Clee as the Prison Offender Manager. It was entitled to disagree with them. Its disagreement was rooted in concerns about the claimant&#8217;s internal <span style="text-decoration-line:underline;text-decoration-style:solid">and external</span> controls; it describe the latter as &#8220;<span style="font-style:italic">key to the management of his risks in the community</span>&#8221;. When it considered external controls over the claimant, the Board was influenced by the erroneous belief that his licence would expire after two years in the community which, in turn, was based on the erroneous belief that he was an IPP prisoner rather than someone who would be on licence for the rest of his life. The Board&#8217;s belief that he would be free of supervision by the Probation Service after two years (albeit a belief which appears to misunderstand the circumstances in which IPP licences are now terminated) played a material part in its assessment of risk for the purposes of the public protection decision it was tasked with making.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">That being so, this was not the sort of accidental slip capable of correction via the slip rule. If, upon a fair reading of the decision as a whole, it was plain that the Board knew it was dealing with a post-tariff life sentence prisoner on licence until he died, and the reference to IPP status was a simple typographical error, it would have faced no problem in amending its decision under the slip rule. It would have fallen neatly into the first category of case described above. However, this was more than a mere typographical error. There had been misinformation about the claimant being an IPP prisoner in the parole dossier; the error appeared twice in the reasoning in its decision (implicitly at paragraph 3.8 and explicitly at paragraph 4.4); and it was a material part of its assessment of risk. In my judgment, this case falls into the second category: the mistake of fact went to the substance of the decision. A correct understanding that the claimant was on licence for life <span style="text-decoration-line:underline;text-decoration-style:solid">may</span> (and I put it no higher) have assuaged the Board&#8217;s concerns about a lack of external controls within two years of release. This was something Mr Clee recognised when he spotted the error and alerted the Board. The Board may ultimately have reached the same decision, but that is not the test for whether the slip rule can properly be deployed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Should it be necessary, I would further conclude that the reconsideration decision was unlawful in the sense that the assessment panel reached a conclusion that was not properly or rationally open to it. As the extract above shows, the decision of the assessment panel was that the slip rule had been appropriately deployed because the sense of the decision remained even with the removal of the passage, because the reference to IPP in the passage was clearly a mistake, and because there was no unfairness or injustice in correcting an error that made no difference to the panel&#8217;s conclusion. As I sought to explain above, by reference to the authorities, the test for use of the slip rule is not whether, stepping back, one can be confident that the decision reached was ultimately the right one, or whether the sense of the decision was unaltered by the change, or whether the decision-making process was otherwise procedurally unfair or unjust.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Having upheld the first ground of challenge, the next question, under the second ground of challenge, is whether the decision as originally made (prior to amendment) was unlawful due to a material error of fact about the type of sentence the claimant was serving. This does not require a lengthy analysis. I recognise that this court is not a fact-finding body and must be cautious when considering if a public law decision is tainted by an error of fact. But the four limbs of the test set out by Carnwath LJ in the case of <span style="font-style:italic">E</span> have clearly been met. First, there was an obvious mistake about the claimant&#8217;s prisoner status &#8211; IPP or life sentence &#8211; which led to an erroneous belief about the period of time he would spend on licence after release. Second, the correct position &#8211; that he was a life sentence prisoner and not an IPP prisoner &#8211; was uncontentious and objectively verifiable. Third, the claimant was not responsible for the mistake; indeed, his solicitors had tried to correct it. Fourth, as I have already said, the mistake of fact went to the substance of the decision; it played a material, even if not necessarily decisive, part in the Board&#8217;s reasoning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In those circumstances, and as Ms Gidda accepted, the claimant&#8217;s third ground of challenge is irrelevant.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Accordingly, my judgment is that the Board&#8217;s decision in this matter was unlawful because of a material error of fact and that, because the error went to the substance of the Board&#8217;s decision, it was not apt for remediation via the slip rule. I therefore grant the relief requested and quash the Board&#8217;s decision; for the avoidance of doubt, this applies to the original decision, the amended decision, and the reconsideration decision. The matter is remitted for the claimant&#8217;s case to be heard afresh by a differently constituted panel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Ms Gidda suggested that this should be on an expedited basis. She referred me to the Board&#8217;s &#8220;Oral Hearing Listing Prioritisation Framework&#8221;, published on 7 March 2025. I note that page 10 of that framework confirms that an order of this court quashing a decision is considered a proper reason for expedition; I therefore order that the matter is expedited as requested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">This is not a case where I can properly predict the correct outcome for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>. This is a matter for the Board to decide in accordance with the responsibilities given to it by Parliament. Although it is unlikely to need saying, I will say it anyway: nothing in my decision is intended to constrain the approach the Board takes to its public protection decision when considering the matter afresh save to ensure that, when assessing the risk that the claimant would pose if released, it notes it is dealing with an offender who will remain on licence for the rest of his life. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">Because of the Board&#8217;s customary neutrality, it is conventional for this court to make no order for costs. However, Ms Gidda says that the claimant made efforts via his solicitors to agree that the matter should be resolved without the need for a court hearing and that, as a result, her clear instructions were to seek costs. I therefore direct that the claimant has seven days from the date of this judgment to make written submissions on costs, with the defendant having 14 days to respond. I then propose to deal with the question of costs on the papers and without a hearing.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,981 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2010/2430"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2010/2430"/>
+	  <FRBRdate date="2010-10-08" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2430"/>
+	  <FRBRname value="Stockton-On-Tees Borough Council v Fidler &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2010/2430"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2010/2430"/>
+	  <FRBRdate date="2010-10-08" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2010/2430/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2010/2430/data.xml"/>
+	  <FRBRdate date="2024-11-06T01:37:58" name="transform"/>
+	  <FRBRdate date="2024-11-16T14:21:20" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2010-10-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="stockton-on-tees-borough-council" href="" showAs="STOCKTON-ON-TEES BOROUGH COUNCIL"/>
+	<TLCPerson eId="alan-fidler" href="" showAs="ALAN FIDLER"/>
+	<TLCPerson eId="habib-hussain" href="" showAs="HABIB HUSSAIN"/>
+	<TLCPerson eId="gholamreza-keshavarz-zamanian" href="" showAs="GHOLAMREZA KESHAVARZ ZAMANIAN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-munby" href="/judge-lord-justice-munby" showAs="LORD JUSTICE MUNBY"/>
+	<TLCPerson eId="judge-mr-justice-langstaff" href="/judge-mr-justice-langstaff" showAs="MR JUSTICE LANGSTAFF"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2010</uk:year>
+	<uk:number>2430</uk:number>
+	<uk:cite>[2010] EWHC 2430 (Admin)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>6dd140f95f259fc0092180a229de704990e86d196c1538a56396d8cd5faec7cf</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>CO/5268/2010</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2010] EWHC 2430 (Admin)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Hand Down Manchester Civil Justice Centre</span></p>
+      <p class="CoverText">Date: <docDate date="2010-10-08" refersTo="#judgment">8<span style="vertical-align:super;font-size:smaller">th</span> October 2010</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-munby">LORD JUSTICE MUNBY</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-langstaff">MR JUSTICE LANGSTAFF</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#stockton-on-tees-borough-council" style="font-weight:bold">STOCKTON-ON-TEES BOROUGH COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#alan-fidler" style="font-weight:bold">(1) ALAN FIDLER</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#habib-hussain" style="font-weight:bold">(2) HABIB HUSSAIN</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#gholamreza-keshavarz-zamanian" style="font-weight:bold">(3) GHOLAMREZA KESHAVARZ ZAMANIAN</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms E Joan Smith </span>(instructed by<span style="font-weight:bold"/>Jonathan Nertney, Stockton-on-Tees Borough Council) for the Appellant</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Rodger</span> (instructed by Nicholson &amp; Morgan) for the First, Second and Third Respondents</p>
+      <p style="text-align:center">Hearing date: 8 July 2010</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Lord Justice Munby :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What is a hackney carriage? What is the meaning of the aphorism &#8216;a hackney carriage is always a hackney carriage once it has been licensed&#8217;? Is a vehicle licensed as a hackney carriage by local authority A a hackney carriage while on the road in the area of local authority B (specifically, on the facts of the present case, is a vehicle licensed as a hackney carriage by Berwick-upon-Tweed Borough Council a hackney carriage while on the road in the area of Stockton-on-Tees Borough Council)? Does a vehicle licensed as a hackney carriage by local authority A require to be licensed as a private hire vehicle by local authority B if used for private hire in the area of local authority B (specifically, on the facts of the present case, does a vehicle licensed as a hackney carriage by Berwick-upon-Tweed Borough Council require to be licensed as a private hire vehicle by Stockton-on-Tees Borough Council if used for private hire in the area of Stockton-on-Tees Borough Council)? What is the meaning of the phrase &#8220;hackney carriage&#8221; when used in the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref>?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These questions are not merely of technical interest to lawyers; the answers are potentially of great significance not only to the Appellant and the Respondents in this appeal but, more generally, as some of the materials we have been referred to show, to the taxi trade, to local authorities up and down the country and, indeed, to the public at large.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is convenient to start with two things. The first is to do with terminology. There are a number of expressions in popular or technical usage: words such as taxi, cab, hackney carriage, private hire vehicle, used either alone or in combination with other words. And from an earlier era, familiar to any reader of Sherlock Holmes, there is the growler, a colloquial expression for a four-wheeled cab. As a matter of ordinary language, some of these expressions relate to the type of conveyance in which the passenger sits. Thus cab (whether on its own or as in Hansom cab, mini-cab, London cab, Black cab or cab-rank) is an abbreviation of cabriolet, a type of two-wheeled carriage introduced to this country from France in 1823. Others relate to the motive power (hackney refers not to the eponymous area of London but to a horse of middle size and quality) or to the inventor (J A Hansom, the inventor of the eponymous cab, patented in 1834) or to the mode of operation (as in private hire vehicle) or to the mechanism of charging (taxi is an abbreviation of taximeter, from the French taxe, tariff) or even to the characteristics of the vehicle (as in growler, something that growls &#8211; in this context, apparently, a reference to the noise of the cab&#8217;s wheels on the streets of Victorian London).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In law, however, there are only two relevant types. As a matter of law all such vehicles are either &#8220;hackney carriages&#8221; or &#8220;private hire vehicles&#8221;. (The <ref href="http://www.legislation.gov.uk/id/ukpga/1980/34" uk:canonical="1980 c. 34" uk:origin="TNA" uk:type="legislation">Transport Act 1980</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">Transport Act 1985</ref> use the expression &#8220;taxi&#8221; and some legislation relating to London, including the London Cab Act 1896, the <ref href="http://www.legislation.gov.uk/id/ukpga/Edw7/7/55" uk:canonical="1907 (7 Edw. 7) c. 55" uk:origin="TNA" uk:type="legislation">London Cab and Stage Carriage Act 1907</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/7" uk:canonical="1968 c. 7" uk:origin="TNA" uk:type="legislation">London Cab Act 1968</ref>, uses the expression &#8220;cab&#8221;, but in each case the expression is so defined as to take one back to the statutory definitions of &#8220;hackney carriage&#8221;.) I shall return in due course to consider the statutory definitions of &#8220;hackney carriage&#8221; and &#8220;private hire vehicle&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The other preliminary matter has to do with what might be called the geography of regulation. There are separate regulatory regimes for London, for Plymouth (which I mention for the sake of completeness though it is not otherwise relevant) and for the rest of England and Wales. &#8216;London&#8217; for this purpose means &#8220;the metropolitan police district and the City of London&#8221;: see the definitions in section 2 of the Metropolitan Public Carriage Act 1869 and <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 36</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">Private Hire Vehicles (London) Act 1998</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The definition of &#8220;metropolitan police district&#8221; has changed from time to time. It is currently defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33/section/76" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 76</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33" uk:canonical="1963 c. 33" uk:origin="TNA" uk:type="legislation">London Government Act 1963</ref>, as amended by <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33/section/323" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 323</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">Greater London Authority Act 1999</ref>. As originally defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33" uk:canonical="1963 c. 33" uk:origin="TNA" uk:type="legislation">the 1963 Act</ref>, it included for present purposes (see sections 1, 2 and 76 and Schedule 1) the thirty-two London Boroughs, but not the City of London and the Inner and Middle Temples, together with certain specified parishes, urban districts and boroughs in Essex, Hertfordshire and Surrey. This definition remained unchanged until 2000, when it was amended by <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/323" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 323</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> to mean &#8220;Greater London, excluding the City of London, the Inner Temple and the Middle Temple.&#8221; It is to be noted that, prior to 2000, the area of the metropolitan police district was never coterminous with the areas of either the London County Council or the Greater London Council (abolished by the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/51" uk:canonical="1985 c. 51" uk:origin="TNA" uk:type="legislation">Local Government Act 1985</ref>) or, indeed, with Greater London. In particular, it may be noted, from 1965 until 2000, the Metropolitan Police were responsible for areas outside the Greater London boundary. Only with the introduction in 2000 of the Greater London Authority, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>, did the area of the metropolitan police district for the first time become coterminous with Greater London and with the area of Greater London&#8217;s governing body. (I ignore for present purpose, as not bearing on the point, the fact that the City of London, the Inner Temple and the Middle Temple are parts of Greater London as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33" uk:canonical="1963 c. 33" uk:origin="TNA" uk:type="legislation">the 1963 Act</ref> but are not within the metropolitan police district as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1963/33/section/76" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 76</ref>.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation of hackney carriages in London dates back to the seventeenth century. It suffices to note that the relevant legislation currently in force starts with <ref href="http://www.legislation.gov.uk/id/ukpga/Will4/1-2/22" uk:canonical="1831 (1 &amp; 2 Will. 4) c. 22" uk:origin="TNA" uk:type="legislation">the London Hackney Carriage Act 1831</ref>; for present purposes the most relevant statute is the Metropolitan Public Carriage Act 1869. From 1850 responsibility for the licensing of hackney carriages in London was vested in the Commissioners of Police of the Metropolis: see <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/13-14/7/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/13-14/7" uk:canonical="1850 (13 &amp; 14 Vict.) c. 7" uk:origin="TNA" uk:type="legislation">the London Hackney Carriages Act 1850</ref>. (Until 1855 there were two Commissioners of the Metropolitan Police; since then the post has always been held by a single Commissioner.) In 2000, with the establishment of the Greater London Authority and Transport for London, responsibility was transferred to Transport for London: see <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/253" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 253</ref> of and Schedule 20 to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation of hackney carriages outside London dates back to the Town Police Clauses Act 1847. Supplemented so far as is material for present purposes by the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref>, it remains the principal regulatory statute. The 1847 Act was originally an &#8216;adoptive Act&#8217; but by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">Transport Act 1985</ref> is now applied to the whole of England and Wales &#8220;outside the area to which the [1869 Act] applies&#8221;, that is, outside &#8216;London&#8217; as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/13-14/7/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of the 1869 Act.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Private hire vehicles were first regulated, outside London, by the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref> and, within London, by the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">Private Hire Vehicles (London) Act 1998</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present case does not relate to London, so it concerns the inter-relationship between the 1847 Act and <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I return to the 1847 Act. I need not describe its provisions in any detail. Section 37 provides for the licensing by local authorities of &#8220;hackney carriages&#8221; and section 46 for the licensing of hackney carriage drivers. But what is a &#8216;hackney carriage&#8217;? It is defined for the purposes of the 1847 Act as follows (section 38):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Every wheeled carriage, whatever may be its form or construction, used in standing or plying for hire in any street within the prescribed distance, and every carriage standing upon any street within the prescribed distance, having thereon any numbered plate required by this or the special Act to be fixed upon a hackney carriage, or having thereon any plate resembling or intended to resemble any such plate as aforesaid, shall be deemed to be a hackney carriage within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8230; Provided always, that no stage coach used for the purpose of standing or plying for passengers to be carried for hire at separate fares, and duly licensed for that purpose, and having thereon the proper numbered plates required by law to be placed on such stage coaches, shall be deemed to be a hackney carriage within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">this Act</ref>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in">&#8220;Street&#8221; is defined in section 3. The &#8220;prescribed distance&#8221; is defined in section 37. It now means (see Button on Taxis, ed 3, 2009, paragraph 8.1, for the convoluted legislative history) the area of the local authority which has granted the hackney carriage licence.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is much learning, in particular, on what is meant by the words &#8220;standing&#8221;, &#8220;plying for hire&#8221; and &#8220;street&#8221; which there is no need for me to refer to, save to draw attention to the decision of the Divisional Court in <span style="font-style:italic">Young v Scampion </span>[1989] RTR 95, a case to which I must return in due course.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, the definition of &#8220;hackney carriage&#8221; outside London. A similar definition of &#8220;hackney carriage&#8221; in relation to London is provided in section 4 of the 1869 Act:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;any carriage for the conveyance of passengers which plies for hire within the limits of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">this Act</ref>, and is neither a stage carriage nor a tramcar.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Section 4 defines &#8220;stage carriage&#8221; as meaning:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;any carriage for the conveyance of passengers which plies for hire in any public street, road, or place within the limits of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">this Act</ref>, and in which the passengers or any of them are charged to pay separate and distinct or at the rate of separate and distinct fares for their respective places or seats therein.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1998/34/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 2</ref> defines the &#8220;limits of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221; as being, as we have seen:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the metropolitan police district, and the city of London.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The 1847 Act creates two criminal offences which I need to refer to. Section 47 makes it a criminal offence for anyone to drive a hackney carriage, or for the proprietor of any hackney carriage to employ anyone to drive a hackney carriage, who is not licensed as a hackney carriage driver under section 46. Section 45 makes it a criminal offence to ply for hire without a hackney carriage licence. Specifically, a criminal offence is committed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;If the proprietor or part proprietor of any carriage &#8230; permits the same to be used as a hackney carriage plying for hire within the prescribed distance without having obtained a licence as aforesaid for such carriage &#8230; or if any person be found driving, standing, or plying for hire with any carriage within the prescribed distance for which such licence as aforesaid has not been previously obtained, or without having the number of such carriage corresponding with the number of the licence openly displayed on such carriage&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I go next to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. Again, I need not describe its provisions in any great detail. <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">The 1976 Act</ref> is an &#8216;adoptive Act&#8217;, <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45(2)</ref> providing that if the 1847 Act is in force in the area of a district council, the council may resolve that the provisions of the relevant Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> are to apply to the relevant area (&#8220;relevant area&#8221; being defined in relation to a council as meaning, if the 1847 Act is in force throughout the area of the council, that area, and, if the 1847 Act is in force for part only of the area of the council, that part of that area). It is to be noted that &#8220;district council&#8221; means (see <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1</ref> and 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref>) the council for one of the local government areas known as districts into which &#8220;England (exclusive of Greater London and the Isles of Scilly)&#8221; is divided. It is common ground that <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> has been adopted by Stockton-on-Tees Borough Council.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 48</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> provides for the licensing by local authorities of &#8220;private hire vehicles&#8221;, section 51 for the licensing of drivers of private hire vehicles and section 55 for the licensing of persons to operate private hire vehicles (&#8220;operate&#8221;, for this purpose, being defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> as meaning &#8220;in the course of business to make provision for the invitation or acceptance of bookings for a private hire vehicle&#8221;). It is well-established that all three licences must be issued by the same local authority: <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(2)</ref> as explained in <span style="font-style:italic">Dittah v Birmingham City Council, Choudhry v Brmingham City Council </span>[1993] RTR 356 and <span style="font-style:italic">Shanks v North Tyneside Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2001/533" uk:canonical="[2001] EWHC 533 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC 533 (Admin)</ref>, [2001] All ER (D) 344 (June).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A &#8220;private hire vehicle&#8221; is defined for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> as follows (<ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref>): </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;private hire vehicle&#8221; means a motor vehicle constructed or adapted to seat fewer than nine passengers, other than a hackney carriage or public service vehicle or a London cab or tramcar, which is provided for hire with the services of a driver for the purpose of carrying passengers&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The words &#8220;or a London Cab&#8221; were inserted by section 139(2) and Schedule 7, paragraph 17, of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">Transport Act 1985</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 80(1)</ref> provides that &#8220;hackney carriage&#8221; has the same meaning as in the 1847 Act and, by words also inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, that &#8220;London cab&#8221; means a vehicle which is a hackney carriage within the meaning of the 1869 Act. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> creates various criminal offences:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Except as authorised by this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8211; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">no person being the proprietor of any vehicle, not being a hackney carriage or London cab in respect of which a vehicle licence is in force, shall use or permit the same to be used in a controlled district as a private hire vehicle without having for such a vehicle a current licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 48</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">this Act</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">no person shall in a controlled district act as driver of any private hire vehicle without having a current licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/51" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 51</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">this Act</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">no person being the proprietor of a private hire vehicle licensed under this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">this Act</ref> shall employ as the driver thereof for the purpose of any hiring any person who does not have a current licence under the said <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/51" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 51</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">no person shall in a controlled district operate any vehicle as a private hire vehicle without having a current licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">this Act</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">no person licensed under the said <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> shall in a controlled district operate any vehicle as a private hire vehicle &#8211; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">if for the vehicle a current licence under the said <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 48</ref> is not in force; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">if the driver does not have a current licence under the said <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/51" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 51</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If any person knowingly contravenes the provisions of this section, he shall be guilty of an offence.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Again, the words &#8220;or London cab&#8221; in sub-<ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>) were inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. &#8220;Controlled district&#8221; means (see <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref>) the area of the local authority in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against this framework the relevant facts are shortly stated. In the small hours of 28 March 2009, authorised officers of Stockton-on-Tees Borough Council saw two vehicles standing in what was described as a line of taxis parked in Tower Street Car Park in Stockton-on-Tees. The driver of one, KP03 YDH, was the second respondent, Mr Hussain. The driver of the other, KG51 XZE, was the third respondent, Mr Zamanian. Both vehicles were being operated (I use the word in its general rather than its statutory sense) by the first respondent, Mr Fidler, trading as Tees Valley Cabs. Both vehicles were licensed by Berwick-upon-Tweed Borough Council as hackney carriages under section 37 of the 1847 Act, and Mr Hussain and Mr Zamanian were each licensed by Berwick-upon-Tweed Borough Council as drivers of hackney carriages under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of the 1847 Act. But, although Mr Fidler held an operator&#8217;s licence granted under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> by Stockton-on-Tees Borough Council, neither of the vehicles and neither of the drivers was licensed by Stockton-on-Tees Borough Council, whether under the 1847 Act or <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Hussain and Mr Zamanian were each charged with unlawfully standing for hire without the necessary licence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the 1847 Act. Mr Fidler was charged with four offences, two in relation to Mr Hussain and the same two in relation to Mr Zamanian. He was charged, first, with knowingly operating a vehicle as a private hire vehicle when the vehicle did not have a current private hire licence issued by Stockton-on-Tees Borough Council, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(e)(i) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, and, second, with knowingly operating a vehicle as a private hire vehicle when the driver did not have a current private hire driver&#8217;s licence issued by Stockton-on-Tees Borough Council, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(e)(ii) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The informations were dated 25 September 2009 and all three respondents appeared before Deputy District Judge (Magistrates&#8217; Court) Mary Hayes, sitting as a Magistrates&#8217; Court at Teeside on 26 January 2010, when she dealt with an application for a pre-trial ruling on a point of law. In the Case which she subsequently stated for the opinion of the High Court, she described the issue as being &#8220;whether it was unlawful to act as alleged in Stockton when the acts were within the terms of licences issued by a different local authority.&#8221; The Case records that the prosecution relied in particular upon <span style="font-style:italic">Shanks v North Tyneside Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2001/533" uk:canonical="[2001] EWHC 533 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC 533 (Admin)</ref> and what the Deputy District Judge refers to as the broader policy considerations set out both in that case and in <span style="font-style:italic">Newcastle City Council v Berwick-upon-Tweed Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/2369" uk:canonical="[2008] EWHC 2369 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 2369 (Admin)</ref>. The defence relied principally upon the decision in the latter case. In paragraph 10 of the Case, the Deputy District Judge expressed the opinion that the previous decisions contain dicta which it seems difficult to reconcile and to that extent the law is unclear, adding that she could not but give weight to the recent <span style="font-style:italic">Newcastle </span>case. She concluded:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In view of the statement relating to lawfulness and prosecution in the <span style="font-style:italic">Newcastle</span> case I felt bound to hold that the prosecution could not establish that the acts alleged were unlawful and so dismissed all the charges.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Deputy District Judge raised the following two questions for consideration  by the High Court:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>Is an offence committed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(e) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref> when a hackney carriage is operated on journeys booked and wholly contained within the area of one licensing authority when the relevant licence has been issued by a different licensing authority?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>Is it an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the Town Police clauses Act 1847 (as amended) for a hackney carriage licensed in one area to stand or ply for hire in another area where no licence has been issued to the driver or the vehicle by the licensing authority in that area?&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the Deputy District Judge pointed out, and as I should emphasise, every activity of which the prosecution was here making complaint had taken place within the area of the one licensing authority &#8211; Stockton-on-Tees Borough Council. We are not concerned with, and I therefore say nothing about, cases such as those where the journey starts in one area and finishes in another or where the vehicle is booked in one area but the journey takes place in another.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal came on for hearing before us at Leeds on 8 July 2010. The appellant, Stockton-on-Tees Borough Council, was represented by Ms E Joan Smith, the respondents, Mr Fidler Mr Hussain and Mr Zamanian, by Mr Jonathan Rodger. I am grateful to each of them for their written and oral submissions, as also for the further written submissions in relation to the &#8216;London cab&#8217; issue (see below) which at our invitation they submitted following the hearing. At the end of the hearing we announced that we would reserve our judgments, which we now hand down.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is convenient at this point, and before turning to the submissions from counsel, to consider the most relevant of the various authorities to which we were referred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as concerns a hackney carriage within the meaning of the 1847 Act, the origin of the aphorism &#8216;a hackney carriage is always a hackney carriage once it has been licensed&#8217; (see Button, paragraph 13.93) is to be found in two cases to which we were taken. In <span style="font-style:italic">Hawkins v Edwards </span><ref href="#" uk:canonical="[1901] 2 KB 169" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1901">[1901] 2 KB 169</ref>, the proprietor of a hackney carriage was prosecuted for failing to display the plate correctly. A licensed hackney carriage had been sent, driven by a man who was not a licensed hackney carriage driver, and with the plate obscured, to pick up the passenger from his home and take him to a railway station. The defence, that at the time the vehicle was not acting as a hackney carriage, was therefore not a hackney carriage, and therefore he did not need to display the plate, was rejected by the Divisional Court. Lord Alverstone CJ, with whom Lawrance J agreed, said this (page 173): </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I think the right view is that the carriage is licensed for a period, and if used during that period in standing or plying for hire the number must be shewn for the whole period. The language of s. 38 of the Town Police Clauses Act, 1847, means, I think, that every wheeled carriage which is in fact from time to time used in standing or plying for hire is to be deemed to be a hackney carriage for the whole of the period during which it is so from time to time used, and the language of the section does not limit the period to the time during which the carriage is in fact used for standing or plying for hire in a street.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The other case is <span style="font-style:italic">Yates v Gates </span><ref href="#" uk:canonical="[1970] 2 QB 27" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1970">[1970] 2 QB 27</ref>, another decision of the Divisional Court. The defendant was charged under section 47 of the 1847 Act with driving a hackney carriage without having a hackney carriage driver licence. The argument that no offence had been committed, because although passengers were carried, the taxi sign had not been illuminated and there had been no plying for hire, was rejected by the Divisional Court. Lord Parker CJ, with whom Ashworth and Talbot JJ agreed, said this (page 32):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;it is undoubtedly true that the defendant did not have the necessary licence, and that the vehicle in question was itself licensed to ply for hire. The justices, however, took the view that unless the vehicle was plying for hire it would not be a hackney carriage the driver of which would require a licence. That, of course, envisages that a vehicle licensed as a hackney carriage as defined in section 38 of the Town Police Clauses Act, 1847, must change its character from moment to moment; when it is not plying for hire it is not a hackney carriage, and when it is plying for hire it is a hackney carriage.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In my judgment <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> is perfectly plain. No person shall drive any vehicle which is licensed as a hackney carriage, whatever it may be doing at the particular moment, unless he himself has a licence as required by <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref>. Support for this view may be found in  <span style="font-style:italic">Hawkins v. Edwards</span> <ref href="#" uk:canonical="[1901] 2 KB 169" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1901">[1901] 2 K.B. 169</ref>, where the argument which apparently found favour with the justices in this case was not acceded to in the Divisional Court.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In my view the case should go back to the justices with a direction to convict&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Now both those cases concerned vehicles, licensed as hackney carriages, being used within the area of the authority which had licensed them. Neither concerned the status of such a vehicle while being used outside its own licensing area and in a place where it was not licensed. That issue (which is of course the issue with which we are concerned here) has been explored in a number of more recent cases which also consider the inter-relationship between the 1847 Act and <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first case is <span style="font-style:italic">Britain v ABC Cabs (Camberley) Ltd </span>[1981] RTR 395, where a vehicle licensed as a hackney carriage by the Borough of Surrey Heath to ply for hire within the former urban district of Frimley and Camberley picked up a passenger at Farnborough railway station in the borough of Rushmoor. The vehicle was not licensed by Rushmoor under either Act. The owner of the vehicle was charged with an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. The Divisional Court (Ormrod LJ and Webster J) dismissed an appeal by the prosecutor against the dismissal of the information by the Justices. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The argument of the prosecutor, as summarised by Webster J (at page 401), was that the vehicle was not a hackney carriage in respect of which a relevant licence was in force, in that no licence had been issued by Rushmoor and the licence issued by Surrey Heath was not a relevant licence for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) . Rejecting that contention, Webster J said this (page 404):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) the vehicle at the time and place in question was to be regarded as what in fact it was, namely, a hackney carriage in respect of which a vehicle licence is in force. In my judgment therefore no offence was made out under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) and the justices rightly dismissed that information.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Ormrod LJ agreed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the only question is whether the justices were right in holding that no offence had been committed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a), because the vehicle in question was &#8216;a hackney carriage in respect of which a vehicle licence is in force&#8217;. As Webster J has said, when one looks at <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> and the definitions of &#8216;hackney carriage&#8217; and &#8216;vehicle licence&#8217;, it is perfectly clear it means, in relation to a hackney carriage, a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 37</ref> to 45 of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1847.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Giving those words their ordinary meaning, it is clearly shown that this particular vehicle is and was a hackney carriage in respect of which a vehicle licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1847 was in force. I see no justification for reading in words into <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) to restrict that meaning of the phrase &#8216;hackney carriage in respect of which a vehicle licence is in force&#8217; to &#8216;a vehicle in respect of which a hackney carriage licence is in force granted by the Rushmoor council&#8217;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Young v Scampion </span>[1989] RTR 95, a vehicle licensed as a hackney carriage by Birmingham Metropolitan Borough Council was plying for hire on a private street within the area of Solihull Metropolitan Borough Council. The vehicle was not licensed by Solihull under either Act. The driver of the vehicle was charged with an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the 1847 Act. In the course of his judgment, Auld J, with whom Mann LJ agreed, accepted the submission of the defendant&#8217;s counsel that (page 105):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;a Birmingham licensed taxi does not lose its character as a Birmingham taxi when it enters Solihull, but it does not thereby become, in addition, a Solihull taxi.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Kingston Upon Hull City Council v Wilson </span>(1985) Times, 25 July, a vehicle licensed as a hackney carriage by Beverley Borough Council was being used &#8211; I put the matter very generally &#8211; for private hire in Kingston Upon Hull. It was not licensed there under either Act. The defendant was charged with offences under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(a), 46(1)(b) and 46(1)(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. The Justices acquitted on all three charges. Following and applying <span style="font-style:italic">Britain v ABC Cabs (Camberley) Ltd </span>[1981] RTR 395, the Divisional Court (Balcombe LJ and Buxton J) held that the Justices had been right to acquit on the charge under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a). In contrast, the Divisional Court held that the defendant could properly have been convicted under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(b) where, it will be recalled, the critical words, to be distinguished from the words &#8220;not being a hackney carriage&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a), are &#8220;private hire vehicle.&#8221; Explaining why, Buxton J, with whom Balcombe LJ agreed, said this (Transcript page 13):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The only ground upon which it could be argued that &#8230; the vehicle that Mr Wilson drove was not a private hire vehicle, is that it was a hackney carriage. Mr Neish argues that this vehicle was a hackney carriage because it had been licensed as a hackney carriage in the Borough of Beverley &#8230; That amounts to saying that once the vehicle is licensed anywhere as a hackney carriage, that precludes the application, in respect of that vehicle, of any part of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">this Act</ref> anywhere else in the country. Thus, if Mr Wilson had driven his vehicle in other respects not in conformity with <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> in Truro or Newcastle Upon Tyne, the fact that it had been licensed in Beverley as a hackney carriage would preclude the application, by any local authority, of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(2)</ref>. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Mr Neish fairly concedes that this point was not taken in the <span style="font-style:italic">ABC Cabs</span> case. The court in that case was concerned with the construction of the more composite phrase &#8220;being a hackney carriage&#8221; in respect of which a vehicle licence is in force &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He went on (Transcript page 15):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I cannot accept that <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">this Act</ref> intends it to be the case that in every case where a hackney carriage vehicle licence exists it follows thereafter that the vehicle so licensed cannot be susceptible to the rules applying to private hire vehicles. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">First of all, as my Lord pointed out in argument, <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) speaks of a vehicle &#8220;not being a hackney carriage in respect of which a vehicle licence was in force&#8221; and goes on to prohibit the use of such a vehicle as a private hire vehicle. If it is right that such a licence automatically prevents the vehicle being a private hire vehicle that provision would make no sense. Secondly, and more generally, if one looks at the definition of &#8220;hackney carriage&#8221; in the Town Police Clauses Act 1847, &#8230; it seems to me clear that that definition at least starts by looking at the function that the vehicle is performing and not at its nature, construction or inherent identity. If that is so it cannot, in my view, be the case that simply to license a vehicle as a hackney carriage thereby makes that vehicle a hackney carriage for all time, even if it is functioning as a private hire vehicle. In my judgement, therefore, it is not enough that a hackney carriage licence exists to establish that this vehicle was a hackney carriage so that term is used in the definition of a &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">I am, therefore, quite satisfied that it was made out before the Magistrates that this was a private hire vehicle.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Divisional Court likewise held that the defendant could properly have been convicted under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(d), adopting the same approach (Transcript page 19) in relation to the &#8216;private hire vehicle&#8217; point as it had under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Benson v Boyce </span>[1997] RTR 226, the Divisional Court was not concerned with a vehicle which was a hackney carriage. But in the course of giving his judgment, Mance J, with whom Kennedy LJ agreed, considered what Buxton J had said in <span style="font-style:italic">Wilson </span>in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(b). Mance J commented (page 236):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The essence of the court&#8217;s reasoning was that the mere existence of a hackney carriage licence in respect of a vehicle was not sufficient to &#8220;make &#8230; that vehicle a hackney carriage for all time, even if it is functioning as a private hire vehicle&#8221;. The court&#8217;s judgment does not mention, and it seems probable that the court was not referred to, the decisions in <span style="font-style:italic">Hawkins v Edwards</span> and <span style="font-style:italic">Yates v Gates</span>. But even in the light of those authorities, I see no difficulty about the court&#8217;s conclusion under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(b) and 80(1) in a case where there is nothing more than a hackney carriage licence &#8211; as was, so far as appears, the position in <span style="font-style:italic">Kingston upon Hull District Council v Wilson</span>. The characteristic use of standing or plying for hire in a street, which is the hallmark of a hackney carriage, is not achieved by simply obtaining a licence for such use. I say nothing, however, about the extent to which it is consistent to ignore such considerations when applying the exception relating to hackney carriages in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a). Nor do I feel it necessary to go further into the extent to which the exclusions relating to hackney carriages in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(a) and 80(1) can apply to vehicles, if there are such, operated as private hire vehicles in one controlled area but as hackney carriages in another &#8230; Neither the issues before us, nor the information and submissions which we have had, make this an appropriate case to consider such matters. There is no suggestion in the present case that the relevant vehicle was a hackney carriage anywhere&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Brentwood Borough Council v Gladen </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2004/2500" uk:canonical="[2004] EWHC 2500 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 2500 (Admin)</ref>, [2005] RTR 152, a vehicles licensed as a hackney carriage by Brentwood Borough Council was used in Brentwood for private hire. The defendant was charged under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(d) but acquitted by the District Judge. The prosecutor&#8217;s appeal was dismissed by the Divisional Court. Explaining why, Collins J, with whom Silber J agreed, said this (paragraphs [30]-[31]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[30]<marker name="tab"/>&#8230; It seems to me apparent that <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.80</ref> excludes hackney carriages from <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.46(1)</ref>(d) . I say that because, without going in detail over ground that I have already covered, &#8220;operate&#8221; relates to business in relation to bookings for a private hire vehicle. An &#8220;operator&#8217;s licence&#8221; means a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.55</ref> , and a &#8220;private hire vehicle&#8221; is defined as meaning a vehicle other than a hackney carriage. Thus, that, coupled with the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.55</ref> and 56 &#8230; , seem to me to make it apparent that Parliament has recognised that different regimes apply to hackney carriages and to private hire vehicles, and that it is not necessary for a licensed hackney carriage, driven by a licensed hackney carriage driver, to be subject also to the requirements of an operator&#8217;s licence; otherwise the limitations on the wording which Parliament has clearly set out would not be given their true meaning. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[31] <marker name="tab"/>It is true that, if one looks at it at face value without considering the technical meaning, the words &#8220;operate any vehicle as a private hire vehicle&#8221; could lead to the belief that hackney carriages were included because a hackney carriage is obviously a vehicle. But, as it seems to me, that is quite impossible having regard to the meanings which Parliament has attached to the various words and to which I have already referred.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">He added this (paragraphs [35]-[36]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;[35] <marker name="tab"/>The district judge posed this question for the opinion of the High Court: </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;Whether it is necessary to hold a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.55</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref> , in an area where <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">that Act</ref> is in force, to operate a hackney carriage duly licensed as such under the Town Police Clauses Act 1847 [as a private hire vehicle]&#8221;. </p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">[36] <marker name="tab"/>The answer to that question is: No.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I observe that, although he referred to Mance J&#8217;s judgment in <span style="font-style:italic">Benson </span>(albeit a different passage on a different point), Collins J did not refer to either <span style="font-style:italic">Britain</span> or <span style="font-style:italic">Wilson</span>, both of which had been considered by Mance J. However, it appears from the report that <span style="font-style:italic">Britain </span>(though not <span style="font-style:italic">Wilson</span>) had been cited to Collins and Silber JJ.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next decision is that of District Judge Shaw sitting as a Magistrates&#8217; Court in <span style="font-style:italic">Wrexham County Borough Council v Whalley and Higgins </span>(2008 &#8211; unreported). In that case vehicles licensed as hackney carriages by Oswestry Borough Council were being used for private hire in Wrexham. The defendants were charged under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(d). Convicting them, the District Judge said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In <span style="font-style:italic">Gladen </span>the use of the hackney cab for private hire took place within the same area in which it was licensed. The distinction in the present case is that the hackney cabs were used for private hire in another area and without a licence in that area. I do not accept that this is permissible and find that hackney cabs cannot be used generally in other controlled areas for private hire without a licence. I &#8230; accept the proposition that a [Wrexham] licence is required &#8230; to use hackney cabs licensed in another area for private hire in Wrexham.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">There was no appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The last case is <span style="font-style:italic">R (On the Application of Newcastle City Council) v Berwick-upon-Tweed Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/2369" uk:canonical="[2008] EWHC 2369 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 2369 (Admin)</ref>, [2009] RTR 413, a decision of Mr Christopher Symons QC (sitting as a Deputy Judge of the High Court) on an application by Newcastle City Council for judicial review of the hackney carriage licensing policy operated by Berwick-upon-Tweed Borough Council. One of the effects of that policy was that large numbers of vehicles licensed as hackney carriages by Berwick-upon-Tweed Borough Council were being used in Newcastle for private hire. So, although the facts were analytically identical to those in the present case, the primary legal issue was very different. However, in the course of his judgment the Deputy Judge considered whether, as he put it (paragraph [2]), &#8220;it is lawful for a hackney carriage to be booked, and to carry out that booking, in a district remote from where it is licensed&#8221;, an issue which, he observed (paragraph [8]), largely turned on the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(e). On that issue, Newcastle (perhaps surprisingly) and Berwick were at one: it was lawful. The opposing stance was adopted (perhaps unsurprisingly) by one of the interested parties, the Berwick Borough Taxi Association.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having recited the relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46</ref> and 80, the Deputy Judge set out (paragraphs [45]-[46]) the submissions of Mr Maddox, counsel for the Berwick Borough Taxi Association, to the effect that &#8220;Newcastle could prosecute operators licensed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> where those operators use vehicles other than appropriately licensed private hire vehicles to fulfil pre-booked hirings&#8221;, although on the other hand &#8220;A Berwick hackney carriage would be able to undertake a pre-booked hiring where the booking was made with the hackney carriage proprietor/driver rather than through an operator licensed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> and where the booking was taken in that hackney carriage's own licensed area.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event, the Deputy Judge rejected those submissions. Having observed (paragraph [47]) that there is no provision for hackney carriages to have operators as required for private hire vehicles by <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref>, he turned to consider the authorities, going first to <span style="font-style:italic">Britain </span>and then to <span style="font-style:italic">Wilson</span> and <span style="font-style:italic">Benson </span>before commenting (paragraph [52]) that &#8220;I confess I have found it difficult to reconcile the various dicta in these cases.&#8221; The Deputy Judge then turned to <span style="font-style:italic">Gladen </span>and <span style="font-style:italic">Wrexham</span>, commenting (paragraph [55]) in relation to the District Judge&#8217;s reasoning in the latter case:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The district judge distinguished <span style="font-style:italic">Gladen</span> on the basis that in <span style="font-style:italic">Gladen</span> the private hire took place in the area where the hackney carriage was licensed whereas in <span style="font-style:italic">Whalley</span> the hire took place outside the district where the hackney carriage was licensed. The owner was thus convicted under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.46(1)</ref>(e) . I confess that on my reading of <span style="font-style:italic">Gladen</span> the critical issue was whether the vehicle used for private hire had a hackney carriage licence not whether the licence was issued in the particular area where the hire took place.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having thus surveyed the authorities the Deputy Judge concluded (paragraphs [56]-[58]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[56] <marker name="tab"/>The court is therefore in the position that both the claimant and the defendant &#8230; are agreed that Newcastle has no power to prosecute those private hire operators licensed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.55</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> who use hackney carriages to fulfil pre-booked hirings provided the hackney carriage and the driver are properly licensed. The authority of this court in <span style="font-style:italic">Gladen</span> in my judgment supports that view. On the opposite side appears to me to be the decision in <span style="font-style:italic">Wilson</span> and the decision of the district judge in <span style="font-style:italic">Whalley</span> &#8230;  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[57] <marker name="tab"/>While &#8230; I have considerable sympathy with the argument persuasively put by Mr Maddox, I am not prepared to do other than follow <span style="font-style:italic">Gladen</span> which is a decision of this court which I am certainly not prepared to say is obviously wrong. Mr Maddox sought to persuade me that since that case involved <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.46(1)</ref>(d) the submission now advanced &#8230; was not fully argued. However it is clear from the judgment in that case that the court considered <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.46(1)</ref>(d) and (e) and expressed its conclusions and I do not think it is possible to distinguish it. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[58] <marker name="tab"/>So it follows that I am not prepared to hold that Newcastle can prosecute those using hackney carriages to fulfil pre-booked hirings in Newcastle upon Tyne albeit that their hackney carriage licence is obtained from a local authority remote from Newcastle.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before parting from the authorities I should refer to the passages in <span style="font-style:italic">Shanks v North Tyneside Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2001/533" uk:canonical="[2001] EWHC 533 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC 533 (Admin)</ref>, [2001] All ER (D) 344 (June), and in <span style="font-style:italic">R (On the Application of Newcastle City Council) v Berwick-upon-Tweed Borough Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/2369" uk:canonical="[2008] EWHC 2369 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 2369 (Admin)</ref>, [2009] RTR 413, setting out the policy considerations relied on by the prosecution in the present case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Shanks </span>was not a case about hackney carriages. What it re-affirmed was that <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> requires the three licenses required respectively under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 48</ref>, 51 and 53 all to have been issued by the same authority. As Latham LJ put it (paragraph [22]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(2)</ref> as applied to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(e), in my judgment, brook of no other answer but that the operator granted the licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/55" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 55</ref> can only operate vehicles and drivers licensed by the licensing authority which granted it its operator&#8217;s licence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The passage which is relied upon follows (paragraphs [22]-[24]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[22]<marker name="tab"/>&#8230; One way of testing whether or not that particular construction is correct is to consider the consequences of the construction contended for by Miss Booth. One of the consequences would be that if one applied her logic to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(d) and (e), the only conclusion that one could come to would be that an operator could operate in any district provided he had obtained a licence authorising him to operate in one district.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[23] <marker name="tab"/>That would, in my judgment, drive a coach and horses through what appears to me to be a central principle of this legislation, which is that the authorities responsible for granting licences should have the ability to exercise full control over the operation of private hire vehicles within their area.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[24] <marker name="tab"/>I consider therefore that there are good policy reasons for ensuring that there is a unified system of control in relation to private hire vehicles operating within the area of any given authority. That ensures consistency of policy in relation to the provision of private hire vehicles and their drivers. It enables the authority to ensure that it is able to exercise such control as it is entitled to exercise over all the vehicles and drivers being operated to provide private hire services within its area. That seems to me to be a central purpose of the statutory provisions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the <span style="font-style:italic">Berwick </span>case, the Deputy Judge identified (paragraphs [22]-[23]) some of the purposes behind the legislation:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[22]<marker name="tab"/>In my judgment the major purpose behind the 1847 Act, and indeed <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, is the safety of the public by which I include both the travelling public as passengers and other road users. Thus the scheme of the legislation is directed towards having safe vehicles, fit and proper drivers and appropriate conditions of hire &#8230; Byelaws and conditions apply locally to the licensed hackney carriages and it was apparent from the evidence before me that different councils will impose different conditions and have different byelaws &#8230; dependent on the area concerned &#8230; It may be, for example, that an authority covering a large conurbation will have different concerns, and require different conditions, to one covering a more rural area.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[23]<marker name="tab"/>If hackney carriages are working remote from their licensing authority a number of, at the least potentially, undesirable consequences follow. The licensing authority will not easily keep their licensed fleet under observation. It will be carrying out its enforcement powers from a distance. The licensing authority where the hackney carriage has chosen to operate will have no enforcement powers over the vehicle although it is being used in its area. Further, unlike its own licensed vehicles, the hackney carriage from remote areas will not be subject to the same conditions and byelaws as the local vehicles. It is no surprise that the legislation provides for testing and testing centres to be within the licensing authority's area.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He recorded how Berwick&#8217;s large, but remote, fleet of hackney carriages had had the effect of persuading Berwick of the need to have testing stations over a wide area well removed from Berwick-on-Tweed. Indeed, such was the financial surplus generated by the large number of licences being issued Berwick that it was used in part to pay for a vehicle on the road in the Tyneside area to keep an eye on their hackney carriages. He added (paragraph [25]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;it must be desirable for an authority issuing licences to hackney carriages to be able to restrict the issuing of those licences to proprietors and drivers which are intending to ply for hire in that authority&#8217;s area. Similarly it must be desirable to be able to refuse to issue licences to proprietors and drivers who do not intend to ply for hire, to a material extent, in the area of the licence grantor.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this connection Ms Smith points also to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/68" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> which provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Any authorised officer of the council in question or any constable shall have power at all reasonable times to inspect and test, for the purpose of ascertaining its fitness, any hackney carriage or private hire vehicle licensed by a district council, or any taximeter affixed to such a vehicle, and if he is not satisfied as to the fitness of the hackney carriage or private hire vehicle or as to the accuracy of its taximeter he may by notice in writing require the proprietor of the hackney carriage or private hire vehicle to make it or its taximeter available for further inspection and testing at such reasonable time and place as may be specified in the notice and suspend the vehicle licence until such time as such authorised officer or constable is so satisfied&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">As she points out, although these powers are conferred upon any constable, they are exercisable only by authorised officers of the local authority which has licensed the vehicle. So, as she points out, authorised officers of Stockton-on-Tees Borough Council cannot exercise their powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/68" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 68</ref> in relation to vehicles licensed, as in the present case, by Berwick-upon-Tweed Borough Council, however unfit or even dangerous they may be. Thus if the Respondents in the present case are right, there is, she says, a significant &#8216;gap&#8217; in the regulatory scheme designed to protect the public from unfit and potentially dangerous hackney carriages. Berwick-upon-Tweed Borough Council may be willing and able to send its authorised officers &#8216;out of borough&#8217; as far as Newcastle, but that is not to say that it does or can necessarily be expected to do so as far south as Stockton-on-Tees.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I return to the two questions posed for our consideration by the Deputy District Judge. It is convenient to deal first with the second question, relating to whether offences under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the 1847 Act had been committed by Mr Hussain and Mr Zamanian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Smith submits, and Mr Rodger accepts, that upon the true construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> a person performing any of the acts prohibited by that section, that is, standing or plying for hire, is guilty of an offence unless licensed by the local authority for the area in which the acts take place. Mr Rodger does not dispute that a hackney carriage licensed by local authority A may not be used to stand or ply for hire outside the area of local authority A. It is, he accepts, clearly an offence for a hackney carriage to stand or ply for hire outside the area for which it is licensed. Accordingly, he accepts that if Mr Hussain and Mr Zamanian were indeed standing or plying for hire, then they were guilty of the offence. I agree. It follows that the answer to the second question posed for our consideration by the Deputy District Judge is, in my judgment, Yes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whether Mr Hussain and Mr Zamanian were committing an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the 1847 Act therefore depends upon whether or not Tower Street Car Park in Stockton-on-Tees is a &#8220;street&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the Act</ref> (as to which see, for example, <span style="font-style:italic">Young v Scampion </span>[1989] RTR 95) and whether or not what they were doing amounted to either &#8220;standing&#8221; or &#8220;plying for hire&#8221;. Whether or not the offence was committed depends therefore on the primary facts as found by the court, those primary facts then being evaluated in the light of the various authorities on the meaning of the words &#8220;standing&#8221;, &#8220;plying for hire&#8221; and &#8220;street&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Rodger admits the facts as set out in the witness statements of the prosecuting authority&#8217;s officers but submits that they do not come even close to establishing either standing or plying for hire. This factual issue has not as yet been determined by the Deputy District Judge, whose rulings were confined to preliminary issues of law. We cannot resolve this factual issue, which in principle should therefore go back for determination by the Deputy District Judge in accordance with our ruling. Appropriately, however, Ms Smith indicates that the prosecuting authority, having established the principle, does not think it necessary in the circumstances to pursue the matter any further against either Mr Hussain or Mr Zamanian. Accordingly, while I answer the second question posed by the Deputy District Judge in terms favourable to the prosecution, I would not remit the matter for any further proceedings against either Mr Hussain or Mr Zamanian. They were acquitted by the Deputy District Judge. Those acquittals will, if my brother agrees, therefore stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn to the other, and much more difficult and important question, which relates to whether offences under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> had been committed by Mr Fidler. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Smith submits that the Deputy District Judge was wrong to decide the preliminary issue as she did. Ms Smith points to the linked references in section 38 and <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref> of the 1847 Act to &#8220;hackney carriage&#8221; and &#8220;prescribed distance&#8221; (and, in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45</ref>, also to &#8220;a licence as aforesaid&#8221;) as demonstrating what she submits is the essential geographical connection between a hackney carriage and the place where it is registered. She points to the policy factors I have mentioned as supporting the approach she contends for. She points to the omission from <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> of the qualifying words &#8220;not being a hackney carriage or London cab&#8221; which appear in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a). She submits that the word &#8220;as&#8221;, when used in the phrase &#8220;operate any vehicle as a private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e), is to be understood as meaning &#8220;as if it were, though it is not&#8221;. She relies upon Buxton J&#8217;s analysis in <span style="font-style:italic">Wilson</span>. She points out that <span style="font-style:italic">Gladen</span> related to user of a vehicle for private hire purposes within the area for which it was licensed as a hackney carriage, and that the case therefore did not engage the matter at issue here. <span style="font-style:italic">Britain </span>likewise, she submits, can be distinguished on the facts. <span style="font-style:italic">Berwick </span>she says can be disregarded and distinguished, conflicting with other cases that are still good law. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Rodger, for his part, submits that the Deputy District Judge was entirely correct in deciding the preliminary issue as she did. He relies in particular upon <span style="font-style:italic">Britain</span>, <span style="font-style:italic">Gladen </span>and <span style="font-style:italic">Berwick</span>, all of which, he submits, were correctly decided. He submits that unless what I can conveniently refer to as the &#8216;hackney carriage exemption&#8217; &#8211; that is, the qualifying reference in the definition of a private hire vehicle in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> to &#8220;a &#8230; vehicle &#8230; other than a hackney carriage &#8230; or a London cab&#8221; &#8211; is read back into the references to &#8220;a private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, it will not be lawful to &#8220;operate &#8230; as a private hire vehicle&#8221;  a vehicle which is licensed as a hackney carriage, even in the area in which it is so licensed, unless it is also licensed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. And the latter, he says, is impossible, not least in the light of the definition of a private hire vehicle in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> and given the requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/48/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 48(1)</ref>(a)(ii) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;a district council shall not grant &#8230; a licence [under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/48" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 48</ref>] unless they are satisfied &#8230; that the vehicle is &#8230; not of such design and appearance as to lead any person to believe that the vehicle is a hackney carriage&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">On the contrary, he says, the lawfulness of the use of a hackney carriage for private hire (at least in the area in which it is licensed as a hackney carriage) is assumed in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/67/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, which provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;No hackney carriage shall be used in the district under a contract or purported contract for private hire except at a rate of fares or charges not greater than that fixed by the byelaws or tables mentioned in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/66" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 66</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8230;&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/67/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 67(2)</ref> makes contravention of this provision a criminal offence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Put more generally, Mr Rodger submits that a hackney carriage is always a hackney carriage, no matter what it is doing, or where, and that its use, for whatever purpose, can never make it a private hire vehicle in the statutory sense. There are, he says, entirely separate and distinct regimes for the licensing of vehicles as hackney carriages and as private hire vehicles and the regime which regulates private hire vehicles has no application to a vehicle registered as a hackney carriage. The purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> (as later, in relation  to London, of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/34" uk:canonical="1998 c. 34" uk:origin="TNA" uk:type="legislation">the 1998 Act</ref>) was, he submits, to impose a scheme of licensing on otherwise unlicensed vehicles and their drivers; it was not to impose further regulation on already-regulated hackney carriages. To &#8220;operate&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, including for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e), is, he says, as the definition of &#8220;operate&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> makes clear, an activity that can be carried out only in relation to a private hire vehicle as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> &#8211; and that definition explicitly excludes a hackney carriage; it is not an activity carried out, or capable of being carried out, in relation to a hackney carriage, however or wherever it is being used. The provision of a hackney carriage for hire together with the services of a driver pursuant to an advance booking is not, he submits, a licensable activity. It always has been, and continues to be, he asserts, an activity unregulated under any statute. In short, Mr Rodger prays in aid what in Button is described (page xvi) as &#8220;the inherent right of the hackney carriage proprietor to undertake pre-booked hirings anywhere in England or Wales.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Rodger and essentially for all the reasons he has given.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Central to the dispute in this case, as it seems to me, are two questions of statutory construction. The first relates to the meaning of the words &#8220;hackney carriage&#8221; where they appear in the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. This is the issue determined by the Divisional Court in <span style="font-style:italic">Britain v ABC Cabs (Camberley) Ltd </span>[1981] RTR 395. In agreement with the decision in that case, I would hold that &#8220;hackney carriage&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> means a hackney carriage wherever it may be licensed as such. So what I have referred to as the &#8216;hackney carriage exemption&#8217; is not confined to hackney carriages licensed as such by the local authority which is seeking to enforce within its own area the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. I respectfully agree with the reasoning in <span style="font-style:italic">Britain </span>of both Webster J and, more particularly, of Ormrod LJ. Their reasoning is compelling. The decision has stood for thirty years without challenge. In my judgment it is correct and we should follow it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second question relates to whether what I have called the &#8216;hackney carriage exemption&#8217; is to be read back into the references to a &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. This is the issue determined by the Divisional Court in <span style="font-style:italic">Brentwood Borough Council v Gladen </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2004/2500" uk:canonical="[2004] EWHC 2500 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 2500 (Admin)</ref>, [2005] RTR 152. I agree with Collins J&#8217;s decision and with his reasoning. In my judgment the words &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e) have to be read as governed by the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> and they are, accordingly, subject to the &#8216;hackney carriage exemption&#8217;. This is a conclusion, moreover, which receives powerful support from the arguments which Mr Rodger has put forward (summarised in paragraph [55] above), in particular, the arguments based upon <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/48/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 48(1)</ref>(a)(ii) and 67(1). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept that in <span style="font-style:italic">Gladen </span>the court was not concerned, as we are, with a vehicle which had been licensed as a hackney carriage by another local authority. But that, in my judgment, does not take Ms Smith where she would have us go, for the &#8216;foreign hackney carriage&#8217; point is determined against her by <span style="font-style:italic">Britain.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Put shortly, the correct analysis, in my judgment, is this: first, and for the reasons given in <span style="font-style:italic">Gladen</span>, one has to read into the references to &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 46(1)</ref>(d) and 46(1)(e) the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref>, including what I have called the &#8216;hackney carriage exemption&#8217;; second, and for the reasons given in <span style="font-style:italic">Britain</span>, the words &#8220;hackney carriage&#8221; where they appear in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> are not confined to a vehicle licensed as a hackney carriage by the local authority which is seeking to enforce within its own area the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>; they extend to any vehicle registered as a hackney carriage anywhere. And the combination of these two matters leads inexorably, as a matter of both logic and law, to the conclusion for which Mr Rodger contends. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For my part I would therefore answer the first question posed for our consideration by the Deputy District Judge, No. Mr Fidler was acquitted by the Deputy District Judge. His acquittal will, if my brother agrees, therefore stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree both with the Deputy District Judge, as also with the Deputy Judge in the <span style="font-style:italic">Berwick </span>case, that the authorities are not altogether easy to reconcile. In my judgment the decision of the District Judge in the <span style="font-style:italic">Wrexham </span>case was wrong. And if and insofar as the decision of the Divisional Court in <span style="font-style:italic">Wilson</span> conflicts with this analysis then it is, in my respectful judgment, wrong. The law, in my judgment, was and is, as Mr Rodger submitted, correctly laid down in <span style="font-style:italic">Britain </span>and <span style="font-style:italic">Gladen</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Rodger seeks further support for his analysis by reference to what I have called the &#8216;London cab&#8217; issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The point arises in this way. It will be recalled that following the amendment of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, the &#8216;hackney carriage exemption&#8217; in the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> was extended to include a reference to &#8220;London cab&#8221;. So a private hire vehicle is now defined as &#8220;a &#8230; vehicle &#8230; other than a hackney carriage &#8230; or a London cab&#8221;, the latter, as we have seen, being defined as a vehicle which is a hackney carriage within the meaning of the 1869 Act. Mr Rodger&#8217;s point is very simple. He submits that a &#8220;London cab&#8221; is necessarily a vehicle licensed before 2000 by the Commissioner of the Metropolitan Police or since then by Transport for London; in other words a vehicle which is not and cannot be licensed by a local authority licensing vehicles under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. So in relation to such an authority, whether it be Berwick-upon-Tweed Borough Council or Stockton-on-Tees Borough Council or, indeed, any other local authority outside Greater London, a &#8220;London cab&#8221; is necessarily a hackney carriage licensed by another authority, now Transport for London. It follows therefore, he says, that the &#8216;hackney carriage exemption&#8217; in the definition of a private hire vehicle in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> is not confined to a vehicle licensed as a hackney carriage by the local authority seeking to enforce within its own area the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. For if a vehicle licensed by Transport for London as a hackney carriage within the meaning of the 1869 Act (in other words what is called a London cab for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>) can be used in Stockton-on-Tees for private hire purposes without being registered by Stockton-on-Tees Borough Council as a private hire vehicle &#8211; and that is the effect of the definition of private hire vehicle in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> &#8211; then by parity of reasoning the same must apply in relation to a vehicle registered, for example by Berwick-upon-Tweed Borough Council, as a hackney carriage within the meaning of the 1847 Act.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Rodger puts what is essentially the same point in a slightly different way. He submits that the metropolitan police district (within which London cabs are &#8216;at home&#8217;) does not &#8211; indeed, he says, cannot &#8211; overlap geographically with any area which is a &#8220;controlled district&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>, because <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> can be adopted only by district councils which, by definition, do not exist within Greater London. So, as he puts it, it is not possible for a London cab to be &#8216;at home&#8217; within a controlled district. Implicit in these submissions, as he accepts, is the proposition that (ignoring as irrelevant for these purposes the fact that the City of London, the Inner Temple and the Middle Temple are parts of Greater London but are not within the metropolitan police district) Greater London and the metropolitan police district are identical.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Neither the researches helpfully carried out for us by Mr Rodger and Ms Smith nor such limited researches of my own as I have since been able to make, throw any light upon why the references to &#8220;London cab&#8221; were inserted in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>; <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67/section/139/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 139(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> refers to these and others as being &#8220;minor amendments and amendments consequential on the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221;. Be that as it may, the amendments were made and the &#8216;hackney carriage exemption&#8217; is now defined, inter alia, by reference to a &#8220;London cab&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Rodger&#8217;s first formulation of his point is, in my judgment, irrefutable. A &#8220;London cab&#8221; is necessarily and by definition a vehicle licensed as such &#8211; that is, as a hackney carriage &#8211; by Transport for London (previously the Commissioner) and not by the local authority seeking to enforce within its own area the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>. I am not so sure about Mr Rodger&#8217;s alternative formulation of the point, because although the metropolitan police district has since been 2000 been defined by reference to Greater London, that was not the case when the amendments to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> were made by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/67" uk:canonical="1985 c. 67" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. For at that time, as we have seen, the metropolitan police district included certain parts of Essex, Hertfordshire and Surrey. So from 1985 to 2000 there was in fact the geographical overlap which Mr Rodger has to disavow if this part of his argument is correct. I need not, however, explore this difficult question any further. Mr Rodger&#8217;s primary formulation of his point is correct and, irrespective of the merits or otherwise of his second argument, suffices to make good his fundamental point. In my judgment, on the &#8216;London cab&#8217; issue Mr Rodger is essentially correct. The inclusion of the words &#8220;London cab&#8221; within the definition of &#8220;private hire vehicle&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> powerfully reinforce the conclusions to which I would in any event otherwise have come. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For all these reasons I would answer the first question posed by the Deputy District Judge, No, and the second, Yes. I would not, however, remit the case against Mr Hussain and Mr Zamanian for any further hearing before the District Judge.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Mr Justice Langstaff :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I, too, find the answer to the first question posed by the Deputy District Judge to be of greater difficulty than that to the second.  As to this first question, the authorities &#8211; in particular those of <span style="font-style:italic">Wilson</span> and <span style="font-style:italic">Britain</span> - are not easy to reconcile.  This may be a consequence of a differing approach in each.  Whereas the relevant passages in <span style="font-style:italic">Wilson</span> seek to identify the underlying policy of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the Act</ref>, and do so in part by concluding that it is to regulate the use of those vehicles which together with their drivers may be hired for short journeys with a view to the safety of passengers in the light of a local understanding of that which safety locally requires, it may be said that <span style="font-style:italic">Britain</span> takes an approach to the application of the statute which is, rather, driven by the literal words of the relevant provisions.  In the light of this, and of the consequences of this judgment which may be far reaching, I shall add a few words of my own as to the answer to the first question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> As to the answer to the second question, and whether there should be any remittal of these proceedings, I agree with the conclusions My Lord has reached, for the reasoning he expresses, and it is unnecessary for me to add anything.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The scheme of both the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">Local Government (Miscellaneous Provisions) Act 1976</ref>, under which the charges here were brought, and that of the Town Police Clauses Act 1847 is to provide for local regulation of (on the one hand) private hire vehicles, and (on the other) hackney carriages.  The scheme is not one of national regulation, merely administered locally.  If it were, there would be no room for different councils to adopt differing requirements of applicants for the relevant licences.  At first blush, therefore, and without recourse to authority or to detailed examination of the interlinking intricacies of the statutory provisions, it seems contrary to the policy adopted by the legislation to exempt a vehicle from the requirements of regulation of private hire vehicles in Stockton-on-Tees because it has been registered by another authority with different priorities and concerns to those of Stockton, as a different class of vehicle. The reasoning of Buxton J. in <span style="font-style:italic">Wilson</span> (as set out at page 13 of the Transcript, see above at paragraph 32) seems roundly dismissive of any suggestion to the contrary. It relies (page 15, transcript) on there being separate requirements (for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/46/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>) for a vehicle to be both (a) a hackney carriage and (b) to be licensed as such.  It was not enough that there should simply be a licence in force in respect of the vehicle to make it a hackney carriage at the relevant time.  No doubt, if the statute had wished to exempt vehicles which had been so licensed simply by virtue of that fact it would not have needed to refer to such a vehicle as actually &#8220;<span style="font-style:italic">being </span>a hackney carriage&#8230;.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, as I understand his reasoning the essential question whether a vehicle is a hackney carriage is to be answered by looking to see what function the vehicle is performing at the relevant time, albeit seen in context &#8211; to determine its &#8220;characteristic use&#8221; as Mance J. described it in <span style="font-style:italic">Benson v Boyce, </span>by the use of that phrase ensuring that the forensic focus would be wider than on a short-lived use, out of character, calculated to avoid regulations otherwise applicable, such as by obscuring a licence plate or light for the course of one journey (see <span style="font-style:italic">Hawkins v Edwards; Yates v Gates).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To determine the first question in this case, therefore, in the light of the judgments in <span style="font-style:italic">Wilson</span> it would be necessary to ask not only whether the vehicles which <span style="font-style:italic"/>Mr. Fidler operated in Stockton-upon-Tees had been licensed as such in Berwick-upon-Tweed but also whether at the relevant time their characteristic use was as hackney carriages.  If neither were the case, then the vehicles would not be hackney carriages, and would require to be licensed (by Stockton-upon-Tees Borough Council) if they were to operate in other respects as private hire vehicles.  <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 80(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> would not confer an exemption, because that relates to vehicles &#8220;other than hackney carriages&#8221;, and the application of the statute thereby depends upon the central factual issue: is the characteristic use that of a hackney carriage?  The exemption conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> (on this argument) does not depend on whether the vehicle is licensed as such, but whether it is, or is not, such a vehicle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I confess that both during and for some while after hearing the arguments of counsel I was attracted to this analysis, not least because it had the consequence of preserving the system of local licensing which <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the Act</ref>s appear to adopt.  There was one principal difficulty I had in accepting it, then as now, which depends upon the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> and which has led me in the event to prefer the analysis of Ormrod LJ and Webster J in <span style="font-style:italic">Britain v ABC Cabs</span>. It is what My Lord calls the &#8220;London cab&#8221; issue. The statutory definition of &#8220;London cab&#8221; is not dependent upon the characteristic use of such a vehicle as a London cab, for that use is specifically confined within geographical limits (section 4 of the 1869 Act providing, as it does, that it is a &#8220;carriage...which plies for hire within the limits of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8230;&#8221;). If the applicable legislation affords no possibility of those limits overlapping with those areas within which <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> applies then there would equally be no prospect of there being a &#8220;London cab&#8221; recognisable as such within those areas if the identity of such a cab were solely dependent on its characteristic use. Yet the definition within <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> contemplates the possibility that that which is properly to be identified as a &#8220;London cab&#8221; may be a vehicle which accepts passengers for private hire in areas outside London, so that the exemption conferred from local licensing by the wording of that section has force.  As my Lord holds at paragraph 68 of his judgment, I too agree that the argument to this effect made by Mr. Rodger is irrefutable, and his alternative formulation of the point equally persuasive since the geographical area within which a London cab is to be licensed as such does not (now, at any rate) overlap with those areas to which <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref> applies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since the wording of the legislation has the effect, therefore, that what Mance J. described as the &#8220;characteristic use&#8221; of a vehicle is not sufficient in itself to determine what is, or is not, a hackney carriage, I too am bound to hold that &#8220;hackney carriage&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> means a hackney carriage, wherever it may be licensed as such, and the &#8220;hackney carriage exemption&#8221; is not confined to hackney carriages licensed as such by the local authority which is seeking to enforce within its own area the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57" uk:canonical="1976 c. 57" uk:origin="TNA" uk:type="legislation">the 1976 Act</ref>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If and insofar as the judgments in <span style="font-style:italic">Britain </span>and those in <span style="font-style:italic">Wilson </span>are in conflict, I agree with my Lord that those in <span style="font-style:italic">Britain </span>are to be preferred.  I would further add that the reasoning of Ormrod LJ in <span style="font-style:italic">Britain</span> cannot, as it seems to me, be regarded as inapplicable (despite that which appears to have been conceded by counsel in <span style="font-style:italic">Wilson</span>) on the basis that what was under consideration was a &#8220;more composite phrase, &#8216;being a hackney carriage in respect of which a vehicle licence is in force&#8217;..&#8221;  since that phrase necessarily involves a vehicle first being identified as a hackney carriage before any consideration is given to whether or not it is licensed as such.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The practical result of these conclusions is not necessarily such (if one excuses the expression in the current context) as to drive a coach and horses through the control of hire vehicle licensing.  No hackney carriage is exempt from local licensing as a private hire vehicle unless it is licensed as a hackney carriage somewhere, and it is an offence for it to be driven by one who is not licensed by a proper authority as its driver.  No hackney carriage may ply for hire in the area of a local authority unless specifically licensed to do so within that area.  (See <ref href="http://www.legislation.gov.uk/id/ukpga/1976/57/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 45</ref> &#8211; 47 Town Police Clauses Act 1847). Although (as was hinted at by counsel before us) an authority such as Stockton-upon-Tees may have wished greater control over driver or vehicle in a specific case, it is not a consequence of this decision that either is without regulation, which it may be assumed will be properly and appropriately applied by whichever local authority is that which confers a licence in respect of the relevant hackney carriage, driver and employer.  If it seems that there are nonetheless tensions between any policy of local licensing and regulation on the one hand, and the proper interpretation of the wording of statute as determined in this case, that must be a matter for consideration and review by Parliament rather than the courts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For all these reasons I too would answer the first question posed by the Deputy District Judge, No, and the second, Yes. In agreement with My Lord I too would not remit the case against Mr Hussain and Mr Zamanian for any further hearing before the District Judge.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1508 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3061"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3061"/>
+	  <FRBRdate date="2024-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value=""/>
+	  <FRBRname value="Karen Lawrence, R (on the application of) v London Borough of Croydon"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3061"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3061"/>
+	  <FRBRdate date="2024-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3061/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3061/data.xml"/>
+	  <FRBRdate date="2024-12-03T17:20:16" name="transform"/>
+	  <FRBRdate date="2024-12-04T10:13:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" shortForm="The King's Bench Division" showAs="The King's Bench Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="karen-lawrence" href="" showAs="KAREN LAWRENCE"/>
+	<TLCPerson eId="london-borough-of-croydon" href="" showAs="LONDON BOROUGH OF CROYDON"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-mr-justice-linden" href="/judge-mr-justice-linden" showAs="MR JUSTICE LINDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:parser>0.26.15</uk:parser>
+	<uk:hash>96beac161198226c0c5f9a8b28b1a39bf83e236ee9faeb1b68b998cd1e681699</uk:hash>
+	<uk:cite>[2024] EWHC 3061 (Admin)</uk:cite>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2E74B5; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Heading5 { font-size: 12pt; color: #2E74B5; }
+#judgment .Heading6 { font-size: 12pt; color: #1F4D78; }
+#judgment .Heading7 { font-style: italic; font-size: 12pt; color: #1F4D78; }
+#judgment .Heading8 { font-size: 10.5pt; color: #272727; }
+#judgment .Heading9 { font-style: italic; font-size: 10.5pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .MainHeading { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Subheading { font-style: italic; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Bibliography { font-size: 12pt; }
+#judgment .BlockText { margin-left: 0.8in; margin-right: 0.8in; font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .BodyText2 { font-size: 12pt; }
+#judgment .BodyText3 { font-size: 8pt; }
+#judgment .BodyTextFirstIndent { font-size: 12pt; }
+#judgment .BodyTextIndent { margin-left: 0.2in; font-size: 12pt; }
+#judgment .BodyTextFirstIndent2 { margin-left: 0.25in; font-size: 12pt; }
+#judgment .BodyTextIndent2 { margin-left: 0.2in; font-size: 12pt; }
+#judgment .BodyTextIndent3 { margin-left: 0.2in; font-size: 8pt; }
+#judgment .Caption { font-style: italic; font-size: 9pt; color: #44546A; }
+#judgment .Closing { margin-left: 2.95in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Date { font-size: 12pt; }
+#judgment .DocumentMap { font-family: 'Segoe UI'; font-size: 8pt; }
+#judgment .E-mailSignature { font-size: 12pt; }
+#judgment .EndnoteText { font-size: 10pt; }
+#judgment .EnvelopeAddress { margin-left: 2in; font-size: 12pt; }
+#judgment .EnvelopeReturn { font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .HTMLAddress { font-style: italic; font-size: 12pt; }
+#judgment .HTMLPreformatted { font-family: Consolas; font-size: 10pt; }
+#judgment .Index1 { margin-left: 0.17in; font-size: 12pt; }
+#judgment .Index2 { margin-left: 0.33in; font-size: 12pt; }
+#judgment .Index3 { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Index4 { margin-left: 0.67in; font-size: 12pt; }
+#judgment .Index5 { margin-left: 0.83in; font-size: 12pt; }
+#judgment .Index6 { margin-left: 1in; font-size: 12pt; }
+#judgment .Index7 { margin-left: 1.17in; font-size: 12pt; }
+#judgment .Index8 { margin-left: 1.33in; font-size: 12pt; }
+#judgment .Index9 { margin-left: 1.5in; font-size: 12pt; }
+#judgment .IndexHeading { font-weight: bold; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .List { margin-left: 0.2in; font-size: 12pt; }
+#judgment .List2 { margin-left: 0.39in; font-size: 12pt; }
+#judgment .List3 { margin-left: 0.59in; font-size: 12pt; }
+#judgment .List4 { margin-left: 0.79in; font-size: 12pt; }
+#judgment .List5 { margin-left: 0.98in; font-size: 12pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .ListBullet2 { margin-left: 0.45in; font-size: 12pt; }
+#judgment .ListBullet3 { margin-left: 0.64in; font-size: 12pt; }
+#judgment .ListBullet4 { margin-left: 0.84in; font-size: 12pt; }
+#judgment .ListBullet5 { margin-left: 1.04in; font-size: 12pt; }
+#judgment .ListContinue { margin-left: 0.2in; font-size: 12pt; }
+#judgment .ListContinue2 { margin-left: 0.39in; font-size: 12pt; }
+#judgment .ListContinue3 { margin-left: 0.59in; font-size: 12pt; }
+#judgment .ListContinue4 { margin-left: 0.79in; font-size: 12pt; }
+#judgment .ListContinue5 { margin-left: 0.98in; font-size: 12pt; }
+#judgment .ListNumber { margin-left: 0.25in; font-size: 12pt; }
+#judgment .ListNumber2 { margin-left: 0.45in; font-size: 12pt; }
+#judgment .ListNumber3 { margin-left: 0.64in; font-size: 12pt; }
+#judgment .ListNumber4 { margin-left: 0.84in; font-size: 12pt; }
+#judgment .ListNumber5 { margin-left: 1.04in; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .MacroText { font-family: Consolas; }
+#judgment .MessageHeader { margin-left: 0.79in; font-size: 12pt; }
+#judgment .NoSpacing { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .NormalIndent { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NoteHeading { font-size: 12pt; }
+#judgment .PlainText { font-family: Consolas; font-size: 10.5pt; }
+#judgment .Salutation { font-size: 12pt; }
+#judgment .Signature { margin-left: 2.95in; font-size: 12pt; }
+#judgment .Subtitle { font-size: 11pt; color: #5A5A5A; }
+#judgment .TableofAuthorities { margin-left: 0.17in; font-size: 12pt; }
+#judgment .TableofFigures { font-size: 12pt; }
+#judgment .TOAHeading { font-weight: bold; font-size: 12pt; }
+#judgment .TOC1 { font-size: 12pt; }
+#judgment .TOC2 { margin-left: 0.17in; font-size: 12pt; }
+#judgment .TOC3 { margin-left: 0.33in; font-size: 12pt; }
+#judgment .TOC4 { margin-left: 0.5in; font-size: 12pt; }
+#judgment .TOC5 { margin-left: 0.67in; font-size: 12pt; }
+#judgment .TOC6 { margin-left: 0.83in; font-size: 12pt; }
+#judgment .TOC7 { margin-left: 1in; font-size: 12pt; }
+#judgment .TOC8 { margin-left: 1.17in; font-size: 12pt; }
+#judgment .TOC9 { margin-left: 1.33in; font-size: 12pt; }
+#judgment .TOCHeading { font-weight: normal; font-size: 16pt; color: #2E74B5; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ParaLevel1Char { font-size: 12pt; }
+#judgment .MainHeadingChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeadingChar { font-size: 12pt; }
+#judgment .SubheadingChar { font-style: italic; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading2Char { font-size: 13pt; color: #2E74B5; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Heading5Char { font-size: 12pt; color: #2E74B5; }
+#judgment .Heading6Char { font-size: 12pt; color: #1F4D78; }
+#judgment .Heading7Char { font-style: italic; font-size: 12pt; color: #1F4D78; }
+#judgment .Heading8Char { font-size: 10.5pt; color: #272727; }
+#judgment .Heading9Char { font-style: italic; font-size: 10.5pt; color: #272727; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .BodyText2Char { font-size: 12pt; }
+#judgment .BodyText3Char { font-size: 8pt; }
+#judgment .BodyTextFirstIndentChar { font-size: 12pt; }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .BodyTextFirstIndent2Char { font-size: 12pt; }
+#judgment .BodyTextIndent2Char { font-size: 12pt; }
+#judgment .BodyTextIndent3Char { font-size: 8pt; }
+#judgment .BookTitle { font-style: italic; font-weight: bold; }
+#judgment .ClosingChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .DateChar { font-size: 12pt; }
+#judgment .DocumentMapChar { font-family: 'Segoe UI'; font-size: 8pt; }
+#judgment .E-mailSignatureChar { font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .EndnoteTextChar { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { }
+#judgment .Hashtag { color: #2B579A; background-color: initial; }
+#judgment .HTMLAcronym { }
+#judgment .HTMLAddressChar { font-style: italic; font-size: 12pt; }
+#judgment .HTMLCite { font-style: italic; }
+#judgment .HTMLCode { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLDefinition { font-style: italic; }
+#judgment .HTMLKeyboard { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLPreformattedChar { font-family: Consolas; }
+#judgment .HTMLSample { font-family: Consolas; font-size: 12pt; }
+#judgment .HTMLTypewriter { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLVariable { font-style: italic; }
+#judgment .IntenseEmphasis { font-style: italic; color: #5B9BD5; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #5B9BD5; }
+#judgment .LineNumber { }
+#judgment .MacroTextChar { font-family: Consolas; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .MessageHeaderChar { font-size: 12pt; background-color: initial; }
+#judgment .NoteHeadingChar { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .PlainTextChar { font-family: Consolas; font-size: 10.5pt; }
+#judgment .SalutationChar { font-size: 12pt; }
+#judgment .SignatureChar { font-size: 12pt; }
+#judgment .SmartHyperlink { text-decoration-line: underline; text-decoration-style: dotted; }
+#judgment .SmartLink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; background-color: initial; }
+#judgment .Strong { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 11pt; color: #5A5A5A; }
+#judgment .SubtleEmphasis { font-style: italic; color: #404040; }
+#judgment .SubtleReference { font-variant: small-caps; color: #5A5A5A; }
+#judgment .coitalic { }
+#judgment .ColorfulGrid { }
+#judgment .ColorfulGrid td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent1 { }
+#judgment .ColorfulGrid-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent2 { }
+#judgment .ColorfulGrid-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent3 { }
+#judgment .ColorfulGrid-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent4 { }
+#judgment .ColorfulGrid-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent5 { }
+#judgment .ColorfulGrid-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent6 { }
+#judgment .ColorfulGrid-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulList { }
+#judgment .ColorfulList-Accent1 { }
+#judgment .ColorfulList-Accent2 { }
+#judgment .ColorfulList-Accent3 { }
+#judgment .ColorfulList-Accent4 { }
+#judgment .ColorfulList-Accent5 { }
+#judgment .ColorfulList-Accent6 { }
+#judgment .ColorfulShading { }
+#judgment .ColorfulShading td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent1 { }
+#judgment .ColorfulShading-Accent1 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent2 { }
+#judgment .ColorfulShading-Accent2 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent3 { }
+#judgment .ColorfulShading-Accent3 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent4 { }
+#judgment .ColorfulShading-Accent4 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent5 { }
+#judgment .ColorfulShading-Accent5 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent6 { }
+#judgment .ColorfulShading-Accent6 td { border: 0.5pt solid #FFFFFF; }
+#judgment .DarkList { }
+#judgment .DarkList-Accent1 { }
+#judgment .DarkList-Accent2 { }
+#judgment .DarkList-Accent3 { }
+#judgment .DarkList-Accent4 { }
+#judgment .DarkList-Accent5 { }
+#judgment .DarkList-Accent6 { }
+#judgment .GridTable1Light { }
+#judgment .GridTable1Light td { border: 0.5pt solid #999999; }
+#judgment .GridTable1Light-Accent1 { }
+#judgment .GridTable1Light-Accent1 td { border: 0.5pt solid #BDD6EE; }
+#judgment .GridTable1Light-Accent2 { }
+#judgment .GridTable1Light-Accent2 td { border: 0.5pt solid #F7CAAC; }
+#judgment .GridTable1Light-Accent3 { }
+#judgment .GridTable1Light-Accent3 td { border: 0.5pt solid #DBDBDB; }
+#judgment .GridTable1Light-Accent4 { }
+#judgment .GridTable1Light-Accent4 td { border: 0.5pt solid #FFE599; }
+#judgment .GridTable1Light-Accent5 { }
+#judgment .GridTable1Light-Accent5 td { border: 0.5pt solid #B4C6E7; }
+#judgment .GridTable1Light-Accent6 { }
+#judgment .GridTable1Light-Accent6 td { border: 0.5pt solid #C5E0B3; }
+#judgment .GridTable2 { }
+#judgment .GridTable2 td { border: 0.25pt solid #666666; }
+#judgment .GridTable2-Accent1 { }
+#judgment .GridTable2-Accent1 td { border: 0.25pt solid #9CC2E5; }
+#judgment .GridTable2-Accent2 { }
+#judgment .GridTable2-Accent2 td { border: 0.25pt solid #F4B083; }
+#judgment .GridTable2-Accent3 { }
+#judgment .GridTable2-Accent3 td { border: 0.25pt solid #C9C9C9; }
+#judgment .GridTable2-Accent4 { }
+#judgment .GridTable2-Accent4 td { border: 0.25pt solid #FFD966; }
+#judgment .GridTable2-Accent5 { }
+#judgment .GridTable2-Accent5 td { border: 0.25pt solid #8EAADB; }
+#judgment .GridTable2-Accent6 { }
+#judgment .GridTable2-Accent6 td { border: 0.25pt solid #A8D08D; }
+#judgment .GridTable3 { }
+#judgment .GridTable3 td { border: 0.5pt solid #666666; }
+#judgment .GridTable3-Accent1 { }
+#judgment .GridTable3-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable3-Accent2 { }
+#judgment .GridTable3-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable3-Accent3 { }
+#judgment .GridTable3-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable3-Accent4 { }
+#judgment .GridTable3-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable3-Accent5 { }
+#judgment .GridTable3-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable3-Accent6 { }
+#judgment .GridTable3-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable4 { }
+#judgment .GridTable4 td { border: 0.5pt solid #666666; }
+#judgment .GridTable4-Accent1 { }
+#judgment .GridTable4-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable4-Accent2 { }
+#judgment .GridTable4-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable4-Accent3 { }
+#judgment .GridTable4-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable4-Accent4 { }
+#judgment .GridTable4-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable4-Accent5 { }
+#judgment .GridTable4-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable4-Accent6 { }
+#judgment .GridTable4-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable5Dark { }
+#judgment .GridTable5Dark td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent1 { }
+#judgment .GridTable5Dark-Accent1 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent2 { }
+#judgment .GridTable5Dark-Accent2 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent3 { }
+#judgment .GridTable5Dark-Accent3 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent4 { }
+#judgment .GridTable5Dark-Accent4 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent5 { }
+#judgment .GridTable5Dark-Accent5 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent6 { }
+#judgment .GridTable5Dark-Accent6 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable6Colorful { }
+#judgment .GridTable6Colorful td { border: 0.5pt solid #666666; }
+#judgment .GridTable6Colorful-Accent1 { }
+#judgment .GridTable6Colorful-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable6Colorful-Accent2 { }
+#judgment .GridTable6Colorful-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable6Colorful-Accent3 { }
+#judgment .GridTable6Colorful-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable6Colorful-Accent4 { }
+#judgment .GridTable6Colorful-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable6Colorful-Accent5 { }
+#judgment .GridTable6Colorful-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable6Colorful-Accent6 { }
+#judgment .GridTable6Colorful-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable7Colorful { }
+#judgment .GridTable7Colorful td { border: 0.5pt solid #666666; }
+#judgment .GridTable7Colorful-Accent1 { }
+#judgment .GridTable7Colorful-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable7Colorful-Accent2 { }
+#judgment .GridTable7Colorful-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable7Colorful-Accent3 { }
+#judgment .GridTable7Colorful-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable7Colorful-Accent4 { }
+#judgment .GridTable7Colorful-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable7Colorful-Accent5 { }
+#judgment .GridTable7Colorful-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable7Colorful-Accent6 { }
+#judgment .GridTable7Colorful-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .LightGrid { }
+#judgment .LightGrid td { border: 1pt solid #000000; }
+#judgment .LightGrid-Accent1 { }
+#judgment .LightGrid-Accent1 td { border: 1pt solid #5B9BD5; }
+#judgment .LightGrid-Accent2 { }
+#judgment .LightGrid-Accent2 td { border: 1pt solid #ED7D31; }
+#judgment .LightGrid-Accent3 { }
+#judgment .LightGrid-Accent3 td { border: 1pt solid #A5A5A5; }
+#judgment .LightGrid-Accent4 { }
+#judgment .LightGrid-Accent4 td { border: 1pt solid #FFC000; }
+#judgment .LightGrid-Accent5 { }
+#judgment .LightGrid-Accent5 td { border: 1pt solid #4472C4; }
+#judgment .LightGrid-Accent6 { }
+#judgment .LightGrid-Accent6 td { border: 1pt solid #70AD47; }
+#judgment .LightList { }
+#judgment .LightList-Accent1 { }
+#judgment .LightList-Accent2 { }
+#judgment .LightList-Accent3 { }
+#judgment .LightList-Accent4 { }
+#judgment .LightList-Accent5 { }
+#judgment .LightList-Accent6 { }
+#judgment .LightShading { }
+#judgment .LightShading-Accent1 { }
+#judgment .LightShading-Accent2 { }
+#judgment .LightShading-Accent3 { }
+#judgment .LightShading-Accent4 { }
+#judgment .LightShading-Accent5 { }
+#judgment .LightShading-Accent6 { }
+#judgment .ListTable1Light { }
+#judgment .ListTable1Light-Accent1 { }
+#judgment .ListTable1Light-Accent2 { }
+#judgment .ListTable1Light-Accent3 { }
+#judgment .ListTable1Light-Accent4 { }
+#judgment .ListTable1Light-Accent5 { }
+#judgment .ListTable1Light-Accent6 { }
+#judgment .ListTable2 { }
+#judgment .ListTable2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #666666; }
+#judgment .ListTable2-Accent1 { }
+#judgment .ListTable2-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #9CC2E5; }
+#judgment .ListTable2-Accent2 { }
+#judgment .ListTable2-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #F4B083; }
+#judgment .ListTable2-Accent3 { }
+#judgment .ListTable2-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #C9C9C9; }
+#judgment .ListTable2-Accent4 { }
+#judgment .ListTable2-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFD966; }
+#judgment .ListTable2-Accent5 { }
+#judgment .ListTable2-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #8EAADB; }
+#judgment .ListTable2-Accent6 { }
+#judgment .ListTable2-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #A8D08D; }
+#judgment .ListTable3 { }
+#judgment .ListTable3-Accent1 { }
+#judgment .ListTable3-Accent2 { }
+#judgment .ListTable3-Accent3 { }
+#judgment .ListTable3-Accent4 { }
+#judgment .ListTable3-Accent5 { }
+#judgment .ListTable3-Accent6 { }
+#judgment .ListTable4 { }
+#judgment .ListTable4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #666666; }
+#judgment .ListTable4-Accent1 { }
+#judgment .ListTable4-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #9CC2E5; }
+#judgment .ListTable4-Accent2 { }
+#judgment .ListTable4-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #F4B083; }
+#judgment .ListTable4-Accent3 { }
+#judgment .ListTable4-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #C9C9C9; }
+#judgment .ListTable4-Accent4 { }
+#judgment .ListTable4-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFD966; }
+#judgment .ListTable4-Accent5 { }
+#judgment .ListTable4-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #8EAADB; }
+#judgment .ListTable4-Accent6 { }
+#judgment .ListTable4-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #A8D08D; }
+#judgment .ListTable5Dark { }
+#judgment .ListTable5Dark-Accent1 { }
+#judgment .ListTable5Dark-Accent2 { }
+#judgment .ListTable5Dark-Accent3 { }
+#judgment .ListTable5Dark-Accent4 { }
+#judgment .ListTable5Dark-Accent5 { }
+#judgment .ListTable5Dark-Accent6 { }
+#judgment .ListTable6Colorful { }
+#judgment .ListTable6Colorful-Accent1 { }
+#judgment .ListTable6Colorful-Accent2 { }
+#judgment .ListTable6Colorful-Accent3 { }
+#judgment .ListTable6Colorful-Accent4 { }
+#judgment .ListTable6Colorful-Accent5 { }
+#judgment .ListTable6Colorful-Accent6 { }
+#judgment .ListTable7Colorful { }
+#judgment .ListTable7Colorful-Accent1 { }
+#judgment .ListTable7Colorful-Accent2 { }
+#judgment .ListTable7Colorful-Accent3 { }
+#judgment .ListTable7Colorful-Accent4 { }
+#judgment .ListTable7Colorful-Accent5 { }
+#judgment .ListTable7Colorful-Accent6 { }
+#judgment .MediumGrid1 { }
+#judgment .MediumGrid1 td { border: 1pt solid #404040; }
+#judgment .MediumGrid1-Accent1 { }
+#judgment .MediumGrid1-Accent1 td { border: 1pt solid #84B3DF; }
+#judgment .MediumGrid1-Accent2 { }
+#judgment .MediumGrid1-Accent2 td { border: 1pt solid #F19D64; }
+#judgment .MediumGrid1-Accent3 { }
+#judgment .MediumGrid1-Accent3 td { border: 1pt solid #BBBBBB; }
+#judgment .MediumGrid1-Accent4 { }
+#judgment .MediumGrid1-Accent4 td { border: 1pt solid #FFCF40; }
+#judgment .MediumGrid1-Accent5 { }
+#judgment .MediumGrid1-Accent5 td { border: 1pt solid #7295D2; }
+#judgment .MediumGrid1-Accent6 { }
+#judgment .MediumGrid1-Accent6 td { border: 1pt solid #93C571; }
+#judgment .MediumGrid2 { }
+#judgment .MediumGrid2 td { border: 1pt solid #000000; }
+#judgment .MediumGrid2-Accent1 { }
+#judgment .MediumGrid2-Accent1 td { border: 1pt solid #5B9BD5; }
+#judgment .MediumGrid2-Accent2 { }
+#judgment .MediumGrid2-Accent2 td { border: 1pt solid #ED7D31; }
+#judgment .MediumGrid2-Accent3 { }
+#judgment .MediumGrid2-Accent3 td { border: 1pt solid #A5A5A5; }
+#judgment .MediumGrid2-Accent4 { }
+#judgment .MediumGrid2-Accent4 td { border: 1pt solid #FFC000; }
+#judgment .MediumGrid2-Accent5 { }
+#judgment .MediumGrid2-Accent5 td { border: 1pt solid #4472C4; }
+#judgment .MediumGrid2-Accent6 { }
+#judgment .MediumGrid2-Accent6 td { border: 1pt solid #70AD47; }
+#judgment .MediumGrid3 { }
+#judgment .MediumGrid3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent1 { }
+#judgment .MediumGrid3-Accent1 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent2 { }
+#judgment .MediumGrid3-Accent2 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent3 { }
+#judgment .MediumGrid3-Accent3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent4 { }
+#judgment .MediumGrid3-Accent4 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent5 { }
+#judgment .MediumGrid3-Accent5 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent6 { }
+#judgment .MediumGrid3-Accent6 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumList1 { }
+#judgment .MediumList1-Accent1 { }
+#judgment .MediumList1-Accent2 { }
+#judgment .MediumList1-Accent3 { }
+#judgment .MediumList1-Accent4 { }
+#judgment .MediumList1-Accent5 { }
+#judgment .MediumList1-Accent6 { }
+#judgment .MediumList2 { }
+#judgment .MediumList2-Accent1 { }
+#judgment .MediumList2-Accent2 { }
+#judgment .MediumList2-Accent3 { }
+#judgment .MediumList2-Accent4 { }
+#judgment .MediumList2-Accent5 { }
+#judgment .MediumList2-Accent6 { }
+#judgment .MediumShading1 { }
+#judgment .MediumShading1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #404040; }
+#judgment .MediumShading1-Accent1 { }
+#judgment .MediumShading1-Accent1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #84B3DF; }
+#judgment .MediumShading1-Accent2 { }
+#judgment .MediumShading1-Accent2 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #F19D64; }
+#judgment .MediumShading1-Accent3 { }
+#judgment .MediumShading1-Accent3 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #BBBBBB; }
+#judgment .MediumShading1-Accent4 { }
+#judgment .MediumShading1-Accent4 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #FFCF40; }
+#judgment .MediumShading1-Accent5 { }
+#judgment .MediumShading1-Accent5 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #7295D2; }
+#judgment .MediumShading1-Accent6 { }
+#judgment .MediumShading1-Accent6 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #93C571; }
+#judgment .MediumShading2 { }
+#judgment .MediumShading2-Accent1 { }
+#judgment .MediumShading2-Accent2 { }
+#judgment .MediumShading2-Accent3 { }
+#judgment .MediumShading2-Accent4 { }
+#judgment .MediumShading2-Accent5 { }
+#judgment .MediumShading2-Accent6 { }
+#judgment .PlainTable1 { }
+#judgment .PlainTable1 td { border: 0.5pt solid #BFBFBF; }
+#judgment .PlainTable2 { }
+#judgment .PlainTable3 { }
+#judgment .PlainTable4 { }
+#judgment .PlainTable5 { }
+#judgment .Table3Deffects1 { }
+#judgment .Table3Deffects2 { }
+#judgment .Table3Deffects3 { }
+#judgment .TableClassic1 { }
+#judgment .TableClassic2 { }
+#judgment .TableClassic3 { }
+#judgment .TableClassic4 { }
+#judgment .TableColorful1 { }
+#judgment .TableColorful1 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #00FFFF; }
+#judgment .TableColorful2 { }
+#judgment .TableColorful3 { }
+#judgment .TableColorful3 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #C0C0C0; }
+#judgment .TableColumns1 { }
+#judgment .TableColumns2 { }
+#judgment .TableColumns3 { }
+#judgment .TableColumns3 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000080; }
+#judgment .TableColumns4 { }
+#judgment .TableColumns5 { }
+#judgment .TableColumns5 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #C0C0C0; }
+#judgment .TableContemporary { }
+#judgment .TableContemporary td { border: 2.25pt solid #FFFFFF; }
+#judgment .TableElegant { }
+#judgment .TableElegant td { border: 0.75pt solid #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .TableGrid1 { }
+#judgment .TableGrid1 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid2 { }
+#judgment .TableGrid2 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid3 { }
+#judgment .TableGrid3 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableGrid4 { }
+#judgment .TableGrid4 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid5 { }
+#judgment .TableGrid5 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid6 { }
+#judgment .TableGrid6 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableGrid7 { }
+#judgment .TableGrid7 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid8 { }
+#judgment .TableGrid8 td { border: 0.75pt solid #000080; }
+#judgment .TableGridLight { }
+#judgment .TableGridLight td { border: 0.5pt solid #BFBFBF; }
+#judgment .TableList1 { }
+#judgment .TableList2 { }
+#judgment .TableList3 { }
+#judgment .TableList3 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList4 { }
+#judgment .TableList4 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList5 { }
+#judgment .TableList5 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList6 { }
+#judgment .TableList7 { }
+#judgment .TableList7 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList8 { }
+#judgment .TableList8 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableProfessional { }
+#judgment .TableProfessional td { border: 0.75pt solid #000000; }
+#judgment .TableSimple1 { }
+#judgment .TableSimple2 { }
+#judgment .TableSimple3 { }
+#judgment .TableSubtle1 { }
+#judgment .TableSubtle2 { }
+#judgment .TableTheme { }
+#judgment .TableTheme td { border: 0.5pt solid; }
+#judgment .TableWeb1 { }
+#judgment .TableWeb1 td { border: 0.75pt solid; }
+#judgment .TableWeb2 { }
+#judgment .TableWeb2 td { border: 0.75pt solid; }
+#judgment .TableWeb3 { }
+#judgment .TableWeb3 td { border: 0.75pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p><courtType refersTo="#ewhc-kbd"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE HIGH COURT OF JUSTICE</span><br/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING&#8217;S BENCH DIVISION</span></courtType><br/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</span></p>
+      <p>Case No: <docketNumber style="color:#000000">AC-2024-LON-001715</docketNumber></p>
+      <p class="CoverText" style="text-align:left"><span style="text-decoration-line:none">Neutral Citation Number: [2024] EWHC 3061(Admin) </span></p>
+      <p class="CoverText">Royal Courts of Justice<br/>Strand, London, WC20 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-12-02" refersTo="#judgment">2<span style="vertical-align:super;font-size:smaller">nd</span> December 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-linden" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MR JUSTICE LINDEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">THE KING</span></p>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#karen-lawrence" style="font-weight:bold">On the application of KAREN LAWRENCE</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#london-borough-of-croydon" style="font-weight:bold">LONDON BOROUGH OF CROYDON</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Kevin Leigh </span>(instructed by direct access) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Saira Kabir Sheikh KC</span> (instructed by Legal Service, London Borough of Croydon) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center">Hearing date: 13<span style="vertical-align:super;font-size:smaller">th</span> November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Mr Justice Linden:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This is the Defendant&#8217;s application, dated 20 June 2024, to strike out the Claim on the grounds that it is out of time. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claim challenges the Defendant&#8217;s decision to introduce a &#8220;Low Traffic Neighbourhood&#8221; scheme. The relevant orders &#8211; the Croydon (Traffic Movement) (Nos 1-6) Orders 2024 - were made on 25 March 2024. Under Paragraph 35 of Part VI of Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref> there was a six week period from that date within which any challenge to the Scheme was required to be made. It is common ground that the last day on which the Claim could be made was therefore 7 May 2024 given that 6 May was a Bank Holiday. On 7 May, the Claimant emailed her Claim Form and supporting documents to </span><a class="Hyperlink" href="mailto:kbenquiries@justice.gov.uk" style="font-family:'Times New Roman'">kbenquiries@justice.gov.uk</a><span style="font-family:'Times New Roman'"> which is the address for claims which are to be issued in the Central Office of the King&#8217;s Bench Division (&#8220;KBD&#8221;). However, CPR Practice Direction 54D required that office for filing and issuing her claim was in fact the Administrative Court Office (&#8220;ACO&#8221;) which did not receive the Claim Form until 21 May. On this basis the Defendant contends that the High Court does not have jurisdiction to entertain the Claim because it was filed after the statutory deadline.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The facts in more detail</span></heading>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant is a litigant in person and part of a campaign called &#8220;Open Our Roads&#8221;. At all material times she was assisted by a Sonia Marinello who is a qualified solicitor, albeit her specialism is in white collar crime, and she had no previous experience of filing statutory review proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In her witness statement dated 30 June 2024 Ms Marinello says that on 3 May 2024 she read Practice Direction 5B &#8211; Communication and Filing of Documents by E-mail &#8211; on Gov.UK. However, the links embedded in [1.3(a)] defining &#8220;specified document&#8221; and [1.3(b)] defining &#8220;specified email address&#8221; respectively had been archived or did not work. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Marinello says that as a consequence of this, and in her efforts to comply with &#8220;the General Guidance on Electronic Bundles&#8221;, she telephoned the KBD and spoke to the Fees Office at the Royal Courts of Justice which took payment of &#163;626 in respect of the proposed Claim. The &#8220;court clerk&#8221; to whom she spoke confirmed that claims under CPR Part 8 should be sent to the KBD, and provided Ms Marinello with the email address for KB Issue and Enquiries i.e. </span><a class="Hyperlink" href="mailto:kbenquiries@justice.gov.uk" style="font-family:'Times New Roman'">kbenquiries@justice.gov.uk</a><span style="font-family:'Times New Roman'"> (&#8220;the KBD email address&#8221;) for this purpose. RCJ Fees Payments then emailed the receipt for the fee to Ms Marinello cc the KBD email address.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">At and shortly before 9am on 7 May two emails were sent by Open Our Roads to the KBD email address enclosing:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">A Form N208PC Part 8 Claim Form, duly completed;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">A &#8220;Grounds of Challenge and Provisional Skeleton Argument&#8221; document which had been drafted by Mr Kevin Leigh of Counsel;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">The receipt for the fee paid on 3 May 2024;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">The Claimant&#8217;s signed witness statement, dated 3 May 2024; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Two supporting bundles of 169 and 310 pages.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">After these documents had been sent, Ms Marinello called the KBD and spoke with &#8220;Jemima&#8221;. Jemima confirmed receipt of both emails and that the KBD was the correct place to send Part 8 claims. She said that the Claim Form would take 14 days to process but would be sealed with the date of receipt i.e. 7 May 2024. At that point a link would be sent to facilitate e-filing in the course of the proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Also on 7 May, Open Our Roads hand delivered to the Defendant a hard copy of the documents which had been sent to the KBD, as requested by the Defendant. When Mr Siddartha Jha, the solicitor for the Defendant, queried why the Claim Form was not sealed, Open Our Roads emailed him that evening stating that the High Court accepts electronic service and that the Claim Form and other documents had been emailed to the Court that morning. The email also informed him that &#8220;Jemima&#8221; had confirmed receipt and of what Jemima had said about the timescale for processing the Claim Form and the seal date etc.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On 21 May, Ms Marinello called the KBD to ask when the Claimant would receive the sealed Claim Form. She spoke to &#8220;Abi&#8221; who said she was not sure whether this should be with the Administrative Court rather than the KBD. Both of the emails which had been sent to the KBD email address were then forwarded from the Open Our Roads email address  to </span><a class="Hyperlink" href="mailto:generaloffice@administrativecourtoffice.justice.gov.uk" style="font-family:'Times New Roman'">generaloffice@administrativecourtoffice.justice.gov.uk</a><span class="Hyperlink" style="text-decoration-line:none;font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">At 12:27pm that day, Mr Hales of the ACO emailed Open Our Roads attaching a standard form letter from him dated 21 May 2024, and the sealed Claim Form. His email stated that he had been advised that he could treat the application as having been received on 7 May although it was originally sent to the wrong email address. His letter gave the Claim a case number and began </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;I write to inform you that your matter was issued this day 21-05-24&#8221;</span><span style="font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">When Mr Jha queried whether the Claim had been properly filed on 7 May, there were various email exchanges between the parties and the ACO. Having spoken to senior management, Mr Sikity of Issues and Enquires in the ACO said in an email dated 3 June 2024:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The correct date the application was received is on the 21</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Times New Roman'">st</span><span style="font-style:italic;font-family:'Times New Roman'"> of May. Please ignore the previous email... The date an application is received is based on the date a compliant application is processed and accepted by the court. I understand that the application was sent to KBD on the 7</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-style:italic;font-family:'Times New Roman'"> but the date it was received by the Administrative Court was the 21</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Times New Roman'">st</span><span style="font-style:italic;font-family:'Times New Roman'"> of May. KBD should have not accepted the filing as they do not have the remit to process the application.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On 4 June, after further emails from the parties, Mr Sikity confirmed this position and apologised for Mr Hales&#8217; message of 21 May which had stated that the date of receipt could be treated as 7 May.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The legal framework</span></p>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The relevant statutory provision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Paragraph 35 of Part VI of Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref> (&#8220;Paragraph 35&#8221;) provides, so far as material, as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;35.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">If any person desires to question the validity of, or of any provision contained in, an order to which this Part of this Schedule applies, on the grounds &#8211; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(a)</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Times New Roman'">that it is not within the relevant powers, or</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Times New Roman'">that any of the relevant requirements has not been complied with in relation to the order,</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">He may, within 6 weeks from the date on which the order is made, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">make an application for the purpose to the High Court</span><span style="font-style:italic;font-family:'Times New Roman'">, or, in Scotland, to the Court of Session.&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added)</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The question in the Defendant&#8217;s  application is therefore whether, on the true construction of Paragraph 35, the Claimant </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;made an application to the High Court&#8221;</span><span style="font-family:'Times New Roman'"> when she sent her 7 May emails to the KBD email address attaching the Claim Form and supporting documents. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The King&#8217;s Bench Division</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">CPR Practice Direction 2A states at [1]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The Central Office will be divided into such departments, and the business performed in the Central Office shall be distributed among the departments in such manner, as is set out in the King&#8217;s Bench Division Guide.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">[1.11] of the King&#8217;s Bench Guide 2024 states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The Administrative Court, the Admiralty Court, the Commercial Court, the Circuit Commercial Courts and the Technology and Construction Court are all part of the KBD. However, each does specialised work requiring a distinct procedure that to some extent modifies the CPR. For that reason each has an individual Part of the CPR, its own Practice Direction and its own Guide, to which reference should be made by parties wishing to proceed in these specialist courts.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">At [1.12] and [1.13] of the Guide it is noted that the Admiralty Court, the Commercial Court, the Circuit Commercial Courts and the Technology and Construction Court all form part of the Business and Property Courts whose general procedure is governed by CPR Part 57A and its Practice Direction. There are also specialised lists which operate within the KBD and not specialised courts including the Media and Communications List, where the procedure may differ as indicated in the Guide. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Guide goes on to state, at [1.14], that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The work of the KBD (not including the work of the Administrative Court)consists mainly of claims for:</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">damages and/or an injunction in respect of:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">personal injury,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">negligence (including professional negligence),</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">breach of statutory duty,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(d)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">media and communications claims including defamation,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(e)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">other tortious conduct,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(f)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">breach of contract,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(g)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">breaches of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> ,</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:1in"><span style="font-style:italic;font-family:'Times New Roman'">non-payment of a debt&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">A little later it then describes the work of the specialist courts of the KBD including the Administrative Court. At [1.18] it states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The Administrative Court is part of the King&#8217;s Bench Division of the High Court. It hears applications for judicial review and some statutory appeals and applications. Judicial reviews which challenge planning decisions are heard in the specialist Planning Court, a part of the Administrative Court. Extensive guidance on judicial review proceedings (which are governed by CPR Part 54) can be found in the Administrative court Judicial review Guide&#8230; which is available on-line at&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Starting proceedings in the King&#8217;s Bench Division</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">CPR Rule 7.2(1) and (2) provide that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.5in;text-indent:0.21in"><span style="font-style:italic">Proceedings are started when the court issues a claim form at the request of the claimant.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.5in;text-indent:0.21in"><span style="font-style:italic">A claim form is issued on the date entered on the form by the court.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">However [6.1] of Practice Direction 7A provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold">&#8220;6.1</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">..where the claim form as issued was received in the court office on a date earlier than the date on which it was issued by the court, the claim is &#8220;brought&#8221; for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> and any other relevant statute on that earlier date.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">6.2</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">The date on which the claim form was received by the court will be recorded by a date stamp either on the claim form held on the court file or on the letter that accompanied the claim form when it was received by the court.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I note that under the former PD 8A &#8211; </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Alternative Procedure for Claims&#8221;</span><span style="font-family:'Times New Roman'"> [4.1(1)] provided that Part 7 and PD 7A contain a number of rules and directions which are applicable to all claims including those to which Part 8 applies, and that those rules and direction should be applied where appropriate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">[1.23]-[1.27] of the King&#8217;s Bench Guide 2024 explain that <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">the Act</ref>ion Department of the Central Office of the KBD, and in particular the Issue and Enforcement Section, deals with the issue of all claims, applications and writs of enforcement. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Section 5 of the King&#8217;s Bench Guide is entitled </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Starting Proceedings in the King&#8217;s Bench Division Central Office&#8221;</span><span style="font-family:'Times New Roman'">. It requires parties who are legally represented to issue claims using CE file. However, [3.5] says:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Litigants in person are encouraged to use e-filing wherever possible but they still have the option of filing (providing to the court) documents in hard copy or by email to KBenquiries@justice.gov.uk. Any hard copy documents will be scanned to CE file by the court.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">[5.3] of the Guide also states as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Litigants in person who wish to start proceedings not using CE file, should send the claim form (Form N1) to Action Department, Central Office, Royal Courts of Justice, Strand, London WC2A 2LL, or by email to KBenquiries@justice.gov.uk or leave it in the drop box labelled KBD which is found next to the reception desk in the main hall of the Royal Courts of Justice Form N1 can be found here&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claim Form in the present case was therefore sent to the email address of the relevant court office for the purposes of starting claims in the KBD other than claims which were governed by the procedures applicable to the specialist courts which form part of the KBD.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Under the heading &#8220;Using CE-FILE&#8221; the King&#8217;s Bench Guide contemplates that after a document has been uploaded onto the system it will be reviewed by the court and electronic confirmation will be sent if it is accepted: see [3.15]. [3.16] states that a document will not fail acceptance simply because of a procedural error unless the court orders otherwise and there is reference to the power, under CPR Rule 3.10(b), to remedy such an error although the court may refuse to process a document to acceptance if there are procedural errors in filing. Examples are given. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In relation to the date on which a document is taken to be filed, the Guide says this at [3.17] in relation to documents which are CE filed:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.29in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The date and time of filing/issue is as follows for the purposes of the CPR:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;margin-left:1.68in;text-indent:-0.5in">(i)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.68in"><span style="font-style:italic;font-family:'Times New Roman'">If a fee is required, the date and time is when the fee is paid&#8230;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.68in;text-indent:-0.5in">(ii)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.68in"><span style="font-style:italic;font-family:'Times New Roman'">If no fee is required, the date and time is the date and time of submission of the document onto the system. BUT if the document subsequently fails acceptance on the system, it will not have been filed/issued until it is accepted.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Nothing specific is said about the position where a claim form is filed by email.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Claims for judicial and statutory review</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Claims for judicial review and statutory review are brought by way of the Part 8 procedure as modified by Part 54: see Rule 54.1(e).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was common ground before me that the Claim is a </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Planning Court Claim&#8221;</span><span style="font-family:'Times New Roman'"> given that it is a statutory challenge which </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;involves&#8230;.highways and other rights of way&#8221;</span><span style="font-family:'Times New Roman'"> (see CPR Rule 54.21(2)(a)(iv)). It is therefore governed by Section II of Part 54 (i.e. Rules 54.21-54.24 and Practice Direction 54D). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Rule 54.23 provides that the Civil Procedure Rules and their practice directions will apply to Planning Court claims unless Section II or a practice direction provides otherwise. Rule 54.24 states that </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Practice Direction 54D makes further provision about Planning Court claims, in particular about the timescales for determining such claims.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Under the heading </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;How to start a Planning Court claim&#8221; </span><span style="font-family:'Times New Roman'">[2.1] of PD 54D provides as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Planning Court Claims must be issued or lodged in the Administrative Court Office of the High Court in accordance with Practice Direction 54C&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I note that PD 54C deals with &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Administrative Court (Venue)&#8221;</span><span style="font-family:'Times New Roman'">. At [2.1] it provides that, save for excepted classes of claim set out in [3.1], proceedings should be commenced at the Administrative Court office for the region with which the claim is most closely connected. Under [2.2] and [2.3] there is provision for a claim to be transferred to the London court office if it is in an excepted category and ought, therefore, to have been commenced in London. By judicial decision, a claim may also be transferred to the correct region (i.e. the one with which it is most closely connected) on the application of one of the parties, or by the court of its own initiative.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Section IV of PD 54D deals in detail with the </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Procedure in Claims for Planning Statutory Review&#8221;</span><span style="font-family:'Times New Roman'">. Although it is common ground that the Claim in this case is not a claim for a planning statutory review as defined by [1.2] of PD 54D, I note that [4.2] states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;A Part 8 claim form must be used and must be </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">filed</span><span style="font-style:italic;font-family:'Times New Roman'"> at the Administrative Court within the time limited by the [relevant] statutory provisions&#8230;&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Section V of PD 54D applies to specified applications to quash &#8220;Orders, Schemes etc&#8221; and it is agreed that it applies to the Claim. [5.2] provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The claim form must be </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">filed</span><span style="font-style:italic;font-family:'Times New Roman'"> at the Administrative Court and served within the time limited by the relevant enactment for making the application.&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">CPR Rule 2.3, which deals with interpretation for the purposes of the CPR, states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="Emphasis" style="font-style:normal;font-family:'Times New Roman'">&#8220;&#8220;filing&#8221;</span><span style="font-style:italic;font-family:'Times New Roman'"> means delivering a document or information, by post or otherwise, to the court office;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It follows that PD 54D required the Claimant in the present case to deliver the Claim Form to the court office for the Administrative Court i.e. the ACO. I note that [7.2.1] of the Administrative Court Guide 2024 states that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;All judicial review claims must be started by filing a Claim Form in the ACO. The date of filing, usually written on the Claim Form in manuscript by the ACO staff when the Claim Form is received at the ACO, is to be distinguished from the date of issue which is the date shown by the Court seal which is applied when the Claim Form is issued by the ACO. </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">A claim for judicial review is made on the date on which it is filed</span><span style="font-style:italic;font-family:'Times New Roman'">.&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Annex 9 of the Administrative Court Guide then provides further information for court users in relation to the preparation of electronic bundles and arrangements for filing and responding to claims etc. Section D states that non urgent claims should be filed electronically (this is preferred wherever possible) or by post or DX. The date of receipt of the Claim Form will be recorded  as the date of filing. Wherever possible claims for judicial review, statutory appeals and planning matters should be filed electronically using the Document Upload Centre (see D(1) of Annex 9) but correspondence about issuing new cases and new applications may be by email to and the address given is </span><a class="Hyperlink" href="mailto:generaloffice@administrativecourtoffice.justice.gov.uk" style="font-family:'Times New Roman'">generaloffice@administrativecourtoffice.justice.gov.uk</a><span style="font-family:'Times New Roman'"> (see also Annex 10). Those who are not legally represented and do not have access to email are encouraged to contact the ACO by telephone so that alternative arrangements can be made (Annex 9, Section D (8)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It follows that had the Claimant sent her Claim Form and supporting documents to the email address of the general office of the ACO, rather than the KBD email address, on 7 May 2024, no issue would have arisen. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Finally, CPR Rule 3.10 provides a general power to rectify matters where there has been an error of procedure, in the following terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Where there has been an error of procedure such as a failure to comply with a rule or practice direction&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.42in"><span style="font-style:italic;font-family:'Times New Roman'">the error does not invalidate any step taken in the proceedings unless the court so orders; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.42in"><span style="font-style:italic;font-family:'Times New Roman'">the court may make an order to remedy the error.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This general power does not apply to errors in relation to service, which are governed by the specific provisions of Rule 6.15 and 6.16 (</span><span style="font-style:italic;font-family:'Times New Roman'">Ideal Shopping Direct Ltd v Mastercard Inc</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/14" uk:canonical="[2022] EWCA Civ 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 14</ref>). However, for example, it has been held that use of the wrong form in commencing a claim or an appeal in circumstances where the form contained the required information for initiating the process could be regarded as a procedural error for the purposes of Rule 3.10 which is capable of being corrected (see e.g. </span><span style="font-style:italic;font-family:'Times New Roman'">Reddy v General Medical Council</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/310" uk:canonical="[2012] EWCA Civ 310" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 310</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The contentions of the parties</span></p>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The Defendant</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On behalf of the Defendant Ms Saira Kabir Sheikh KC said, at [23] of her skeleton argument, that the question before the Court was </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;whether, in the first instance the Claimant filed the claim out of time&#8221;</span><span style="font-family:'Times New Roman'">. The application notice also states that the claim should be struck out </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;for being out of time/want of jurisdiction&#8221;</span><span style="font-family:'Times New Roman'"> and that the single ground for the application is that it </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;has been brought out of time&#8221;</span><span style="font-family:'Times New Roman'">. However, as some of the authorities referred to in her skeleton argument are concerned with service, and Mr Jha&#8217;s statement also included evidence which was relevant to service, at the outset of her oral submissions I checked that my understanding that the issue of service was not before the court was correct. Ms Kabir Sheikh said that the basis for her application was that no claim was &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">made</span><span style="font-family:'Times New Roman'">&#8221; for the purposes of the relevant statutory provision because no claim had been filed, although she said that the question of service was &#8220;relevant&#8221;. It was not clear why. She indicated that an issue in relation to service  might arise in a further application if I was against her on her submission that the Claim was out of time. However, if that was my decision she would need to take instructions as to whether the point was taken by the Defendant. As matters stood, there was no application before the court (from either side) in respect of service.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Kabir Sheikh did not suggest that the Claim Form is in any way defective or that there was any failure in terms of the payment of the court fee. Her contention was that, if the High Court is to have jurisdiction in relation to the Claim it has to be satisfied that there was a </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;properly filed claim&#8221;</span><span style="font-family:'Times New Roman'"> on or before 7 May 2024. In this case Rule 54.21, read with PD 54D, clearly required the Claim Form to be filed at the Administrative Court on or before 7 May but that was not done. Instead, the Claim Form was sent to what Ms Kabir Sheikh described as </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;a general Court email address&#8221;</span><span style="font-family:'Times New Roman'"> and did not arrive in the ACO until 21 May  i.e. 2 weeks out of time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Kabir Sheikh relied on </span><span style="font-style:italic;font-family:'Times New Roman'">Croke v Secretary of State for Communities and Local Government</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2019] PTSR 1406" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] PTSR 1406</ref> to submit that if a claim is not filed within the stated statutory time limit the court does not have jurisdiction to deal with it. </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> was a case in which the end of the six week deadline for making the claim under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/288" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 288</ref>(4B) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> was 23 March 2016 i.e. the Wednesday before the Easter Bank Holiday. The claimant&#8217;s representative arrived at court at 4.25pm on that day and, although the court office did not shut until 4.30pm, was told by security staff that the counters were closed and was refused entry. They tried again on 24 March but the ACO refused to issue the claim because, they said (incorrectly) the wrong claim form had been used.  The claim form was eventually filed on 29 March 2016. The first issue for the Court of Appeal was whether the fact that the court office was physically inaccessible on 23 March, at least when the claimant&#8217;s representatives arrived, meant that &#8211; applying the principle in </span><span style="font-style:italic;font-family:'Times New Roman'">Pritam Kaur v S Russell &amp; Sons</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1973] QB 336" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1973">[1973] QB 336</ref> - the due date was extended until the next date on which the office became accessible i.e. 24 March. If it was, then it was arguable that time should be extended given the incorrect refusal of the claim form by the ACO on 24 March.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'">, at 349D-F, Lord Denning MR said that the arguments were finely balanced but that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic">&#8220;The important thing is to lay down a rule for the future so that people can know how they stand. In laying down a rule, we can look to parallel fields of law to see the rule there. The nearest parallel is the case where a time is prescribed by the Rules of Court for doing any act. The rule prescribed in both the county court and the High Court is this: If the time expires on a Sunday or any other day on which the court office is closed, the act is done in time if it is done on the next day on which the court office is open. I think we should apply a similar rule when the time is prescribed by statute. By so doing, we make the law consistent in itself: and we avoid confusion to practitioners. So I am prepared to hold that when a time is prescribed by statute for doing any act, and that act can only be done if the court office is open on the day when the time expires, then, if it turns out in any particular case that the day is a Sunday or other dies non, the time is extended until the next day on which the court office is open.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> the Court of Appeal held that the circumstances of the case did not fall within the </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> principle given that the court office was in fact open on 23 March, albeit the claimant had been denied access to it, effectively for the last five minutes of the statutory limitation period. Nor was the Court willing to extend the application of the </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> principle beyond calendar days when the court office was not open so as to provide for the exercise of discretion where, for one reason or another, a claimant was prevented from filing a claim on a day when the office was open. </span>Moreover, leaving aside the principled extension of time limits established in case law, and subject to any limited scope there might be on human rights grounds for the court, in exceptional circumstances, to permit proceedings to be brought after a statutory time limit had passed, there was no room for the exercise of judicial discretion. Parliament had provided a strict time limit of six weeks for the making of an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">the 1990 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/288" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 288</ref> (4B) did not admit of any exception to the time limit it laid down, which was precise, unambiguous and unqualified. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In the same way, submitted Ms Kabir Sheikh, paragraph 35 of Part VI of Schedule 9 to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> is precise, unambiguous and unqualified. Applying </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> there is no discretion to extend time in circumstances where no claim has been made within the specified six week time limit. Nor can there be any question of correcting procedural errors in relation to a claim where there is no jurisdiction to entertain it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Kabir Sheikh also relied on </span><span style="font-style:italic;font-family:'Times New Roman'">Good Law Project v Secretary of State for Health and Social Care</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2022] 1 WLR 2336" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 2336</ref> at [82]-[84]. Her submission was that in this case the Court of Appeal held that the general approach under CPR Rule 3.10 to correcting procedural errors should not be applied to failures in relation to the originating process. She also relied on [101] of </span><span style="font-style:italic;font-family:'Times New Roman'">Good Law Project</span><span style="font-family:'Times New Roman'"> which she said was authority for the proposition that the court would not correct a procedural error in relation to an originating process if the effect of doing so would be to deprive the defendant of a limitation defence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In fact, </span><span style="font-style:italic;font-family:'Times New Roman'">Good Law Project</span><span style="font-family:'Times New Roman'"> is concerned with the interplay of certain rules specifically relating to </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">service</span><span style="font-family:'Times New Roman'"> (Rules 7.6 and 6.15) with the court&#8217;s general case management powers to extend time under Rule 3.1(2)(a), in the context of claims for judicial review. At [83] Carr LJ (as she then was) emphasised that valid service of the claim form </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;is what founds the jurisdiction of the court </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">over the defendant</span><span style="font-style:italic;font-family:'Times New Roman'">&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added), and that a party which fails to take reasonable steps to effect valid service in circumstances where a limitation period is about to expire runs the risk of losing the right to bring their claim. However, the Court was not addressing the question whether a claim had been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;made&#8221;</span><span style="font-family:'Times New Roman'"> in the first place. Moreover, at [101] Underhill LJ said that where an applications for retrospective validation of service is made </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">under Rule 6.15(2)</span><span style="font-family:'Times New Roman'"> the claimant is seeking to circumvent a limitation defence. And even then he went no further than to observe that </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The court will </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">in this context</span><span style="font-style:italic;font-family:'Times New Roman'"> be </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">less ready</span><span style="font-style:italic;font-family:'Times New Roman'"> to overlook mistakes of a kind which in other contexts will be accorded no real weight&#8221;</span><span style="font-family:'Times New Roman'"> (emphasis added).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Kabir Sheikh also compared the facts of the present case to those of </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm v Secretary of State for Levelling up, Housing and Communities</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2023/2566" uk:canonical="[2023] EWHC 2566 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 2566 (Admin)</ref>. In the </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'"> case, hard copies of the claim form and bundle were placed in the ACO drop box on the final day for filing under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/288" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 288</ref>(4B) of <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">the 1990 Act</ref>, which was 3 November 2022. However, this was after 2.30pm which was the time of the final daily collection from the drop box. As a consequence, the ACO did not receive the documents until they were collected on the next day, 4 November 2022. The ACO therefore took the position that the claim form was filed on 4 November 2022, one day out of time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Mrs Justice Lang held that the claim form had not been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;filed&#8221;</span><span style="font-family:'Times New Roman'"> within the meaning of CPR Rule 2.3(1) when it was deposited in the drop box. At [37] and [38] she said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;37.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">In my judgment, the claim form in this case was not filed within the meaning of the definition in CPR 2.3(1) when it was deposited in the drop box. The drop box is in the main reception area of the RCJ and it is not in &#8220;the court office&#8221; within the meaning of CPR 2.3(1) (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Croke</span><span style="font-style:italic;font-family:'Times New Roman'"> at [19]). It is essentially a dedicated post-box and the mere fact of posting the claim form in the drop box is not sufficient to constitute the act of filing, just as posting the claim form at the Post Office would not amount to filing. It could only be filed once it was taken from the drop box to the ACO and approved for filing by a member of the ACO staff. Applying the approach taken in the cases of </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Calverton Parish Council</span><span style="font-style:italic;font-family:'Times New Roman'"> and </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kaur</span><span style="font-style:italic;font-family:'Times New Roman'"> (Croke [16] and [18]), filing the claim is not a unilateral act by the litigant. Action by the court is required to approve the filing of the claim, as I have already described. </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Barnes v St Helens MBC</span><span style="font-style:italic;font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2007] 1 WLR 879" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 879</ref> is distinguishable on its facts. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">38.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman'">Furthermore, when documents are deposited in the drop box, there is no procedure for recording the name of the case and the time and date on which delivery took place. It would be highly unsatisfactory for such a significant procedural step as filing to take effect without any record of it.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">At [19] of </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'">, to which Lang J referred in [37] of her judgment, the Court of Appeal had noted that there is a sensible distinction between the court office itself, which is referred to in Rule 2.3(1), and the court building. What is required is delivery of the document to the court office itself: see, also,</span><span style="font-style:italic;font-family:'Times New Roman'"> Yadley Marketing Co Ltd v Secretary of State for the Home Department</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2017] 1 WLR 1041" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 1041</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Kabir Sheikh&#8217;s contention was that in the present case sending the Claim Form to the KBD email address was equivalent to placing the hard copy papers in a drop box. Filing a claim is not a unilateral act by the litigant. Action by the court is required to approve the filing of the claim. Referring to the commentary at [7.2.1] of the White Book 2024 she submitted that the claim must also be filed in the &#8220;correct&#8221; court office. In the present case the Claim Form was not filed in the ACO or approved for filing by a member of the ACO staff until 21 May 2024 and it is therefore out of time. Nor are there any exceptional circumstances which might justify departing from the clear position under the CPR and the relevant Practice Directions. Ms Kabir Sheikh also pointed out that in both </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> and </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'">, and indeed in a number of other cases, the courts have emphasised that litigants who take required procedural steps on the last permitted day of a limitation period run the risk that any error will be fatal to their claims.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The Claimant&#8217;s argument</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On behalf of the Claimant, Mr Kevin Leigh argued that the reality of this case is that the Claim Form had been filed at a court office at the High Court, indeed the Central Office of the correct division of the High Court. The application had therefore been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;made&#8221;</span><span style="font-family:'Times New Roman'"> to the High Court for the purposes of Paragraph 35. It had just been made to the wrong court office of the KBD. This did not deprive the High Court of jurisdiction. It was simply a procedural error which could be corrected by transferring the matter to the ACO as has happened.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Leigh also referred me to [9] of the judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> where Lindblom LJ said that</span> the court has a discretion to permit the correction of defects in, or the making of amendments to, a claim form. Lindblom LJ also noted that in <span style="font-style:italic">Cala Homes (South) Limited v Chichester District Council </span>(1999) 79 (P &amp; CR) 430 it had been held that the filing of the claim on the wrong claim form and in the wrong court office would not automatically render the proceedings invalid. And in <span style="font-style:italic">Thurrock Borough Council v Secretary of State for the Environment, Transport and the Regions</span> [2001] CP Rep 55, where the proceedings had been issued under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/289" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 289</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> rather than <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/288" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 288</ref>, a similar approach had been taken in the interests of justice and pursuant to the overriding objective.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Leigh submitted that I should construe Paragraph 35 to reach a result which was consistent with Article 6 of the European Convention on Human Rights. Moreover, in this case there were exceptional circumstances which required that I hold that an application had been made in time, namely that the Claimant was acting on the advice of the KBD and understood, from the conversation with&#8220;Jemima&#8221;after the Claim Form had been filed, that the Claim had been accepted and all was in order. Had Jemima, instead, rejected the Claim Form immediately on the grounds that it should be filed with the ACO that could and would have been done within the statutory deadline by immediately sending the documents to the correct email address, as happened on 21 May when it was suggested that this may be an ACO matter.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It seems to me that the starting point, and perhaps the end point, in this application is the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes v St Helens Metropolitan Borough Council (Practice Note)</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2007] 1 WLR 879" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 879</ref> which was referred to in </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'"> and in the passage at [7.2.1] of the White Book on which Ms Kabir Sheikh relied. In </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'">, the Court of Appeal considered what was then [5.1] and is now [6.1] of PD 7A (cited above at [21]) and held that it was correct. Tuckey LJ said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;16.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">I start simply by looking at the words used in the statute and the Rules. I approach them by expecting to find the expiry of a limitation period fixed by reference to something which the claimant has to do, rather than something which someone else such as the court has to do. The time at which a claimant &#8220;brings&#8221; his claim form to the court with a request that it be issued is something he has to do; the time at which his request is complied with is not because it is done by the court and is something over which he has no real control. Put another way one act is unilateral and the other is transactional</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">. I do not agree&#8230;&#8230; that in the context the verb &#8220;to bring&#8221; has the same meaning as the verb &#8220;to start&#8221;&#8230;..a claim is brought when the claimant's request for the issue of a claim form (together with the court fee) is delivered to the court office</span><span style="font-style:italic">&#8230;&#8221; </span>(emphasis added)</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">17.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">This construction accords with the approach taken in the pre- CPR cases. The claimant is given the full period of limitation in which to bring the claim and does not take the risk that the court will fail to process it in time... </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">18.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">The date of issue of the claim form fixes the time within which the proceedings have to be served (rules 7.5 and 7.6)&#8230;.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">19.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">I do not see that receipt of the claim form by the court office involves any transactional act. The court staff who receive the documents are not performing any judicial function and have no power to reject them. Mr Norman puts the extreme example of a form which does not name the parties or one which does not include a claim. If such forms were rejected, I suspect that the answer would be that the claimant had not delivered anything which could properly be described as a claim form.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Tuckey LJ had also referred to the decision of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Van Aken v Camden Borough Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2003] 1 WLR 684" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 WLR 684</ref> where it was held that an appeal to the County Court pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/52/section/204" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 204</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/52" uk:canonical="1996 c. 52" uk:origin="TNA" uk:type="legislation">Housing Act 1996</ref> had been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;brought&#8221;</span><span style="font-family:'Times New Roman'"> in time in circumstances where it had been posted through the designated letter box of the court office on the final day of the limitation period, albeit after the office had closed for the day. The principal question was whether this amounted to filing the appeal for the purposes of CPR Rule 2.3(1) and the Court of Appeal held that it did: </span>mere delivery of a document to the appropriate court office was sufficient to constitute the <span style="font-style:italic">&#8220;filing&#8221;</span> of that document, without any additional requirement that there should be someone at the court office to receive or to authenticate it. Filing was a unilateral rather than a transactional act. (Note that the position may be different where what is required is delivery to a court <span style="text-decoration-line:underline;text-decoration-style:solid">officer</span>: see <span style="font-style:italic">Aadan v Brent LBC</span> [2000] 32 HLR 848 CA and <span style="font-style:italic;font-family:'Times New Roman'">Salford City Council v Garner</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/364" uk:canonical="[2004] EWCA Civ 364" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 364</ref> at [24] and </span><span style="font-style:italic;font-family:'Times New Roman'">Van Aken</span><span style="font-family:'Times New Roman'"> was distinguished by the Court of Appeal  in </span><span style="font-style:italic;font-family:'Times New Roman'">Yadley Marketing Co Ltd v Secretary of State for the Home Department</span><span style="font-family:'Times New Roman'"> (supra) although not said to be incorrect on its facts).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As Tuckey LJ noted, the question when proceedings were, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;begun&#8221;</span><span style="font-family:'Times New Roman'"> or </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;commenced&#8221;</span><span style="font-family:'Times New Roman'"> is likely to be interpreted as referring to when it was </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">issued</span><span style="font-family:'Times New Roman'">: see e.g, </span><span style="font-style:italic;font-family:'Times New Roman'">Salford City Council v Garner</span><span style="font-family:'Times New Roman'"> (supra)  to which he referred at [12]. In that case section 130 and associated provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/52" uk:canonical="1996 c. 52" uk:origin="TNA" uk:type="legislation">Housing Act 1996</ref> required the court to decide when the landlord had </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;begun proceedings for possession&#8221;</span><span style="font-family:'Times New Roman'">.  However, in other cases the terms of the relevant provisions merely require that the claim etc is, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;brought&#8221;</span><span style="font-family:'Times New Roman'">. In such cases the question depends on whether the claimant has taken the requisite steps to request that the claim form be issued, rather than whether the court office has responded e.g. to acknowledge receipt or to issue the claim form. What is required is therefore that the claim form has been delivered to/received by the court office. Provided a valid claim form is filed within the statutory limitation period the date on which it is acknowledged, accepted or issued does not affect the fact that the claim was brought in time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I see no reason to adopt a different approach to the question whether a claim or application has been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;made&#8221;</span><span style="font-family:'Times New Roman'"> for the purposes of Paragraph 35 to the approach of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> given that this word contemplates steps which can and must be taken by the claimant unilaterally. Moreover, as I have noted, this is essentially the approach  taken under [6.1] of PD 7A, [3.17] of the King&#8217;s Bench Guide 2024 and [7.2.1] of the Administrative Court Guide 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I therefore agree with Ms Kabir Sheikh (see [23] of her skeleton argument) that the question in the present case is whether the Claimant </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;filed&#8221;</span><span style="font-family:'Times New Roman'"> the Claim out of time. In </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'">, on which she relied, this was the premise on which Lang J proceeded: see [35] of her judgment and following, in which the question on which her decision turned was whether the claim form in that case was filed by the claimant when she placed it in the ACO drop box. The problem in </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'">, on Lang J&#8217;s analysis, was that the drop box was within the court building but it was not the Administrative Court Office itself. Documents therefore were not delivered to </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;the court office&#8221;</span><span style="font-family:'Times New Roman'"> for the purposes of Rule 2.3(1) simply by depositing them in the drop box. Rather, it was only when they were taken out of the drop box and arrived at the ACO that delivery was effected.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As to whether filing additionally requires acknowledgment or acceptance of the document by the court office, as Ms Kabir Sheikh argued, the short answer is that in this case, on the evidence, the Claim Form was acknowledged or accepted by &#8220;Jemima&#8221; in Central Office on 7 May 2024. Even on Ms Kabir Sheikh&#8217;s argument it therefore was filed on that date, albeit in the wrong court office. The question is therefore whether the fact that it was the wrong court office meant that the Claim had not been </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;made&#8221;</span><span style="font-family:'Times New Roman'"> for the purposes of  Paragraph 35.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In case this analysis is wrong I should say that I do not accept that, at [37] of her judgment, Lang J intended to establish a rule that in all cases </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;filing&#8221;</span><span style="font-family:'Times New Roman'"> does not take place until there is some form of response by the court office. This would be contrary to the decision of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes </span><span style="font-family:'Times New Roman'">and, indeed, the other Court of Appeal decisions to which Tuckey LJ referred. Even if this was Lang J&#8217;s intention, this was not the ratio of her decision. It is clear from her acknowledgment of the position under [7.2.1] of the Administrative Court Guide at [35] of her judgment that if the claim form in that case had been received in the ACO on 3 November, even if it had not been acknowledged or issued until several days later it would still have been filed/made on time. The decisive point was that it had not been delivered to any court office within the deadline. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I also note that Lang J was dealing with the question of delivery of hard copy documents. As she noted at [33], before the Covid 19 pandemic a litigant could file a claim by attending at the counter in the ACO and a basic preliminary check would be carried out - e.g. as to whether the fee had been paid and whether the right claim form had been used etc - which could result in a refusal to accept a claim. In circumstances where the documents were rejected at the counter they were not, as a matter of fact, delivered to the court office, albeit, as Tuckey LJ said in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> (at [19]), the staff were not performing a judicial function and had no formal legal power to reject a claim. Moreover, an incorrect rejection might constitute exceptional circumstances which justified departing from the strict requirements of the relevant provision: see the discussion in </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> at [40]-[49]. The present case is concerned with electronic delivery. The concerns which Lang J expressed about having a record of when the document was delivered (at [38] of her judgment), which may be relevant to ascertaining whether the document was delivered within the specified deadline, do not arise. Where filing is effected electronically there is no physical act required of court office personnel for it to be delivered to the court office and there is an electronic record of the name of the case and the time and date of delivery. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This is not to say that the claim form cannot, after it has been delivered or filed electronically, be rejected on the grounds that it does not comply with the CPR or the court cannot refuse to correct defects in it. As Tuckey LJ indicated in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'">, if the defects are sufficiently important for it to be concluded that no claim has in fact been filed, no claim will have been made in time. But, otherwise, the claim is in time if it is received by the court office in time and any procedural flaws may be corrected at the discretion of the court if appropriate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I appreciate that </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'"> is not the only case in which it has been said or implied that the filing of a claim is not a unilateral act. </span><span style="font-style:italic;font-family:'Times New Roman'">Nottingham City Council v Calverton Parish Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2015] PTSR 1130" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] PTSR 1130</ref> (e.g. at [38] and [41]) is arguably such a case. But </span><span style="font-style:italic;font-family:'Times New Roman'">Calverton</span><span style="font-family:'Times New Roman'">, </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> and other authorities referred to in the passages from </span><span style="font-style:italic;font-family:'Times New Roman'">Croke</span><span style="font-family:'Times New Roman'"> which Lang J cited were (unlike the </span><span style="font-style:italic;font-family:'Times New Roman'">Home Farm</span><span style="font-family:'Times New Roman'"> case) concerned with the application of the </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> principle and whether the final day of the limitation period counted on the facts of the particular case. The courts in those cases were not required specifically to determine the question whether the claim should be regarded as having been brought at the point of filing or at the point of issuing, and, if at the point of filing, what constitutes filing for the purposes of the relevant provisions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> itself was concerned with the limitation periods under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/24-25/41/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/24-25/41" uk:canonical="1934 (24 &amp; 25 Geo. 5) c. 41" uk:origin="TNA" uk:type="legislation">Law Reform (Miscellaneous Provisions) Act 1934</ref> which stated that </span>the action <span style="font-style:italic">"</span><span class="coitalic" style="font-style:italic">shall not be </span><span class="coitalic" style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">brought</span><span class="coitalic" style="font-style:italic"> after</span><span style="font-style:italic"> the expiration of three years from the date on which the cause of action accrued."</span> and <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/9-10/93" uk:canonical="1846 (9 &amp; 10 Vict.) c. 93" uk:origin="TNA" uk:type="legislation">the Fatal Accidents Act 1846</ref>, as amended, which required that it <span style="font-style:italic">"shall be </span><span class="coitalic" style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">commenced </span><span class="coitalic" style="font-style:italic">within</span><span style="font-style:italic"> three years after the death." </span>(emphasis added in both cases). On the facts, the writ had been received and stamped on the same day so that, as Lord Denning MR said at 348G, nothing turned on the difference in wording between the provisions. <span style="font-family:'Times New Roman'">The argument proceeded on the assumption that the claim had to be </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">issued</span><span style="font-family:'Times New Roman'"> before the end of the statutory deadline (see 349G/H, 350B and 356E) and the Court of Appeal established a principle of construction, or presumed parliamentary intention, for pragmatic reasons and in the interest of certainty, drawing on the position under RSC Order 3 rule 4: see the passage from Lord Denning&#8217;s judgment at [46] above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The subsequent cases which have considered the application of </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur </span><span style="font-family:'Times New Roman'">have proceeded on the basis it is an established principle of interpretation without needing to determine the question as to the point in time at which a claim is to be taken to have been filed. Moreover, </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> was referred to by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> and </span><span style="font-style:italic;font-family:'Times New Roman'">Van Aken</span><span style="font-family:'Times New Roman'"> and both </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> and </span><span style="font-style:italic;font-family:'Times New Roman'">Van Aken</span><span style="font-family:'Times New Roman'"> have been referred to in Court of Appeal authorities which considered </span><span style="font-style:italic;font-family:'Times New Roman'">Kaur</span><span style="font-family:'Times New Roman'"> (e.g. </span><span style="font-style:italic;font-family:'Times New Roman'">Salford City Council v Garner </span><span style="font-family:'Times New Roman'"> (supra) and  </span><span style="font-style:italic;font-family:'Times New Roman'">Yadley Marketing Co Ltd v Secretary of State for the Home Department </span><span style="font-family:'Times New Roman'">(supra)). Evidently it was not considered by the Courts in these cases that any tension between the two lines of authority called the correctness of the approach in either into question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Turning to Ms Kabir Sheikh&#8217;s argument that the </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> principle only operates if the claim form is filed in the </span><span style="font-style:italic;font-family:'Times New Roman'">&#8221;correct&#8221;</span><span style="font-family:'Times New Roman'"> court office, what Tuckey LJ said was this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">I think the Practice Direction is correct&#8230;.</span><span/><span style="font-style:italic">What I have said however is confined to the situation contemplated by the Practice Direction, that is to say receipt by the court office of the claim form. This necessarily involves actual delivery by whatever means permitted by the Rules to the correct court office during the hours in which that office is open (paragraphs 2 and 3 of the Practice Direction-Court Offices supplementing CPR Pt 2)&#8230;Different considerations might apply if delivery was made to the wrong place or outside office hours. They will have to be considered if they arise.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As I read this passage, and particularly the reference to [2] and [3] of Practice Direction 2A, Tuckey LJ meant the office of the court identified in the legislation as having jurisdiction e.g. in the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">County Courts Act 1984</ref> or, as in this case, the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref>. [2] of PD 2A is concerned with </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Business in the Offices of the Senior Courts&#8221;</span><span style="font-family:'Times New Roman'"> and [3] is concerned with </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;The County Court&#8221;</span><span style="font-family:'Times New Roman'">. These paragraphs  make general provision in relation to when court offices will be open and, in the case of county court, where they will be situated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It follows from this that, on the basis of the </span><span style="font-style:italic;font-family:'Times New Roman'">Barnes</span><span style="font-family:'Times New Roman'"> principle and [6.1] of PD 7A, in the present case an application was made to the High Court on 7 May 2024. Again, I see no reason to reach a different conclusion about the interpretation of Paragraph 35. The High Court therefore has jurisdiction to entertain the Claim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On this analysis, the error made by the Claimant was a procedural error in relation to a valid claim. It was and is readily corrected by the transfer of the Claim to the ACO although it appears that, for all practical purposes, that has been done. Moreover, so far as necessary the date of filing should be corrected so that it is recorded as 7 May 2024. In each case this can and should be done under CPR Rule 3.10. There is no prejudice to the Defendant in doing so either. Ms Kabir Sheikh&#8217;s argument based on the </span><span style="font-style:italic;font-family:'Times New Roman'">Good Law Project</span><span style="font-family:'Times New Roman'"> case is misconceived: even if it was based on an accurate reading of what Underhill LJ said at [101], which it was not (see [50], above), in </span><span style="font-style:italic;font-family:'Times New Roman'">Good Law Project </span><span style="font-family:'Times New Roman'">the claim was out of time and the application was for it to be validated retrospectively; here the Claim is not out of time for the purposes of Paragraph 35. Transferring it from one court office to another therefore does not deprive the Defendant of a limitation defence. Even if it did, it would be wholly inconsistent with the overriding objective to refuse to correct this error given that it was a genuine mistake, it had no material impact on the litigation (were it not for the Defendant&#8217;s application) and no other prejudice to the Defendant has been identified. As is well known, it is not unusual for cases which are brought in the wrong division or court of the High Court to be transferred to the correct court. For example, a private law claim which is in truth a public law challenge may be directed to proceed as if it were a claim for judicial review and vice versa. And, as I have noted, Part 54C specifically provides for claims which are brought in the wrong Administrative Court office to be transferred, albeit in most cases these types of transfer may require a judicial decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In coming to this conclusion I am fortified by the fact that it is consistent with </span><span style="font-style:italic">Cala Homes (South) Limited v Chichester District Council</span> (supra) which, Mr Leigh pointed out, was referred to by the Court of Appeal in <span style="font-style:italic">Croke</span>. In <span style="font-style:italic">Cala Homes</span> Mr Robin Purchas QC (sitting as a Deputy High Court Judge) had to consider the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 287(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> which required an application to be <span style="font-style:italic">&#8220;made&#8221;</span> to the High Court within the specified deadline. At the time of the <span style="font-style:italic">Cala Homes</span> case Part 50 of and Schedule 1 to the CPR, Order 94 provided at 2(1) that to exercise this right <span style="font-style:italic">&#8220;A claim form&#8230;must be filed at the Crown Office, and served, within the time limited by the relevant enactment for making the application&#8221;</span>. However, the claim form was filed in the Central Office of the High Court rather than the Crown Office. Mr Purchas held that this did not mean that the claim form was a nullity, refused the Defendant&#8217;s application to strike out the claim and granted the claimant&#8217;s application to transfer the case to the Crown Office. Having noted that some statutory provisions expressly required that the claim or application was made in accordance with the rules of the court and others, including <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 287</ref>, did not, he said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic">&#8220;in the absence of clear words in the statute, as a general rule the court should not infer the incorporation of the formal or other requirements of the rules and practice directions as a precondition for compliance with the statutory time limit. I do not, therefore, believe that as a matter of principle to make an application to the High Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 287</ref> should be construed as restricted to an application that is in strict accord with the relevant rules and practice directions.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I tend to agree. Although the limits of this principle may need to be explored in future cases it seems to me that Paragraph 35 itself requires no more than that a claim form is filed in a court office of the High Court. On the facts of the present case, then, an application was made within the requisite statutory deadline.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For all of these reasons I will dismiss the Defendant&#8217;s application to strike out and, so far as necessary, formally transfer the Claim to the Administrative Court and declare that the date on which the Claim was made in this case was 7 May 2024.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

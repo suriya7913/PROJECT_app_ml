@@ -1,0 +1,840 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2015/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2015/24"/>
+	  <FRBRdate date="2015-01-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="24"/>
+	  <FRBRname value="Oxford Aviation Services &amp; Anor, R (On the Application Of) v Secretary of State for Defence Civil Aviation Authority &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2015/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2015/24"/>
+	  <FRBRdate date="2015-01-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2015/24/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2015/24/data.xml"/>
+	  <FRBRdate date="2024-10-07T00:00:39" name="transform"/>
+	  <FRBRdate date="2024-11-21T05:35:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2015-01-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-queen-on-the-application-of" href="" showAs="The Queen on the application of"/>
+	<TLCPerson eId="oxford-aviation-services-trading-as-london-oxford-airport" href="" showAs="Oxford Aviation Services (trading as London Oxford Airport)"/>
+	<TLCPerson eId="biggin-hill-airport-ltd" href="" showAs="Biggin Hill Airport Ltd"/>
+	<TLCPerson eId="secretary-of-state-for-defence" href="" showAs="Secretary of State for Defence"/>
+	<TLCPerson eId="civil-aviation-authority" href="" showAs="Civil Aviation Authority"/>
+	<TLCPerson eId="secretary-of-state-for-transport" href="" showAs="Secretary of State for Transport"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-the-hon-mr-justice-popplewell" href="/judge-the-hon-mr-justice-popplewell" showAs="THE HON. MR JUSTICE POPPLEWELL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2015</uk:year>
+	<uk:number>24</uk:number>
+	<uk:cite>[2015] EWHC 24 (Admin)</uk:cite>
+	<uk:parser>0.26.5</uk:parser>
+	<uk:hash>a47c912a64f2ff8f917c3f685787611ec991ffedfb923a7f6036df6b12c06b07</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-weight: bold; font-size: 14pt; }
+#judgment .Heading5 { font-style: italic; font-weight: bold; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ColorfulList-Accent11 { margin-left: 0.49in; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.49in; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading2Char { font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .Heading4Char { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .Heading5Char { font-style: italic; font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <span style="text-decoration-line:none">2015 EWHC 24 (Admin)</span></p>
+      <p class="CoverMain" style="text-align:right">Case No: <docketNumber>CO/12787/2013</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Rolls Building, Fetter Lane</p>
+      <p class="CoverText">EC4A 1NL</p>
+      <p class="CoverText">Date: <docDate date="2015-01-23" refersTo="#judgment">Friday 23<span style="vertical-align:super;font-size:smaller">rd</span> January 2015</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-hon-mr-justice-popplewell">THE HON. MR JUSTICE POPPLEWELL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#the-queen-on-the-application-of" style="font-weight:bold">The Queen on the application of </party></p>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#oxford-aviation-services-trading-as-london-oxford-airport" style="font-weight:bold">(1) Oxford Aviation Services (trading as London Oxford Airport)</party></p>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#biggin-hill-airport-ltd" style="font-weight:bold">(2) Biggin Hill Airport Ltd</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#secretary-of-state-for-defence" style="font-weight:bold">Secretary of State for Defence</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#civil-aviation-authority" style="font-weight:bold">Civil Aviation Authority</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#defendant" refersTo="#secretary-of-state-for-transport" style="font-weight:bold">Secretary of State for Transport</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"> (Transcript of the Handed Down Judgment of</p>
+      <p style="text-align:center">WordWave International Limited</p>
+      <p style="text-align:center">A Merrill Communications Company</p>
+      <p style="text-align:center">165 Fleet Street, London EC4A 2DY</p>
+      <p style="text-align:center">Tel No:  020 7404 1400, Fax No: 020 7831 8838</p>
+      <p style="text-align:center">Official Shorthand Writers to the Court)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold"> John Steel QC, Duncan Sinclair and James Potts </span>(instructed by Sharpe Pritchard LLP) for the <span style="font-weight:bold">Claimants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold"> Gemma White </span>(instructed by The Treasury Solicitor) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> and 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span/><span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Naina Patel and Sarah Wilkinson </span>(instructed by CAA Solicitors) for the <span style="font-weight:bold">2nd</span><span/><span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 26 &amp; 27 November 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">Judgment</span></p>
+      <p style="text-align:justify;margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Hon. Mr Justice Popplewell :</span></p>
+      <p class="ParaHeading"><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This application for judicial review is concerned with whether the Government&#8217;s arrangements for overseeing and regulating the use of Northolt Airport (&#8220;RAF Northolt&#8221;) by civil aircraft are lawful, particularly in respect of safety.  It is not about whether RAF Northolt meets appropriate safety standards for such aircraft.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Broadly speaking responsibility for civil aviation regulation rests with the Secretary of State for Transport (&#8220;the SST&#8221;) and is carried out by the Civil Aviation Authority (&#8220;the CAA&#8221;).  Most airports in the UK used for the transport of passengers by civil aircraft are privately owned and are licensed by the CAA.  Military airports fall within the responsibility of the Secretary of State for Defence (&#8220;the SSD&#8221;) through the Military Aviation Authority (&#8220;the MAA&#8221;), an autonomous body created by Charter, administered within the Ministry of Defence (&#8220;the MOD&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The airfield at what is now RAF Northolt, on the north western fringe of London, opened in March 1915.  Over its history it has been used for a mix of military and civil traffic.  It played an important part in the Second World War, most notably during the Battle of Britain, and its Officers&#8217; Mess from that time survives as a listed building.  After the War, RAF Northolt became a civil airport on loan from the Air Ministry, and was by March 1946 home to 11 commercial operators.  In its heyday in the late &#8216;40s and early &#8216;50s it was the busiest airport in Europe.  The RAF retained a presence throughout this period and retook control of the airport in 1955.  Civil traffic continued to use the airport and in the early 1980s a decision was taken to limit such traffic to 7,000 movements a year (a movement being a take off or landing).  It is one of eight government airports in the UK which accept civil passenger or commercial traffic. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trigger for the current proceedings came in April 2012 when the MOD decided to increase the limit on civil flights at RAF Northolt from 7,000 to 12,000 movements.  The Claimants are the operators of airports at Oxford and Biggin Hill which also service private business jets of the kind which use RAF Northolt.  Although the arguments in the case have been about the application of safety standards, the motivation for the challenge must lie in the Claimants&#8217; commercial interests as competitors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before the increase in the cap, about 50% of RAF Northolt&#8217;s traffic was civil.  The remainder was not purely military in the sense commonly understood.  RAF Northolt is a government airport which is used for government purposes, including amongst other things, diplomatic traffic and travel by members of the Royal Family.  Since the increase in the cap, civil traffic has come to form the majority of movements, with pure military use a minority.  The airport remains, however, controlled by the MOD, and is intended to remain suitable for increased military use should the government of the day so decide.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are two extant grounds of challenge to the arrangements put in place by the government to regulate the safety of civil use of RAF Northolt.  The first is aimed at the exercise by the CAA and the SST of their statutory powers.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">Civil Aviation Act 1982</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref>&#8221;), the SST is charged with the general duty to organise measures for the development of civil aviation, including the promotion of safety in the use thereof: <ref href="http://www.legislation.gov.uk/id/ukpga/2006/34/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref>(c).  Under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/34/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1</ref>(1A), inserted by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/34" uk:canonical="2006 c. 34" uk:origin="TNA" uk:type="legislation">Civil Aviation Act 2006</ref>, the  SST is also charged with the general duty of organising, carrying out and encouraging measures for safeguarding the health of persons on board aircraft.  The SST carries out those duties through the CAA, a body corporate provided for in <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref>.  <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref> identifies the CAA&#8217;s functions (which are defined at s. 105 to include powers and duties) as including (1) the functions conferred on it by or under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/34" uk:canonical="2006 c. 34" uk:origin="TNA" uk:type="legislation">the Act</ref> with respect to the operation of aerodromes: <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>(b); and (2) such functions as are for the time being conferred on it by or under Air Navigation Orders with respect to the safety of air navigation and aircraft, the control of air traffic, the certification of aircraft operators and the licensing of crews and aerodromes: <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 3</ref>(c).  <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref> imposes a duty on the CAA to perform its functions in the manner in which it considers is best calculated to secure that British airlines provide air transport services which satisfy all substantial categories of public demand at the lowest charges consistent with a high standard of safety in operating the services.  Under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref> the SST must exercise his functions so as to maintain a high standard of safety in the provision of air traffic services, and an equivalent duty is imposed on the CAA in <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>.   There is no need for the purposes of this case to distinguish between the CAA and the SST.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/60" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 60</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref> provides for Air Navigation Orders to be made by Order in Council, which may provide, amongst other things, for the licensing of aerodromes, the regulation of use of unlicensed aerodromes, and the conditions under which aircraft may fly and carry passengers within the UK.  The relevant Air Navigation Order currently in force is Air Navigation Order 2009 (SI 3015 of 2009) (&#8220;the ANO&#8221;).  Part 27 of the ANO deals with aerodromes.  Article 211 provides for the licensing of aerodromes by the CAA, which publishes guidance to the industry on how it will exercise its licensing powers in Civil Aviation Publication 168 (&#8220;CAP 168&#8221;).  CAP 168 is a lengthy and detailed document. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant parts of articles 207 to 210 of the ANO are in the following terms:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;Requirement to use licensed or Government aerodrome</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>207.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) This article applies to any aircraft flying on a flight specified in article 208.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An aircraft to which this article applies must not take off or land at a place in the United Kingdom other than-</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">an aerodrome licensed under this Order for the take-off and landing of such aircraft;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">a Government aerodrome notified as available for the take-off and landing of such aircraft; or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">a Government aerodrome where the person in charge of the aerodrome has given permission for the particular aircraft to take off or land.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">When taking off or landing at an aerodrome specified in paragraph (2), an aircraft to which this article applies must do so in accordance with any conditions subject to which the aerodrome may have been licensed or notified, or subject to which such permission may have been given.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Flights which must use licensed or Government aerodrome</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>208.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(l) Subject to paragraph (5), article 207 applies to any aeroplane which has a maximum total weight authorised of more than 2730kg flying on a flight -</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">for the purpose of the commercial air transport of passengers or the public transport of passengers;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">&#8230;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Use of Government aerodromes</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>210.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">With the concurrence of the Secretary of State and subject to such conditions as it thinks fit, the CAA may notify any Government aerodrome as an aerodrome available for the take-off and landing of aircraft flying on flights for the purpose of -</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">the commercial air transport of passengers;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">the public transport of passengers; or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">instruction in flying,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">or of any classes of such aircraft.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A Government aerodrome is defined in Article 255 of the ANO as any aerodrome in the UK which is in the occupation of any Government Department or visiting force.  RAF Northolt is such a Government aerodrome because it is occupied and operated by the Ministry of Defence.  RAF Northolt has been a Government aerodrome notified by the CAA pursuant to Article 210, or its predecessors, since 2002, without any conditions attached.  Pursuant to the definition of &#8220;notified&#8221; in the ANO, the notification is made in the CAA&#8217;s Aeronautical Information Publication (&#8220;the AIP&#8221;) which is updated from time to time.  Although eight government airports are notified, RAF Northolt is the only one which also has a detailed section in the AIP giving information about matters such as its operational hours, handling and services facilities, rescue, firefighting and snow clearing facilities, runway distances and characteristics, markings and lighting, obstacles, local airspace and traffic regulations, flight procedures and charts.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first extant ground of challenge seeks relief which by the end of the hearing was formulated in the following terms: &#8220;A declaration that the CAA has power to impose conditions on the notification of government aerodromes in relation to matters concerning the safety of the use by civil aircraft of such aerodromes.&#8221;  This formulation does not adequately capture the dispute between the parties which emerged from the argument.  The CAA accepts it has some such powers under Article 210 of the ANO.  It has proved somewhat elusive to define the remaining issues on this first ground.  This is the result, in part, of developments since the proceedings were commenced, and in part the consequence of a shifting formulation of the argument on each side, which involved each party characterising the other as having made concessions before and/or during the hearing, whilst disputing that such was a fair characterisation of its own position.  Mr Steel QC on behalf of the Claimants defined the issues by reference to five questions, rather than propositions.  The answers given by each side to the first two revealed that it was common ground that the CAA has the power to regulate the use by civil aircraft of a government aerodrome, in particular in relation to safety, but not to regulate the physical layout or architecture of such an aerodrome which is the MOD&#8217;s exclusive preserve; and that such power is to be found in, and only in, the power to notify, with or without conditions, pursuant to Article 210 of the ANO.  Questions 3 and 4 were whether the CAA had misdirected itself or acted in error of law in failing to understand and consider the exercise of such power in relation to RAF Northolt.  The Claimants contended that the answer was yes.  On behalf of the CAA it was contended that (1) the scope of the power had been properly understood, (2) the CAA had not expressly considered the imposition of conditions to notification of RAF Northolt from a safety perspective but (3) insofar as that was an error of law it was not material in the light of the CAA&#8217;s approach to safety at RAF Northolt.  The arguments about the scope of the power revealed more common ground than difference, and although I shall give my views on the correct position where they differed, this did not seem to me to be at the heart of the dispute.  I understood the gravamen of the Claimants&#8217; complaint by the end of the hearing as being twofold:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">The CAA acted unlawfully in delegating to the MOD/MAA the function of considering the safety of civil use of the airport; there is no right of delegation or derogation from the CAA&#8217;s function to regulate the safety of all civil aircraft, including at government airports.  Such delegation is unsatisfactory because the MOD/MAA applies safety criteria and standards applicable solely to military use, and approaches its assessment of such criteria and standards from a military perspective.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">The CAA is bound to exercise its powers in promoting a high standard of safety for civil aircraft by applying, or at least taking account of, exactly the same criteria and standards for civil use of RAF Northolt as for the civil use of airports for which it grants licences.  For the latter, the standards are those set out in its policy document CAP 168.  The CAA acted unlawfully in failing to seek to apply, or at least take account of, the same safety criteria, and in particular those in CAP 168.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants sought to illustrate the failings by reference to two particular aspects of safety, namely the Runway End Safety Area (&#8220;RESA&#8221;) and Obstacle Limitation Surface (&#8220;OLS&#8221;).  But Mr Steel made clear on their behalf that they did not ask the Court to decide what if any conditions it would be appropriate for the CAA to impose on a notification of RAF Northolt pursuant to Article 207(2)(b) in these or any other particular respects. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second extant ground of challenge was aimed at the SSD.  This ground was premised on a breach of Regulation 1.3 of the EU Regulation no 216/2008 of the European Parliament and of the Council dated 20 February 2008 (&#8220;the EASA Regulation&#8221;).  The EASA Regulation followed the establishment in 2002 of the European Aviation Safety Agency, which has gradually gained competency for increasing aspects of civil aviation in Europe.  A further EC Regulation 139/2014 lays down detailed requirements and administrative procedures for aerodromes, which will require aerodromes to hold an EASA aerodrome certificate within a four year implementation period from March 2014.  This case is not concerned with the 2014 regulation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation 1.2 of the EASA Regulation provides that its position shall not apply to aerodromes that are controlled and operated by the military.  However Regulation 1.3 of the EASA Regulation provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Member States shall, as far as practicable, ensure that any military facilities open to public use &#8230; or services provided by military personnel to the public &#8230;offer a level of safety that is at least as effective as that required by the essential requirements as defined in Annexes Va and Vb.&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Annex Va to the EASA Regulation sets out essential requirements for aerodromes which are at a fairly high level of generality.  For example landing and take off areas are to be of &#8220;suitable&#8221; dimensions and characteristics, to have &#8220;adequate&#8221; surface characteristics and to be free from objects which might create &#8220;an unacceptable risk&#8221; to aircraft operations.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This second ground of challenge also proved difficult to pin down.  In the Detailed Grounds, it was formulated as &#8220;The [SSD] has failed to ensure that [RAF Northolt] reaches safety standards equivalent to civil standards as far as practicable&#8221;.  In the course of the argument Mr Steel identified the ground of challenge by reference to questions formulated in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">Should the MOD, when concluding that there has been compliance with Annex Va &#8216;Essential Requirements&#8217; [Reg EU No 216/2008] have taken into account civil aviation standards as interpreted and applied by the CAA in CAP 168?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">Did the MOD fail to do so?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">Did the MOD fail to consider clear options which were practicable, in order to meet and ensure compliance with Article 1.3 of the Regulations?</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">e.g. reducing the types and classes of aircraft able safely to use RAF Northolt (civil aircraft)</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">e.g. raising the operating minima</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">e.g. replacing the equipment and adjusting the facilities.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">Did the MOD take into account an irrelevant consideration, namely the revenue generated by civil aircraft at NHT?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before turning to address the issues raised by the two grounds, it is convenient to identify some further aspects of the legal and regulatory framework, and to set out the relevant history of the CAA and MOD&#8217;s approach to the promotion of safety for civil aircraft using RAF Northolt.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The legal and regulatory framework </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num>18</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Chicago Convention on International Civil Aviation (&#8220;The Chicago Convention&#8221;) was signed on 7 December 1944 and entered into force on 4 April 1947.  It established the International Civil Aviation Organization (&#8220;ICAO&#8221;) as a specialised agency of the United Nations.  The UK was one of the first Contracting States, and is a member of ICAO&#8217;s Governing Council.  The Chicago Convention applies to civil aviation only.  Article 3 expressly excludes its application to state aircraft, including those involved in military service.  The Convention does not, however, distinguish between military and civil airports.  For example, in addressing airport charges at Article 15 it refers to &#8220;airports open to public use.&#8221;  Civil use of military airports such as RAF Northolt is therefore within its scope.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 37 provides that the ICAO is to adopt, and amend from time to time, international standards and recommended practices dealing with, inter alia, characteristics of airports and landing areas.  ICAO standards and recommended practices, which are two distinct categories set out in the annexes, are collectively referred to as &#8220;SARPs&#8221;.  The ICAO SARPs are in the form of 19 detailed annexes which are revised and updated from time to time.  The relevant annex for aerodromes is Annex 14 which is a lengthy document descending to a fine level of detail in relation to all relevant aspects of aerodromes.  Paragraph 1.2.2 of Annex 14 provides that it applies to all aerodromes open to public use.  It is therefore of prima facie application to RAF Northolt as open to civil air traffic.  &#8220;Standards&#8221; are defined in Annex 14 as specifications the uniform application of which is recognised as <span style="font-style:italic">necessary</span> for the safety or regularity of international air navigation.  &#8220;Recommended Practices&#8221; are specifications the uniform application of which is recognised as <span style="font-style:italic">desirable</span> for the safety or regularity of international air navigation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 38 of the Chicago Convention recognises that States may not comply in all respects with SARPs which descend to this level of detail.  It provides that in cases where the State finds it impracticable to comply in all respects with an ICAO standard or deems it necessary to adopt regulations or practices which differ in any particular respect from an ICAO standard, it must notify ICAO of the difference.  This applies only to a departure from an ICAO standard, not an ICAO recommended practice, but Annex 14 invites States voluntarily to notify a difference from a recommended practice as well as complying with the compulsory requirement imposed by Article 38 to notify a difference from a standard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The UK gives effect to these treaty obligations by the ANO and by directions given by the SST to the CAA pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.6</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref>.  These are contained in The Civil Aviation Authority (Chicago Convention) Directions 2007 (&#8220;the Chicago Convention Directions&#8221;).  The Directions provide:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">When exercising its statutory functions the CAA shall ensure that it acts consistently with the obligations placed on the United Kingdom under the Chicago Convention.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Subject to the provisions of paragraphs 8 to 11, in relation to each of the Specified Annexes [which include Annex 14] &#8230; the CAA will consider whether it is necessary to amend United Kingdom aviation legislation to ensure appropriate implementation of an ICAO provision. Where the CAA considers that such an amendment is necessary it will make a proposal to the Secretary of State. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Where</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">the CAA considers it inappropriate to transpose an ICAO provision into domestic legislation and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">the CAA has discretionary power to enforce the requirements of such a provision through a certificate, licence, or other means of approval the CAA shall develop and publish such requirements as are necessary to implement the ICAO provision and shall ensure that it is able to verify adherence to those requirements. Where the CAA chooses to adopt or make use of requirements published by another State or international organisation it shall publish a statement to this effect.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Where the CAA considers that it is not appropriate to take action in accordance with paragraph 8 it shall ensure that suitable alternative measures are established to secure compliance with an ICAO provision. Such measures shall be documented and published.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Where the CAA considers it impracticable or inappropriate to transpose an ICAO provision into UK legislation, or to take action in accordance with paragraphs 8 or 9, the CAA shall inform and consult the Secretary of State prior to notifying any Difference (whether interim or permanent) to ICAO or publishing such a Difference in the United Kingdom AIP.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Where implementation of an ICAO provision is the responsibility of the European Community the CAA shall:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">assist in the development of any EC measure so as to ensure that the ICAO provision is implemented appropriately and is consistent with the interests of United Kingdom industry and airspace users;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">where appropriate and in accordance with these Directions implement in the United Kingdom any part of such an ICAO provision excluded from the EC measures;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">having consulted the Secretary of State, assist the relevant EC body in determining whether any Difference should be notified to ICAO and published in the United Kingdom AIP.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">Where the CAA shares responsibility for a Specified Annex with a government department, the CAA shall work with that department to establish the extent of UK compliance with an ICAO provision and shall consult the department on the terms of any Difference to be notified to ICAO by the CAA.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The CAA maintains a checklist for compliance with all the Annexes covered by the Chicago Convention Directions, noting compliance or differences, and uploads these onto an ICAO online system by way of notifying differences.  Differences from SARPs may be of more or less practical significance.  The CAA also maintains a separate list of &#8220;significant differences&#8221; which it publishes in the UK AIP.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2002 the SST filed a difference with the ICAO which provided that there was no requirement for Annex 14 to apply at all to Government aerodromes.   As a matter of international treaty obligations under the Chicago Convention, therefore, Annex 14 does not apply to RAF Northolt.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Duties to take into account safety considerations in civil aviation are not confined to the SST and CAA.  Article 87 of the ANO requires the commander of the aircraft to take all reasonable steps to be satisfied that the aircraft is capable of safely taking off and making a safe landing having regard, amongst other things, to any obstructions at either place.  Article 96 provides that the operator of a public transport aircraft must not permit it to fly without first taking all reasonable steps to satisfy himself that the place of take off and landing are suitable (save in respect of emergency response fire and rescue services and the like).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to RAF Northolt the pilots and operators will have the benefit of two sources of detailed information to enable them to fulfil these obligations.  One is the detailed information about RAF Northolt published by the CAA in the AIP.  The other is a manual specific to RAF Northolt published by the MAA and available on a website.  This manual was previously called the Aerodrome Operating Manual and in its most recent edition is titled Defence Aerodrome Manual.  It contains a wealth of information about the aerodrome, including, for example, a full description of the length and configuration of RESAs and the presence within them of arrestor beds, and details of obstacles penetrating the OLS, such as the officers&#8217; mess building.  It records particular limitations on passenger traffic use of the airport: for example charter and scheduled flights are not allowed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The MAA was created by Charter on 31 August 2010 in response to a recommendation made by Charles Haddon-Cave QC, as he then was, in his report into the loss of a Nimrod aircraft over Afghanistan in 2006.  It is headed by a three star military officer, the Director General, who reports directly to the SSD and does not sit in any other military command chain.  The Charter provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Military Aviation Authority shall have full oversight of all Defence aviation activity and undertake the role of the single regulatory authority responsible for regulating all aspects of Air Safety [<span style="font-style:italic">Footnote 1: Military Air Safety is the state of freedom from unacceptable risk of injury to persons, or damage, throughout the life cycle of military air systems. Its purview extends across all Defence Lines of Development and includes Airworthiness. Flight Safety, Policy and the apportionment of Resources. It does not address survivability in a hostile environment.</span>] across Defence. This will be achieved through establishing and maintaining an appropriate regulatory framework, given effect by a certification, approvals and inspection process extending across the acquisition operation and continued airworthiness of air systems within the Defence aviation environment, and by independent surveillance of relevant Departmental planning and programming processes. The Military Aviation Authority shall thereby provide assurance to the Secretary of State for Defence through the 2<span style="vertical-align:super;font-size:smaller">nd</span> Permanent Under Secretary of State that high standards of Air Safety are maintained in the conduct of military aviation.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">AUTHORITY</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>5.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Director General is appointed by the Secretary of State for Defence and derives his authority from this Charter. The Secretary of State for Defence has ultimate responsibility for all Safety, Environmental Protection and Sustainable development matters in Defence. The Director General shall be responsible to the Secretary of State for Defence and accountable to the 2<span style="vertical-align:super;font-size:smaller">nd</span> Permanent Under Secretary of State, as the Safety, Environmental Protection and Sustainable Development process owner, for the overall direction and management of the Military Aviation Authority in accordance with this Charter. Notwithstanding, the Director General shall retain the right of direct access to the Secretary of State to raise Air Safety concerns that he judges are not being satisfactorily addressed through normal processes.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">ROLE AND RESPONSIBILITIES</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">8 The authority to operate and regulate registered United Kingdom military aircraft is vested in the Secretary of State for Defence. Where Defence can rely on exemptions or derogations from either domestic or international law, under the Secretary of State&#8217;s delegated authority the Military Aviation Authority will introduce standards and management arrangements that produce outcomes that are, so far as reasonably practicable, at least as good as those required by legislation.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It shall be the duty of the Military Aviation Authority to develop, promulgate and enforce a regulatory framework to promote an engaged safety culture and assure appropriate standards are being met in the delivery of military Air Safety through an independent end-to-end assurance process. This will enhance the delivery of operational capability through continuous improvement in military Air Safety, culture and practice.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As is apparent from these provisions, the MAA has no role or responsibility for civil aircraft, even if using a military or government airport.  Its function is to oversee only Defence and military air activity, and its safety obligations are confined to those relevant to the delivery of military air safety.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulatory Article 3016 (3) issued by the MAA provides that military aerodrome design and safeguarding shall be in accordance with criteria specified in the Manual of Aerodrome Design and Safeguarding (&#8220;MADS&#8221;).  A Regulatory Article is an Order within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/52" uk:canonical="2006 c. 52" uk:origin="TNA" uk:type="legislation">Armed Forces Act 2006</ref>, and subject to the Queen&#8217;s Regulations, has primacy over all other military aviation orders or instructions.  Although Annex 14 of ICAO does not apply to military activity, the MOD has decided that as a matter of policy MADS should conform to Annex 14 wherever possible.  MADS is a 296 page document containing detailed requirements on matters including runway construction, length and bearing strength, permitted nearby objects, safety areas, and obstacle clearance.  It provides for a safety waiver/exemption process (set out in detail in another MAA publication MAA 03) if the requirements cannot be met but safe operation can be provided by mitigating measures.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Government oversight of the use of RAF Northolt by civil aircraft</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because part of the CAA&#8217;s functions includes the safe and effective use of air space, there is regular consultation and discussion between the CAA and the MOD which is facilitated by the secondment to the CAA of a serving Group Captain.  This is the conduit for discussions which are also necessary for the CAA to publish details of RAF Northolt in the AIP as a result of notification of RAF Northolt as an aerodrome available for civil use.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">RAF Northolt (together with other government aerodromes) was notified by the CAA as available for civil use in 2002.  This was on the basis of an undertaking by the MOD that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">the MOD accepted responsibility for safety standards at the government aerodromes; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.99in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.99in;text-indent:0.12in">the MOD would conduct an audit of compliance of the government aerodromes with ICAO Annex 14.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In February 2006, the CAA was told by the MOD that the latter had adopted the principles of ICAO Annex 14.  In response to a request for an update on the MOD&#8217;s audit of government aerodromes, the CAA was told in 2006 that an audit system based on RAF Northolt was being designed.  In January 2008 the CAA noted that the MOD had still not completed its promised compliance audits.  Following an ICAO inspection team audit in February 2009 which recommended that the UK should establish a mechanism for ensuring that safety oversight was performed on military aerodromes used for international civil operations, the government put forward an action plan under which the MOD were to complete the Annex 14 checklist against military requirements to confirm the level of implementation of relevant SARPs, and to provide it to the CAA for inclusion in the latter&#8217;s uploaded compliance checklist.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these purposes the MOD entered into a commercial arrangement with CAA International, a wholly owned subsidiary of the CAA, to carry out an assessment of RAF Northolt against ICAO SARPs.  The report dated March 2009 highlighted a number of differences. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In June 2013, the MOD provided to the ICAO the results of a review of UK military requirements and activity at all military aerodromes, including RAF Northolt, by reference to Annex 14.  The review involved a &#8220;gap analysis&#8221; exercise conducted by the MAA/MOD which identified that MADS was broadly compliant with ICAO SARPs (save as regards heliports which is not here material) but highlighted a number of areas where further review of the requirements in MADS was necessary.  MADS is due for a further full review in 2015. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 July 2014, the CAA issued a formal Notification Procedure setting out procedures to be followed for the notification of Government aerodromes pursuant to Article 210 of the ANO.  It provides for a biennial review of existing notifications unless any safety critical occurrence should require one to be reviewed sooner.  The review for RAF Northolt would fall due in 2016.  The Notification Procedure identifies the evidence and information which the CAA will require from the MOD before notifying a government aerodrome or during a review of an existing notification.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20 August 2014, the Aerodrome Operator at RAF Northolt, Wing Commander Farrell, provided the CAA with a schedule of the position at RAF Northolt by reference to the differences from ICAO SARPs identified in the CAA International assessment of March 2009.  These indicated that in some instances remedial or mitigation steps had been taken, whilst in others safety assessments had been undertaken and found satisfactory, resulting in exemption requests being made to the MAA.  One step taken was that changes were made to the Declared Distances of the runway, which had the effect of increasing the available RESA.  Mr Roberts, the CAA&#8217;s Head of Airspace, Air Traffic Management and Aerodromes, considered this updated assessment and concluded that there were no fundamental safety issues listed among the findings which would preclude civil aircraft from operating there, or which merited a change to RAF Northolt&#8217;s status as a notified government aerodrome.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One safety aspect at RAF Northolt which featured prominently in the evidence was the presence of light aggregate (&#8220;lytag&#8221;) arrestor beds at the ends of the runway and their intrusion into the RESAs.  These were installed in 1997 as a result of a recommendation made in an Air Accident Investigation Report following an incident in 1996 when a Learjet overshot the runway and encroached on the A40 which abuts the aerodrome perimeter.  It has come to be recognised that whilst the beds have advantages in preventing accidents from overshooting at RAF Northolt, they have potential drawbacks.  In July 2013 the MOD sought to replace them with a bespoke Engineered Materials Arrestor System (&#8220;EMAS&#8221;), which is a certified and tested arrestor bed made of a special type of concrete honeycomb designed to collapse under the weight of an aircraft.  This was rejected on grounds of cost.  As a result the MOD considered further assessment work on the lytag arrestor beds, but concluded that it would not represent value for money because physical testing would be required to provide evidence robust enough to be satisfied of their fitness for purpose.  In the absence of such further assessment work, it could not be satisfied that the beds were fit for purpose.  The MOD then secured funding to commission a more limited study from independent contractors modelling the arrestor beds to support a proposal for their replacement by EMAS as being a proper and necessary cost to public funds.  The results of that study had not been published at the date of the hearing before me, but Wing Commander Farrell had been given an oral presentation of them, which he set out in a witness statement served shortly before the hearing. His statement set out at length the MOD&#8217;s consequent assessment of the safety aspects of the beds and their intrusion into RESAs, concluding that they did not pose an unacceptable safety risk to the use of RAF Northolt by civil aircraft.  It is not necessary or appropriate to set out the detail of those considerations.  The upshot was that the CAA confirmed in a statement served on the second day of the hearing that it would review the safety assessment made by the MOD on the lytag arrestor beds as soon as practical over the coming months, and in this respect the review of the notification of RAF Northolt would take place before the biennial review in 2016 envisaged by the July 2014 Notification Procedure.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The first ground</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the CAA and SST it was submitted as follows.  Article 207(2)(c) of the ANO makes it clear that civil aircraft can take off and land at a government aerodrome if that aerodrome gives permission, even if it has not been notified by the CAA as available for such flights.  At a non-notified aerodrome, the CAA has no statutory duties under the ANO with regard to the safety standards in operation there.  The MAA, however, does have responsibility for safety standards at such an aerodrome.  Therefore if the Claimants&#8217; position were right, the CAA would have responsibility for safety standards for civil flights at some government aerodromes (i.e. those it chooses to notify) but not at others. That would result in an entirely incoherent regulatory regime.  The coherent and correct position is that the MAA retains responsibility for safety standards at all government aerodromes, whether or not such aerodromes accept civil flights, and that the CAA has a complementary duty under Article 210 of the ANO to publish details of those safety standards in the AIP with regard to government aerodromes which accept a considerable volume of civilian air traffic or which have other strategic significance (e.g. if close to Heathrow flight paths). To fulfil that duty, the CAA maintains a dialogue with the MAA as to its compliance with the relevant international safety standards and periodically reviews notification.  As part of that process, the CAA has the power to impose conditions on notification, but any such conditions must be such that they do not trespass on the regulatory regime which is overseen by the MAA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am unable to accept this submission in its full width.  It is the SST/CAA, rather than the SSD/MOD, which has statutory responsibility for safety in relation to the use of RAF Northolt by civil aircraft.  The statutory functions in relation to the safety of civil aviation are imposed on the SST and CAA by <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1</ref>(c), 1(1A), 3 and 4), the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss. 1</ref> and 2) and the ANO.  <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 3</ref>(b) and (c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16" uk:canonical="1982 c. 16" uk:origin="TNA" uk:type="legislation">the 1982 Act</ref> impose functions on the CAA in relation to all aerodromes, without excluding military or government aerodromes.  <ref href="http://www.legislation.gov.uk/id/ukpga/1982/16/section/60" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 60</ref> provides that ANOs shall regulate aerodromes, again without limitation to civil only aerodromes.  The power to notify RAF Northolt as available for civil aircraft use rests with the CAA, with the concurrence of the SST, under Article 210 of the ANO.  Article 210 includes the power to impose such conditions as the CAA thinks fit, which can be formulated by reference to safety considerations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> By contrast, there are no relevant statutory functions for civil aircraft ascribed to the SSD.  The MAA charter makes clear that the MAA&#8217;s functions extend only to military aircraft.  The MAA does not have statutory responsibility for the safety of all aircraft using RAF Northolt.  Its safety responsibilities are confined to the safety of military aircraft using RAF Northolt.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The CAA&#8217;s reliance on Article 207(2)(c) does not point to a different result.  Although in the absence of any notification there remains the theoretical possibility of government aerodromes permitting civil use by giving permission under Article 207(2)(c), such a situation is unlikely to arise in practice for two reasons.  First, were the CAA to refuse to notify for safety reasons, it would in practice prevent civil use unless the MOD or other relevant government department sought to adopt a contrary approach by giving permission, which is not to be expected from two government departments in regular liaison (although I recognise that the force of this consideration might be diminished in the case of foreign military airbases, which also fall within the definition of government aerodromes).  Secondly Article 207(3) provides that anyone using the aerodrome must comply with any conditions subject to which a government aerodrome has been notified.  If the CAA were concerned that a government aerodrome operator would give permission for civil use in the face of the CAA&#8217;s decision not to notify on safety grounds, it would always be open to the CAA to notify attaching conditions which in practice excluded all civil air traffic likely to wish to use the aerodrome (for example as to aircraft class or size).  In that way the CAA could prevent the use of the aerodrome for civil use notwithstanding the permission being granted by the aerodrome operator.  In any event if the CAA were faced with the unlikely situation of a government aerodrome operator giving permission for civil use in the face of its refusal to notify on safety grounds, there would be nothing to prevent the CAA in such circumstances from publishing the fullest information available about the aerodrome to assist operators and pilots, even doing so in the AIP under a reservation that it was not by way of an Article 210 notification.  None of this affords grounds for treating any aspect of the decision making function which the CAA has under Article 210 when considering notification as delegable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Patel submitted on behalf of the CAA that the terms of Article 207(3) indicated that the conditions which could be imposed on a notification were limited to those concerned with the aircraft itself, not the operator or the aerodrome.  That is not so.  Article 207(3) provides that the aircraft must comply with the conditions when taking off and landing.  Article 210 makes clear that the purpose of the flight may form one of the conditions.  So too could special pilot training, weather related restrictions such as RVR limitations or similar operational restraints.  An aircraft could not take off or land without complying with such conditions so as to fulfil Article 207(3) notwithstanding that they did not attach to the physical condition of the aircraft.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is true that the CAA cannot impose civil safety standards at government aerodromes in the sense of requiring physical or operational requirements which affect military use of the aerodrome.  Moreover, the CAA has no right of access to a government aerodrome without the permission of the person in charge (Article 238(2) of the ANO) and cannot compel the MOD or MAA to provide information about the aerodrome, in each case for obvious security reasons.  Nevertheless in the absence of access to such information as it needs, it may refuse to notify for civil use or impose conditions.  None of this need interfere with the configuration or operation of the airport for military purposes, which remains the exclusive prerogative of the MOD/MAA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These are statutory responsibilities which must be discharged by the SST/CAA.  They cannot be fulfilled by delegating to the MOD/MAA the task of assessing the safety of RAF Northolt for use by civil aircraft.  What the CAA/SST may not do, when considering whether to notify RAF Northolt with or without conditions under Article 210, is to treat the decision whether the airport meets safety criteria and standards as one for the MOD/MAA rather than itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is not to say that the SST/CAA cannot rely upon information and assessments provided by the MAA/MOD in order to fulfil their statutory functions.  In the Reply, the Claimants contended that CAA could only fulfil its responsibilities by CAA inspectors themselves carrying out inspections at RAF Northolt, and by the CAA itself carrying out risk assessments.  This is not correct.  The CAA can approach an assessment of the safety of a government aerodrome for civil use on the basis of information from the MOD/MAA.  It can take account of the extensive information prepared by the MAA and published in the Defence Aerodrome Manual.  It can rely on assessments carried out by the MOD/MAA, including any assessment of differences from ICAO SARPs.  The CAA can take properly take account of the fact that the MOD/MAA seeks to apply ICAO standards and recommended practices for use by military aircraft, and has conducted an assessment of compliance and gap analysis for that purpose.  In practical terms, therefore, its role in relation to safety at the airport may be a subsidiary one.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Moreover the terms of the publication in the AIP by way of notification are relevant.  In the AIP the CAA publishes very full details about RAF Northolt, which enable pilots and operators to fulfil their own duties under the ANO to satisfy themselves of the safety of taking off and landing there.  The AIP also cross refers to the detailed RAF Northolt Defence Aerodrome Manual, for example in respect of aerodrome obstacles.  The AIP expressly makes clear that the CAA can give no guarantee that RAF Northolt meets the requirements of ICAO Annex 14.  When deciding to notify RAF Northolt, the CAA/SST can properly take into account that the notification process can give the fullest possible information to potential civil users, including information on the respects in which the aerodrome has features which differ from ICAO Annex 14.  Ms Patel submitted that notification under Article 207 is the publication of safety information relating to an aerodrome, not a mechanism by which safety standards are imposed.  This is not quite correct.  Notification of a government aerodrome for civil use under Article 210 is a function which is legally distinct from the manner in which it is performed, namely by publication in the AIP Notification.  Article 210 notification is more than merely the publication of information: it is a designation of the aerodrome as available for civil use, to which conditions may be attached, including safety related conditions.  Nevertheless the publication of full information which is pertinent to safety is a factor which may justify the notification without conditions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reject Mr Steel&#8217;s further contention that the CAA is bound to apply the criteria in CAP 168 in deciding whether or on what conditions to notify RAF Northolt.  CAP 168 contains many details as to the physical configuration and architecture of civil airports.  Military airports have their own physical and operational limitations dictated by military use.  The application of CAP 168 in relation to physical characteristics is not something which the CAA can impose.  There is no statutory or other basis for holding that government aerodromes cannot be notified for civil use if they do not comply with CAP 168.  They may be deemed safe for use by civil aircraft without necessarily complying with the letter of all requirements which it is the policy of the CAA to impose on private operators who wish to run licensed aerodromes.  They may, for example, include enhanced equipment to assist military aircraft in take off and landing which involves physical structures which are larger or placed closer to the runway than would be justifiable for an airport designed solely for civil use.  The aerodrome may nevertheless meet the relevant standard of safety in this respect, with or without mitigating steps.  This is not tantamount to saying that the government can enable its own aerodromes to take civil aircraft despite being less safe than privately owned aerodromes.  Airports may be equally safe but involve the application of different considerations because of their individual geographical and operating circumstances.  Safety is not an absolute concept, but one involving an assessment of risk both of incidence and consequences.  A &#8220;high standard&#8221; of safety is an imprecise term laden with qualitative judgments.  The qualitative nature of the concept is reflected in the structure of the Chicago Convention, with its distinction between necessary standards and desirable practices, and the recognition in Article 38 that non compliance even with standards may be justified in some circumstances.  The assessment must be tailored to the individual physical and operational circumstances of each aerodrome.  The assessment of risk for civil use of government aerodromes will of course be informed by the CAA&#8217;s approach to safety at non government airports, but it does not follow that CAP 168 must be applied at RAF Northolt or any other government aerodrome, or that in deciding whether there is the requisite degree of safety for civil use of a government aerodrome the CAA is bound to impose the same conditions as apply to a licensed civil airport operator.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There remains to be addressed a further argument advanced by the Claimants for the first time in their skeleton argument for the hearing.  It is that the CAA has failed to comply with the Chicago Convention Directions, and in particular paragraph 8, by failing to enforce the requirements of Annex 14 through &#8220;other means of approval&#8221;, namely notification of RAF Northolt.  There is nothing in this point.  Assuming, without deciding, that the discretion to notify under Article 210 is a &#8220;discretionary power to enforce the requirements of [Annex 14]&#8221;, having filed a difference with the ICAO for the application of Annex 14 to government aerodromes, the CAA has considered that it is not practical or appropriate to take action under paragraph 8 or paragraph 9 in relation to RAF Northolt.  The operative paragraph is paragraph 10, which has been complied with.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">First ground: remedy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The only remedy now sought is a declaration that the CAA has power to impose conditions on the notification of government aerodromes in relation to matters concerning the safety of the use by civil aircraft of such aerodromes.  Once reformulated in these terms at the hearing, this proved not to be contentious.  It is therefore unnecessary to grant the declaration sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the course of argument Mr Steel invited me to express the view that the forthcoming review by the CAA in relation to the lytag arrestor beds should encompass all aspects of safety at RAF Northolt, and that a full review of the notification of RAF Northolt should take place earlier than the planned biennial review in 2016.  I decline to do so.  The decision under challenge in these proceedings is the decision of the MOD to increase the cap on movements of civil aircraft at RAF Northolt, which was not a decision by the CAA/SST in relation to notification.  Importantly, the decision under review is not the CAA/SST decision reflected in the July 2014 Notification Procedure as to how it would fulfil its function of notification of government aerodromes, which is what this aspect of Mr Steel&#8217;s argument seeks to attack.  Although the evidence put before me ranged well beyond that directed to the pleaded issues, it is not appropriate to use these proceedings to seek relief which has not been pleaded by reference to a different decision from that under challenge, in circumstances in which the evidence from the Respondents has not been aimed at the new allegations.  I can, however, say that on the evidence before me as to the dialogue between the CAA and the MOD/MAA, I am not persuaded that the CAA/SST are acting unlawfully in their approach to the review of the notification of RAF Northolt.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Second ground</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num>50</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Questions 1 and 2 as formulated by Mr Steel are premised on an obligation on the MOD to &#8220;take account of&#8221; CAP 168 standards when determining whether there has been compliance with Annex Va.  There are two short answers to the contention.  The first is that there is no target decision which is properly the subject of challenge in this judicial review.  The duties on the SSD under the EASA Regulation are continuing obligations.  It cannot be said that the decision to increase the cap in April 2013 is the relevant decision, since it is not suggested that the increase in numbers would itself give rise to a breach; the effect is not to increase the number of civil aircraft per day using the aerodrome but to increase the number of days when such flights may operate; the substance of the complaint is that any civil aircraft are allowed to use RAF Northolt without the application of CAP 168.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second answer is that the SSD has no obligation to take into account CAP 168 when addressing whether the high level parameters of Annex Va are complied with.  Those parameters are self standing and the SSD and military authorities are not bound to take account of the regimen applied by the CAA in licensing operators of civil aerodromes.  Where a public law instrument confers a discretionary power which provides no lexicon of the matters to be treated as relevant, it is for the decision maker, not the Court, to decide what is relevant, subject only to <span style="font-style:italic">Wednesbury</span> unreasonableness: <span style="font-style:italic;font-weight:bold">R (Khatun) v Newham London Borough Council</span> <ref href="#" uk:canonical="[2005] QB 37" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] QB 37</ref> at para [35].  No allegation of <span style="font-style:italic">Wednesbury</span> unreasonableness is made in the present case, and the EASA Regulation, insofar as it applies to military airports, is not concerned with a policy document issued by the CAA in relation to licensing civil airports.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The highest that it could be put is that the recitals to the EASA Regulation indicate that the  SSD should take account of ICAO Annex 14, but that would not assist the Claimants because the MOD did so.  RA 3016(3) requires the aerodrome to be in accordance with MADS which is based on Annex 14 with a careful consideration of differences.  RA 1026(3) contains further detailed provisions as to the responsibilities of military aerodrome operators.  Differences from Annex 14 and mitigating steps were considered in the 2013 gap analysis and in the 2014 updating of the CAA International 2009 risk assessment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Questions 3 and 4 assume that Questions 1 and 2 are resolved in the Claimants&#8217; favour.  They do not therefore arise.  In any event question 3 raises issues in terms which are not appropriate for judicial review, being vague and unpleaded, without seeking to identify a particular decision or a particular standard within Annex Va by reference to which a public law error in the decision making is identified.  As to question 4, the document relied on was not an EASA Regulation decision or a safety assessment, but a bid for funding, in which of course revenue considerations are relevant.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly the second ground does not support the grant of any relief.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Other arguments </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondents objected to the proceedings on the grounds that the Claimants lacked standing and that the proceedings were brought out of time.  In the light of the fact that permission was granted, and that I have determined that the substantive grounds do not support the grant of any relief, it is unnecessary to decide these points.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

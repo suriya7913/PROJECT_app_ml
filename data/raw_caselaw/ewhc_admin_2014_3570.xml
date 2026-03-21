@@ -1,0 +1,1059 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2014/3570"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2014/3570"/>
+	  <FRBRdate date="2014-10-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3570"/>
+	  <FRBRname value="Jasinarachchi v General Medical Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570"/>
+	  <FRBRdate date="2014-10-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570/data.xml"/>
+	  <FRBRdate date="2024-08-29T19:31:02" name="transform"/>
+	  <FRBRdate date="2024-11-28T07:46:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-10-31" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="dr-krishantha-jasinarachchi" href="" showAs="Dr Krishantha Jasinarachchi"/>
+	<TLCPerson eId="general-medical-council" href="" showAs="General Medical Council"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-stewart" href="/judge-mr-justice-stewart" showAs="MR JUSTICE STEWART"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>3570</uk:number>
+	<uk:cite>[2014] EWHC 3570 (Admin)</uk:cite>
+	<uk:parser>0.26.0</uk:parser>
+	<uk:hash>bf22288162c6ccae0317196cc6f0c319592822378d06289c4baaac7fd7f34464</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.99in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Default { font-family: Tahoma; font-size: 12pt; color: #000000; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>CO/1702/2014</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 3570 (Admin)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Manchester Civil Justice Centre</p>
+      <p class="CoverText">1 Bridge Street West, Manchester M60 9DJ</p>
+      <p class="CoverText">Date: <docDate date="2014-10-31" refersTo="#judgment">31/10/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-stewart">MR JUSTICE STEWART</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#dr-krishantha-jasinarachchi" style="font-weight:bold">Dr Krishantha Jasinarachchi</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#general-medical-council" style="font-weight:bold">General Medical Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Simon Hilton </span>(instructed by<span style="font-weight:bold"> DAC Beachcroft LLP</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Iain Steele</span> (instructed by <span style="font-weight:bold">GMC Legal</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 23 October 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Stewart:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Fitness to Practice Panel (FTPP)</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The General Medical Council (GMC) conducted an investigation concerning the Appellant&#8217;s fitness to practice which concluded in a hearing between 5 March 2014 and 13 March 2014 before a Fitness to Practise Panel (FTPP).  The FTPP determined that A had committed misconduct and that his fitness to practise was therefore impaired.  This is not in issue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">What is in issue is the FTPP&#8217;s decision that A&#8217;s registration be suspended for a period of 6 months.  </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Findings of the FTPP</span></heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The allegations and facts admitted and therefore found proved by the FTPP were as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Paragraph 1: </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Between December 2011 and April 2012 you were employed as an ST1 GP Trainee at Bugbrooke Medical Practice, Northampton&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 2(a):</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">On 2 March 2012 you completed a Cremation 4 medical certificate in respect of Patient A and you: </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Failed to attend Hollowell Funeral Directors to examine the patient A&#8217;s body&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 2(b): </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Falsely stated on the certificate that you saw the body of the deceased on 2 March 2012 and performed an external examination&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 2(d):</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Falsely stated in a telephone call with Mr E of the surgery at 15:44 on 2 March 2012 that you had been to see Patient A&#8217;s body at the Funeral Directors, or words to that effect&#8230;&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 2(e):</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Failed to alert the surgery or anyone connected to the care of Patient A that you had not seen Patient A&#8217;s body prior to the telephone call with Mr E at 15:44 on 2 March 2012&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 2(f):</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Failed to make alternative arrangements in order for the medical certificate in respect of Patient A to be properly completed..</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 3(a):</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In January 2012 you completed a death certificate for Patient B and you:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">recorded the incorrect cause of death </p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 3(b):</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Failed to complete and sign the death certificate book stub&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 4:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In February 2012 you completed a death certificate for Patient C and you failed to sign the death certificate book stub&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Paragraph 5(a)</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In March 2012 in respect of your treatment of Patient D you: </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Failed to complete a Shared Care&#8230;form&#8230;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Quote" style="margin-left:0in">A disputed allegation which was found proven against him:</heading>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="Quote" style="margin-left:1in">Paragraph 2(c):</p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_3_2">
+	    <num>(c)</num>
+	    <content>
+	      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Falsely stated in a telephone call with Hollowell Funeral Directors at 13:59 on 2 March 2012 that you had seen Patient A&#8217;s body after her death, or words to that effect &#8230;&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The major focus of the sanction imposed by the FTPP was the misconduct in respect of Patient A, and it is that misconduct which has formed the basis of the submissions before me.<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"> A admitted paperwork deficiencies in respect of the other patients but denied any dishonesty and the FTPP accepted that A had not acted dishonestly in respect of the other patients.  </p>
+		</authorialNote>  Further, it was the allegations of dishonesty<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"> Paragraph 2(b), paragraph 2(c) and paragraph 2(d) only</p>
+		</authorialNote> which were central to the FTPP&#8217;s decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bases of Appeal</span></heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Essentially there are two bases of Appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first basis is that on the evidence and information before them the FTPP imposed an excessive and disproportionate sanction.  A submits that any suspension was wrong in principle.  A says that if this ground succeeds the court should substitute a lesser sanction exercising its power under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 40(7)</ref>(c) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">Medical Act 1983</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref>).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second ground is that, since the FTPP&#8217;s decision, matters have come to light concerning the practical consequences of suspending a trainee doctor&#8217;s registration.  It is said that this casts a fresh light on the determination, making it unduly harsh and disproportionate and that this cannot have been envisaged by the FTPP.  If this basis succeeds, and the first ground does not, A invites the court to remit his case for further consideration on the issue of sanction exercising the power under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 40(7)</ref>(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref>.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I set out in the Appendix to this judgment:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in">Relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref> </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in">Relevant sections of the Indicative Sanctions Guidance (the Guidance).<authorialNote class="footnote" marker="3">
+		    <p class="FootnoteText"> April 2009, last revised April 2014 &#8211; nothing material has changed since the version in force when the present case was before the FTPP in March 2014.</p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="ParaLevel6" style="margin-left:0.5in">In summary <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref>:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		<content>
+		  <p class="ParaLevel6" style="margin-left:1in">Sets out the main objective of the GMC<authorialNote class="footnote" marker="4">
+		      <p class="FootnoteText"> Section 1(1A)</p>
+		    </authorialNote></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		<content>
+		  <p class="ParaLevel6" style="margin-left:1in">Defines impairment of a person&#8217;s fitness to practice<authorialNote class="footnote" marker="5">
+		      <p class="FootnoteText"> Section 35C(2)</p>
+		    </authorialNote></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		<content>
+		  <p class="ParaLevel6" style="margin-left:1in">Provides for sanctions to be imposed by the FTPP<authorialNote class="footnote" marker="6">
+		      <p class="FootnoteText"> Section 35(d)</p>
+		    </authorialNote></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		<content>
+		  <p class="ParaLevel6" style="margin-left:1in">Contains relevant provisions as to appeals to the High Court<authorialNote class="footnote" marker="7">
+		      <p class="FootnoteText"> <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 40(1)</ref>(4)(7)</p>
+		    </authorialNote></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.11in;text-indent:0.39in">The Guidance:</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:0.5in;text-indent:0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.75in">Clarifies the purpose of imposing a sanction<authorialNote class="footnote" marker="8">
+		    <p class="FootnoteText"> Paragraphs 18 - 20</p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:0.5in;text-indent:0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.62in">Sets out non exhaustive factors which may make suspension appropriate<authorialNote class="footnote" marker="9">
+		    <p class="FootnoteText"> Paragraph 75</p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:0.5in;text-indent:0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.75in">Makes statements regarding dishonesty by doctors<authorialNote class="footnote" marker="10">
+		    <p class="FootnoteText"> Paragraphs 105 &#8211; 111 </p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Civil Procedure Rules (CPR)</span></heading>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is a statutory appeal and is therefore governed by CPR Rule 52.  PD52(D) provides that appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 40</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref> &#8220;Will be by way of re-hearing&#8221;.  It is common ground that, despite this, the test for quashing the decision remains as set out under CPR 52.11(3)(a), namely:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The appeal court will allow an appeal where the decision of the lower court was &#8211;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">wrong&#8230;<authorialNote class="footnote" marker="11">
+			  <p class="FootnoteText"> See GMC v Meadows [2002] EWCA 1390 at paragraph 120</p>
+			</authorialNote></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As regards Ground 2, it is accepted by A that he needs permission from the Court to adduce fresh evidence.  CPR 52.11(2) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Unless it orders otherwise, the appeal court will not receive &#8211;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">evidence which was not before the lower court.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Principles in relation to sanctions imposed on professionals.</span></heading>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Raschid v GMC</span><authorialNote class="footnote" marker="12">
+		  <p class="FootnoteText"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/46" uk:canonical="[2007] EWCA Civ 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ. 46</ref>; <ref href="#" uk:canonical="[2007] 1 WLR 1460" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 1460</ref></p>
+		</authorialNote> the Court of Appeal said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The Panel then is centrally concerned with the reputation or standing of the profession rather than the punishment of the doctor&#8230;.In <span style="text-decoration-line:underline;text-decoration-style:solid">Marinovitch v GMC&#8230;</span>Lord&#160;Hope giving the judgment of the Board said:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>&#8220;28.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the appellant's case the effect of the committee's order is that his erasure is for life but it has been said many times that the Professional Conduct Committee is the body which is best equipped to determine questions as to the sanction that should be imposed in the public interest for serious professional misconduct. This is because the assessment of the seriousness of the misconduct is essentially a matter for the committee in the light of its experience. It is the body which is best qualified to judge what measures are required to maintain the standards and reputation of the profession.&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>&#8220;29.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">That is not to say that their lordships may not intervene if there are good grounds for doing so&#8230;&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">19..&#8230; As it seems to me the fact that a principal purpose of the Panel's jurisdiction in relation to sanctions is the preservation and maintenance of public confidence in the profession rather than the administration of retributive justice, particular force is given to the need to accord special respect to the judgment of the professional decision-making body in the shape of the Panel&#8230;&#8221;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>&#8220;20.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">These strands in the learning then&#8230;constitute the essential approach to be applied by the High Court on a <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40" uk:canonical="" uk:origin="TNA" uk:type="legislation">section&#160;40</ref> appeal. The approach they commend does not emasculate the High Court's role in <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40" uk:canonical="" uk:origin="TNA" uk:type="legislation">section&#160;40</ref> appeals: the High Court will correct material errors of fact and of course of law and it will exercise a judgment, though distinctly and firmly a secondary judgment, as to the application of the principles to the facts of the case.&#8221;&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The <span style="text-decoration-line:underline;text-decoration-style:solid">Raschid</span> principles have been qualified in numerous cases.  I shall cite only one, namely <span style="text-decoration-line:underline;text-decoration-style:solid">Naheed v GMC</span><authorialNote class="footnote" marker="13">
+		  <p class="FootnoteText"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2011/702" uk:canonical="[2011] EWHC 702 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 702 (Admin)</ref> </p>
+		</authorialNote> where Parker J said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The legal framework for this appeal is now familiar. The appeal to this court is by way of re-hearing, but the burden is still on the appellant to establish a material error of fact or law. The principal purpose of the panel in relation to sanction is the preservation and maintenance of public confidence in the profession rather than the dispensing of retributive justice. The court must accord, therefore, a certain degree of respect or deference to the judgment of the professional panel when it comes to the imposition of sanctions&#8230;The exercise of professional judgment is especially important when it comes to sanction&#8230; However, if this court despite paying such respect is satisfied that the sanction is clearly inappropriate, then this court must interfere -- see <span style="text-decoration-line:underline;text-decoration-style:solid">Salsbury v Law Society</span><span/><a class="Hyperlink" href="http://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2008/1285.html" style="text-decoration-line:none"><ref href="#" uk:canonical="[2009] 1 WLR 1286" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 1286</ref></a> at paragraph 30 by Jackson LJ.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Background Facts</span></heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 2 March 2012, A was working a half day at the Bugbrooke Medical Practice at Northampton.  He was in his first year of training (ST1). He was due to fly to Australia that evening to visit his parents.  In the morning his GP Supervisor gave him the task of completing a Death Certificate and Cremation 4 Certificate for Patient A who had recently died.  The Cremation Certificate required the doctor to attend on and examine the body of the deceased.  As a result of having to see other patients and because of limited time, given his travel involved in getting from Northampton to Heathrow, he realised by about 1pm that he would not have sufficient time to visit Patient A who was at a funeral parlour some 40 minutes drive away.  He then telephoned the funeral parlour and the Crematorium asked whether it was strictly necessary for him specifically to attend, or whether it was sufficient that he could do so on the basis that he had seen her days before her death.  He was then unambiguously advised by the crematorium that he had to attend.  Nevertheless, he completed the cremation certificate, falsely stating that he had seen Patient A at 1pm on 2 March 2012 and had conducted an external examination. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A left the practice at about 2pm, leaving the form behind.  At 13:59 he had told the Funeral Directors in a telephone call that he had seen Patient A&#8217;s body after her death.  Over the next few hours there were telephone conversations between the funeral parlour, the crematorium and other members of the practice.   It quickly became known that the form was wrongly made out and incapable of being used because A  had not attended upon the deceased.  In that context at about 3:44pm that afternoon the Practice Manager, Mr. Low, spoke to the A.  A was at home awaiting a taxi.  Mr Low asked him if he had seen the deceased that day and he said that he had.  A few minutes later A rang Mr Low back and told him the truth, namely that he had not.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A spent the next two weeks in Australia. The Cremation Certificate was not used.  The planned cremation was delayed, a family member had to identify the body and a post mortem performed.   On his return to the UK A met the family and apologised for his actions.  The family accepted the apology and expressed the wish that matters should not be taken further.  In April 2012 the East Midlands Deanery referred the case to the GMC.  The Interim Orders Panel imposed conditions.  Further, for 3 &#8211; 4 months A faced the possibility of criminal proceedings but in March 2013 he was advised by the CPS advised that no proceedings would be brought. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A continued to work as a Trainee GP passing his Applied Knowledge Test in May 2013 and satisfying the requirements of his Annual Review of Competence and Progression in January 2014. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Absent the FTPP&#8217;s decision A would have completed his training and qualified as a GP in November 2014.  </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Basis of Appeal</span></heading>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The FTPP found that pressure of time significantly influenced A&#8217;s approach in dealing with the cremation form, that looked in context the dishonesty was not premeditated and amounted to A&#8217;s uncharacteristic reaction to the circumstances in which he found himself.  The FTPP also said it was a single episode in an otherwise unblemished career.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The FTPP received positive evidence revealing A to be a promising doctor with the potential to be an asset to the profession.  The FTPP stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Significantly, this evidence confirms the absence of any repetition of your misconduct and indicates a developing maturity in your approach to team working and your responsibilities as a doctor, which includes putting the interests of your patients above your own interests.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is also a note that the GMC investigation and FTPP hearing had had a salutary affect on A, thereby militating against a likelihood of him acting dishonestly in the future, though the FTPP was &#8220;unsure whether in similar circumstances you may not again put your own interests above that of your patients and colleagues.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A relies upon this being a single episode of dishonesty in an otherwise unblemished career.  The FTPP clearly held that there was no premeditation and that A had reacted badly to the pressure of time as it built around him.  A makes the following specific points:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in">The FTPP&#8217;s determination on impairment recorded that they were unsure whether in certain circumstances A may not again put his own interests above that of his patients and colleagues, yet in the determination on sanction acknowledged evidence to indicate A&#8217;s respect for the qualities of responsibility and selflessness required of a doctor.  It is said that the latter recognition appears to rebut the most prominent concern that the FTPP had earlier voiced.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in">The FTPP gave too little weight to the difficulties which A had endured in the two year period prior to the hearing.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(iii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in;text-indent:0.12in">The FTPP attached insufficient weight to the views of the deceased&#8217;s family.  A submits that the FTPP should have taken into account the wishes of the family at least as part of the balancing exercise in formulating its decision on sanction, since those wishes represented evidence of how the public view A&#8217;s behaviour and therefore were relevant to the approach taken by the FTPP who are charged with upholding the public perception of the profession.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(iv)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:1in">The FTPP held that a decision to suspend the Appellant for six months was &#8220;proportionate, given your position as a trainee GP<span style="font-style:italic">...&#8221;</span>  It is submitted that this was wholly unclear and there was no exploration at the hearing of how suspension might affect a trainee doctor; nor did the FTPP attempt to explain why a decision to suspend the him could be justified <span style="text-decoration-line:underline;text-decoration-style:solid">because</span> he was still in training.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally it is said that the FTPP ought to have concluded that this was an exceptional case and that no further action needed to be taken against A&#8217;s registration, that public confidence in the profession would not have been undermined by such an outcome, particularly in the light of the earlier finding of impairment which is a significant mark of disapproval by an FTPP and constitutes an indelible blemish on a doctor&#8217;s record.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the light of A&#8217;s submissions the following extracts from the FTPP&#8217;s determination on sanction are of importance:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.5in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in">&#8220;The Panel has borne in mind that the sanction is not to be punitive but to protect patients, maintain public confidence in the profession and uphold proper standards of conduct.  Sanctions might <span style="font-family:'Book Antiqua';font-size:11pt">have a punitive effect.  Throughout its deliberations the Panel has also taken into account the principle of proportionality, weighing the interests of the public with your own interests.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:0.5in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">In respect of the no action submission made by Mr Hilton:</span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;The Panel&#8230;has taken into account the nature of your misconduct, involving as it did your dishonest completion of statutory documentation and subsequent dishonest oral statements&#8230;It has also taken into account its finding that your insight, reflection and remorse, although developing, are not complete.  In these circumstances, the Panel would be failing in its responsibility to protect patients, to declare and uphold professional standards and maintain public confidence in the profession were it to take no action on your registration.  It does not consider that this is an exceptional case where taking no action would be appropriate. &#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.5in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;The Panel considers that it is&#8230;not possible to formulate appropriate, proportionate, workable and measurable conditions to deal with your misconduct&#8230;&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:0.5in">&#8226;</num>
+	      <intro>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">In relation to suspension</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.38in">(a)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in">The Panel set out paragraph 69 and 75 of the Guidance.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.37in">(b)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in;text-indent:0in">The FTPP continued &#8220;the Panel considers that the correct and truthful completion of all documents during professional practice of doctors is vital in order to maintain public confidence in the profession.&#8221;  The Panel also considers that dishonesty in the completion of documents &#8220;impact on the treatment of patients and therefore on patients safety.&#8221;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.37in">(c)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in;text-indent:0in">&#8220;&#8230;Erasure would be a disproportionate sanction&#8230;in its determination on impairment, the Panel accepted that it was a single episode in an otherwise unblemished career.  You were not motivated by any financial gain.  You have admitted that, under pressure of time, you chose to act in a way which you now accept to have been wrong and misguided.  There has been no repetition since.&#8221;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.37in">(d)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in;text-indent:0in">&#8220;The Panel has given considerable weight to mitigating factors presented on your behalf&#8230;this evidence confirms the absence of any repetition of your misconduct and indicates a developing maturity in your approach to team working and responsibilities as a doctor, which includes putting the interests of your patients above  your own interests.&#8221;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.37in">(e)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in;text-indent:0in">&#8230;&#8221;the Panel has taken into account the apology you extended to Patient A&#8217;s family, which they accepted.&#8221;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.12in;text-indent:-0.37in">(f)</num>
+		<content>
+		  <p class="ParaLevel5" style="margin-left:1.12in;text-indent:0in">&#8220;&#8230;in all the circumstances of this case, it appears that a suspension is determinate and sufficient to protect patients and to make clear to you, to the wider profession and to the public that dishonest behaviour is wholly unacceptable and constitutes conduct which falls far short of the standards expected of you as a doctor.&#8221; </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The extracts in the preceding paragraph demonstrate no error in the FTPP&#8217;s approach to sanction.  In relation to specific points made by A:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(i)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in">Recognition by the FTPP that there was evidence indicating a developing maturity in A&#8217;s responsibility as a doctor, including putting the interests of patients above his own interests, is not inconsistent with earlier concerns that he might put his own interests above that of patients and colleagues.  As the FTPP said his maturity in this regard was &#8220;developing&#8221; &#8211; and for this they gave him credit.  It was this weakness which he had addressed and improved, which had led to the uncharacteristic dishonesty.  In any event the factors which the FTPP had to address were, as they made clear, much wider than the effect on the individual doctor.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(ii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.12in">The complaint that the FTPP said in relation to the 6 months suspension &#8220;this period of suspension is sufficient to send the appropriate message that your misconduct is unacceptable and <span style="text-decoration-line:underline;text-decoration-style:solid">it is proportionate given your position as a trainee GP</span>&#8221; (my underlining) does not in any way suggest, as a logical and proper explanation, that the FTPP was proceeding on the footing that a period of suspension imposed on the trainee should be more justified compared with that for a fully qualified doctor.  It can and should be read that the most likely explanation is that the FTPP accepted that A was a trainee and therefore a lesser period of suspension should be imposed than might otherwise be the case.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Submissions by A based on the weight attached to factors, in particular the difficulties in the two year period prior to the hearing and the family&#8217;s wishes are insufficient to show that the FTPP&#8217;s decision was wrong.  It was for the FTPP to assess the weight of such factors.<authorialNote class="footnote" marker="14">
+		  <p class="FootnoteText"> cf <span style="text-decoration-line:underline;text-decoration-style:solid">Fernando v GMC</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2014/1664" uk:canonical="[2014] EWHC 1664 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 1664 (Admin)</ref>, in particular paragraphs 78 and 92.</p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In short the FTPP fell into no error in my judgment.  They weighed all the factors in favour of and against A carefully.  Dishonesty on the part of a doctor is clearly an important finding of impairment.<authorialNote class="footnote" marker="15">
+		  <p class="FootnoteText"> cf see also <span style="text-decoration-line:underline;text-decoration-style:solid">Naheed </span>at paragraph 25; <span style="text-decoration-line:underline;text-decoration-style:solid">Sharief v GMC</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2009/3737" uk:canonical="[2009] EWHC 3737 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 3737 (Admin)</ref> at paragraph 24</p>
+		</authorialNote>  They were fully entitled on the information before them to decide this was not an exceptional case warranting no action.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Basis of Appeal</span></heading>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In support of this is a witness statement from A dated 16 October 2014.  He says that his understanding of the FTPP&#8217;s decision was that his 6 month suspension was intended to have a temporary impact on his work as a doctor and not to prevent him from continuing training as a GP on a long term or permanent basis.  He therefore assumed he would be able to return to his training after the suspension had been served.  When the FTPP made their decision in March 2014 he was in the final 6 months of his GP (ST3) and making satisfactory progress.  He says he notified his employer, Health Education East Midlands, of the FTPP sanction immediately.  He was shocked when he found out the effects of the sanction would be that his National Training Number (NTN) would be removed when the suspension came into force.  The effect of this, according to A, is that his current training will cease at that point despite the fact that he has only a few more months to go before finishing it.  He says the likely effect of the suspension sanction will be to bring his current training as a doctor to an end with no certainty that he will be able to enter an alternative programme once the suspension has been served.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his statement A exhibits a letter from Dr Helen Mead, the GP Dean of Health Education East Midlands.  She says:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(i)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in">Once Dr Jasinarachchi&#8217;s suspension takes effect<authorialNote class="footnote" marker="16">
+		    <p class="FootnoteText"> It has not yet taken effect pending this appeal.</p>
+		  </authorialNote> his NTN will be removed and there is no appeal against this.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(ii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.12in">If it is removed then this would lead automatically to loss of his current training contract since his contract is predicated on him having an NTN.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(iii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.25in">The removal of the NTN would not necessarily mean that any period of training already undertaken is lost as this could be considered an &#8220;exceptional&#8221; reason for leaving training; such trainees are able to apply again for specialty training if they have a letter of support from their GP Dean. Dr Mead has said that she would be prepared to support him in a future return to specialist training with such a letter.  The trainee would need to apply to the RCGP to have his training accredited and for permission to undertake a shortened programme as soon as he entered training.  Given that all the training that he has received in the programme is recognised GP specialty training there should be no difficulty with this though the decision is that of the RCGP.  If he applied locally, Health Education East Midlands would be happy to assist him.  Having examined his case quite closely, they feel that they would suggest to A that he spend a minimum of 1 year in practice; this means that not all the training so far would be recognised but he would get the opportunity to complete his examinations and acquire a substantial body of evidence to ensure a successful outcome to training.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A comments that although Dr Mead indicates there might be other routes open to him, and the relevant education and training bodies might exercise some discretion in his favour in recognition of his training already undertaken, there is no certainty in this position and he cannot be sure that his training will ever now be completed.  He lives with his wife who is a GP and his children are at school.  It would be extremely hard if not impossible to leave them in order to take up a training role for up to 3 years elsewhere in the UK.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally he says that he has become very despondent and had to take time of work as the result of stress; the next competition for entry to National GP training to commence in 2015 closes on 4 December 2014, and so it is now unlikely that he would be in a position to apply for entry to commence before 2016.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A accepts that he is seeking to adduce fresh evidence.  The principles are set out in paragraph 52.11.2 of Volume I of the White Book.  In particular is this extract:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;The <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> tests should not be treated as the sole guiding principles: see <span style="text-decoration-line:underline;text-decoration-style:solid">Muscat v Health Professions Council </span>[2009] EWCA Civ.1090 at [26].  It is submitted that Richards LJ (with whom Rymer and Arden LJJ agreed) struck the right note in Sharab v Al-Saud <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/353" uk:canonical="[2009] EWCA Civ 353" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ. 353</ref> at [52]: </p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">&#8220;&#8230;the court must of course seek to give effect to the overriding objective of doing justice, but in that respect the pre-CPR cases, including <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span>, remain of relevance and indeed of powerful persuasive authority.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.5in">The <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> principles are (i) the evidence could not have been obtained with reasonable diligence for use at trial (ii) the evidence must be such, if given, it would probably have an important influence on the result of the case, though it need not be decisive (iii) the evidence must be such as is presumably to be believed; it must be apparently credible, though it need not be incontrovertible.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will address the <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> principles.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The information in Dr Mead&#8217;s letter could have been obtained with reasonable diligence to be used before the FTPP.  In fact A conceded this.  Given the Guidance and given his admission of dishonesty, although A may not have known the precise sanction that the FTPP was going to put in place, those acting for him were aware that suspension was on the cards.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A similar application was refused by Blake J in <span style="text-decoration-line:underline;text-decoration-style:solid">Abrahaem v GMC</span>.<authorialNote class="footnote" marker="17">
+		  <p class="FootnoteText"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2008/183" uk:canonical="[2008] EWHC 183 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 183 (Admin)</ref></p>
+		</authorialNote>  That was a more extreme case in that fresh evidence sought to be adduced was a report addressing the employment prospects of Dr Abrahaem under the conditions imposed by the FTPP.  The report was dated 21 January 2008 and a hearing of the appeal had been listed for some time for 24 January 2008.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Abrahaem</span> the fresh evidence was contested and would have required an adjournment.   In the present case the GMC have obtained witness evidence dated 16 October 2014 from Tara Willmott of GMC.  She is Head of Approvals in the Educations and Standards Directorate at the GMC and her role involves managing and approving the curricular and examinations for under graduate and post graduate training for all medical specialities including general practice.  She confirms that in a case where there is erasure or suspension the NTN is withdrawn automatically, and there is no longer a right of appeal under the Gold Guide.  However, if the NTN is withdrawn the trainee GP may apply for a training post.  He or she will only be eligible to re-apply if specifically supported by the Postgraduate Dean of the Health Education England that removed them from the training.  The Postgraduate Dean must be satisfied that the circumstances requiring removal are not relevant to the new application and re-entry in such cases will be by competitive process with other applicants.<authorialNote class="footnote" marker="18">
+		  <p class="FootnoteText"> See Gold Guide (Fifth Edition) paragraph 6.41</p>
+		</authorialNote>   She continues that where a doctor has previously been removed from a GP training programme, they have to show exceptional circumstances for re-applying and provide a letter of support.<authorialNote class="footnote" marker="19">
+		  <p class="FootnoteText"> NRO issued document issued entitled &#8220;Applicant Guidance&#8221;</p>
+		</authorialNote>  If a trainee GP regains their NTN they can resume their training part way through the training programme.  There is no specification by the RCGP or otherwise that a trainee GP would have to resume their training from the start.  Ms Willmott is aware that doctors in training that have had their NTN withdrawn and have resumed their training part way through the programme rather than beginning their training from the start. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally Ms Willmott says that is an alternative route for a trainee GP to gain GP registration without obtaining a CCT and requiring an NTN.  This is by obtaining a Certificate of Eligibility for General Practice Registration (CEGPR).  A doctor submits a portfolio of experience/competence to the GMC and on receipt the GMC has to request the RCGP to evaluate the portfolio against the standards for the CCT curriculum.  If a doctor is successful they can have their name entered on the GP register.<authorialNote class="footnote" marker="20">
+		  <p class="FootnoteText"> Postgraduate Medical Education and Training Order of Council 2010, Article 4(4)</p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I rule in favour of allowing the additional evidence and in favour of A&#8217;s case on this basis for the following reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(i)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in">Although the first principle in <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> cannot be relied upon by A, the culpability of A is not particularly high in this regard.  He was represented.  However, there is no evidence to suggest that anybody appreciated the possible consequences of his suspension.  It is correct that the Gold Guide then in force made it clear that the NTN would be given up if a trainee was suspended and that (at that stage) there would be a right of appeal; further that it was open to those who had had their training numbers removed to reapply for competitive entry to specialty training at a later date should circumstances change.<authorialNote class="footnote" marker="21">
+		    <p class="FootnoteText"> Paragraph 6.36, 6.38 and 6.39.  </p>
+		  </authorialNote>  Nevertheless, whilst paying proper regard to the fact that all the principles in <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> are of relevance and of powerful persuasive authority, I do not regard the lack of compliance with this first principle to be determinative.  There is no suggestion that the Postgraduate Dean in any way alerted A or his lawyers to these consequences and no evidence that the Panel was aware of them.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(ii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.12in">As to the second principle in <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span>, it is difficult for the court, on the basis of the evidence provided, to quantify the risk that A&#8217;s GP specialty training may be at an end if he is suspended.  Looking at the evidence of Ms Willmott, I nevertheless consider that there is a real risk that this will occur.  Nobody was aware of any precedent of a suspended trainee applying to get back on the Register and what the prospects of success were or were not.  It will of course be open to the FTPP to come to the same conclusion i.e. that A should be suspended.  That said, I do regard the fresh evidence as probably having an important influence on the result of the case.  It may indeed not be decisive but that is a matter for a properly informed FTPP to decide.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(iii)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.25in">Clearly the fresh evidence is credible, especially as in the circumstances I am basing my judgment on Ms Willmott&#8217;s testimony.<authorialNote class="footnote" marker="22">
+		    <p class="FootnoteText"> There may well be little difference between the evidence of Ms Willmott and A&#8217;s evidence.  However, give the late service of A&#8217;s evidence I made it clear that I was intending to proceed on the basis of the evidence filed by the GMC.</p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.88in;text-indent:-0.38in">(iv)</num>
+	      <content>
+		<p class="ParaLevel6" style="margin-left:0.88in;text-indent:0.12in">Considering the overriding objective this, in my judgment, is one of the perhaps rare cases where, notwithstanding that one of the <span style="text-decoration-line:underline;text-decoration-style:solid">Ladd v Marshall</span> principles has not been complied with, justice requires the fresh evidence to be admitted and for the matter to be considered by the FTPP.  Both parties agree, and the order reflects, that this will not be a re-hearing of the case but merely a hearing which takes into account the fresh evidence so as to decide what if any difference it makes to sanctions.  That also is a relevant factor, namely that the further disciplinary process will be limited in extent.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also considered the fact that A&#8217;s witness statement was not served in draft until 13 October 2014 and a signed copy was not served until 16 October 2014.  There was no proper explanation for this; also the GMC had written on 10 and 12 September 2014 chasing the witness statement.  On analysis, the GMC accept that this did not affect the decision making process in respect of this basis of appeal.  They had managed, at very short notice, to obtain their own witness evidence and so there was no prejudice.<authorialNote class="footnote" marker="23">
+		  <p class="FootnoteText"> It was a matter I took into account against A when deciding to make no order as to costs on the appeal.</p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Summary</span></heading>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the above reasons, the appeal on basis 1 is dismissed.  The appeal on basis 2 is allowed.  The case will be remitted for further consideration on the issue of sanction, pursuant to the power under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54/section/40/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 40(7)</ref>(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+	<doc name="annex">
+	  <meta>
+	    <identification source="#tna">
+	      <FRBRWork>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2014/3570/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2014/3570"/>
+		<FRBRdate date="2014-10-31" name="judgment"/>
+		<FRBRauthor href="#ewhc-qbd-admin"/>
+		<FRBRcountry value="GB-UKM"/>
+	      </FRBRWork>
+	      <FRBRExpression>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570"/>
+		<FRBRdate date="2014-10-31" name="judgment"/>
+		<FRBRauthor href="#ewhc-qbd-admin"/>
+		<FRBRlanguage language="eng"/>
+	      </FRBRExpression>
+	      <FRBRManifestation>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570/annex/1/data.xml"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2014/3570/data.xml"/>
+		<FRBRdate date="2024-08-29T19:31:02" name="transform"/>
+		<FRBRauthor href="#tna"/>
+		<FRBRformat value="application/xml"/>
+	      </FRBRManifestation>
+	    </identification>
+	  </meta>
+	  <mainBody>
+	    <p class="ParaLevel1" style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:16pt">APPENDIX</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:16pt"><ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">Medical Act 1983</ref></span></p>
+	    <p><span style="font-weight:bold;font-family:'Trebuchet MS';font-size:11.5pt">1.&#8212; The General Medical Council.</span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;..</span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt"> (1A) The main objective of the General Council in exercising their functions is to protect, promote and maintain the health and safety of the public.</span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230;</span></p>
+	    <p><span style="font-weight:bold;font-family:'Trebuchet MS';font-size:11.5pt">35C.&#8212; Functions of the Investigation Committee</span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230;.</span></p>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(2)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">A person's fitness to practise shall be regarded as &#8220;impaired&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/54" uk:canonical="1983 c. 54" uk:origin="TNA" uk:type="legislation">this Act</ref> by reason only of&#8212;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(a)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">misconduct;</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230;</span></p>
+	    <p><span style="font-weight:bold;font-family:'Trebuchet MS';font-size:11.5pt">35D.&#8212; Functions of a Fitness to Practise Panel</span></p>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(1)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">Where an allegation against a person is referred under </span><a href="http://login.westlaw.co.uk/maf/wluk/app/document?src=doc&amp;linktype=ref&amp;context=28&amp;crumb-action=replace&amp;docguid=I455F0961E44A11DA8D70A0E70A78ED65" style="font-family:Verdana;font-size:9.5pt;color:#005DA2">section 35C</a><span style="font-family:Verdana;font-size:9.5pt"> above to a Fitness to Practise Panel, subsections (2) and (3) below shall apply.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(2)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">Where the Panel find that the person's fitness to practise is impaired they may, if they think fit&#8212;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(a)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230; direct that the person's name shall be erased from the register; </span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(b)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">direct that his registration in the register shall be suspended (that is to say, shall not have effect) during such period not exceeding twelve months as may be specified in the direction; or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(c)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">direct that his registration shall be conditional on his compliance, during such period not exceeding three years as may be specified in the direction, with such requirements so specified as the Panel think fit to impose for the protection of members of the public or in his interests.</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230;..</span></p>
+	    <p><span style="font-weight:bold;font-family:'Trebuchet MS';font-size:11.5pt">40.&#8212; Appeals</span></p>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(1)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">The following decisions are appealable decisions for the purposes of this section, that is to say&#8212;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(a)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">a decision of a Fitness to Practise Panel under </span><a href="http://login.westlaw.co.uk/maf/wluk/app/document?src=doc&amp;linktype=ref&amp;context=32&amp;crumb-action=replace&amp;docguid=I4560DE20E44A11DA8D70A0E70A78ED65" style="font-family:Verdana;font-size:9.5pt;color:#005DA2">section 35D</a><span style="font-family:Verdana;font-size:9.5pt"> above giving a direction for erasure, for suspension &#8230;..</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;.</span></p>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(4)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">A person in respect of whom an appealable decision falling within subsection (1) has been taken may, before the end of the period of 28 days beginning with the date on which notification of the decision was served under </span><a href="http://login.westlaw.co.uk/maf/wluk/app/document?src=doc&amp;linktype=ref&amp;context=32&amp;crumb-action=replace&amp;docguid=I4562B2E0E44A11DA8D70A0E70A78ED65" style="font-family:Verdana;font-size:9.5pt;color:#005DA2">section 35E(1)</a><span style="font-family:Verdana;font-size:9.5pt"> above&#8230;&#8230;&#8230;.., appeal against the decision to the relevant court.</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">[ </span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">(4A) A person in respect of whom an appealable decision falling within subsection (1A) has been taken may, before the end of the period of 28 days beginning with the date on which notification of the decision was served, appeal against the decision to the relevant court.</span></p>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">&#8230;&#8230;</span></p>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(7)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">On an appeal under this section from a Fitness to Practise Panel, the court may&#8212;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(a)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">dismiss the appeal;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(b)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">allow the appeal and quash the direction or variation appealed against;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(c)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">substitute for the direction or variation appealed against any other direction or variation which could have been given or made by a Fitness to Practise Panel; or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-family:Verdana;font-size:9.5pt">(d)</num>
+	      <p style="text-indent:0.5in"><span style="font-family:Verdana;font-size:9.5pt">remit the case to the Registrar for him to refer it to a Fitness to Practise Panel to dispose of the case in accordance with the directions of the court,</span></p>
+	    </blockContainer>
+	    <p><span style="font-family:Verdana;font-size:9.5pt">and may make such order as to costs &#8230;. as it thinks fit.</span></p>
+	    <table uk:widths="6.36in">
+	      <tr>
+		<td>
+		  <p class="Default"><span style="font-size:16pt"/><span style="font-weight:bold;font-size:16pt">Indicative Sanctions Guidance for the Fitness to Practise Panel </span></p>
+		  <p class="Default"/>
+		  <p class="Default"><span style="font-weight:bold;font-size:16pt">&#8230;&#8230;&#8230;.</span></p>
+		  <p class="Default"/>
+		</td>
+	      </tr>
+	    </table>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">The purpose of sanctions and the public interest </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">18 </span><span style="font-size:11.5pt">The Merrison Report</span><span style="font-size:8pt"/><span style="font-size:11.5pt">stated that &#8216;the GMC should be able to take action in relation to the registration of a doctor&#8230;in the interests of the public&#8217;, and that the public interest had &#8216;two closely woven strands&#8217;, namely the particular need to protect the individual patient, and the collective need to maintain the confidence of the public in their doctors. </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">19 </span><span style="font-size:11.5pt">Since then a number of judgments have made it clear that the public interest includes, amongst other things: </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">a </span><span style="font-size:11.5pt">protection of patients </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">b </span><span style="font-size:11.5pt">maintenance of public confidence in the profession </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">c </span><span style="font-size:11.5pt">declaring and upholding proper standards of conduct and behaviour. </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">20 </span><span style="font-size:11.5pt">The purpose of the sanctions is therefore not to be punitive but to protect patients and the wider public interest, although they may have a punitive effect. This was confirmed in the judgment of Laws LJ in the case of Raschid and Fatnani v The General Medical Council <ref href="#" uk:canonical="[2007] 1 WLR 1460" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 1460</ref> in which he stated: </span></p>
+	    <p><span style="font-size:11.5pt">&#8220;The panel then is centrally concerned with the reputation or standing of the profession rather than the punishment of the doctor.&#8221;</span></p>
+	    <p><span style="font-size:11.5pt">&#8230;&#8230;&#8230;</span></p>
+	    <p><span style="font-weight:bold;font-size:11.5pt">Suspension (up to 12 months but may be indefinite in certain circumstances in health and/or knowledge of English only cases</span></p>
+	    <p><span style="font-weight:bold;font-size:11.5pt">&#8230;&#8230;</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">75 </span><span style="font-size:11.5pt">This sanction may therefore be appropriate when some or all of the following factors are apparent (this list is not exhaustive): </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">a </span><span style="font-size:11.5pt">a serious breach of Good medical practice where the misconduct is not fundamentally incompatible with continued registration and where therefore complete removal from the register would not be in the public interest, but which is so serious that any sanction lower than a suspension would not be sufficient to serve the need to protect the public interest </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">b </span><span style="font-size:11.5pt">in cases involving deficient performance where there is a risk to patient safety if the doctor&#8217;s registration were not suspended and where the doctor demonstrates potential for remediation or retraining </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">c </span><span style="font-size:11.5pt">in cases which relate to the doctor&#8217;s health, where the doctor&#8217;s judgement may be impaired and where there is a risk to patient safety if the doctor were allowed to continue to practise even under conditions </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">d </span><span style="font-size:11.5pt">in cases which relate to knowledge of English, where the doctor&#8217;s language skills impact on his/her ability to practise and there is a risk to patient safety if the doctor were allowed to continue to practise even under conditions </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">e </span><span style="font-size:11.5pt">no evidence of harmful, deep-seated personality or attitudinal problems </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">f </span><span style="font-size:11.5pt">no evidence of repetition of similar behaviour since incident </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">g </span><span style="font-size:11.5pt">panel is satisfied doctor has insight and does not pose a significant risk of repeating behaviour. </span></p>
+	    <p class="Default"><span style="font-size:11.5pt">&#8230;&#8230;..</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">Dishonesty </span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">105 </span><span style="font-size:11.5pt">The GMC&#8217;s guidance, Good medical practice, states that registered doctors must be honest and trustworthy, and must never abuse their patients&#8217; trust in them or the public&#8217;s trust in the profession </span></p>
+	    <p class="Default"><span style="font-size:11.5pt">&#8220;You must make sure that your conduct justifies your patients&#8217; trust in you and the public&#8217;s trust in the profession.&#8221; (Good medical practice paragraph 65)</span></p>
+	    <p class="Default"><span style="font-size:11.5pt">&#8230;&#8230;.</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">108 </span><span style="font-size:11.5pt">Dishonesty, even where it does not result in direct harm to patients but is for example related to matters outside the doctor&#8217;s clinical responsibility, e.g. providing false statements or fraudulent claims for monies, is particularly serious because it can undermine the trust the public place in the profession. The Privy Council has emphasised that: </span></p>
+	    <p class="Default"><span style="font-size:11.5pt">&#8220;&#8230;Health Authorities must be able to place complete reliance on the integrity of practitioners; and the Committee is entitled to regard conduct which undermines that confidence as calculated to reflect on the standards and reputation of the profession as a whole.&#8221;</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">109 </span><span style="font-size:11.5pt">Examples of dishonesty in professional practice could include defrauding an employer, falsifying or improperly amending patient records or submitting or providing false references, inaccurate or misleading information on a CV and failing to take reasonable steps to ensure that statements made in formal documents are accurate. (see Good medical practice paragraphs 19 to 21 regarding the duty to keep clear, accurate and legible records, and paragraphs 71 to 74 regarding writing reports and CVs, giving evidence and signing documents; see also our separate guidance on writing references</span></p>
+	    <p class="Default"><span style="font-size:8pt">&#8230;..</span></p>
+	    <p class="Default"><span style="font-weight:bold;font-size:11.5pt">111 </span><span style="font-size:11.5pt">Dishonesty, especially where persistent and/or covered up, is likely to result in erasure (see further guidance at paragraph 82 above)</span></p>
+	  </mainBody>
+	</doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

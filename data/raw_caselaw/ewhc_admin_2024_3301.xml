@@ -1,0 +1,584 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3301"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3301"/>
+	  <FRBRdate date="2024-12-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3301"/>
+	  <FRBRname value="Mark Zipfell, R (on the application of) v Norfolk County Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3301"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3301"/>
+	  <FRBRdate date="2024-12-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3301/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3301/data.xml"/>
+	  <FRBRdate date="2024-12-18T12:11:51" name="transform"/>
+	  <FRBRdate date="2025-07-18T22:26:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-planning" href="https://www.gov.uk/courts-tribunals/planning-court" shortForm="The Planning Court" showAs="The Planning Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mark-zipfell" href="" showAs="MARK ZIPFELL"/>
+	<TLCPerson eId="norfolk-county-council" href="" showAs="NORFOLK COUNTY COUNCIL"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Planning</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>3301</uk:number>
+	<uk:cite>[2024] EWHC 3301 (Admin)</uk:cite>
+	<uk:parser>0.26.16</uk:parser>
+	<uk:hash>c4aaf69ce71715222636fa46758d6b38dd4d516b90e7560bba07d50585a699ec</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .paragraph { font-family: 'Times New Roman'; }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .normaltextrun { }
+#judgment .tabchar { }
+#judgment .eop { }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #467886; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p><span style="font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="font-family:'Times New Roman'">[2024] EWHC 3301 (Admin)</neutralCitation></p>
+      <p style="margin-left:3in;text-indent:-3in"><span style="font-weight:bold;font-family:'Times New Roman'"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'"> Claim No. AC-2022-LON 003539 </span></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-planning">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">PLANNING COURT </courtType></p>
+      <p class="CoverText">Date: <docDate date="2024-12-18" refersTo="#judgment">18 December 2024</docDate><span/></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before</span><span style="font-family:'Times New Roman'"> : </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Dan Kolinsky KC </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">(sitting as a Deputy Judge of the High Court)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">BETWEEN:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">THE KING </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">on the application of </span></p>
+      <p style="text-align:center"><party as="#claimant" refersTo="#mark-zipfell" style="font-weight:bold;font-family:'Times New Roman'">MARK ZIPFELL </party></p>
+      <p style="text-align:right"><role refersTo="#claimant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Claimant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and -</span></p>
+      <p style="text-align:center"><party as="#defendant" refersTo="#norfolk-county-council" style="font-weight:bold;font-family:'Times New Roman'">NORFOLK COUNTY COUNCIL </party></p>
+      <p style="text-align:right"><role refersTo="#defendant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Defendant</role></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">Simon Bell</span><span style="font-family:'Times New Roman'"> instructed under Direct Access for the Claimant  </span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">Steven Gasztowicz KC </span><span style="font-family:'Times New Roman'">instructed by Norfolk Public Law for the Defendant </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing date: 5 December 2024 </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">This judgment was handed down remotely at 12pm on 18 December 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</span></p>
+      <p style="text-align:justify;margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">Dan Kolinsky KC (sitting as a Deputy Judge of the High Court): </span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This case concerns whether the bridge at The Mill, Mill Common, Newton by Castle Acre, Kings Lynn (&#8220;The Mill&#8221;) forms part of the highway maintainable at the public expense. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant, who purchased The Mill in August 2020, contends that the Defendant Highway Authority is unlawfully refusing to accept the bridge as highway maintainable at the public expense. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Permission to proceed with the judicial review claim was granted by Mr Tim Smith sitting as a Deputy High Court Judge on 4 July 2023 on one ground. The point at issue is the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="1980 c. 66 s. 328" uk:origin="TNA" uk:type="legislation">s.328</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">Highway Act 1980</ref>. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Factual Background </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The bridge is within the registered title of The Mill. The parties agree that the bridge was constructed circa 1790. It was built at the same time as The Mill. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The (unclassified) road which crosses the bridge is highway maintainable at the public expense. It is agreed that it has been so since 1929. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The relevant road layout is explained in the witness statement of Mr Mark North (Deputy Bridge Team Manager within the Defendant Council) dated 8 August 2023 as follows: &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">the unclassified road U33068 Mill Common &#8230;runs from its junction with the A1065 in the Parish of Newton by Castle Acre, approximately a third of a mile north-west where it crosses the River Nar and joins the U22068 St James Road in the parish of Castle Acre</span><span style="font-family:'Times New Roman'">&#8221;. The road is a narrow mainly single-track rural road, with no special designation on the route hierarchy. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The bridge (as explained in Mr North&#8217;s evidence) is approximately 35m long and has 3 discrete arch openings through which water passes. The road passes along the top of the bridge. The three arches are spaced along the length of the bridge. Mr North describes that arch A (which has a span of 0.87m) carries the bridge over a bypass channel of the River Nar. Arch B (which has a span of 0.94m) carries most of the flow of the River Nar. Arch C (which has a span of 1.94m) carries the flows which would have driven the mill wheel. As the waterwheel is currently inoperable, there is no flow through this arch. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There is disagreement about the extent to which the bridge provides structural support for The Mill. The Defendant considers that it does. The Claimant disputes this, although the material to which he refers, indicates that there is a &#8220;very small area&#8221; between The Mill and the bridge which may have a &#8220;common foundation&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As far back as records go, the bridge has been maintained by the owner of The Mill. Correspondence from the County Surveyor dated 18 March 1966 states: &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">this is a privately maintainable bridge, according to my records, and not repairable by the County Council. The road over it, however, is maintained by the Council</span><span style="font-family:'Times New Roman'">&#8221;. This suggests that records existed in 1966 supporting the bridge being privately maintained. Those underlying records cannot now be located. However, it is common ground that the bridge has been privately maintained since 1966. This position was described in the estate agent particulars when the Claimant purchased The Mill in 2020.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The practical issues which have led to the present dispute include the difficulties which the Claimant has experienced insuring the bridge (including obtaining public liability insurance) and concern about how vehicles (including large vehicles) use the bridge (risking damaging the bridge). The proceedings were stayed for a period when an Experimental Traffic Restriction Order (made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27/section/9" uk:canonical="1984 c. 27 s. 9" uk:origin="TNA" uk:type="legislation">s.9</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref>) was implemented. I understand that this has lapsed. The circumstances relating to this are not at issue in the claim. In any event, the Claimant&#8217;s position is that, even if such an order was made permanent, the question of responsibility to maintain (and insure) the bridge needs to be resolved. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Defendant&#8217;s evidence indicates that there are 53 privately maintainable bridges in Norfolk with adopted highways running over them. The Claimant stresses that he is the only private individual (in Norfolk) who is held responsible for a bridge over which a publicly maintainable highway passes.  He contends that previous owners of the bridge have been under a misapprehension as to the correct legal position. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The Claimant&#8217;s case</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The sole issue in the case therefore is whether the bridge is highway maintainable at the public expense as well as the road (which everyone accepts is). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant&#8217;s argument relies on <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> which provides as follows: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Times New Roman'">&#8220;328.</num>
+		  <content>
+		    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span class="normaltextrun" style="font-style:italic">Meaning of &#8220;highway&#8221;.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Times New Roman'">(1)</num>
+		  <content>
+		    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span class="normaltextrun" style="font-style:italic">In <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>, except where the context otherwise requires, &#8220;highway&#8221; means the whole or a part of a highway other than a ferry or waterway.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Times New Roman'">(2)</num>
+		  <content>
+		    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span class="normaltextrun" style="font-style:italic">Where a highway passes over a bridge or through a tunnel, that bridge or tunnel is to be taken for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> to be a part of the highway.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Times New Roman'">(3)</num>
+		  <content>
+		    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span class="normaltextrun" style="font-style:italic">In <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>, &#8220;highway maintainable at the public expense&#8221; and any other expression defined by reference to a highway is to be construed in accordance with the foregoing provisions of this section.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant&#8217;s argument is that the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is to treat the bridge over which the publicly maintainable highway passes as itself publicly maintainable highway. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The decision in Kent County Council v DRG Packaging </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant relies on the decision of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kent County Council v DRG Packaging</span><span style="font-family:'Times New Roman'"> [1991] NPC 80 as supporting this. This decision of Mr Evans Lambe QC sitting as a Deputy High Judge in the Chancery Division is reported only in outline. The case concerned a claim by the highway authority for the recovery of money spent on repairing a bridge carrying the A227 over a passageway cut under the road. The highway authority cited common law authority that, where a bridge was built for private purposes, the owners of the bridge were liable for its repair. However, the authority could not prove who had constructed the bridge.  The Defendant argued that by reason of s.263(1) (vesting of highways maintainable at public expense) and <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> the bridge was vested in the highway authority. The Court found for the Defendant relying on <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328(2)</ref>. The report records: &#8220;it inevitably follows&#8221; &#8220;that the bridge was vested in the [County Council] and that the bridge is maintainable by them&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Encyclopaedia of Highway Law and Practice) (para 2-484.2)  notes the decision and comments: &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">In </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kent County Council v DRG Packaging</span><span style="font-style:italic;font-family:'Times New Roman'"> [1991] NPC 80 it was held that the effect of [<ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328(2)</ref>] was to make it clear that a bridge carrying a publicly maintainable highway is itself publicly maintainable. Whilst this may usually be the case it is suggested that this subsection cannot have had the effect of extinguishing ownership of the bridge in the absence of other evidence of such transfer (e.g. evidence of dedication)</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">A similar note of reservation about this decision is sounded in Highway Law (6</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> edition) by Stephen Sauvain KC, Ruth Stockley and Ned Westaway at paras 11-18 and 11-19. It comments that &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Whilst for the reasons that are discussed below, most bridges carrying publicly maintainable highways will themselves be publicly maintainable it is suggested that this result cannot have been brought about simply by the operation of an interpretation section</span><span style="font-family:'Times New Roman'">&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This point forms part of the Defendant&#8217;s submissions in the present case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">A decision of the High Court is generally treated as persuasive authority (albeit not binding). In the present case, I have not had the benefit of seeing a full transcript of the decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kent County Council v DRG Packaging. </span><span style="font-family:'Times New Roman'"> I was told that Counsel had not been able to locate a transcript of the judgment. I am unable to tell therefore whether the points which featured in argument in the present case were considered in that case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In order to evaluate the force of the Claimant&#8217;s argument (and reliance on </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kent County Council v DRG Packaging</span><span style="font-family:'Times New Roman'">), it is necessary to consider further provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> and to consider some legislative history. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The Statutory Framework </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/329" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 329</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>  contains further provisions as to interpretation. It provides that &#8220;&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">highway maintainable at the public expense&#8221; means a highway which by virtue of section 36 above or of any other enactment (whether contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> or not) is a highway which for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> is a highway maintainable at the public expense</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The duty to maintain under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is imposed in respect of a highway maintainable at the public expense. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 36</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is entitled &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">highways maintainable at the public expense&#8221;</span><span style="font-family:'Times New Roman'">. <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/36/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 36(1)</ref> provides that </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;All such highways as immediately before the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> were highways maintainable at the public expense for the purpose of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">Highways Act 1959</ref> continue to be so maintainable (subject to this section and to any order of a magistrates&#8217; court under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/47" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 47</ref> below) for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">this Act</ref></span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">The 1980 Act</ref> was a consolidating Act. As is apparent from the extract above, <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.36</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> looks back to the position under the 1959 Highway Act (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>&#8221;). It is necessary to evaluate highway law with an appreciation of how provisions have changed over time. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">The 1959 Act</ref> was an act to consolidate with amendments &#8220;certain enactments relating to highways, streets and bridges&#8221;. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 38</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref> made provision for highways maintainable at public expense. It identified various existing situations which would be treated as highways maintainable at public expense from the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">The 1959 Act</ref> also contained an equivalent interpretation clause to <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> &#8211; see <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/294" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.294</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As a matter of general approach (as Lord Wilberforce said) in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Farrell v Alexander </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1977] AC 59" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1977">[1977] AC 59</ref> at 73: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;self-contained statutes, whether consolidating previous law, or so doing with amendments, should be interpreted, if reasonably possible, without recourse to </span><span style="font-family:'Times New Roman'">antecedents</span><span style="font-style:italic;font-family:'Times New Roman'">, and that the recourse would only be had when there is a real and substantial difficulty or ambiguity which classical methods of construction cannot resolve</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">However, as Lord Hoffman observed in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Goodes v East Sussex County Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2000] 1 WLR 1356" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 1356</ref> at 1360 (in a case about <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>): </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;It seems to me quite impossible, in construing <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1959, to shut one&#8217;s eyes to the fact that it was not a code which sprang fully formed from the legislative head but was built on centuries of highway law. The provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> itself invited reference to the earlier law and in some cases were unintelligible without them</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Southwark LBC v Transport for London</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2020] AC 914" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 914</ref> at 928 (para 5), Lord Briggs JSC giving the judgment of the Court said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Lord Wilberforce&#8217;s wise words have lost none of their force, in an era which has seen an exponential increase in the complexity of legislation. It is hard enough on the law-abiding public that legislation is often unintelligible without the assistance of skilled lawyers. It is even worse if its meaning requires, in addition, the assistance of a legal historian. None the less, this is a case, as were the Goodes and Cusack cases, where neither the analysis of the dispute as to statutory meaning, nor the appropriate solution to it, can be undertaken without substantial recourse to the history of English and Welsh highways law and in particular legislation. Even the innocent sounding word &#8220;highway&#8221; is itself capable of having a range of different meanings, dependent upon the context in which it is used.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The present case is similarly such a case. In order to understand the scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> so far as it applies to highways maintainable at the public expense, it is necessary to grapple with the position under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>. This in turn requires an understanding of the way that <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.38</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref> looked back to the position prior to its commencement. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It is critical to understand the implications of a highway (or part of a highway)  being maintainable at the public expense. <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 263</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is entitled vesting of highways maintainable at the public expense. It provides that &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Subject to the provisions of this section, every highway maintainable at the public expense together with the materials and scrapings of it, vests in the authority who are for the time being the highway authority for the highway</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Thus the effect of highway being maintainable at the public expense is that ownership vests in the highway authority. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Southwark</span><span style="font-family:'Times New Roman'"> case did not concern bridges. But it was concerned with construing provisions relating to vesting (in the context of specific rules governing highway responsibilities passing to Transport for London). Parts of the decision were relied on in argument and will be discussed in more detail below. Paragraphs 31-34 of the judgment discusses the range of meanings which can attach to the word &#8220;highway&#8221; depending on its context. The interpretation section in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328</ref> of the 1990 Act is described (in para 31) as &#8220;largely circular&#8221; and it stated: &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">It does not follow that the interpreter is therefore required to find some uniform meaning of the word &#8220;highway&#8221; wherever it is used, either in the relevant legislation or, as the Court of Appeal thought, at common law</span><span style="font-family:'Times New Roman'">.&#8221; This health warning supports the Defendant&#8217;s contentions in the present case as to how the overall statutory scheme needs to be evaluated.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Discussion </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is an interpretation section. It does not contain a statutory definition of &#8216;highway&#8217;. It is not the operative provision for highways or parts of the highway which are publicly maintainable. As above, those provisions are contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/329" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.329</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.36</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">&#160;If a highway is maintainable at the public expense, it vests in the highway authority (see <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">s263</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref>). Accordingly, if because of the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> (or its statutory predecessor <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/294" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.294</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>), a bridge carrying a publicly maintainable highway itself became a </span><span style="font-style:italic;font-family:'Times New Roman'">publicly</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">maintainable</span><span style="font-family:'Times New Roman'"> highway or part of the </span><span style="font-style:italic;font-family:'Times New Roman'">publicly maintainable</span><span style="font-family:'Times New Roman'"> highway, ownership of it would be lost to the pre-Act owner without compensation, and without express provision. As Mr Bell accepted in argument, his case is that the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref> had the effect of making the bridge part of the highway maintainable at public expense (by virtue of the interpretation provision in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/294" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.294</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>; now <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/382" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.382</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"> As the Encyclopaedia of Highway Law and Practice and the practitioner text Highway Law comment this would not be an expected effect of an interpretation section.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant&#8217;s argument would have far reaching implications for the liabilities of highway authorities. The effect of his argument is that, by such an interpretation section, and without express provision, maintenance obligations are cast on highway authorities for all privately owned bridges (over which publicly maintainable highway passes) not previously maintainable by them.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">The 1980 Act</ref> was a consolidating Act, which was not therefore intended to change the law. Nothing in it shows that it was intended to make bridges maintainable highways or maintainable parts of the highway&#160; where they were not so maintainable before <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref>.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/36/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 36(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> states that those highways which immediately before the commencement of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> were highways maintainable at public expense continue to be so maintainable. It does not make publicly maintainable any bridge, highway, or part of a highway, that was not prior to <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> so maintainable.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">When one goes back to <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>, we find similar provisions in respect of interpretation and substantive provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 38</ref> as to the circumstances in which highways are intended to be maintainable at the public expense. They look back to the position prior to the implementation of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Read as a whole (and in harmony with its legislative history), <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> does not support the proposition that all bridges become highway maintainable at public expense simply because such highway passes over them. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimant&#8217;s argument relied upon paragraph 12 of the Supreme Court&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Southwark</span><span style="font-family:'Times New Roman'">. In the context of discussing the vesting provisions contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.263</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>, the Supreme Court observed that what vests in the highway authority is so much of the actual soil below and the air above as may be reasonably required for its control, protection and maintenance as a highway. This encapsulates the &#8220;zone of ordinary use&#8221; (para 9 of Southwark) which is a &#8220;flexible concept&#8221; (para 10 of Southwark). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In the present case, the Claimant submitted that it was reasonably required for the bridge to vest in order for the highway to be maintained. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This argument is unpersuasive for each of the following reasons. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">First</span><span style="font-family:'Times New Roman'">, it is clear from para 11 of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Southwark</span><span style="font-family:'Times New Roman'"> case that the concept of what is reasonable required by the highway authority is a reference to the modification of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Baird</span><span style="font-family:'Times New Roman'"> principle (derived from the decision of the House of Lords in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Tunbridge Wells Corporation v Baird</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1896] AC 434" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1896">[1896] AC 434</ref>). The principle developed to limit the extent of vesting to protect the position of the owner. As the Supreme Court summarised it, the courts regarded </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;this form of statutory vesting as a form of expropriation of property rights without compensation, and was therefore concerned to limit its effect strictly to what was necessary to achieve the Parliamentary objective, that is conferring upon the highway authority sufficient property to enable them to perform their statutory duties of the repair, maintenance and operation of the highways</span><span style="font-family:'Times New Roman'">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It would be contrary to the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Baird</span><span style="font-family:'Times New Roman'"> principle to take an expansionist approach to the extent of vesting. But this is precisely the effect of the Claimant&#8217;s argument. On his case, all bridges over which publicly maintainable highway passes, necessarily (and automatically) become public maintainable highway. This would expropriate property rights through an expansive vesting which is out of kilter with the express statutory provisions and the common law principles which were codified in the legislation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"> It just so happens that, in the present case, this argument would (as the Claimant perceives it) work to the owner of the bridge&#8217;s advantage. However, in other cases, this may not be so. The effect of vesting the bridge might be disadvantageous for the owner.  The Claimant&#8217;s argument is that all bridges which have publicly maintained highway passing over them vest in the highway authority. The effect of this may be to expropriate without compensation a valuable resource from the owner. It is implausible that parliament intended to achieve this  through an interpretation provision (and without any other statutory wording indicating that this is what was intended to happen). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Second,</span><span style="font-family:'Times New Roman'"> the evidence does not in fact support the proposition that the bridge is reasonably required to maintain the highway. This is specifically dealt with in Mr North&#8217;s witness statement as follows: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;18: A typical road construction comprises (from the top down) 40mm surface course, 60mm binder course, 100mm base course and 150-225 sub-base layers. The &#8216;surfacing&#8217; is deemed to comprise the top 100mm i.e. the surface and binder courses. This is generally the same for a highway going over a bridge. The Council&#8217;s interest only being to the extent of the surface depth. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">19.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">However, the typical maintenance treatment of the Bridge&#8217;s highway surface consists of patching/pothole repairs and surface dressing, where the road is first sprayed with a bitumen binder, followed by a layer of stone chippings. The treatment adds additional materials (5-10mm) on top of the existing road and does not involve removing any existing material. More significant works to replace the surfacing, which involves planing out the existing surfacing and inlaying new material, are unlikely to take place on unclassified roads with low traffic flows, such as the U33068 Mill Common and the U22068 St James Road. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Council&#8217;s records show that the last surface dressing treatment applied over the Bridge was in 2017. Previous to that, there was a surface dressing treatment applied to the Castle Acre side of the Bridge in 2005 and to the Newton by Castle Acre side in 2003. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">21.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The surface maintenance treatments over the Bridge do not affect the fabric of the structure, nor would replacement of the surfacing were it to take place&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Therefore on the evidence, the bridge is not reasonably required to maintain the highway. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Third</span><span style="font-family:'Times New Roman'">, in the circumstances of this case, the bridge does have benefits to its owner. Its construction was in part to direct the flow of water to the mill wheel. The fact the mill wheel is no longer in use does not alter this. The Claimant&#8217;s interpretation argument, if correct, would mean that merely because a publicly maintainable highway passes over a bridge, the bridge would become publicly maintained highway (and thus vest in the highway authority). This logic would apply even if the bridge continued to be essential to the functioning of the water mill and was constructed for that purpose. That cannot be right. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The facts also suggest that there is physical connection between the bride and the Mill. On the evidence, there is, at least, a small part of structural support for the Mill. It would be surprising in those circumstances for the bridge automatically to become highway maintained at the public expense and vest in the highway authority. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Moreover, when constructed, the bridge would have enabled the receipt of supplies and the delivery of produce for the Mill (as Mr Gasztowicz KC submitted and demonstrated by reference to photographs of the Mill which have two levels of doors aligned with the bridge). This is a further indicator on the facts of the case against the automatic vesting of the bridge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Fourth,</span><span style="font-family:'Times New Roman'"> as indicated earlier, there are 53 privately maintained bridges in Norfolk over which highway maintainable at public expense passes. The effect of the Claimant&#8217;s argument is that all of these are publicly maintainable by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> and vest in the Highway Authority irrespective of the extent of the benefit to the owner of the bridge (at the time of constructions and/or now). That cannot be right. It would negate the careful limits on the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Baird</span><span style="font-family:'Times New Roman'"> principle developed by the Courts over the years and embedded into the statutory scheme. It would impose a burden on the highway authority in a way which the overall scheme of the legislation does not support.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For these reasons, I have reached the clear conclusion that the Claimant&#8217;s construction argument is wrong. <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/382/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 382(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> does not have the effect of automatically converting every bridge over which publicly maintainable highway passes into publicly maintainable highway. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Rather, the proper approach to the statutory scheme is to enquire whether the bridge is itself publicly maintainable highway. This depends upon applying the principles which applied before <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref> came into force (or establishing that it became highway maintainable at the public expense under the applicable statutory provisions &#8211; i.e. <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.38</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref> and now <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/36" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.36</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref>). It does not become highway maintainable at the public expense simply due to  the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/328" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.328</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> (or its predecessor equivalent provision in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25/section/294" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.294</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/7-8/25" uk:canonical="1959 (7 &amp; 8 Eliz. 2) c. 25" uk:origin="TNA" uk:type="legislation">the 1959 Act</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In the present case, the position pre-1959 is not now at issue in the judicial review. Some points in respect of it were raised in the claim. However, as Mr Bell accepted, the sole issue on which permission was granted was the interpretation argument which I have addressed above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I acknowledge that my decision disagrees with the decision of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Kent County Council v DRG</span><span style="font-family:'Times New Roman'"> (to the extent that that it can be understood from its brief report). I do so because I have found that the logic of its apparent reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/382" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.382</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> is discordant with the overall statutory scheme and relevant historical context (as explained above). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I mention two other matters briefly. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">First, the Claimant has made an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/93" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.93</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> which contains a power to make orders in respect of the reconstruction or improvement of a privately owned bridge. That application was an alternative to the arguments in the judicial review. I was told that the decision on that application is being held in abeyance pending the outcome of the judicial review. I express no view on the merits of that application which is not an issue before me. I should also say that the Claimant had relied upon <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66/section/93/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.93(6)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/66" uk:canonical="1980 c. 66" uk:origin="TNA" uk:type="legislation">the 1980 Act</ref> as supporting his main construction argument. In my view, it provides no such support. To the contrary, I consider that it supports the need for separate consideration of how a bridge over which highway passes should be treated. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Second, I am told that there has been a disagreement between the Claimant and the Defendant as to the status and effect of the Defendant&#8217;s Transport Asset Management Plan. That is not a live issue before me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For the reasons I have set out above, this claim is dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I would like to thank Counsel who have helped the Court considerably with their focussed and efficient written and oral submissions.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

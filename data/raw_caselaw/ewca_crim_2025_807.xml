@@ -1,0 +1,375 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/807"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/807"/>
+	  <FRBRdate date="2025-05-08" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="807"/>
+	  <FRBRname value="R v Rhys Baker &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/807"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/807"/>
+	  <FRBRdate date="2025-05-08" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/807/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/807/data.xml"/>
+	  <FRBRdate date="2025-07-10T15:28:40" name="transform"/>
+	  <FRBRdate date="2025-07-10T16:23:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-05-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-lord-justice-green" href="/judge-lord-justice-green" showAs="LORD JUSTICE GREEN"/>
+	<TLCPerson eId="judge-mr-justice-goose" href="/judge-mr-justice-goose" showAs="MR JUSTICE GOOSE"/>
+	<TLCPerson eId="judge-mrs-justice-yip" href="/judge-mrs-justice-yip" showAs="MRS JUSTICE YIP"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>807</uk:number>
+	<uk:cite>[2025] EWCA Crim 807</uk:cite>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>7535e191de242421cb00d56934e567433bd041536e8393825386e057e37bffb7</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.2.5</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { font-size: 20pt; color: #2E74B5; }
+#judgment .Heading2 { font-size: 16pt; color: #2E74B5; }
+#judgment .Heading3 { font-size: 14pt; color: #2E74B5; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Heading5 { font-size: 12pt; color: #2E74B5; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #2E74B5; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Fixed { margin-right: 0.51in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-size: 12pt; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-size: 12pt; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-size: 12pt; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-size: 12pt; }
+#judgment .Heading1Char { font-size: 20pt; color: #2E74B5; }
+#judgment .Heading2Char { font-size: 16pt; color: #2E74B5; }
+#judgment .Heading3Char { font-size: 14pt; color: #2E74B5; }
+#judgment .Heading4Char { font-style: italic; color: #2E74B5; }
+#judgment .Heading5Char { color: #2E74B5; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2E74B5; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #2E74B5; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2E74B5; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <block name="restriction"><span style="font-weight:bold;font-size:10pt">WARNING: reporting restrictions may apply to the contents transcribed in this document, particularly if the case concerned a sexual offence or involved a child. Reporting restrictions prohibit the publication of the applicable information to the public or any section of the public, in writing, in a broadcast or by means of the internet, including social media. Anyone who receives a copy of this transcript is responsible in law for making sure that applicable restrictions are not breached. A person who breaches a reporting restriction is liable to a fine and/or imprisonment. For guidance on whether reporting restrictions apply, and to what information, ask at the court office or take legal advice.</span></block>
+      <p><span style="font-weight:bold;font-size:10pt">This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.</span></p>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <table uk:widths="4.6in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid">IN THE COURT OF APPEAL</courtType></p>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid">CRIMINAL DIVISION</courtType></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CROWN COURT AT BOLTON</span></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid">HHJ WALSH </span></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in">APPEAL REF:<span style="font-family:Arial;font-size:14.5pt;color:#0B0C0C;background-color:#FFFFFF"/> 202402367/02470/02486/02493 A4</p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><neutralCitation>[2025] EWCA Crim 807</neutralCitation></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Royal Courts of Justice</span></p>
+      <p style="text-align:right">Strand</p>
+      <p style="text-align:right">London</p>
+      <p style="text-align:right">WC2A 2LL</p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><docDate date="2025-05-08" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid">Thursday 8 May 2025</docDate></p>
+      <p style="text-align:center">Before:</p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-green" style="text-decoration-line:underline;text-decoration-style:solid">LORD JUSTICE GREEN</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-goose" style="text-decoration-line:underline;text-decoration-style:solid">MR JUSTICE GOOSE</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mrs-justice-yip" style="text-decoration-line:underline;text-decoration-style:solid">MRS JUSTICE YIP </judge></p>
+      <p style="text-align:center">REX</p>
+      <p style="text-align:center">v</p>
+      <p style="text-align:center">RHYS BAKER</p>
+      <p style="text-align:center">JACKSON MACARI</p>
+      <p style="text-align:center">NEEKO SMITH</p>
+      <p style="text-align:center">RONALD MAKETO</p>
+      <p style="text-align:center">__________</p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Computer Aided Transcript of Epiq Europe Ltd, </span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Lower Ground, 46 Chancery Lane, London WC2A 1JE</span></p>
+      <p class="Fixed" style="text-align:center;margin-right:0in"><span style="font-size:11pt">Tel No: 020 7404 1400; Email: rcj@epiqglobal.co.uk (Official Shorthand Writers to the Court)</span></p>
+      <p style="text-align:center">_________</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR J BOWKER</span> appeared on behalf of the Appellant BAKER</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR I McMEEKIN </span>appeared on behalf of the appellant JACKSON</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR R SIMONS</span> appear on behalf of the appellant SMITH</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR P PALMER</span> appeared on behalf of the appellant MAKETO</p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid">MR A SMITH</span> appeared on behalf of the Crown</p>
+      <p style="text-align:center">_______</p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.4in;margin-right:0.01in"><span style="font-weight:bold">MR JUSTICE GOOSE:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">This is an appeal against sentence by Rhys Baker (aged 25), Macari Jackson (aged 26), Neeko Smith (aged 22) and Ronald Maketo (aged 22).  On 10 June&#160;2024 the appellants were sentenced in the Crown Court at Bolton by His Honour Judge Walsh, the Honorary Recorder of Bolton, for offences of false imprisonment (Count 3) and causing grievous bodily harm contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/20" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100" uk:origin="TNA" uk:type="legislation">the Offences Against the Person Act 1861</ref> (Count 4).  Jackson was also sentenced for an offence of dangerous driving and Smith for possession of a Class&#160;B drug, namely cannabis. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Baker, Jackson and Smith were sentenced to a total of 8 years' custody whilst Maketo was sentenced to 7 years' custody.  Jackson was also sentenced to 9 months consecutively for the offence of dangerous driving, whilst Smith was sentenced to 7 days' custody concurrently with the drugs offence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The appellants were granted leave to appeal by the Single Judge but on a limited basis, namely that the sentences imposed upon the appellants in respect of the false imprisonment offence (Count 3) was excessive.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in">In addition, Jackson was given leave to appeal his order on disqualification of 9 years and 10 months, being a discretionary disqualification for 4 years, and a 9 years and 10 months period of extension under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>A and B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.  He was also ordered to sit a retest before he could drive again. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold">The proceedings</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Whilst the appellants were sentenced on 10 June&#160;2024, their guilty pleas had been entered on different occasions.  On 9 June&#160;2023 each of them pleaded guilty to Count 3.  Jackson also pleaded guilty to the dangerous driving offence and Smith pleaded guilty to the drugs offence.  The appellants maintained not guilty pleas to the remainder of the indictment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">On the day of trial, 4 September&#160;2023, each appellant pleaded guilty to Count 4 (the <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/20" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> offence).  The remaining offences on the Indictment were either left on the file on the usual terms or were made the subject of not guilty verdicts.  Consequential orders were also made by the court for driving disqualification and retest as we have identified, and as in Jackson's case, the details of which do not require further consideration in this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Pausing at this stage it has been brought to the attention of this Court that the custodial sentences in respect of Smith and Maketo were incorrectly expressed as sentences of imprisonment whilst on the date of conviction they were both still aged 20.  Accordingly, their custodial terms should have been expressed as detention in a young offender institution in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/227" uk:canonical="2020 c. 17 s. 227" uk:origin="TNA" uk:type="legislation">sections 227</ref> and 262 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17" uk:canonical="2020 c. 17" uk:origin="TNA" uk:type="legislation">Sentencing Act 2020</ref>.  In due course we shall confirm this necessary correction to the court record. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold">The offences</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">On 4 March&#160;2023 the complainant, Logan Balshaw, was working with a colleague on Gigg Lane in Bury when at just after 5pm the Volkswagen Golf vehicle drove up at speed towards him.  The appellants were in the vehicle.  Each of them was wearing a balaclava.  They were carrying weapons.  When the complainant appreciated what was happening, he tried to escape but was caught by Baker and Maketo, who were rear seat passengers, whilst Jackson was the driver, and Smith the front seat passenger.  The complainant was pushed into a wall and then bundled into the car.  The complainant's work colleague observed the attack and tried to assist the complainant but was threatened by one of the appellants with a hammer.  Despite his efforts, the colleague was unable to save the complainant, who was then driven away.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Over the following three-and-a-half hours the complainant was the subject of repeated violent assault, threats to his life and demands for money.  The hood of his jacket was pulled over his head, and, on being pulled from behind, effectively strangled him, causing him to fear that he would become unconscious.  His mobile telephone was taken from him and he was repeatedly threatened with a&#160;knife as the appellants demanded the access code to his phone.  Jackson and Smith instructed the others to switch off the location settings of the phone, appreciating that they were being sought by the police.  After about ten minutes the vehicle came to a stop and the complainant was placed into a headlock whilst the appellants used his phone to call the complainant's brother.  When they spoke to him, they stated, "We have your brother", whilst they made demands for money and drugs.  Throughout the call the complainant was repeatedly struck to the head by the handle of the flick knife.  He believed that he would not survive the attack, fearing he would be murdered.  The phone call to the complainant's brother was terminated and the appellants continued to assault him. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The complainant heard the appellants say that they needed to change their location, stating that they were to drive to Liverpool.  In fact, they drove to Salford and pulled into a parking space.  The appellants began to ask the complainant where the cannabis was and that they wanted &#163;15,000 to be paid to them by the end of the day.  The vehicle was then driven to a different location, in a backstreet, where he was again repeatedly struck with the handle of the flick knife.  He felt blows to his arms, wrists and legs.  They threatened to cut off his ear.  It became clear to the complainant during the period he was being held that the appellants wanted to be paid the money they demanded from the complainant's family.  Baker, who had by this time removed his balaclava and sat in the back of the car, said it was he who had prevented his co-appellants from stabbing the complainant.  The appellants discussed tying the complainant up and leaving him stripped naked.  The appellants discussed how they could hold the complainant overnight.  Later they decided to call the complainant's mother and demanded payment of &#163;15,000 to be paid by 9.30 that evening.  She said that she would take out a loan to pay them in order to save her son.  This call, with demands for money and threats, lasted for 16 or 17 minutes.  During that call the phone was muted as the complainant was subjected to further acts of violence.  It was clear that the intention of the appellants was to continue their false imprisonment and violence upon the complainant overnight.  It was only when they realised that the police had managed to locate the appellant's vehicle at about 8.45 that the false imprisonment began to draw to a close. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">When the police arrived, the appellants' vehicle drove at high speeds whilst being pursued by the police.  It was driven through red lights in residential areas in speeds in excess of 90 mph, and on the motorway at 150 mph, during which vehicles were overtaken and undertaken.  The pursuit took place over several miles and came to an end after the appellant's vehicle had left the motorway and collided with another.  During the pursuit the appellant threw items out of the windows including the flick knife.  When the vehicle was finally searched by the police, they found within it two lump hammers, a claw hammer and a balaclava.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The complainant was taken to hospital and was found to have sustained puncture wounds to his scalp, the left side of his face, both hands and forearms, as well as to both legs.  He stated that he suffered from anxiety and psychological harm afterwards. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Whilst Baker, Jackson and Smith had previous convictions, the judge did not find that they significantly affected their sentences.  Maketo had no previous convictions.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">The sentences </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">In sentencing the appellants, the judge in careful remarks, said that the appellants were to be treated with equal participation in the false imprisonment.  He stated:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="margin-left:1.5in;margin-right:0.51in">"It is now agreed that each of you fall to be sentenced on the basis that you each became involved in the offence of false imprisonment during the course of which violence was used from a time prior to the abduction of Logan Balshaw on the early evening of 4 March, 2023. Whilst each of you may have had different parts to play, it is accepted that you were each jointly involved in the abduction and the violence that followed." </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The judge took into account the pre-sentence reports as well as character references, letters to the judge and post-offence conduct in mitigation of sentence.  The judge identified Count 3 (false imprisonment) as the lead offence to reflect the totality of offending.  Save for the dangerous driving offence, count 6 in respect of Jackson, for which a 9 months' sentence of imprisonment was imposed consecutively, all other sentences were directed to be served concurrently with the lead offence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">At the time of sentencing the appellants, there was no offence-specific guideline for the offence of false imprisonment.  That position has changed since the Sentencing Council Guideline for Kidnap and False Imprisonment became effective from 1 April 2025.  That guideline, whilst in draft at the time of sentencing in this case, was not available to be used by the court.  Accordingly, the court was referred to a number of decisions of this court, including <span style="font-style:italic">Attorney-General's Reference No 92 of 2014</span> [2014] EWCA (Crim) 2713.  In that decision at [19] it was observed as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="margin-left:1.5in;margin-right:0.51in">"It seems to us that relevant factors in accessing the gravity of cases of this type will include the length of detention; the circumstances of detention, including location and any method of restraint; the extent of any violence used; the involvement of weapons; whether demands were made of others; whether threats were made to others; the effect on the victim and others; the extent of planning; the number of offenders involved; the use of torture or humiliation; whether what was done arose from or was in furtherance of previous criminal behaviour, and any particular vulnerability of the victim whether by reason of age or otherwise."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Those observations provided a helpful guide to the court on sentencing.  However, the facts in that case and in others to which this court has been referred are not the same as those which occurred in this appeal.  It is not a helpful observation to compare them to discern the appropriate sentence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The judge took into account the observations made by the court and concluded that the sentence for these appellants before plea discount was 10 years' imprisonment or detention.  The guilty pleas had been entered at different stages, which led the judge to allow a 20 per cent discount, thereby reducing the sentence on count 3 for Baker, Jackson and Smith to 8 years, Maketo's sentence was reduced further to 7 years to reflect his lack of previous convictions and age.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">Grounds of appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">The appellants have not sought to renew their grounds of appeal beyond those for which leave was given by the Single Judge.  They focused upon the sentence in respect of Count 3.  Each of the appellants argues through their counsel, for whose submissions we are grateful, that the sentence imposed, based upon a 10-year sentence before guilty plea discount, was excessive.  It is argued that whilst the judge was referred to earlier decisions of this court including <span style="font-style:italic">Attorney-General's Reference No 92 and 93 of 2014</span>, the judge did not appear to explain why he found 10 years to be the appropriate sentence before plea discount.  Further, it is argued that the judge did not appear to undertake a close analysis of the facts and circumstances of each of the appellants.  It was also submitted during the course of this appeal that the disqualification order was excessive. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="LeftFlush" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">Discussion and conclusion </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">It is not of assistance in an appeal against sentences in cases of false imprisonment or for kidnap to rely heavily on the time period over which offences were committed.  Whilst in some there may be a very long period but with less extreme violence and threats, in others it may be shorter but with a higher degree of violence and threats.  Each of these cases is highly facts specific.  For this reason, the judge was required to consider the relevant factors identified in <span style="font-style:italic">Attorney-General's Reference 92 and 93 of 2014</span>.  In doing so the judge found that there had been preplanning, violence was inflicted repeatedly over the course of three-and-a-half hours, weapons were available and used, there were repeated threats made to the family, there were ransom demands for substantial sums of money, there was a clear background of serious criminal behaviour, and the period of the false imprisonment would have continued substantially longer had it not been for the actions of the police.  In aggravation of the seriousness of the offence was the dangerous driving whilst the occupants of the car tried to dispose of evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">We are not persuaded that the sentencing by this experienced criminal judge can be criticised on the basis that there had not been a proper consideration of the circumstances of the offence and of the offenders.  It is unsurprising that the observation was made that the four of the appellants acted together in a shared endeavour.  They arrived at the scene each wearing balaclavas.  Although it appears that Baker was leading the conversation, Jackson was the driver, Smith the front seat passenger, and Maketo with Baker were the rear seat passengers in the vehicle.  The evidence established that this was a jointly and equally carried out offence of false imprisonment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">We are also unpersuaded that the sentence identified by the judge was excessive.  This was a serious offence of false imprisonment, with many of the aggravating factors of seriousness which we have identified.  A sentence based upon 10 years' custody before plea discount was entirely appropriate and we do not find it excessive or wrong in principle.  Accordingly, we must dismiss each of those appeals concerning those sentences. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Turning to the appeal by Jackson in respect of his disqualification from driving, in sentencing him the judge said this:-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="margin-left:1.5in;margin-right:0.51in">"You will be disqualified from driving for a period of four years but that will be extended by 70 months to reflect the time that you will spend in custody, and you will be required to take an extended driving re-test."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">It was accepted that the judge was correct in calculating the period of disqualification, but it was argued that the discretionary period of 4 years was too long for this appellant.  Further, that the time served by Jackson on remand in custody should have been taken into account when extending the disqualification period under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">sections 35</ref>A and B. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">We have considered these submissions but have come to the conclusion that the discretionary disqualification of 4 years was not excessive for this particularly serious dangerous driving offence, over many miles and at speeds of up to 150 mph in a police chase.  We reject this argument.  However, we are persuaded that the uplift of 70 months to allow for the custodial term before the disqualification can take effect should have been reduced by 15 months.  This is agreed to be a correct reduction by Mr&#160;Smith, who has assisted us on behalf of the respondent and is the period Jackson served on remand in custody before he was sentenced.  Accordingly, the uplift in the disqualification order will be reduced to 55 months.  To that extent only, Jackson's appeal is allowed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Finally, the court record should reflect that the sentences of Neeko&#160;Smith and Ronald Maketo must refer to them respectively as serving 8 years and 7 years in a young offender institution.  The concurrent sentences should be similarly so recorded. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold">Epiq Europe Ltd</span> hereby certify that the above is an accurate and complete record of the proceedings or part thereof. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Lower Ground Floor, 46 Chancery Lane, London, WC2A 1JE</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in">Tel No: 020 7404 1400  Email:  Rcj@epiqglobal.co.uk</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

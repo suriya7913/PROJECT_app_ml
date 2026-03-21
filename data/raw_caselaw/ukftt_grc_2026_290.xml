@@ -1,0 +1,364 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/290"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/290"/>
+	  <FRBRdate date="2026-03-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="290"/>
+	  <FRBRname value="Saadat Ahmad Tahir v The Registrar of Approved Driving Instructors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/290"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/290"/>
+	  <FRBRdate date="2026-03-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/290/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/290/data.xml"/>
+	  <FRBRdate date="2026-03-04T15:40:54" name="transform"/>
+	  <FRBRdate date="2026-03-04T16:18:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-16" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-02-24" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-04" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="saadat-ahmad-tahir" href="" showAs="SAADAT AHMAD TAHIR"/>
+	<TLCPerson eId="the-registrar-of-approved-driving-instructors" href="" showAs="THE REGISTRAR OF APPROVED DRIVING INSTRUCTORS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-transport" href="/jurisdiction/transport" shortForm="Transport" showAs="Transport"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>290</uk:number>
+	<uk:cite>[2026] UKFTT 290 (GRC)</uk:cite>
+	<uk:jurisdiction>Transport</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>a16b9655b48ed01dad865a4189bffca233f1626347069f56f8cbe85f691b7777</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .apple-converted-space { }
+#judgment .judgment-bodynumber { }
+#judgment .visually-hidden { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00290 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/D/2025/1057</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-transport" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Transport</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">on: </span><docDate date="2026-02-16" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">16 February 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-04" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">04 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MATON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#saadat-ahmad-tahir" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">SAADAT AHMAD TAHIR</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-registrar-of-approved-driving-instructors" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE REGISTRAR OF APPROVED DRIVING INSTRUCTORS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">The </span><span style="font-family:'Book Antiqua';color:#000000">Appellant appeared in person.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">The Respondent did not attend and was not represented.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is Allowed.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Substituted Decision Notice: </span><span style="font-family:'Book Antiqua';color:#000000">The Appellant is to be granted a further trainee licence under s129 Road Traffic Act 1988 expiring on 3 April 2026.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">This is an Appeal against the decision of the Registrar dated 29 September 2025 that the Appellant should not be granted a third trainee licence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">The Tribunal received and considered a bundle of documents</span>, and the Appellant attended an oral hearing by Cloud Video Platform.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Registrar has notified the Tribunal that he does not propose routinely to attend appeals against refusals to grant trainee licences.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">By rule 36 of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009, a hearing can proceed in the absence of a party if the Tribunal is satisfied that the party had notice of the hearing and that it is in the interests of justice to proceed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">I am satisfied that these requirements were met in this case, and that this was a fair and just way to decide the Appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Relevant law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The grant of a trainee licence enables applicants to provide driving instruction for payment before they are qualified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">A trainee licence may be granted in the circumstances set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129" uk:canonical="1988 c. 52 s. 129" uk:origin="TNA" uk:type="legislation">s129</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>&#8221;) and the Motor Cars (Driving&#160;Instruction) Regulations 2005.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">A licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s129(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref> is granted: &#8220;for the purpose of enabling a person to acquire practical experience in giving instruction in&#160;driving&#160;motor cars with a view to undergoing such part of the examination [...] as consists of a practical test of ability and fitness to instruct.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In order to qualify as for registration as an approved driving instructor,&#160;applicants must pass the Qualifying Examination. This comprises: a written examination (&#8220;Part 1&#8221;); a&#160;driving&#160;ability and fitness test (&#8220;Part 2&#8221;); and an instructional ability and fitness test (&#8220;Part 3&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Three attempts are permitted at each part. The whole examination must be completed within two years of passing Part 1, failing which the whole examination has to be retaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The grant of a trainee licence enables applicants to provide instruction for payment before they are qualified. It is possible to qualify as an&#160;approved driving instructor without having held a trainee licence.  Under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s129(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>, the Registrar must grant a licence to an applicant who fulfils specified conditions, including that they have passed Parts 1 and 2. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s129(3)</ref> the Registrar has discretion to refuse an application for a second or subsequent licence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s129(6)</ref>(b), where a person applies for a new licence in substitution for a licence held by him and current at the date of the application, the previous licence will not expire if the Registrar decides to refuse the application, until the time limit for an appeal against the decision has expired and, if such an appeal is duly brought, it is finally disposed of.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The powers of the Tribunal in relation to appeals against decisions not to grant trainee licences are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/131" uk:canonical="" uk:origin="TNA" uk:type="legislation">s131</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>. When making a decision on any such appeal, the Tribunal stands in the shoes of the Registrar and takes a fresh decision on the evidence available to it, giving appropriate weight to the Registrar&#8217;s decision as the person tasked by Parliament with making such decisions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant was <span style="color:#000000">granted two consecutive trainee </span>licences valid from 9 September 2024 to 8 September 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant applied for a further trainee licence on 3 September 2025, and in an email dated 4 September 2025 the Registrar advised that he was considering refusing the application, and invited the Appellant to make representations regarding this. The Appellant made representations in an email dated 15 September 2025. The Registrar wrote to the Appellant by email dated 29 September 2025, refusing the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant appealed to the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant submits that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">he has throughout his training time been a full-time carer to his mother, taking her to medical appointments and on shopping trips as well as caring for her around the time of her undergoing surgery; he estimates that he spends around 35 hours per week doing this;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">during 2025, he was required to help his father-in-law in relation to surgery which his father-in-law had undergone, and that he was the only member of his family who could do this;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">his training has been disrupted by his trainer leaving the country and the need to find a new trainer, and also by difficulties in taking on students;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">he needs a trainee licence in order to prepare for Part 3; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">he has fully complied with all of the conditions of his licence.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Registrar submits that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the purpose of the provisions governing the issue of licences is to afford applicants the opportunity of giving instruction to members of the public whilst endeavouring to achieve registration; the system of issuing licences is not and must not be allowed to become an alternative to the system of registration;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the licence granted to applicants is not to enable the instructor to teach for however long it takes to pass the examinations, but to allow up to six months experience of instruction; that this provides a very reasonable period in which to reach the qualifying standard in the examination and in particular, to obtain any necessary practical experience in tuition; moreover, by virtue of the Appellant having applied for a third licence before the expiry date of the second, that licence remained in force and would allow him to continue to give paid instruction until determination of the Appeal;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">since passing his driving ability test the Appellant had failed the instructional ability test twice; and that despite ample time and opportunity, the Appellant had not been able to reach the required standard for qualification as an&#160;approved driving&#160;instructor;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the refusal of a third licence does not bar the Appellant from attempting Part 3; he does not need to hold a licence for that purpose, nor is it essential for him to give professional tuition under licence in order to obtain further training; and that alternatives are available to acquire registration without obtaining a licence.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his response to the appeal dated 15 December 2025, the Registrar also noted that the Appellant did not have a third attempt at Part 3 booked. The Appellant said at the hearing that he has a further attempt booked on 2 April 2026.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;color:#000000">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant has shown a number of factors which have prevented him from making full use of his licence. To some extent, difficulties with trainer and student availability are to be anticipated by any trainee driving instructor, but the Appellant&#8217;s substantial family commitments, which displace and disrupt his ability to undertake paid work, are clearly having a significant impact on him. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">While the Registrar is correct as a matter of law that a trainee does not need a licence in order to prepare for Part 3, I find that the Appellant&#8217;s circumstances have significantly disrupted his ability, in practice, to train. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">A significant factor in this is the Appellant&#8217;s caring commitments for his mother, which it seems were not apparent to the Registrar when he made his decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Conclusion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Having </span><span style="font-family:'Book Antiqua';color:#000000">considered all of the evidence and submissions in this appeal, I find that, given the difficulties experienced by the Appellant in using his licence so far, the Registrar&#8217;s decision was wrong and the appeal should be allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The question then arises as to what order, if any, I should make in respect of the Appellant&#8217;s trainee licence and whether I should grant any further extension.<span class="apple-converted-space">&#160;</span><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/131/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 131(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref> provides a broad discretion to the Tribunal to make an order as it<span class="apple-converted-space">&#160;</span><span style="font-style:italic">&#8220;</span>thinks fit<span style="font-style:italic">&#8221;</span>. Such a decision must necessarily be made on a case by case basis, taking into account the evidence available in the case. While it is a broad discretion, it must be subject to the usual limits of rationality and be in accordance with the law. For example, I do not consider that a trainee licence could be issued where it was no longer possible for the relevant person to be permanently registered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">I am conscious that by virtue of this &#8220;in-time&#8221; appeal, the Appellant has in practice already had the benefit of his licence being effectively extended until the determination of this appeal. That is a period of over five months since the second licence was due to expire. In effect, the Appellant has already had much of the benefit which he had sought. I also take into account the points which the Registrar has made about the purpose of a trainee licence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">That being said, taking into account the time between the date of this decision and the date on which the Appellant says that he has booked his third attempt at Part 3, and the statutory purpose of trainee licenses, I consider that it is fair in all the circumstances of the case to order the grant of a further trainee license expiring on the day after that test booking, 3 April 2026.  It is ordered that the Appellant be granted a licence for that period.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#000000">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">Judge Maton</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-02-24" refersTo="#decision" style="font-family:'Book Antiqua';color:#000000">24 February 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

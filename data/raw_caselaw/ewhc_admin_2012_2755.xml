@@ -1,0 +1,969 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/2755"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/2755"/>
+	  <FRBRdate date="2012-10-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2755"/>
+	  <FRBRname value="Wilkinson, R (on the application of) v HM Coroner for the Greater Manchester South District &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2755"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2755"/>
+	  <FRBRdate date="2012-10-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2755/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2755/data.xml"/>
+	  <FRBRdate date="2024-11-05T22:04:19" name="transform"/>
+	  <FRBRdate date="2024-11-12T19:29:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-10-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sophie-wilkinson" href="" showAs="SOPHIE WILKINSON"/>
+	<TLCPerson eId="hm-coroner-for-the-greater-manchester-south-district" href="" showAs="HM CORONER FOR THE GREATER MANCHESTER SOUTH DISTRICT"/>
+	<TLCPerson eId="wendy-livesley" href="" showAs="WENDY LIVESLEY"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-foskett" href="/judge-the-honourable-mr-justice-foskett" showAs="THE HONOURABLE MR JUSTICE FOSKETT"/>
+	<TLCPerson eId="judge-his-honour-judge-peter-thornton-qc" href="/judge-his-honour-judge-peter-thornton-qc" showAs="HIS HONOUR JUDGE PETER THORNTON QC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>2755</uk:number>
+	<uk:cite>[2012] EWHC 2755 (Admin)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>04f21cf010326a6a1879828796bea50574e29ea4c59b664e70d5ccacde3182f6</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>CO/8483/2011</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2012] EWHC 2755 (Admin)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2012-10-11" refersTo="#judgment">11/10/2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-foskett">THE HONOURABLE MR JUSTICE FOSKETT </judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-peter-thornton-qc">HIS HONOUR JUDGE PETER THORNTON QC</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#sophie-wilkinson" style="font-weight:bold">THE QUEEN on the application of SOPHIE WILKINSON</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#hm-coroner-for-the-greater-manchester-south-district" style="font-weight:bold">HM CORONER FOR THE GREATER MANCHESTER SOUTH DISTRICT</party></p>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">                                   - and &#8211;</span></p>
+	    <p style="text-align:center;margin-left:0.25in"><party as="#interested-party" refersTo="#wendy-livesley" style="font-weight:bold">WENDY LIVESLEY</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#interested-party">Interested Party</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center">(Transcript of the Handed Down Judgment of</p>
+      <p style="text-align:center">WordWave International Limited</p>
+      <p style="text-align:center">A Merrill Communications Company</p>
+      <p style="text-align:center">165 Fleet Street, London EC4A 2DY</p>
+      <p style="text-align:center">Tel No:  020 7404 1400, Fax No: 020 7404 1424</p>
+      <p style="text-align:center">Official Shorthand Writers to the Court)</p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">James Maxwell-Scott </span>(instructed by<span style="font-weight:bold"> Hill Dickinson LLP</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Alison Hewitt</span> (instructed by <span style="font-weight:bold">Stockport Legal Services</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Interested Party was not represented</span></p>
+      <p style="text-align:center">Hearing date: 30<span style="vertical-align:super;font-size:smaller">th</span> July 2012</p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Mr Justice Foskett and HHJ Peter Thornton QC :</span></p>
+      <p class="ParaLevel1"><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is the judgment of the Court to which each member has contributed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case raises the issue of whether evidence of the commission of the criminal offence of causing death by careless driving contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> is capable of justifying a verdict of &#8220;unlawful killing&#8221; at an inquest.  There is a divergence of view on the issue amongst coroners and it is an issue that needs to be resolved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter comes before the court by way of judicial review of the verdict of unlawful killing to which we will refer below, the essential basis of the challenge being that the defendant (the coroner) misdirected the jury by leaving it open to them to return such a verdict if they were sure that the offence of causing death by careless driving had been committed.  Permission to apply for judicial review was given by Stadlen J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although not raised directly for decision in this case, on one view of the issue identified above, it is inevitable that our decision will affect also the question of whether the offence of causing death by dangerous driving can amount to &#8220;unlawful killing&#8221; within the coroner jurisdiction.  We will return to this at paragraph 71 below.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The circumstances of the death in the present case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On Monday 21 December 2009 Dennis Livesley (DL), a vehicle recovery technician, attended the scene of an accident at the Junction 7 and 8 divergence of the M60 motorway. A Volvo S40 motor car had struck the central reservation barrier. The police had moved the Volvo to the hard shoulder and DL attended with a view to removing it from the scene. While standing at the rear of the Volvo, he was struck by a VW Golf motor car driven by the claimant. Sadly, he died from his injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt that the road conditions that day were very poor. There had been snow and ice on the road and there had been an accident at precisely the same location earlier in the day when a vehicle had skidded on a patch of ice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is equally not in doubt that the claimant&#8217;s car had spun out of control. The issue was why that occurred.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The police investigations</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The circumstances surrounding DL&#8217;s death were investigated by the police. Statements were taken from the only eye witness, an experienced driver himself, and there was a detailed accident investigation report from a police officer from the Greater Manchester Police Forensic Collision Reconstruction Unit as well as statements from the driver of the other vehicle that had skidded and police and Highways Agency officers who had driven that stretch of the motorway that day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Crown Prosecution Service (CPS) considered the evidence carefully and in a fully reasoned letter to DL&#8217;s widow dated 8 June 2010 explained why the decision had been made not to prosecute the claimant for any offence arising from the incident.  The reasons appear from the following two paragraphs of that letter:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;There had already been an accident at that precise location earlier that day. Your husband had attended to assist the driver of the vehicle who had been involved in that crash. There was no suggestion that that other driver had done anything wrong. What is very clear is that the road conditions were poor. There was snow and ice on the hard shoulder of the motorway and witnesses describe the main carriageway is being slippy (sic). In order to succeed with a prosecution against Sophie Wilkinson we would have to prove, so that a court could be sure, that her standard of driving fell below that which would be expected of a reasonable motorist. We have spoken, at length, to the only person who saw the collision. He can only say that when he first saw Miss Wilkinson&#8217;s car it was spinning and out of control. He cannot assist us to discover how she came to lose control of her vehicle. There is no evidence that her speed was excessive for the conditions.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">We know that she was not using a mobile phone at the time of the accident and there is no evidence that she was distracted by anything within her car. The defence will ask the court to assume that she had hit a patch of ice, as had the other driver earlier, and that what happened after that was something over which she had no control. As it would be impossible to argue against that submission she would, inevitably, be acquitted.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The inquest proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An inquest was opened by the defendant with a jury on 9 May 2011. On 12 May 2011 at the conclusion of the evidence (which included evidence from the claimant) the coroner referred the case back to the CPS. We have not seen the letter he sent to the CPS, but we anticipate that he asked that the case be reviewed in the light of the evidence given at the inquest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The CPS reconsidered its earlier decision in the light of the evidence given, but did not alter it.  The letter to the defendant was detailed, but the essence can be seen from the following two paragraphs in its conclusion:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[The eye witness] was unable to state categorically that he had seen the vehicle driven by [the claimant] on the hatch markings; he indicated that he had not seen her overtake him. He was also unsure of the exact position of his own vehicle in relation to the chevrons. The contradictions between his account in his statement, pre-trial interview and account at the inquest mean that a court could not be satisfied [the claimant] had driven across the chevrons. Witnesses confirm the road was icy.  Indeed, a similar accident had occurred on the same slip road. This had caused [the driver of that vehicle] to lose control of his vehicle around an hour before. The prosecution is unable to say that the manner of [the claimant&#8217;s] driving caused the accident and fell below the standards of a reasonable and prudent driver due to the road conditions at the time.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Under all the circumstances of the case a court could not be sure to the criminal standard and therefore there is not a realistic prospect of a conviction.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The inquest resumed before the jury on 15 June 2011. The coroner left three possible short form verdicts to the jury: unlawful killing, accident or open verdict.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his summing up the coroner left the verdict of unlawful killing to the jury on the basis that they could return this verdict if it was proved to the criminal standard that there was sufficient evidence for a conviction of either manslaughter, causing death by dangerous driving or causing death by careless driving. So far as a possible verdict of manslaughter was concerned, he directed the jury that the relevant type of manslaughter was &#8220;gross negligence manslaughter&#8221; which involved the existence of a duty of care that every road user owes to all other road users and a &#8220;grossly negligent breach of that duty so as to amount to the crime of homicide leading to death&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following day the jury returned a verdict of unlawful killing, with no further details given.  In the circumstances, it is clear that the only basis upon which such a verdict could justifiably have been returned was that there was evidence that made the jury sure that there had been a sufficient degree of careless driving by the claimant to cause DL&#8217;s death.  In our judgment, there was no evidence that would have supported such a verdict based upon manslaughter or dangerous driving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the verdict the Chief Crown Prosecutor for the CPS in the North West of England appointed a senior prosecutor to conduct a case review in the light of the evidence given at the inquest. On 1 September 2011 the CPS confirmed that the decision not to prosecute the claimant remained unaltered.  We have not seen the reasons given, but apprehend they were essentially as before.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As we have indicated, the essential issue is whether the coroner was right to leave to the jury the issue of unlawful killing based upon the suggestion that DL&#8217;s death was caused by careless driving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The coroner invited submissions on the issue without the jury being present before his summing up: Counsel for DL&#8217;s family submitted that the jury should be invited to consider the possibility of a verdict of &#8220;unlawful killing&#8221; whereas the Claimant&#8217;s solicitor submitted the contrary.  The coroner reserved his decision in order to consider it carefully. We do not have a transcript of the arguments and we do not have a transcript of any reasons given by the coroner for adopting the submissions made on behalf of the family.  However, he directed the jury along the lines we have indicated, his reasons (as expressed in the witness statement prepared for these proceedings) being essentially that a verdict of &#8220;unlawful killing&#8221; is capable of embracing a situation where a person has been &#8220;killed&#8221; by another person, that other person in the process being guilty of a criminal offence causing death.  His view was that where a deceased&#8217;s death has arisen from the commission of a criminal offence, then it can properly be described as &#8220;unlawful killing&#8221; and that such a description is more apt than that of &#8220;accident&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In passing we comment that it is (or at least should be) standard practice for the coroner to prepare a draft written statement of the matters which he/she believes the law requires in relation to the possible verdicts. After submissions the coroner should rule on the verdicts that are to be left or not left and, where there is a dispute about them, give short reasons for the decision. Once discussed and ruled upon the coroner can then amend the draft, if necessary, and prepare the final directions of law for handing to the jury: see <span style="font-style:italic">R v Inner South London Coroner, ex parte Douglas-Williams</span> <ref href="#" uk:canonical="[1999] 1 All ER 344" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 All ER 344</ref>, 355.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It appears that the coroner substantially complied with this overall approach although, as we say, he does not appear to have given short reasons for his decision in the form of a ruling.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The competing submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr James Maxwell-Scott for the claimant submits that the offence of causing death by careless driving should not have been left to the jury and that it can never amount to unlawful killing. Ms Alison Hewitt on behalf of the coroner takes a neutral position (which is a common position for a coroner to take), but she submits that there is good reason for the offence to be considered as a species of unlawful killing for the purposes of a verdict at an inquest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both counsel accept that there is no statutory definition as such of unlawful killing and the issue before us has not previously been decided. There is, as we have indicated, a divergence of practice amongst coroners that needs to be resolved.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The essential arguments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Maxwell-Scott relies upon the wording of the Notes relating to the Inquisition Form 22 set out in Schedule 4 to the Coroners Rules 1984 and upon the opinions of the textbook writers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He submits that causing death by careless driving is not to be treated as a manslaughter offence and should therefore be excluded from the definition of unlawful killing. If it is included, he suggests that many thousands of inquests concerning road deaths would turn into trials of liability, which would be wrong in principle, being contrary to Rule 42 of the Coroners Rules 1984 (see paragraph 45 below).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Maxwell-Scott directs the thrust of his argument to the offence of causing death by careless driving. He is neutral on whether causing death by dangerous driving can amount to unlawful killing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Hewitt submits that the notes in Schedule 4 are no more than guidance, as Rule 60 states, and were written at a time when the charging and committing for trial procedure had recently been abolished. They were, therefore, she submits, tailored to that end. In any event, they were drafted before the relevant driving offences had been created.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We will refer again to their more detailed submissions as we review the background and the issues.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The history of the verdict of &#8216;unlawful killing&#8217;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The use of the verdict of unlawful killing is of relatively recent origin.  There is no statutory definition as such.  It appears that the expression &#8220;unlawful killing&#8221; first gained currency following the implementation of the Coroners Rules 1984 (see paragraphs 41-43 below).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We begin with a brief overview of the statutory framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While the office of coroner is mentioned in the Articles of Eyre in 1194, the last 200 years have produced much codification of coroner law in statute form. Coroners Acts were passed in 1843, 1844, 1860, 1887, 1926, 1955, 1980 and 1988. The 1887 Act was the cornerstone of the modern law, now amended, revised and enshrined in the current <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref>, which in turn will be replaced, it is anticipated, in 2013 by the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/25" uk:canonical="2009 c. 25" uk:origin="TNA" uk:type="legislation">Coroners and Justice Act 2009</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the meantime the various Acts of Parliament were supplemented from time to time with statutory rules. The currently extant Rules are the Coroners Rules 1984.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The position before 1977 was that where a jury found proved to the criminal standard that a person had caused a death by committing homicide, that person would be both named and charged with the offence and committed for trial directly from the inquest proceedings. Homicide for these purposes was murder and manslaughter: see Coroners Act 1887, sections 4(3), 5 and 18. Infanticide, another homicide offence, was added by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/16-17/59/section/13/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13(2)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/16-17/59" uk:canonical="1926 (16 &amp; 17 Geo. 5) c. 59" uk:origin="TNA" uk:type="legislation">Coroners (Amendment) Act 1926</ref> when it became an offence in 1922. (The offence is now provided for in the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/1-2/36" uk:canonical="1938 (1 &amp; 2 Geo. 6) c. 36" uk:origin="TNA" uk:type="legislation">Infanticide Act 1938</ref>). No offence other than those to which we have referred could be charged by an inquest jury.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Coroners (Indictable Offences) Rules 1956 (made under the power of the Coroners Act 1887 and revoking the earlier Indictable Offences (Coroners) Rules 1927) laid down the procedure for the charging of these offences where the jury were satisfied that the evidence supported such a course. Once the jury had laid the charge in the Inquisition - the formal document which states the findings of the inquest - the person was charged as if the offence applied to an indictment (Rule 2). The coroner then committed him for trial, specifying in the warrant of commitment before which assizes the person charged would be tried (Rule 3), and he committed him in custody or on bail (Rules 4-6). The coroner also had powers and duties in respect of witnesses at the inquest who would be expected to give evidence at trial (Rules 7-8).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is, in our judgment, significant for the purposes of this case that the 1956 Rules provided for the form of the Inquisition when a person was so charged (Rule 10), just as the 1887 Act had, in a schedule. Part I of the Second Schedule of the 1956 Rules sets out the form of the &#8220;Inquisition charging an offence&#8221;. It includes as a matter found that an offence had been committed by a named person in connection with the death of the deceased together with a &#8216;Statement of Offence&#8217; and &#8216;Particulars of Offence&#8217; in the form and in the manner of a modern-day indictment. Part II cites specimen examples of statements and particulars of offences for murder, manslaughter, infanticide (in two forms) and for an accessory before the fact to one of these offences, but for no other offence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rule 3 of the Indictment Rules 1915 (as set out in the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/5-6/90" uk:canonical="1915 (5 &amp; 6 Geo. 5) c. 90" uk:origin="TNA" uk:type="legislation">Indictments Act 1915</ref>, Schedule 1, and applied by the 1956 Rules) provided for charging more than one offence in the inquisition &#8220;if those charges are founded on the same facts, or form or are a part of a series of offences of the same or a similar character&#8221; (words which are familiar to all criminal practitioners even today). Separate charges were to be set out in the Inquisition in separate paragraphs with separate numbered counts (Rule 4 of the 1915 Rules). A person charged must be identified if possible by name and if not possible by other means or with the words &#8220;a person unknown&#8221; (Rule 7).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Hence, the 1957 edition of <span style="font-style:italic">Jervis </span>on<span style="font-style:italic"> The Office and Duties of Coroners</span> (9<span style="vertical-align:super;font-size:smaller">th</span> edn., p.174) refers to the verdict at an inquest in these terms: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The verdict consists in the answers required to enable the form of inquisition to be completed, including, where the deceased came by his death by murder, manslaughter or infanticide the persons, if any, guilty of such offence or of being accessories before the fact [Coroners Act 1887, section 4(3)].&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Other verdicts, where the death was due to disease or natural causes, were recommended to be &#8220;natural causes, industrial disease, want of attention at birth, chronic alcoholism, addiction to drugs, self-neglect or lack of care&#8221; (p.178). In the 1957 edition the authors emphasised that &#8220;[a] distinction is to be drawn between deaths due to disease or to natural causes and deaths due to violence&#8221; (p.177). Reference is made also to the notes to the prescribed form of Inquisition where the death is due to &#8220;violence&#8221; but no charge of murder, manslaughter or infanticide is brought, and the recommendation that the verdict should be &#8220;suicide, abortion, accident or misadventure, execution of sentence of death and justifiable or excusable homicide&#8221; (p.179). Reference is also made to an open verdict (p.181).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the Coroners Rules 1958 the forms in the 3<span style="vertical-align:super;font-size:smaller">rd</span> Schedule, notably Form 18 for the Inquisition, referred in the Notes to the verdicts of murder, manslaughter and homicide, adding addiction to drugs and the phrase &#8216;the cause of death was aggravated by lack of care/self-neglect&#8217; (Note 5(5)). Note 5(c) stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In the case of murder, manslaughter or infanticide regard should be paid to the Rules set out in the Coroners (Indictable Offences) Rules 1956&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows from this analysis that by 1958 nothing existed in the Rules or the Notes that identified &#8220;unlawful killing&#8221; as a potential verdict.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In our judgment, this historical narrative indicates a clear, fixed and long-standing scheme that identified acts of violence amounting to murder, manslaughter and infanticide, and no other offences, as constituting a separate category for the purposes of recording a verdict at an inquest with the consequence for the person or persons responsible of being charged and committed for trial. But this scheme did not survive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One of the last, if not the last, person to be committed for trial in this way was  Lord Lucan, cited for murder by the jury inquiring into the death of the nanny employed to look after his children, Sandra Rivett, in November 1974 and committed for trial at the inquest in his absence. As is well-known, Lord Lucan fled and has never been apprehended. Following this case the <ref href="http://www.legislation.gov.uk/id/ukpga/1977/45" uk:canonical="1977 c. 45" uk:origin="TNA" uk:type="legislation">Criminal Law Act 1977</ref> abolished that procedure. <ref href="http://www.legislation.gov.uk/id/ukpga/1977/45/section/56/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 56(1)</ref> provided:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;At a coroner&#8217;s inquest touching the death of a person who came by his death by murder, manslaughter or infanticide, the purpose of the proceedings shall not include the finding of any person guilty of the murder, manslaughter or infanticide; and accordingly a coroner&#8217;s inquisition shall in no case charge a person with any of these offences.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The consequence of the abolition was to leave a vacuum. What should happen if the jury were to conclude that the violent death had been caused by murder, manslaughter or infanticide? The jury could no longer name or identify the guilty person and the coroner could no longer commit for trial. What should the jury do? The answer was provided for the first time in the next set of Coroners Rules implemented in 1984.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following previous practice, Rule 60 and Schedule 4 of the Coroners Rules 1984 provide reference to and guidance on the forms which may be used in an inquest. Schedule 4 includes Form 22 which deals with the form for the Inquisition. In relation to the &#8220;Conclusion of the jury/coroner as to the death&#8221; certain Notes are provided.  Note 2 provides that &#8220;[i]n the case of a death from natural causes or from industrial disease, want of attention at birth, or dependence on, or non-dependent abuse of, drugs insert the immediate cause of death and the morbid conditions (if any) giving rise to the immediate cause of death.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to see the context of the reference to someone being killed unlawfully, we set out Note 4 in full:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(a) Where the cause of death is one to which Note 2 applies, it is suggested that one of the following forms be adopted:&#8212; </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">C.D. died from natural causes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">C.D. died from the industrial disease of </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.39in">C.D. died from dependence on drugs/non-dependent abuse of drugs. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">C.D. died from want of attention at birth. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.39in">(In any of the above cases but in no other, it is suggested that the following words may, where appropriate, be added:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;and the cause of death was aggravated by lack of care/self-neglect&#8221;.)</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.39in;text-indent:0.5in">In any other case except murder, manslaughter, infanticide or stillbirth, it is suggested that one of the following forms be adopted:&#8212; </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.39in">C.D. killed himself [whilst the balance of his mind was disturbed]. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">C.D. died as a result of an attempted/self-induced abortion. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">C.D. died as a result of an accident/misadventure. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.39in">[CD died in the .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. disaster (<span style="font-style:italic">insert name of disaster which was subject of a public inquiry</span>)</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in">Execution of sentence of death. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.61in;margin-right:0.39in;text-indent:0.39in"><span style="font-weight:bold">C.D. was killed lawfully.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Open verdict, namely, the evidence did not fully or further disclose the means whereby the cause of death arose.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the case of murder, manslaughter or infanticide it is suggested that the following form be adopted&#8212;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">C.D. was killed unlawfully.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the case of a stillbirth insert &#8220;stillbirth&#8221; and do not complete the remainder of the form.&#8221;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[Emphasis in bold above added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This appears to be the first time that the word &#8220;killing&#8221; together with either the word &#8220;lawfully&#8221; or &#8220;unlawfully&#8221; appears in any statutory or quasi-statutory form in the coroner&#8217;s jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We have no reason to doubt the validity and accuracy of the following passage from the 10th edition of <span style="font-style:italic">Jervis</span> (edited by Matthews and Foreman and published in 1986) at paragraph 16.11:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Note (4) to the prescribed form of inquisition gives a comprehensive list of suggested (though not compulsory) verdicts. The object of this list is to standardise verdicts over the whole country and to make statistics based on the Annual Return more reliable by avoiding as far as possible any overlap between the different verdicts.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rule 42 of the 1984 Rules provides that  - </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;No verdict shall be framed in such a way as to appear to determine any question of &#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">criminal liability on the part of a named person, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">civil liability.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Thus it is that however obvious it is that there is one person and one alone who could be named as criminally responsible for the death, the inquisition must not name him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We do not know whether the expression &#8220;unlawful killing&#8221; had been used in the context of inquests prior to 1984: there is nothing in any of the textbooks contemporary at the time to suggest that it was.  If it had been used there appears to have been no suggestion that it extended to any criminal offence other than the three homicide offences to which we have referred and there is nothing in the 1984 Rules to suggest that any change of practice was contemplated thereafter.  If the use of the expression &#8220;unlawful killing&#8221; commenced after the promulgation of those Rules (which seems to us the most likely scenario) it is clear from the phraseology of the Notes, notwithstanding its apparent permissive rather than mandatory nature, that the expression was intended to embrace only murder, manslaughter or infanticide.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question is whether the expression must now be taken to have been enlarged to embrace some or all of the driving offences causing death.  We will review those offences first.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The history of the causing death by driving offences</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Professor David Ormerod in <span style="font-style:italic">Smith and Hogan&#8217;s Criminal Law</span> (13<span style="vertical-align:super;font-size:smaller">th</span> edn., 2011) describes the unsatisfactory history of driving offences in this way:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Historically, there were offences of reckless, dangerous and careless driving. They were supposed to represent a hierarchy. Unfortunately, the courts failed to find a satisfactory definition for any of the offences. The <span style="font-style:italic">James Committee</span> noted the confused state of the law and how the supposed hierarchy failed to work well. In 1977, Parliament abolished dangerous driving. However, the offence of reckless driving that remained was still lacking a clear definition &#8230; the authors of the <span style="font-style:italic">North Report</span> felt that it left too many cases of bad driving to be dealt with as careless driving.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">Causing death by dangerous driving</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the 1980s very bad driving which caused death was charged as manslaughter (<span style="font-style:italic">USA Government v Jennings</span> <ref href="#" uk:canonical="[1983] 1 AC 624" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 AC 624</ref>), commonly known as &#8216;motor manslaughter&#8217;. But juries were reluctant to convict and hence the creation first in 1956 of the offence of causing death by driving a vehicle on a road recklessly or at a speed or in a manner dangerous to the public, and later in 1991 the offence which replaced it of causing death by dangerous driving contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (as substituted by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40" uk:canonical="1991 c. 40" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1991</ref>).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This latter offence requires the driving to fall &#8220;far below what would be expected of a competent and careful driver&#8221; such as &#8220;would be obvious to a competent and careful driver that driving in that way would be dangerous&#8221;: <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>A(1) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>, as substituted. This offence carries a maximum penalty of 14 years&#8217; imprisonment.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">Causing death by careless driving</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40" uk:canonical="1991 c. 40" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1991</ref> also inserted a new <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A into the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>, creating a new offence of causing death by careless or inconsiderate driving when under the influence of drink or drugs. This too is a serious offence, also carrying a maximum penalty of 14 years&#8217; imprisonment (originally 10 years). Professor Ormerod comments that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/40/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>A appears to create eight forms of this offence (p.1141).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some years later, in 2006, the offence of causing death by careless or inconsiderate driving, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (as inserted by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref>), was created, but with a lesser maximum penalty of five years&#8217; imprisonment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are additionally other &#8216;causing death by&#8217; driving offences. <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 21</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref> introduced the offence of causing death by driving while unlicensed, disqualified or uninsured, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>. The driving need be neither careless nor inconsiderate. It may be flawless and the collision solely the fault of the deceased or another driver. But the offence is committed if the driver is unlicensed, disqualified or uninsured and if the driving is a cause of death in the sense that it was &#8216;more than negligible or <span style="font-style:italic">de minimis</span>&#8217;: see <span style="font-style:italic">R v Williams</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552" uk:canonical="[2010] EWCA Crim 2552" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Crim 2552</ref>, cited in <span style="font-style:italic">Smith and Hogan</span> at p.1142). This offence carries a maximum sentence of two years&#8217; imprisonment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The breadth of these offences, sometimes considered controversial (see <span style="font-style:italic">Smith and Hogan</span>, above,<span style="font-style:italic"/>at pp.1142-1143)<span style="font-style:italic">, </span>has been justified by the fact that death has been caused, a factor of great gravity. It is a factor that has seen a revision of sentencing policy in some areas, with particular attention to be paid to the consequences of a crime: see, e.g., <span style="font-style:italic">R v Appleby (A-G&#8217;s Reference (Nos.60, 62 and 63 of 2009)</span> [2010] 2 Cr.App. R. (S.) 46.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Definitive Guideline of the Sentencing Council in relation to &#8216;Causing Death by Driving&#8217; (promulgated in July 2008 and effective in relation to anyone sentenced on or after 4 August 2008) applies to four offences: (i) causing death by dangerous driving; (ii) causing death by careless driving under the influence of alcohol or drugs or having failed either to provide a specimen for analysis or to permit analysis of a blood sample; (iii) causing death by careless or inconsiderate driving and (iv) causing death by the driving of an unlicensed, disqualified or uninsured driver.  The guidelines apply to a &#8220;first-time offender&#8221; aged 18 or over convicted after trial.  For offences under (i) and (ii) custodial sentences of some length are suggested.  For offences under (iii) where the careless or inconsiderate driving falls not far short of dangerous driving, custodial sentences (generally of a shorter length than those for (i) and (ii)) are suggested and even in not such serious cases there may be a custodial sentence.  For offences under (iv), custodial sentences a little shorter than those suggested under (iii) are suggested for cases where the offender was disqualified from driving or unlicensed or uninsured and two or more aggravating factors from a list set out exist.  Custodial sentences may be imposed in other circumstances, but otherwise for these offences and for offences under (iii) where the careless or inconsiderate driving arose from momentary inattention with no aggravating factors, community orders are suggested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt that, for sentencing purposes, each of these various offences resulting in someone&#8217;s death may be sufficiently serious (and in virtually all cases under (i) and (ii) will certainly be so) to justify a custodial sentence, as indeed would virtually any case in which the driving was sufficiently bad to lead to a conviction for manslaughter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, since the determination of criminal liability and its consequences are not the province of an inquest we do not consider that this guidance affords a basis for resolving the issue raised in this application.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">General conclusion and reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Reflecting the view of the coroner (see paragraph 17 above), Ms Hewitt submits that a person who is killed as a result of another&#8217;s careless driving can properly be described as having been killed unlawfully and on that basis it is suggested that there is nothing illogical about permitting a verdict of unlawful killing where the evidence justifies the conclusion to the criminal standard that a piece of careless (or inconsiderate) driving has caused the death.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">From a purely linguistic point of view it is, of course, possible to see the grounds for this argument.  However, in our judgment, it ignores the essential purpose of an inquest which is directed solely to ascertaining who the deceased was, how, when and where he came by his death and the particulars required for registration purposes (Rule 36, Coroners Rules 1984) without seeking to apportion blame or to determine any issue of civil or criminal liability (Rule 42, see paragraph 46 above). If any reminder was needed of that essential proposition, Lord Lane CJ said this in<span style="font-style:italic"> R v South London Coroner, ex parte Thompson</span> (1982) 126 SJ 625:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Once again it should not be forgotten that an inquest is a fact-finding exercise and not a method of apportioning guilt &#8230;. The function of an inquest is to seek out and record as many of the facts concerning the death as [the] public interest requires&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">R v HM Coroner for North Humberside and Scunthorpe, ex parte Jamieson</span> <ref href="#" uk:canonical="[1995] QB 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] QB 1</ref>, 24, Sir Thomas Bingham MR said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is not the function of a coroner or his jury to determine, or appear to determine, any question of criminal or civil liability, to apportion guilt or attribute blame. This principle is expressed in rule 42 of the Rules of 1984. The rule does, however, treat criminal and civil liability differently: whereas a verdict must not be framed so as to appear to determine any question of criminal liability <span style="font-style:italic">on the part of a named person</span>, thereby legitimating <span style="font-weight:bold">a verdict of</span><span/><span style="font-weight:bold">unlawful</span><span> &#8201;</span><span style="font-weight:bold">killing</span> provided no one is named, the prohibition on returning a verdict so as to appear to determine any question of civil liability is unqualified, applying whether anyone is named or not.&#8221;   [Emphasis in bold added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Furthermore, in <span style="font-style:italic">R (Middleton) v West Somerset Coroner </span><ref href="#" uk:canonical="[2004] 2 AC 182" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 AC 182</ref>, 202, Lord Bingham said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;However the jury&#8217;s factual conclusion is conveyed, rule 42 should not be infringed. Thus there must be no finding of criminal liability on the part of a named person. Nor must the verdict appear to determine any question of civil liability. Acts or omissions may be recorded, but expressions suggestive of civil liability, in particular &#8216;neglect&#8217; or &#8216;carelessness&#8217; and related expressions, should be avoided.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In our judgment, the main purpose of having a verdict of unlawful killing is to distinguish between those cases where there has been an accident of some kind (where, of course, someone may be to blame for it, even with some degree of criminality) and those cases where it would be an abuse of language to describe the events leading to death as simply an accident. Someone killed by murder, manslaughter or infanticide is killed either intentionally or by some obviously criminal state of mind on the part of, or some negligence of the grossest kind by, the author of the killing. Someone killed by careless driving is killed as a result of an accident arising from, or at least contributed to by, the actions of the careless driver. Those actions may give rise to criminal consequences, but given the essential purpose and scope of an inquest, it is neither necessary nor appropriate to investigate and record that conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Applying those basic tenets of coroner law leads to the principled conclusion that causing death by careless or inconsiderate driving should not be treated as &#8220;unlawful killing&#8221; for the purposes of the conclusion of an inquest whatever conclusion may be reached in other contexts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We consider that that principled conclusion is supported by Parliament&#8217;s approach. The 1984 Rules were brought into force under the powers conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/16-17/59/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 26</ref> and 27 of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/16-17/59" uk:canonical="1926 (16 &amp; 17 Geo. 5) c. 59" uk:origin="TNA" uk:type="legislation">Coroners (Amendment) Act 1926</ref>. Whilst it is correct to say that the Notes to the Rules are expressed in effect to be for guidance only (see Rule 60), if Parliament had at any stage thought that too restrictive an interpretation was being placed in practice upon the expression &#8220;unlawful killing&#8221;, it would have been open to it to change the phraseology of the Notes to indicate its view. It would not have required primary legislation to achieve this. However, at no stage has this been done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Most significantly, it was not done following the introduction in 1991 of the offence of causing death by careless driving under the influence of alcohol or drugs. As an offence that is plainly morally more serious than what might be termed for this purpose &#8220;mere&#8221; careless driving, a proposition reflected in the maximum sentence set by Parliament for these respective offences and, more recently, in the Sentencing Council Guidelines (see paragraph 56 above). The death of someone caused by that kind of driving is arguably closer to having arisen from manslaughter than is causing death by &#8220;mere&#8221; careless driving and yet Parliament has not chosen to alter the guidance in the Notes. As we have indicated, this seems to us to be consistent with the principled approach to which we have referred: the death in such circumstances was still caused by an accident, albeit one arising from some carelessness caused or contributed to by the presence of drugs or alcohol.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Indeed Parliament had the opportunity again to amend the Notes to the Rules after creating the offence of causing death by careless (or inconsiderate) driving in 2006, but did not do so. However, <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/16-17/59" uk:canonical="1926 (16 &amp; 17 Geo. 5) c. 59" uk:origin="TNA" uk:type="legislation">the Act</ref> that created the offence (the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref>) did amend <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 16</ref> and 17 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref> to include the new offence for the purpose of adjourning inquests where proceedings had been instituted (section 20(5)). This suggests that the effects that the creation of the offence should have on how inquest proceedings were conducted were considered at the time, but no step taken to suggest that the scope of the verdict of &#8220;unlawful killing&#8221; should be enlarged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Again, for our part, we see this as consistent with the principled view to which we have referred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We are reinforced in our view by the general understanding of the meaning of the expression &#8220;unlawful killing&#8221;: there is an instrinsic strength to the expression and a connotation of the use of violence in contrast to a more neutral expression such as &#8220;causing death&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We conclude, therefore, that the verdict of unlawful killing is restricted to murder, manslaughter (including corporate manslaughter) and infanticide.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Bad driving cases causing death may, therefore, only be regarded as &#8220;unlawful killing&#8221; for inquest purposes if they satisfy the ingredients for manslaughter (gross negligence manslaughter). The offences of causing death by dangerous driving, causing death by careless driving and other driving offences where death is caused do not fall within the scope of a verdict of unlawful killing in the coroner jurisdiction. It follows, in our judgment, that no reference should be made in an inquest to any of these driving offences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This approach is consistent with the current views of some textbook writers. The current edition of <span style="font-style:italic">Jervis</span> (12<span style="vertical-align:super;font-size:smaller">th</span> edn., 2002), edited by Professor Paul Matthews, HM Coroner for the City of London, states (at para.1334, pp.314-315):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Unlawful killing covers all cases of unlawful homicide, but does not include cases where the killing was justified, eg by self-defence or the prevention of crime. It clearly covers murder, manslaughter and infanticide. It has been suggested that it does not include causing death by dangerous driving. Historically, there is much to be said for this view, but the 1977 reforms replaced the old law [charging and committing for trial], and accordingly the matter should be considered afresh. Some argue that &#8220;unlawful killing&#8221; should cover death by dangerous driving because it is one of the offences a charge of which requires the coroner to adjourn [<ref href="http://www.legislation.gov.uk/id/ukpga/1988/13/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref>]. But this proves too much, as the same consequence flows from a charge of complicity in another&#8217;s suicide. Causing death by dangerous driving, like the newer offence of causing death by careless driving when under the influence of drink and drugs, involves killing (ie causing death) and <span style="font-style:italic">ex hypothesi</span> is unlawful. The former involves killing by means of a dangerous act, and in many cases amounts to a form of manslaughter, whereas the latter does not necessarily do so. But it is also possible that there are cases of the former offence which would not amount to manslaughter. <span style="font-weight:bold">It is therefore submitted that the sensible course is to ignore the two road traffic offences, and concentrate on manslaughter. If the coroner (or jury) is satisfied that the elements of manslaughter are present, then it is proper to categorise it as an unlawful killing; otherwise, not. </span>In complex cases it may in any event be too confusing for the jury to consider death by dangerous driving separately from manslaughter.&#8221; [Emphasis in bold added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We agree with these sentiments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It should be said that the editors of <span style="font-style:italic">Jervis</span> have not always taken quite the same view since the verdict of unlawful killing first emerged in 1984. In the 1986 edition (10<span style="vertical-align:super;font-size:smaller">th</span> edn.) the editors concluded that unlawful killing &#8220;covers murder, manslaughter and infanticide and causing death by reckless driving&#8221; (para.16.18 at p.195). The opinion of the editors was that the statutory offence of reckless driving (since abolished) and the common law offence of &#8220;motor manslaughter&#8221; were sufficiently close to being &#8220;legally identical&#8221; (para.17.27 at p.208) that both should be included for the purposes of unlawful killing. And since, according to the House of Lords in <span style="font-style:italic">USA Government v Jennings</span> <ref href="#" uk:canonical="[1983] AC 624" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] AC 624</ref>, &#8220;motor manslaughter&#8221; still existed independently of the statutory offence, even if they were not identical reckless driving fell within the scope of unlawful killing &#8220;because the deceased would indeed have been killed in an unlawful manner amounting to the commission of a serious offence&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, as the editors of <span style="font-style:italic">Jervis</span> pointed out in that same 10<span style="vertical-align:super;font-size:smaller">th</span> edition, two other works on coroners took the opposite view, arguing that the statutory offence of reckless driving was not unlawful killing: see Thurston&#8217;s <span style="font-style:italic">Coronership</span> (3<span style="vertical-align:super;font-size:smaller">rd</span> edn., 1985) and Burton, Chambers and Gill&#8217;s <span style="font-style:italic">Coroners Inquiries</span> (1985). In the current edition of the Legal Action Group book on <span style="font-style:italic">Inquests</span> (2<span style="vertical-align:super;font-size:smaller">nd</span> edn., 2008) the verdict of unlawful killing is described as embracing just &#8220;murder and manslaughter&#8221; (para.17.65, p.292), although it should be noted that <span style="font-size:11pt">the current edition of  </span><span style="font-style:italic;font-size:11pt">Coroners&#8217; Courts, A Guide to Law and Practice</span><span style="font-size:11pt"> (2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> edn., 2004), by Christopher Dorries, HM Coroner for South Yorkshire West District, suggests that unlawful killing applies to homicide and to &#8220;certain serious driving offences&#8221; (para.9.34, p.289) including causing death by dangerous driving and the various causing death by careless driving offences (para.9.35, pp.289-290).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the 1993 edition of <span style="font-style:italic">Jervis</span> (11<span style="vertical-align:super;font-size:smaller">th</span> edn.) the editors drew a distinction between, on the one hand, causing death by dangerous driving which involved a killing by means of a dangerous act, in many cases amounting to a form of manslaughter, and, on the other hand, all other acts causing death including causing death by careless driving (para.13-29, pp.251-252). The proper conclusion in the case of the former offence was that it was unlawful killing, but the latter offences were accident/misadventure rather than unlawful killing (para.14.45, p.273).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons we have given, in our judgment, the conclusion in the current edition of <span style="font-style:italic">Jervis</span> that the driving offences should be ignored is correct. If the driving which causes death is capable of constituting manslaughter it should be put to the jury on the basis of manslaughter and on that basis alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, some further support for the proposition that unlawful killing should extend only to driving that amounts to gross negligence manslaughter can be found in the ruling on 10 April 2008 of the coroner on potential verdicts in the inquests into the deaths of Diana, Princess of Wales, and Dodi Al Fayed. The coroner, Scott Baker LJ, left a number of verdicts to the jury including unlawful killing by the grossly negligent driving of the pursuing paparazzi and of the driving of the Mercedes in which they were passengers. That was the conclusion of the jury recorded in Box 4, expressed as &#8216;Unlawful killing (grossly negligent driving of the following vehicles and of the Mercedes)&#8217;. The coroner did not invite consideration of the case by way of causing death by dangerous driving, but by gross negligent manslaughter alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We would add that there is nothing in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref> (see para. 52 above) that undermines the conclusion at which we have arrived.  <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 16</ref> does no more than require a coroner to adjourn an inquest where criminal proceedings have been commenced for any one of a number of offences where death has been caused. This list was previously limited to murder, manslaughter or infanticide, causing death by reckless driving, or of aiding, abetting, counselling or procuring suicide: <ref href="http://www.legislation.gov.uk/id/ukpga/1977/45/section/56/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 56(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1977/45" uk:canonical="1977 c. 45" uk:origin="TNA" uk:type="legislation">Criminal Law Act 1977</ref>. But since these driving offences causing death were created by statute they were added to the list. They now include both causing death by driving offences. But there is nothing in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> to suggest that the intention of Parliament was to affect what should be embraced within a verdict of &#8220;unlawful killing&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We have reached the conclusion that we have for the reasons given and not for any wider policy reason.  However, it has to be observed that, sadly, there are many deaths on the roads in England and Wales each year, all of which require an inquest to be held. The figures for England, Wales and Scotland were 2,222 such deaths in 2009 and 1,850 deaths in 2010. The prospect of hundreds of cases each year being considered, by a coroner or a jury, as potential cases of unlawful killing because of some possible careless driving is alarming, would involve a disproportionate amount of time and expense and would take into the inquest process something it is less well equipped to consider than either a criminal court or a civil court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For completeness we would add that there is nothing in the forthcoming <ref href="http://www.legislation.gov.uk/id/ukpga/2009/25" uk:canonical="2009 c. 25" uk:origin="TNA" uk:type="legislation">Coroners and Justice Act 2009</ref> which affects the verdict of unlawful killing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Result in the present case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows from these reasons that in, our judgment, the coroner was wrong to leave the offences of causing death by dangerous driving and causing death by careless driving to the jury as possible bases for a verdict of unlawful killing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Had it been relevant, we would also have taken the view that he was wrong in any event to leave the three offences (the two driving offences mentioned in paragraph 13 and manslaughter) to the jury together for consideration as unlawful killing. While there is a significant difference in this case between manslaughter and causing death by careless driving, the way in which the three possible offences were left to the jury meant that the jury&#8217;s verdict of unlawful killing did not express which offence they found proved and whether they were agreed upon it. As a finding of fact that was inadequate and, as we have indicated previously (see paragraph 14 above), the only viable interpretation of the verdict of &#8220;unlawful killing&#8221; was that it arose from the jury being satisfied that there was evidence that the death was caused by careless driving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Again, whilst it is academic in the light of our principal decision, we would have concluded that there was no sufficient evidence of the offence of manslaughter which should not, therefore, have been left for the jury&#8217;s consideration.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Consequences of conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant&#8217;s case succeeds. The application for judicial review is granted and the jury&#8217;s verdict of unlawful killing is quashed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">No party requires a fresh inquest. It is not in the public interest. We shall therefore substitute the appropriate verdict which, by agreement, is accepted to be accident. We therefore substitute the verdict of accident and amend the Inquisition accordingly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By agreement there shall be no order as to costs.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Expression of thanks</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We express our appreciation to Mr Maxwell-Scott and Ms Hewitt for their helpful submissions.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

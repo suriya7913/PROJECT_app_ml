@@ -9,9 +9,12 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from config import (
-    LEG_NS, META_NS, DC_NS, AKN_NS, TNA_NS,
-    RAW_LEGISLATION_DIR, RAW_CASELAW_DIR, RAW_SI_DIR,
-    AMENDMENTS_DIR, NOTES_DIR,
+    LEG_NS, META_NS, DC_NS, AKN_NS,
+    RAW_LEGISLATION_DIR,
+    RAW_CASELAW_DIR,
+    RAW_SI_DIR,
+    AMENDMENTS_DIR,
+    NAMESPACES
 )
 
 
@@ -599,18 +602,28 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
     if not case_name:
         case_name = filename
 
+    # Extract Neutral Citation
+    neutral_citation = None
+    uk_cite = root.find(f'.//{{https://caselaw.nationalarchives.gov.uk/akn}}cite')
+    if uk_cite is not None:
+        neutral_citation = extract_text_recursive(uk_cite)
+        if neutral_citation:
+            case_name = f"{case_name} {neutral_citation}" if case_name != filename else neutral_citation
+            
     # Extract year
     year_match = re.search(r'(\d{4})', filename)
     year = year_match.group(1) if year_match else "unknown"
 
     # Determine court level
     court_level = "Unknown"
-    if "uksc_" in filename:
-        court_level = "Supreme Court"
-    elif "ewca_" in filename:
+    if "uksc_" in filename or "ukpc_" in filename:
+        court_level = "Supreme Court / Privy Council"
+    elif "ewca_" in filename or "ewcr_" in filename:
         court_level = "Court of Appeal"
     elif "ewhc_" in filename:
         court_level = "High Court"
+    elif "ukftt_" in filename or "ukut_" in filename:
+        court_level = "Tribunal"
 
     chunks = []
     paragraphs = list(root.iter(_akn('paragraph'))) or list(root.iter(_akn('Paragraph')))
@@ -618,9 +631,9 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
     # If no structured paragraphs, extract all text as one chunk
     if not paragraphs:
         full_text = extract_text_recursive(root)
-        if full_text and len(full_text) > 50:
+        if full_text and len(full_text.strip()) > 50:
             chunks.append({
-                "id": f"{filename}.xml_full",
+                "chunk_id": f"{filename}.xml_full",
                 "source": "judgment",
                 "doc_title": case_name,
                 "year": year,
@@ -633,18 +646,24 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
                 "internal_refs": None,
                 "inline_amendments": None,
                 "defined_terms": None,
-                "content": f"CASE: {case_name} ({year}) | COURT: {court_level} | TEXT: {full_text}"
+                "content": f"CASE: {case_name} ({year}) | COURT: {court_level} | TEXT: {full_text.strip()}"
             })
         return chunks
 
     for i, para in enumerate(paragraphs):
         para_text = extract_text_recursive(para)
-        if not para_text or len(para_text) < 30:
+        if not para_text or len(para_text.strip()) < 30:
             continue
 
-        para_num = para.get('Number', para.get('eId', str(i + 1)))
+        # Prefer explicit <num> tag for paragraph number in AKN 3.0
+        num_elem = para.find(_akn('num'))
+        if num_elem is not None and extract_text_recursive(num_elem):
+            para_num = extract_text_recursive(num_elem).strip().strip('.')
+        else:
+            para_num = para.get('Number', para.get('eId', str(i + 1)))
+
         chunks.append({
-            "id": f"{filename}.xml_{para_num}",
+            "chunk_id": f"{filename}.xml_{para_num}",
             "source": "judgment",
             "doc_title": case_name,
             "year": year,
@@ -657,7 +676,7 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
             "internal_refs": None,
             "inline_amendments": None,
             "defined_terms": None,
-            "content": f"CASE: {case_name} ({year}) | COURT: {court_level} | PARA: {para_num} | TEXT: {para_text}"
+            "content": f"CASE: {case_name} ({year}) | COURT: {court_level} | PARA: {para_num} | TEXT: {para_text.strip()}"
         })
 
     return chunks
@@ -925,58 +944,7 @@ def _map_effect_type(effect_type: str) -> str | None:
     return None
 
 
-# ─────────────────────────────────────────────
-# PARSER: EXPLANATORY NOTES
-# ─────────────────────────────────────────────
 
-def parse_notes_xml(filepath: str) -> dict:
-    """
-    Parse explanatory notes XML and return a section->commentary mapping.
-    Notes provide section-by-section commentary explaining what each provision does.
-
-    Returns: dict mapping section_id -> notes_text
-    """
-    try:
-        tree = ET.parse(filepath)
-        root = tree.getroot()
-    except ET.ParseError as e:
-        print(f"    ⚠️ Notes XML parse error: {filepath}: {e}")
-        return {}
-
-    notes_map = {}
-
-    # Try ExplanatoryNotes/Body structure
-    for comment_elem in root.iter(_leg('Comment')):
-        # Comments typically reference a section
-        section_ref = comment_elem.get('Type', '')
-        comment_text = extract_text_recursive(comment_elem)
-        if comment_text and len(comment_text) > 20:
-            notes_map[section_ref] = comment_text
-
-    # Try Commentary elements (more common in CLML)
-    for commentary in root.iter(_leg('Commentary')):
-        ref = commentary.get('id', '')
-        text = extract_text_recursive(commentary)
-        if text and len(text) > 20:
-            notes_map[ref] = text
-
-    # Also try plain paragraph structure
-    for para in root.iter(_leg('P')):
-        text = extract_text_recursive(para)
-        if text and len(text) > 30:
-            # Use parent section reference if available
-            parent = None
-            for p in root.iter():
-                if para in list(p):
-                    parent = p
-                    break
-            if parent is not None:
-                section_ref = parent.get('id', '') or parent.get('about', '')
-                if section_ref:
-                    existing = notes_map.get(section_ref, "")
-                    notes_map[section_ref] = (existing + " " + text).strip()
-
-    return notes_map
 
 
 # ─────────────────────────────────────────────
@@ -987,16 +955,17 @@ def build_smart_corpus(
     legislation_dir: str = RAW_LEGISLATION_DIR,
     si_dir: str = RAW_SI_DIR,
     caselaw_dir: str = RAW_CASELAW_DIR,
-    notes_dir: str = NOTES_DIR,
+    types: list[str] | None = None,
 ) -> list[dict]:
     """
     Parse all raw XML files into smart chunks with CLML metadata.
-    Optionally enriches chunks with explanatory notes.
     """
     all_chunks = []
+    if types is None:
+        types = ['legislation', 'si', 'caselaw']
 
     # 1. Parse primary legislation
-    if os.path.exists(legislation_dir):
+    if 'legislation' in types and os.path.exists(legislation_dir):
         
         xml_files = sorted(f for f in os.listdir(legislation_dir) if f.endswith('.xml'))
         print(f"📂 Found {len(xml_files)} legislation XML files")
@@ -1004,62 +973,32 @@ def build_smart_corpus(
             chunks = parse_legislation_xml(os.path.join(legislation_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
-    else:
+    elif 'legislation' in types:
         print(f"⚠️ No legislation directory: {legislation_dir}")
 
     # 2. Parse statutory instruments (same CLML format)
-    if os.path.exists(si_dir):
+    if 'si' in types and os.path.exists(si_dir):
         xml_files = sorted(f for f in os.listdir(si_dir) if f.endswith('.xml'))
         print(f"📂 Found {len(xml_files)} statutory instrument XML files")
         for f in xml_files:
             chunks = parse_legislation_xml(os.path.join(si_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
-    else:
+    elif 'si' in types:
         print(f"ℹ️  No SI directory: {si_dir}")
 
     # 3. Parse case law
-    if os.path.exists(caselaw_dir):
+    if 'caselaw' in types and os.path.exists(caselaw_dir):
         xml_files = sorted(f for f in os.listdir(caselaw_dir) if f.endswith('.xml'))
         print(f"📂 Found {len(xml_files)} case law XML files")
         for f in xml_files:
             chunks = parse_caselaw_xml(os.path.join(caselaw_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
-    else:
+    elif 'caselaw' in types:
         print(f"⚠️ No case law directory: {caselaw_dir}")
 
-    # 4. Enrich with explanatory notes (if available)
-    if os.path.exists(notes_dir):
-        notes_files = sorted(f for f in os.listdir(notes_dir) if f.endswith('.xml'))
-        print(f"📝 Found {len(notes_files)} explanatory notes files")
-        # Build a mapping: filename_prefix -> notes_map
-        all_notes = {}
-        for f in notes_files:
-            notes_map = parse_notes_xml(os.path.join(notes_dir, f))
-            if notes_map:
-                prefix = f.replace('.xml', '').replace('_notes', '').replace('_ExplanatoryNotes', '')
-                all_notes[prefix] = notes_map
-                print(f"   {f}: {len(notes_map)} note sections")
 
-        # Attach notes to matching chunks
-        enriched = 0
-        for chunk in all_chunks:
-            chunk_prefix = chunk['id'].rsplit('.xml_', 1)[0] if '.xml_' in chunk['id'] else chunk['id']
-            notes_map = all_notes.get(chunk_prefix, {})
-            if notes_map:
-                # Try matching by section number
-                section = chunk.get('section', '')
-                for note_key, note_text in notes_map.items():
-                    if section and section in note_key:
-                        chunk['notes_text'] = note_text[:500]
-                        enriched += 1
-                        break
-
-        if enriched:
-            print(f"   ✅ Enriched {enriched} chunks with explanatory notes")
-    else:
-        print(f"ℹ️  No notes directory: {notes_dir}")
 
     print(f"\n✅ Smart corpus built: {len(all_chunks)} chunks")
     return all_chunks

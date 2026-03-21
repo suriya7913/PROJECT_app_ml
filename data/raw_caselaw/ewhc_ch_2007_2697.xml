@@ -1,0 +1,1124 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2007/2697"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2007/2697"/>
+	  <FRBRdate date="2007-11-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2697"/>
+	  <FRBRname value="Metronet Rail BCV Ltd, Re Insolvency Act 1986"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/2697"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/2697"/>
+	  <FRBRdate date="2007-11-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/2697/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/2697/data.xml"/>
+	  <FRBRdate date="2024-10-26T01:00:44" name="transform"/>
+	  <FRBRdate date="2024-11-14T05:19:57" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2007-11-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-chancery" href="https://www.gov.uk/courts-tribunals/chancery-division-of-the-high-court" shortForm="The Chancery Division" showAs="The Chancery Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-mr-justice-patten" href="/judge-mr-justice-patten" showAs="MR JUSTICE PATTEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Chancery</uk:court>
+	<uk:year>2007</uk:year>
+	<uk:number>2697</uk:number>
+	<uk:cite>[2007] EWHC 2697 (Ch)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>a8bb7ac6b2c78b9f9c4e0207b83c624f9638a29d36eb355b337a410ca04d5f42</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .loose { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .bold1 { font-weight: bold; }
+#judgment .tightinline1 { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; font-family: Verdana; color: #3300CC; }
+#judgment .italic1 { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2007] EWHC 2697 (Ch)</neutralCitation></p>
+      <p class="CoverText">Case Nos: 5106 and 5109 of 2007</p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-chancery">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CHANCERY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2007-11-23" refersTo="#judgment">23/11/2007</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-patten">MR JUSTICE PATTEN </judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <table uk:widths="1.45in 3.96in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><docTitle style="font-weight:bold">IN THE MATTER OF METRONET RAIL BCV LIMITED (IN PPP ADMINISTRATION)</docTitle></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">AND</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">IN THE MATTER OF METRONET RAIL SSL LIMITED (IN PPP ADMINISTRATION)</span></p>
+	    <p style="text-align:center;margin-left:-0.11in;margin-right:-0.21in"/>
+	    <p style="text-align:center;margin-left:-0.11in;margin-right:-0.21in"><span style="font-weight:bold;font-size:10pt">AND</span></p>
+	    <p style="text-align:center;margin-left:-0.11in;margin-right:-0.21in"/>
+	    <p style="text-align:center;margin-left:-0.11in;margin-right:-0.21in"><span style="font-weight:bold">IN THE MATTER OF THE INSOLVENCY ACT 1986</span></p>
+	    <p style="text-align:center;margin-right:-0.21in;text-indent:-0.11in"/>
+	    <p style="text-align:center;margin-right:-0.21in;text-indent:-0.11in"><span style="font-weight:bold;font-size:10pt">AND</span></p>
+	    <p style="text-align:center;margin-right:-0.21in;text-indent:-0.11in"/>
+	    <p style="text-align:center"><span style="font-weight:bold">IN THE MATTER OF THE GREATER LONDON AUTHORITY ACT 1999</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr Gabriel Moss Q.C and Mr David Allison </span><span style="font-size:10pt">(instructed by</span><span style="font-weight:bold;font-size:10pt">  CMS Cameron McKenna LLP</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Applicants</span></p>
+      <p style="text-align:center"><span style="font-size:10pt">Mr William Trower Q.C and Mr Tom Smith (instructed by Herbert Smith LLP) for </span><span style="font-weight:bold;font-size:10pt">Transport for London and London Underground Ltd</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr Mark Phillips Q.C (</span><span style="font-size:10pt">instructed by Allen &amp; Overy LLP) for </span><span style="font-weight:bold;font-size:10pt">Balfour Beatty plc</span><span style="font-size:10pt">,  </span><span style="font-weight:bold;font-size:10pt">Mr Antony Zacaroli Q.C and Mr Simon Johnson (</span><span style="font-size:10pt">instructed by Denton Wilde Sapte) for </span><span style="font-weight:bold;font-size:10pt">Thames Water Ltd and EDF Energy plc</span><span style="font-size:10pt">, </span><span style="font-weight:bold;font-size:10pt">Mr Simon Mortimore Q.C </span><span style="font-size:10pt">(instructed by Shadbolt &amp; Co LLP) for </span><span style="font-weight:bold;font-size:10pt">Trans4M Ltd</span><span style="font-size:10pt">,  </span><span style="font-weight:bold;font-size:10pt">Mr Richard Adkins Q.C </span><span style="font-size:10pt">(instructed by Norton Rose LLP) for </span><span style="font-weight:bold;font-size:10pt">Bombardier Transportation (Holdings) UK Ltd</span><span style="font-size:10pt">, </span><span style="font-weight:bold;font-size:10pt">Mr Richard Sheldon Q.C </span><span style="font-size:10pt">(instructed by Taylor Wessing LLP)</span><span style="font-weight:bold;font-size:10pt"/><span style="font-size:10pt">for </span><span style="font-weight:bold;font-size:10pt">Metronet Rail BCV Finance plc </span><span style="font-size:10pt">and </span><span style="font-weight:bold;font-size:10pt">Metronet Rail SSL Finance plc</span></p>
+      <p style="text-align:center">Hearing dates: 12 and 13 November 2007</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">MR JUSTICE PATTEN :</span></p>
+      <p class="ParaHeading"><marker name="tab"/><span style="font-weight:bold">  Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 July 2007 Lightman J made a PPP administration order (as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">Greater London Authority Act 1999</ref>) (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>&#8221;) in respect of two of the three PPP companies involved in the maintenance of the London underground train network.  The companies in question are Metronet Rail BCV Limited (&#8220;BCV&#8221;) which has a contractual responsibility for the Bakerloo, Central, Victoria and Waterloo and City lines and Metronet Rail SSL Limited (&#8220;SSL&#8221;) which is responsible for the District, Circle, Metropolitan, Hammersmith and City and East London lines.  The third PPP company (which is not affected by the administration order) is Tube Lines Limited (&#8220;TLL&#8221;) whose contract covers the Jubilee, Northern and Piccadilly lines.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Public-private partnership agreements (commonly referred to as PPP agreements) were authorised by Chapter VII of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> as a means of financing and carrying out the maintenance of the infrastructure of the underground network as part of the Mayor of London&#8217;s transport strategy.  <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/154" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 154</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> established a body corporate known as Transport for London (&#8220;TFL&#8221;) which is required to exercise its functions for the purpose of securing or facilitating the implementation of the transport strategy: see <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/154/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.154(3)</ref>.  This is a reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/141" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.141</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> which imposes on the Mayor the duty to develop and implement policies for the promotion of safe, integrated, efficient and economic transport facilities and services to, from and within Greater London and confers on the Greater London Authority powers which are exercisable for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Mayor is required to prepare and publish a transport strategy setting out his policies and proposals (see s.142(1)) and subject to the power of the Secretary of State for Transport to direct revisions of the transport strategy (see s.143) it is then implemented by TFL on behalf of the Greater London Authority.  TFL is empowered under <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/156/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.156(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> to form a company to carry out the relevant activities and for this purpose it has operated through London Underground Limited (&#8220;LUL&#8221;) a wholly owned subsidiary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">LUL has vested in it what are described in the evidence as the infrastructure assets.  These include the rolling stock, signalling systems, stations, tracks, depots, tunnels, bridges and other structures forming part of the network.  The operation of the underground system remains the responsibility of TFL and LUL but as part of the Government&#8217;s Public Private Partnership initiative TFL was empowered under <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.210</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> to enter into contracts with companies for the provision, construction, renewal, improvement and maintenance of the infrastructure.  <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 210</ref> provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">For the purposes of this Chapter a public-private partnership agreement (referred to as a &#8220;PPP agreement&#8221;) is a contract in the case of which the conditions set out in the following provisions of this section are satisfied.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">At least one of the parties to the contract must be a relevant body for the purposes of this Chapter, that is to say&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">London Regional Transport;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">Transport for London; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">a subsidiary of London Regional Transport or </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">      Transport for London.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">The contract must be one which involves&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">the provision, construction, renewal, or </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">improvement, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">the maintenance,</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">of a railway or proposed railway and, if or to the extent that the contract so provides, of any stations, rolling stock or depots used or to be used in connection with that railway.</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">The railway or proposed railway must be one which&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">belongs or will belong to, or to a subsidiary of, </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold"> London Regional Transport or Transport for </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold"> London, or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.25in"><span style="font-weight:bold">is being provided, constructed, renewed or </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">improved under the contract for, or for a </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">subsidiary of, London Regional Transport or </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">Transport for London.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in"><marker name="tab"/><span style="font-weight:bold">If a party who undertakes to carry out or secure the         </span><marker name="tab"/><span style="font-weight:bold">carrying out of any or all of the work mentioned in </span><marker name="tab"/><span style="font-weight:bold">subsection (3) above (a &#8220;PPP company&#8221;) is a public </span><marker name="tab"/><span style="font-weight:bold">sector operator at the time when the contract is made, </span><marker name="tab"/><span style="font-weight:bold">that party must no longer be a public sector operator </span><marker name="tab"/><span style="font-weight:bold">on the day following the expiration of the period of six </span><marker name="tab"/><span style="font-weight:bold">weeks beginning with the day on which the condition </span><marker name="tab"/><span style="font-weight:bold">in subsection (6) below is satisfied.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.38in"><span style="font-weight:bold">The contract must be one which is, or is of a description which is, designated as a PPP agreement.</span>&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under these powers LUL entered into 30 year agreements with BCV and SSL in respect of the lines referred to above.  The contracts themselves are not in evidence but in summary they provide for the achievement of specified levels of performance in relation to the serviceability and condition of the infrastructure; the introduction of major upgrades to the network; various specific projects including train fleet replacement and refurbishment and the improvement of stations; and more generally asset management and maintenance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some of these services are provided by the PPP companies themselves but much of the work involved is outsourced to sub-contractors.  The principal sub-contractors involved are WS Atkins plc, Balfour Beatty, Bombardier, Thames Water and EDF.  These five companies are also the ultimate shareholders in BCV and SSL.  The sub-contracts relate to a number of different projects.  Balfour Beatty, for example, has contracts (for 7&#189; years from April 2003) to carry out track renewal on all nine underground lines covered by the PPP agreements with BCV and SSL; to upgrade the Victoria line; and to modernise Earl&#8217;s Court station.  For these purposes it has seconded managerial staff to the PPP companies under a secondment agreement and also provides project management services and procurement support.  It estimates that the two PPP companies have pre-administration liabilities to it under the various sub-contracts of approximately &#163;44.5m.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Another significant sub-contractor was Trans4M Limited (&#8220;Trans4M&#8221;) which is a special purpose vehicle owned by a consortium made up of WS Atkins plc, Balfour Beatty, Thames Water and EDF.  Its contracts (which were also for a period of 7&#189; years from April 2003) related to station upgrades and civil engineering work, much of which was then in turn sub-contracted out to its shareholder companies.  The contracts with the PPP companies were terminated by Trans4M on 30 August 2007 but there are outstanding obligations and liabilities in respect (e.g.) of snagging work which remains to be completed.  Subject to this, Trans4M claims to be a substantial creditor of both BCV and SSL for sums in excess of &#163;150m.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition to the sub-contracts there are also complex financial arrangements in place under which two companies (Metronet Rail BCV Finance plc and Metronet Rail SSL Finance plc) (&#8220;the Fincos&#8221;) have provided in excess of  &#163;1.6bn to the two PPP companies in order to finance their obligations under the PPP agreements with LUL.  As I understand it much of this was raised directly from the European Investment Bank (&#8220;EIB&#8221;) and a syndicate of  banks  and from the issue of bonds but at least &#163;100m was provided as a loan by the ultimate shareholders in the PPP companies to the Fincos with each shareholder contributing &#163;20m in respect of both BCV and SSL.  The shareholder loans are, of course, subordinated to the bank and bond holder liabilities.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As between the Fincos and the PPP companies the loans are unsecured  but both the borrowings from the EIB and the other banks and those from the bondholders are secured by guarantees and fixed and floating charges over the assets and undertaking of the Fincos and the two PPP companies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under the order of Lightman J of 18 July 2007 four partners in Ernst &amp; Young LLP (Mr Alan Bloom, Mr Roy Bailey, Ms Margaret Mills and Mr Stephen Harris) were appointed special PPP administrators of BCV and SSL.  The power of the Court to make such an order is contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A &#8220;PPP administration order&#8221; is an order of the court made in accordance with section 221, 222 or 223 below in relation to a PPP company and directing that, during the period for which the order is in force, the affairs, business and property of the company shall be managed, by a person appointed by the court,&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">for the achievement of the purposes of such an order; </span><marker name="tab"/><span style="font-weight:bold"> and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">in a manner which protects the respective interests of </span><marker name="tab"/><span style="font-weight:bold"> the members and creditors of the company.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">The purposes of a PPP administration order made in   relation to any company shall be&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">the transfer to another company, or (as respects </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">different parts of its undertaking) to two or more </span><marker name="tab"/><span style="font-weight:bold">different companies, as a going concern, of so much of </span><marker name="tab"/><span style="font-weight:bold">the company's undertaking as it is necessary to </span><marker name="tab"/><span style="font-weight:bold">transfer in order to ensure that the relevant activities </span><marker name="tab"/><span style="font-weight:bold">may be properly carried on; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.38in"><span style="font-weight:bold">the carrying on of those relevant activities pending </span><marker name="tab"/><span style="font-weight:bold">the making of the transfer.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Schedule 14 to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">this Act</ref> shall have effect for applying provisions of the </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?service=citation&amp;langcountry=GB&amp;risb=21_T2512862665&amp;A=0.9587349707300846&amp;linkInfo=GB%23UK_ACTS%23num%251986_45a_Title%25&amp;bct=A" style="font-weight:bold;color:#3300CC"><ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">Insolvency Act 1986</ref></a><span style="font-weight:bold"> where a PPP administration order is made.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Schedule 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref> shall have effect for enabling provision to be made with respect to cases in which, in pursuance of a PPP administration order, another company is to carry on all or any of the relevant activities of a PPP company in place of that company.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Without prejudice to paragraph 20 of Schedule 14 to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref>, the power conferred by </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?service=citation&amp;langcountry=GB&amp;risb=21_T2512862665&amp;A=0.26002370669502106&amp;linkInfo=GB%23UK_ACTS%23num%251986_45a%25section%25411%25sect%25411%25&amp;bct=A" style="font-weight:bold;color:#3300CC">section 411</a><span style="font-weight:bold"> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">Insolvency Act 1986</ref> to make rules shall apply for the purpose of giving effect to the PPP administration order provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref> as it applies for the purpose of giving effect to Parts I to VII of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">that Act</ref>, but taking any reference in that section to those Parts as a reference to those provisions.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">For the purposes of this Chapter, the &#8220;relevant activities&#8221;, in relation to a PPP company, are the activities carried out, or to be carried out, by that company in performing its obligations under the PPP agreement to which it is party.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">In this section&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;business&#8221; and &#8220;property&#8221; have the same meaning as they have in the </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?service=citation&amp;langcountry=GB&amp;risb=21_T2512862665&amp;A=0.14889301549550082&amp;linkInfo=GB%23UK_ACTS%23num%251986_45a_Title%25&amp;bct=A" style="font-weight:bold;color:#3300CC"><ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">Insolvency Act 1986</ref></a><span style="font-weight:bold">;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;the court&#8221;, in the case of any PPP company, means the court having jurisdiction to wind up the company;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;the PPP administration order provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221; means this section, <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/221" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 221</ref> to 224 below and Schedules 14 and 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref>.</span>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is worth noting at this stage that although <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220</ref> provides what is in effect a separate and self-contained code governing the administration of a PPP company, it does so by incorporating with certain modifications some of the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">Insolvency Act 1986</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>&#8221;).  These are set out in Schedule 14 to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> and include <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss. 11</ref> to 23 and 27 of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> in its pre-Enterprise Act form.  <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 220</ref> therefore substitutes its own statutory purposes for those contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/8/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> but preserves with amendment the power of the administrators to dispose of secured property (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.15</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>) and the duty to manage the affairs, business and property of the company (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.17</ref>) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The administrators are also required within three months of their appointment to send a statement of their proposals for achieving the purposes of the order both to the Mayor and to the creditors of the company but are not required to summon a meeting of creditors for that purpose: see Schedule 14 paragraph 9.  Nor is there any provision under Schedule 14 for the formation of a creditors&#8217; committee.  <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> is incorporated with amendments which give the Mayor a right to apply to the Court on the ground that the PPP special administrators have exercised or are exercising their powers in a manner which will not best ensure the achievement of the purposes of the administration order and a right to be heard on any application to the Court by creditors under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref> on the ground that the companies&#8217; affairs are being or are about to be managed in a way which is unfairly prejudicial to their interests. The protection given to creditors by <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref> is therefore preserved subject to the Mayor having the right to intervene in any application for an order regulating the conduct of the administrators.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With a view to achieving the statutory purposes described in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 220(2)</ref> above, the administrators have preserved the contracts with the principal sub-contractors in order to maintain the infrastructure of the network pending the transfer of the undertaking of BCV and SSL to a new PPP company.   The PPP companies have funding in the form of loans from TFL for a period of six months ending on 18 January 2008.  Although this finance is likely to be extended if required, the special administrators in performance of their duties under <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(1)</ref> and (2) are seeking to bring the administration to an end prior to that date by transferring the undertaking of BCV and SSL to one or more companies as a going concern in a way which ensures that the relevant activities (as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(6)</ref>) are carried on by those companies.  For this purpose they intend to make a transfer scheme under the powers contained in Schedule 15 to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> by which some or all of the property, rights and liabilities of BCV and SSL will be transferred.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold"/><marker name="tab"/><span style="font-weight:bold">  The Transfer Scheme</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as material to the issues arising on this application Schedule 15 provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;1</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">This Schedule shall apply in any case where&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">the court has made a PPP administration order in </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">relation to a PPP company (&#8220;the existing </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointee&#8221;); and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">it is proposed that, on and after a date appointed </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">by the court, another company (&#8220;the new </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointee&#8221;) should carry on the relevant activities </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">of the existing appointee, in place of the existing </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointee.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">In this Schedule&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;the court&#8221;, in the case of any PPP company, means the court having jurisdiction to wind up the company;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;other appointee&#8221; means any company, other than the existing appointee or the new appointee, which may be affected by the proposal mentioned in sub-paragraph (1)(b) above;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;the relevant date&#8221; means such day, being a day before the discharge of the PPP administration order takes effect, as the court may appoint for the purposes of this Schedule; and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;special PPP administrator&#8221;, in relation to a company in relation to which a PPP administration order has been made, means the person for the time being holding office for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/220/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 220(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref>.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Making and modification of transfer schemes</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">2</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">The existing appointee, acting with the consent of the new appointee and, in relation to the matters affecting them, of any other appointees, may make a scheme under this Schedule for the transfer of property, rights and liabilities from the existing appointee to the new appointee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A scheme under this Schedule shall not take effect unless it is approved by the Mayor.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Where a scheme under this Schedule is submitted to the Mayor for his approval, he may, with the consent of the new appointee, of the existing appointee and, in relation to the matters affecting them, of any other appointees, modify the scheme before approving it.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">If at any time after a scheme under this Schedule has come into force in relation to the property, rights and liabilities of any company the Mayor considers it appropriate to do so and the existing appointee, the new appointee and, in relation to the provisions of the order which affect them, any other appointees consent to the making of the order, the Mayor may by order provide that that scheme shall for all purposes be deemed to have come into force with such modifications as may be specified in the order.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">An order under sub-paragraph (4) above may make, with effect from the coming into force of the scheme to which it relates, any such provision as could have been made by the scheme and, in connection with giving effect to that provision from that time, may contain such supplemental, consequential and transitional provision as the Mayor considers appropriate.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">In determining, in accordance with the duties imposed upon him by or under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref> or any other enactment (whenever passed or made), whether and in what manner to exercise any power conferred on him by this paragraph, the Mayor shall have regard to the need to ensure that any provision for the transfer of property, rights and liabilities in accordance with a scheme under this Schedule allocates property, rights and liabilities to the different companies affected by the scheme in such proportions as appear to him to be appropriate in the context of the different relevant activities of the existing appointee which will, by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref>, be carried out at different times on and after the relevant date by the new appointee, by the existing appointee and by any other appointees.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">It shall be the duty of the new appointee, of the existing appointee and of any other appointees to provide the Mayor with all such information and other assistance as he may reasonably require for the purposes of, or in connection with, the exercise of any power conferred on him by this paragraph.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(8)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Without prejudice to the other provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">this Act</ref> relating to the special PPP administrator of a company, anything which is required by this paragraph to be done by a company shall, where that company is a company in relation to which a PPP administration order is in force, be effective only if it is done on the company's behalf by its special PPP administrator.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Transfers by scheme</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A scheme under this Schedule for the transfer of the existing appointee's property, rights and liabilities shall come into force on the relevant date and, on coming into force, shall have effect, in accordance with its provisions and without further assurance, so as to transfer the property, rights and liabilities to which the scheme relates to the new appointee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">For the purpose of making any division of property, rights or liabilities which it is considered appropriate to make in connection with the transfer of property, rights and liabilities in accordance with a scheme under this Schedule, the provisions of that scheme may&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">create for the existing appointee, the new appointee or any other appointees an interest in or right over any property to which the scheme relates;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">create new rights and liabilities as between any two or more of those companies; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">in connection with any provision made by virtue of paragraph (a) or (b) above, make incidental provision as to the interests, rights and liabilities of other persons with respect to the subject-matter of the scheme.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">The property, rights and liabilities of the existing appointee that shall be capable of being transferred in accordance with a scheme under this Schedule shall include&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">property, rights and liabilities that would not otherwise be capable of being transferred or assigned by the existing appointee;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">such property, rights and liabilities to which the existing appointee may become entitled or subject after the making of the scheme and before the relevant date as may be described in the scheme;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">property situated anywhere in the United Kingdom or elsewhere;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">rights and liabilities under the law of any part of the United Kingdom or of any country or territory outside the United Kingdom.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">The provision that may be made by virtue of sub-paragraph (2)(b) above includes&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">provision for treating any person who is entitled by </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">virtue of a scheme under this Schedule to possession </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">of a document as having given another person an </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">acknowledgement in writing of the right of that </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">other person to the production of the document and </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">to delivery of copies thereof; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">provision applying </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?service=citation&amp;langcountry=GB&amp;risb=21_T2512870680&amp;A=0.2904473663120375&amp;linkInfo=GB%23UK_ACTS%23num%251925_20a%25section%2564%25sect%2564%25&amp;bct=A" style="font-weight:bold;color:#3300CC">section 64</a><span style="font-weight:bold"> of the Law of </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">Property Act 1925 (production and safe custody of </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">documents) in relation to any case in relation to </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">which provision falling within paragraph (a) above </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">has effect.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">For the avoidance of doubt, it is hereby declared that the transfers authorised by paragraph (a) of sub-paragraph (3) above include transfers which, by virtue of that paragraph, are to take effect as if there were no such contravention, liability or interference with any interest or right as there would be, in the case of a transfer or assignment otherwise than in accordance with a scheme under this Schedule, by reason of any provision having effect (whether under any enactment or agreement or otherwise) in relation to the terms on which the existing appointee is entitled or subject to the property, right or liability in question.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Transfer of licences</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">4</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A scheme under this Schedule may provide for a licence held by the existing appointee to have effect as if it had been granted to the new appointee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Different schemes under this Schedule may provide for a licence held by the same existing appointee to have effect as if it had been granted as a separate licence to each of the new appointees under those schemes.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">In this paragraph &#8220;licence&#8221; means a licence under </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?service=citation&amp;langcountry=GB&amp;risb=21_T2512870680&amp;A=0.22473136754050815&amp;linkInfo=GB%23UK_ACTS%23num%251993_43a%25section%258%25sect%258%25&amp;bct=A" style="font-weight:bold;color:#3300CC"><ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref></a><span style="font-weight:bold"> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref>.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Supplemental provisions of schemes</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">5</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A scheme under this Schedule may contain supplemental, consequential and transitional provision for the purposes of, or in connection with, the provision for the transfers or any other provision made by the scheme.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Without prejudice to the generality of sub-paragraph (1) above, a scheme under this Schedule may provide&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that for purposes connected with any transfers </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">made in accordance with the scheme (including the </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">transfer of rights and liabilities under an </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">enactment) the new appointee is to be treated as the </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">same person in law as the existing appointee;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that, so far as may be necessary for the purposes of </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">or in connection with any such transfers, </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">agreements made, transactions effected and other </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">things done by or in relation to the existing </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointee are to be treated as made, effected or </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">done by or in relation to the new appointee;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that, so far as may be necessary for the purposes of </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">or in connection with any such transfers, references </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">in any agreement (whether or not in writing) or in </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">any deed, bond, instrument or other document to, </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">or to any officer of, the existing appointee are to </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">have effect with such modifications as are specified </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">in the scheme;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that proceedings commenced by or against the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">existing appointee are to be continued by or against </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">the new appointee;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that the effect of any transfer under the scheme in </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">relation to contracts of employment with the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">existing appointee is not to be to terminate any of </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">those contracts but is to be that periods of </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">employment with the existing appointee are to </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">count for all purposes as periods of employment </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">with the new appointee;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that disputes as to the effect of the scheme between </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">the existing appointee and the new appointee, </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">between either of them and any other appointee or </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">between different companies which are other </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointees are to be referred to such arbitration as </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">may be specified in or determined under the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">scheme;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(g)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">that determinations on such arbitrations and </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">certificates given jointly by two or more such </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointees as are mentioned in paragraph (f) above </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">as to the effect of the scheme as between the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">companies giving the certificates are to be </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">conclusive for all purposes.</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Duties of existing appointee after the scheme comes into force</span></p>
+		  </wrapUp>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">6 &#8230;..</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic;font-weight:bold">Functions exercisable by virtue of PPP agreements</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">7</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">A scheme under this Schedule may provide that any functions exercisable by the existing appointee by virtue of a PPP agreement shall instead be&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">exercisable by the new appointee or any of the other </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointees;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">concurrently exercisable by two or more companies </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">falling within paragraph (a) above; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">concurrently exercisable by the existing appointee </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">and one or more companies falling within </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">paragraph (a) above;</span></p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <level>
+			    <content>
+			      <p class="Quote" style="margin-left:1in"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">and different schemes under this Schedule may </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">provide for any such functions exercisable by the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">same existing appointee to have effect as mentioned </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">in paragraphs (a) to (c) above in relation to each of </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">the new appointees under those schemes or of all or </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">any of the other appointees.</span></p>
+			    </content>
+			  </level>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.88in;text-indent:0.12in"><span style="font-weight:bold">Sub-paragraph (1) above applies in relation to any function under a statutory provision if and to the extent that the statutory provision&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">relates to any part of the existing appointee's </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">undertaking, or to any property, which is to be </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">transferred by the scheme; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">authorises the carrying out of works designed to be </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">used in connection with any such part of the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">existing appointee's undertaking or the acquisition </span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">of land for the purpose of carrying out any such </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">works.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.88in;text-indent:0.12in"><span style="font-weight:bold">A scheme under this Schedule may define any functions exercisable by the existing appointee which are instead to be made exercisable or concurrently exercisable by the scheme in accordance with sub-paragraph (1) above&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">by specifying the statutory provisions in question;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">by referring to all the statutory provisions which&#8212;</span></p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num style="font-weight:bold">(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">relate to any part of the existing </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">appointee's undertaking, or to any </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">property, which is to be transferred by </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">the scheme, or</span></p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num style="font-weight:bold">(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">authorise the carrying out of works </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">designed to be used in connection with </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">any such part of the existing appointee's </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">undertaking or the acquisition of land </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">for the purpose of carrying out any such </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">works; or</span></p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">by referring to all the statutory provisions within </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">paragraph (b) above, but specifying certain </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">excepted provisions.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.88in;text-indent:0.12in"><span style="font-weight:bold">In this paragraph &#8220;statutory provision&#8221; means a provision whether of a general or of a special nature contained in, or in any document made or issued under, any Act, whether of a general or a special nature.</span>&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As part of the scheme to be made under paragraph 2(1) the special administrators are likely to need to transfer to the new appointee as defined some if not all of the network of sub-contractors currently engaged by BCV and SSL.  Any transfers of these contractual arrangements (or indeed of any other contracts or property rights of the PPP companies) will be able to take advantage of the provisions of paragraph 3 and in particular those of sub-paragraphs 3 (1), (2) and (5) which override any prohibitions on transfer or assignment contained in the relevant agreements or imposed as a matter of general law and in the case of the liabilities of BCV and SSL under the contracts to which they are parties, obviate the need for a novation of the existing arrangements.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The power to make such a scheme is however dependant on the consent, not only of the existing appointee and the new appointee as defined, but also on that of any &#8220;other appointees&#8221; at least &#8220;in relation to the matters affecting them&#8221;: see para 2(1).  A similar power of veto exists in relation to the power of the Mayor to modify the proposed scheme before approving it: see para 2(3).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The special administrators have identified three classes of creditors who may be affected by the proposed transfer scheme.  They are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The shareholder creditors in BCV and SSL (WS Atkins plc, Balfour Beatty, Bombardier, Thames Water and EDF) who have pre-administration claims in respect of sub-contracts;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Trans4M whose claims arise under its terminated sub-contracts with BCV and SSL; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Fincos who are creditors in respect of the finance provided.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In facilitating the scheme the administrators wish to know whether they may be required to obtain the consent of any of these creditors (or for that matter of any other affected parties) as other appointees within the meaning of Schedule 15.  They have been advised by counsel that on the true construction of the statutory provisions  &#8220;other appointee&#8221; has a relatively narrow meaning and is restricted to  companies which either are or will as a result of the scheme become party to a PPP agreement: i.e. a PPP company within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.210(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>.  This would not therefore include either the existing sub-contractors, Trans4M or the Fincos none of whom would come into a direct contractual relationship within TFL or LUL which is a pre-requisite for any contract to be a PPP agreement under <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.210</ref> : see <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.210(1)</ref> and (2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The administrators have therefore issued this application seeking a determination by the Court pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/14/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> as to whether the words &#8220;other appointee&#8221; in Schedule 15 should be construed as meaning any PPP company other than the existing appointee or the new appointee (as defined in paragraph 1(2) of Schedule 15) which may be affected by the proposal referred to in sub-paragraph 1(1)(b) of Schedule 15 or whether those words have some other and if so what other meaning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 10 October 2007 Blackburne J directed the administrators to give notice of the application to TLL, LUL, TFL, the Fincos, the shareholder creditors of BCV and SSL and Trans4M and each of these parties (with the exception of TLL and WS Atkins plc) has been represented at the hearing before me.  Although their arguments differ in points of detail, TFL and LUL support the construction advanced by the administrators.  But each of the creditors including the Fincos contends that the phrase &#8220;other appointee&#8221; is wide enough in its meaning to include them if and so far as it turns out that they are (to use the words of paragraph 2(1)) affected by the scheme.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This last condition obviously requires to be tested against the detailed provisions of the proposed scheme which are not as yet formulated.  In the light of this, all of the respondents (except for TFL and LUL) submitted that I should refrain from attempting to make any decision as to what might or might not bring them within the ambit of paragraph 2(1) on a purely hypothetical basis.  Mr Phillips Q.C on behalf of Balfour Beatty went so far as to submit that it would be wrong in principle for me to decide any of the points of construction raised by the application and that the proper course was for me to dismiss it as premature.  He referred me to the decision of the House of Lords in<span style="font-style:italic"> Scher v Policyholders Protection Board (No.2) <ref href="#" uk:canonical="[1994] 2 AC 57" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 2 AC 57</ref> </span>in which Lord Mustill criticised an attempt by the judge in that case to construe a statute in a vacuum divorced from any proper factual basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The dangers inherent in taking such a course are obvious.  Statutory provisions are intended to operate in relation to real persons and events and have to be considered in that context.  To construe the provisions in the abstract risks giving the words used an over-wide or unrealistic interpretation which may also prove to be unnecessary and of no practical value when the real facts come to be ascertained and applied.  A similar warning can be found in the judgment of Moore-Bick LJ in <span style="font-style:italic">Wolman v Islington LBC <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/823" uk:canonical="[2007] EWCA Civ 823" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ. 823</ref> </span>at paragraph 11.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But in this case I am not being asked to construe the meaning of the words &#8220;other appointee&#8221; in a vacuum or without any factual context.  The position of the respondent creditors is known.  With the exception of Trans4M they are existing sub-contractors and financiers whose contractual relationship with the existing PPP companies is in evidence.  It is a given in these proceedings that the transfer scheme will either involve the transfer of their contracts with BCV and SSL to a new PPP company or in the case of Trans4M and perhaps the Fincos leave them to exercise their rights as creditors of BCV and SSL.  It is in that context and that context alone, that the question whether they are other appointees within the meaning of Schedule 15 arises.  I do therefore have the necessary material in order to decide that question.  What I am not I think able to decide, at least definitively, in advance of seeing the details of the scheme, is whether any individual respondent is likely to be affected by the scheme within the meaning of Schedule 15 if they are otherwise capable of being other appointees.  But if the words &#8220;affecting them&#8221; in paragraph 2(1) (as the creditor respondents contend) are to be given their natural meaning and not construed as meaning &#8220;adversely affected&#8221; then they really add very little to the definition of &#8220;other appointees&#8221; beyond establishing that their contracts and therefore they must be included in the scheme.  On that basis, the only relevant fact to emerge from the publication of the scheme is likely to be whether or not they are included in it.  This re-inforces my view that the Court can and should now give guidance to the administrators on the principal issues of construction which have arisen between them and the respondents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not therefore propose either to dismiss the application or to adjourn it  until after the terms of the scheme are known.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading"><marker name="tab"/><span/><span style="font-weight:bold">Other appointee</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is common ground that the structure and most of the provisions of Schedule 15 are derived from Schedule 7 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>&#8221;) and can be traced back before that to the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56" uk:canonical="1991 c. 56" uk:origin="TNA" uk:type="legislation">Water Industry Act 1991</ref>.  <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56/section/59" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 59</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> contains similar provisions to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> which empower the Court to make what is described as a railway administration order the purpose of which is to transfer to another company as a going concern the undertaking of a protected railway company as defined.  A protected railway company is required to hold an operating licence granted by the Secretary of State under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> and in paragraph 2(1) of Schedule 7 (which incorporates in the same form as Schedule 15 the defined terms of existing appointee and new appointee) the power exists in exactly the same terms as paragraph 2(1) of Schedule 15 for the existing appointee with the specified consents to make a transfer scheme.  For this purpose &#8220;other appointee&#8221; is defined in paragraph 1(2) of Schedule 7 as:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;<span style="font-weight:bold">any company, other than the existing appointee or the new appointee, which is the holder of a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56" uk:canonical="1991 c. 56" uk:origin="TNA" uk:type="legislation">this Act</ref> and which may be affected by the proposal mentioned in sub-paragraph (1) (b) above&#8230;.</span>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The earlier provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> which clearly provided the draftsman of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> with a template for the PPP legislation are relied upon by both sides in support of their construction of Schedule 15, but I prefer in the first instance to consider the provisions of Schedule 15 without reference to the earlier legislation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The starting point has to be <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220</ref> which sets out the purposes of a PPP administration order.  <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 220(1)</ref> requires the special administrators to manage the affairs, business and property of the PPP company affected by the order for the achievement of the purposes of the order and in a manner which protects the respective interests of the members and creditors of the company: see <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(1)</ref>.  The interests of creditors have therefore to be taken into account by the administrators in their management of the affairs of the company and the creditors can enforce this obligation in cases of unfair prejudice by applying to the Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> as incorporated under Schedule 14.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.23</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> (as amended by Schedule 14) the administrators are required to prepare a statement of their proposals for achieving the purposes of the administration order but as mentioned earlier there is no requirement to summon a meeting of creditors to review the proposals.  The approval of the proposals by creditors as such is not a feature of a PPP administration order.  <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> is not incorporated and although the creditors have to be served with the statement of proposals and have the right to apply to the Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref>, the Mayor is entitled to be heard on any such application and may even make his own application in order to ensure that the statutory purposes are carried out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It seems to me that there could easily in certain circumstances be a tension between the need to secure the transfer of the existing appointee&#8217;s undertaking to the new appointee in order to maintain the underground network and the interests of creditors in obtaining the best return from an otherwise insolvent company.  The Court on an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref> would have to balance those interests (so far as inconsistent with each other) in deciding what (if any) order to make.  But it is also important to observe that the Court on a <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27</ref> application under Schedule 14 to <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> is not empowered to dictate the terms of any proposed transfer scheme.  The most that the Court can do is to discharge the PPP administration order unless measures are taken to protect the interests of creditors: see Schedule 14 paragraph 10(4).   It would only, I think, be in extreme circumstances that such an order would ever come to be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The approval of a transfer scheme under Schedule 15 is a matter for the existing, new and other appointees as defined and for the Mayor: see paragraphs 2(1) and (2). The real issue therefore on this application is whether the class of &#8220;other appointees&#8221; is intended to extend to companies in the position of the respondents who are either purely creditors for pre-administration debts or continue in a contractual or other relationship which falls within the scope of the &#8220;property, rights and liabilities&#8221; whose transfer is part of the scheme.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The submissions advanced by the various respondents all place great emphasis on what they say are the wide and clear words of the definition of &#8220;other appointee&#8221; in paragraph 1(2).  It includes, it is stressed, &#8220;any company&#8221; which may be affected by the proposal and is not limited in terms to any PPP company which could so easily (had that been the draftsman&#8217;s intention) been inserted into the definition.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court is asked to give effect to what is said to be the plain meaning of the words used.  I was referred to a number of familiar authorities in which the House of Lords has stressed that where Parliament has used clear and unambiguous language the Court should not attempt to depart from it by seeking to find ambiguities where none exists.  In such cases there is no alternative but to give effect to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56" uk:canonical="1991 c. 56" uk:origin="TNA" uk:type="legislation">the Act</ref> as drafted.  So in <span style="font-style:italic">Duport Steels Ltd v Sirs [1980] 1WLR 142 at p. 157 </span>Lord Diplock said that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;</span><span style="font-weight:bold;color:#000000">Where the meaning of the statutory words is plain and unambiguous it is not for the judges to invent fancied ambiguities as an excuse for failing to give effect to its plain meaning because they themselves consider that the consequences of doing so would be inexpedient, or even unjust or immoral.</span><span style="font-weight:bold">&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There has been no suggestion of any mistake having been made in the drafting of the legislation nor is this a case in which the literal meaning of the words used relied on by the respondents would produce such an absurd result that it should be rejected in favour of some other construction.  But in every case the task of the Court is to give effect to the intention of Parliament as recorded in the statute.  Because the medium of communication is the written word this process is necessarily highly contextual.  In one sense any construction of the words used can be described as literal and I have no difficulty with that term if it means no more than one should attempt to give meaning and effect to the words which the draftsman actually used rather than re-formulating the grammar or phraseology or even inserting additional words which are not there.  But the words actually used cannot be construed in a vacuum.  The product of the draftsman is the totality of the legislation and each part of it has to be read consistently with the other provisions to which it relates and from which it derives its meaning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This point has been explained very clearly by Lord Bingham of Cornhill in his speech in <span style="font-style:italic">R (Quintavalle) v Health Secretary <ref href="#" uk:canonical="[2003] 2 AC 687" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 2 AC 687</ref> at paragraphs 7 &#8211; 8 </span>where he said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;</span><span class="bold1" style="font-family:Verdana;font-size:10pt;color:#000000">7 </span><span style="font-weight:bold">Such is the skill of parliamentary draftsmen that most statutory enactments are expressed in language which is clear and unambiguous and gives rise to no serious controversy. But these are not the provisions which reach the courts, or at any rate the appellate courts. Where parties expend substantial resources arguing about the effect of a statutory provision it is usually because the provision is, or is said to be, capable of bearing two or more different meanings, or to be of doubtful application to the particular case which has now arisen, perhaps because the statutory language is said to be inapt to apply to it, sometimes because the situation which has arisen is one which the draftsman could not have foreseen and for which he has accordingly made no express provision.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="bold1" style="font-family:Verdana;font-size:10pt;color:#000000">8 </span><span style="font-weight:bold">The basic task of the court is to ascertain and give effect to the true meaning of what Parliament has said in the enactment to be construed. But that is not to say that attention should be confined and a literal interpretation given to the particular provisions which give rise to difficulty. Such an approach not only encourages immense prolixity in drafting, since the draftsman will feel obliged to provide expressly for every contingency which may possibly arise. It may also (under the banner of loyalty to the will of Parliament) lead to the frustration of that will, because undue concentration on the minutiae of the enactment may lead the court to neglect the purpose which Parliament intended to achieve when it enacted the statute. Every statute other than a pure consolidating statute is, after all, enacted to make some change, or address some problem, or remove some blemish, or effect some improvement in the national life. The court's task, within the permissible bounds of interpretation, is to give effect to Parliament's purpose. So the controversial provisions should be read in the context of the statute as a whole, and the statute as a whole should be read in the historical context of the situation which led to its enactment.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The meaning of the words &#8220;other appointee&#8221; cannot therefore be based simply on an isolated and literal reading of the definition contained in paragraph 1(2).  The reference to it being any company which may be affected by the proposal requires one to look at what is meant by the proposal and what role Parliament contemplates the other appointee will have in any proposed scheme.  To do otherwise would be to allow the proverbial tail to wag the dog.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The definition of &#8220;other appointee&#8221; in paragraph 1(2) contains an express reference back to the proposal mentioned in paragraph 1(1)(b).  It means the proposal that another company (referred to as the new appointee) should carry out the relevant activities of and in place of the existing appointee.  Paragraph 1(1)(b) is therefore linked to the statutory purpose of the PPP administration order set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 220(2)</ref> which itself incorporates a reference to the &#8220;relevant activities&#8221;.  These are defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(6)</ref> for the purposes of Chapter VII of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> as the activities to be carried out by a PPP company in performing its obligations under the PPP agreement to which it is party.  The activities in question are therefore those specified in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/210/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 210(3)</ref> which are mandatory as part of any PPP agreement.  Schedule 15 is of course part of Chapter VII of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> for these purposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is therefore clear that the context in which Schedule 15 operates and which is referred to in paragraph 1(1) (b) (and by extension in the definition of &#8220;other appointees&#8221; in paragraph 1(2)) is a proposal for the transfer to a new PPP company of the undertaking of the existing appointee in such a way as to ensure that the new company can operate the PPP agreement for the maintenance of the infrastructure and rolling stock.  That proposal (in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(4)</ref> and Schedule 15) will ordinarily take place through the medium of a transfer scheme and the provisions of Schedule 15 are obviously intended to achieve the statutory purpose set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220 (2)</ref> (a).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next question to ask is what may be included in the transfer scheme and the answer can be found in various parts of Schedule 15.  Paragraph 2(1) (which contains the scheme-making power) specifies that the purpose and effect of the scheme is to transfer the property, rights and liabilities of the existing appointee to the new appointee. The allocation of those items is intended to reflect and be proportionate to the various relevant activities (as defined) which will &#8220;be carried out at different times on and after the relevant date by the new appointee, by the existing appointee and by any other appointees&#8221;: see paragraph 2 (6).  The correct allocation of the property, rights and liabilities of BCV and SSL between the existing, new and other appointees will therefore be a matter to be scrutinised by the Mayor in deciding whether or not to approve the scheme, but it is apparent from paragraph 2(6) that the scheme may involve the transfer of some of these to other appointees.  It is at first sight puzzling that an other appointee who is to carry out relevant activities as a result of the scheme should not be a new appointee as defined. But the only plausible explanation (given that the draftsman contemplated all three classes of appointee carrying out relevant activities post the scheme) is that in that particular context other appointees must be existing PPP companies (other than the existing appointee) who will take over some of the relevant activities formerly carried on by the existing appointee and will receive the assets necessary for that purpose.  An example of this might be the transfer of the maintenance responsibility for a station serving both the Northern and Central lines (eg Tottenham Court Road) from BCV to TLL which would involve a transfer of relevant assets between the companies.  The importance however of paragraph 2(6) is that it confirms that under a transfer scheme relevant activities may be carried out by other appointees as well as the new appointee and that they will receive the relevant part of the property, rights and liabilities of the existing appointee for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The reference in paragraph 2(6) to relevant activities being transferred to one or other kind of appointee is, I think, critical to an understanding of the provisions of Schedule 15 because it identifies the role of the other appointee as a potential recipient of property, rights and liabilities for use in connection with the performance of relevant activities and by the same token restricts the transfer of those items to appointees who are to carry out those duties.  There is nothing in paragraphs 2(1) or 2(6) to suggest that the administrators would be entitled to transfer such assets and liabilities to anyone who did not qualify in this way and this restriction on their powers is consistent with the terms and purpose of their appointment under <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29/section/220/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.220(1)</ref> and (2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given therefore that the scope and purpose of the power contained in paragraph 2(1) is the transfer of the property, rights and liabilities of the existing appointee, it seems to me that it must follow that an other appointee can only participate in a transfer scheme to the extent that he is the recipient of such items.  One of the difficulties of approaching the issue of construction which I have to decide through the definition of &#8220;other appointee&#8221; in paragraph 1(2) (as several of the respondents do) is that it invites a meaning for those words divorced from the context in which they are used.  Paragraph 1(2) is no more than a definition of other appointee.  It is not free standing and it cannot as a matter of construction operate outside the provisions in which that term is used.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The requirement in paragraph 2(1) for other appointees to consent to the making of a scheme in relation to matters affecting them, obviously requires one to look at what matters Parliament contemplated could affect them under a scheme of that kind.  Paragraph 2(6) indicates that they may be recipients of property and other rights if required to carry out relevant activities.  If one looks on to paragraph 3(2) this is spelt out in more detail.  The transfer may create new rights or interests in favour of the various classes of appointee over the property of the existing appointee and create new rights and liabilities as between any two or more of those companies: see paragraph 3(2) (a) and (b).  These provisions are consistent with those of paragraph 2(6) and with the notion of a re-distribution of responsibilities and assets between existing PPP companies and the new and other appointees.  Similarly, under paragraph 7(1) the scheme may transfer statutory functions to other appointees which relate to part of the undertaking or property transferred under the scheme.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All of these provisions operate, however, in the context of a proposal which has by definition to satisfy the requirements of paragraph 1 because it is only in that context that Schedule 15 has any application at all: see the opening words of paragraph 1(1).  There is nothing in either paragraph 2 or paragraph 3 of Schedule 15 to support the contention that &#8220;other appointee&#8221; means anything but a company which fulfils the role of an other appointee described in these paragraphs: i.e. as the transferee of the relevant activities of the existing appointee and of the appropriate part of its property, rights and liabilities necessary for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If this is right the respondents who are existing sub-contractors will not fall within the description of other appointees in paragraph 2(6) or paragraph 3(2)(a) because they are unlikely to be recipients or transferees of anything new under the scheme.  They will simply have the benefit of their sub-contracts assigned to the new appointee.  In that event, their case (and a fortiori that of Trans4M and the Fincos) depends upon treating paragraph 2(1) as somehow independent of the other provisions of paragraphs 2 and 3 rather than as contingent upon them.  I am unable to accept that.  It seems to me that the creation of a veto to the making of a transfer scheme must be linked to what is transferred under that scheme and to whom.  It would, I think, be very odd for Parliament to have given a right of veto to a sub-contractor in relation to the assignment of its contract to the new appointee when the effect of this would be to negate the provisions of paragraph 3 which are designed to obviate the necessity for a novation and therefore for the consent of the existing contractual parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The reference to matters affecting them in paragraph 2(1) is linked in my judgment as a matter of drafting to the phrase &#8220;affected by the scheme&#8221; where it appears in paragraph 2(6) and makes it clear that other appointees are only affected by the scheme within the meaning of the statute if they are the transferees of property, rights and liabilities under it.  This construction of the 1999Act also gives some meaning to the word &#8220;appointee&#8221; in &#8220;other appointee&#8221; which looked at in isolation is not the most obvious description of someone who receives nothing under the scheme.  It seems to me perfectly intelligible (and almost certainly legally necessary) to require a company which under the scheme is to receive new property, rights or liabilities to be required to consent to that.  But existing contracting parties will under the scheme have their contracts transferred intact from an insolvent to a solvent company under what for them are no more than enabling provisions.  There is no obvious reason why they should be required to consent to this as a condition of the administrators being able to achieve the statutory purpose through the transfer scheme.  The argument that companies who were not transferees under the scheme are other appointees with a power of veto also provides no explanation for the presence in Schedule 15 of paragraph 3(2) (c) which expressly caters for the making of  incidental provision in respect of the interests, rights and liabilities of &#8220;other persons&#8221; with respect to the subject matter of the scheme but does not give such persons any veto over its contents.  It seems to me that this is a recognition that persons with existing contracts with the PPP companies may be affected by the scheme without being &#8220;other appointees&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In these circumstances it is not necessary for me to analyse <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> or the earlier legislation as a guide to the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>, but I should say that I am not persuaded that the reference in the definition of &#8220;other appointee&#8221; to the need for that company to be a holder of a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> is sufficient to indicate that in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref> a much broader meaning of that term was intended.  The reference in <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> to the other appointee holding a <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> licence clearly limits the class to companies which will become the operators of railway assets within the meaning of that section.  This is necessary under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> because the relevant activities in relation to a protected railway company are the carriage of passengers by railway or the management of the network both of which require the operator to hold a <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> licence: see <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/59/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.59(6)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>.  However, the fact that the other appointees require a licence confirms that what the scheme contemplates is that they will be transferees of those relevant activities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The holding of a <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> licence may not be required in the context of a PPP agreement for all the relevant activities involved but so far as necessary paragraph 4 of Schedule 15 provides for the transfer of any <ref href="http://www.legislation.gov.uk/id/ukpga/1991/56/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> licences to the new appointee.  This aside, the provisions and framework of both statutory schemes are identical and <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref> seems to, if anything, confirm the limited meaning to be given to &#8220;other appointees&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1999/29" uk:canonical="1999 c. 29" uk:origin="TNA" uk:type="legislation">the 1999 Act</ref>.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading"><marker name="tab"/><span style="font-weight:bold">  Article 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Mortimore Q.C, on behalf of Trans4M, also submitted that the construction of &#8220;other appointee&#8221; advanced by the administrators could be incompatible with Art. 1 of the First Protocol to the European Convention for the Protection of Human Rights and Fundamental Freedoms (&#8220;Article 1&#8221;) because it might result in persons being deprived of their possessions without their consent or compensation.  For this reason Schedule 15 had, he said, to be read and given effect to in a way which was compatible with the affected persons&#8217; convention rights: see <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3(1)</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 1 states that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;Every natural or legal person is entitled to the peaceful enjoyment of his possessions. No one shall be deprived of his possessions except in the public interest and subject to the conditions provided for by law and by the general principles of international law.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">The preceding provisions shall not, however, in any way impair the right of a State to enforce such laws as it deems necessary to control the use of property in accordance with the general interest or to secure the payment of taxes or other contributions or penalties.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have been referred to none of the relevant Strasbourg  jurisprudence on the point and only one English authority: the decision of David Richards J in <span style="font-style:italic">Re T &amp; N Limited <ref href="#" uk:canonical="[2006] 1 WLR 1728" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 WLR 1728</ref> </span>where the judge had to consider whether a particular construction of the Insolvency Rules 1986 which would have had the effect of preventing certain asbestos related claims for personal injuries being admitted to proof in a liquidation was a violation of Article 1.  The case raised very different issues from those under consideration on this application and is only relevant for the judge&#8217;s acceptance that an accrued cause of action in tort was a possession within the meaning of Article 1.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Even in the absence of authority I am willing to accept that the respondents&#8217; contractual rights are possessions within the meaning of Article 1 but their convention rights are not engaged unless the effect of a transfer scheme without their consent deprives them of those rights.  It is clear that it does not.  The provisions of Schedule 15 do no more than to assign the benefit of the sub-contracts to the new appointee and bring the respondents into a contractual relationship with that company.  So far as they have accrued claims against BCV and SSL for work already done those claims remain intact and unaffected by the transfer scheme.  In these circumstances it is unnecessary to go on to consider whether the regime contended for by the administrators can be justified as in the public interest.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading"><marker name="tab"/><span style="font-weight:bold">  Form of relief</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That leaves the question of the form of relief to be granted on this application.  For the reasons set out above I take the view that to be an other appointee within the meaning of Schedule 15 the company in question must have transferred to it property, rights and liabilities of the existing appointee in exercise of the powers contained in paragraphs 2 and 3 of Schedule 15.  This (as contemplated by paragraph 2(6)) can only occur in the context of a re-organisation of the responsibility for the maintenance of the infrastructure by reference to the relevant activities which each of the appointees will carry out under the scheme.  Since these activities can only be performed under a PPP agreement, it must follow that each of the appointees referred to in paragraph 2(1) of Schedule 15 either is or will become a PPP company.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is, therefore, no question of writing in any additional words in the definition of &#8220;other appointee&#8221; in paragraph 1(2).  The only companies which can fall within that term properly construed are PPP companies in whose favour there is under the scheme a transfer of property, rights and liabilities from the existing appointee in exercise of the powers contained in paragraphs 2(1) and 3 of Schedule 15.  No other companies (PPP or otherwise) are in the words of paragraph 1(2) affected by the proposal.  I shall leave it to counsel to draft a form of direction which accurately reflects this construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

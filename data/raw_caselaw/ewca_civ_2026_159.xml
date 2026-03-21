@@ -1,0 +1,580 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2026/159"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2026/159"/>
+	  <FRBRdate date="2026-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="159"/>
+	  <FRBRname value="AM &amp; Anor v Secretary of State for the Home Department"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/159"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/159"/>
+	  <FRBRdate date="2026-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/159/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/159/data.xml"/>
+	  <FRBRdate date="2026-02-25T13:08:52" name="transform"/>
+	  <FRBRdate date="2026-02-25T13:25:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="am-and-another" href="" showAs="AM and another"/>
+	<TLCPerson eId="secretary-of-state-for-the-home-department" href="" showAs="Secretary of State for the Home Department"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lady-justice-elisabeth-laing-dbe" href="/judge-lady-justice-elisabeth-laing-dbe" showAs="LADY JUSTICE ELISABETH LAING DBE"/>
+	<TLCPerson eId="judge-lady-justice-may-dbe" href="/judge-lady-justice-may-dbe" showAs="LADY JUSTICE MAY DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>159</uk:number>
+	<uk:cite>[2026] EWCA Civ 159</uk:cite>
+	<uk:caseNumber>CA-2025-001038</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>7f884833fdaa2c190e506c65201b27f6fffee8092d4f0b3dc18b651ecad89e44</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Aptos; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWCA Civ 159</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2025-001038</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE UPPER TRIBUNAL</p>
+      <p class="CoverMain">Judge Kebede and Deputy Upper Tribunal Judge Alis </p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-02-24" refersTo="#judgment">24<span style="vertical-align:super;font-size:smaller">th</span> February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-elisabeth-laing-dbe">LADY JUSTICE ELISABETH LAING DBE</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE COBB<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-may-dbe">LADY JUSTICE MAY DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#before-the-v" refersTo="#am-and-another" style="font-weight:bold">AM and another</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#after-the-v" refersTo="#secretary-of-state-for-the-home-department" style="font-weight:bold">Secretary of State for the Home Department</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Greer </span>(instructed by <span style="font-weight:bold">Broudie Jackson Canter Solicitors</span>) for the <span style="font-weight:bold">Appellants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Natasha Barnes </span>(instructed by<span style="font-weight:bold"> Government Legal Department) for</span> the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 10<span style="vertical-align:super;font-size:smaller">th</span> February 2026</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 24<span style="vertical-align:super;font-size:smaller">th</span> February 2026 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LADY JUSTICE MAY:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Anonymity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As this case concerns a protection claim, the court considered anonymity at the start of the hearing.  We continued the order for anonymity made by the single judge at the time of granting permission.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal from the decision of the Upper Tribunal (Judge Kebede and Deputy Upper Tribunal Judge Alis) dated 13<span style="vertical-align:super;font-size:smaller">th</span> March 2025 dismissing the appellants&#8217; appeal against the decision of Judge of the First Tier Tribunal McQuillan of 9<span style="vertical-align:super;font-size:smaller">th</span> September 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal is brought on two grounds.  On 30 July 2025, Zacaroli LJ granted the appellants permission to appeal on Ground 1 and adjourned the question of permission on Ground 2 to a rolled-up hearing to be heard at the same time as the appeal on Ground 1.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons which appear below, I would  grant permission on Ground 2 and allow the appeal on both grounds.  I find that the First Tier Tribunal Judge fell into error in dismissing the appeal from the decision of the respondent refusing the appellants&#8217; asylum claim; it follows that the Upper Tribunal erred in refusing the appeal from the decision of the First Tier Tribunal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellants are nationals of Iraq of Kurdish ethnicity. The first appellant (&#8220;AM&#8221;) is the mother of the second appellant (&#8220;FM&#8221;).  AM&#8217;s date of birth is 12 January 1993 and FM&#8217;s date of birth is 1 April 2019. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In making her claim for asylum, and in her evidence for the hearing, AM gave an account of being at risk of honour-based violence by her maternal cousin (A) if returned to Iraq. This is because she rejected an arranged marriage to A, in favour of marrying her husband (D).  A has influence in Iraq as he is affiliated with the Kurdish Democratic Party (&#8220;the KDP&#8221;).  The essential elements of AM&#8217;s account were these:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A&#8217;s parents (AM&#8217;s mother&#8217;s sister and brother in law) had supported AM and her mother after AM&#8217;s father died.  It was agreed that AM would marry A. However, AM did not want to marry A because he was an alcoholic and mixed with unsavoury people. Whilst A&#8217;s family wanted them to marry as soon as she finished high school, her mother managed to defer the marriage until after she finished university. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">AM met and fell in love with D at university in Iraq. Her mother told A&#8217;s mother that AM wished to marry D not A but A&#8217;s mother said it was not possible for her to marry someone else.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">A suffered serious brain damage in a car accident in around October 2015 and travelled to Germany for medical treatment. Around this time, A&#8217;s mother reluctantly agreed to release AM from the arranged marriage and said that she could marry D, as A&#8217;s future was unclear.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">AM and D were married on 15 April 2016. Their daughter FM was born in April 2019.  They lived in Erbil where D co-owned a restaurant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A made an unexpected recovery and returned to Kurdistan in February 2021. He demanded that AM divorce D and marry him instead.  He repeatedly threatened AM in person and over the phone.  One day, A came to the house with three-armed men, pointed a gun at their heads and told AM that if she did not divorce D, then she would lose her daughter.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">AM and D went to the police to report the threats and the violence but were told that there was nothing the police would do as A was connected with the KDP.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">AM and D left Iraq with FM about a week later. D&#8217;s uncle arranged their journey to the UK through France with an agent.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On their arrival in the UK on 30 April 2021, AM and FM made an asylum claim.  The respondent (&#8220;SSHD&#8221;) refused the claim in a decision dated 24 July 2023 (&#8216;the Decision&#8217;).  AM and FM appealed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal was heard in the First-tier Tribunal (&#8220;FTT&#8221;) on 13 August 2024.  Both AM and D gave evidence with the assistance of a Kurdish Sorani interpreter.  We have seen their witness statements (translated into English) prepared for the hearing and a transcript of their evidence given at the hearing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The FTT Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a written decision promulgated on 9 September 2024 (&#8220;the Determination &#8221;) the FTT dismissed AM and FM&#8217;s appeal against the Decision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The FTT judge began by recording the issues which the parties had agreed, as</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(i)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Credibility of Appellant (AM)</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(ii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Documentation&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge went on to set out the legal framework, correctly identifying that an appellant in an asylum appeal must show a well-founded fear of persecution for a Convention reason.  He referred to the lower standard of proof which applies to asylum claims.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under a heading &#8220;Findings&#8221;, with a sub-heading &#8220;Credibility&#8221; the judge dealt first with three matters raised by the SSHD in the Decision as demonstrating internal inconsistencies in the appellant&#8217;s account.  The judge dismissed the matters which the SSHD had raised, doing so in these terms (references are to paragraphs of the Determination):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Should I accept the Appellant&#8217;s account the fact that the families agreed to the marriage to AN in the circumstances they did does not exclude the possibility of A being sufficiently aggrieved to threaten the Appellant as she claims he did.&#8221; </span>(13(a))</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;...I find that [the Appellant] was clear in her Witness Statement (WS) that she knew that A was in KDP and she gave evidence about the KDP support for A when he was injured.  If I accept her account this is not an inconsistency.&#8221; </span>(13(b))</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230;if the essential facts were accepted then the Appellant could not re-locate...&#8221; </span>(13(c))</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;For the reasons above, I do not find that the above inconsistencies claimed [by the SSHD] did damage the Appellant&#8217;s credibility&#8221; </span>(13(d)).</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having dismissed the inconsistencies upon which the SSHD had relied in the Decision, the judge nevertheless proceeded to find that AM&#8217;s evidence on the following matters had damaged her credibility (at paras 14 to 16 of the Determination):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Her reasons given in evidence for not seeking asylum in France, which engaged <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/8" uk:canonical="2004 c. 19 s. 8" uk:origin="TNA" uk:type="legislation">s.8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">Asylum and Immigration (Treatment of Claimants etc) Act 2004</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Her evidence that D&#8217;s uncle in Iraq would not offer further assistance.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Her omission to mention threats made by A to her mother in interview, or in her witness statement, prior to the hearing.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under the next sub-heading &#8220;Documentation and Credibility&#8221; the FTT judge moved to consider AM&#8217;s account of why she did not have identity documents, finding that her evidence on this had been unsatisfactory and saying:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230;I find the evidence of the Appellant and to some extent the evidence provided by AN alongside their earlier statement in interview and the [witness statement] to be inconsistent and unconvincing and I find that this damages her credibility&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having made these findings in relation to AM&#8217;s credibility the judge proceeded to his conclusion, at paragraphs 21 to 22 of the Determination:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;21.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">I have made some findings where I did not accept the points made by the [SSHD] in respect of the Appellant&#8217;s credibility.  In other places I have found that there are aspects which damage the Appellant&#8217;s credibility&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">22.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">I find that those key areas where I found the Appellant&#8217;s credibility to be damaged were some of the key aspects of her claim.  The inconsistencies or new evidence bolstered the Appellant&#8217;s claim and could all have reasonably been advanced at an earlier stage.  Taking everything in the round I find that the credibility of the Appellant is sufficiently damaged that I am unable to find that she has discharged the burden on her to show that there is a real risk from A to the extent that this supports a well-founded fear of persecution.  </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">There may be aspects of her claim that are true</span><span style="font-style:italic"> and I accept that sometimes claimants will exaggerate or embellish what is otherwise a truthful account however I do not find the Appellant to be sufficiently credible to find that there is a reasonable degree of likelihood that her claimed fear is true&#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The appeal to the Upper Tribunal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">AM and FM appealed to the Upper Tribunal (UT), advancing three grounds of appeal, only the first two of which remain relevant on the appeal to this court:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Ground 1</span>:  Irrationality and unreasonableness. It is said that, rather than making findings of fact on discrete factual issues, the FTT relied on concerns over AM&#8217;s credibility in relation to peripheral matters to undermine the reliability of her evidence about the core of her claim.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Ground 2</span>:  It is said that the FTT made no clear finding as to the weight it attached to D&#8217;s evidence, leaving the informed reader unable to determine what it had made of his evidence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their decision dated 13<span style="vertical-align:super;font-size:smaller">th</span> March 2025 the UT dismissed the appeal.  By order dated 2 April the UT refused permission to appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By his order dated 30 July 2025 Zacaroli LJ granted permission in respect of Ground 1.  He adjourned the application for permission in respect of Ground 2 to the hearing of the appeal, to give the appellants <span style="font-style:italic">&#8220;the opportunity&#8230; of identifying the particular evidence which it is alleged should have been taken into account...&#8221;</span>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Arguments on this appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Greer focussed his submissions on the reasoning in the Determination, pointing out that if the Determination was contaminated by legal error then it would follow that the UT had erred in law in dismissing the appeal.  I agree.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having drawn our attention to settled principles of law in this area (see further below) Mr Greer argued that the FTT judge had erred in failing to make findings in relation to the essential elements bearing on AM&#8217;s fear of honour-based violence from A if she went back to Iraq.  The decisive question on risk could only be resolved by making findings of fact on the events which, A said, had caused her to leave Iraq:  whether she had been contracted to marry A, whether A had been injured and had returned to Iraq in 2021, whether A threatened AM, whether he came to their house with weapons and threatened their daughter, whether they had made a complaint to police and whether A was affiliated to the KDP. The judge had been entitled to consider AM&#8217;s credibility globally, but a finding on that was not a proper substitute for a finding on the key elements of her claim.  Mr Greer submitted that the judge&#8217;s findings on AM&#8217;s credibility in relation to &#8220;post-flight&#8221; matters, such as why she had not claimed asylum in France, or what she had done with the family&#8217;s identity documents, were remote from the key indicia of risk, the &#8220;pre-flight&#8221; matters, being the matters set out at [6] above.  He argued that the points which the judge identified as damaging AM&#8217;s credibility were logically collateral to what she said about her persecution at the hands of A in Iraq.  Mr Greer accepted that, taken in the round, the &#8220;post-flight&#8221; matters had the potential to affect her credibility on the essential elements of her claim, but he argued that the judge&#8217;s reasoning had failed to make a sufficiently clear connection.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to Ground 2, concerning the treatment of D&#8217;s account of events, Mr Greer argued that the FTT judge had failed to address that evidence.  He pointed out that D was a primary witness of events in Iraq prior to their departure, giving evidence which bore centrally on AM&#8217;s fear of persecution at the hands of her cousin.  Moreover, D was in a better position than AM to speak to his relationship with his uncle and to the latter&#8217;s preparedness to offer further assistance.  Yet the only reference to D&#8217;s evidence in the course of the Determination was in relation to identity documents where the judge expressed the view that &#8220;to some extent&#8221; D&#8217;s evidence had failed to corroborate what his wife had said. Mr Greer suggested that a reader could have no confidence that D&#8217;s evidence on the key events leading to their departure from Iraq had been weighed at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Barnes, for the SSHD, submitted that these criticisms were unjustified.  She pointed out that the judge had addressed credibility as this is what the parties had specifically invited him to do; indeed, this is how the parties had conceived of the central issue in this case.  The judge had been entitled to come to a finding on global credibility and then apply that to the key issues.  Ms Barnes accepted that there is no explicit finding in the Determination that, for instance, A did not threaten AM, or that AM and her husband did not complain to the police, but she pointed out that the judge had come to a clear decision that AM had not made out her claim to the lower standard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Barnes accepted that, as the UT indicated, the FTT judge&#8217;s reasoning could have been clearer, but she contended that it was not so deficient as to amount to an error of law.  She argued that the judge properly applied evaluative techniques to assess AM&#8217;s credibility, making findings in four distinct areas.  She invited us to reject the characterisation of these four areas as remote from the indicia of risk:  the FTT had explicitly recorded that he found AM&#8217;s credibility damaged <span style="font-style:italic">&#8220;in relation to key aspects of her claim&#8221;</span>.  She argued that the issue of threats to AM&#8217;s mother in relation to a land claim was not separate from threats to the daughter: AM had put both subjects &#8211; threats to her over the marriage and to her mother over the land - together in her evidence.  As to the documentation and assistance provided by the uncle, Ms Barnes pointed to the UT&#8217;s conclusion that that these went to the central issue of AM being at risk from A if she returned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dealing with Ground 2 and the treatment of D&#8217;s evidence regarding his uncle, Ms Barnes maintained that this took AM&#8217;s evidence no further. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The legal principles to be applied </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties were agreed as to the applicable legal principles, which we can summarise briefly as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Permission for a second appeal having been granted, the task of this court is to determine whether the UT was correct in deciding that there was no material error of law in the Determination.  In practical terms, this involves an examination of the Determination as, if there was a material error of law in the Determination, it follows that the UT has erred in dismissing the appeal:  <span style="font-style:italic">SB (Sri Lanka) v SSHD</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/160" uk:canonical="[2019] EWCA Civ 160" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 160</ref> at [40].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The assessment of an appellant&#8217;s credibility falls to be considered in the context of the lower standard of proof that applies in protection cases.  The requirement for an appellant&#8217;s fear of persecution to be well-founded means that there has to be demonstrated &#8220;a reasonable degree of likelihood&#8221; that they will be persecuted for a Convention reason if returned to their home country:  <span style="font-style:italic">MAH (Egypt) v SSHD</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/216" uk:canonical="[2023] EWCA Civ 216" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 216</ref> at [49]. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In cases where credibility is in issue, the credibility assessment is a global one to be taken in the round and must take into account all material considerations:  <span style="font-style:italic">JT (Cameroon) v SSHD</span> <ref href="#" uk:canonical="[2009] 1 WLR 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 141</ref>; <span style="font-style:italic">MA (Somalia) v SSHD</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/49" uk:canonical="[2010] UKSC 49" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 49</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An appeal court will not readily interfere with findings of fact made by the FTT:  <span style="font-style:italic">MAH; SB</span> (cited above).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Discussion</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In accordance with the guidance in <span style="font-style:italic">SSHD v TC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/iac/2023/164" uk:canonical="[2023] UKUT 164 (IAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 164 (IAC)</ref>, the FTT is required to identify the principal important controversial issues, marshal the evidence bearing upon those issues and provide intelligible reasons for accepting or rejecting the evidence determinative of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the present case the important controversial issue was whether the evidence demonstrated a reasonable degree of likelihood of honour-based violence to AM and/or her daughter FM from A if they returned to Iraq.   This required the judge to address the matters in the evidence which formed the background for, and were said to give rise to, that fear, being the factual elements identified at [6] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge was obliged to consider AM&#8217;s credibility in the round by reference to other parts of the evidence.  I accept Ms Barnes&#8217; submission that the evidence about A&#8217;s threats to the mother, or D&#8217;s uncle, or what happened to the identity documents are not to be treated as separate and distinct from the more central elements of AM&#8217;s account bearing on risk of persecution from A.  In any event, a judge is not to be criticised for using conclusions on credibility in relation to parts of the evidence which may be remote from the indicia of risk in determining whether the account of risk on return is credible:  see <span style="font-style:italic">SB</span> per Green LJ at [42].  The judge was entitled to use his conclusions on credibility in relation to e.g. the identity documents to assist in his determination on the core elements of the claim relevant to risk.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The difficulty with the Determination here is that it is impossible to discern from the reasoning what  the FTT Judge decided about the key indicia of risk identified at [6] above.  The qualifications seen in paragraph 13 of the Determination &#8211; <span style="font-style:italic">&#8220;[s]hould I accept&#8230;&#8221;</span> (para 13(a)), <span style="font-style:italic">&#8220;..if I accept her account&#8230;&#8221;</span> (para 13(b)), <span style="font-style:italic">&#8220;..if the essential facts were accepted&#8230;&#8221;</span> (para 13(c)), beg the question of what findings the judge arrived at on those aspects of AM&#8217;s claim.  The judge&#8217;s conclusion (at para 13(d)) that the matters relied on by the SSHD in refusing the claim <span style="text-decoration-line:underline;text-decoration-style:solid">did not</span> damage AM&#8217;s credibility suggests that he may have accepted AM&#8217;s account of matters covered in paragraphs 13(a) to (c) but there is no explicit finding either way in the Determination.  Since those matters encompassed key elements underpinning AM&#8217;s claim to be afraid of honour-based violence at the hands of her cousin then, as Elisabeth Laing LJ observed during argument, if they were accepted as credible it was at least possible (to put it no higher) for such findings to have justified the asylum claim, applying the lower standard of proof.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The uncertainty about what aspects of AM&#8217;s account the judge accepted continues in the concluding section of the Determination.  At paragraph 22 the judge referred to AM&#8217;s credibility being damaged in<span style="font-style:italic"> &#8220;some of the key aspects of her claim&#8221;</span> but does not identify which aspects. It is implicit that there were parts of AM&#8217;s evidence which the judge did accept but, again, these were not identified.  The judge went on to say that <span style="font-style:italic">&#8220;[t]here may be aspects of her claim that are true&#8230;&#8221;</span> but did not specify which.  I agree with Mr Greer that a well-informed reader is left wondering which elements of AM&#8217;s account the judge did accept and which he did not; and why, if the matters which he did accept included some or all of the key elements identified at [6] above, he nevertheless dismissed the appeal.  Put shortly, there is a break in the essential chain of reasoning; having acknowledged that some parts of AM&#8217;s account may be true, the judge needed to go on and explain why the risk of persecution had not been made out to the low standard of proof required.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Reading the Determination as a whole, it appears that the judge may have directed his focus to reaching an overall credibility finding at the expense of sufficiently addressing and explaining his conclusions regarding the core elements of the claim going to risk.  It is, perhaps, unsurprising that he should have done so given the way in which counsel appearing at the hearing characterised the issues, as recorded at the start of the FTT Decision. The transcript of the hearing shows that the judge asked counsel at the outset if credibility was the only matter in issue, to which both responded that it was.  This was not helpful.  However the ultimate responsibility lies with the judge to identify the issues correctly and marshal the evidence going to those issues:  <span style="font-style:italic">TC </span>per Dove J (as he then was) at [60] to [61]. In the present case, it would have been preferable for the judge to have tested counsel&#8217;s characterisation of the issue by inviting them to identify the factual findings on which the question of AM&#8217;s credibility was said to bear most critically and then to have addressed those findings by reference to the evidence in the Determination.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The difficulty in tracing a path through the judge&#8217;s reasoning is reflected also in his treatment of D&#8217;s evidence.  It is of course right that a judge is not obliged to deal with every piece of evidence in their decision (see eg <span style="font-style:italic">Volpi v Volpi</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/464" uk:canonical="[2022] EWCA Civ 464" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 464</ref>; <ref href="#" uk:canonical="[2022] 4 WLR 48" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 4 WLR 48</ref>).  But here, where D was able to, and did, give first-hand evidence of events preceding the family&#8217;s departure from Iraq, there is surprisingly sparse reference to D&#8217;s evidence and such mention as there is again, equivocal.  Having noted that D&#8217;s evidence in relation to identity documents omitted a matter to which AM had referred, the judge observed shortly that &#8220;...<span style="text-decoration-line:underline;text-decoration-style:solid">to some extent</span>...&#8221; D&#8217;s evidence did not support hers.  Again, it is impossible to discern from this which parts of D&#8217;s evidence on the essential elements of the claim the judge rejected and which he (implicitly) accepted.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have identified above, I am satisfied that there was an error of law in the judge&#8217;s reasoning, and I would therefore allow the appeal.  I would remit the case to the FTT to be re-heard by a different tribunal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE COBB</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LADY JUSTICE ELISABETH LAING:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

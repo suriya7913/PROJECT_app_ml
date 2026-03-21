@@ -1,0 +1,707 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/1508"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/1508"/>
+	  <FRBRdate date="2011-06-17" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1508"/>
+	  <FRBRname value="MH, R. v"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/1508"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/1508"/>
+	  <FRBRdate date="2011-06-17" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/1508/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/1508/data.xml"/>
+	  <FRBRdate date="2024-11-07T03:06:46" name="transform"/>
+	  <FRBRdate date="2024-11-15T23:13:13" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2011-06-17" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-crown" href="" showAs="THE CROWN"/>
+	<TLCPerson eId="m-h" href="" showAs="M H"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-hooper" href="/judge-lord-justice-hooper" showAs="LORD JUSTICE HOOPER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2011</uk:year>
+	<uk:number>1508</uk:number>
+	<uk:cite>[2011] EWCA Crim 1508</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>5083b965a78db87a2dc970793ba018fd9b58e32f737c711b177990f7fe932074</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteTextChar { font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2011] EWCA Crim 1508</neutralCitation></p>
+      <p class="CoverText">Case No: 2010 3990 C5</p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE CROWN COURT SITTING AT NEWCASTLE UPON TYNE</p>
+      <p class="CoverMain">HHJ HODSON</p>
+      <p class="CoverMain">T20100832</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2011-06-17" refersTo="#judgment">17/06/2011</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-hooper">LORD JUSTICE HOOPER</judge></p>
+      <p class="CoverMain" style="text-align:center">MR JUSTICE HOLROYDE<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center">RECORDER OF HULL HIS HONOUR JUDGE METTYEAR</p>
+      <p class="CoverMain" style="text-align:center">(SITTING AS A JUDGE OF THE COURT OF APPEAL CRIMINAL DIVISION)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#the-crown" style="font-weight:bold">THE CROWN</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#m-h" style="font-weight:bold">M H</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">MS. S. WHITEHOUSE</span> appeared for the <span style="font-weight:bold">Appellant.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">MR. C. J. KNOX</span> appeared for the <span style="font-weight:bold">Respondent.</span></p>
+      <p style="text-align:center">Hearing date : 5<span style="vertical-align:super;font-size:smaller">th</span> November 2010</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LORD JUSTICE HOOPER :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent was charged with two offences of causing the death of Mr James Dickinson by driving whilst uninsured, count 1, and driving whilst unlicensed, count 2 contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>.<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> We wonder whether it is necessary to draft two counts rather than one count, but we were not addressed on the point. In <span style="font-style:italic">Williams</span> , which we discuss below, there was only one count. </p>
+	      </authorialNote></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Recorder of Newcastle, His Honour Judge David Hodson, ruled, on an agreed factual basis, that &#8220;as a matter of law a jury could not reasonably be directed that in any real sense the defendant was a cause of&#8221; the death of Mr Dickinson. The prosecution seek leave to appeal this ruling, generally known as a &#8220;terminating ruling&#8221;.<authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"> It s known as a terminating ruling because the prosecution must inform the court as a condition of seeking leave to appeal that, should the application for leave to appeal or the appeal be unsuccessful, then the defendant should be acquitted.</p>
+	      </authorialNote>  We grant leave.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>ZB created a new offence which was inserted into the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/21/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 21(1)</ref>.  <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>ZB came into force in August 2008.  It provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">A person is guilty of an offence under this section if he causes the death of another person by driving a motor vehicle on a road and, at the time when he is driving, the circumstances are such that he is committing an offence under<span style="font-size:10pt">--</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref> (driving otherwise than in accordance with a licence),</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/103/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 103(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref> (driving while disqualified), or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/143" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 143</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">this Act</ref> (using motor vehicle while uninsured or unsecured against third party risks).</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The offence may be tried summarily or on indictment. Schedule 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> provides that the sentence for the offence if tried on indictment is a maximum sentence of 2 years&#8217; imprisonment, obligatory disqualification and obligatory endorsement with between 3 and 11 points. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The offence against <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> (driving without a licence or otherwise than in accordance with a licence) is punishable summarily only by a fine and, in certain circumstances, discretionary disqualification and obligatory endorsement. The offence against <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/103/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 103(1)</ref>(b) (driving while disqualified) is punishable summarily with six months&#8217; imprisonment, discretionary disqualification and obligatory endorsement.  The offence against <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/143" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 143</ref> (using motor vehicle while uninsured or unsecured against third party risks) is punishable summarily only by a fine, discretionary disqualification and obligatory endorsement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Crown Prosecution Service now seek leave to appeal the ruling of the Recorder of Newcastle, HHJ Hodson, that, on the agreed facts, a jury could not properly find that the respondent was a cause of the death. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue in the case is whether a person commits the offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB if his manner of driving is faultless and the death has nothing at all to do with the manner of his driving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant CPS submits that the offence is committed in these circumstances. The respondent submits that it is not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute that the respondent was committing an offence against <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 87(1)</ref> in that he did not have a licence to drive and an offence against <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/143" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 143</ref> in that he was uninsured to drive. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute that the respondent&#8217;s manner of driving was faultless and the death had nothing at all to do with the manner of his driving. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute that the deceased&#8217;s manner of driving was dangerous. If Mr Dickinson had survived and if the respondent and/or a member of his family in the vehicle with him had died, then, in our view, Mr Dickinson would have been guilty of causing death by dangerous driving and would have received a very substantial term of imprisonment. The maximum sentence for causing death by dangerous driving is one of 14 years&#8217; imprisonment. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Shortly after 4.30pm on 25 October 2009, the respondent was driving his van in an easterly direction along the A69, near Ridley Hall, Bardon Mill, Northumberland, when his van was involved in a collision with a Honda motor car being driven in the opposite direction by Mr James Dickinson.  Mr Dickinson sustained extensive serious injuries as a consequence of the collision, and died that evening as a result of those injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the point of the collision, the road is a single carriageway divided by white centre lines, and is subject to the national speed limit.  At the time of the collision, the visibility was good, although it was just starting to get dark, and the road surface was wet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Dickinson worked night shifts at a power station in Largs, on the west coast of Scotland.  Mr Dickinson had worked 8 consecutive 12-hour night shifts from 17 October until 25 October 2009, the final night shift finishing at 8 am on 25 October.  He was due to recommence work at 7 pm that day, and was on his way back to work at the time the collision occurred.  A camera had picked up Mr Dickinson driving South to North in the Tyne Tunnel at 3.54 pm that afternoon. By the time of the accident, he had already driven that day some 200 miles, with some 200 miles to go. This would indicate a planned journey of some 400 miles.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Andrew Clatworthy, a toxicologist, found that Mr Dickinson had used heroin shortly before the collision.  Mr Clatworthy found that the level of free morphine in Mr Dickinson's blood was one which could be considered toxic, and that he was "almost certainly" under the influence of heroin at the time of the collision.  The side effects of morphine include drowsiness, inability to concentrate and a lack of co-ordination.  Mr Dickinson was also found to have methadone, benzodiazepine and other drugs in his system which were not prescribed drugs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a result of the morphine and the lack of sleep, Mr Dickinson was driving erratically.  One witness to this was Ms Susanne Robinson, who was travelling along the A69 in a westerly direction, behind Mr Dickinson.  She witnessed his Honda weaving from side to the road, crossing the white lines at the nearside of the road, and crossing the central white lines by about 1 foot.  The Honda did this consistently for 2 miles immediately prior to the collision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On one occasion, a vehicle travelling in an easterly direction and in the eastbound lane had to swerve to avoid a collision with the Honda.  Mr Dickinson appeared to take no deliberate evasive action.  Rather, he veered back into his own lane simply as a result of the pattern of sweeps he was conducting.  Ms Robinson estimates the speed of the Honda as varying between 45 and 55mph.  She says that due to the unsafe manner in which Mr Dickinson was driving, she kept her distance behind the Honda.  Both Ms Robinson and her mother, a front-seat passenger in Ms Robinson's car, assumed that Mr Dickinson was intoxicated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By contrast, the respondent&#8217;s manner of driving was without fault. He was driving at a steady speed of 45 to 55mph.  He had been driving his wife and two children back home from a motor sports event. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Immediately prior to the collision, Mr Dickinson went around a left hand bend in his own lane, but on exiting the corner swept to the right into the eastbound (i.e. the wrong) lane.  As the respondent&#8217;s van approached, the Honda veered to the left, but seconds later it drifted back across the centre line, about one third of the way into the eastbound lane.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent did all he could to avoid the hazard posed by Mr Dickinson's car by steering to his left in the direction of the nearside of the eastbound lane.  Mr Dickinson on the other hand, although in the eastbound lane, failed to take any evasive action. The two vehicles collided, offside to offside, and the impact sent the Honda back into the westbound carriageway, where it came to rest on the verge some 60 metres beyond the collision point.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent&#8217;s van tipped onto its two nearside wheels and then completely onto its nearside.  With its nearside on the road it slid across the westbound carriageway and onto the verge.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In terms of civil law, Mr Dickinson was 100% responsible for causing the accident and the respondent was not in any way at fault for the death.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Once the respondent&#8217;s van came to rest on its side, the respondent managed to free himself from the van.  With the assistance of other road users, he was then able to get his family, suspended by their seat belts, out of the van.  The respondent suffered bruising and soreness as a result of the collision, and his wife and youngest son have since suffered panic attacks</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Dickinson sustained several serious injuries, and never recovered consciousness after the accident.  He was already in cardiac arrest on arrival at hospital, and died shortly thereafter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If Mr Dickinson had survived the accident and the respondent&#8217;s son and/or wife had been killed in the accident, Mr Dickinson would be guilty of causing their deaths by dangerous driving and, on the prosecution&#8217;s interpretation of the law, the respondent would have caused their deaths and be guilty of the offence under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">The respondent&#8217;s lack of licence and insurance</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent has never been the holder of a full driving licence, and at the time of the collision was uninsured to drive.  The respondent readily admitted in interview that he was uninsured, and in failing to obtain insurance had "<span style="font-style:italic">been pretty stupid</span>".  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, at the time of the collision, the respondent, so he says, believed that he held a licence.  It appears that he had previously held a provisional licence, which was revoked 10 years ago for medical reasons.  However, he subsequently attended Hunter's Moor medical centre, where he undertook a practical driving assessment, and on completing his time at the centre he was told "<span style="font-style:italic">Congratulations, you can have your licence back</span>".  The respondent, so he says, believed that this assessment constituted his driving test, but in actual fact only a provisional licence (as opposed to a full licence) was issued. There was no agreement between the parties as to whether the defendant did believe that he held a full licence and it was not submitted by Mr Knox<span style="font-weight:bold"/>that any mistake made by the respondent affected his criminal liability. It could however affect sentence: see Definitive Guideline on Causing Death by Driving, page 17, under the heading &#8220;Additional Mitigating Factors&#8221;. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">The Recorder&#8217;s ruling</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Recorder set out the facts and the law and continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Mr Graham, for the Crown, submits that the prosecution have to prove that the defendant&#8217;s driving caused the death i.e. was a cause of death but not that he was in any way at fault.&#160; He asserts that the defendant&#8217;s culpability arises from the fact that he was driving whilst uninsured and otherwise than in accordance with a licence.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Reduced to bald terms his submission must mean that the defendant caused the death simply by being on that part of the road when the deceased &#8211; whilst under the influence of drugs &#8211; drove on to the wrong side of the road and into collision with the defendant.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I cannot accept that the English language can be so contorted to give such a meaning to the word &#8220;cause&#8221;.&#160; The Oxford English Dictionary defines the transitive verb &#8220;to cause&#8221; as &#8220;to be the cause of; to effect, bring about, produce, induce, make.&#8221;&#160; In my judgment that requires some activity, not passivity, on the part of the person said to be doing the causing.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The person who caused this accident and hence the death of Mr Dickinson was, it has to be said, Mr Dickinson himself.&#160; He was 100% to blame for the accident and his own death.&#160; To assert that the defendant was &#8211; because he was uninsured and unlicensed &#8211; a cause of the death is a distortion of the language.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Parliament chose to use the word &#8220;cause&#8221;.&#160; It seems to me that by using that word they did not contemplate creating an offence which covered the circumstances of this case.&#160; If it had been their intention they could easily have chosen a form of words which would have made that intention crystal clear.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>13.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I therefore rule that as a matter of law a jury could not reasonably be directed that in any real sense the defendant was a cause of this death.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We well understand why this very experienced judge, sadly now retired, reached the conclusion which he did. But, was the Recorder right in law? The appellant submits that he is not and relies on <span style="font-style:italic">Williams</span>, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552" uk:canonical="[2010] EWCA Crim 2552" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Crim 2552</ref>; <ref href="#" uk:canonical="[2011] 1 WLR 588" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 W.L.R. 588</ref> and just published in [2011] Crim. L.R. 471. <span style="font-style:italic">Williams</span>, a decision of another Division of this Court presided over by Thomas LJ, was decided some months after the Recorder had made his ruling in the instant case. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Williams</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We take the facts of <span style="font-style:italic">Williams </span>from the Criminal Law Review report:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Although he had no driving licence or insurance, the appellant owned a car which he drove regularly. In February 2009, the appellant was driving that car on a dual carriageway where there was a speed restriction of 30mph. As he was so doing, L crossed the southbound carriageway, crossed over the central reservation and stepped out in front of the car being driven by the appellant. He was hit, and the following day he died as a result of head injuries sustained in the collision. The evidence of two other drivers was that the appellant had not been exceeding the speed limit and that L had stepped straight out into the path of the appellant's car. The appellant's own evidence was that L had suddenly stepped out and there was nothing he could do to avoid an accident. The appellant was charged and subsequently tried at the Crown Court at Swansea on a single count of causing death by driving without insurance and without a licence,<authorialNote class="footnote" marker="3">
+			<p class="FootnoteText"> Cf. footnote 1 above.</p>
+		      </authorialNote> contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (inserted by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.21</ref>). The judge rejected a submission of no case to answer, ruling that the offence could be committed without fault on the part of the appellant. In accordance with his ruling, he summed the case up to the jury on the basis that the prosecution did not have to prove there was any fault in the manner of the appellant's driving; that the offence was proved if L's death had been caused by the appellant driving without insurance and without a licence. The appellant was convicted. He appealed against conviction, on the grounds (i) that the offence created by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB could not be committed without some fault or other blameworthy conduct on the part of the appellant; that &#8220;cause&#8221; as used in the section had to be construed as importing some fault or other blameworthy conduct; and that his sole fault was a failure to have a licence and insurance which was unrelated to the cause of the accident and the ensuing death; and (ii) that if that construction of &#8220;cause&#8221; was not correct, the word should be construed so that the Crown did not merely have to prove the appellant's driving was &#8220;a cause&#8221; which was not minimal, but that it was a substantial or major cause of the death of the deceased; and that the facts clearly established that the substantial or major cause of death was due to the actions of L and not those of the appellant.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial judge had directed the jury (more than once because the issue troubled the jury during their deliberations) that the prosecution does not have prove that the defendant&#8217;s driving:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;was the principal or the main cause, or major cause, however you want to put it, but it has to be a contributing cause, other than a merely minute or negligible contributing cause that you would discount, put to one side.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court first asked the question whether any fault or blameworthy conduct in the manner of driving was required and decided that it did not. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court said that although the general requirement of morally blameworthy conduct was the background against which the intention of Parliament in attributing criminal liability without blameworthy conduct must be considered&#8221;, &#8220;the question for the court is whether when Parliament enacted this offence it intended to and did depart from the general principle&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The prosecution had submitted:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">that it could be inferred that as Parliament had enacted the offence of causing death while driving whilst unlicensed, disqualified or uninsured, Parliament cannot have intended that any fault was necessary as it had already provided for death by driving involving simple or low level fault with the offence of death by careless or inconsiderate driving.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court referred to <span style="font-style:italic">Marsh</span> [1997] 1 Cr.App.R. 67 which concerned the provision under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>(A)(1) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60" uk:canonical="1968 c. 60" uk:origin="TNA" uk:type="legislation">Theft Act 1968</ref> relating to aggravated vehicle taking, saying:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>14.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">... That section provided that a person who committed the basic offence of vehicle taking was to be convicted of aggravated vehicle taking, if it was proved that the vehicle was driven or injury or damage caused in circumstances including:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">That, owing to the driving of the vehicle, an accident occurred by which injury was caused to any person.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">The defendant in that case was convicted of the offence in circumstances where an accident had happened where he had not been at fault.  It was asserted on his behalf, both in the Crown Court and on appeal, that no liability could attach to him under the section unless it was proved that the accident had been occasioned by culpable driving on his part.  In the judgment of the court, upholding the direction of the Assistant Recorder that fault was not required, it was said:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">In a sense, of course, the manner in which the vehicle was being driven is necessarily relevant.  If in this case the car was being reversed at the time, the accident would not have occurred.  But it is unhelpful, in our judgment, to gloss the statute by referring to the manner or mode of driving:  the words are plain and simple.  In our view the question for the court on their proper construction is, was the driving of the vehicle a cause of an accident?  Any other approach would require the court to read in words which are not there.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">We consider that the approach of this court in <span style="font-style:italic">Marsh</span> applies even more clearly to the offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB; fault is not required.  The simple question for the court is whether the death was caused by driving without insurance or without a driving licence.</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court then quoted various academic comments on the new offence. The Court continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>18.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Although each of these passages sets out severe criticism of the policy of Parliament in enacting the provision, none suggests that the words are other than clear and that the offence can occur without any blameworthy conduct.  </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel2" style="margin-left:0.49in">The Court went on to say that, as a matter of simple statutory construction, it is plainly right that the offence &#8220;can occur without any blameworthy conduct&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court then said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>19.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Furthermore if the section were to be interpreted to require any blameworthy conduct, bearing in mind the very wide scope of the offence of causing death by careless and inconsiderate driving, it is difficult to see what purpose the offence could have.  Indeed Miss Evans QC, when asked by the court if she could give an example of circumstances where there could be some fault or blameworthy conduct on the part of an uninsured or unlicensed driver which would not also be caught by the offence of causing death by careless or inconsiderate driving, she very fairly accepted she could think of none, though she added, quite rightly, that the fact that an illustration could not be readily identified did not mean that one might not exist.  To hold that blameworthy conduct was required would be to re-write <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB.  </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court then asked the question: &#8220;Was it sufficient that the appellant&#8217;s driving was <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause of the death?&#8221; The Court answered this question in the affirmative, giving detailed reasons. The Court concluded that the judge had been right to explain to the jury that what was necessary was <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause that was more than minute or negligible. The Court said that the correctness of the judge&#8217;s direction was clear from the decision in <span style="font-style:italic">R v Hennigan</span> (1971) 55 Cr.Ap.R. 262.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court also quoted a passage from the speech of Lord Hoffman in <span style="font-style:italic">Environment Agency (Formerly National Rivers Authority) Respondent v Empress Car Co. (Abertillery) Ltd </span> <ref href="#" uk:canonical="[1999] 2 AC 22" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 AC 22</ref> in which he said, after reviewing a number of cases:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">These examples show that one cannot give a common sense answer to a question of causation for the purpose of attributing responsibility under some rule without knowing the purpose and scope of the rule.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court in <span style="font-style:italic">Williams</span> then said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>33.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In our view, applying this approach, it is therefore necessary for us to consider the meaning of cause as used in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> in the context of the intention of Parliament.  First, the meaning of cause in death by dangerous driving was decided by <span style="font-style:italic">Hennigan.</span>  That decision makes clear it is a cause if it is more than negligible or <span style="font-style:italic">de minimis.</span>  We do not think that<span style="font-style:italic"/>Parliament can have intended any different definition for <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB.  ...</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>34.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Secondly, in the context of the other offences where death results from driving ... , it is difficult to conceive of any other intention of Parliament that if a person drove unlicensed or uninsured, he would be liable for death that was caused by his driving however much the victim might be at fault; it was therefore sufficient that the cause was not negligible. It may be a harsh and punitive measure with an evident deterrent element, but it is difficult to see how anything else can have been intended.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Commentary on Williams</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Professor Ormerod in his commentary in the Criminal Law Review said that the offence was clearly one of strict liability. He went on to say:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Causation.</span> The court, having referred to academic comments and other materials including an unpublished Law Commission working party paper concludes that &#8220;cause&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB has the same meaning as &#8220;cause&#8221; in death by dangerous driving (see<span style="font-style:italic"> Hennigan</span> <ref href="#" uk:canonical="(1971) 55 Cr App R 262" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">(1971) 55 Cr. App. R. 262</ref>). W's driving was &#8220;a cause&#8221; if it was &#8220;more than negligible or de minimis&#8221;. There are several points that can be made about this aspect of the decision.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">First, the jury is still left with a difficult test in asking whether the conduct is a &#8220;more than negligible cause&#8221;. In this case it prompted the jury question and that might not be an unusual occurrence. In hard cases such as the present one, the ambiguity might provide an opportunity for the jury to acquit, and thus defendants might be less willing to plead guilty or elect summary trial.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Secondly, the requirement of causation in causing death by dangerous driving is not straightforward in terms of the law. There has been a spate of recent cases:<span style="font-style:italic"> Barnes</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2008/2726" uk:canonical="[2008] EWCA Crim 2726" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Crim 2726</ref>; [2009] R.T.R. 21;<span style="font-style:italic"> Girdler</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2666" uk:canonical="[2009] EWCA Crim 2666" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Crim 2666</ref>; [2010] R.T.R. 28;<span style="font-style:italic"> L</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/1249" uk:canonical="[2010] EWCA Crim 1249" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Crim 1249</ref>. Judges will face difficulty in directing.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">Thirdly, the court's decision means that D who is driving while uninsured, etc. can escape liability for a death linked to his driving, if there is a novus actus interveniens between the act of D colliding with V and V dying. Possible examples would include D knocking V down and then V, in an injured state, being treated so badly by a paramedic that D's actions are no longer an operative cause of death. More likely scenarios, and ones that will generate greater legal difficulties, would be where D has crashed into V's car injuring V and a third party, X, drives into V's car, killing V. D's liability for the death will depend on whether X has broken the chain of causation, which will turn on whether he is acting in a free, deliberate and informed way or if his act is not reasonably foreseeable. Instances where D's conduct is no longer an operative cause might therefore be rare. See recently<span style="font-style:italic"> Girdler</span> above where on such facts involving a second collision, the court formulated the question of X's conduct breaking the chain of causation in terms of whether the jury were sure,</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;that it could sensibly have been anticipated that a fatal collision might occur in the circumstances in which the second collision did occur.&#8221; (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2666" uk:canonical="[2009] EWCA Crim 2666" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Crim 2666</ref> at [43] per Hooper L.J.)</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">Fourthly, the court's decision leaves scope for D to argue that he is not a &#8220;but for&#8221; cause of the death. Consider a truly extreme case of a suicidal person jumping from a high motorway bridge and landing on D's uninsured car. But for his uninsured car on the road V would have died anyway by hitting the road surface. D should not be criminally liable. A more likely scenario is where a driver, V, drunk or drugged or having fallen asleep at the wheel, crosses over the carriageway into the path of oncoming traffic and hits D's uninsured car which happens to be first in the line of oncoming vehicles. D can surely argue that but for his car on the road V would still have died as V would have collided with the next vehicle in line. These examples demonstrate not only how arbitrary liability might be under these offences, but also suggest that the court's approach to the question of causation might be too narrow.</p>
+		  </wrapUp>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Finally, although the court's decision was as predicted by commentators, one wonders whether the court might have been more ambitious in its interpretation of the statute in order to avoid such a harsh result. The offence requires that D caused the death by his &#8220;driving a motor vehicle on a road&#8221;. Arguably therefore there has to be a causal link between the<span style="font-style:italic"> driving</span> and not just the fact that the car was on the road at that time and the death. The Court of Appeal's interpretation focuses only on the link between the fact of the vehicle being on the road and the death. In the present case, what caused V's death was arguably his voluntary act of stepping under D's wheels; it was not the fact of D driving. The court dismisses the analogy to the case of<span style="font-style:italic"> Dalloway</span> (1847) 2 Cox C.C. 273. In that case, D had been driving his horse and spring cart without holding the reins and had knocked down a young child who ran out. The correct question was not whether D's cart being on the road caused death, but more specifically whether his driving in that manner on the cart caused death. If he would not have been able to avoid the child even if he had been driving properly, he was to be acquitted. The case is different from the present one, but what<span style="font-style:italic"> Dalloway</span> reminds us is that in an inquiry into causation, the focus must be on the link between proscribed consequence (death) and the relevant act--which act of the defendant is it alleged is a cause of the death? In the present case, it is the driving not the existence of the car on the road. In<span style="font-style:italic"> Dalloway</span> it was the negligent driving not the fact of the cart on the road.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the first point made by Professor Ormerod (&#8220;the jury is still left with a difficult test in asking whether the conduct is a &#8216;more than negligible cause&#8217;&#8221;), the Court of Appeal in <span style="font-style:italic">Williams</span> does not suggest that in circumstances where the &#8220;victim&#8221; is 100% responsible for his death, the jury should be directed that in law the defendant did cause the death of the victim.  Thus it seems, as Professor Ormerod implies, that defence counsel, in these circumstances, would be entitled to address the jury to the effect that the defendant&#8217;s conduct was or may have been no more than a negligible cause of the death.  Unfortunately for the defendant, if the jury does not agree, then he will normally lose the benefit of a reduction in his sentence for a plea of guilty and might go to prison when he otherwise would not have done.  On the facts of the present case as known to us, the application of the Sentencing Guideline to which we have already referred would suggest a non-custodial sentence in any event. However depending on the facts that may not always be the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the second point made by Professor Ormerod, we do not need to make any comment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the third point (<span style="font-style:italic">novus actus interveniens</span>), it seems to us that the Court in <span style="font-style:italic">Williams </span>was of the view that the free informed and voluntary decision of the &#8220;victim&#8221; to drive in an extremely dangerous manner does not break the chain of causation (although the jury could still decide that the defendant&#8217;s driving was or may have been no more than a negligible cause of the death). Thus, if Mr Dickinson had ploughed into the respondent&#8217;s van whilst stationary in a queue of traffic or at a traffic light, the respondent, it could be said, would have caused the death Mr Dickinson by driving a motor vehicle.<authorialNote class="footnote" marker="4">
+		<p class="FootnoteText"> As to whether he would be &#8220;driving&#8221; see Blackstone&#8217;s Criminal Practice, 2011, C1.8 at page 1029.</p>
+	      </authorialNote>  That the free informed and voluntary act of a third party, including the alleged victim, will usually break the chain of causation is made clear by Lord Bingham <span style="font-style:italic">R. v Kennedy</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/38" uk:canonical="[2007] UKHL 38" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 38</ref>; <ref href="#" uk:canonical="[2008] 1 AC 269" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 AC 269</ref>; <ref href="#" uk:canonical="[2008] 1 Cr App R 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 Cr App R 19</ref>. An example of it not doing so is to be found in the <span style="font-style:italic">E</span><span style="font-style:italic;color:#000000">mpress Car </span><span style="color:#000000">case (a decision which has attracted adverse commentary, see Smith and Hogan, 12th Edition, page 81 footnote 280 and page 82). As we have seen the Court in </span><span style="font-style:italic;color:#000000">Williams </span><span style="color:#000000">applied </span><span style="font-style:italic;color:#000000">Empress Cars</span><span style="color:#000000">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the fourth point (the decision leaves scope for D to argue that he is not a &#8220;but for&#8221; cause of the death), on the facts of this case as agreed for the purpose of the ruling this does not arise. If the deceased in this case would or may have died in another collision at (or perhaps about) the same time as he did in fact die, then the issue whether the defendant can be said to have &#8220;caused&#8221; the death may arise. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">As to the fifth point (</span>arguably there has to be a causal link between the<span style="font-style:italic"> driving</span> and not just the fact that the car was on the road at that time and the death), whilst seeing some force in the argument we are constrained by the decision in <span style="font-style:italic">Williams </span>not to accept it, even though it does not seem specifically to have been argued in that case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We add only this. It could be said that if Parliament intended that a person would be invariably guilty of the offence against <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB even though the person killed was 100% responsible for his death, then Parliament should have made that clear by using express language.  Whether it is in the public interest to prosecute in these circumstances is a matter for the Director of public Prosecutions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Whitehouse submits that we are bound by <span style="font-style:italic">Williams</span> and must follow it. Mr Knox submits that the Recorder found on the admitted facts that a jury properly directed would have to find that the respondent&#8217;s driving was only a minimal cause of the deceased&#8217;s death and that therefore the appeal should be dismissed. <span style="font-style:italic">Williams</span>, he submits, can be distinguished on its facts.  Attractive as that argument might be, we cannot distinguish <span style="font-style:italic">Williams</span> in that way. The decision in Williams is quite inconsistent with the proposition that, as a matter of law, a jury properly directed would have to find that the respondent&#8217;s driving was only a minimal cause of the deceased&#8217;s death. It follows that the subsequent decision of this court in <span style="font-style:italic">Williams </span>means that the ruling of the Recorder of Newcastle was wrong in law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/61/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref>, the Court of Appeal has power to confirm, reverse or vary any ruling to which an appeal of this kind relates. <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/67" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 67</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the Act</ref> provides that the Court of Appeal may not reverse a ruling on an appeal under this part of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">the Act</ref>:&#160; </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">unless it is satisfied:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that the ruling was wrong in law; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that the ruling involved an error of law or principle; or </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that the ruling was a ruling that it was not reasonable for the judge to have made.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We are satisfied that the ruling was wrong in law in the light of <span style="font-style:italic">Williams </span>and we reverse it. Having reversed the ruling, we must, in respect of the offences which are the subject of the appeal, make one of the three orders set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/61/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61(4)</ref>, which include an order that the proceedings be resumed or an order that the respondent be acquitted. However, by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/61/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61(5)</ref>, as amended, the Court may not order the respondent&#8217;s acquittal unless it is satisfied a fair trial is not possible.  In our view a fair trial is possible and we therefore order that the proceedings be resumed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

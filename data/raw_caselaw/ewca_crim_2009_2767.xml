@@ -1,0 +1,359 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/2767"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/2767"/>
+	  <FRBRdate date="2009-12-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2767"/>
+	  <FRBRname value="Lawes, R v"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2767"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2767"/>
+	  <FRBRdate date="2009-12-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2767/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2767/data.xml"/>
+	  <FRBRdate date="2024-09-07T07:00:39" name="transform"/>
+	  <FRBRdate date="2024-11-24T23:41:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2009-12-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="regina" href="" showAs="REGINA"/>
+	<TLCPerson eId="dawn-lawes" href="" showAs="DAWN LAWES"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lord-justice-aikens" href="/judge-lord-justice-aikens" showAs="LORD JUSTICE AIKENS"/>
+	<TLCPerson eId="judge-mr-justice-field" href="/judge-mr-justice-field" showAs="MR JUSTICE FIELD"/>
+	<TLCPerson eId="judge-his-honour-judge-stephens-qc" href="/judge-his-honour-judge-stephens-qc" showAs="HIS HONOUR JUDGE STEPHENS QC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2009</uk:year>
+	<uk:number>2767</uk:number>
+	<uk:cite>[2009] EWCA Crim 2767</uk:cite>
+	<uk:parser>0.26.1</uk:parser>
+	<uk:hash>91b9bce3fccbbbca591bf90ff70617cdb36b16d55c4a7acda392ecaecc047215</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Fixed { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Question { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answer { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Colloquy { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinA { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Rightflush { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineSQ { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineQS { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .0Style { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal1 { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal2 { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal3 { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal4 { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal5 { margin-left: 1.2in; margin-right: 1.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal6 { text-align: right; margin-left: 1.6in; margin-right: 0.91in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal7 { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .9Style { margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Header { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Footer { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Questionquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Speakerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .questionPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .answerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .speakerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Marginsecondary { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Extramargin { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Ordinaryextramargin { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .certifiedQuestion { margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index1 { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .IndexBlank { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .captionbox { margin-right: 3.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index2 { margin-left: 0.4in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index3 { margin-left: 1.5in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Index4 { margin-left: 4in; margin-right: 1.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RCJquotes { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RCJquote { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .HEADINGNUMBERED { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RESTRICTEDACCESS { text-align: center; margin-right: 1.21in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .SPEAKER2 { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .spkquoted { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="0Style" style="text-align:right;margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">200906310 A9</docketNumber></p>
+      <p class="0Style" style="margin-right:0.01in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">[2009] EWCA Crim 2767</neutralCitation></p>
+      <p class="0Style" style="margin-right:0.01in"><courtType refersTo="#ewca-criminal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE COURT OF APPEAL</courtType></p>
+      <p class="0Style" style="margin-right:0.01in"><courtType refersTo="#ewca-criminal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">CRIMINAL DIVISION</courtType></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Strand</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">London, WC2A 2LL</span></p>
+      <p class="Normal7" style="margin-right:0.01in"><docDate date="2009-12-11" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Friday, 11 December 2009</docDate></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">B e f o r e</span><span style="font-family:'Times New Roman'">:</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><judge refersTo="#judge-lord-justice-aikens" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">LORD JUSTICE AIKENS</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><judge refersTo="#judge-mr-justice-field" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR JUSTICE FIELD</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><judge refersTo="#judge-his-honour-judge-stephens-qc" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">HIS HONOUR JUDGE STEPHENS QC</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">(SITTING AS A JUDGE OF THE CACD)</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><party as="#before-the-v" refersTo="#regina" style="font-weight:bold;font-family:'Times New Roman'">R E G I N A</party></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">v </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><party as="#after-the-v" refersTo="#dawn-lawes" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">DAWN LAWES</party></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Computer Aided Transcript of the Stenograph Notes of  </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">WordWave International Limited</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">A Merrill Communications Company </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">165 Fleet Street  London EC4A 2DY</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Tel No: 020 7404 1400 Fax No: 020 7404 1424</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">(Official Shorthand Writers to the Court)</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - </span></p>
+      <p class="0Style" style="text-align:center;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">MR R GREGORY</span><span style="font-family:'Times New Roman'"> appeared on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Appellant</span></p>
+      <p class="0Style" style="text-align:center;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">MR MAINDS</span><span style="font-family:'Times New Roman'"> appeared on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">CPS</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - </span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">J U D G M E N T</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold">1.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">LORD JUSTICE AIKENS:  </span><span style="font-family:'Times New Roman'">This is an appeal against sentence by Dawn Lawes, who is now aged 45.  The sentencing judge, HHJ Compston, certified that this case was fit for appeal on sentence.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">On 6 November 2009, the appellant pleaded guilty at a plea and case management conference to causing death by careless driving.  That offence was introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref>.  It added a new <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B to the Road Safety Act 1988.  The new provisions providing for this offence were brought into force in August 2008.  The maximum sentence for this offence when being dealt with in the Crown Court is imprisonment for 5 years.  That compares with the maximum sentence of 14 years imprisonment in the case of the offence of causing death by dangerous driving.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The appellant was sentenced by HHJ Compston in the Crown Court at Oxford, on 26 November 2009, to a sentence of 6 months immediate imprisonment.  He ordered that the appellant be disqualified from driving for 3 years and that she must take an extended driving test before she could drive again.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The facts of the case and the consequences are tragic from all points of view.  The offence occurred at about 7.30am on 13 December 2008.  It was therefore dark at the time.  The deceased was Dee Weatherley, a police constable.  She was five months pregnant at the time.  She was driving to work from Winslow to Aylesbury along the A413.  That is a road with a single carriage way in each direction.  The appellant was driving in the opposite direction.  The appellant had just rounded a bend when she lost control of her car and veered on to the opposite carriage way.  She collided with the deceased's vehicle.  Both vehicles collided off side to off side.  In the impact of the collision, the engine block of the appellant's car was ripped from its seatings and flew through the bonnet.  The deceased's car spun around and ended up on the verge with hedges blocking the driver's door.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">There were no witnesses to the collision.  However, two men came upon the scene quickly and found the appellant in shock but uninjured.  The deceased was still alive at that time.  She was conscious some of the time and then lapsed into unconsciousness.  She was taken to the John Radcliffe Hospital by air ambulance.  The unborn child died either at the time of the collision or shortly afterwards.  PC Weatherley died later that day from her injuries.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">A basis of plea was submitted at the PCMH.  It was not signed and it was not formally accepted by the Crown at the sentencing hearing.  However, there is no particular dispute about it, subject to one addition which is now, we understand, agreed between counsel for the Crown and counsel for the appellant.  The basis of plea reads as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>"1.</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">On 13 December 2008, Mrs Lawes [that is the appellant] was involved in a fatal road accident at about 0730 hours.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2.</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">The appellant was not using her mobile telephone at the time and was driving within the speed limit.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3.</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">It was raining and the road surface was wet.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>4.</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">The appellant has no recollection of the accident or its causes, but accepts the accident may well have been caused by a moment of inattention when negotiating a bend in the road.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>5.</num>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in;text-indent:0.2in"><span style="font-family:'Times New Roman'">The findings of Derek Hance, the Defence Consultant Accident Investigator, are relied on in mitigation."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Mr Gregory has stated to us this morning, as part of his submissions, that it is now accepted that there was a loss of control of the vehicle when negotiating a bend in the road.  He accepts that that may have been caused by speed in excess of that which was appropriate to the conditions prevailing at the time.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Shortly after the collision, the appellant did, in fact, make two statements to police officers who arrived at the scene shortly afterwards.  The first comments were made to PC David Black.  The appellant said this:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"I was heading towards Winslow and I was going too quickly, but I am unsure of how fast I was travelling.  I lost control of my car as I reached the crest of the bend.  I am not sure what happened but I ended up on the wrong side of the road and hit a small car heading in the opposite direction." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Her second comments were to PC Mark Ashby.  The appellant said:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"It was my fault.  I was speeding on my way to Winslow and cut the top of the hill slightly before I hit the other car".  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The national speed limit on that road is 60 miles per hour.  It is accepted that the appellant was not driving above that speed limit at the time of the collision.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">A pre-sentence report was prepared for the sentencing exercise.  That indicated that, by the time of the report, the appellant had no recollection of the accident; but she accepted that she had caused it due to inattention.  It stated that she accepted full responsibility and was appalled at the consequences of the accident.  The pre-sentence report recorded that the appellant had two daughters but that, by that stage, her marriage had ended.  She had worked in banking for most of her adult life.  She described her family relationships as being close and loving.  There were no issues regarding drugs or alcohol.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The pre-sentence report assessed the likelihood of re-offending as extremely low.  It also stated that, given the seriousness of the offence, the risk of harm to the public was medium, but extremely unlikely that she posed a further risk of harm.  The recommendation of the PSR was for a suspended sentence order with a requirement for supervision, and unpaid work.  It recorded that the appellant was willing to undertake restorative justice as well as supervision and unpaid work.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">In passing sentence, HHJ Compston noted the Definitive Sentence Guidelines for "Death by Driving".  In relation to the offence of causing death by carelessness or inconsiderate driving, the guidelines identify three levels for the nature of the offence, the associated starting point for the purposes of sentence, and the sentencing range.  In the most serious category is careless or inconsiderate driving falling not far short of dangerous driving.  For that category, the starting point given by the guidelines is one of 15 months custody.  The sentencing range is between 36 weeks and 3 years custody.  The middle level is quoted as "other cases of careless or inconsiderate driving".  For that, the starting point is 36 weeks custody, and the sentencing range is between a high community order and 2 years custody.  The lowest level is characterised as "careless or inconsiderate driving arising from momentary inattention with no aggravating factors".  For that, the starting point for sentencing is put at a medium community order.  The sentencing range is between a low community order and a high community order.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The guidelines indicate additional possible aggravating factors and additional mitigating factors.  There are obviously bound to be a range of aggravating and mitigating factors which may arise out of the particular facts of any case.  But the Guidelines identify five particular aggravating factors and five mitigating factors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The judge held that, in his judgment, this case fell within the middle category.  It is urged upon us today by Mr Gregory on behalf of the appellant, that this case, in fact, falls into the lowest category.  He submits, therfore, that it is one where there was simply a case of careless driving arising from momentary inattention with no aggravating factors.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">We can not accept that submission.  We are satisfied that the judge's characterisation of this case being in the middle category is correct.  This was a case of driving at a speed that was, in the conditions, too fast.  That, in our view, is the carelessness involved.  As a result, the appellant lost control of her car on the two bends in the road.  It is squarely within the middle category.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">However, we do accept Mr Gregory's submission that there are no further aggravating features in this case.  In the course of argument we noted that additional aggravating factor 3 is that more than one person was killed as a result of the offence.  We are satisfied that that is intended to indicate two independent separate persons, rather than the case of a pregnant person whose life is lost and the unborn child of that pregnant person is also lost.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">We accept, also, Mr Gregory's submission that there are indeed mitigating factors in this case.  The first is the admissions that were made at the scene itself.  The second is the early guilty plea.  The third is the fact that Mrs Lawes has been driving for 25 years and has had no accident and has committed no motoring offences during all that time.  The fourth is that we are satisfied that she is indeed remorseful and that this collision and its consequences has had a great impact upon her and upon her life.  Lastly, we note the fact that she is a woman who has brought up a family and sustained a job in a managerial capacity in the banking world and has done so in an exemplary fashion for some 19 years.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Mr Gregory referred us to a case in this court which dealt with another offence of causing death by careless driving.  That is </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">R v Karl Campbell</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2459" uk:canonical="[2009] EWCA Crim 2459" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Crim 2459</ref>.  However, that is a case on different facts and it does not intend to lay down any specific guidelines.  As is so often the case with this type of offence, the particular facts are what is important.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">Was the judge's assessment and the sentence that he passed therefore correct?  This being a medium level case, the judge had as his starting point 36 weeks custody.  There are, as we have said, no aggravating features.  There are mitigating factors.  The most important is the guilty plea for which full credit has to be given, that is to say some 30 per cent of the sentence which is the starting point.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">The major issue for us, and the one that has been pressed by Mr Gregory most in his submissions, is whether the judge was wrong in his assessment that this was not a case where he should suspend the sentence.  The judge's approach to this is set out in his sentencing remarks.  He said at page 3E:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Parenthetical" style="text-align:justify;margin-left:0.8in;margin-right:0.51in"><span style="font-family:'Times New Roman'">"I do not think in this case that I can suspend the prison sentence.  That, to my mind, would be a cop-out because, in fact, suspending a prison sentence in your case would mean, in a sense, no sentence at all because you are a respectable person."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">With great respect to this very experienced sentencing judge, that is an incorrect analysis of the position.  If the judge had passed a suspended sentence, he would have been bound to do so with requirements attached.  The requirement that was proposed, and indeed accepted, if necessary, by the appellant, was one of unpaid work and indeed supervision.  She was prepared also to engage in restorative justice.  It appears that the judge had forgotten that those were what was proposed or that he would have to impose requirements.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">This case involved the judge in a very difficult sentencing exercise.  We are satisfied that the judge erred in his approach.  That does not make the exercise for us any the less difficult.  As the judge recognised, cases of this kind are tragedies; they are tragedies for those who are the relatives or the loved ones of the person that has died.  They are also tragedies for the person who committed the offence if, as in this case, it is clear that the person recognises fully the consequences of what she has done and how it will effect that person for the rest of their life and all those whom that person loves as well.  The court has to mark the fact that this is an offence which has been created by Parliament, and it has to try to find what is the just punishment in all the circumstances.  The court is not here to exact revenge or to show brute outrage at something which has as tragic a consequence as this.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">We have decided, in all the circumstances of this case, that the judge was wrong to dismiss the option of suspending the prison sentence.  In all the circumstances of this case, we think that the right sentence was one of 6 months imprisonment, but suspended for 18 months.  At the same time, there should be a requirement for unpaid work of 250 hours during this period.  There will also be an order to participate, if possible, in a restorative justice programme. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">This judgment is not intended to give any general guidance.  As we have said, in this type of case the facts are crucial to the decision on sentencing.  But, in the circumstances, the sentence will be as we have indicated.  To that extent, this appeal is allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-weight:bold">26.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">MR GREGORY:  </span><span style="font-family:'Times New Roman'">My Lords, there never was any appeal against the disqualification period and re-test, just for clarification. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-weight:bold">27.</num>
+	  <content>
+	    <p class="Colloquy" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">LORD JUSTICE AIKENS:  </span><span style="font-family:'Times New Roman'">No, indeed.  And as there was not, we have not dealt with them.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ContinCol" style="text-align:justify;margin-left:0.39in;margin-right:0in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">We are very grateful to you both. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

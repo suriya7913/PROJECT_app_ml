@@ -1,0 +1,271 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1540"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1540"/>
+	  <FRBRdate date="2024-11-22" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1540"/>
+	  <FRBRname value="R v Rhys Johnson-Warner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1540"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1540"/>
+	  <FRBRdate date="2024-11-22" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1540/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1540/data.xml"/>
+	  <FRBRdate date="2024-12-09T11:53:40" name="transform"/>
+	  <FRBRdate date="2025-07-19T03:06:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-11-22" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rex" href="" showAs="REX"/>
+	<TLCPerson eId="rhys-johnson-warner" href="" showAs="RHYS JOHNSON-WARNER"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lord-justice-singh" href="/judge-lord-justice-singh" showAs="LORD JUSTICE SINGH"/>
+	<TLCPerson eId="judge-mrs-justice-mcgowan" href="/judge-mrs-justice-mcgowan" showAs="MRS JUSTICE McGOWAN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>1540</uk:number>
+	<uk:cite>[2024] EWCA Crim 1540</uk:cite>
+	<uk:parser>0.26.15</uk:parser>
+	<uk:hash>664deb39b96987804a9bf671a2ae2b9ac1185fb58d0460d119ffdfc7da8eb71e</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Fixed { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Question { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Answer { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Colloquy { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinA { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Rightflush { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .BylineSQ { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .BylineQS { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .0Style { margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Normal1 { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal2 { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal3 { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Normal4 { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .Normal5 { margin-left: 1.2in; margin-right: 1.01in; font-family: 'Courier New'; }
+#judgment .Normal6 { margin-left: 1.6in; margin-right: 0.91in; font-family: 'Courier New'; }
+#judgment .Normal7 { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .9Style { margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Header { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Footer { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Questionquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Answerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Speakerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .questionPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .answerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .speakerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .Marginsecondary { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Extramargin { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .Ordinaryextramargin { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .RESTRICTEDACCESS { text-align: center; margin-right: 1.21in; font-family: Arial; }
+#judgment .certifiedQuestion { margin-right: 1.31in; font-family: 'Courier New'; }
+#judgment .Index1 { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; }
+#judgment .IndexBlank { margin-left: 1in; margin-right: 2.51in; font-family: 'Courier New'; }
+#judgment .captionbox { margin-right: 3.51in; font-family: 'Courier New'; }
+#judgment .Index2 { margin-left: 0.4in; margin-right: 1.51in; font-family: 'Courier New'; }
+#judgment .Index3 { margin-left: 1.5in; margin-right: 1.51in; font-family: 'Times New Roman'; }
+#judgment .Index4 { margin-left: 4in; margin-right: 1.51in; font-family: 'Times New Roman'; }
+#judgment .RCJquotes { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .RCJquote { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; }
+#judgment .HEADINGNUMBERED { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <block name="restriction"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">WARNING: reporting restrictions may apply to the contents transcribed in this document, particularly if the case concerned a sexual offence or involved a child. Reporting restrictions prohibit the publication of the applicable information to the public or any section of the public, in writing, in a broadcast or by means of the internet, including social media. Anyone who receives a copy of this transcript is responsible in law for making sure that applicable restrictions are not breached. A person who breaches a reporting restriction is liable to a fine and/or imprisonment. For guidance on whether reporting restrictions apply, and to what information, ask at the court office or take legal advice.</span></block>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.</span></p>
+      <p><img src="image1.png" style="width:76.5pt;height:75.75pt"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Neutral Citation Number:  </span><neutralCitation style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">[2024] EWCA Crim 1540</neutralCitation></p>
+      <table uk:widths="4.6in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE COURT OF APPEAL</courtType></p>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">CRIMINAL DIVISION</courtType></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">ON APPEAL FROM THE CROWN COURT AT CROYDON</span></p>
+	    <p style="margin-left:-0.07in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR RECORDER KOLVIN KC T20210199</span></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="font-family:'Times New Roman'">CASE NO 202200708/A4</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Strand</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">London</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">WC2A 2LL</span></p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><docDate date="2024-11-22" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Friday 22 November 2024</docDate></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-singh" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">LORD JUSTICE SINGH</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mrs-justice-mcgowan" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MRS JUSTICE McGOWAN</judge></p>
+      <p style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">RECORDER OF BRISTOL</span></p>
+      <p style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">(HIS HONOUR JUDGE BLAIR KC)</span></p>
+      <p style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">(Sitting as a Judge of the CACD)</span></p>
+      <p style="text-align:center"><party as="#before-the-v" refersTo="#rex" style="font-family:'Times New Roman'">REX</party></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">V </span></p>
+      <p style="text-align:center"><party as="#after-the-v" refersTo="#rhys-johnson-warner" style="font-family:'Times New Roman'">RHYS JOHNSON-WARNER</party></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">__________</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt">Computer Aided Transcript of Epiq Europe Ltd, </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt">Lower Ground, 46 Chancery Lane, London WC2A 1JE</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt">Tel No: 020 7404 1400; Email: rcj@epiqglobal.co.uk (Official Shorthand Writers to the Court)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">_________</span></p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR J BRIANT</span><span style="font-family:'Times New Roman'"> appeared on behalf of the Applicant.</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">_________</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">(Approved)</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Colloquy" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">LORD JUSTICE SINGH:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="Colloquy" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 4 October 2021, in the Crown Court at Croydon, the applicant changed his plea to one of guilty to three matters.  On 10&#160;February 2022, at the same Crown Court, the applicant was sentenced by Mr&#160;Recorder Kolvin KC as follows.  On the first matter, which was an offence of dangerous driving, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="1988 c. 52 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>, the sentence was 18 weeks&#8217; imprisonment suspended for 12 months.  The applicant was disqualified from driving for 30 months.  On the second matter, which was failing to provide a breath sample for analysis, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/7/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(6)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> and Schedule 21 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>, the sentence was again one of 18 weeks&#8217; imprisonment suspended for 12 months.  There was again a disqualification from driving for 30 months.  These were made concurrent to the other sentence.  Finally, there was a matter of driving whilst unfit through drink, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> and Schedule 21 to the Road Traffic Offenders Act 1988.  There was no separate penalty but the applicant was disqualified from driving for 24 months.  This was made concurrent to the other sentences.  Accordingly, in total the applicant received a sentence of 18 weeks&#8217; imprisonment suspended for 12 months.  He was disqualified from driving for 30 months.  An extended re-test was ordered.  An appropriate statutory victim surcharge was imposed.  Attached to the suspended sentence order was an unpaid work requirement of 100 hours and an alcohol abstinence and monitoring requirement for 90 days.  In addition there was a costs order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The facts can be summarised as follows for present purposes.  In the early hours of 4&#160;April 2021, two&#160;police&#160;officers noticed a white VW Tiguan due to the way in which it was being driven.  It swerved along the road and then clipped the kerb.  Having turned into Park Lane it continued to swerve and then undertook a single vehicle, having cut back into an underpass; it accelerated to a speed of 75 miles an hour.  The officers then illuminated their blue lights.  The driver of the vehicle reduced speed to about 3 miles per hour before coming to a stop at a red traffic light.  The officers boxed in the vehicle and one of them approached the car.  The applicant was in the driver&#8217;s seat.  The officer saw the applicant smirk and reach for the gearstick.  The officer tried to grab the applicant&#8217;s car key but the applicant revved the engine and reversed into the police vehicle behind his car.  The officers could smell alcohol and suspected the applicant was intoxicated.  When ambulance officers attended, the applicant became lucid and behaved as if he was considerably less drunk.  When he was taken to the station, he refused to take part in an evidential breath sample.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The applicant had three previous convictions for three offences spanning the period from&#160;September 2013 to&#160;January 2021.  None of them was for a driving offence.  The sentencing court had, as we have seen, a pre-sentence report dated 3&#160;January 2022.  The applicant was assessed to pose a medium risk of re-offending and the likelihood of serious harm was low.  It was noted that in the past he had received conditional discharges and a fine but never been subject to probation supervision.   The proposal in the report was that there was to be a community order of 12 months with an unpaid work requirement on 100 hours and an alcohol abstinence monitoring requirement for 90 days.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In passing sentence, the Recorder rightly observed that the applicant was fortunate that loss of life had not followed from his dangerous driving.  The Recorder concluded that the offence clearly crossed the custody threshold.  However, the circumstances permitted him to suspend the custodial sentence.  He took into account the likely impact on the applicant&#8217;s newborn child and his partner and also his mother, for whom he was caring.  The Recorder had regard to the Definitive Guideline on Offences of Dangerous Driving.  He took the view that this was either top of&#160;the middle category or the bottom of the top.  In either case it was aggravated by the evidence of alcohol consumption and the undertaking of another vehicle and passing on the wrong side.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The Recorder said that the notional sentence would have been 20 weeks&#8217; imprisonment reduced to 18 weeks for the guilty plea suspended for 12 months.  He said the applicant would be disqualified&#160;from driving for 30 months and before he could drive again, he would need to take an extended re-test.  The Recorder also imposed what he described as a community order for 12 months, with an unpaid work requirement of 100 hours and an alcohol abstinence monitoring requirement for 90 days.  We take that to mean in substance that those were requirements attached to the suspended sentence order.  The applicant&#8217;s licence would be endorsed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Turning to the failure to produce a specimen, the sentence again would have been one of 20 weeks&#8217; imprisonment but was reduced to 18 weeks for the guilty plea.  This was made concurrent and was suspended for 12 months.  For driving whilst unfit, there would be a sentence of disqualification for 24 months concurrent and the licence would be endorsed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Before this Court, the applicant requires an extension of time of 1 year, 1 month, 1 week and 6 days in which to renew his application for leave to appeal against sentence after refusal by the single&#160;judge.   The single&#160;judge refused leave to appeal on 4&#160;July 2022.  The applicant was sent the notification of refusal on 29&#160;July 2022.  However, the renewed application was not filed with this Court until 11&#160;September 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Both in writing and in oral submissions, the Court has been informed that the reason for that delay of over a year is simply that initially the applicant appeared to&#160;accept the decision of the single&#160;judge and took the view that he had no grounds for appeal.  However, when solicitors came to process the file with a view to closing it down and putting it into storage, it was noticed that there was, on the face of it, an error in the reasoning of the single&#160;judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Mr&#160;Briant, who has appeared before&#160;us today, has fairly accepted that the error emerged in fact from his own original formulation of the application for leave which went to the single&#160;judge.  The error was that the impression with which the single&#160;judge was left was that the applicant had been disqualified from driving at the relevant time.  This was not in fact the case.  Since it was correctly understood that the matter could not go back before the single&#160;judge, the application has therefore had to be considered by the Full Court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We have to say that we are unimpressed with the reasons for the lengthy extension of time which would be required for renewing this application.  But, in order to avoid any risk of injustice, we have considered the merits of the underlying application.  In the original grounds of appeal which have been helpfully developed in oral submissions today, Mr&#160;Briant made the following submissions.  It is submitted that the Recorder&#8217;s categorisation of the offences was too high.  It is submitted that this is a case in which the individual parts of the driving would, on their own, amounted to a speeding offence, careless driving and an alcohol related offence.  It is accepted however that the combination of those features together is what takes the offence into the range of dangerous driving but, submits Mr&#160;Briant, only just.  It should have been placed in the lowest category (perhaps at the top of that category) but not as high as the&#160;sentencing judge placed it.  It is further submitted that this was a short single incident with little damage although there was a burst of excessive speed.  It was only a matter of seconds and the applicant stopped as soon as the police lit up their blue lights.  It is accepted that the offence was aggravated by alcohol.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In respect of&#160;the other offences, it is submitted that given alcohol had already counted as an aggravating feature of dangerous driving, this should have little impact on the other offences so as to avoid double counting.  It is submitted that a small increase in the disqualification period could have dealt with the principle of totality.  Finally, it is submitted that the Recorder gave insufficient credit for the guilty plea.  The Recorder gave credit of 10 per&#160;cent, which is usually the appropriate reduction when a plea is entered on the first day of a listed trial.  Here, Mr&#160;Briant points out that some weeks before the trial was listed to begin in&#160;October 2021, on 5&#160;September an email was sent asking the court to take it out of the warned list because the applicant clearly wished to change his plea.  Mr&#160;Briant therefore submits that something above 10 per&#160;cent (perhaps in the region of 15 per&#160;cent) should have been granted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In refusing leave, the single judge said that the offending in question involved driving whilst disqualified and drunk at times at a speed of 70 miles per hour in a 30 miles per hour speed limit area.   The applicant had swerved across the road, undertaking another vehicle on the inside lane.  When he stopped, his control of&#160;the vehicle in his drunken state was so poor the vehicle reversed into the police car.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The single&#160;judge went on to say that the applicant had initially pleaded not guilty on 17&#160;May 2021, maintaining that plea until&#160;September.  Even after he entered his guilty plea he continued to deny that he had committed any offending, claiming that he had not drunk very much and was able and did drive safely.  He claimed the police were lying.  The single&#160;judge concluded that the judge was entitled to conclude in those circumstances that he was only entitled to 10 per&#160;cent credit.   The single&#160;judge finally said that, in those circumstances, it is not arguable that the sentence was manifestly excessive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We respectfully agree with the single&#160;judge that the proposed grounds are not reasonably arguable and have no real prospect of success.  If there was an error in the single&#160;judge&#8217;s reasoning it has no material impact on the appropriateness of the sentence.  It did not feature in the Recorder&#8217;s reasoning in passing sentence.  We are also unpersuaded there is any good reason to grant the very long extension of time required of over a year, for the renewed application for leave after single&#160;judge&#8217;s decision.  Finally, we would note that, as Mr&#160;Briant has fairly and candidly accepted, this application would appear in any event to be completely academic now.   The sentence has been served.  The disqualification period has also expired.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In all the circumstances, therefore, this renewed application for leave is refused. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ContinCol" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Epiq Europe Ltd hereby certify that the above is an accurate and complete record of the proceedings or part thereof.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Fixed" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Lower Ground, 46 Chancery Lane, London WC2A 1JE </span></p>
+	  </content>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Fixed" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Tel No: 020 7404 1400</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ContinCol" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Email: rcj@epiqglobal.co.uk </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

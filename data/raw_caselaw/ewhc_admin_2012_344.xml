@@ -1,0 +1,877 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/344"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/344"/>
+	  <FRBRdate date="2012-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="344"/>
+	  <FRBRname value="Heard v Broadland District Council &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/344"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/344"/>
+	  <FRBRdate date="2012-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/344/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/344/data.xml"/>
+	  <FRBRdate date="2024-09-16T19:00:40" name="transform"/>
+	  <FRBRdate date="2024-11-30T11:58:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-02-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="heard" href="" showAs="HEARD"/>
+	<TLCPerson eId="broadland-district-council" href="" showAs="BROADLAND DISTRICT COUNCIL"/>
+	<TLCPerson eId="south-norfolk-district-council" href="" showAs="SOUTH NORFOLK DISTRICT COUNCIL"/>
+	<TLCPerson eId="norwich-city-council" href="" showAs="NORWICH CITY COUNCIL"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-mr-justice-ouseley" href="/judge-mr-justice-ouseley" showAs="MR JUSTICE OUSELEY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>344</uk:number>
+	<uk:cite>[2012] EWHC 344 (Admin)</uk:cite>
+	<uk:parser>0.26.2</uk:parser>
+	<uk:hash>4c957aefcda9f1b061bb26edf87ae011f711f3a498e039e9515dc6b5d243ea4f</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>CO/3983/2011</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2012] EWHC 344 (Admin)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2012-02-24" refersTo="#judgment">24/02/2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-ouseley">MR JUSTICE OUSELEY</judge></p>
+      <p class="Centered" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#heard" style="font-weight:bold">HEARD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#broadland-district-council" style="font-weight:bold">BROADLAND DISTRICT COUNCIL</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#south-norfolk-district-council" style="font-weight:bold">SOUTH NORFOLK DISTRICT COUNCIL</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#norwich-city-council" style="font-weight:bold">NORWICH CITY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p class="Centered" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center">(Transcript of the Handed Down Judgment of</p>
+      <p style="text-align:center">WordWave International Limited</p>
+      <p style="text-align:center">A Merrill Communications Company</p>
+      <p style="text-align:center">165 Fleet Street, London EC4A 2DY</p>
+      <p style="text-align:center">Tel No:  020 7404 1400, Fax No: 020 7831 8838</p>
+      <p style="text-align:center">Official Shorthand Writers to the Court)</p>
+      <p class="Centered" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr R Harwood </span>(instructed by<span style="font-weight:bold"> Richard Buxton Solicitors</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr W Upton</span> (instructed by <span style="font-weight:bold">Sharpe Pritchard Solicitors</span>) for the <span style="font-weight:bold">Defendants</span></p>
+      <p style="text-align:center">Hearing dates: 6<span style="vertical-align:super;font-size:smaller">th</span> and 7th December 2011</p>
+      <p class="Centered" style="margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">- - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">Judgment</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">MR JUSTICE OUSELEY:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Claimant, Mr Heard, challenges the adoption by the Defendants of their Joint Core Strategy on 22 March 2011, a development plan document created under the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">Planning and Compulsory Purchase Act 2004</ref> for their areas.  The challenge is brought under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/113" uk:canonical="" uk:origin="TNA" uk:type="legislation">s113</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">that Act</ref>, on the grounds that the Joint Core Strategy, JCS, was not within the powers of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">the Act</ref>, or there had been a procedural failing which had prejudiced the Claimant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The three Defendants are district councils: Broadland DC and South Norfolk DC which surround Norwich City Council&#8217;s area to the north and south respectively.   The three have co-operated to produce a Joint Core Strategy for their areas.  This includes the Norwich Policy Area, NPA, which covers the whole of the City Council&#8217;s area and, putting it very broadly, the parts of the other two Councils&#8217; areas which lie closer to the City.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Part of the JCS involves meeting the growth requirements for the NPA laid down in the Regional Spatial Strategy, RSS, as adopted in 2008; it is now the Regional Strategy.  The JCS, in order to meet its statutory obligation to conform generally to the RSS, had to provide for the stipulated levels of growth; but it was for the JCS to decide where that should take place. The JCS includes, as part of its provision for the RSS requirement, major growth in an area to the north east of Norwich known as the North East Growth Triangle, predictably, NEGT. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Heard is a resident in that area north east of Norwich which is earmarked for major growth in the JCS.  He is the chairman of an action group, Stop Norwich Urbanisation, SNUB.  Although opposed to urbanisation generally, Mr Heard contends that the JCS is unlawful because the Strategic Environmental Assessment, SEA, which the Councils had undertaken, did not comply with two requirements: first, that it explain which reasonable alternatives to urban growth in the North East Growth Triangle they had selected to examine and why, and second, that it examine reasonable alternatives in the same depth as the preferred option which emerged.  It was not said that the examination of the preferred option was itself inadequate, nor that changes in circumstance required a further examination of previously discarded alternatives.  The Defendants contended that the work they had done was sufficient for these purposes. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">His second ground was that the Strategic Environmental Assessment was further unlawful since it did not assess the impact of a proposed new highway, the Northern Distributor Road, the NDR, or of alternatives to it. The NDR was fundamental to the achievement of the full development of the North Eastern Growth Triangle, though there was a case for it even without that development.  The Defendants contended that the NDR had been adequately assessed in documents prepared by the highway authority, Norfolk County Council, and that although the JCS supported and in some ways promoted the NDR, it was not for it to assess it or to consider alternatives to it.  The County Council was part of the informal Greater Norwich Development Partnership, GNDP, with the three District Councils. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The legislative framework</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">A plan such as the JCS has to be subject to what is called Strategic Environment Assessment, by virtue of Directive 2001/42/EC on the assessment of the effects of certain plans and programmes on the environment.&#8221;  This has been transposed into domestic law by the Environmental Assessment of Plans and Programmes Regulations 2004 SI no.1633.  Regulation 8 prohibits a plan being adopted until regulation 12, amongst others, has been complied with.  Regulation 13 requires the plan, when in draft, and its accompanying environmental report to be subject to public consultation.  Regulation 8 prohibits the adoption of a plan before the environmental report and the consultation response have been taken into account. These reflect requirements of the Directive. Environmental assessment is thus, as Mr Upton submitted, a process and not merely a report. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Regulation 12 (2) (b) requires an environmental report &#8220;to identify, describe and evaluate the likely significant&#8221; environmental effects of implementing the plan, and of &#8220;reasonable alternatives taking into account the objectives and the geographical scope of the plan or programme&#8221;.  The report has to include such of the information set out in Schedule 2 as is reasonably required although it can be provided by reference to relevant information obtained at other levels of decision-making.  Item 8 in the Schedule is &#8220;an outline of the reasons for selecting the alternatives dealt with, and a description of how the assessment was undertaken including any difficulties&#8230;encountered in completing the information.&#8221;  Mr Upton for the Defendants emphasised the word &#8220;outline&#8221;.  It is not, he said, a requirement to give reasons for selecting the option eventually pursued; but one would normally expect them to emerge reasonably clearly from the assessments. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">European Commission has provided guidance on Article 5(1) of the Directive, the equivalent of regulation 12 of the UK Regulations, as to what level of assessment is required for alternatives. Alternatives to the option being promoted should be evaluated on the same basis and to the same level as the option promoted in the plan:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In requiring the likely significant environmental effects of reasonable alternatives to be identified, described and evaluated, the Directive makes no distinction between the assessment requirements for the drafted plan or programme and for the alternatives.  The essential thing is that the likely significant effects of the plan or programme and the alternatives are identified, described and evaluated in a comparable way.  The requirements in Article 5(2) concerning scope and level of detail for the information in the report apply to the assessment of alternatives as well.  It is essential that the authority or parliament responsible for the adoption of the plan or programme as well as the authorities and the public consulted, are presented with an accurate picture of what reasonable alternatives there are and why they are not considered to be the best option.  The information referred to in Annex I should thus be provided for the alternatives chosen.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Upton suggested that it was too simplistic to say that all alternatives had to be assessed to the same degree throughout a process in which, as the Directive and Regulations envisaged, options were progressively narrowed and discarded as successive stages moved towards a preferred option.  Those options discarded at earlier stages did not have to be revisited at every subsequent  stage; see <span style="font-style:italic">City and District Council of St Albans v Secretary of State for Communities and Local Government</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2009/1280" uk:canonical="[2009] EWHC 1280 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 1280 (Admin)</ref>, Mitting J para 14.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The guidance also deals with what constitutes a reasonable alternative: it must be realistic, fall within the legal and geographic competence of the authority, but it otherwise depends on the objectives, and geographical scope of the plan.  Alternative areas for the same development are an obvious example. The longer term the plan, the more likely it will be that it is alternative scenarios which are examined. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Article 1 of the Directive is relevant because it makes clear that the objective of the Directive in providing for environmental assessment is to protect the environment and integrate environmental considerations into the adoption of plans with a view to &#8220;promoting sustainable development&#8221;.  This, with Article 4, which permits a national authority to integrate compliance with the Directive into national procedures, has led to the practical implementation of the Directive through the requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/19/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s19(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> that a plan be subject to a Sustainability Appraisal, SA, rather than through a separate  document entitled an environmental report.  Article 4(3) also recognises that there may be a hierarchy of plans, and that the assessment will be carried out at different levels.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">To avoid duplication in this process, Article 5(2) permits the decision as to what information is reasonably required  to take account of &#8220;the contents and level of detail in the plan &#8230;, its stage in the decision-making process and the extent to which certain matters are more appropriately assessed at different levels in that process&#8230;.&#8221;  This is reflected in regulation 12 of the domestic Regulations.  Mr Harwood for the Claimant submitted, and I accept, that while options can be rejected as the plan moves through successive stages, and do not necessarily require to be re-examined at each stage, a description of what alternatives were examined and why had to be available for consideration at each stage, even if only by reference back to earlier documents, so long as the reasons there given remained sound.  But the earlier documents had to be organised and presented in such a way that they could readily be ascertained and no paper chase was required to find out what had been considered and why it had been rejected; see <span style="font-style:italic">Save Historic Newmarket Ltd  v Forest Heath District Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2011/606" uk:canonical="[2011] EWHC 606 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 606 (Admin)</ref>, Collins J, paras 17 and 40. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">At para 40, he said, and it provides a useful summary of the test:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;40.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In my judgment, Mr Elvin is correct to submit that the final report accompanying the proposed Core Strategy to be put to the inspector was flawed.  It was not possible for the consultees to know from it what were the reasons for rejecting any alternatives to the urban development where it was proposed or to know why the increase in the residential development made no difference.  The previous reports did not properly give the necessary explanations and reasons and in any event were not sufficiently summarised nor were the relevant passages identified in the final report.  There was thus a failure to comply with the requirements for the Directive and so relief must be given to the claimants.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The facts</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The plan-making process is rather convoluted and the sequence of documents constituting it needs to be set out.  I could not readily discern it from the parties&#8217; submissions. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Although the way in which the NDR was treated is the subject of a separate ground, the Northern Distributor Road and the North East Growth Triangle are closely linked and it is convenient to deal with them together chronologically, though it must be noted at the outset that it is Norfolk County Council which bears statutory responsibility for the transportation strategy, and not the Defendants.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The County Council consulted on various Norwich Area Transportation Strategy, NATS, options in 2003.  An SEA was carried out in 2004 for the NATS, voluntarily since it preceded the coming into force of the Directive; it was not itself subject to public consultation.  A number of options, sieved from a larger variety, were fully considered including three which involved differing lengths of NDR, and three which involved no NDR, but improved public transport and other measures to reduce car usage instead.  The preferred strategy included what then was called the three quarter NDR; the NATS had been designed to help deliver the growth that would occur in the Norwich area with or without a supportive transport infrastructure, and to address the problems it would create.  The NDR was identified as an important element to enable growth within and around Norwich; without it, developer led schemes to provide accessibility to individual developments would lead to a disjointed network. The NDR was &#8220;the only feasible solution for dealing with growth and transport problems and issues on a long-term basis.&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Policy 2 of the NATS, adopted in 2006, provided that an NDR would be developed for implementation in conjunction with other measures.  Its precise alignment was not for decision at that stage. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The County Council adopted its Second Local Transport Plan in 2006 as required by the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/38" uk:canonical="2000 c. 38" uk:origin="TNA" uk:type="legislation">Transport Act 2000</ref>.  A Strategic Environmental Assessment was undertaken for this purpose, published in 2006, and summarised in the LTP itself.   It assessed the overall environmental effect of the LTP, the impact of the two potential major schemes, one of which was the NDR, and the environmental effect of the LTP with and without those major schemes.  An Environmental Report was consulted on with the Provisional LTP in 2005, but it did not deal with the NDR.  The rather longer SEA of 2006, which was not itself consulted on, did not assess the LTP without the NDR alone, nor alternatives to the NDR.  The LTP promoted the NDR as a major scheme, describing its purpose, advantages, position in the development plan framework, and its financing status. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Meanwhile, other parts of the development plan process were under way. The revised Regional Strategic Strategy, RSS, had been going through its draft stages, themselves informed by a Sustainability Appraisal at two stages which incorporated a Strategic Environmental Assessment.  This was adopted in May 2008, as the East of England Plan, EEP, by the Secretary of State for Communities and Local Government. It became part of the statutory development plan framework under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>, and local development plan documents such as the JCS had to conform generally to it.  It covered the period 2001-2021. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The EEP dealt with transportation;    Policy T15 identified the Norwich area as one which was likely to come under increasing transport pressure as a result of underlying traffic growth and the RSS development strategy.  Appendix A listed the NDR as one of the regionally significant investments currently programmed for the region, a Major Local Transport Plan Scheme.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Policy NR1 dealt with Norwich as a &#8220;Key Centre for Development and Change&#8221;, a regional focus for housing, employment and other activities: 33000 additional houses were to be provided in the NPA between 2001-2021, facilitated by LDDs prepared jointly by the three Defendants; requirements for consequential transport infrastructure &#8220;should be determined having regard to&#8221; the NATS. Policy H1 elaborated the housing strategy, setting district totals conforming to that total for the NPA parts of the three involved here.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">During the preparation of the revised RSS, the three Defendant Councils had begun work on their Joint Core Strategy. In November 2007, the Councils issued, for public consultation, an &#8220;Issues and Options&#8221; paper.  This identified the housing requirements for the NPA in the then draft EEP.  The three strategic options for dealing with the required growth were dispersing growth across a large number of small scale sites, medium concentration on large estate size sites of 15-3000 units, or Larger Scale Urban Extensions and new settlements in the range 5,000-10,000 dwellings.  An initial assessment of the broad locations for major growth, including the north east sectors inside and outside the NDR, was appended; a full sustainability appraisal was promised at the preferred options stage, but early indications on a comparative basis were provided under the heading &#8220;Some issues relating to potential growth locations&#8221;. Comments were sought on which broad strategy should be preferred, (Q11) and on the various major growth locations outlined, (Q12). Potential combinations for large scale growth were identified and comments sought as to which were preferred (Q13): </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;As well as identifying smaller urban extensions and growth in villages, the main pattern of large-scale growth could be:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">concentration on the north east and south west of Norwich and at Wymondham</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">as a) plus a fourth location for large scale growth</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">as a) plus two or more locations for medium scale growth</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a different combination for major growth options</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">a more dispersed pattern of growth (perhaps an average of 1,500 dwellings in ten locations).&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">This document also dealt with strategic infrastructure priorities.  The NDR had been identified as essential to managing the demand for travel arising from the levels of growth planned in the EEP, providing access to the potential growth areas on the north eastern fringes of Norwich and enabling traffic to be removed from the city centre and improvements to non&#8211;car based transport.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Sustainability Appraisal for the Issues and Options paper assessed the different strategies for locating growth, (Q11 above).  There was also an appraisal of the growth locations identified in the appendix, (Q12): north&#8211;east sector inside NDR, north&#8211;east sector outside NDR, east sector outside NDR, and south and south west sectors; 12 sectors in all, including some combinations.  The potential combinations for large scale growth, (Q13), were grouped for appraisal under two heads, which represented a concentrated option and a more dispersed option; option C was regarded as middle ground between the  two and option D, a different combination of major growth areas, was not assessed at all.  The responses were reported at length. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">In August 2008, there was a technical consultation with statutory bodies on the practicalities of various major growth options in the NPA.  It proposed that the planned housing should be in large scale developments concentrated in particular locations with a mixture of small scale development dispersed around the area: it put forward three options of combinations of large scale development, totalling 24000, allied to options for smaller scale development.  No large scale site exceeded 6000, most were between 2-4000. The large-scale options were set out in Policy 5; no decision had yet been made on which was to be favoured.  Appendices described them in more detail.  Each involved development in the north-east sector with a NDR.  (The 33000 units over the period 2008-2026 for the NPA included allocations and permissions as yet unbuilt, so the figure for new allocations was 24000, reduced later to 21000.)</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">In February 2009, the four authorities in the GNDP agreed on a favoured growth option as the basis for public consultation.  The reports analysing why that option emerged were not before me, and are not part of the Sustainability Appraisals or Strategic Environment Assessments.  Regulations requiring the production of a preferred options report had been changed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The statutory public consultation did not begin until March 2009. The document included as Policy 2 what was required by the EEP for the NPA, and as Policy 5 what was by now the favoured option for providing for that growth in the NPA, a variant of the third option in the technical consultation paper, with 21000 in the larger locations, in Norwich, and in the North East Growth Triangle on each side of the NDR, moderate growth broadly to the south west of Norwich, with some sites elsewhere identified for small scale development.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The commentary to Policy 5 said that there was no significantly different public preference for the locations for major growth, but that the technical consultation included three more detailed options for larger growth in the NPA which were described in appendices.  All required the NDR, and all involved major development in the NEGT. The favoured option, said the commentary, drew upon the consultation response and evidence, but was not specific as to what that was. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">A draft Sustainability Appraisal was produced in April 2009.  It dealt with the three original growth options in the technical consultation document of 2008, plus a variant, and with the newly favoured option.  These all included the north-east sector with NDR.  It appraised the various locations for major growth in Policy 5.  It did not deal with the responses to the technical consultation. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">In August 2009, a report on both statutory consultations was published. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Before the JCS was submitted to the Secretary of State for examination, a Sustainability Appraisal report and the pre-submission JCS were issued for yet further public consultation in November 2009.  This SA was intended to fulfil the role of the SEA under the Directive and transposing regulations. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">This SA makes the point that it was not the first stage of SA.  However, the summary of the appraisal findings states that a key task of the JCS is to develop a &#8220;spatial strategy for distributing&#8221; the housing targets set for the area by the EEP.  One component was a &#8220;major urban extension to the North-East of the city, based around two or three centres either side of the proposed&#8221; NDR.  The summary noted the &#8220;broadly positive sustainability effects&#8221; of this element. Another element, because it included major development at Long Stratton, had some local benefits but strategic drawbacks. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The SA said that it set out the legal requirements of the SEA Directive and explained how they were or would be met. Chapter 5, (it meant 3), would provide &#8220;an outline of the reasons for selecting the alternatives dealt with &#8230;.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Chapter 3 entitled &#8220;Developing the Options&#8221; set out the requirement that &#8220;reasonable alternatives taking into account the objectives and the geographical scope of the plan or programme are identified, described and evaluated.&#8221; Paras 3.3.2-3.3.3 read:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;3.3.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">The Pre-Submission JCS sets out the GNDPs current preferred approach in a series of draft policies.  These policies represent the GNDPs preferred options, which have been selected and refined following consultation on alternative options that has occurred in the past.  In particular, options were published and consulted during the &#8216;Issue and Options&#8217; consultation in 2007.  All options presented in the Issues and Options consultation document were also subjected to SA to establish the relative merits of options in sustainability terms and inform the identification of preferred options.  The findings of the Issues and Options SA were summaries in a brochure, which is available to download from the GNDP website.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>3.3.3</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">Following the Issues and Options consultation the GNDP were able to identify many of their preferred options.  However, it transpired that there was a need to consult further on options for the spatial approach to growth.  Identification of a spatial approach to growth is the single most important decision to be made by the JCS, and the decision with the most wide ranging and potentially significant sustainability implications.  The section below gives further details as to how the preferred approach was developed.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The &#8220;Options for the spatial approach to growth&#8221; summarised the process by which the preferred option had been arrived at.  It started with the three broad strategies from the Issues and Options paper, and the five options for their spatial distribution.  The three new distribution options at the technical consultation stage were then set out as above; the NEGT was common to them all.  Subsequent tables briefly rehearsed the relative sustainability merits of those three options.  The preferred option was then set out; paragraph 3.3.8 said that after the technical consultation, the GNDP &#8220;were able to identify their preferred option&#8221; for the spatial distribution of growth, which had been published for public consultation.  It had not changed since then, when it had been the subject of SA.  It had been re-appraised as part of this SA in the &#8220;light of further clarity about its implementation&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Although the later SEA checklist says section 3.2 is where the alternatives are considered along with chapter 5, the relevant passages on alternatives for this case are those which I have cited, save for the introduction to chapter 4 which refers to the directive obligation to provide an outline of the reasons for selecting the alternatives dealt with and a description of how the assessment was undertaken.  Chapter 5 concerns the preferred options themselves. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The appraisal in the annexe to the SA is an appraisal only of the preferred options against a comprehensive array of polices.  It is not an examination of alternatives.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">It included this on Policy 8 &#8220;Access and transport&#8221;, which both sides put some reliance on:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;Recommendations</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">One key area of concern relates to whether the NDR, which is promoted through this Policy, would preclude sustainable patterns of travel and transport associated with the North East Growth Triangle.  It will be of great importance to ensure that the NDR does not have this effect.  It will be important to design in ambitious measures that encourage residents to meet more of their needs locally by sustainable modes of travel, and that also allow ease of access to Norwich by rapid public transport.  When considering the necessity for the NDR it should be possible to assume minimal use of this road by residents of the Growth Area.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Policy 8 said that the transportation system would be enhanced to develop the role of Norwich as a Regional Transport Node, particularly through the implementation of NATS, including construction of the NDR. Implementation of NATS was fundamental to the strategy, enabling the capacity which it would release in Norwich to be used for non-car modes of transport, and providing the access necessary to key strategic employment and growth locations.  A corridor, 100m either side of the centre line of the current scheme, was protected and would be shown on the Broadland DC adopted Proposals Map.  The NDR &#8220;is recognised&#8221; in the EEP, is a major scheme in the Local Transport Plan and is in the Department of Transport&#8217;s Development Pool.  This policy was to become Policy 6 in the adopted JCS. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Certain changes were made to the JCS which warranted further SA on these &#8220;focussed changes&#8221;.  The only point of relevance is that it is clear that the only purpose of the SA was to appraise those specific changes and not alternatives more generally. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The JCS was submitted in March 2010 for examination by Inspectors appointed by the Secretary of State. This was held in November and December 2010; their report to the Councils was published in February 2011, and concluded that the JCS was sound and in conformity with the EEP, but certain changes were required. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Issue 6 examined whether the JCS provided an appropriate and deliverable distribution of the planned growth required by the EEP for the NPA, coupled with a sustainable pattern of transport infrastructure.  One of the issues was whether the distribution was sound given its asserted dependence on the NDR, which might not be built.  The NEGT and NDR were closely linked in this argument; the Inspectors rejected a non-NDR package of transportation interventions in para 51: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It has been argued that a non-NDR package of NATS interventions has not been modelled and that this could conceivably produce a better overall solution.  However, we are not convinced that such an option would be realistic and place weight on the DfT&#8217;s favourable &#8216;in principle&#8217; assessments and the judgements which led to the NDR&#8217;s acceptance into &#8216;Programme Entry&#8217; and the &#8216;Development Pool&#8217;, as discussed above.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Inspectors nonetheless saw the NDR as uncertain and particularly uncertain in timing.  They asked whether suitable changes could be introduced to increase the resilience of the JCS in the face of this uncertainty. They thought that the JCS tended to portray the situation in terms which were too stark: no NDR, no development in the NEGT.  Changes were proposed which provided &#8220;an appropriately qualified partial alternative approach to development in North East Norwich&#8221;.  Essentially, some development could take place in certain parts without an NDR, but were it not to have happened by the time that threshold had been reached, an Action Area Plan, AAP, would investigate whether any additional growth could take place in the NEGT without it, and subject to any further development which that AAP might show to be satisfactory, there would be a complete review of the JCS proposal for the NEGT. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Inspectors rejected the argument that there should be no growth in the NEGT with or without the NDR, but concluded, para 59: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The AAP is the proper mechanism for carrying out the site-specific investigations, considering the alternatives and undertaking the public consultations necessary to establish the point at which non-delivery of the NDR may, or may not, become a &#8216;showstopper&#8217; for further development in the growth triangle.  The JCS should not go beyond its strategic role and fetter the necessary thorough investigation through the AAP by making premature commitments based on untested scenarios.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">They then turned to the NEGT.  After some comments about how the scale of development came to be in the EEP, the Inspectors dealt with the merits, para 72: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Moreover, there are strong reasons to support the selection of this area as a location for a major urban extension.  Fundamentally, if development is to take place at the overall scale proposed by the GNDP constituent authorities (which we have found sound), the pattern of small towns and villages in Broadlands offers no realistic alternative &#8216;dispersal&#8217; options capable of accommodating such numbers in ways likely to be sustainable and capable of respecting the characters of the host settlements. There is no evidence that Norwich could accommodate more than already reflected in the JCS account of existing commitments, and it appears (from our consideration of the South Norfolk options) that redistribution from the north of the NPA to south is not a viable option.  Concentrating the proposed development at this major growth location is the most effective way of maximising its contribution to the NPA&#8217;s sustainability and providing infrastructure economically.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">After dealing with the arguments for and against other parts of the proposed distribution of growth, the Inspectors identified the next sub-issue as &#8220;Does the JCS distribution represent &#8220;the most appropriate plan when considered against reasonable alternatives?&#8221;&#8221;.  The question is drawn from PPS12.  They said, para 90:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;With regard to the North East Norwich growth triangle, we have already concurred with GNDP&#8217;s judgement that from a relatively early stage in the evolution of the JCS there has been no reasonable sustainable alternative to a substantial urban extension in that location if this scale of growth is to be accommodated.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">They then referred to the 5 options for South Norfolk, including Long Stratton, which had been developed between May 2008 and February 2009.  These had been subject to a comparative SA in February 2009.  More evidence was now available.  Para 94 contained this conclusion:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;We therefore conclude that South Norfolk&#8217;s view that the JCS distribution represents the best overall &#8216;political fit&#8217; is not inconsistent with judgements that it (a) represents the most appropriate plan when considered against the reasonable alternatives and (b) broadly fulfils GNDP&#8217;s duty under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/39" uk:canonical="" uk:origin="TNA" uk:type="legislation">S39</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> to exercise its DPD-making functions with the objective of contributing to the achievement of sustainable development.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Their overall conclusions on Issue 6 were in para 95:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Our broad conclusion is that the major principles of NATS, as reflected in the JCS, represents a sound and sustainable transport strategy for the NPA.  The implementation of these measures would enable the JCS to proceed with a pattern of growth which is justified, effective and consistent with national policy.  This conclusion is subject to a number of necessary changes that have been discussed above.  Together, these give the JCS greater resilience and effectiveness in the case of delay to, or non delivery of, the NDR by indicating a mechanism for transparently establishing the maximum extent to which development at the growth triangle could proceed before triggering the need for review of the JCS in that respect.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">They recommended various changes as their analysis had foreshadowed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The JCS, with the incorporation of the required changes, was adopted in March 2011.  An Environmental Statement was required to accompany it by the 2004 Regulations.  It had to set out, among other matters, the reasons for choosing the plan as adopted, in the light of other reasonable alternatives.  It said this on that topic: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;5.1</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">The iterative plan making process set out above, informed by SA and consultation throughout, involved consideration of a number of reasonable alternatives.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">This is particularly the case in relation to the spatial location of growth.  At the Issues and Options stage ten potential growth options were put forward (plus brownfield sites in the city &amp; suburbs).  The Sustainability Appraisal was used to select options to take forward along with other evidence such as the water cycle study, public transport modelling and discussions with children&#8217;s services.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.3</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">The former preferred options document considered alternatives for growth options and area-wide policies.  The alternatives were assessed and captured in the SA document and remain in it as evidence of considering reasonable alternatives.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.4</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">The strategy submitted to the Secretary of State has a relatively concentrated pattern of growth in Broadland, based on sustainable urban extensions and a more dispersed pattern in south Norfolk, with growth focussed on a number of existing settlements.  Earlier plan drafts, supported by the SA, included options that had promoted a somewhat less dispersed pattern of growth in south Norfolk, with more limited development at Long Stratton.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.5</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">Having regard to the technical evidence and public comment, the strategic preference of the GNDP was to promote growth in Long Stratton to achieve the consequent environmental improvements to the village.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.6</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">The strategy has been adopted subsequent to a formal Examination in Public.  The independent Inspectors concluded that the plan is sound, subject to a number of required changes.  These changes have been incorporated into the adopted strategy.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The rest of the section summarised the support given by the Inspectors to the adopted strategy. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Policy 9 covers the growth strategy for the NPA: new allocations for a minimum of 21000 houses are to be identified across a number of locations against which the minimum number of houses in each was noted.  This would be supported by construction of the NDR.  Policy 10 identified the locations in the NPA for major new or expanded communities, including the NEGT on both sides of the NDR, the complete development of which required the NDR, but the scope for partial delivery, as required by the Inspectors is also reflected in the policy. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Ground 1: SEA and alternatives</span></heading>
+	  <paragraph eId="para_53">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Harwood&#8217;s Skeleton Argument for the Claimant contained a number of what seemed to me to be rather carping criticisms of the SEA and JCS, but he refined and improved his submissions in oral argument.  He focussed wisely on the appraisal of alternatives to the NEGT, the Claimant&#8217;s area of interest.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">None of the high level options for growth in the Issues and Options Paper, (Q11), were actually chosen.  The initial assessment of growth options, (Q13), did not cover two of the five options for the location of growth:   3 and 4 in the JCS SA, also denoted as C and D.  D did not include growth in the NEGT. Three more specific options were put forward in the statutory technical consultation paper, but the Councils were not relying on the SA accompanying that paper.  There was no analysis of why the alternatives selected at that stage only included ones with growth in the NEGT.  The preferred option emerged from that process as a mixture of options 2 and 3, and the Environmental Report/SA of September 2009 dealt with it.  There was no comparable assessment of reasonable alternatives considered by the three Defendants in it; the assessment of the options from the technical consultation paper was not done on the same basis as that of the preferred option. There was no explanation of the alternatives selected.  It contained no cross-reference to any other paper where the identification and equivalent appraisal of alternatives could be found.  Its summary was silent on that topic.   It was possible that the   options considered in the Issues and Options SA were reasonable options, even the only reasonable ones considered, but the SA did not say so, and it was not obvious why every combination of options included a north east sector, especially as the NDR on which it depended was uncertain.   There was no comparable assessment of reasonable alternatives against the one preferred, nor could there be one until the preferred option had been identified.  It was not his argument that there was some topic of assessment which those options had failed to consider, nor did that meet his argument.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Upton, for the Councils, took me through the evolution of the planning documents, placing considerable weight on the April 2009 SA accompanying the public consultation document, and the September 2009 SA.  It was for the three Councils to decide what were reasonable alternatives in the light of the SA scoping report of December 2007 and the requirements of the RSS. A range of reasonable alternatives had been identified and assessed, in a way appropriate for the level at which the JCS was operating in the plan-making hierarchy.  Many alternatives supported by SNUB were not alternatives which conformed to the RSS, and so could not be considered as alternatives at all.    A wide range of options had been assessed on a comparable basis; the later document of September did not have to continue to examine so wide a range as at earlier stages as the <span style="font-style:italic">St Albans</span> case held.  There really was only one sensible way to meet the growth requirements, as the Inspectors found. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Conclusions on Ground 1</span></heading>
+	  <paragraph eId="para_56">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I accept much of what Mr Upton said as a description of the way in which the JCS had been arrived at.  It could not be stigmatised as unreasonable.  The JCS had been the subject of frequent public consultation.  The preferred option had been properly assessed itself.  A number of alternatives had been assessed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I did not find it easy, however, to discern from Mr Upton&#8217;s submissions how he answered the essential factual contention at the heart of Mr Harwood&#8217;s submissions.  Certainly it was not by showing me any document in which the outline reasons for the selection of alternatives at any particular stage were clearly being given.  This is not the failing of the advocate, but in the factual material which he had to present.  Nor was there any discussion in an SA, in so far as required by the directive, of why the preferred options came to be chosen.  Nor was there any analysis on a comparable basis, in so far as required by the directive, of the preferred option and selected reasonable alternatives.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Issues and Options Paper and its Sustainability Appraisal are in themselves perfectly sensible papers. However Option D, the different combination of growth areas, was not assessed, and the SA itself did not explain why not.  There was therefore no assessment of an alternative which did not include development in the NEGT, nor an explanation of why that was not a reasonable alternative, even though one which might have been identified as an option.  This was not unimportant in the light of uncertainty over the NDR and its significance for the full development of the NEGT.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The statutory technical consultation produced three more options but did not itself consider any option which did not include development in the NEGT, with an NDR.  It did not describe the selection of those options.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">There was an important report to the Councils in February 2009 which led to the selection of the preferred option; it explains why it was preferred, and could contain information as to why the options examined had been selected.  But that was not produced before me, and more importantly, it was not cross-referred to or publicly available as part of any SA.  By the time of public consultation in March 2009, the preferred option had been selected. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The April 2009 SA did not explain what alternatives had been chosen for examination; it explained the ones which had been considered but not why it was those ones which had been considered and not others.  It did not explain why the preferred option had been selected. Again, the only options considered involved development in the NEGT, and the NDR.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The crucial stage was the SA submitted in September 2009 in connection with the pre-submission JCS, which the Councils intended as the fulfilment of their directive obligations.  It would have been open to the Councils to describe here the process of selection of alternatives for examination at each stage. They could have done this by reference to earlier documents, if earlier documents had contained the required material.  But the earlier documents do not contain the required information as to why the alternatives considered had been selected.  If the outline of the reasons for the selection of alternatives was not dealt with in the earlier documents, the Councils had to provide them in this document.  But that is missing from the SA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The SA itself only describes what has been done. It contains no further analysis of the selection of alternatives for consideration at various stages, nor for the choice of the preferred option.  It contains only a brief assessment of the alternatives, and does not itself contain the explanation which it implies is in the earlier documents, but, which in fact, on this particular aspect is simply not covered in them.  Crucially, it is not possible to tell from the SA itself or from earlier documents what the Councils&#8217; answer is to the Claimant&#8217;s question: were the only alternatives it was thought reasonable to select ones involving development in the NEGT, and if so -in outline- why so, especially in view of the uncertainty over the NDR, and the importance attached to the NDR in achieving the JCS with development in the NEGT.  The SA is wrong in saying that all the options in the &#8220;Issues and Options&#8221; paper were assessed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I accept that the Inspectors&#8217; report contains much which is supportive of the JCS, including the statement that there was no reasonable alternative to a substantial urban extension in the NEGT, notwithstanding problems with the NDR.  But although their report evidences a view about alternatives, it is not itself part of the SA.  They may be required to consider alternatives by the Secretary of State in PPS12, but that is not in fulfilment of the directive obligation or of those in the regulations.   It is possible of course, as well, that such a view is affected by a lack of examination of an alternative; and it is also possible that the answer to why no non NEGT growth scenario was considered is so obvious to a planner that it needs no explanation; it could not have been considered a reasonable alternative.  But I did not receive such an explanation either from the Councils, nor does the Inspectors&#8217; conclusion suffice to answer it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The final ES with the final JCS does not take matters further.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I conclude that, for all the effort put into the preparation of the JCS, consultation and its SA, the need for outline reasons for the selection of the alternatives dealt with at the various stages has not been addressed.  No doubt there are some possible alternatives which could be regarded as obvious non-starters by anyone, which could not warrant even an outline reason for being disregarded. The same would be true of those which obviously could not provide what RS required, or which placed development in an area beyond the scope of the plan or the legal competence of the Defendants.  But that is not the case here on the evidence before me, in relation to a non NEGT growth scenario, with or without NDR, and especially with an uncertain NDR.  Without the reasons for the earlier selection decisions, it is less easy to see whether the choice of alternatives involves a major deficiency.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I accept that the plan-making process permits the broad options at stage one to be reduced or closed at the next stage, so that a preferred option or group of options emerges; there may then be a variety of narrower options about how they are progressed, and that that too may lead to a chosen course which may have itself further optional forms of implementation. It is not necessary to keep open all options for the same level of detailed examination at all stages.  But if what I have adumbrated is the process adopted, an outline of the reasons for the selection of the options to be taken forward for assessment at each of those stages is required, even if that is left to the final SA, which for present purposes is the September 2009 SA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The reasons for the selection of the preferred option, as distinct from the reasons for the selection of the alternatives to be considered, have not been addressed as such either in the SA, although some comparative material is available. The parties dispute the need for these reasons.  It was very surprising to me that the reason for the selection of the preferred option was not available as part of the pre-submission JCS or the accompanying September SA, nor readily available in a public document to which the public could readily be cross-referred, with a summary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">This is not an express requirement of the directive or regulations, and I do not regard European Commission guidance as a source of law.  However, an outline of reasons for the selection of alternatives for examination is required, and alternatives have to be assessed, whether or not to the same degree as the preferred option, all for the purpose of carrying out, with public participation, a reasoned evaluative process of the environmental impact of plans or proposals.  A teleological interpretation of the directive, to my mind, requires an outline of the reasons for the selection of a preferred option, if any, even where a number of alternatives are also still being considered.  Indeed, it would normally require a sophisticated and artificial form of reasoning which explained why alternatives had been selected for examination but not why one of those at the same time had been preferred.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Even more so, where a series of stages leads to a preferred option for which alone an SA is being done, the reasons for the selection of this sole option for assessment at the final SA stage are not sensibly distinguishable from reasons for not selecting any other alternative for further examination at that final stage.  The failure to give reasons for the selection of the preferred option is in reality a failure to give reasons why no other alternatives were selected for assessment or comparable assessment at that stage.  This is what happened here.  So this represents a breach of the directive on its express terms.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">There is no express requirement in the directive either that alternatives be appraised to the same level as the preferred option.  Mr Harwood again relies on the Commission guidance to evidence a legal obligation left unexpressed in the directive.  Again, it seems to me that, although there is a case for the examination of a preferred option in greater detail, the aim of the directive, which may affect which alternatives it is reasonable to select, is more obviously met by, and it is best interpreted as requiring, an equal examination of the alternatives which it is reasonable to select for examination along side whatever, even at the outset, may be the preferred option.  It is part of the purpose of this process to test whether what may start out as preferred should still end up as preferred after a fair and public analysis of what the authority regards as reasonable alternatives.  I do not see that such an equal appraisal has been accorded to the alternatives referred to in the SA of September 2009.  If that is because only one option had been selected, it rather highlights the need for and absence here of reasons for the selection of no alternatives as reasonable.  Of course, an SA does not have to have a preferred option; it can emerge as the conclusion of the SEA process in which a number of options are considered, with an outline of the reasons for their selection being provided.  But that is not the process adopted here.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Accordingly, the Claimant succeeds on this ground.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Ground 2: the absence of an assessment of the NDR in the JCS SA</span></heading>
+	  <paragraph eId="para_73">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Harwood submitted that there was a duty on the councils to have regard to the LTP under regulation 15 (1)(b) and (c) of the Town and Country Planning (Local Development)(England) Regulations 2004 SI No. 2204. The RSS required regard to be had to the NATS.  It did not require the NDR.   Since the NDR was part of the JCS, and was said to be &#8220;promoted&#8221; through it, the JCS SA had to include an environmental assessment of the NDR.  Instead, it had been taken as part of the baseline for the assessment of other development, colloquially as a given and not as a JCS proposal; Mr Doleman, a transportation planner with the County Council, made as much clear in his witness statement.  The County Council was part of the GNDP, which as a partnership would promote the NDR, with the JCS supporting its provision and protecting its alignment, opposing inconsistent development.  The NDR and NEGT went together: there may have been a case put forward by the County Council for the NDR without the NEGT, but there was no case for the full NEGT without the NDR.  If the NDR were undesirable, it would affect the whole growth strategy, or at least the distribution of the major growth areas. The JCS protected an alignment corridor for the preferred three-quarter length NDR, yet that had not been assessed.  However, his real concern was not with alternative alignments but with alternatives to the NDR altogether.  Nothing in the Inspectors&#8217; report showed that there were no reasonable alternatives to the NDR. Given that there remains uncertainty over whether the NDR will be built, and the effect which that would have on the NEGT, there had to be alternatives to the NDR and NEGT.  Those had not been considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The JCS did not cross-refer to other documents, notably the voluntary SA which accompanied the NATS, or the SA which accompanied the LTP.  The NDR was not dealt with as a discrete option in them either.  The voluntary NATS SA could not be equivalent to a statutory SA since the SA had not been subject to public consultation, unlike NATS itself, nor could any decision have been made in the light of consultation responses to it. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Upton&#8217;s essential contentions were that the NATS and LTP determined what infrastructure was required to support the level of development and its location. The RS explicitly required account to be taken of the NATS, of which NDR was part.  The LTP had taken the general level and distribution of growth in the draft EEP into account.  Mr Upton took me through the various planning documents which showed that the NDR had been part of the baseline since at least 2007.  His submission was supported by PPS 12: &#8220;Local Spatial Planning&#8221;; para 4.10 said that &#8220;the outcome of the infrastructure planning process [here the NATS and LTP] should inform the core strategy and should be part of a robust evidence base&#8221;.  It recommended that those responsible for delivering infrastructure and those responsible for the core strategy align their planning processes.  Para 4.28 emphasises the importance of not advancing a core strategy which depended on others for its implementation when those others had not agreed it.  No challenge had been made to the adequacy of its SEA.  Incorporation into the JCS did not require a separate SEA.  There was no need to duplicate or to repeat SEAs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Those two plans were also the statutory responsibility of the County Council as highway and transportation authority.  There were no reasonable alternatives for the District Councils to consider in promoting the JCS, since transportation was not within their statutory competence.  So it had rightly been treated as part of the baseline, though the various levels of development in various locations on the NDR and on the roads leading to it would be relevant.  Besides, the Inspectors had concluded that there was no reasonable alternative to the NDR.  The reference in the SA of September 2009 to the NDR being promoted through the JCS was no more than a reference to its being relied on in the JCS.  The detail of the route would be dealt with in the Broadland DC AAP. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Conclusions on ground 2</span></heading>
+	  <paragraph eId="para_77">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The starting point to my mind is that proposing or planning the NDR is not within the remit of the JCS.  It is for the highway authority to plan and promote the NDR through its plans.  The NDR is outside the Defendants&#8217; legal competence.  There is no substance in the suggestion that the existence of the informal GNDP alters the allocation of statutory responsibility because it includes the Defendants, and all four Councils are in harmony on this issue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Of course, there are references in the JCS to the role of the NDR, and there is a relationship between the policies for accommodating growth in the JCS, and the infrastructure to support it.  The promotion of the NDR, its status in the EEP, NATS and LTP, and its budgetary status, make it a relevant factor in the judgment of where growth should be.  It would be unwise, if not impossible, to create a coherent strategy for any plan if the proposals for major infrastructure were ignored.  It may make it unreasonable to consider alternative means of providing for growth which do not use that proposed infrastructure.  That may be very relevant to how the defendants approached, albeit not explicitly, the selection of reasonable alternatives for examination. Their uncertainty may have to be planned for as well, as the Inspectors&#8217; recommended amendments showed.  But none of that, including  reliance on it for the selection of the preferred option, makes the NDR part of the JCS in the sense that the environmental effect of the NDR has to be assessed, growth in the NEGT or not, as a proposal of the JCS.  That does not turn the JCS into a plan or proposal for the infrastructure on which it relies.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">True it is as well that the land use plan has to provide for safe-guarding of the corridor for the NDR, since to fail to do so could prevent its development, but that safe-guarding does not make the NDR a proposal of the plan for which alternatives and impacts have to be assessed. The fact that the JCS talks of promoting the NDR, a safeguarding and supportive role, does not amount to its adoption by another authority or create an obligation to assess it and alternatives. It merely reflects the importance which another public body&#8217;s infrastructure proposal has.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"> In so far as the concern was with alternatives to any NDR rather than with alternative NDR alignments, that did not fall within the scope of the JCS.  The alignment corridor itself is not a choice made within the JCS; the corridors were assessed in the 2006 LTP.  Nor is the corridor a matter of concern to the Claimant who seeks an alternative to any NDR.  The effect of different alignments within the protected corridor would be for assessment when the precise line came to be chosen.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Defendants were right in my judgment to treat it as part of the baseline against which the environmental effects of the growth strategy were assessed.  Of course the effects of the growth may be additional to the effects of the NDR which are part of the baseline in the assessment of the strategy, but the NDR is not itself a proposal for assessment in the JCS.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The second reason why this ground fails is that the NDR has been subject to environmental assessment as part of the adoption of the NATS, albeit voluntarily, and as part of the LTP.  Those plans have been adopted.  This challenge cannot review any inadequacies in that assessment.  The time for such a challenge is long past.  It is not the function of the JCS to remedy any deficiencies in earlier assessments undertaken for the purposes of other plans. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Accordingly this ground of challenge fails.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Discretion</span></heading>
+	  <paragraph eId="para_84">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Upton submitted that no relief should be granted were he to lose on either of these grounds.  A great deal of work had been done; the claims were in reality that the SEA had not been expansive enough on one topic.  A number of alternatives had clearly been examined on a comparable basis as required.  The reasons for selection and choice between alternatives and the preferred option were spelt out in a publicly available report, even though it was not part of the SEA.  The Inspectors&#8217; Report gave reasons justifying the selection of the preferred option over the alternatives. The Directive had been substantially complied with.  The Claimant had not been prejudiced by any procedural failings; he had put forward no realistic alternative which had been ignored. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mr Harwood submitted that the failings he identified went to substance and not to procedure, and so questions of substantial compliance with procedural requirements did not arise.  The obligation was to identify and explain the selection of reasonable alternatives, to assess them on a comparable basis, to consult the public about the plan and SA, and to reach a decision in the light of   their responses.  That was the essence of the process of environmental assessment.    <span style="font-style:italic">Berkeley v Secretary of State for the Environment</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2000/36" uk:canonical="[2000] UKHL 36" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] UKHL 36</ref>, <ref href="#" uk:canonical="[2001] 2 AC 603" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 AC 603</ref> also showed that a disparate collection of documents, a paper chase through which the public might find its way, did not constitute substantial compliance with Directive requirements on environmental assessment. This case was to be distinguished from <span style="font-style:italic">Younger Homes (Northern) v First secretary of State</span><span/><span style="font-style:italic">and Calderdale District Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1060" uk:canonical="[2004] EWCA Civ 1060" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1060</ref>, Laws LJ at paras 42-47.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">86.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/113" uk:canonical="" uk:origin="TNA" uk:type="legislation">S113</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">Planning and Compulsory Purchase Act 2004</ref>, as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/185" uk:canonical="" uk:origin="TNA" uk:type="legislation">s185</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/29" uk:canonical="2008 c. 29" uk:origin="TNA" uk:type="legislation">Planning Act 2008</ref>, gave a wide variety of powers, short of quashing the whole JCS and starting again, which should be exercised here if relief were to be granted.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Conclusions on discretion</span></heading>
+	  <paragraph eId="para_87">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">87.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I am satisfied here that I should not exercise my discretion against the grant of any relief.  There has been a series of failings in relation to the directive obligations.  The Defendants may well be right that the option of no NEGT growth is unrealistic.  But I cannot regard there as being substantial compliance with the directive.  I will hear submission on the precise form of relief, in the light of the powers in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5/section/113" uk:canonical="" uk:origin="TNA" uk:type="legislation">s113</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/5" uk:canonical="2004 c. 5" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>, as amended. </p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

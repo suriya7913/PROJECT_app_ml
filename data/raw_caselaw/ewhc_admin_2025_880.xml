@@ -1,0 +1,716 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/880"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/880"/>
+	  <FRBRdate date="2025-04-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="880"/>
+	  <FRBRname value="Stephanie Croft, R (on the application of) v Torridge District Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/880"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/880"/>
+	  <FRBRdate date="2025-04-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/880/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/880/data.xml"/>
+	  <FRBRdate date="2025-04-15T07:41:23" name="transform"/>
+	  <FRBRdate date="2025-07-18T21:42:40" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-planning" href="https://www.gov.uk/courts-tribunals/planning-court" shortForm="The Planning Court" showAs="The Planning Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="stephanie-croft" href="" showAs="STEPHANIE CROFT"/>
+	<TLCPerson eId="torridge-district-council" href="" showAs="TORRIDGE DISTRICT COUNCIL"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-hhj-russen-kc" href="/judge-hhj-russen-kc" showAs="HHJ RUSSEN KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Planning</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>880</uk:number>
+	<uk:cite>[2025] EWHC 880 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>2ac5f12a133f6feb4f2877ea18247ecd69b7693d09981980c431c7e64fe7abdc</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left;margin-left:0.49in;text-indent:-0.49in">Neutral Citation Number: <neutralCitation>[2025] EWHC 880 (Admin)</neutralCitation></p>
+      <p class="CoverText" style="margin-left:0.49in;text-indent:-0.49in">Case No: <docketNumber>AC-2024-CDF-000081</docketNumber></p>
+      <p class="CoverMain" style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#ewhc-kbd-planning">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">PLANNING COURT</courtType></p>
+      <p class="CoverText" style="margin-left:0.49in;text-indent:-0.49in">Bristol Civil &amp; Family Justice Centre</p>
+      <p class="CoverText" style="margin-left:0.49in;text-indent:-0.49in">2 Redcliff Street</p>
+      <p class="CoverText" style="margin-left:0.49in;text-indent:-0.49in">Bristol BS16GR</p>
+      <p class="CoverText" style="margin-left:0.49in;text-indent:-0.49in">Date: <docDate date="2025-04-15" refersTo="#judgment">15/04/2025</docDate></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><judge refersTo="#judge-hhj-russen-kc">HHJ RUSSEN KC</judge></p>
+      <p class="CoverMain" style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:none">(Sitting as a Judge of the High Court)</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="margin-left:0.49in;text-indent:-0.49in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party as="#claimant" refersTo="#stephanie-croft" style="font-weight:bold">THE KING (on the application of STEPHANIE CROFT)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="margin-left:0.49in;text-indent:-0.49in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right;margin-left:0.49in;text-indent:-0.49in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="margin-left:0.49in;text-indent:-0.49in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party as="#defendant" refersTo="#torridge-district-council" style="font-weight:bold">TORRIDGE DISTRICT COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">PHILIP WATERS</span></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Interested Party</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">ANDREW PARKINSON </span>(instructed by<span style="font-weight:bold"> Richard Buxton Solicitors</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">JONATHAN WARD</span> (instructed by <span style="font-weight:bold">Torridge District Council</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">The Interested Party did not appear and was not represented</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">Hearing dates: 27<span style="vertical-align:super;font-size:smaller">th</span> and 28<span style="vertical-align:super;font-size:smaller">th</span> February 2025</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">Draft judgment circulated 4 April 2025</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on [date] by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HHJ RUSSEN KC</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in">- - - - - - - - - - - - - - - - - - - - -</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">HHJ Russen KC :</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.01in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">This is my judgment on the claimant&#8217;s application for judicial review to quash the decision of Torridge District Council (&#8220;<span style="font-weight:bold">the Council</span>&#8221;), dated 8 April 2024, to grant planning permission (ref: 1/0576/2021/FUL) (&#8220;<span style="font-weight:bold">the Planning Permission</span>&#8221;) for &#8220;<span style="font-style:italic">Erection of 2 no. dwellings</span>&#8221; <span style="font-weight:bold">(&#8220;the Development</span>&#8221;) at Land Adjacent to Greenacres Pitt Lane Appledore Devon (&#8220;<span style="font-weight:bold">the Triangle Site</span>&#8221;).  The permission was granted to Mr Waters, the interested party.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The claimant&#8217;s challenge to the Planning Permission is based on the single ground that the Council misinterpreted the site allocation Policy NOR7(2)(c) (&#8220;<span style="font-weight:bold">the Policy</span>&#8221;) of the adopted North Devon and Torridge Local Plan (&#8220;<span style="font-weight:bold">the Local Plan</span>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">I granted the claimant permission to bring the claim on 5 August 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have delivered this judgment at the same time as and alongside my judgment in Claim No. AC-2024-CDF-000102. That concerns the claimant&#8217;s statutory challenge to quash the decision of Devon County Council, dated 8th May 2024, to make a Traffic Regulation Order (&#8220;<span style="font-weight:bold">TRO</span>&#8221;) prohibiting motor vehicles over some 99 metres, comprised of two sections, of Pitt Lane (as I describe it in both judgments) under the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref>.  The TRO affects sections of Pitt Lane to the south of the proposed access to the Triangle Site.  The Council is also a defendant party to that claim alongside Devon County Council.  By my judgment in that other claim the Claimant has succeeded in her challenge to the TRO.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Triangle Site is approximately 0.35 hectares in size and is located to the south of Appledore and northeast of Northam. It forms part of a wider allocation under Policy NOR07 of the Local Plan. It is a triangular piece of agricultural land within this allocation, bounded by Pitt Lane to the south and east and fields to the north and west. To the west of the allocation is the A386 (Churchill Way).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The location of the Triangle Site is shown on the location plan at Annex 1 to this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Access to the Triangle Site is currently provided via a field gate and short track (across unallocated land) off Pitt Lane. Pitt Lane (the northern part of which is also known as Pitt Hill) is an historic, single track, rural country lane, notable for its classic &#8220;Devon hedges&#8221; which are a strong landscape feature.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Development is for two dwellings which would have a vehicular access to the Triangle Site from the southwest corner, off Pitt Lane. This would involve the removal of a section of hedgerow on Pitt Lane. The new vehicular access would be separate from and close to the vehicular access permitted for the bunnyhomes development mentioned below. An existing agricultural access across unallocated land to the north of the Triangle Site would be downgraded to a pedestrian access.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The location of the new vehicular access to the Triangle Site under the Planning Permission is shown by the arrow at the southern end of the Triangle Site on the plan at Annex 1.  The existing agricultural access to the north of the Triangle Site would be downgraded to a pedestrian access.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Planning Permission, including that access, was granted despite the objection by the claimant and other local residents outlined below.  Conditions 6 and 7 of the Planning Permission addressed the visibility splays and road surface of the new access.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Policy NOR07 of the Local Plan</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">As noted, the Triangle Site forms part of a wider allocation under the Policy.  The Policy refers to Pitt Lane as Pitt Hill.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Planning permission to develop other sites within the wider allocation had been granted after the adoption of the Policy and before the Planning Permission which is the subject of challenge in this Claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Land to the west of the Triangle Site has planning permission (granted in June 2023) for 27 dwellings (ref: 1/0652/2022/FULM) (&#8220;<span style="font-weight:bold">the bunnyhomes development</span>&#8221;). Access into the bunnyhomes development is via a new access onto Pitt Lane. Land to the south of the allocation has planning permission for 89 dwellings (ref: 1/1343/2018/OUTM and 1/0717/2021/FULM) (&#8220;<span style="font-weight:bold">the Baker Estates development</span>&#8221;). The Baker Estates development has created a second principal access route onto Wooda Road to the south known as Estuary Avenue, and also an east-west access (i.e. a &#8220;crossover&#8221; access within the site addressed by the Policy) from Pitt Lane. [The Baker Estates development is marked as &#8216;Wooda Road Site&#8217;, shaded blue, on the plan at Annex 1 and is the development shown on the image in Annex 2 mentioned next.]</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These access arrangements are shown on the image at Annex 2.  Annex 1 shows the proximity of the challenged access to the Triangle Site to the vehicular access to the bunnyhomes development.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Policy allocates the wider site for 130 dwellings. The explanatory text of the Local Plan (at paragraph 10.385) states that: &#8220;<span style="font-style:italic">the site will be developed in a comprehensive manner to ensure the necessary highway improvements to Pitt Hill are secured as housing delivery is achieved</span>&#8221;. The Local Plan then sets out the Policy as follows &#8211; (with my emphasis added to highlight the point at the heart of the challenge to the Planning Permission):  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;<span style="font-style:italic">Policy NOR07: Site Adjoining Pitt Hill (Appledore)</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">Land adjoining Pitt Hill, extending to about 6 hectares and as defined on Policies Map 8B, is allocated for housing development that includes:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">approximately 130 dwellings, providing a mix of housing type and size to reflect local need, including affordable housing; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">as necessary the relocation of a Public Right of Way to support its contained presence through the site.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">The site will be developed in accordance with the following site-specific development principles:  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;margin-left:0.78in">(a)</num>
+		  <content>
+		    <p class="ParaLevel5" style="margin-left:0.78in;text-indent:0.38in"><span style="font-style:italic">development located and of a form that minimises any loss of landscape character of the surrounding area;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;margin-left:0.78in">(b)</num>
+		  <content>
+		    <p class="ParaLevel5" style="margin-left:0.78in;text-indent:0.38in"><span style="font-style:italic">areas of green infrastructure providing opportunities for biodiversity enhancement and informal recreation focused to the south of the site within the coastal and estuarine zone;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;margin-left:0.78in">(c)</num>
+		  <content>
+		    <p class="ParaLevel5" style="margin-left:0.78in;text-indent:0.38in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">vehicular access achieved from Wooda Road, by improvement to Pitt Hill and an access from Pitt Hill Road and the provision of a right-hand turn from Churchill Way into Wooda</span><span style="font-style:italic">; and </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;margin-left:0.78in">(d)</num>
+		  <content>
+		    <p class="ParaLevel5" style="margin-left:0.78in;text-indent:0.38in"><span style="font-style:italic">safeguarding an appropriate vehicular access extending to the northern boundary, to enable the future delivery of the adjoining site on land east of Churchill Way.&#8221; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The &#8220;site&#8221; is therefore described in the Policy as &#8220;<span style="font-style:italic">land adjoining Pitt Hill extending to about 6 hectares</span>&#8221; that had been allocated for development which includes approximately 130 dwellings.  The Triangle Site is part of the 6 hectares. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The supporting text for the above-quoted Policy (which clearly does not carry the same weight as the language of the Policy itself) says:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.383</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">A site of about 6 hectares adjoining Pitt Hill is allocated for housing. The site will be developed in a comprehensive manner to ensure the necessary highway improvements to Pitt Hill are secured as housing delivery is achieved.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">10.384</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">The development will make a significant contribution to meeting the future housing needs of Appledore, providing approximately 130 new homes, the size and tenure of which will be reflective of local needs.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">10.385</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic">A high quality design will be achieved throughout the development, which provides a reflection of the area's historic character with an emphasis on green infrastructure delivery. The layout of development within the site will minimise any consequent landscape impact, particularly in respect of the area to the north of Wooda Road.</span>&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.11in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Objections to the Planning Permission</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant, alongside others including the Appledore Residents Association, objected to the application for planning permission on the basis that this access arrangement was sub-standard, unsafe, contrary to the allocation in the Local Plan, and because the removal of the hedgerow would result in harm to landscape character and appearance.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In particular, objections were made on the basis that access to the Triangle Site should be from the neighbouring bunnyhomes development, rather than onto Pitt Lane. In addition, objection was made on the basis that access to the Triangle Site (and to the neighbouring bunnyhomes development) should be from the South, via one shared access with the Baker Estates development.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">On 25 July 2002, the Appledore Residents Association sent a &#8216;Briefing Note&#8217; to the planning committee which included the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;<span style="font-weight:bold">Need for a Single Access to Serve the Two Developments</span>.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">Firstly, the application you are considering on the 28th July creates an unnecessary additional access onto the narrow Pitt Lane/Hill (see Sketch Plan below) when it could easily be accessed through the proposed bunnyhomes housing site to the west. Such a single access would result in benefits in terms of:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8226; highway safety, with no need for a second direct access onto Pitt Lane/Hill;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8226; it will enable easy vehicular, pedestrian and cycling access between the two sites including to the proposed open space;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8226; it will help retain the landscape character of Pitt Lane/Hill, its hedgerows and wildlife which would be adversely affected by the currently proposed access and visibility splays; and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8226; it could provide a pedestrian and cycle link to Pitt Lane/Hill.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">Indeed policy NOR07 criterion 2(c) requires &#8220;vehicular access achieved from Wooda Road, by improvement to Pitt Hill and an access from Pitt Hill Road and the provision of a right hand turn from Churchill Way into Wooda;&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;An&#8221; access is a single access and there are now two further accesses proposed within approximately 5 metres of one another (see Sketch Plan above) in addition to those already created to accommodate the Baker Estates development to the south.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">Even Devon Highways admit:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;While I agree with many of the comments from local residents I have no evidence to support a reason for refusal of this application on highway grounds. A different arrangement for access might be preferable, but that is not what has been presented for consideration.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The last passage was a quote from what Devon County Council (&#8220;<span style="font-weight:bold">DCC</span>&#8221;), as the highways authority, had said in its consultation reply dated 21 March 2022.  The highways officer said <span style="font-style:italic">&#8220;[t]he revised proposal is considered acceptable in highway/transport terms and I have no objection to it</span>.&#8221; He recommended the incorporation of what became conditions 6 and 7 in any grant of planning permission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The sketch plan in the briefing note was as follows:<img src="image2.png" style="width:330.5pt;height:384pt"/></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Officer&#8217;s Report and the Decision to grant the Planning Permission</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The application for planning permission was reported to the Council&#8217;s Planning Committee on 28th July 2023 with an Officer&#8217;s Report (&#8220;<span style="font-weight:bold">OR</span>&#8221;) recommending approval.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The OR addressed the access position in two main extracts, as follows (again, with my emphasis added):  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic">&#8220;Third parties have raised concern over the creation of a new vehicular access and resultant harm to the character of Pitt Hill. The access arrangements have been amended to bring the new vehicular access down to the southern part of the site so it would be read in the context of the proposed access to the scheme to the west and the access from the Baker Estates scheme to the south. In allocating the site, it was accepted that improvements and alterations would be required to Pitt Hill &#8211; this is unfortunately a necessary consequence of the allocation. It is considered that the revised siting of the access minimises disruption and harm to the character of Pitt Lane and enables longer stretches of hedgerow to remain intact.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">and</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic">&#8220;A number of representations suggest that an alternative access arrangement from the development to the west should be required to avoid additional points of access/egress on to Pitt Hill. As noted by the LHO, a different access arrangement might be preferable </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">however there is no evidence to support a reason for refusal on highway grounds - the decision taker is required to consider what is before them and this is deemed acceptable. Furthermore, there is no provision within Policy NOR07 to require such an access arrangement as put forward by third parties</span><span style="font-style:italic"> and there is no mechanism to insist on this given the different landowners and the fact the schemes may not come forward at the same time. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic">Given all of the above, and the support afforded to the scheme by the LHO, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">the application proposal is considered to be in accordance with</span><span style="font-style:italic"> NDTLP Policies ST10, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">NOR07</span><span style="font-style:italic">, DM05 and DM06 as well as paragraphs 110 and 111 of the NPPF.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.1in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Claimant&#8217;s Case</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Parkinson for the claimant submitted that &#8220;<span style="font-style:italic">an access</span>&#8221; from Pitt Lane means just that: one access, just as &#8220;an hour&#8221; means one hour.  The OR had materially misled the planning committee in stating that the Policy did not require the access to be limited to one.  The fact that, <span style="font-style:italic">after</span> the adoption of the Policy, more than one access has already been created from Pitt Lane under the permissions for the bunnyhomes development and the Baker Estates Development (on one view the crossover access could itself be regarded as two separate accesses &#8220;<span style="font-style:italic">from Pitt Hill</span>&#8221; within the meaning of the Policy) clearly cannot affect the correct interpretation of the Policy.  Those other accesses simply demonstrate that a further access to the Triangle Site is a breach of the Policy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The claimant says that the language of paragraph 2(a) of the Policy referring to &#8220;<span style="font-style:italic">minimising any loss of landscape character of the surrounding area</span>&#8221; (and paragraph 10.385 of the supporting text in the Policy with its reference to minimising &#8220;<span style="font-style:italic">any consequent landscape impact,  particularly in respect of the area to the north of Wooda Road</span>&#8221;) supports the case that the Policy does not permit numerous access points created at the expense of loss of the Devon hedge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Parkinson submitted that the OR&#8217;s misinterpretation of the Policy in relation to access amounted to a material misdirection of the planning committee. He said it is clear from the consultation response of DCC, as the highways authority, that it considered an alternative access might be preferable (see paragraphs 20 and 21 above). The lack of objection appears to have been based on the same misinterpretation of the Policy (&#8220;<span style="font-style:italic">I have seen no evidence to support a refusal of the application on highway grounds</span>&#8221;) and, but for that, its position of non-objection may have changed to one of objection. In those circumstances, there would be a very real prospect of the planning application being refused.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Referring to the distinction between the correct interpretation of a planning policy and the application of that policy &#8211; see <span style="font-style:italic">Baker Mill Estates Trustees v Test Valley BC</span> [2017] P.T.S.R, 408, at 83]-[84] per Holgate J (as he then was) - Mr Parkinson submitted that the Council&#8217;s Grounds of Defence had lost sight of that distinction in stating that &#8220;<span style="font-style:italic">the interpretation of a policy in the context of a particular decision is a matter of planning judgment for decision-maker</span>&#8221; and that &#8220;<span style="font-style:italic">the court has no role in re-interpreting policy if the interpretation by the decision maker is a reasonable one which does not require new meaning or gloss to be imported</span>&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.49in">I now refer to how the Council&#8217;s argument at the hearing advanced an argument which focused more upon where the court&#8217;s objective interpretation of the Policy should lead.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Council&#8217;s Case</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Ward, in his oral submission on behalf of the Council, developed an argument which was not flagged by his skeleton argument and which became the Council&#8217;s primary argument on the effect of the Policy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">He submitted that the language of paragraph 2(c) of the Policy (quoted in paragraph 14 above) was concerned only with the access from Wooda Road to Pitt Hill.  He said this was clear from the wording which both precedes and follows the phrase <span style="font-style:italic">&#8220;by improvement to Pitt Hill and an access from Pitt Hill Road</span>&#8221; (in fact, the Highway Authority had subsequently not required the provision of a right-hand turn from Churchill Way into Wooda).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Mr Ward submitted that the separate access to the Triangle Site from Pitt Lane (which Mr Waters in his planning application dated 12 May 2021 had described as &#8220;<span style="font-style:italic">a new or altered vehicular access proposed to or from the public highway</span>&#8221;) was not within the language of paragraph 2(c). Accordingly, it was not a matter for the Planning Committee at all, as opposed to the Highways Authority.  He said it was only considered by the Planning Officer because of the objections raised to it by some of the local residents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">It followed, as I explored with Mr Ward, that, if paragraph 2(c) was concerned only with access/egress from Pitt Lane to Wooda Road, and not with access to the contemplated housing developments on the land adjoining Pitt Lane then (subject to the Policy objective under paragraph 2(a) of minimising any loss of landscape character such as the Devon hedges between Pitt Lane and the adjoining land) the Policy contained no limit on the number of new vehicular accesses that might be created off Pitt Lane. As I also observed, recognising that I am not concerned with the lawfulness of any decision to grant permission for the construction of Estuary Avenue which has now been built, reference to Annex 2 below illustrates that, if paragraph 2(c) of the Policy is to be read as referring to one access from Pitt Lane to Wooda Road, then that raises a question about the Policy basis for the second access to the development now provided by Estuary Road.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Council&#8217;s Grounds of Defence anticipated that last point.  On the basis that paragraph 2(c) of the Policy was addressing only the question of access onto Pitt Lane from Wooda Road, they said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;31.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><marker name="tab"/>It was never intended, and cannot with any sensibility be read as operating to limit the developments subject to Policy NOR07 to the provision of a single highway access onto Pitt Hill. It is clear from the shape and configuration of the allocation site that this is simply not a realistic prospect. Rather, it was intended that there would be at least &#8216;an&#8217; access onto Pitt Hill as part of the development, so as to ensure permeability and enable the &#8216;improvement&#8217; to Pitt Hill.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The Council&#8217;s fallback argument, and the one which was signalled more clearly in Mr Ward&#8217;s skeleton argument, and also in the Council&#8217;s Grounds of Defence, focussed upon the language of the Policy as if it was addressing access to the (various parts of) the development &#8220;<span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">from</span><span style="font-style:italic"> Pitt Hill Road</span>&#8221; (my emphasis).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">To quote from the Council&#8217;s Grounds of Defence (again with my emphasis):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;29.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The allocation site subject to Policy NOR07 straddles Pitt Hill which splits the site into two distinct land parcels, to the east and west of Pitt Hill. Accordingly, if highway access to the site subject to allocation is to be furnished <span style="text-decoration-line:underline;text-decoration-style:solid">from</span> Pitt Hill, it was always going to be necessary to service the site through the provision of more than one highway access <span style="text-decoration-line:underline;text-decoration-style:solid">off</span> Pitt Hill. Similarly, the alignment of Pitt Hill along with the configuration and shape of the field parcels making up the site subject to Policy NOR07 are such that it is not practicable or reasonable to assume that the development could have been adequately serviced by a single highway access point <span style="text-decoration-line:underline;text-decoration-style:solid">off of</span> Pitt Hill. Nor would this constitute good place-making &#8211; recognising that this would fail to ensure permeability and connectivity.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By his skeleton argument Mr Ward submitted:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;27.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The policy does not limit new access to one new access. It sets a policy objective. The minimum standard. The word is the indefinite article, not the definite article. It is not specific. The policy does not say &#8220;no more than&#8221;. Nor does it say &#8220;no less than&#8221; (which would have little practical effect). If one accessway is added, then the policy objective is met. It is not then contrary to the policy to add more, where there is nothing within the policy to indicate that there should be any such limitation. This is particularly so when such a limitation would defeat other policy objectives, such as the provision of housing or general improvement to Pitt Hill.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8230;&#8230;&#8230;&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>31.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">Even if that were wrong, the planning decision would surely be the same. If the policy did intend to limit development to one accessway (despite not saying anything of the sort), then events unfolding on the ground with the site in different parcels of ownership, would render that element of the policy out of date. The additional accessways that had been formed for the Bunny Homes and Baker Estates developments (and which are not challenged or now vulnerable to challenge) have already exceeded C&#8217;s analysis of the interpretation of the policy (each having been developed after the adoption of the policy).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>32.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">It might be said then that the policy has been &#8220;<span style="font-style:italic">overtaken by things that have happened since it was adopted, either on the ground [&#8230;] or for some other reason</span>.&#8221; (see <span style="font-style:italic">Bloor Homes Limited v SSCLG</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2014/754" uk:canonical="[2014] EWHC 754 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 754 (Admin)</ref></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The points made by Mr Ward in his paragraphs 31 and 32 were made in support of the Council&#8217;s reliance upon <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> which provides that the court must refuse to grant relief on an application for judicial review &#8220;<span style="font-style:italic">if it appears to the court to be highly likely that the outcome for the applicant would not have been substantially different if the conduct complained of had not occurred</span>.&#8221;</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the claimant has made good her ground for quashing the Planning Permission.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My reasons in support of that conclusion are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">As part of the &#8220;<span style="font-style:italic">site</span>&#8221; within the meaning of the Policy, the Triangle Site was subject to the Policy&#8217;s &#8220;<span style="font-style:italic">site-specific development principles</span>&#8221; set out in paragraph 15 above.  The Policy requirements plainly apply to the site as a whole and every application for development that comes forward within it.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The interpretation of the Policy (as opposed to its application once properly interpreted and understood) is a matter of law.  The language is to be interpreted objectively, having regard to the language used in its context: <span style="font-style:italic">Tesco Stores Limited v Dundee City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/13" uk:canonical="[2012] UKSC 13" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKSC 13</ref>; <ref href="#" uk:canonical="[2012] PTSR 983" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] PTSR 983</ref>, per Lord Reed at [18]-[19].  The relevant language of the Policy, pertaining to access to the site from Pit Hill is quite specific rather than broad and (see (i) above) it relates to the whole 6 acres however many different landowners (and putative applicants for planning permission) are within it; and regardless of whatever potential ransom strip issues might arise between different.  Its terms can therefore be taken to have factored in the risk that some of the land might be &#8220;<span style="font-style:italic">sterilised</span>&#8221; or the broader object of development &#8220;<span style="font-style:italic">frustrated</span>&#8221; which were points relied upon by Mr Ward in support of a more liberal interpretation of the Policy.  Indeed, the Local Plan (in the explanatory text quoted in paragraph 17 above) assumes the site will be developed in a &#8220;<span style="font-style:italic">comprehensive</span>&#8221; manner.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The clear, objective meaning of the phrase &#8220;<span style="font-style:italic">an access from Pitt Hill Road</span>&#8221; (which follows the reference to the improvement of Pitt Hill) shows that it is referring to access to the site, or any part of it. I cannot accept Mr Ward&#8217;s primary submission that this is referring to access <span style="font-style:italic">to</span> Pitt Lane from Wooda Lane so that, once access to Pitt Lane is thereby obtained, any number of accesses <span style="font-style:italic">from</span> Pitt Lane to the 6 acre site, and any parts of it, might in principle be permitted.  If that was what the Policy intended then (as reference to the layout of the site on Annex 1 highlights) it would have referred to access <span style="font-style:italic">to </span>Pitt Lane. However, it is not addressing access to Pitt Lane from Wooda Lane.  It is instead addressing access to the site from Pitt Lane; the development site lying on either side of it. The  approach to interpretation laid down in <span style="font-style:italic">Tesco v Dundee CC </span>might sometimes result in the court giving a planning committee greater indulgence than it would for contracting parties or the draftsman of a statute, at least so far as the method of <span style="font-style:italic">application</span> of the stated words is concerned, but it is nevertheless impermissible to subject those words to gloss or substitution: see <span style="font-style:italic">Corbett v Cornwall Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/1069" uk:canonical="[2022] EWCA Civ 1069" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 1069</ref>, at [19], per Sir Keith Lindblom SPT.  I therefore do not accept a rival interpretation which, in effect, involves the court re-writing the Policy as if it read (with the words underlined added by me) &#8220;<span style="font-style:italic">vehicular access achieved from Wooda Road, by improvement to the </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">junction of</span><span style="font-style:italic"> Pitt Hill </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">and Wooda Road</span><span style="font-style:italic"> and an access </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">to and</span><span style="font-style:italic"> from Pitt Hill Road </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">to Wooda Road</span><span style="font-style:italic"> &#8230;&#8230;.</span>&#8221;  As I understood it, that is what Mr Ward was saying the Policy meant.  In other words, a Policy which, once access to Pitt Lane from Wooda Lane has been addressed, says <span style="font-style:italic">nothing </span>about how access to the site from Pitt Lane is to be achieved.  For the purposes of this case, I would add &#8220;deletion&#8221; to the proscribed list of interpretative actions in <span style="font-style:italic">Corbett</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That interpretation by the Council of the particular words in 2(c) of the Policy is also at odds with their plain and sensible meaning when read in their context.  The context includes the language of its paragraph 2(a), which refers to a development that &#8220;<span style="font-style:italic">minimises any loss of landscape character of the surrounding area</span>&#8221; and the relevant supporting text in the Local Plan.  The latter (see paragraph 17 above) states <span style="font-style:italic">&#8220;[t]he layout of development within the site will minimise any consequent landscape impact, particularly in respect of the area to the north of Wooda Road</span>.&#8221;  An interpretation of the Policy which supports a potentially unlimited number of access points to the site from Pitt Lane is inconsistent with the preservation of the Devon hedges which (generally) line Pitt Lane.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Read in isolation and in context, the reference to &#8220;<span style="font-style:italic">an access</span>&#8221; plainly means one access rather than &#8220;<span style="font-style:italic">accesses</span>&#8221; or &#8220;<span style="font-style:italic">any access required for such development</span>&#8221;, or whatever other words are proposed (in substitution) to support any number of access points to different development sites off Pitt Lane.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Mr Ward said &#8220;an access&#8221; set &#8220;<span style="font-style:italic">the minimum standard</span>&#8221; but that just begs the question as to whether it is a minimum (&#8220;<span style="font-style:italic">no less than</span>&#8221;, as he put it) or a maximum (&#8220;<span style="font-style:italic">no more than</span>&#8221;, as he also recognised was an option).  Once it is recognised that the true interpretation of the Policy is that it permits only one access from Pitt Lane, it can be understood that the OR recommending approval of Mr Waters&#8217;s application was (in its aspects relating to access highlighted in paragraph 23) simply wrong.  This was despite the correct interpretation of the Policy having been flagged by the Briefing Note submitted by Appledore Residents Association: see paragraph 20 above.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">That same Briefing Note drew attention to the position of the highways authority and the indication that, but for what appears to be the same mistaken interpretation of the Policy, DCC would have supported an alternative access arrangement, such as sharing the one from Pitt Lane with the bunnyhomes development as suggested by the association (paragraph 22 above).  I accept Mr Parkinson&#8217;s submission that this shows the materiality of the misinterpretation in the OR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">A failure to comprehend the true objective meaning of the relevant policy cannot be excused on the basis that it is a matter of planning judgment but instead means the resulting decision is liable to be vitiated: see <span style="font-style:italic">Tesco v Dundee CC</span>, at [23], and <span style="font-style:italic">Gladman Developments Limited v Canterbury City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/669" uk:canonical="[2019] EWCA Civ 669" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 669</ref>, at [21].  The OR recommended approval of the application by reference to the flawed interpretation of the Policy and, in the absence of other evidence indicating the contrary, it is to be assumed that the planning committee agreed with the recommendation for the reasons given in the OR (along with any oral update given at the meeting): see <span style="font-style:italic">R. (Mansell) v Tonbridge &amp; Malling BC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1314" uk:canonical="[2017] EWCA Civ 1314" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1314</ref>; <ref href="#" uk:canonical="[2019] PTSR 1452" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] PTSR 1452</ref>, at [42(2)] per Lindblom LJ.  Accordingly, if the reasoning in the OR was flawed then that contaminates the committee&#8217;s decision to grant the Planning Permission. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In this case, in relation to that last point, it cannot be said that it is &#8220;<span style="font-style:italic">highly likely</span>&#8221; that the decision would have been the same even if the Policy had not been misinterpreted. In particular, the planning committee could not justify its decision by reference to the fact that, since the Policy was adopted, permission for more than one access from Pitt Lane had already been granted prior to that challenged decision.  The decision of Mr James Strachan QC, sitting as a deputy High Court judge, in <span style="font-style:italic">R. (Gill) v London Borough of Brent </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2021/67" uk:canonical="[2021] EWHC 67 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 67 (Admin)</ref>, at [48], shows that a local planning authority cannot rely upon (or, on grounds of consistency, be held to) a previously incorrect interpretation of policy when making a decision which reflects, or should reflect, its correct interpretation. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It follows, in my judgment, that <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) cannot be approached on the basis that it includes scope for argument which, in effect, would amount to a suggested waiver by the claimant in not complaining about an earlier decision permitting more than one access. Accordingly, the defence under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="1981 c. 54 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref>(2A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">SCA 1981</ref> fails.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For all those reasons the decision to grant the Planning Permission was unlawful and it should be quashed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I invite the parties to address the consequential matters arising out this judgment.  If they are able to agree a form order reflecting my decision and disposing of all matters on the claim (a draft of this judgment having been provided in advance) then that should be filed by 1pm on the day before its handing down. If there are consequential matters outstanding between them then a draft order should be filed, within that same deadline, identifying those matters and the proposed method of their determination by me (including whether they should be determined by reference to written representations or at a further hearing).  The latter form of order should, if required, reflect the fact that the handing down of this judgment is adjourned for the purpose of preserving the time for filing any appellant&#8217;s notice and that I will specify the time for filing one, in accordance with CPR 52.12, upon that further determination.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Annex 1: Location Plan</span></p>
+	    <p><img src="image3.png" style="width:415.45pt;height:477.3pt"/></p>
+	    <p class="ParaLevel1" style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Annex 2: Estuary Road Access (from Wooda Road)</span></p>
+	    <p class="ParaLevel1" style="text-align:center"><img src="image4.png" style="width:415.45pt;height:272.95pt"/></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

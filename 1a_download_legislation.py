@@ -59,7 +59,7 @@ AMENDMENTS_DIR  = os.path.join(OUTPUT_DIR, "amendments")
 NOTES_DIR       = os.path.join(OUTPUT_DIR, "explanatory_notes")
 MANIFEST_FILE   = os.path.join(OUTPUT_DIR, "download_manifest.json")
 
-for d in [LEGISLATION_DIR, CASELAW_DIR, SI_DIR, AMENDMENTS_DIR, NOTES_DIR]:
+for d in [LEGISLATION_DIR, CASELAW_DIR, SI_DIR, AMENDMENTS_DIR]:
     os.makedirs(d, exist_ok=True)
 
 # ─────────────────────────────────────────────
@@ -545,44 +545,7 @@ async def download_effects(client: AsyncClient, registry: URIRegistry):
     return ok
 
 
-async def download_notes(client: AsyncClient, registry: URIRegistry):
-    """
-    Download explanatory notes.
-    CORRECT URL from Explanatory Notes OpenAPI docs:
-      GET /{type}/{year}/{number}/{notesType}/data.xml
-    where notesType = "notes" for Acts, "memorandum" for SIs
-    """
-    log.info(f"── Downloading explanatory notes")
-    primary_types = {"ukpga", "asp", "anaw", "nia"}
-    ok = skip = fail = 0
 
-    async def _dl(item: dict):
-        nonlocal ok, skip, fail
-        leg_type, year, number = item["type"], item["year"], item["number"]
-
-        # notesType from docs: "notes" for Acts, "memorandum" for SIs
-        notes_type = "notes" if leg_type in primary_types else "memorandum"
-        filename   = f"{leg_type}_{year}_{number}_{notes_type}.xml"
-        filepath   = os.path.join(NOTES_DIR, filename)
-
-        if os.path.exists(filepath):
-            skip += 1
-            return
-
-        url  = f"{BASE_URL}/{leg_type}/{year}/{number}/{notes_type}/data.xml"
-        data = await client.get_bytes(url)
-
-        if data and len(data) > 500 and data.strip().startswith(b"<"):
-            await _save(data, filepath)
-            ok += 1
-        else:
-            fail += 1
-
-    # Only fetch notes for Acts (most SIs don't have them)
-    act_items = registry.acts()
-    await asyncio.gather(*[_dl(i) for i in act_items])
-    log.info(f"  Notes: OK={ok}  SKIP={skip}  FAIL={fail}")
-    return ok
 
 
 async def download_case_law(client: AsyncClient,
@@ -723,12 +686,13 @@ DISCOVERY COMPLETE
         # ── Downloads ──────────────────────────────────────
         stats["legislation"] = await download_legislation(client, registry)
         stats["effects"]     = await download_effects(client, registry)
-        stats["notes"]       = await download_notes(client, registry)
+        
 
-        if not args.no_caselaw:
-            stats["cases"] = await download_case_law(client)
-        else:
+
+        if getattr(args, 'no_caselaw', True):
             stats["cases"] = 0
+        else:
+            stats["cases"] = await download_case_law(client)
 
     elapsed = time.time() - t0
     save_manifest(registry, stats, elapsed)
@@ -739,7 +703,7 @@ ALL DONE  ({elapsed:.0f}s  ≈  {elapsed/60:.1f} min)
 {'='*55}
   Legislation downloaded : {stats.get('legislation', 0)}
   Effects feeds          : {stats.get('effects', 0)}
-  Explanatory notes      : {stats.get('notes', 0)}
+  Case law               : {stats.get('cases', 0)}
   Case law               : {stats.get('cases', 0)}
   Output dir             : {OUTPUT_DIR}/
   Manifest               : {MANIFEST_FILE}
@@ -764,8 +728,9 @@ def main():
 
     # ── Optional fine-tuning ───────────────────────────────
     SKIP_YEAR_ENUM = False   # True = skip year enumeration (Layer 2), saves ~1.5 min
-    SKIP_CASELAW   = False   # True = skip National Archives case law download
-    WORKERS        = 2       # Concurrent requests. Max safe = 10 (rate limit)
+    SKIP_CASELAW   = True    # Skipped for Phase 1
+    SKIP_CASELAW   = True    # Skipped for Phase 1
+    WORKERS        = 8       # Concurrent requests. Max safe = 10 (rate limit)
     # ──────────────────────────────────────────────────────
 
     # Build args from config (works in both Colab and terminal)
@@ -774,6 +739,7 @@ def main():
         discover_only  = (MODE == "discover")
         skip_year_enum = SKIP_YEAR_ENUM
         no_caselaw     = SKIP_CASELAW
+
         workers        = WORKERS
 
     args = Args()

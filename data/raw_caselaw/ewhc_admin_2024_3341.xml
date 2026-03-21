@@ -1,0 +1,568 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3341"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3341"/>
+	  <FRBRdate date="2024-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3341"/>
+	  <FRBRname value="Director of Public Prosecutions v Joann Jinks"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3341"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3341"/>
+	  <FRBRdate date="2024-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3341/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/3341/data.xml"/>
+	  <FRBRdate date="2024-12-20T12:19:53" name="transform"/>
+	  <FRBRdate date="2025-07-18T22:22:29" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" shortForm="The King's Bench Division" showAs="The King's Bench Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="director-of-public-prosecutions" href="" showAs="DIRECTOR OF PUBLIC PROSECUTIONS"/>
+	<TLCPerson eId="joann-jinks" href="" showAs="JOANN JINKS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-jeremy-baker" href="/judge-lord-justice-jeremy-baker" showAs="LORD JUSTICE JEREMY BAKER"/>
+	<TLCPerson eId="judge-mr-justice-jay" href="/judge-mr-justice-jay" showAs="MR JUSTICE JAY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>3341</uk:number>
+	<uk:cite>[2024] EWHC 3341 (Admin)</uk:cite>
+	<uk:parser>0.26.16</uk:parser>
+	<uk:hash>3b21cff8b9ede02021a568c87dd80e5b477edd709a308a8ff82eb50f72e40185</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <span style="font-weight:bold;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8">&#160;</span><neutralCitation style="font-weight:bold;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8">[2024] EWHC 3341 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-LON-001728</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">DIVISIONAL COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-12-20" refersTo="#judgment">20/12/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-jeremy-baker">LORD JUSTICE JEREMY BAKER</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-jay">MR JUSTICE JAY</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#director-of-public-prosecutions" style="font-weight:bold">DIRECTOR OF PUBLIC PROSECUTIONS</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#joann-jinks" style="font-weight:bold">JOANN JINKS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">James Boyd </span>(instructed by<span style="font-weight:bold"> CPS Appeals and Review Unit</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Philip Rule KC and Ian Bridge</span> (instructed by <span style="font-weight:bold">Jonas Roy Bloom</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 17 December 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 20 December 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE JAY</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">MR JUSTICE JAY:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1">INTRODUCTION</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is the judgment of the Court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Director of Public Prosecutions (&#8220;the Appellant&#8221;) appeals by way of case stated against the decision of Deputy Chief Magistrate Tanweer Ikram (&#8220;the Judge&#8221;) sitting at Westminster Magistrates&#8217; Court (&#8220;the Court&#8221;) on 23 August 2022 to dismiss the prosecution of Ms Joann Jinks (&#8220;the Respondent&#8221;) on the basis that the proceedings were brought out of time.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Respondent was charged with three counts of sending a grossly offensive message by a public electronic communications network, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127" uk:canonical="2003 c. 21 s. 127" uk:origin="TNA" uk:type="legislation">section 127</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">Communications Act 2003</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>&#8221;). The charges related to what were alleged to be racist images sent by her to her co-defendant and fellow serving police officer, Mr James Watts, in June 2020. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge dismissed the charge on the basis that the relevant date for the purpose of the time limit for bringing proceedings in <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> was more than six months before the institution of proceedings in the Court. In a nutshell, the issue for our determination is whether the judge was correct so to conclude. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1">THE FACTS</heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We take the relevant facts largely from the case stated prepared by the Judge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 18 May 2021 a case file was referred by the Independent Office of Police Conduct (&#8220;the IOPC&#8221;) to the CPS. On 14 June 2021 a Senior Crown Prosecutor (&#8220;the first prosecutor&#8221;) reviewed the file and concluded that there was insufficient evidence to bring proceedings. That decision was subsequently challenged by the IOPC in accordance with the pre-trial decision appeals process, and the matter was referred to the CPS for reconsideration. On 18 October 2021 another Senior Crown Prosecutor (&#8220;the second prosecutor&#8221;) considered the same material and concluded that there was sufficient evidence to institute proceedings and that it was in the public interest to do so: in other words, that the full code test was fulfilled. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">After the taking of further steps which are not relevant to these proceedings, on 3 March 2022 the matter was referred to the CPS Special Crime Team for charging authority to be provided under Crown Prosecution Service legal guidance regarding offences committed via social media. Charging authority was provided on 16 March 2022.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Authorisation to charge both the Respondent and her co-defendant was provided to the IOPC on 25 March 2022, and postal requisitions were sent on 31 March 2022.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Respondent and her co-defendant appeared before Birmingham Magistrates&#8217; Court on 13 May 2022. The Respondent pleaded not guilty to the charges at the hearing. Her co-defendant pleaded guilty to the ten charges relevant to him, and ultimately he received an immediate sentence of 20 weeks&#8217; imprisonment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Respondent&#8217;s case was adjourned for trial at Westminster Magistrates&#8217; Court on 23 and 24 August 2022. At the hearing, it was argued for the Respondent that, for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>, the relevant date was the date on which the decision was taken to authorise no further action against her. In response, the Appellant argued that the decision to authorise no further action did not trigger the 6-month time limit, as the prosecutor had decided that there was not sufficient evidence to justify proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> The Judge ruled that the relevant date was 14 June 2021, his reasoning being that it was:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; the date on which the evidence came to the knowledge of the &#8220;first&#8221; prosecutor, on the basis that this was the date on which the evidence first came to the notice of the prosecutor. While not determinative of my decision, the prosecution argument would allow continual reviews of the same bundle, though it is accepted that this could be grounds for abuse of process. On the basis that the &#8220;relevant date&#8221; was 14 June 2021, I ruled that the proceedings against the defendant Jinks had therefore been commenced outside the 6-month time limit.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in">THE JUDGE&#8217;S QUESTIONS FOR DETERMINATION BY THIS COURT</heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge posed the following two questions for our determination:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In context, a prosecutor later (18 October 2021) decided that the evidence that had, in fact, been available on 14 June 2021 was, in fact, sufficient to justify proceedings. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 127(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the Act</ref>, does a decision, taken with knowledge of all relevant evidence, that the evidence is not sufficient to justify proceedings trigger the &#8220;relevant date&#8221; provisions even if a contrary view is taken upon the same evidence on a later date? </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Was I correct to rule that in those circumstances, the relevant date was 14 June 2021?&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We mention in passing that the Respondent seeks to uphold the Judge&#8217;s decision on a further and alternative ground, and to that end has filed a Respondent&#8217;s Notice. However, we consider that the Respondent&#8217;s Notice is predicated on a misreading of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/43/section/111/1" uk:canonical="1980 c. 43 s. 111" uk:origin="TNA" uk:type="legislation">section 111(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/43" uk:canonical="1980 c. 43" uk:origin="TNA" uk:type="legislation">Magistrates&#8217; Courts Act 1980</ref> leading to an incorrect use of the case stated procedure: see the decisions of this Court in <span style="font-style:italic">R (oao Paul Bussetti) v DPP</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2020/3004" uk:canonical="[2020] EWHC 3004 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 3004 (Admin)</ref>, at paras 21-22 (per Carr LJ, as she then was), and in <span style="font-style:italic">Harvey v DPP</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2021/147" uk:canonical="[2021] EWHC 147 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 147 (Admin)</ref>; <ref href="#" uk:canonical="[2021] 1 WLR 2721" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 2721</ref>, at para 9 (per Lord Burnett CJ). The effect of the sub-section is that the terms of the case stated bind this Court to the extent that we can only answer the questions posed by the Judge; we cannot travel more widely into different issues or determine further facts. We therefore say no more about the Respondent&#8217;s Notice.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1">RELEVANT LEGISLATIVE PROVISIONS</heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 127</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> provides, in material part:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person is guilty of an offence if he &#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">sends by means of a public electronic communications network a message or other matter that is grossly offensive or of an indecent, obscene or menacing character; or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">causes any such message or matter to be so sent.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person guilty of an offence under this section shall be liable, on summary conviction, to imprisonment for a term not exceeding six months or to a fine not exceeding level 5 on the standard scale, or to both.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">An information or complaint relating to an offence under this section may be tried by a magistrates' court in England and Wales or Northern Ireland if it is laid or made &#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">before the end of the period of 3 years beginning with the day on which the offence was committed, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">before the end of the period of 6 months beginning with the day on which evidence comes to the knowledge of the prosecutor which the prosecutor considers sufficient to justify proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A certificate of a prosecutor as to the date on which evidence described in subsection (5)(b) &#8230; came to his or her knowledge is conclusive evidence of that fact.<span style="font-weight:bold">&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The second prosecutor issued a certificate under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> but the parties are agreed that nothing turns upon its terms. However, as a matter of first impression we observe that the sub-section would be otiose if time started to run from the date of the prosecutor&#8217;s decision to prosecute. That would always be known, or at least readily provable. Thus, the existence of the certification procedure indicates that the relevant date could be a different and earlier date known only to the prosecutor. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1">THE COMPETING CONTENTIONS</heading>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr James Boyd for the Appellant submitted that we should accord a literal interpretation to the statutory wording unless it yielded an absurd result. In June 2021 the first prosecutor was the &#8220;prosecutor&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref>. Although all the relevant evidence came to her knowledge on 14 June 2021, it was not evidence that in her opinion was sufficient to justify proceedings. It lacked an essential characteristic. When the second prosecutor considered the matter afresh four months later, he was a different &#8220;prosecutor&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref>. It followed that the statutory test for the running of time was not met. To construe the statutory wording differently would be tantamount to rewriting it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Philip Rule KC for the Respondent invoked the well-established canon of statutory interpretation that any ambiguity should be resolved against the Appellant in the context of a penal provision. The relevant date for starting the notional clock was not the date a prosecutor decides to prosecute: if it were, he or she could simply delay coming to a decision until a date of his or her choosing. The relevant date is when an authorised individual, on these facts the first prosecutor, received the evidence and considered it so that knowledge of its contents was imparted to the CPS as an organisation. It is irrelevant for these purposes what decision the first prosecutor made as to whether to prosecute; or, put another way, that the first prosecutor decided not to prosecute. Although the second prosecutor was a different authorised individual, it was not his knowledge which began the notional clock. Time was already running because the first prosecutor had acquired knowledge for the purposes of the sub-section. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Rule accepted that time does not begin running for these purposes if the prosecutor advises that further inquiries or investigations be undertaken that leads to further evidence. In the present case, however, it may clearly be inferred that no further inquiries were carried out because the material evidence did not change between June and October 2021. The IOPC did not appeal on the footing that further inquiries were necessary. The second prosecutor came to a different decision only because his evaluation of the evidence was different from the first prosecutor&#8217;s, and not because something new had emerged. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In a clear and persuasive oral argument, Mr Rule took us through the key authorities. We are grateful for his analysis. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1">DISCUSSION</heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 127(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> is not an isolated or unfamiliar provision. There are numerous examples in both primary and secondary legislation of similarly-worded provisions which are designed to constitute exceptions to the general rule that summary proceedings should be started within six months of the commission of the offence, and treat the prosecutor&#8217;s knowledge of X as triggering a different and later six-month time limit. For example, the formulation &#8220;evidence sufficient in the opinion of the prosecutor&#8221; appears in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/6" uk:canonical="1988 c. 53 s. 6" uk:origin="TNA" uk:type="legislation">section 6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>. The slightly different formulation, &#8220;evidence which the prosecutor thinks is sufficient to justify proceedings comes to his knowledge&#8221; appears in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/45/section/31" uk:canonical="2006 c. 45 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/45" uk:canonical="2006 c. 45" uk:origin="TNA" uk:type="legislation">Animal Welfare Act 2006</ref>, and the almost identical, &#8220;evidence which the prosecutor thinks is sufficient to justify the proceedings comes to the prosecutor&#8217;s knowledge&#8221; in regulation 41 of the Welfare of Animals at the Time of Killing (England) Regulations 2015 [SI No 2015 of 1782]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although there are minor differences in wording across the statutory landscape, we consider that these are immaterial and that a consistent approach should be adopted. It follows that the case law cited to us which addressed these various provisions, as well as others, is germane to our consideration. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The authorities address the following connected questions: the identity of the &#8220;prosecutor&#8221; for these purposes; the circumstances in which a conclusive certificate may be challenged; and how to avoid the unattractive consequences of a prosecuting authority &#8220;shuffling the papers&#8221; in order to extend time. The instant case is not concerned with the integrity of a prosecutorial certificate or the difficulties which arise in a case of arguably deliberate delaying tactics. Both the first and second prosecutors made their decisions on the day the evidence came to their respective knowledge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We were referred to no authority which provides a conclusive answer to the questions posed by the Judge. The situation which has arisen is, we consider, relatively unusual. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is some authority supporting the proposition that the taking of the decision to prosecute is the relevant trigger in the context of extended time limit provisions of this sort. In <span style="font-style:italic">Leatherbarrow v Warwickshire County Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2014/4820" uk:canonical="[2014] EWHC 4820 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 4820 (Admin)</ref>; [2015] 179 J.P. 307, the focus of Bean LJ&#8217;s reasoning was directed to the decision to prosecute applying the test in the full code. In <span style="font-style:italic">R v Woodward</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2017/1008" uk:canonical="[2017] EWHC 1008 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 1008 (Admin)</ref>; [2017] 181 J.P. 405 Hickinbottom LJ held (at para 23(iii)) that the relevant date:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;is the date upon which the prosecutor considers that, upon the available evidence, it is in the public interest to prosecute the particular individual or individuals&#8221;. </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.49in">If these dicta were correct, it would follow that time did not start running until 18 October 2021. However, Mr Boyd did not seek to support these decisions. He accepted, correctly in our view, that a more authoritative analysis is to be found elsewhere.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Rule accepted that knowledge for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> cannot be acquired simply when the material evidence &#8211; by which we mean, evidence sufficient to fulfil the full code test &#8211; comes to the knowledge of the CPS as a whole. In this regard, knowledge must be acquired by the individual responsible for exercising a judgment whether that evidence was sufficient to justify a prosecution. There is a mass of authority supporting Mr Rule&#8217;s concession. These include <span style="font-style:italic">Leatherbarrow </span>(per Bean LJ at para 19); <span style="font-style:italic">R (Chesterfield Poultry Ltd) v Sheffield Magistrates&#8217; Court</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/2953" uk:canonical="[2019] EWHC 2953 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 2953 (Admin)</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 499" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 499</ref> (per Males LJ at paras 42 and 59); and <span style="font-style:italic">Winder v DPP</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2020/1611" uk:canonical="[2020] EWHC 1611 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1611 (Admin)</ref> (per Dove J at para 23). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At first blush, there is some force in Mr Boyd&#8217;s submission that, if &#8220;prosecutor&#8221; in the sub-section means &#8220;the individual&#8221;, what matters here is when the second prosecutor acquired knowledge of the evidence sufficient to justify a prosecution. One literal reading of the statutory wording supports that analysis, but in our view it is not the only possible reading.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, we have reached the conclusion that this reading is both inconsistent with authority and unsound on policy grounds. Our reasons are as follows. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Morgans v DPP</span> <ref href="#" uk:canonical="[1999] 1 WLR 968" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 WLR 968</ref>, this Court (Kennedy LJ and Sullivan J) was considering the terms of a broadly similar limitation provision in <ref href="http://www.legislation.gov.uk/id/ukpga/1990/18/section/11/2" uk:canonical="1990 c. 18 s. 11" uk:origin="TNA" uk:type="legislation">section 11(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/18" uk:canonical="1990 c. 18" uk:origin="TNA" uk:type="legislation">Computer Misuse Act 1990</ref>. In that case, transposing the nomenclature we are deploying in the present case, the first prosecutor was a police officer and the second prosecutor was the CPS. By the end of January 1996, the police officer had all the material evidence on which the prosecution was brought. He therefore submitted the file to the CPS for charging advice. The police officer then fell ill and a different police officer charged the defendant in August 1996. On 20 August the CPS prosecutor formed the opinion that he had sufficient evidence to warrant proceedings, and in due course he signed a certificate to that effect. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Kennedy LJ gave the lead judgment. He held that the knowledge of the first prosecutor &#8220;can be added to that of the charging officer&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1990/18/section/11/2" uk:canonical="1990 c. 18 s. 11" uk:origin="TNA" uk:type="legislation">section 11(2)</ref> [at 983B]. Kennedy LJ further held that, given that the first prosecutor had all the material on which the prosecution was eventually brought, time began to run. His reasons were as follows [at 983D-F]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;[Counsel] contends that the words &#8220;sufficient in the opinion of the prosecutor to warrant the proceedings&#8221; are merely descriptive of the evidence, and that the prosecutor would not have to form his opinion for time to run. I accept that submission because otherwise the prosecutor, in full possession of all relevant information, can prevent time running simply by not applying his mind to the case.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><ref href="http://www.legislation.gov.uk/id/ukpga/1990/18/section/11/2" uk:canonical="1990 c. 18 s. 11" uk:origin="TNA" uk:type="legislation">Section 11(2)</ref> is an exception to the normal rule that summary offences should be prosecuted within six months. As an exception in favour of the prosecution, it should be strictly construed. The draftsman could have provided that proceedings for an offence under subsection (1) &#8220;may be brought within a period of six months from the date on which the prosecution forms the opinion that there is sufficient evidence to warrant proceedings&#8221; but he did not do so.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By &#8220;merely descriptive of the evidence&#8221;, Kennedy LJ meant that the evidence was sufficient to fulfil the full code test even if that judgment had not yet been made. Kennedy LJ was no doubt intending to distinguish this from situations where further inquiries were deemed necessary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In our judgment, <span style="font-style:italic">Morgans</span> provides strong support for Mr Rule&#8217;s argument. It is not conclusively in his favour, because we must now address the question whether it is consistent with subsequent authority. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The leading authority on provisions such as these is now the <span style="font-style:italic">Chesterfield Poultry</span> case where Males LJ (sitting with Jefford J) undertook a careful and comprehensive review of relevant case law. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">One of the issues in the <span style="font-style:italic">Chesterfield Poultry</span> case was the validity of the prosecutor&#8217;s certificate, being an issue which does not arise in the instant case. At para 35 of his judgment, Males LJ cited the core reasoning in <span style="font-style:italic">Morgans</span>, and then said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;36.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Thus the relevant date is the date on which the prosecutor has evidence which is sufficient in his opinion to warrant the proceedings, even if he or she has not yet formed that opinion</span>. However, <span style="font-style:italic">Morgans</span> says nothing about what matters need to be taken into account as being relevant to the question whether there is sufficient evidence to warrant the proceedings. In particular, there is nothing to suggest that the question whether a prosecution is in the interests of justice does not need to be considered.&#8221; [emphasis supplied]</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We read the highlighted sentence as affirming Kennedy LJ&#8217;s approach in <span style="font-style:italic">Morgans</span>. The qualification appearing in the second sentence of para 36 relates to the validity of a conclusive certificate and not to what Males LJ was characterising as the &#8220;relevant date issue&#8221;: see para 37. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Para 60 of Males LJ&#8217;s judgment contains the germane legal test:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Second, the decision whether the evidence was sufficient to justify proceedings which Ms Sanghera had to make required an exercise of judgment on her part, both as to whether the evidence amounted to a prima facie case and whether proceedings were in the public interest. <span style="font-weight:bold">However, the statutory question was when evidence which in her</span><span/><span style="font-weight:bold">opinion satisfied those criteria came to her knowledge, and not (if different) when she formed the opinion that proceedings were justified</span>. The date on which the relevant evidence came to her knowledge is not, however, to be equated with the date on which the relevant evidence was placed on her desk or delivered to her inbox. <span style="font-weight:bold">Rather it is the date on or by which it has been considered so that knowledge of the content has been imparted.</span> In most cases, no doubt, and there is no reason to suppose that this case is different, the imparting of knowledge and the forming of opinion will happen together. The responsible individual will review the file and make a decision about prosecution. Hypothetically, however, if he or she were to review the file so as to have knowledge of all the relevant evidence, but only make a decision about prosecution at a later date, it seems to me that the date on which the file was reviewed would be the date when the evidence came to the prosecutor&#8217;s knowledge. To that limited extent, therefore, I respectfully disagree with Hickinbottom LJ&#8217;s statement in R v Woodward at para 23(iii) that the relevant date is the date on which the prosecutor decided that it in the public interest to prosecute.&#8221; (emphasis supplied)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">DPP v Cook</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2022/2963" uk:canonical="[2022] EWHC 2963 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 2963 (Admin)</ref>; <ref href="#" uk:canonical="[2023] 4 WLR 77" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 4 WLR 77</ref>, this Court (Stuart Smith LJ and Fordham J) followed para 60 of the <span style="font-style:italic">Chesterfield Poultry</span> case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Drawing these strands together, in our judgment <span style="font-style:italic">Morgans</span>, <span style="font-style:italic">Chesterfield Poultry</span> and <span style="font-style:italic">Cook</span> all support the related propositions that (1) the relevant date for the purposes of an extended limitation provision such as <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> is the date on which the material evidence (i.e. evidence which fulfils the full code test) is first considered by an authorised person so that knowledge of its content is imparted, and not the date when he formed the opinion that proceedings were justified, and (2) as soon as an authorised person acquires the level of knowledge referred to in (1), time starts running regardless of the opinion that person actually forms. Put another way, the fact that the first prosecutor on the facts of the present case acted in a timely manner and formed the opinion that the evidence was not sufficient to justify proceedings is irrelevant to the prosecutor&#8217;s date of knowledge. Unless and until a prosecutor decides to begin proceedings, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> can have no possible application; but as and when he did &#8211; here, on 18 October 2021 &#8211; the relevant date was the date on which a prosecutor, here the first prosecutor, acquired knowledge of the content of the material evidence. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Boyd&#8217;s submission to the effect that the focus must be on the knowledge of the particular individual who goes on to decide that the material evidence <span style="font-style:italic">is</span> sufficient to warrant proceedings has little appeal. His submission is inconsistent with <span style="font-style:italic">Morgans</span>, and &#8211; as Mr Rule pointed out &#8211; with basic principles of public law. The prosecution is brought by the CPS and not in the name of the individual prosecutor. Although knowledge of <span style="font-style:italic">an</span> individual prosecutor authorised to make the decision to prosecute is the statutory focus, her knowledge is imputed to the organisation on <span style="font-style:italic">Carltona</span> principles. There are also sound policy reasons for adopting this approach, not least because there is a public interest in summary-only proceedings, even those with an extended time limit, being brought and determined expeditiously, and the abuse of process jurisdiction may not always be adequate to address the vices of paper-shuffling and intra-departmental delays. As was pointed out in oral argument, if there were only one prosecutor and he or she either procrastinates or there is a change of mind, time would be running even on Mr Boyd&#8217;s approach. There is no good reason, in our opinion, to distinguish this type of situation from those where there are more than one prosecutor. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the avoidance of doubt, we should make it clear that in cases where different evidence is placed before a second prosecutor because further inquiries have been undertaken, time would not run from the date of the first prosecutor&#8217;s acquisition of knowledge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Once knowledge is acquired at the time of first consideration, it is incumbent on the CPS or the relevant prosecutorial body to proceed with reasonable expedition. That need for expedition must accommodate the possibility that a decision not to prosecute may find itself subject to review. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For all these reasons, we conclude that the Judge&#8217;s decision was correct in law, and that the relevant date for the purposes of the present case was 14 June 2021 and not 18 October 2021. It follows that these proceedings were not brought in time.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1">DISPOSAL</heading>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Turning to the two questions posed by the Judge, we answer these as follows. In our opinion, the Judge was correct to hold that the relevant date was 14 June 2021. Reformulating the Judge&#8217;s question slightly, the relevant date for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21/section/127/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 127(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/21" uk:canonical="2003 c. 21" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> is the date on which a prosecutor first applied her mind to the material evidence in the case, being evidence which fulfilled both limbs of the full code test. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This appeal must be dismissed. </p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

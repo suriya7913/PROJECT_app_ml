@@ -1,0 +1,981 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2026/301"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2026/301"/>
+	  <FRBRdate date="2026-02-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="301"/>
+	  <FRBRname value="Richard Lukins &amp; Anor v Quality Part X Limited &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/301"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/301"/>
+	  <FRBRdate date="2026-02-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/301/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/301/data.xml"/>
+	  <FRBRdate date="2026-02-18T10:43:28" name="transform"/>
+	  <FRBRdate date="2026-02-18T11:45:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/kings-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="richard-lukins" href="" showAs="RICHARD LUKINS"/>
+	<TLCPerson eId="alison-griffiths" href="" showAs="ALISON GRIFFITHS"/>
+	<TLCPerson eId="quality-part-x-limited" href="" showAs="QUALITY PART X LIMITED"/>
+	<TLCPerson eId="ravensale-limited" href="" showAs="RAVENSALE LIMITED"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-deputy-master-lorna-skinner-kc" href="/judge-deputy-master-lorna-skinner-kc" showAs="DEPUTY MASTER LORNA SKINNER KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>301</uk:number>
+	<uk:cite>[2026] EWHC 301 (KB)</uk:cite>
+	<uk:caseNumber>KB-2024-001066</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>d274f8bf083521d21b159b4f00ca44a8aee5f6ef64823faa22d5098f65e0c427</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { text-align: center; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .p1 { font-family: Helvetica; font-size: 9pt; color: #000000; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .BodyTextIndent { margin-left: 0.25in; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .NoSpacing { font-family: Aptos; font-size: 11pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .apple-converted-space { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .legds { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading5Char { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #800080; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .s1 { font-family: Arial; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">DEPUTY MASTER SKINNER KC</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Lukins v Quality Part X Ltd and another</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2026] EWHC 301 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>KB-2024-001066</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-02-18" refersTo="#judgment">18 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-deputy-master-lorna-skinner-kc">DEPUTY MASTER LORNA SKINNER KC</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.28in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#richard-lukins" style="font-weight:bold">(1) RICHARD LUKINS</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(in his personal capacity and t/a FIORANO CARS, FINE WINES UK and ITAL PARTS)</span></p>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#alison-griffiths" style="font-weight:bold">(2) ALISON GRIFFITHS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="ListParagraph" style="text-align:center;margin-left:-1.21in"><party as="#defendant" refersTo="#quality-part-x-limited" style="font-weight:bold">                             (1) QUALITY PART X LIMITED</party></p>
+	    <p class="ListParagraph" style="text-align:center;margin-left:-1.21in"><party as="#defendant" refersTo="#ravensale-limited" style="font-weight:bold">                           (2) RAVENSALE LIMITED</party></p>
+	    <p style="text-align:center;margin-left:-1.21in"><span style="font-weight:bold"/></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Chris Gair </span>(instructed by<span style="font-weight:bold"> Mansfield Solicitors &amp; Advocates Ltd</span>) for the <span style="font-weight:bold">Claimants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Michele De Gregorio (</span>instructed by <span style="font-weight:bold">Clyde &amp; Co LLP</span>) for the<span style="font-weight:bold"> First Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Benjamin Pilling KC</span> (instructed by <span style="font-weight:bold">DAC Beachcroft LLP</span>) for the <span style="font-weight:bold">Second Defendant </span></p>
+      <p style="text-align:center">Hearing date: 26 September 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">APPROVED JUDGMENT</p>
+      <p class="CoverDesc"><span style="font-weight:normal;font-size:12pt">This judgment was handed down remotely at 10.30am on 18</span><span style="font-weight:normal;vertical-align:super;font-size:12pt">th</span><span style="font-weight:normal;font-size:12pt"> February 2026 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-size:12pt">Deputy Master Skinner KC</span>: </p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-size:12pt">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">By these proceedings, issued on 9 April 2024, the Claimants bring claims for negligence and/or nuisance in respect of damage caused to their possessions by a fire which broke out on or about 6 April 2018 on the ground floor of premises at Building B, Wembley Commercial Centre, Wembley, HA9 7UR. The fire spread and destroyed the contents of Unit 2E, which comprised business and personal possessions of the First Claimant, who was the tenant or licensee of Unit 2E, and the personal possessions of the Second Claimant. The First Defendant was at the material time the occupier of Unit GD, the alleged seat of the fire. The Second Defendant was the landlord of Units GD and 2E.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This judgment is concerned with the proper construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/2" uk:canonical="1980 c. 58 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> in circumstances where the Claimants&#8217; legal representatives have (within time) attempted to issue proceedings via provision of claim forms to the court by post, but where the practice direction in force at the time required claims to be issued electronically.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Relevant procedural background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The relevant procedural background may be stated relatively shortly. By special delivery letter dated 25 March 2024, sent to &#8220;<span style="font-style:italic">King&#8217;s Bench Division, The Royal Courts of Justice, Strand, London WC2A 2LL</span>&#8221; the Claimants&#8217; solicitors wrote to the court enclosing five copies of the claim form (one for each party and one for the court), and asked that the court deduct the court fee from their PBA account number, which was given. The letter was received and signed for on 26 March 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">By letter dated 28 March 2024, an individual working in the Issues and Enquiries Section of the King&#8217;s Bench Division returned the claim forms to the Claimants&#8217; solicitors by post, stating that the reason for the return was that, since 1 July 2019, it had been mandatory for legally represented parties to use the E-Filing service, meaning that documents filed by post, DX, fax or email will not be accepted. In this regard, solicitors were referred to Practice Direction 51O of the Civil Procedure Rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">For reasons unknown, the letter from the court was not received by the Claimants&#8217; solicitors until 9 April 2024. On that day, proceedings were issued using the court&#8217;s electronic filing service, CE-File.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold">The Defendants&#8217; Applications</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">By application notices dated 19 November 2024 (Second Defendant), and 30 January 2025 (First Defendant), the Defendants seek summary judgment on the claims pursuant to CPR 24.3(a) on the basis that they are time-barred by virtue of the operation of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/2" uk:canonical="1980 c. 58 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Claimants resist the applications, contending that, for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref>, the claims were brought on the date that the claim form was received by the court, namely 26 March 2024. Accordingly, the Claimants&#8217; claims are not time-barred. Alternatively, the Claimants contend that the court should exercise power to remedy any error of procedure pursuant to CPR 3.10. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This judgment follows the hearing of those applications on 26 September 2025. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Applicable rules and principles</span></p>
+	    <p style="text-align:justify">Summary Judgment</p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Pursuant to CPR 24.3 the court may give summary judgment against a claimant on the whole of a claim if: (a) it considers that the party has no real prospect of succeeding on the claim; and (b) there is no other compelling reason why the case should be disposed of at a trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"> The approach that the court should take on an application was set out by Lewison J in in <span style="font-style:italic">Easyair Ltd v Opal Telecom Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2009/339" uk:canonical="[2009] EWHC 339 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 339 (Ch)</ref> at [15] (approved by the Court of Appeal in <span style="font-style:italic">AC Ward &amp; Son Ltd v Catlin (Five) Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/1098" uk:canonical="[2009] EWCA Civ 1098" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 1098</ref>; [2010] Lloyd&#8217;s Rep IR 301). The seven key principles (omitting internal citations) are these:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(i)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">The court must consider whether the claimant has a &#8216;realistic&#8217; as opposed to a &#8216;fanciful&#8217; prospect of success; (ii) A &#8216;realistic&#8217; claim is one that carries some degree of conviction. This means a claim that is more than merely arguable &#8230;  (iii) In reaching its conclusion the court must not conduct a &#8216;mini-trial&#8217; &#8230; (iv) This does not mean that the court must take at face value and without analysis everything that a claimant says in his statements before the court. In some cases it may be clear that there is no real substance in factual assertions made, particularly if contradicted by contemporaneous documents &#8230; (v) However, in reaching its conclusion the court must take into account not only the evidence actually placed before it on the application for summary judgment, but also the evidence that can reasonably be expected to be available at trial &#8230; (vi) Although a case may turn out at trial not to be really complicated, it does not follow that it should be decided without the fuller investigation into the facts at trial than is possible or permissible on summary judgment. Thus the court should hesitate about making a final decision without a trial, even where there is no obvious conflict of fact at the time of the application, where reasonable grounds exist for believing that a fuller investigation into the facts of the case would add to or alter the evidence available to a trial judge and so a&#64256;ect the outcome of the case &#8230; (vii) On the other hand, it is not uncommon for an application under Part 24 to give rise to a short point of law or construction and, if the court is satisfied that it has before it all the evidence necessary for the proper determination of the question and that the parties have had an adequate opportunity to address it in argument, it should grasp the nettle and decide it. The reason is quite simple: if the respondent&#8217;s case is bad in law, he will in truth have no real prospect of &#8230; successfully defending the claim against him &#8230; Similarly, if the applicant&#8217;s case is bad in law, the sooner that is determined, the better. If it is possible to show by evidence that although material in the form of documents or oral evidence that would put the documents in another light is not currently before the court, such material is likely to exist and can be expected to be available at trial, it would be wrong to give summary judgment because there would be a real, as opposed to a fanciful, prospect of success. However, it is not enough simply to argue that the case should be allowed to go to trial because something may turn up which would have a bearing on the question of construction: &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This case is a classic example of a &#8220;short point of law or construction&#8221;. There is no dispute as to the relevant facts, nor that it should be determined at this stage.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify">Limitation: When are proceedings &#8220;brought&#8221;</p>
+	    <p style="text-align:justify"><span style="font-style:italic">Statute</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/2" uk:canonical="1980 c. 58 s. 2" uk:origin="TNA" uk:type="legislation">Section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref> provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in"><span style="color:#1E1E1E">&#8220;An action founded on tort shall not be brought after the expiration of six years from the date on which the cause of action accrued.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="color:#1E1E1E">It is not disputed that the limitation period expired on 6 April 2024. The LA does not provide for a discretion to disapply the six-year limitation period. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="font-style:italic">Civil Procedure Rules</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">CPR 7.2(a) provides that proceedings are started when the court issues a claim form at the request of the claimant. CPR 7.2(b) provides that a claim form is issued on the date entered on the form by the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">CPR PD7A 6.1 provides for a modification of CPR 7.2 in certain circumstances, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;Proceedings are started when the court issues a claim form at the request of the claimant (see rule 7.2) but where the claim form as issued was received in the court office on a date earlier than the date on which it was issued by the court, the claim is &#8220;brought&#8221; for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> and any other relevant statute on that earlier date.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The CPR and its associated Practice Directions are subject to the substantive law. As Lewison J observed in <span style="font-style:italic">Page v Hewetts Solicitors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/805" uk:canonical="[2012] EWCA Civ 805" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 805</ref> (CA), at [29]: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;When an action is &#8220;brought&#8221; for the purpose of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> is, in my judgment, a question of construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">the Act</ref>. It is not a question of construction of the CPR, let alone a question of construction of a Practice Direction. The CPR (and perhaps the Practice Direction) may inform the construction, but the question remains: what does <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">the Act</ref> mean?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">CPR 7.12 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.08in">A practice direction may permit or require a claimant to start a claim by requesting the issue of a claim form electronically.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">The practice direction may, in particular &#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.5in">specify &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(i)</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:0.61in">the types of claim which may be issued electronically; and</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(ii)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.86in">the conditions which a claim must meet before it may be issued electronically;</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.5in">specify &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(i)</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:0.61in">the court where the claim will be issued; and</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(ii)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.97in">the circumstances in which the claim will be transferred to another court;</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.46in">provide for the filing of other documents electronically where a claim has been started electronically;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.46in">specify the requirements that must be fulfilled for any document filed electronically; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.46in">provide how a fee payable on the filing of any document is to be paid where that document is filed electronically.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.08in">The practice direction may disapply or modify these Rules as appropriate in relation to claims started electronically.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Further, CPR 51.2 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.39in;text-indent:0.39in">&#8220;Practice directions may modify or disapply any provision of these Rules&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1.04in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in">for specified periods; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.04in;text-indent:-0.25in">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in">in relation to proceedings in specified courts,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">during the operation of pilot schemes for assessing the use of new practices and procedures in connection with proceedings.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Pursuant to CPR 7.12, CPR PD51O provided for an electronic working pilot scheme to operate in the Central Office of the King&#8217;s Bench Division in proceedings started after 1 January 2019. (With effect from 1 October 2025, CPR PD 51O was replaced by CPR PD 5C, which makes CE-File permanent.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The material provisions of CPR PD51O were as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.47in;text-indent:-0.68in">&#8220;1.2(1)<marker name="tab"/>Electronic Working works within and is subject to all statutory provisions and rules together with all procedural rules and practice directions applicable to the proceedings concerned, subject to any exclusion or revision within this Practice Direction.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.47in;text-indent:-0.68in">2.2B(b)<marker name="tab"/>In the Central Office of the King&#8217;s Bench Division, from 1 July 2019, for a party who is legally represented, Electronic Working must be used by that party to start and /or continue any relevant claims or applications.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>2.3</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">To file a document using Electronic Working, a party shall-</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.86in">access the Electronic Working website address specified in His Majesty&#8217;s Courts and Tribunals Service (&#8220;the Website&#8221;);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.86in">register for an account or log on to an existing account;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.87in">enter details of a new case or use the details of an existing case;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.86in">upload the appropriate document; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.86in">pay the appropriate fee.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p style="text-align:justify;margin-left:1.47in;text-indent:-0.68in">5.3(2)<marker name="tab"/>The court may make an order to remedy an error of procedure made while using Electronic Working, in accordance with CPR 3.10(b). When the court makes such an order, a document filing will not fail acceptance because of the error of procedure made.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Case Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The principal authorities addressing the issue of when a claim is &#8220;brought&#8221; are <span style="font-style:italic">Barnes v St Helens MBC (Practice Note)</span> <ref href="#" uk:canonical="[2007] 1 WLR 879" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 879</ref> (CA), <span style="font-style:italic">Page v Hewetts Solicitors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/805" uk:canonical="[2012] EWCA Civ 805" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 805</ref> (CA), <span style="font-style:italic">Butters v Hayes</span> <ref href="#" uk:canonical="[2021] 1 WLR 2886" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 2886</ref> (CA), <span style="font-style:italic">Chelfat v Hutchison</span> 3G UK Ltd <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/455" uk:canonical="[2022] EWCA Civ 455" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 455</ref>, <ref href="#" uk:canonical="[2022] 1 WLR 3613" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 3613</ref> (CA) and <span style="font-style:italic">Guo v Kinder</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/762" uk:canonical="[2024] EWCA Civ 762" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 762</ref> (CA).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Barnes </span>(a case which pre-dated electronic working), the claimant&#8217;s solicitor had delivered copies of claim form in a personal injury action to the court on a Thursday, the day before the last day of the limitation period. However, due to industrial action by court staff on the Friday, the claim form was not issued until the following Monday, after expiry of the limitation period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">On the question of when the claim was &#8220;brought&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/11" uk:canonical="1980 c. 58 s. 11" uk:origin="TNA" uk:type="legislation">section 11</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref> Tuckey LJ (giving the only substantive judgment), stated, at [14]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;Provided the claimant takes any necessary step required to enable the proceedings to be started he does not take the risk that, for example, the court may be closed or will not process his claim properly. It seems to me that paragraph 5.1 of the Practice Direction [now PD 7A 6.1] reflects this understanding.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Tuckey LJ went on to say, at [20]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in">&#8220;What I have said however is confined to the situation contemplated by the Practice Direction, that is to say receipt by the court office of the claim form. This necessarily involves actual delivery by whatever means permitted by the Rules to the correct court office during the hours in which that office is open... Different considerations might apply if delivery was made to the wrong place or outside office hours. They will have to be considered if they arise.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Accordingly, the claim had been brought within time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In<span style="font-style:italic"> Page</span>, (which also pre-dated electronic working), the claim form was issued after the expiry of limitation, but in response to a strikeout application the claimant alleged that the claim form had been sent to the court by DX prior to the expiry of limitation, and had been mislaid by the court. Approaching the strike out application on the basis that there was a real prospect that the claimant would prove that the claim form had been delivered to the court as alleged, the court determined that the claim should not be struck out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In so doing, Lewison LJ giving the judgement of the court, analysed the policy underpinning the decision in <span style="font-style:italic">Barnes, </span>confirming (at [33]) that it<span style="font-style:italic"/>is based on risk allocation. At [36], he identified the underlying theme as being &#8220;<span style="font-style:italic">that a would-be litigant is not responsible for any shortcomings of the court</span>&#8221;. At [37], with reference to the line of cases in which it has been stated proceedings are begun when the originating process is issued by the court, Lewison LJ stated that whilst that was of course right in normal circumstances, &#8220;<span style="font-style:italic">those cases do not touch upon the circumstances that the court is itself responsible for the delay in issuing or loss of the originating process</span>&#8221;. He concluded (at [38]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;If, therefore, the claimants establish that the claim form was delivered in due time to the court office, accompanied by a request to issue and the appropriate fee, the action would not, in my judgment, be statute-barred.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Butters v Hayes</span> <ref href="#" uk:canonical="[2021] 1 WLR 2886" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 2886</ref> (CA) the claimant had brought harassment proceedings against the defendants within time. Less than six years later, the claimant filed an amended particulars of claim alleging further acts of harassment, having obtained permission to do so from the court. At trial, the defendants sought to strike out the amended particulars of claim, contending that the claimant had failed to pay the appropriate fee when filing the amendments, and in consequence could not be said to have &#8220;made&#8221; new claims within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/35/1" uk:canonical="1980 c. 58 s. 35" uk:origin="TNA" uk:type="legislation">section 35(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Giving the judgment of the court, Peter Jackson LJ, considered the case law on when an action is &#8220;brought&#8221; for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref>. <span style="font-style:italic">Barnes</span> and <span style="font-style:italic">Page</span> were summarised at [14], as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;<span style="font-style:italic">Barnes</span> and <span style="font-style:italic">Page</span> were concerned with when an action was &#8220;brought&#8221; under Part I of <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">the Act</ref>. &#8230; They establish that for limitation purposes, time will cease to run upon the delivery of the claim form to the court office. That interpretation was justified by the obvious unfairness of a claim becoming time-barred because of a delay in issuing on the part of the court where the litigant had done &#8220;all in [his/her] power to set the wheels of justice in motion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The claimant in <span style="font-style:italic">Chelfat</span> was acting in person and was therefore not required to commence proceedings using electronic working. She filed a claim form in the county court giving an address for service for service on the defendant. The court wrote to the claimant refusing to issue the claim form because she had not filed Form N150 identifying the grounds on which she was entitled to serve the claim form outside the jurisdiction, as required by CPR 6.34. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">The claimant did not receive the court&#8217;s letter, and only became aware of the matter eight months later. At that point a new claim form was filed giving an address in England for the defendant, and that claim form was issued. The defendant applied to strike out the claim on the basis that it was now time-barred. The question for the court was therefore whether the claimant had a real prospect of establishing that she had brought an action within the limitation period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">The Court of Appeal held that the only sanction for failing to file Form N510 with the claim form was that set out in CPR r.6.34(2), namely that the claim form could not be served unless the Form N510 was filed or the court gave permission. Accordingly, it was not open to the court to decline to issue the claim form, and the court should in fact have done so. On this basis the court held that it was arguable that the claim was brought when the original claim form was filed and accordingly the claim should not be struck out. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">After considering the authorities (including <span style="font-style:italic">Barnes,</span><span/><span style="font-style:italic">Page </span>and <span style="font-style:italic">Butters</span>) Coulson LJ (giving the judgment of the court) observed at [28] that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Default" style="text-align:justify;margin-left:0.79in">&#8220;The cases in which the date the claim form was actually issued was subordinated in favour of an earlier date, such as <span style="font-style:italic">Barnes</span> and <span style="font-style:italic">Page</span><span/><span style="font-style:italic">v</span><span/><span style="font-style:italic">Hewetts</span>, are based on the common law approach that, in the words of Eveleigh LJ in <span style="font-style:italic">Aly v Aly</span> The Times, 27 December 1983:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Default" style="text-align:justify;margin-left:1.18in">&#8220;it does not make sense to penalise a party who has done all that is in his power to do on the basis that a further act is required by the court which has not been done in time to allow the party to qualify for the relief for which is he asking&#8221;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Default" style="text-align:justify;margin-left:0.79in">This test has been applied in a number of first instance cases, such as <span style="font-style:italic">Lewis v Ward Hadaway</span> <ref href="#" uk:canonical="[2016] 4 WLR 6" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 4 WLR 6</ref>; <span style="font-style:italic">Bhattir v Asghar</span> <ref href="#" uk:canonical="[2016] Costs LR 493" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] Costs LR 493</ref>; and <span style="font-style:italic">Liddle v Atha &amp; Co Solicitors</span> <ref href="#" uk:canonical="[2018] 1 WLR 4953" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 1 WLR 4953</ref>.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The claimant in <span style="font-style:italic">Guo</span> was also a litigant in person. She made various attempts to file a claim form within the limitation period, including by sending a copy of the claim form to the court by email and paying the issue fee. At the relevant time, litigants in person were permitted to issue proceedings by one of four methods: (1) using the electronic filing system; (2) by post accompanied by cheque or appropriate fee remission certificate; (3) by email but only if accompanied by a fee remission certificate; or (4) by making an appointment to attend the counter to pay the relevant fee or complete the fee remission form and deposit the documents in the box. The claimant had not adopted any of these four methods (the email option only being available in a fee remission case).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In giving the judgment of the Court of Appeal Asplin LJ stated at [44] that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.64in">&#8220;As Tuckey LJ made clear in the Barnes case at [20], reliance on the Practice Direction [PD 7A 6.1] is dependent upon actual delivery of the claim form to the correct court office by whatever means permitted by the Rules&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having considered the steps permitted by the Rules, the court concluded at [52] that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;Accordingly, Ms Guo had not taken all necessary steps to file the claim form and there was no error or deficiency on the part of the court office leading to injustice &#8230;Ms Guo&#8217;s position arises from the fact that she did not follow the guidance she was given and do all that she was required to do&#8230;before expiry of the limitation period&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify">The Court&#8217;s power to remedy errors of procedure</p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">CPR 3.10 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">&#8220;Where there has been an error of procedure such as a failure to comply with a rule or practice direction &#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1.33in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.33in;text-indent:0.12in">the error does not invalidate any step taken in the proceedings unless the court so orders; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.33in;text-indent:-0.25in">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.33in;text-indent:0.12in">the court may make an order to remedy the error.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The Parties&#8217; Submissions</span></p>
+	    <p>The Defendants</p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">The Defendants contend that the authorities are clear and consistent that the underlying policy of risk allocation requires a claimant to have taken all necessary steps or done all that is in their power to do to commence proceedings. Whatever formulation of this test is adopted, it cannot be satisfied by seeking to start proceedings by some means that is not permitted by the rules. Electronic Working was mandatory for legally represented parties and that had been the case for almost five years. Accordingly, the Claimants&#8217; failure to use Electronic Working means that the claim was not &#8220;<span style="font-style:italic">brought</span>&#8221; on 26 March 2024 for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">LA 1980</ref>, and the Claimants cannot rely on PD 7A 6.1.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Barnes</span>, the claimant had done everything it could do to institute proceedings, and industrial action on the part of court staff prevented the claim form from being issued within the limitation period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Page</span>, the court was required to assume for the purposes of strike out that the claim form had been sent to, and received by, the court well before limitation expired, but had mislaid it. On that assumption the claimant had done all he could do to institute proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="Default" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Chelfat</span>, although the claimant had made a minor procedural error when sending the claim form to the court, there was a specific sanction in relation to that error, and the court was wrong to refuse to issue the claim form. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The position of the claimants in those cases, they say, is in stark contrast to the position of the claimants in this case. At the time when their solicitors had sent the claim forms to the court, the requirement was to do so using Electronic Working, and that had been in place for over five years. Whatever the precise formulation of the applicable common law principle, it is plain that they did not do all that was reasonably required, or all that was necessary, or all that was in their power, in order to secure the issue of the claim form. The court was not at fault in rejecting the claim forms and responded promptly. The fault was theirs (or rather, those of their legal representatives) in failing to appraise themselves of the applicable rules and in particular CPR PD51O and act in compliance with it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Moreover, they contend, the court has no power under CPR 3.10 to remedy the error, because it only applies to extant proceedings, and is not applicable to matters occurring prior to commencement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">They cite <span style="font-style:italic">Peterson v Howard de Walden Estates Ltd</span> <ref href="#" uk:canonical="[2023] 1 WLR 3057" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 1 WLR 3057</ref> (KB), in which Eyre J considered the authorities on whether CPR 3.10 applies to errors in respect of the commencement of proceedings. He concluded, at [58], that this rule &#8220;<span style="font-style:italic">is not concerned with matters occurring before the commencement of proceedings (although it can be used to remedy defects of form in proceedings once commenced).</span>&#8221; Further, Eyre J noted, at [43], that this rule was located in Part 3 of the Rules, which is concerned with the court&#8217;s case management powers: &#8220;<span style="font-style:italic">Such powers are necessarily concerned with events after proceedings have been commenced</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Similarly, it was held in <span style="font-style:italic">Nathadwarawala v General Medical Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/459" uk:canonical="[2025] EWHC 459 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 459 (Admin)</ref>, at [23], that &#8220;<span style="font-style:italic">CPR r.3.10 is concerned with circumstances where proceedings have already been started and there is then an error of procedure during those proceedings</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Defendants conclude that they have a limitation defence, and that the Claimants have no real prospect of succeeding in their claim. There is no other compelling reason why the case or limitation issue should be disposed of at a trial. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify">The Claimants</p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Claimants acknowledge that their claim should have been issued electronically in accordance with CPR PD 51O, but assert that it does not follow from this that the claim was not &#8220;brought&#8221; in time in accordance with CPR PD 7 &#167;6.1. If they are wrong about that, they rely on the court&#8217;s powers to remedy errors of procedure pursuant to CPR 3.10.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Claimants make a number of submissions in support of their contentions. They may be distilled as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">First, they submit that there is a legal distinction between proceedings &#8220;brought&#8221; and &#8220;issued&#8221;. The claim form was in its proper form, and accompanied by all necessary information in order that the appropriate fee be paid when it was received by the court on 26 March 2024. Accordingly, proceedings were &#8220;brought&#8221;, within the meaning of CPR PD 7 &#167;6.1 on that date, and are not time-barred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">With reference to the mandatory wording of CPR PD 51O &#167;2.2B(b) (see paragraph 19 above), the Claimants argue that the use of the word &#8220;start&#8221; is synonymous with &#8220;issue&#8221;, citing in support the wording of CPR PD7A &#167;6.1 itself: &#8220;<span style="font-style:italic">Proceedings are started when the court issues a claim form&#8230;</span>&#8221;. By reference to CPR PD 51OA &#167;1.2(1), they point out that nothing in CPR PD 51O excludes or revises the application of CPR PD7A &#167;6.1.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Second, they contend that the court staff ought not to have returned the claim form as their role is not judicial and they have no power to reject a valid claim form. They should either have: (a) issued the claim form; or (b) advised the claimant that they would not issue until an e-filed copy was provided; or (c) scanned the claim form on to a pdf themselves.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In support of the contention that the court staff ought not to have returned the claim form the Claimants cite Tuckey LJ in <span style="font-style:italic">Barnes </span>at [19]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.89in">&#8220;I do not see that receipt of the claim form by the court office involves any transactional act. The court staff who receive the documents are not performing any judicial function and have no power to reject them&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In reliance on this point, the Claimants contend that analogies can be drawn with the approach taken by the court in other cases, there being no cases on all fours with the present. In this regard they rely on <span style="font-style:italic">Chelfat</span> and <span style="font-style:italic">Butters.</span> They further rely on <span style="font-style:italic">R (on the application of Karen Lawrence) v London Borough of Croydon </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2024/3061" uk:canonical="[2024] EWHC 3061 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 3061 (Admin)</ref> and <span style="font-style:italic">R (on the application of BLV) v Secretary of State for the Home Department </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/1475" uk:canonical="[2025] EWHC 1475 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 1475 (Admin)</ref><span style="font-style:italic">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In<span style="font-style:italic"> Karen Lawrence, </span>the defendant applied to strike out a judicial review claim on the grounds that it was out of time. The claimant, who was a litigant in person assisted by Sonia Marinello, a qualified solicitor specialising in white collar crime, had emailed her Part 8 claim form and supporting documents to the Central Office of the King&#8217;s Bench Division (&#8220;<span style="font-weight:bold">KBD</span>&#8221;), rather than to the Administrative Court Office (&#8220;<span style="font-weight:bold">ACO</span>&#8221;) as required by CPR PD54. The documents were sent on 7 May 2024. After sending them, Ms Marinello called the KBD and spoke with &#8220;Jemima&#8221; who confirmed the receipt of the emails, that the KBD was the correct place to send Part 8 claims and that the claim form would take 14 days to process but would be sealed with the date of receipt, namely 7 May 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The claimant provided a hard copy of the claim form to the solicitor for the defendant, who queried why it was not sealed. The response provided the account summarised at paragraph 53 above. On 21 May, Ms Marinello called the KBD to ask when the Claimant would receive the sealed claim form. She spoke to &#8220;Abi&#8221; who said she was not sure whether this should be with the Administrative Court rather than the KBD. The 7 May emails were then forwarded to the ACO and the claim form sealed and returned by a Mr Hales that day. The email stated that he had been advised that he could treat the application as having been received on 7 May 2024 although it was originally sent to the wrong email address. An attached letter from him gave the claim a case number and began &#8220;<span style="font-style:italic">I write to inform you that your matter was issued this day 21-05-24</span>&#8221;. When the defendant&#8217;s solicitor queried whether the claim had been properly filed on 7 May, there were various email exchanges between the parties and the ACO which culminated in emails from Mr Sikity of Issues and Enquiries in the ACO confirming that the date of issue was 21 May and apologising for Mr Hales&#8217; message of 21 May which had stated that the date could be treated as 7 May.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The question before the court was whether the claimant had &#8220;<span style="font-style:italic">made an application &#8230; to the High Court</span>&#8221; within the meaning of paragraph 35 of Part VI of Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/27" uk:canonical="1984 c. 27" uk:origin="TNA" uk:type="legislation">Road Traffic Regulation Act 1984</ref> when she sent her 7 May emails to the KBD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Applying <span style="font-style:italic">Barnes</span>, which he described at [58] as &#8220;<span style="font-style:italic">the starting point, and perhaps the end point</span>&#8221;, Linden J concluded that the claimant had made a procedural error in relation to a valid claim. The application had been made to the High Court, but to the wrong office. The error was and is readily amended by transfer to the ACO. Accordingly, the date of filing should be corrected to 7 May 2024, and should be done pursuant to CPR 3.10. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In doing so, Linden J stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;74.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">In coming to this conclusion I am fortified by the fact that it is consistent with <span style="font-style:italic">Cala Homes (South) Limited v Chichester District Council</span> (supra) which, Mr Leigh pointed out, was referred to by the Court of Appeal in <span style="font-style:italic">Croke</span>. In <span style="font-style:italic">Cala Homes</span> Mr Robin Purchas QC (sitting as a Deputy High Court Judge) had to consider the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287/1" uk:canonical="1990 c. 8 s. 287" uk:origin="TNA" uk:type="legislation">section 287(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> which required an application be &#8220;made&#8221; to the High Court within the specified deadline. At the time of the <span style="font-style:italic">Cala Homes</span> case Part 50 of and Schedule 1 to the CPR, Order 94 provided at 2(1) that to exercise this right &#8220;A claim form&#8230;must be filed at the Crown Office, and served, within the time limited by the relevant enactment for making the application&#8221;. However, the claim form was filed in the Central Office of the High Court rather than the Crown Office. Mr Purchas held that this did not mean that the claim form was a nullity, refused the Defendant&#8217;s application to strike out the claim and granted the claimant&#8217;s application to transfer the case to the Crown Office. Having noted that some statutory provisions expressly required that the claim or application was made in accordance with the rules of the court and others, including <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287" uk:canonical="1990 c. 8 s. 287" uk:origin="TNA" uk:type="legislation">section 287</ref>, did not, he said:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.17in">&#8216;in the absence of clear words in the statute, as a general rule the court should not infer the incorporation of the formal or other requirements of the rules and practice directions as a precondition for compliance with the statutory time limit. I do not, therefore, believe that as a matter of principle to make an application to the High Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/287" uk:canonical="1990 c. 8 s. 287" uk:origin="TNA" uk:type="legislation">section 287</ref> should be construed as restricted to an application that is in strict accord with the relevant rules and practice directions.&#8217;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>75.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">I tend to agree. Although the limits of this principle may need to be explored in future cases it seems to me that Paragraph 35 itself requires no more than that a claim form is filed in a court office of the High Court. On the facts of the present case, then, an application was made within the requisite statutory deadline.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Alternatively, the Claimants contend that the court could have issued the paper copy and directed a PDF copy or scanned the paper copy to a PDF itself, it having the power to do so pursuant to para &#167;&#167;3.2 and 3.3 of PD51O. Paragraph 3.2 provides that proceedings <span style="color:#000000">which have not been started using Electronic Working may be continued using Electronic Working&#160;(subject to the provisions in paragraph 1.1(1)(c)) after documents originally submitted in those proceedings have been converted to PDF format.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Third, they contend that no issue would have arisen under CPR PD 51O had the Claimants been acting in person, because litigants in person were permitted to issue by this method. If the claim would be &#8220;brought&#8221; for the lay person within the meaning of CPR PD 7 &#167;6.1, it follows that it must also be &#8220;brought&#8221; for the represented person.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Fourth, and alternatively, even if there had been an error of procedure, the court can remedy that by the application of CPR 3.10 &#8211; as was done in <span style="font-style:italic">Karen Lawrence </span>and in<span style="font-style:italic"> Cala Homes.</span> CPR PD 51O &#167;5.3 expressly provides that the court may make an order to remedy an error of procedure made while using electronic working, in accordance with CPR 3.10(b). When the court makes such an order, a document filing will not fail Acceptance because of the error of procedure made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Further, in <span style="font-style:italic">The King (on the application of BLV) v Secretary of State for the Home Department </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2025/1475" uk:canonical="[2025] EWHC 1475 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EWHC 1475 (Admin)</ref> at [27] Fordham J recognised the availability of the power in a case where a Claim Form failed acceptance under the PD due to errors by solicitors and was thus deemed not issued (PD51O para 5.4(6)). The power to remedy the error still existed even though there were no proceedings in existence at the time of filing. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic">Assessment and Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I accept the Defendants&#8217; submissions set out at paragraphs 37 to 45 above for the reasons stated therein. There is a clear line of Court of Appeal authority to the effect that in cases such as this, a claimant must satisfy the court that he has done<span style="font-style:italic"> at least</span> all that could reasonably be expected of him in order to ensure that proceedings are issued within time. I distil from the authorities that the test of what is reasonable will depend on factors such as the requirements set by the rules and practice directions, whether the claimant is legally represented, and the content and timing of any communication he has had with the court with regards to issuing the claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In this case, CPR PD 51O required a claimant who was legally represented to issue his claim electronically. That mandate was not new. It had been in place for over five years. The Claimants&#8217; solicitors should have been familiar with it. Plainly they were not. In those circumstances it cannot be said that the Claimants did all that was reasonably to be expected of them in order to ensure that their claim was issued prior to expiry of the limitation period, let alone all that was necessary or in their power. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Claimants did not, in fact, seek to persuade me otherwise. Instead, they argued that the court office should nevertheless have proceeded to issue the claims, because the claim form was in the proper form and the correct fee information was given. I consider that their reliance on the authorities in this regard is misconceived. Each must be understood both by reference to the procedural regime in force at the time, and to the individual facts of the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The high point of their arguments lies in their reliance, by analogy, on the approach taken in <span style="font-style:italic">Karen Lawrence</span> and <span style="font-style:italic">Cala Homes</span>. In neither of those cases, however, were the claim forms returned or rejected. They were accepted. Of much greater significance, however, are the facts that in <span style="font-style:italic">Karen Lawrence</span>, the Judge appears not to have been taken to any of the Court of Appeal authorities cited above other than <span style="font-style:italic">Barnes</span>. As a result, his interpretation of the &#8220;<span style="font-style:italic">Barnes</span> principle&#8221; was a narrow one, which did not involve any assessment of the reasonableness of the party&#8217;s actions. The Judge was fortified in his decision by reference to <span style="font-style:italic">Cala Homes</span>, a case which pre-dated even <span style="font-style:italic">Barnes</span>. If and to the extent that the decision in <span style="font-style:italic">Karen Lawrence</span> conflicts with the Court of Appeal line of authority, the latter must prevail. It does not, however, because, given the facts of the case, it seems to me that the outcome would have been the same. The claimant had, in the circumstances, done all that could reasonably be expected of her to try to understand what was needed and then to take the necessary steps within time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The argument that the court office should have informed the Claimants&#8217; solicitors of their error takes the Claimants nowhere, because they did so, and, on the available evidence, did so promptly. It does not follow from the fact that CPR PD 51O itself provided for proceedings started in hard copy to be transferred to electronic working that court staff should have issued the hard copies and then transferred them to electronic working. The provision in the Practice Direction implicitly contemplates a position where the proceedings have already been validly commenced outside of the provisions of electronic working. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Claimants&#8217; argument that because proceedings would have been &#8220;brought&#8221; within the meaning of CPR PD 7 &#167;6.1 if a litigant in person had sent the claim forms by post, it must follow that they would similarly have been &#8220;brought&#8221; for the legally represented person also fails. The straightforward answer to the point is that whether the proceedings have been &#8220;brought&#8221; will depend on whether the legally represented person or the litigant in person has at least done all that could reasonably be expected of them. The legally represented person would, in sending the claim form by post, be failing to comply with a mandatory requirement that had been in place for over five years. That is not reasonable. The litigant in person, by contrast, would be doing that which is expressly permitted by the rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">So far as CPR 3.10 is concerned, it seems to me straightforward that it can provide no remedy unless there are proceedings extant at the time of the procedural error. There were no proceedings in existence at the time that the Claimants failed to comply, so it cannot apply. <span style="color:#000000">The requirement that a claimant may not &#8220;bring an action&#8221; after the expiry of the limitation period</span><span style="font-size:9pt;color:#000000"/><span style="color:#000000">is contained in primary legislation; it cannot be abrogated by a rule of court. In any event, the law already strikes the appropriate balance of justice by requiring consideration of the issue of whether a claimant has done all that may reasonably be expected of him, or all that is necessary, in determining the question of when proceedings are &#8220;brought&#8221; for limitation purposes.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Finally, what Fordham J in fact said in his judgment in <span style="font-style:italic">BLV </span>about CPR 3.10(b) was as follows (at [28]):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0in"><span style="color:#000000">&#8220;I can see the force in the submission about the availability of this bespoke power, to remedy a possible injustice where a claimant&#8217;s representatives have conscientiously endeavoured to comply with all perceived requirements, in their use of the online form. But I make two observations. First, as the permission-stage judge in this judicial review case, I would have taken a different course. I would simply have extended time for the judicial review claim, in all the circumstances, including the explanation (which I now have) as to how the date of issuing came to be 25 February 2025 and not 6 February 2025. Secondly, I would I think be very unlikely to make any order pursuant to PD51O&#167;5.3(2) read with CPR 3.10(b)</span><span style="font-size:9pt;color:#000000">, </span><span style="color:#000000">without a defendant and any interested party first being on notice that this was being sought; or, at minimum, without giving them liberty to apply to discharge the order.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">For the above reasons I conclude that the Claimants&#8217; claims are time-barred. Accordingly, they have no real prospect of success. There is no other compelling reason why their claims should proceed. The Defendants&#8217; applications succeed. Summary judgment is to be entered for the Defendants.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,372 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/309"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/309"/>
+	  <FRBRdate date="2026-03-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="309"/>
+	  <FRBRname value="Thamina Lima v The Registrar of Approved Driving Instructors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/309"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/309"/>
+	  <FRBRdate date="2026-03-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/309/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/309/data.xml"/>
+	  <FRBRdate date="2026-03-02T16:41:18" name="transform"/>
+	  <FRBRdate date="2026-03-02T17:09:48" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-25" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-02-27" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="thamina-lima" href="" showAs="THAMINA LIMA"/>
+	<TLCPerson eId="the-registrar-of-approved-driving-instructors" href="" showAs="THE REGISTRAR OF APPROVED DRIVING INSTRUCTORS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-transport" href="/jurisdiction/transport" shortForm="Transport" showAs="Transport"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>309</uk:number>
+	<uk:cite>[2026] UKFTT 309 (GRC)</uk:cite>
+	<uk:jurisdiction>Transport</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>648b630a1eae56e18300daab634c1ca0fbd3a9b3dc8c612635741808a00cda84</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00309 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/D/2025/1133/FPP</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-transport" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Transport</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-02-25" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">25 February 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-02" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">2 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE&#160;HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER&#160;PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER&#160;ROANTREE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#thamina-lima" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">THAMINA LIMA</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-registrar-of-approved-driving-instructors" style="font-weight:bold;font-family:'Book Antiqua'">THE REGISTRAR OF APPROVED DRIVING INSTRUCTORS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Ms Lima, representing herself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: Andrew Heard</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">This appeal concerns a decision of the Registrar of Approved Driving Instructors (the &#8220;Registrar&#8221;)</span><span class="normaltextrun" style="font-family:'Times New Roman';color:#000000">&#160;</span><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">made on&#160;13 October 2025 to revoke the Appellant&#8217;s trainee licence which was granted on 21 April 2025, on the ground that the Appellant was not a fit and proper person to be an Approved Driving Instructor (&#8220;ADI&#8221;). This is because&#160;of complaints made which included allegations of instructing illegally. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">The proceedings were held by video (CVP). The</span><span class="normaltextrun" style="font-family:'Times New Roman';color:#000000">&#160;</span><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">parties</span><span class="normaltextrun" style="font-family:'Times New Roman';color:#000000">&#160;</span><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">joined remotely. The Appellant was unable to connect properly using the video link so joined the hearing by telephone. The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">The Appellant lodged an appeal on form GRC1 dated 24</span><span class="normaltextrun" style="vertical-align:super;font-size:smaller;font-family:'Segoe UI';color:#000000"/><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">October 2025. In summary, in her reasons for the appeal she made the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She says that her removal based on unverified allegations is disproportionate and that the complaints referred to are malicious, false and not related to any pupils she has taught.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She denies the allegations in full, as she says she has never taught while banned, uninsured or without the required licence. She says she has not been provided with any supporting evidence or details that would allow her to properly understand and respond to the claims and that the Registrar has not provided any verifiable proof or credible evidence linking her to the alleged incidents, pupils or vehicles mentioned. She alleges that the decision to revoke her licence was taken without substantive evidence or proper investigation and is therefore flawed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She says she does not know the individual who made the complaint and has never had any personal or professional dealing with them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She has been facing significant personal difficulties and issues with her family which have caused emotional and financial strain. She says she would suffer financial hardship if she was not able to become a driving instructor.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She has filed an insurance certificate which she says shows she was insured from the commencement of her trainee licence in April 2025.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She has never been arrested, cautioned or convicted of an offence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She accepts it was an error of judgment not to have responded to the Registrar&#8217;s correspondence concerning the revocation, as she was told by colleagues the email was suspicious and should be ignored.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">She says she has taken steps to strengthen her practice, including improved documentation, mentorship and communication protocols, ensuring that any future administrative issues are prevented.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">The Registrar&#8217;s Statement of Case dated 13 February 2026 resists the appeal. The Registrar says that the Appellant has failed to provide any response to the allegations that she was providing paid instruction when not registered to do so after previously attempting to qualify as an ADI or to the request for a refund. An ADI is expected to have standards of driving and behaviour above that of an ordinary motorist. The Registrar does not believe that the Appellant has displayed the level of responsibility or commitment to improving road safety that he would expect to see from a potential ADI.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000">The Appellant did not provide a Reply</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Grant or retention of a trainee licence requires a person to be a fit and proper person &#8211; see <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/125/3" uk:canonical="1988 c. 52 s. 125" uk:origin="TNA" uk:type="legislation">sections 125(3)</ref>(e) and 129 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (the &#8220;Act&#8221;). The Registrar has the burden of showing that a person does not meet the statutory requirement to be a fit and proper person, and the standard of proof is the balance of probabilities.<span style="font-family:'Times New Roman'">&#160;</span>As such, account<span style="font-family:'Book Antiqua'">&#160;</span>has to<span style="font-family:'Book Antiqua'">&#160;</span>be taken of an applicant<span style="font-family:'Book Antiqua'">&#8217;</span>s character,<span style="font-family:'Book Antiqua'">&#160;</span>behaviour<span style="font-family:'Book Antiqua'">&#160;</span>and standards of conduct. This involves consideration of all material matters, including convictions, cautions and other relevant behaviour, placing all matters in context, and balancing positive and negative features as&#160;appropriate.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In<span style="font-family:'Times New Roman'">&#8239;</span><span style="text-decoration-line:underline;text-decoration-style:solid">Harris v Registrar of Approved Driving Instructors</span><span style="font-family:'Times New Roman'">&#8239;</span>[2010] EWCA<span style="font-family:'Times New Roman'">&#8239;</span>Civ<span style="font-family:'Times New Roman'">&#8239;</span>808, the Court of Appeal described the <span style="font-family:'Book Antiqua'">&#8220;</span>fit and proper person<span style="font-family:'Book Antiqua'">&#8221;</span> condition as follows:<span style="font-family:'Times New Roman'">&#8239;</span><span style="font-style:italic">&#8220;..the condition is not simply that the applicant is a fit and proper person to be a driving instructor, it is that he is a fit and proper person to have his name entered in the register. Registration carries with it an official seal of approval&#8230;It seems to me that the maintenance of public confidence in the register is important. For that purpose, the Registrar must be</span><span style="font-style:italic;font-family:'Times New Roman'">&#8239;</span><span style="font-style:italic">in a position</span><span style="font-style:italic;font-family:'Times New Roman'">&#8239;</span><span style="font-style:italic">to carry out his function of scrutiny effectively, including consideration of the implications of any convictions of an applicant or a registered ADI. This is why there are stringent disclosure requirements</span>.&#8221; (paragraph 30).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The powers of the Tribunal in<span style="font-family:'Times New Roman'">&#8239;</span>determining<span style="font-family:'Times New Roman'">&#8239;</span>this appeal are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/131" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>. The Tribunal may make such order as it thinks fit (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/131/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131(3)</ref>). The Tribunal stands in the shoes of the Registrar and takes a fresh decision on the<span style="font-family:'Times New Roman'">&#8239;</span>evidence available to it, giving appropriate weight to the Registrar<span style="font-family:'Book Antiqua'">&#8217;</span>s decision as the person tasked by Parliament with making such decisions (in accordance with<span style="font-family:'Times New Roman'">&#8239;</span><span style="text-decoration-line:underline;text-decoration-style:solid">R. (Hope and Glory Public House Ltd) v City of Westminster Magistrates Court &amp; Ors</span><span style="font-family:'Times New Roman'">&#8239;</span>[2011] EWCA<span style="font-family:'Times New Roman'">&#8239;</span>Civ<span style="font-family:'Times New Roman'">&#8239;</span>31).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The evidence</span><span style="font-family:'Times New Roman'">&#8239;</span><span style="font-weight:bold">and submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We have considered a bundle of evidence<span style="font-family:'Times New Roman'">&#8239;</span>containing<span style="font-family:'Times New Roman'"> 43</span> numbered pages.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We heard submissions from the Appellant at the hearing which emphasised a number of the points raised in her grounds of appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When asked about why she had not responded to the emails from the Registrar informing her of the complaints, she said that she had considered that these might be fraudulent, as one of them was seeking a substantial amount of money refunded for lessons. She sought advice from her instructor, who thought that these were suspicious and not from the DVSA. She does not know the names of the complainants and has no connection with them. She said that she regretted not replying to the DVSA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the second complaint, she accepted that the registration numbers cited were  her vehicles, but thought this might be someone trying to scare her, as she does not know how the complainant knew her registration numbers. She stated that she never used her mobile phone when driving or giving a lesson. She could not recall whether she was working on the date mentioned in the complaint.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">She concluded that the allegations were unsubstantiated and there was no verified evidence of wrongdoing. She said she had complied with the insurance and licence requirement, had a clear DBS and no history of misconduct. She said that she poses no risk to the public and that revocation, which would in effect remove her ability to work in the only profession available to her, would be disproportionate in all the circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We also heard submissions from the Registrar at the hearing.&#160; Mr Heard explained that complaints come in to the Registrar&#8217;s Instructor Conduct team. This team sends the complaints straight out to the instructor (ADI/PDI) concerned, without first investigating or making enquiries and only determines next steps once a response is received from the ADI/PDI. Once three complaints have been raised in a two-year period, this triggers consideration of removal or revocation as appropriate. Upon further questioning, he clarified that no actual checks had been carried out to verify the information in the complaint, but that ordinarily the Registrar would rely on the ADI/PDI to provide relevant information such as copies of car insurance when making representations. The decision was made on the evidence before the Registrar at the time, which in this instance was the emails of complaint. He accepted that there was some delay in each instance between the complaint being received and it being sent out to the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to whether the emails sent to the Appellant were genuine, Mr Heard said on 20 October 2025 the Appellant emailed the Registrar about changing her address and the Registrar replied to this email by resending the letter seeking representations, but no response was received from the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Heard stated that the trainee licence issued to the Appellant on 21 April 2025 was not her first trainee licence. She passed Part 1 in July 2019, which expired in July 2021. Her application for a trainee licence was refused in July 2021 because at that time she had 7 points on her licence for speeding, but the decision was appealed successfully to the Tribunal and the Appellant was granted a further trainee licence on 9 December 2021. The Appellant received a 6-month disqualification in 2022 by accrual of points, but was allowed to restart the ADI qualification process. The Appellant passed Part 1 in January 2025. Her trainee licence expired on 20 October 2025 and there has been no further application. No part 3 test has been booked, but the Appellant has cancelled five Part 3 tests.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The relevant facts</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant is not now and has never been on the Register.  She is currently going through the qualification process and in the normal course her trainee licence would have expired on 20 October 2025.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 16 January 2025, 13 March 2025 and 2 August 2025 the Registrar received complaints about the appellant. They included a request for a refund of fees paid to the appellant for driving lessons and that the appellant was instructing illegally when her name was not on the Register of Approved Driving Instructors or the holder of a current licence.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">By email dated 1 September 2025, the Registrar gave the Appellant written notice that he was, in effect, considering refusing her application on the grounds that he could not be satisfied that she was a &#8221;fit and proper person&#8221;.  The email attached copies of the complaints in question. The Appellant was invited to make representations within 28 days. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant did not make any representations. By email dated 20 October 2025 the Appellant asked to amend her address as she wanted to apply for a further trainee licence. By response on the same day, she was provided with the Registrar&#8217;s email dated 1 September 2025.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Registrar carefully considered this case and came to the view that the Appellant&#8217;s licence should be revoked as she could not fulfil the condition of being a fit and proper person within the context of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/125/3" uk:canonical="1988 c. 52 s. 125" uk:origin="TNA" uk:type="legislation">Section 125 (3)</ref> (e). The Appellant was given notice of this decision by a letter dated 13 October 2025, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 129(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">If a potential driving instructor (PDI) is allowed to hold a trainee licence when they have<span style="font-family:'Times New Roman'">&#8239;</span>demonstrated<span style="font-family:'Times New Roman'">&#8239;</span>behaviours which are relevant to fitness, this will diminish the standing of the Register and undermine the public<span style="font-family:'Book Antiqua'">&#8217;</span>s confidence in the Register. This includes behaviour relating to driving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">ADIs (and thus PDIs) are held to a higher standard than ordinary motorists. The public has the right to expect that those who are registered adhere to the highest standards of motoring, which they themselves should be teaching to their pupils. Teaching people of all ages to drive safely, carefully, and competently is a professional vocation requiring a significant degree of responsibility. Such a demanding task should only be entrusted to those with high personal and professional standards and who themselves have<span style="font-family:'Times New Roman'">&#8239;</span>demonstrated<span style="font-family:'Times New Roman'">&#8239;</span>a keen regard for road safety and compliance with the law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Registrar has the duty of ensuring that only those of<span style="font-family:'Times New Roman'">&#8239;</span>appropriate standing<span style="font-family:'Times New Roman'">&#8239;</span>are on the Register, and that those who are on it understand their responsibilities and can show they not only know the rules but follow them. What the Appellant did may not seem to be a serious offence, but the law treats it very seriously. It is essential that ADIs follow the law that they are supposed to be teaching to often young and impressionable pupils.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In order for there to be effective regulation of driving instructors, it is necessary for the Registrar to have confidence that those persons who seek registration are ready, willing and organised to engage with the DVSA&#8217;s regulatory scheme and the regulator. We had significant concerns about the Appellant&#8217;s ability and willingness to engage with the Registrar because of the fact that she did not respond to the complaints made against her and, despite having suspicions about the complaint emails, failing to verify whether they were genuine with the Registrar. We understand that the Appellant regrets this failure to respond, but the result is that she has not demonstrated that she is able to engage effectively with the Registrar at this stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We have considered<span style="font-family:'Times New Roman'">&#8239;</span>all of<span style="font-family:'Times New Roman'">&#8239;</span>the arguments made by the Appellant. However, we do not find that there are any exceptional circumstances which would justify allowing the Appellant to retain her trainee licence in all the circumstances of the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We did, however, have significant concerns about the fact that the Registrar did not take any steps in this case to verify the information presented to it in the complaints. Whilst we understand that in this instance the Appellant&#8217;s failure to respond meant that there was no further information received from her which could be investigated, we noted that the complaints gave details of, for example, the registration number of the Appellant&#8217;s vehicle which could have been interrogated further by checking the number of times it was presented at tests. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We find on the balance of probabilities that the Appellant does not currently meet the statutory requirement to be a fit and proper person. In all the circumstances, we conclude that the Registrar&#8217;s decision to<span style="font-family:'Times New Roman'">&#8239;</span>revoke the Appellant&#8217;s trainee licence as she was not a fit and proper person was correct. We dismiss this appeal&#160;</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Judge Harris</span><span style="font-weight:bold;font-family:'Book Antiqua'"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2026-02-27" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">27 February 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

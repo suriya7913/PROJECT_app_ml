@@ -1,0 +1,1432 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2017/1290"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2017/1290"/>
+	  <FRBRdate date="2017-05-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1290"/>
+	  <FRBRname value="Heathrow Airport Ltd v Office of Rail And Road"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2017/1290"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2017/1290"/>
+	  <FRBRdate date="2017-05-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-qbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2017/1290/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2017/1290/data.xml"/>
+	  <FRBRdate date="2024-10-25T19:03:14" name="transform"/>
+	  <FRBRdate date="2024-11-30T11:41:19" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-05-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-qbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (Queen's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="heathrow-airport-limited" href="" showAs="HEATHROW AIRPORT LIMITED"/>
+	<TLCPerson eId="office-of-rail-and-road" href="" showAs="OFFICE OF RAIL AND ROAD"/>
+	<TLCPerson eId="transport-for-london" href="" showAs="TRANSPORT FOR LONDON"/>
+	<TLCPerson eId="secretary-of-state-for-transport" href="" showAs="SECRETARY OF STATE FOR TRANSPORT"/>
+	<TLCPerson eId="civil-aviation-authority" href="" showAs="CIVIL AVIATION AUTHORITY"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCRole eId="intervener" href="" showAs="Intervener"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-ouseley" href="/judge-the-honourable-mr-justice-ouseley" showAs="THE HONOURABLE MR. JUSTICE OUSELEY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-QBD-Admin</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>1290</uk:number>
+	<uk:cite>[2017] EWHC 1290 (Admin)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>5d3afb2b69da3c5427e4224e9e7facb66bb7edd965eaf691fa7fd0c615baa20f</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWHC 1290 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CO/4518/2016</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-qbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">QUEEN'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-qbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-05-26" refersTo="#judgment">26/05/2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-ouseley">THE HONOURABLE MR. JUSTICE OUSELEY</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#heathrow-airport-limited" style="font-weight:bold">HEATHROW AIRPORT LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#office-of-rail-and-road" style="font-weight:bold">OFFICE OF RAIL AND ROAD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#interested-party" refersTo="#transport-for-london" style="font-weight:bold">(1) TRANSPORT FOR LONDON</party></p>
+	    <p style="text-align:center"><party as="#interested-party" refersTo="#secretary-of-state-for-transport" style="font-weight:bold">(2) SECRETARY OF STATE FOR TRANSPORT</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#interested-party">Interested Parties</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#intervener" refersTo="#civil-aviation-authority" style="font-weight:bold">CIVIL AVIATION AUTHORITY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#intervener">Intervener</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Gerry Facenna QC and Ms Ligia Oscepciu </span>(instructed by<span style="font-weight:bold"> Heathrow Airport Limited</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Rhodri Thompson QC, Mr Nicholas Gibson and Ms Anita Davies</span> (instructed by <span style="font-weight:bold">the Office of Rail and Road</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Marc Rowlands QC and Mr Simon Taylor</span> (instructed by <span style="font-weight:bold">Transport for London</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Interested Party</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Tom Hickman </span>(instructed by <span style="font-weight:bold">the Government Legal Department</span>) for the <span style="font-weight:bold">2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Interested Party</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Anneli Howard</span> (instructed by <span style="font-weight:bold">the Civil Aviation Authority</span>) for the <span style="font-weight:bold">Intervener</span></p>
+      <p style="text-align:center">Hearing date: 21-23 February 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Ouseley:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-size:14pt">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Heathrow Airport Ltd, HAL, challenges the decision of the Office of Rail and Road, ORR, that the amount which HAL can charge for the use by Crossrail services, and others, of the Heathrow Spur off the main Great Western Main Line, GWML, into the airport, cannot include any amount referable to the recovery of its costs of building the Spur.  It contends that the ORR&#8217;s conclusion is irrational on the evidence before it, and applying the test required by the relevant Regulations.  HAL has a second ground, known as Ground 1, logically first, but more conveniently dealt with second, by which it contends that the ORR had no power to reach any decision on the Heathrow Spur access charge at all.  Transport for London, TfL, and the Secretary of State for Transport, SST, take particular exception to that latter ground, while also supporting the ORR on the access charge ground, with additional arguments as well.  The Civil Aviation Authority, CAA, has given evidence and provided oral submissions as an intervener, because some of the arguments and background relate to its role, and what it did permit or would have permitted as the aviation regulator. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">The context for the ORR decision </span></heading>
+	  <paragraph eId="para_2">
+	    <num style="font-size:14pt">2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Heathrow Spur is a 5.3 mile stretch of railway track and railway infrastructure connecting Heathrow Airport with the GWML into Paddington, via London facing spurs.  The part owned by HAL stops at tunnel portals about 1 mile south of the spur junction with the GWML, (Airport Junction), west of Hayes and Harlington station.  The line runs into the airport connecting the central terminal area with terminals 4 and 5.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-size:14pt">3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL owns Heathrow Express Operating Co. Ltd., HEOC, which operates the non-stop Heathrow Express; a more recent stopping service, Heathrow Connect is operated jointly with First Greater Western Ltd.  Those are the two services currently running over the spur and into Paddington.  HEOC pays track access charges to Network Rail for its use of the GWML.  The accounting, corporate or business relationship between HAL and HEOC had to change in September 2015, when the right to receive fare revenue was transferred to HEOC, with access charges for use of the Spur being levied by HAL on HEOC for the first time. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-size:14pt">4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Act empowering the construction of the spur was passed in 1991.  BAA plc decided in 1993 to proceed with its construction, pursuant to a joint operating agreement with British Railways Board, BRB, and BAA plc.  It bought out BRB in June 1996.  Railway services over the track began in 1998. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-size:14pt">5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">One piece of the regulatory framework, the significance of which was much at issue between the ORR and HAL, was the Railways (Heathrow Express) (Exemptions) Order 1994 SI No.574.  Under the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss17</ref>-18 in particular, the ORR could compel a facility owner, such as HAL, to grant access to others to operate services over facilities such as the Heathrow Spur, or to require ORR approval of the terms of any access agreement granting permission to do so.  S20 permitted the SST, by Order, to exempt certain facilities from those requirements.  That is what the Exemptions Order did in the case of the Heathrow Spur.  The exemption lasts until 23 June 2028.  It ensured for HAL sole use or control of the use of the Spur for that period. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-size:14pt">6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The regulated rail system had been evolving with EU Directives aimed at splitting the operation of train services from the operation of the track and infrastructure, and providing for non-discriminatory access to the track for third parties, that is operators other than the original track owner.  The primarily relevant Directive for the ORR&#8217;s decision is Directive 2001/14/EC &#8220;on the allocation of railway infrastructure capacity and the levying of charges for the use of railway infrastructure and safety certification.&#8221;  For present purposes, the crucial provisions relate to charging; the ground which I consider second requires consideration of other parts of it.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-size:14pt">7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Article 7(2) provides so far as material that &#8220;the charges for the minimum access package and track access to service facilities </span><span style="font-style:italic;font-size:14pt">shall be set at the cost that is directly incurred as a result of operating the train service.</span><span style="font-size:14pt">&#8221;  (My emphasis.)  This had not appeared in any earlier Directive.  Article 7(2) provides for exceptions in Article 8.  The relevant one is Article 8(2).  This provides: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;2.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">For specific investment projects, in the future, or that have been completed not more than 15 years before the entry into force of this Directive, the infrastructure manager </span><span style="font-style:italic;font-size:14pt">may set or continue to set higher charges on the basis of the long-term costs of such projects if they </span><span style="font-size:14pt">increase efficiency and/or cost-effectiveness and </span><span style="font-style:italic;font-size:14pt">could not otherwise be or have been undertaken</span><span style="font-size:14pt">.  Such a charging arrangement may also incorporate agreements on the sharing of the risk associated with new investments.&#8221; (My italics.)</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-size:14pt">8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">That Directive was transposed by the Railways Infrastructure (Access and Management) Regulations 2005 SI No.3049, as amended by SI 2009 No. 1122.  Regulation 12 brings in Schedule 3.  Schedule 3 requires the infrastructure manager, here HAL, to set the access charge so as to comply with its Network Statement, and repeats the language of Article 7(2).  Paragraph 1(3) requires the infrastructure manager to ensure that his charging system is based on the same principles over the whole of his network, but permits exceptions where specific arrangements are made in accordance with paragraph 3.  This is intended to transpose Article 8.  It reads: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;3.</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:2in"><span style="font-size:14pt">(1)</span><marker name="tab"/><span style="font-size:14pt">Subject to sub-paragraph (2), for specific investment projects completed &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:14pt;margin-left:2.62in;text-indent:-0.62in">(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:2.62in"><span style="font-size:14pt">since 15</span><span style="vertical-align:super;font-size:14pt">th</span><span style="font-size:14pt"> March 1988; or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:14pt;margin-left:2.38in;text-indent:-0.38in">(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:2.38in"><span style="font-size:14pt">following the coming into force of these Regulations,</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">the infrastructure manager may set or continue to set higher charges on the basis of the long-term costs of the project.</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:14pt">(2)</num>
+		      <content>
+			<p class="Quote" style="margin-left:2in"><span style="font-size:14pt">For sub-paragraph (1) to apply &#8211;</span></p>
+			<block name="embeddedStructure"><embeddedStructure>
+			    <paragraph>
+			      <num style="font-size:14pt;margin-left:2.38in;text-indent:-0.38in">(a)</num>
+			      <content>
+				<p class="Quote" style="margin-left:2.38in"><span style="font-size:14pt">the project must increase efficiency or cost-effectiveness; and</span></p>
+			      </content>
+			    </paragraph>
+			    <paragraph>
+			      <num style="font-size:14pt;margin-left:2.38in;text-indent:-0.38in">(b)</num>
+			      <content>
+				<p class="Quote" style="margin-left:2.38in"><span style="font-size:14pt">the project could not otherwise have been undertaken without the prospect of such higher charges.&#8221;</span></p>
+			      </content>
+			    </paragraph>
+			  </embeddedStructure></block>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-size:14pt">9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">TfL raised an issue about the correctness of the transposition of this Directive, to which I shall return.  There was also a Directive in 2012 to which I shall come.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-size:14pt">10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Crossrail, from Shenfield to Reading, was promoted through a Bill introduced in Parliament in 2005.  Part of this very large project was to permit the operation of its rail services into Heathrow Airport via the Spur.  The Bill included power to enable the SST to disapply the Heathrow Exemptions Order; indeed that power was enacted in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/18/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">s26</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/18" uk:canonical="2008 c. 18" uk:origin="TNA" uk:type="legislation">Crossrail Act 2008</ref>.  But HAL petitioned against the Bill; an agreement, known as the Deed of Undertaking, was reached between the SST, BAA Ltd, HAL and HEOC on 30 May 2008.  By that Undertaking, the SST agreed not to use her new powers to disapply the Exemption Order, on certain conditions.  No SST has used those powers. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-size:14pt">11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">There then followed negotiations between those parties and the CAA over the contribution which HAL should make to Crossrail, because Crossrail is to start serving Heathrow Airport in 2018, and that is seen as a benefit to the Airport.  A contribution agreement was signed between the SST and HAL on 2 February 2015; HAL was to pay &#163;70m to the Crossrail project.  But that did not cover the sums which HAL was entitled to charge Crossrail for the use of the Heathrow Spur.  Those were dealt with pursuant to the 2005 Regulations, notably Regulations 11, 12 and Schedule 3.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-size:14pt">12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR was required by Regulation 12 to establish the charging framework and specific charging rules.  HAL had published its Network Statement of June 2015, as required by Regulation 11, to comply with its obligations under the Regulations to determine the fees to be charged for use of the infrastructure in accordance with the charging framework, specific charging rules, and the principles and exceptions in Schedule 3.  Regulation 28 makes the ORR responsible for ensuring that the charges levied by the infrastructure manager comply with the Regulations.  Clause 5.1.1(iii) (b) of the Deed of Undertaking had also made publication of the Statement a condition of the continued undertaking by the SST not to use his powers to remove HAL&#8217;s exemption. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-size:14pt">13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This Statement set out the proposed criteria, rules, deadlines and procedures for charging and capacity allocation over the Spur.  Part 6 contained HAL&#8217;s approach, within the ORR&#8217;s charging framework, to calculating various charges, including the Fixed Track Access Charge, for access to the Heathrow Spur.  Its avowed purpose was &#8220;to allow HAL to recover historic investment on rail infrastructure, in accordance with paragraph 3 of Schedule 3 of the Rail Regulations 2005.&#8221;  This is sometimes called the &#8220;investment recovery charge.&#8221;  The steps in its calculation were then set out.  This charge would apply to Crossrail, HEOC and any other would-be operators of services over the Spur. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-size:14pt">14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Statement was then sent out for consultation to interested bodies.  HEOC supported HAL&#8217;s position.  The SST was among those who submitted a considered objection, saying that the proposal did not meet the requirements of paragraph 3 of Schedule 3 to the Regulations, as well as raising a separate issue about what it said was a change of position on this issue by HAL.  The issue, over whether paragraph 3 of Schedule 3 applied, was then referred to the ORR by HAL.  HAL made its first submission to the ORR on 1 September 2015. The DfT responded to the consultation on 31 July 2015.  Over the next few months, HAL responded to questions raised by ORR and provided further information at its request.  In February 2016, the ORR published a draft decision and sent it out for consultation.  HAL, the SST, TfL and the CAA responded.  On 27 May 2016, the ORR published its decision holding that HAL&#8217;s proposed Fixed Track Access Charge fell outside the scope of paragraph 3, and that it was therefore only entitled to recover from Crossrail and other users the direct costs it incurred from the operation of their services.  That decision is now challenged. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-size:14pt">15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Before I turn to the decision, one further piece of the regulatory jigsaw needs to be put in place: the role of the CAA in relation to the financing of Heathrow Airport.  Its position was relied on by HAL in submission to the ORR, and by Mr Facenna QC for HAL before me.  In 1993, when BAA made the decision to proceed with the construction of the Heathrow Spur, the CAA was carrying out its functions under the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/31" uk:canonical="1986 c. 31" uk:origin="TNA" uk:type="legislation">Airports Act 1986</ref> which implemented the privatisation of BAA; now it does so under the <ref href="http://www.legislation.gov.uk/id/ukpga/2012/19" uk:canonical="2012 c. 19" uk:origin="TNA" uk:type="legislation">Civil Aviation Act 2012</ref>.  Its responsibility for the regulation of airports includes regulating the level of charges (aircraft landing charges, passenger fees and aircraft parking fees) which certain airports can levy on airlines, passengers and other users.  There are also non-aeronautical charges or income enjoyed by airport operators including BAA/HAL, for example commercial rental income.  The CAA&#8217;s functions had to be performed to further the reasonable interests of airport users, to promote their efficient and profitable operation and to encourage investment in new facilities to meet users&#8217; demands. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-size:14pt">16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Its policy for allowing surface access contributions to be included in the airport till was that airport users should pay no more than a reasonable charge for the facilities they used, according to the first witness statement of Ms Grenfell, a Senior Policy Adviser.  It set the charges cap at five yearly intervals; the first quinquennium, Q1, ran from 1987-1992, Q2 from 1992-1997.  The charges had to be referred to the Monopolies and Mergers Commission, MMC, at the start of each five-year cycle; only exceptionally would its recommendations not be followed. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-size:14pt">17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">For Q1 and subsequently, the CAA used the concept of a &#8220;single till&#8221; or &#8220;single regulatory till&#8221; when controlling charges at Heathrow.  Into the single till went the costs and the revenues from both aeronautical and non-aeronautical activities.  These non-aeronautical revenues can include some regulated charges such as those for check-in, but also non-regulated commercial revenues from car parks and rents, and surface access links by road and rail.  The total commercial revenues exceed their total costs, and so generate a surplus which subsidises the costs of the aeronautical activities, leading to lower airport charges.  The total costs of providing the Heathrow Spur, its related infrastructure and Heathrow Express rolling stock went into the single till along with the fare revenue.  To the extent that fare revenue did not cover all those costs, the surplus from the other non-aeronautical activities would be used, reducing the cross-subsidy for aeronautical activities, or higher airport charges would be imposed to make up the difference.  The MMC&#8217;s successor, the Competition Commission, in 2002, rejected a new &#8220;dual till&#8221; approach favoured by the CAA, which would have separated out surface access and certain other commercial activities from the charge control exercised by the CAA.  From 1997 onwards, the CAA used a Regulatory Asset Base, RAB, approach to setting the price cap.  Although this affects the way in which capital expenditure accounted for within the single till for Heathrow is valued, and &#8220;RAB&#8221; appears in the documents, that simply reflects the change in accounting methodology and does not affect the issues at stake here.  The single till and the RAB, for these purposes, are functionally the same.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">The Decision Letter of 27 May 2016</span></heading>
+	  <paragraph eId="para_18">
+	    <num style="font-size:14pt">18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I note at the outset that the issue is not whether the procedure was fair, nor whether any material consideration was ignored, nor whether the reasoning is legally inadequate.  It is not said by HAL that the approach adopted was wrong, or that the wrong question was asked, though TfL raises such an issue, saying that the ORR adopted an approach too favourable to HAL.  It is not said that there was an irrational evaluation of a policy issue upon which the specialist expertise of the ORR was engaged.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-size:14pt">19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL&#8217;s contention is simply that the decision was irrational on the facts, that there was no evidence to support the ORR&#8217;s conclusion.  That does mean that something of a trawl through the Decision Letter, DL, and the evidence was required.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-size:14pt">20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The DL set out the legal framework, including Paragraph 3 of Schedule 3.  Directive 2012/34/EU, recasting the previous Directives, was due for transposition but had not at that stage been transposed.  It said that the terms of the relevant exception had not been changed.  Of the three criteria which had to be satisfied for the infrastructure manager, as an exception to the principal rule, to set or to continue to set higher charges on the basis of the long-term costs of the project, the first two were not at issue between the ORR and HAL.  The project was completed after March 1988, and increased efficiency and cost-effectiveness. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-size:14pt">21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">TfL raised but did not pursue before me whether the ORR had reached a lawful conclusion on the issue of increased efficiency and cost-effectiveness.  It had raised the issue so as to argue that, even if the ORR had erred on the issue raised by HAL, the outcome of the decision was highly likely to have been the same, and so relief should be refused under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> as amended, because the ORR had erred in HAL&#8217;s favour on this issue.  This issue did not seem to me fruitful territory for TfL.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-size:14pt">22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The third criterion was whether the Heathrow Spur project &#8220;could not otherwise have been undertaken without the prospect of such higher charges.&#8221;  That is, higher charges on the basis of the long-term costs of the project.  As the DL pointed out, this is by way of an exception to the starting principle for charges, which is that they are to be set &#8220;at the cost that is directly incurred as a result of operating the train service.&#8221; </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-size:14pt">23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR had to break some new ground in considering this criterion since there was no case law to guide it, or Explanatory Memorandum to the Regulations or assistance from the recitals to the Directive.  So it based its view &#8220;on a plain English reading of the legislation and principles of EU law, together with our overall understanding of the purpose of the Regulations and European Directives.&#8221;  With the exception of an issue over the transposition of the Directives, the approach it adopted was not disputed by the parties. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-size:14pt">24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR considered what the concept of the &#8220;prospect&#8221; of recovery of higher charges entailed, and whether it was necessary for the &#8220;prospect&#8221; to have been matched by what actually happened, and whether the &#8220;prospect&#8221; had to relate to the recovery of all of the long term costs, in order for the exception to apply at all.  It is important to understand that that is what DL[25] &#8211;[30] is dealing with, in view of what can be made  of it.  The ORR concluded that the Regulations did not require the full project costs actually to be recovered from the project users; the long term costs set a maximum level of charges if the infrastructure manager decided to make use of the exception.  The exception did not require the actual cost recovery to have matched any expectation of cost recovery forecast at the outset of the project.  Therefore: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;[27] the infrastructure manager must be able to demonstrate that the project could not have gone ahead without the prospect of levying charges on rail users that made at least some contribution to the &#8220;</span><span style="font-style:italic;font-size:14pt">long-term costs of the project</span><span style="font-size:14pt">&#8221;.  However, we do not consider that the Regulations require an infrastructure manager to demonstrate that the project could not have gone ahead unless the higher charges imposed were sufficient to recover </span><span style="font-style:italic;font-size:14pt">all</span><span style="font-size:14pt"> the long-term costs of the project from rail users, if it is to be permitted to levy </span><span style="font-style:italic;font-size:14pt">any</span><span style="font-size:14pt"> higher charges under this exception.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-size:14pt">25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">If, for the project to go ahead, only partial recovery of long term costs had been required from rail users, for example if there were some other source of funding for the rest from the state, the exception could therefore still apply.  DL[29]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;The operative requirement is, however, that the undertaking of the project was contingent on the prospect of higher charges being levied.&#8221; </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-size:14pt">DL[30]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;&#8230;an important factor in determining whether charges can be levied under the &#8230;exception is the basis on which the investment was made (i.e. expected returns/traffic forecasts rather than the actual amount recovered).&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-size:14pt">26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR concluded that it was for HAL to show that the project could not have gone ahead without the prospect of higher charges.  &#8220;Could not&#8221; did not require proof of an impossibility.  The mere fact that a piece of rail infrastructure could in principle have been publicly funded could not have been intended to preclude reliance on the exception.  Likewise, in a commercial setting, the theoretical possibility of private commercial funding should not cause the exception to be disapplied.  Accordingly: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;[33] We think a realistic commercial standard should be applied to an issue of this kind.  As a result, we considered the relevant question was whether HAL had showed that, when the decision was taken to approve the project, there was no realistic commercial possibility of the project going ahead without the prospect of levying charges on rail users that contributed to the Historical Long-Term Costs.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-size:14pt">27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR then considered the sort of evidence which it would expect to see and how it would approach it, especially since the test did not exist at the time of the BAA decision to proceed with the project in 1993, and so no contemporaneous documentation would have considered it or would have been couched in its terms.  The best evidence, DL[35], would be explicit contemporaneous evidence, focused on identifying the decision to proceed with the project, and the commercial basis upon which that decision was made.  But all the evidence had to be considered in the round, and especially so where the project was constructed before the Regulations existed, limiting the likely availability of contemporaneous documents.  This meant drawing inferences from all the available evidence.  Subsequent evidence could also cast light on the basis for the original decision, including commercial conduct showing an expectation of long term cost recovery from rail users and actual recovery of higher charges from rail users.  No complaint could be made of those sections in the DL.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-size:14pt">28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL did provide, in response to the draft decision sent out by the ORR, a number of documents including BAA Board minutes relating to the decision to invest in the Spur, but the documentary record in relation to the 1993 BAA decision was incomplete.  None of it, DL[46], &#8220;explicitly answers the question of whether the project could have been undertaken without the prospect of higher charges to recover the Historical Long-Term Costs.&#8221;  Though recognising that the test did not exist in 1993, nonetheless the ORR concluded: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;[46] We do not consider the available evidence to be sufficient to demonstrate that HAL has satisfied the Paragraph 3 Test in respect of the Historical Long-Term Costs and as such, HAL cannot be considered to have discharged its burden of proof.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-size:14pt">29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The DL then set out the reasons for that decision, couched as a failure on the part of HAL to overcome the burden of proof. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-size:14pt">30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The first aspect which the ORR considered was the Joint Operating Agreement, JOA, in 1993 between BAA/HAL and BRB, for a joint venture in which HAL would provide funding for the project in return for the right to receive revenues from the operation of train services on the Spur.  &#8220;The arrangements provide for the transfer of the project to a legally distinct special purpose vehicle&#8221;, Newco; it would hold the assets and liabilities of the Spur project.  The JOA recorded that &#8220;</span><span style="font-style:italic;font-size:14pt">the objective of the Parties is to finance the discharge by Newco of the HAL indebtedness</span><span style="font-size:14pt"> [incurred by HAL to fund the Heathrow Spur project]&#8230;</span><span style="font-style:italic;font-size:14pt">by way of secured loans undertaken on reasonable commercial terms on the basis that the lenders to Newco have no recourse to BRB, HAL or BAA.&#8221;</span><span style="font-size:14pt">  (Italics from the DL.)  If Newco did not discharge this indebtedness, it would have had &#8220;to issue a loan note in HAL&#8217;s favour for the outstanding balance of HAL&#8217;s indebtedness, which would bear interest equivalent to HAL&#8217;s funding costs.&#8221;  This, with other features of the JOA, led the ORR to conclude in DL[50]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;50.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">We have seen no evidence that Newco, as a standalone special purpose vehicle, would have had any realistic commercial source of income to contribute to Historical Long-Term Costs other than revenue from rail users.  Accordingly, we are persuaded that, had the Newco structure proceeded, the third criterion of the Paragraph 3 Test would very likely have been satisfied.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-size:14pt">31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The next question was whether the JOA and Newco did in fact proceed.  HAL said that it did, with Newco becoming HEOC, established in 1996.  But the ORR rejected that on the grounds that HEOC did not hold any of the project&#8217;s assets or liabilities, nor did it borrow any non-recourse commercial secured loans.  HAL also referred to two BAA press statements or articles from 1997 and 1999 which referred to the loans and BAA cash flow which were used to finance the Spur.  But, as these post-dated the decision to build the Spur in 1993 and most of the construction had been undertaken by the dates of the articles, the ORR did not regard them as at all persuasive.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-size:14pt">32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR then turned to the single till and RAB as an alternative source of funding.  It introduced the issue in this way: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;55.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">Our initial understanding, as set out in our proposed decision, was that the Heathrow Spur was included in the airport RAB as an alternative to pursuing the Newco option, although, as we noted, we had not seen any explicit evidence setting out the basis on which that RAB addition occurred.  We said in our proposed decision that we did not consider that inclusion of the Heathrow Spur on the RAB necessarily precluded the application of the third criterion of the Paragraph 3 Test.  However, in most regulated sectors, a rate of return on the RAB is included in the calculation of the charges a regulated entity is permitted to make to its customers and, as such, we considered that this could provide an alternative source of funding for a project enabling it to go ahead even without a contribution to capital costs from users of the project infrastructure.  In the case of the Heathrow Spur, the addition of the project to the airport RAB could, at least in principle, be viewed as having created a realistic commercial possibility of funding the project through airline charges (or other single till income) even if there were no prospect of higher charges to rail users contributing to Historical Long-Term Costs.  We therefore considered the addition of the project to the airport RAB to be important when considering the basis on which the investment was made.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-size:14pt">33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL, in its consultation response, had criticised this approach on the basis that the costs of the Spur could not have been included in the RAB by the CAA since, in 1993, the RAB did not exist as a concept, and so could have played no part in the investment decision.  The CAA, in its consultation response, had said that the Spur had been added to the RAB in 1991 by the then Monopolies and Mergers Commission, MMC.  The ORR concluded that although the RAB was not formally known by that name until 1997, &#8220;a previous construct, the airport regulatory till,&#8221; was in place before then.  The ORR rejected HAL&#8217;s attempts to distinguish the single regulatory till from the RAB, treating them as alike for the purposes of the decision which it had to make.  It said: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;58 Our understanding is that the two mechanisms offered the same recourse to alternative funding through airport charges and that the regulatory till did not operate in a materially different way to the present day RAB.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:14pt">60.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">In light of the above, we consider that the RAB (although not known by that name) existed before the project was approved, and operated in a way that created a realistic commercial possibility of funding the project through airline charges (or other single till income) even if there were no prospect of higher charges to rail users contributing to Historical Long-Term Costs.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-size:14pt">34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR then had to consider whether there was any regulatory control by the CAA over the inclusion of the project costs in the single till, in the absence of its costs being recovered from fare revenue. It said, DL[61]:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;61.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">In our proposed decision, we went on to consider all the available evidence to establish whether the addition of the Heathrow Spur to the airport RAB (or its predecessor) was or was not consistent with the Paragraph 3 Test being satisfied.  HAL told us that the CAA was unlikely to have agreed to the Heathrow Spur project (and funding through the RAB) if there was not a prospect of the charges being recovered over time through revenues from use of the new infrastructure.  We looked to see whether there was any evidence from which we could infer that the investment in this case was treated in a way which distinguished it from other assets.  Such treatment could, for example, include allocation of specific income to fund specific costs or some form of ring-fencing of that investment.  However, we did not see, nor have we seen in response to our consultation, any evidence of distinct treatment of the project on the airport RAB or the regulatory till.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-size:14pt">35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR dealt with arguments about how the single till operated in practice.  HAL had not levied access charges on the Heathrow Express Operating Company, nor on Heathrow Connect services, and HEOC revenues, and part of the Connect revenues, had contributed to the single till.  Indeed, HAL had said that although train revenues from the Spur services were not formally matched to Spur costs &#8220;</span><span style="font-style:italic;font-size:14pt">the effect is that such costs are reflected in airline landing charges only to the extent that the train service revenues are insufficient to cover them.</span><span style="font-size:14pt">&#8221;  (Italics in DL.)  The ORR concluded, DL[63], that the positions of the CAA and HAL:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;were consistent with a view that the Heathrow Spur project, once added to the RAB or regulatory till, would be treated in the same way as any other addition.  That is, airline charges would fund a rate of return on that project without any specific correlation to any contribution from rail users to Historical Long-Term Costs.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-size:14pt">36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">DL footnote 29 to [62] is very important.  The ORR considered the significance of the debate in 2001 between the CAA, BAA and the Competition Commission, CC, over moving to a &#8220;dual till&#8221;, which it saw as consistent with the view which it had formed about the role of costs within the single till.  BAA had argued to the CC that the Spur &#8220;was not a standalone commercial investment.&#8221;  BAA had argued that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;53.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in;margin-right:0.4in;text-indent:0.5in"><span style="font-size:14pt">Heathrow Express represents something of a special case and the rationale for this is detailed in Appendix 1; BAA was obliged to undertake significant investment in the project in order to improve surface access to Heathrow and respond to pressure from CAA.  Airport rail projects are very unlikely to make a commercial rate of return and further investment will not be possible without inclusion in the aeronautical till.  This in turn is likely to compromise airport capacity and throughput.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:14pt">54.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">Two exceptions to this principle may apply:-</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8211; where rail investment is a free-standing commercial venture not required for airport capacity, it should probably be excluded;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8211; where BAA invests in infrastructure and operates the service (as in the case of HEx) the operating business may be excluded, if it pays a fair arm&#8217;s length price (and no more) for use of the infrastructure.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-size:14pt">37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">BAA had devoted an Appendix to this issue. It explained how the project had been seen in the late 1980s and up to decision in 1993 and beyond.  The project had been created &#8220;primarily in order to improve surface access&#8221; to the airport because the passenger handling of the Central Terminal Area was restricted by congestion in the tunnel; the ability of BAA to gain further planning consents was threatened by hostility to further traffic on roads surrounding the airport; the existing Piccadilly line was unsatisfactory; and fast train services at other airports were harming the reputation of Heathrow.  It had not been conceived originally as a &#8220;free-standing commercial scheme&#8221;, but &#8220;was intended to facilitate growth in traffic and improvement in the quality and choice of service enjoyed by passengers.&#8221;  A lack of interest from others had forced BAA to invest its own capital in the scheme.  The CAA had warned BAA over the importance to be attached to its timely completion, which also showed that it was not a straightforward commercial investment but rather &#8220;essential to the development of Heathrow as an air transport hub.&#8221;  On completion, the BAA had again considered whether it should be treated as a &#8220;free-standing investment which should properly be excluded from regulation.&#8221;  It decided not, since the airport needed to retain control over the frequency and quality of service and fares &#8220;in order to ensure that the railway played its full role in relieving road congestion in and around the airport.&#8221;  With a slight air of desperation to win that point in 2001, it also mentioned that the relevant BAA Director had received a CBE when the project was commissioned, &#8220;an honour not normally given for pure commercial activity unless of public benefit.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-size:14pt">38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The extension of Heathrow Express to Terminal 5 was expected to be a condition of planning consent for the terminal, an extension not viable in its own right, but undertaken only because it was necessary for the further passenger capacity to be provided.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-size:14pt">39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">BAA&#8217;s conclusions to the CC were that Heathrow Express should be included within any aeronautical till (were there to be dual tills) because:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;It is essential to the operation and growth of aeronautical operations</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Symbol;font-size:14pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in"><span style="font-size:14pt">It would not have been developed, and will not be further developed, if required to achieve normal commercial returns.  This would prejudice the airport&#8217;s growth.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;font-size:14pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in"><span style="font-size:14pt">The implementation of the project was pressed on BAA by the CAA for air transport reasons</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;font-size:14pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in"><span style="font-size:14pt">It is essential for the airport to retain operational control of the rail infrastructure and service to specify levels of service and fares which would not be provided on pure commercial grounds, in order to meet aeronautical demand.  If the rail service were provided by a third party, any subsidy provided by the airport should be regarded as a cost within the aeronautical till.</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">It supports the request by British Airways for BAA to provide &#8220;good surface access (road/rail links)&#8221; (22/11/00).&#8221;</span></p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-size:14pt">40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR, in footnote 29, accepted that BAA/HAL intended to recover Historical Long-Term Costs from all rail users of the Heathrow Express services.  But it concluded that BAA&#8217;s submission to the CC and the addition of the costs to the RAB, meant that &#8220;the project could have gone ahead without the prospect of recovering the Historical Long-Term Costs from rail users.&#8221;  The CC had thought it sensible to include surface access costs and income in the single till, but without addressing the issue of the recovery of the costs from different airport users.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-size:14pt">41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">There then followed in DL[64], an extract from the CAA&#8217;s consultation response on which Mr Facenna put some weight in his submissions: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;64.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">In its consultation response, CAA said it would &#8220;</span><span style="font-style:italic;font-size:14pt">encourage a degree of caution about adopting an assumption that just because a rail project is within the airport RAB, this axiomatically indicates that the project would have gone ahead without recovering historic costs through rail charges.  This is because under our single till approach the airport operator will factor in that income from the project will be netted off from airport charges and that we would expect an operator to maximise the recovery of the costs from this income.</span><span style="font-size:14pt">&#8221;  We accept that HAL has sought to maximise recovery of income from the Heathrow Spur project (and consider the reasons for this later); however, we have not seen any evidence that challenges our view that once the Heathrow Spur project was added to the RAB (or regulatory till), airline charges would fund a rate of return on that project without any specific correlation to any contribution from rail users to Historical Long-Term Costs.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-size:14pt">42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA&#8217;s surface access policy was prayed in aid by HAL.  It was said to require that surface access investment costs should be recovered by way of revenue from use of the surface access infrastructure in question and not, over the long term, by way of airport charges.  The problem was that there was no written CAA surface access policy from 1993, and nothing in the 1991 MMC report identified one.  DL[65] said that the only one which could be found dated from a 2005 CAA consultation paper, which only required airport operators to seek to offset the costs of surface access projects: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;as far as practicable against revenues from those directly using the new surface access infrastructure/services.  As a result, airport charges would only fund the residual costs not covered by rail fares or road tolls or charges.&#8221;  Our proposed decision noted that the policy did not however go so far as to preclude investment where this was not the case.  As a result, we did not feel the evidence provided to us on this issue was sufficient to demonstrate that the addition of the project to the airport RAB was only permitted on the basis that the Historical Long-Term Costs would be recovered, over time, through rail charges.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-size:14pt">43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA said that, although it could find no policy statement earlier than 2005, it has, DL[66]:  </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;</span><span style="font-style:italic;font-size:14pt">no reason to doubt that a similar &#8216;user pays&#8217; type approach would have been taken into account during earlier price control reviews</span><span style="font-size:14pt">&#8221;.  It also confirmed that airport charges would only make up a shortfall for the costs that are not otherwise recovered by charging users of the surface access infrastructure.  In light of this confirmation that airport charges are available to make up any shortfall in revenue from users of surface access infrastructure, our view remains that HAL has not provided sufficient evidence to support a conclusion that the addition of the project to the airport RAB, or its predecessor, was </span><span style="font-style:italic;font-size:14pt">only</span><span style="font-size:14pt"> permitted on the basis that the Historical Long-Term Costs would be recovered through rail charges.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-size:14pt">44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The next topic considered in the DL is the significance of HAL&#8217;s contemporaneous documents.  First, in DL[67], it saw the BAA Board papers as demonstrating the importance of the Heathrow Spur to the airport&#8217;s overall development, treating it &#8220;as a key piece of infrastructure which was vital to enable the airport to maintain its market lead and grow its business in competition with other major European hubs.&#8221;  This was growth before the opening of Terminal 5.  The Spur was therefore integral to the airport as a whole rather than a standalone project.  Although the Board papers showed a positive internal rate of return, IRR, for the Spur, whether as a project which would be &#8220;sold down&#8221;, or as a standalone BAA project, it was &#8220;only when treated as part of the overall development of Heathrow and viewed as a way to unlock additional capacity at the airport that the Heathrow Spur project gave a return in excess of BAA&#8217;s then hurdle rate of 15%.&#8221;  Viewed that way, it was an attractive investment for the BAA Board, but not as a standalone.  It was &#8220;the wider benefits to the airport which made the difference between an acceptable and unacceptable IRR for the Heathrow Spur project and provide evidence that the board approached the project from the perspective of the airport as a whole, rather than as a standalone venture.&#8221;  Its view was not altered by the fact that the Board required a careful examination of forecast Spur passenger usage and revenue.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-size:14pt">45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Second, the ORR in DL[72]-[77] dealt with the significance to the decision to proceed with the Spur of the exemption from the Railways Act licensing and access regime.  The BAA documentation showed how important that was: exemption was &#8220;a crucial precondition&#8221; to its decision to proceed.  A 1993 Board paper explained why:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;[72] &#8220;</span><span style="font-style:italic;font-size:14pt">This exemption will enable us to charge a track fee to other users of the line crossing Heathrow Airport, a fee that will compensate the Heathrow Express project for any loss of income generated by the introduction of other services on the line, including CrossRail</span><span style="font-size:14pt">&#8221;.  It is clear that BAA&#8217;s concern was to protect against &#8220;loss of income&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-size:14pt">46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">But the mere fact of that concern did not show that the aim was to ensure &#8220;that rail users contributed to repaying the Historic Long-Term Costs of the project (i.e. demonstrating the required link to the Paragraph 3 Test) or for some other reason.&#8221;  So it then set out HAL&#8217;s explanation in DL [73]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;HAL&#8217;s explanation of why the exemption was essential for the financial viability of the project is that not obtaining such an exemption could preclude HAL from fully recovering its capital expenditure.  HAL told us that the exemption would enable BAA to charge other operators using the Heathrow Spur for access so as to compensate for the loss of income to the Heathrow Express and would allow HAL to maintain its projected incomes from the Heathrow Spur in the event of use by other operators.  HAL&#8217;s view is that &#8220;</span><span style="font-style:italic;font-size:14pt">the BAA plc Board would not have proceeded with full investment in the Heathrow Spur &#8211; and, therefore, the Spur would not have been constructed &#8211; unless it was confident that it could (pursuant to the said exemption) levy charges on access operators enabling BAA plc (later HAL) to recover its capital investment in construction, plus a commercial rate of return</span><span style="font-size:14pt">&#8221;.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-size:14pt">47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">BAA sought to reduce the access charge it paid for the use of the GWML to improve the profitability of HEOC.  &#8220;As such, it is evident that BAA sought to maximise the fare revenue from, and profitability of its [HEOC].&#8221; </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;74.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">From the board papers it appears that the reduction or increase in fare revenues was forecast to have the biggest effect on IRR and, therefore, the profitability of the project.  The track fee that BAA contemplated charging other users of the Heathrow Spur including CrossRail appears to have been to compensate the project for any loss of this income from HEX fare revenues.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:14pt">75.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">HAL has essentially sought to link the focus on recovering income in the form of fares through the operating company to a need for HAL to receive income through track access charges which would recover the Historical Long-Term Costs.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">But the ORR was not persuaded that the documents demonstrated &#8220;a link between fares revenue and income through track access charges to recover the Historical Long-term Costs.&#8221;  </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-size:14pt">48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">That led into DL[76]-[77], in which the ORR explained why it thought the exemption had been so important. </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;76.</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">We consider that there are three potential reasons why an exemption from the access and licensing regime may have been so important to the project&#8217;s viability:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:14pt;margin-left:1.5in;text-indent:-0.12in">i.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in"><span style="font-size:14pt">it allowed BAA to protect its monopoly profits generated through fare revenue (albeit that this ability would be limited by competition law and the price control mechanism);</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:14pt;margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;text-indent:0.12in"><span style="font-size:14pt">it allowed BAA to maximise fare revenue to ensure that the contribution to the single till was maximised and helped lower airport charges; and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:14pt;margin-left:1.5in;text-indent:-0.12in">iii.</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in;text-indent:0.25in"><span style="font-size:14pt">it allowed BAA to ensure that the users of the project infrastructure contributed to repaying the Historical Long-Term Costs of the project.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:14pt">77.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">We consider that all three reasons are plausible explanations for the significance of the exemption from the Railways Act.  However, even keeping in mind the fact that the Paragraph 3 Test did not exist at the time when the documents were drafted, we believe the language of those documents appears to be more consistent with the first two reasons than the third.  If the third reason were the most likely explanation, we consider there would be </span><span style="font-style:italic;font-size:14pt">some</span><span style="font-size:14pt"> mention of the importance of recovering the Historical Long-Term Costs (or at least some language implying it) in the board papers.  Therefore, we are not convinced that the importance of the exemption was that it allowed BAA to ensure that the fare revenue contributed to repaying the Historical Long-Term Costs, rather than simply enabling it to protect its monopoly profits and/or maximise contributions to the single till, thereby reducing airport charges.  As such, although we accept gaining an exemption from the Railways Act access and licensing system was critical, we consider that the decisive factor in proceeding with the project was the wider benefits that the project would bring to the development of the airport as a whole.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-size:14pt">49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I was not clear why the three were thought to be distinguishable in that way, since (i) appeared to encompass (ii) and (ii) to encompass (iii), unless fare revenue made no contribution to infrastructure costs &#8211; which was never the case.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-size:14pt">50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR referred then to a financial model scheduled to the JOA, showing that between 1993 and 2016, fare revenue was forecast to cover the cost of building the Spur, as well as its operating costs.  Over the last ten years, fare revenue had amounted to about 80% of the operating and Historical Long-Term Costs.  After 2018, absent Crossrail, revenue would cover all of those Long-Term costs.  HAL relied on that as showing that the test was met. But the ORR thought otherwise, saying in DL[79]:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;79.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">We set out our understanding, in our proposed decision, that any shortfall in Historical Long-Term Costs recovery from rail users had been recovered through airline charges calculated on the basis of the RAB.  While we considered the recovery of costs from rail users to be rational commercial behaviour, given that the Heathrow Spur </span><span style="font-style:italic;font-size:14pt">was</span><span style="font-size:14pt"> financed through the airport RAB and had been (at least partially) funded through airport charges since its inception, we did not consider the expectation of recovery (even when coupled with actual recovery), to be determinative of whether HAL had met the requirements of the Paragraph 3 Test.  As such, whilst we recognised HAL took steps to recover revenues from users of the Heathrow Spur, we did not consider it to be sufficient to establish that the project could not have gone ahead without the prospect of such cost recovery.  We remain of this view.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-size:14pt">51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">There had also been discussion in 1992 about the contribution which Crossrail, as then conceived, might make to the costs of modifying the Spur junction with the GMWL, and certain other costs, as well as compensation for the revenue which BAA would lose as a result of Heathrow Express passengers using Crossrail services on the Spur instead.  It was significant to the ORR that the documents did not explicitly refer to &#8220;the larger elements of Historical Long-Term Costs&#8221;, and the compensation for the loss of fare revenue was &#8220;not explicitly calculated&#8221; by reference to them either.  This, it thought, supported its view in DL[77], above. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-size:14pt">52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Hence its conclusions in DL[81]-[82]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;81.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">In light of the above, we are not satisfied that HAL has provided sufficient evidence to demonstrate that the Heathrow Spur project could not have gone ahead without the prospect of higher charges to rail users.  We have taken into account that the Paragraph 3 Test did not exist at the time the decision to construct the Heathrow Spur was taken.  However, in considering all the evidence in the round, we are not satisfied that HAL has met the test.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:14pt">82.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">In reaching this conclusion, we consider that the addition of the Heathrow Spur project to the RAB, or the regulatory till, was a significant factor, as this provided a realistic alternative source of funding for the project which could have allowed it to go ahead even if there were no prospect of higher charges to rail users contributing to the Historical Long-Term Costs.  Evidence showing the significance of the project to the development of the airport as a whole supports this conclusion.  Equally, we accept that there was an expectation of cost recovery from rail users from the outset of the project (and protection of fare revenue sought in the form of an exemption from the access and licensing system), and that HAL has demonstrated it has recovered revenue from rail users.  We consider taking steps to recover revenue from users of the Heathrow Spur to be rational commercial behaviour by HAL to protect and maximise) monopoly profits and/or the contribution to the airport single till, and, as such, is not determinative of the Paragraph 3 Test.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">The contemporaneous documents </span></heading>
+	  <paragraph eId="para_53">
+	    <num style="font-size:14pt">53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna took me to a number of contemporaneous documents relating to the JOA with BRB and BAA&#8217;s decision to proceed with the Spur, but not to suggest that the ORR had misunderstood their content or had overlooked part of them.  I am satisfied that they have been adequately summarised in the DL. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-size:14pt">54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">They demonstrate that in the late 1980s, the parties assumed, wrongly as it turned out, that the revenues would provide for the necessary return on the project costs.  A  BRB document of 30 September 1992 on Crossrail discussed the compensation which Heathrow Express would seek from Crossrail for lost revenue.  It also refers to Heathrow Express wishing to recover some of the capital costs of the Spur through track access charges to Crossrail.  On 10 December 1992, at a meeting between BAA, DfT (Department for Transport) and BRB, it was noted that BAA needed DfT assurances that it would be able to charge third parties &#8220;on the same basis as a Heathrow Express operating company.&#8221;  That is, submitted Mr Facenna, the full commercial return.  A Network South East appraisal of 1994 referred to an assumption that Crossrail would make good any revenue loss it caused to Heathrow Express.  So, submitted Mr Facenna, the clear understanding was that there would be private investment seeking a return from the operation of the Spur, any loss of revenue caused by Crossrail would be made good through an access charge, and that the charge would be made on the same basis as Heathrow Express itself was charged. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-size:14pt">55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Both sides made more of the 1993 BAA Board paper seeking approval of the JOA with BRB, to which the ORR had referred.  Mr Facenna pointed to the importance of maintaining the exemption so that BAA could charge users a track fee, which would compensate for any loss of income generated by the introduction of other services on the line, including Crossrail.  This, he said, showed that, if the revenue lost covered or went towards recovery of project costs, the exemption was for the purpose of maintaining the recovery of such costs through track access charges.  He is right, as the ORR said, that the paper shows great care being taken by BAA over the variability of forecasts of passenger numbers and hence of fare revenue.  Mr Thompson QC for the ORR pointed to the paper&#8217;s assessment of the need for the Heathrow Express.  Road and Underground access into Heathrow was already difficult, with growth in passenger numbers making the airport less attractive.  7 million passengers a year out of 54 million were forecast to use Heathrow Express, as it would provide an alternative means of access into the airport.  The link &#8220;forms a key part of Heathrow&#8217;s Public Transport Policy Statement.&#8221; &#8220;Counsel&#8217;s advice is that the Heathrow Express is a key feature in the case for Terminal 5&#8230;&#8221;.  What the ORR said about the role of the Spur in pre-Terminal 5 growth is borne out by the paper: improved surface access was a key part of the plans to allow such growth, which included terminal, apron, runway and taxiway improvements, and it was &#8220;therefore considered appropriate to appraise Heathrow Express in the context&#8221; of that wider development programme.  &#8220;Except under very pessimistic assumptions, therefore, the overall development of Heathrow prior to T5 is likely to give a return in excess of BAA&#8217;s 15% hurdle rate.&#8221; </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-size:14pt">56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Paragraph 20 of the paper summarised the basis for the recommendation by Group Finance that the project should proceed, and the Group Technical Director&#8217;s recommendation that, although the project rate of return was below 15%, it should proceed &#8220;for the benefit of Heathrow&#8217;s total business&#8221;, as a joint venture with BRB as defined in the Heads of Agreement of March 1993.  It said:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:14pt">&#8220;20.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-size:14pt">As a stand alone project the marginal returns and the extent of the downside make this an unattractive investment.  In the context of Heathrow&#8217;s development prior to the opening of T5, however, Heathrow Express is considered an essential part of the plan to accommodate growth in traffic.  The returns which are forecast for this overall development programme are attractive, and on this basis Group Finance recommend approval.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-size:14pt">57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Board approved the recommendation subject to a final decision after a review of the revenue forecast and the risk of exemption from the Railways Act not being obtained.  Exemption was &#8220;essential&#8221; as it would enable BAA to control track access and agree the fare level with BRB, which would not be subject to regulation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-size:14pt">58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna submitted that there was no evidence that the project would have proceeded, even with that wider context, if the project revenues made no contribution to the costs of the Spur or if access charges were not at the level which would also make a contribution. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-size:14pt">59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The JOA of 16 August 1993 recited HAL&#8217;s wish &#8220;to improve access to and within the airport for the purposes of&#8221; the operation of the airport.  The parties agreed to try to agree the terms upon which Crossrail services would use the Spur, and also agreed that the introduction of Crossrail into Heathrow would not adversely affect the anticipated returns to the Project.  This was in effect an agreement that they would prevent that adverse effect through the charges they would impose, as exemption would permit.  The Gross Project Revenues were to be received by HAL, and applied, submitted Mr Facenna, to meeting the capital costs of the project, as described in Schedule 4.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-size:14pt">60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">In November 1993, power to grant the exemption being now in place and trusting the SST to use the power, BAA committed itself to raising the remaining &#163;235m for the project.  By 1996, total costs were likely to be &#163;440m.  Individual cost items were still being scrutinised with care by the now privatised BAA.  It was still being assumed in 1998, according to a Board paper, that the costs would be covered by the fare revenue, with a positive IRR. This, submitted, Mr Facenna, was consistent only with the approval of the project having been on the basis that it would be self-funding, with fare revenue covering the infrastructure costs, with third parties who accessed the track paying a charge which would protect HAL against the loss of that fare revenue; nothing in the documents suggests that BAA had in mind that the airline passengers could or should pay for the Spur costs. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;font-size:14pt">The CAA&#8217;s position</span></heading>
+	  <paragraph eId="para_61">
+	    <num style="font-size:14pt">61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA&#8217;s response to the draft ORR decision said, in commenting on the development of its surface access policy by 2005, that airport users should not be expected to subsidise the costs of surface infrastructure except where its provision was a planning condition of airport expansion, and so its policy was that rail users should be required to pay their &#8220;full contribution&#8221;.  This was explicit by 2007.  But it also said that it had never drawn a distinction between the recovery of operational expenditure and capital expenditure for aviation surface access projects, because &#8220;they tend to be fully financed from private sources, so that the total costs will need to be recovered to make them viable.&#8221;  It added that Heathrow Express had been included in the single till from the start, &#8220;and it was always expected that this would continue, with airport users only being required to make up any shortfall.&#8221;  Currently it made a negative contribution to the RAB, and airport users were making up the shortfall, but that negative contribution was diminishing with each year.  By the time Crossrail services began, it was expected that there would be very little, if any, contribution from airport users.   The CAA&#8217;s consultation paper for 2005 policy statement said that the Spur had been &#8220;initially included in the&#8230;regulatory till with very little regulatory debate in the 1991 MMC report, when it was a considerable project in prospect&#8230;&#8221; (&#163;240m at 1990/1 prices). It remained in the single till through the dual till debate along with BAA&#8217;s contribution to the Piccadilly line extension and local road improvements. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">The rationality challenge</span></heading>
+	  <paragraph eId="para_62">
+	    <num style="font-size:14pt">62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">It was not disputed before me, save for one point raised by TfL,  that the ORR had interpreted the Directive  and Regulation test correctly in DL [27]-[33], and that the question in DL [33] which it set out to answer was the correct question. The position is accurately stated in DL[27]. The third criterion as explained in DL [33] meant that HAL had to show that there was no realistic prospect of the project going ahead without at least some, but not necessarily all, of the Historical Long-Term Costs being recovered from charges levied on rail users. This would mean HAL showing that at least some part of those costs could not be recovered from the other identified source of finance. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-size:14pt">63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR concluded that HAL had failed to satisfy the test because it concluded that all of those costs could have been recovered via the single till. It would not have been enough if only some could be recovered via the single till because that would leave some to be recovered from the rail users.  This issue was properly raised, the evidence was considered, and HAL&#8217;s own evidence, and that of the CAA, showed to ORR that the project was seen as an integral part of the Airport and its expansion, and not as a stand-alone piece of rail investment. The costs, including capital costs, and revenue were all placed in the single till, which provided the realistic commercial possibility of an alternative source of funding in the absence of some contribution to the infrastructure costs from railway users; DL [81]-[82]. The actual inclusion of cost and revenue in the single till was important to the ORR decision, but it was not of itself determinative. I accept that all the evidence was considered. So the issue is whether that answer was rational and evidence based. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-size:14pt">64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL&#8217;s arguments did not always focus on the question. It was not whether BAA or HAL </span><span style="font-style:italic;font-size:14pt">did</span><span style="font-size:14pt"> go ahead on the &#8220;basis&#8221; of a prospect that at least some of the Historical Long-Term costs would be recovered from charges paid by rail users.  Nor was it whether it </span><span style="font-style:italic;font-size:14pt">would only</span><span style="font-size:14pt"> have gone ahead on the basis of a prospect that at least some of those costs would be recovered from rail users.  Nor is it whether it would have been commercially sensible to proceed without seeking infrastructure cost recovery from fares, where and to the maximum extent possible.  It was whether there was a realistic commercial possibility that the project </span><span style="font-style:italic;font-size:14pt">could</span><span style="font-size:14pt"> have gone ahead without a prospect of </span><span style="font-style:italic;font-size:14pt">some</span><span style="font-size:14pt"> infrastructure cost recovery from fares. That also means that what HAL did is a limited guide to whether there was a &#8220;realistic commercial possibility&#8221; of the project going ahead without at least some such contribution.  This entails asking whether there was a realistic commercial possibility of using some other source of finance for the </span><span style="font-style:italic;font-size:14pt">whole</span><span style="font-size:14pt"> of the infrastructure costs.  That is the question which the ORR raised and addressed, and was correct in law to do so. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-size:14pt">65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna submitted that the evaluation of evidence did not warrant the same judicial caution over finding it to be unlawful, as would be required in respect of an expert regulator&#8217;s judgment about how policy should be applied or how competing aims should be balanced.  The &#8220;hands-off&#8221; or deferential approach in cases cited by ORR and TfL such as </span><span style="font-style:italic;font-size:14pt">Everything Everywhere Ltd v Competition Commission </span><span style="font-size:14pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/154" uk:canonical="[2013] EWCA Civ 154" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 154</ref>, should not apply to the issue here.  I can see some force in that point, but the context in which the ORR&#8217;s fact finding and appraisal has to be carried out is the specialist area which it regulates, and in which it has experience of the issues; see </span><span style="font-style:italic;font-size:14pt">R v Director General of Telecoms ex p Cellcom</span><span style="font-size:14pt"> [1999] ECC 314. True it is that the factual analysis here is not in the context of balancing competing factors and policy  objectives, the </span><span style="font-style:italic;font-size:14pt">Cellcom </span><span style="font-size:14pt">context,  but  judgments are nonetheless  required here, for example as to what is a realistic commercial possibility and how rail infrastructure costs could have been funded. And it is a challenge to the rationality and evidence base for a regulator&#8217;s decision. Besides, this Court is not an appellate fact-finder; it would not be enough for this Court to conclude that the ORR&#8217;s decision was wrong; the claim is that it was irrational, because there was no evidence permitting its conclusion.  Mr Facenna has necessarily a high hurdle to cross.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-size:14pt">66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna took me to a number of passages in HAL&#8217;s submissions to the ORR and in those of others, such as TfL, and in the draft ORR decision.  But they do not advance the arguments.  There is no claim that the arguments were misunderstood.  The rationality argument stands or falls by reference to the DL itself and the documents on which the decision is based.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-size:14pt">67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna made a number of criticisms of the DL, its understanding of the CAA position, its supposedly incomplete summary of the material, a determination to adhere to the draft decision in the face of the new evidence and a failure to deal with the purpose of the Railways Act exemption.  But all of this is by the by unless it bears upon the ground chosen by HAL, irrationality and the lack of evidence to support the ORR&#8217;s conclusions.  Many of the criticisms are not to that point. He submitted that in reality, the ORR had required HAL to disprove theoretical possibilities, drawing on the misconceived arguments of TfL. I do not think that that criticism is justified. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-size:14pt">68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt"> Put simply, the issue is: was it rationally open to the ORR to conclude that if fare revenues from the Spur had been found inadequate to recover at least some of its Historical Long-Term Costs, the Spur could have still gone ahead?  The answer, in my judgment, is plainly yes.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-size:14pt">69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The ORR identified a further source of funding, namely the single regulatory till or RAB.  It concluded that the Historical Long-Term Costs of the Spur could, in their entirety, have been placed into the RAB.  This is what actually happened, and the revenue went into the single till as well.  I appreciate that BAA never actually considered the position if no Historical Long-Term Costs could be recovered from rail users because that problem was never presented to it. But the contemporaneous documents do not show that, if that problem had arisen, BAA&#8217;s response would probably have been that Heathrow would get by without the Spur.  It was certainly a legitimate conclusion for the ORR to draw that it would place those costs and revenues in the RAB, and proceed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-size:14pt">70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna disputed that on two major points. First, BAA did not proceed and would not have proceeded with the Spur on that basis, and there was nothing in the contemporaneous documents to support the ORR&#8217;s conclusion that it could have done so. Second, the CAA would not have given regulatory approval to the recovery of all the Spur&#8217;s infrastructure costs from the single till. I start with this first point.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-size:14pt">71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna submitted that the ORR had obtained the contemporaneous documents it needed. Nothing more could be obtained. It was not realistic to suppose that some &#163;400m was expended without the prospect of recovering that from its rail users.  The activities included in the single till should be self-financing. The ORR failed to address how the existence of the RAB could provide an alternative source of funding; there was a policy to maximise the revenue from the user, with airport charges only to make up the shortfall.  If only the shortfall were to be covered, that could not mean that the total costs were recoverable via the single till.  The use of the single till to cover a shortfall was a backup against the unforeseen and not a realistic basis for financial planning.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-size:14pt">72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">In my judgment, however, the ORR did not conclude that BAA was indifferent to the recovery of Historical Long-Term Costs. I see the ORR as accepting that BAA had demonstrated the clear importance to it of maximising fare revenue from rail users, whether because of regulatory pressure, or because it was obviously commercially sensible to maximise fare revenue, and the level of fares at which income was maximised was expected to enable and in fact has enabled a very significant recovery of the Historical Long-Term Costs of the Spur.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-size:14pt">73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">There were however other major factors in play, including the stretched quality of service provided by Heathrow Airport to its users where surface access by road was so congested and the Piccadilly Line, with its drawbacks of rolling stock design and commuter use at least east of Hatton Cross, was the only rail access.  This was of concern commercially to BAA and to the CAA as regulator.  The development of Terminal 5 was being promoted by BAA, and improved rail access through the Spur, was a known strong planning requirement.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-size:14pt">74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Spur was not seen as a simple piece of rail infrastructure linking Airport to GWML, which stood or fell on its own merits as a commercial project, generating revenue to cover construction and operation, without subsidy to rail users&#8217; fares from the general body of airport users.  The strengthening of Heathrow&#8217;s appeal and the need to meet strong planning objections to Terminal 5 put it in a rather different light. That is the analysis, plainly rational on the evidence including the BAA Board minutes, adopted by the ORR.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-size:14pt">75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">As I read the DL, as I have said, the ORR accepted that the basis upon which BAA actually decided to go ahead, was that the Spur would be self-funding and that the infrastructure costs would be met, or largely met, from railway user revenue.  But Mr Facenna is wrong to treat that as disposing of the question at issue here.  That is because BAA did not have to ask or answer that particular question, and understandably the contemporaneous documents contain no answer, for which the ORR clearly made allowance.  It was therefore a question of judgment and inference from the whole of the evidence, as to whether, if necessary, the Spur could have gone ahead without at least some recovery of Historic Long-Term Costs from fare revenues.  The basis of BAA&#8217;s decision is important, DL[30], but the conclusion that there was an alternative source of funding for all the Historical Long-Term Costs in the RAB and therefore a realistic commercial possibility that the Spur would proceed without charges on rail users making a contribution to them, is a rational answer to the DL [33] question. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-size:14pt">76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL&#8217;s response to that, in Mr Facenna&#8217;s second major point, is that the CAA would not have permitted it.  But, in my judgment, the evidence was rationally judged by the ORR inadequate to make that point good.  Mr Facenna put too much faith in the guarded warning of the CAA, set out in DL[64].  The ORR did not treat inclusion of the costs in the RAB as &#8220;axiomatic&#8221;; it was a reasoned assessment of the significance of the Spur for the growth and attraction of Heathrow.  Such an outcome could not be assumed, said the CAA; the ORR did not simply so assume. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-size:14pt">77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA expected fare maximisation, and it assumed, correctly in the real world, that that would lead to at least some recovery of Historic Long-Term Costs.  This does not answer the theoretical question, which the ORR had to answer, as to the position were maximised fare revenue to make no such contribution: was there still a realistic commercial possibility that the project could have gone ahead?  Whilst it is possible that CAA would have said that no costs were to be added to the RAB, scuppering the development of T5 at Heathrow, it was rational for the ORR to conclude that it was rather more likely that all those costs would have been accepted into the RAB in the light of its acknowledgement of the Spur&#8217;s importance, even perhaps anticipating a planning condition on T5 which it would have considered as an exception. This is what in fact happened; the costs were added to the single till, along with the revenues. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-size:14pt">78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna suggested that a relevant part of what the CAA had said had been omitted from DL[64]. The quote from the CAA had gone on to make the point that income from the project was  taken into account in deciding whether the project was of overall benefit to airport users, and so influenced whether the project was added to the single till in the first place. The point which the ORR was making correctly was that the CAA had imposed no requirement to maximise fares. It is no answer to say, as did Mr Facenna, that the BAA would not have been concerned to maximise fare revenue and its contribution to capital costs, if it could have just put it into the single till. The CAA might have required maximisation of fare revenue from rail users, but there was no evidence that it was concerned about requiring rail users to pay any part of capital costs. It was not just part of the capital costs which were put into the single till. That is not to say that it would not have welcomed that; but to the ORR, in my judgment, rationally, that is not an answer to the question. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-size:14pt">79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">There was no CAA policy on surface access at the time of the BAA decision, but even if its 2005 policy had applied, and it required offsetting all surface access costs against surface access revenue,  it still accepted  airport charges funding the residual costs without drawing any line between one sort of cost or another, or requiring some portion of Historical Long-Term Costs or of operating costs to be met by rail fares.  There is no contradiction between the ORR accepting an expectation that HAL would maximise fare revenues before resorting to the RAB for any residual infrastructure costs, and also concluding that the project costs &#8220;could&#8221; have been fully funded by airport charges in the RAB without a contribution from rail users to them, if fare maximisation only covered operating costs.  The actual basis of inclusion in the RAB of residual costs provides no sound guide to what &#8220;could&#8221; have happened.  Mr Facenna is not right in submitting that the ORR was bound to conclude that such an outcome was &#8220;not regulatorily possible&#8221;.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-size:14pt">80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I appreciate that the CAA has regulatory concerns about the implications of the ORR&#8217;s decision for the allocation of costs between airport users and rail users, and that this may affect airports other than Heathrow.  But that has nothing to do with this case, in the absence of clear evidence, placed before the ORR, that that sort of concern would have affected the issue which the ORR had to decide.  None of the CAA witness statements pointed to any policy in force in 1993 which would have precluded the use of the single till to recover all of the capital costs of the project, and Ms Howard, for the CAA, though pressed on the issue, did not suggest that there had indeed been some regulatory approach which would have precluded the use of the single till to recover capital costs not recovered from fare revenue.  Some of the CAA evidence was submitted after the ORR decision anyway. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-size:14pt">81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna also submitted that the ORR was not reasonably entitled to conclude that the inclusion of the project in the single regulatory till by the CAA, after the decision to proceed had been made, could rationally show that the project could always have been fully funded from airport charges, without </span><span style="font-style:italic;font-size:14pt">any</span><span style="font-size:14pt"> contributions from rail users.  The CAA&#8217;s submission to the ORR, DL[64], is expressing the same point, though without specifying the difference between </span><span style="font-style:italic;font-size:14pt">some</span><span style="font-size:14pt"> and </span><span style="font-style:italic;font-size:14pt">any</span><span style="font-size:14pt">.  But its submission to me confirmed that its expectation in 1993 would have been that HAL would maximise revenue from rail passengers </span><span style="font-style:italic;font-size:14pt">first </span><span style="font-size:14pt">before resorting to recovery of its infrastructure costs from airport users.  The ORR saw this, correctly in my judgment, as the CAA saying that airport charges are available to make up </span><span style="font-style:italic;font-size:14pt">any</span><span style="font-size:14pt"> shortfall in revenue from users of surface access infrastructure; DL[65].  DL[63] concludes that there was no specific correlation between any RAB rate of return  and rail users&#8217; contribution to Historical Long-Term Costs. Entry of the costs into the RAB required no more than that it was airport costs that were to be covered. Once in the RAB, there was no distinction between asset classes nor was there a matching of revenue to the cost of any particular asset or class of asset.  The CAA required no particular percentage of cost to be recovered from rail users. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="font-size:14pt">82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna made two lesser submissions:  the importance of the exemption from the Railways Act was not rationally attributed to the recovery of lost fare income; DL[76]-[77].  This was because fares were set to recover the Historical Long-Term Costs, by implication </span><span style="font-style:italic;font-size:14pt">all</span><span style="font-size:14pt"> of them.  Therefore maintenance of fare revenue and recovery of capital costs were the same in substance and not rationally distinguishable.  This is obviously how the Board were approaching matters. The two reasons which ORR gave in DL [74]-[78] were unsustainable; the exemption was about the ability of HAL to impose track access charges, and as the March 1993 Board paper showed, it was about the financial viability of the project.  Maximising fare revenue was essential to covering costs.  The project was contingent on a robust financial appraisal in which the debt could be serviced, and an exemption for charges could be levied on other users.  The non-airport element in the RAB or single till contributed to a reduction in airport charges; it was not the other way round such that the airport charges could be increased to subsidise non-aviation activities. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-size:14pt">83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I accept there is some force in this criticism but, to my mind, it goes more to the quality of the reasons given or their expression in DL[77], than to rationality or the evidence base for the decision. The ORR is right that the focus was on the loss of revenue through transfer of passengers to Crossrail services, rather than specifically on the loss of contribution to capital costs. And that is how it was dealt with in the CAA decision over HAL&#8217;s contribution to Crossrail, as I shall come to it.  However, when the maximised fare revenue contributes to infrastructure cost recovery, as it did and as it was intended to here, a threat to fare revenue is a threat to infrastructure costs recovery. But, even if all three purposes had been accepted, the question would still have remained: could the project have gone ahead without the prospect of some infrastructure cost recovery from fares or users?  The ORR answer was: yes, because it could all have been placed in the RAB; see also DL[79]. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="font-size:14pt">84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna finally dealt with Newco. He submitted that the ORR had reached an irrational distinction between the position in 1993 when BAA took the decision to proceed, the JOA was in force and Newco was to bring the project to fruition, and the position in 1996 when BAA had paid BRB out.  The ORR had accepted, DL [50], that the use by the BAA/BRB joint venture of Newco would probably have satisfied the paragraph 3 test.  It was irrational to treat the position differently because the operating company was owned by HAL: the costs would be the same and the revenue would perform the same function of paying for operational costs and the capital costs of the project.  The capital cost was in the single till in 1991.   But, submitted Mr Facenna, that was indeed the position at the time BAA took the decision to proceed, the point in time which DL[30] and [33] regarded as critical.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-size:14pt">85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This point is answered in DL [55]. Inclusion in the single till, if not formally then in the RAB, was a realistic commercial possibility, and could have been deployed as an alternative to Newco. Besides Newco was never adopted, there never was a vertically integrated stand-alone company; the costs went into the single till from the start, as did the eventual revenue. The Spur went ahead as an integrated part of the operation of the airport, as was wholly consistent with what BAA told the MMC in its 2001 submissions about the dual till. BAA had viewed this as a whole from the perspective of the airport operator.  If the ORR had erred here, it is in not pointing out that, even if Newco had been used in fact, the project could still have proceeded, as an alternative, via the single till; it did not have to proceed via Newco, even if in fact that is how it had been done. The structure chosen does not dictate the answer to the hypothetical question. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-size:14pt">86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I turn to two additional submissions made by TfL in support of the ORR. I accept that the &#8220;higher charges&#8221; in paragraph 3(3)(1) and (2) of Schedule 3 to the Regulations are those referred to in paragraph 1(4) of Schedule 3, namely charges for &#8220;the minimum access package and track access facilities,&#8221; which are &#8220;infrastructure charges&#8221; under Regulation 12. Regulation 12 sets out the principles of access charging to be followed by the infrastructure manager, which find detailed expression in Schedule 3.  First, I do not accept that the provision for higher charges was intended to deal only with the case where an investor had made a specific contribution to costs which had to be met from access charges.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num style="font-size:14pt">87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Second, although the distinction between operational charges and &#8220;higher charges&#8221; is clear enough in the Directive and Regulations, there is nothing to stop railway user revenue, from fares, being set at a level which recovers more than the operational costs and makes a contribution to &#8220;higher charges&#8221;. The problem is whether third parties can be required to pay &#8220;higher charges&#8221; for track access. The third criterion is not satisfied simply because fares charged by the owner may contribute to infrastructure costs. The question in DL[33] remains to be answered. If there were no realistic commercial possibility that the project could have proceeded without some infrastructure cost contribution from fares, then higher charges in the form of a track access charge can be sought from the third party. There is some equivalence of treatment. If there were a realistic commercial possibility that the project could have proceeded without fares contributing towards infrastructure costs, then the third party does not have to pay the higher charges.  The approach in the Directive and Regulation may lack nuance, and in certain circumstances afford some advantage to the third party over the track owner. But the question in DL[33] was not challenged. The answer given by the ORR is not irrational or wanting in evidence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num style="font-size:14pt">88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This ground is dismissed. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">TfL&#8217;s submission on transposition </span></heading>
+	  <paragraph eId="para_89">
+	    <num style="font-size:14pt">89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">TfL submitted that HAL could not introduce track access charges based on long term costs, as HAL did not in fact impose any such charges until 2015.  Article 8(2) had been wrongly transposed in the 2005 Regulations.  Article 8(2) should be read as containing two distinct provisions; see paragraph 7 above. Where a specific project had yet to take place, and it was in</span><span style="font-style:italic;font-size:14pt"> the future</span><span style="font-size:14pt">, the infrastructure manager </span><span style="font-style:italic;font-size:14pt">could set </span><span style="font-size:14pt">higher charges on the basis of the long term costs if the project could not otherwise</span><span style="font-style:italic;font-size:14pt"> be</span><span style="font-size:14pt"> undertaken.  This was to be contrasted with projects which had </span><span style="font-style:italic;font-size:14pt">been completed not more than fifteen years before the Directive came into force,</span><span style="font-size:14pt"> where the infrastructure manager was permitted to</span><span style="font-style:italic;font-size:14pt"> continue to set higher charges</span><span style="font-size:14pt"> if the project could not otherwise </span><span style="font-style:italic;font-size:14pt">have been</span><span style="font-size:14pt"> undertaken.  The italics seek to highlight the way in which Mr Rowlands submitted the Directive should be read: the two provisions have been run together, but the structure of the sentence shows that each provision  has its one related consequence.  This has not been reflected in the Regulations which do permit access charges to be set where they have not been set before, even after a project has been completed.  They should however be interpreted to reflect the true interpretation of the Directive. Thus interpreted, there is no scope for higher charges to be levied on third parties for accessing the Spur. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-size:14pt">90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The correctness of his reading was, he submitted, supported by the way in which, in this case, HAL was trying to demonstrate that the project depended for its viability on something which had not happened until nearly twenty years after its completion, namely levying access charges, aimed at recovering construction costs.  HAL simply could not levy such charges now.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-size:14pt">91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL and ORR were on the same side on this point, against TfL. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-size:14pt">92.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Rowlands&#8217; argument is not correct in my judgment.  The Directive reads in a perfectly clear and straightforward way in the way HAL and the ORR have read it.  Mr Rowlands&#8217; submissions require a process of deconstruction and reconstruction which it would have been quite easy to provide for, if intended.  I accept that the style and structure of a Directive is different from domestic legislation, but I am not at all persuaded that two different scenarios, with two different effects, would routinely be run together in this way, for the reader to decrypt.  I was not persuaded either that Mr Rowlands&#8217; reading revealed any particular purpose which the Directive would have had in mind so as to support his reasoning. Nor is the outcome of the way in which the draughtsman of the domestic Regulation, the ORR and HAL read it devoid of sensible purpose or strange in outcome so as to indicate that Mr Rowlands&#8217; interpretation is correct.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-size:14pt">93.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The language of Article 8(2) appears in the recast Directive 2012/34/EU at Article 32(3), save that it refers to projects which have been completed &#8220;after 1988&#8221;, instead of &#8220;not more than 15 years before the entry into force of this Directive&#8221;. This was transposed by the Railways (Access, Management and Licensing of Railways Undertakings) Regulations 2016 SI No.645, made on 21 June 2016, in force from 29 July 2016.  This form of transposition has been of some years&#8217; standing and has been repeated, without drawing adverse comment from the European Commission so far as I am aware.  That offers some further support to my judgment that the Regulations contain no error or transposition.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">Unjust enrichment </span></heading>
+	  <paragraph eId="para_94">
+	    <num style="font-size:14pt">94.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">TfL contended that even if HAL were right that the ORR DL was irrational, nonetheless relief should be refused because the way in which HAL had conducted negotiations with TfL and DfT over its contribution to Crossrail meant that the long-term construction costs of the Spur had already been taken into account by way of a reduction in the contribution which it would otherwise have paid towards Crossrail.  For it to have the benefit of that lesser contribution, and then to levy a track access charge to recover the same costs, would be an unjust enrichment.  HAL denied that its contribution had been calculated in that way. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-size:14pt">95.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This was not an issue which involved the ORR, which makes it a curious issue to raise in a challenge to a decision of the ORR.  It took no stance on the issue. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-size:14pt">96.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">In November 2008, the SST wrote to HAL setting out the agreed basis upon which HAL would make a contribution of &#163;180m to the DfT in respect of Crossrail.  It agreed to make the contribution in exchange for a commitment from the SST that he would procure the timetabling of certain Crossrail services to Heathrow and that the Crossrail train operator had a legally binding obligation to operate those services.  This however was agreed to depend on the approval of the CAA, because it was intended by HAL to add the contribution to the single till/RAB for Heathrow.  HAL agreed to use all reasonable endeavours to obtain that approval by 1 April 2013, and the SST agreed to provide the evidence necessary to justify adding the contribution to the RAB.  The commitments were conditional upon payment of the contribution, and the Crossrail train operator being granted the track access rights to the Heathrow Spur, in accordance with the Deed of Undertaking so as to operate the services to which it was committed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-size:14pt">97.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL presented its case to the CAA in January 2013, in the &#8220;HAL Crossrail Contribution Financial Analysis Report&#8221;.  It advanced the case for a nil contribution into the RAB because of the negative impact which Crossrail would have on the finances of HAL.  One of the modelling assumptions HAL expressly made was that HAL would receive from the Crossrail service operator a track access charge &#8220;calculated as the costs incurred by HAL to maintain and manage the infrastructure plus 10%.&#8221;  So, it was submitted by Mr Hickman for the SST that the premise was that the Historic Long-Term Costs would not be recovered by way of track access charges from Crossrail operations.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-size:14pt">98.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The SST responded in July 2013, with the assistance of a consultant&#8217;s report, to the effect that a contribution into the RAB of &#163;137m was justified.  The DfT analysis of benefits included &#163;4m for what it called &#8220;access charge margins&#8221;, in effect access charges.  This was based on the NPV of the annual difference of &#163;0.5m, positive to HAL, between the access charge revenue assumed to be received from Crossrail and the operating costs incurred by HAL in relation to the Crossrail services.  There was also a small benefit of &#163;1m from Crossrail revenues.  But the operating profit margin was not based on any recoupment of historic costs.  The major benefit was what was termed the value of scarcity, the calculated benefit which having Crossrail services to the airport would bring to the airport generally.  The calculated loss of fare revenue to the Heathrow Express from passengers transferring to Crossrail was deducted from the benefits, to produce the contribution claimed of &#163;137m.  Mr Hickman submitted that  this case was premised on HAL not levying a charge for the recovery of  historic costs; had that been proposed, the benefit to HAL would have increased and so too would its contribution.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num style="font-size:14pt">99.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA determined the issue in a decision of January 2014 covering the period April 2014 &#8211; March 2019 (Q6); it assessed the contribution from HAL to Crossrail which could go into the RAB at &#163;70m.  The two tests applied by the CAA in assessing what contribution could go into the RAB were (i) whether the contribution was in the interests of passengers and cargo owners, and (ii) whether it would be undertaken by an airport owner operating in a competitive market, because it had a positive NPV to the airport operator.  These tests reflected the scope of the CAA&#8217;s duty which related to the operation of the airport, and not to activities not linked to the operation of the airport.  Mr Hickman submitted that the CAA was asking about the value of Crossrail services to the airport operation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num style="font-size:14pt">100.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The CAA identified the three main areas of difference between HAL and the DfT, and explained its view on them.  Recovery of long term costs of the Spur from Crossrail was not part of the debate or analysis; it was not mentioned.  The CAA reached a broad qualitative judgment on the three significant differences, all of which relate to the value of the increased demand which Crossrail might bring for Heathrow.  The value to be attributed to the greater willingness of new airline passengers to pay higher airline fares because Heathrow had little capacity, the &#8220;scarcity value&#8221;, was by far the greatest of the three.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num style="font-size:14pt">101.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This led to a further contribution agreement between HAL and the SST dated 2 February 2015, replacing the 2008 agreement.  Obligations with broadly the same effect were undertaken by the SST in return for the contribution and the grant of track access rights by HAL over the Spur for Crossrail services in accordance with the Deed of Undertaking.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num style="font-size:14pt">102.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Hickman submitted that the reference to the Deed of Undertaking showed that the premise for this 2015 agreement was that the 2005 Regulations applied, the issue in Ground 1 to which I shall come, and that HAL would not charge for the recovery of long term historic investment costs.  Had it been otherwise, the CAA would have assessed the value to HAL of Crossrail as greater than it did.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num style="font-size:14pt">103.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">TfL supported Mr Hickman&#8217;s submission but added reliance upon a letter written by HAL to TfL on 1 June 2006, but marked &#8220;without prejudice&#8221;.  TfL showed that it had been circulated at a meeting between TfL, HAL and a representative of the Joint Sponsor Team, (from the DfT), at which HAL had said that its current proposals for access charges were broadly in line with that letter.  HAL objected to its disclosure before the ORR, and complained to me at its &#8220;improper unilateral disclosure.&#8221;  But it was in the bundle of documents and Mr Facenna did not ask me to order its removal.  It was discussed in the evidence of Mr Cornelius, Rail Project Manager for the HAL subsidiary managing the Crossrail service at Heathrow, although he drew attention to the fact that it was marked &#8220;without prejudice&#8221;, saying that there had been ongoing disputes between HAL and DfT about access charges.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num style="font-size:14pt">104.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I am of the view, though I have not had much argument on the issue, that the letter lost its privilege, if privilege it had, when it was referred to and circulated at the meeting in 2012, and used as a handy cross reference for the stance being adopted.  It was not a repeat of a &#8220;without prejudice&#8221; position as such.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num style="font-size:14pt">105.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Hatch, the Regulation Manager for the central section of Crossrail, calculated that if the recovery of long term costs had been included in the access charge margins, the benefit to HAL would have increased by between &#163;120 and &#163;158m, which would have fed into the contribution, and on the same basis on which the CAA reached its conclusion on other factors, the contribution would have been increased by &#163;125m, at least.  This could not now be met by a larger contribution and would need to be met by higher Crossrail fares or a reduced service.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num style="font-size:14pt">106.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I am satisfied that Mr Hickman&#8217;s submissions on the facts are correct.  HAL&#8217;s case to the CAA in January 2013 was premised on the basis of the costs of maintaining and managing the infrastructure plus 10%, and not on the basis that the track access charges to be recovered from Crossrail would contribute to the Historical Long-Term Costs of the Spur.  The SST&#8217;s case took the capitalised value of track access charges at &#163;4m; this figure did not include a charge for Historic Long-Term Costs.  That figure of &#163;4m then featured in the CAA decision.  There was no discussion in its decision about that figure or the recovery of Historical Long-Term Costs because there appeared to be no issue about it.  That figure was also of no great significance in the context of the much larger sums at issue, all of which required a broad qualitative judgment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num style="font-size:14pt">107.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I do not know how the figures might have been presented, argued over and resolved, if the &#163;4m track access charge had been augmented by a contribution to Historical Long-Term Costs.  Mr Hatch&#8217;s evidence that the benefit would have increased HAL&#8217;s contribution may be right, but the amount of increase cannot be deduced.  I do not need to resolve that.  I accept that it shows obvious scope for a debate, which did not take place, and that an increase in charges recovered from Crossrail would have increased the benefit, so far as I can see, possibly by an equal amount and probably by a large amount, on which the CAA would have had to rule and then take into account in the assessment of the contribution.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num style="font-size:14pt">108.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The &#8220;without prejudice&#8221; letter of 1 June 2006, with its stance that the access charge would make no provision for the return of capital employed, is consistent with my conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num style="font-size:14pt">109.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The legal significance of this is that were HAL to succeed in this challenge, it would have both the advantage of making a contribution to Crossrail reduced, perhaps very significantly because it would not recover Historical Long-Term Costs from Crossrail via access charges, and the right to recover such costs from Crossrail via access charges.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num style="font-size:14pt">110.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I do not need to decide whether or not this would amount to a recoverable unjust enrichment, particularly as no sum could yet be ascertained, nor whether such an argument can as such be a bar to obtaining judicial review.  I am satisfied that those circumstances would be relevant to the exercise of my discretion, had HAL persuaded me that the ORR had reached an irrational conclusion.  I would have exercised my discretion against quashing the ORR decision, because HAL should not be allowed to profit from presenting a case to the CAA on its contribution to Crossrail which assumes, to HAL&#8217;s financial advantage, a track access charge wholly inconsistent with what it later argued for to the ORR.  Crossrail, TFL and the SST have all agreed to the contribution with HAL, and conducted their subsequent arrangements on that basis.  The Court&#8217;s discretion should be exercised against providing HAL with so unjust and enriching an advantage, at their expense.  It was not until December 2014 that HAL revealed to the SST that it was intending to include recovery of these costs by way of access charges in what became its June 2015 Network Statements, contrary to what I accept was the common premise of its dealings with SST between 1996 and the end of 2014.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num style="font-size:14pt">111.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I would have refused relief even if this ground of challenge had been otherwise successful.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">The application of the Regulations</span></heading>
+	  <paragraph eId="para_112">
+	    <num style="font-size:14pt">112.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Logically, HAL&#8217;s first ground comes first since it raises the contention that the 2001 Directive and the 2005 Regulations do not apply at all to the Heathrow Spur, and the conclusions of the ORR, which assumed that they do apply, are so much waste paper.  But that gave rise to some other issues about the way in which HAL had conducted itself which are better considered at this stage. This ground was not at issue before the ORR.  It alleged however that the ORR had erred &#8220;in presuming that&#8221; Schedule 3 of the Regulations applied to HAL and the Heathrow Spur. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num style="font-size:14pt">113.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The 2001 Directive, 2001/14/EC above, permitted Member States to exclude from its control of the setting and charging of railway infrastructure charges, &#8220;networks intended only for the operation of urban or suburban passenger services&#8221;; Article 1.3(b).  &#8220;Network&#8221; by Article 2(i), means &#8220;the entire railway infrastructure owned and/or managed by an infrastructure manager.&#8221;  Council Directive 91/440/EEC on the development and management of the railways in the EEC, and which 2001/14/EC amended in the light of experience, had also permitted the exclusion, from its scope, of railway undertakings &#8220;whose activity is limited to the provision of solely urban, suburban or regional services.&#8221;  &#8220;Urban and suburban services&#8221; in the earlier Directive meant &#8220;transport services operated to meet the transport needs of an urban centre or conurbation, as well as the transport needs between such centre or conurbation and surrounding areas.&#8221; That definition was not amended by the 2001 Directive.  Mr Facenna also referred me to Directive 2012/34/ EU establishing a single European railway area, recasting the two earlier Directives and due for implementation by 16 June 2015; Article 2.3(b) continues to permit the exclusion of networks intended only for the operation of urban and suburban rail passenger services, and Article 3(6) defines  such services as transport services &#8220;whose principal purpose is to meet the transport needs of an urban centre or conurbation &#8230;&#8221;, with no material amendment to the rest of the definition. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num style="font-size:14pt">114.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Schedule 3 to the 2005 Regulations, above, which deals with access charging, is disapplied, so far as material, by Regulation 4(4) which states that it does not apply to &#8220;networks intended only for the operation of urban or suburban passenger services.&#8221; Except where otherwise specified, by Regulation 9(2), &#8220;expressions used in these Regulations and in the Council Directives shall have the same meaning as in the Council Directives.&#8221; Those Directives are 91/440 and 2001/14.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_115">
+	    <num style="font-size:14pt">115.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The debate before me was only to a limited extent about whether or not the Heathrow Spur was such a network or not. The parties were at odds on that point.  Mr Facenna submitted that the principal purpose of the Heathrow Spur was to connect central London to the Airport, so meeting a transport need of London as an urban centre or conurbation.  Mr Hickman for the SST submitted that it was outside the scope of the exclusion because the principal purpose of the Spur was to meet the commercial and transport needs of Heathrow Airport, a private albeit global transport hub.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num style="font-size:14pt">116.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Hickman chiefly submitted that the point was academic because of the effect of the May 2008 Deed of Undertaking between HAL and the SST, whereby HAL had agreed to grant Crossrail access to the Heathrow Spur on the basis that the 2005 Regulations applied, and had given similar undertakings to TfL. He also submitted that the ORR had decided on 12 January 2013 that the 2005 Regulations did apply to the Heathrow Spur, and that HAL had decided not to challenge that decision. It was now too late for it to do so, and this Court should exercise its powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s31(6)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> to deny HAL a remedy even if it were right. Collins J, in granting permission for both grounds to be argued, had said that if the delay point was good, it could be raised under that provision. This provides: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-weight:bold;font-size:14pt">&#8220;(6)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.57in"><span style="font-size:14pt">Where the High Court considers that there has been undue delay in making an application for judicial review, the court may refuse to grant &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:14pt">(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.39in;text-indent:0.29in"><span style="font-size:14pt">leave for the making of the application; or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:14pt">(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.21in;text-indent:0.65in"><span style="font-size:14pt">any relief sought on the application,</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">if it considers that the granting of the relief sought would be likely to cause substantial hardship to, or substantially prejudice the rights of, any person or would be detrimental to good administration.&#8221;</span></p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num style="font-size:14pt">117.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL was also estopped from seeking recovery now because the SST and others had relied on the ORR&#8217;s 2013 decision and on the absence of challenge to it, committing themselves in consequence to the expenditure of very large sums of money; the SST had also not used his power to end HAL&#8217;s exemption from the access requirements of the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref>; and HAL&#8217;s financial commitment to Crossrail had also been calculated on the basis that the 2005 Regulations applied. Mr Rowlands for TfL put the same points in different guises: the ground was raised far too late after the ORR decision in 2013; an extension of time would be severely detrimental to good administration and to the public interest. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num style="font-size:14pt">118.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Thompson for the ORR put it this way: this ground was not in reality a challenge to the ORR&#8217;s decision but was a challenge, stale by 3 &#189; years, to the 2013 decision which HAL had invited it to make, on which all parties including the ORR had acted. It had never been raised before the ORR. There was no good reason for the delay. The challenge in effect meant that ORR had committed significant public resources to dealing with an irrelevant dispute, and it would affect the ORR&#8217;s powers to deal with an appeal brought by TfL under the Regulations in relation to HAL&#8217;s offered terms of access for Crossrail. HAL has suggested to the ORR that its determination of the appeal should await the decision of this Court on the application of the Regulations. As I understand matters, delay rather strengthens HAL&#8217;s hands when dealing with the terms upon which Crossrail can obtain access to the Heathrow Spur. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_119">
+	    <num style="font-size:14pt">119.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna responded to these points by denying the asserted prejudice arising from delay or from any detrimental reliance, but also by emphasising that HAL &#8220;is content to conduct its dealings with Crossrail consistently with all of the obligations in the 2005 Regulations&#8221;, save for the issue raised before the ORR and the subject of Ground 2. It was engaged with Crossrail in the preparatory steps for the operation of Crossrail services, for which the work continued as normal. No principal or detailed arrangements were being called into question.  Mr Cornelius, Rail Project Manager for HAL, and formally employed by LHR Airports Ltd, a subsidiary of HAL, said in his witness statement that HAL was committed to providing access to Crossrail &#8220;in a manner broadly consistent with the Regulations, subject to the narrow point in those proceedings.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_120">
+	    <num style="font-size:14pt">120.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">But the claim was not academic on that account because, although HAL was contractually bound by the Deed of Undertaking and would abide by it, that was a private agreement between HAL and DfT, and HAL needed to &#8220;establish the correct position in law, and therefore its obligations under the 2005 Regulations as against the world.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_121">
+	    <num style="font-size:14pt">121.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The relevant events start with the Deed of Undertaking in 2008. The SST, as promoter of the Crossrail Bill, agreed in clause 4.2 that she would not withdraw HAL&#8217;s  exemption under the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref>, and would not exercise a range of other powers, if certain conditions were met by BAA/HAL/HEOC, as petitioners against the Bill.  Those conditions are set out in clause 5.1. The first sub clause, 5.1.1, is there to deal with this &#8220;network&#8221; issue.  The first condition is that there should be no determination before 1 December 2014 (now 31 May 2016), by the ORR or a court or tribunal with jurisdiction, that the 2005 Regulations do not apply to the Heathrow Spur. The obvious agreed purpose was that if such a body decided that the Regulations did not apply, the undertaking not to remove the statutory exemption would lapse. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_122">
+	    <num style="font-size:14pt">122.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt"> If there had been no such determination, the sub clause went on to provide for what should happen.  The second condition was that HAL should initiate discussions with the ORR, in consultation with the SST, about the application of the Regulations, and their implementation in respect of the Heathrow Spur on or before 1 January 2013.  The discussions had to be initiated by HAL sending a letter in accordance with principles set out in an appendix.  The principles required HAL to ask ORR to confirm that the Regulations did indeed apply to the Heathrow Spur, to comment on the proposed Spur network statement, and to confirm the relevant charging framework and specific charging rules. I note that it was confirmation of the application of the Regulations which was to be sought, not something more neutral. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_123">
+	    <num style="font-size:14pt">123.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Such a letter was sent by HAL to the ORR on 27 November 2012, complying with this condition. The Deed of Undertaking was appended, attention was drawn to clause 5.1.1(i), and the letter continued: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;Please will you accept this letter as an invitation to deal with the matter referred to in Appendix 3 of the said Deed of Undertaking and confirm that the 2005 Regulations apply in respect of the Heathrow Spur.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">On receipt of the confirmation that the 2005 Regulations apply, we will look to further engage ORR for comments on the proposed Heathrow Spur network statement and confirmation of the relevant charging framework and specific charging rules.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_124">
+	    <num style="font-size:14pt">124.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The answer came back on 10 January 2013, and in the light of the language of the request, the answer cannot have come as a surprise. It referred in general terms to the exemptions in Regulation 4, and said:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-size:14pt">&#8220;ORR has considered the applicability of the exemptions to Heathrow Airport Limited and Heathrow Express Operating Company Limited and it is our view that the Regulations do apply in each case.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_125">
+	    <num style="font-size:14pt">125.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Its invitation to HAL to contact the ORR if it had any queries was not apparently taken up. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_126">
+	    <num style="font-size:14pt">126.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Other relevant conditions included (i) that HAL should begin discussions with the SST over the programme for agreeing a Heathrow Access Option by 31 August 2015, (initially 1 December 2013), based on the agreed and appended draft, (ii) that HAL should be &#8220;in compliance with the requirements of the 2005 Regulations&#8221; by that date, including by the publication of &#8220;a network statement in accordance with Regulation 11 of the 2005 Regulations&#8221; and by complying with various other provisions of them, and (iii) that it should be willing to enter into the Heathrow Access Option. The parties agreed, in clause 6, that they would act &#8220;reasonably and expeditiously&#8221; in developing that Option. By clause 6.2, the terms of the Option &#8220;shall comply with the 2005 Regulations or any other applicable law or regulations&#8230;.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_127">
+	    <num style="font-size:14pt">127.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I have already referred to HAL&#8217;s Network Statement of June 2015; it stated that it &#8220;is provided in compliance with HAL&#8217;s obligations under the Regulations.&#8221;  The SST was first made aware of the assertion that the Regulations did not apply to the Heathrow Spur when he was sent the letter before claim in these proceedings, though at the time of the Deed of Undertaking, the parties must have been aware that it was a possible contention in HAL&#8217;s mind. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_128">
+	    <num style="font-size:14pt">128.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Indeed, Mr Hickman and Mr Rowlands both described the purpose of clause 5.1.1 as being to &#8220;flush out&#8221; any challenge to the application of the Regulations early, so that it could be dealt with well in advance of the start of Crossrail services, and if there were no challenge to it, the Regulations would have been complied with for the purpose of access negotiations. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_129">
+	    <num style="font-size:14pt">129.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">The Heathrow Spur for the purpose of this Directive and Regulation is not the Heathrow Spur in the colloquial sense.  HAL&#8217;s ownership, as I have said, stops at the tunnel portals 1 mile south of Airport Junction.  What HAL owned was the network.  Heathrow Express was the service.  Both sides submitted that they were clearly correct that the principal purpose of the service was, or as the case  might be,  was not, to meet the transport needs of an urban centre or conurbation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_130">
+	    <num style="font-size:14pt">130.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt"> I have not found the answer clear at all.  The parties&#8217; arguments seemed to be like looking down the same telescope but from opposite ends.  Clearly, Heathrow Express serves Heathrow Airport and airline passengers, and perhaps people seeing them off or meeting them, and some employees; all Spur services start or finish there, whether or not they stop before reaching Paddington as well.  Clearly it serves London, whether passengers start their journey at Paddington or start it elsewhere, going to Paddington to catch a train to Heathrow.  The same is true for those travelling from Heathrow to Paddington.  The Piccadilly Line has some similar characteristics in its extension into Heathrow, catering for airline passengers, those seeing them off or meeting them,  and also for employees, yet it is part of a network intended for the operation of urban or suburban services.  Mr Rowlands adopted his witness&#8217; description of the Spur as a &#8220;stub end&#8221; of the national rail network, which seems to me not quite accurate; it is perhaps as much a stub end serving the airport and the conurbation as is the Piccadilly Line extension.  HAL acknowledged that the Piccadilly Line east of Hatton Cross was however shared with commuters and the rolling stock was not specifically designed for airline passengers, and it is likely to cater for rather more employees, because of its other nearby stops.  The Heathrow Connect stopping service is not the principal purpose of the Spur, nor the principal service; it could not bear the weight HAL put on it in this context.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_131">
+	    <num style="font-size:14pt">131.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">It may be that the correct description of services falling outside the exclusion in Regulation 4(4) is best provided by a focus on the particular nature of the service within the conurbation, its singular origin or destination, and on the predominant characteristic of the passenger.  But that too might be true of the Piccadilly Line west of Hatton Cross.  I was not sure at what point on the journey, a person could be said to become or cease to be an airline passenger, which was the group Mr Rowlands saw the Spur as exclusively serving so as to differentiate them from others.  The private ownership of the airport seems irrelevant.  Rail services to its main airport seem  an obvious part of rail services for a conurbation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_132">
+	    <num style="font-size:14pt">132.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt"> In the end, however, I have decided not to resolve this issue.  Were I to decide for the SST and TfL, it would advance HAL not at all.    If I decided the issue in its favour, and the only relief HAL sought was a declaration rather than a quashing of the ORR decision, I would refuse relief for reasons to which I shall come.  But refusing  a declaration in its favour, could be little different in effect from a judgment in its favour.  Therefore, because I have decided that no relief should be granted were the issue to have been decided in HAL&#8217;s favour, and because deciding the issue could lead to an outcome little different in effect from the grant of relief, and to considerable confusion as to the legal effect of my decision, I decline to decide the issue at all.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_133">
+	    <num style="font-size:14pt">133.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">My two main reasons for concluding that relief would be refused are as follows.  All parties to the Deed of Undertaking have acted on it and continue to act on it as the basis for resolving the interaction between Crossrail and the Heathrow Spur.  It contained an express provision and timetable for the resolution of the application of the Regulation to the Spur.  That was operated and resolved at HAL&#8217;s instigation under the Undertaking by its letter of 27 November 2012 and by the ORR&#8217;s predictable response of 10 January 2013.  This was wrongly characterised by HAL as merely an expression of opinion.  The issue was resolved between the parties by the body asked to resolve it, in the way HAL asked it to do.  It was obviously challengeable.  And indeed, a declaration could have been sought at anytime before or promptly after it.  Challenging this ORR decision on a ground not raised for resolution in that decision is merely opportunistic, at best.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_134">
+	    <num style="font-size:14pt">134.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I accept the submissions of Mr Hickman and Mr Rowlands that these provisions of the Deed of Undertaking were required to flush out whether HAL did indeed intend to dispute the application of the Regulations.  It did not do so, not in January 2013 nor in 3 months thereafter, nor before the ORR, nor until its letter before claim.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_135">
+	    <num style="font-size:14pt">135.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">If permission had not been granted, I would have refused permission to argue this ground, at least with the benefit of argument and hindsight.  It has been granted, so 31(6) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> falls for consideration.  Collins J, granting permission expressly allowed for that.  First, there has plainly been undue delay, even if the ORR&#8217;s decision of January 2013 is regarded as the first point at which grounds arose.  The ORR&#8217;s decision  under challenge here, in which the issue was not even raised, or averted to, provides no more than a vehicle for an opportunistic challenge, and a flimsy cloak to cover the extensive delay.  The point could equally as well or rather better have been taken before the ORR began consideration of the issue before it.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_136">
+	    <num style="font-size:14pt">136.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">I am satisfied that relief, or a decision in HAL&#8217;s favour, would be likely to cause substantial hardship to or substantially prejudice the interests of others.  HAL&#8217;s financial contribution to Crossrail has been determined on the basis that the Regulations apply.  HAL has taken advantage of its overt stance on the Regulations to avoid removal of the exemption.  If it were to now seek to negotiate its obligations on the basis that the Regulations did not apply, it would obtain a stronger negotiating hand at a time when the financial arrangements had been agreed, and time was now pressing for the conclusion of arrangements for the commencement of the operation of Crossrail.  Its contribution to Crossrail has been agreed, as I have concluded, on the basis that its access charge would include no recovery of Historical Long-Term Costs.  If there is no prejudice to others, the point is wholly academic.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_137">
+	    <num style="font-size:14pt">137.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Likewise, HAL&#8217;s behaviour would have caused detriment to good administration, unless the point is academic, for much the same reasons.  But public money would have been spent and in part wasted on the assessment of its contribution to Crossrail and this ORR decision, and on all the intervening negotiations. The detriment under both heads is demonstrated in the witness statements of Mr Lodge of the DfT Rail Group, and in paragraphs 28-46 of Mr Smith, Crossrail Operations Director within TfL.  I do not doubt that HAL knew the importance of its apparent stance to the way agreements were reached, decisions were taken and public money was expended by others.  I do not think however that if the challenge were sound and not ruled out by <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s31(6)</ref> Senior Courts Act, that I would rule that HAL were estopped from raising it. I do not decide that estoppel has no role in relation to this statutory discretion in public law but <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s31(6)</ref> makes explicit provision for the circumstances in which an estoppel is most likely to arise.  The generally discretionary nature of judicial review remedies suffices for the factors which generate an estoppel to be allowed for as well.  In reaching these conclusions I have considered both </span><span style="font-style:italic;font-size:14pt">R(Lichfield Securities Ltd) v Lichfield DC </span><span style="font-size:14pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/304" uk:canonical="[2001] EWCA Civ 304" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 304</ref> [2001] PLCR 32, and </span><span style="font-style:italic;font-size:14pt">R(Gerber) v Wiltshire Council</span><span style="font-size:14pt"> <ref href="#" uk:canonical="[2016] 1 WLR 2593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 2593</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_138">
+	    <num style="font-size:14pt">138.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Accordingly, if I had found for HAL on this issue, I would have refused relief on Ground 1 under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s31(6)</ref>, as under my general discretion. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_139">
+	    <num style="font-size:14pt">139.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Mr Facenna protests at this: HAL was committed to the Deed of Undertaking. However, I did not find reassurance in Mr Cornelius&#8217; rather carefully chosen words. Were I to decide for HAL, so that its &#8220;obligations under the 2005 Regulations as against the world&#8221; were resolved, I am both wholly unclear and mightily suspicious as to the beneficial significance to HAL which that might have.  I cannot see against what part of the world, other than the parties to the Deed of Undertaking, the issue could matter.  I do not know how its acceptance before me that it was still bound by the Deed of Undertaking would play out. If HAL does see a point to this all, I decline to give it a card to put up its sleeve to be played as opportunity presents itself, contrary to all its engagements with the other parties over many years.    Mr Smith&#8217;s evidence points to the financial commitments made for the ordering of rolling stock, the completion by Crossrail of access agreements with HAL and Network Rail, and applications to Network Rail for the timetabling of services a year before their scheduled start.  There is a continuing dispute over terms of access, before the ORR.  Were the ORR not to be arbiter, if the Regulations did not apply, HAL&#8217;s commercial power would be untrammelled, putting years of work at risk.  Crossrail is due to begin services in May 2018.  I am also persuaded that a challenge to the applicability of the Regulations would have had led to a different outcome, more expensive for HAL, to the CAA decision on what HAL should pay as a contribution to Crossrail.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_140">
+	    <num style="font-size:14pt">140.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">Second, and alternatively, I would have refused relief because, if HAL did intend to adhere to the Deed of Undertaking and to cooperate, this part of the claim was academic, in the sense of being pointless.  It would be, as Mr Hickman put it, an abstract declaration on a point of law with no real or concrete impact on the rights or interests of the parties.  The contractual position is clear and not in dispute. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_141">
+	    <num style="font-size:14pt">141.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">HAL may have raised the issue now, aggrieved at the ORR&#8217;s perhaps unexpected decision, one which the ORR described as finely balanced.  But that grievance does not permit the issue now to be raised, and with all its potential consequences.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaHeading"><span style="font-weight:bold;font-size:14pt">Overall Conclusion</span></heading>
+	  <paragraph eId="para_142">
+	    <num style="font-size:14pt">142.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:14pt">This application for Judicial Review is dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

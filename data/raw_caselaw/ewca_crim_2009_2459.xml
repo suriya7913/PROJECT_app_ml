@@ -1,0 +1,499 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/2459"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2009/2459"/>
+	  <FRBRdate date="2009-11-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2459"/>
+	  <FRBRname value="Campbell v R"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2459"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2459"/>
+	  <FRBRdate date="2009-11-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2459/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2459/data.xml"/>
+	  <FRBRdate date="2024-11-07T04:04:57" name="transform"/>
+	  <FRBRdate date="2024-12-04T05:36:09" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2009-11-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="karl-campbell" href="" showAs="Karl Campbell"/>
+	<TLCPerson eId="regina" href="" showAs="Regina"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-scott-baker" href="/judge-lord-justice-scott-baker" showAs="LORD JUSTICE SCOTT BAKER"/>
+	<TLCPerson eId="judge-mr-justice-owen" href="/judge-mr-justice-owen" showAs="MR JUSTICE OWEN"/>
+	<TLCPerson eId="judge-mr-justice-cranston" href="/judge-mr-justice-cranston" showAs="MR JUSTICE CRANSTON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2009</uk:year>
+	<uk:number>2459</uk:number>
+	<uk:cite>[2009] EWCA Crim 2459</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>f4cfdb43cb3ac4bf538c1c3fba491ced766110b332e8c3ad5de7762510dc8d66</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2009] EWCA Crim 2459</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>2009015125 A4</docketNumber></p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM The Crown Court at Liverpool</p>
+      <p class="CoverMain">His Honour Judge Globe QC</p>
+      <p class="CoverMain">T2009 0934</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2009-11-27" refersTo="#judgment">27/11/2009</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-scott-baker">LORD JUSTICE SCOTT BAKER</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-owen">MR JUSTICE OWEN</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-cranston">MR JUSTICE CRANSTON</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#karl-campbell" style="font-weight:bold">Karl Campbell </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#regina" style="font-weight:bold">Regina</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Michael Davies </span>(instructed by<span style="font-weight:bold"> Bell, Lamb and Joynson</span>) for the Appellant</p>
+      <p style="text-align:center">Hearing dates : 20 November 2009</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p> Mr Justice Cranston</p>
+      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This application for leave to appeal concerns the sentence applicable to an offence of causing death by careless driving under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>&#8221;).  That offence is relatively new.  It was introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref> and came into force in August 2008, subject to certain savings.  The heading of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B is &#8220;Causing death by careless, or inconsiderate, driving&#8221;.  The section itself provides that the offence occurs if a person causes the death of another person by driving a vehicle without due care and attention, or without reasonable consideration for other persons.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Along with the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B, Parliament adopted a statutory definition of careless or inconsiderate driving.  <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>ZA of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> provides that a person is to be regarded as driving without due care and attention if (and only if) the way he drives falls below what would be expected of a careful and competent driver: <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 3</ref>ZA(2).  In determining what would be expected of a careful and competent driver in a particular case, regard must be had not only to the circumstances of which the careful and competent driver could be expected to be aware, but also to any circumstances shown to have been within the knowledge of the accused: <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 3</ref>ZA(3).  A person is to be regarded as driving without reasonable consideration only if those persons are inconvenienced by his driving: <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 3</ref>ZA(4).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The offence is an either way offence.  Under the statute it is punishable on conviction on indictment with up to five years&#8217; imprisonment, or a fine, or both, and on summary conviction by twelve months&#8217; imprisonment or the statutory maximum fine, or both: <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation"> Road Traffic Offenders Act 1988</ref>, schedule 2, Part 1.  The offence carries an obligatory disqualification and obligatory endorsement.  Penalty points may be imposed where there are special reasons found for not disqualifying from driving.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19th August 2009, at the Crown Court at Liverpool the applicant, aged 19, pleaded guilty on re-arraignment to an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B of the 1998 Act.  As a result, at the direction of HH Judge Globe QC, he was found guilty of causing death by careless driving.   On 26th August 2009 the learned judge sentenced him to 24 weeks imprisonment, suspended for 2 years, with 2 years supervision and a 100 hour unpaid work requirement. He was disqualified from driving for 3 years and his licence was endorsed with 8 penalty points.  The application for leave to appeal against sentence has been referred to us by the Registrar.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The tragedy occurred in Kirby, Merseyside, in October 2008.  South Boundary Road is a long straight dual carriageway with two lanes in each carriageway and a large central reservation. The applicant was driving his Volkswagen Polo from a car park side road and needed to cross the carriageway in order to turn right. The evidence of the applicant&#8217;s female passenger, Cassandra McArdle, was that he was driving slowly and cautiously.  The road surface was damp and it was dark, but the carriageway was well lit and there was a  clear field of vision to his right of approximately 300 yards.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At about 22.16 the deceased, 20 year old Jonathon Wilkinson, was riding his Kawasaki motorcycle along the South Boundary Road, approaching from the applicant&#8217;s right hand side.   He was in the right hand lane, nearest to the central reservation.  His estimated speed exceeded the speed limit, which is 40mph.  The prosecution&#8217;s expert, Mr Boulton, made a number of calculations and suggested that the motorcycle was being ridden at a speed of around 48mph, when the rider reacted and applied the brakes.  The defence expert, Mr Greatrix, was of the opinion that the speed of the motorcycle at the start of the tyre skid was more realistically 57 mph and that the approach speed would have been greater because speed would have been lost before the tyre mark became visible.  The independent witness, Mr Wilson, who was on his way home from work, estimated the speed at 80 mph and remembered the revving noise of the motorcycle engine.  His evidence was that the motorcycle&#8217;s engine was screaming and it was as if the rider had opened the throttle like he was on a race track.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the applicant pulled out of the side road, intending to pause at the central reservation, he was struck by Mr Wilkinson&#8217;s motorcycle, just by the rear passenger door. Mr Wilkinson died as a result of the injuries he sustained. At the scene the applicant told an off duty police officer: &#8220;I came out of the junction and the motorcycle came from nowhere and the motorcycle went into me&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When interviewed the applicant said that he had collected his friend, Kevin Stewart, from work. He drove to the junction with South Boundary Road. He stopped, looked right, looked left and looked right again before pulling out. On neither occasion when he looked to the right did he see the motorcycle. He confirmed that he had not been distracted by anything in the car. He had not been fiddling with the radio, talking to his passengers or using a phone. At all times his attention was on his driving and the manoeuvre he was making. He was not tired.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The trial begins and the defendant pleads guilty</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial began on 18 August 2009.  On the final day evidence was given by two witnesses for the prosecution, Ms McArdle and Mr Wilson.  Ms McArdle was a student who at the time was learning to drive, but not a qualified driver.  One of her workmates, Mr Stewart, the friend Mr Campbell was to collect, had offered her a lift home.  She described the car as stopping at the junction of South Boundary Road.  She saw what she thought were car headlights in the distance before a road which leads to a car show room.  Since that is a long distance away she thought it was safe for the vehicle she was in to cross the carriageway.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Apart from his evidence on speed, Mr Wilson said that he looked in the direction the motorcycle was travelling and saw a car stationary at the junction waiting to emerge and cross South Boundary Road.  He saw the car emerge and cross the two lanes and then he saw the collision.  Mr Wilson does not drive and his assessment of the accident does not match in some important respects the undisputed account of other parties.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That evening, the 18<span style="vertical-align:super;font-size:smaller">th</span> August, the applicant went with the defence expert and his counsel, Mr Davies, to the site of the accident.  The background was that at the time of the plea and case management hearing, when the applicant pleaded not guilty, there was the evidence of Ms McArdle, Mr Wilson and the applicant himself.  There was also the evidence of a police collision investigator, who had been unable to assess the motorcycle&#8217;s speed but had concluded that the motorcycle would have been within the view available from the junction and since it was displaying twin headlights it was there to be seen.  However, it was also his opinion that it will have been some distance away and that its speed has been a contributory factor in the collision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Then shortly before the original trial date the CPS instructed their expert, Mr Boulton.  His report placed the motorcycle well within the applicant&#8217;s field of vision when he pulled out.  The defence were unable to commission their own report in time for the trial and an application to vacate was successfully made.  The defence encountered difficulty in finding an expert, although eventually they located Mr Greatrix.  Despite efforts by the judge to accommodate the defence, suffice is to say that the defence expert&#8217;s report was not available until the eve of the trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When Mr Greatrix&#8217;s report did become available it contained these passages:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;75.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Since the visibility distance from the junction is just over 300 metres, it follows that the motorcycle was in [the applicant&#8217;s] field of view when he decided to pull out on to the main road.  However, judging the approach speed of a motorcycle with a single headlamp would be difficult.  In the expectation that the motorcycle is not travelling at an excessive speed a driver may well conclude that it is safe to move out.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>76.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If the motorcyclist had been driving in the nearside lane or had moved into the nearside lane, this collision would not have occurred.  I have not seen any explanation as to why the motorcyclist was driving in the offside lane if the carriageway was clear of other traffic. </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>91.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Based on an assumed impact speed of 30 mph Mr Boulton estimates that the speed of the motorcycle at the start of the tyre mark was around 48 mph.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>92.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Based on a consideration of momentum exchange in the collision, I believe that a speed of 57 mph at the start of the tyre mark is far more realistic.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>93.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The approach speed of the motorcycle would have been greater than 57 mph because speed would be lost before the tyre mark became discernable.  It is not possible to quantify this additional loss of speed.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, Mr Greatrix had not visited the scene, because of time constraints.  Nor was he able to attend court on the first day of trial.  The judge agreed that no expert evidence would be called until he was present.  That evening, as we have said, he accompanied the appellant and his counsel, Mr Davies, to the scene.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What happened next is evident from the basis of plea, tendered the following day, the 19<span style="vertical-align:super;font-size:smaller">th</span> August.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[The applicant] stopped at the junction.  He looked right, left and right again.  He did not see the motorcyclist.  Believing the road to be clear he pulled out.  He still has a mental picture of an empty road. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Last night he attended the scene of the accident with his counsel and Mr Greatrix.  This was his first opportunity to have a conference with Mr Greatrix.  Mr Greatrix satisfied [the applicant] that the motorcycle must have been in his field of vision both times he looked right.  There were no distractions to the field of vision.  [The applicant] therefore accepts that he couldn&#8217;t have looked properly.  He therefore changes his plea to guilty.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The judge&#8217;s sentence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In sentencing the applicant, the judge had a pre-sentence report, dated 19<span style="vertical-align:super;font-size:smaller">th</span> August 2009, which indicated that the applicant accepted responsibility for the offence and was devastated that an unintentional momentary lapse in concentration could have such fatal and far reaching consequences. He was still coming to terms with what he had done and suffered flashbacks.  There was a low risk of re-offending and a low risk of future harm.  The applicant had no previous convictions or cautions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his sentencing remarks the judge said that the applicant had pleaded guilty after the first two witnesses had given evidence at trial.  The applicant and Mr Wilkinson were not friends, but the applicant knew him from primary school. Account was taken of the victim impact statements, which conveyed the impression of a talented, highly motivated, engaging and successful young man with a bright future ahead of him.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge explained that there was an important distinction, that this was causing death by careless driving and not by dangerous driving. The offence of causing death by careless driving when there was no excess alcohol was a relatively new offence.  Account was taken of the evidence and the basis of plea.  The judge then said that the expert view in the documents he had read was that there was a field of vision of about 300 metres to the applicant&#8217;s right-hand side and that from an accident reconstruction the motorcycle was being ridden in excess of the speed limit.  The expert&#8217;s view was that Mr Wilson&#8217;s estimate of 80 mph was wrong.  It may have been travelling at no more than 50 mph.  However, the speed limit was 40 mph and anyone travelling in excess of the speed limit would approach a vehicle crossing the road more quickly than expected.  It was not always easy to judge how quickly a vehicle is travelling towards one.  These were important considerations when deciding upon the sentence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After referring to the pre-sentence report, the favourable references which had been produced on the applicant&#8217;s behalf and the mitigation advanced on his behalf by his counsel, Mr Davies, the judge said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I do not find this case easy to assess in the categories that are set out in the sentencing guidelines.  Mr Davies urges me to come to the conclusion that it is in the lowest category. &#8230; I agree that there are no aggravating factors such as any of those which are listed in the guidelines &#8230; but the facts of this case don&#8217;t sit comfortably with the expression of this being careless driving arising from momentary inattention.  It may only have been moments as you were at that junction needing to look right but you were moving off from a give way junction into a major carriageway and had an obligation to check that there was going to be no obstruction in your path as you did so.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The one and most important feature of your driving as you moved your car was to check that there was nobody going to be in your path and you failed to make that observation.  I find it difficult to reconcile those facts and the serious consequences that could result from a failure to observe somebody coming along the road with the expression of it being momentary inattention.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">By way of alternative Mr Davies invites me to assess the case at the lower end of the next category upwards, category 2, which is reserved for other cases of careless or inconsiderate driving.  I agree with that part of his submission.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge turned to mitigation.  He said that he took into account the applicant&#8217;s age, previous good character and obvious remorse.  However, it was not accepted that maximum or significant credit should be given for his plea. The credit given should be the minimum, if not slightly lower than the ten percent which he would have received had he pleaded guilty at the beginning of the trial.  The judge explained as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[T]here was evidence on the papers that made it clear that somebody in your car had seen the motorcyclist travelling towards you and you could have gone back to the scene of the accident, thought about that and entered your plea at an earlier stage without needing the advantage of Mr Greatrix and to enter the plea part way through the trial.  There is an argument on those facts in my view that you should be given no credit whatsoever for entering a guilty plea even at the stage that you did.  However, I don&#8217;t go that far but the amount of credit that you should be given in my view amounts to the minimum, if not a slightly lower minimum, than what you would have received if you had pleaded guilty right at the beginning of the trial, which is normally assessed in the region of ten percent.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The judge then imposed the sentence as described.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Sentencing guidelines</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his sentencing remarks, the judge referred to the sentencing guidelines and to what he described as the lowest category and category 2.  This is a reference to the Definitive Guideline issued by the Sentencing Guidelines Council in 2008, <span style="text-decoration-line:underline;text-decoration-style:solid">Causing Death by Driving</span>.  As with any guideline issued by the council our duty is to have regard to it: <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44/section/172" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 172</ref>.  Ultimately it is the relevant legislation which is determinative.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The definitive guideline has an annex with examples of the types of driving behaviour likely to result in an offence of causing death by careless driving being charged: overtaking on the inside or driving inappropriately close to another vehicle; inadvertent mistakes such as driving through a red light or emerging from a side road into the path of another vehicle; and short distractions such as using a car radio.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the offence of causing death by careless driving, the definitive guideline has three categories.  The highest category is &#8220;careless driving, falling not far short of dangerous driving&#8221;.  A starting point of 15 months custody and a sentence range of 36 weeks &#8211; 3 years custody is specified.  The intermediate, or second category, is described as &#8220;other cases of careless driving&#8221;.  The starting point is 36 weeks custody and the range is a high community order to 2 years custody.  The lowest category is &#8220;careless driving arising from momentary inattention with no aggravating factors&#8221;.  The starting point given is a medium community order and the range from a low to a high community order.  As in all definitive guidelines these are sentences which would follow conviction after a trial of a first time offender.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Five additional aggravating factors are listed in the definitive guidelines.  Since there were no aggravating factors in this case there is no need to list them.  Among the five mitigating factors identified is whether the offender&#8217;s lack of driving experience contributed significantly to the likelihood of a collision occurring and/or of death resulting.  In terms of personal mitigation particular attention is drawn to good driving.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In setting out the factors to be taken into consideration the definitive guideline explains that it is unavoidable that some cases will be on the borderline between dangerous and careless driving, or may involve a number of factors that significantly increase the seriousness of an offence.  Thus the range for the highest category overlaps with ranges for the lowest level of seriousness for causing death by dangerous driving.  The three levels of seriousness are defined by the degree of carelessness involved in the standard of driving.  The most serious level for the offence is where the offender&#8217;s driving falls not that far short of dangerous.  The least serious group of offences relates to those cases where the level of culpability is low:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;for example in a case involving an offender who misjudges the speed of another vehicle, or turns without seeing an oncoming vehicle because of restricted visibility.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Other cases, it is said, will fall into the intermediate level.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The definitive guideline also adds that where the level of carelessness is low and there are no aggravating factors, even the fact that death was caused is not sufficient to justify a prison sentence.  That is the Parliamentary intention although we also note that Parliament also contemplated that even on indictment the offence could be visited with a fine.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The applicant&#8217;s submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his cogent written and oral submissions Mr Davies contended that the custodial sentence the judge imposed was manifestly excessive. The judge classified the driving in category 2, as defined by the sentencing guidelines, when it should properly have been classified as category 3. Moreover, he did not allow sufficient credit for the plea of guilty.  In the result the judge should have considered a community order.  The disqualification from driving should also have been for a shorter period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to categorisation, the submission was that there were no aggravating features to this defendant&#8217;s driving.  He was not doing anything to distract himself, he was not tired, he had not been drinking, he was not uninsured, and there was no problem with his vehicle.  Not only on his account, but on the accounts of Ms McArdle and Mr Wilson, relied upon by the prosecution, the applicant had stopped at the junction.  His only reason for stopping was to look to see if the road was clear before pulling out.  That he made a mistake and failed to see the motorcycle was not as a result of a failure on his part to observe proper driving procedures.  As the basis of plea made clear he stopped, looked right, looked left and looked right again.  He did look twice to his right before emerging &#8211; a proper procedure to double check that the road was clear and it was safe to proceed.  The speed of the motorcycle, its position in the outside lane, the absence of a high visibility jacket together with the damp road conditions and artificial lighting on the road may have combined to defeat his observation.  In Mr Davies&#8217; submission these factors placed this offence in category 3 as defined by the sentencing guidelines.  If this was category 2 driving it was very much at the lower end.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Davies&#8217; second submission was that far greater credit should have been given to the guilty plea, despite the applicant pleading guilty on the second day of the trial.  Ordinarily, conceded Mr Davies, such a submission would be wholly misplaced.  In the circumstances of this case, however, the merit lay in the history of the case.  No complaint was made about the judge&#8217;s desire that the case be listed quickly out of respect for the feelings of the bereaved family.  But the only reason the original trial date was vacated was the late service by the CPS of the report of their accident investigator.  That report significantly altered the evidence and the defence were obliged to instruct their own expert to consider its accuracy since it was so at odds with the evidence of the independent witness called by the prosecution, Mr Wilson.  The timetable set by the judge meant that defence report was not available until a day or two before the trial.  Having been completed without a site visit, the report could not be relied upon, according to the expert himself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was therefore not until the evening of the first day of the trial that the applicant had the benefit of his own expert&#8217;s opinion.  The effect was immediate.  The very next day he changed his plea.  If it had not been for the late service of the prosecution&#8217;s report and the judge&#8217;s timetable this could have happened before the trial date.  In Mr Davies&#8217; submission there was every difference between a criminal who knows he has committed an offence, which is later confirmed by forensic evidence, and the applicant, who had a mental picture of an empty road.  He believed therefore that the motorcycle was not within his field of vision when he emerged from the side road.  He was encouraged in that belief by the account of the incident that he saw in Mr Wilson&#8217;s statement and the opinion he voiced to the police at the time.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Like the judge we do not find it easy to apply the categories in the sentencing guidelines.  The lowest category is momentary inattention with no aggravating factors, which under the guidelines is to be visited by a community order.  The examples given in the sentencing guidelines involve an offender who misjudges the speed of another vehicle or who turns without seeing an oncoming vehicle because of restricted visibility.  Perhaps another instance would be the parent or carer, momentarily distracted by the urgent cry of a child in the backseat of a vehicle.  At the other end, with the highest category, driving falling not far short of dangerous driving, there is the assistance of the statutory definition of dangerous driving in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>B of the 1998 Act and the case-law on the subject.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">No assistance is available, however, as to the second, the intermediate category in the sentencing guidelines, &#8220;other cases of careless or inconsiderate driving&#8221;.  It is a residual category, if the driving falls neither just short of dangerous driving on the one hand nor constitutes momentary inattention on the other.  We envisage that this category can include instances of single misjudgements.  Each case will turn on its facts.  Each piece of driving has to be viewed objectively in relation to the surrounding circumstances.  It is necessary as well to have regard to the circumstances as known to, and understood by, the driver: see <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 32</ref>A(3) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case we do not think that the judge fell into error in treating this driving as falling into the second, the intermediate, category in the sentencing guidelines.  We agree with him that it is very difficult to characterise what happened as momentary inattention.  The applicant stopped at the junction and looked right, left and right again.  As he conceded by his plea his uninterrupted field of vision was some 300 metres to his right-hand side.  He should have seen Mr Wilkinson&#8217;s motorcycle.  One of his passengers, Ms McArdle, thought she saw car headlights in the distance but that it was at such a distance that the applicant would have had time to cross the junction.  As the judge said, it may have only been moments, but the applicant was moving off from a give way junction into a major carriageway and had an obligation to check that there was no obstruction in his path as he did so.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where we differ from the judge, however, is in his treatment of speed and the implications of this for the applicant&#8217;s driving.  The judge had the benefit of hearing a day of the evidence and his sentencing remarks demonstrate his characteristically careful attention to both the law and the facts.  He heard Mr Wilson give evidence and he rejected his estimate of Mr Wilkinson&#8217;s speed of 80 mph as wrong.  But he then said that Mr Wilkinson &#8220;may have been travelling no more than 50 mph&#8221;.  That, of course, was the evidence of Mr Boulton, the prosecution expert.  But the defence expert, Mr Greatrix calculated that Mr Wilkinson&#8217;s speed was more than 57 mph, although he was not able to give an exact figure.  He also said that an expectation that Mr Wilkinson was travelling at the speed limit might well have assured a driver that it was safe to move out.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We are not certain that the judge was aware of the defence evidence on speed.  Mr Davies frankly conceded that he did not major on Mr Wilkinson&#8217;s speed in his submissions before the judge.  There were other considerations at the forefront of his case.  In our view, the unresolved issue of speed means that the applicant&#8217;s single misjudgement must be placed at the low end of the intermediate, the second category, of careless driving in the sentencing council guidelines.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The limited discount which the judge gave for the applicant&#8217;s guilty plea is also of concern to us.  Now that we understand the special circumstances of how the applicant came to plead guilty on the morning of the second day of trial we are persuaded that the judge should have given a greater discount than he did.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This type of case is immensely difficult.  As we have said this particular case is especially tragic.  The accident involved two young men, both highly thought of and with great promise.  Coincidentally they had known each other at primary school.  It is evident from the victim impact statements that the parents, sister and a grandparent of Mr Wilkinson have suffered a most grievous loss.  Nothing the court does can replace their son, brother or grandson.  But the impact of Mr Wilkinson&#8217;s death is not confined to his family and friends.  According to the Pre Sentence Report the applicant himself is deeply scarred by what happened and the report writer opines that he may be dealing with the situation on the surface only.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In our view, for the reasons we have explained, the level of the applicant&#8217;s culpability did not justify a custodial sentence.  That being the case we give leave and allow the appeal and substitute a community order involving an unpaid work requirement of 100 hours.  Ordinarily a more onerous community order would have been justified but we are mindful that the applicant has been subject to the sentence we have just quashed for the last three months. We also quash the penalty points imposed.  The judge was misled by counsel as to his power to impose these: if the court does disqualify from driving it is not able, on the same occasion, to order penalty points: section 44(1) of the Road Traffic Offenders 1988 Act.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

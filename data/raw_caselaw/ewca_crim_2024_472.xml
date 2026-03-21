@@ -1,0 +1,307 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/472"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/472"/>
+	  <FRBRdate date="2024-04-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="472"/>
+	  <FRBRname value="R v Dylan John Wood"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/472"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/472"/>
+	  <FRBRdate date="2024-04-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/472/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/472/data.xml"/>
+	  <FRBRdate date="2024-11-24T06:30:39" name="transform"/>
+	  <FRBRdate date="2024-11-27T19:30:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-04-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rex" href="" showAs="REX"/>
+	<TLCPerson eId="dylan-john-wood" href="" showAs="DYLAN JOHN WOOD"/>
+	<TLCRole eId="before-the-v" href="" showAs="Before The V"/>
+	<TLCRole eId="after-the-v" href="" showAs="After The V"/>
+	<TLCPerson eId="judge-lord-justice-warby" href="/judge-lord-justice-warby" showAs="LORD JUSTICE WARBY"/>
+	<TLCPerson eId="judge-mrs-justice-mcgowan-dbe" href="/judge-mrs-justice-mcgowan-dbe" showAs="MRS JUSTICE McGOWAN DBE"/>
+	<TLCPerson eId="judge-her-honour-judge-karu" href="/judge-her-honour-judge-karu" showAs="HER HONOUR JUDGE KARU"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>472</uk:number>
+	<uk:cite>[2024] EWCA Crim 472</uk:cite>
+	<uk:parser>0.26.14</uk:parser>
+	<uk:hash>c697ae4a47f8de37f813af1b7725a4ffd8b8119b9b55ffb92bcbcd902d86d068</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Aptos; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Fixed { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Question { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answer { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Colloquy { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinQ { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinA { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .ContinCol { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Parenthetical { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Centered { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Rightflush { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineSQ { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .BylineQS { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .0Style { margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal1 { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal2 { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal3 { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal4 { margin-left: 0.8in; margin-right: 0.51in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal5 { margin-left: 1.2in; margin-right: 1.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal6 { text-align: right; margin-left: 1.6in; margin-right: 0.91in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal7 { text-align: right; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .9Style { margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Header { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Footer { text-align: center; margin-right: 1.31in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Questionquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Answerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Speakerquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .questionPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .answerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .speakerPghquoted { margin-left: 1.2in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Marginsecondary { margin-left: 0.8in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Extramargin { margin-left: 1.2in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .Ordinaryextramargin { margin-left: 1.6in; margin-right: 0.81in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .LeftFlush { margin-left: 0.4in; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .RESTRICTEDACCESS { text-align: center; margin-right: 1.21in; font-family: Arial; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .Quote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table uk:widths="6.68in">
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.75pt"/></p>
+      <table uk:widths="4.6in 2.09in">
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE COURT OF APPEAL</courtType></p>
+	    <p style="margin-left:-0.07in"><courtType refersTo="#ewca-criminal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">CRIMINAL DIVISION</courtType></p>
+	    <p style="margin-left:-0.07in"/>
+	    <p style="margin-left:-0.07in"><span style="font-family:'Times New Roman'">CASE NO 202304331/A3</span></p>
+	    <p style="margin-left:-0.07in"><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] EWCA Crim 472</neutralCitation></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Strand</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">London</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">WC2A 2LL</span></p>
+      <p style="text-align:right;margin-left:0.4in;text-indent:-0.4in"><docDate date="2024-04-19" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Friday, 19 April 2024</docDate></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-warby" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">LORD JUSTICE WARBY</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mrs-justice-mcgowan-dbe" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MRS JUSTICE McGOWAN DBE</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-her-honour-judge-karu" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">HER HONOUR JUDGE KARU</judge></p>
+      <p style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">THE RECORDER OF SOUTHWARK</span></p>
+      <p style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">(Sitting as a Judge of the CACD)</span></p>
+      <p style="text-align:center"><party as="#before-the-v" refersTo="#rex" style="font-family:'Times New Roman'">REX</party></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">V </span></p>
+      <p style="text-align:center"><party as="#after-the-v" refersTo="#dylan-john-wood" style="font-family:'Times New Roman'">DYLAN JOHN WOOD</party></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">__________</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt">Computer Aided Transcript of Epiq Europe Ltd, </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt;color:#242424;background-color:#FFFFFF">Lower Ground Floor, 46 Chancery Lane, London, WC2A 1JE&#160;</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:11pt">Tel No: 020 7404 1400; Email: rcj@epiqglobal.co.uk (Official Shorthand Writers to the Court)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">_________</span></p>
+      <p style="text-align:center;margin-left:0.4in;text-indent:-0.4in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">MR N HAMMOND</span><span style="font-family:'Times New Roman'"> appeared on behalf of the Appellant</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">_________</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">J U D G M E N T</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:center"><span style="font-family:'Times New Roman'"> (Approved)</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="Colloquy" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">LORD JUSTICE WARBY:  </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="Colloquy" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Dylan John Wood, aged 35, appeals against a sentence of 20 months' imprisonment imposed on him in the Crown Court at Leeds on 23 November 2023.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="Colloquy" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The facts of the case can be shortly stated.  On 19 November 2021 the appellant was disqualified from driving for a period of two&#160;years under the totting-up process. On 27 July 2023 in breach of that disqualification he drove an Audi Q7 car which, on his account, he had rented from a friend.  He took it to meet up with an ex-partner and the appellant's 18-month-old son and then later the same day he drove with a different woman to eat at a golf club in Leeds.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">On 28 July 2023 at around 7.00 pm the appellant and another man were in the same Audi car when they chased a third man from a service station at Skelton Lake Services to a Texaco garage where they got out of the car and assaulted the man.  In the course of an attack which according to eyewitnesses lasted several minutes, the appellant used a baseball bat to strike the victim several times.  He used such force that he broke the bat in two.  Witnesses were understandably alarmed.  One of them who worked in the garage activated the security system and put the garage into lockdown.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">These events were reflected in an indictment containing three counts: driving whilst disqualified (count 1), having an offensive weapon (count&#160;2) and affray (count 3).  The appellant pleaded guilty to all three counts at the plea and trial preparation hearing and was sentenced the same day by His Honour Judge Khokar.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The appellant had a bad record comprising 22 convictions for 41 offences between 2004 and 2020.  These reflected a mixture of offences of violence, dishonesty and vehicle crime.  The offences of violence included, most prominently, robbery and possessing an imitation firearm for which in 2013 he was sentenced to eight years' imprisonment.  He had two previous convictions for driving whilst disqualified and without insurance, one in November 2019 when he was sentenced to 12 weeks' imprisonment and one in 2020 when he received a community order.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">It was against this background that the appellant&#8217;s Counsel, Mr&#160;Hammond, realistically acknowledged at the sentencing hearing that it was not necessary to adjourn the case for the preparation of a pre-sentence report.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In his sentencing remarks, having briefly outlined the facts of the offending, the judge made clear that he had taken on board all the mitigation advanced by Mr&#160;Hammond but considered the greatest mitigation was the pleas of guilty for which he would allow a 25&#160;per&#160;cent reduction.  He stated that he would keep the sentences as short as he possibly could on the basis that this was a chance for the appellant to mend his ways, if he was thinking of doing so.  The judge then passed a sentence of four months' imprisonment for the driving offence and imposed a driving disqualification.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">For the other two offences, which were linked to one another, the judge passed sentences that were concurrent with one another but consecutive to the four months for the driving offence.  Treating the affray as the lead offence, he passed a sentence of 16 months' imprisonment on count 3, with six months concurrent for the offensive weapon on count&#160;2.  The total was thus one of 20 months' imprisonment.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The grounds of appeal settled by Mr&#160;Hammond contained a challenge to the 16-month total for counts 2 and 3 but leave to appeal on that ground was refused by the single judge and that aspect of the application has not been renewed.  The single judge did give leave to argue that the sentence for the driving offence was manifestly excessive.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In support of that ground Mr&#160;Hammond has made the following points.  The prosecution had submitted that the offending in this case fell into guideline Category 3, there being low harm and low culpability.  That category has a starting point of a low-level community order and a range going up to a medium-level community order.  The defence did not challenge that categorisation which Mr&#160;Hammond submits was correct, yet the judge's notional sentence after a trial must have been in excess of five months.  That is at the top end of the range for a Category 1 offence involving high-level harm and high culpability.  It also comes close to the statutory maximum sentence for the offence which is one of six months.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">We see force in much of this.  The case plainly did fall within Category 3.  It did of course exhibit a significant statutory aggravating feature, as Mr&#160;Hammond has conceded: the appellant had previous convictions for driving whilst disqualified, as well as other driving offences.  In all the circumstances the judge cannot be criticised for concluding that the custody threshold was crossed, nor could complaint have been made had the judge ruled that the aggravation raised the case into Category 2.  But the case could not, in our judgment, properly have been placed in Category 1.  The top end of the range for a Category 2 offence is 12 weeks' custody before reduction for guilty plea.  Accordingly, the sentence of four months that was actually imposed does not give effect to the judge's stated objective of passing the least possible sentence and is excessive.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Our assessment is that the appropriate sentence after allowing for the guilty plea and taking account of totality is one of two months' imprisonment.  We therefore quash the sentence of four months on count 1 and substitute a sentence of two months' imprisonment.  That brings the total sentence to one of 18 months' imprisonment and not 20 months.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">It is then necessary to address the question of disqualification.  As so often in this court this has its complexities.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The guideline explains how disqualification should be dealt with in a case such as this.  The first step is to determine the appropriate period of discretionary disqualification using the guideline figures.  For a Category 2 case the guideline range is six to 12 months.  Step 2 is to add the unexpired period of any disqualification that is current at the date of sentence.  Here that was some three months and three weeks.  Step 3, where the court imposes immediate custody, is to take account of any custodial sentence which the court imposes at the time of the disqualification.  The statutory provisions are in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 35</ref>A and 35B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> and the methodology is explained in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Needham</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2016/455" uk:canonical="[2016] EWCA Crim 455" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Crim 455</ref>, <ref href="#" uk:canonical="[2016] 1 WLR 4449" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 4449</ref> and in particular at paragraph&#160;28.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In this case, given our conclusions and the applicable release provisions, the appropriate course would be to add to the discretionary disqualification an extension period of one month pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35</ref>A and an uplift of eight months pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35</ref>B.  We thus arrive at an appropriate period of disqualification of 24 months.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">The court record shows that the period actually imposed was one of 18 months.  We have therefore considered whether the substitution of the higher figure we have just mentioned would contravene <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/11/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section&#160;11(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19" uk:canonical="1968 c. 19" uk:origin="TNA" uk:type="legislation">Criminal Appeal Act 1968</ref>.  We have concluded that it would not.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">A comparable situation arose in one of the cases dealt with in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Needham</span><span style="font-family:'Times New Roman'"> where the court concluded that having reduced the custodial term it was possible to impose an upward correction of the disqualification period without offending <ref href="http://www.legislation.gov.uk/id/ukpga/1968/19/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref>: see paragraphs&#160;132 and 142-143.  We take the same view in this case.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In this case, as in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Needham</span><span style="font-family:'Times New Roman'">, we also take into account what we regard as the clear intentions of the sentencing judge.  What he said according to the transcript is this: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:left;margin-left:1in"><span style="font-style:normal;font-family:'Times New Roman';color:initial">You will be disqualified from driving for a period of 18 months. There is the disqualification period for the offence itself and it is further extended by the prison sentence which I am about to pass." </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in;text-indent:0in"><span style="font-family:'Times New Roman'">Those words make no mention of the unexpired portion of the existing disqualification or the four-month sentence which the judge had by then imposed on count 1.  We do think however that they clearly indicate an intention to impose not only a discretionary disqualification of 18 months but also an extension to reflect the time which the appellant would spend in custody as a result of the sentences which the judge went on to pass on counts 2 and 3.  Although the judge did not specify the additional period to be added, we are confident that he intended a disqualification of at least 26 months.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">In the event we dispose of this issue as follows.  We quash the disqualification of 18 months on the court record and substitute a disqualification of 24 months, comprising a 15-month discretionary disqualification, an extension period of one month pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>A and an uplift of eight months pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section&#160;35</ref>B of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="ContinCol" style="margin-left:0.5in;margin-right:0.01in"><span style="font-family:'Times New Roman'">To the extent we have explained this appeal is allowed.  All other ancillary orders remain.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Fixed" style="margin-left:0.5in;margin-right:0.01in"><span style="font-weight:bold;font-family:'Times New Roman'">Epiq Europe Ltd</span><span style="font-family:'Times New Roman'"> hereby certify that the above is an accurate and complete record of the proceedings or part thereof. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <heading class="Fixed" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">Lower Ground Floor, 46 Chancery Lane, London, WC2A 1JE </span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ContinCol" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Tel No: 020 7404 1400</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ContinCol" style="margin-left:0.4in;margin-right:0.01in"><span style="font-family:'Times New Roman'">Email: rcj@epiqglobal.co.uk </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

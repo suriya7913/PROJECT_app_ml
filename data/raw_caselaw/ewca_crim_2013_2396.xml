@@ -1,0 +1,798 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2013/2396"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2013/2396"/>
+	  <FRBRdate date="2013-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2396"/>
+	  <FRBRname value="Robinson-Pierre v R"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/2396"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/2396"/>
+	  <FRBRdate date="2013-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/2396/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/2396/data.xml"/>
+	  <FRBRdate date="2024-10-11T01:01:30" name="transform"/>
+	  <FRBRdate date="2024-11-13T14:56:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-12-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="symieon-robinson-pierre" href="" showAs="SYMIEON ROBINSON-PIERRE"/>
+	<TLCPerson eId="regina" href="" showAs="REGINA"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-pitchford" href="/judge-lord-justice-pitchford" showAs="LORD JUSTICE PITCHFORD"/>
+	<TLCPerson eId="judge-mrs-justice-nicola-davies-dbe" href="/judge-mrs-justice-nicola-davies-dbe" showAs="MRS JUSTICE NICOLA DAVIES DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>2396</uk:number>
+	<uk:cite>[2013] EWCA Crim 2396</uk:cite>
+	<uk:parser>0.26.8</uk:parser>
+	<uk:hash>49862752ff25b54a42a0a8c2c9ac982d144ec2c34cfcf83ffc63af3d1c57f289</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: 201205192 C5, 201305780 C5</p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2013] EWCA Crim 2396</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM </p>
+      <p class="CoverMain">INNER LONDON CROWN COURT - HIS HONOUR JUDGE BISHOP</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2013-12-20" refersTo="#judgment">20/12/2013</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-pitchford">LORD JUSTICE PITCHFORD </judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-nicola-davies-dbe">MRS JUSTICE NICOLA DAVIES DBE</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center">THE RECORDER OF LEEDS - HIS HONOUR JUDGE COLLIER QC</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#symieon-robinson-pierre" style="font-weight:bold">SYMIEON ROBINSON-PIERRE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#regina" style="font-weight:bold">REGINA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Craig Harris</span> (instructed by <span style="font-weight:bold">Ledgister Solicitors</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sam Brown </span>(instructed by<span style="font-weight:bold"> CPS Appeals Unit</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 21 November 2013</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Lord Justice Pitchford :</span></p>
+      <p style="margin-left:0.49in"><span style="font-weight:bold">The appeal</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 30 July 2012 at Inner London Crown Court before His Honour Judge (&#8220;HHJ&#8221;) Bishop the appellant faced trial on an indictment containing four counts in each of which he was charged with an offence of being the owner of a dog which caused injury while dangerously out of control in a public place, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> and (4) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">Dangerous Dogs Act 1991</ref>. The original indictment contained one count in which five victims were named. For reasons that will become clear the indictment was amended to create four counts with a different victim named in each count; but all arose out of a single incident which occurred on 22 March 2012. Following a submission of no case to answer at the close of the prosecution case the judge directed the jury to return a formal verdict of not guilty in respect of count 1 and the trial continued upon the remaining counts. On 6 August 2012 the jury returned guilty verdicts upon counts 2 &#8211; 4. The appellant was sentenced on 17 January 2013 to concurrent terms term of 22 months imprisonment and disqualified from owning a dog for a period of 5 years. Also on 6 August 2012 the appellant pleaded guilty to a summary charge that he was in possession of a prohibited dog, contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1 (3)</ref> and (7) of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref>. No additional penalty was imposed. The memorandum of committal wrongly states that the summary offence was committed for trial under section 6 (2) of the Magistrates Court 1980. We shall assume without further enquiry that the summary charge was correctly committed under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/33/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1988/33" uk:canonical="1988 c. 33" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 1988</ref>. No point is taken by the appellant as to the lawfulness of the committal or the accuracy of the memorandum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant has leave to appeal against conviction upon the ground that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">Dangerous Dogs Act 1991</ref> does not permit the conviction of an owner or person in charge of a dog who did not by his act or omission cause the dog to be in a public place or cause the dog to become dangerously out of control. It was common ground at trial that the dog escaped from confinement in a private dwelling by reason of the deliberate act of a third party. On these facts the issue arises for the first time in this court since it was considered, <span style="font-style:italic">obiter</span>, by the court, differently constituted, in<span style="font-style:italic"> Bezzina and others</span> <ref href="#" uk:canonical="[1994] 99 Cr App R 356" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 99 Cr App R 356</ref>:- to what extent is liability for the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> offence &#8220;strict&#8221;?</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold">Evidence at trial</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the morning of 22 March 2012 police officers attended at the appellant&#8217;s home address, 36 Albert Square, London E15, for the purpose of executing a search warrant. An enforcer was used to break open the front door of the property and the officers entered the house. There was silence within. By inference the appellant and another were inside the house, probably on the first floor. Almost immediately after the officers entered through the front door a pit bull terrier belonging to the appellant descended the stairs from the first floor and attacked Police Constable (&#8220;PC&#8221;) Corderoy as he was retreating towards the doorway. Other officers succeeded in freeing PC Corderoy from the dog&#8217;s grip by inserting an asp into the dog&#8217;s mouth and twisting it. As PC Corderoy was making his escape, within the curtilage of the house and small front garden the dog attacked PC Merritt by biting and latching on to his arm. Other officers continued to strike the dog with their batons in an attempt to free him. As PC Bush was attempting to release the dog&#8217;s grip on PC Merritt two males, one of whom was the appellant, appeared from the house. PC Bush shouted at them to call off the dog and DC Clarke shouted something similar. One of the men said, &#8220;We can&#8217;t mate, there is nothing we can do&#8221;. The other said, &#8220;You should have knocked. Why didn&#8217;t you knock?&#8221; PC Bush, having wrenched the dog&#8217;s mouth from PC Merritt&#8217;s arm, backed away towards the insecure gate between the front garden and the pavement. Before he could get clear the dog attacked him by gripping his arm. PC Bush continued onto the pavement with the dog still attached while officers attempted to assist him with their batons. Only when he reached his police van did the dog back away. However, it then turned its attention to PC Garrard. When PC Garrard attempted to run the dog bit the back of his leg. The officer jumped over a wall into a neighbouring front garden in an attempt to escape but the dog remained with him and maintained its grip. PC Garrard managed to scramble onto the top of a car and only then did the dog free him. PC Bones received a radio call to attend the scene and when he arrived he attempted to give assistance to PC Garrard. As he was doing so the dog bit his hand. The later parts of the incident were recorded by a local resident on his mobile phone video camera. The witness described the scene as the most horrific he had ever witnessed. The camera footage was made available to the jury. Eventually the dog was brought under control and destroyed by armed officers who were called to the scene. When the appellant was arrested shortly afterwards, he replied to the caution, &#8220;It&#8217;s not the dog&#8217;s fault. You should have knocked. I would have let you in&#8221;. Each of the officers attacked by the dog admittedly suffered injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of the prosecution case a submission of no case to answer was made on behalf of the appellant. First, it was contended that the evidence could not support a conviction in the case of the attack on PC Merritt because the dog was dangerously out of control in a private rather than a public place. The judge acceded to this submission and the jury was directed to return a formal verdict of not guilty in respect of count 1. Second, it was submitted that the sole cause of the dog&#8217;s escape was the unforeseen actions of police officers breaking into the house. On the evidence, the appellant had done nothing either to permit its escape to a public place or to cause the dog to be dangerously out of control. The learned judge, having given detailed consideration to the authorities brought to his attention, concluded that the offence was one of strict liability which did not require proof of any action or inaction on the part of the owner to bring about the consequences either of the dog being in a public place or of the dog being dangerously out of control. He ruled that counts 2 &#8211; 4 should be left to the jury.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant did not give evidence in his own defence and no evidence was called on his behalf. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold">Directions of law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial judge&#8217;s directions of law were encapsulated in a document handed to the jury called &#8220;Steps to Verdict&#8221;. In it the judge posed the following questions (which we have paraphrased):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1.57in;text-indent:-0.7in">&#8220; Step 1:<marker name="tab"/>Are you sure that the defendant was the owner of the dog? This is accepted, go to Step 2.</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in;text-indent:-0.57in">Step 2:<marker name="tab"/>Are you sure that the dog was dangerously out of control? If you are sure, go to Step 3. If you are not sure, verdict not guilty.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in;text-indent:-0.57in">Step 3:<marker name="tab"/>Are you sure that the dog injured the police officer who is named in the count you are considering? This is accepted, go to Step 4.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in;text-indent:-0.57in">Step 4:<marker name="tab"/>Are you sure that this happened in a public place? If you are sure, verdict guilty. If you are not sure, verdict not guilty.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel2" style="margin-left:0.49in">The judge explained in a footnote to the document that provided the attack upon the officer and the injury inflicted upon him occurred at least in part in a public place, it did not matter that there was also an attack upon the same officer while they were on private property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his directions of law to the jury the judge emphasised the strict nature of the offence. At page 7 of the transcript he said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Parliament has said that the dog owner commits a criminal offence if his dog is dangerously out of control in a public place and if it injures someone the aggravated offence is committed. That is what is alleged here. There is no requirement &#8230; for the prosecution to prove that the dog owner was at fault in any way, either in opening the door to let the dog out or letting go of his lead or not tethering him properly or the muzzle being inadequate in some way. Parliament has decided that the danger from dangerous dogs is such that it is necessary to impose criminal liability on a dog owner simply if his dog is in a public place and is dangerously out of control.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At page 8 of the transcript the judge continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; Parliament, no doubt, thought that if you are the owner of such a dog you must ensure that the dog does not get out into a public place and be dangerously out of control in any circumstances. If it does get out and does go into a public place and behave like that, whether through the owner&#8217;s fault or failure <span style="font-style:italic">or through no fault of the owner</span><span/><span style="font-style:italic">but through the inaction or action of somebody else</span>, it simply does not matter, if it is your dog and if it is dangerously out of control in a public place then you are criminally responsible for that.&#8221; [Emphasis added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.5in"><span style="font-weight:bold">The <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">Dangerous Dogs Act 1991</ref></span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1</ref> of the Dangerous Dogs 1991 Act has a side note: &#8220;Dogs bred for fighting&#8221;. It creates prohibitions upon the breeding and keeping of certain types of dog including pit bull terriers. Section 2 gives power to the Secretary of State to specify in an Order dogs of any type that appear to present a serious danger to the public and should be subject to the prohibitions contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>, in its relevant parts, provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold">Keeping dogs under proper control</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="margin-left:1.38in;text-indent:-0.39in">(1)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.38in;margin-right:0.45in">If a dog is dangerously out of control in a public place-</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="margin-left:1.77in;text-indent:-0.39in">(a)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.77in;margin-right:0.45in">the owner; and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="margin-left:1.77in;text-indent:-0.39in">(b)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.77in;margin-right:0.45in">if different, the person for the time being in charge of the dog</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.38in;margin-right:0.45in">is guilty of an offence, or if the dog while so out of control injures any person, an aggravated offence, under this sub-section.</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.38in;text-indent:-0.38in">(2)</num>
+		    <content>
+		      <p class="ParaLevel5" style="margin-left:1.38in;margin-right:0.45in">In proceedings for an offence under sub-<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>) above against a person who is the owner of a dog but was not at the material time in charge of it, it shall be a defence for the accused to prove that the dog was at the material time in the charge of a person who he reasonably believed to be a fit and proper person to be in charge of it.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.38in;text-indent:-0.38in">(3)</num>
+		    <intro>
+		      <p class="ParaLevel5" style="margin-left:1.38in;margin-right:0.45in">If the owner or, if different, the person for the time being in charge of a dog allows it to enter a place which is not a public place but where it is not permitted to be and while it is there &#8211; </p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.67in;margin-right:0.45in">it injures any person; or</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.67in;margin-right:0.45in">there are grounds for reasonable apprehension   that it would do so</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.38in;margin-right:0.45in">he is guilty of a offence, or if the dog injures any person, an aggravated offence, under this sub-section.</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1.38in;text-indent:-0.38in">(4)</num>
+		    <intro>
+		      <p class="ParaLevel5" style="margin-left:1.38in;margin-right:0.45in">&#8230; A person guilty of an aggravated offence &#8230; is liable &#8211;</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="margin-left:2.38in;text-indent:-1in">(a)</num>
+		      <content>
+			<p class="ParaLevel7" style="margin-left:2.38in;margin-right:0.45in">   &#8230; </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="margin-left:1.67in;text-indent:-0.3in">(b)</num>
+		      <content>
+			<p class="ParaLevel7" style="margin-left:1.67in;margin-right:0.45in;text-indent:0.08in">   on conviction on indictment, to imprisonment for a term not exceeding 2 years or a fine or both. &#8230; &#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 10</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the Act</ref> contains provisions for interpretation. <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 10 (2)</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1.38in;margin-right:0.45in">In <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;margin-right:0.45in">&#8230; &#8220;public place&#8221; means any street, road or other place (whether or not enclosed) to which the public have or are permitted to have access whether for payment or otherwise and includes the common part of a building containing two or more separate dwellings.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 10 (3)</ref> contains provisions for the interpretation of the term &#8220;dangerously out of control&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.38in">For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">this Act</ref> a dog shall be regarded as dangerously out of control on any occasion on which there are grounds for reasonable apprehension that it will injure any person, whether or not it actually does so, but references to a dog injuring a person, or there being grounds for reasonable apprehension that it will do so, do not include references to any case in which the dog is being used for a lawful purpose by a constable or a person in the service of the Crown.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold">The cases</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the conjoined appeals of <span style="font-style:italic">Bezzina, Codling &amp; Elvin </span><ref href="#" uk:canonical="[1994] 99 Cr App R 356" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 99 Cr App R 356</ref>, the Court of Appeal (Kennedy LJ, Waterhouse and Ebsworth JJ) considered the appeals of three appellants who had been convicted of the aggravated form of the offence provided by <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the Act</ref>. Mr Bezzina was exercising his Rottweiler dog off its lead when the dog ran after and attacked a teenager. Ms Codling allowed her dog to roam. The victim was walking his own dog when he was bitten. Mr Elvin housed his dogs in a garage which was inadequately secured and the dog escaped. Kennedy LJ, giving judgment on behalf of the court observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.45in">&#8220;On the face of it &#8230; when the words &#8220;dangerously out of control&#8221; are encountered in <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the Act</ref>, one turns to <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10 (3)</ref> to find out what they mean. One finds those words which we have just cited. Accordingly, it would seem that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">this Act</ref> by <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref>, imposes strict liability on the owners of dogs of all sorts which are in public places and are dangerously out of control within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10 (3)</ref> which, on the face of it, imposes or sets an objective standard of reasonable apprehension, not related to the state of mind of the dog owner&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At page 359 Kennedy LJ drew attention to the long title of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the Act</ref> which included the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; to make further provision for securing dogs are kept under proper control; and for connected purposes&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court noted that offences of strict liability were rare. <span style="font-style:italic">Mens rea</span> was an essential ingredient of every criminal offence unless some reason could be found for holding that this is not necessary (see <span style="font-style:italic">Sweet v Parsley </span><ref href="#" uk:canonical="[1969] 53 Cr App R 221" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1969">[1969] 53 Cr App R 221</ref>, <ref href="#" uk:canonical="[1970] AC 132" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1970">[1970] AC 132</ref>, at page 225 and page 163, per Lord Reid). Having considered the hallmarks of a strict liability offence identified by the Privy Council in <span style="font-style:italic">Gammon (HK) Ltd v Attorney General of Hong Kong </span><ref href="#" uk:canonical="[1985] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] AC 1</ref> and <span style="font-style:italic">Wings Limited v Ellis </span><ref href="#" uk:canonical="[1985] AC 272" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] AC 272</ref>, the court concluded that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> did indeed create a strict liability offence. At page 360 Kennedy LJ said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; If a dog is in a public place, if the person who was accused is shown to be the owner of the dog, if the dog is dangerously out of control in the sense that the dog is shown to be acting in a way that gives grounds for reasonable apprehension that it would injure anyone, liability follows. Of course, if injury does result then, on the face of it, there must have been, immediately before the injury resulted, grounds for reasonable apprehension that injury would occur.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court recognised that its interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> placed the onus squarely upon dog owners to take action which ensured that dogs were kept under control in a public place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of one of the appellants, Elvin, counsel raised a factual situation in which strict liability would, arguably, create unfairness, namely the escape of an animal as the result of the action of a third person about which the owner knows nothing, for example, a burglar. It was submitted that it could not have been the intention of Parliament to impose liability on the owner if the dog, having escaped without the knowledge or contribution of the owner, is found to be dangerously out of control. The court found that the problem did not arise on the facts of any of the cases before it. Kennedy LJ observed that the court&#8217;s construction appeared to be supported by the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (2)</ref>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;If <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> did not impose strict liability there would be little need for the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (2)</ref> which affords a defence to an owner who has placed the dog in the charge of a person whom he reasonably believes to be a fit and proper person to be in charge of it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Divisional Court (Auld LJ and Popplewell J) considered <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> in <span style="font-style:italic">Rafiq v Folkes</span>,<span style="font-style:italic"> 22</span> April 1997, CO/4172/96. A customer visited a garage shop on whose counter the owner had permitted a dog to sit. On the approach of the customer she was bitten and the owner was charged under <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> with the aggravated form of the offence. In the Magistrates Court, the Crown Court and the Divisional Court it was argued on behalf of the owner that there had been, before the injury was inflicted, no grounds for reasonable apprehension that the dog would injure any person within the meaning <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10 (3)</ref>. The Crown Court found that the very fact of injury caused by the dog was sufficient there and then to give rise to a reasonable apprehension. That view of the evidence was upheld on appeal. Referring to Kennedy LJ&#8217;s analysis in <span style="font-style:italic">Bezzina </span>Auld LJ said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I have some difficulty with Kennedy LJ&#8217;s proposition in <span style="font-style:italic">Bezzina </span>at page 969A, that if there is injury there must have been immediately before it grounds for reasonable apprehension of it. Depending on the circumstances, the time for apprehension, even by the notional reasonable bystander, may be so minimal as for practical purposes to be non-existent. The notion of reasonable apprehension of injury before it occurs in such circumstances is artificial and the court should strain against adding that unhappy element to an already difficult statutory formulation. It seems to me that Kennedy LJ in that passage was unnecessarily focusing on the injury as if it were a necessary culmination and demonstration of anterior reasonable apprehension of injury. In my view there is no need for such an approach. The act of a dog causing injury, a bite or otherwise, is itself capable of being conduct giving grounds for reasonable apprehension of injury.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal again considered the section in <span style="font-style:italic">Gedminintaite and Collier </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2008/814" uk:canonical="[2008] EWCA Crim 814" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Crim 814</ref>. Two Rottweiler dogs were being taken for a walk. They were on leads. As a child passed by, one of the dogs bit and tore his scrotum. The issue was whether the dog had been dangerously out of control. The court noticed the different approaches of the Divisional Court in <span style="font-style:italic">Rafiq </span>and the Court of Appeal in <span style="font-style:italic">Bezzina </span>and concluded (at paragraph 9 in the judgment of HHJ Hall on behalf of the court):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.98in;margin-right:0.45in;text-indent:0.03in">&#8230; In any event, the definition section, <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref>, is not exclusive. It does not read as a matter of construction, &#8220;for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">this Act</ref>, a dog shall only be regarded as dangerously out of control &#8230;&#8221; and then proceed to the definition. Therefore we feel ourselves entitled to go back to the straightforward words of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>: &#8220;if a dog is dangerously out of control in a public place &#8230;&#8221; In our judgment, this dog was dangerously out of control in a public place; that was amply evidenced by the way it behaved and the fact that it was not controlled by its handler.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel2" style="margin-left:0.49in">Accordingly, the application for leave to appeal against conviction was refused.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold">The appellant&#8217;s argument</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Harris submits on behalf of the appellant that the court has not on any previous occasion been required to confront the factual situation that arose in the present case. The appellant, it was common ground, kept his dog at 36 Albert Square. It was, before the arrival of the police, effectively confined in a locked, private house and, in the ordinary course of things, submitted Mr Harris, would not have entered a public place save under the control of the appellant. The police arrived with a search warrant and without prior warning broke open the front door of the house. It was conceded by the prosecution that the first attack on PC Corderoy took place within the premises. It followed that no offence was committed under <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> in connection with the dog&#8217;s attack upon him and, for that reason, no count appeared in the indictment in which PC Corderoy was the complainant. As the judge found, count 1, in which PC Merritt was the complainant, could not safely be left to the jury since the preponderance of the evidence was that the attack upon him also took place on private property which did not constitute a public place. There was no issue that the following attacks upon the remaining police officers, PC Bush, PC Garrard and PC Bones, occurred in a public place and that each of them suffered relevant injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Harris accepts that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> creates a strict liability offence requiring no <span style="font-style:italic">mens rea</span>. He submits, however, that the minimum requirement for a conviction under <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> is that the defendant caused or contributed to the prohibited event by his voluntary act or omission. He submits that the appellant did nothing to bring about the prohibited events, namely the presence of a dangerous dog in a public place. He should be in no worse position than if he happened not to be in 36 Albert Square when the police broke in, thus releasing the dog. The problem which arises in the present case was anticipated by the court in <span style="font-style:italic">Bezzina </span>(see e.g. paragraph 16 above)<span style="font-style:italic">. </span>Kennedy LJ said in the following passage at page 360 of his judgment:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;That is, clearly, a problem which, in some particular case may have to be resolved. But it is a problem which does not arise, as we find, in the case of Elvin in which [counsel] appears. In that case the dog was not in a situation, as the learned judge found, where it was properly secured and not liable to escape until some third party intervened.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Harris submits that there may be a principled solution revealed by the court&#8217;s response in <span style="font-style:italic">Bezzina </span>to the hypothetical example of a passing child who provokes a dog by poking it with a stick causing the dog to react. Also at page 360, Kennedy LJ said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;But it seems to us that Parliament was entitled to do what in this piece of legislation we find that it has done, namely to put the onus on the owner to ensure, if that is likely to happen, he takes steps which are effective to ensure that it does not, either by keeping the dog on a lead or keep the child away from the dog or whatever may be appropriate in the circumstances.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel2" style="margin-left:0.49in">In this passage the court was recognising, Mr Harris submits, that there may be circumstances in which the intervention of a third party should be anticipated and control nonetheless maintained in order to ensure that the dog does not become dangerous. The circumstances envisaged by the court included the fact that the owner (or person in charge) was as a matter of fact in charge and, therefore, in a position to take the effective steps required to keep the dog under control. But what if the intervention of a third person was entirely outside reasonably foreseeable events? It is submitted that the court was acknowledging, <span style="font-style:italic">obiter</span>, that the least requirement of the section was an act or omission by the owner that helped to bring about the prohibited event.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Harris adopts the reasoning of the author of Smith &amp; Hogan&#8217;s Criminal Law (13<span style="vertical-align:super;font-size:smaller">th</span> edition). At chapter 7.1.2, page 157, Professor David Ormerod identified two forms of criminal offence in which <span style="font-style:italic">mens rea</span> was not required, those of &#8220;strict&#8221; liability in which one or more elements (but not all) of the <span style="font-style:italic">actus reus</span> requires no proof of <span style="font-style:italic">mens rea</span> and offences of &#8220;absolute&#8221; liability in respect of which the defendant causes an <span style="font-style:italic">actus reus</span>, but there is no <span style="font-style:italic">mens rea</span> attaching to any part of the <span style="font-style:italic">actus reus</span>. The authority cited for the latter proposition [in footnote 20] is a decision of the Auckland Supreme Court in New Zealand, <span style="font-style:italic">Kilbride v Lake </span>[1962] 590 (Woodhouse J). The agreed facts were that the appellant had parked his car bearing a current warrant of fitness. When he returned the warrant had disappeared. A traffic offence notice had been placed on the window screen. The appellant was charged and convicted under regulation 52 (1) of the Traffic Regulations 1956 with operating a vehicle on which there was not displayed a current warrant of fitness. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Woodhouse J held that no offence had been committed. At page 591 he said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;On the other hand it was claimed for the respondent that this statutory offence was one which excluded <span style="font-style:italic">mens rea</span> as an ingredient to be proved. On this basis it was submitted that the offence was one of strict liability and therefore the knowledge or intention of the appellant was irrelevant. The issue this raised on these simple facts directly poses the important question as to whether something done perfectly lawfully by the appellant could become an offence on his part by reason of an intervening cause beyond his influence or control, and which produced an effect entirely outside his means of knowledge. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">It has long been established, of course, that if there is an absolute prohibition and the prohibited act is done by the defendant, then the absence of <span style="font-style:italic">mens rea</span> affords no defence. This principle derives its justification from the general public interest, and any consequential injustice which might seem to follow in individual cases has necessarily been accepted. &#8230; I am of the opinion that the emphasis which has been put on the matter of <span style="font-style:italic">mens rea</span> has obscured the real issue in this case. It is fundamental that quite apart from any need there might be to provide <span style="font-style:italic">mens rea</span>, &#8220;a person cannot be convicted of any crime unless he has committed an overt act prohibited by law or has made default in doing some act which there was a legal obligation upon him to do. The act or admission must be voluntary&#8221;: 10 Halsbury&#8217;s Laws of England, 3<span style="vertical-align:super;font-size:smaller">rd</span> edition, 272. He must be shown to be responsible for the physical ingredient of the crime or offence. This elementary principle obviously involves the proof of something which goes behind any subsequent and additional enquiry that might become necessary as to whether <span style="font-style:italic">mens rea </span>must be proved as well.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel2" style="margin-left:0.49in">At page 592 the judge continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;There can be no doubt that the appellant permitted the vehicle to be on the road, and his conduct in this respect was a continuing act which did not end when he left the vehicle. Nevertheless, at this latter point of time the warrant was on the car, and there was no unlawful situation. Only when some extraneous cause subsequently removed the warrant did the event occur which the regulation is directed to prevent. If he is to be regarded as responsible for that <span style="font-style:italic">actus reus</span> the decision must be made on the basis that he omitted immediately to replace the warrant.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">It is of course difficult to demonstrate that an omission to act was not, in a causal sense, an omission which produced some event. All omissions result from inactivity, and in this matter of the warrant the appellant was necessarily inactive. But, in my opinion, it is a cardinal principle that, altogether apart from the mental element of intentional knowledge of the circumstances, a person cannot be made criminally responsible for an act or omission unless it was done or omitted in circumstances where there was some other course open to him. If this condition is absent, any act or omission must be involuntary or unconscious, or unrelated to the forbidden event in any causal sense regarded by the law as involving responsibility &#8230; I do not think it can be said that the <span style="font-style:italic">actus reus</span> was in any sense the result of his conduct, whether intended or accidental. &#8230; The resulting omission to carry the warrant was not within his conduct, knowledge or control: on these facts the chain of causation was broken.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of argument the court requested that further research be carried out to discover whether <span style="font-style:italic">Kilbride v Lake</span> had received any endorsement in other common law jurisdictions. We are grateful for both counsels&#8217; further efforts in this regard. <span style="font-style:italic">Kilbride</span> has been cited and discussed in New Zealand, Canada and the United Kingdom. In <span style="font-style:italic">Tifaga v Department of Labour </span>[1980] 2 NZLR 235 (Richmond P, Woodhouse and Richardson JJ) the New Zealand Court of Appeal considered the appeal of a man who had been convicted of an offence of overstaying, contrary to section 14 (6) of the Immigration Act 1964. His defence, relying on <span style="font-style:italic">Kilbride</span>, was that although ordered to leave it was impossible for him to do so because he had no funds. The court distinguished <span style="font-style:italic">Kilbride</span>, holding that the statutory provision created an offence which the appellant could with due diligence have avoided. He should have provided against the possibility that he would be required to leave New Zealand by ensuring that he had sufficient funds to meet his outward fare. In delivering a judgment with which the President agreed, Richardson J said at page 241:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.35in">&#8220;...it cannot be said that there is only one correct way of arriving at a conclusion as to whether or not there is criminal responsibility in a particular case...What is important to determine, having regard to the scheme and object of the statutory provision creating strict liability, what factors, in addition to the external manifestations of conduct falling within the provision, must be present to warrant attribution of criminal responsibility for that conduct.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A strong Divisional Court considered <span style="font-style:italic">Kilbride </span>in <span style="font-style:italic">Strowger v John </span>[1974] RTR 124 (Lord Widgery CJ, Ashworth and Melford Stevenson JJ). The appellant was convicted by the magistrates of an offence contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1971/10/section/12/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12 (4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1971/10" uk:canonical="1971 c. 10" uk:origin="TNA" uk:type="legislation">Vehicles (Excise) Act 1971</ref> by having kept on a public road a car without there being fixed to and exhibited on it a current excise licence in accordance with regulation 16 of the Road Vehicles (Registration and Licensing) Regulations 1971. The appellant had fixed a current licence to the interior surface of his windscreen but in circumstances unknown it had become detached and fallen to the floor of the car. The court held that the offence created was an absolute offence requiring no <span style="font-style:italic">mens rea. </span>In his judgment, with which the other members of the court agreed, Lord Widgery said, at page 130, that the car and its accessories were wholly under the control of the driver at all times, even though he was physically away from the car at the relevant time. However, he acknowledged that the consequences of intervention by a third party might require examination on another occasion:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.35in">&#8220;<span style="font-style:italic">Kilbride</span>...was concerned with facts very much like the present, in that, according to the law of New Zealand a driver is required to maintain on the windscreen of his car a current certificate of fitness...and in this particular instance when the owner of the car had left the car at a time when it was showing the appropriate certificate, some unidentified third party stepped in and removed that certificate. I say that because its removal was totally unexplained and, unlike in the present case, it was not found in the car; it had gone. It is argued by the defendant that, if the law in England is the same as the law of New Zealand in that regard, here is an example of a similar case where, as he would put it, there was shown to be a lack of <span style="font-style:italic">mens rea</span> and the accused was excused from responsibility in consequence. I would like to consider on another day whether, in circumstances equivalent to the present, the driver does have an answer to a charge of the kind laid against the defendant on the basis that the car was interfered with by another. I can see that different considerations might arise if the car had been broken into and the licence stolen, unknown to the driver, in his absence; but that is not this case.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.04in">We would add that Richardson J in <span style="font-style:italic">Kilbride</span> held that regulation 52 (1) did not require <span style="font-style:italic">mens rea.</span> He held that even an offence of strict liability required proof that the defendant&#8217;s voluntary act or omission had made some contribution to the prohibited event (see paragraph 23 above). There is no dispute here that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">Dangerous Dogs Act 1991</ref> creates an offence that does not require <span style="font-style:italic">mens rea</span>. Mr Harris&#8217; argument is that the intervention of a third party may go to causation of the state of affairs prohibited by Parliament. The act of a third party without the defendant&#8217;s knowledge or consent which is the sole cause of that state of affairs should excuse the defendant because he neither did nor omitted to do something that brought about the prohibited state of affairs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (added by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/21/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 21 (1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref>) provides that a person is guilty of an offence if he &#8220;causes&#8221; the death of another person by driving a motorcar on a road and, at the time when he is driving, the circumstances are such that he is committing an offence of using a motor vehicle while uninsured contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/33/section/143" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 143</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/33" uk:canonical="1988 c. 33" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>. In <span style="font-style:italic">Hughes </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/56" uk:canonical="[2013] UKSC 56" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 56</ref> the Supreme Court reviewed a conviction for this offence in the following circumstances. A family camper van was being driven faultlessly by the defendant along a road when a car driven by the deceased veered across the road and smashed into the camper van. The deceased died from injuries suffered in the impact. The collision was entirely the fault of the deceased driver who was over-tired and under the influence of heroin. The defendant was uninsured. The question for the Supreme Court was whether the defendant had &#8220;caused&#8221; the death of another person by driving a motor vehicle on a road. The Supreme Court considered that had Parliament intended a driver to be convicted of causing death by driving while uninsured merely by reason of the presence of the vehicle he was driving on the road it would have used more explicit language than &#8220;causes &#8230; death &#8230; by driving&#8221;. At paragraph 36 of the judgment given on behalf of the court by Lord Hughes and Lord Toulson the court said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;36.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; It must follow from the use of the expression &#8220;causes &#8230; death &#8230; by driving&#8221; that <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB requires at least some act or omission in control of the car, which involves some element of fault, whether amounting to careless/inconsiderate driving or not, and which contributes in some more than minimal way to the death. It is not necessary that such act or admission be the principle cause of death ... In the present case the agreed facts are that there was nothing which Mr Hughes did in the manner of his driving which contributed in any way to the death.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is recognised by the appellant that the reasoning of the Supreme Court in <span style="font-style:italic">Hughes </span>is not of direct application in the present case because Parliament chose not to identify the offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> as &#8220;causing&#8221; a dog to be dangerously out of control in a public place. On their face the words used require only the presence of a dog dangerously out of control in a public place. Nonetheless, Mr Harris relies upon the Supreme Court&#8217;s recognition at paragraph 17 of its judgment of the usual requirement of an act or omission by the defendant:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;17.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It may readily be accepted that the intention was to create an aggravated form of the offence of having no insurance [etc], but that only begs the question whether the intention was to attach criminal responsibility for a death to those whose driving had nothing to do with that death beyond being available on the road to be struck. It is certainly true that an uninsured person ought not to be driving at all, although there is no general prohibition on his driving and if he paid for insurance he could drive perfectly lawfully, but this too begs the question whether the intention was to make him criminally responsible as a killer for an offence of homicide in the absence of any act or omission on his part which contributed to the death other than his presence as a motorist capable of being hit. To say that he is responsible because he ought not to have been on the road is to confuse criminal responsibility for the serious offence of being uninsured with criminal responsibility for the infinitely more serious offence of killing another person. The criminal law is well used to offences of which there are aggravated forms carrying additional punishment where greater harm has been done. The escalating offences of common assault, assault occasioning actual bodily harm, and causing grievous bodily harm are but simple examples; there are many forms. But ordinarily, the greater punishment is linked to additional harm which is caused by a culpable act on the part of the defendant. In the case of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>ZB it is not. On the contrary, the present offence, if construed in the manner for which the Crown contends, represents a rare example of double strict liability, where both the underlying or qualifying condition is an offence (in the case of unlicensed or uninsured driving) which can be committed unwittingly as well as deliberately, and also the aggravating element can be constituted by an event for which the defendant is not culpable.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In short, the appellant&#8217;s argument is that the offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref>, in the absence of clear words to the contrary, should be construed as requiring proof of some act or omission of the defendant that brought about the presence in a public place of a dog dangerously out of control.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaHeading" style="margin-left:0.49in"><span style="font-weight:bold">The respondent&#8217;s argument</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent submits that, by application of well known authority including <span style="font-style:italic">Sweet v Parsley</span>,<span style="font-style:italic"/>Parliament plainly intended to create a strict liability offence in <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref>. The offence is committed by the owner of a dog which is dangerously out of control in a public place. Furthermore, an aggravated form of the offence is committed if while out of control in a public place the dog injures another person. There is no requirement for <span style="font-style:italic">mens rea</span>. No other construction of the section is reasonably available. <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 10 (3)</ref> relates only to a judgment whether the dog can be regarded as dangerously out of control. The test is objective and has nothing to do with the state of mind of the defendant. Thus, it is submitted by Mr Brown, that &#8220;how a dog ends up in the factual scenario [by] which the <span style="font-style:italic">actus reus</span> engages liability is entirely irrelevant&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Greener v DPP </span>[1996] 160 JP 265 the Divisional Court was considering a conviction under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">the Act</ref>. The appellant had been convicted of the offence because, although he had tethered his dog in the yard of his home, the dog had managed to overcome the restraint and to escape. The Court held that the word &#8216;allows&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (3)</ref> did not imply that the prosecution was required to prove any particular state of mind. Saville LJ said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Mr Duff submitted that if no mental element was included in the offence then it would be one of strict liability, whereas it was observed by the Court of Appeal in the case of <span style="font-style:italic">R v Bezzina &amp; Others </span><ref href="#" uk:canonical="[1994] 1 WLR 1057" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 1 WLR 1057</ref> at 1062 by way of dictum, <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (3)</ref> did import the concept of <span style="font-style:italic">mens rea</span>. However, in the context of that case it seems to me at least possible that what was meant by that observation was that, unlike sub-<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>), there had to be some act or omission, on the part of the defendant, which brought about the state of affairs referred to in the sub-section, that is to say, the dog being in a place where it should not have been. Here, as I have already said, the omission was the failure to take adequate precautions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At page 4, Saville LJ observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I entirely accept that there may well be [<ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (3)</ref>] cases where on the facts it simply could not be said the defendant allowed the dog to get into a prohibited place. An example that immediately comes to mind, of course, would be the intervention of a third person coming into the appellant&#8217;s garden and deliberately releasing the dog and enabling it to get out of the enclosure, but that is not the present case. The reason the dog escaped from the enclosure and into the other garden was the failure of the appellant to take adequate precautions to keep the dog on the chain in the enclosure.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3 (3)</ref> identifies the conduct required for proof of an offence, namely &#8220;allowing&#8221; the dog to enter a prohibited place. No such verb is used to identify any conduct of the defendant required to prove guilt of a sub-<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>) offence. It is submitted that the judge rightly identified the requirements for proof of the offence to the jury in his summing up. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the alternative, Mr Brown submitted that it had been open to the jury to convict the appellant on the basis that, the dog having already escaped to a public place and the dog then being dangerously out of control (within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/10/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10 (3)</ref>), he did nothing to bring it under control.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was, however, a logical inconsistency in Mr Brown&#8217;s oral submissions. On the one hand, counsel asserted that causation of the state of affairs prohibited was irrelevant to criminal liability. On the other, when asked to confront examples of situations such as those considered in <span style="font-style:italic">Bezzina</span>, Mr Brown responded that if the owner has done everything reasonably possible to prevent the prohibited state of affairs, he should have a defence to a charge under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref>.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Discussion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In none of the cases since <span style="font-style:italic">Bezzina</span> has<span style="font-style:italic"/>the court been confronted with a factual situation in which it was being contended that the prohibited state of affairs in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> arose entirely by reason of the deliberate act of a third party, and in <span style="font-style:italic">Bezzina</span> the argument for Mr Elvin failed on the facts. While there is no doubt that <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> creates a strict liability offence, the question remains whether Parliament intended liability to be absolute in the sense that criminal liability may follow notwithstanding the absence of any act or omission of the defendant contributing to the prohibited state of affairs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We remind ourselves of the classic statement of the need to interpret the will of Parliament made by Lord Morris of Borth-y-Gest at page 230 of <span style="font-style:italic">Sweet v </span>Parsley:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in">&#8220;But as Parliament is supreme it is open to Parliament to legislate in such a way that an offence may be created of which someone may be found guilty though <span style="font-style:italic">mens rea </span>is lacking. There may be cases in which, as Channell J. said (at page 11) in <span style="font-style:italic">Pearks Gunston &amp; Tee Ltd. v. Southern Counties Dairies Ltd. </span>[1902] 2 K.B.1&#8212;"the Legislature has thought it so important to prevent the particular act from being committed that it absolutely forbids it to be done; and if it is done the offender is liable to a penalty whether he had any <span style="font-style:italic">mens rea </span>or not and whether or not he intended to commit a breach of the law". Thus in diverse situations and circumstances and for any one of a variety of reasons Parliament may see fit to create offences and make people responsible before criminal courts although there is an absence of <span style="font-style:italic">mens rea. </span>But I would again quote with appreciation (as I did in <span style="font-style:italic">Warner's </span>case the words of Lord Goddard C.J., in <span style="font-style:italic">Brend </span>v. <span style="font-style:italic">Wood </span>[1946] (175 L.T. 306), when he said (at page 307)&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in">&#8220;It is of the utmost importance for the protection of the liberty of the subject that a Court should always bear in mind that unless a statute either clearly or by necessary implication rules out <span style="font-style:italic">mens rea </span>as a constituent part of a crime, the Court should not find a man guilty of an offence against the criminal law unless he has a guilty mind."</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in">The intention of Parliament is expressed in the words of an enactment. The words must be looked at in order to see whether either expressly or by necessary implication they displace the general rule or presumption that <span style="font-style:italic">mens rea </span>is a necessary prerequisite before guilt of an offence can be found.<br/>Particular words in a statute must be considered in their setting in the statute and having regard to all the provisions of the statute and to its declared or obvious purpose. In 1848 in <span style="font-style:italic">Attorney-General </span>v. <span style="font-style:italic">Lockwood </span>9 M. &amp; W. 378 Alderson B. at page 398 said&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in">&#8220;The rule of law, I take it, upon the construction of all statutes ... is whether they be penal or remedial, to construe them according to the plain literal and grammatical meaning of the words in which they are expressed, unless that construction leads to a plain and clear contradiction of the apparent purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">the Act</ref> or to some palpable and evident absurdity." </p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">It must be considered, therefore, whether by the words of a penal statute it is either express or implied that there may be a conviction without <span style="font-style:italic">mens rea </span>or, in other words, whether what is called an absolute offence is created.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We do not accept that it is the law of England and Wales that Parliament cannot provide for criminal liability when there is no causative link between the act or omission of the defendant and the prohibited event. It may be that the regulation being considered by Woodhouse J in <span style="font-style:italic">Kilbride </span>permitted the construction that was applied on the facts of the case before him, although the judge stated his proposition as to cause as one of legal principle. To the extent that Mr Harris seeks to derive a principle of law that even in the case of &#8216;absolute&#8217; liability the defendant must be shown to have <span style="font-style:italic">caused</span> the prohibited state of affairs, we disagree with him. Such a conclusion would ignore the rationale for the acceptability of some offences of strict liability. The policy behind the prohibition may be regulatory; that is, it is in the public interest to place an absolute burden on the defendant to ensure that the state of affairs prohibited does not come about; alternatively, the criminal law may create an irrebuttable presumption whose effect cannot be avoided even by proof of moral rectitude. As stated at page 158 of Smith and Hogan&#8217;s Criminal Law, in the public interest of protecting children no child under 13 can consent to sexual activity and the defendant&#8217;s belief as to ostensible consent or the age of the child is immaterial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Professor Ormerod recognises in chapter 4.3 of his work a category of offences in which the <span style="font-style:italic">actus reus</span> is represented by a state of affairs. In such a case there is no act or omission by, or state of mind of, the defendant that must be established, merely the existence of the prohibited state of affairs. He provides examples. In <span style="font-style:italic">Larsonneur</span> <ref href="#" uk:canonical="[1933] 24 Cr App R 74" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1933">[1933] 24 Cr App R 74</ref> the defendant, a French national, was prosecuted under the Aliens Order 1920 which made it an offence for an alien to be &#8220;found&#8221; in the United Kingdom having been refused leave to land. The defendant had been ordered to leave the United Kingdom and she went to the (then) Irish Free State. On arrival she was removed back to the United Kingdom in the custody of the police. Her conviction was upheld. Lord Hewart CJ accepted the submission made on behalf of the Crown that the underlying circumstances that led to the appellant being found in the United Kingdom were irrelevant. While the decision has been criticised, it is an example of the enforcement of a prohibition upon a state of affairs that the individual did not <span style="font-style:italic">cause</span> but for which she was deemed to be responsible. In <span style="font-style:italic">Winzar v Chief Constable of Kent</span>, 28 March<span style="font-style:italic"/>1983, The Times, the Divisional Court upheld the conviction of the appellant for being found drunk in the highway. He had been removed by the police from a hospital to the highway outside. There they &#8220;found&#8221; him, drunk. A similar conclusion was reached by Reed J sitting in the State Supreme Court of South Australia in <span style="font-style:italic">O&#8217;Sullivan v Fisher </span>[1954] St R 33 (SA). Professor Ormerod concludes that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in">&#8220;As a matter of principle, even &#8216;state of affairs&#8217; offences ought to require proof that D either caused the state of affairs or failed to terminate it or to act in order to do so when it was within his control and possible to do so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.04in">This is a view that will have many supporters. However, we have no doubt that the supremacy of Parliament embraces the power to create &#8216;state of affairs&#8217; offences in which no causative link between the prohibited state of affairs and the defendant need be established. The legal issue is not, in our view, whether in principle such offences can be created but whether in any particular enactment Parliament intended to create one.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A modern example of strict liability in the regulatory context arises under regulation 23 of the Transfrontier Shipment of Waste Regulations 2007. It is an offence contrary to regulation 23 to transport waste in breach of article 36 (1) of the European Waste Shipment Regulation 1013/2006 that is destined for &#8216;recovery&#8217; in a country to which the OECD Decision does not apply. Besides the notifier, transporter and freight-forwarder of the cargo (regulation 5(2)(a)-(c)), by regulation 5 (2)(d) such an offence can be committed by &#8220;any other person involved in the shipment of waste&#8221;. In <span style="font-style:italic">Ezeemo and others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2012/2064" uk:canonical="[2012] EWCA Crim 2064" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Crim 2064</ref> this court acknowledged, when holding that the regulation 23 offence was one of strict liability, that the offence could be committed by a person involved in the shipment of waste who had no knowledge that the shipment in fact contained waste. The court held that the purpose of the 2007 Regulations was to place upon certain categories of persons who were involved in the handling and movement of waste the absolute responsibility for ensuring that it was handled and moved in compliance with the United Kingdom&#8217;s responsibilities under the EC Waste Shipment Regulation 2006. At paragraph 77 Pitchford LJ, giving the judgment of the Court, said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;77.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in">... The offence created by regulation 23 is an offence of strict liability. We recognise, as was submitted, that this construction has the effect of catching those who may have no personal knowledge that a container contains waste or that the contents of the container were destined for recovery in a non-OECD country. One of the reasons for imposing strict liability is, as Lord Scarman said in <span style="font-style:italic">Gammon</span>,<span style="font-style:italic"/>to promote greater vigilance among those who undertake activities which may cause harm to the public. The obligation which the regulations place upon transporters is to take care to acquire knowledge of the cargos they are transporting. If they do not they take the risk of breach.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We accept and confirm that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65" uk:canonical="1991 c. 65" uk:origin="TNA" uk:type="legislation">Dangerous Dogs Act 1991</ref> creates an offence of strict liability. We therefore turn to the question:- to what extent is liability for the offence strict? We note first that responsibility to prevent the state of affairs prohibited is placed on the owner and, if different, the person &#8220;for the time being <span style="font-style:italic">in charge of</span> the dog&#8221;. There are, in other words, concurrent obligations upon both the owner of the dog and the person for the time being in charge of it. In the event that the prohibited state of affairs arises, <span style="font-style:italic">both</span> commit an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref>. However, it is a defence available to an owner of the dog who was not also at the time in charge of the dog that the person who was in charge of the dog was &#8220;a person whom he reasonably believed to be a fit and proper person to be in charge of it&#8221; (<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (2)</ref>). It follows that it was not Parliament&#8217;s intention to render the owner absolutely liable in all circumstances for the existence of the prohibited state of affairs should it arise and however it arose. Parliament made liable the person for the time being <span style="font-style:italic">in charge of the dog</span> or, if no-one was in charge of the dog, the owner. An owner who was not in charge of the dog would not commit an offence unless he had failed to place the dog in the charge of a fit and proper person. The underlying assumption was that in the normal course of things someone would be in charge of (and therefore in a position to control) the dog so as to prevent the prohibited state of affairs arising and, in default of such a person, the owner would be responsible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3 (3)</ref> creates an offence which arises from the presence of the dog in &#8216;private&#8217; space where it does not have permission to be. The offence may be committed either by the owner if he is in charge of the dog, or, if he is not, by the person who is in charge of the dog. The offence is committed if the defendant <span style="font-style:italic">allows </span>the dog into the prohibited space and, once there, the dog injures any person or there are grounds for reasonable apprehension that it will injure someone. We acknowledge that sub<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (3</ref>) uses the verb &#8216;allows&#8217; while sub<ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>) does not, but again the underlying assumption is that the owner or some other person is in charge of the dog and therefore in a position to exercise control over it. We have noted that in <span style="font-style:italic">Greener v DPP </span>the Divisional Court held that the use of the word &#8216;allows&#8217; does not imply the need for proof of <span style="font-style:italic">mens rea</span>, only that the act or omission of the defendant contributed to the prohibited state of affairs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Divisional Court in <span style="font-style:italic">Greener v DPP </span>expressed the opinion, <span style="font-style:italic">obiter</span>, that this court held in <span style="font-style:italic">Bezzina </span>that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> created an absolute liability offence. With respect we disagree. We accept that the court held in <span style="font-style:italic">Bezzina </span>that <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> created a strict liability offence. It is, however, clear that the court reserved for another day the question whether liability was created for a prohibited state of affairs that was wholly the responsibility of a third party. On analysis of <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>, we do not consider that it was Parliament&#8217;s intention to create an offence without regard to the ability of the owner (or someone to whom he had entrusted responsibility) to take and keep control of the dog. There must, in our view, be some causal connection between having charge of the dog and the prohibited state of affairs that has arisen. In our view, <ref href="http://www.legislation.gov.uk/id/ukpga/1991/65/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3 (1)</ref> requires proof by the prosecution of an act or omission of the defendant (with or without fault) that to some (more than minimal) degree caused or permitted the prohibited state of affairs to come about. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his submissions at the close of the prosecution case Mr Harris submitted to the judge that if the attack on PC Bush (count 2) commenced inside the garden area and PC Bush then left the garden with the dog&#8217;s jaw still clamped to his arm then it could not be said that by an action or inaction of the defendant the dog was dangerously out of control in a public place. Secondly, he submitted, as he did to this court, that the dog was merely reacting when in a public place to provocation by the police commenced when they were on private property. In his response to these submissions the learned judge said in his ruling:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in">&#8220;Well the answer at this point lies in an analysis of the offence with which the defendant is charged. It is an offence of strict liability and simply requires the prosecution to prove, firstly, that the defendant is the owner of the dog: that is accepted; secondly, that the dog was dangerously out of control; and, thirdly, that the place that the dog was out of control was a public place, and for there to be an aggravated offence there must also be proved some injury.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.04in">For this reason, the judge concluded, it was enough that the latter part of the attack occurred in a public place, and that the dog was then dangerously out of control and caused injury. Mr Harris was bound by this ruling and for that reason could not submit to the jury that the appellant had neither done nor omitted to do something that contributed to the dog&#8217;s presence in a public place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the prohibited state of affairs was to some degree caused by the act or omission of the appellant the progression of events from the house, into the garden and then into the road could not have assisted the appellant. We do not, however, agree that the strict terms of the subsection provide an answer to the antecedent question whether the offence is committed by the owner in the absence of any act or omission contributing to the prohibited state of affairs. The facts in the present case were that (i) the dog was not on a leash; (ii) it was securely enclosed in a locked house; (iii) under the authority of a warrant the police lawfully broke open the door to gain admission; (iv) the dog attacked the police inside the house; and (v) continued to attack as they retreated into the road. It is our view that these facts raised for decision by the jury the issue whether the appellant had done or omitted to do anything that contributed to the dog being dangerously out of control in a public place. By his directions to the jury, which were consistent with his ruling at the close of the prosecution case, the learned judge effectively withdrew this issue from their consideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We therefore turn to the respondent&#8217;s alternative argument, namely that the appellant <span style="font-style:italic">did</span> by his omission to act contribute to the prohibited state of affairs. Mr Brown submitted that the appellant&#8217;s failure to intervene when the dog was attacking PC Merritt in the garden of 36 Albert Square was an omission of the kind contemplated by Kennedy LJ at pages 359 and 360 of his judgment in <span style="font-style:italic">Bezzina.</span> At page 11B of his summing up the judge directed the jury as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in">&#8220;Perhaps a more fundamental question is this: what evidence is there that any control was being exercised by anyone at all? If you are sure that there was no control being exercised over dog, does that not help you decide whether it was out of control? The control referred to here is, of course, not the self control or the lack of it of the dog, but the control of the owner. The defendant appears to have come out of his house and turned back into the house whilst the attack on PC Merritt was taking place in front of him. It is not suggested by the defence that the dog was under his control as he attacked PC Merritt. Does that not help you decide that the dog was out of control? That is a matter for you...&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.04in">It was observed by the court in the course of argument that the judge was not there dealing with the question whether the appellant had done or omitted to do anything that contributed to the presence of the dog in a public place, dangerously out of control (having already directed the jury that the act or omission of the appellant was irrelevant); he was dealing with the question whether, objectively viewed, the dog <span style="font-style:italic">was</span> dangerously out of control immediately before it entered a public place. The appellant&#8217;s lack of control of the dog demonstrated that the dog was out of control even before it arrived on the street. We have to consider whether, notwithstanding the absence of a specific direction in appropriate terms, the verdicts are safe.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It seems to us that had the jury been directed to consider whether any act or omission of the appellant had made a more than minimal contribution to the presence of the dog in a public place, dangerously out of control, it is likely they would have concluded that he did - by his failure to make any attempt after its escape to take the dog under his control before it entered a public place. However, the learned judge, having reached his conclusion as to the nature of the offence, did not direct the jury to consider the issue; on the contrary, he told them that if they were sure the dog was dangerously out of control in a public place any act or omission of the appellant was irrelevant to the question whether he was guilty of the offence. In these circumstances the appellant elected not to give evidence. He was not given the opportunity to meet an assertion that by his act or omission after the escape from the house he caused or contributed to the prohibited state of affairs. We cannot in these circumstances be sure that the verdicts of the jury were safe.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons we allow the appeal against conviction. It is therefore unnecessary to consider the appellant&#8217;s application for an extension of time of 11 months within which to make an application for leave to appeal against sentence. We understand that in any event the sentence has been completed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,801 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/447"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2026/447"/>
+	  <FRBRdate date="2026-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="447"/>
+	  <FRBRname value="Mariusz Tadeusz Przezminski v Regional Court in Wloclawek (Poland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/447"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/447"/>
+	  <FRBRdate date="2026-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/447/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/447/data.xml"/>
+	  <FRBRdate date="2026-02-27T15:10:36" name="transform"/>
+	  <FRBRdate date="2026-02-27T15:33:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mariusz-tadeusz-przezminski" href="" showAs="MARIUSZ TADEUSZ PRZEZMINSKI"/>
+	<TLCPerson eId="regional-court-in-wloclawek-poland" href="" showAs="REGIONAL COURT IN WLOCLAWEK (POLAND)"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-mrs-justice-foster" href="/judge-mrs-justice-foster" showAs="MRS JUSTICE FOSTER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>447</uk:number>
+	<uk:cite>[2026] EWHC 447 (Admin)</uk:cite>
+	<uk:caseNumber>AC-2024-LON-003440</uk:caseNumber>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>065c17f13ab1af51c3601eb28704c556fc9197c6bc27f46e1f1fe28673226772</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .BodyTextIndent { text-align: justify; margin-left: 0.55in; font-style: italic; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .BodyTextIndentChar { font-style: italic; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2026] EWHC 447 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-LON-003440</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2026-02-27" refersTo="#judgment">27/02/2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-foster">MRS JUSTICE FOSTER</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#mariusz-tadeusz-przezminski" style="font-weight:bold">MARIUSZ TADEUSZ PRZEZMINSKI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#regional-court-in-wloclawek-poland" style="font-weight:bold">REGIONAL COURT IN WLOCLAWEK (POLAND)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Antony Bartholomeusz </span>(instructed by<span style="font-weight:bold"> Haider Solicitors</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Tom Davies</span> (instructed by <span style="font-weight:bold">CPS Extradition Unit</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 19th June 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved by the court<br/>for handing down</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Foster :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="Heading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">This is an appeal against the decision of District Judge Turnock dated 10 October 2024, ordering the extradition of the Appellant Mr Mariusz Tadeusz Przezminski<span style="font-weight:bold"/>to Poland pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41/section/21/3" uk:canonical="2003 c. 41 s. 21" uk:origin="TNA" uk:type="legislation">section 21(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">Extradition Act 2003</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/41" uk:canonical="2003 c. 41" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref>&#8217;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">2.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.55in">The Appellant is sought by the Respondent in relation to a single conviction warrant (II Kop 19/20) issued on 30 June 2020 and certified by the NCA on 07 January 2021. It seeks his return for 53 offences. They can be generally described (taking the Respondent&#8217;s description) as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-weight:bold">Offence 1</span>: between 19 February 2013 and 18 January 2014 the Appellant was part of an organised criminal group operating in the UK and Wloclawek, Poland. The group is said to have worked together to carry out a number of unauthorised contactless card payments using cards belonging to multiple individuals. These transactions were said to be to the detriment of the issuing banks because each of the accounts held insufficient funds to complete the transactions. It is clear from the subsequent particulars that the Appellant&#8217;s role in this group was to make the unauthorised transaction in the United Kingdom to the disadvantage of a range of Polish banks. The Appellant is said to have had a high-level role in the conspiracy and to have had knowledge of how the entire scheme worked. His role was to set up accounts online using the details of &#8216;front men&#8217;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-weight:bold">Offences 2 &#8211; 29</span>: These set out substantive offences between 29 April 2013 and December 2014 in which money was lost by the banks. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-weight:bold">Offences 30 &#8211; 52</span>: These are substantive offences between 08 July 2013 and 18 January 2014 which did not result in money being lost by banks because the cards were blocked. The value of these is not given. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-weight:bold">Offence 53</span>: money laundering between 21 January 2014 and 10 April 2014 in which the Appellant is said to have transferred criminal funds of 372,000 PLN through a fictitious company account. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">The Appellant is sought to serve a sentence of 3 years imprisonment, originally suspended for 5 years, but subsequently activated when the Judicial Authority became aware that the Appellant had been convicted of offences in the UK. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">The District Judge concluded that the Appellant was a fugitive, and whether a fugitive or not, Article 8 considerations of public policy in extradition outweighed his interests in remaining in the United Kingdom, and those of his family here.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Heading1">The Issues</heading>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">5.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.55in">Morris J gave permission to appeal on two bases:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in;margin-right:-0.05in"><span style="font-style:italic;color:#000000">It is arguable that the District Judge was wrong to find that the Appellant was a fugitive from justice. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in;margin-right:-0.05in"><span style="font-style:italic;color:#000000">&#8220;&#8230;, it is the case that, in relation to section 14, the Judge found that she would have reached the same conclusion, even if she had been wrong to find fugitivity.  In relation to Article 8, it is arguable that a different conclusion would be or would have been reached, absent the finding of fugitivity. Whilst at &#167;44(iv), when identifying the factors in favour of extradition, the Judge considered the position absent the finding of fugitivity, in her balancing exercise, she proceeded specifically on the basis of that finding: see &#167;47.   </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">6.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.55in"> The issues before this court were therefore </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">whether or not the finding of fugitivity was wrong, and even if it were wrong, </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">whether it could be said that the DJ&#8217;s findings on Article 8 were nonetheless sustainable.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in"> The parties disagreed as to the approach the Court should take on the second issue. The Appellant argued that I should consider the Article 8 balancing exercise afresh. The Respondent suggested this Court could place weight on the reasoning of the District Judge and the Court should conclude that the dismissal of the Article 8 case was sustainable even absent a finding of fugitivity.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Heading1">Factual Context before the District Judge</heading>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">The material before the District Judge was supplemented by four sets of Further Information (&#8216;FI&#8217;) in addition to the Warrant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The Further Information dated 20 October 2023 (&#8216;FI1&#8217;) provided the relevant information in respect of Box D of the warrant. The Appellant failed to attend the trial resulting in the decision. He was notified in person on 11 July 2016 and signed receipt of the same. The Appellant&#8217;s lawyer was present at the hearing. Further information provided on 04 January 2024 (&#8216;FI3&#8217;) provided the relevant parts of the penal code and an extract from sentence and confirmation that the Appellant knew the money in the money laundering offence was of a criminal origin. Thereafter on 29 January 2024 (&#8216;FI 4&#8217;) gave detail about the Appellant&#8217;s involvement and the particulars of the criminality, to the effect that his role gave him knowledge of the functioning of the whole organised procedure.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">10.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt">Most relevant for the issues in this case was the second tranche of information (&#8217;FI 2&#8217;) concerning the Appellant&#8217;s sentencing and departure from Poland. It provided where relevant (verbatim in translation):</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">(November 2023)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">&#8220;3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">During the interrogation as a suspect, that took place on 22</span><span style="font-style:italic;vertical-align:super;font-size:12pt;font-family:'Times New Roman'">nd</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> October 2023 in the Regional Prosecutors' Office in Wloclawek the requested person pleaded guilty of the commission of the deeds charged thereto. He was instructed on his right to refuse to make explanations, and he took advantage of this right. </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">He had been interrogated again on 24th May 2016 and then he also pleaded guilty of the commission of all deeds presented thereto and he agreed with the Prosecutor the penalty for each deed charged to him, among others, for the deed described under point 53 - as 1 year of imprisonment and the total penalty of 3 years of imprisonment with the conditional suspending of the execution of the penalty for the probation period of 5 years</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> and adjudicating of the duty to redress the damage in whole. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">On </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">7</span><span style="font-style:italic;font-weight:bold;vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt"> June 2017</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">the probation officer who carried out this environmental interview at the last known address established that Mariusz Przezminski </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">[</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">had been</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">]</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt"> staying at prison in Great Britain since February or March 2017</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">. The imprisonment was related to the proceedings that involved obtaining of financial means from social fund under false pretences.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.75in">&#8230;</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">On </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">14th September 2016</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> the decision sentencing Mariusz Przezminski to the total/cumulative penalty of 3 years of imprisonment with the conditional suspending of the execution of the penalty for the probation period of 5 years and the duty to redress the damage by paying, in the probation period the indicated amounts for the sake of bank institutions - &#8230; </span><span style="font-family:'Times New Roman';font-size:12pt">[Half a dozen Polish banks are named]</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> was adjudicated. </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">Mariusz Tadeusz Przezminski was subjected to the supervision of the probation officer during the probation period. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:1in">&#8220;&#8230; <span style="font-style:italic">The case was included in the existing sentence imposed in the case number T20160907 - of one month of imprisonment. On 17</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> August 2017 Mariusz Przezminski was released from Moorland Prison. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:1in"><span style="font-style:italic">On 11</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> December 2017 the Regional Court in Wloclawek </span><span style="font-style:italic;font-weight:bold">ordered the execution of the cumulative penalty of 3 years of imprisonment towards Mariusz Prezminski. The reason of the ordering was valid sentencing by the Court in the territory of Great Britain for the offence committed during the probation period. The defence attorney of the convict took part in the Court's sitting. The decision became final on 28</span><span style="font-style:italic;font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic;font-weight:bold"> December 2017.</span><span style="font-style:italic"> On 22</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> January 2018 the Court issued the wanted warrant for the convict. On 25</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> May 2018, the Police unit carrying out the search in the country informed that the convict had been staying in the territory of Great Britain in the locality of Halifax. On 3</span><span style="font-style:italic;vertical-align:super;font-size:smaller">rd</span><span style="font-style:italic"> June 2020 the Regional Court issued the European Arrest Warrant. In the period between 25</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> May 2018 and 3rd June 2020 the search was carried out in the territory of Poland, and it is carried out.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in">&#8230;</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-style:italic">&#8220;9.</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Between 11</span><span style="font-style:italic;vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> June 2016 and 3</span><span style="font-style:italic;vertical-align:super;font-size:12pt;font-family:'Times New Roman'">rd</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> June 2020 (the issuance of the European Arrest Warrant) the Regional Court in Wloclawek </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">did not have a direct contact with the requested Mariusz Tadeusz Przezminski.</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> The convict </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">once contacted the professional probation officer by telephone, which took place on 16th November 2016. He informed then that he was staying in England, was working there, did not have any new criminal cases and was not intending to return to Poland.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic">10.</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The convict did not have any prohibition to leave Poland. </span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-weight:bold">11.</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">The convict was obliged to inform the persecution </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">[sic]</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt"> bodies on the new place of his stay</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">. </span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic">12.</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">The requested person tried to avoid the investigation for the offences committed. During the executory proceedings, especially after the Court's decision - of 12th December 2017 on ordering of the execution of the cumulative penalty he failed to report to the Polish penitentiary unit</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> (prison). It may be decided that </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">since that time he intentionally had not been coming to Poland to avoid serving of the imprisonment penalty.&#8221;</span></p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">11.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.55in">It was therefore established that: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">The Appellant was not arrested in relation to the offences in Poland, but was interviewed on 22 October 2015 and 24 May 2016<span style="font-weight:bold"/>and pleaded guilty to the matters in the warrant agreeing with the prosecutor three years imprisonment suspended for five years on conditions. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">He was not prohibited from leaving Poland, but was obliged to inform the authorities of any &#8220;new place of stay&#8221;. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">The Appellant failed to attend his sentencing hearing on 14 September 2016, but his solicitor appeared for him.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">Between 11 June 2016 and 3 June 2020 the Polish authorities did not have any direct contact with the Appellant.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">On 16 November 2016, the Appellant called his probation officer and told them he was in England, was working there, did not have any new criminal cases and was not intending to return to Poland. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">The Probation officer established that the Appellant had been serving a 16-month sentence in prison in the UK since February or March 2017 </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">Emphasis is added to highlight those parts which the Judicial Authority seek to rely upon and which the Appellant did not always accept in his evidence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.55in">The Appellant has two convictions in the UK. On 8 December 2016 he was convicted of a dwelling house burglary, and three other offences were taken into consideration. He was committed to the Crown Court for sentence and on 2 March 2017 sentenced to 16 months imprisonment. He also received a sentence of one month for fraud with three other fraud offences taken into consideration. The probation officer became aware on 7 June 2017 of the UK sentence, and the Regional Court asked for assistance from the UK on his UK sentencing which was given on 25 September 2017. As seen above, on 12 December 2017, the Appellant&#8217;s suspended sentence was activated because of the convictions during the operational period of his suspended sentence. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="margin-left:0.55in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt">The defence attorney took part in that hearing, although the Appellant was absent, and the decision was made final on the 28 December 2017. A warrant was issued locally on 22 January 2018. On 3 June 2020 the Arrest Warrant was issued; until that date the Appellant had been searched for in Poland.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in">Before the District Judge the Applicant adopted his written statement, and the Judge recorded his evidence (materially) as follows with regard to his circumstances:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">The Requested Person was born and grew up in Poland. His mother whom he is close to still lives there. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">He arrived in the UK in 2007 aged 20 or 21 to join his then fianc&#233;e. They split in about 2012, but he stayed here. He had since 2015 formed a relationship with a Ms Jodie Blezzard. They have four children together, the eldest of whom was born on 29 March 2017 and the youngest is less than a year old. Each has a UK birth certificate He said he supported his family financially where he could.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(iii)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.12in">When arrested under the Warrant in these proceedings he was on police bail for an offence of child cruelty (in respect of Ms Blezzard&#8217;s stepdaughter), and on a tagged curfew bail conditions relating to a different address. He was about 15 minutes&#8217; walk away from the family. He told the District Judge no further action was taken against him in respect of the child cruelty matter and there is no social service involvement, and he would be going back to live with her.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.5in">(iv)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in">A letter from his employer stated that there would be a permanent post available with an annual salary of &#163;32,510.40 on condition he regularised his position in the UK and opened a bank account. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">He told the District Judge that he was unaware of the fact that the suspended sentence of imprisonment to which the European Arrest Warrant relates was activated until he was arrested pursuant to this extradition request. He accepted that the Judicial Authority did not know exactly where he was living in the UK. He claimed not to know about the suspended sentence. He spoke of his involvement with the family he described himself as being in &#8220;regular contact&#8221; with them but his police bail conditions prevented unsupervised conduct, and it was less frequent than before. He said his electronically monitored curfew between 9 PM and 5 PM made it difficult; he said he took the children out regularly. He was settled with &#8220;many friends and social ties in the UK&#8221; and wanted to continue living here. However he had no right to live or work in the UK as he had not sought to regularise his status following Brexit. When asked why, he stated, &#8220;<span style="font-style:italic">I did not know how to do it</span>&#8221; and &#8220;<span style="font-style:italic">I did not know whether it only concerned people who got here after</span><span/><span style="font-style:italic">Brexit.&#8221;</span> He said he had been served with a notice that he was liable to deportation previously, when he was in custody in 2017 but the UK authorities&#8217; attempt at deportation was unsuccessful. He was asked why he had not applied to vary his bail conditions so he might live with his partner and children, and he stated he was not aware that he could so apply. He did not know any details of the financial support which his partner received for another child of which he was not the father; but that father was still in touch, he said. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">He was challenged over his statement that his electronically monitored curfew interfered with the children&#8217;s relationship with him since he only worked one night a week and lived a short walk away. When asked about the effect of his leaving upon the family it he stated &#8220;<span style="font-style:italic">it&#8217;s a discussion about something that doesn&#8217;t exist</span>.&#8221; His partner also said in evidence they had not discussed it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">The District Judge then recorded: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic">&#8220;13.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold"/><span style="font-style:italic">It was put to him that he had not returned to Poland since the suspended sentence was activated because he was deliberately trying to avoid serving that sentence. He briefly hesitated before answering Mr Davies and then said that he didn&#8217;t go because &#8220;my family is here, I don&#8217;t have anyone to visit in Poland.&#8221; The Requested Person accepted that he did not give the Polish authorities the details of his address in Halifax, but insisted that he had no duty to do so, stating that he thought the case was finished in 2016 when he got his sentence</span>.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> The District Judge recorded supportive evidence from the Appellant&#8217;s partner who stated he was falsely accused of child neglect and that he visited every day. She received benefits and was not in employment. She said he gave her money and did household jobs for them. She had family nearby, but they were incapacitated or ill and could not assist with the children. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Heading1">The District Judge&#8217;s Consideration </p>
+	    <p class="Heading3"><span style="font-family:'Times New Roman';font-size:12pt">Fugitivity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="margin-left:0.55in">The Judge set out the principles succinctly as follows. As in noted later, this is an accurate summary of the position:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;21.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.55in;text-indent:0.45in"><span style="font-style:italic">As was helpfully set out in the case of Ristin v Romania [2022] EWHC 3163(Admin), the core principle of fugitivity can be expressed in the following way:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="BodyTextIndent" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;A person who has knowingly placed himself beyond the reach of a legal process is a fugitive. It is for the requesting state to establish fugitive status to the criminal standard. It must be shown that the requested person deliberately and knowingly placed himself beyond the reach of the relevant legal process.&#8221; </span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">22.The case of Ristin also helpfully summarised three separate strands to the concept of fugitivity. </span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">23.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.55in;text-indent:0.45in"><span style="font-style:italic">Firstly, in the case of Wisniewski v Regional Court of Wroclaw, Poland <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/386" uk:canonical="[2016] EWHC 386 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 386 (Admin)</ref>, a Requested Person may be treated as a fugitive where they have been given a suspended sentence of imprisonment, even though they may not know that the suspended sentence had been activated: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="BodyTextIndent" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;&#8230;a person who breaches conditions of his sentence which require him to keep in contact thereby becomes somebody whose whereabouts are unknown to the authority which is entitled to know of them and puts it beyond the authority's power to deal with him. It is his conduct in breach of the suspended sentence that has given rise to his lack of knowledge that the sentence has been implemented. He has as a matter of choice placed himself beyond the reach of the criminal justice system concerned. I consider that he is properly to be regarded as a fugitive from the legal process in his case. Where he has, in this way, brought about the delay himself, the passage of time bar should not be available to him.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">24.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.55in;text-indent:0.45in"><span style="font-style:italic">Secondly, in the case of Pillar-Neumann v Austria <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2017/3371" uk:canonical="[2017] EWHC 3371 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3371 (Admin)</ref> there may be circumstances in which a person first became aware of the legal proceedings in relation to which the warrant has been issued when they were already outside of the requesting state. In circumstances where that person chooses to remain in the UK and resists extradition, it cannot be said that they are a fugitive. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">25.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.55in;text-indent:0.45in"><span style="font-style:italic">Thirdly, there is the case of De Zorzi v France <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2019/2062" uk:canonical="[2019] EWHC 2062 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 2062 (Admin)</ref>, where a requested person &#8220;returns home&#8221; whilst the legal proceedings are ongoing and with permission of the court in the requesting state. In such circumstances, the Court has held that the person ought not to be regarded as a fugitive as they were under no [sic] restrictions on are simply choosing not to place themselves within the reach of the jurisdiction of the requesting state. The Divisional Court, in the case of Ristin, helpfully indicated that the factual circumstances of this case &#8220;was something distinctive and positive, more than simply the absence of a restriction on leaving the country.&#8221;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.55in"> The judge recorded the submission on behalf of the Appellant that the case was analogous to that of <span style="font-style:italic">De Zorzi</span> and, the Requested Person was not required to take positive steps to place himself within the reach of the legal process once the decision had been taken to activate the suspended prison sentence to which this extradition request relates. He submitted that he had been living openly and continuously in the UK since before criminal proceedings against him were contemplated, and during the currency of those proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.55in">The Appellant&#8217;s submission was rejected. It was to the effect that the principle that a Requested Person was not required to take positive steps to place himself within the reach of the legal process applied to him once the decision had been taken to activate the suspended prison. She found that he was a fugitive, finding as a fact that he,</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.05in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.05in"><span style="font-family:'Times New Roman';font-size:12pt">he knew the terms of the suspended sentence and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.05in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.05in"><span style="font-family:'Times New Roman';font-size:12pt">that it was liable to activation as a result of his breaches of it in the UK</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.05in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.05in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt"> He had consciously chosen not to return to Poland and &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">had failed to face up to his responsibilities in respect of this matte</span><span style="font-family:'Times New Roman';font-size:12pt">r&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt"> She did not accept he had been living openly and continuously in the UK since before the criminal proceedings against him were contemplated, and during the currency of those proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">She noted that the Appellant was last in Poland on 24 May 2016 where he was questioned for a second time about the offences and &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">agreed to plead guilty and also to the terms of the suspended sentence that was ultimately imposed.</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; She reflected that it appears he was not present at the criminal proceedings himself, but a lawyer of his choosing appeared for him. The Appellant disputed that he knew about the activation. The District Judge did not believe that denial. She set out her reasoning for accepting the Judicial Authority&#8217;s submissions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> She said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;28.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">From the evidence available, it seems that the last time that the Requested Person was in Poland was on 24 May 2016, when he was interrogated (for the second time) by the prosecutor&#8217;s office in respect of these offences, he agreed to plead guilty and also to the terms of the suspended sentence that was ultimately imposed. The further information provided by the Judicial Authority suggests that he was not present at the criminal proceedings themselves, but that he was represented by a lawyer of his choosing. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">29.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">There can be no doubt in my mind that the Requested Person knew that the suspended sentence of imprisonment was liable to activation as a result of the offence(s) of which he was convicted in the UK. Although it is not commonplace to have suspended sentences activated as a result of offending committed within another jurisdiction, it is clear that this was something envisaged by the Judicial Authority, and therefore known to the Requested Person, as a result of the fact that the discussion which he had with his probation officer on 16 November 2016, involved a discussion about whether or not there were any criminal cases ongoing against him. There is a reasonable inference that this conversation took place owing to the fact that the suspended sentence would be liable to activation in the event that the Requested Person committed any further offences during the operational term of the suspended sentence order, whether in Poland or in the UK. And notably this conversation took place just eight days before the committing the dwelling burglary offence for which he was later convicted on 8 December 2016. It is absolutely reasonable therefore to conclude that, when the Requested Person committed that offence, it was within his contemplation that this could / would trigger the activation of the suspended sentence order. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">30.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">I am satisfied also that the Requested Person failed to comply with the requirement that he notify the Judicial Authority about any changes to his residence address. He accepted that he failed to notify the Judicial Authority about his move to Halifax, nor did he inform his probation officer about this change to his address on 16 November 2016. Based on the evidence from Ms Blezzard, who states that he moved from Huddersfield to Halifax at the end of 2015, he would have been living at an address not known to the Judicial Authority by the time that he had that conversation with probation and his failure to provide this information to the probation officer appears therefore to have been a deliberate attempt to render it impossible for them to ascertain his whereabouts. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">31.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in;text-indent:0.45in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">In this sense, I am satisfied that the Requested Person became &#8220;somebody whose whereabouts are unknown to the authority which &#8230; puts it beyond the authority's power to deal with him&#8221;, within the meaning of the case of Wisniewski and that he therefore &#8220;as a matter of choice placed himself beyond the reach of the criminal justice system concerned&#8221; &#8211; even though he technically did so at a time when he was in the UK. I also reject the submissions made on behalf of the Requested Person that he has lived openly throughout his time in the UK. Following Brexit, he has failed to regularise his immigration status and, accordingly, does not have any leave to remain in the UK. The fact that he has failed to engage with the Judicial Authority to regularise his immigration status in the UK &#8211; which in my view is surely because he knew that do so would result in an extradition request being made against him - very strongly supports the contention that he has sought to evade the Judicial Authority during his time in the UK and has, in this regard, deliberately placed himself beyond their reach.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Heading3"><span style="font-family:'Times New Roman';font-size:12pt"> Article 8</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The judge considered the submissions under Article 8, beginning by citing the well-known authorities which reflect the very high public interest in ensuring extradition arrangements were honoured and no safe haven for criminals was created, and that very strong counterbalancing factors were needed where a Requested Person was a fugitive. She listed the factors in favour as the strong public interest, the sentence of three years, the seriousness of the offending which involved organised criminal activity over a significant period of time and involving considerable amounts of money, and in which the Appellant played a leading role. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">She then found as follows</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;iv</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">)I have made a finding that the Requested Person is a fugitive from justice in this case. But even absent such a finding, he knew the terms of the suspended sentence of imprisonment that had been imposed upon him and the fact that it was liable to activation as a result of his breaches. He has consciously chosen not to return to Poland and has failed to face up to his responsibilities in respect of this matter. In this sense, the &#8220;safe haven&#8221; feature (referred to above) which increases the public interest in ordering extradition applies &#8220;in the more limited and diluted sense&#8221;, as per the case of Ristin.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(v)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The Requested Person has committed offences since coming to the UK. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(vi)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">He has no lawful right to remain in the UK.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the balance on the other side, she took into account the fact a suspended sentence only was imposed, that the offences were 10 years&#8217; old, together with his age of 21 on first arrival were noted by the District Judge in the balance against extradition. He had good relationships with his partner and their four children also, who are all UK nationals whilst he is not and once extradited to serve the Polish sentence, they he may be separated but unwilling to join him in Poland, if he has, as he may, no entitlement to return here. She noted there had been no offences since 2017.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The reasoning included the findings:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220; 47 &#8230;As noted above, I am sure that, following the conversation with his probation officer on 16 November 2016 the Requested Person decided to deliberately place himself beyond the reach of the Judicial Authority by failing to inform them about his change of address to Halifax (as he was under an obligation so to do) and that, when he committed the offence of burglary just 8 days later (on 24 November 2016), he did so knowing that his suspended sentence of imprisonment was liable to activation. He has thereafter failed to regularise his immigration status and has deliberately hid himself from the Judicial Authority to avoid serving the sentence of imprisonment to which this extradition relates. Accordingly, very strong counter-balancing factors would need to apply before extradition could be said to be disproportionate.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">and</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220; &#8230; he pleaded guilty to the offences to which this extradition request relates, and he also pleaded guilty to the offence of burglary that was committed during the operational period of the suspended sentence order, and he admitted having committed other offences that were taken into consideration at the time that he was sentenced in the UK. In so doing, he clearly understood that the terms of the suspended sentence imposed upon him could be activated. And any refusal to admit him re-entry into the UK following the conclusion of his sentence would therefore be as a direct consequence of his offending both in the UK and in Poland, rather than as a result of extradition. But any decision on re-entry into the UK would also likely take into consideration his poor attitude towards immigration control in the UK and the fact that he has been unlawfully resident here for a number of years. Any separation from his family that was caused as a result of his return to Poland would not therefore in my view be as a direct consequence of his extradition, but rather as a result of his own criminality and deliberate actions to remain in the UK unlawfully for such a considerable period of time. Even were the Brexit uncertainty point something that were capable of weighing heavily against ordering extradition in this case, I note also that the Requested Person has adduced no evidence to </span><span style="font-family:'Times New Roman';font-size:12pt">[quantify]</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> the risk that he would be refused readmission to the UK following the completion of his sentence. It therefore makes it very difficult for this court to give this factor any meaningful weight at this stage.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">She regarded the time elapsed since the last offending as very significant, and recognised the disadvantage to his family were he to be extradited. She characterised the difficulties as largely of his own making, and noted his partner had a support network. There was no evidence that she would be unable to cope in his absence and she characterised the disadvantages as those which were unfortunate, but ordinarily flow from extradition.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Heading1">The Appeal &#8211; Consideration</p>
+	    <p class="Heading3">The Appellant a fugitive</p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Appellant relied upon the case of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi v Appeal Court of Paris, France</span><span style="font-family:'Times New Roman';font-size:12pt"> [2019] EWHC 2062 at [48], [59] in this court in support of the proposition that a person in his position was as a matter of general principle not required to put himself within reach of the legal process instituted in Poland. He had no obligation, when summoned to serve the sentence, to leave this jurisdiction, his home, and to surrender to the Judicial Authority because of acts committed after he had left Poland.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> I disagree. </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi</span><span style="font-family:'Times New Roman';font-size:12pt"> concerned a person who had lived in the Netherlands since 1985. The Requested Person Ms De Zorsi was arrested during a visit to the UK pursuant to a European Arrest Warrant issued in France in 2018. France wished for her to return to serve a sentence of imprisonment imposed following a conviction for offences in 2001. It was found as a fact that she had returned to the Netherlands with the express permission of the court before their judgement had been delivered. Thereafter, she was convicted and sentenced. She had made an appeal but not attended, although summonsed by the court. In 2005 she resisted an application to extradite her to France. Allowing her appeal against an extradition order made here in the UK, the court observed that she had not evaded arrest, nor concealed her whereabouts, she had returned home with the court&#8217;s permission, had been required to indicate a change of address, and had so indicated - indeed had been communicated with - at the address she had given. To leave the territory of the Judicial Authority before the outcome of her case was finally known in these circumstances did not make her a fugitive. The Appellant&#8217;s position is not equivalent to this on its facts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> The Respondent before me, as before the District Judge, drew particular attention to the case of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Ristin v Romania</span><span style="font-family:'Times New Roman';font-size:12pt"> [2022] EWHC 3163 a decision of Mr Justice Fordham. In that case the Appellant also sought to bring himself within the circumstances of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi</span><span style="font-family:'Times New Roman';font-size:12pt"> , but Fordham J distinguished his position. There, the District Judge had held that Mr Ristin had chosen to leave Romania whilst his appeal against sentence was still being considered by the court. He held that he was sure that he had come to England to avoid the prison sentence that hung over him intending to avoid the reach of the relevant legal process. This amounted to taking positive steps to evade the authorities in the Requesting State. Even though he was going back to a country where he had previously been living (like Ms De Zorzi), and even though no legal obligation had been placed on him to remain in Romania. Fordham J determined this was different from </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi</span><span style="font-family:'Times New Roman';font-size:12pt"> where the factor of leaving the court with permission of the court was something distinctive and positive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> In the course of considering the cases Fordham J made observations with regard to two features of the case advanced on behalf of Mr Ristin namely &#8220;feature (2&#8221;) that he was not the subject of any domestic warrant requiring that he surrender to custody, and &#8220;feature (3)&#8221; that there had been no restriction on Mr Ristin leaving court or on leaving Romania, which was equivalent to him being &#8220;free to leave&#8221; as in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi</span><span style="font-family:'Times New Roman';font-size:12pt">. The following is of relevance to the present case:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">As to feature (3), Mr Seifert accepts &#8211; rightly &#8211; that there is no general principle that a requested person must have left the requesting state territory in breach of an extant restriction on his doing so, or in breach of an extant condition requiring that he notify an address. Mr Seifert accepted that, in principle, a requested person may be a fugitive having left the requesting state under, and in breach of, no such restriction or condition. As to feature (2), Mr Seifert also accepts &#8211; rightly &#8211; that a requested person may be a fugitive as a consequence of action leaving a requesting state, albeit that there was at the time of leaving no crystallised duty to surrender to custody. That means the requested person left as a fugitive even though they were not at that stage "unlawfully at large".</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> This makes clear, in order to be found a fugitive, a Requested Person need </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">not</span><span style="font-family:'Times New Roman';font-size:12pt"> have been in breach of an express restriction as, for example, the requirement to notify his address. Likewise, leaving a Requesting State at a time when there was no duty at that point to surrender, does not mean that a person may not be a fugitive. He will not be unlawfully at large, but he may nonetheless leave the requesting country as a fugitive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> In the case of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Wisniewski v Regional Court of Wroclaw, Poland</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/386" uk:canonical="[2016] EWHC 386 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 386 (Admin)</ref>, it was determined that a person may be treated as a fugitive in circumstances where they were given a suspended sentence of imprisonment but breached a condition of the sentence which required them to keep in contact. In this way they became a person whose whereabouts were unknown to the authority &#8211; knowledge to which they were entitled - so he put himself beyond the Judicial Authority&#8217;s power to deal with him. Ignorance of the fact that the suspended sentence had been implemented was due in that case to choosing to put himself beyond the reach of the criminal justice system concerned, and he was a fugitive. In context, it is</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> not</span><span style="font-family:'Times New Roman';font-size:12pt"> a material point in the Appellant&#8217;s favour, as argued on his behalf, that he did take the step, as required, of phoning his probation officer. The terms of that conversation support the inference drawn by the District Judge. Mr Bartholomeusz submitted for the Appellant that it could not be reasonably inferred that he as a lay person would understand his sentence would be activated. I do not agree. Again, in the context of his interview and guilty pleas, and the representation by his lawyer at the sentencing hearing, and his following up on the probation officer requirement, this was a reasonable inference to make.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The nub of the Appellant&#8217;s case is it was not the case that committing the offence in one jurisdiction was sufficient to render a person a fugitive from another. There was no positive duty to place oneself within the reach of the legal process of a Judicial Authority. </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">De Zorzi</span><span style="font-family:'Times New Roman';font-size:12pt"> was relied upon for this proposition as stated it does not support it. Like Mr Justice Fordham, it seems to me that the particular fact of the judge&#8217;s express permission to the Requested Person in that case (that she might leave the jurisdiction in the course of proceedings), is very different and is a particular feature not present here. Ms De Zorzi was required to keep in touch with the Judicial Authority and did so. That is not the case for this Appellant. Further, as a matter of general principle on the facts which this District Judge found and in light of the authorities, this is a proper finding of fugitivity. It is not the case as argued by the Appellant, that there were no &#8220;ongoing legal proceedings&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt">As a matter of principle the Appellant&#8217;s submission must fail. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Makowska v Regional Court in Torun</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2020] 4 WLR 161" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 4 WLR 161</ref> Mr Justice Fordham analysed the state of being a fugitive into three notions: of moving place, lack of information, and intended elusiveness (see his paragraph [28]), not as a litmus test, but as themes in the concept of fugitivity. They link to the natural meaning of the word &#8220;fugitive&#8221;, and directly, to the underlying idea of extradition delay being consequential upon an individual&#8217;s own choices. He considered the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Pillar-Neumann </span><span style="font-family:'Times New Roman';font-size:12pt">case as falling the other side of the line - she who did not take any positive steps to put herself beyond legal process, but who was not in breach of obligation to keep in touch etc. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Makowska</span><span style="font-family:'Times New Roman';font-size:12pt"> the facts were different. The judge said there, that a person who breached conditions of a suspended sentence from within the UK (failing to pay the monetary element of a sentence) where there </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">is no suggestion of a contact breach or of whereabouts being or becoming unknown</span><span style="font-family:'Times New Roman';font-size:12pt"> was in a materially </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">different</span><span style="font-family:'Times New Roman';font-size:12pt"> position from the person in the case of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Wisniewski</span><span style="font-family:'Times New Roman';font-size:12pt"> who breached conditions of their sentence which required them to keep in contact. They</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> became</span><span style="font-family:'Times New Roman';font-size:12pt"> someone whose whereabouts were unknown to the authority &#8211; which was entitled to know them. The comparison of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Wisniewski</span><span style="font-family:'Times New Roman';font-size:12pt"> with the present case is obvious.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Here the Appellant challenges the facts found as a matter of inference by the District Judge. That challenge must fail. Here was a person subject to a suspended sentence which suspension was due to last five years. He had pleaded guilty in person, at interview, to the 53 warrant offences in Poland, and had expressly agreed the consequences of that plea. It is a fully reasonable inference from this that the Appellant knew the precise terms of his suspended sentence. He himself attended the interviews, and he had a solicitor acting for him in court. As the District Judge held, it is an inference properly to be made, one might even say an irresistible inference, from his conversation with his probation officer as well (as recorded in the Warrant and Further Information), when he canvassed the fact (at that date true) that he had been convicted of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">no</span><span style="font-family:'Times New Roman';font-size:12pt"> further offences, that he knew the import of a conviction in the UK. I do not accept as submitted that &#8220;the proceedings were effectively over&#8221; when the Appellant left Poland. The caselaw (see in particular the cases of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Wisniewski (supra) </span><span style="font-family:'Times New Roman';font-size:12pt">and</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> Wanagiel v [2018] Local Court in Strzelice (Poland)) <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2018/3370" uk:canonical="[2018] EWHC 3370 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWHC 3370 (Admin)</ref>) </span><span style="font-family:'Times New Roman';font-size:12pt">does not support such a proposition. I accept as argued by Mr Davies for the Respondent that a suspended sentence carries with it the risk of revocation: it is still a part of the legal process, and a person&#8217;s status who is so subject, is not equivalent to being completely at liberty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have set out at some length the material parts of the Further Information from the Judicial Authority. It is in my judgement plain from this material, on which the District Judge did and was entitled to rely, that the Authority made a case to the criminal standard that the elements of fugitivity were present in the case. Nothing in the Appellant&#8217;s evidence, as analysed by the District Judge disturbed that conclusion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The District Judge was fortified in this conclusion by the Appellant&#8217;s approach to his immigration status. In my judgement it is quite wrong to characterise the Appellant as living openly in this country. He was effectively, by his manner of existing, under the radar. He had a cash in hand job (one evening a week), so he was not traceable through the usual channels of tax payment and employment, had not engaged with the UK authorities to regularise his position post- Brexit, for which an implausible reason of lack of knowledge was given, and he had failed to communicate his move within the country to a new address so the Judicial Authority could exercise their powers if and when necessary. I disagree with the suggestion from Mr Bartholomeusz on behalf of the Appellant that it was improper to take into account the absence of Brexit regularisation. It was open to the Appellant to seek to regularise his stay. Whilst conditions of registration and public knowledge may have differed over the years from 2016, the absence of any evidence of an attempt at regularisation, coupled with the other material was properly taken into account as part of the Appellant&#8217;s activities in relation to fugitivity. He had also not returned to Poland since the activation of the suspended sentence, he was asked about this. The evidence is set out by the District judge in her paragraph 13, which appears above at para [18].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my judgement it was clearly open to the District Judge, who saw the Appellant give oral evidence, to disbelieve an assertion that he did not know the basic facts of his sentence, did not know about regularising his stay in the UK after Brexit, and did not know of the  requirement to communicate to the Judicial Authority as to where he was now living, and (evidently) to regard with scepticism the reason for not going back to Poland once his sentence had been activated. The solidity of these conclusions is not affected by what appears to be an error in her recording of the import of the pre-suspended sentence telephone call on 16 November 2016 with his probation officer (para 30).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Heading3"><span style="font-family:'Times New Roman';font-size:12pt">Article 8</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt">It was also said that, had those findings been wrong, the absence of a fugitivity finding would necessarily have so affected any balancing exercise that extradition would be an unjustifiable interference with the Appellant&#8217;s Article 8 rights: this court would come to a different conclusion from the District Judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-family:'Times New Roman';font-size:12pt">The Appellant argued that it was wrong to take into account any of the findings of the District Judge given that the exercise must be performed afresh to determine whether extradition is a disproportionate interference.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Again, I disagree. I accept that I would, if required to consider Article 8, perform the Article 8 balancing exercise for myself. Nonetheless I would be obliged to be guided by the tribunal who saw the Appellant give evidence as to those matters reflecting a judgement on the evidence given, and the inferences from his answers that were drawn. In the current case, the matters drawn to the attention of the District Judge as counting against extradition were fairly, and in my judgement generously characterised by her when conducting the balancing exercise - there was no error of principle. The District Judge set out the well-known cases, about which properly no issue is taken, on the approach to Article 8 and a balancing exercise was carried out. Necessarily the criminality of the Appellant was taken into account. She put weight upon the fact that the Appellant had, just before offending again, had a conversation with the probation officer, assuring him there had been no further offending, She legitimately saw a connection with, just over a week later, the Appellant committing a burglary for which he received a significant sentence in the UK. In light of her finding he had deliberately hidden himself from the Judicial Authority, had reassured his probation officer then almost immediately committed a condition-breaching crime, which he admitted and pleaded guilty to (with others taken into consideration) these were serious matters that affected not only his extradition, but also his putative position seeking to re-enter the UK. She did not accept what he said about the state of his knowledge of his own sentence was accurate. Further she noted in more than one place, an absence of evidence as to what might happen to him or to the family.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The compelling feature from his family life was rather, as she noted, that it could be suggested that he had kept out of offending since that family was being formed. In judging these matters for myself, it is clear that the position is that the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Andrysiewicz v Circuit Court in Lodz, Poland</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2025/23" uk:canonical="[2025] UKSC 23" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKSC 23</ref> has, since the District judge was required to consider this case, delineated the very narrow extent to which a submission founded on Article 8 family life will succeed. At paragraph [43] the Supreme Court said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;43.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">We have set out above relevant passages in Norris, H(H) and Celinski at some length because it is clear that there is a need to reiterate the essential points they make. Cases in which a submission founded on article 8 ECHR may defeat the public interest in extradition will be rare. It is most unlikely that extradition will be held to be disproportionate on the ground of interference with private life. Even in cases where interference with family life is relied upon, it will only be in cases of exceptionally severe impact on family life that an article 8 ECHR &#8220;defence&#8221; will have any prospect of success&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the present case the balancing exercise must take into account the position of this Appellant as a convicted burglar in this jurisdiction, with now a number of offences to his name as well as the 53 to which he pleaded guilty in Poland. Given the organised crime background, the numerous fraud offences, and the not insignificant sentence, there is a real public interest in his extradition. Further, on the premiss, as this determination of Article 8 must be, that he is not a fugitive, the flight to the UK nonetheless and commission of further crime when under a suspended sentence increases the public interest in his extradition from the UK which otherwise risks characterisation as a safe haven. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Had I been required to do so, I would, aside from the authority of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Andrysiewicz</span><span style="font-family:'Times New Roman';font-size:12pt"> have determined afresh that it was not disproportionate by reference to Article 8 for this Appellant to be extradited. The family circumstances, although doubtless painful and disruptive, just cannot be described as exceptionally severe. In light of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Andrysiewicz </span><span style="font-family:'Times New Roman';font-size:12pt">the submission on these facts, must very clearly fail.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This appeal must be dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,901 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/351"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/351"/>
+	  <FRBRdate date="2024-11-12" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="351"/>
+	  <FRBRname value="Karl List v Network Rail Infrastructure Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/351"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/351"/>
+	  <FRBRdate date="2024-11-12" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/351/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/351/data.xml"/>
+	  <FRBRdate date="2024-11-12T14:58:40" name="transform"/>
+	  <FRBRdate date="2025-08-16T21:52:28" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-11-12" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="karl-list" href="" showAs="KARL LIST"/>
+	<TLCPerson eId="valuation-officer" href="" showAs="(Valuation Officer)"/>
+	<TLCPerson eId="network-rail-infrastructure-limited" href="" showAs="NETWORK RAIL INFRASTRUCTURE LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>351</uk:number>
+	<uk:cite>[2024] UKUT 351 (LC)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>79280ce1608bb08ea21f8e56adce4d14698fe48f6ab058c166538a8d2016a7bd</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.png" style="width:72pt;height:60.75pt"/></p>
+      <p><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2024] UKUT 351 (LC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold">LC-2023-393</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><docTitle style="font-weight:bold">IN THE MATTER OF AN APPEAL AGAINST DECISIONS OF THE VALUATION TRIBUNAL FOR ENGLAND</docTitle></p>
+      <p><span style="font-weight:bold">VTE Refs: CHG100706377 and CHG100706379</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Royal Courts of Justice,</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Strand, London WC2A 2LL</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">12 November 2024</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold">RATING &#8211; HEREDITAMENT &#8211; advertising rights in railway stations &#8211; whether separately rateable in local list as being in the occupation of company to whom rights had been granted, or in central list as being in the occupation of Network Rail &#8211; s.64(2), 65(8), Local Government Finance Act 1988; reg.6, Central Rating List (England) Regulations 2005 &#8211; appeal allowed</span></p>
+      <p><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#karl-list" style="font-weight:bold">KARL LIST</party></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#valuation-officer" style="font-weight:bold">(Valuation Officer)</party></p>
+      <p style="text-align:right;margin-left:0.88in;text-indent:-0.88in"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#network-rail-infrastructure-limited" style="font-weight:bold">NETWORK RAIL INFRASTRUCTURE LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">Digital advertising right, Liverpool Street Station, London EC2M 7PY and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">static advertising right, Victoria Station, London SW1E 5ND</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Martin Rodger KC, Deputy Chamber President, and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Peter D McCrea OBE FRICS FCIArb</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">29-30 October 2024</span></p>
+      <p><span style="font-style:italic">Galina Ward KC </span>and <span style="font-style:italic">Hugh Flanagan, </span>instructed by HMRC Solicitors, for the appellant</p>
+      <p><span style="font-style:italic">Daniel Kolinsky</span> KC and <span style="font-style:italic">Luke Wilcox</span>, instructed by Dentons, for the respondent</p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2024</span></p>
+      <p>The following cases were referred to in this decision:</p>
+      <p><span style="font-style:italic">Cardtronics UK Ltd v Sykes (VO)</span> [2020] UKSC 21</p>
+      <p><span style="font-style:italic">Case (VO) v British Railways Board </span>[1972] RA 96</p>
+      <p><span style="font-style:italic">Esso Petroleum v Walker (VO) </span>[2013] RA 355</p>
+      <p><span style="font-style:italic">Imperial Tobacco Company (of Great Britain and Ireland) Ltd v Pierson (VO) </span>[1961] AC 463</p>
+      <p><span style="font-style:italic">Ludgate House Ltd v Ricketts (VO) </span>[2021] 1 WLR 1750</p>
+      <p><span style="font-style:italic">O&#8217;Brien v Secker (VO) </span>[1996] RA 409</p>
+      <p><span style="font-style:italic">Peak (VO) v Henlys (Bournemouth) Ltd</span> (1959) 52 RIT 305</p>
+      <p><span style="font-style:italic">Westminster City Council v Southern Railway Co Ltd </span>[1936] AC 511</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify;margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Should advertising rights at Liverpool Street Station and Victoria Station in London be treated for rating purposes as part of a single hereditament comprising the national railway network in the occupation of the respondent, Network Rail Infrastructure Ltd, or should they each be treated as separate hereditaments in the occupation of the company entitled to exercise the rights?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">That is the question raised in this appeal against two decisions of the Valuation Tribunal for England (VTE) published on 1 June 2023.  The VTE decided that the advertising rights were not separate hereditaments and were rateable in the central valuation list as part of Network Rail&#8217;s undertaking.  It directed that separate entries made by the Valuation Officer in the local rating lists for the City of London and for Westminster should be deleted.  The Valuation Officer now appeals against those decisions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The assessments entered in the local lists by the Valuation Officer at the request of the billing authorities were, first, in respect of the right to display advertisements on a static, two-sided, back lit box suspended above the central concourse at Victoria Station and measuring approximately 6.0m by 1.6m with a rateable value of &#163;83,000, and secondly, in respect of a digital &#8220;transvision&#8221; installation attached to the upper level pedestrian walkway over the Broadgate Circus exit from Liverpool Street Station which measures about 4.0m by 2.3m and has a rateable value of &#163;77,500.  The Victoria site was wrongly described in the list as a digital advertising right but it is agreed that description was inaccurate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The sites were made available by Network Rail to J.C. Decaux UK Ltd under the terms of a Rail Advertising Concession Agreement entered into between them on 10 December 2010 which remained operative at the material day, 1 April 2017.  We will refer to that 2010 Agreement in more detail later but its principal operative provision, clause 3.1, was a grant by Network Rail to J.C. Decaux, subject to the provisions of the agreement, of &#8220;the exclusive right to maintain, manage, promote and exploit the sale of Advertising Space&#8221; at 18 major railway stations, including Victoria and Liverpool Street. &#8220;Advertising Space&#8221; was defined by reference to a list of specific physical structures (more than 400 in number) in 18 mainline railway stations managed by Network Rail; the list could be amended from time to time under various provisions of the Agreement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The VTE&#8217;s decisions were made following proposals made by Network Rail in its capacity as an interested person within the meaning of regulation 4(2)(a), Non-Domestic Rating (Alteration of Lists and Appeals) (England) Regulations 2009.  The parties to the appeal are therefore the Valuation Officer and Network Rail; the ratepayer, J.C. Decaux, is aware of but has not participated in the appeals.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">Relevant legislation</span></heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Rates are a tax on the occupation or ownership of hereditaments shown in either a local rating list or a central rating list.  Provision is made for both types of list by Part 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">Local Government Finance Act 1988</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>) and regulations made under it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Section 41, 1988 Act is the first of a group of sections dealing with local rating and provides for the compilation of local rating lists for each billing authority. These lists are required to show each non-domestic hereditament in the authority&#8217;s area which satisfies certain conditions, one of which is that the hereditament is not shown in a central non-domestic rating list (section 42(1)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Central rating is dealt with by sections 52 to 54, 1988 Act and by regulations.  Central lists are intended to secure &#8220;the central rating en bloc of certain hereditaments&#8221; (section 53(1), 1988 Act).  The Central Rating List (England) Regulations 2005 designate Network Rail as the occupier of hereditaments described in regulation 6 which are to be treated as one hereditament.  The rateable value of those hereditaments as a whole is required by section 53(3), 1988 Act, to be shown in the central list. We will come back to regulation 6 shortly.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">We were helpfully referred both to the modern law and to the historic treatment of advertising sites and railway hereditaments, which assists in understanding the purpose of the current provisions.  We will begin with the current position regarding advertising hereditaments, then with the current treatment of railway hereditaments in the central list, before referring to the evolution of the statutory scheme.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">Advertising hereditaments</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">Provisions for the interpretation of Part 3 of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> are contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64</ref> to 67.  These deal first with hereditaments.  The relevant parts of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64</ref> are the following:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>64.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">&#8211; Hereditaments</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">A hereditament is anything which, by virtue of the definition of hereditament in section 115(1) of the 1967 Act, would have been a hereditament for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">that Act</ref> had <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> not been passed.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In addition, a right is a hereditament if it is a right to use any land for the purposes of exhibiting advertisements and &#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num>(a)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">the right is let out or reserved to any person other than the occupier of the land, or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(b)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">where the land is not occupied for any purpose, the right is let out or reserved to any person other than the owner of the land.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">(2A) In addition, a right is a hereditament if &#8211;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.04in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.04in;margin-right:0.39in;text-indent:0.12in">It is a right to use any land for the purpose of operating a meter to measure a supply of gas or electricity [&#8230;]</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">[&#8230;]</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(11)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In subsection (2) above &#8220;land&#8221; includes a wall or other part of a building and a sign, hoarding, frame, post or other structure erected or to be erected on land.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 64(1)</ref>, (2) and (2A) therefore identify or define three forms of hereditament.  The third form, in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64</ref>(2A), is not relevant to these appeals and we note only that like <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> with which we are concerned, it is introduced by the words &#8220;in addition&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The first form of hereditament, described in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(1)</ref>, might be referred to as the standard or conventional form, and most hereditaments are in this category.  <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/115" uk:canonical="1967 c. 9 s. 115" uk:origin="TNA" uk:type="legislation">Section 115</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">General Rate Act 1967</ref> provided that &#8220;hereditament&#8221;&#160;meant &#8220;property which is or may become liable to a rate, being a unit of such property which is, or would fall to be, shown as a separate item in the valuation list.&#8221; By importing that rather uninformative definition, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(1)</ref> incorporated the whole body of case law which had developed in the four centuries preceding <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">the 1967 Act</ref> to identify the thing which was to be rated.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The second and third forms of hereditament are in addition to the standard form; whether their existence is governed by the same rules, or whether they are additional forms of hereditament which exist independently of those rules is the essence of the issue we have to decide in these appeals.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The second form, in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, is the advertising hereditament.  It is a right in respect of land, rather than itself being land, and is sometimes therefore referred to as an &#8220;incorporeal hereditament&#8221;.  In relation to that form subsection (11) provides clarification that &#8220;land&#8221; includes structures on which advertisements might be expected to be displayed.  Subsection (2) distinguishes between the occupation of land and the enjoyment of a right to display advertisements; land may be occupied by one person (or be unoccupied) while another person has the right to display advertisements on it.  A right to use land (including a wall, hoarding or other structure erected on land) is designated a hereditament if it is &#8220;let out or reserved&#8221; to any person other than the occupier, or, if the land is not occupied, if it is let out or reserved to any person other than the owner of the land.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">Rates were originally a tax only on the occupation of land and it was the occupier who was rateable in respect of the land, but they now also apply to the ownership of land which is unoccupied.  Section 65, 1988 Act explains who owners and occupiers are, as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>65.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">&#8211; Owners and occupiers</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The owner of a hereditament or land is the person entitled to possession of it.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Whether a hereditament or land is occupied, and who is the occupier, shall be determined by reference to the rules which would have applied for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">the 1967 Act</ref> had <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> not been passed (ignoring any express statutory rules such as those in <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 24</ref> and 46A of <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">that Act</ref>).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(3)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Subsections (1) and (2) above shall have effect subject to the following provisions of this section.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">[.&#8230;]</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(8)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">A right which is a hereditament by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> shall be treated as occupied by the person for the time being entitled to the right.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">(8A) In a case where-</p>
+	      </intro>
+	      <subparagraph>
+		<num>(a)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">land consisting of a hereditament is used (permanently or temporarily) for the exhibition of advertisements or for the erection of a structure used for the exhibition of advertisements,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(b)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> does not apply, and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(c)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">apart from this subsection, the hereditament is not occupied,</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.79in;margin-right:0.39in">the hereditament shall be treated as occupied by the person permitting it to be so used or, if that person cannot be ascertained, its owner.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">It can be seen that, so far as occupation is concerned, section 65 follows the pattern of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64</ref>.  First, by section 65(2), it imports the pre-1967 case law on occupation and the identification of the occupier, including <span style="font-style:italic">Westminster City Council v Southern Railway Co Ltd </span><ref href="#" uk:canonical="[1936] AC 511" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1936">[1936] AC 511</ref>, the leading authority on the ingredients of rateable occupation and the identification of the rateable occupier where more than one person is in actual occupation.   That body of law is then made subject to the provisions which follow in the remainder of the section.  Those provisions include, at subsections (8) and (8A), two dealing specifically with advertising hereditaments.  The first provides that a right which falls within <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> is to be &#8220;treated as occupied&#8221; by the person entitled to the right.  The second has the effect that where a hereditament is not occupied but is used for exhibiting advertisements or for a structure so used, but <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> does not apply, it is &#8220;treated as occupied&#8221; either by the person permitting the use, if they can be ascertained, or by the owner.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">Section 65(8) and (8A) are deeming provisions.  Whether or not an advertising right is a separate hereditament, they ensure that the requirement of occupation is satisfied and identify the occupier, including in circumstances where, under the pre-1967 rules imported by section 65(2), either no person or some different person might have been found to be in rateable occupation of the right.  The deeming provisions also overcome the awkwardness which arises when the language of occupation is applied to a right, rather than to land.  That awkwardness was considered in <span style="font-style:italic">O&#8217;Brien v Secker (VO) </span>[1996] RA 409, in which an advertising contractor argued that a right of exhibiting advertisements could not be rated.  That argument was explained, and answered, by Schiemann LJ at 414:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;[T]he right with which we are here concerned is an incorporeal hereditament.  The appellant says that since it is incorporeal it has no body and, if it has no body, it cannot have a place; and, if there is no place, it cannot be occupied. One can see, as a matter of use of the English language, a certain attraction in that argument. So far as occupation is concerned, his argument falls foul of&#160;section 65(8), which seems to me to be in perfectly clear terms. That section provides that the person who is the beneficiary of such a right is treated for rating purposes as though he were an occupier, since the whole rating depends on the concept of occupation. What has happened in this particular advertising field is that, by a series of parliamentary fictions, the concept of occupation has been extended to something for which it was not designed; but that it has been so extended I have no doubt.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.5in"><span style="font-style:italic">Railway hereditaments</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Railway hereditaments are not a special form of hereditament in their own right but are within the first category described by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(1)</ref>, 1988 Act.  They are distinguished from other hereditaments because, due to the identity of their occupier, they are included in the central list.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Central Rating List (England) Regulations 2005 (the 2005 Regulations) are made under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/53" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 53</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>. By regulation 3 they designate certain named persons or undertakings concerned with transport, communications and utilities and prescribe in relation to them a description of hereditament set out in the Schedule. The designated persons are to be shown in the central rating list together with each relevant hereditament occupied or, if unoccupied, owned by them (regulation 4).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Part 1 of the Schedule to the 2005 Regulations designates Network Rail (amongst others) and prescribes in relation to it the hereditament described in regulation 6(1).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">So far as relevant, and after simplifying some complexities arising from the structure of the rail industry, regulation 6 provides as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>6.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">&#8211; Railway hereditaments</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Where Network Rail Infrastructure Limited&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num>(a)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">occupies or, if it is unoccupied, owns any hereditament; or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(b)</num>
+		<intro>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">lets or licenses a hereditament to&#8211;</p>
+		</intro>
+		<subparagraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.39in;text-indent:0.5in">[certain rail operators] and the lessee, licensee or British Transport Police Authority occupies, or, if unoccupied, owns the hereditament; or</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.39in;text-indent:0.5in">the British Transport Police Authority, and it occupies, or, if unoccupied, owns the hereditament,</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">and if, apart from these Regulations, those hereditaments would be more than one hereditament, and each separate hereditament satisfies the conditions in paragraph (3), those separate hereditaments shall be treated as one hereditament.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">[London Underground]</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(3)</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The conditions mentioned in paragraphs (1) and (2) are that the hereditament is&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num>(a)</num>
+		<intro>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">used wholly or mainly for &#8211;</p>
+		</intro>
+		<subparagraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.39in;text-indent:0.5in">in the case of Network Rail Infrastructure Limited, railway purposes;</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.39in;text-indent:0.5in">[London Underground]; and</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(b)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">not an excepted hereditament.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(4)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In this regulation &#8211;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;excepted hereditament&#8221; means a hereditament consisting of or comprising &#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.25in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.25in;margin-right:0.39in;text-indent:0.13in">premises used as a shop, hotel, museum or place of public refreshment;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.25in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.25in;margin-right:0.39in;text-indent:0.13in">[office premises not on operational railway land];</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.25in;text-indent:-0.25in">(c)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.25in;margin-right:0.39in;text-indent:0.13in">premises or rights so let out as to be capable of separate assessment, other than those falling within paragraph (1)(b) or (2)(b); [&#8230;]</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.29in;margin-right:0.39in;text-indent:0.5in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;railway purposes&#8221; means the purposes of providing railway services, within the meaning given by <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/82/1" uk:canonical="1993 c. 43 s. 82" uk:origin="TNA" uk:type="legislation">section 82(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref>, or for purposes ancillary to those purposes (including the purposes of providing policing services or the exhibiting of advertisements).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(5)</num>
+	      <content>
+		<p style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The hereditaments described in paragraphs (1) and (2) shall be treated as occupied by the relevant designated person.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The effect of regulation 6 is that all hereditaments falling within paragraphs (1)(a) and (1)(b) which satisfy the conditions in paragraph (3) are treated as a single hereditament.  This enables Network Rail&#8217;s undertaking to be rated &#8220;en bloc&#8221; and valued &#8220;as a whole&#8221; as foreshadowed in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/53/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 53(1)</ref> and (3), 1988 Act; despite the legislation having been expressed using both French and English terms, the rating world prefers Latin and refers to this as a &#8220;<span style="font-style:italic">cumulo</span>&#8221; assessment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Hereditaments within paragraph (1)(a) are those occupied by Network Rail together with any unoccupied hereditaments which it owns. Paragraph (1)(b) is not applicable in this appeal but covers land let or licensed by Network Rail to other railway operators or the British Transport Police and occupied by them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">To be rated as part of Network Rail&#8217;s single assessment in the central list, a hereditament must also satisfy the conditions in paragraph (3) of regulation 6.  These restrict the assessment to hereditaments used wholly or mainly for &#8220;railway purposes&#8221; which are not also &#8220;excepted hereditaments&#8221;, both as defined in paragraph (4).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Railway purposes are defined by reference to the definition of &#8220;railway services&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/82" uk:canonical="1993 c. 43 s. 82" uk:origin="TNA" uk:type="legislation">section 82</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref> but also include purposes ancillary to the provision of railway services, including the purpose of exhibiting advertisements.  Railway services include &#8220;station services&#8221; which include permitting another person to use property comprised in a station (<ref href="http://www.legislation.gov.uk/id/ukpga/1993/43/section/82/2" uk:canonical="1993 c. 43 s. 82" uk:origin="TNA" uk:type="legislation">section 82(2)</ref>, 1993 Act).  Allowing a third party to occupy a shop in a railway station would be a station service and therefore also a railway service.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Excepted hereditaments cover a variety of premises and rights which are excluded from the central list, notwithstanding that they are used wholly for railway purposes.  These include shops, hotels and places of refreshment, but also, by sub-paragraph (c) of regulation 6(4), &#8220;premises or rights so let out as to be capable of separate assessment, other than those falling within paragraph (1)(b) or (2)(b)&#8221;.  The reference here to rights &#8220;so let out&#8221; carries an echo of the language of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, 1988 Act, which refers to rights of exhibiting advertisements which are &#8220;let out or reserved to any person other than the occupier of the land&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">As far as exhibiting advertisements is concerned, it was not suggested in argument that in order to be ancillary to the purpose of providing railway services some connection was required between the advertisement being exhibited and the wider railway enterprise (such as, for example, an advertisement for railcards).  We will therefore assume that general commercial advertising is capable of being ancillary to the provision of railway services and that the purpose of providing it is capable of being a railway purpose.  As was pointed out in the evidence, advertisements are commonplace at railway stations, so this is at least a possible construction of railway purposes in paragraph 6(4).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">The historic treatment of advertising sites at railway stations</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The treatment of advertising sites for the purpose of rating had historically given rise to great difficulty, as the long title to the Advertising Stations (Rating) Act 1889 acknowledged (&#8220;whereas difficulties have arisen in relation to the assessment to poor and other rates of land used for exhibition of advertisements and it is expedient to remove the same&#8221;).  In his dissenting speech in <span style="font-style:italic">Imperial Tobacco Company (of Great Britain and Ireland) Ltd v Pierson (VO) </span><ref href="#" uk:canonical="[1961] AC 463" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1961">[1961] AC 463</ref>, at page 478, Lord Denning reminded the House of Lords of those historic difficulties:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;[T]he difficulty was to say: Who was liable to pay the rates on it? Who was in occupation? Was it the advertising contractor who erected it or the occupier of the land who permitted him to put it up? In 1889 Parliament resolved this difficulty by declaring that the occupier of the land was liable to pay rates on the whole hereditament, both the land and the structure as well.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Under the 1889 Act where land was unoccupied except for the exhibition of advertisements the person who permitted that use (or the owner if that person could not be found) was liable to pay the rate. If an occupied hereditament was used for advertisements the rateable value of the hereditament was increased to reflect the value of the use, and the rate was paid by the occupier.  In no case was the advertising contractor liable to pay the rate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The 1889 arrangements were unsatisfactory, particularly where the tenant of a house was liable for an increased rate by virtue of an advertisement displayed on the building from which only the landlord and the person entitled to the advertising right benefitted (see Amies: <span style="font-style:italic">Law of Rating</span> (1965), p.12).  The treatment of advertising rights was adjusted by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/56" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 56" uk:origin="TNA" uk:type="legislation">section 56</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26" uk:origin="TNA" uk:type="legislation">Local Government Act 1948</ref>, the object of which, as Lord Denning explained in <span style="font-style:italic">Imperial Tobacco</span> at page 479 was &#8220;to alter the incidence of liability; so as to place the liability for rates directly on the advertising contractor instead of the occupier of the land&#8221;.  Viscount Simonds, at page 473, also recognised that the treatment of advertising rights by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/56" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 56" uk:origin="TNA" uk:type="legislation">section 56</ref>, 1948 Act was &#8220;a departure from the usual course of rating law&#8221;.  That departure or alteration was expressed in terms which closely mirror what are now <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64(2)</ref> and 65(8), 1988 Act, deeming &#8220;the right to use any land for the purpose of exhibiting advertisements [which] is let out or reserved to any person other than the occupier of the land&#8221; to be &#8220;a separate hereditament in the occupation of the person for the time being entitled to the right.&#8221;  The same approach, using substantially the same language, was taken by <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/28/1" uk:canonical="1967 c. 9 s. 28" uk:origin="TNA" uk:type="legislation">section 28(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">General Rate Act 1967</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">As far as railway hereditaments were concerned, these had originally been assessed on a piecemeal basis by each rating authority in respect of the hereditaments in their area, but this was changed by the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/20-21/24" uk:canonical="1930 (20 &amp; 21 Geo. 5) c. 24" uk:origin="TNA" uk:type="legislation">Railways (Valuation for Rating) Act 1930</ref> which created a new Railway Assessment Authority.  Until <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> they were excluded from the operation of the general rating statutes with their own separate regime.  As far as advertising hereditaments were concerned, <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/56" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 56" uk:origin="TNA" uk:type="legislation">section 56</ref>, 1948 Act was excluded from application to any land forming part of a railway by section 9(5) and the use of railway land by the statutory operator, the British Transport Commission, was treated as non-rateable.  The same exclusion was repeated in <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/28/6" uk:canonical="1967 c. 9 s. 28" uk:origin="TNA" uk:type="legislation">section 28(6)</ref>, 1967 Act.  But these exemptions applied only to railway hereditaments and did not apply to premises occupied as a dwelling-house, hotel or place of public refreshment, or to hereditaments &#8220;so let out as to be capable of separate assessment&#8221;, none of which could be included in a railway hereditament (section 86(1), 1948 Act and section 32(2), 1967 Act).  An advertising hereditament which was not part of a railway hereditament because it was &#8220;so let out as to be capable of separate assessment&#8221; should therefore have been assessed after 1948 under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/56" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 56" uk:origin="TNA" uk:type="legislation">section 56</ref>, 1948 Act.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">Southern Railway</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Finally, it is necessary to refer to the principles of rateable occupation and to the decision of the House of Lords in <span style="font-style:italic">Westminster City Council v Southern Railway </span>to which we have already referred (and from now on will refer to simply as <span style="font-style:italic">Southern Railway</span>).  That case concerned the identification of the rateable occupier of premises at Victoria Station including offices, a bank, kiosks, sites used for storage, movable timber bookstalls, and showcases.  The proprietors of the businesses conducted from these premises were held to be in rateable occupation notwithstanding that some were licensees only, that their rights were determinable at the will of the railway company, that there were no boundary walls and the landlord had rights of access and for pipes and cables, that access for the proprietors was through premises belonging to the company (the station) which were kept locked at night, and that their use was subject to the company&#8217;s byelaws and operational restrictions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">At page 529-530, Lord Russell made some general observations about rateable occupation, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;Subject to special enactments, people are rated as occupiers of land, land being understood as including not only the surface of the earth but all strata above or below. The occupier, not the land, is rateable; but, the occupier is rateable in respect of the land which he occupies. Occupation, however, is not synonymous with legal possession: the owner of an empty house has the legal possession, but he is not in rateable occupation. Rateable occupation, however, must include actual possession, and it must have some degree of permanence: a mere temporary holding of land will not constitute rateable occupation. Where there is no rival claimant to the occupancy, no difficulty can arise; but in certain cases there may be a rival occupancy in some person who, to some extent, may have occupancy rights over the premises. The question in every such case must be one of fact - namely, whose position in relation to occupation is paramount, and whose position in relation to occupation is subordinate; but, in my opinion, the question must be considered and answered in regard to the position and rights of the parties in respect of the premises in question, and in regard to the purpose of the occupation of those premises. In other words, in the present case, the question must be, not who is in paramount occupation of the station, within whose confines the premises in question are situate, but who is in paramount occupation of the particular premises in question.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">A familiar instance of this competing occupancy is the case of the lodger. It has long been settled on the one hand that, in the case of lodgers in a lodging house, the lodgers are not rateable in respect of their occupancy of their rooms, but that the landlord is the person who is rateable in respect of his occupancy of the entire house. In view of the frequently fleeting nature of the occupancy of a lodger, the convenience of this view, indeed the necessity for it, is obvious; but it purports to be based upon the paramountcy of the landlord's occupation, arising from his control of the front door and his general control over and right of access to the lodgers' rooms for the proper conduct of the lodging house.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p style="margin-left:0.5in">Lord Russell referred to this as the &#8220;landlord-control principle&#8221;; it still governs situations in which there is more than one candidate for the status of rateable occupier (<span style="font-style:italic">Cardtronics UK Ltd v Sykes (VO)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2020/21" uk:canonical="[2020] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKSC 21</ref>, <span style="font-style:italic">Ludgate House Ltd v Ricketts (VO) </span><ref href="#" uk:canonical="[2021] 1 WLR 1750" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 1750</ref>, and <span style="font-style:italic">Esso Petroleum v Walker (VO) </span>[2013] RA 355 are recent examples).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold">The VTE&#8217;s decision</span></heading>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Before the VTE both appeals by Network Rail were heard together and decided on the same basis.  At the invitation of Mr Daniel Kolinsky KC, who appeared for Network Rail, the panel applied the familiar principles explained in the <span style="font-style:italic">Southern Railway </span>case and, more recently, in <span style="font-style:italic">Cardtronics </span>to determine, as between Network Rail and JC Decaux which was in &#8220;paramount&#8221; occupation of the advertising rights.  For this purpose it considered a later Rail Advertising Concession Agreement entered into between the parties in 2018, the 2010 Agreement not having been disclosed to the Valuation Officer by Network Rail.  The later Agreement is not different in any relevant respect from the 2010 Agreement in force at the material day.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The VTE concluded that under the terms of the 2018 Agreement Network Rail retained sufficient control over the advertising rights that they could not be said to have been &#8220;let out&#8221; to JC Decaux in the sense it took to have been intended by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, 1988 Act.  Additionally, the purpose for which Network Rail occupied the advertising sites was a railway purpose so that the sites formed part of the railway hereditament in respect of which Network Rail was assessed in the central list.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold">The appeal in outline</span></heading>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Although we were provided with a considerable body of evidence on how the advertising rights at the two railway stations are exercised in practice, as well as on the views of the parties on the meaning and effect of the 2010 Agreement, the appeal turns mainly on the proper interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref>.  Materially, in addition to the more usual form of hereditament referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(1)</ref> which are to be identified by applying long established principles of rating law, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> provides that a right to use land for exhibiting advertisement is a hereditament if it is &#8220;let out or reserved to any person other than the occupier of the land&#8221;.  If that requirement is satisfied section 65(8) then provides that the resulting hereditament &#8220;shall be treated as occupied by the person for the time being entitled to the right&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The issue in the appeal is whether, for an advertising right to be &#8220;let out&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, the characteristics of the right and the way it is exercised must be comparable to the rateable occupation of other forms of hereditament.  More specifically, where an advertising right is exercised in respect of a site which is in the occupation of someone else, is it relevant to consider the &#8220;landlord control&#8221; principle and to determine whether the owner of the right or the occupier of the site is in paramount occupation?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In support of the appeal, Miss Galina Ward KC, who appeared for the Valuation Officer with Mr Hugh Flanagan, submitted that in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> and 65(8) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41" uk:canonical="1988 c. 41" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> Parliament had created a specific statutory framework for the rating of advertising hereditaments which is distinct from the general regime of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64(1)</ref> and 65(2).  By the 2010 Agreement the advertising rights were let out to JC Decaux.  A separate hereditament was thereby created which is deemed to be in the occupation of JC Decaux as the person entitled to the right.  The advertising hereditament cannot be included in the central list because none of the conditions in regulation 6(1) of the 2005 Regulations are satisfied.  The entries made by the VO in the local lists should therefore be reinstated.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">For Network Rail, Mr Kolinsky KC, who appeared with Mr Luke Wilcox, submitted that the VTE had been right to delete the entries from the local lists.  The correct analysis was that the advertising rights had not been separated from Network Rail&#8217;s occupation of the stations for railway purposes.  They had not been &#8220;let out&#8221; and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64(2)</ref> and 65(8) therefore had no application.  Mr Kolinsky KC argued that <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> and the requirement that an advertising right must be &#8220;let out&#8221; before it may be separately rated should be construed consistently with established principles of rating law and specifically with the normal approach to hereditaments occupied by more than one person.  What was required, he suggested, was a contextual analysis of the relationship between the advertising right and the host&#8217;s occupation of the site.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Mr Kolinsky KC invited us to conduct a conventional inquiry, as between Network Rail and JC Decaux, into whose occupation of the advertising sites was paramount and whose was subordinate.  That required consideration of the 2010 Agreement and how it had been implemented and he relied on evidence from current and former employees of Network Rail, Olivia Jamin-Smith and Steven Wood, and a member of J C Decaux&#8217;s staff, Simon Wildman, to explain the arrangements.  Our conclusion, Mr Kolinsky suggested, should be that Network Rail retained overall control of the sites. The sites were therefore in the rateable occupation of Network Rail and, as the use of land for the purpose of exhibiting advertisements was a railway purpose within the definition in regulation 6(4), 2005 Regulations, they should be included in the central list and valued as part of Network Rail&#8217;s hereditament.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">Discussion</span></heading>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">We begin by considering <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64</ref>, 1988 Act.  As we have already explained, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(1)</ref> adopts and incorporates the whole of the body of case law developed over centuries before the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">the 1967 Act</ref> to explain what a hereditament is.  The definition which it co-opted, taken from <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/115" uk:canonical="1967 c. 9 s. 115" uk:origin="TNA" uk:type="legislation">section 115</ref>, 1967 Act was, in itself, uninformative but its effect was readily understood (&#8216;" hereditament " means property which is or may become liable to a rate, being a unit of such property which is, or would fall to be, shown as a separate item in the valuation list&#8217;).  That definition was already wide enough to include advertising hereditaments (or &#8220;advertising stations&#8221; as they were referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9/section/28/1" uk:canonical="1967 c. 9 s. 28" uk:origin="TNA" uk:type="legislation">section 28(1)</ref>, 1967 Act) yet it was thought appropriate by Parliament to deal additionally in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> with advertising rights as a specific form of hereditament.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The structure of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64(1)</ref> and (2) supports the VO&#8217;s submission that advertising rights were intended to be the subject of their own self-contained regime.  So too do the opening words of subsection (2), &#8220;in addition&#8221;, which indicate that what follows is distinct from and additional to what has gone before.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The same separate treatment is apparent in section 65 concerning occupation.  The ordinary judge-made rules used to determine whether a hereditament is occupied and who is the occupier are adopted in section 65(2), but at the same time separate provision is made for advertising hereditaments by section 65(8) which subsection (2) is expressly made subject to by subsection (3).  In the case of advertising hereditaments Parliament has chosen not to describe the characteristics of rateable occupation or the features of the rateable occupier, and has not co-opted the pre-existing case law, but instead has short-circuited the usual investigations by simply deeming the occupier of any advertising right which is a hereditament by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> to be the person entitled to exercise the right.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-style:italic">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The body of law referred to in section 65(2) is plainly not intended to apply directly to advertising hereditaments covered by section 65(8).  There is no need to apply the rules which would have been followed under <ref href="http://www.legislation.gov.uk/id/ukpga/1967/9" uk:canonical="1967 c. 9" uk:origin="TNA" uk:type="legislation">the 1967 Act</ref> to determine &#8220;who is the occupier&#8221; when section 65(8) provides the answer for this category of hereditament.  That is consistent with Schiemann LJ&#8217;s description of the effect of section 65(8) in <span style="font-style:italic">O&#8217;Brien v Secker (VO)</span>:<span style="font-style:italic"/>&#8220;by a series of parliamentary fictions, the concept of occupation has been extended to something for which it was not designed&#8221;<span style="font-style:italic">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The object of these statutory fictions is clear.  It was explained by Lord Denning in <span style="font-style:italic">Imperial Tobacco </span>when he described the difficult questions which the 1889 Act had been intended to resolve: is an advertising hereditament to be rated with the land over which it is exercised, or separately from it, and who is in occupation? <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 64(2)</ref> and 65(8) are clearly designed to resolve those questions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Mr Kolinsky KC acknowledged that advertising hereditaments are a special kind of hereditament, but he submitted that the general principles of rating law still had an important part to play in their treatment.  He sought to weave the concepts of paramountcy and landlord control into an interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> and specifically in considering what was involved in a hereditament being &#8220;let out&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Mr Kolinsky KC began his careful submissions by suggesting that the concept of a hereditament being let out conveyed the impression of a separation of the right to display advertisements from the occupation of the land.  In the context of an operational railway station a letting out had the effect of carving a new hereditament out of the central list. It was necessary to determine what degree or quality of separation was required to achieve that carving out.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In <span style="font-style:italic">Southern Railway, </span>at page 529, Lord Russell referred to a railway company&#8217;s power &#8220;to carve out of any station separate premises&#8221; by selling or letting land in its ownership.  Nevertheless, some care is needed here and we are not persuaded by Mr Kolinsky KC that, when applied to the identification of a hereditament, the metaphor of carving out or separation from the central list is a helpful one.  The central list is an amalgamation of individual hereditaments which are treated as if they were one single hereditament, but that does not make them a single hereditament.  Mr Kolinsky&#8217;s metaphor presupposes that everything within a station is part of Network Rail&#8217;s central list hereditament unless it is specifically excluded from it; that is logically consistent with section 42(1), 1988 Act, which excludes a hereditament from the local list if it must be shown in a central list.  But it is not a particularly accurate reflection of regulation 6(1) of the 2005 Regulations, which begins by identifying hereditaments which Network Rail occupies and hence, in the case of an advertising hereditament, first requires one to consider sections 65(8) and 64(2).  The better approach, we think, is simply to consider the various statutory conditions in the round, as they apply to each putative hereditament, rather than thinking in terms of a separation of part from a larger whole.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The legislation refers in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, 1988 Act and in regulation 6(4), 2005 Regulations to a &#8220;right &#8230; let out or reserved to any person other than the occupier&#8221; and to &#8220;rights so let out as to be capable of separate assessment.&#8221;  Whether a right is &#8220;let out&#8221; is therefore critical to its treatment as an advertising hereditament or as an excluded hereditament which cannot appear in a central list.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">There is no difficulty in understanding how a right may be &#8220;reserved&#8221; to a person other than the occupier.  Technically, where a lease or transfer of land reserves a right in favour of the landlord or transferor it has the effect that the right is taken back from the land which has been granted or conveyed to the other party; less technically a reservation is simply some right in respect of land which has been saved or excepted from a grant to someone else (see <span style="font-style:italic">Woodfall, Landlord and Tenant, </span>5.045).  A right may be reserved by a landlord to exhibit advertisements on the side of a building which is let to a tenant, and once the tenant had taken occupation, the right would be reserved to someone other than the occupier.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">As for &#8220;let out&#8221;, the phrase &#8220;let out so as to be capable of separate assessment&#8221; has been used in rating legislation since the Railways (Rating for Valuation) Act 1930.  We have not been shown any early examples of its use and in <span style="font-style:italic">Southern Railway</span>,<span style="font-style:italic"/>at page 527, Lord Russell said that the statutory language raised &#8220;essentially new questions&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The relatively few cases which have previously considered the treatment of advertising hereditaments do not shed light on the meaning of the expression &#8220;let out&#8221;.  The Lands Tribunal&#8217;s decision in <span style="font-style:italic">Peak (VO) v Henlys (Bournemouth) Ltd</span> (1959) 52 RIT 305 concerned advertising hoardings which had been attached to the walls of a tenanted building without the landlord having reserved the right to do so and apparently without the consent of the tenant.  In those circumstances the Tribunal was not prepared to infer a letting out or find an implied reservation.  There was no consideration of letting out in <span style="font-style:italic">Imperial Tobacco</span> nor in <span style="font-style:italic">O&#8217;Brien v Secker (VO)</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Some consideration was given to the meaning of &#8220;let out so as to be capable of separate assessment&#8221; in <span style="font-style:italic">Case (VO) v British Railways Board </span>[1972] RA 96, which did not concern advertising rights but rather the occupation of purpose built social club premises constructed adjoining a station and used by the members of a railway staff association.  The question under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/86" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 86" uk:origin="TNA" uk:type="legislation">section 86</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26" uk:origin="TNA" uk:type="legislation">Local Government Act 1948</ref> was whether the staff association or the Board was in rateable occupation of the premises, which turned on whether they had been so let out to the association so as to be capable of separate assessment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Reasoned judgments were given in <span style="font-style:italic">Case </span>by Russell LJ and Buckley LJ, and Phillimore LJ agreed with both.  At page 104 Russell LJ said that he saw &#8220;no magic in the rather curious phrase &#8216;so let out&#8217; etc&#8221;.  Buckley LJ thought that the words &#8220;so let out as to be capable of separate assessment&#8221; and specifically the expression &#8220;so let out&#8221; were &#8220;somewhat odd&#8221; and therefore more difficult (page 114).  In Scotland it had been held to import a grant of some kind, although a formal lease was not required. Buckley LJ appeared to doubt that requirement in view of the approach towards rateable occupation under general rating law; he considered that it was not necessary to decide whether a grant was necessary because there was undoubtedly a &#8220;contractual arrangement amounting, in equity, to a grant of a right of occupation&#8221;.  He went on:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;Letting out for the purposes of the provision must, in my judgment, at least involve this, that the ratepayers who, but for the letting out, would be in occupation of the hereditament or be entitled to occupy it for their own purposes, have permitted some other body to occupy it for purposes other than those of the ratepayer.  Only in these circumstances, it seems to me, could the letting out result in the hereditament being capable of separate assessment.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">Case</span> was a decision under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26/section/86" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26 s. 86" uk:origin="TNA" uk:type="legislation">section 86</ref>, 1948 Act, which concerned only physical premises capable of being occupied as a dwelling-house, hotel, place of public refreshment or so let out as to be capable of separate assessment. It was not concerned with incorporeal rights, such as a right to display advertisements.  There was no doubt that the club premises were physically capable of separate assessment (as Russell LJ observed at page 104) and the question turned on occupation and therefore had to be answered by a conventional <span style="font-style:italic">Southern Railway </span>inquiry into which occupation was paramount.  Despite the similarity in language, we do not find it especially helpful in relation to the proper interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, 1988 Act.  It provides no support for Mr Kolinsky KC&#8217;s submission that &#8220;let out&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> must be understood as in the light of the principles of paramountcy and landlord-control.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 64(2)</ref> refers only to a right &#8220;let out&#8221; and not to a right &#8220;let out so as to be capable of separate assessment&#8221;, as in regulation 6(4).  The question whether land or a right over land is capable of separate assessment depends on a close consideration of the facts and on the application of the general law, including the principles of rateable occupation, as the <span style="font-style:italic">Southern Railway</span> case and the others we have referred to show.  But in the case of advertising, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> itself deems a right which has been let out to be a hereditament and section 65(8) identifies the rateable occupier.  The additional words &#8220;so as to be capable of separate assessment&#8221; would therefore have been redundant because <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/11-12/26" uk:canonical="1948 (11 &amp; 12 Geo. 6) c. 26" uk:origin="TNA" uk:type="legislation">the Act</ref> has already supplied the features which render a hereditament capable of separate assessment.  As a matter of construction, the absence of those words from <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref>, in a context (advertising) in which the consequences of joint occupation and the problem of identifying the rateable occupier had previously been acute, is an indication that Parliament did not intend the usual paramountcy inquiry to be necessary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Although read in isolation the word &#8220;let&#8221; might suggest a letting or demise and therefore the creation of an interest in land, &#8220;let out&#8221; is not a term of art.  Rating is primarily concerned with occupation rather than with the relationship or tenure to which the occupation is referable.  As Lord Russell explained in Southern Railway, at page 533: &#8220;the crucial question must always be what in fact is the occupation in respect of which someone is alleged to be rateable, and it is immaterial whether the title to occupy is attributable to a lease, a licence, or an easement&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The same flexible approach ought logically to be applied to the question of whether land or a right have been &#8220;let out&#8221;; the words do not denote a letting or a grant in a technical or proprietary sense, but some transfer or conferral of the right in question by the person entitled to it to some other person to use for their own purposes.  Practicality might suggest that some degree of longevity and exclusivity is likely to be required in that arrangement, and that a right of a &#8220;fleeting nature&#8221; (as Lord Russell characterised that of a lodger) would not be sufficient to create a separate hereditament.  But the Agreement we are concerned with was initially for five years and there is no need in this appeal to consider where, at the margin, a short term advertising right would meet the requirement of having been let out.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">As far as advertising hereditaments are concerned, the issue of rateable occupation has been dealt with by Parliament in section 65(8).  It is not necessary to apply the landlord-control or paramountcy principle to determine who is in occupation of an advertising hereditament. The irony of Mr Kolinsky KC&#8217;s approach is that it would reintroduce those same considerations at an earlier stage, in the interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> when determining whether rights have been &#8220;let out&#8221; so that a separate hereditament exists.   If Parliament had intended the landlord-control principle to survive in relation to advertising hereditaments it need not have enacted section 65(8) at all.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">As a matter of statutory interpretation, focussing on <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 64</ref> and 65, we therefore accept the submission of Miss Ward KC that advertising hereditaments are governed by their own rules which do not depend on or require consideration of any wider rating principles.  The advertising rights at the two stations have been &#8220;let out&#8221; to JC Decaux with the result that they are designated as hereditaments by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/41/section/64/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 64(2)</ref> and are treated as in the occupation of JC Decaux by section 65(8).  They cannot therefore be in the occupation of Network Rail and cannot satisfy the requirement of regulation 6(1), 2005 Regulations.  They therefore belong in the local lists and not in a central list.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Had we taken the opposite view we would nevertheless have found it difficult to accept that Network Rail had retained paramount control of the advertising rights.  Under the 2010 Agreement there is no question of JC Decaux acting as a manager of Network Rail&#8217;s advertising business.  The relationship created by the contract is a matter of law and the views of members of Network Rail&#8217;s staff cannot assist in determining its nature.   Subject to the terms of the agreement JC Decaux had complete control of advertising at the stations and it took all of the commercial risks on its own account.  Network Rail gave away, in return for a significant minimum fee and a profit share, &#8220;the exclusive right to maintain, manage, promote and exploit the sale of Advertising Space&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">It is true that Network Rail retained the right, at its discretion, permanently to withdraw any particular hoarding or display from the Schedule of Advertising Space annexed to the 2010 Agreement, but if it did so it could not then offer that site to anyone else and it would cease to be a commercial advertising site for the remainder of the term.  That is akin to a termination of the right in relation to an individual site, rather than a power of relocation such as was found in <span style="font-style:italic">Ludgate House </span>to be indicative of control having been retained.  It is also true that Network Rail had the right for operational reasons and on notice temporarily to suspend the use of any structure or site and to make use of the rights where it required them (such as to display messages to its customers in the event of travel disruption).  The former right is not unlike the right of the station operator in <span style="font-style:italic">Southern Railway</span> to close the station temporarily for any special occasion, to bar staff of its licensees from access to the station and to require them to comply with bylaws.  The latter entitlement is used infrequently in relation to individual sites (and only then for digital sites) and we do not consider that it detracts from JC Decaux&#8217;s control of the sites. In <span style="font-style:italic">Case</span>, the club premises were required to be made available to the Board for its purposes &#8220;as and when required&#8221;.  In neither <span style="font-style:italic">Case</span> nor <span style="font-style:italic">Southern Railway </span>were very similar rights to interfere in the licensees&#8217; use of the premises sufficient to prevent the licensee from being in rateable occupation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Finally, it was impressed on us by Mr Ian Tanner of Tanner Rose, Chartered Surveyors, an advisor to Network Rail and other rail operators on rating matters, that the approach adopted by the Valuation Officer to the sites in this appeal was a complete change from the long standing practice of the Valuation Office Agency.  In his experience, since at least 1990, advertising sites on railway operational premises have always formed part of the central rating list.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On the same theme we were referred to the VOA&#8217;s own Rating Manual which does indeed advise Valuation Officers that advertising rights should be treated as part of the central list hereditaments of rail operators including Network Rail.  We were informed however that no copy of the 2010 Agreement had been made available to the VOA by Network Rail until it was disclosed in these proceedings; the advice in the Rating Manual also appears to predate the 2018 Agreement.  Whether or not the authors of the Rating Manual had seen the relevant agreements, the inference from the way their advice is expressed is that they accept the characterisation of the agreements by Network Rail as arrangements under which advertising rights are managed on its behalf by contractors.  The witnesses called on behalf of Network Rail also characterised the agreements in that way.  Neither the Rating Manual nor the subjective understanding of the effect of complex commercial documents by members of Network Rail&#8217;s staff can change the meaning of the 2010 Agreement.  For the reasons we have given we are satisfied that it created separate hereditaments which, in law, are treated as occupied by JC Decaux.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">It was also suggested by Mr Kolinsky KC that the Valuation Officer&#8217;s approach to the two sites with which these appeals are concerned would, if replicated across the 18 stations subject to the same Agreements, cause chaos by requiring numerous separate hereditaments to be entered in the list.  That is not a relevant consideration when it comes to applying the law as Parliament has made it. Nor can our decision be influenced by the suggestion that Network Rail may be taxed twice in relation to these two sites and potentially others, originally in the central list and now in local lists.  In any event, Network Rail is not the occupier of the advertising hereditaments and any liability it may have is under indemnities it has extended to JC Decaux as part of their commercial agreement.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">Disposal</span></heading>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">For these reasons we allow the Valuation Officer&#8217;s appeals and direct that the entries made in respect of the two sites at Victoria and Liverpool Street Stations be restored to the relevant local rating lists.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.5in">Martin Rodger KC</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.5in">Deputy Chamber President</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.5in">Peter D McCrea OBE, FRICS FCIArb</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_6_1">
+	    <content>
+	      <p style="text-align:right"><docDate date="2024-11-12" refersTo="#decision">12 November 2024</docDate></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold">Right of appeal</span></p>
+	    <p>Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

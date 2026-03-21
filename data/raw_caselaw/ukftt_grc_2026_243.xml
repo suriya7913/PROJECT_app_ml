@@ -1,0 +1,490 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/243"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/243"/>
+	  <FRBRdate date="2026-02-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="243"/>
+	  <FRBRname value="Christopher White v Registrar of Approved Driving Instructors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/243"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/243"/>
+	  <FRBRdate date="2026-02-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/243/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/243/data.xml"/>
+	  <FRBRdate date="2026-02-24T09:45:50" name="transform"/>
+	  <FRBRdate date="2026-02-24T10:06:15" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCConcept eId="jurisdiction-transport" href="/jurisdiction/transport" shortForm="Transport" showAs="Transport"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>243</uk:number>
+	<uk:cite>[2026] UKFTT 243 (GRC)</uk:cite>
+	<uk:jurisdiction>Transport</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>861ba8f5a73159b86511011e12cc719c270ca0cff459f7eba6816196ccfe3bc9</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-size: 16pt; color: #365F91; }
+#judgment .Heading2 { font-weight: bold; font-size: 14pt; color: #4F81BD; }
+#judgment .Heading3 { font-weight: bold; font-size: 12pt; color: #4F81BD; }
+#judgment .Heading4 { font-style: italic; font-weight: bold; font-size: 12pt; color: #4F81BD; }
+#judgment .Heading5 { font-size: 12pt; color: #243F60; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #243F60; }
+#judgment .Heading7 { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .Heading8 { font-size: 10pt; color: #4F81BD; }
+#judgment .Heading9 { font-style: italic; font-size: 10pt; color: #404040; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .NoSpacing { }
+#judgment .Title { font-size: 20pt; color: #17365D; }
+#judgment .Subtitle { font-style: italic; font-size: 12pt; color: #4F81BD; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BodyText2 { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BodyText3 { font-family: 'Times New Roman'; font-size: 8pt; }
+#judgment .List { margin-left: 0.25in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .List2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .List3 { margin-left: 0.75in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListBullet2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListBullet3 { margin-left: 0.75in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListNumber { margin-left: 0.25in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListNumber2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListNumber3 { margin-left: 0.75in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListContinue { margin-left: 0.25in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListContinue2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListContinue3 { margin-left: 0.75in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .MacroText { font-family: Courier; font-size: 10pt; }
+#judgment .Quote { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #000000; }
+#judgment .Caption { font-weight: bold; font-family: 'Times New Roman'; font-size: 9pt; color: #4F81BD; }
+#judgment .IntenseQuote { margin-left: 0.65in; margin-right: 0.65in; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; color: #4F81BD; }
+#judgment .TOCHeading { font-weight: bold; font-size: 16pt; color: #365F91; }
+#judgment .Default { font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .Heading1Char { font-weight: bold; font-size: 14pt; color: #365F91; }
+#judgment .Heading2Char { font-weight: bold; font-size: 13pt; color: #4F81BD; }
+#judgment .Heading3Char { font-weight: bold; color: #4F81BD; }
+#judgment .TitleChar { font-size: 26pt; color: #17365D; }
+#judgment .SubtitleChar { font-style: italic; font-size: 12pt; color: #4F81BD; }
+#judgment .BodyTextChar { }
+#judgment .BodyText2Char { }
+#judgment .BodyText3Char { font-size: 8pt; }
+#judgment .MacroTextChar { font-family: Courier; font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; color: #000000; }
+#judgment .Heading4Char { font-style: italic; font-weight: bold; color: #4F81BD; }
+#judgment .Heading5Char { color: #243F60; }
+#judgment .Heading6Char { font-style: italic; color: #243F60; }
+#judgment .Heading7Char { font-style: italic; color: #404040; }
+#judgment .Heading8Char { font-size: 10pt; color: #4F81BD; }
+#judgment .Heading9Char { font-style: italic; font-size: 10pt; color: #404040; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .IntenseQuoteChar { font-style: italic; font-weight: bold; color: #4F81BD; }
+#judgment .SubtleEmphasis { font-style: italic; color: #808080; }
+#judgment .IntenseEmphasis { font-style: italic; font-weight: bold; color: #4F81BD; }
+#judgment .SubtleReference { text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; color: #C0504D; }
+#judgment .IntenseReference { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; color: #C0504D; }
+#judgment .BookTitle { font-weight: bold; font-variant: small-caps; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .LightShading { }
+#judgment .LightShading-Accent1 { }
+#judgment .LightShading-Accent2 { }
+#judgment .LightShading-Accent3 { }
+#judgment .LightShading-Accent4 { }
+#judgment .LightShading-Accent5 { }
+#judgment .LightShading-Accent6 { }
+#judgment .LightList { }
+#judgment .LightList-Accent1 { }
+#judgment .LightList-Accent2 { }
+#judgment .LightList-Accent3 { }
+#judgment .LightList-Accent4 { }
+#judgment .LightList-Accent5 { }
+#judgment .LightList-Accent6 { }
+#judgment .LightGrid { }
+#judgment .LightGrid td { border: 1pt solid #000000; }
+#judgment .LightGrid-Accent1 { }
+#judgment .LightGrid-Accent1 td { border: 1pt solid #4F81BD; }
+#judgment .LightGrid-Accent2 { }
+#judgment .LightGrid-Accent2 td { border: 1pt solid #C0504D; }
+#judgment .LightGrid-Accent3 { }
+#judgment .LightGrid-Accent3 td { border: 1pt solid #9BBB59; }
+#judgment .LightGrid-Accent4 { }
+#judgment .LightGrid-Accent4 td { border: 1pt solid #8064A2; }
+#judgment .LightGrid-Accent5 { }
+#judgment .LightGrid-Accent5 td { border: 1pt solid #4BACC6; }
+#judgment .LightGrid-Accent6 { }
+#judgment .LightGrid-Accent6 td { border: 1pt solid #F79646; }
+#judgment .MediumShading1 { }
+#judgment .MediumShading1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #404040; }
+#judgment .MediumShading1-Accent1 { }
+#judgment .MediumShading1-Accent1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #7BA0CD; }
+#judgment .MediumShading1-Accent2 { }
+#judgment .MediumShading1-Accent2 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #CF7B79; }
+#judgment .MediumShading1-Accent3 { }
+#judgment .MediumShading1-Accent3 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #B3CC82; }
+#judgment .MediumShading1-Accent4 { }
+#judgment .MediumShading1-Accent4 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #9F8AB9; }
+#judgment .MediumShading1-Accent5 { }
+#judgment .MediumShading1-Accent5 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #78C0D4; }
+#judgment .MediumShading1-Accent6 { }
+#judgment .MediumShading1-Accent6 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #F9B074; }
+#judgment .MediumShading2 { }
+#judgment .MediumShading2-Accent1 { }
+#judgment .MediumShading2-Accent2 { }
+#judgment .MediumShading2-Accent3 { }
+#judgment .MediumShading2-Accent4 { }
+#judgment .MediumShading2-Accent5 { }
+#judgment .MediumShading2-Accent6 { }
+#judgment .MediumList1 { }
+#judgment .MediumList1-Accent1 { }
+#judgment .MediumList1-Accent2 { }
+#judgment .MediumList1-Accent3 { }
+#judgment .MediumList1-Accent4 { }
+#judgment .MediumList1-Accent5 { }
+#judgment .MediumList1-Accent6 { }
+#judgment .MediumList2 { }
+#judgment .MediumList2-Accent1 { }
+#judgment .MediumList2-Accent2 { }
+#judgment .MediumList2-Accent3 { }
+#judgment .MediumList2-Accent4 { }
+#judgment .MediumList2-Accent5 { }
+#judgment .MediumList2-Accent6 { }
+#judgment .MediumGrid1 { }
+#judgment .MediumGrid1 td { border: 1pt solid #404040; }
+#judgment .MediumGrid1-Accent1 { }
+#judgment .MediumGrid1-Accent1 td { border: 1pt solid #7BA0CD; }
+#judgment .MediumGrid1-Accent2 { }
+#judgment .MediumGrid1-Accent2 td { border: 1pt solid #CF7B79; }
+#judgment .MediumGrid1-Accent3 { }
+#judgment .MediumGrid1-Accent3 td { border: 1pt solid #B3CC82; }
+#judgment .MediumGrid1-Accent4 { }
+#judgment .MediumGrid1-Accent4 td { border: 1pt solid #9F8AB9; }
+#judgment .MediumGrid1-Accent5 { }
+#judgment .MediumGrid1-Accent5 td { border: 1pt solid #78C0D4; }
+#judgment .MediumGrid1-Accent6 { }
+#judgment .MediumGrid1-Accent6 td { border: 1pt solid #F9B074; }
+#judgment .MediumGrid2 { }
+#judgment .MediumGrid2 td { border: 1pt solid #000000; }
+#judgment .MediumGrid2-Accent1 { }
+#judgment .MediumGrid2-Accent1 td { border: 1pt solid #4F81BD; }
+#judgment .MediumGrid2-Accent2 { }
+#judgment .MediumGrid2-Accent2 td { border: 1pt solid #C0504D; }
+#judgment .MediumGrid2-Accent3 { }
+#judgment .MediumGrid2-Accent3 td { border: 1pt solid #9BBB59; }
+#judgment .MediumGrid2-Accent4 { }
+#judgment .MediumGrid2-Accent4 td { border: 1pt solid #8064A2; }
+#judgment .MediumGrid2-Accent5 { }
+#judgment .MediumGrid2-Accent5 td { border: 1pt solid #4BACC6; }
+#judgment .MediumGrid2-Accent6 { }
+#judgment .MediumGrid2-Accent6 td { border: 1pt solid #F79646; }
+#judgment .MediumGrid3 { }
+#judgment .MediumGrid3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent1 { }
+#judgment .MediumGrid3-Accent1 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent2 { }
+#judgment .MediumGrid3-Accent2 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent3 { }
+#judgment .MediumGrid3-Accent3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent4 { }
+#judgment .MediumGrid3-Accent4 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent5 { }
+#judgment .MediumGrid3-Accent5 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent6 { }
+#judgment .MediumGrid3-Accent6 td { border: 0.75pt solid #FFFFFF; }
+#judgment .DarkList { }
+#judgment .DarkList-Accent1 { }
+#judgment .DarkList-Accent2 { }
+#judgment .DarkList-Accent3 { }
+#judgment .DarkList-Accent4 { }
+#judgment .DarkList-Accent5 { }
+#judgment .DarkList-Accent6 { }
+#judgment .ColorfulShading { }
+#judgment .ColorfulShading td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent1 { }
+#judgment .ColorfulShading-Accent1 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent2 { }
+#judgment .ColorfulShading-Accent2 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent3 { }
+#judgment .ColorfulShading-Accent3 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent4 { }
+#judgment .ColorfulShading-Accent4 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent5 { }
+#judgment .ColorfulShading-Accent5 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent6 { }
+#judgment .ColorfulShading-Accent6 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulList { }
+#judgment .ColorfulList-Accent1 { }
+#judgment .ColorfulList-Accent2 { }
+#judgment .ColorfulList-Accent3 { }
+#judgment .ColorfulList-Accent4 { }
+#judgment .ColorfulList-Accent5 { }
+#judgment .ColorfulList-Accent6 { }
+#judgment .ColorfulGrid { }
+#judgment .ColorfulGrid td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent1 { }
+#judgment .ColorfulGrid-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent2 { }
+#judgment .ColorfulGrid-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent3 { }
+#judgment .ColorfulGrid-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent4 { }
+#judgment .ColorfulGrid-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent5 { }
+#judgment .ColorfulGrid-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent6 { }
+#judgment .ColorfulGrid-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:116.3pt;height:75pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2026] UKFTT 00243 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman'">Appeal Number: FT/D/2025/0882</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman'">Decision given on: </span><docDate date="2026-02-24" refersTo="#decision" style="font-weight:bold;font-family:'Times New Roman'">24 February 2026</docDate></p>
+      <p class="Default"><courtType refersTo="#ukftt-grc"><span style="font-family:'Times New Roman'"/><span style="font-weight:bold;font-family:'Times New Roman'">First-Tier Tribunal </span></courtType></p>
+      <p class="Default"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Times New Roman'">(General Regulatory Chamber) </courtType></p>
+      <p class="Default"><docJurisdiction refersTo="#jurisdiction-transport" style="font-weight:bold;font-family:'Times New Roman'">Transport Regulations</docJurisdiction></p>
+      <p class="Default"><span style="font-weight:bold;font-family:'Times New Roman'">Between:</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Christopher White</span></p>
+      <p class="Default" style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman'">Appellant: </span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">and</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Registrar of Approved Driving Instructors</span></p>
+      <p class="Default" style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman'">Respondent:</span></p>
+      <p class="Default"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Date and type of Hearing: </span><span style="font-family:'Times New Roman';color:#000000"> Hearing on the GRC &#8211; CVP on 11 January 2026.</span></p>
+      <p><span style="font-family:'Times New Roman'">Before: Brian Kennedy KC</span></p>
+      <p><span style="font-family:'Times New Roman'">Decision: The Tribunal allows the appeal.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision Notice</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">1.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The appeal is allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">2.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Registrar&#8217;s decision dated 21 August 2025 refusing the Appellant&#8217;s application for a third trainee licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129" uk:canonical="1988 c. 52 s. 129" uk:origin="TNA" uk:type="legislation">section 129</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> is set aside.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">3.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal remits the matter to the Registrar with a direction to grant a third trainee licence for a strictly time-limited period ending precisely on 18 March 2026 and subject to the conditions set out at paragraph 93 below.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Introduction</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">This is an appeal under Part V of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref>. The Appellant seeks a third trainee licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129" uk:canonical="1988 c. 52 s. 129" uk:origin="TNA" uk:type="legislation">s.129</ref> to give paid instruction pending qualification as an Approved Driving Instructor (ADI). The Registrar refused the application on 21 August 2025. The case raises the exceptional-circumstances threshold for a third licence and engages principles of procedural fairness, proportionality, and the proper exercise of a discretion that must be sparingly used to prevent trainee licensing becoming a de facto alternative to ADI registration. The Tribunal accepts the Respondent acted in good faith and in accordance with stated policy aims. The issue is whether, on the particular facts of this case, refusal was disproportionate and unfair.</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Hearing, Appearance and Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">4.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold"/><span style="font-family:'Book Antiqua'">The Appellant made a personal appearance. He produced three pieces of significant and material confidential medical evidence which the Tribunal has admitted and considered. That evidence has been material to the outcome of this appeal and explained the circumstances to the satisfaction of the Tribunal why some limited time for this particular appellant deserves meritorious consideration.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">5.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Respondent relied properly on the Registrar&#8217;s Statement and bundle documentation. The Tribunal is grateful to both parties for their assistance.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Background and Procedural History</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">6.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Appellant has never been on the ADI Register but previously held two trainee licences valid from 5 August 2024 to 4 August 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">7.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">He applied for a third licence on 11 July 2025. On 23 July 2025 the Registrar invited representations, which the Appellant provided on 23 and 24 July 2025, including an explanation of significant difficulty obtaining a Part 3 (instructional ability) test date.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">8.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">On 21 August 2025 the Registrar refused the application. The Appellant had failed one Part 3 attempt and had a second attempt booked for 22 December 2025.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">The Legal Framework</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/123/1" uk:canonical="1988 c. 52 s. 123" uk:origin="TNA" uk:type="legislation">Section 123(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> prohibits giving paid instruction unless the instructor is on the ADI Register or holds a licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/1" uk:canonical="1988 c. 52 s. 129" uk:origin="TNA" uk:type="legislation">s.129(1)</ref>. The licensing scheme exists to allow limited, supervised experience while progressing to full registration; it is not a route to indefinite professional practice. A third trainee licence is exceptional and must be time-limited so as not to undermine the statutory objective. On appeal, the Tribunal considers afresh whether refusal was lawful and proportionate on the facts and whether the discretion should be exercised differently. </span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-weight:bold">9.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Whether this case discloses truly exceptional circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">10.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Whether refusal was procedurally fair in light of test-date constraints and the Appellant&#8217;s medical circumstances;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">11.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Whether refusal was proportionate, having regard to the aims of the regime and less restrictive alternatives; and</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">12.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">If the appeal succeeds, the appropriate form of remedy and conditions.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Discussion and Findings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_5">
+	  <num style="font-family:'Book Antiqua';font-weight:bold">A.</num>
+	  <content>
+	    <p class="Heading2" style="text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Exceptional Circumstances</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">The Tribunal accepts that "exceptional" is not a term of art but denotes circumstances outside the norm contemplated by the policy such that rigid application of the two-licence approach would operate unfairly or disproportionately. On the evidence in my view, the following features cumulatively render this case exceptional: (i) systemic scarcity of Part 3 test dates beyond the Appellant&#8217;s control, materially constraining his ability to book and, where required, re-book within the currency of his two licences; (ii) continuous supervised training with no adverse compliance history; (iii) at lease two identified pupils whose learning continuity would be materially disrupted absent a short, supervised continuation; and (iv) a clear, time-bounded plan to sit the next Part 3 with an imminent booking (17 March 2026). The Tribunal also places significant weight on the confidential medical evidence (produced by the appellant at this hearing), which explains periods of unavoidable reduced capacity and supports the conclusion that, but for those medical factors in combination with test-date scarcity, the Appellant would likely have completed the process within two licences.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_7">
+	  <num style="font-family:'Book Antiqua';font-weight:bold">B.</num>
+	  <content>
+	    <p class="Heading2" style="text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Procedural Fairness</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">The Registrar invited and considered perhaps more limited representations, which is proper in the circumstances prevailing. Fairness, however, is contextual. Where refusal would effectively penalise a candidate for systemic scheduling constraints and documented medical circumstances, fairness requires greater weight to be given to credible evidence explaining why completion within two licences was not reasonably achievable. On a holistic view of the material before the Tribunal, those constraints were real and causative. In my view, in the prevailing and exceptional circumstances a short, final, supervised third licence adequately answers the fairness concern while preserving the integrity of the regime.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_9">
+	  <num style="font-family:'Book Antiqua';font-weight:bold">C.</num>
+	  <content>
+	    <p class="Heading2" style="text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Proportionality</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The objective of preventing trainee licensing from becoming an alternative to registration is important and legitimate. A refusal is suitable to that aim in the generality. On the facts now pertaining before me however, refusal was not the least-restrictive means to protect that objective. A time-limited and conditioned third licence is a tighter, tailored measure that strikes a fair balance between the public interest in standards and the Appellant&#8217;s and pupils&#8217; interests.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_11">
+	  <num style="font-family:'Book Antiqua';font-weight:bold">D.</num>
+	  <content>
+	    <p class="Heading2" style="text-indent:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Alternatives Suggested by the Registrar</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">While a candidate can train without a licence and does not require a licence to sit Part 3, the Tribunal accepts that, here, removing supervised, accountable instruction would produce material disruption for existing pupils (of which the appellant mentioned two in particular almost ready for their tests) and risk de-skilling immediately prior to the test. The appellant outlined the prevailing circumstances require a short extension to keep his vehicle and insurance available and effective. Given the strict conditions imposed below, those concerns do not justify refusal in this exceptional case.</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Disposition and Conditions</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">For the reasons above, the appeal is allowed and the matter remitted with a direction to grant a third trainee licence on the following mandatory conditions:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_93">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">93.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Duration: Specifically, until 18 March 2025 (the appellant has his final test booked for 17 March 2026) from the date of issue, or until the scheduled Part 3 date, whichever is sooner</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">94.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Single purpose: the licence exists solely to enable final preparation and attendance at the booked Part 3; no further extension will be entertained absent circumstances equally or more exceptional.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">95.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Supervision: all paid instruction must be under the oversight of his ADI/training provider who will keep a contemporaneous training log available to the Registrar on request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">96.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Pupil continuity: instruction limited to existing pupils to be identified unless the trainer provides written approval recorded in the log.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">97.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Reporting: within 7 days of the Part 3 outcome, the Appellant (or trainer) must notify the Registrar of the result and provide the training log.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">98.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Book Antiqua'">Automatic lapse: the licence automatically ceases on 18 March 2026 of (i) the Part 3 being failed; (ii) non-attendance at the scheduled test without good reason evidenced in writing; or (iii) expiry of the period specified above.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Costs</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">The Respondent acted properly and in good faith in accordance with policy. The appeal turns on a fact-sensitive exceptional constellation. Absent misconduct, no order as to costs is made.</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Anonymity</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">A Confidential Medical annex containing the three documents produced to the Tribunal is sealed and must not be disclosed beyond the parties and the Tribunal without further order. No general anonymity order is made.</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Right of Appeal</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">A party dissatisfied with this decision may apply for permission to appeal to the Upper Tribunal on a point of law within the applicable time limit.</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Authorities &#8211; Footnotes</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">[1] </span><span style="font-family:'Book Antiqua'">R v Secretary of State for the Home Department, ex p Doody <ref href="#" uk:canonical="[1994] 1 AC 531" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 1 AC 531</ref>, 560&#8211;564 (HL); R v Board of Visitors of Hull Prison, ex p Tarrant <ref href="#" uk:canonical="[1985] QB 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] QB 251</ref>, 264&#8211;267 (CA) (scope and intensity of procedural fairness).</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">[2] </span><span style="font-family:'Book Antiqua'">Bank Mellat v HM Treasury (No 2) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/39" uk:canonical="[2013] UKSC 39" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 39</ref>, [20]&#8211;[21] (Lord Sumption); R (Lumsdon) v Legal Services Board <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/41" uk:canonical="[2015] UKSC 41" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 41</ref>, [33]&#8211;[38], [60]&#8211;[67] (structured proportionality and fair balance in professional regulation).</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">[3] </span><span style="font-family:'Book Antiqua'">R (Hope &amp; Glory Public House Ltd) v City of Westminster Magistrates&#8217; Court <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/31" uk:canonical="[2011] EWCA Civ 31" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 31</ref>, [43]&#8211;[47] (scope of merits reconsideration and approach to appellate discretion in licensing).</span></p>
+	    <p class="Heading1"><span style="font-family:'Book Antiqua';font-size:12pt;color:#000000">Table of Authorities</span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8226; R v Secretary of State for the Home Department, ex p Doody <ref href="#" uk:canonical="[1994] 1 AC 531" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 1 AC 531</ref> (HL)</span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8226; R v Board of Visitors of Hull Prison, ex p Tarrant <ref href="#" uk:canonical="[1985] QB 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] QB 251</ref> (CA)</span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8226; Bank Mellat v HM Treasury (No 2) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/39" uk:canonical="[2013] UKSC 39" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 39</ref></span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8226; R (Lumsdon) v Legal Services Board <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/41" uk:canonical="[2015] UKSC 41" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 41</ref></span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8226; R (Hope &amp; Glory Public House Ltd) v City of Westminster Magistrates&#8217; Court <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/31" uk:canonical="[2011] EWCA Civ 31" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 31</ref></span></p>
+	    <p><span style="font-family:'Book Antiqua'">Judge Brian Kennedy KC                                                       12 February 2026.</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

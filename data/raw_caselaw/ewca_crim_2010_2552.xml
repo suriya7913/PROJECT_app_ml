@@ -1,0 +1,673 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2010/2552"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2010/2552"/>
+	  <FRBRdate date="2010-11-02" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2552"/>
+	  <FRBRname value="Williams, R. v"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552"/>
+	  <FRBRdate date="2010-11-02" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/2552/data.xml"/>
+	  <FRBRdate date="2024-11-07T03:32:59" name="transform"/>
+	  <FRBRdate date="2024-11-26T16:27:52" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2010-11-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="regina" href="" showAs="Regina"/>
+	<TLCPerson eId="jason-john-williams" href="" showAs="Jason John Williams"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-justice-thomas" href="/judge-lord-justice-thomas" showAs="LORD JUSTICE THOMAS"/>
+	<TLCPerson eId="judge-his-honour-judge-wadsworth-qc" href="/judge-his-honour-judge-wadsworth-qc" showAs="HIS HONOUR JUDGE WADSWORTH QC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2010</uk:year>
+	<uk:number>2552</uk:number>
+	<uk:cite>[2010] EWCA Crim 2552</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>f3db072e372e974a611f3288bba3070cf37bafe7c83a071f4e08f40ee9bb1181</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #990000; }
+#judgment .starpage1 { font-style: italic; font-weight: bold; color: #663366; }
+#judgment .Emphasis { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2010] EWCA Crim 2552</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>2010/03024/C4</docketNumber></p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE CROWN COURT AT SWANSEA</p>
+      <p class="CoverMain">HIS HONOUR JUDGE J DIEHL QC, THE RECORDER OF SWANSEA</p>
+      <p class="CoverMain">T20090439</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2010-11-02" refersTo="#judgment">02/11/2010</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-thomas">LORD JUSTICE THOMAS</judge></p>
+      <p class="CoverMain" style="text-align:center">MR JUSTICE SILBER<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-wadsworth-qc">HIS HONOUR JUDGE WADSWORTH QC</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#regina" style="font-weight:bold">Regina</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#jason-john-williams" style="font-weight:bold">Jason John Williams</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Elwen M Evans QC</span> for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms S Whitehouse </span>for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 26 August 2010</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Thomas:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref> created the offence of causing death by driving when unlicensed, disqualified or uninsured by adding <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A person is guilty of an offence under this section if he causes the death of another person by driving a motor vehicle on a road and, at the time when he is driving, the circumstances are such that he is committing an offence under-</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/87/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 87(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref> (driving otherwise than in accordance with a licence);</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/103/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 103(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref> (driving whilst disqualified), or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/143" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 143</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">this Act</ref> (using a motor vehicle while uninsured or unsecured against third party risks.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The section came into force on 18 August 2006. This appeal raises two issues of construction on the section creating the offence.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The factual background</span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In late 2008 or early 2009 the appellant purchased a motor car. Although he had no driving licence or insurance, he drove that car regularly.  At about 6.20 p.m. on the evening of 10 February 2009, the appellant was driving that car, still uninsured and without a licence, on a dual carriageway in the centre of Swansea where there was a speed restriction of 30 m.p.h.  As he was so doing, David Loosemore crossed the southbound carriageway, crossed over the central reservation and stepped out in front of the car being driven by the appellant.  He was hit, propelled into the air and fell to the ground; the following day he died as a result of head injuries sustained in the collision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The evidence of two other drivers was that the appellant was not exceeding the speed limit and that Mr Loosemore stepped straight out into the path of the appellant&#8217;s car.  One of the drivers said that the appellant&#8217;s car was a maximum of three feet from the deceased when he stepped off the central reservation.  The appellant&#8217;s own evidence was that Mr Loosemore had suddenly stepped out and there was nothing he could do to avoid an accident.  In this court, the Crown have accepted that no fault, carelessness or lack of consideration in driving can be attributed to the appellant.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The trial</span></heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appellant was charged and subsequently tried at the Crown Court at Swansea on a single count of causing death by driving without insurance and without a licence.  The Recorder of Swansea, His Honour Judge Diehl QC, rejected a submission of no case to answer, ruling that the offence could be committed without fault on the part of the appellant.  In accordance with his ruling he summed the case up to the jury on the basis that the prosecution did not have to prove there was any fault in the manner of the appellant&#8217;s driving; that the offence was proved if Mr Loosemore&#8217;s death had been caused by the appellant driving without insurance and without a licence.  He said that the issue for the jury to determine was whether they were sure that the defendant&#8217;s driving of his car was:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;a cause of Mr Loosemore&#8217;s death.  I say <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause ladies and gentlemen because you may appreciate, if you think about it for just a few moments, that more than one cause may contribute to an event, a result, more than one cause may contribute.  A cause may be the action or actions of the victim himself, but there may be more than one cause operating to bring about that result.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In other words, the defendant&#8217;s driving of this BMW on the occasion in question does not have to have been the sole, the only, cause of the death.  It does not even have to be shown that it was the principal or the main cause, or major cause, however you want to put it, but it has to be a contributing cause, other than a merely minute or negligible contributing cause that you would discount, put to one side.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As he was concluding his summing up the jury asked the following question:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;If as a jury we think that Mr Loosemore&#8217;s stepping into the road was the principal, main or major cause of death does that influence our consideration of Mr Williams&#8217; driving still being a cause of Mr Loosemore&#8217;s death?&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">He answered it as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;So I will just go over again if it helps what I said previously, that there may be more than one cause contributing to an event or a result, and, as I said to you, one contributor in that sense may be the victim himself or herself.  It does not have to be shown that the defendant&#8217;s driving was the sole, only cause of death, it does not have to be shown that his driving was the principal, major or substantial cause of it, but it has to be shown, it has to be proved, so that you are sure, that his driving was a contributing cause other than a merely minute or negligible one, which in your judgment you should discount.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">So the short answer is, &#8220;no, that would not affect your consideration of the question if you were to conclude that the deceased&#8217;s action in stepping into the road was, say, the principal cause of death, that would not exclude another true cause&#8221;.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">The jury during the course of retirement asked another question in relation to causation and the judge answered in a similar way.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appellant was convicted and sentenced by the judge on this offence to a period of nine months&#8217; imprisonment; he was disqualified from driving for two years.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The issues on the appeal</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">His appeal, ably and clearly presented to this court by Miss Elwen Evans QC can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The offence could not be committed without some fault or other blameworthy conduct on the part of the appellant.  &#8220;Cause&#8221; as used in the sub-section must be construed as importing some fault or other blameworthy conduct. There was no blameworthy conduct; his sole fault was a failure to have a licence and insurance which was unrelated to the cause of the accident and the ensuing death. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If that construction of &#8220;cause&#8221; was not correct, the word should be construed so that the Crown did not merely have to prove the appellant&#8217;s driving was &#8220;a cause&#8221; which was not minimal but was a substantial or major cause of the death of the deceased. The facts clearly established that the substantial or major cause of death was due to the actions of Mr Loosemore and not those of the appellant.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the Crown it was contended by Miss Whitehouse, to whom we are also indebted for her clear and able argument, that although she accepted that normally the result of a defendant&#8217;s act had to be shown to be attributable to a culpable or blameworthy act, on the construction of this statute, Parliament must have intended that this was not required.  It was sufficient if the conduct of the accused was <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause of the death of the deceased provided it was not minimal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although the diligence of both Miss Evans QC and Miss Whitehouse had produced for the court a substantial number of extracts from the debates in Parliament, it was accepted by both that the test in <span style="font-style:italic">Pepper v Hart</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/1992/3" uk:canonical="[1992] UKHL 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="1992">[1992] UKHL 3</ref> was not met.  We did not therefore consider any of the extracts from the debates and proceeded to look at the matter as one of statutory construction.  We will therefore consider each of the two issues in turn:  (1) Was fault or another blameworthy act required; (2) was it sufficient that the appellant&#8217;s driving was a cause of the death?  We consider the answer to the questions are clear.  Blameworthy conduct was not necessary; it was sufficient that the driving was <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause.  Our reasons are as follows.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_1">
+	    <num style="font-weight:bold">(1)</num>
+	    <content>
+	      <p class="ParaHeading" style="text-indent:0.5in"><span style="font-weight:bold">Was fault or another blameworthy act required?</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As we have set out, Miss Whitehouse accepted that it was ordinarily not enough to show that what had happened which was charged as a crime was caused by the conduct of the defendant, but that that conduct also had to be blameworthy.  It was submitted that this was established in the development of the common law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clearly this must be so; there had been a time when the criminal law imposed strict liability, but there developed the requirement that morally blameworthy conduct was required: see <span style="font-style:italic">Russell on Crime </span>(12 edit 1964) at pages 18 to 25. We agree with Miss Whitehouse that <span style="font-style:italic">R v Dalloway</span> (1847) 2 Cox CC 273 (to which she initially referred us) is not clear authority for the general proposition that there must be a blameworthy act to prove that a defendant caused a result in a legal sense. The general principle is, however, clear. Although the requirement of morally blameworthy conduct is the background against which the intention of Parliament in attributing criminal liability without blameworthy conduct must be considered (cf <span style="font-style:italic">Sweet v Parsely </span><ref href="#" uk:canonical="[1970] AC 182" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1970">[1970] AC 182</ref> at 149 and <span style="font-style:italic">Gammon (Hong Kong) v Attorney General of Hong Kong</span> <ref href="#" uk:canonical="[1985] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] AC 1</ref> at 14), the question for the court is whether when Parliament enacted this offence it intended to and did depart from the general principle.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> (as amended) contains three other provisions creating offences where the defendant&#8217;s driving has caused death.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Causing death by dangerous driving (s.1 and 3) where the penalty is 14 years&#8217; imprisonment;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Causing death by careless driving when under the influence of drink or drugs (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>A) where the maximum penalty is 14 years&#8217; imprisonment;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Causing death by careless or inconsiderate driving (s.2B) where the maximum penalty is five years&#8217; imprisonment. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZA defines careless and inconsiderate driving in the following terms:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;a person is to be regarded as driving without due care and attention if, and only if, the way in which he drives falls below what would be expected of a competent or careful driver.  A person who is driving inconsiderately if another is inconvenienced by his driving.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was therefore submitted on behalf of the Crown that it could be inferred that as Parliament had enacted the offence of causing death while driving whilst unlicensed, disqualified or uninsured, Parliament cannot have intended that any fault was necessary as it had already provided for death by driving involving simple or low level fault with the offence of death by careless or inconsiderate driving.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">R v Marsh</span> [1997] 1 Cr.App.R. 67 the court had to consider the provision under <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>(A)(1) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/60" uk:canonical="1968 c. 60" uk:origin="TNA" uk:type="legislation">Theft Act 1968</ref> relating to aggravated vehicle taking.  That section provided that a person who committed the basic offence of vehicle taking was to be convicted of aggravated vehicle taking, if it was proved that the vehicle was driven or injury or damage caused in circumstances including:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;That, owing to the driving of the vehicle, an accident occurred by which injury was caused to any person. &#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">The defendant in that case was convicted of the offence in circumstances where an accident had happened where he had not been at fault.  It was asserted on his behalf, both in the Crown Court and on appeal, that no liability could attach to him under the section unless it was proved that the accident had been occasioned by culpable driving on his part.  In the judgment of the court, upholding the direction of the Assistant Recorder that fault was not required, it was said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In a sense, of course, the manner in which the vehicle was being driven is necessarily relevant.  If in this case the car was being reversed at the time, the accident would not have occurred.  But it is unhelpful, in our judgment, to gloss the statute by referring to the manner or mode of driving:  the words are plain and simple.  In our view the question for the court on their proper construction is, was the driving of the vehicle a cause of an accident?  Any other approach would require the court to read in words which are not there.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">We consider that the approach of this court in <span style="font-style:italic">Marsh</span> applies even more clearly to the offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB; fault is not required.  The simple question for the court is whether the death was caused by driving without insurance or without a driving licence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Indeed this appears to have been the view of the many who have commentated upon the section.  For example in<span style="font-style:italic"> Smith &amp; Hogan Criminal Law (12</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> Edition)</span> at 1111 the current editor, Professor Ormerod says:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49" uk:canonical="2006 c. 49" uk:origin="TNA" uk:type="legislation">Road Safety Act 2006</ref> introduced in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/49/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.21</ref> these controversial new offences of causing death while driving when unlicensed, disqualified or uninsured &#8230;.  These are stark examples of constructive liability offences where the culpable conduct is unrelated to the manner of the causing of the death.  All that needs to be proved is that the defendant was driving when he did not have a valid licence or insurance or had been disqualified from driving, and was involved in a fatal collision.  Even if D&#8217;s driving was flawless and the collision was solely the fault of another, or even if V was solely at fault in running out in front of D, D will be convicted of the statutory homicide offence.  Commentators have been scathing of the breadth of the offences with Ferguson for example, describing them as a &#8216;fundamental alteration of criminal law policy&#8217;.  There is nothing more than a factual causal link between D being unlawfully on the road and the fatality.  Some commentators argue however, that such offences are not objectionable in themselves because they reflect the enormity of the consequence of death, but that the sentence is inappropriately harsh.  The argument that the culpability of the unlawful driver for being on the road when he was uninsured poses a danger which justifies a homicide offence if a fatality arises is a weak one, and only marginally stronger in cases of unlicensed or disqualified drivers.  The truth is that these offences are simply concessions to the expectations of the general public that because a death has occurred, someone ought to be blamed for it.  The mismatch between fault and consequences is striking.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">To similar effect it is the view in <span style="font-style:italic">Wilkinson&#8217;s Road Traffic Offence (24</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> Edition 2009)</span> under the distinguished editorship of Mr Kevin McCormac where it is said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The question of causation may well prove problematical in practice for both the courts and prosecuting authorities.  It would appear from the way in which the statute has been framed that the nature and quality of the driving concerned is irrelevant; it is the very act of driving a motor vehicle on a road (but not on any other public place) which constitutes the first element of the offence.  Whilst a disqualified driver may generally speaking be presumed to be aware of the criminality of his actions when deciding to drive, it is not hard to envisage circumstances in which due to inadvertence, or ignorance of the actions of other parties such as banks or insurance companies (or indeed the DVLA), an otherwise law-abiding motorist who despite driving perfectly properly is involved in an accident which leads to the death of another person may be faced with the prospect of prosecution and potential incarceration for an offence under this legislation.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Similarly Professor Michael Hirst in an article in the Criminal Law Review<span style="font-style:italic"/>at [2008] Crim. L.R. 339 entitled <span style="font-style:italic">Causing Death by Driving and Other Offences: A Question of Balance</span> says at page 344:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Lack of sympathy for disqualified or uninsured drivers should not however blind us to the fact that this new offence corrupts the usual principles governing causation.  It appears that D may be convicted of &#8220;causing&#8221; death without his actual driving being at fault.  If D&#8217;s uninsured car is involved in a collision with V&#8217;s motorcycle and V is killed, D will automatically be guilty, even if the accident was entirely V&#8217;s fault.  It is clear from the authorities that D may still be &#8220;driving&#8221; even when his vehicle is stationary. It may be no defence, therefore, that D was waiting patiently at traffic signals when V rode into the back of his car.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although each of these passages sets out severe criticism of the policy of Parliament in enacting the provision, none suggests that the words are other than clear and that the offence can occur without any blameworthy conduct.  In our view, as a matter of simple statutory construction, that is plainly right.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Furthermore if the section were to be interpreted to require any blameworthy conduct, bearing in mind the very wide scope of the offence of causing death by careless and inconsiderate driving, it is difficult to see what purpose the offence could have.  Indeed Miss Evans QC, when asked by the court if she could give an example of circumstances where there could be some fault or blameworthy conduct on the part of an uninsured or unlicensed driver which would not also be caught by the offence of causing death by careless or inconsiderate driving, she very fairly accepted she could think of none, though she added, quite rightly, that the fact that an illustration could not be readily identified did not mean that one might not exist.  To hold that blameworthy conduct was required would be to re-write <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Was it sufficient that the appellant&#8217;s driving was </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">a</span><span style="font-weight:bold"> cause of the death?</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge in his directions to the jury was clear and unequivocal.  He told the jury that providing the appellant&#8217;s driving was <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause which was not minimal then the appellant was guilty of the offence.  It is clear from the question asked by the jury that they had considered this carefully, as they wished to know whether it had to be a major cause.  They were told it did not in unequivocal terms.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Miss Evans QC argued that if, contrary to our view, no blameworthy conduct was required, Parliament must have intended that it was insufficient if the driving was simply <span style="text-decoration-line:underline;text-decoration-style:solid">a</span> cause; it had to be shown to be a major or substantial cause.  The judge&#8217;s direction in this respect was wrong. As was shown by the jury&#8217;s question, if the jury had been directed that it had to be a major or substantial cause, the verdict may well have been different.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In our view the correctness of the judge&#8217;s direction is clear from <span style="font-style:italic">R v Hennigan</span> (1971) 55 Crim.App.R 262.  In that case this court, presided over by the then Lord Chief Justice, Lord Parker CJ, had to consider the question of causation in the context of the offence of causing death by dangerous driving.  In answer to a question from the jury the trial judge said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;You have only one man before you, and you are not concerned in any civil claim or with compensation. All you have to find is whether this man, in your charge, was guilty of dangerous driving which was a substantial cause of the death of these two people, and I hope I have explained &#8216;substantial&#8217; to you effectively.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="text-indent:0.5in">This court observed: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">What is said, as the Court understands it, is that that direction conveyed the impression to the jury that they could find the appellant guilty if he was only little more than one-fifth to blame. The Court would like to emphasise that there is nothing in the statute which requires the manner of the driving to be a substantial cause, or a major cause, or any other description of cause, of the accident. So long as the dangerous driving is a cause and something more than <span style="font-style:italic">de minimis</span>, the statute operates. What has happened in the past is that judges have found it convenient to direct the jury in the form that it must be, as in one case it was put, the substantial cause. That case was <span style="font-style:italic">R. v. Curphey</span> <ref href="#" uk:canonical="(1957) 41 Cr App R 78" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1957">(1957) 41 Cr.App.R. 78</ref>, in which Finnemore J. gave a direction in that form to the jury. That, in the opinion of this Court, clearly went too far, and Brabin J. in a later case, <span style="font-style:italic">R. v. Gould</span> <ref href="#" uk:canonical="(1963) 47 Cr App R 241" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1963">(1963) 47 Cr.App.R. 241</ref>, left it to the jury in the form of &#8220;a substantial cause.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Though the word &#8220;substantial&#8221; does not appear in the statute, it is clearly a convenient word to use to indicate to the jury that there must be something more than <span style="font-style:italic">de minimis</span>, and also to avoid possibly having to go into details of legal causation, remoteness and the like. That appears from the further direction of the judge, who in terms said that it must not be remote, and that it must be a real cause as opposed to being a minimal cause. It is perhaps unfortunate that he dealt with the matter in the illustration he gave on the basis of apportioning blame, but when one analyses it, it is quite clear that the direction, if anything, was much too favourable to the appellant. The Court is quite satisfied that even if the appellant was only one-fifth to blame, he was a cause of the death of these two people. In these circumstances the appeal is dismissed.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is the short and simple answer to the submission.  However, in deference to the argument of Miss Evans QC, we will set out our reasons for the rejection of her argument at greater length.  It was contended by Miss Evans QC that the appellant could not have been said in any ordinary sense of the word &#8220;cause&#8221; to have caused the death of Mr Loosemore when the established facts were such that the cause of the accident were the actions of Mr Loosemore and not those of the appellant.  It was pointed out that there could be no sustainable civil claim by Mr Loosemore or his estate against the appellant because he had not been in any way at fault; the fact that he was uninsured made no difference as there could be no call upon the insurers.  It was also submitted that the absence of a licence and insurance played no part in the occurrence of the accident; they were in no sense causative, as the accident was caused by Mr Loosemore&#8217;s fault.  If the Crown&#8217;s construction of the section was correct, an uninsured or unlicensed driver would have committed the offence even where (1) a drunk driver or a person driving dangerously drove his vehicle into the defendant&#8217;s vehicle and then died, or (2) a pedestrian who intended to commit suicide stepped into the path of the defendant&#8217;s vehicle or (3) where in a multiple car pile-up the uninsured driver was towards the back of the chain of cars in the pile-up.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was also submitted that support could be found in the Crown Court Bench Book, published by the Judicial Studies Board in 2010, in the explanation provided in relation to the general rule on causation at paragraph (9) 3:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;There may be more than one cause. The prosecution must usually establish that the defendant&#8217;s act was a substantial cause of the &#8220;result&#8221;, by which is meant more than a minimal cause. (<span style="font-style:italic">Hennigan</span>). In 2002, a Law Commission Working Party, making proposals for codifying the concept of causation in the criminal law settled on the description &#8220;made a substantial and operative contribution to&#8221; which, it is suggested, is an elegant and accurate synonym of &#8220;caused&#8221;.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The report of the Law Commission Working Party referred to in the Bench Book was never published.  However, as it had been referred to in a public document and was strongly relied on by Miss Evans QC for the appellant, we are grateful to the Law Commission for making available to the parties and to the court a draft report of 2003 containing the wording referred to in the Bench Book.  We were told that there was no final version of the report; the drafts had not been circulated beyond the Law Commission and consultees; a subsequent draft had omitted the words referred to in the Bench Book.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The 2003 draft report is in fact a commentary on elements of the draft Criminal Code annexed to a Law Commission report <span style="font-style:italic">&#8220;A Criminal Code for England and Wales&#8221; </span>published in 1989 which is based on a draft Criminal Code contained in a report in 1985 to the Law Commission by a team led by the late Professor Sir John Smith. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It would not normally be apposite for a court to be referred to an unpublished working draft of a Law Commission working party report which had subsequently been revised, but as it has been referred to in the Crown Court Bench Book as containing an &#8220;elegant and accurate synonym&#8221; for causation, it is necessary to consider it. Moreover as the draft is not publicly available, it is necessary to explain the background and refer to the relevant paragraphs in the draft. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The 1989 draft Code had contained at 17(1) a definition of causation for a result crime (as the offence of causing death by driving can be categorised) that included doing:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;an act which makes a more than negligible contribution to its occurrence.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A debate had then ensued as to whether a definition of causation should be included in the Code: see for example, Professor Glanville Williams: <span style="font-style:italic">Finis for Novus Actus</span> [1989] CLJ 391 at 396-7. Indeed Professor Glanville Williams wrote to the Law Commission to say that the definition did not give the barest indication that a question of moral responsibility or causation was involved; he suggested a definition which required the defendant to do an act that in fact caused the result and was not &#8220;too remote, too trivial or too accidental to have a just bearing on the doer&#8217;s liability or on the gravity of the offence&#8221;. The Law Commission considered that it should look into the issue more fully, rejecting the view that in most cases the jury were not concerned with moral questions but with an issue of fact.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Amongst the tasks of the Working Party was to examine the issue of definition of &#8220;cause&#8221;.  Two paragraphs of the 2003 draft report are relevant to the term used in the Crown Court Bench Book. After referring to the draft definition in 17(1) of the 1989 Code, the draft 2003 report continues:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;The case law refers to the terms &#8220;substantial&#8221; (<span style="font-style:italic">Smith </span><ref href="#" uk:canonical="[1959] 2 QB 35" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] 2 QB 35</ref>,<span style="font-style:italic"> Hennigan, Notman </span>[1994] Crim LR 518<span style="font-style:italic">) </span>or &#8220;significant&#8221; (<span style="font-style:italic">Cheshire </span><ref href="#" uk:canonical="[1991] 93 Cr App R 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 93 Cr App R 251</ref><span style="font-style:italic">)</span> rather than &#8220;more than negligible&#8221;. We take the view that there is no need to employ the more complex notion of more than negligible when a single common place word will suffice. We therefore propose to replace &#8220;more than negligible&#8221; with &#8220;significant&#8221; so that 17(1) will read:</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">&#8220;.. he does an act that which makes a significant contribution to its occurrence&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">We have chose the word &#8220;significant&#8221; rather than &#8220;substantial&#8221; because, as a number of our respondents pointed out, there may be a discrepancy between the popular and the legal meaning of substantial. The popular use for the word normally connotes something akin to &#8220;principal&#8221; or &#8220;predominant&#8221;. On the other hand, the courts have treated the word &#8220;substantial&#8221; as meaning more than &#8220;de minimis&#8221;. In order to remove any confusion we prefer to use the word &#8220;significant&#8221;. The case law has made it clear that a cause need not be the sole or main cause for it to be a legal cause and therefore it would be wrong for the fact finders to be thinking in those terms. In order to make it absolutely clear that a cause may be &#8220;significant&#8221;, even if it is not the sole or main cause, we are proposing to add an additional subsection:&#8221;</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">&#8220;A defendant&#8217;s act may significantly contribute to the occurrence of a result even though his act is not the sole or main cause of the result.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is, we think, necessary to refer to these authorities:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">We have set out at length the decision in <span style="font-style:italic">Hennigan</span>.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">Smith </span>was a case where the issue of causation arose in a murder where the defendant had stabbed a fellow soldier and a number of further events occurred which bore on the cause of death. It was in essence a case about breaking the chain of causation, as the citation of a well known passage of Lord Wright in <span style="font-style:italic">The Oropesa</span> <ref href="#" uk:canonical="[1943] 1 All ER 211" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1943">[1943] 1 All ER 211</ref><span style="font-family:Arial;color:#000000"/>demonstrates. This court rejected the submission that the original wound had to be the sole cause; it was sufficient if the wound had been &#8220;an operating and substantial cause&#8221;. The court continued:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;Only if it can be said that the original wounding is merely the setting in which another cause operates can it be said that the death does not result from the wound. Putting it in another way, only if the second cause is so overwhelming as to make the original wound merely part of the history can it be said that the death does not flow from the wound.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-style:italic">Cheshire </span>was a case where the defence to murder was that there had been negligent treatment of the injuries.  This court reviewed the authorities in cases where a subsequent matter had been said to be a cause of the death.  This court concluded that there were real difficulties in formulating and explaining a general concept of causation; in cases of negligent treatment, it was ordinarily sufficient for the judge to direct the jury that they must be sure that</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">&#8220;the acts of the accused caused the death of the deceased adding that the accused&#8217;s acts need not be the sole cause or even the main cause of  death, it being sufficient that his acts contributed significantly to that result&#8230; We think the word &#8220;significant&#8221; conveys the necessary substance of a contribution to the death that is more than negligible&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The very brief report of <span style="font-style:italic">Notman</span> (whether an injury had been caused by the defendant charged with an assault occasioning actual bodily harm) makes clear that the court was following <span style="font-style:italic">Hennigan.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These cases demonstrate, in our view, that is not always possible to deal with the issue by the use of &#8220;significant&#8221; or &#8220;substantial&#8221;.  Indeed as the decisions in relation to causing death by dangerous driving in <span style="font-style:italic">R v Skelton</span> [1993] Crim L.R. 635, <span style="font-style:italic">Barnes</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2008/2726" uk:canonical="[2008] EWCA Crim 2726" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Crim 2726</ref> and <span style="font-style:italic">Girdler</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/2666" uk:canonical="[2009] EWCA Crim 2666" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Crim 2666</ref> illustrate, more elaborate directions may be needed.  The need for a tailored approach is clear from <span style="font-style:italic">Environment Agency (Formerly National Rivers Authority) Respondent v Empress Car Co. (Abertillery) Ltd </span> <ref href="#" uk:canonical="[1999] 2 AC 22" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 AC 22</ref>.  In that case the House of Lords had to consider the meaning of cause in the context of an offence of causing a pollutant to enter a river where a stranger had opened a valve which allowed discharge of pollutant into the river. Lord Hoffman made clear at page 29:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;The courts have repeatedly said that the notion of "causing" is one of common sense. So in <span style="font-style:italic">Alphacell Ltd. v. Woodward </span><ref href="#" uk:canonical="[1972] AC 824" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1972">[1972] A.C. 824</ref>, 847 Lord Salmon said:</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">"what or who has caused a certain event to occur is essentially a practical question of fact which can best be answered by ordinary common sense rather than by abstract metaphysical theory."</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">I doubt whether the use of abstract metaphysical theory has ever had much serious support and I certainly agree that the notion of causation should not be overcomplicated. Neither, however, should it be oversimplified. In the <span style="font-style:italic">Alphacell </span>case, at p. 834, Lord Wilberforce said in similar vein: </p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">"In my opinion, 'causing' here must be given a common sense meaning and I deprecate the introduction of refinements, such as <span style="font-style:italic">causa causans</span>, effective cause or <span style="font-style:italic">novus actus</span>. There may be difficulties where acts of third persons or natural forces are concerned . . ."</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in">The last concession was prudently made, because it is of course the causal significance of acts of third parties (as in this case) or natural forces that gives rise to almost all the problems about the notion of "causing" and drives judges to take refuge in metaphor or Latin.&#8221;</p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.79in">Lord Hoffman then considered the way common sense notions of causation treat the intervention of third parties or natural forces, concluding after a review of some cases:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;These examples show that one cannot give a common sense answer to a question of causation for the purpose of attributing responsibility under some rule without knowing the purpose and scope of the rule.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In our view, applying this approach, it is therefore necessary for us to consider the meaning of cause as used in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> in the context of the intention of Parliament.  First, the meaning of cause in death by dangerous driving was decided by <span style="font-style:italic">Hennigan.</span>  That decision makes clear it is a cause if it is more than negligible or <span style="font-style:italic">de minimis.</span>  We do not think that<span style="font-style:italic"/>Parliament can have intended any different definition for <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB.  Indeed the presumption is to the opposite effect &#8211; see <span style="font-style:italic">Bennion on Statutory Interpretation (Fifth Edition) </span>at p.711, section 235:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Tacit legislation</span> Parliament is normally presumed to legislate in the knowledge of, and having regard to, relevant judicial decisions.  If therefore Parliament has a subsequent opportunity to alter the effect of a decision on the legal meaning of an enactment, but refrains from doing so, the implication may be that Parliament approves of that decision and adopts it.  This is an aspect of what may be called tacit legislation.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Secondly, in the context of the other offences where death results from driving (as we have set out at paragraph 12), it is difficult to conceive of any other intention of Parliament that if a person drove unlicensed or uninsured, he would be liable for death that was caused by his driving however much the victim might be at fault; it was therefore sufficient that the cause was not negligible. It may be a harsh and punitive measure with an evident deterrent element, but it is difficult to see how anything else can have been intended.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As is clear from all the cases, it is for the judge in each case to determine how to explain the meaning of causation to the jury in the context of the offence before the court. In many cases, no need will arise. But where it does the use of the terms &#8220;substantial&#8221; and &#8220;significant&#8221; have been suggested in that context as conveying the meaning that the cause must be &#8220;more than negligible&#8221;.  The tenor of the draft 2003 report is to the same effect, though in the context of the much more definitive task of codification. However the words &#8220;substantial&#8221; and &#8220;significant&#8221; can give rise to further difficulty. For example, substantial can be defined in this context as &#8220;essential or material&#8221; or &#8220;firmly established&#8221; or &#8220;weighty&#8221;; &#8220;significant&#8221; can be defined to mean &#8220;important&#8221;.  The terms may not convey the necessary clarity required in every case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In a case such as the present, it seems to us that the task of the judge is to explain to the jury what is meant by cause.  A simple reference to &#8220;significant&#8221; or &#8220;substantial&#8221; would in the present case have been insufficient, as the terms could easily have been misunderstood. It is evident from the jury&#8217;s question that they considered &#8220;the principal, main or major&#8221; cause of the death was Mr Loosemore stepping into the road. Had the judge used the terms &#8220;significant&#8221; or &#8220;substantial&#8221;, he would not have conveyed the meaning as decided in <span style="font-style:italic">Hennigan </span>(and as applied in <span style="font-style:italic">Barnes</span> and <span style="font-style:italic">Girdler</span>) and in our view plainly intended by Parliament in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref>ZB. As the comments in relation to this offence we have set out at paragraphs 15-17 make clear, some take the view that the offence is objectionable in principle.  It is therefore particularly important that the jury is given clear guidance as to the meaning of the section in cases such as this; the reasons are well explained by Mrs Nicola Padfield in <span style="font-style:italic">Clean Water and Muddy Causation</span>: <span style="font-style:italic">is causation a question of law of fact or just a way of allocating blame</span> [1995] Crim LR 683 at 692-3.<span style="font-style:italic"/> A jury must clearly understand the statutory legal requirements.  The judge was right therefore to explain to the jury that what was necessary was a cause that was more than minute or negligible, as that is what Parliament clearly intended.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Conclusion</span></heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We therefore dismiss the appeal for the reasons set out.  At the hearing, we allowed the appeal against sentence and substituted a sentence of 24 weeks.  A custodial sentence was plainly appropriate, but in the light of all the circumstances, too long.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

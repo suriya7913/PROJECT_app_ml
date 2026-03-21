@@ -15,7 +15,6 @@ RAW_LEGISLATION_DIR  = os.path.join(DATA_DIR, "raw_legislation")
 RAW_CASELAW_DIR      = os.path.join(DATA_DIR, "raw_caselaw")
 RAW_SI_DIR           = os.path.join(DATA_DIR, "raw_statutory_instruments")
 AMENDMENTS_DIR       = os.path.join(DATA_DIR, "amendments")
-NOTES_DIR            = os.path.join(DATA_DIR, "explanatory_notes")
 
 CORPUS_FILE          = os.path.join(DATA_DIR, "legal_corpus_final.json")
 SMART_CORPUS_FILE    = os.path.join(DATA_DIR, "smart_corpus.json")

@@ -1,0 +1,757 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/398"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/398"/>
+	  <FRBRdate date="2026-03-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="398"/>
+	  <FRBRname value="Alesen Direct Solutions Ltd v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/398"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/398"/>
+	  <FRBRdate date="2026-03-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/398/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/398/data.xml"/>
+	  <FRBRdate date="2026-03-18T12:31:14" name="transform"/>
+	  <FRBRdate date="2026-03-18T15:04:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-18" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-03-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="alesen-direct-solutions-ltd" href="" showAs="ALESEN DIRECT SOLUTIONS LTD"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-keith-gordon" href="/judge-tribunal-judge-keith-gordon" showAs="TRIBUNAL JUDGE KEITH GORDON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>398</uk:number>
+	<uk:cite>[2026] UKFTT 398 (TC)</uk:cite>
+	<uk:parser>1.6.1</uk:parser>
+	<uk:hash>d70e7ecea2cf8eb6061b2d95e483a92ba7e345f61c7c528d44c71fe1b1c39a17</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.49pt;height:72pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation>[2026] UKFTT 00398 (TC)</neutralCitation></p>
+      <p style="text-align:right;margin-left:3.05in">Case Number: TC 09820</p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">By remote video hearing (MS Teams)</p>
+      <p style="text-align:right">Appeal reference: TC/2025/00609</p>
+      <p><span style="font-style:italic">Keywords: Company undertaking construction work; VAT assessment; hardship application; company made advances to related entities/persons; hardship denied</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2026-02-18" refersTo="#hearing">18 February 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>13 March 2026</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-keith-gordon" style="font-weight:bold">TRIBUNAL JUDGE KEITH GORDON</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">MEMBER JULIAN STAFFORD</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#alesen-direct-solutions-ltd" style="font-weight:bold">ALESEN DIRECT SOLUTIONS LTD</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>Mr Oleg Senechko</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Mr Milan Chudasama, litigator of HM Revenue and Customs&#8217; Solicitor&#8217;s Office</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The form of the hearing was V (video), by MS Teams.  The documents to which we were referred are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a documents bundle, which included a witness statement from Ms Fereday (163 pages);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">an authorities bundle (121 pages);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a witness statement from Mr Alex Senechko and a 42-page exhibit (some documents of which were also included in the documents bundle); and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a skeleton argument from HMRC.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-size:11pt">2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Prior notice of the hearing had been published on the gov.uk website, with information about how representatives of the media or members of the public could apply to join the hearing remotely in order to observe the proceedings.  As such, the hearing was held in public.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Outline</heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The application before us was the Appellant company&#8217;s request that it be permitted to proceed with its appeal against a VAT assessment without paying or depositing the tax at stake.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For the reasons set out below, we refuse the application.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We gave our decision orally but Mr Oleg Senechko made it clear that he wished to receive a full reasoned decision rather than a summary decision because he was likely to seek permission to appeal.  This is therefore the full decision as requested.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">Witness evidence</heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As indicated above, we had witness statements from:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Mr Alex Senechko, director of the Appellant; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Ms Sarah Fereday, the HMRC officer who first refused the Appellant&#8217;s hardship application.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant was represented by Mr Oleg Senechko who is Mr Alex Senechko&#8217;s father.  At the point in the proceedings when we were expecting Mr Oleg Senechko to ask his son any additional questions by way of re-examination, Mr Oleg Senechko then gave evidence of his own.  With the parties&#8217; consent, we treated Mr Oleg Senechko as a further witness and invited Mr Chudasama to cross-examine him on this additional evidence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There were aspects of the two Senechkos&#8217; oral evidence which were inconsistent with the explanations previously given by Mr Alex Senechko in his written correspondence with Ms Fereday.  In particular, payments by the Appellant company to another company (PPBeer Ltd, &#8220;PPBeer&#8221;) were previously described as a loan in the course of correspondence (and indeed were shown as such on the Appellant&#8217;s bank statements) whereas, at the hearing before us, it was stressed that these were in fact payments to PPBeer without any expectation (or basis for any such expectation) of the monies being returned to the Appellant.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, some of the assertions made by Mr Alex Senechko in his correspondence with Ms Fereday were contradicted by later admissions: for example, the initial suggestion that the Appellant was not a party to any loan relationship with any other creditor or debtor.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Accordingly, we treated much of the Senechkos&#8217; uncorroborated assertions with suspicion and, wherever the documentary and witness evidence conflicted, we favoured the documentary evidence.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Taxheading1">Findings of fact</p>
+	    <p class="Taxheading2">Uncontested facts</p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">From the documentary and oral evidence, we make the following findings of fact.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant company was established to carry out construction projects.  Mr Alex Senechko is the only (or principal) director.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Mr Oleg Senechko used to work in the construction sector as a contractor, taking on large numbers of subcontractors for projects he was undertaking.  Mr Oleg Senechko was forced to give up this line of work due to ill health.  He has, however, advised his son in relation to the work being undertaken by the present Appellant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant was registered for VAT with effect from 2 December 2020.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant&#8217;s first project is said to be the construction of a new house for the Appellant&#8217;s client to occupy.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The client is the grandmother of Mr Alex Senechko and the mother of Mr Oleg Senechko.  However, the family connection between the client and the Senechkos became clear to us only in the course of the hearing as it was not apparent from any of the correspondence in the documents bundle that we had seen.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A dispute has arisen between the Appellant and HMRC as to the correct VAT treatment for this project.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">On 14 August 2024, HMRC made assessments taking issue with the Appellant&#8217;s VAT returns for the period from 2 December 2020 to 31 March 2021 and the returns for the subsequent quarters to 30 June 2021, 30 September 2021, 31 December 2021, 31 March 2022, 30 June 2022, 30 September 2022, 31 December 2022, 31 March 2023 and 30 June 2023.  The net effect of the assessments was that the Appellant owed HMRC &#163;33,200 plus interest.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(8)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC&#8217;s reason for the assessments was that they concluded that the Appellant was not carrying on a business and, therefore, any VAT repayment should instead be made under the DIY housebuilders&#8217; scheme.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(9)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant sought a review of HMRC&#8217;s assessments, which concluded on 27 December 2024.  As a result of the conclusion, HMRC&#8217;s decision varied slightly (in that four of the assessments were reduced by &#163;1 each).  Accordingly, the amount payable by the Appellant was reduced to &#163;33,196.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(10)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 28 January 2025, the Appellant made an appeal against HMRC&#8217;s assessments to the Tribunal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(11)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The Appellant&#8217;s notice of appeal was silent about whether or not the Appellant had paid (or could pay) the &#163;33,196 in dispute.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(12)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 28 April 2025 (by e-mail of that date attaching a letter dated 25 April 2025), the Appellant applied to HMRC for the right to proceed with the appeal without first paying the &#163;33,196 on the ground of hardship.  Five reasons were given by the company to support its application (but they can be summarised as essentially three areas of challenge):</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(a)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the first two reasons focused on the Appellant&#8217;s lack of funds &#8211; the Appellant needed its funds as working capital or to fund future growth of the company;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(b)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the last two were a variant on the theme &#8211; the lack of working capital could cause potential damage to the Appellant&#8217;s reputation and relationships and undermine the Appellant&#8217;s credibility and financial creditworthiness;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(c)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the third reason identified was the uncertainty of outcome &#8211; the Appellant was concerned that, if it were to be successful in the appeal, it might still be unable to recover the funds from HMRC.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(13)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The application was supported by three months of bank statements (from January to March 2025) and the Appellant&#8217;s financial statements for the year ended 31 December 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(14)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The application was acknowledged by Ms Fereday on 9 May 2025 who sought additional information.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(15)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The substantive response came from Mr Alex Senechko on 23 May 2025.  In his covering e-mail, Mr Senechko reiterated the point that paying the disputed amount &#8220;would place an unsustainable burden on the Company&#8217;s finances and cause further hardship, hindering its ability to continue operations, pay employees, and meet essential obligations&#8221;.  Attached to that response were the Appellant&#8217;s bank statements from October 2024 to March 2025 (the latter ones replicating those previously sent to HMRC with the application).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(16)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On the same day, Ms Fereday responded by e-mail, pointing out that there were further pieces of information that she had requested and that the Appellant had not provided.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(17)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 12 June 2025, Mr Alex Senechko responded, saying that most of the information requested by Ms Fereday did not exist.  Within his response, he made the following observations:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">The company has slowed down trade and work on the project so that it can focus on resolving this dispute with HMRC &#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">Our application for appeal and the opportunity to overturn the decision of HMRC is vital to the future success of the company.  The current project in question is currently the main project for the company and the disputed funds are required to allow the company to finish the project.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(18)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">His response also confirmed in three different places that the company has no loans with third parties (either as creditor or debtor).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(19)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">Ms Fereday responded the next day.  She asked for an explanation as to why Mr Senechko had responded &#8220;not applicable&#8221; to a number of her requests.  She also asked for the Appellant&#8217;s bank statements for April and May 2025.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(20)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">Mr Alex Senechko responded on 17 June 2025.  With his reply, he included the April and May 2025 bank statements.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(21)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 19 June 2025, Ms Fereday asked some questions, principally arising from entries identified on the bank statements.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(22)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 26 June 2025, Mr Alex Senechko responded.  In relation to those queried bank statement entries, he explained that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(a)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">&#8220;the payments made from Global Hub are a repayment of a short-term loan made to the company&#8221;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(b)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">&#8220;the payments received from MS [name redacted for the purposes of this decision] are stage payments on the ongoing project&#8221;; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(c)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">&#8220;the payments made to PPBeer Ltd are short-term loans made to another family business&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(23)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On the next day, Ms Fereday then sought copies of the loan agreements for the two loan arrangements newly confirmed to exist (contrary to the 12 June 2025 response).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(24)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 30 June 2025, Mr Alex Senechko provided a copy of the Global Hub loan.  In relation to the loan to PPBeer, he said &#8220;we do not have a loan agreement in relation to the monies lent to PPBeer, as this was money lent to a family business&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(25)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">Mr Alex Senechko explained to us that he found a precedent loan agreement which he then adapted when drafting the Global Hub loan agreement.  Under the written agreement, the Appellant company would advance up to &#163;40,000 in the week commencing 5 August 2024 and would be repaid in instalments (interest free).  (In a later e-mail, dated 4 August 2025, Mr Alex Senechko confirmed that the total amount lent to Global Hub was &#163;40,000.)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(26)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 9 July 2025, Mr Alex Senechko told Ms Fereday (by e-mail) that the amount owed by Global Hub at that time was &#163;15,500.  At the same time, he advised that the amount lent to PPBeer was about &#163;23,000, on terms that PPBeer would repay the Appellant &#8220;as soon as they are financially stable and the fu[n]ds become available&#8221;.  The advance was made to PPBeer in May 2025.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(27)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">In the same e-mail, Mr Senechko explained that the agreement &#8220;to lend the money to PPBeer [was made] in around April 2025, which was just before Alesen became aware of the requirement to pay the disputed sum to HMRC and the need to make this hardship application prior to a final decision being made&#8221;.  He also asserted that the advance was made to PPBeer as the Appellant &#8220;had the opportunity to help&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(28)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">It was newly asserted by Mr Senechko in that e-mail (and, indeed, in the same paragraph) that the funds used for this loan to PPBeer were actually owned by the Appellant&#8217;s customer, MS, because they were funds that MS had advanced to the Appellant to finance the project at the heart of the dispute with HMRC.  The logic of Mr Senechko&#8217;s argument was that, even if and when PPBeer were in a position to repay the &#163;23,000 from the Appellant, the funds would need to be transferred to MS as the project was not currently progressing (because of the dispute with HMRC).  We found that somewhat inconsistent with the assertion earlier in the same paragraph that &#8220;Alesen agreed to loan the money to PPBeer as it had the opportunity to help&#8221;.  We address that inconsistency further below.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(29)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The hardship decision was made by Ms Fereday on 19 August 2025.  She rejected the Appellant&#8217;s application for hardship in relation to the obligation to pay the VAT in dispute of &#163;33,196.  In her decision, she noted in particular:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(a)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">MS had paid the company &#163;40,900 since October 2024 in relation to the ongoing project;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(b)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">In April 2025, almost &#163;23,000 (&#163;22,849.99) had been advanced to PPBeer.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">From the oral evidence, we find the following additional primary facts:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">MS is the mother of Mr Oleg Senechko and, therefore, the grandmother of Mr Alex Senechko.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">PPBeer is a company controlled by Mr Oleg Senechko.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We observe that neither of the facts identified in <span style="font-family:'Times New Roman'">&#182;&#8206;12 above</span> was apparent from any of the written correspondence that we had seen in the documents bundle.  Without wishing to trespass on the issues that might be live in the substantive appeal<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> And, for the avoidance of doubt, nothing in this decision expresses any view on the merits of the substantive VAT appeal.</p>
+	      </authorialNote>, we find that the written correspondence we had seen tried to create the impression that the Appellant was carrying on a genuine business with an unconnected third-party (with the possibility of other such projects to follow).  However, the facts identified in <span style="font-family:'Times New Roman'">&#182;&#8206;12 above</span> do shed a very different light on the case, particularly as the matter before us essentially turns on the payments made by the Appellant to MS and to PPBeer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It also became clear at the hearing that the Appellant had also returned funds to MS amounting to &#163;17,000.  This was the balance of the sums previously paid by MS to the Appellant, after deducting the &#163;22,900 advanced to PPBeer.  During the hearing, the references to the figures of &#163;17,000 and &#163;22,900 were frequently reversed, so that it was generally suggested that it was &#163;17,000 that had been paid to PPBeer and &#163;22,900 repaid to MS.  We have adopted the former approach as that is consistent with the written correspondence, but note that the alternative approach would not have affected our decision. Similarly, we did not need to resolve the more minor inconsistency being that there is still &#163;1,000 unaccounted for as it has no material impact on the issues that we had to decide: we suspect that some of it relates to rounding.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The oral evidence also revealed that the Appellant had also advanced &#163;5,000 by way of an informal loan to a company that was run by the sister of Mr Alex Senechko.  This did not directly affect our decision but reinforced our impression as to the approach taken by the Appellant in relation to its available funds, and a lack of candour in the course of the previous correspondence with HMRC.  For similar reasons, we did not need to investigate too closely the terms of the arrangement with Global Hub.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Taxheading2">Contested facts</p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was the Senechkos&#8217; contention that the &#163;40,900 paid by MS to the Appellant did not at any time belong to the Appellant but was (effectively<authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"> Neither of the Senechkos used the terminology of trust and we would not expect them to have done so; however, that was the essence of their case: that the money was not the Appellant&#8217;s but always the customer&#8217;s and that the Appellant had been holding onto the money so as to finance the work that the Appellant was carrying on for MS.</p>
+	      </authorialNote>) held in trust by Appellant on behalf of MS, its customer.  We do not accept that contention.  Our finding is that, to the extent that the Appellant is carrying on a business as it asserts, the &#163;40,900 represented ordinary client-to-supplier stage payments (i.e. payments which would cover the Appellant&#8217;s own outgoings and any profit) made by the Appellant&#8217;s customer to the Appellant for the project being undertaken by the Appellant on the customer&#8217;s behalf.  Indeed, when giving his oral evidence, Mr Alex Senechko expressly disavowed the suggestion that the funds had been borrowed by the Appellant from MS: he said, &#8220;not borrowed &#8230; used to build house &#8230; the house being built for her&#8221;.  He reiterated this later on but also claimed that, with MS&#8217;s consent, those funds could actually be used for other purposes (such as the earlier loan to Global Hub).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was the Senechkos&#8217; further contention that the VAT dispute with HMRC caused the project to cease and, therefore, necessitated the repayment of the funds to MS.  We have already rejected the contention that the funds were legally MS&#8217;s.  However, we further reject the notion that the VAT dispute <span style="font-style:italic">caused</span> the project to cease.  Instead, we find that this was a choice freely made by Mr Alex Senechko on behalf of the Appellant (under the advice of his father).  We say this for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">It has been candidly conceded (and indeed represented one of the grounds in the original application to HMRC) that a part of the Senechkos&#8217; thinking was that, were the appeal to proceed (and were the Appellant to be successful in the appeal), they did not think that HMRC would honour the Tribunal&#8217;s decision.  In other words, the Senechkos believed that, even if they won the appeal, they would not be able to recover the funds from HMRC.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">With that fear in mind (whether or not justified), steps were then taken by the Appellant to rid itself of its working capital (which was a little in excess of the VAT in dispute) as soon as it was realised that the VAT in dispute would need to be paid over to HMRC in order to permit the appeal to proceed.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Our foregoing conclusion is also reinforced by the various other contentions made by the Senechkos in relation to the return of the &#163;40,000-odd.  It was suggested orally that the full sum was to be repaid to MS (consistent with the contention recorded at <span style="font-family:'Times New Roman'">&#182;&#8206;16 above</span>) but that MS had requested that &#163;23,000-odd be directed to PPBeer.  Once it transpired that PPBeer was a company under Mr Oleg Senechko&#8217;s control, this suggestion became far less plausible and we unhesitatingly reject it.  We also note that it is inconsistent with what Mr Alex Senechko initially wrote to Ms Fereday about the transfer to PPBeer being made because the Appellant had the opportunity to &#8220;help&#8221; PPBeer (see <span style="font-family:'Times New Roman'">&#182;&#8206;11(27) above</span>).  We reject Mr Oleg Senechko&#8217;s suggestion to us that Mr Alex Senechko &#8220;mis-spoke&#8221; in that earlier e-mail, because not everything that Mr Alex Senechko wrote was supervised by his father.  We doubt that any of this correspondence was drafted by Mr Alex Senechko without his father&#8217;s oversight.  However, even if we are wrong in that regard, we cannot see how any director of a company can mistake a request by a customer to direct a payment to a third party for a decision to make an advance to that third party to help it out: even more so, when the third party is a company under the control of the director&#8217;s father.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, we do not accept what was suggested in the e-mail correspondence that the &#8220;agreement&#8221; to make a payment to PPBeer was made in April, shortly before the Appellant learned that it needed to pay the VAT in dispute notwithstanding its appeal in this Tribunal.  We were not supplied with any evidence to corroborate this request (company accounts or bank statements to demonstrate PPBeer&#8217;s need for financial assistance, nor any memorandum of the loan agreement<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"> As it has now transpired that PPBeer Ltd is effectively an associated party, we acknowledge that there might be some informality in the relationship.  However, the connection between the two companies also reinforces our suspicions about the motivations behind the transactions.</p>
+	      </authorialNote>).  Consequently, we had no real reason to accept that this &#8220;agreement&#8221; could not be broken once the Appellant (as the Senechkos asserted) finally realised that the VAT had to be paid.  Indeed, the first payment to PPBeer was made on 14 May 2025 over two weeks after the Appellant first made its hardship application to HMRC.  For completeness, we note that we could see no reason why (had the &#8220;agreement&#8221; been made before 25 April 2025, as was asserted by Mr Alex Senechko in his correspondence) it then took (depending on the actual date of this asserted &#8220;agreement&#8221;):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">nearly three weeks or for it to be given effect; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">even longer.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Our decision is that decisions to make the payments to MS and PPBeer were both made <span style="font-style:italic">after</span> the company realised that the VAT was payable by the company (subject to it succeeding with a hardship application) and the principal intention of the Senechkos (and, thus, that of the company) was to create the impression of relative impecuniosity so as to side-step the need to pay the tax in dispute upfront.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We acknowledge that the Appellant&#8217;s existing project has effectively been put on hold and that it has returned some funds to MS.  However, we consider that that is a direct consequence of choices made by the Appellant rather than as a necessary consequence of the VAT dispute.  We see no reason why the Appellant could not have continued to use the &#163;40,900 received from MS for the purposes of its project as originally anticipated when those funds were originally received by the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Although not advanced at the hearing before us, we also wish to address briefly the other reasons originally cited by Mr Alex Senechko in his original application for hardship as made to HMRC:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Whilst we accept that the Appellant would have wanted to progress to providing construction services to other clients, we saw no evidence to suggest that any such work was anything other than aspirational.  Furthermore, without evidence as to how the Appellant might need to deploy the tax in dispute as working capital for these future projects, we were unable to accept that the Appellant required any funds to assist it with carrying out any other work.  In any event, given that the Appellant (as the Senechkos have told us) stopped its one existing project in order to focus on resolving the VAT dispute, we are forced to conclude that there are no other projects in the foreseeable future and, therefore, no realistic need for the VAT in dispute to be available for the Appellant&#8217;s use.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">For similar reasons, we do not accept that the lack of working capital could cause potential damage to the Appellant&#8217;s reputation and relationships or undermine the Appellant&#8217;s credibility and financial creditworthiness.  We saw no evidence to corroborate the suggestion that future clients (or suppliers) would be concerned by such matters.  In any event, had the VAT in dispute been deployed as working capital for the existing project, it would not have been available to improve &#8220;the Appellant&#8217;s reputation and relationships&#8221; or to boost &#8220;the Appellant&#8217;s credibility and financial creditworthiness&#8221;.  Furthermore, the fact that the Appellant has voluntarily returned its working capital to MS or by way of loan to PPBeer (a company which the Senechkos have suggested is in its own difficult financial state) demonstrates that these concerns were not particularly acute in the mind of the Senechkos.  For the avoidance of doubt, we do not consider that the Appellant&#8217;s reputation with MS is of any relevance whatsoever, given that we now know that MS is Mr Oleg Senechko&#8217;s mother and not an arm&#8217;s length client.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Finally, in the course of his closing submissions to us (i.e. after any opportunity for Mr Chudasama to put questions to cross-examine him), Mr Oleg Senechko newly suggested that it was MS who requested that the money she had paid to the company be repaid to her rather than used for the purposes of the Appellant&#8217;s ongoing project.  We do not accept that this was a full and accurate account of what MS is likely to have said.  For example, we do not understand why any customer (even if the grandmother of the Appellant&#8217;s director) would have been content with the construction project she had commissioned being put on hold whilst the developer was dealing with a VAT dispute.  At the very least, we consider that the Senechkos would have told MS that they wished to remove the &#163;40,000-odd from the Appellant&#8217;s accounts and, thus, any input from MS would have been her consent to her son&#8217;s or grandson&#8217;s suggestion.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Taxheading1">The legal principles to be applied</p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The requirement to pay (or deposit) the VAT assessed before an appeal may proceed is found in the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">Value Added Tax Act 1994</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/84/3" uk:canonical="1994 c. 23 s. 84" uk:origin="TNA" uk:type="legislation">section 84(3)</ref>.  However, subsection (3B) provides that this is not necessary if either:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC&#160;are satisfied (on the application of the appellant) that the requirement to pay or deposit the amount determined would cause the appellant to suffer hardship &#8211; which HMRC were not &#8211; or </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">the Tribunal so decides.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The leading case in this area is the Upper Tribunal&#8217;s decision in <span style="font-style:italic">HMRC v Elbrook (Cash &amp; Carry) Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2017/181" uk:canonical="[2017] UKUT 181 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKUT 181 (TCC)</ref>.  The principles derived from that case were usefully summarised by this Tribunal in <span style="font-style:italic">NT Ada Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2019/333" uk:canonical="[2019] UKFTT 333 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKFTT 333 (TC)</ref> at [33] with the references therein to paragraphs in the Upper Tribunal&#8217;s decision in <span style="font-style:italic">Elbrook</span>.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:11pt">(1)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The purpose of the provisions is to strike a balance between the abuse of the appeals mechanism by employing it to delay paying disputed tax and the stricture of having to pay or deposit the disputed sum as the price of entering the appeal process; the relief afforded by the &#8220;hardship&#8221; provisions should not be applied so as to operate as a fetter on the right of appeal ([19]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(2)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The Tribunal should not concern itself with the merits of the underlying appeal ([20]).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(3)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The test is an &#8220;all or nothing&#8221; one, in which it is not relevant that the appellant might be able to pay or deposit some amount less than the whole disputed sum ([31]).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(4)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The test is to be applied to the position at the date of the hearing ([26]). This means that the Tribunal should not &#8220;speculate as to what might become available to the appellant in the future&#8221; ([22] &amp; [26]). It should focus on &#8220;immediately or readily available resources&#8221; ([21]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(5)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The fact that the appellant may have the necessary cash or other readily available resources may not be determinative, if hardship would result from using it (or them) in paying the disputed sum ([22]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(6)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Available borrowing resources may be considered, but generally only from existing sources, e.g. unused facilities or new facilities immediately available with minimal formality ([23]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(7)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Potentially available borrowing from new sources, for example if the appellant owns property capable as acting as security for a new loan, will only exceptionally be considered as &#8220;immediately or readily available&#8221;, for example where arrangements for borrowing are at an advanced stage ([24]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(8)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The potential sale, outside the ordinary course of business, of assets properly purchased for the purposes of the appellant&#8217;s business, might cause hardship even if the assets are not currently being used in the business ([25]). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(9)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">There is no hard and fast rule that &#8220;regard can never be had to the resources of connected (but legally independent) entities where&#8230; there is common control and the evidence suggests a free flow of resources to meet the needs or requirements of any one entity at the expense of the other or others of them from time to time&#8221; ([25]).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(10)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Although the test is to be applied by reference to the circumstances at the date of the hearing (see [33(4)] above), that does not mean that events leading up to that time are necessarily ignored. The Tribunal can take into account &#8220;whether the appellant is himself responsible for putting himself in a position where he cannot pay&#8230;, and that would include by delaying the hearing so that at the time of the hearing he cannot pay&#8230; without hardship&#8221; ([27], endorsed at [28]). The basis for this is that the &#8220;real cause&#8221; of the appellant&#8217;s inability to pay without hardship may be his own prior actions. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(11)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The Tribunal should make its assessment on the basis of the most up-to-date available information. The burden lies on the appellant to establish hardship, so it is normally incumbent on the appellant to adduce the necessary evidence to satisfy the Tribunal ([29]). Absence of contemporaneous accounting evidence may justify the Tribunal in placing little, if any, weight on an oral assertion that the appellant is unable to afford to pay. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(12)</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Within the above parameters, the decision of the Tribunal is a value judgment on the basis of the evidence before it ([16]).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We agree with that statement of the relevant principles and we follow that approach in this case.  Although we do not work through those twelve principles in turn (it is not a checklist after all), we had them all fully in mind when reaching our decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Taxheading1">Application of those principles to the facts of the case</p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We accept that the Appellant does not currently have in its own bank account sufficient funds to pay the VAT in dispute and we proceed on the basis (being most favourable to the Appellant) that it has no ready source of funding that could reasonably be called upon &#8211; whether that be external funding (from connected persons or otherwise) or by the realisation of any of its own assets.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">However, the only reason that this is the case is because the Appellant has voluntarily chosen to deprive itself of those funds by (in our view) needlessly returning some of its cash to MS and passing the rest to PPBeer.  Even if (which we are not persuaded by &#8211; both from a legal perspective and the because of the lack of corroborative evidence) the Appellant is currently unable to recover any funds from PPBeer, this is a clear case of the Appellant being the author of its own misfortune in the sense that it created its own hardship (and did so in full knowledge of, and with a view to by-passing, its obligation to pay the VAT in dispute).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Therefore, the only reason why the Appellant is able to claim hardship is because it put itself in that position.  Following the approach in <span style="font-style:italic">NT Ada</span>, that is not a good reason for the appeal to be permitted to proceed without payment upfront of the VAT in dispute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As a footnote, we would observe that we would have had considerably more sympathy with this application had the Appellant simply carried on with its project for MS and either used the &#163;40,900 funds she had advanced for that purpose or demonstrated to us that it was needed as working capital for the project.  However, we have to decide this case on the basis of the facts as they are and not how they might have been.  For the foregoing reasons, we therefore refuse this application.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Taxheading1">Right to apply for permission to appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This document contains full findings of fact and reasons for the decision.  Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.  The application must be received by this Tribunal not later than 56 days after this decision is sent to that party.  The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold">Release date:</span></p>
+	    <p style="text-align:center"><docDate date="2026-03-13" refersTo="#decision">13 March 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

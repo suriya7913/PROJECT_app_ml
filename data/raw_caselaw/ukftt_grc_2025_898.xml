@@ -1,0 +1,415 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/898"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/898"/>
+	  <FRBRdate date="2025-07-28" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="898"/>
+	  <FRBRname value="Saqib Aslam v Registrar of Approved Driving Instructors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/898"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/898"/>
+	  <FRBRdate date="2025-07-28" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/898/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/898/data.xml"/>
+	  <FRBRdate date="2025-07-28T15:59:19" name="transform"/>
+	  <FRBRdate date="2025-07-29T08:43:57" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-07-21" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-07-25" refersTo="#decision" source="#"/>
+	<eventRef date="2025-07-28" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="saqib-aslam" href="" showAs="SAQIB ASLAM"/>
+	<TLCPerson eId="registrar-of-approved-driving-instructors" href="" showAs="REGISTRAR OF APPROVED DRIVING INSTRUCTORS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-transport" href="/jurisdiction/transport" shortForm="Transport" showAs="Transport"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>898</uk:number>
+	<uk:cite>[2025] UKFTT 898 (GRC)</uk:cite>
+	<uk:jurisdiction>Transport</uk:jurisdiction>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>f3c79eecd6e9f847c1a09c059bc5cbd3c5caa379481653234140c300b6403659</uk:hash>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 00898 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/D/2025/0120</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-transport" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Transport</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-07-21" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">21 July 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2025-07-28" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">28 July 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE SAWARD</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER FRY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER RAWSTHORN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#saqib-aslam" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">SAQIB ASLAM</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#registrar-of-approved-driving-instructors" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">REGISTRAR OF APPROVED DRIVING INSTRUCTORS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: </span><span style="font-family:'Book Antiqua';color:#000000">In person</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent:</span><span style="font-family:'Book Antiqua';color:#FF0000"/><span style="font-family:'Book Antiqua';color:#000000">Mr Russell</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed. The Registrar&#8217;s decision is upheld.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold"/><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">This appeal concerns a decision of the Registrar of Approved Driving Instructors (&#8220;the Registrar&#8221;) made on 23 December 2024 to remove the Appellant&#8217;s name from the Register of Approved Driving Instructors (the &#8220;Register&#8221;) on the ground that the Appellant had been disqualified and no longer holds a driving licence. The Registrar directed that the decision would not take immediate effect.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial">The proceedings were held by video (CVP). Both parties joined the Hearing by telephone. The Tribunal was satisfied that it was fair and just to conduct the hearing in this way. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Procedural Matter</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Registrar&#8217;s decision was sent to the Appellant by email on 23 December 2024. The Notice of Appeal was received by the Tribunal on 21 January 2025.  Under Rule 22 of The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009, an appellant must start proceedings within 28 days of the date that notice of the decision was sent to them. The appeal in this case was submitted 1 day late. The reason given in the Appeal Form for the late submission was that the Appellant had not been well and had overlooked the date it was due by for which he apologised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal bears in mind that the appeal was only 1 day late and the 28-day window in which to submit the appeal coincided with public holidays over Christmas and New Year. We note that the Appellant says he was unwell. We also note that the Tribunal&#8217;s correspondence stated that the appeal had been submitted in time. The Registrar took the opportunity to respond and has fully engaged in the process. At the hearing, Mr Russell raised no objection to the Tribunal granting an extension of time to admit the appeal. The balance of prejudice lies with the Appellant whose appeal would not be heard if there is no extension of time.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In accordance with the case management powers within Rule 5 of the 2009 Rules, the Tribunal granted the Appellant an extension of time retrospectively so that the appeal can be considered.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The Appeal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial">The reason given for the Registrar&#8217;s decision of 23 December 2024 was that the Appellant was </span>convicted on 22 November 2024 of &#8220;driving or attempting to drive with drug level above the specified limit&#8221; on 8 September 2024 for which he had received 14 months disqualification and a fine.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial">The Appellant&#8217;s Notice of Appeal dated 21 January 2025 relies on the grounds that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial">Being an Approved Driving Instructor (&#8220;ADI&#8221;) is not only his profession but passion.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial">He has consistently strived to help his students succeed.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_1_3">
+	    <num style="font-family:Arial">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial">He is deeply remorseful and upset about what happened. He has the upmost respect for the law and the responsibility that comes with being an ADI.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_4">
+	    <num style="font-family:Arial">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial">He was advised to plead guilty by his Solicitor who he believes did not adequately represent him and put the full circumstances and mitigating factors to the court. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Registrar&#8217;s Statement of Case dated 29 May 2025 resists the appeal. The Registrar says that: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.26in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">the Appellant is disqualified from driving and does not hold a valid driving licence to act as an accompanying driver. Being in control of a vehicle while under the influence of drink or drugs is a very serious offence with potentially dangerous consequences that cannot be ignored.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.26in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The Appellant has not displayed the level of responsibility or commitment to improving road safety that is expected of an ADI.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.26in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">It would effectively sanction such behaviour if those who transgress were allowed to remain on an official register that allows them to teach others.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.26in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">It would be offensive to other ADIs and persons trying to qualify as ADIs, who had been scrupulous in observing the law, to ignore this relevant motoring offence.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">     The Law</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11.5pt"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/123/1" uk:canonical="1988 c. 52 s. 123" uk:origin="TNA" uk:type="legislation">Section 123(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">Road Traffic Act 1988</ref> ("<ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>") prohibits the giving of paid instruction in the driving of a motor car unless the instructor's name is in the Register, or the person is the holder of a current licence granted under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/129/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 129(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Conditions for entry and retention on the Register require the applicant to hold a licence to drive a motor vehicle to have his name on the Register, as provided in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52/section/125/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 125(3)</ref> and 128(2)(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/52" uk:canonical="1988 c. 52" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Registrar may remove a person&#8217;s name from the Register if they have been disqualified under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/34" uk:canonical="1988 c. 53 s. 34" uk:origin="TNA" uk:type="legislation">section 34</ref> or 36 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref> for holding or obtaining a licence to drive a motor vehicle under Part III of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(b)). In this case, the disqualification was under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/34" uk:canonical="1988 c. 53 s. 34" uk:origin="TNA" uk:type="legislation">section 34</ref> for &#8220;<span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF">driving or attempting to drive with concentration of specified controlled drug above specified limit&#8221; being an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Although not relied on in this instance, removal from the Register may also occur if the Registrar is satisfied that the person has ceased to be a fit and proper person to have their name on the Register (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/128/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128(2)</ref>(e) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref>). The Registrar may take the view that a person no longer meets this requirement where there has been a change in circumstances.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The powers of the Tribunal in determining this appeal are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/131" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref>. The Tribunal may make such order as it thinks fit (<ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/131/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 131(3)</ref>). The Tribunal stands in the shoes of the Registrar and takes a fresh decision on the evidence available to it, giving appropriate weight to the Registrar&#8217;s decision as the person tasked by Parliament with making such decisions (in accordance with <span style="font-style:italic;font-weight:bold">R. (Hope and Glory Public House Ltd) v City of Westminster Magistrates Court &amp; Ors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/31" uk:canonical="[2011] EWCA Civ 31" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 31</ref>). </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">      The Evidence</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal has considered a bundle of evidence containing 23 numbered pages plus index. We have read and considered all the written evidence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We also heard submissions from the Appellant and the Registrar&#8217;s representative.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">Relevant facts</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant&#8217;s name was first entered in the Register in September 2022. In the normal course of time, his registration would expire on 30 September 2026.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 22 November 2024 the Appellant notified the Registrar by email that he had that same day been disqualified from driving for 14 months for a drug related offence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF">The offence committed </span>under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref><span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF"> was &#8220;driving or attempting to drive with concentration of specified controlled drug above specified limit&#8221;</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 22 November 2024 the Registrar gave the Appellant written notice by email that he was considering removing the Appellant&#8217;s name from the Register as he is disqualified from driving and no longer holds a driving licence. The Registrar asked for a reply within 28 days. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant replied by email on 12 December 2024. In summary he said:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">As an ADI he had achieved an excellent pass rate and maintained a reputation for quality instruction and dedication.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The circumstances surrounding the incident leading to his &#8220;ban&#8221; were that he attended Rochdale driving test centre with a student who smelt faintly of cannabis. The examiner refused to take the student out for this reason and reported the Appellant. He was stopped and charged by police about a couple of weeks later. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">A couple of days beforehand, the Appellant attended a social event. He was offered drinks by individuals he did not know. He claims, unbeknownst to him, that his drink was spiked. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The Appellant was not intoxicated the day he was stopped by police and felt fully capable of driving and his ability to drive was not impaired. At the time the Appellant was alone. He was not conducting a driving lesson. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">A week later when the Appellant was back at Rochdale driving test centre with a different student, the same examiner reported him again.  The Appellant feels he was being harassed. After the student returned from the test, a police car was waiting for the Appellant to drive out. He was stopped and asked to take a roadside test that was negative.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The Appellant is deeply remorseful for what happened. He says the consequences have been devastating. The Appellant now faces severe hardships including the loss of his home, inability to see his children or visit his parents regularly. There has been an effect on his mental health due to the stress. Without any other source of income, the Appellant must claim benefits. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(g)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The Appellant begs not to be removed from the Register. He is willing to undergo all necessary ADI tests again at the earliest opportunity.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(h)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">The Appellant provided character references to support his case that he is a fit and proper person.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant elaborated upon his case at the hearing. He does not deny that when stopped by the police, he failed the drug test. Nevertheless, he was adamant that he had definitely not taken any drug. This is why he concludes that his drink must have been spiked. The police did not investigate his claim. The Appellant is aggrieved with the legal representation he received despite spending thousands of pounds. He spoke of his desire to resume as an ADI once his disqualification expires.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-family:Arial;font-size:11pt"/><span style="font-weight:bold;font-family:'Book Antiqua'">Consideration and Conclusions</span></heading>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">There appeared to be some misunderstanding on the Appellant&#8217;s part over the nature of his appeal. The task of the Tribunal is to decide afresh whether the Appellant should have his name removed from the Register following his disqualification from driving. We are <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> deciding whether the Appellant should be allowed to be re-admitted to the Register once his ban expires or what period of time should pass before any such application succeeds. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Whilst the Appellant has made representations on why he is a fit and proper person to be on the Register, that is not the ground on which the Registrar based his decision. Instead, reliance was placed by the Registrar on the statutory power to remove the Appellant&#8217;s name from the Register on the grounds within <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/128" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128</ref>(2(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the Act</ref> i.e., for disqualification from driving under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/34" uk:canonical="1988 c. 53 s. 34" uk:origin="TNA" uk:type="legislation">section 34</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>. Removal of a person&#8217;s name from the Register under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/128" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 128</ref> is not obligatory, but the<span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF"> Appellant has been convicted of a very serious offence of &#8220;driving or attempting to drive with concentration of specified controlled drug above specified limit&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF">To have been convicted the Appellant must have had a specified controlled drug in his body that exceeded the specified limit for that drug. The Appellant accepts the test result, but not that he had intentionally taken any drug. In effect the Appellant tries to re-run his defence. The Tribunal heard how much the Appellant had spent on his defence but felt let down by his Solicitor. That may be so, but ultimately the Appellant has been convicted of the offence and disqualified from driving. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF">It is irrelevant to the commission of the offence that the Appellant felt harassed by an examiner at the driving test centre. The disqualification is no less serious by the Appellant not instructing any pupil at the time he was stopped by police. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#1E1E1E;background-color:#FFFFFF">As things stand the Appellant is 8 months into his 14-month period of disqualification. Therefore, he remains disqualified for a further 6 months. As he does not hold a valid licence to drive a motor vehicle, he does not meet one of the conditions for entry on the Register. That is sufficient reason for the Appellant&#8217;s name to be removed from the Register.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Whilst we acknowledge the hardship that the Appellant has faced personally and financially, those are consequences of his disqualification following conviction and not the Registrar&#8217;s decision. Those factors do not diminish the severity of the offence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In all the circumstances, we conclude that the Registrar&#8217;s decision to remove the Appellant&#8217;s name from the Register was correct. We dismiss this appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:  </span><span style="font-weight:bold;font-family:'Book Antiqua'">Judge Saward</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2025-07-25" refersTo="#decision" style="font-family:'Book Antiqua'">25 July 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

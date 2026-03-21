@@ -1,0 +1,940 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1431"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2024/1431"/>
+	  <FRBRdate date="2024-11-22" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1431"/>
+	  <FRBRname value="R v Tony Deeprose"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1431"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1431"/>
+	  <FRBRdate date="2024-11-22" name="judgment"/>
+	  <FRBRauthor href="#ewca-criminal"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1431/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/1431/data.xml"/>
+	  <FRBRdate date="2024-11-22T14:07:15" name="transform"/>
+	  <FRBRdate date="2025-07-19T03:07:49" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-11-22" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-criminal" href="https://www.gov.uk/courts-tribunals/court-of-appeal-criminal-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Criminal Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rex" href="" showAs="REX"/>
+	<TLCPerson eId="tony-deeprose" href="" showAs="TONY DEEPROSE"/>
+	<TLCPerson eId="nicholas-papworth" href="" showAs="NICHOLAS PAPWORTH"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-justice-william-davis" href="/judge-lord-justice-william-davis" showAs="LORD JUSTICE WILLIAM DAVIS"/>
+	<TLCPerson eId="judge-mr-justice-johnson" href="/judge-mr-justice-johnson" showAs="MR JUSTICE JOHNSON"/>
+	<TLCPerson eId="judge-hhj-shaun-smith-kc" href="/judge-hhj-shaun-smith-kc" showAs="HHJ SHAUN SMITH KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Criminal</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>1431</uk:number>
+	<uk:cite>[2024] EWCA Crim 1431</uk:cite>
+	<uk:parser>0.26.14</uk:parser>
+	<uk:hash>4ffe1bb1b9a312ce55a2a0a3d0bc451165d110ed25df6c88c5ea825fa9e0bee1</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .MainHeading { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Subheading { font-style: italic; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ParaLevel1Char { font-size: 12pt; }
+#judgment .MainHeadingChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeadingChar { font-size: 12pt; }
+#judgment .SubheadingChar { font-style: italic; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .QuoteChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCA Crim 1431</neutralCitation></p>
+      <p class="CoverText">Case Nos: <docketNumber>202303830/A2</docketNumber>, <docketNumber>202303313/B1</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-criminal">IN THE COURT OF APPEAL (CRIMINAL DIVISION)</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ON APPEAL FROM THE CROWN COURT AT MAIDSTONE</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">His Honour Judge Statman</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">AND ON APPEAL FROM THE CROWN COURT AT LUTON</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">His Honour Judge Simon</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-11-22" refersTo="#judgment">22 November 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-lord-justice-william-davis" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">LORD JUSTICE WILLIAM DAVIS</judge></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-johnson" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MR JUSTICE JOHNSON</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-hhj-shaun-smith-kc">HHJ SHAUN SMITH KC</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#rex" style="font-weight:bold">REX</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#tony-deeprose" style="font-weight:bold">TONY DEEPROSE</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p/>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">And between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#rex" style="font-weight:bold">REX</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#nicholas-papworth" style="font-weight:bold">NICHOLAS PAPWORTH</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Matthew Sherratt KC for the appellant Papworth</p>
+      <p style="text-align:center">Simon Denison KC and Lyndon Harris for the Respondent</p>
+      <p style="text-align:center">Nicholas Hamblin for the applicant Deeprose</p>
+      <p style="text-align:center">Patrick Dennis for the Respondent</p>
+      <p style="text-align:center">Hearing date: 8 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 14.00 on Friday 22 November 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives</p>
+      <p style="text-align:center">(see eg https://www.bailii.org/ew/cases/EWCA/Civ/2022/1169.html).</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">LORD JUSTICE WILLIAM DAVIS</p>
+      <block name="restriction">WARNING: reporting restrictions may apply to the contents transcribed in this document, particularly if the case concerned a sexual offence or involved a child. Reporting restrictions prohibit the publication of the applicable information to the public or any section of the public, in writing, in a broadcast or by means of the internet, including social media. Anyone who receives a copy of this transcript is responsible in law for making sure that applicable restrictions are not breached. A person who breaches a reporting restriction is liable to a fine and/or imprisonment. For guidance on whether reporting restrictions apply, and to what information, ask at the court office or take legal advice.</block>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="color:#FF0000">Note - include here the details of any specific reporting restrictions that have been made by the court. This will have been identified in the Criminal Appeal Office Summary under the Reporting Restrictions heading or from the Court Order. The wording of any reporting restriction must appear in RED TEXT.</span></p>
+	    <p><span style="font-weight:bold">Lord Justice William Davis:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 8 November 2024 we considered the cases of Nicholas Papworth and Tony Deeprose.  Though unrelated the cases were listed together because they raised a common issue. In what circumstances, if at all, is an offender to be taken as having taken a weapon to the scene of an offence, where the weapon is a vehicle that has been driven to the scene? The resolution of that issue can affect, for the purposes of sentencing, the starting point for setting the minimum term for an offence of murder, or the correct categorisation of an offence of attempted murder.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the context of our consideration of this overarching issue we determined an appeal against sentence by Papworth and a renewed application for leave to appeal against sentence by Deeprose.  We also considered a renewed application by Papworth for an extension of time to appeal against his convictions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of the hearing we announced that Papworth&#8217;s renewed application for leave to appeal against conviction was refused and that his appeal against sentence had been dismissed.  We said that we would provide detailed written reasons in due course which we now do.  In relation to Deeprose we reserved our decision due to a question relating to disqualification from driving which we were unable to resolve without further consideration.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The overarching issue</span></p>
+	    <p class="ParaHeading"><span style="font-style:italic">Sentence for murder</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/321" uk:canonical="2020 c. 17 s. 321" uk:origin="TNA" uk:type="legislation">Sections 321</ref> and 322 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17" uk:canonical="2020 c. 17" uk:origin="TNA" uk:type="legislation">Sentencing Act 2020</ref> require a court, when passing a life sentence, to make either a minimum term order or a whole life order. The court must make a minimum term order unless the court is required to make a whole life order under <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/321/3" uk:canonical="2020 c. 17 s. 321" uk:origin="TNA" uk:type="legislation">section 321(3)</ref>: <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/321/2" uk:canonical="2020 c. 17 s. 321" uk:origin="TNA" uk:type="legislation">section 321(2)</ref>. A minimum term order is an order that the early release provisions apply as soon as the offender has served the part of the sentence which is specified in the order as the minimum term: <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/321/4" uk:canonical="2020 c. 17 s. 321" uk:origin="TNA" uk:type="legislation">section 321(4)</ref>. Where a court makes a minimum term order, it must set an appropriate minimum term, taking account of the seriousness of the offence (and any associated offence) and the effect of any period of remand in custody or bail that is subject to a qualifying curfew: <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/322/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 322(2)</ref>. In determining the seriousness of the offence, the court must have regard to the general principles set out in schedule 21 to <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17" uk:canonical="2020 c. 17" uk:origin="TNA" uk:type="legislation">the Act</ref>: <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17/section/322/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 322(3)</ref>(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Schedule 21 to <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17" uk:canonical="2020 c. 17" uk:origin="TNA" uk:type="legislation">the 2020 Act</ref> sets out a structured approach for determining the starting point for the minimum term, before that starting point is then adjusted to take account of aggravating and mitigating factors, and any period of remand in custody or bail with qualifying curfew. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 2 of schedule 21 caters for those cases where the starting point is normally the imposition of a whole life order. These include the murder of a police or prison officer in the course of their duty, where the offence was committed on or after 13 April 2014, a murder done for the purpose of advancing a political, religious, racial or ideological cause, or a murder by an offender previously convicted of murder.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 3 of schedule 21 provides for the circumstances in which the starting point is a minimum term of 30 years. These include a murder done for gain, a murder intended to obstruct or interfere with the course of justice, a murder involving sadistic conduct, a murder that is aggravated by hostility related to race, religion, sexual orientation, or (after 3 December 2012) disability or transgender identity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A murder that is committed with the use of a vehicle could, in principle, come within any of these categories, resulting in a starting point of a whole life order (para 2 of schedule 21), or a 30 year minimum term (para 3 of schedule 21), whether or not the vehicle is to be treated as a weapon taken to the scene.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 4 of schedule 21 states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;4(1)If&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the case does not fall within paragraph 2(1) or 3(1),</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the offence falls within sub-paragraph (2),</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">the offender was aged 18 or over when the offence was committed, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the offence was committed on or after 2 March 2010,</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in">the offence is normally to be regarded as sufficiently serious for the appropriate starting point, in determining the minimum term, to be 25 years.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1.57in">The offence falls within this sub-paragraph if the offender took a knife or other weapon to the scene intending to&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.39in;text-indent:0.29in">commit any offence, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.21in;text-indent:0.65in">have it available to use as a weapon,</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <level>
+			    <content>
+			      <p class="Quote" style="margin-left:1.57in">and used that knife or other weapon in committing the murder.&#8221;</p>
+			    </content>
+			  </level>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Sentencing guideline for attempted murder</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 59(1) of the Sentencing Code requires a court, when sentencing an offender, to follow any guideline which is relevant to the case, unless the court is satisfied that it would be contrary to the interests of justice to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 1 July 2021, the Sentencing Council issued a guideline for cases of attempted murder. It requires a court that is sentencing an offender for attempted murder first to determine the offence category, by reference to the offender&#8217;s culpability and the harm caused.  An offender bears the highest level of culpability, &#8220;very high culpability&#8221;, if one or more of the following factors are present:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#9679;<marker name="tab"/>Abduction of the victim with intent to murder</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Attempted murder of a child</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Offence motivated by or involves sexual or sadistic conduct</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Offence involves the use of a firearm or explosive or fire</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Offence committed for financial gain</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Attempted murder of a police officer or prison officer in the course of their duty</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.18in;text-indent:-0.18in">&#9679;<marker name="tab"/>Offence committed for the purpose of advancing a political, religious, racial or ideological cause</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.18in;text-indent:-0.18in">&#9679;<marker name="tab"/>Offence intended to obstruct or interfere with the course of justice</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.18in;text-indent:-0.18in">&#9679;<marker name="tab"/>Offence motivated by racial or religious hostility or hostility related to victim&#8217;s sexual orientation, disability or transgender identity&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Any of these could, in principle, be engaged where the offence is committed by the use of a car as a weapon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An offender comes within the next category, &#8220;high culpability&#8221; if:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.18in;text-indent:-0.18in">&#8220;&#9679;<marker name="tab"/>Offender took a knife or other weapon to the scene intending to commit any offence or have it available to use as a weapon, and used that knife or other weapon in committing the offence.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Planning or premeditation of murder&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An offender comes within the next category, &#8220;medium culpability&#8221; if:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#9679;<marker name="tab"/>Use of weapon not in category A or B</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#9679;<marker name="tab"/>Lack of premeditation/spontaneous attempt to kill&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where the language of the Sentencing Council attempted murder guideline refers to taking a weapon to the scene as a high culpability factor, this follows the language of paragraph 4 of Schedule 21.  The sentence levels within the guideline for a high culpability offence demonstrate an equivalence with the starting point of 25 years for the full offence.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Matthew Sherratt KC was instructed in relation to the appeal of Nicholas Papworth.  He also was instructed to present the overarching argument as to whether a car can be a weapon taken to the scene.  Simon Denison KC and Lyndon Harris represented the prosecution in respect of Papworth&#8217;s appeal.  They were also instructed to respond to Mr Sherratt&#8217;s submissions on the overarching issue.  The applicant Deeprose was represented by Nicholas Hamblin.  He supported the overarching submission made by Mr Sherratt.  Deeprose&#8217;s substantive application was responded to by Patrick Dennis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Sherratt accepted that a car could be used as a weapon. However, he contended that it was not Parliament&#8217;s intention that cases involving the use of a car as a weapon would come within paragraph 4 of Schedule 21.  They were not to be sentenced on the same basis as an offence involving a defendant armed with a knife or some other weapon taken by them to the scene. He said that driving a car did not accord with the natural and ordinary meaning of the words &#8220;took a&#8230; weapon to the scene.&#8221; A car could not be &#8220;taken to the scene&#8221; in the same sense as a knife or other weapon. Insofar as it might be taken to the scene that would be as a mode of transport. Mr Sherratt invited consideration of the position of someone stopped by a police officer as they were driving a car which they intended to use to run someone over.  He argued that such a person could not sensibly be accused of having an offensive weapon contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14/section/1" uk:canonical="1953 (1 &amp; 2 Eliz. 2) c. 14 s. 1" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14" uk:canonical="1953 (1 &amp; 2 Eliz. 2) c. 14" uk:origin="TNA" uk:type="legislation">Prevention of Crime Act 1953</ref>.  By the same token they could not be said to be taking a weapon to the scene.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Sherratt further submitted that bringing a car or other vehicle within the terms of paragraph 4 of Schedule 21 created real difficulties with the notion of a scene.  He asked rhetorically: in the case of a car, how far would the car have to be driven?  Finally he submitted that the degree of culpability in using a car as a weapon was not the same as using a knife.  The person who armed himself with a knife and took it some distance was highly culpable in a way that the person driving a car was not.  Mr Sherratt said that it was unnecessary to bring a car within paragraph 4.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Denison and Mr Harris argued that the ordinary meaning of paragraph 4 encompassed the use of a car as a weapon.  They said that, if someone drove a car from A to B with the intention to use it as a weapon, that person by definition took a weapon to the scene.  So long as the evidence proved that intention, the person concerned would be guilty of murder were their victim to die as a result of the unlawful use of the car to attack the victim and the driver intended at least to cause really serious harm.  That person would be someone who &#8220;took a&#8230; weapon to the scene intending to commit any offence, or to have it available to use as a weapon, and used it [as a weapon] in committing murder.&#8221;  The fact that the offender took the car to the scene by driving it did not alter the fact that the offender had taken the car to the scene.  No uncertainty would be created as a result of this analysis.  In each case the issue would be whether the evidence showed that the car was taken to the scene with the relevant intent.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The language of para 4(2) of schedule 21 to <ref href="http://www.legislation.gov.uk/id/ukpga/2020/17" uk:canonical="2020 c. 17" uk:origin="TNA" uk:type="legislation">the 2020 Act</ref> is the same as earlier legislation i.e. paragraph 5A of schedule 21 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref>. Paragraph 5A was introduced by the Criminal Justice Act 2003 (Mandatory Life Sentence: Determination of Minimum Term) Order 2010. Paragraph 4.3 of the Explanatory Memorandum that accompanied that Order stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;This instrument is being made following a review of Schedule 21, in relation to the starting point for murder using a knife (announced in parliament on 16 June 2009), which was prompted by public concerns that the current starting point of 15 years should be higher, particularly as the starting point for murder using a firearm is 30 years&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The review followed the murder in 2008 of Ben Kinsella by three young men armed with knives.  The Kinsella family mounted a public campaign for an increase in the starting point for murder using a knife.  This was the context in which the new paragraph in Schedule 21 came into being.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The term &#8220;taking a knife to the scene&#8221; is often used when considering whether a case falls within paragraph 4 of Schedule 21. Because many offences of murder or attempted murder are committed by the use of a knife, it is convenient shorthand.  Often, the critical issue is whether the offender took the knife to the scene or whether he picked it up and used it almost immediately.  The distinction between the two situations sometimes can be a fine one.  Various possible scenarios were discussed in <span style="font-style:italic">R v Dillon </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2015/3" uk:canonical="[2015] EWCA Crim 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Crim 3</ref>. This discussion is of no assistance in resolving the point raised by Mr Sherratt.  His submission is that a car cannot be a weapon taken to the scene in any circumstances.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The full description set out in paragraph 4(2) of schedule 21 is not restricted to knives.  It also relates to any &#8220;other weapon&#8221;.  It has been applied to a stick and a bottle (<span style="font-style:italic">R v Howson </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2016/655" uk:canonical="[2016] EWCA Crim 655" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Crim 655</ref>), a hammer (<span style="font-style:italic">R v Thompson </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2012/135" uk:canonical="[2012] EWCA Crim 135" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Crim 135</ref>), and even a rolling pin (<span style="font-style:italic">R v Singer </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2014/1322" uk:canonical="[2014] EWCA Crim 1322" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Crim 1322</ref>).  Since a car undoubtedly can be a weapon (see <span style="font-style:italic">R v Beckford </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2014/1299" uk:canonical="[2014] EWCA Crim 1299" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Crim 1299</ref> <ref href="#" uk:canonical="[2014] 2 Cr App R (S) 34" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 Cr App R (S) 34</ref>) we can see no reason why it should be incapable of being taken to the scene.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the use of a car to come within paragraph 4 in any given case, the offender must have taken the car to the scene.  The car must have been taken to the scene with the intention of committing an offence or having it available to use as a weapon.  The car must have been used as a weapon to commit the murder or attempted murder.  So long as those matters are proved, the offender will fall within paragraph 4 of Schedule 21.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These features, in combination, involve a particular level of culpability, described as &#8220;high&#8221; in the guideline for attempted murder and meriting a 25 year starting point for murder. That high level of culpability arises from the premeditation, planning and danger that arises where a person takes a weapon to the scene where they then use the weapon, or have it available, to commit the offence.  Such elements are just as much present where the weapon is a car as where the weapon is a knife.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If an offender intends to commit a theft, drives to the scene of the intended theft but once at the scene uses his car as a weapon, that would not come within the language used in para 4(1) of schedule 21.  In such a case, it would be happenstance that the car was used as a weapon. At the time that the car was being driven to the scene there was no intention to use it, or to have it available, as a weapon.  If an offender is simply driving along a road and, on seeing someone with whom he has a quarrel, runs over that person, the driver will not have taken the car to the scene as a weapon.  That offender then is in the same position as a carpenter walking home from work with a tool bag containing his work tools including a hammer.  When the carpenter has an argument with someone he meets en route he might take out the hammer to strike the person with whom he is having the argument.  Were he to kill the person with the hammer with the intent necessary for murder, he would not fall within paragraph 4(1).  The carpenter would not have taken the hammer to the scene intending to commit an offence or to have it for use as a weapon. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Sherratt&#8217;s reliance on the effect of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14" uk:canonical="1953 (1 &amp; 2 Eliz. 2) c. 14" uk:origin="TNA" uk:type="legislation">Prevention of Crime Act 1953</ref> does not assist his argument.  The words in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> refer to an offender who &#8220;has with him&#8230;.any offensive weapon&#8230;&#8221;  This is not the same language as paragraph 4 of Schedule 21.  More to the point, the title of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/14" uk:canonical="1953 (1 &amp; 2 Eliz. 2) c. 14" uk:origin="TNA" uk:type="legislation">the 1953 Act</ref> is &#8220;Prohibition of the carrying of offensive weapons&#8221;.  It could not be said that someone might carry a car.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If an offender plans to murder a victim by running them over and drives to their location before then running them over and killing them, they have taken a weapon to the scene just as much as if they had taken a knife (or a rolling pin). The critical feature is that the car is being taken to the scene not just as a mode of transport, but with the intention of using it, or at least having it available, as a weapon.  When it then is used as a weapon, paragraph 4 of Schedule 21 will apply.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Just as there may be fine distinctions between different situations in which a knife is taken from one place to another, so the same may apply to the use of a car as a weapon.  As with cases where a knife is the weapon involved, the court will have to made a judgment.  Where an offender goes and gets his car from a car park 100 yards away from the point at which he drives at and kills his victim with the car, this may be a case where the offender has taken the car to the scene as a weapon.  The same may not apply where the car is parked across the road from where the car subsequently is used as a weapon.  Every case will be fact specific.  The fact that some cases may be on the borderline is no reason to exclude cars as weapons which may be taken to the scene.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Beckford</span>, the appellant, whilst driving, saw a member of a rival gang riding a bicycle. He turned the car around and began to follow the other man with the intention of hunting him down.  He drove along three roads in pursuit of the other man.  The appellant then drove directly at the other man, ramming his car into the back wheel of the bicycle. The man was thrown from his bicycle and he collided with a brick wall. He died from his injuries. The trial judge found that the case fell within paragraph 4 of schedule 21 (or, rather, the predecessor provision, paragraph 5A of schedule 21 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref>).  Thirlwall J (as she then was) giving the judgment of the court said at [11]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In our judgment, on the facts of this case, the judge was entitled to consider that paragraph 5A applied. But that is not the central issue. As this court has said on many occasions, the setting of the minimum term is not achieved by slavishly and mechanically following Schedule 21 . The court must achieve a just result. The starting point for which Mr Borrelli contends is 15 years. We have described this terrible offence in detail. It was a gang killing. A young man, terrified, was deliberately hunted down in broad daylight on the streets of Luton before the horrified gaze of members of the public. In his final moments he would have known that he stood no chance against the motorcar being driven at him and he had no escape route. Once the car rammed into his bicycle his death was certain. He was 19 years old. Had the judge started at 15 years he would have been bound to go up very significantly to reflect these facts. He would have reached more than 25 years before taking account of the mitigating factors. There were the two mitigating factors already identified: the age of the appellant and the lack of the intent to kill. In our judgment, the judge&#8217;s conclusion as to the appropriate minimum term in this case was correct. It would have been the same whichever of the two routes had been taken. It follows that the minimum term of 24 years was not manifestly excessive. Accordingly we dismiss this appeal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The terms of the judgment in <span style="font-style:italic">Beckford</span> give clear expression of how using a car to kill someone involves high culpability.  Mr Sherratt&#8217;s suggestion that it does not is untenable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We observe that there have been other cases where a car has been used to kill but where it was not intentionally taken to the scene for use as a weapon.  Rather, the car was used as a weapon on the spur of the moment when hitherto it had been used simply as a means of transport.  In those cases paragraph 4 (as it now is) did not apply: see <span style="font-style:italic">R v Whittle </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2019/1282" uk:canonical="[2019] EWCA Crim 1282" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Crim 1282</ref>; <span style="font-style:italic">R v Malt</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/1720" uk:canonical="[2022] EWCA Crim 1720" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Crim 1720</ref>.  It is to be noted that in both cases there was a very substantial uplift from the starting point of 15 years which can apply to any case of murder to which none of the enhanced starting points apply.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows from all of the above that we reject the submission made by Mr Sherratt in relation to the taking of a car to the scene of a murder.  A car or other vehicle can be a weapon.  It is entirely possible that it may be taken to the scene for use as a weapon.  Whether it is in fact so taken will depend on the evidence in each case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We turn to the two particular cases we had before us.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Tony Deeprose</span></p>
+	    <p class="ParaHeading"><span style="font-style:italic">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant is 31. He has convictions for 19 previous offences from 2008 to 2021, including for wounding contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100/section/20" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100 s. 20" uk:origin="TNA" uk:type="legislation">section 20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Vict/24-25/100" uk:canonical="1861 (24 &amp; 25 Vict.) c. 100" uk:origin="TNA" uk:type="legislation">the Offences against the Person Act 1861</ref> in 2013, assaults in 2008 and 2017, and affray in 2010. There were also driving convictions, and he was disqualified from driving at the time of these offences in November 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the evening of 11 November 2022, a group of soldiers, with friends and girlfriends, went to the Society Rooms pub in Maidstone. At about 11.45pm, the applicant, Shannon Billington, and two men, arrived at the pub.  They were in a car driven by Ms Billington. They spent some time in the pub.  There came a point at which the applicant made a call to Ms Billington indicating that he wanted to leave. She was concerned about driving, because she had consumed alcohol. There was a dispute in the car park about who was going to drive the car. In the course of the dispute, the applicant punched a man named Alex White once to the head.  White returned to the pub.  He came back with two other men, Ben Walsh and George Wilkie. The applicant had got in the driving seat of Ms Billington&#8217;s car and revved up the engine. He reversed out of the parking space, without any lights on and knocked Ben Walsh to the floor, causing an injury to his leg which rendered him &#8220;pretty much immobile&#8221;. He also clipped George Wilkie. He then drove off. Then, after a short period of time, he returned. Ben Walsh was still lying on the side of the road as a result of the earlier injury. The applicant drove at George Wilkie who somersaulted over the car bonnet and onto the floor. He also drove over Ben Walsh&#8217;s head.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant drove away at speed.  The injured men were assisted by those at the scene.  Walsh&#8217;s injuries were such that he was flown by air ambulance to King&#8217;s College Hospital in South London.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">George Wilkie required hospital treatment and was off work for 2 weeks. He made a full recovery from his physical injuries, but there were ongoing psychological problems.  He was no longer the &#8220;bubbly, happy guy&#8221; he once had been.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ben Walsh was treated in the critical care unit at King&#8217;s College Hospital.  He had suffered extensive head and facial injuries. He had significant surgery to repair his eye sockets.  Further surgical treatment was likely to be required to treat the position of his eyes.  The numerous fractures of the facial bones had been fixed with plates.  It was possible that facial implants would be required.  In any event Walsh had been left with a permanently altered facial appearance. Nasal surgery would be required in the future.  There were issues with breathing, sinusitis, headaches and visual disturbance. The injuries together with the required treatments and surgeries had various risks attached such as blindness, facial sensation and permanent loss of movement in the face. Walsh would require ongoing treatment and clinical support for years to come.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Sentence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant pleaded guilty to offences of assault (in respect of the punch to Alex White), dangerous driving and driving whilst disqualified. He contested two charges of attempting to murder Walsh and Wilkie.  He was convicted following a trial. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The author of a pre-sentence report assessed that the applicant presented a high risk of causing serious harm to the public through the commission of further specified offences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant was sentenced by the trial judge, HHJ Statman, in the Crown Court at Maidstone on 6 October 2023. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant had said that he had returned to the scene for the purpose of sorting matters out &#8220;by way of a fight&#8221;. The judge rejected that account.  He said it was clear beyond doubt that the applicant&#8217;s intention was not limited to having some form of fight including punches. The manner of his driving (which was captured on CCTV) was such that it was clear that he had formed an intention to kill, albeit that such intent had been formed only very shortly before his use of the car to attack his victims.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge was satisfied that the applicant had taken the car to the scene and used it as a weapon in the course of the commission of the offences. That meant that the case fell within the high culpability bracket of the attempted murder guideline. The judge, applying the statutory criteria, found that the applicant was dangerous.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to the injuries sustained, the attempted murder of Ben Walsh and George Wilkie offences fell within bracket B2 (starting point 25 years custody; range 20-30 years) and B3 (starting point 20 years; range 15-25 years) respectively. In the case of Ben Walsh, the judge considered that the injuries fell close to the top of category 2. He treated the attempted murder of Ben Walsh as the lead offence, but applied an uplift to reflect the attempted murder of George Wilkie. For the attempted murder of Ben Walsh, he imposed an extended determinate sentence of 30 years, comprising a 27 year custodial term and a 3 year extended licence. For the attempted murder of George Wilkie he imposed a concurrent extended determinate sentence of 18 years, comprising a 15 year custodial term and a 3 year extended licence. A concurrent term of 15 months&#8217; imprisonment was imposed for dangerous driving. Concurrent terms of three months were imposed for the driving while disqualified and also the common assault.  The overall sentence was an extended determinate sentence with a custodial term of 27 years and an extended licence period of 3 years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the offence of dangerous driving, the applicant was disqualified from driving.  The judge announced in open court that the applicant would be required to take an extended retest before being allowed to drive again.  The exchange thereafter between the judge and prosecuting counsel was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;JUDGE STATMAN:  So, what I want to do is, for the offence, there will be one &#8211; a period of three years&#8217; disqualification. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  So it then needs to be extended, so the defendant was first remanded on the 14th of November 2022.  Two-thirds of the custodial term is 18 years, so the disqualification therefore should expire on the 14th of November 2043.  That&#8217;s made up of an extension period which lasts between, backdated from the 14th of November 2022 and the 14th of November 2040, because that&#8217;s the earliest upon which he can be released, which is 18 years, and then there&#8217;s the three years which your Honour intends to --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  So, is it effectively a 21 year period of disqualification?  Is that how it should be announced? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  Not &#8211; not &#8211; not &#8211; not &#8211; not from today --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  No. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  --- because we need &#8211; we &#8211; what we need to do --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  Mmm. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  --- is we need to take off the time from today --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  Yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  --- to the 14th of November --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  Yeah. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">MR DENNIS:  --- last year.  I can perform that mathematical qualification.  I think my learned friend needs to check it.  Can we do that between us and then perhaps either email it to - to your Honour&#8217;s clerk or --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">JUDGE STATMAN:  Yes, that would be fine.&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">The court record of the sentence reads as follows:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-size:11.5pt">&#8220;</span>Disqualified for holding or obtaining a driving licence for 3 Years. Disqualification obligatory for the offence. Driving record endorsed. Disqualified until extended test of competence has been passed. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/34/1" uk:canonical="1988 c. 53 s. 34" uk:origin="TNA" uk:type="legislation">Sections 34(1)</ref> &amp; 36 <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>. This includes an extension period of 17 years, 39 days in accordance with section 35A (immediate custodial sentence)&#8230; The extension period was calculated by Patrick Dennis. It takes into account the offence date of 14 November 2022.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant&#8217;s application for leave to appeal against sentence has been referred to the full court by the Registrar.  We grant him leave to appeal.  Mr Hamblin submitted that the judge erred in placing the attempted murders into culpability category B. He says that he should have placed them into culpability bracket C. That is because, he said, the judge should not have found that there was premeditation, and should instead have found that this was a spontaneous attempt to kill. There was no evidence that the applicant had driven back to the pub with the intention of using the car as a weapon. Further, the judge had applied too great an increase from the starting point. The judge had also erred in imposing an extended sentence. Mr Hamblin did not argue that the judge erred in finding that Deeprose was dangerous within the statutory meaning of that term.  Rather, he contended that the overall custodial term was such that the public did not require any further protection.  Even with a standard determinate sentence the applicant would serve two thirds of the custodial term and he then would be subject to licence provisions for a considerable period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Patrick Dennis, for the prosecution, contended in his written response to the grounds of appeal that the judge was entitled to make the findings of fact that he did.  On the basis of those findings, he was correct to find that culpability fell into category B.  The uplift from the starting point applied to the lead offence was justified to reflect the attempted murder of Mr Wilkie. The finding of dangerousness was warranted.  The early release provisions are not relevant to the issue of whether an extended sentence should be passed. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge was in the best position to make findings of fact.  He had presided over the trial at which the applicant gave evidence. He also had available to him the CCTV evidence. He was entitled to reject the applicant&#8217;s account that he was returning to the pub merely for a fight. He was entitled to find, having regard to the speed and manner of driving, that there was a degree of premeditation (albeit over a short period of time) and he was returning to the pub to use his car as a weapon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That being the case, this was not a case where the applicant was simply using his car as a means of transport. Rather, he was driving (back) to the scene intending to use the car as a weapon to commit further offences of violence. That placed both offences squarely within culpability bracket B.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The starting point in respect of the offence against Ben Walsh was 25 years. There were aggravating features: the previous conviction, the fact that the offences were committed by driving a car whilst disqualified and the fact that others were put at risk. The available mitigation could only have justified a modest reduction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thereafter it was necessary to uplift the sentence to take account of the totality of Deeprose&#8217;s offending.  Concurrent sentences were imposed for all other offences. The starting point for the offence against George Wilkie was 15 years. The 27 year custodial term in respect of Ben Walsh was just 2 years higher than the starting point. It is not arguable that it was manifestly excessive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is conceded that the applicant satisfied the criteria for a finding of dangerousness.  The only issue is whether the imposition of an extended determinate sentence was wrong in principle or manifestly excessive.  The imposition of such a sentence was the consequence of an evaluative judgment by an extremely experienced criminal judge.  He was assisted by a pre-sentence report which concluded that (a) Deeprose represented a high risk of future serious offending, (b) the risk of serious harm likely to result from such offending was high and (c) at the time the report was prepared there was no clear route for him, a man aged 30 at the date of sentence, to reduce those risks.  The judge in those circumstances might have been justified in imposing a life sentence.  He drew back from that course.  An extended determinate sentence meant that he would be assessed by the Parole Board at the two thirds point of the sentence as to whether it would be safe to release him.  Thereafter, he would be subject to extended licence.  The fact that his period of extended licence would be three years and no longer was not significant in the context of an extended determinate sentence.  The statutory framework would not have allowed an extended licence period of more than five years.  The submission made on Deeprose&#8217;s behalf amounted to an argument that an extended determinate sentence could not be appropriate where the custodial term was so long that it meant that the licence period was proportionately very short. This argument is not tenable where the danger presented by an offender is of the order apparent in Deeprose. The judge was entitled to conclude that an extended determinate sentence was necessary, notwithstanding the length of the custodial term.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The only problematic issue arising from Deeprose&#8217;s sentence is the order for disqualification.  The sentence of the court is what is announced by the judge in open court: see <span style="font-style:italic">Leitch and others </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/563" uk:canonical="[2024] EWCA Crim 563" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Crim 563</ref>.  The court order as recorded was not what the judge announced in open court.  The judge began by saying that he wanted to impose a disqualification of 3 years.  He was then given an explanation of the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="1988 c. 53 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.  Mr Dennis frankly acknowledged to us that the explanation could have been clearer.  The judge then asked whether the period of disqualification should be 21 years.  He did not announce that as the sentence in open court.  Rather, he agreed that a calculation should be carried out by counsel which would be e-mailed to his clerk.  Therefore, he did not announce any disqualification in open court.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was not permissible for the judge to hand over the calculation of one part of his sentence to counsel and for the resulting calculation to be made part of the court record without any announcement of that part of the sentence in court.  One reason why the sentence could not be announced by the judge was because counsel wished to engage in a deduction from the extension period of the time Deeprose had spent in custody.  That was not an automatic outcome.  In relation to a disqualification subject to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">the 1988 Act</ref> (which this was not) there is a discretion to adjust the discretionary period of disqualification.  This discretion is to be exercised only where the effect of the period on remand would be disproportionate in relation to the period of disqualification. In <span style="font-style:italic">Needham </span>at [38] it was said that the same principle applied to a <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35</ref>B disqualification.  The judge in this case was not directed to the relevant passage in <span style="font-style:italic">Needham</span>.  He did not exercise his discretion because he was not asked to do so.  Whether he would have done so had he been informed of the full position is moot.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge sentenced Deeprose before publication of the decision in <span style="font-style:italic">Leitch</span> though the principles in <span style="font-style:italic">Needham </span>were well known by 2023.  We appreciate that the period of disqualification from driving was hardly uppermost in the mind of anyone engaged in the sentencing of Deeprose.  However, that does not allow this court to ignore the consequences of what was done &#8211; or, to be more accurate, what was not done.  No announcement was made of the period of disqualification in court by the judge.  The order recorded by the court might represent what the judge would have done had he been fully informed of the position.  That is not a sufficient basis for this court to confirm the court record when it does not reflect what the judge said in court.  By reference to what the judge announced in court, Deeprose was not disqualified from driving at all.  That was unlawful because the offence of dangerous driving carried a mandatory period of 12 months&#8217; disqualification.  Had we been minded to interfere with some other part of the sentence, we would have able to correct the unlawful sentence.  Conceivably we could have attempted to achieve the result that the parties &#8211; and possibly the judge &#8211; intended.  As it is, we are wholly unpersuaded that the extended determinate sentence imposed on Deeprose was wrong in principle or manifestly excessive.  That means that, while we grant leave, we must dismiss the appeal.  The consequence is that there will be no disqualification from driving.  The court order which indicates to the contrary must be corrected.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Nicholas Papworth</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nicholas Papworth is now aged 34.  He was 32 when he committed the offences which led to his sentences.  He has previous convictions, principally for drugs offences.  In 2011 and 2017 he was sentenced to significant terms of imprisonment for supplying cocaine.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 27 February 2023 in the Crown Court at Luton he pleaded guilty to a count of doing acts tending and intended to pervert the course of public justice.  On 3 July 2023 in the same court he was convicted after a trial before Judge Simon and a jury of one count of murder, two counts of attempted murder and two counts of attempting to cause grievous bodily harm with intent.  There was a co-accused in the trial named Bennison.  On 3 August 2023 Papworth was sentenced by the trial judge to life imprisonment for the offence of murder.  The specified minimum term in relation to that sentence was 34 years less 259 days spent on remand.  Concurrent sentences of life imprisonment were imposed for the offences of attempted murder with minimum terms of 12 and 14 years.  The sentence for the offences of attempting to cause grievous bodily harm was 67 months&#8217; imprisonment.  45 months&#8217; imprisonment was imposed in relation to the offence of perverting the course of justice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At around 12.30 a.m. on 13 November 2022 Papworth was in The Crown public house with a man named Bennison.  They were regulars at the pub.  A group of men came into the pub.  They had been out drinking during the evening.  They were drunk.  The group included Mason Jordan and Patrick Howard.  After that group arrived there was a brief fight between Jordan and Papworth after Jordan, who was particularly drunk, assaulted Papworth.  This incident angered Papworth.  He made threats towards the group.  He was physically held back by others in the pub.  The group of men including Jordan and Howard were asked to leave the pub.  They did so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Up to this point Bennison had not been involved with the group.  However, after the group had left, he went out to his BMW car.  Jordan and Howard by now were in a nearby side road, Drury Lane.  They had been joined by a friend of theirs named Adam Fanelli who lived in Drury Lane.  Bennison drove his BMW into Drury Lane.  He drove more than once at the group as they stood in Drury Lane.  Members of the group damaged the BMW when he did so.  Bennison was convicted of two counts of attempting to cause grievous bodily harm to Jordan and Howard arising from this piece of driving.  Bennison then drove back to The Crown.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At The Crown he found Papworth.  Papworth had come to the pub in his VW Golf car.  Bennison and Papworth left The Crown.  They drove in convoy, Bennison in his BMW and Papworth in his Golf.  They went to Drury Lane looking for the group which included Jordan and Howard.  They did not find them.  The group had moved on to another side road about 100 metres from Drury Lane.  Bennison and Papworth, still driving in convoy, found the group.  They both drove at speed at Jordan and Howard.  Papworth turned his car round and drove at them again.  This episode founded the two counts of attempting to cause grievous bodily harm to Jordan and Howard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Meanwhile, Bennison got out of his BMW armed with a knife.  He ran after Jordan.  Fanelli tried to protect his friend.  Bennison stabbed him causing fatal injuries.  Bennison was convicted of the murder of Fanelli.  Bennison also stabbed Jordan several times but Jordan was able to move and to react to what happened next.  Bennison turned his attention towards Howard stabbing him in the neck.  This caused Howard to collapse and to lie motionless in the road.  Jordan went over to assist Howard.  By now Papworth had turned his Golf around in Tithe Barn Road.  He drove at speed towards Howard and Jordan.  Jordan saw the Golf coming towards him and was able to jump out of the way.  Papworth drove the Golf over Howard.  Howard was killed as a result of being run over.  Papworth was convicted of his murder and of the attempted murder of Jordan.  He drove the Golf a short distance to a cul de sac where he set the car on fire i.e. in order to pervert the course of justice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Papworth was arrested on 15 November 2022.  He was interviewed on that day and on the following day.  He was shown CCTV footage showing the events of 13 November.  He made no comment throughout.  He did not give evidence in the trial.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Sentence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After setting out the facts of the offending, the judge addressed the issue of whether Bennison and Papworth had set off from The Crown in their cars with the intention of using them as weapons.  He concluded that the circumstances as he found them to be demonstrated that they had.  In relation to the offence of murder, the judge said that it fell within paragraph 4 of Schedule 21.  Papworth had taken his car to the scene to use as a weapon.  Since he had been convicted of an offence of attempted murder arising from the same piece of driving, he had intended to kill Howard.  Had the offence of murder stood alone, it would have justified a minimum term of 27 years.  The associated offending had to be reflected in the minimum term for that offence.  So it was that he fixed the minimum term at 34 years.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nicholas Papworth was not represented in relation to his application for leave to appeal against conviction.  He had lodged self-penned grounds of appeal which were considered in detail by the single judge.  In substantial measure his grounds were complaints about the findings of fact made by the jury.  As the single judge who refused him leave said, such complaints could not found an arguable appeal.  It was of no little significance that Papworth had not given evidence.  Many of the matters on which he sought to rely in his application could and should have been raised by him in evidence given at the trial.  The other matter relied on by Papworth was that the trial judge&#8217;s summing up was biased.  He suggested that he ought not to have been tried jointly with Bennison.  The single judge said that the summing up was scrupulously fair.  Having read the summing up ourselves, we agree.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the hearing we heard submissions from Nicholas Papworth.  We had indicated in advance that we would hear from him orally.  He clearly had prepared what he wished to say.  He argued that what he had done did not meet the legal test for murder or attempted murder.  The appropriate offence in relation to Howard would have been causing death by dangerous driving or manslaughter.  At the time of the incident he was drunk and affected by drugs.  He also was suffering from concussion.  His judgment was impaired.  His ability to make decisions was severely affected.  In relation to Howard there was a real doubt as to what he had been able to see.  He had not set out deliberately to harm Howard.  Rather, his actions were the result of confusion, panic and impaired judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Sherratt made submissions on the overall sentence imposed on Papworth.  He argued that, even if it were appropriate to use a starting point for the minimum term of 25 years in relation to the offence of murder, the uplift of nine years was excessive.  The culpability involved in Papworth&#8217;s use of his car as a weapon was marked by the starting point of 25 years.  The associated offending did not require any substantial uplift to the starting point.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The single judge dealt fully with the matters raised in the written grounds of appeal against conviction.  We have already summarised what he said.  No lengthier exposition is necessary.  Those grounds have no merit.  As to the oral submissions made by Papworth, they face the same problem as those he made in the written grounds.  He did not give evidence.  His trial in 2023 was not a rehearsal.  That was the time for him to give a full account of his state of mind and of what prompted his actions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What he said to us was not the only reasonable conclusion to be drawn from the circumstantial evidence.  Frankly, it was not a conclusion which appeared to have any foundation in the known facts.  For instance, as soon as he had driven his car so as to kill Howard, he went to a nearby location to set fire to the car.  He has admitted that this was in an effort to dispose of evidence.  We agree that this demonstrates impaired judgment but not in the sense argued by Papworth.  Even if his state of mind as he now says was the case was one conclusion to be drawn from the circumstantial evidence, it was not the only one.  The jury were entitled on the evidence placed before them to find that Papworth had used his car as a weapon with murderous intent.  They had no evidence from him to the contrary.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We are satisfied that there was ample evidence to support the proposition that Papworth had set out from The Crown in his car with the intention of seriously harming those who had caused trouble earlier.  There also was good evidence that he had left in convoy with Bennison.  The jury&#8217;s verdicts cannot be impugned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the sentence imposed, we already have explained how a car may be taken to the scene to be used as a weapon.  On the facts of this case, the judge was bound to conclude that Papworth had done so.  He left The Crown with Bennison and drove off in convoy with Bennison.  He had already threatened those who were to become his victims.  He killed one man with his car and tried to kill another.  The conclusion that he set off from the pub intending to use the car as a weapon was the only reasonable conclusion.  Therefore, a starting point of 25 years for the minimum term in relation to the offence of murder was entirely appropriate.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We reject the argument that the judge applied too great an uplift to the minimum term.  Papworth was convicted of trying to cause really serious harm to Jordan and Howard by running them over.  When he did not succeed and after his co-accused had stabbed both men, Papworth turned his car round and drove at them again.  He killed Howard on this occasion.  His reaction was to drive off at speed and to set fire to the car he had used as a weapon.  His offending in relation to Jordan and in trying to destroy evidence inevitably required a significant uplift to the minimum term.  The experienced criminal judge who had conducted the trial concluded that an uplift of nine years from the figure in paragraph 4 of Schedule 21 was required.  We cannot say that his conclusion was wrong.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons we refused the renewed application for leave to appeal against conviction and we dismissed the appeal against sentence.  In court the judge announced the sentence for the offence of murder as life imprisonment with a minimum term of 34 years less 259 days for time spent on remand.  In accordance with <span style="font-style:italic">Sesay and others </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/483" uk:canonical="[2024] EWCA Crim 483" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Crim 483</ref> this should be recorded as a minimum term of 33 years 106 days.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

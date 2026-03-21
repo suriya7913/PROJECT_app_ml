@@ -1,0 +1,858 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1147"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1147"/>
+	  <FRBRdate date="2007-11-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1147"/>
+	  <FRBRname value="Minister for Legal Aid v Main, R (on the application of)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1147"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1147"/>
+	  <FRBRdate date="2007-11-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1147/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1147/data.xml"/>
+	  <FRBRdate date="2024-11-08T19:46:27" name="transform"/>
+	  <FRBRdate date="2024-11-30T22:44:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2007-11-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-minister-for-legal-aid" href="" showAs="THE MINISTER FOR LEGAL AID"/>
+	<TLCPerson eId="tobias-main" href="" showAs="TOBIAS MAIN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-carnwath" href="/judge-lord-justice-carnwath" showAs="LORD JUSTICE CARNWATH"/>
+	<TLCPerson eId="judge-lord-justice-toulson" href="/judge-lord-justice-toulson" showAs="LORD JUSTICE TOULSON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2007</uk:year>
+	<uk:number>1147</uk:number>
+	<uk:cite>[2007] EWCA Civ 1147</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>e385e0fc66f7856b945f872cb105759a682b63bd3882405f9b5f819c93736700</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .DocumentMap { font-family: Tahoma; font-size: 10pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .DocumentMapChar { font-family: 'Segoe UI'; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2007] EWCA Civ 1147</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>C1/2007/0756</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE SUPREME COURT OF JUDICATURE</courtType></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM QUEEN'S BENCH DIVISION</p>
+      <p class="CoverMain">(ADMINISTRATIVE COURT)</p>
+      <p class="CoverMain">MR JUSTICE OWEN</p>
+      <p class="CoverMain">CO/1357/2006</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2007-11-19" refersTo="#judgment">19/11/2007</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center">THE PRESIDENT OF THE QUEEN'S BENCH DIVISION</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-carnwath">LORD JUSTICE CARNWATH</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-toulson">LORD JUSTICE TOULSON</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.44in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.2in"><party as="#appellant" refersTo="#the-minister-for-legal-aid" style="font-weight:bold">THE MINISTER FOR LEGAL AID</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#tobias-main" style="font-weight:bold">THE QUEEN ON THE APPLICATION OF TOBIAS MAIN</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - -  - - - - - - - - - - -</p>
+      <p style="text-align:center">Michael Fordham QC (instructed by Messrs Christian Khan) for the Respondent</p>
+      <p style="text-align:center"><span style="font-weight:bold">Nathalie Lieven QC </span>(instructed by<span style="font-weight:bold"> Treasury Solicitor</span>) for the Appellant</p>
+      <p style="text-align:center;margin-right:-0.35in"><span style="font-weight:bold">Roger Eastman </span>(instructed by<span style="font-weight:bold"> Rail Safety and Standards Board</span>)<span style="font-weight:bold"/>for the<span style="font-weight:bold"> First Interested Party Clive Fletcher-Wood </span>(instructed by<span style="font-weight:bold"> First Great Western</span>) for the<span style="font-weight:bold"> Second Interested Party</span></p>
+      <p style="text-align:center">Hearing date : Thursday 25th October, 2007</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Carnwath LJ:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is the judgment of the court to which we have all contributed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At issue is the legality of the Lord Chancellor&#8217;s decision to refuse legal aid funding for the claimant at the coroner&#8217;s inquest, following the railway accident at Ufton Nervet in November 2004. Five passengers died in the accident, which resulted from a train colliding with a stationary car on a level crossing. The claimant's mother and sister were among the dead. The train was operated by First Great Western Rail Ltd (&#8220;FGW&#8221;), on railways owned by Network Rail Infrastructure Ltd (&#8220;Network Rail&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prior to the inquest various investigations had been carried out by public bodies, including British Transport Police, the Rail Safety and Standards Board (&#8220;RSSB&#8221;), and the Health and Safety Executive. The arguments before us have concentrated in particular on the detailed report, dated 12<span style="vertical-align:super;font-size:smaller">th</span> July 2005, prepared for the RSSB by a panel led by a distinguished, independent Civil Engineer (with an independent traction and rolling stock expert and a signalling and telecommunications expert). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 15<span style="vertical-align:super;font-size:smaller">th</span> August 2005, the coroner held a preliminary hearing, and fixed the full hearing to begin on 17<span style="vertical-align:super;font-size:smaller">th</span> October 2005. The claimant was represented by Ms Louise Christian of Messrs Christian Khan. Following her submission, two specific safety issues were identified as suitable for investigation at the inquest, relating first to warning of obstacles, and second fitting of laminated windows. These were identified in a letter from the coroner dated 20<span style="vertical-align:super;font-size:smaller">th</span> September 2005, to solicitors for FGW indicating issues on which evidence would be required:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Background information on level crossing safety generally -- with specific reference to AHB (automatic half barrier) crossings.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The current position/progress and the practical possibility of obstacle detection on level crossings.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The issue of window glass in railway carriages; ejection of passengers through windows in the course of a derailment, recommendations and changes in current standards of window glass and how these can be improved to reduce the risk of passenger fatalities.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Conclusions over the cause of the Ufton Nervet train derailment and lessons that can be learned.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Meanwhile, the claimant&#8217;s father wrote to the Special Cases Unit of the Legal Services Commission (&#8220;LSC&#8221;), requesting legal representation at the inquest. The request was supported by a letter from the coroner stating his view that funded representation of the Main family was &#8220;necessary to assist me in investigating the circumstances of the train crash effectively&#8230;&#8221;, but giving no further reasons. In a letter to the Minister dated 29<span style="vertical-align:super;font-size:smaller">th</span> September the LSC also recommended that funding should be provided. The material parts of the letter read:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span style="font-style:italic">Is there a significant wider public interest in the applicant being represented?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Yes.  Rail safety issues including the fitment of laminated windows to prevent passenger ejection during accident, which caused all deaths according to Health and Safety Report.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Will funded representation assist the coroner in investigating the death and establishing the facts?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Yes. Solicitor has been involved in several rail crash investigations and Coroner has written saying representation will assist him.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Is Article 2 of ECHR engaged?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Possibly. The crash was caused by the driver of a car parking on a crossing. The victims appear to have died as a result of being ejected from the carriages following the impact. Those who were not ejected survived. It is possible laminated windows could have prevented the passengers being thrown out of the carriage. The latter is a rail safety issue and the rail authorities will have been aware of the issue from previous crashes."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 11<span style="vertical-align:super;font-size:smaller">th</span> October, the application was refused by the Minister for Legal Aid, acting on behalf of the Lord Chancellor. (We will refer later to her reasoning.) The coroner adjourned the inquest pending the determination of the present judicial review proceedings. On 2<span style="vertical-align:super;font-size:smaller">nd</span> April 2007 Owen J gave judgment allowing the claim and quashing the Minister&#8217;s decision. Permission to appeal was granted by Richards LJ on 15<span style="vertical-align:super;font-size:smaller">th</span> May. The inquest was due to begin on 17<span style="vertical-align:super;font-size:smaller">th</span> October. In order not to delay the inquest, the Minister agreed to provide funding for representation of the claimant, but without prejudice to her position in this appeal. Accordingly the appeal is academic as far as this inquest is concerned, but the issues of principle remain.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">(We note in passing that the statutory power to authorise expenditure is given to the Lord Chancellor, against whom any public law remedy should technically be framed. However, for practical purposes it has been convenient to refer to it as the decision of the Minister for Legal Aid, to whom it was delegated within the Department.)</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Regulatory and other bodies</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As background to the submissions, it is important to understand the identities and roles of the various public bodies responsible in different ways for safety on the railways. These have changed on a number of occasions in recent years. The bodies include the Office of Rail Regulation (&#8220;ORR&#8221;), the Health and Safety Commission and Executive (&#8220;HSC&#8221; and &#8220;HSE&#8221;), the RSSB, and the Railways Accident Investigation Board (&#8220;RAIB&#8221;). (The latter two were set up following the recommendations of Lord Cullen&#8217;s inquiry into the Ladbroke Grove accident.) At our request, Miss Nathalie Lieven QC prepared a summary account of the different bodies, which we attach as an appendix to this judgment (although not formally part of the judgment).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The funding regime</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant statutory provisions and the non-statutory material are somewhat complex. We were shown extracts from a &#8220;Legal Services Commission Manual&#8221;, which purports to explain the applicable directions and guidance. However, it confuses matters by mixing material from various sources without precise attribution. We were told that it has now been replaced by a clearer document. Meanwhile, we are grateful to Miss Nathalie Lieven QC for providing us with a guide to the guide. For present purposes a brief summary will suffice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1999/22" uk:canonical="1999 c. 22" uk:origin="TNA" uk:type="legislation">Access to Justice Act 1999</ref> established the LSC and the Community Legal Service Fund. Advocacy services before coroners are among the categories of services generally excluded from funding (s 6, Sched 2), but that is subject to the possibility of funding, in specified circumstances or in specific cases, by virtue of a direction or authorisation under section 6(8). That provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(8)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The [Lord Chancellor] &#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">may by direction require the Commission to fund the provision of any of the services specified in Schedule 2 in circumstances specified in the direction, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">may authorise the Commission to fund the provision of any of those services in specified circumstances or, if the Commission request him to do so, in an individual case.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The present case arises from a request by the LSC under (b). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 23 enables the Lord Chancellor to give guidance to the LSC as to the discharge of its functions. Under sections 8 and 9, the LSC has prepared a General Funding Code (&#8220;the Code&#8221;), approved by the Lord Chancellor, setting out criteria for funding services under the Community Legal Service. The Code does not cover funding at inquests, but indicates that services other than those within the Code may be funded only as a result of a specific order or direction by the Lord Chancellor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In November 2001, the Lord Chancellor made a Direction under section 6(8)(a), dealing with funding for inquests relating to deaths in custody or connected with police action. The LSC was authorised to fund advocacy services &#8211;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; on behalf of the immediate family of the deceased at an inquest concerning a death occurring in police or prison custody or during the course of police arrest, search, pursuit or shooting&#8230;.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230; where the (LSC) is satisfied that funded representation is necessary to assist the coroner to investigate the case effectively and establish the facts.&#8221; (Manual para 27.3)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Cases covered by a direction under section 6(8)(a) are referred to in the guidance as &#8220;in scope&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the use of his powers under section 6(8)(b) (&#8220;out of scope&#8221; cases) the Lord Chancellor has issued guidance under section 23. This indicates that authorisations in such cases are expected to be &#8220;extremely unusual&#8221;; advocacy services at inquests are normally excluded &#8211;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; because the inquisitorial nature of the process means that public funding for legal representation is not usually appropriate&#8221; (Manual 27.2.2, 5)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The Lord Chancellor&#8217;s criteria for considering applications are explained in the guidance:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;Before approving an application I would expect the Commission to be satisfied that either:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">There is <span style="font-style:italic">a significant wider public interest</span>, as defined by the funding code guidance, in the applicant being legally represented at the Inquest; or </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">Funded representation for the family is likely to be necessary to enable the coroner to carry out <span style="font-style:italic">an effective investigation into the death as required by Article 2</span>&#8230;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">For most Inquests where the Article 2 obligation arises, the coroner will be able to carry out an effective investigation into the death, without the need for advocacy.</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">Only exceptional cases require the public funding of advocacy in order to meet the Article 2 obligation. In considering whether funded representation may be necessary to comply with the obligation, all the circumstances of the case must be taken into account, including:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">The nature and seriousness of any allegations which are likely to be raised at the Inquest, including in particular any allegations against public authorities or other agents of the state;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">Whether other forms of investigation have taken place, or are likely to take place, and where the family have [been] or will be involved in such investigation;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">Whether the family may be able to participate effectively in the Inquest without funded legal representation. This will depend on the nature of the issues raised and the particular circumstances of the family. In most cases, a family should be able to participate effectively without the need for advocacy on their behalf. Legal Help can be used to prepare a family for the inquest; to prepare submissions to the coroner setting out the family's concerns and any particular questions they may wish the coroner to raise with witnesses.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">The views of the coroner, where given, are material though not determinative. There is, however, no expectation that the coroner's views should be sought before making an application, or that the coroner will wish to express a view.&#8221; (Manual 27.3.6-10, emphasis added)</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As that passage explains, funding is authorised by reference to two criteria: (i) where there is &#8220;a significant wider public interest&#8221; in the applicant being legally represented; and (ii) where funded representation is likely to be required to ensure &#8220;an effective investigation into the death&#8221; under Article 2 of the Human Rights Convention. It also explains that, where funding for advocacy services is not authorised, the claimant may be allowed &#8220;Legal Help&#8221;.  This would include assistance in preparing for the inquest, drafting questions and written submissions, and the funding of a solicitor to act as a &#8220;Mackenzie friend&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Minister&#8217;s decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Minister&#8217;s reasons for refusing the request for funding were given in a letter to Ms Christian dated 11<span style="vertical-align:super;font-size:smaller">th</span> October 2005. The letter dealt in turn with the two criteria explained in the guidance:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">Significant Wider Public Interest (&#8220;SWPI&#8221;)</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">"Whilst the Minister accepts that the safety issues are important, you have provided no evidence to show that advocacy on behalf of Mr Main will contribute to a resolution of these issues in such a way as to benefit others; the test is a SWPI in the client being represented. You stated that the rail authorities are apparently aware of the issue of laminated glass from previous crashes. The Health and Safety Executive, the Police, and the Rail and Safety Standards Board, have all been involved. The coroner will have the power to make a recommendation to the appropriate authorities should he choose to do so. You have not provided evidence to show what significant wider public interest would be served by your client being represented that is not provided by the other investigations. Therefore the Minister was not persuaded that this case meets the SWPI criterion."</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">Investigation under Article 2 </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;This second criterion for exceptional funding at an inquest is intended to ensure that, in all cases where publicly funded advocacy at an inquest is a procedural requirement of Article 2 of ECHR (the right to life), it will be made available. In this case, whilst Article 2 may or may not be engaged, the Minister did not consider that the funding of advocacy services is necessary for the coroner to investigate the facts.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;The Minister's view is that, even if Article 2 is engaged, the coroner will be able to carry out an investigation into the deaths without legal representation for Mr Main. There is no evidence of any particular complexity that would warrant advocacy in this case. If the state has any obligations under Article 2 these will be discharged by the inquest itself, as well as the health and safety and police investigations. You have provided no evidence to suggest that these investigations, taken with the inquest itself, will fail to discharge any Article 2(1) obligation that may be incumbent on the state in this instance.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">The Minister accepted that some form of assistance should be made available to Mr Main to help him prepare for the inquest, and had accordingly agreed to waive the eligibility limits for Legal Help.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a &#8220;pre-action protocol&#8221; letter on 12<span style="vertical-align:super;font-size:smaller">th</span> October, Ms Christian requested reconsideration of the decision. That was refused, and the reasons for refusal were expanded in a letter dated from the Department dated 26<span style="vertical-align:super;font-size:smaller">th</span> October. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Owen J identified two main issues (para 20): first, the significant wider public interest (SWPI) issue, and, secondly, the Article 2 issue. The former gave rise to two discrete questions: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">whether the Minister had been entitled in law to reject the recommendation made by the LSC;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">whether her decision to do so in this case was irrational.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">A third issue was whether the offer of Legal Help was an adequate substitute for representation.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the SWPI issue, he held that, on the clear words of the statute, the Minister had been entitled in law not to follow the LSC&#8217;s recommendation: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; the role of the LSC is to make a recommendation (request) to the Minister, but it is for the Minister to make the decision&#8221; (para 31). </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">However, he considered that on the facts of this case her decision to do so was irrational, particularly in the weight given to the various reports (paras 36-41):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;the fundamental weakness in her argument is that there is no identity of interest between the wider travelling public and that of the other parties who have either investigated the accident and/or will be represented at the inquest&#8230; </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The rail travelling public may well attach a different value to the factors that weigh in such equations. The issues with which the coroner will be concerned raise questions upon which there is not only a significant wider public interest, but also a potential benefit for members of the public in representation for David Main, given that there will be no other representation reflecting the wider public interest. That is a consideration that was entirely missing from the reasons for rejection of the application set out in the decision letter of 11 October 2005. The failure to take account of what was plainly a relevant consideration was in my judgment <span style="font-style:italic">Wednesbury</span> unreasonable.&#8221; (para 37) </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He referred also to a statement in the Minister&#8217;s pre-action protocol letter of 26<span style="vertical-align:super;font-size:smaller">th</span> October: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; the test is how representation of your client would bring benefits to the public at large. To establish this, you would need to demonstrate that, for example, any health or safety issues that arise will only do so due to the representation of your client, or that such issues have not been raised before in cases of this nature&#8230;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Owen J thought that this passage illustrated the Minister&#8217;s &#8220;flawed approach&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is not simply a question of whether such issues will be raised, but of whether when those issues are addressed, benefits may arise from representation for a party reflecting the interests of the rail travelling public.&#8221; (para 39)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, he considered that the Minister had failed to give weight to the LSC&#8217;s considered recommendation, or to give an adequate reason for rejecting it:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Minister did not address the point that was clearly central to the LSC's decision, namely the potential benefit of representation for a party reflecting the interests of the rail travelling public as opposed to those of the rail industry or its regulators&#8221; (para 40)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">On the Article 2 issue, he considered the speech of Lord Bingham in <span style="font-style:italic">R v (Amin) v Home Secretary</span> <ref href="#" uk:canonical="[2004] 1 AC 653" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 AC 653</ref>, from which he distilled a number of points, including the following (from para 31 of <span style="font-style:italic">Amin</span>)</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The purposes of such an investigation are clear: to ensure so far as possible that the full facts are bought to light; that culpable and discreditable conduct is exposed and brought to public notice; that suspicion of deliberate wrong doing (if unjustified) is allayed; that dangerous practices and procedures are rectified; and that those who have lost their relatives may at least have the satisfaction of knowing that lessons learned from his death may save the lives of others.&#8217;&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">He also noted Brooke LJ&#8217;s reference (in <span style="font-style:italic">R (Khan) v Secretary of State for Health</span> <ref href="#" uk:canonical="[2004] 1 WLR 971" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 971</ref> para. 67) to the threefold aims of an investigation under Article 2: &#8220;to minimise the risk of future like deaths; to give the beginnings of justice to the bereaved; and to assuage the anxieties of the public&#8221;; and his observation that what is required &#8220;cannot be reduced to a catechism of rules&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Owen J concluded that the Minister's decision under Article 2 was flawed for the same reason under the SWPI issue, by her failure to recognise the possibility of &#8220;a divergence of interest between the family as the only representatives of the rail travelling public, and the other parties to be represented at the inquest&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally he considered that the offer of Legal Help was an insufficient answer to the claimant&#8217;s concerns:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.18in">&#8220;In my judgment it is likely to be hopelessly impractical, a point that does not appear to have been considered by the Minister. In essence it would amount to the provision of preparation for advocacy, whether oral or written, on the part of David Main, advocacy that he is not capable of conducting.&#8221; (para 51)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The arguments in the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the Minister, Miss Lieven takes issue with the judge&#8217;s conclusions on all three points. On the SWPI issue, the judge had in effect substituted his own judgment for that of the Minister, rather than considering whether it was outside the boundaries of rationality. The judge's assumption that the other bodies, notably the HSE and the RSSB, were not acting in the interests of the travelling public was fundamentally wrong. There had been no suggestion of fault on behalf of the HSE or RSSB, and no criticism was made in particular of the objectivity or expertise of the RSSB report. Equally, it was wrong to equate the interests of the train travelling public with those of the bereaved families, who would have their own special interests and views linked to their personal experiences. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On Article 2, the judge had failed to recognise the varying nature of the investigative duty under Article 2, depending on the degree of State responsibility for the death. The cases recognised a spectrum ranging from cases of killing by State agents, through cases of deaths within State responsibility (such as deaths in custody), or where the State had a high degree of knowledge or forewarning, to cases where the State has no responsibility for the death (see <span style="font-style:italic">Menson v UK</span> application 47916/99 decision 6.45.03).  Lord Bingham&#8217;s comments in <span style="font-style:italic">Amin </span>(para 31) were directed at the cases of State responsibility, such as deaths in custody. <span style="font-style:italic">Khan </span>was also a special case, because it concerned the death of a young child in hospital, where there were allegations of gross negligence and of a cover-up by the NHS Trust. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, the judge&#8217;s rejection of the utility of Legal Help was directly contrary to <span style="font-style:italic">R(Challender) v Legal Services Commission</span> 2004 EWHC 925 (Admin), in which Richards J in a similar context had attached particular importance to the advice and assistance available to the claimant under the Legal Help scheme.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Lieven&#8217;s submissions were supported by Mr Eastman for the RSSB, and by Mr Fletcher-Wood for FGW. The RSSB, in particular, is concerned at the judge&#8217;s implication that it, and other public bodies, would not properly represent the public interest, but would be concerned to protect their own positions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the claimant, Mr Fordham has defended the judge&#8217;s reasoning. In summary, on the SWPI issue, the issues at the inquest include matters of rail safety involving voluminous specialised evidence. Participation of public bodies, such as HSE and RSSB, could not equate to the assistance to be gained by a representative probing the issues, from the perspective of the passengers. The RSSB in particular would not be probing its own position as to opportunities taken or missed in the past.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On Article 2, the judge had been right not to follow Miss Lieven&#8217;s &#8220;spectrum&#8221; analysis of the cases under Article 2. The State is answerable for a failure to establish a framework of laws and procedures which, to the greatest extent reasonably practicable, protect life. The State is answerable as to the need to ensure safety standards which safeguard the lives of passengers on the railway system. Further, the Article 2 case-law showed that next-of-kin involvement was an important part of an effective investigation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to Legal Help, Mr Fordham referred to the evidence of Ms Christian as to the impracticability of Mr Main being able to play an effective role at the inquest without active representation. He had been severely traumatised by the loss of his partner and daughter in the same accident, and would not himself be willing or able to play an active part in the hearing even with assistance.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant challenges the Minister&#8217;s decision not to authorise funding for full legal representation of the family at the inquest, for two main reasons: first, that it was an irrational exercise of the Minister&#8217;s discretion; secondly, that it was incompatible with Article 2 of the Human Rights Convention and therefore unlawful under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>. We take these in turn.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">Irrationality</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We have set out the relevant statutory framework and guidance. Our starting point is that the court needs to act with great caution before making a finding of irrationality about a discretionary spending decision.  The reasons for this are obvious.  There is no end to the causes for which public money could be spent to good effect, but ministers have to take into account a wide range of considerations when setting overall spending budgets and in determining priorities within a spending budget.  Judges do not have to cope with the consequences of spending decisions in the way that ministers do.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The basis of the challenge in the present case is that the Minister&#8217;s decision in this case was an irrational departure from the Lord Chancellor&#8217;s published guidelines.  That could provide a valid ground of challenge.  At all relevant times the Lord Chancellor&#8217;s general approach has been that he would not expect the LSC to request, and by inference would not expect himself to authorise, the funding of legal representation of the family of the deceased at an inquest, unless either there was a &#8220;significant wider public interest&#8221; in the family being legally represented, or funded representation for the family was likely to be necessary to meet the requirements of Article 2.  The Minister did not consider that the present case met either test.  The judge held that her decision was unlawful in both respects. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Significant wider public interest</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">&#8220;Wider public interest&#8221; is defined in the Code as meaning &#8220;the potential of the proceedings to produce real benefits for individuals other than the claimant&#8221;.  Understandably the Lord Chancellor made no attempt to define what he meant by &#8220;significant&#8221;.  But since the test was not merely whether there was a significant wider public interest in the inquest, but whether there was a significant wider public interest in the family being legally represented at the inquest, the Minister had to make a judgment whether such representation would significantly increase the potential of the inquest to produce real benefits for the wider public, so as to make it desirable that it should be funded for the benefit of the public at large.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is plain from the terms of the decision letter that the Minister was strongly influenced by the fact that the coroner would have available to him the results of a number of independent investigations. The judge held that her conclusion was <span style="font-style:italic">Wednesbury</span> unreasonable.  First, he said that central to an examination of the rail safety issues before the coroner would be the balance to be drawn in a costs/benefit or risk/benefit analysis, and that the rail travelling public might well attach a different value to the factors that weighed in such situations from the approach taken by any of the investigators.  Secondly, he said that while investigators, such as the RSSB, would be concerned with the wider issue of rail safety, their involvement would &#8220;inevitably be coloured by concern for the defence of their own position&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the first point, we are not persuaded that any rational person in the position of the Minister <span style="font-style:italic">must</span> have concluded that the kind of costs/benefit analysis envisaged by the judge was likely to be a central issue at the inquest.  In the event, the coroner decided at a pre-inquest hearing that he did not intend to explore that aspect and there has been no attempt (as far as we are aware) to challenge that decision for <span style="font-style:italic">Wednesbury</span> unreasonableness.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the second point, the suggestion that the involvement of the ORR and the RSSB in the inquest would inevitably be coloured by concern for the defence of their own positions was understandably taken by those bodies as a criticism of their independence and impartiality.  The ORR is a new body which took over responsibility for the regulation of health and safety on the railways from the HSC on 1<span style="vertical-align:super;font-size:smaller">st</span> April 2006, i.e. 17 months after the Ufton Nervet crash.   The RSSB is a rail industry safety body set up on the recommendation of Lord Cullen after his inquiry into the Ladbroke Grove rail accident.  It is a not-for-profit company whose members come from the rail industry, and its primary objective is to lead the industry&#8217;s work to achieve continuous improvement in the health and safety performance of the railways in order to reduce risk to passengers and employees. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Fordham on behalf of the family accepted that there was no ground for doubting that the RSSB&#8217;s 165 page final report was a thorough and impartial investigation of the accident and lessons to be drawn.  But he submitted that there was a significant public interest in the coroner investigating (a) whether all or any of the bodies with responsibility for matters affecting rail safety had been remiss in the past in allowing standards which were too low and (b) whether the RSSB&#8217;s recommendations went far enough; and that the bodies concerned could not be expected to be critical of their own past performance or present recommendations.  The perversity of the Minister&#8217;s decision lay in her failure to recognise the need for the family to be legally represented in order that the coroner could properly explore those matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Arguments of that kind could be made in relation to almost any inquest resulting from deaths in a rail accident.  The weight to be attached to them must depend on the individual circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The family&#8217;s written grounds for judicial review acknowledged that the direct cause of the train crash was not believed to be any negligence or omission by a public body or the State.  But the grounds went on to identify two particular safety issues which were raised by the family&#8217;s solicitor at a pre-inquest hearing and which the coroner had agreed to investigate.  The first was that the train was not fitted with a detection system which would have enabled the train driver to know that there was an obstacle on the level crossing.  The second was that the windows were not fitted with laminated glass, which would have been less likely to blow out when the train derailed, and the deceased died because they were ejected from windows.  The family&#8217;s solicitor had been able to raise these points because both were identified in the RSSB report and were the subject of recommendations.  It was argued in the grounds for judicial review that these were key questions of general rail safety which satisfied the &#8220;significant wider public interest&#8221; test.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whether all trains should be fitted with early warning system devices and laminated windows are certainly issues which affect the rail travelling public in general. But it does not follow that it was <span style="font-style:italic">Wednesbury</span> unreasonable for the Minister to refuse to authorise full legal representation for the family.  She had to consider whether the coroner could reasonably be expected properly to investigate the issues about early warning systems and laminated windows without full legal representation on the family&#8217;s behalf.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The family&#8217;s case request for funded representation was supported by the coroner and by the LSC, but without either of them giving detailed reasons.  The views of the coroner and of the LSC were material but not determinative.  It is clear from the decision letter that the Minister had them in mind. The judge criticised the Minister for not giving a reasoned explanation for departing from the LSC&#8217;s conclusion. We find that criticism hard to follow since the LSC did not set out its own reasoning in any detail. The only specific point made by the LSC was a reference to the previous experience of the solicitor Ms Christian of similar investigations. However, we do not think that funding decisions can depend on such issues, since the claimant is under no obligation to use a particular legal representative. The decision letter addressed the arguments put forward on behalf of the family and gave the reasons for the Minister&#8217;s conclusion. Nor do we accept the judge&#8217;s criticism of the points made in the pre-action letter of 26<span style="vertical-align:super;font-size:smaller">th</span> October. They were given as no more than &#8220;examples&#8221; of the way in which the case for funding might be made out. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In deciding whether to authorise exceptional funding for the family&#8217;s representation at the inquest, there were a number of relevant factors to consider.  These included what issues the coroner would likely to be investigating, and what was needed for him to investigate them properly, against the background of the various independent investigations which had taken place.  The Minister thought it right that some form of assistance should be made available to the family and agreed that they should have Legal Help.  The judge&#8217;s view was that Legal Help would inevitably result in a laborious process, which would be time consuming, ineffective and hopelessly impractical.  That presupposes that sustained cross examination on behalf of the family was going to be necessary in order for the coroner properly to explore the relevant issues.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In our view it was possible to hold a different view without being irrational.  With Legal Help, the family would be able to put forward submissions to the coroner identifying the matters relied upon to suggest that the recommendations in the RSSB report did not go far enough.  It is understandable that the family wanted legal representation so as to be able to cross-examine FGW&#8217;s witnesses and the experts on safety issues.  But for the reasons set out, we do not consider that the judge&#8217;s grounds for going as far as to hold that the Minister&#8217;s decision was <span style="font-style:italic">Wednesbury</span> unreasonable are sustainable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We return to the starting point that in relation to a discretionary spending decision the court should be particularly careful before reaching a conclusion of <span style="font-style:italic">Wednesbury</span> unreasonableness. In our view, the Minister was entitled rationally to conclude that full legal representation of the family was not required in order for the coroner properly to investigate the relevant public safety issues, even though such representation may have assisted him to do so, and that there was insufficient public benefit from such representation to cause her in her discretion to authorise such expenditure.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">Article 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The European Court of Human Rights has established two general principles in relation to Article 2.  First, the requirement that &#8220;everyone&#8217;s right to life shall be protected by law&#8221; imposes a primary duty on the State to put in place a legislative and administrative framework designed to provide effective deterrents against threats to the right to life.  Secondly, where lives have been lost in circumstances potentially engaging the responsibility of the State, Article 2 entails a duty on the part of the State to ensure an adequate response, judicial or otherwise, so that the legislative and administrative framework set up to protect the right to life is properly implemented and any breaches are met by an appropriate penalty (see, for example, <span style="font-style:italic">Oneryildiz v Turkey</span> <ref href="#" uk:canonical="(2005) 41 EHRR 20" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">(2005) 41 EHRR 20</ref> at paras 89 and 91, and the cases there cited.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What those obligations may entail in any particular case is necessarily fact specific, and while judgments in individual cases provide help in elucidating the principles, it is the fundamental principles themselves which matter most.  The danger of elevating illustrations into principles is that of missing the wood for trees.  That said, the cases demonstrate unsurprisingly that the greater the potential engagement of the State in causing a person&#8217;s death, the greater the need for an open system in which the State&#8217;s responsibility is fully and independently scrutinised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the present case it is clear that the primary cause of the deaths was the criminal behaviour of a private citizen, namely the driver who deliberately parked his car on the level crossing in order to cause an accident.  The victims were members of the general public and the driver of the train.  They were not people over whom the State had special control with corresponding special responsibilities. The State nevertheless had a responsibility for putting in place a rail safety framework, as already described.  The object of such a framework is not to eliminate all risk, because it would be impossible to have a risk free transportation system, but to manage and control the risks inherent in rail transport in a responsible manner.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Statistics included in the RSSB report showed that by international standards the safety record of level crossings in the UK is high, but that in the 6 years from 1999 to 2004 there were 29 instances of trains striking road vehicles on level crossings of the same kind as the Ufton level crossing.  Therefore, a proper matter for investigation was what safety improvements might practically be carried out, either to the design of such crossings or by providing some form of obstacle detection device.  These matters were addressed in the RSSB report, which recommended among other things that research should be undertaken to establish whether a practical system could be developed to detect and warn train drivers of an obstruction at such crossings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Another aspect of rail safety is the minimisation of the risk of serious injury if a crash does occur.  In this context the RSSB report considered a number of matters, including the fact that the Ufton crash was the third relatively recent serious accident in which there had been fatalities as a result of ejection through windows.  After the two previous accidents, at Southall and Potters Bar, there had been independent inquiries, but they had not made any recommendations regarding possible replacement of toughened glass by laminated glass in the windows of existing vehicles.  In view of the events at Ufton, the RSSB considered that the issue should be addressed and it recommended changes in railway standards so that laminated windows should be installed in vehicles undergoing major internal refurbishment. It is clear that these are important matters which have a bearing on the safety of rail users in general.  They are matters which the coroner was due to consider. As Mr Fordham observed, it was open to him to consider whether the RSSB&#8217;s recommendations went far enough.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge&#8217;s reasons for concluding that Article 2 required full legal representations were essentially the same as his reasons for concluding that the Minister&#8217;s decision was <span style="font-style:italic">Wednesbury</span> unreasonable. We have made our comments about that reasoning process. To conclude that Article 2 required such representation in this case would go beyond any European or domestic precedent.  We recognise that lack of a direct precedent is not necessarily determinative in a developing jurisdiction, and that is why it is necessary to look at the fundamental principles.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question is whether the coroner could reasonably be expected to carry out a proper investigation into the deaths of the deceased, including the wider safety aspects which have been identified, without full legal representation of the family.  In our judgment the answer to that question is yes.  An inquest is an inquisitorial and not an adversarial process.  This is a case in which the actual facts appear unlikely to be in dispute at all.  It is not a case of suspected serious wrong-doing or dereliction by an agent or agents of the State.  As to the wider safety issues, we see no ground to suppose that the experts were likely to be evasive or wanting to cover matters up.  It would be open to the family, through the Legal Help provided for them, to make submissions and identify particular matters which they wanted the coroner to explore.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We have not dealt with the question whether Article 2 is in fact engaged, to the extent of requiring an inquest in a case such as the present, where there have been other independent and in-depth inquiries. We regard that as an academic question.  In saying that, we do not seek to belittle the importance of the inquest.  However thorough and expert any of the previous investigations may have been, an inquest has the important added quality of being in public.  That is valuable not only for the purposes of public information, but also as a protection against a risk or fear of matters being swept under the carpet.  However, we do not believe that those important public interests require also that the family should be legally represented in the present case in order to meet the objective of Article 2.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons, notwithstanding the obvious sympathy which all must feel for the position of the claimant and his family, we think the judge&#8217;s criticisms of the Minister&#8217;s decision were unjustified. We are happy that in the event the inquest has been able to proceed, and that the decision on this appeal has been rendered academic in this particular case. However, the judge&#8217;s approach would in our respectful view risk imposing an unjustified burden on the funding system, unsupported by domestic or European law. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly we allow the appeal, and set aside the judge&#8217;s order.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:center"><span style="font-style:italic;font-weight:bold">R(Main) v Minister for Legal Aid </span></p>
+	    <p style="text-align:center"><span style="font-style:italic">Appendix to Judgment of Court</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">NOTE ON RAIL SAFETY BODIES</span></p>
+	    <p style="text-align:center">(prepared by Miss Lieven QC at the request of the court - see para 8 of judgment)</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Office of the Rail Regulation, &#8220;ORR&#8221; is the body currently responsible for the regulation of railway safety. This responsibility was inherited from the Health and Safety Commission, &#8220;HSC&#8221;. The previous position as that is relevant to the investigations undertaken on the Ufton Nervet crash. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Health and Safety Commission (&#8220;HSC&#8221;) and the Health and Safety Executive (&#8220;HSE&#8221;) were established under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">Health and Safety at Work etc. Act 1974</ref> (&#8220;HSWA&#8221;).  HSC and HSE are statutory non-departmental bodies corporate, performing their functions on behalf of the Crown.  In December 1990 Her Majesty&#8217;s Railway Inspectorate (&#8220;HMRI&#8221;) became one of HSE&#8217;s directorates; prior to that it had been part of the Department of Transport.  HMRI largely discharged HSE&#8217;s statutory responsibilities for health and safety on the railways. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">ORR is an independent non-ministerial departmental body created by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/20/section/15/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(1)</ref> and Schedule 1 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/20" uk:canonical="2003 c. 20" uk:origin="TNA" uk:type="legislation">Railways and Transport Safety Act 2003</ref> (&#8220;RTSA&#8221;).  RTSA transferred the functions of the former Rail Regulator (that office being abolished) to ORR.  The Rail Regulator had been created by the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">Railways Act 1993</ref> as the economic regulator for the railways.  In undertaking his principal functions under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/43" uk:canonical="1993 c. 43" uk:origin="TNA" uk:type="legislation">that Act</ref> he was obliged to take into account the need to protect all persons from danger in the operation of the railways and to take into account advice from the HSE.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The safety functions of HSC and HSE under HSWA, insofar as they relate to railways, were transferred to ORR by the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">Railways Act 2005</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>&#8221;), the relevant parts being brought into force from 1<span style="vertical-align:super;font-size:smaller">st</span> April 2006. Schedule 3 to <ref href="http://www.legislation.gov.uk/id/ukpga/2005/14" uk:canonical="2005 c. 14" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> sets out the railway safety purposes transferred to the ORR.  HSE&#8217;s functions under the Railways (Safety Case) Regulations 2000 were also transferred to ORR from the same date.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Rail Safety and Standards Board (&#8220;RSSB&#8221;) was established in April 2003, implementing one of the sets of recommendations from Lord Cullen&#8217;s inquiry into the accident at Ladbroke Grove.  It is a not-for-profit company, limited by guarantee, owned by major railway industry stakeholders.  RSSB is governed by its Members, a Board (on which sit independent members) and an Advisory Committee.  Its main objective is to lead and facilitate the industry&#8217;s work to achieve continuous improvement in the health and safety performance of the railways.  Its role includes the production and upkeep of Railway Group Standards on behalf of the industry.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Railway Group Standards are managed by RSSB on behalf of the railway industry, and produced by a process of analysis, expert input, discussion and consultation within the industry and other interested parties. ORR participates as a consultee (if it wishes) and also as an observer on the relevant industry committee. They are technical and operational documents whose objective is to provide a framework for the safe management of risks in areas of co-operation between different duty holders.  They provide a framework for system safety and safe inter-working by providing clear, concise and cost-effective technical and operational standards, which encourage compliance and consistency without hindering innovations. <span style="font-family:Arial;color:#000000">The holders of railway licenses have a duty to comply with relevant Railway Group Standards.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:Arial;color:#000000">At the time of the Ufton Nervet rail crash  the RSSB also had a function on behalf of the industry of managing railway industry Inquiries into accidents and incidents These were fact finding investigations, undertaken with a view to making recommendations to railway industry parties aimed at ensuring that lessons were learned and safety improvements promoted where appropriate. In the case of a multi-fatality accident such as Ufton Nervet, a Formal Inquiry was conducted by a panel of (usually 3) independent experts drawn from a list kept by RSSB for such purposes and selected in each case for their specific expertise which was pertinent to the particular issues in question in the given accident. Since October 2005 the Rail Accident and Investigation Branch (RAIB), established by the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/20" uk:canonical="2003 c. 20" uk:origin="TNA" uk:type="legislation">Railways Transportation and Safety Act 2003</ref> has undertaken Inquiries with similar purposes, and from the beginning of 2007 RSSB formally ceased its Inquiry Functions..</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Railways (Safety Case) Regulations 2000 required train and station operators and the infrastructure controller (Network Rail) to produce a Railway Safety Case, including risk assessment, which was accepted by HSE.  Train operators and the infrastructure controller were precluded from operating trains or infrastructure until the Railway Safety Case had been accepted by HSE, further there are specific railway-related Regulations, such as those quoted immediately above.<span style="font-family:'Courier New';font-size:10pt"/>The Safety Case regime is being replaced by Safety Certificates and Safety Authorisations under later Regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">HSWA, and the regulations made under it, provide the framework for the regulation of health and safety in Great Britain.  HSWA imposes on employers (amongst others) general health and safety duties.  Train operating companies, Network Rail and other dutyholders are employers and are therefore subject to these duties. HMRI (ORR) is the enforcing authority for all these duties. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
