@@ -3,7 +3,7 @@
 LegalKGent — Step 3: Extract Triples
 =======================================
 Unified triple extraction for both legislation and case law.
-Uses vLLM for parallel inference with resumable checkpointing.
+Uses the Groq API for rapid parallel inference with strict rate limiting.
 
 Usage:
     python 3_extract_triples.py
@@ -24,16 +24,42 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config import (
-    CORPUS_FILE, TRIPLES_FILE, VLLM_MODEL, VLLM_TIMEOUT,
-    NUM_WORKERS, BATCH_SIZE, SAVE_EVERY, MAX_RETRIES,
+    CORPUS_FILE, TRIPLES_FILE, NUM_WORKERS, SAVE_EVERY, MAX_RETRIES,
     CANONICAL_ACTIONS,
 )
 from utils.normalizers import (
     normalize_action, normalize_citation, extract_act_name,
     build_abbreviation_table, build_id_to_title_map,
 )
-from llm.client import get_vllm_client, parse_llm_json
+from llm.client import get_groq_client, parse_llm_json
 from llm.prompts import LEGISLATION_PROMPT, CASELAW_PROMPT
+
+# Specify the target blazing fast open-source model available on Groq
+GROQ_MODEL = "llama-3.1-8b-instant"
+
+
+# ─────────────────────────────────────────────
+# THREAD-SAFE RATE LIMITER
+# ─────────────────────────────────────────────
+class RateLimiter:
+    """Token bucket to limit API calls (e.g. max 900 requests per 60 seconds)."""
+    def __init__(self, max_calls: int, period: float):
+        self.max_calls = max_calls
+        self.period = period
+        self.calls = []
+        self.lock = threading.Lock()
+
+    def wait(self):
+        with self.lock:
+            now = time.time()
+            # Remove calls that are older than the tracking period
+            self.calls = [c for c in self.calls if c > now - self.period]
+            # If we've hit the limit, block until the oldest call expires
+            if len(self.calls) >= self.max_calls:
+                sleep_time = self.calls[0] - (now - self.period)
+                if sleep_time > 0:
+                    time.sleep(sleep_time)
+            self.calls.append(time.time())
 
 
 # ─────────────────────────────────────────────
@@ -42,12 +68,13 @@ from llm.prompts import LEGISLATION_PROMPT, CASELAW_PROMPT
 
 def extract_triples(
     chunk: dict,
-    vllm_client,
+    groq_client,
+    limiter: RateLimiter,
     abbrev_table: dict,
     id_to_title: dict,
     max_retries: int = MAX_RETRIES,
 ) -> list[dict]:
-    """Extract legal triples from a single chunk using vLLM."""
+    """Extract legal triples from a single chunk using Groq."""
 
     # Choose prompt by source type
     is_judgment = chunk.get("source") == "judgment"
@@ -55,14 +82,16 @@ def extract_triples(
 
     # Build user prompt
     user_content = "Extract all legal relationships from this text:\n\n"
-    user_content += f"DOCUMENT ID: {chunk['id']}\n"
+    user_content += f"DOCUMENT ID: {chunk['chunk_id']}\n"
     user_content += f"TITLE: {chunk['doc_title']}\n"
     user_content += f"SOURCE TYPE: {chunk.get('source', 'unknown')}\n"
 
     if chunk.get('part'):
         user_content += f"PART: {chunk['part']}\n"
     if chunk.get('heading'):
-        user_content += f"HEADING: {chunk['heading']}\n"
+
+
+         user_content += f"HEADING: {chunk['heading']}\n"
     if chunk.get('in_force_date'):
         user_content += f"IN FORCE DATE: {chunk['in_force_date']}\n"
     if chunk.get('extent'):
@@ -71,33 +100,33 @@ def extract_triples(
         user_content += f"DEFINED TERMS: {json.dumps(chunk['defined_terms'])}\n"
     if chunk.get('inline_amendments'):
         user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(chunk['inline_amendments'][:5])}\n"
-    if chunk.get('notes_text'):
-        user_content += f"EXPLANATORY NOTE: {chunk['notes_text']}\n"
 
-    user_content += f"\nTEXT:\n{chunk['content']}\n\n"
+    user_content += f"\nTEXT:\n{chunk.get('content') or chunk.get('vector_text', '')}\n\n"
     user_content += "Respond with ONLY a JSON array of relationships. If none found, respond with []"
 
     # Retry loop
     for attempt in range(max_retries):
         try:
-            response = vllm_client.chat.completions.create(
-                model=VLLM_MODEL,
+            limiter.wait()  # MUST PASS THE TOKEN BUCKET BEFORE HITTING API
+            response = groq_client.chat.completions.create(
+                model=GROQ_MODEL,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_content}
                 ],
                 temperature=0.1,
-                max_tokens=2048,
+                max_completion_tokens=2048,
             )
             raw_text = response.choices[0].message.content.strip()
             items = parse_llm_json(raw_text)
+            
             if items is None:
-                print(f"    ⚠️ Could not parse JSON: {raw_text[:100]}...")
+                # LLM failed to return structured JSON
                 return []
 
             # Normalize and validate each triple
             results = []
-            source_prefix = chunk['id'].rsplit('.xml_', 1)[0] if '.xml_' in chunk['id'] else chunk['id']
+            source_prefix = chunk['chunk_id'].rsplit('.xml_', 1)[0] if '.xml_' in chunk['chunk_id'] else chunk['chunk_id']
             source_title = id_to_title.get(source_prefix, "")
 
             for item in items:
@@ -126,21 +155,21 @@ def extract_triples(
                     "target_act_name": act_name,
                     "detail_text": item.get("detail_text"),
                     "effective_date": item.get("effective_date"),
-                    "source_id": chunk['id'],
+                    "source_id": chunk['chunk_id'],
                     "source_title": chunk.get('doc_title'),
-                    "source_section": chunk.get('section'),
+                    "source_section": chunk.get('section') or chunk.get('section_number'),
                     "in_force_date": chunk.get('in_force_date'),
                     "extent": chunk.get('extent'),
                     "is_self_amendment": is_self,
-                    "chunk_id": chunk['id'],
+                    "chunk_id": chunk['chunk_id'],
                 })
             return results
 
         except Exception as e:
             error_str = str(e).lower()
-            if "timeout" in error_str or "connection" in error_str:
+            if "timeout" in error_str or "connection" in error_str or "429" in error_str:
                 wait = 5 * (attempt + 1)  # backoff: 5s, 10s, 15s
-                print(f"    ⏳ Timeout (attempt {attempt+1}/{max_retries}), retrying in {wait}s...")
+                print(f"    ⏳ Rate limit or timeout (attempt {attempt+1}/{max_retries}), retrying in {wait}s...")
                 time.sleep(wait)
             else:
                 print(f"    ❌ Error: {e}")
@@ -148,36 +177,6 @@ def extract_triples(
 
     print(f"    ❌ Failed after {max_retries} retries")
     return []
-
-
-# ─────────────────────────────────────────────
-# BATCH BUILDER
-# ─────────────────────────────────────────────
-
-def build_smart_batch(corpus: list[dict], batch_size: int = BATCH_SIZE) -> list[int]:
-    """Pick diverse chunks: amendment-heavy + repeal-heavy + caselaw + general."""
-    repeal_idxs = set(i for i, c in enumerate(corpus)
-                      if 'repeal' in c.get('content', '').lower() or 'omit' in c.get('content', '').lower())
-    amend_idxs = set(i for i, c in enumerate(corpus)
-                     if 'amend' in c.get('content', '').lower() or 'substitut' in c.get('content', '').lower())
-    case_idxs = set(i for i, c in enumerate(corpus) if c.get('source') == 'judgment')
-    leg_idxs = set(i for i, c in enumerate(corpus) if c.get('source') == 'legislation')
-
-    selected = repeal_idxs | amend_idxs | case_idxs
-    for idx in leg_idxs:
-        if len(selected) >= batch_size:
-            break
-        selected.add(idx)
-
-    batch_indices = sorted(list(selected))[:batch_size]
-
-    # Stats
-    batch_sources = defaultdict(int)
-    for idx in batch_indices:
-        s = corpus[idx].get('source', 'unknown')
-        batch_sources[s] += 1
-    print(f"📋 Batch: {len(batch_indices)} chunks | {dict(batch_sources)}")
-    return batch_indices
 
 
 # ─────────────────────────────────────────────
@@ -250,7 +249,7 @@ def print_quality_report(triples: list[dict]):
 def main():
     print("""
 ╔══════════════════════════════════════════════════════════╗
-║  LegalKGent — Step 3: Extract Triples                   ║
+║  LegalKGent — Step 3: Extract Triples (Groq Edition)    ║
 ╚══════════════════════════════════════════════════════════╝
     """)
 
@@ -266,26 +265,15 @@ def main():
     print(f"   Abbreviations: {len(abbrev_table)}")
     print(f"   Source docs: {len(id_to_title)}")
 
-    # 3. Connect to vLLM (with connection test)
-    vllm_client = get_vllm_client(timeout=VLLM_TIMEOUT)
-    print(f"🔌 Testing vLLM connection ({VLLM_MODEL})...")
-    try:
-        test = vllm_client.chat.completions.create(
-            model=VLLM_MODEL,
-            messages=[{"role": "user", "content": "Say OK"}],
-            max_tokens=5,
-        )
-        print(f"✅ vLLM connected — response: {test.choices[0].message.content.strip()!r}")
-    except Exception as e:
-        print(f"❌ vLLM connection FAILED: {e}")
-        print(f"   Make sure vLLM is running: python -m vllm.entrypoints.openai.api_server \\")
-        print(f"       --model {VLLM_MODEL} --port 8000")
-        return
+    # 3. Connect to Groq
+    groq_client = get_groq_client()
+    print(f"🔌 Connected to Groq API ({GROQ_MODEL})")
 
-    # 4. Build batch
-    batch_indices = build_smart_batch(corpus, BATCH_SIZE)
+    # Initialize a 900 request per 60 seconds rate limiter
+    # This prevents us from hitting the 1000 RPM Groq cap
+    limiter = RateLimiter(max_calls=900, period=60.0)
 
-    # 5. Load existing results (resume support)
+    # 4. Load existing results (resume support)
     if os.path.exists(TRIPLES_FILE):
         with open(TRIPLES_FILE, "r", encoding="utf-8") as f:
             all_results = json.load(f)
@@ -295,9 +283,9 @@ def main():
         all_results = []
         already_done = set()
 
-    # Filter to unprocessed chunks
-    chunks_to_process = [corpus[idx] for idx in batch_indices if corpus[idx]['id'] not in already_done]
-    print(f"\n🚀 Processing {len(chunks_to_process)} chunks with {NUM_WORKERS} workers\n")
+    # 5. Filter to unprocessed chunks sequentially (No more biased batches)
+    chunks_to_process = [c for c in corpus if c['chunk_id'] not in already_done]
+    print(f"\n🚀 Processing remaining {len(chunks_to_process)} chunks systematically with {NUM_WORKERS} workers\n")
 
     if not chunks_to_process:
         print("✅ All chunks already processed!")
@@ -311,7 +299,7 @@ def main():
     start_time = time.time()
 
     def process_one(chunk):
-        return chunk, extract_triples(chunk, vllm_client, abbrev_table, id_to_title)
+        return chunk, extract_triples(chunk, groq_client, limiter, abbrev_table, id_to_title)
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
         futures = {executor.submit(process_one, c): c for c in chunks_to_process}
@@ -324,10 +312,10 @@ def main():
                     all_results.extend(triples)
                     stats["triples_found"] += len(triples)
                     self_count = sum(1 for t in triples if t.get('is_self_amendment'))
-                    print(f"[{stats['processed']}/{len(chunks_to_process)}] {chunk['id']}: "
+                    print(f"[{stats['processed']}/{len(chunks_to_process)}] {chunk['chunk_id']}: "
                           f"{len(triples)} triples ({self_count} self-amend)")
                 else:
-                    print(f"[{stats['processed']}/{len(chunks_to_process)}] {chunk['id']}: (none)")
+                    print(f"[{stats['processed']}/{len(chunks_to_process)}] {chunk['chunk_id']}: (none)")
 
                 # Checkpoint
                 if stats['processed'] % SAVE_EVERY == 0:

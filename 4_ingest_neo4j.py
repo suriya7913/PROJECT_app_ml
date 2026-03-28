@@ -58,12 +58,32 @@ def load_all_triples() -> list[dict]:
         print(f"📂 Loaded {len(case)} case law triples")
         all_triples.extend(case)
 
-    # Effects triples (ground-truth from API)
+    # Effects triples (ground-truth from API) — flatten source_chunk_ids
     if os.path.exists(EFFECTS_TRIPLES_FILE):
         with open(EFFECTS_TRIPLES_FILE, "r", encoding="utf-8") as f:
-            effects = json.load(f)
-        print(f"📂 Loaded {len(effects)} effects triples (ground-truth)")
-        all_triples.extend(effects)
+            effects_raw = json.load(f)
+        effects_count = 0
+        for eff in effects_raw:
+            # Each effect may map to multiple source chunks
+            source_ids = eff.get("source_chunk_ids", [])
+            if not source_ids:
+                # Fallback: use source_title as node ID
+                source_ids = [eff.get("source_title", "UNKNOWN")]
+            for sid in source_ids:
+                all_triples.append({
+                    "source_id": sid,
+                    "source_title": eff.get("source_title"),
+                    "source_section": eff.get("source_section"),
+                    "action": eff.get("action", "CITES"),
+                    "target_citation": eff.get("target_citation"),
+                    "target_act_name": eff.get("target_act_name"),
+                    "detail_text": eff.get("effect_type_raw"),
+                    "effective_date": eff.get("effective_date"),
+                    "confidence": eff.get("confidence", 1.0),
+                    "provenance": "effects_api",
+                })
+                effects_count += 1
+        print(f"📂 Loaded {len(effects_raw)} effects → {effects_count} flattened edges (ground-truth)")
 
     print(f"📋 Total triples to ingest: {len(all_triples)}")
     return all_triples
@@ -75,7 +95,7 @@ def load_corpus_lookup() -> dict:
     with open(CORPUS_FILE, "r", encoding="utf-8") as f:
         corpus = json.load(f)
     for c in corpus:
-        cid = c.get("id")
+        cid = c.get("chunk_id")
         if cid:
             lookup[cid] = c
     print(f"📂 Loaded {len(lookup)} corpus chunks for enrichment")
@@ -276,6 +296,62 @@ def verify_graph():
 
 
 # ─────────────────────────────────────────────
+# INGEST GRAPH_EDGES FROM LEGISLATION CHUNKS
+# ─────────────────────────────────────────────
+
+def ingest_graph_edges(corpus_lookup: dict):
+    """Create deterministic structural edges from legislation chunks' graph_edges metadata."""
+    driver = get_driver()
+    loaded = 0
+
+    with driver.session() as session:
+        for cid, chunk in corpus_lookup.items():
+            ge = chunk.get("graph_edges")
+            if not ge:
+                continue
+
+            source_title = chunk.get("doc_title", cid)
+
+            # 1. HAS_SUBSECTION edges
+            for sub in ge.get("has_subsection", []):
+                session.run("""
+                    MERGE (s:LegalDoc {id: $source_id})
+                    SET s.type = 'Legislation', s.title = COALESCE(s.title, $title)
+                    MERGE (t:LegalDoc {id: $sub_id})
+                    SET t.type = 'Legislation', t.title = COALESCE(t.title, $title)
+                    MERGE (s)-[r:HAS_SUBSECTION]->(t)
+                """, source_id=cid, title=source_title,
+                   sub_id=cid.rsplit('_', 1)[0] + '_' + sub if '_' in cid else sub)
+                loaded += 1
+
+            # 2. AMENDED_BY edges from commentary refs
+            for ab in ge.get("amended_by", []):
+                affecting_act = ab.get("affecting_act", "")
+                commentary_text = ab.get("text", "")
+                if affecting_act:
+                    session.run("""
+                        MERGE (s:LegalDoc {id: $source_id})
+                        SET s.type = 'Legislation', s.title = COALESCE(s.title, $title)
+                        MERGE (t:LegalDoc {citation: $affecting})
+                        SET t.act_name = COALESCE(t.act_name, $affecting)
+                        MERGE (t)-[r:LEGAL_RELATIONSHIP {action_type: 'AMENDS'}]->(s)
+                        ON CREATE SET
+                            r.detail = $detail,
+                            r.confidence = 0.95,
+                            r.provenance = 'xml_commentary',
+                            r.source_ids = [$source_id],
+                            r.times_seen = 1
+                        ON MATCH SET
+                            r.times_seen = COALESCE(r.times_seen, 1) + 1,
+                            r.confidence = 1.0 - (1.0 - r.confidence) * (1.0 - 0.95)
+                    """, source_id=cid, title=source_title,
+                       affecting=affecting_act, detail=commentary_text[:500])
+                    loaded += 1
+
+    print(f"\n✅ Graph edges ingested: {loaded} structural edges from legislation metadata")
+
+
+# ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 
@@ -296,6 +372,10 @@ def main():
 
     # 3. Ingest triples
     ingest_triples(all_triples, corpus_lookup)
+
+    # 3b. Ingest graph_edges from legislation chunks
+    print("\n🔗 Ingesting graph_edges from legislation metadata...")
+    ingest_graph_edges(corpus_lookup)
 
     # 4. Create concept nodes
     print("\n🧠 Creating Concept nodes...")

@@ -6,21 +6,20 @@ Unified client creation and JSON response parsing.
 
 import json
 import re
-from config import VLLM_BASE_URL, VLLM_MODEL, MISTRAL_API_KEY, MISTRAL_MODEL
+from config import GROQ_API_KEY, MISTRAL_API_KEY, MISTRAL_MODEL
+from groq import Groq
 
 
-def get_vllm_client(timeout: float = 120.0):
-    """Create an OpenAI-compatible client pointing at vLLM.
+def get_groq_client(timeout: float = 120.0):
+    """Create a client pointing at Groq's blazing fast API.
     
     Args:
-        timeout: Request timeout in seconds. Default 120s for Colab GPUs.
+        timeout: Request timeout in seconds.
     """
-    from openai import OpenAI
-    return OpenAI(
-        base_url=VLLM_BASE_URL,
-        api_key="not-needed",
+    return Groq(
+        api_key=GROQ_API_KEY,
         timeout=timeout,
-        max_retries=0,  # We handle retries ourselves in 3_extract_triples.py
+        max_retries=2,
     )
 
 

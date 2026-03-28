@@ -103,6 +103,10 @@ def build_abbreviation_table(corpus: list[dict]) -> dict:
     )
     for chunk in corpus:
         content = chunk.get("content", "")
+        # Fast-fail string matching to prevent catastrophic regex backtracking
+        if "Act " not in content or "(" not in content:
+            continue
+            
         for match in pattern.finditer(content):
             full_name = match.group(1).strip()
             abbreviation = match.group(2).strip()
@@ -116,7 +120,7 @@ def build_id_to_title_map(corpus: list[dict]) -> dict:
     """Map source ID prefixes to readable Act titles."""
     id_to_title = {}
     for c in corpus:
-        chunk_id = c.get("id", "")
+        chunk_id = c.get("chunk_id", "")
         prefix = chunk_id.rsplit(".xml_", 1)[0] if ".xml_" in chunk_id else chunk_id
         if prefix and prefix not in id_to_title:
             id_to_title[prefix] = c.get("doc_title", prefix)

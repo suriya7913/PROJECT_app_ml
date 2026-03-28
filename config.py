@@ -47,6 +47,7 @@ VLLM_MODEL    = os.environ.get("VLLM_MODEL",    "Qwen/Qwen2.5-7B-Instruct")
 # ─────────────────────────────────────────────
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "wTPmklMivGd5WB14RsLnms5DUw1pOeHh")
 MISTRAL_MODEL   = os.environ.get("MISTRAL_MODEL",   "mistral-large-latest")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
 
 # ─────────────────────────────────────────────
 # EMBEDDINGS
@@ -73,7 +74,7 @@ MIN_SIM_THRESHOLD = 0.25  # below this cosine similarity = "no match"
 # ─────────────────────────────────────────────
 # CASE LAW PREFIXES
 # ─────────────────────────────────────────────
-CASE_PREFIXES = ["uksc_", "ewca_", "ewhc_", "ukut_"]
+CASE_PREFIXES = ["uksc_", "ewca_", "ewhc_", "ukut_", "ukftt_", "eat_", "ewfc_"]
 
 def is_caselaw(id_str: str) -> bool:
     """Check if a chunk ID belongs to case law."""
@@ -83,19 +84,21 @@ def is_caselaw(id_str: str) -> bool:
 # CANONICAL ACTIONS — the ONLY valid relationship types in the KG
 # ─────────────────────────────────────────────
 CANONICAL_ACTIONS = [
-    # Legislative modification
-    "AMENDS", "REPEALS", "SUBSTITUTES", "INSERTS",
-    "COMMENCES", "REVOKES", "APPLIES", "CITES", "OVERRULES",
+    # Structural modifications (LLM acts as safety net fallback for API)
+    "AMENDS", "REPEALS", "SUBSTITUTES", "INSERTS", "COMMENCES", "REVOKES",
     # Semantic
-    "DEFINES", "INTERPRETS", "DELEGATES", "IMPLEMENTS",
+    "APPLIES", "CITES", "OVERRULES", "DEFINES", "INTERPRETS", "DELEGATES", "IMPLEMENTS",
     # Power & obligation
-    "CREATES", "EMPOWERS", "REQUIRES", "PROHIBITS", "EXTENDS",
+    "CREATES", "EMPOWERS", "REQUIRES", "PROHIBITS", "EXTENDS", "AFFIRMS"
 ]
 
 # Map any LLM variation to canonical form
 ACTION_NORMALIZER = {
     # --- AMENDS ---
     "AMEND": "AMENDS", "AMENDED": "AMENDS", "AMENDS": "AMENDS", "AMENDING": "AMENDS",
+    "MODIFY": "AMENDS", "MODIFIES": "AMENDS", "MODIFIED": "AMENDS",
+    "CHANGE": "AMENDS", "CHANGES": "AMENDS", "CHANGED": "AMENDS",
+    "VARY": "AMENDS", "VARIES": "AMENDS", "VARIED": "AMENDS",
     # --- REPEALS ---
     "REPEAL": "REPEALS", "REPEALED": "REPEALS", "REPEALS": "REPEALS", "REPEALING": "REPEALS",
     "OMIT": "REPEALS", "OMITS": "REPEALS", "OMITTED": "REPEALS",
@@ -152,12 +155,12 @@ ACTION_NORMALIZER = {
     "EXTEND": "EXTENDS", "EXTENDED": "EXTENDS", "EXTENDS": "EXTENDS", "EXTENDING": "EXTENDS",
     "RENEW": "EXTENDS", "RENEWS": "EXTENDS", "RENEWED": "EXTENDS",
     "PROLONG": "EXTENDS", "PROLONGS": "EXTENDS",
-    # --- Judicial extras → CITES ---
+    # --- Judicial extras ---
     "FOLLOW": "CITES", "FOLLOWS": "CITES", "FOLLOWED": "CITES",
-    "APPROVE": "CITES", "APPROVES": "CITES", "APPROVED": "CITES",
+    "APPROVE": "AFFIRMS", "APPROVES": "AFFIRMS", "APPROVED": "AFFIRMS",
     "CONSIDER": "CITES", "CONSIDERS": "CITES", "CONSIDERED": "CITES",
-    "UPHELD": "CITES", "UPHOLD": "CITES", "UPHOLDS": "CITES",
-    "AFFIRM": "CITES", "AFFIRMS": "CITES", "AFFIRMED": "CITES",
+    "UPHELD": "AFFIRMS", "UPHOLD": "AFFIRMS", "UPHOLDS": "AFFIRMS",
+    "AFFIRM": "AFFIRMS", "AFFIRMS": "AFFIRMS", "AFFIRMED": "AFFIRMS",
 }
 
 # ─────────────────────────────────────────────
