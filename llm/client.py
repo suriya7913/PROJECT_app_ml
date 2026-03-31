@@ -6,20 +6,20 @@ Unified client creation and JSON response parsing.
 
 import json
 import re
-from config import GROQ_API_KEY, MISTRAL_API_KEY, MISTRAL_MODEL
-from groq import Groq
+from config import VLLM_BASE_URL, VLLM_MODEL, VLLM_TIMEOUT, MISTRAL_API_KEY, MISTRAL_MODEL
 
 
-def get_groq_client(timeout: float = 120.0):
-    """Create a client pointing at Groq's blazing fast API.
+def get_vllm_client():
+    """Create an OpenAI-compatible client pointing at local vLLM server.
     
-    Args:
-        timeout: Request timeout in seconds.
+    vLLM exposes an OpenAI-compatible API at /v1/chat/completions,
+    so we use the standard openai SDK to connect to it.
     """
-    return Groq(
-        api_key=GROQ_API_KEY,
-        timeout=timeout,
-        max_retries=2,
+    from openai import OpenAI
+    return OpenAI(
+        base_url=VLLM_BASE_URL,
+        api_key="EMPTY",  # vLLM doesn't require a real key
+        timeout=VLLM_TIMEOUT,
     )
 
 

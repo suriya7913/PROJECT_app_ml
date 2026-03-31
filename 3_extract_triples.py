@@ -3,7 +3,7 @@
 LegalKGent — Step 3: Extract Triples
 =======================================
 Unified triple extraction for both legislation and case law.
-Uses the Groq API for rapid parallel inference with strict rate limiting.
+Uses a local vLLM server for high-throughput parallel inference.
 
 Usage:
     python 3_extract_triples.py
@@ -25,41 +25,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config import (
     CORPUS_FILE, TRIPLES_FILE, NUM_WORKERS, SAVE_EVERY, MAX_RETRIES,
-    CANONICAL_ACTIONS,
+    CANONICAL_ACTIONS, VLLM_MODEL,
 )
 from utils.normalizers import (
     normalize_action, normalize_citation, extract_act_name,
     build_abbreviation_table, build_id_to_title_map,
 )
-from llm.client import get_groq_client, parse_llm_json
+from llm.client import get_vllm_client, parse_llm_json
 from llm.prompts import LEGISLATION_PROMPT, CASELAW_PROMPT
-
-# Specify the target blazing fast open-source model available on Groq
-GROQ_MODEL = "llama-3.1-8b-instant"
-
-
-# ─────────────────────────────────────────────
-# THREAD-SAFE RATE LIMITER
-# ─────────────────────────────────────────────
-class RateLimiter:
-    """Token bucket to limit API calls (e.g. max 900 requests per 60 seconds)."""
-    def __init__(self, max_calls: int, period: float):
-        self.max_calls = max_calls
-        self.period = period
-        self.calls = []
-        self.lock = threading.Lock()
-
-    def wait(self):
-        with self.lock:
-            now = time.time()
-            # Remove calls that are older than the tracking period
-            self.calls = [c for c in self.calls if c > now - self.period]
-            # If we've hit the limit, block until the oldest call expires
-            if len(self.calls) >= self.max_calls:
-                sleep_time = self.calls[0] - (now - self.period)
-                if sleep_time > 0:
-                    time.sleep(sleep_time)
-            self.calls.append(time.time())
 
 
 # ─────────────────────────────────────────────
@@ -68,13 +41,12 @@ class RateLimiter:
 
 def extract_triples(
     chunk: dict,
-    groq_client,
-    limiter: RateLimiter,
+    vllm_client,
     abbrev_table: dict,
     id_to_title: dict,
     max_retries: int = MAX_RETRIES,
 ) -> list[dict]:
-    """Extract legal triples from a single chunk using Groq."""
+    """Extract legal triples from a single chunk using vLLM."""
 
     # Choose prompt by source type
     is_judgment = chunk.get("source") == "judgment"
@@ -89,9 +61,7 @@ def extract_triples(
     if chunk.get('part'):
         user_content += f"PART: {chunk['part']}\n"
     if chunk.get('heading'):
-
-
-         user_content += f"HEADING: {chunk['heading']}\n"
+        user_content += f"HEADING: {chunk['heading']}\n"
     if chunk.get('in_force_date'):
         user_content += f"IN FORCE DATE: {chunk['in_force_date']}\n"
     if chunk.get('extent'):
@@ -107,15 +77,14 @@ def extract_triples(
     # Retry loop
     for attempt in range(max_retries):
         try:
-            limiter.wait()  # MUST PASS THE TOKEN BUCKET BEFORE HITTING API
-            response = groq_client.chat.completions.create(
-                model=GROQ_MODEL,
+            response = vllm_client.chat.completions.create(
+                model=VLLM_MODEL,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_content}
                 ],
                 temperature=0.1,
-                max_completion_tokens=2048,
+                max_tokens=2048,
             )
             raw_text = response.choices[0].message.content.strip()
             items = parse_llm_json(raw_text)
@@ -167,9 +136,12 @@ def extract_triples(
 
         except Exception as e:
             error_str = str(e).lower()
-            if "timeout" in error_str or "connection" in error_str or "429" in error_str:
-                wait = 5 * (attempt + 1)  # backoff: 5s, 10s, 15s
-                print(f"    ⏳ Rate limit or timeout (attempt {attempt+1}/{max_retries}), retrying in {wait}s...")
+            if "timeout" in error_str or "connection" in error_str:
+                import random
+                base_wait = 3 * (attempt + 1)
+                jitter = random.uniform(0, 2)
+                wait = base_wait + jitter
+                print(f"    ⏳ Timeout (attempt {attempt+1}/{max_retries}), retrying in {wait:.0f}s...")
                 time.sleep(wait)
             else:
                 print(f"    ❌ Error: {e}")
@@ -249,7 +221,7 @@ def print_quality_report(triples: list[dict]):
 def main():
     print("""
 ╔══════════════════════════════════════════════════════════╗
-║  LegalKGent — Step 3: Extract Triples (Groq Edition)    ║
+║  LegalKGent — Step 3: Extract Triples (vLLM Edition)    ║
 ╚══════════════════════════════════════════════════════════╝
     """)
 
@@ -265,13 +237,9 @@ def main():
     print(f"   Abbreviations: {len(abbrev_table)}")
     print(f"   Source docs: {len(id_to_title)}")
 
-    # 3. Connect to Groq
-    groq_client = get_groq_client()
-    print(f"🔌 Connected to Groq API ({GROQ_MODEL})")
-
-    # Initialize a 900 request per 60 seconds rate limiter
-    # This prevents us from hitting the 1000 RPM Groq cap
-    limiter = RateLimiter(max_calls=900, period=60.0)
+    # 3. Connect to vLLM
+    vllm_client = get_vllm_client()
+    print(f"🔌 Connected to vLLM server ({VLLM_MODEL})")
 
     # 4. Load existing results (resume support)
     if os.path.exists(TRIPLES_FILE):
@@ -283,9 +251,9 @@ def main():
         all_results = []
         already_done = set()
 
-    # 5. Filter to unprocessed chunks sequentially (No more biased batches)
+    # 5. Filter to unprocessed chunks sequentially
     chunks_to_process = [c for c in corpus if c['chunk_id'] not in already_done]
-    print(f"\n🚀 Processing remaining {len(chunks_to_process)} chunks systematically with {NUM_WORKERS} workers\n")
+    print(f"\n🚀 Processing remaining {len(chunks_to_process)} chunks with {NUM_WORKERS} workers\n")
 
     if not chunks_to_process:
         print("✅ All chunks already processed!")
@@ -293,13 +261,13 @@ def main():
         print_quality_report(all_results)
         return
 
-    # 6. Parallel extraction
+    # 6. Parallel extraction (no rate limiter needed — local vLLM)
     lock = threading.Lock()
     stats = {"processed": 0, "triples_found": 0}
     start_time = time.time()
 
     def process_one(chunk):
-        return chunk, extract_triples(chunk, groq_client, limiter, abbrev_table, id_to_title)
+        return chunk, extract_triples(chunk, vllm_client, abbrev_table, id_to_title)
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
         futures = {executor.submit(process_one, c): c for c in chunks_to_process}

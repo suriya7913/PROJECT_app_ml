@@ -60,11 +60,11 @@ MAX_TEXT_LEN     = 512
 # ─────────────────────────────────────────────
 # PROCESSING
 # ─────────────────────────────────────────────
-NUM_WORKERS = 2        # parallel workers — keep low for single GPU (Colab)
+NUM_WORKERS = 4        # parallel workers — local vLLM, no rate limits
 BATCH_SIZE  = 5000     # max corpus chunks per extraction run
 SAVE_EVERY  = 20       # checkpoint interval
-MAX_RETRIES = 3        # per-chunk LLM retry limit
-VLLM_TIMEOUT = 120     # seconds per vLLM request (Colab needs long timeout)
+MAX_RETRIES = 3        # per-chunk retry limit
+VLLM_TIMEOUT = 120     # seconds per vLLM request
 
 # ─────────────────────────────────────────────
 # FAISS
