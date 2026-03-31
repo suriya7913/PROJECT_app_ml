@@ -84,8 +84,11 @@ def extract_triples(
                     {"role": "user", "content": user_content}
                 ],
                 temperature=0.1,
-                max_tokens=4096, # Increased max_tokens
+                max_tokens=2048,
                 timeout=VLLM_TIMEOUT,
+                extra_body={
+                    "chat_template_kwargs": {"enable_thinking": False}
+                },
             )
             raw_text = response.choices[0].message.content.strip()
             items = parse_llm_json(raw_text)
