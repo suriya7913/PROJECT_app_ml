@@ -40,7 +40,7 @@ NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "LegalPassword123")
 # LLM — vLLM (local, for triple extraction)
 # ─────────────────────────────────────────────
 VLLM_BASE_URL = os.environ.get("VLLM_BASE_URL", "http://localhost:8000/v1")
-VLLM_MODEL    = os.environ.get("VLLM_MODEL",    "Qwen/Qwen2.5-7B-Instruct")
+VLLM_MODEL    = os.environ.get("VLLM_MODEL",    "Qwen/Qwen3-8B")
 
 # ─────────────────────────────────────────────
 # LLM — Mistral (cloud, for query agent)
@@ -64,7 +64,7 @@ NUM_WORKERS = 4        # parallel workers — local vLLM, no rate limits
 BATCH_SIZE  = 5000     # max corpus chunks per extraction run
 SAVE_EVERY  = 20       # checkpoint interval
 MAX_RETRIES = 3        # per-chunk retry limit
-VLLM_TIMEOUT = 120     # seconds per vLLM request
+VLLM_TIMEOUT = 300     # seconds per vLLM request
 
 # ─────────────────────────────────────────────
 # FAISS

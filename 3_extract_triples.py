@@ -25,7 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config import (
     CORPUS_FILE, TRIPLES_FILE, NUM_WORKERS, SAVE_EVERY, MAX_RETRIES,
-    CANONICAL_ACTIONS, VLLM_MODEL,
+    CANONICAL_ACTIONS, VLLM_MODEL, VLLM_TIMEOUT
 )
 from utils.normalizers import (
     normalize_action, normalize_citation, extract_act_name,
@@ -84,7 +84,8 @@ def extract_triples(
                     {"role": "user", "content": user_content}
                 ],
                 temperature=0.1,
-                max_tokens=2048,
+                max_tokens=4096, # Increased max_tokens
+                timeout=VLLM_TIMEOUT,
             )
             raw_text = response.choices[0].message.content.strip()
             items = parse_llm_json(raw_text)
