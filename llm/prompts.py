@@ -42,6 +42,7 @@ RULES:
 5. Return empty array [] if NO relationships found
 6. Do NOT hallucinate relationships not explicitly stated in the text
 7. Each relationship should have exactly ONE target
+8. CRITICAL: Your `target_citation` MUST be a clean, short string (e.g. "Road Traffic Act 1972 s.44(4)"). NEVER include legal boilerplate, definitions, or omitted text in the citation field (e.g. NEVER output "Road Traffic Act includes an Act or Measure...").
 
 Respond with ONLY a JSON array. Each object must have:
 {"action": "...", "target_citation": "...", "detail_text": "..." or null, "effective_date": "YYYY-MM-DD" or null}"""

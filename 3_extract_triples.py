@@ -131,8 +131,19 @@ def extract_triples(
                     continue
 
                 act_name = extract_act_name(citation)
-                is_self = bool(source_title and act_name and
-                               source_title.lower() in act_name.lower())
+                is_self = False
+                if source_title and act_name:
+                    s_lower = source_title.lower()
+                    a_lower = act_name.lower()
+                    if s_lower in a_lower or a_lower in s_lower:
+                        is_self = True
+                    else:
+                        # Fallback for hallucinated text: if generic terms match
+                        s_tokens = set(re.findall(r'\b\w+\b', s_lower))
+                        a_tokens = set(re.findall(r'\b\w+\b', a_lower))
+                        # If the Act name and Year both exist in the hallucinated string
+                        if len(s_tokens) > 2 and s_tokens.issubset(a_tokens):
+                            is_self = True
 
                 results.append({
                     "action": action,

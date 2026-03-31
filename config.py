@@ -40,7 +40,7 @@ NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "LegalPassword123")
 # LLM — vLLM (local, for triple extraction)
 # ─────────────────────────────────────────────
 VLLM_BASE_URL = os.environ.get("VLLM_BASE_URL", "http://localhost:8000/v1")
-VLLM_MODEL    = os.environ.get("VLLM_MODEL",    "Qwen/Qwen3-8B")
+VLLM_MODEL    = os.environ.get("VLLM_MODEL",    "Qwen/Qwen3-8B-FP8")
 
 # ─────────────────────────────────────────────
 # LLM — Mistral (cloud, for query agent)
