@@ -72,10 +72,10 @@ def extract_triples(
         term_names = list(defined_terms.keys())[:20]
         user_content += f"DEFINED TERMS: {', '.join(term_names)}\n"
 
-    # Cap amendments to 3 items, truncate each
+    # Send all amendments (truncate each to keep prompt manageable)
     inline_amend = chunk.get('inline_amendments')
     if inline_amend:
-        brief = [str(a)[:200] for a in inline_amend[:3]]
+        brief = [str(a)[:200] for a in inline_amend]
         user_content += f"AMENDMENTS: {json.dumps(brief)}\n"
 
     # Text content — truncate if too long to fit 8192 context
