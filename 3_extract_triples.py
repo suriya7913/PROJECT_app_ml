@@ -66,24 +66,12 @@ def extract_triples(
         user_content += f"IN FORCE DATE: {chunk['in_force_date']}\n"
     if chunk.get('extent'):
         user_content += f"EXTENT: {chunk['extent']}\n"
-    # Send only term NAMES (not definitions — those bloat 12k+ tokens on heavy Acts)
-    defined_terms = chunk.get('defined_terms')
-    if defined_terms and isinstance(defined_terms, dict):
-        term_names = list(defined_terms.keys())[:20]
-        user_content += f"DEFINED TERMS: {', '.join(term_names)}\n"
+    if chunk.get('defined_terms'):
+        user_content += f"DEFINED TERMS: {json.dumps(chunk['defined_terms'])}\n"
+    if chunk.get('inline_amendments'):
+        user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(chunk['inline_amendments'][:5])}\n"
 
-    # Send all amendments (truncate each to keep prompt manageable)
-    inline_amend = chunk.get('inline_amendments')
-    if inline_amend:
-        brief = [str(a)[:200] for a in inline_amend]
-        user_content += f"AMENDMENTS: {json.dumps(brief)}\n"
-
-    # Text content — truncate if too long to fit 8192 context
-    text_content = chunk.get('content') or chunk.get('vector_text', '')
-    if len(text_content) > 12000:
-        text_content = text_content[:12000] + "\n[...TRUNCATED...]"
-
-    user_content += f"\nTEXT:\n{text_content}\n\n"
+    user_content += f"\nTEXT:\n{chunk.get('content') or chunk.get('vector_text', '')}\n\n"
     user_content += "Respond with ONLY a JSON array of relationships. If none found, respond with []"
 
     # Retry loop
