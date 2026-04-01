@@ -40,9 +40,9 @@ NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "LegalPassword123")
 # LLM — vLLM (local, for triple extraction)
 # ─────────────────────────────────────────────
 VLLM_BASE_URL  = os.environ.get("VLLM_BASE_URL", "http://localhost:8000/v1")
-VLLM_MODEL     = os.environ.get("VLLM_MODEL",    "Qwen/Qwen3-8B-FP8")
+VLLM_MODEL     = os.environ.get("VLLM_MODEL",    "Qwen/Qwen3-8B")
 # Optional: Use a smaller, faster model just for summarizing definitions (e.g., 1.5B or 7B)
-GLOSSARY_MODEL = os.environ.get("GLOSSARY_MODEL", "Qwen/Qwen2.5-7B-Instruct")
+GLOSSARY_MODEL = os.environ.get("GLOSSARY_MODEL", "Qwen/Qwen2.5-3B-Instruct")
 
 # ─────────────────────────────────────────────
 # LLM — Mistral (cloud, for query agent)
