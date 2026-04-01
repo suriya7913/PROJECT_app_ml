@@ -24,7 +24,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config import (
     CORPUS_FILE, NUM_WORKERS, SAVE_EVERY, MAX_RETRIES,
-    VLLM_MODEL, VLLM_TIMEOUT
+    VLLM_MODEL, GLOSSARY_MODEL, VLLM_TIMEOUT
 )
 from llm.client import get_vllm_client
 
@@ -42,7 +42,7 @@ def summarize_term(act_id: str, term: str, raw_text: str, vllm_client, max_retri
     for attempt in range(max_retries):
         try:
             response = vllm_client.chat.completions.create(
-                model=VLLM_MODEL,
+                model=GLOSSARY_MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_content}
@@ -125,7 +125,7 @@ def main():
         print("✅ All glossaries summarized! Pipeline ready.")
         return
         
-    print(f"🔌 Connecting to vLLM server ({VLLM_MODEL})...")
+    print(f"🔌 Connecting to vLLM server (Extract: {VLLM_MODEL} | Glossary: {GLOSSARY_MODEL})...")
     vllm_client = get_vllm_client()
     
     print(f"🚀 Summarizing {len(tasks)} remaining definitions with {NUM_WORKERS} workers\n")
