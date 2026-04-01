@@ -30,6 +30,7 @@ from config import (
 from utils.normalizers import (
     normalize_action, normalize_citation, extract_act_name,
     build_abbreviation_table, build_id_to_title_map,
+    extract_matched_glossary
 )
 from llm.client import get_vllm_client, parse_llm_json
 from llm.prompts import LEGISLATION_PROMPT, CASELAW_PROMPT
@@ -44,6 +45,7 @@ def extract_triples(
     vllm_client,
     abbrev_table: dict,
     id_to_title: dict,
+    glossaries: dict,
     max_retries: int = MAX_RETRIES,
 ) -> list[dict]:
     """Extract legal triples from a single chunk using vLLM."""
@@ -66,12 +68,27 @@ def extract_triples(
         user_content += f"IN FORCE DATE: {chunk['in_force_date']}\n"
     if chunk.get('extent'):
         user_content += f"EXTENT: {chunk['extent']}\n"
-    if chunk.get('defined_terms'):
-        user_content += f"DEFINED TERMS: {json.dumps(chunk['defined_terms'])}\n"
+        
+    text_content = chunk.get('content') or chunk.get('vector_text', '')
+    
+    # --- DYNAMIC GLOSSARY RAG INJECTION ---
+    chunk_id = chunk['chunk_id']
+    act_id = chunk_id.rsplit('.xml_', 1)[0] if '.xml_' in chunk_id else chunk_id
+    act_glossary = glossaries.get(act_id, {})
+    
+    # Only find definitions that actually appear in the chunk text
+    matched_glossary = extract_matched_glossary(text_content, act_glossary)
+    
+    if matched_glossary:
+        user_content += "DEFINED TERMS:\n"
+        for term, summary in matched_glossary.items():
+            user_content += f" - {term}: {summary}\n"
+    # --------------------------------------
+
     if chunk.get('inline_amendments'):
         user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(chunk['inline_amendments'][:5])}\n"
 
-    user_content += f"\nTEXT:\n{chunk.get('content') or chunk.get('vector_text', '')}\n\n"
+    user_content += f"\nTEXT:\n{text_content}\n\n"
     user_content += "Respond with ONLY a JSON array of relationships. If none found, respond with []"
 
     # Retry loop
@@ -252,6 +269,14 @@ def main():
     print(f"   Abbreviations: {len(abbrev_table)}")
     print(f"   Source docs: {len(id_to_title)}")
 
+    glossaries = {}
+    if os.path.exists("data/glossary_summaries.json"):
+        with open("data/glossary_summaries.json", "r", encoding="utf-8") as f:
+            glossaries = json.load(f)
+        print(f"   Glossaries: {len(glossaries)} Acts loaded")
+    else:
+        print("   ⚠️ No glossary summaries found. Run 2.5_build_glossary_summaries.py for optimal extraction.")
+
     # 3. Connect to vLLM
     vllm_client = get_vllm_client()
     print(f"🔌 Connected to vLLM server ({VLLM_MODEL})")
@@ -282,7 +307,7 @@ def main():
     start_time = time.time()
 
     def process_one(chunk):
-        return chunk, extract_triples(chunk, vllm_client, abbrev_table, id_to_title)
+        return chunk, extract_triples(chunk, vllm_client, abbrev_table, id_to_title, glossaries)
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
         futures = {executor.submit(process_one, c): c for c in chunks_to_process}

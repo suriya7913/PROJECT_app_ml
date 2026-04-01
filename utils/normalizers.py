@@ -141,3 +141,25 @@ def build_id_to_title_map(corpus: list[dict]) -> dict:
         if prefix and prefix not in id_to_title:
             id_to_title[prefix] = c.get("doc_title", prefix)
     return id_to_title
+
+
+def extract_matched_glossary(text: str, act_glossary: dict) -> dict:
+    """
+    Given a chunk's text and the full glossary for its parent Act,
+    return only the {term: summary} pairs that actually appear in the text.
+    Uses fast regex word-boundary matching.
+    """
+    if not act_glossary or not text:
+        return {}
+        
+    matched = {}
+    # Sort terms by length descending, so we match longer terms first
+    sorted_terms = sorted(act_glossary.keys(), key=len, reverse=True)
+    
+    for term in sorted_terms:
+        # Build safe word-boundary pattern, allowing basic plurals
+        pattern = r'\b' + re.escape(term) + r'(s|es)?\b' 
+        if re.search(pattern, text, flags=re.IGNORECASE):
+            matched[term] = act_glossary[term]
+            
+    return matched
