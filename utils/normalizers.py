@@ -45,8 +45,8 @@ def normalize_citation(raw_citation: str, abbrev_table: dict | None = None) -> s
     # Qwen3-FP8 frequently hallucinates boilerplate like:
     # "Road Traffic “ Act ” includes an Act or Measure of the National Assembly for Wales...arliament;"
     citation = re.sub(
-        r'[\"\'\u201c\u201d\u2018\u2019]*Act[\"\'\u201c\u201d\u2018\u2019]*\s*includes\s+an\s+Act\s+or\s+Measure.+?(?:;|(?=s\.|\d))', 
-        '', citation, flags=re.IGNORECASE|re.DOTALL
+        r'[\"\'\u201c\u201d\u2018\u2019]*\s*Act\s*[\"\'\u201c\u201d\u2018\u2019]*\s*includes\s+an\s+Act\s+or\s+Measure.+?(?:;|(?=s\.|19|20))', 
+        'Act', citation, flags=re.IGNORECASE|re.DOTALL
     )
     citation = re.sub(
         r'Where\s+an\s+exemption\s+is\s+conferred.+?(?:;|(?=s\.|\d))',
