@@ -91,15 +91,7 @@ def build_abbreviation_table(corpus: list[dict]) -> dict:
     """
     abbrev_table = {}
 
-    # 1. From defined_terms in smart chunks
-    for chunk in corpus:
-        terms = chunk.get("defined_terms")
-        if terms and isinstance(terms, dict):
-            for short, full in terms.items():
-                if short and full and len(short) < len(full):
-                    abbrev_table[short] = full
-
-    # 2. From text patterns: '... Full Act Name Year ("abbreviation")'
+    # From text patterns: '... Full Act Name Year ("abbreviation")'
     pattern = re.compile(
         r'((?:the\s+)?[A-Z][A-Za-z\s,\'-]+?Act\s+\d{4})\s*'
         r'\(\s*["\u201c]\s*((?:the\s+)?[A-Z][A-Za-z\s]+?\d{4})\s*["\u201d]\s*\)'
