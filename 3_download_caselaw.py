@@ -2,7 +2,7 @@
 """
 LegalKGent — Step 1B: Smart Case Law Downloader
 ================================================
-Reads the processed legislation corpus (from 2a_build_corpus_legislation.py)
+Reads the processed legislation corpus (from 2_build_corpus_legislation.py)
 and autonomously generates highly specific search queries to find relevant
 judgments from the National Archives.
 
@@ -10,7 +10,7 @@ Queries are formatted as exact-match combinations:
     "Transport Act 1980" AND "section 34"
 
 Usage:
-    python 1b_download_caselaw.py
+    python 3_download_caselaw.py
 """
 
 import os, json, time, asyncio, logging
@@ -81,7 +81,7 @@ class AsyncClient:
 def generate_queries() -> set[str]:
     """Parse existing data to generate strict exact-match queries."""
     if not os.path.exists(CORPUS_FILE):
-        log.error(f"Missing {CORPUS_FILE}. Run 2a_build_corpus_legislation.py first!")
+        log.error(f"Missing {CORPUS_FILE}. Run 2_build_corpus_legislation.py first!")
         return set()
     
     with open(CORPUS_FILE, 'r', encoding='utf-8') as f:

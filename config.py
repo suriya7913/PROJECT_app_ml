@@ -47,16 +47,16 @@ GLOSSARY_MODEL = os.environ.get("GLOSSARY_MODEL", "Qwen/Qwen2.5-3B-Instruct")
 # ─────────────────────────────────────────────
 # LLM — Mistral (cloud, for query agent)
 # ─────────────────────────────────────────────
-MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "wTPmklMivGd5WB14RsLnms5DUw1pOeHh")
-MISTRAL_MODEL   = os.environ.get("MISTRAL_MODEL",   "mistral-large-latest")
+LIGHTNING_API_KEY = os.environ.get("LIGHTNING_API_KEY", "e5f2bb78-88e0-4607-8e18-f4c86f6604d9/subburaj2927/fraud-model")
+QUERY_MODEL   = "openai/gpt-5.4-2026-03-05"
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
-
+OPEN_ROUTER= os.environ.get("OPEN_ROUTER", "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")
 # ─────────────────────────────────────────────
 # EMBEDDINGS
 # ─────────────────────────────────────────────
 EMBED_MODEL      = "all-MiniLM-L6-v2"
 EMBED_DIM        = 384
-EMBED_BATCH_SIZE = 512
+EMBED_BATCH_SIZE = 200
 MAX_TEXT_LEN     = 512
 
 # ─────────────────────────────────────────────
@@ -166,7 +166,7 @@ ACTION_NORMALIZER = {
 }
 
 # ─────────────────────────────────────────────
-# LEGAL DOMAIN CONCEPTS (for 4_ingest_neo4j.py)
+# LEGAL DOMAIN CONCEPTS (for 7_ingest_neo4j.py)
 # ─────────────────────────────────────────────
 CONCEPTS = [
     {

@@ -6,7 +6,7 @@ Parses all raw XML files (legislation, SIs, case law) into a unified
 corpus with CLML structural metadata. Also loads effects triples.
 
 Usage:
-    python 2b_build_corpus_final.py
+    python 4_build_corpus_final.py
 
 Reads:
     data/raw_legislation/*.xml

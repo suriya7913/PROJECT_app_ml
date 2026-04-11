@@ -1,4 +1,4 @@
-# Step 3 — Triple Extraction (`3_extract_triples.py`)
+# Step 3 — Triple Extraction (`6_extract_triples.py`)
 
 > **362 lines** · LLM-based knowledge triple extraction using vLLM with parallel workers, resumable checkpointing, and post-processing.
 
@@ -55,7 +55,7 @@ flowchart TD
     LEG_PROMPT & CASE_PROMPT --> BUILD["Build user content message:<br/>• DOCUMENT ID<br/>• TITLE<br/>• SOURCE TYPE<br/>• PART, HEADING<br/>• IN_FORCE_DATE, EXTENT<br/>• DEFINED_TERMS<br/>• PRE-MARKED AMENDMENTS (first 5)<br/>• EXPLANATORY NOTE<br/>• Full TEXT content"]
 
     BUILD --> RETRY["Retry loop<br/>(up to MAX_RETRIES = 3)"]
-    RETRY --> CALL["vLLM chat.completions.create()<br/>model: Qwen2.5-7B-Instruct<br/>temperature: 0.1<br/>max_tokens: 2048"]
+    RETRY --> CALL["vLLM chat.completions.create()<br/>model: Qwen3-8B<br/>temperature: 0.1<br/>max_tokens: 2048"]
     CALL -->|"timeout/error"| BACKOFF["Exponential backoff<br/>5s, 10s, 15s"]
     BACKOFF --> RETRY
     CALL -->|"success"| RAW["Get raw text response"]

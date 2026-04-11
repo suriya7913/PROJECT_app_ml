@@ -5,19 +5,19 @@ LegalKGent — Step 7: Evaluate GraphRAG
 Runs test questions and scores the agent's answers.
 
 Usage:
-    python 7_evaluate.py
+    python 10_evaluate.py
 """
 
 import json
 import importlib.util
 import time
 
-# Import agent_ask from 6_query_agent
-spec = importlib.util.spec_from_file_location("query_agent", "6_query_agent.py")
+# Import run_legal_pipeline from 6_multi_agent_graphrag
+spec = importlib.util.spec_from_file_location("multi_agent", "9_multi_agent_graphrag.py")
 _mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(_mod)
 
-agent_ask = _mod.agent_ask
+agent_ask = _mod.run_legal_pipeline
 
 # Load Phoenix tracer
 from opentelemetry import trace

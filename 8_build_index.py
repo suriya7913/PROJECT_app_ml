@@ -6,7 +6,7 @@ Generates embeddings for all corpus chunks using sentence-transformers
 and builds a FAISS index for fast semantic search.
 
 Usage:
-    python 5_build_index.py
+    python 8_build_index.py
 
 Reads:
     data/legal_corpus_final.json
@@ -51,7 +51,7 @@ def main():
             continue
         texts.append(content[:MAX_TEXT_LEN])
         id_map.append({
-            "node_id":   chunk["id"],
+            "node_id":   chunk.get("chunk_id", chunk.get("id", "UNKNOWN")),
             "doc_title": chunk.get("doc_title", ""),
             "section":   chunk.get("section", ""),
             "source":    chunk.get("source", ""),

@@ -6,7 +6,7 @@ Unified client creation and JSON response parsing.
 
 import json
 import re
-from config import VLLM_BASE_URL, VLLM_MODEL, VLLM_TIMEOUT, MISTRAL_API_KEY, MISTRAL_MODEL
+from config import VLLM_BASE_URL, VLLM_MODEL, VLLM_TIMEOUT, LIGHTNING_API_KEY
 
 
 def get_vllm_client():
@@ -23,10 +23,13 @@ def get_vllm_client():
     )
 
 
-def get_mistral_client():
-    """Create a Mistral client for the query agent."""
-    from mistralai import Mistral
-    return Mistral(api_key=MISTRAL_API_KEY)
+def get_query_client():
+    """Create an OpenAI client for the query agent hitting Lightning AI."""
+    from openai import OpenAI
+    return OpenAI(
+        base_url="https://lightning.ai/api/v1/",
+        api_key=LIGHTNING_API_KEY,
+    )
 
 
 def parse_llm_json(raw_text: str) -> list[dict] | None:

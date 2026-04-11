@@ -6,7 +6,7 @@ Unified triple extraction for both legislation and case law.
 Uses a local vLLM server for high-throughput parallel inference.
 
 Usage:
-    python 3_extract_triples.py
+    python 6_extract_triples.py
 
 Reads:
     data/legal_corpus_final.json
@@ -275,7 +275,7 @@ def main():
             glossaries = json.load(f)
         print(f"   Glossaries: {len(glossaries)} Acts loaded")
     else:
-        print("   ⚠️ No glossary summaries found. Run 2.5_build_glossary_summaries.py for optimal extraction.")
+        print("   ⚠️ No glossary summaries found. Run 5_build_glossary_summaries.py for optimal extraction.")
 
     # 3. Connect to vLLM
     vllm_client = get_vllm_client()

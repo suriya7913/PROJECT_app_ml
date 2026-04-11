@@ -43,7 +43,13 @@ def create_indexes():
     with driver.session() as session:
         session.run("CREATE INDEX IF NOT EXISTS FOR (n:LegalDoc) ON (n.id)")
         session.run("CREATE INDEX IF NOT EXISTS FOR (n:LegalDoc) ON (n.citation)")
-    print("📇 Created indexes on LegalDoc.id and LegalDoc.citation")
+        
+        # FTS index for fuzzy entity matching in graph_search
+        try:
+            session.run("CREATE FULLTEXT INDEX legal_doc_ft IF NOT EXISTS FOR (n:LegalDoc) ON EACH [n.title, n.citation, n.heading]")
+        except Exception:
+            pass # Ignore if already exists and driver doesn't support IF NOT EXISTS
+    print("📇 Created indexes (including FTS) on LegalDoc")
 
 
 def get_schema() -> dict:

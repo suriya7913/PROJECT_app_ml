@@ -7,7 +7,7 @@ This is required BEFORE downloading case law, as the case law
 downloader depends on the parsed legislation titles to generate queries.
 
 Usage:
-    python 2a_build_corpus_legislation.py
+    python 2_build_corpus_legislation.py
 
 Reads:
     data/raw_legislation/*.xml

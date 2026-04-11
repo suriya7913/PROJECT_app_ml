@@ -1,24 +1,49 @@
 # Step 2 — Corpus Building & XML Parsing
 
-> **`2_build_corpus.py`** (78 lines) orchestrates parsing.  
-> **`utils/xml_parser.py`** (628 lines) contains all XML parsers.  
-> **`utils/normalizers.py`** (124 lines) provides abbreviation & citation normalization.
+> **`2_build_corpus_legislation.py`** parses legislation/SI XML into an intermediate corpus.  
+> **`4_build_corpus_final.py`** builds the unified corpus (legislation + caselaw + effects).  
+> **`5_build_glossary_summaries.py`** uses vLLM (Qwen2.5-3B-Instruct) to summarize XML `<Term>` definitions into single sentences for RAG injection.  
+> **`utils/xml_parser.py`** contains all XML parsers.  
+> **`utils/normalizers.py`** provides abbreviation & citation normalization.
 
 ---
 
-## Orchestrator Flow (`2_build_corpus.py`)
+## Orchestrator Flow
+
+### Step 2a: `2_build_corpus_legislation.py`
+Parses **only** primary legislation and SIs. Must run before `3_download_caselaw.py` since case law search queries depend on parsed legislation titles.
+
+### Step 2b: `4_build_corpus_final.py`
 
 ```mermaid
 flowchart TD
-    START(["main()"]) --> PARSE["build_smart_corpus()<br/><i>from utils/xml_parser.py</i>"]
+    START(["main()"]) --> PARSE["build_smart_corpus()<br/><i>types: legislation, si, caselaw</i><br/><i>from utils/xml_parser.py</i>"]
     PARSE --> SAVE_CORPUS["💾 Save to<br/>legal_corpus_final.json"]
     SAVE_CORPUS --> ABBREV["build_abbreviation_table(corpus)<br/><i>from utils/normalizers.py</i>"]
     ABBREV --> IDMAP["build_id_to_title_map(corpus)<br/><i>from utils/normalizers.py</i>"]
-    IDMAP --> STATS["📊 Print Summary:<br/>• Total chunks<br/>• Abbreviations found<br/>• Source documents<br/>• Type distribution<br/>• Chunks with notes"]
+    IDMAP --> STATS["📊 Print Summary:<br/>• Total chunks<br/>• Abbreviations found<br/>• Source documents<br/>• Type distribution"]
     STATS --> EFFECTS["load_effects_triples()<br/><i>from utils/xml_parser.py</i>"]
     EFFECTS -->|"effects found"| SAVE_EFF["💾 Save to<br/>effects_triples.json"]
     EFFECTS -->|"none"| DONE
     SAVE_EFF --> DONE(["✅ Done"])
+```
+
+### Step 2.5: `5_build_glossary_summaries.py`
+
+Extracts all `<Term>` definitions from the corpus and uses vLLM (Qwen2.5-3B-Instruct) to summarize them into single sentences for dynamic RAG injection during triple extraction.
+
+```mermaid
+flowchart TD
+    START(["main()"]) --> LOAD["Load legal_corpus_final.json"]
+    LOAD --> EXTRACT["Extract defined_terms<br/>from all chunks"]
+    EXTRACT --> RESUME{"Existing glossary<br/>file exists?"}
+    RESUME -->|yes| FILTER["Filter to<br/>unsummarized terms"]
+    RESUME -->|no| QUEUE["Queue all terms"]
+    FILTER --> WORKERS
+    QUEUE --> WORKERS
+    WORKERS["ThreadPoolExecutor<br/>(NUM_WORKERS threads)"] --> VLLM["vLLM summarize_term()<br/>model: Qwen2.5-3B-Instruct<br/>temperature: 0.1, max_tokens: 64"]
+    VLLM --> SAVE["💾 Save glossary_summaries.json<br/>(checkpointed every SAVE_EVERY)"]
+    SAVE --> DONE(["✅ Done"])
 ```
 
 ---

@@ -1,18 +1,18 @@
 # Step 7 — Evaluation & End-to-End Data Flow
 
-> **`7_evaluate.py`** (148 lines) — Runs 5 test questions against the agent and scores accuracy.  
+> **`10_evaluate.py`** (148 lines) — Runs 5 test questions against the agent and scores accuracy.  
 > This document also contains the **complete end-to-end data flow summary** across all 7 steps.
 
 ---
 
-## Part A: Evaluation (`7_evaluate.py`)
+## Part A: Evaluation (`10_evaluate.py`)
 
 ### Execution Flow
 
 ```mermaid
 flowchart TD
-    START(["evaluate()"]) --> IMPORT["Import agent_ask from<br/>6_query_agent.py<br/>(via importlib.util)"]
-    IMPORT --> INIT["Call _init()<br/>Load FAISS, Neo4j, Mistral"]
+    START(["evaluate()"]) --> IMPORT["Import run_pipeline from<br/>9_multi_agent_graphrag.py"]
+    IMPORT --> INIT["Call _init()<br/>Load FAISS, Neo4j, Corpus"]
     INIT --> LOOP["For each TEST_QUESTION<br/>(5 questions)"]
 
     LOOP --> TRACE["Start Phoenix trace span<br/>(eval_q1, eval_q2, ...)"]
@@ -119,7 +119,7 @@ flowchart TB
     end
 
     subgraph "🤖 Step 3 — Extract Triples"
-        CORPUS -->|"vLLM (Qwen2.5-7B)<br/>+ system prompts"| TRIPLES["📄 extracted_triples.json<br/><b>2000-10000 triples</b><br/>action, target_citation,<br/>detail_text, effective_date"]
+        CORPUS -->|"vLLM (Qwen3-8B)<br/>+ system prompts"| TRIPLES["📄 extracted_triples.json<br/><b>2000-10000 triples</b><br/>action, target_citation,<br/>detail_text, effective_date"]
     end
 
     subgraph "🧠 Step 4 — Ingest"
@@ -132,15 +132,18 @@ flowchart TB
         CORPUS -->|"all-MiniLM-L6-v2"| FAISS["🗂️ FAISS Index<br/><b>N × 384 vectors</b><br/>+ id_map.json"]
     end
 
-    subgraph "🔍 Step 6 — Query Agent"
-        FAISS --> AGENT["🤖 ReAct Agent<br/>(Mistral large)"]
-        NEO --> AGENT
-        CORPUS --> AGENT
-        AGENT --> ANSWER["💬 Grounded<br/>legal answer"]
+    subgraph "🔍 Step 6 — Multi-Agent GraphRAG"
+        FAISS --> A1["Agent 1: Retriever<br/>Semantic Search"]
+        A1 --> A2["Agent 2: Graph Engineer<br/>Neo4j Subgraph Expansion"]
+        NEO --> A2
+        A2 --> A3["Agent 3: Context Aggregator<br/>Document Text Fetcher"]
+        CORPUS --> A3
+        A3 --> A4["Agent 4: Senior Counsel<br/>(OpenRouter Qwen3.6-plus)"]
+        A4 --> ANSWER["💬 Grounded<br/>legal answer"]
     end
 
     subgraph "📊 Step 7 — Evaluate"
-        AGENT --> EVAL["📄 evaluation_results.json<br/><b>5 test results</b><br/>has_answer, has_grounding,<br/>actions_found, elapsed_seconds"]
+        A4 --> EVAL["📄 evaluation_results.json<br/><b>5 test results</b><br/>has_answer, has_grounding,<br/>actions_found, elapsed_seconds"]
     end
 ```
 
@@ -156,8 +159,8 @@ flowchart TB
 | **3. Extract** | Corpus JSON + vLLM | LLM inference → JSON parse → normalize | `extracted_triples.json` | `{action, target_citation, detail_text, source_id, ...}` |
 | **4. Ingest** | Triples + Effects + Corpus | MERGE Cypher + confidence accumulation | Neo4j `:LegalDoc` / `:LEGAL_RELATIONSHIP` / `:Concept` | Property graph |
 | **5. Index** | Corpus JSON | SentenceTransformer → FAISS IndexFlatIP | `index.faiss` + `id_map.json` | Binary + `{node_id, doc_title, section, text}` |
-| **6. Query** | User question | ReAct loop: semantic_search → run_cypher → lookup_corpus | Natural language answer | Grounded legal citation text |
-| **7. Evaluate** | 5 test questions | `agent_ask()` per question → score | `evaluation_results.json` | `{has_answer, has_grounding, actions_found, elapsed_seconds}` |
+| **6. Query** | User question | 4-Agent pipeline: Retriever → Graph Engineer → Aggregator → Senior Counsel | Natural language answer | Grounded legal citation text |
+| **7. Evaluate** | 5 test questions | `run_pipeline()` per question → score | `evaluation_results.json` | `{has_answer, has_grounding, actions_found, elapsed_seconds}` |
 
 ---
 
@@ -176,8 +179,9 @@ mindmap
       requests + ThreadPoolExecutor
       asyncio
     🤖 LLMs
-      vLLM + Qwen2.5-7B-Instruct
-      Mistral large-latest
+      vLLM + Qwen3-8B
+      Glossary: Qwen2.5-3B-Instruct
+      OpenRouter Qwen3.6-plus
       OpenAI-compatible API
     🧠 Knowledge Graph
       Neo4j (Bolt protocol)

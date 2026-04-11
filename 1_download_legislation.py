@@ -56,7 +56,7 @@ LEGISLATION_DIR = os.path.join(OUTPUT_DIR, "raw_legislation")
 CASELAW_DIR     = os.path.join(OUTPUT_DIR, "raw_caselaw")
 SI_DIR          = os.path.join(OUTPUT_DIR, "raw_statutory_instruments")
 AMENDMENTS_DIR  = os.path.join(OUTPUT_DIR, "amendments")
-NOTES_DIR       = os.path.join(OUTPUT_DIR, "explanatory_notes")
+# NOTES_DIR       = os.path.join(OUTPUT_DIR, "explanatory_notes")
 MANIFEST_FILE   = os.path.join(OUTPUT_DIR, "download_manifest.json")
 
 for d in [LEGISLATION_DIR, CASELAW_DIR, SI_DIR, AMENDMENTS_DIR]:
@@ -100,9 +100,9 @@ TRANSPORT_SUBJECTS = [
     "tachographs",
 ]
 
-ALL_TYPES       = "ukpga+uksi+asp+wsi+ssi+nisr"
+ALL_TYPES       = "ukpga+uksi"   # UK Acts + UK SIs only (no Welsh/Scot/NI for POC)
 PRIMARY_TYPES   = "ukpga+asp+nia"
-SECONDARY_TYPES = "uksi+wsi+ssi+nisr"
+SECONDARY_TYPES = "uksi"          # UK SIs only
 
 # Layer 1B: Title keyword search — confirmed from OpenAPI:
 #   GET /title/{title}/data.feed
@@ -131,8 +131,8 @@ TITLE_KEYWORDS = [
 ]
 
 # Layer 2: Year enumeration — GET /{type}/{year}/data.feed
-YEAR_ENUM_RANGE = range(1988, 2025)   # focused range for transport
-YEAR_ENUM_TYPES = ["uksi", "wsi", "ssi", "nisr"]
+YEAR_ENUM_RANGE = range(2000, 2027)   # narrowed for POC scope
+YEAR_ENUM_TYPES = ["uksi"]             # UK SIs only (no wsi/ssi/nisr)
 YEAR_FILTER_RE  = re.compile(
     r"transport|road\s*traffic|highway|motor\s*vehicle|driving|railway"
     r"|aviation|shipping|tachograph|traffic\s*sign|vehicle\s*licen"
@@ -174,6 +174,10 @@ SEED_ACTS = [
 class URIRegistry:
     """Deduplicated store of all discovered legislation URIs."""
 
+    PRIMARY_TYPES   = {"ukpga", "asp", "anaw", "mwa", "nia", "ukcm"}
+    SECONDARY_TYPES = {"uksi"}  # Only UK SIs for POC
+    NON_UK_SI_TYPES = {"ssi", "wsi", "nisr", "ukmo", "ukmd"}  # Excluded
+
     def __init__(self):
         self._items = OrderedDict()
 
@@ -195,12 +199,28 @@ class URIRegistry:
         return len(self._items)
 
     def acts(self):
-        primary = {"ukpga", "asp", "anaw", "mwa", "nia", "ukcm"}
-        return [i for i in self.items if i["type"] in primary]
+        return [i for i in self.items if i["type"] in self.PRIMARY_TYPES]
 
     def sis(self):
-        secondary = {"uksi", "ssi", "wsi", "nisr", "ukmo", "ukmd"}
-        return [i for i in self.items if i["type"] in secondary]
+        return [i for i in self.items if i["type"] in self.SECONDARY_TYPES]
+
+    def filter_by_year(self, min_si_year: int):
+        """Remove non-UK SIs entirely + UK SIs older than min_si_year. Keep all primary Acts."""
+        before = len(self._items)
+        to_remove = [
+            key for key, item in self._items.items()
+            if (
+                # Drop all non-UK SI types (Welsh, Scottish, NI)
+                item["type"] in self.NON_UK_SI_TYPES
+                # Drop UK SIs older than min year
+                or (item["type"] in self.SECONDARY_TYPES and item["year"] < min_si_year)
+            )
+        ]
+        for key in to_remove:
+            del self._items[key]
+        pruned = len(to_remove)
+        log.info(f"  Year filter (uksi ≥ {min_si_year}, drop non-UK SIs): removed {pruned}, kept {len(self._items)}")
+        return pruned
 
 
 # ═══════════════════════════════════════════════════════════
@@ -245,6 +265,10 @@ def parse_atom_feed(xml_bytes: bytes) -> tuple[list[dict], str | None]:
 
         # Normalise to path
         path = re.sub(r"^https?://www\.legislation\.gov\.uk", "", raw)
+
+        # Strip the /id/ prefix that legislation.gov.uk Atom feeds use
+        # e.g. /id/ukpga/2024/3 → /ukpga/2024/3
+        path = re.sub(r"^/id/", "/", path)
 
         # Must match /{type}/{year}/{number}
         m = re.match(r"^/([a-z]+)/(\d+)/(\d+)$", path)
@@ -671,11 +695,17 @@ async def run(args):
 
         log.info(f"""
 {'='*55}
-DISCOVERY COMPLETE
+DISCOVERY COMPLETE (before filter)
   Total unique URIs : {len(registry)}
   Primary Acts      : {len(registry.acts())}
   SIs / instruments : {len(registry.sis())}
 {'='*55}""")
+
+        # ── Filter: prune old SIs to keep corpus manageable ──
+        if args.min_si_year:
+            registry.filter_by_year(args.min_si_year)
+            log.info(f"  After filter: {len(registry)} URIs  "
+                     f"(Acts={len(registry.acts())}, SIs={len(registry.sis())})")
 
         if args.discover_only:
             print("\n── URI List ──")
@@ -728,9 +758,9 @@ def main():
 
     # ── Optional fine-tuning ───────────────────────────────
     SKIP_YEAR_ENUM = False   # True = skip year enumeration (Layer 2), saves ~1.5 min
-    SKIP_CASELAW   = True    # Skipped for Phase 1
-    SKIP_CASELAW   = True    # Skipped for Phase 1
+    SKIP_CASELAW   = True    # Skipped; smart downloader in script 3 is preferred
     WORKERS        = 8       # Concurrent requests. Max safe = 10 (rate limit)
+    MIN_SI_YEAR    = 2000    # Drop SIs older than this year (None = keep all)
     # ──────────────────────────────────────────────────────
 
     # Build args from config (works in both Colab and terminal)
@@ -739,7 +769,7 @@ def main():
         discover_only  = (MODE == "discover")
         skip_year_enum = SKIP_YEAR_ENUM
         no_caselaw     = SKIP_CASELAW
-
+        min_si_year    = MIN_SI_YEAR
         workers        = WORKERS
 
     args = Args()

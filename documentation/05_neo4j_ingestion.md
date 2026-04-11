@@ -1,4 +1,4 @@
-# Step 4 — Neo4j Ingestion (`4_ingest_neo4j.py`)
+# Step 4 — Neo4j Ingestion (`7_ingest_neo4j.py`)
 
 > **314 lines** · Ingests extracted triples into Neo4j with confidence accumulation, corpus enrichment, concept nodes, and provenance tracking.
 

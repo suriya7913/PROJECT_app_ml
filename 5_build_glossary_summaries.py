@@ -7,7 +7,7 @@ server to summarize them into single sentences. This allows for dynamic,
 low-token RAG injection during triple extraction.
 
 Usage:
-    python 2.5_build_glossary_summaries.py
+    python 5_build_glossary_summaries.py
 
 Reads:
     data/legal_corpus_final.json

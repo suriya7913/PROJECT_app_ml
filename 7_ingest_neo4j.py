@@ -9,7 +9,7 @@ Ingests extracted triples into Neo4j with:
   - Concept node creation
 
 Usage:
-    python 4_ingest_neo4j.py
+    python 7_ingest_neo4j.py
 
 Reads:
     data/extracted_triples.json
