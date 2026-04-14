@@ -1,46 +1,36 @@
 #!/usr/bin/env python3
 """
-LegalKGent — Transportation Law Data Downloader v3
-====================================================
-Rewrote using the OFFICIAL OpenAPI documentation from legislation.gov.uk.
 
-Key corrections vs v2:
-  ✅ Subject search uses PATH segments (not query params):
-       /ukpga+uksi/transport/data.feed
-       /{type}/{year}/{subject}/data.feed
-  ✅ Title search uses /title/{title}/data.feed
-  ✅ Effects/Changes API uses /changes/affected/{type}/{year}/{num}/data.feed
-  ✅ Notes uses /{type}/{year}/{num}/notes/data.xml (notesType path segment)
-  ✅ Full parallel I/O via requests + ThreadPoolExecutor
-       → 3000 req/5min rate limit = 10/s max; 8 concurrent is safe
-       → Expected speedup: ~8x vs v2 sequential
 
-Estimated runtime (Colab):
-  Full run  : ~20-30 min  (was ~2.5 hrs in v2
-  Fast mode : ~5-8 min    (--fast: skip year enum + limit pages)
-
-Usage:
-    python download_transport_data_v3.py
-    python download_transport_data_v3.py --fast           # Quick run, fewer pages
-    python download_transport_data_v3.py --discover-only  # Just list URIs found
-    python download_transport_data_v3.py --skip-year-enum # Skip slow year crawl
-    python download_transport_data_v3.py --workers 12     # More workers (careful)
+This script does three things:
+  1. DISCOVER — find all relevant legislation URIs via subject, title, and year searches
+  2. FILTER   — remove non-UK SIs and old SIs to keep the corpus manageable
+  3. DOWNLOAD — fetch the actual XML for each discovered URI + its effects feed
 """
 
-import os, re, json, time, logging, asyncio
+import os
+import re
+import json
+import time
+import logging
+import xml.etree.ElementTree as ET
 from datetime import datetime
 from collections import OrderedDict
 from urllib.parse import quote
-from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-ASYNC_AVAILABLE = True  # kept for compatibility — we use threads not aiohttp
+from config import (
+    RAW_LEGISLATION_DIR, RAW_CASELAW_DIR, RAW_SI_DIR, AMENDMENTS_DIR, MANIFEST_FILE,
+    MAX_RETRIES, DOWNLOAD_RATE_LIMIT_WAIT, MAX_PAGES_PER_FEED
+)
 
 # ─────────────────────────────────────────────
-# LOGGING
+# LOGGING SETUP
 # ─────────────────────────────────────────────
+# This sets up console output so you can see what's happening while it runs.
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-7s  %(message)s",
@@ -48,42 +38,35 @@ logging.basicConfig(
 )
 log = logging.getLogger("LegalKGent")
 
-# ─────────────────────────────────────────────
-# DIRECTORIES
-# ─────────────────────────────────────────────
-OUTPUT_DIR      = "data"
-LEGISLATION_DIR = os.path.join(OUTPUT_DIR, "raw_legislation")
-CASELAW_DIR     = os.path.join(OUTPUT_DIR, "raw_caselaw")
-SI_DIR          = os.path.join(OUTPUT_DIR, "raw_statutory_instruments")
-AMENDMENTS_DIR  = os.path.join(OUTPUT_DIR, "amendments")
-# NOTES_DIR       = os.path.join(OUTPUT_DIR, "explanatory_notes")
-MANIFEST_FILE   = os.path.join(OUTPUT_DIR, "download_manifest.json")
 
-for d in [LEGISLATION_DIR, CASELAW_DIR, SI_DIR, AMENDMENTS_DIR]:
+# ─────────────────────────────────────────────
+# CREATE OUTPUT DIRECTORIES
+# ─────────────────────────────────────────────
+# These folders will hold the downloaded XML files.
+for d in [RAW_LEGISLATION_DIR, RAW_CASELAW_DIR, RAW_SI_DIR, AMENDMENTS_DIR]:
     os.makedirs(d, exist_ok=True)
+
 
 # ─────────────────────────────────────────────
 # CONSTANTS
 # ─────────────────────────────────────────────
-BASE_URL       = "https://www.legislation.gov.uk"
-HEADERS        = {
+BASE_URL = "https://www.legislation.gov.uk"
+HEADERS = {
     "User-Agent": "LegalKGent-Research-Project/3.0 (university-research)",
     "Accept":     "application/xml, application/atom+xml, */*",
 }
-MAX_CONCURRENT = 2     # safe under 10 req/s rate limit
-MAX_RETRIES    = 3
-RETRY_DELAY    = 5.0
-MAX_PAGES      = 300    # safety cap per feed
-DEFAULT_PAGE_SIZE = 20  # legislation.gov.uk default
+
+# Minimum year for Statutory Instruments — SIs older than this will be filtered out.
+MIN_SI_YEAR = 2000
+
 
 # ─────────────────────────────────────────────
-# DISCOVERY CONFIG — using CORRECT API paths from official docs
+# SEARCH CONFIGURATION
 # ─────────────────────────────────────────────
 
-# Layer 1A: Subject path search — confirmed from OpenAPI:
+# Layer 1A: Subject path search
+# The legislation.gov.uk API lets you search by subject slug:
 #   GET /{type}/{subject}/data.feed
-#   GET /{type}/{year}/{subject}/data.feed
-# Subject slugs are hyphenated lowercase terms used by legislation.gov.uk
 TRANSPORT_SUBJECTS = [
     "transport",
     "road-traffic",
@@ -100,11 +83,12 @@ TRANSPORT_SUBJECTS = [
     "tachographs",
 ]
 
-ALL_TYPES       = "ukpga+uksi"   # UK Acts + UK SIs only (no Welsh/Scot/NI for POC)
-PRIMARY_TYPES   = "ukpga+asp+nia"
-SECONDARY_TYPES = "uksi"          # UK SIs only
+ALL_TYPES       = "ukpga+uksi"     # UK Acts + UK Statutory Instruments
+PRIMARY_TYPES   = "ukpga+asp+nia"  # Acts of Parliament
+SECONDARY_TYPES = "uksi"           # Statutory Instruments only
 
-# Layer 1B: Title keyword search — confirmed from OpenAPI:
+# Layer 1B: Title keyword search
+# The API also lets you search by a keyword in the title:
 #   GET /title/{title}/data.feed
 TITLE_KEYWORDS = [
     "transport act",
@@ -130,19 +114,22 @@ TITLE_KEYWORDS = [
     "shipping act",
 ]
 
-# Layer 2: Year enumeration — GET /{type}/{year}/data.feed
-YEAR_ENUM_RANGE = range(2000, 2027)   # narrowed for POC scope
-YEAR_ENUM_TYPES = ["uksi"]             # UK SIs only (no wsi/ssi/nisr)
-YEAR_FILTER_RE  = re.compile(
+# Layer 2: Year enumeration — searches every year for SIs and filters by title
+YEAR_ENUM_RANGE = range(2000, 2027)
+YEAR_ENUM_TYPES = ["uksi"]
+YEAR_FILTER_RE = re.compile(
     r"transport|road\s*traffic|highway|motor\s*vehicle|driving|railway"
     r"|aviation|shipping|tachograph|traffic\s*sign|vehicle\s*licen"
     r"|automated\s*vehicle|electric\s*vehicle|taxis|pedicab",
     re.IGNORECASE,
 )
 
+
 # ─────────────────────────────────────────────
-# SEED FALLBACK — always included regardless of discovery
+# SEED ACTS — always included regardless of discovery
 # ─────────────────────────────────────────────
+# These are the core pieces of legislation for our transport law corpus.
+# Even if the API search misses them, they'll always be downloaded.
 SEED_ACTS = [
     ("ukpga", 2024,  3, "Automated Vehicles Act 2024"),
     ("ukpga", 2024,  2, "Pedicabs (London) Act 2024"),
@@ -171,25 +158,35 @@ SEED_ACTS = [
 # ═══════════════════════════════════════════════════════════
 # URI REGISTRY
 # ═══════════════════════════════════════════════════════════
+# This class stores all the legislation URIs we discover.
+# It automatically deduplicates — if we find the same URI twice,
+# it only keeps one copy.
+
 class URIRegistry:
     """Deduplicated store of all discovered legislation URIs."""
 
     PRIMARY_TYPES   = {"ukpga", "asp", "anaw", "mwa", "nia", "ukcm"}
-    SECONDARY_TYPES = {"uksi"}  # Only UK SIs for POC
+    SECONDARY_TYPES = {"uksi"}
     NON_UK_SI_TYPES = {"ssi", "wsi", "nisr", "ukmo", "ukmd"}  # Excluded
 
     def __init__(self):
         self._items = OrderedDict()
 
     def add(self, item: dict):
+        """Add an item. If it already exists (same URI), it's skipped."""
         key = item["uri"]
         if key not in self._items:
             self._items[key] = item
 
     def add_seed(self, leg_type, year, number, title):
-        self.add({"uri": f"/{leg_type}/{year}/{number}",
-                  "title": title, "type": leg_type,
-                  "year": year, "number": number})
+        """Add a seed item (guaranteed to be included)."""
+        self.add({
+            "uri": f"/{leg_type}/{year}/{number}",
+            "title": title,
+            "type": leg_type,
+            "year": year,
+            "number": number,
+        })
 
     @property
     def items(self):
@@ -199,9 +196,11 @@ class URIRegistry:
         return len(self._items)
 
     def acts(self):
+        """Return only primary Acts (e.g. ukpga)."""
         return [i for i in self.items if i["type"] in self.PRIMARY_TYPES]
 
     def sis(self):
+        """Return only Statutory Instruments (uksi)."""
         return [i for i in self.items if i["type"] in self.SECONDARY_TYPES]
 
     def filter_by_year(self, min_si_year: int):
@@ -219,19 +218,20 @@ class URIRegistry:
         for key in to_remove:
             del self._items[key]
         pruned = len(to_remove)
-        log.info(f"  Year filter (uksi ≥ {min_si_year}, drop non-UK SIs): removed {pruned}, kept {len(self._items)}")
+        log.info(f"  Year filter (uksi >= {min_si_year}, drop non-UK SIs): removed {pruned}, kept {len(self._items)}")
         return pruned
 
 
-# ═══════════════════════════════════════════════════════════
 # ATOM FEED PARSER
-# ═══════════════════════════════════════════════════════════
-import xml.etree.ElementTree as ET
+# The legislation.gov.uk API returns search results as Atom XML feeds.
+# Each feed contains a list of <entry> elements with legislation URIs.
+# If there are more results, the feed contains a "next" link to the next page.
 
 def parse_atom_feed(xml_bytes: bytes) -> tuple[list[dict], str | None]:
     """
-    Returns (entries_list, next_url_or_None).
-    Handles the Atom feed format returned by legislation.gov.uk.
+    Parse an Atom feed XML and return:
+      - a list of legislation entries (each with uri, title, type, year, number)
+      - the URL of the next page (or None if this is the last page)
     """
     entries = []
     next_url = None
@@ -241,41 +241,39 @@ def parse_atom_feed(xml_bytes: bytes) -> tuple[list[dict], str | None]:
     except ET.ParseError:
         return entries, next_url
 
-    ns = {
-        "atom": "http://www.w3.org/2005/Atom",
-    }
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
 
-    # Next page link
+    # Look for a "next" page link
     for link in root.findall("atom:link", ns):
         if link.get("rel") == "next":
             href = link.get("href", "")
             if href:
-                # Ensure we get the feed format
+                # Make sure we request the feed format
                 if not href.endswith("/data.feed") and "data.feed" not in href:
                     href = href.rstrip("/") + "/data.feed"
                 next_url = href
             break
 
-    # Entries
+    # Extract each entry
     for entry in root.findall("atom:entry", ns):
         id_el = entry.find("atom:id", ns)
         if id_el is None:
             continue
         raw = (id_el.text or "").strip()
 
-        # Normalise to path
+        # Convert full URL to path: https://www.legislation.gov.uk/id/ukpga/2024/3 → /ukpga/2024/3
         path = re.sub(r"^https?://www\.legislation\.gov\.uk", "", raw)
+        path = re.sub(r"^/id/", "/", path)  # Strip the /id/ prefix
 
-        # Strip the /id/ prefix that legislation.gov.uk Atom feeds use
-        # e.g. /id/ukpga/2024/3 → /ukpga/2024/3
-        path = re.sub(r"^/id/", "/", path)
-
-        # Must match /{type}/{year}/{number}
+        # Must match the pattern /{type}/{year}/{number}
         m = re.match(r"^/([a-z]+)/(\d+)/(\d+)$", path)
         if not m:
             continue
 
-        leg_type, year, number = m.group(1), int(m.group(2)), int(m.group(3))
+        leg_type = m.group(1)
+        year = int(m.group(2))
+        number = int(m.group(3))
+
         title_el = entry.find("atom:title", ns)
         title = (title_el.text or "").strip() if title_el is not None else ""
 
@@ -290,95 +288,75 @@ def parse_atom_feed(xml_bytes: bytes) -> tuple[list[dict], str | None]:
     return entries, next_url
 
 
-# ═══════════════════════════════════════════════════════════
-# HTTP CLIENT — requests + ThreadPoolExecutor
-# Uses requests (proven to work through Cloudflare on Colab)
-# with a thread pool for parallelism.  aiohttp was replaced
-# because its TLS fingerprint triggers Cloudflare's 437 block
-# while requests does not.
-# ═══════════════════════════════════════════════════════════
-class AsyncClient:
+# HTTP HELPERS
+
+def build_session() -> requests.Session:
     """
-    Drop-in replacement for the aiohttp client.
-    Uses requests.Session in a ThreadPoolExecutor.
-    All public methods are async-compatible via asyncio.run_in_executor.
+    Build a requests Session with automatic retry logic.
+    If the server returns 429 (rate limit) or 5xx (server error),
+    the session will automatically retry with increasing wait times.
     """
-
-    def __init__(self, workers: int = MAX_CONCURRENT):
-        self._workers = workers
-        self._executor: ThreadPoolExecutor | None = None
-        self._session:  requests.Session | None = None
-        self._loop = None
-
-    async def __aenter__(self):
-        self._executor = ThreadPoolExecutor(max_workers=self._workers)
-        self._session  = self._make_session()
-        self._loop     = asyncio.get_event_loop()
-        return self
-
-    async def __aexit__(self, *_):
-        if self._executor:
-            self._executor.shutdown(wait=False)
-        if self._session:
-            self._session.close()
-
-    @staticmethod
-    def _make_session() -> requests.Session:
-        """Build a requests.Session with retry logic and connection pooling."""
-        session = requests.Session()
-        session.headers.update(HEADERS)
-        retry = Retry(
-            total=MAX_RETRIES,
-            backoff_factor=2,
-            status_forcelist=[429, 436, 500, 502, 503, 504],
-            raise_on_status=False,
-        )
-        adapter = HTTPAdapter(
-            max_retries=retry,
-            pool_connections=MAX_CONCURRENT + 4,
-            pool_maxsize=MAX_CONCURRENT + 4,
-        )
-        session.mount("https://", adapter)
-        session.mount("http://",  adapter)
-        return session
-
-    def _sync_get(self, url: str) -> bytes | None:
-        """Synchronous GET — runs inside thread pool."""
-        time.sleep(0.4)
-        try:
-            r = self._session.get(url, timeout=30, allow_redirects=True)
-            if r.status_code == 200:
-                return r.content
-            if r.status_code == 436:
-                r.raise_for_status()
-            if r.status_code not in (404, 410):
-                log.warning(f"HTTP {r.status_code} for {url}")
-            return None
-        except requests.RequestException as e:
-            log.warning(f"Request failed ({type(e).__name__}): {url}")
-            return None
-
-    async def get_bytes(self, url: str) -> bytes | None:
-        """Async wrapper — offloads HTTP call to thread pool."""
-        return await self._loop.run_in_executor(
-            self._executor, self._sync_get, url
-        )
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    retry = Retry(
+        total=MAX_RETRIES,
+        backoff_factor=2,
+        status_forcelist=[429, 436, 500, 502, 503, 504],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://",  adapter)
+    return session
 
 
-# ═══════════════════════════════════════════════════════════
+def get_bytes(session: requests.Session, url: str) -> bytes | None:
+    """
+    Download a URL and return its content as bytes.
+    Waits a short time before each request to avoid hitting rate limits.
+    Returns None if the request fails.
+    """
+    time.sleep(DOWNLOAD_RATE_LIMIT_WAIT)
+    try:
+        r = session.get(url, timeout=30, allow_redirects=True)
+        if r.status_code == 200:
+            return r.content
+        if r.status_code == 436:
+            r.raise_for_status()
+        if r.status_code not in (404, 410):
+            log.warning(f"HTTP {r.status_code} for {url}")
+        return None
+    except requests.RequestException as e:
+        log.warning(f"Request failed ({type(e).__name__}): {url}")
+        return None
+
+
+def save_file(data: bytes, filepath: str) -> bool:
+    """Save raw bytes to a file. Returns True on success."""
+    try:
+        with open(filepath, "wb") as f:
+            f.write(data)
+        return True
+    except Exception:
+        return False
+
+
 # DISCOVERY FUNCTIONS
-# ═══════════════════════════════════════════════════════════
+# These functions search the legislation.gov.uk API to find
+# all transport-related legislation URIs.
 
-async def _exhaust_feed(client: AsyncClient, initial_url: str,
-                        registry: URIRegistry, label: str = "",
-                        max_pages: int = MAX_PAGES) -> int:
-    """Follow an Atom feed until exhausted. Returns count of new items added."""
+def exhaust_feed(session: requests.Session, initial_url: str, registry: URIRegistry, label: str = "") -> int:
+    """
+    Follow an Atom feed page by page until there are no more results.
+    Adds all discovered entries to the registry.
+    Returns the count of new items added.
+    """
     url = initial_url
     added = 0
-    page  = 0
+    page = 0
 
-    while url and page < max_pages:
-        data = await client.get_bytes(url)
+    while url and page < MAX_PAGES_PER_FEED:
+        data = get_bytes(session, url)
         if not data:
             break
 
@@ -388,7 +366,7 @@ async def _exhaust_feed(client: AsyncClient, initial_url: str,
             registry.add(e)
         added += len(registry) - before
 
-        url   = next_url
+        url = next_url
         page += 1
 
     if label:
@@ -396,132 +374,114 @@ async def _exhaust_feed(client: AsyncClient, initial_url: str,
     return added
 
 
-async def discover_by_subject(client: AsyncClient, registry: URIRegistry,
-                               fast: bool = False):
+def discover_by_subject(session: requests.Session, registry: URIRegistry):
     """
-    Layer 1A — Subject path search (CONFIRMED from OpenAPI docs).
-    Pattern: GET /{type}/{subject}/data.feed
+    Layer 1A — Search by subject path.
+    For each transport subject (e.g. "road-traffic"), query the API
+    and add all results to the registry.
     """
     log.info("── Layer 1A: Subject path search")
     before = len(registry)
-    max_pages = 10 if fast else MAX_PAGES
 
-    tasks = []
     for subject in TRANSPORT_SUBJECTS:
         url = f"{BASE_URL}/{ALL_TYPES}/{subject}/data.feed"
-        tasks.append(_exhaust_feed(client, url, registry,
-                                   label=f"subject/{subject}", max_pages=max_pages))
+        exhaust_feed(session, url, registry, label=f"subject/{subject}")
 
-    await asyncio.gather(*tasks)
     log.info(f"  Layer 1A TOTAL: +{len(registry) - before} new  (registry={len(registry)})")
 
 
-async def discover_by_title(client: AsyncClient, registry: URIRegistry,
-                             fast: bool = False):
+def discover_by_title(session: requests.Session, registry: URIRegistry):
     """
-    Layer 1B — Title search (CONFIRMED from OpenAPI docs).
-    Pattern: GET /title/{title}/data.feed
+    Layer 1B — Search by title keyword.
+    For each keyword (e.g. "road traffic"), query the API
+    and add all matching results to the registry.
     """
     log.info("── Layer 1B: Title keyword search")
     before = len(registry)
-    max_pages = 5 if fast else MAX_PAGES
 
-    tasks = []
     for kw in TITLE_KEYWORDS:
         encoded = quote(kw)
         url = f"{BASE_URL}/title/{encoded}/data.feed"
-        tasks.append(_exhaust_feed(client, url, registry,
-                                   label=f"title/{kw}", max_pages=max_pages))
+        exhaust_feed(session, url, registry, label=f"title/{kw}")
 
-    await asyncio.gather(*tasks)
     log.info(f"  Layer 1B TOTAL: +{len(registry) - before} new  (registry={len(registry)})")
 
 
-async def discover_by_year_enum(client: AsyncClient, registry: URIRegistry,
-                                 skip: bool = False, fast: bool = False):
+def discover_by_year_enum(session: requests.Session, registry: URIRegistry):
     """
     Layer 2 — Year enumeration.
-    Pattern: GET /{type}/{year}/data.feed  (filter client-side by title)
+    For each year and SI type, list ALL legislation in that year,
+    then filter client-side to only keep transport-related items.
     """
-    if skip:
-        log.info("  ⏭  Layer 2 (year enum) skipped")
-        return
-
     log.info("── Layer 2: Year enumeration (exhaustive)")
-    before    = len(registry)
-    max_pages = 3 if fast else 20  # uksi years have ~50+ items/page * 20 pages = 1000
+    before = len(registry)
 
-    # Build all (type, year) combos as tasks
-    async def _year_task(leg_type: str, year: int):
-        url = f"{BASE_URL}/{leg_type}/{year}/data.feed"
-        added = 0
-        page  = 0
+    for leg_type in YEAR_ENUM_TYPES:
+        for year in YEAR_ENUM_RANGE:
+            url = f"{BASE_URL}/{leg_type}/{year}/data.feed"
+            added = 0
+            page = 0
 
-        while url and page < max_pages:
-            data = await client.get_bytes(url)
-            if not data:
-                break
-            entries, next_url = parse_atom_feed(data)
-            for e in entries:
-                if YEAR_FILTER_RE.search(e.get("title", "")):
-                    before_add = len(registry)
-                    registry.add(e)
-                    added += len(registry) - before_add
-            url   = next_url
-            page += 1
+            while url and page < MAX_PAGES_PER_FEED:
+                data = get_bytes(session, url)
+                if not data:
+                    break
 
-        return leg_type, year, added
+                entries, next_url = parse_atom_feed(data)
+                for entry in entries:
+                    # Only keep entries whose title matches transport keywords
+                    if YEAR_FILTER_RE.search(entry.get("title", "")):
+                        before_add = len(registry)
+                        registry.add(entry)
+                        added += len(registry) - before_add
 
-    tasks = [
-        _year_task(t, y)
-        for t in YEAR_ENUM_TYPES
-        for y in YEAR_ENUM_RANGE
-    ]
+                url = next_url
+                page += 1
 
-    results = await asyncio.gather(*tasks)
-
-    for leg_type, year, added in results:
-        if added:
-            log.info(f"    {leg_type}/{year}: +{added}")
+            if added:
+                log.info(f"    {leg_type}/{year}: +{added}")
 
     log.info(f"  Layer 2 TOTAL: +{len(registry) - before} new  (registry={len(registry)})")
 
 
-# ═══════════════════════════════════════════════════════════
 # DOWNLOAD FUNCTIONS
-# ═══════════════════════════════════════════════════════════
 
-async def _save(data: bytes, filepath: str):
-    """Write bytes to file (sync write is fine — fast disk op)."""
-    try:
-        with open(filepath, "wb") as f:
-            f.write(data)
-        return True
-    except Exception:
-        return False
-
-
-async def download_legislation(client: AsyncClient, registry: URIRegistry):
-    """Download primary XML for every item in the registry."""
+def download_legislation(session: requests.Session, registry: URIRegistry) -> int:
+    """
+    Download the primary XML for every item in the registry.
+    Acts go into raw_legislation/, SIs go into raw_statutory_instruments/.
+    Skips files that already exist on disk.
+    """
     log.info(f"── Downloading legislation XML  ({len(registry)} items)")
-    ok = skip = fail = 0
+    ok = 0
+    skip = 0
+    fail = 0
 
-    async def _dl(item: dict):
-        nonlocal ok, skip, fail
-        leg_type, year, number = item["type"], item["year"], item["number"]
-        out_dir  = LEGISLATION_DIR if leg_type == "ukpga" else SI_DIR
+    for item in registry.items:
+        leg_type = item["type"]
+        year = item["year"]
+        number = item["number"]
+
+        # Choose output folder based on type
+        if leg_type in URIRegistry.PRIMARY_TYPES:
+            out_dir = RAW_LEGISLATION_DIR
+        else:
+            out_dir = RAW_SI_DIR
+
         filename = f"{leg_type}_{year}_{number}.xml"
         filepath = os.path.join(out_dir, filename)
 
+        # Skip if already downloaded
         if os.path.exists(filepath):
             skip += 1
-            return
+            continue
 
-        url  = f"{BASE_URL}/{leg_type}/{year}/{number}/data.xml"
-        data = await client.get_bytes(url)
+        # Download the XML
+        url = f"{BASE_URL}/{leg_type}/{year}/{number}/data.xml"
+        data = get_bytes(session, url)
 
         if data and data.strip().startswith(b"<"):
-            await _save(data, filepath)
+            save_file(data, filepath)
             ok += 1
             log.debug(f"  saved {filename}")
         else:
@@ -529,96 +489,53 @@ async def download_legislation(client: AsyncClient, registry: URIRegistry):
             if data:
                 log.warning(f"  unexpected content for {url}: {data[:60]}")
 
-    await asyncio.gather(*[_dl(i) for i in registry.items])
     log.info(f"  Legislation: OK={ok}  SKIP={skip}  FAIL={fail}")
     return ok
 
 
-async def download_effects(client: AsyncClient, registry: URIRegistry):
+def download_effects(session: requests.Session, registry: URIRegistry) -> int:
     """
     Download the Effects/Changes feed for each item.
-    CORRECT URL from official Effects API docs:
-      GET /changes/affected/{affectedType}/{affectedYear}/{affectedNumber}/data.feed
-    (NOT the old /{type}/{year}/{num}/changes/affected/data.feed)
+    The effects feed tells us which other legislation amends this one.
+    URL pattern: GET /changes/affected/{type}/{year}/{number}/data.feed
     """
     log.info(f"── Downloading legislative effects  ({len(registry)} items)")
-    ok = skip = fail = 0
+    ok = 0
+    skip = 0
+    fail = 0
 
-    async def _dl(item: dict):
-        nonlocal ok, skip, fail
-        leg_type, year, number = item["type"], item["year"], item["number"]
+    for item in registry.items:
+        leg_type = item["type"]
+        year = item["year"]
+        number = item["number"]
+
         filename = f"{leg_type}_{year}_{number}_effects.xml"
         filepath = os.path.join(AMENDMENTS_DIR, filename)
 
+        # Skip if already downloaded
         if os.path.exists(filepath):
             skip += 1
-            return
+            continue
 
-        # Confirmed URL from Legislative Effects OpenAPI docs
-        url  = f"{BASE_URL}/changes/affected/{leg_type}/{year}/{number}/data.feed"
-        data = await client.get_bytes(url)
+        # Download the effects feed
+        url = f"{BASE_URL}/changes/affected/{leg_type}/{year}/{number}/data.feed"
+        data = get_bytes(session, url)
 
         if data and data.strip().startswith(b"<"):
-            await _save(data, filepath)
+            save_file(data, filepath)
             ok += 1
         else:
             fail += 1
 
-    await asyncio.gather(*[_dl(i) for i in registry.items])
     log.info(f"  Effects: OK={ok}  SKIP={skip}  FAIL={fail}")
     return ok
 
 
-
-
-
-async def download_case_law(client: AsyncClient,
-                             courts=None, years=None, max_per_court=10):
-    """Download case law from National Archives."""
-    if courts is None:
-        courts = ["ewhc/admin", "ewca/civ", "uksc"]
-    if years is None:
-        years = [2022, 2023, 2024]
-
-    log.info("── Downloading case law")
-    success = 0
-
-    async def _try(court, year, num):
-        nonlocal success
-        filename = f"{court.replace('/', '_')}_{year}_{num}.xml"
-        filepath = os.path.join(CASELAW_DIR, filename)
-
-        if os.path.exists(filepath):
-            success += 1
-            return True
-
-        for url in [
-            f"https://caselaw.nationalarchives.gov.uk/{court}/{year}/{num}/data.xml",
-            f"https://caselaw.nationalarchives.gov.uk/{court}/{year}/{num}.xml",
-        ]:
-            data = await client.get_bytes(url)
-            if data and data.strip().startswith(b"<"):
-                await _save(data, filepath)
-                success += 1
-                return True
-        return False
-
-    for court in courts:
-        for year in years:
-            results = await asyncio.gather(*[_try(court, year, n)
-                                             for n in range(1, max_per_court + 1)])
-            hits = sum(results)
-            log.info(f"  {court}/{year}: {hits} cases")
-
-    log.info(f"  Case law total: {success}")
-    return success
-
-
-# ═══════════════════════════════════════════════════════════
 # MANIFEST
-# ═══════════════════════════════════════════════════════════
+
 
 def save_manifest(registry: URIRegistry, stats: dict, elapsed: float):
+    """Save a JSON manifest recording what was downloaded and when."""
     manifest = {
         "download_time":    datetime.now().isoformat(),
         "domain":           "UK Transportation Law",
@@ -645,29 +562,19 @@ def save_manifest(registry: URIRegistry, stats: dict, elapsed: float):
     log.info(f"  Manifest → {MANIFEST_FILE}")
 
 
-# ═══════════════════════════════════════════════════════════
 # MAIN
-# ═══════════════════════════════════════════════════════════
 
-async def run(args):
-    print("""
-╔══════════════════════════════════════════════════════════╗
-║  LegalKGent v3 — Async Parallel Downloader              ║
-║  API: Official OpenAPI docs from legislation.gov.uk     ║
-║  Concurrent workers: 8  (rate limit: 3000 req/5min)     ║
-╚══════════════════════════════════════════════════════════╝
-    """)
-
-    t0       = time.time()
-    stats    = {}
+def run():
+    t0 = time.time()
+    stats = {}
     registry = URIRegistry()
 
-    # Always load seeds first
+    # ── Step 0: Load seed items ──────────────────────────
     log.info(f"Loading {len(SEED_ACTS)} seed items...")
     for leg_type, year, number, title in SEED_ACTS:
         registry.add_seed(leg_type, year, number, title)
 
-    # ── Connectivity self-test ─────────────────────────────
+    # ── Step 1: Connectivity self-test ───────────────────
     log.info("Running connectivity self-test...")
     try:
         r = requests.get(
@@ -684,14 +591,12 @@ async def run(args):
         log.error(f"  ❌ CANNOT REACH legislation.gov.uk: {e}")
         return
 
-    async with AsyncClient(workers=args.workers) as client:
+    # ── Step 2: Discover legislation URIs ────────────────
+    with build_session() as session:
 
-        # ── Discovery ──────────────────────────────────────
-        await discover_by_subject(client, registry, fast=args.fast)
-        await discover_by_title(client, registry, fast=args.fast)
-        await discover_by_year_enum(client, registry,
-                                     skip=args.skip_year_enum,
-                                     fast=args.fast)
+        discover_by_subject(session, registry)
+        discover_by_title(session, registry)
+        discover_by_year_enum(session, registry)
 
         log.info(f"""
 {'='*55}
@@ -701,29 +606,19 @@ DISCOVERY COMPLETE (before filter)
   SIs / instruments : {len(registry.sis())}
 {'='*55}""")
 
-        # ── Filter: prune old SIs to keep corpus manageable ──
-        if args.min_si_year:
-            registry.filter_by_year(args.min_si_year)
-            log.info(f"  After filter: {len(registry)} URIs  "
-                     f"(Acts={len(registry.acts())}, SIs={len(registry.sis())})")
+        # ── Step 3: Filter old SIs ───────────────────────
+        registry.filter_by_year(MIN_SI_YEAR)
+        log.info(f"  After filter: {len(registry)} URIs  "
+                 f"(Acts={len(registry.acts())}, SIs={len(registry.sis())})")
 
-        if args.discover_only:
-            print("\n── URI List ──")
-            for item in registry.items:
-                print(f"  {item['uri']:40s}  {item['title']}")
-            return
+        # ── Step 4: Download XML files ───────────────────
+        stats["legislation"] = download_legislation(session, registry)
+        stats["effects"]     = download_effects(session, registry)
 
-        # ── Downloads ──────────────────────────────────────
-        stats["legislation"] = await download_legislation(client, registry)
-        stats["effects"]     = await download_effects(client, registry)
-        
+        # Case law is handled by script 3 (3_download_caselaw.py)
+        stats["cases"] = 0
 
-
-        if getattr(args, 'no_caselaw', True):
-            stats["cases"] = 0
-        else:
-            stats["cases"] = await download_case_law(client)
-
+    # ── Step 5: Save manifest ────────────────────────────
     elapsed = time.time() - t0
     save_manifest(registry, stats, elapsed)
 
@@ -734,59 +629,11 @@ ALL DONE  ({elapsed:.0f}s  ≈  {elapsed/60:.1f} min)
   Legislation downloaded : {stats.get('legislation', 0)}
   Effects feeds          : {stats.get('effects', 0)}
   Case law               : {stats.get('cases', 0)}
-  Case law               : {stats.get('cases', 0)}
-  Output dir             : {OUTPUT_DIR}/
+  Output dir             : data/
   Manifest               : {MANIFEST_FILE}
 """)
 
 
-def main():
-    # ╔══════════════════════════════════════════════════════╗
-    # ║           COLAB CONFIG — EDIT THIS BLOCK            ║
-    # ╠══════════════════════════════════════════════════════╣
-    # ║  MODE        │ TIME    │ WHAT IT DOES               ║
-    # ║  ─────────── │ ─────── │ ─────────────────────────  ║
-    # ║  "fast"      │ ~10 min │ Caps pages per feed.       ║
-    # ║              │         │ Good for testing/dev.      ║
-    # ║  "full"      │ ~25 min │ Full crawl, all pages.     ║
-    # ║              │         │ Use for production.        ║
-    # ║  "discover"  │ ~3 min  │ Lists all found URIs,      ║
-    # ║              │         │ no downloads at all.       ║
-    # ╚══════════════════════════════════════════════════════╝
-
-    MODE = "full"            # ← CHANGE THIS:  "fast" | "full" | "discover"
-
-    # ── Optional fine-tuning ───────────────────────────────
-    SKIP_YEAR_ENUM = False   # True = skip year enumeration (Layer 2), saves ~1.5 min
-    SKIP_CASELAW   = True    # Skipped; smart downloader in script 3 is preferred
-    WORKERS        = 8       # Concurrent requests. Max safe = 10 (rate limit)
-    MIN_SI_YEAR    = 2000    # Drop SIs older than this year (None = keep all)
-    # ──────────────────────────────────────────────────────
-
-    # Build args from config (works in both Colab and terminal)
-    class Args:
-        fast           = (MODE == "fast")
-        discover_only  = (MODE == "discover")
-        skip_year_enum = SKIP_YEAR_ENUM
-        no_caselaw     = SKIP_CASELAW
-        min_si_year    = MIN_SI_YEAR
-        workers        = WORKERS
-
-    args = Args()
-
-    # Colab / Jupyter need nest_asyncio to run asyncio.run() inside the notebook loop
-    try:
-        import nest_asyncio
-        nest_asyncio.apply()
-    except ImportError:
-        pass
-
-    print(f"  ▶  Mode: {MODE.upper()}  |  Workers: {WORKERS}  |"
-          f"  year_enum={'OFF' if SKIP_YEAR_ENUM else 'ON'}  |"
-          f"  caselaw={'OFF' if SKIP_CASELAW else 'ON'}")
-
-    asyncio.run(run(args))
-
-
 if __name__ == "__main__":
-    main()
+    print("  Running Legislation Download (Full Exhaustive Crawl)")
+    run()

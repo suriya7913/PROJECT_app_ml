@@ -36,13 +36,13 @@ def main():
     # 2. Save corpus
     with open(CORPUS_FILE, "w", encoding="utf-8") as f:
         json.dump(corpus, f, indent=2, ensure_ascii=False)
-    print(f"💾 Saved intermediate legislation corpus to {CORPUS_FILE}")
+    print(f"Saved intermediate legislation corpus to {CORPUS_FILE}")
 
     # 3. Build metadata
     abbrev_table = build_abbreviation_table(corpus)
     id_to_title = build_id_to_title_map(corpus)
 
-    print(f"\n📊 Intermediate Corpus Summary:")
+    print(f"\nIntermediate Corpus Summary:")
     print(f"   Total chunks:     {len(corpus)}")
     print(f"   Abbreviations:    {len(abbrev_table)}")
     print(f"   Source documents: {len(id_to_title)}")
@@ -54,7 +54,7 @@ def main():
     for src, count in sorted(sources.items()):
         print(f"   {src}: {count} chunks")
 
-    print("\n✅ Legislation Corpus building complete! You may now download Case Law.")
+    print("\nLegislation Corpus building complete! You may now download Case Law.")
 
 
 if __name__ == "__main__":
