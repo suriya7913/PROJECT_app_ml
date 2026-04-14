@@ -571,7 +571,7 @@ def parse_legislation_xml(filepath: str) -> list[dict]:
         parser = CLMLParser(filepath)
         return parser.parse()
     except ET.ParseError as e:
-        print(f"    ⚠️ XML parse error: {filepath}: {e}")
+        print(f"     XML parse error: {filepath}: {e}")
         return []
 
 
@@ -585,7 +585,7 @@ def parse_caselaw_xml(filepath: str) -> list[dict]:
         tree = ET.parse(filepath)
         root = tree.getroot()
     except ET.ParseError as e:
-        print(f"    ⚠️ Case law parse error: {filepath}: {e}")
+        print(f"     Case law parse error: {filepath}: {e}")
         return []
 
     filename = os.path.basename(filepath).replace('.xml', '')
@@ -792,7 +792,7 @@ def parse_effects_xml(filepath: str) -> list[dict]:
         tree = ET.parse(filepath)
         root = tree.getroot()
     except ET.ParseError as e:
-        print(f"    ⚠️ Effects XML parse error: {filepath}: {e}")
+        print(f"     Effects XML parse error: {filepath}: {e}")
         return []
 
     triples = []
@@ -968,39 +968,39 @@ def build_smart_corpus(
     if 'legislation' in types and os.path.exists(legislation_dir):
         
         xml_files = sorted(f for f in os.listdir(legislation_dir) if f.endswith('.xml'))
-        print(f"📂 Found {len(xml_files)} legislation XML files")
+        print(f"Found {len(xml_files)} legislation XML files")
         for f in xml_files:
             chunks = parse_legislation_xml(os.path.join(legislation_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
     elif 'legislation' in types:
-        print(f"⚠️ No legislation directory: {legislation_dir}")
+        print(f"No legislation directory: {legislation_dir}")
 
     # 2. Parse statutory instruments (same CLML format)
     if 'si' in types and os.path.exists(si_dir):
         xml_files = sorted(f for f in os.listdir(si_dir) if f.endswith('.xml'))
-        print(f"📂 Found {len(xml_files)} statutory instrument XML files")
+        print(f"Found {len(xml_files)} statutory instrument XML files")
         for f in xml_files:
             chunks = parse_legislation_xml(os.path.join(si_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
     elif 'si' in types:
-        print(f"ℹ️  No SI directory: {si_dir}")
+        print(f"ℹNo SI directory: {si_dir}")
 
     # 3. Parse case law
     if 'caselaw' in types and os.path.exists(caselaw_dir):
         xml_files = sorted(f for f in os.listdir(caselaw_dir) if f.endswith('.xml'))
-        print(f"📂 Found {len(xml_files)} case law XML files")
+        print(f"Found {len(xml_files)} case law XML files")
         for f in xml_files:
             chunks = parse_caselaw_xml(os.path.join(caselaw_dir, f))
             all_chunks.extend(chunks)
             print(f"   {f}: {len(chunks)} chunks")
     elif 'caselaw' in types:
-        print(f"⚠️ No case law directory: {caselaw_dir}")
+        print(f"No case law directory: {caselaw_dir}")
 
 
 
-    print(f"\n✅ Smart corpus built: {len(all_chunks)} chunks")
+    print(f"\nSmart corpus built: {len(all_chunks)} chunks")
     return all_chunks
 
 
@@ -1008,16 +1008,16 @@ def load_effects_triples(amendments_dir: str = AMENDMENTS_DIR) -> list[dict]:
     """Load all ground-truth effects triples from amendments directory."""
     all_effects = []
     if not os.path.exists(amendments_dir):
-        print(f"ℹ️  No amendments directory: {amendments_dir}")
+        print(f"No amendments directory: {amendments_dir}")
         return all_effects
 
     xml_files = sorted(f for f in os.listdir(amendments_dir) if f.endswith('.xml'))
-    print(f"🔗 Found {len(xml_files)} effects XML files")
+    print(f" Found {len(xml_files)} effects XML files")
     for f in xml_files:
         triples = parse_effects_xml(os.path.join(amendments_dir, f))
         all_effects.extend(triples)
         if triples:
             print(f"   {f}: {len(triples)} effects")
 
-    print(f"   ✅ Total effects triples: {len(all_effects)}")
+    print(f"  Total effects triples: {len(all_effects)}")
     return all_effects

@@ -85,8 +85,14 @@ def extract_triples(
             user_content += f" - {term}: {summary}\n"
     # --------------------------------------
 
-    if chunk.get('inline_amendments'):
-        user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(chunk['inline_amendments'][:5])}\n"
+    # --- PREVIOUS CODE (BUG) ---
+    # if chunk.get('inline_amendments'):
+    #     user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(chunk['inline_amendments'][:5])}\n"
+    
+    # --- NEW CODE (FIXED) ---
+    amendments = chunk.get('inline_amendments') or chunk.get('graph_edges', {}).get('inline_amendments', [])
+    if amendments:
+        user_content += f"PRE-MARKED AMENDMENTS: {json.dumps(amendments[:5])}\n"
 
     user_content += f"\nTEXT:\n{text_content}\n\n"
     user_content += "Respond with ONLY a JSON array of relationships. If none found, respond with []"
@@ -176,10 +182,10 @@ def extract_triples(
                 print(f"    ⏳ Timeout (attempt {attempt+1}/{max_retries}), retrying in {wait:.0f}s...")
                 time.sleep(wait)
             else:
-                print(f"    ❌ Error: {e}")
+                print(f"   Error: {e}")
                 return []
 
-    print(f"    ❌ Failed after {max_retries} retries")
+    print(f"   Failed after {max_retries} retries")
     return []
 
 
@@ -227,7 +233,7 @@ def post_process(triples: list[dict], abbrev_table: dict) -> list[dict]:
 def print_quality_report(triples: list[dict]):
     """Print a summary quality report."""
     print(f"\n{'='*50}")
-    print(f"📊 QUALITY REPORT")
+    print(f"QUALITY REPORT")
     print(f"{'='*50}")
 
     actions = defaultdict(int)
@@ -235,7 +241,7 @@ def print_quality_report(triples: list[dict]):
         actions[t.get('action', 'UNKNOWN')] += 1
     print(f"\n  Action distribution:")
     for a, c in sorted(actions.items(), key=lambda x: -x[1]):
-        marker = "✅" if a in CANONICAL_ACTIONS else "❌"
+        marker = "done" if a in CANONICAL_ACTIONS else "not done"
         print(f"    {marker} {a}: {c}")
 
     self_amendments = sum(1 for t in triples if t.get('is_self_amendment'))
@@ -252,13 +258,11 @@ def print_quality_report(triples: list[dict]):
 
 def main():
     print("""
-╔══════════════════════════════════════════════════════════╗
 ║  LegalKGent — Step 3: Extract Triples (vLLM Edition)    ║
-╚══════════════════════════════════════════════════════════╝
     """)
 
     # 1. Load corpus
-    print(f"📂 Loading corpus from {CORPUS_FILE}...")
+    print(f"Loading corpus from {CORPUS_FILE}...")
     with open(CORPUS_FILE, "r", encoding="utf-8") as f:
         corpus = json.load(f)
     print(f"   Loaded {len(corpus)} chunks")
@@ -275,33 +279,33 @@ def main():
             glossaries = json.load(f)
         print(f"   Glossaries: {len(glossaries)} Acts loaded")
     else:
-        print("   ⚠️ No glossary summaries found. Run 5_build_glossary_summaries.py for optimal extraction.")
+        print("   No glossary summaries found. Run 5_build_glossary_summaries.py for optimal extraction.")
 
     # 3. Connect to vLLM
     vllm_client = get_vllm_client()
-    print(f"🔌 Connected to vLLM server ({VLLM_MODEL})")
+    print(f" Connected to vLLM server ({VLLM_MODEL})")
 
     # 4. Load existing results (resume support)
     if os.path.exists(TRIPLES_FILE):
         with open(TRIPLES_FILE, "r", encoding="utf-8") as f:
             all_results = json.load(f)
         already_done = set(r['source_id'] for r in all_results if 'source_id' in r)
-        print(f"📂 Loaded {len(all_results)} existing triples, {len(already_done)} chunks done")
+        print(f"Loaded {len(all_results)} existing triples, {len(already_done)} chunks done")
     else:
         all_results = []
         already_done = set()
 
     # 5. Filter to unprocessed chunks sequentially
     chunks_to_process = [c for c in corpus if c['chunk_id'] not in already_done]
-    print(f"\n🚀 Processing remaining {len(chunks_to_process)} chunks with {NUM_WORKERS} workers\n")
+    print(f"\nProcessing remaining {len(chunks_to_process)} chunks with {NUM_WORKERS} workers\n")
 
     if not chunks_to_process:
-        print("✅ All chunks already processed!")
+        print("All chunks already processed!")
         post_process(all_results, abbrev_table)
         print_quality_report(all_results)
         return
 
-    # 6. Parallel extraction (no rate limiter needed — local vLLM)
+    # 6. Parallel extraction ( local vLLM)
     lock = threading.Lock()
     stats = {"processed": 0, "triples_found": 0}
     start_time = time.time()
@@ -332,11 +336,11 @@ def main():
                     elapsed_so_far = time.time() - start_time
                     speed = stats['processed'] / elapsed_so_far
                     remaining = (len(chunks_to_process) - stats['processed']) / max(speed, 0.01)
-                    print(f"   💾 Saved ({len(all_results)} triples) | "
+                    print(f"   Saved ({len(all_results)} triples) | "
                           f"{speed:.1f} chunks/sec | ~{remaining:.0f}s remaining")
 
     # 7. Post-process
-    print(f"\n📊 Post-Processing {len(all_results)} triples...")
+    print(f"\nPost-Processing {len(all_results)} triples...")
     all_results = post_process(all_results, abbrev_table)
 
     # 8. Final save
@@ -345,7 +349,7 @@ def main():
 
     elapsed = time.time() - start_time
     print(f"\n{'='*50}")
-    print(f"✅ DONE in {elapsed:.0f}s ({elapsed/60:.1f} min)")
+    print(f"DONE in {elapsed:.0f}s ({elapsed/60:.1f} min)")
     print(f"   Processed: {stats['processed']}")
     print(f"   Triples: {len(all_results)}")
     print(f"   Speed: {stats['processed']/max(elapsed,1):.1f} chunks/sec")

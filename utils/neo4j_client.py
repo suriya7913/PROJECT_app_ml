@@ -16,7 +16,7 @@ def get_driver():
     if _driver is None:
         _driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
         _driver.verify_connectivity()
-        print(f"✅ Connected to Neo4j at {NEO4J_URI}")
+        print(f"Connected to Neo4j at {NEO4J_URI}")
     return _driver
 
 
@@ -26,7 +26,7 @@ def close_driver():
     if _driver is not None:
         _driver.close()
         _driver = None
-        print("✅ Neo4j connection closed")
+        print(" Neo4j connection closed")
 
 
 def clear_graph():
@@ -34,7 +34,7 @@ def clear_graph():
     driver = get_driver()
     with driver.session() as session:
         session.run("MATCH (n) DETACH DELETE n")
-    print("🗑️  Cleared existing graph")
+    print("  Cleared existing graph")
 
 
 def create_indexes():
@@ -49,7 +49,7 @@ def create_indexes():
             session.run("CREATE FULLTEXT INDEX legal_doc_ft IF NOT EXISTS FOR (n:LegalDoc) ON EACH [n.title, n.citation, n.heading]")
         except Exception:
             pass # Ignore if already exists and driver doesn't support IF NOT EXISTS
-    print("📇 Created indexes (including FTS) on LegalDoc")
+    print(" Created indexes (including FTS) on LegalDoc")
 
 
 def get_schema() -> dict:

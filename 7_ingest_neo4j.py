@@ -46,16 +46,16 @@ def load_all_triples() -> list[dict]:
     if os.path.exists(TRIPLES_FILE):
         with open(TRIPLES_FILE, "r", encoding="utf-8") as f:
             leg = json.load(f)
-        print(f"📂 Loaded {len(leg)} legislation triples")
+        print(f" Loaded {len(leg)} legislation triples")
         all_triples.extend(leg)
     else:
-        print(f"⚠️ No legislation triples: {TRIPLES_FILE}")
+        print(f" No legislation triples: {TRIPLES_FILE}")
 
     # Case law triples
     if os.path.exists(CASELAW_TRIPLES_FILE):
         with open(CASELAW_TRIPLES_FILE, "r", encoding="utf-8") as f:
             case = json.load(f)
-        print(f"📂 Loaded {len(case)} case law triples")
+        print(f" Loaded {len(case)} case law triples")
         all_triples.extend(case)
 
     # Effects triples (ground-truth from API) — flatten source_chunk_ids
@@ -83,9 +83,9 @@ def load_all_triples() -> list[dict]:
                     "provenance": "effects_api",
                 })
                 effects_count += 1
-        print(f"📂 Loaded {len(effects_raw)} effects → {effects_count} flattened edges (ground-truth)")
+        print(f" Loaded {len(effects_raw)} effects → {effects_count} flattened edges (ground-truth)")
 
-    print(f"📋 Total triples to ingest: {len(all_triples)}")
+    print(f" Total triples to ingest: {len(all_triples)}")
     return all_triples
 
 
@@ -98,7 +98,7 @@ def load_corpus_lookup() -> dict:
         cid = c.get("chunk_id")
         if cid:
             lookup[cid] = c
-    print(f"📂 Loaded {len(lookup)} corpus chunks for enrichment")
+    print(f" Loaded {len(lookup)} corpus chunks for enrichment")
     return lookup
 
 
@@ -196,7 +196,7 @@ def ingest_triples(all_triples: list[dict], corpus_lookup: dict):
                     provenance=t.get("provenance", "llm_extracted"),
                 )
             except Exception as e:
-                print(f"   ❌ Error on triple {loaded}: {e}")
+                print(f"    Error on triple {loaded}: {e}")
                 skipped += 1
                 continue
 
@@ -205,7 +205,7 @@ def ingest_triples(all_triples: list[dict], corpus_lookup: dict):
                 print(f"   ... loaded {loaded} triples")
 
     print(f"\n{'='*50}")
-    print(f"✅ NEO4J INGESTION COMPLETE")
+    print(f" NEO4J INGESTION COMPLETE")
     print(f"   Loaded: {loaded} triples")
     print(f"   Skipped: {skipped}")
 
@@ -243,7 +243,7 @@ def create_concept_nodes():
             ).single()
             print(f"   {concept['name']}: {result['cnt']} docs linked")
 
-    print("✅ Concept nodes created")
+    print(" Concept nodes created")
 
 
 # ─────────────────────────────────────────────
@@ -281,7 +281,7 @@ def verify_graph():
             ORDER BY cnt DESC
         """)}
 
-    print(f"\n📊 Graph Stats:")
+    print(f"\n Graph Stats:")
     print(f"   Nodes: {nodes}")
     print(f"   Edges: {edges}")
     print(f"   Types: {type_dist}")
@@ -289,7 +289,7 @@ def verify_graph():
     print(f"   Provenance: {prov}")
 
     if conf and conf["accumulated_edges"]:
-        print(f"\n📈 Confidence Accumulation:")
+        print(f"\n Confidence Accumulation:")
         print(f"   Edges seen >1 time: {conf['accumulated_edges']}")
         print(f"   Avg confidence: {conf['avg_confidence']:.4f}")
         print(f"   Max times seen: {conf['max_times_seen']}")
@@ -348,7 +348,7 @@ def ingest_graph_edges(corpus_lookup: dict):
                        affecting=affecting_act, detail=commentary_text[:500])
                     loaded += 1
 
-    print(f"\n✅ Graph edges ingested: {loaded} structural edges from legislation metadata")
+    print(f"\n Graph edges ingested: {loaded} structural edges from legislation metadata")
 
 
 # ─────────────────────────────────────────────
@@ -374,11 +374,11 @@ def main():
     ingest_triples(all_triples, corpus_lookup)
 
     # 3b. Ingest graph_edges from legislation chunks
-    print("\n🔗 Ingesting graph_edges from legislation metadata...")
+    print("\nIngesting graph_edges from legislation metadata...")
     ingest_graph_edges(corpus_lookup)
 
     # 4. Create concept nodes
-    print("\n🧠 Creating Concept nodes...")
+    print("\nCreating Concept nodes...")
     create_concept_nodes()
 
     # 5. Verify
@@ -386,7 +386,7 @@ def main():
 
     # 6. Cleanup
     close_driver()
-    print("\n✅ Done!")
+    print("\n Done!")
 
 
 if __name__ == "__main__":

@@ -30,14 +30,12 @@ from config import (
 
 def main():
     print("""
-╔══════════════════════════════════════════════════════════╗
 ║  LegalKGent — Step 5: Build FAISS Index                 ║
-╚══════════════════════════════════════════════════════════╝
     """)
     os.makedirs(INDEX_DIR, exist_ok=True)
 
     # 1. Load corpus
-    print(f"📂 Loading corpus from {CORPUS_FILE}...")
+    print(f"Loading corpus from {CORPUS_FILE}...")
     with open(CORPUS_FILE, "r", encoding="utf-8") as f:
         corpus = json.load(f)
     print(f"   Loaded {len(corpus)} chunks")
@@ -61,10 +59,10 @@ def main():
     print(f"   Indexing {len(texts)} chunks (skipped {len(corpus) - len(texts)} short chunks)")
 
     # 3. Encode
-    print(f"📦 Loading embedding model: {EMBED_MODEL}...")
+    print(f" Loading embedding model: {EMBED_MODEL}...")
     model = SentenceTransformer(EMBED_MODEL)
 
-    print(f"🔢 Encoding {len(texts)} chunks (batch_size={EMBED_BATCH_SIZE})...")
+    print(f"Encoding {len(texts)} chunks (batch_size={EMBED_BATCH_SIZE})...")
     embeddings = model.encode(
         texts,
         batch_size=EMBED_BATCH_SIZE,
@@ -75,28 +73,28 @@ def main():
     print(f"   Embeddings shape: {embeddings.shape}")
 
     # 4. Build FAISS index
-    print("🗂️  Building FAISS index (Inner Product = cosine on L2-normalized vectors)...")
+    print("Building FAISS index (Inner Product = cosine on L2-normalized vectors)...")
     index = faiss.IndexFlatIP(EMBED_DIM)
     index.add(embeddings)
     print(f"   Index size: {index.ntotal} vectors")
 
     # 5. Save
     faiss.write_index(index, INDEX_FILE)
-    print(f"💾 Saved FAISS index to {INDEX_FILE}")
+    print(f"aved FAISS index to {INDEX_FILE}")
 
     with open(IDMAP_FILE, "w") as f:
         json.dump(id_map, f, indent=2, ensure_ascii=False)
-    print(f"💾 Saved ID map to {IDMAP_FILE} ({len(id_map)} entries)")
+    print(f"Saved ID map to {IDMAP_FILE} ({len(id_map)} entries)")
 
     # 6. Sanity check
-    print("\n🔬 Sanity check: querying 'transport road traffic'...")
+    print("\nSanity check: querying 'transport road traffic'...")
     query_vec = model.encode(["transport road traffic law"], normalize_embeddings=True).astype("float32")
     scores, indices = index.search(query_vec, k=3)
     for s, i in zip(scores[0], indices[0]):
         if i >= 0:
             print(f"   [{s:.4f}] {id_map[i]['doc_title']} — {id_map[i]['section']}")
 
-    print("\n✅ FAISS index built!")
+    print("\nFAISS index built!")
 
 
 if __name__ == "__main__":
