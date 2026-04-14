@@ -66,6 +66,8 @@ NUM_WORKERS = 4        # parallel workers — local vLLM, no rate limits
 BATCH_SIZE  = 5000     # max corpus chunks per extraction run
 SAVE_EVERY  = 20       # checkpoint interval
 MAX_RETRIES = 3        # per-chunk retry limit
+DOWNLOAD_RATE_LIMIT_WAIT = 0.2  # wait time between requests to avoid rate limits
+MAX_PAGES_PER_FEED = 300       # safety cap per atom feed
 VLLM_TIMEOUT = 300     # seconds per vLLM request
 
 # ─────────────────────────────────────────────
