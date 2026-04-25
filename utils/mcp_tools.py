@@ -121,23 +121,21 @@ def mcp_get_schema() -> dict:
     }
 
 
-def mcp_search_nodes_by_title(keyword: str, court_level: str | None = None) -> list[dict]:
+def mcp_search_nodes_by_title(keyword: str) -> list[dict]:
     """
     Find nodes exactly or partially matching a title or citation (bypasses vector semantic search).
     Provides a deterministic way to find a specific Act or Case by name.
     """
-    where_clause = "WHERE toLower(n.title) CONTAINS toLower($kw) OR toLower(n.citation) CONTAINS toLower($kw)"
-    if court_level:
-        where_clause += " AND toLower(n.court_level) = toLower($cl)"
+    where_clause = "WHERE toLower(n.title) CONTAINS toLower($kw) OR toLower(n.citation) CONTAINS toLower($kw) OR toLower(n.act_name) CONTAINS toLower($kw)"
 
     cypher = f"""
     MATCH (n:LegalDoc)
     {where_clause}
-    RETURN n.id AS node_id, n.title AS title, n.court_level AS court_level
+    RETURN n.id AS node_id, n.title AS title
     LIMIT 20
     """
     with _driver_session() as s:
-        return s.run(cypher, kw=keyword, cl=court_level).data()
+        return s.run(cypher, kw=keyword).data()
 
 
 def mcp_execute_cypher(cypher: str) -> list[dict]:

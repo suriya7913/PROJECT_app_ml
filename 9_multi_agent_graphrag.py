@@ -53,30 +53,30 @@ _faiss_index = None
 _id_map = None
 _corpus_lookup = None
 
-OPENROUTER_MODEL = "qwen/qwen3.6-plus:free"
+OPENROUTER_MODEL = "openai/gpt-oss-120b:free"
 OPENROUTER_URL   = "https://openrouter.ai/api/v1/chat/completions"
 
 
 def _init():
     global _embed_model, _faiss_index, _id_map, _corpus_lookup
 
-    print(f"📦 Loading embedding model: {EMBED_MODEL}...")
+    print(f"Loading embedding model: {EMBED_MODEL}...")
     _embed_model = SentenceTransformer(EMBED_MODEL)
 
-    print("🗂️  Loading FAISS index...")
+    print("Loading FAISS index...")
     _faiss_index = faiss.read_index(INDEX_FILE)
     with open(IDMAP_FILE) as f:
         _id_map = json.load(f)
-    print(f"✅ FAISS ready — {_faiss_index.ntotal} vectors")
+    print(f"FAISS ready — {_faiss_index.ntotal} vectors")
 
-    print("📂 Loading corpus...")
+    print("Loading corpus...")
     with open(CORPUS_FILE, "r", encoding="utf-8") as f:
         corpus_data = json.load(f)
     _corpus_lookup = {c["chunk_id"]: c for c in corpus_data if c.get("chunk_id")}
-    print(f"   ✅ {len(_corpus_lookup)} chunks loaded")
+    print(f"    {len(_corpus_lookup)} chunks loaded")
 
     get_driver()  # test Neo4j connection
-    print("✅ Neo4j connected")
+    print(" Neo4j connected")
 
 
 # ─────────────────────────────────────────────
@@ -140,7 +140,7 @@ def run_agent1_retriever(question: str) -> list[dict]:
         {"role": "user", "content": f"Legal question: {question}"}
     ]
     response = _llm_call(messages, max_tokens=1000)
-    print(f"📥 Agent 1 queries: {response}")
+    print(f"Agent 1 queries: {response}")
 
     # Parse JSON queries
     try:
@@ -171,7 +171,7 @@ def run_agent1_retriever(question: str) -> list[dict]:
                 all_results[nid] = hit
 
     results = sorted(all_results.values(), key=lambda x: x["score"], reverse=True)[:30]
-    print(f"   ✅ {len(results)} candidate nodes found")
+    print(f"    {len(results)} candidate nodes found")
     for r in results[:30]:
         print(f"      [{r['score']:.3f}] {r['doc_title']} (id={r['node_id']})")
 
@@ -196,59 +196,61 @@ AGENT2_SYSTEM = """You are a Knowledge Graph Specialist with access to a legal N
 - Edge: :LEGAL_RELATIONSHIP with action_type: AMENDS, INTERPRETS, OVERRULES, CITES, EMPOWERS, REQUIRES, REPEALS
 
 ## Rules:
+- You have a MAXIMUM of 8 interaction turns. You MUST conclude your search and output DONE: before you run out of steps.
 - Use the node IDs exactly as given — do not guess or modify them.
 - Choose 2-4 most relevant seed nodes from the list provided.
+- When using `mcp_search_nodes_by_title`, keep keywords BROAD to avoid strict substring mismatch. Search for the Act name (e.g., "Transport Act 1980") and avoid section numbers unless formatted exactly as "s.X" (with NO spaces, like "s.53"). NEVER search for the word "section X".
 - Do NOT attempt to answer the user's question.
 - Output ONE tool call per turn in this format:
   TOOL: <tool_name>(<arg1>, <arg2>)
-- When you have enough graph data, output:
-  DONE: {"nodes": [...], "edges": [...]}"""
+- You MUST wait for the Tool Result before concluding. Do NOT hallucinate tool results and do NOT output a TOOL call and DONE in the same turn.
+- When you have actually received enough graph data from the tools, or if you are at your final turn, output:
+  DONE: {"nodes": {"<node_id>": "<title>", ...}, "edges": [{"from": "<id>", "to": "<id>", "action_type": "<type>", "detail": "<text>"}, ...]}"""
 
 
 def _parse_agent2_action(line: str, seed_ids: list[str]) -> tuple[str, Any] | None:
     """Parse an agent 2 TOOL call and execute the matching MCP function."""
     line = line.strip()
-
-    if "mcp_search_nodes_by_title(" in line:
-        m = re.search(r'mcp_search_nodes_by_title\(["\']?([^"\']+)["\']?\)', line)
-        if m:
-            result = mcp_search_nodes_by_title(m.group(1))
-            return ("mcp_search_nodes_by_title", result)
-
-    elif "mcp_get_node_subgraph(" in line:
-        m = re.search(r'mcp_get_node_subgraph\(["\']?([\w./()]+)["\']?,?\s*(\d?)', line)
-        if m:
-            nid, depth = m.group(1), int(m.group(2) or 1)
-            result = mcp_get_node_subgraph(nid, depth)
-            return ("mcp_get_node_subgraph", result)
-
-    elif "mcp_find_relationships(" in line:
-        m = re.search(r'mcp_find_relationships\(["\']?([\w./()]+)["\']?(?:,\s*["\']?(\w+)["\']?)?(?:,\s*["\']?(\w+)["\']?)?\)', line)
-        if m:
-            nid = m.group(1)
-            action = m.group(2) if m.group(2) else None
-            direction = m.group(3) if m.group(3) else "both"
-            result = mcp_find_relationships(nid, action, direction)
-            return ("mcp_find_relationships", result)
-
-    elif "mcp_find_case_interpretations(" in line:
-        m = re.search(r'mcp_find_case_interpretations\(["\']?([\w./()]+)["\']?\)', line)
-        if m:
-            result = mcp_find_case_interpretations(m.group(1))
-            return ("mcp_find_case_interpretations", result)
-
-    elif "mcp_find_amendments_timeline(" in line:
-        m = re.search(r'mcp_find_amendments_timeline\(["\'](.+?)["\']?\)', line)
-        if m:
-            result = mcp_find_amendments_timeline(m.group(1))
-            return ("mcp_find_amendments_timeline", result)
-
-    elif "mcp_execute_cypher(" in line:
-        m = re.search(r'mcp_execute_cypher\(["\'](.+?)["\']\)', line, re.DOTALL)
-        if m:
-            result = mcp_execute_cypher(m.group(1))
-            return ("mcp_execute_cypher", result)
-
+    match = re.search(r'(mcp_\w+)\((.*)\)', line)
+    if not match:
+        return None
+        
+    func_name = match.group(1)
+    args_str = match.group(2)
+    
+    # Automatically clean up rogue quotes, trailing commas, and "None" strings from open source LLMs
+    args = []
+    for arg in args_str.split(','):
+        cleaned = arg.strip().strip("'").strip('"')
+        if cleaned and cleaned.lower() != 'none':
+            args.append(cleaned)
+            
+    try:
+        if func_name == "mcp_search_nodes_by_title" and len(args) >= 1:
+            return ("mcp_search_nodes_by_title", mcp_search_nodes_by_title(args[0]))
+            
+        elif func_name == "mcp_get_node_subgraph" and len(args) >= 1:
+            depth = int(args[1]) if len(args) > 1 and args[1].isdigit() else 1
+            return ("mcp_get_node_subgraph", mcp_get_node_subgraph(args[0], depth))
+            
+        elif func_name == "mcp_find_relationships" and len(args) >= 1:
+            action = args[1] if len(args) > 1 else None
+            direction = args[2] if len(args) > 2 else "both"
+            return ("mcp_find_relationships", mcp_find_relationships(args[0], action, direction))
+            
+        elif func_name == "mcp_find_case_interpretations" and len(args) >= 1:
+            return ("mcp_find_case_interpretations", mcp_find_case_interpretations(args[0]))
+            
+        elif func_name == "mcp_find_amendments_timeline" and len(args) >= 1:
+            return ("mcp_find_amendments_timeline", mcp_find_amendments_timeline(args[0]))
+            
+        elif func_name == "mcp_execute_cypher":
+            m = re.search(r'mcp_execute_cypher\([\'"](.*)[\'"]\)', line)
+            query = m.group(1) if m else args_str.strip("'").strip('"')
+            return ("mcp_execute_cypher", mcp_execute_cypher(query))
+    except Exception as e:
+        print(f"[Tool Execution Error] {e}")
+        
     return None
 
 
@@ -280,27 +282,17 @@ def run_agent2_graph_engineer(question: str, seed_nodes: list[dict]) -> dict:
     for step in range(8):  # max 8 graph exploration steps
         response = _llm_call(messages, max_tokens=512)
         print(f"\n--- Graph Engineer Step {step+1} ---")
-        print(f"📥 {response}")
+        print(f"{response}")
 
-        # Check if done
-        if "DONE:" in response:
-            done_match = re.search(r'DONE:\s*(\{.*\})', response, re.DOTALL)
-            if done_match:
-                try:
-                    data = json.loads(done_match.group(1))
-                    collected_nodes.update(data.get("nodes", {}))
-                    collected_edges.extend(data.get("edges", []))
-                except Exception:
-                    pass
-            break
-
-        # Parse and execute tool call
+        # Parse and execute tool call FIRST
         tool_result = None
         tool_name = None
-        for line in response.split("\n"):
-            if "TOOL:" in line:
-                tool_line = line.split("TOOL:", 1)[1].strip()
-                parsed = _parse_agent2_action(tool_line, seed_ids)
+        
+        if "TOOL:" in response:
+            for part in response.split("TOOL:")[1:]:
+                # remove any trailing DONE: hallucination from the part
+                clean_part = part.split("DONE:")[0].strip()
+                parsed = _parse_agent2_action(clean_part, seed_ids)
                 if parsed:
                     tool_name, tool_result = parsed
                     break
@@ -312,6 +304,18 @@ def run_agent2_graph_engineer(question: str, seed_nodes: list[dict]) -> dict:
                 if parsed:
                     tool_name, tool_result = parsed
                     break
+
+        if tool_result is None and "DONE:" in response:
+            # Check if done ONLY if no tool was successfully parsed
+            done_match = re.search(r'DONE:\s*(\{.*\})', response, re.DOTALL)
+            if done_match:
+                try:
+                    data = json.loads(done_match.group(1))
+                    collected_nodes.update(data.get("nodes", {}))
+                    collected_edges.extend(data.get("edges", []))
+                except Exception:
+                    pass
+            break
 
         if tool_result is None:
             messages.append({"role": "assistant", "content": response})
@@ -342,14 +346,15 @@ def run_agent2_graph_engineer(question: str, seed_nodes: list[dict]) -> dict:
                     })
 
         result_str = json.dumps(tool_result, default=str)[:1500]
-        print(f"   ✅ [{tool_name}] → {result_str[:200]}...")
+        print(f"  [{tool_name}] → {result_str[:200]}...")
 
         messages.append({"role": "assistant", "content": response})
         messages.append({
             "role": "user",
             "content": (
                 f"Tool result:\n{result_str}\n\n"
-                "Continue expanding the graph with more TOOL: calls, or output DONE: with collected data."
+                f"You have used {step + 1} out of 8 turns. "
+                "Continue expanding the graph with more TOOL: calls, or output DONE: with the collected JSON data if you have found enough relevant context."
             )
         })
 
@@ -373,7 +378,7 @@ Output format (JSON only):
 def run_agent3_aggregator(question: str, subgraph: dict) -> list[dict]:
     """Agent 3: Select the most relevant nodes and retrieve their text from corpus."""
     print("\n" + "="*60)
-    print("📋 AGENT 3: CONTEXT AGGREGATOR")
+    print("AGENT 3: CONTEXT AGGREGATOR")
     print("="*60)
 
     # Build node list for the LLM to prioritize
@@ -398,7 +403,7 @@ def run_agent3_aggregator(question: str, subgraph: dict) -> list[dict]:
     ]
 
     response = _llm_call(messages, max_tokens=256)
-    print(f"📥 Agent 3 selection: {response}")
+    print(f"Agent 3 selection: {response}")
 
     # Parse selected IDs
     try:
@@ -410,8 +415,8 @@ def run_agent3_aggregator(question: str, subgraph: dict) -> list[dict]:
 
     # Fetch the text without heavy truncation
     context_chunks = mcp_read_document_text(selected_ids, _corpus_lookup, max_chars=8000)
-    valid = [c for c in context_chunks if "⚠️" not in c.get("content", "")]
-    print(f"   ✅ Retrieved text for {len(valid)}/{len(selected_ids)} nodes")
+    valid = [c for c in context_chunks if "!" not in c.get("content", "")]
+    print(f"  Retrieved text for {len(valid)}/{len(selected_ids)} nodes")
     return context_chunks
 
 
@@ -423,11 +428,7 @@ AGENT4_SYSTEM = """You are a Senior Barrister at a leading UK law firm. Your res
 
 Rules:
 - Cite every legal fact with [node_id] at the end of the relevant sentence.
-- Structure your answer with these headers:
-  1. Applicable Statute
-  2. Relevant Case Law
-  3. Legal Principle
-  4. Conclusion for the Client
+- Structure your answer with logical headers that directly address the client's question (e.g., Applicable Statute, Relevant Case Law, Legal Principle, Conclusion for the Client).
 - If the context does not contain sufficient information, state:
   "The available case law and legislation in this knowledge base does not contain sufficient information to answer this question definitively."
 - Do NOT use general legal knowledge not present in the provided context.
@@ -497,7 +498,7 @@ def run_pipeline(question: str) -> str:
     # Agent 1: Find candidate nodes
     seed_nodes = run_agent1_retriever(question)
     if not seed_nodes:
-        return "❌ No relevant documents found. Please check the FAISS index and try rephrasing."
+        return " No relevant documents found. Please check the FAISS index and try rephrasing."
 
     # Agent 2: Expand into subgraph
     subgraph = run_agent2_graph_engineer(question, seed_nodes)
@@ -509,7 +510,7 @@ def run_pipeline(question: str) -> str:
     answer = run_agent4_counsel(question, context_chunks, subgraph)
 
     print("\n" + "="*60)
-    print("✅ FINAL ANSWER FROM SENIOR COUNSEL")
+    print(" FINAL ANSWER FROM SENIOR COUNSEL")
     print("="*60)
     print(answer)
     return answer
@@ -523,12 +524,7 @@ if __name__ == "__main__":
     _init()
 
     TEST_QUESTIONS = [
-        # Tests case law discovery (Campbell v R interprets RTA 1988 s.3)
-        "Trace the legislative amendments made by the National Security Act 2023. What specific statutory definitions or provisions were amended by this Act, and have any subsequent tribunals or courts cited these newly amended sections?",
-
-        # Tests AMENDS traversal (Road Safety Act 2006 → Road Traffic Act 1988)
-        # "What changes does the Road Safety Act 2006 make to the Road Traffic Act 1988?",
+        "Under which subsequent legislative Act was Section 8(2) of the Road Traffic Regulation Act 1984 formally repealed?"
     ]
-
     for question in TEST_QUESTIONS:
         run_pipeline(question)
