@@ -582,13 +582,13 @@ def run():
             headers=HEADERS, timeout=15
         )
         if r.status_code == 200 and r.content.strip().startswith(b"<"):
-            log.info(f"  ✅ Connected to legislation.gov.uk ({len(r.content):,} bytes)")
+            log.info(f"   Connected to legislation.gov.uk ({len(r.content):,} bytes)")
         else:
-            log.error(f"  ❌ CANNOT REACH legislation.gov.uk (HTTP {r.status_code})")
+            log.error(f"   CANNOT REACH legislation.gov.uk (HTTP {r.status_code})")
             log.error("     Check network / VPN / Colab runtime. Aborting.")
             return
     except requests.RequestException as e:
-        log.error(f"  ❌ CANNOT REACH legislation.gov.uk: {e}")
+        log.error(f"   CANNOT REACH legislation.gov.uk: {e}")
         return
 
     # ── Step 2: Discover legislation URIs ────────────────
