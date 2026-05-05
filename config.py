@@ -6,6 +6,9 @@ Import this file in every pipeline script instead of hardcoding values.
 """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ─────────────────────────────────────────────
 # DATA PATHS
@@ -47,10 +50,10 @@ GLOSSARY_MODEL = os.environ.get("GLOSSARY_MODEL", "Qwen/Qwen2.5-3B-Instruct")
 # ─────────────────────────────────────────────
 # LLM — Mistral (cloud, for query agent)
 # ─────────────────────────────────────────────
-LIGHTNING_API_KEY = os.environ.get("LIGHTNING_API_KEY", "e5f2bb78-88e0-4607-8e18-f4c86f6604d9/subburaj2927/fraud-model")
-QUERY_MODEL   = "openai/gpt-5.4-2026-03-05"
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
-OPEN_ROUTER= os.environ.get("OPEN_ROUTER", "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")
+LIGHTNING_API_KEY = os.environ.get("LIGHTNING_API_KEY", "")
+QUERY_MODEL       = "openai/gpt-oss-120b:free"
+GROQ_API_KEY      = os.environ.get("GROQ_API_KEY", "")
+OPEN_ROUTER       = os.environ.get("OPEN_ROUTER", "")
 # ─────────────────────────────────────────────
 # EMBEDDINGS
 # ─────────────────────────────────────────────
